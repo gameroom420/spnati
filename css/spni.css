@@ -1432,8 +1432,10 @@ ul.dropdown-menu>li {
 /* Title clothing block elements: */
 
 .title-clothing-container {
-    margin-top: 1%;
-    margin-left: 1%;
+    display: grid;
+    margin: 1%;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 0.4rem;
 }
 
 .title-clothing-heading {
@@ -1460,8 +1462,7 @@ ul.dropdown-menu>li {
 }
 
 .title-clothing-button {
-    position: relative;
-    width: 15.7%;
+    width: 100%;
 }
 
 /* Gallery / Start / Tag button elements: */

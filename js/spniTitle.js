@@ -313,60 +313,30 @@ var playerTagSelections = {};
  ************************************************************/
 function loadTitleScreen () {
 	//selectedChoices = [false, false, true, false, true, false, true, true, false, true, false, false, true, false, true];
-    loadClothing();
+    return loadClothing();
 }
 
 /************************************************************
  * Loads and parses the player clothing XML file.
  ************************************************************/
 function loadClothing () {
-    clothingChoices = {
-        'male': [
-            new Clothing('hat', 'hat', EXTRA_ARTICLE, 'head', "player/male/hat.png", false, 0),
-            new Clothing('headphones', 'headphones', EXTRA_ARTICLE, 'head', "player/male/headphones.png", true, 1),
-            new Clothing('jacket', 'jacket', MINOR_ARTICLE, UPPER_ARTICLE, "player/male/jacket.png", false, 2),
-            new Clothing('shirt', 'shirt', MAJOR_ARTICLE, UPPER_ARTICLE, "player/male/shirt.png", false, 3),
-            new Clothing('t-shirt', 'shirt', MAJOR_ARTICLE, UPPER_ARTICLE, "player/male/tshirt.png", false, 4),
-            new Clothing('undershirt', 'undershirt', IMPORTANT_ARTICLE, UPPER_ARTICLE, "player/male/undershirt.png", false, 5),
-
-            new Clothing('glasses', 'glasses', EXTRA_ARTICLE, 'head', "player/male/glasses.png", true, 6),
-            new Clothing('belt', 'belt', EXTRA_ARTICLE, 'waist', "player/male/belt.png", false, 7),
-            new Clothing('pants', 'pants', MAJOR_ARTICLE, LOWER_ARTICLE, "player/male/pants.png", true, 8),
-            new Clothing('shorts', 'shorts', MAJOR_ARTICLE, LOWER_ARTICLE, "player/male/shorts.png", true, 9),
-            new Clothing('kilt', 'kilt', MAJOR_ARTICLE, LOWER_ARTICLE, "player/male/kilt.png", false, 10),
-            new Clothing('boxers', 'underwear', IMPORTANT_ARTICLE, LOWER_ARTICLE, "player/male/boxers.png", true, 11),
-
-            new Clothing('necklace', 'necklace', EXTRA_ARTICLE, 'neck', "player/male/necklace.png", false, 12),
-            new Clothing('tie', 'tie', EXTRA_ARTICLE, 'neck', "player/male/tie.png", false, 13),
-            new Clothing('gloves', 'gloves', EXTRA_ARTICLE, 'hands', "player/male/gloves.png", true, 14),
-            new Clothing('socks', 'socks', MINOR_ARTICLE, 'feet', "player/male/socks.png", true, 15),
-            new Clothing('shoes', 'shoes', EXTRA_ARTICLE, 'feet', "player/male/shoes.png", true, 16),
-            new Clothing('boots', 'shoes', EXTRA_ARTICLE, 'feet', "player/male/boots.png", true, 17),
-        ],
-        female: [
-            new Clothing('hat', 'hat', EXTRA_ARTICLE, 'head', "player/female/hat.png", false, 0),
-            new Clothing('headphones', 'headphones', EXTRA_ARTICLE, 'head', "player/female/headphones.png", true, 1),
-            new Clothing('jacket', 'jacket', MINOR_ARTICLE, UPPER_ARTICLE, "player/female/jacket.png", false, 2),
-            new Clothing('shirt', 'top', MAJOR_ARTICLE, UPPER_ARTICLE, "player/female/shirt.png", false, 3),
-            new Clothing('tank top', 'top', MAJOR_ARTICLE, UPPER_ARTICLE, "player/female/tanktop.png", false, 4),
-            new Clothing('bra', 'bra', IMPORTANT_ARTICLE, UPPER_ARTICLE, "player/female/bra.png", false, 5),
-
-            new Clothing('glasses', 'glasses', EXTRA_ARTICLE, 'head', "player/female/glasses.png", true, 6),
-            new Clothing('belt', 'belt', EXTRA_ARTICLE, 'waist', "player/female/belt.png", false, 7),
-            new Clothing('pants', 'pants', MAJOR_ARTICLE, LOWER_ARTICLE, "player/female/pants.png", true, 8),
-            new Clothing('shorts', 'shorts', MAJOR_ARTICLE, LOWER_ARTICLE, "player/female/shorts.png", true, 9),
-            new Clothing('skirt', 'skirt', MAJOR_ARTICLE, LOWER_ARTICLE, "player/female/skirt.png", false, 10),
-            new Clothing('panties', 'panties', IMPORTANT_ARTICLE, LOWER_ARTICLE, "player/female/panties.png", true, 11),
-
-            new Clothing('necklace', 'necklace', EXTRA_ARTICLE, 'neck', "player/female/necklace.png", false, 12),
-            new Clothing('bracelet', 'bracelet', EXTRA_ARTICLE, 'arms', "player/female/bracelet.png", false, 13),
-            new Clothing('gloves', 'gloves', EXTRA_ARTICLE, 'hands', "player/female/gloves.png", true, 14),
-            new Clothing('stockings', 'socks', MINOR_ARTICLE, 'legs', "player/female/stockings.png", true, 15),
-            new Clothing('socks', 'socks', MINOR_ARTICLE, 'feet', "player/female/socks.png", true, 16),
-            new Clothing('shoes', 'shoes', EXTRA_ARTICLE, 'feet', "player/female/shoes.png", true, 17),
-        ]
-    };
+    return $.get('player/player.xml').then(function(doc) {
+        $(doc.documentElement).children('wardrobe').each(function() {
+            var gender = $(this).attr('gender'), $container = $('#'+gender+'-clothing-container');
+            clothingChoices[gender] = $(this).children('clothing').map(function(i) {
+                var $c = $(this);
+                var c = new Clothing($c.attr('name'), $c.attr('generic'), $c.attr('type'), $c.attr('position'),
+                                     $c.attr('img'), $c.attr('plural')=='true');
+                $container.append($('<input>', { type: 'image', class: 'bordered title-clothing-button title-content-button',
+                                                 alt: c.name.initCap(), src: c.image })
+                                  .on('click', function() { selectClothing(i); }));
+                return c;
+            }).get();
+        });
+        return clothingChoices;
+    });
 }
+
 
 /************************************************************
  * Updates the clothing on the title screen.
@@ -381,11 +351,7 @@ function updateTitleClothing () {
 	}
 
 	for (var i = 0; i < selectedChoices.length; i++) {
-		if (selectedChoices[i]) {
-			$('#'+humanPlayer.gender+'-clothing-option-'+i).css('opacity', '1');
-		} else {
-			$('#'+humanPlayer.gender+'-clothing-option-'+i).css('opacity', '0.4');
-		}
+		$('#'+humanPlayer.gender+'-clothing-container .title-clothing-button').eq(i).css('opacity', selectedChoices[i] ? 1 : 0.4);
 	}
 	//$warningLabel.html("");
 }

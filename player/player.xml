@@ -1,104 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
- This file contains listings for all of the clothing available for 
- the human player.
- -->
+<?xml version="1.0"?>
+<player>
+    <wardrobe gender="male">
+        <clothing name="hat" generic="hat" position="head" type="extra" img="player/male/hat.png"/>
+        <clothing name="headphones" generic="headphones" position="head" type="extra" img="player/male/headphones.png" plural="true"/>
+        <clothing name="jacket" generic="jacket" position="upper" type="minor" img="player/male/jacket.png"/>
+        <clothing name="shirt" generic="shirt" position="upper" type="major" img="player/male/shirt.png"/>
+        <clothing name="t-shirt" generic="shirt" position="upper" type="major" img="player/male/tshirt.png"/>
+        <clothing name="undershirt" generic="undershirt" position="upper" type="important" img="player/male/undershirt.png"/>
 
-<catalog>
+        <clothing name="glasses" generic="glasses" position="head" type="extra" img="player/male/glasses.png" plural="true"/>
+        <clothing name="belt" generic="belt" position="waist" type="extra" img="player/male/belt.png"/>
+        <clothing name="pants" generic="pants" position="lower" type="major" img="player/male/pants.png" plural="true"/>
+        <clothing name="shorts" generic="shorts" position="lower" type="major" img="player/male/shorts.png" plural="true"/>
+        <clothing name="kilt" generic="kilt" position="lower" type="major" img="player/male/kilt.png"/>
+        <clothing name="boxers" generic="underwear" position="lower" type="important" img="player/male/boxers.png" plural="true"/>
 
+        <clothing name="necklace" generic="necklace" position="neck" type="extra" img="player/male/necklace.png"/>
+        <clothing name="tie" generic="tie" position="neck" type="extra" img="player/male/tie.png"/>
+        <clothing name="gloves" generic="gloves" position="hands" type="extra" img="player/male/gloves.png" plural="true"/>
+        <clothing name="socks" generic="socks" position="feet" type="minor" img="player/male/socks.png" plural="true"/>
+        <clothing name="shoes" generic="shoes" position="feet" type="extra" img="player/male/shoes.png" plural="true"/>
+        <clothing name="boots" generic="shoes" position="feet" type="extra" img="player/male/boots.png" plural="true"/>
+    </wardrobe>
+    
+    <wardrobe gender="female">
+        <clothing name="hat" generic="hat" position="head" type="extra" img="player/female/hat.png"/>
+        <clothing name="headphones" generic="headphones" position="head" type="extra" img="player/female/headphones.png" plural="true"/>
+        <clothing name="jacket" generic="jacket" position="upper" type="minor" img="player/female/jacket.png"/>
+        <clothing name="shirt" generic="top" position="upper" type="major" img="player/female/shirt.png"/>
+        <clothing name="tank top" generic="top" position="upper" type="major" img="player/female/tanktop.png"/>
+        <clothing name="bra" generic="bra" position="upper" type="important" img="player/female/bra.png"/>
 
+        <clothing name="glasses" generic="glasses" position="head" type="extra" img="player/female/glasses.png" plural="true"/>
+        <clothing name="belt" generic="belt" position="waist" type="extra" img="player/female/belt.png"/>
+        <clothing name="pants" generic="pants" position="lower" type="major" img="player/female/pants.png" plural="true"/>
+        <clothing name="shorts" generic="shorts" position="lower" type="major" img="player/female/shorts.png" plural="true"/>
+        <clothing name="skirt" generic="skirt" position="lower" type="major" img="player/female/skirt.png"/>
+        <clothing name="panties" generic="panties" position="lower" type="important" img="player/female/panties.png" plural="true"/>
 
-	<!-- Male Clothing -->
-	<wardrobe tag="male">
-		
-		<!-- Upper Body Clothing -->
-		<category label="upper">
-			<clothing type="major" img="player/male/shirt.jpg" default="yes">
-				<proper>Shirt</proper>
-				<lower>shirt</lower>
-			</clothing>
-			<clothing type="important" img="player/male/undershirt.jpg" default="yes">
-				<proper>Undershirt</proper>
-				<lower>undershirt</lower>
-			</clothing>
-		</category>
-		
-		<!-- Lower Body Clothing -->
-		<category label="lower">
-			<clothing type="major" img="player/male/pants.jpg" default="yes">
-				<proper>Pants</proper>
-				<lower>pants</lower>
-			</clothing>
-			<clothing type="important" img="player/male/boxers.jpg" default="yes">
-				<proper>Boxers</proper>
-				<lower>boxers</lower>
-			</clothing>
-		</category>
-		
-		<!-- Other Clothing -->
-		<category label="other">
-			<clothing type="extra" img="player/male/shoes.jpg" default="yes">
-				<proper>Shoes</proper>
-				<lower>shoes</lower>
-			</clothing>
-			<clothing type="minor" img="player/male/socks.jpg" default="yes">
-				<proper>Socks</proper>
-				<lower>socks</lower>
-			</clothing>
-			<clothing type="extra" img="player/male/belt.jpg" default="yes">
-				<proper>Belt</proper>
-				<lower>belt</lower>
-			</clothing>
-		</category>
-	</wardrobe>
-		
-		
-		
-	<!-- Female Clothing -->
-	<wardrobe tag="female">
-		
-		<!-- Upper Body Clothing -->
-		<category label="upper">
-			<clothing type="major" img="player/female/tanktop.jpg" default="yes">
-				<proper>Tank Top</proper>
-				<lower>tank top</lower>
-			</clothing>
-			<clothing type="important" img="player/female/bra.jpg" default="yes">
-				<proper>Bra</proper>
-				<lower>bra</lower>
-			</clothing>
-		</category>
-
-		<!-- Lower Body Clothing -->
-		<category label="lower">
-			<clothing type="major" img="player/female/pants.jpg" default="yes">
-				<proper>Pants</proper>
-				<lower>pants</lower>
-			</clothing>
-			<clothing type="important" img="player/female/panties.jpg" default="yes">
-				<proper>Panties</proper>
-				<lower>panties</lower>
-			</clothing>
-		</category>
-		
-		<!-- Accessories -->
-		<category label="other">
-			<clothing type="extra" img="player/female/boots.jpg" default="yes">
-				<proper>Boots</proper>
-				<lower>boots</lower>
-			</clothing>
-			<clothing type="minor" img="player/female/socks.jpg" default="yes">
-				<proper>Socks</proper>
-				<lower>socks</lower>
-			</clothing>
-			<clothing type="extra" img="player/female/belt.jpg" default="yes">
-				<proper>Belt</proper>
-				<lower>belt</lower>
-			</clothing>
-		</category>
-		
-	</wardrobe>
-	
-	
-
-</catalog>
+        <clothing name="necklace" generic="necklace" position="neck" type="extra" img="player/female/necklace.png"/>
+        <clothing name="bracelet" generic="bracelet" position="arms" type="extra" img="player/female/bracelet.png"/>
+        <clothing name="gloves" generic="gloves" position="hands" type="extra" img="player/female/gloves.png" plural="true"/>
+        <clothing name="stockings" generic="socks" position="legs" type="minor" img="player/female/stockings.png" plural="true"/>
+        <clothing name="socks" generic="socks" position="feet" type="minor" img="player/female/socks.png" plural="true"/>
+        <clothing name="shoes" generic="shoes" position="feet" type="extra" img="player/female/shoes.png" plural="true"/>
+    </wardrobe>
+</player>

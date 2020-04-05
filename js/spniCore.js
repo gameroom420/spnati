@@ -1277,8 +1277,6 @@ function initialSetup () {
 	tableOpacity = 1;
 	$gameTable.css({opacity:1});
 
-    /* Load title screen info first, since that's fast and synchronous */
-    loadTitleScreen();
     selectTitleCandy();
 
     /* Attempt to detect broken images as caused by running SPNATI from an invalid archive. */
@@ -1292,7 +1290,7 @@ function initialSetup () {
      * 
      * Also: .done() and .always() do not chain like .then() does.
      */
-    loadConfigFile().then(loadBackgrounds, loadBackgrounds).always(
+    loadConfigFile().then(loadTitleScreen).then(loadBackgrounds, loadBackgrounds).always(
         loadVersionInfo,
         loadGeneralCollectibles,
         loadSelectScreen,
@@ -1411,11 +1409,8 @@ function loadVersionInfo () {
 
 
 function loadConfigFile () {
-	return $.ajax({
-        type: "GET",
-		url: "config.xml",
-		dataType: "text",
-		success: function(xml) {
+	return $.get('config.xml')
+        .then(function(xml) {
 			var _epilogues = $(xml).find('epilogues').text();
             if(_epilogues.toLowerCase() === 'false') {
                 EPILOGUES_ENABLED = false;
@@ -1552,8 +1547,10 @@ function loadConfigFile () {
 				includedOpponentStatuses[$(this).text()] = true;
 				console.log("Including", $(this).text(), "opponents");
 			});
-        }
-	});
+        }, function() {
+            console.warn('Failed loading config.xml; using defaults');
+            return $.Deferred().resolve().promise();
+        });
 }
 
 function loadGeneralCollectibles () {
