@@ -1240,6 +1240,7 @@ function Condition($xml) {
     this.role   = $xml.attr('role');
     this.variable = normalizeBindingName($xml.attr('var'));
     this.id     = $xml.attr('character');
+    this.costume = $xml.attr('costume');
     this.tag    = $xml.attr('filter');
     this.stage  = parseInterval($xml.attr('stage'));
     this.layers = parseInterval($xml.attr('layers'));
@@ -1276,7 +1277,7 @@ function Condition($xml) {
     }
     this.priority += (this.saidMarker ? 1 : 0) + (this.notSaidMarker ? 1 : 0)
         + (this.sayingMarker ? 1 : 0) + (this.saying ? 1 : 0)
-        + (this.pose ? 1 : 0);
+        + (this.pose ? 1 : 0) + (this.costume ? 50 : 0);
 
     if (this.id && !this.variable) {
         /* Apply correct normalization to player ID when using it as a variable. */
@@ -1779,6 +1780,7 @@ Case.prototype.checkConditions = function (self, opp) {
                     || (ctr.role == "opp" && p != self)
                     || (ctr.role == "other" && p != self && p != opp))
                 && (ctr.id === undefined || p.id == ctr.id)
+                && (ctr.costume === undefined || (p.alt_costume ? p.alt_costume.id : "default") == ctr.costume)
                 && (ctr.stage === undefined || inInterval(p.stage, ctr.stage))
                 && (ctr.tag === undefined || p.hasTag(ctr.tag))
                 && (ctr.gender === undefined || p.gender == ctr.gender)
