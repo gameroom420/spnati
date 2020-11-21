@@ -13,3 +13,5 @@
 *.xml text
 *.txt text
 *.js text
+
+index.html ident

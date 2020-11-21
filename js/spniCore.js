@@ -22,7 +22,7 @@ var BASE_FONT_SIZE = 14;
 var BASE_SCREEN_WIDTH = 100;
 
 var CURRENT_VERSION = undefined;
-var VERSION_COMMIT = undefined;
+var VERSION_COMMIT = (GIT_COMMIT_ID_TAG.match(/[0-9a-f]{40}/) || [])[0];
 var VERSION_TAG = undefined;
 
 var DEFAULT_FILL = undefined;
@@ -229,7 +229,7 @@ function loadVersionInfo () {
         $('.substitute-version').text('v'+CURRENT_VERSION);
         console.log("Running SPNATI version "+CURRENT_VERSION);
         
-        version_ts = versionInfo.find('>changelog > version[number=\"'+CURRENT_VERSION+'\"]').attr('timestamp');
+        version_ts = versionInfo.find('>changelog > version:first-child').attr('timestamp');
         
         version_ts = parseInt(version_ts, 10);
         now = Date.now();
@@ -303,9 +303,7 @@ function loadConfigFile () {
             console.log("Using startup table fill mode " + DEFAULT_FILL + '.');
         }
 
-        var _game_commit = $xml.children('commit').text();
-        if (_game_commit) {
-            VERSION_COMMIT = _game_commit;
+        if (VERSION_COMMIT) {
             console.log("Running SPNATI commit "+VERSION_COMMIT+'.');
         } else {
             console.log("Could not find currently deployed Git commit!");
