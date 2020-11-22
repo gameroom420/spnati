@@ -21,9 +21,7 @@ var RESORT_ACTIVE = false;
 var BASE_FONT_SIZE = 14;
 var BASE_SCREEN_WIDTH = 100;
 
-var CURRENT_VERSION = undefined;
 var VERSION_COMMIT = (GIT_COMMIT_ID_TAG.match(/[0-9a-f]{40}/) || [])[0];
-var VERSION_TAG = undefined;
 
 var DEFAULT_FILL = undefined;
 var FILL_DISABLED = false;
@@ -112,10 +110,42 @@ var bubbleArrowOffsetRules;
  *****              Overarching Game Flow Functions               *****
  **********************************************************************/
 
+function fuzzyTimeAgo(ts) {
+    now = Date.now();
+
+    elapsed_time = now - ts;
+
+    /* Format last update time */
+    string = '';
+    if (elapsed_time < 5 * 60 * 1000) {
+        // <5 minutes ago - display 'just now'
+        string = 'just now';
+    } else if (elapsed_time < 60 * 60 * 1000) {
+        // < 1 hour ago - display minutes since last update
+        string = Math.floor(elapsed_time / (60 * 1000))+' minutes ago';
+    } else if (elapsed_time < 24 * 60 * 60 * 1000) {
+        // < 1 day ago - display hours since last update
+        var n_hours = Math.floor(elapsed_time / (60 * 60 * 1000));
+        string = n_hours + (n_hours === 1 ? ' hour ago' : ' hours ago');
+    } else {
+        // otherwise just display days since last update
+        var n_days = Math.floor(elapsed_time / (24 * 60 * 60 * 1000));
+        string =  n_days + (n_days === 1 ? ' day ago' : ' days ago');
+    }
+    return string;
+}
+
 /************************************************************
  * Loads the initial content of the game.
  ************************************************************/
+
+$('.substitute-version').text('v'+CURRENT_VERSION);
+$('.substitute-version-time').text('(updated '+fuzzyTimeAgo(VERSION_TIMESTAMP || CURRENT_VERSION_TIMESTAMP)+')');
+
+$('.version-button').click(showVersionModal);
+
 function initialSetup () {
+    console.log("Setting up SPNATI version "+CURRENT_VERSION);
     /* start by creating the human player object */
     players[HUMAN_PLAYER] = humanPlayer = new Player('human'); //createNewPlayer("human", "", "", "", eGender.MALE, eSize.MEDIUM, eIntelligence.AVERAGE, 20, undefined, [], null);
     humanPlayer.slot = HUMAN_PLAYER;
@@ -143,7 +173,6 @@ function initialSetup () {
     loadConfigFile().then(loadBackgrounds).then(function () {
         FILL_DISABLED = false;
         
-        loadVersionInfo();
         loadGeneralCollectibles();
         loadSelectScreen();
 
@@ -216,53 +245,6 @@ function initialSetup () {
 
     $('[data-toggle="tooltip"]').tooltip({ delay: { show: 200 } });
 }
-
-function loadVersionInfo () {
-    $('.substitute-version').text('Unknown Version');
-    
-    return fetchXML("version-info.xml").then(function($xml) {
-        versionInfo = $xml;
-        CURRENT_VERSION = versionInfo.children('current').attr('version');
-
-        if (SENTRY_INITIALIZED) Sentry.setTag("game_version", CURRENT_VERSION);
-        
-        $('.substitute-version').text('v'+CURRENT_VERSION);
-        console.log("Running SPNATI version "+CURRENT_VERSION);
-        
-        version_ts = versionInfo.find('>changelog > version:first-child').attr('timestamp');
-        
-        version_ts = parseInt(version_ts, 10);
-        now = Date.now();
-        
-        elapsed_time = now - version_ts;
-        
-        /* Format last update time */
-        last_update_string = '';
-        if (elapsed_time < 5 * 60 * 1000) {
-            // <5 minutes ago - display 'just now'
-            last_update_string = 'just now';
-        } else if (elapsed_time < 60 * 60 * 1000) {
-            // < 1 hour ago - display minutes since last update
-            last_update_string = Math.floor(elapsed_time / (60 * 1000))+' minutes ago';
-        } else if (elapsed_time < 24 * 60 * 60 * 1000) {
-            // < 1 day ago - display hours since last update
-            var n_hours = Math.floor(elapsed_time / (60 * 60 * 1000));
-            last_update_string = n_hours + (n_hours === 1 ? ' hour ago' : ' hours ago');
-        } else {
-            // otherwise just display days since last update
-            var n_days = Math.floor(elapsed_time / (24 * 60 * 60 * 1000));
-            last_update_string =  n_days + (n_days === 1 ? ' day ago' : ' days ago');
-        }
-        
-        $('.substitute-version-time').text('(updated '+last_update_string+')');
-
-        $('.version-button').click(showVersionModal);
-    }).catch(function (err) {
-        console.error("Failed to load version info");
-        captureError(err);
-    });
-}
-
 
 function loadConfigFile () {
     return fetchXML("config.xml").then(function($xml) {
@@ -625,45 +607,44 @@ function showVersionModal () {
     var entries = [];
     
     /* Get changelog info: */
-    versionInfo.find('> changelog > version').each(function (idx, elem) {
-        entries.push({
-            version: $(elem).attr('number'),
-            timestamp: parseInt($(elem).attr('timestamp'), 10) || undefined,
-            text: $(elem).text()
+    (versionInfo ? Promise.resolve(versionInfo) : fetchXML("version-info.xml")).then(function($xml) {
+        versionInfo = $xml;
+        $xml.find('> changelog > version').each(function (idx, elem) {
+            entries.push({
+                version: $(elem).attr('number'),
+                timestamp: parseInt($(elem).attr('timestamp'), 10) || undefined,
+                text: $(elem).text()
+            });
         });
+    
+        var locale = window.navigator.userLanguage || window.navigator.language
+        /* Construct the version modal DOM: */
+        $changelog.empty().append(entries.map(function (ent) {
+            var row = document.createElement('tr');
+            var versionCell = document.createElement('td');
+            var dateCell = document.createElement('td');
+            var logTextCell = document.createElement('td');
+
+            versionCell.className = 'changelog-version-label';
+            dateCell.className = 'changelog-date-label';
+            logTextCell.className = 'changelog-entry-text';
+
+            if (ent.timestamp) {
+                var date = new Date(ent.timestamp);
+                dateCell.innerText = date.toLocaleString(locale, {'dateStyle': 'medium', 'timeStyle': 'short'});
+            }
+
+            versionCell.innerText = ent.version;
+            logTextCell.innerText = ent.text;
+
+            row.appendChild(versionCell);
+            row.appendChild(dateCell);
+            row.appendChild(logTextCell);
+
+            return row;
+        }));
+        $versionModal.modal('show');
     });
-    
-    /* Construct the version modal DOM: */
-    $changelog.empty().append(entries.sort(function (e1, e2) {
-        // Sort in reverse-precedence order
-        return compareVersions(e1.version, e2.version) * -1;
-    }).map(function (ent) {
-        var row = document.createElement('tr');
-        var versionCell = document.createElement('td');
-        var dateCell = document.createElement('td');
-        var logTextCell = document.createElement('td');
-        
-        versionCell.className = 'changelog-version-label';
-        dateCell.className = 'changelog-date-label';
-        logTextCell.className = 'changelog-entry-text';
-        
-        if (ent.timestamp) {
-            var date = new Date(ent.timestamp);
-            var locale = window.navigator.userLanguage || window.navigator.language
-            dateCell.innerText = date.toLocaleString(locale, {'dateStyle': 'medium', 'timeStyle': 'short'});
-        }
-        
-        versionCell.innerText = ent.version;
-        logTextCell.innerText = ent.text;
-        
-        row.appendChild(versionCell);
-        row.appendChild(dateCell);
-        row.appendChild(logTextCell);
-        
-        return row;
-    }));
-    
-    $versionModal.modal('show');
 }
 
 $versionModal.on('shown.bs.modal', function() {

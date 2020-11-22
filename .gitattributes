@@ -14,4 +14,4 @@
 *.txt text
 *.js text
 
-index.html ident
+js/version.js ident

@@ -22,8 +22,4 @@
    
     <!-- Set to true while a re-sort is running. -->
     <resort>false</resort>
-
-    <!-- Metadata filled in by CI. -->
-    <commit>__CI_COMMIT_SHA</commit>
-    <version-tag>__VERSION</version-tag>
 </config>
