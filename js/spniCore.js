@@ -21,8 +21,6 @@ var RESORT_ACTIVE = false;
 var BASE_FONT_SIZE = 14;
 var BASE_SCREEN_WIDTH = 100;
 
-var VERSION_COMMIT = (GIT_COMMIT_ID_TAG.match(/[0-9a-f]{40}/) || [])[0];
-
 var DEFAULT_FILL = undefined;
 var FILL_DISABLED = false;
 

@@ -7,7 +7,9 @@ cp -r css fonts js player index.html version-info.xml backgrounds.xml .public
 cp img/* .public/img
 
 TIMESTAMP="`date +%s`000"
-sed -r "s/(var VERSION_TAG).*/\1 = '${VERSION}';/g; s/(var VERSION_TIMESTAMP).*/\1 = ${TIMESTAMP}/g" js/version.js > .public/js/version.js
+sed -r -e "s/(var VERSION_TAG).*/\1 = '${VERSION}';/" \
+	-e "s/(var VERSION_TIMESTAMP).*/\1 = ${TIMESTAMP};/" \
+	-e "s/(var VERSION_COMMIT).*/\1 = '${CI_COMMIT_SHA}';/" js/version.js > .public/js/version.js
 cp opponents/listing.xml .public/opponents
 cp opponents/general_collectibles.xml .public/opponents
 
