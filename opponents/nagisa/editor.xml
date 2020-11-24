@@ -26,6 +26,9 @@
         <case name="Beach boat" id="65" priority="Prompt" min="6" max="7">
             <description>Nagisa at the beach asks where we should hide if a boat passes by</description>
         </case>
+        <case name="Nagisa's classroom" id="72" priority="FYI" min="0" max="0">
+            <description>When using the Classroom background, Nagisa reveals that it's her classroom.</description>
+        </case>
     </noteworthy>
     <reviewed>true</reviewed>
     <responses>
@@ -44,6 +47,12 @@
         <response id="62" opponent="bernadetta" opponentId="1" />
         <response id="63" opponent="bernadetta" opponentId="4" />
         <response id="66" opponent="neptune" opponentId="2" />
+        <response id="67" opponent="pinkie_pie" opponentId="1" />
+        <response id="68" opponent="pinkie_pie" opponentId="2" />
+        <response id="69" opponent="bulma" opponentId="7" />
+        <response id="79" opponent="perona" opponentId="95" />
+        <response id="81" opponent="neptune" opponentId="28" />
+        <response id="82" opponent="maki" opponentId="21" />
     </responses>
     <labels>
         <label id="1" label="" folder="Maid Cafe" sort="15" />
@@ -87,12 +96,21 @@
         <label id="56" label="inventory" folder="" sort="0" />
         <label id="57" label="inventory" folder="" sort="0" />
         <label id="65" label="beach" folder="" sort="0" />
+        <label id="71" label="classroom" folder="" sort="0" />
+        <label id="72" label="classroom" folder="" sort="0" />
+        <label id="73" label="classroom" folder="" sort="0" />
+        <label id="74" label="classroom" folder="" sort="0" />
+        <label id="75" label="classroom" folder="" sort="0" />
+        <label id="76" label="classroom" folder="" sort="0" />
+        <label id="77" label="classroom" folder="" sort="0" />
+        <label id="78" label="classroom" folder="" sort="0" />
+        <label id="83" label="haunted forest" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>epilogue</prefix>
         <prefix>collectible</prefix>
     </prefixes>
-    <nextId>66</nextId>
+    <nextId>83</nextId>
     <markers>
         <marker scope="Public" name="nagisa_9s_are_you_lost" />
         <marker scope="Public" name="nagisa_ae86_look_out" />
@@ -172,9 +190,18 @@
         <marker scope="Public" name="nagisa_buffy_bra_removal_amazement" />
         <marker scope="Public" name="nagisa_buffy_bully" />
         <marker scope="Public" name="nagisa_buffy_robots" />
+        <marker scope="Public" name="nagisa_bulma_waiting_quietly" />
         <marker scope="Public" name="nagisa_chara_kinda_scary" />
         <marker scope="Public" name="nagisa_chell_out_of_the_blue" />
         <marker scope="Public" name="nagisa_chun-li_pretty_hair" />
+        <marker scope="Public" name="nagisa_classroom_" />
+        <marker scope="Public" name="nagisa_classroom_boys_from" />
+        <marker scope="Public" name="nagisa_classroom_desk" />
+        <marker scope="Public" name="nagisa_classroom_dirty_floor" />
+        <marker scope="Public" name="nagisa_classroom_help" />
+        <marker scope="Public" name="nagisa_classroom_hers" />
+        <marker scope="Public" name="nagisa_classroom_only_one" />
+        <marker scope="Public" name="nagisa_classroom_to_ourselves" />
         <marker scope="Public" name="nagisa_considers_leaving">Nagisa mentions leaving but never goes through with it.</marker>
         <marker scope="Public" name="nagisa_corrin_different_game" />
         <marker scope="Public" name="nagisa_daisy_all_in_one_go" />
@@ -220,6 +247,7 @@
         <marker scope="Public" name="nagisa_gwen_friends" />
         <marker scope="Public" name="nagisa_hairclips">Nagisa wears red hairclips not visible from the front. She doesn't think to use them as an extra layer.</marker>
         <marker scope="Public" name="nagisa_harley_actress_tips" />
+        <marker scope="Public" name="nagisa_haunted_forest_ghosts" />
         <marker scope="Public" name="nagisa_hermione_exchange_student" />
         <marker scope="Public" name="nagisa_hermione_frills" />
         <marker scope="Public" name="nagisa_hermione_im_fine" />
@@ -235,6 +263,7 @@
         <marker scope="Public" name="nagisa_jasmine_beautiful_clothing" />
         <marker scope="Public" name="nagisa_jasmine_fooled" />
         <marker scope="Public" name="nagisa_jasmine_identity_reveal" />
+        <marker scope="Public" name="nagisa_jason_brother" />
         <marker scope="Public" name="nagisa_jessie_brave_like_a_lion" />
         <marker scope="Public" name="nagisa_jessie_easy_for_you" />
         <marker scope="Public" name="nagisa_jessie_not_running_away" />
@@ -306,6 +335,7 @@
         <marker scope="Public" name="nagisa_mahiru_camera_9">Nagisa reacts differently to Mahiru's camera depending on her state of undress.</marker>
         <marker scope="Public" name="nagisa_mahiru_selfie" />
         <marker scope="Public" name="nagisa_maid">Nagisa gets along fine without a maid.</marker>
+        <marker scope="Public" name="nagisa_maki_kotomi_violin" />
         <marker scope="Public" name="nagisa_marinete_transformation_surprise" />
         <marker scope="Public" name="nagisa_marinette_amazing_people" />
         <marker scope="Public" name="nagisa_marinette_cant_concentrate" />
@@ -352,7 +382,10 @@
         <marker scope="Public" name="nagisa_moon_stripping_on_purpose" />
         <marker scope="Public" name="nagisa_mysterious_scar">Nagisa's father claims that she has a mysterious scar on her butt.</marker>
         <marker scope="Public" name="nagisa_natsuki_poem" />
+        <marker scope="Public" name="nagisa_natsuki_slepy_gurl" />
+        <marker scope="Public" name="nagisa_natsuki_wiggle" />
         <marker scope="Public" name="nagisa_neptune_shoes_reminder" />
+        <marker scope="Public" name="nagisa_neptune_shrine" />
         <marker scope="Public" name="nagisa_neptune_uniform" />
         <marker scope="Public" name="nagisa_not_21_yet" />
         <marker scope="Public" name="nagisa_nugi-chan_be_careful" />
@@ -375,10 +408,14 @@
         <marker scope="Public" name="nagisa_perona_cuteness_denial" />
         <marker scope="Public" name="nagisa_perona_dango_family" />
         <marker scope="Public" name="nagisa_perona_floofy_dress" />
+        <marker scope="Public" name="nagisa_perona_floofy_dress_2" />
+        <marker scope="Public" name="nagisa_perona_foot_massage" />
         <marker scope="Public" name="nagisa_perona_not_a_good_servant" />
         <marker scope="Public" name="nagisa_perona_pretty_hair" />
         <marker scope="Public" name="nagisa_perona_protection_from_player" />
         <marker scope="Public" name="nagisa_persona_evil_game" />
+        <marker scope="Public" name="nagisa_pinkie_baloon_animals" />
+        <marker scope="Public" name="nagisa_pinkie_place" />
         <marker scope="Public" name="nagisa_piper_freckles" />
         <marker scope="Public" name="nagisa_pit_afterlife" />
         <marker scope="Public" name="nagisa_pit_cover_yourself" />
@@ -449,10 +486,12 @@
         <marker scope="Public" name="nagisa_sheena_fujibayashi" />
         <marker scope="Public" name="nagisa_shego_evil" />
         <marker scope="Public" name="nagisa_shego_no_photos" />
+        <marker scope="Public" name="nagisa_singing_dango_song" />
         <marker scope="Private" name="nagisa_skirt_in_danger">Nagisa doesn't know how she got into this mess.</marker>
         <marker scope="Public" name="nagisa_sola_dango_panties" />
         <marker scope="Public" name="nagisa_sola_kindergarten" />
         <marker scope="Public" name="nagisa_sola_sailor_hat" />
+        <marker scope="Public" name="nagisa_special_lesson" />
         <marker scope="Public" name="nagisa_spooky_knife_relief" />
         <marker scope="Public" name="nagisa_streaming-chan_awk1" />
         <marker scope="Public" name="nagisa_streaming-chan_awk2" />
