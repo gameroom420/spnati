@@ -1,5 +1,5 @@
 // Updated by b!version
-var CURRENT_VERSION = '12.96.0';
+var CURRENT_VERSION = '12.96.1';
 var CURRENT_VERSION_TIMESTAMP = 1605888944182;
 // Substituted on deploy
 var VERSION_COMMIT;
