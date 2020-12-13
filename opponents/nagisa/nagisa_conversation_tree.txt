@@ -30,6 +30,14 @@ Amy: if_u_seek_a_me
  Nagisa: nagisa_amy_sought
 
 
+ANNA
+----
+
+(any hand)
+Anna: QAHowManySiblings
+ Nagisa if to right: nagisa_anna_no_siblings
+
+
 BERNIE
 ------
 
@@ -70,9 +78,45 @@ BULMA
 Bulma: PhoneTrunksCandy
  Nagisa: nagisa_bulma_waiting_quietly
 
+(Bulma revealed crotch)
+Bulma: BulmaNoPanties
+ Nagisa: nagisa_bulma_no_panties
+
 
 JESSIE
 ------
+
+(any hand)
+Jessie: JessieQA_Lights
+ Nagisa if to right: nagisa_jessie_lights
+
+(any hand)
+Jessie: JessieQA_SleptAround
+ Nagisa if to right: nagisa_jessie_slept_around
+
+(any hand)
+Jessie: JessieQA_Open
+ Nagisa if to right: nagisa_jessie_open
+
+(any hand)
+Jessie: JessieQA_Masturbate
+ Nagisa if to right: nagisa_jessie_masturbate
+
+(any hand)
+Jessie: JessieQA_Porn
+ Nagisa if to right: nagisa_jessie_porn
+
+(any hand)
+Jessie: JessieQA_SexNumber
+ Nagisa if to right: nagisa_jessie_sex_numnber
+
+(any hand)
+Jessie: JessieQA_SexPosition
+ Nagisa if to right: nagisa_blurts_59_question [non-unique marker]
+
+(any hand)
+Jessie: JessieQA_Backdoor
+ Nagisa if to right: nagisa_jessie_backdoor
 
 (Nagisa has bad hand)
 Nagisa: nagisa_considers_leaving
@@ -90,6 +134,14 @@ Jura: nagisatubes
  Nagisa: nagisa_jura_tubes
  Nagisa: nagisa_jura_male_private_parts
  Nagisa: nagisa_jura_never_tubed
+
+
+LYRALEI
+-------
+
+(any hand, 3+ rounds)
+Lyralei: lyralei_picture_drop
+ Nagisa if to right: nagisa_lyralei_picture_drop
 
 
 MAKI
@@ -149,13 +201,19 @@ Neptune: state_goddess
   Neptune in a subsequent hand: nep_nagisa_shrine
    Nagisa if Inventory background: nagisa_neptune_inventory
    Nagisa if Beach background: nagisa_neptune_beach
+    Neptune in subsequent hand: nep_nagisa_beach
+     Nagisa: nagisa_neptune_beach_nude
    Nagisa if Classroom background: nagisa_neptune_classroom
    Nagisa if Roof background: nagisa_neptune_roof
    Nagisa if Mansion background: nagisa_neptune_mansion
    Nagisa if Street background: nagisa_neptune_street
+    Neptune in subsequent hand: nep_nagisa_street
+     Nagisa: nagisa_neptune_street_brave
    Nagisa if Bedroom background: nagisa_neptune_bedroom
    Nagisa if Library backgrond: nagisa_neptune_library
    Nagisa if Haunted Forest background: nagisa_neptune_haunted_forest
+    Neptune in subsequent hand: nep_nagisa_hauntedForest
+     Nagisa: nagisa_neptune_haunted_forest_lost
    Nagisa if Arcade background: nagisa_neptune_arcade   
 
 (Nagisa must strip shoes)
@@ -167,28 +225,58 @@ Neptune: forget_shoes
  Nagisa if dressed: nagisa_neptune_shoes_reminder
 
 
+PENNY POLENDINA
+---------------
+
+(any hand)
+Penny: legallyunsure
+ Nagisa if to right: nagisa_penny_legally_sure
+
+(Penny must strip 0-4)
+Penny: gameenjoy
+ Nagisa if to right and dressed: nagisa_penny_enjoy_exciting
+ Nagisa if to right and in underwear: nagisa_penny_enjoy_scary
+ Nagisa if to right and exposed: nagisa_penny_enjoy_memory
+
+(other female removing minor, Penny masturbating)
+Penny: everyonemastbat
+ Nagisa if to right and dressed: nagisa_penny_not_polite
+ Nagisa if to right and finished: nagisa_penny_everyone_mast
+
+
 PERONA
 ------
 
 (any hand)
+Perona: presentation
+ Nagisa if to right: nagisa_perona_introduction
+
+(any hand)
 Nagisa: nagisa_perona_floofy_dress
  Perona if to right OR in a subsequent hand: nagisa_dress
-  Nagisa: nagisa_perona_floofy_dress_2
-   Perona [conditions not yet right]: nagisa_dress2
+  Nagisa if to right: nagisa_perona_floofy_dress_2
+   Perona in a subsequent hand: nagisa_dress2
+    Nagisa if to right: nagisa_perona_floofy_dress_3
 
 (any hand)
 Perona: cuteness_prompt
  Nagisa if to right: nagisa_perona_dango_family
   Perona in a subsequent hand: nagisa_sing
    Nagisa if to right: nagisa_singing_dango_song [non-unique marker]
-    Perona [conditions not yet right]: nagisa_sing2
+    Perona in a subsequent hand or if she hears the above marker: nagisa_sing2
+     Nagisa if to right: nagisa_singing_dango_song_2 [unique marker]
 
 (any hand)
 Perona: servants
  Nagisa if to right: nagisa_perona_not_a_good_servant
   Perona in a subsequent hand: nagisa_servant
    Nagisa if to right: nagisa_perona_foot_massage
-    Perona [conditions not yet right]: nagisa_servant2
+    Perona in a subsequent hand: nagisa_servant2
+     Nagisa: nagisa_perona_friends
+
+(any hand after 3+ rounds)
+Perona: hollow ghosts
+ Nagisa if to right: nagisa_perona_promises_to_be_good
 
 (Nagisa must strip shoes)
 Perona: nagisa0
@@ -205,9 +293,50 @@ Perona: nagisa1s
 (Nagisa must strip socks)
 Perona: nagisa1
  Nagisa if to right: nagisa_perona_pretty_hair
-  Perona when Nagisa stripping socks??: nagisa12_hair
+  Perona when Nagisa stripping socks: nagisa12_hair
+   Nagisa if to right: nagisa_perona_compliment
  Nagisa if to right: nagisa_perona_cheeks_on_my_face
-  Perona when Nagisa stripping socks??: nagisa12_cheeks
+  Perona when Nagisa stripping socks: nagisa12_cheeks
+   Nagisa if to right: nagisa_perona_cheeks_was_joke
+
+
+POLLY
+-----
+
+(Nagisa selected, Polly present)
+Nagisa: nagisa_polly_summoning_the_dead
+
+(Polly selected)
+Nagisa: nagisa_polly_a_ghost
+
+(any hand)
+Polly: PleaseThrow
+ Nagisa if to right: nagisa_polly_please_throw
+
+(bad hand)
+Nagisa: nagisa_ryou_poker
+ Polly: Polly_Nagisa_Ryou
+  Nagisa in a subsequent hand if to left: nagisa_polly_ryou
+
+(Nagisa must strip shoes)
+Polly: Polly_Nagisa_Cute
+ Nagisa if to right: nagisa_polly_cuteness_denial
+
+(Nagisa must strip jacket)
+Polly: Polly_Nagisa_Swears
+ Nagisa if to right: nagisa_polly_swears
+
+(Nagisa revealed chest)
+Nagisa: nagisa_food_motivation
+ Polly: [no marker yet]
+
+(Polly removing all accessories)
+Nagisa: nagisa_polly_no_need_to_rush
+ Polly when stripped: [no marker yet]
+
+(Polly masturbating)
+Polly: AnySexPosition
+ Nagisa if to right: nagisa_polly_positions_reaction
 
 
 RINKAH
@@ -216,6 +345,36 @@ RINKAH
 (any hand)
 Rinkah: bread
  Nagisa: nagisa_rinkah_burnt_bread
+
+
+SAKI ZLS
+--------
+
+(any hand)
+Saki: q_saki_badluck
+ Nagisa if to right: nagisa_saki_bad_luck
+
+(any hand at The Inventory)
+Nagisa: nagisa_inventory_spilled_drinks
+ Saki: NagisaSticky_Resp
+  Nagisa in a subsequent hand: nagisa_saki_spilled_nuts
+
+(Nagisa must strip shoes)
+Saki: NagisaShoes1
+ Nagisa if to right: nagisa_saki_stork
+
+(Nagisa stripping shoes)
+Saki: NagisaShoes2
+ Nagisa if to right: nagisa_saki_dont_worry
+
+(after Nagisa finished)
+Nagisa: nagisa_mysterious_scar
+ Saki dressed or finished: NagisaScar_Resp1
+  Nagisa in a subsequent round: nagisa_saki_scar_inside_butt
+ Saki naked not lost: NagisaScar_Resp2
+  Nagisa in a subsequent round: nagisa_saki_scar_inconsiderate
+ Saki masturbating: NagisaScar_Resp3
+  Nagisa in a subsequent round: nagisa_saki_scar_dont_stare
 
 
 SAKURA:
@@ -291,21 +450,39 @@ Nagisa if to left: nagisa_sakura_what_did_you_mean
 Sakura: nagisa_sakura_chest (refers to tears, but this pose no longer has tears)
 
 
+TOMOKO
+------
+
+(Tomoko finished)
+Tomoko: tomoko_callsexy
+ Nagisa if to right: nagisa_tomoko_unique
+
+
 YURI
 ----
 
+(any hand)
+Yuri: yuri_book_recommendations
+ Nagisa if to left: nagisa_yuri_tea
+  Yuri in subsequent hand: nagisa_teaLibrary
+   Nagisa: nagisa_yuri_need_to_graduate
+
 (female removing accessory)
 Yuri: yuri_dog_ear
- Nagisa: nagisa_yuri_dogear
+ Nagisa if to left: nagisa_yuri_dogear
+  Yuri when accessory removed: nagisa_dog_ear
+   Nagisa: nagisa_yuri_spoil_book
 
 (female remving accessory)
 Yuri: yuri_temperature
- Nagisa: nagisa_yuri_cold
+ Nagisa if to left: nagisa_yuri_cold
 
 (male removing minor)
 Yuri: yuri_player_poem
- Nagisa: nagisa_yuri_player_poetry
+ Nagisa if to left: nagisa_yuri_player_poetry
 
 (male removing minor)
 Yuri: yuri_club_budget
- Nagisa: nagisa_yuri_drama_club
+ Nagisa if to left: nagisa_yuri_drama_club
+  Yuri when minor item removed: nagisa_dramaClubBudget
+   Nagisa: nagisa_yuri_plays

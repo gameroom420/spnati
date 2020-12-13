@@ -41,7 +41,6 @@
     </noteworthy>
     <nextId>10</nextId>
     <markers>
-        <marker scope="Public" name="" />
         <marker scope="Public" name="2butt">Meia shows off her butt while still in her bodysuit (or Cupid outfit).</marker>
         <marker scope="Public" name="adrien0" />
         <marker scope="Public" name="aella_adventures">Meia says that, though piracy can be an adventure of sorts, her crew has recently left the Mejarian system for the first time and is traversing the galaxy.</marker>
@@ -114,6 +113,7 @@
         <marker scope="Public" name="brock_oddgender" />
         <marker scope="Public" name="brock_overkill" />
         <marker scope="Public" name="brock_prisoners" />
+        <marker scope="Public" name="brock_recruitment" />
         <marker scope="Public" name="brock_runtech" />
         <marker scope="Public" name="brock_seduce" />
         <marker scope="Public" name="brock_streetfight" />
@@ -121,6 +121,7 @@
         <marker scope="Public" name="brock_tooclose" />
         <marker scope="Public" name="brock_why" />
         <marker scope="Public" name="brock_woman" />
+        <marker scope="Public" name="bulma0" />
         <marker scope="Public" name="butt">Meia does not immediately turn back around upon losing her shorts/displaying her butt.</marker>
         <marker scope="Public" name="butt2">Meia does not immediately turn around upon losing her shorts, continuing to feel and display her butt.</marker>
         <marker scope="Public" name="cap_uncomfortable">Meia questions why Captain America, a man, is uncomfortable with nudity.</marker>
@@ -322,6 +323,7 @@
         <marker scope="Public" name="gaige_raids" />
         <marker scope="Public" name="gaige_team" />
         <marker scope="Public" name="gaige12" />
+        <marker scope="Public" name="galatea_recruitment" />
         <marker scope="Public" name="galatea_resp0" />
         <marker scope="Public" name="galatea_resp01" />
         <marker scope="Public" name="galatea_resp1" />
@@ -330,6 +332,8 @@
         <marker scope="Public" name="galatea_resp23" />
         <marker scope="Public" name="galatea_resp3" />
         <marker scope="Public" name="galatea_resp34" />
+        <marker scope="Public" name="galatea_resp4" />
+        <marker scope="Public" name="galatea_resp45" />
         <marker scope="Public" name="galatea_sightseeing" />
         <marker scope="Public" name="galatea0" />
         <marker scope="Public" name="galatea01" />
@@ -340,6 +344,9 @@
         <marker scope="Public" name="galatea23" />
         <marker scope="Public" name="galatea2s" />
         <marker scope="Public" name="galatea3" />
+        <marker scope="Public" name="galatea34" />
+        <marker scope="Public" name="galatea3s" />
+        <marker scope="Public" name="galatea4s" />
         <marker scope="Public" name="glassjoe0" />
         <marker scope="Public" name="glassjoe1" />
         <marker scope="Public" name="guzma_humiliating">Meia thinks losing to a man like Guzma is more humiliating that stripping naked in front of him.</marker>
@@ -396,6 +403,7 @@
         <marker scope="Public" name="jessie_position">Meia thinks eye contact is the most important part of any sex position.</marker>
         <marker scope="Public" name="jessie_position2">Meia is embarrassed to hear Jessie bring up tribbing and insists she only meant kissing/caressing.</marker>
         <marker scope="Public" name="jessie_recruit">Meia wonders if having an older woman aboard the Nirvana, like Jessie, would be good for mentoring new recruits.</marker>
+        <marker scope="Public" name="jessie_resp2" />
         <marker scope="Public" name="jessie_ring">Meia tells Jessie about Mejare's laser rings, the woman's weapon of choice.</marker>
         <marker scope="Public" name="jessie_secrets">Meia tells Jessie that Earth is too dangerous a place to share secrets--not that she's one to do so in the first place.</marker>
         <marker scope="Public" name="jessie_secrets2">Meia thinks Jessie should start sharing her own secrets if she wants to hear everyone else's so badly.</marker>
@@ -409,10 +417,12 @@
         <marker scope="Public" name="jessie_ushistory">Meia suspects Jessie's account of American history isn't fully accurate and asks what part of the planet she lives in.</marker>
         <marker scope="Public" name="jessie_zoey">Meia draws parallels between Zoey, a young girl Jessie worked with, and Misty, a young girl she mentors on the Nirvana.</marker>
         <marker scope="Public" name="jessie3" />
+        <marker scope="Public" name="jessie34" />
         <marker scope="Public" name="jessie34tharja" />
         <marker scope="Public" name="jessie34tharja2" />
         <marker scope="Public" name="jessie3tharja" />
         <marker scope="Public" name="jessie3tharja2" />
+        <marker scope="Public" name="jessie4s" />
         <marker scope="Public" name="jessie4stharja" />
         <marker scope="Public" name="jessie4stharja2" />
         <marker scope="Public" name="jessie5stharja" />
@@ -485,6 +495,7 @@
         <marker scope="Public" name="komi4" />
         <marker scope="Public" name="komi45" />
         <marker scope="Public" name="komi4s" />
+        <marker scope="Public" name="komi5s" />
         <marker scope="Public" name="laevatein_others" />
         <marker scope="Public" name="laevatein_remember" />
         <marker scope="Public" name="laevatein_words" />
@@ -496,6 +507,8 @@
         <marker scope="Public" name="laevatein1othersA" />
         <marker scope="Public" name="laevatein1othersB" />
         <marker scope="Public" name="laevatein1s" />
+        <marker scope="Public" name="laevatein23" />
+        <marker scope="Public" name="laevatein23_bond" />
         <marker scope="Public" name="laevatein2effects" />
         <marker scope="Public" name="laevatein2loss" />
         <marker scope="Public" name="laevatein2s" />
@@ -659,16 +672,23 @@
         <marker scope="Public" name="pa02" />
         <marker scope="Public" name="pa1s" />
         <marker scope="Public" name="panty_men">Meia asks what Panty means by men having "flavors."</marker>
+        <marker scope="Public" name="penny_p0" />
         <marker scope="Public" name="perona_resp0" />
+        <marker scope="Public" name="perona_resp01" />
+        <marker scope="Public" name="perona_resp1" />
         <marker scope="Public" name="perona0" />
         <marker scope="Public" name="perona01" />
         <marker scope="Public" name="perona1" />
         <marker scope="Public" name="perona12" />
+        <marker scope="Public" name="perona1s" />
+        <marker scope="Public" name="perona2s" />
         <marker scope="Public" name="pilot">Meia realizes another character is a pilot and perks up with interest.</marker>
         <marker scope="Public" name="pilot_recruitment" />
         <marker scope="Public" name="pinkie_bunny0" />
         <marker scope="Public" name="pit_fish">Meia tells Pit that she likes fish, and that men on Tarak don't have real food at all.</marker>
         <marker scope="Public" name="pit_mast">Meia comments on Pit's apparent feelings towards her masturbating.</marker>
+        <marker scope="Public" name="polly0" />
+        <marker scope="Public" name="polly01" />
         <marker scope="Public" name="pubic_hair_comments">Meia questions a woman's choice to have pubic hair.</marker>
         <marker scope="Public" name="pyrrha_earth" />
         <marker scope="Public" name="pyrrha_laserring" />
@@ -881,10 +901,12 @@
         <marker scope="Public" name="yuri_men" />
         <marker scope="Public" name="yuri_recruitment" />
         <marker scope="Public" name="yuri_resp0" />
+        <marker scope="Public" name="yuri_resp01" />
         <marker scope="Public" name="yuri_sightseeing" />
         <marker scope="Public" name="yuri_sightseeing2" />
         <marker scope="Public" name="yuri0" />
         <marker scope="Public" name="yuri01" />
+        <marker scope="Public" name="yuri1s" />
         <marker scope="Public" name="yusuke0" />
         <marker scope="Public" name="zenobia0" />
     </markers>

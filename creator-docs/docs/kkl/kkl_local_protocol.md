@@ -97,17 +97,19 @@ The following fields are common to all Command types:
 
 The following is a quick overview of currently implemented Command types and their parameters:
 
-| Command             | `type` Field Values           | Parameters  |
-| ------------------- | ----------------------------- | ----------- |
-| Version             | `version`                     | None
-| Full Import         | `import`                      | `code`
-| Partial Import      | `import_partial`              | `code`
-| Screenshot          | `screenshot`                  | `bg`
-| Reset               | `reset_full`, `reset_partial` | None 
-| Peek/Poke           | `character_data`              | `character`, `op`, `tabName`, `tabParameter`, `value`, `internalNames`
-| Set Alpha           | `alpha_direct`                | `character`, `op`, `path`, `value`, `multiplier`
-| Set Alpha (testing) | `alpha`                       | `character`, `colorIndex`, `part`, `alpha`
-| Dump Character      | `dump_character`              | `character`
+| Command              | `type` Field Values           | Parameters  |
+| -------------------- | ----------------------------- | ----------- |
+| Version              | `version`                     | None
+| Full Import          | `import`                      | `code`
+| Partial Import       | `import_partial`              | `code`
+| Screenshot           | `screenshot`                  | `bg`
+| Reset                | `reset_full`, `reset_partial` | None 
+| Peek/Poke            | `character_data`              | `character`, `op`, `tabName`, `tabParameter`, `value`, `internalNames`
+| Set Alpha            | `alpha_direct`                | `character`, `op`, `path`, `value`, `multiplier`
+| Set Alpha (testing)  | `alpha`                       | `character`, `colorIndex`, `part`, `alpha`
+| Dump Character       | `dump_character`              | `character`
+| Fastload             | `fastload`                    | `character`, `data`, `attachments`, `version`, `read_from_cache`, `write_to_cache`
+| Optimized Screenshot | `direct-screenshot`           | `bg`, `size`, `shift`, `scale`, `fastEncode`
 
 #### Version Command
 
@@ -241,6 +243,95 @@ This command dumps the entire internal character data structure for the given `c
 and returns it as the response `data`.
 
 This command is relatively fast, but produces a _lot_ of output.
+
+#### Fast Load Character Data
+
+_Added in version 104.1._
+
+This command loads character data into the Kisekae workspace using an optimized procedure that attempts to minimize the
+amount of graphical updates and other processing performed, compared to a full import cycle.
+
+The only two required parameters for this command are `data` and `character`.
+
+The `character` parameter should be the zero-based index of the character to load data into.
+
+The request `data` should be a list containing three-element lists of `[subcode_prefix, subcode_index, value]`,
+with one list for each model parameter to change.
+
+For example, the Kisekae code fragment `aa26.290.0.0` could be represented this way as:
+```json
+[
+    ["aa", 0, "26"],
+    ["aa", 1, "290"],
+    ["aa", 2, "0"],
+    ["aa", 3, "0"]
+]
+```
+
+Data values may be either strings or other values of appropriate types, depending on the parameter.
+Sending values as they appear in save codes should always work, regardless of parameter type.
+
+The `attachments` parameter, if provided, should be a dictionary mapping updated image attachment slots to their image paths.
+For example:
+```json
+{
+    "0": "images/attachment.png"
+}
+```
+
+The `version` parameter should be the version of the Kisekae instance that generated the provided `data`.
+If you are sending data from a Kisekae code, this should be the version number attached to the code.
+This parameter is used to apply version-specific compatibility updates to the incoming data.
+If this is not provided, it is assumed to be the server's Kisekae version.
+
+`read_from_cache` and `write_to_cache` can be used to control server-side caching of data sent via this command.
+By default, data loaded via this command will be saved to a per-character cache, so that redundant parameter updates
+can be identified and skipped.
+
+This can potentially save a massive amount of time in cases where many data loads are performed in sequence.
+However, if there are unforeseen bugs resulting in false-positive cache matches, this could result in issues loading
+data (i.e. parameter updates being skipped that shouldn't be).
+In this case, `read_from_cache` can be set to `false` to force KKL to bypass the cache and always apply sent updates.
+
+If not provided, both `read_from_cache` and `write_to_cache` are assumed to be `true`.
+
+Note that the cache for a character is always invalidated when the user makes manual changes to them in the Kisekae workspace.
+
+#### Optimized Screenshot Command
+
+_Added in version 104.1._
+
+The `direct-screenshot` command works like the regular `screenshot` command, but 
+provides more options and is also better optimized.
+
+This command's default settings specifically emulate standard SPNATI screenshot
+settings, as set by the `reset-full` command.
+
+The `scale` parameter controls the resolution of output images, relative to the default
+internal stage size of 800x600 pixels; this parameter's default value of 2.5 corresponds
+to the maximum quality value provided by Kisekae.
+
+The `size` parameter, if set, must be a list of two numbers, and will override the
+default output image size computed with `scale`.
+The area captured by the screenshot will be automatically shifted so that the subject
+area remains centered (modulo the effect of any `shift` parameter, below).
+
+The `shift` parameter, if set, must also be a list of two numbers, which can be
+used to shift the subject area captured by the screenshot. Positive values for
+X and Y correspond to shifts to the right and down, respectively.
+
+The `bg` parameter can be used to control whether the scene background will be included in the returned image.
+
+Finally, the `fastEncode` parameter, if set to `true`, changes the PNG encoder
+settings for the image to be faster, but less space-efficient.
+
+On my machine, `"fastEncode": true` brings the time required to take a screenshot
+down from roughly 2.12 seconds to about 0.17 seconds.
+However, the resulting images are about 1.4x to 1.6x larger; this may not be a
+problem if you're performing processing that would require re-encoding anyways,
+or if you're going to re-compress the images with external tools.
+
+This command will always return its response as an Image Data message (type `0x03`).
 
 ### Command Response Messages
 

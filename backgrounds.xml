@@ -107,6 +107,16 @@
         <time>night</time>
         <privacy>private</privacy>
     </background>
+
+    <background id="holiday lodge">
+        <name>Holiday Lodge</name>
+        <src>img/backgrounds/holiday_lodge.png</src>
+        <author>Zeuses-Swan-Song</author>
+        <location>indoors</location>
+        <surface>floor</surface>
+        <privacy>private</privacy>
+	<time>night</time>
+    </background>
     
     <background id="purple room">
         <name>Purple Room</name>
@@ -114,7 +124,6 @@
         <author>AshenSorrow</author>
         <location>indoors</location>
         <surface>floor</surface>
-        <dark />
     </background>
     
     <background id="street">
@@ -251,16 +260,6 @@
         <filter>brightness(0.8)</filter>
         <privacy>public</privacy>
         <dark />
-    </background>
-
-    <background id="seasonal">
-        <status>offline</status>
-        <name>Seasonal</name>
-        <author>ANDRW</author>
-        <src>img/backgrounds/seasonal.png</src>
-        <location>indoors</location>
-        <surface>floor</surface>
-        <temperature>cold</temperature>
     </background>
 
     <background id="bathhouse">
