@@ -2914,6 +2914,26 @@ ul.dropdown-menu>li {
     max-height: 5rem;
 }
 
+#group-select-screen .group-opp-name-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    min-height: 10%;
+    top: 5%;
+}
+
+.group-opp-name-label {
+    font-size: 2.25rem;
+}
+
+.group-source-label {
+    font-size: 1.5rem;
+}
+
+
 /************************************************************
  * Classes for the old individual and group select screens.
  ************************************************************/

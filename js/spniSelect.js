@@ -550,7 +550,7 @@ function updateGroupSelectScreen (group, ignore_bg) {
                 opponent.selectAlternateCostume(null);
             }
 
-            $groupNameLabels[i].html(opponent.first + " " + opponent.last);
+            $groupNameLabels[i].html(opponent.selectLabel);
             $groupPrefersLabels[i].html(opponent.label);
             $groupSexLabels[i].html(opponent.gender);
             $groupSourceLabels[i].html(opponent.source);
