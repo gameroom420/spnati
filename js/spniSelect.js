@@ -74,12 +74,11 @@ $groupCostumeSelectors = [$("#group-costume-select-1"), $("#group-costume-select
 
 $groupImages = [$("#group-image-1"), $("#group-image-2"), $("#group-image-3"), $("#group-image-4")];
 $groupNameLabel = $("#group-name-label");
+$groupDescriptionBox = $("#group-description-wrapper");
+$groupDescription = $("#group-description");
 $groupButton = $("#group-button");
 
 $groupBackgroundToggle = $('#group-enable-preset-backgrounds');
-
-$groupPageIndicator = $("#group-page-indicator");
-$groupMaxPageIndicator = $("#group-max-page-indicator");
 
 $groupCreditsButton = $('#group-credits-button');
 
@@ -142,7 +141,6 @@ var suggestedTestingOpponents = undefined;
 
 /* page variables */
 var individualPage = 0;
-var groupPage = 0;
 var chosenGender = -1;
 var chosenGroupGender = -1;
 var sortingMode = "listingIndex";
@@ -155,6 +153,7 @@ var groupCreditsShown = false;
 
 /* consistence variables */
 var selectedSlot = 0;
+var selectedGroup = null;
 var shownIndividuals = Array(4);
 var shownGroup = Array(4);
 var randomLock = false;
@@ -190,9 +189,10 @@ var statusIndicators = {
 /**************************************************
  * Stores meta information about groups.
  **************************************************/
-function Group(title, background) {
+function Group(title, background, description) {
     this.title = title;
     this.background = background;
+    this.description = description;
     this.opponents = Array(4);
     this.costumes = Array(4);
 }
@@ -321,6 +321,7 @@ function loadListingFile () {
         $xml.find('>groups>group').each(function () {
             var title = $(this).attr('title');
             var background = $(this).attr('background') || undefined;
+            var description = $(this).attr('desc') || undefined;
             var opp1 = $(this).attr('opp1');
             var opp2 = $(this).attr('opp2');
             var opp3 = $(this).attr('opp3');
@@ -334,7 +335,7 @@ function loadListingFile () {
             var costumes = [costume1, costume2, costume3, costume4];
             if (!ids.every(function(id) { return available[id]; })) return;
 
-            var newGroup = new Group(title, background);
+            var newGroup = new Group(title, background, description);
             ids.forEach(function(id, idx) {
                 if (!(id in opponentGroupMap)) {
                     opponentGroupMap[id] = [];
@@ -470,23 +471,11 @@ function fillCostumeSelector($selector, costumes, selected_costume) {
  * This is really only necessary during initial load, when we need to
  * update this screen despite it not actually being visible.
  ************************************************************/
-function updateGroupSelectScreen (ignore_bg) {
-    /* safety wrap around */
-    if (groupPage < 0) {
-        /* wrap to last page */
-        groupPage = (selectableGroups.length)-1;
-    } else if (groupPage > selectableGroups.length-1) {
-        /* wrap to the first page */
-        groupPage = 0;
-    }
-    $groupPageIndicator.val(groupPage+1);
-    $groupMaxPageIndicator.html("of "+selectableGroups.length);
-
+function updateGroupSelectScreen (group, ignore_bg) {
     /* create and load all of the individual opponents */
     $groupButton.attr('disabled', false);
-    
-    var group = selectableGroups[groupPage];
-    
+    selectedGroup = group;
+
     if (group) {
         $groupNameLabel.html(group.title);
 
@@ -522,9 +511,19 @@ function updateGroupSelectScreen (ignore_bg) {
                 }
             }
         }
+
+        if (group.description) {
+            $groupDescription.text(group.description);
+            $groupDescriptionBox.show();
+        } else {
+            $groupDescription.text("");
+            $groupDescriptionBox.hide();
+        }
     } else {
-        $groupNameLabel.html("(No matches)");
+        $groupNameLabel.html("");
         $groupButton.attr('disabled', true);
+        $groupDescription.text("Your filter settings didn't match any groups.");
+        $groupDescriptionBox.show();
     }
 
     for (var i = 0; i < 4; i++) {
@@ -856,8 +855,8 @@ function toggleIndividualSelectView() {
  ************************************************************/
 function showPresetTables () {
     $groupSwitchTestingButton.html("Testing Tables");
+    clearGroupSearch();
     updateSelectableGroups();
-    updateGroupSelectScreen();
 
     if (SENTRY_INITIALIZED) Sentry.setTag("screen", "select-group");
 
@@ -906,7 +905,42 @@ function updateSelectableGroups() {
             return false;
 
         return true;
-    })
+    });
+
+    $("#group-list").empty();
+
+    if (selectableGroups.length > 0) {
+        $("#group-list").append(selectableGroups.map(function (group) { 
+            var elem = document.createElement("div");
+            var textElem = document.createElement("span");
+
+            elem.className = "group-list-item group-entry-item bordered";
+            $(elem).on("click", function (ev) {
+                updateGroupSelectScreen(group, false);
+            });
+
+            textElem.className = "group-item-text";
+            $(textElem).text(group.title).appendTo(elem);
+
+            return elem;
+        }));
+    } else {
+        var emptyListElem = document.createElement("div");
+        var textElem = document.createElement("span");
+
+        emptyListElem.className = "group-list-item empty-group-list-item bordered";
+
+        textElem.className = "group-item-text";
+        $(textElem).text("(No matches)").appendTo(emptyListElem);
+
+        $("#group-list").append(emptyListElem);
+    }
+
+    if (selectableGroups.length > 0) {
+        updateGroupSelectScreen(selectableGroups[0]);
+    } else {
+        updateGroupSelectScreen(null);
+    }
 }
 
 /************************************************************
@@ -1215,6 +1249,16 @@ function changeGroupStats (target) {
         }
     }
 
+    $(".group-info-button").show();
+
+    if (target === 1) {
+        $("#group-info-main").hide();
+    } else if (target === 2) {
+        $("#group-info-credits").hide();
+    } else if (target === 3) {
+        $("#group-info-more").hide();        
+    }
+
     groupCreditsShown = (target == 2); // true when Credits button is clicked
 }
 
@@ -1223,15 +1267,7 @@ function changeGroupStats (target) {
  * group select screen.
  ************************************************************/
 function selectGroup () {
-    if (SENTRY_INITIALIZED) {
-        Sentry.addBreadcrumb({
-            'category': 'select',
-            'message': 'Loading group at page '+groupPage,
-            'level': 'info'
-        });
-    }
-
-    loadGroup(selectableGroups[groupPage]);
+    loadGroup(selectedGroup);
 
     if (SENTRY_INITIALIZED) Sentry.setTag("screen", "select-main");
 
@@ -1240,58 +1276,17 @@ function selectGroup () {
 }
 
 /************************************************************
- * The player is changing the page on the group screen.
- ************************************************************/
-function changeGroupPage (skip, page) {
-    if (skip) {
-        if (page == -1) {
-            /* go to first page */
-            groupPage = 0;
-        } else if (page == 1) {
-            /* go to last page */
-            groupPage = selectableGroups.length-1;
-        } else {
-            /* go to selected page */
-            groupPage = Number($groupPageIndicator.val()) - 1;
-        }
-    } else {
-        groupPage += page;
-    }
-    
-    if (SENTRY_INITIALIZED) {
-        Sentry.addBreadcrumb({
-            'category': 'select',
-            'level': 'info',
-            'message': 'Going to preset table page ' + groupPage + ' / ' + (selectableGroups.length-1),
-            'data': {
-                'skip': String(skip),
-                'page': String(page)
-            }
-        });
-    }
-
-    updateGroupSelectScreen();
-    updateGroupCountStats();
-}
-
-
-/************************************************************
  * Adds hotkey functionality to the group selection screen.
  ************************************************************/
-
 
 function groupSelectScreen_keyUp(e)
 {
     console.log(e)
-    if ($('#group-select-screen').is(':visible')
-        && !$groupButton.prop('disabled')) {
-        if (e.keyCode == 37) { // left arrow
-            changeGroupPage(false, -1);
-        }
-        else if (e.keyCode == 39) { // right arrow
-            changeGroupPage(false, 1);
-        }
-        else if (e.keyCode == 13) { // enter key
+    if ($('#group-select-screen').is(':visible') && e.keyCode === 13) {
+        if ($groupSearchModal.is(":visible")) {
+            closeGroupSearchModal();
+            $groupSearchModal.modal("hide");
+        } else if (!$groupButton.prop("disabled")) {
             selectGroup();
         }
     }
@@ -1357,7 +1352,7 @@ function backSelectScreen () {
  */
 function altCostumeSelected(slot) {
     var costumeSelector = $groupCostumeSelectors[slot-1];
-    var opponent = selectableGroups[groupPage].opponents[slot-1];
+    var opponent = selectedGroup.opponents[slot-1];
 
     var costumeDesc = costumeSelector.children(':selected').data('costumeDescriptor');
     opponent.selectAlternateCostume(costumeDesc);
@@ -1522,9 +1517,6 @@ function openGroupSearchModal() {
 function closeGroupSearchModal() {
     // perform the search and sort logic
     updateSelectableGroups();
-
-    // update
-    updateGroupSelectScreen();
     updateGroupCountStats();
 }
 

@@ -1817,8 +1817,7 @@ ul.dropdown-menu>li {
     right: 0.5%;
 }
 
-#individual-search-button,
-#group-search-button {
+#individual-search-button {
     left: 22%;
 }
 
@@ -1826,18 +1825,15 @@ ul.dropdown-menu>li {
     left: 12%;
 }
 
-#individual-basic-info-button,
-#group-basic-info-button {
+#individual-basic-info-button {
     right: 22%;
 }
 
-#individual-credits-button,
-#group-credits-button {
+#individual-credits-button {
     right: 12%;
 }
 
-#individual-more-info-button,
-#group-more-info-button {
+#individual-more-info-button {
     right: 2%;
 }
 
@@ -1940,6 +1936,7 @@ ul.dropdown-menu>li {
     height: 100%;
     width: auto;
 }
+
 
 /************************************************************
  * Classes for the new individual select screen.
@@ -2703,6 +2700,219 @@ ul.dropdown-menu>li {
     font-size: 1.5rem;
 }
 
+/************************************************************
+ * Classes for the group select screen.
+ ************************************************************/
+
+#group-controls-area {
+    position: absolute;
+    width: 100%;
+    bottom: 3%;
+}
+
+.group-control-item {
+    margin: 0.75rem auto;
+}
+
+.group-dock-button-row {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.group-dock-button-row .hide-table-button,
+.group-dock-button-row .table-bug-report-button {
+    position: static;
+    display: inline-block;
+
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+#group-alt-costume-selectors {
+    margin: 0 auto;
+    height: 2.25rem;
+}
+
+#group-alt-costume-selectors .alt-costume-dropdown {
+    position: absolute;
+    width: 23%;
+    margin: 0 1%;
+}
+
+#group-central-area {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#group-back-button {
+    margin-left: 0.75rem;
+}
+
+#group-name-wrapper, #group-bg-select-wrapper {
+    flex: 1;
+}
+
+#group-button {
+    width: 22rem;
+}
+
+#group-name-wrapper {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto 2rem auto 0;
+    padding: 0.6rem;
+}
+
+#group-name-label {
+    vertical-align: middle;
+    text-align: center;
+    font-size: 160%;
+}
+
+#group-bg-select-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.group-preset-background-row {
+    margin-left: 1rem;
+    margin-right: auto;
+    padding: 0.5rem 1rem;
+    
+    background: #F5F5F5;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#group-preset-background-label::before {
+    content: "BG: ";
+    font-weight: 500;
+}
+
+#group-preset-background-label {
+    flex: 1 1 auto;
+    font-weight: bold;
+    white-space: nowrap;
+
+    margin-bottom: 0;
+    margin-left: 0.5rem;
+}
+
+#group-enable-preset-backgrounds {
+    flex: 1 1 auto;
+    margin: 0;
+}
+
+#group-select-dock {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    height: 13rem;
+    background-color: rgba(40, 40, 40, 0.75);
+}
+
+.group-dock-item {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.group-dock-button {
+    font-size: 140%;
+    flex: none;
+    height: 10rem;
+    width: 9rem;
+}
+
+#group-list {
+    flex: 1;
+    height: 90%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow-y: scroll;
+}
+
+.group-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 120%;
+    margin: 1%;
+    background-color: #fff;
+    padding: 0.75rem 0.5rem;
+
+    background-color: rgba(175, 175, 175, 0.65);
+    cursor: pointer;
+}
+
+.group-list-item:hover {
+    background-color: rgba(221, 221, 221, 0.90);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.empty-group-list-item {
+    flex: 1;
+    cursor: auto;
+}
+
+.group-entry-item {
+    flex: 0 1 48%;
+}
+
+.group-item-text {
+    line-height: 2rem;
+    text-align: center;
+}
+
+#group-info {
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 23rem;
+    margin-right: 0.75rem;
+}
+
+#group-description-wrapper {
+    flex: 3;
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#group-description-text {
+    text-align: center;
+}
+
+#group-info-buttons {
+    flex: 1;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 0.5rem;
+}
+
+.group-info-button {
+    height: 100%;
+    flex: 1;
+    margin: 0 0.5rem;
+    font-size: 120%;
+    max-height: 5rem;
+}
 
 /************************************************************
  * Classes for the old individual and group select screens.
@@ -2785,55 +2995,6 @@ ul.dropdown-menu>li {
 
 .character-description {
     text-align: center;
-}
-
-#group-select-area {
-    position: absolute;
-    left: 37.5%;
-    bottom: 17%;
-}
-
-.group-preset-background-row {
-    width: 100%;
-    padding: 0.2rem 0.4rem;
-    margin-top: 0.2rem;
-
-    background: #F5F5F5;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#group-preset-background-label::before {
-    content: "BG: ";
-    font-weight: 500;
-}
-
-#group-preset-background-label {
-    vertical-align: middle;
-    font-weight: bold;
-    margin-bottom: 0;
-    margin-left: 0.5rem;
-}
-
-#group-enable-preset-backgrounds {
-    margin: 0;
-}
-
-.group-dock-button-row {
-    text-align: center;
-    margin-bottom: 0.5rem;
-}
-
-.group-dock-button-row .hide-table-button,
-.group-dock-button-row .table-bug-report-button {
-    position: static;
-    display: inline-block;
-
-    width: 3rem;
-    height: 3rem;
-    line-height: 3rem;
 }
 
 .select-badge-bar {
