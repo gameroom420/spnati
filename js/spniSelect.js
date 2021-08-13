@@ -53,9 +53,6 @@ var individualDetailDisplay = new OpponentDetailsDisplay();
 $groupSelectTable = $("#group-select-table");
 $groupSwitchTestingButton = $("#group-switch-testing-button");
 $groupNameLabels = [$("#group-name-label-1"), $("#group-name-label-2"), $("#group-name-label-3"), $("#group-name-label-4")];
-$groupPrefersLabels = [$("#group-prefers-label-1"), $("#group-prefers-label-2"), $("#group-prefers-label-3"), $("#group-prefers-label-4")];
-$groupSexLabels = [$("#group-sex-label-1"), $("#group-sex-label-2"), $("#group-sex-label-3"), $("#group-sex-label-4")];
-$groupHeightLabels = [$("#group-height-label-1"), $("#group-height-label-2"), $("#group-height-label-3"), $("#group-height-label-4")];
 $groupSourceLabels = [$("#group-source-label-1"), $("#group-source-label-2"), $("#group-source-label-3"), $("#group-source-label-4")];
 $groupWriterLabels = [$("#group-writer-label-1"), $("#group-writer-label-2"), $("#group-writer-label-3"), $("#group-writer-label-4")];
 $groupArtistLabels = [$("#group-artist-label-1"), $("#group-artist-label-2"), $("#group-artist-label-3"), $("#group-artist-label-4")];
@@ -551,8 +548,6 @@ function updateGroupSelectScreen (group, ignore_bg) {
             }
 
             $groupNameLabels[i].html(opponent.selectLabel);
-            $groupPrefersLabels[i].html(opponent.label);
-            $groupSexLabels[i].html(opponent.gender);
             $groupSourceLabels[i].html(opponent.source);
             $groupWriterLabels[i].html(opponent.writer);
             $groupArtistLabels[i].html(opponent.artist);
@@ -596,8 +591,6 @@ function updateGroupSelectScreen (group, ignore_bg) {
             delete shownGroup[i];
 
             $groupNameLabels[i].html("");
-            $groupPrefersLabels[i].html("");
-            $groupSexLabels[i].html("");
             $groupSourceLabels[i].html("");
             $groupWriterLabels[i].html("");
             $groupArtistLabels[i].html("");
