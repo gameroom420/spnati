@@ -153,6 +153,7 @@ var selectedSlot = 0;
 var selectedGroup = null;
 var shownIndividuals = Array(4);
 var shownGroup = Array(4);
+var shownInfoPage = 1;
 var randomLock = false;
 
 /* Status indicators */
@@ -468,10 +469,17 @@ function fillCostumeSelector($selector, costumes, selected_costume) {
  * This is really only necessary during initial load, when we need to
  * update this screen despite it not actually being visible.
  ************************************************************/
-function updateGroupSelectScreen (group, ignore_bg) {
+function updateGroupSelectScreen (group, ignore_bg, preview) {
     /* create and load all of the individual opponents */
-    $groupButton.attr('disabled', false);
-    selectedGroup = group;
+
+    if (preview) {
+        $("#group-select-screen").addClass("preview");
+        $groupButton.attr('disabled', true);
+    } else {
+        selectedGroup = group;
+        $("#group-select-screen").removeClass("preview");
+        $groupButton.attr('disabled', false);
+    }
 
     if (group) {
         $groupNameLabel.html(group.title);
@@ -480,30 +488,32 @@ function updateGroupSelectScreen (group, ignore_bg) {
             if (group.background && backgrounds[group.background]) {
                 var bg = backgrounds[group.background];
 
-                $('.group-preset-background-row').show();
+                $('#group-bg-select-wrapper').show();
                 $('#group-preset-background-label').text(bg.name);
 
-                $groupBackgroundToggle.prop('checked', useGroupBackgrounds).off('change');
-                $groupBackgroundToggle.on('change', function () {
-                    /* The user toggled the preset background checkbox. */
-                    useGroupBackgrounds = $groupBackgroundToggle.is(':checked');
-
+                if (!preview) {
+                    $groupBackgroundToggle.prop('checked', useGroupBackgrounds).off('change');
+                    $groupBackgroundToggle.on('change', function () {
+                        /* The user toggled the preset background checkbox. */
+                        useGroupBackgrounds = $groupBackgroundToggle.is(':checked');
+    
+                        if (useGroupBackgrounds) {
+                            bg.activateBackground();
+                        } else {
+                            optionsBackground.activateBackground();
+                        }
+    
+                        save.saveSettings();
+                    });
+    
                     if (useGroupBackgrounds) {
                         bg.activateBackground();
-                    } else {
-                        optionsBackground.activateBackground();
                     }
-
-                    save.saveSettings();
-                });
-
-                if (useGroupBackgrounds) {
-                    bg.activateBackground();
                 }
             } else {
-                $('.group-preset-background-row').hide();
+                $('#group-bg-select-wrapper').hide();
 
-                if (useGroupBackgrounds && activeBackground.id !== optionsBackground.id) {
+                if (!preview && useGroupBackgrounds && activeBackground.id !== optionsBackground.id) {
                     optionsBackground.activateBackground();
                 }
             }
@@ -909,7 +919,17 @@ function updateSelectableGroups() {
 
             elem.className = "group-list-item group-entry-item bordered";
             $(elem).on("click", function (ev) {
-                updateGroupSelectScreen(group, false);
+                updateGroupSelectScreen(group, false, false);
+            });
+
+            $(elem).on("mouseenter", function (ev) {
+                updateGroupSelectScreen(group, false, true);
+                changeGroupStats(1, true);
+            });
+
+            $(elem).on("mouseleave", function (ev) {
+                updateGroupSelectScreen(selectedGroup, false, false);
+                changeGroupStats(shownInfoPage);
             });
 
             textElem.className = "group-item-text";
@@ -1230,7 +1250,7 @@ function clickedRemoveAllButton (alsoRemoveSuggestions)
  * The player clicked on a change stats card button on the
  * group select screen.
  ************************************************************/
-function changeGroupStats (target) {
+function changeGroupStats (target, preview) {
     for (var i = 1; i < 5; i++) {
         for (var j = 1; j < 4; j++) {
             if (j != target) {
@@ -1242,14 +1262,18 @@ function changeGroupStats (target) {
         }
     }
 
-    $(".group-info-button").show();
+    if (!preview) {
+        shownInfoPage = target;
 
-    if (target === 1) {
-        $("#group-info-main").hide();
-    } else if (target === 2) {
-        $("#group-info-credits").hide();
-    } else if (target === 3) {
-        $("#group-info-more").hide();        
+        $(".group-info-button").show();
+    
+        if (target === 1) {
+            $("#group-info-main").hide();
+        } else if (target === 2) {
+            $("#group-info-credits").hide();
+        } else if (target === 3) {
+            $("#group-info-more").hide();        
+        }
     }
 
     groupCreditsShown = (target == 2); // true when Credits button is clicked
