@@ -1169,9 +1169,30 @@ ul.dropdown-menu>li {
 }
 
 #game-screen.dev-mode .dialogue-bubble,
-.screen .dialogue-bubble.over {
+.screen .dialogue-bubble.over,
+.screen .dialogue-bubble.auto:hover {
     z-index: 1000;
 }
+
+.dialogue-bubble.auto:not(:hover)::after {
+    content: "\1f5a2";
+    display: block;
+    position: absolute;
+    right: 0.2em;
+    bottom: 0em;
+    animation: 0.5s infinite alternate flash;
+}
+
+@keyframes flash {
+    from {
+        opacity: 100%
+    }
+
+    to {
+        opacity: 0%
+    }
+}
+
 
 .dialogue-bubble[data-editing="preview"] .dialogue-edit-status::after {
     content: " (Preview)";
