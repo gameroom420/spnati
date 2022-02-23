@@ -908,7 +908,7 @@ Opponent.prototype.unloadAlternateCostume = function () {
 }
 
 /**
- * Load the collectibles for this opponent by fetching collectibles.xml if necessary.
+ * Load the collectibles for this opponent by fetching collectibles.xml.
  * 
  * @returns {Promise<void>} A Promise that resolves after all collectibles are
  * loaded.
@@ -917,10 +917,6 @@ Opponent.prototype.unloadAlternateCostume = function () {
  * cannot be fetched or if loading them causes an error.
  */
 Opponent.prototype.fetchCollectibles = function () {
-    if (!this.has_collectibles || this.collectibles !== null) {
-        return immediatePromise();
-    }
-
     console.log("Fetching collectibles for " + this.id);
 
     return metadataIndex.getFile(this.folder + "collectibles.xml").then(function ($xml) {
@@ -1150,9 +1146,6 @@ Opponent.prototype.loadBehaviour = function (slot, individual) {
         }.bind(this));
     }
 
-    // start loading collectibles in parallel with behaviour.xml
-    var collectiblesPromise = this.fetchCollectibles();
-
     /* Success callback.
      * 'this' is bound to the Opponent object.
      */
@@ -1238,10 +1231,10 @@ Opponent.prototype.loadBehaviour = function (slot, individual) {
         }.bind(this)).then(function () {
             /* Wait for loading of all other stuff to complete: */
             if (this.selected_costume) {
-                return Promise.all([this.loadAlternateCostume(), collectiblesPromise]);
+                return this.loadAlternateCostume();
+            } else {
+                return immediatePromise();
             }
-
-            return collectiblesPromise;
         }.bind(this)).then(
             this.onSelected.bind(this, individual)
         ).catch(function(err) {
