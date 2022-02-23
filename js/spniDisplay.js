@@ -1576,7 +1576,7 @@ OpponentDetailsDisplay.prototype.update = function (opponent) {
         }
     }
 
-    if (COLLECTIBLES_ENABLED && opponent.has_collectibles) {
+    if (COLLECTIBLES_ENABLED && opponent.has_collectibles && opponent.collectibles !== null) {
         this.collectiblesField.addClass('has-collectibles');
         this.collectiblesNavButton
             .text("Available")

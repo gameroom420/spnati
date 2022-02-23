@@ -246,7 +246,9 @@ CardImageSet.prototype.getCollectible = function () {
     }.bind(this));
 
     if (!pl) return Promise.resolve(null);
-    if (!pl.has_collectibles) return Promise.resolve(null);
+    if (!pl.has_collectibles || pl.collectibles === null) {
+        return Promise.resolve(null);
+    }
 
     return immediatePromise().then(function () {
         return pl.collectibles.find(function (c) {

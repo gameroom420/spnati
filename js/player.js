@@ -930,6 +930,7 @@ Opponent.prototype.fetchCollectibles = function () {
             return !c.status || includedOpponentStatuses[c.status];
         });
     }.bind(this)).catch(function (err) {
+        this.has_collectibles = false;
         console.error("Error loading collectibles for "+this.id);
         throw err;
     }.bind(this));
