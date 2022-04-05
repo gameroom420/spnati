@@ -1527,10 +1527,10 @@ var fixupDialogueSubstitutions = { // Order matters
     "'":   '\u2019', // right single quotation mark
     '\\':  '\xad', // soft hyphen
     '~':   '\u223c', // tilde operator, bigger than ordinary tilde
-    '&lt;i&gt;': '<i>',
+    '&lt;i&gt;': '<i>', // this is preempted by a specific replacement pass-- but still substitute it for normalizeConditionText
     '&lt;br&gt;': '<br>',
     '&lt;hr&gt;': '<hr>',
-    '&lt;/i&gt;': '</i>',
+    '&lt;/i&gt;': '</i>', // same rationale as <i>, above: substitute specifically for normalizeConditionText
     '&lt;/br&gt;': '</br>',
     '&lt;/hr&gt;': '</hr>'
 };
@@ -1551,14 +1551,30 @@ function fixupDialogue (str) {
 }
 
 var styleSpecifierRE = /({(?:[a-zA-Z0-9\-\_!]+\s*)+})/gi;
+var mdTokenRE = /(\\[\*\_\\]|\*{1,3}|\_{1,3})/gi;
+
+/**
+ * Split a string according to a regex, and filter out zero-length result elements.
+ * 
+ * @param {string} text The text to split.
+ * @param {RegExp} re The regex to split with.
+ * @returns {string[]}
+ */
+function filteredSplit (text, re) {
+    return text.split(re).filter(function (p) { return p.length > 0; });
+}
+
+/**
+ * Split a dialogue text string into segments according to applied style specifiers.
+ * 
+ * @param {string} str The dialogue string to format.
+ * @returns {{text: string, classes: string}[]}
+ */
 function parseStyleSpecifiers (str) {
-    var rawFragments = str.split(styleSpecifierRE);
     var styledComponents = [];
     var curClasses = '';
     
-    rawFragments.forEach(function (frag) {
-        if (frag.length === 0) return;
-        
+    filteredSplit(str, styleSpecifierRE).forEach(function (frag) {        
         if (frag[0] === '{') {
             var classes = frag.slice(1, -1).trim();
             
@@ -1569,6 +1585,242 @@ function parseStyleSpecifiers (str) {
     });
     
     return styledComponents;
+}
+
+/**
+ * Creates a wrapper <span> element for formatted character dialogue.
+ * The returned <span> will have the given CSS classes applied,
+ * plus a data-character attribute.
+ * 
+ * @param {string?} styleClasses A space-separated list of CSS classes to apply.
+ * The `class` attribute of the returned <span> is set directly to this string, if provided.
+ * @param {string} characterID The ID of the character for whom dialogue is being formatted.
+ * @returns {HTMLSpanElement}
+ */
+function createWrapperSpan (styleClasses, characterID) {
+    var ret = document.createElement('span');
+    ret.setAttribute("data-character", characterID);
+    if (styleClasses) ret.className = styleClasses;
+    return ret;
+}
+
+/**
+ * Creates a <span> element for a segment of text that should have Markdown
+ * formatting applied.
+ * 
+ * @param {string} fmtType The type of formatting token surrounding this segment.
+ * @param {(string|HTMLElement)[]} contents The parsed contents to include within this segment.
+ * @param {string} characterID The ID of the character for whom dialogue is being formatted.
+ * @returns {HTMLSpanElement}
+ */
+function emitMarkdownHTML (fmtType, contents, characterID) {
+    var classes = "";
+    switch (fmtType) {
+        case "***": classes = "b i"; break;
+        case "**": classes = "b"; break;
+        case "*": classes = "i"; break;
+        case "___": classes = "u i"; break;
+        case "__": classes = "u"; break;
+        case "_": classes = "i"; break;
+    }
+
+    let wrapper = createWrapperSpan(classes, characterID);
+    $(wrapper).append(contents);
+    return wrapper;
+}
+
+/**
+ * Gets whether a parse stack element matches a given Markdown formatting token.
+ * 
+ * If curToken and matchToken are the same, then they clearly match.
+ * "*" and "**" are additionally allowed to match against "***".
+ * "_" and "__" are, likewise, allowed to match against "___".
+ * 
+ * These rules allow parsing segments such as the following:
+ * - ***bolded italics** normal italics*
+ * - ***bolded italics* bolded-only text**
+ * - ___underlined italics__ normal italics_
+ * - ___underlined italics_ underlined-only text__
+ * 
+ * @param {string} curToken The Markdown formatting token to match against.
+ * @param {string|HTMLElement} matchToken The candidate parse stack element.
+ * @returns {boolean}
+ */
+function isMatchingToken (curToken, matchToken) {
+    switch (curToken) {
+    case "*": return (matchToken === "*" || matchToken === "***");
+    case "**": return (matchToken === "**" || matchToken === "***");
+    case "***": return matchToken === "***"; 
+    case "_": return (matchToken === "_" || matchToken === "___");
+    case "__": return (matchToken === "__" || matchToken === "___");
+    case "___": return matchToken === "___";
+    default: return false;
+    }
+}
+
+/**
+ * Converts escaped Markdown formatting tokens into their unescaped equivalents,
+ * while leaving everything else unchanged.
+ * @param {string|HTMLElement} token 
+ * @returns {string|HTMLElement}
+ */
+function unescapeMarkdownTokens(token) {
+    if (token === "\\*" || token === "\\_" || token === "\\\\") {
+        return token[1];
+    } else {
+        return token;
+    }
+}
+
+
+/**
+ * Parses a small subset of Markdown within a dialogue text string,
+ * and converts it into a list of strings and (potentially nested) HTML elements,
+ * according to the parsed Markdown formatting.
+ * 
+ * The resulting list is suitable to be passed to e.g. jQuery's append() method.
+ * 
+ * Segments of text that have formatting applied to them (e.g. substrings such as _this_ or **this**)
+ * are emitted as <span> elements with "i", "b", and "u" classes + a data-character attribute,
+ * similarly to segments of text that use style specifiers.
+ * 
+ * Internally, this function implements a modified shift-reduce parser for the following subset of Markdown:
+ * - *italics* and _italics_
+ * - **bold text**
+ * - __underlined text__
+ * - ***bold italics***
+ * - ___underlined italics___
+ * 
+ * This subset is very similar to the Markdown syntax used for Discord messages, except without the strikethrough
+ * syntax (since the ~~strikethrough~~ Markdown syntax would conflict with our syntax for variables).
+ * 
+ * Unlike a regular shift-reduce parser, this parser sometimes modifies tokens on the parse stack in-place,
+ * in order to split apart "___" and "***" tokens that later match against "__"/"_" or "**"/"*", respectively.
+ * 
+ * @param {string} text The dialogue to format.
+ * @param {string} characterID The ID of the character for whom dialogue is being formatted.
+ * @returns {(string|HTMLElement)[]}
+ */
+function parseMarkdown (text, characterID) {
+    /*
+     * As a special case, convert <i> and </i> to underscores, to ensure mixed formatting doesn't break.
+     * (As a side effect, this also corrects lines where an <i> tag is nested within another <i> tag,
+     *  so that the inner <i> is correctly emphasized by removing italics.)
+     * 
+     * Underscores are used here instead of asterisks, since underscores are used much less often in dialogue.
+     */
+    var tokens = filteredSplit(text.replace(/&lt;\/?i&gt;/gi, "_"), mdTokenRE);
+    var parseStack = [];
+
+    tokens.forEach(function (curToken) {
+        if (curToken == "\\*" || curToken == "\\_" || curToken == "\\\\") {
+            /* 
+             * Push the escaping backslash along with the actual escaped character,
+             * so that upcoming tokens don't match this token.
+             */
+            parseStack.push(curToken);
+        } else if (curToken == "***" || curToken == "**" || curToken == "*" || curToken == "___" || curToken == "__" || curToken == "_") {
+            let reduceIdx = -1;
+            for (let i = parseStack.length-1; i >= 0; i--) {
+                if (isMatchingToken(curToken, parseStack[i])) {
+                    reduceIdx = i;
+                    break;
+                }
+            }
+
+            /* If no previous token was matched, push this token onto the stack for later tokens to match. */
+            if (reduceIdx === -1) {
+                parseStack.push(curToken);
+                return;
+            }
+            
+            let reduceToken = parseStack[reduceIdx];
+            if (reduceToken === curToken) {
+                /*
+                 * Combine all parsed elements from reduceIdx onwards into a single 'reduced' HTML element,
+                 * then replace the token matched at reduceIdx itself with that HTML element.
+                 * 
+                 * We also need to fix up escaped tokens (\*, etc.) before inserting them into the formatted <span>.
+                 */
+                parseStack[reduceIdx] = emitMarkdownHTML(
+                    reduceToken,
+                    parseStack.splice(reduceIdx+1).map(unescapeMarkdownTokens),
+                    characterID
+                );
+            } else {
+                /* 
+                 * In this case, we've matched reduceToken as "___" or "***",
+                 * with curToken being "__"/"_" or "**"/"*" respectively.
+                 *
+                 * Split reduceToken in-place, by removing only the part that matches curToken.
+                 * Then reduce everything else into the appropriate HTML element for curToken.
+                 */
+                parseStack[reduceIdx] = parseStack[reduceIdx].substring(curToken.length);
+                parseStack.push(emitMarkdownHTML(
+                    curToken,
+                    parseStack.splice(reduceIdx+1).map(unescapeMarkdownTokens),
+                    characterID
+                ));
+            }
+        } else {
+            /* Push leading and trailing whitespace separately, since parseFromString won't preserve it. */
+            let startSpace = curToken.match(/^\s*/)[0];
+            let endSpace = curToken.match(/\s*$/)[0];
+            curToken = curToken.substring(startSpace.length, curToken.length - endSpace.length);
+            
+            if (startSpace.length > 0) parseStack.push(startSpace);
+        
+            let parser = new DOMParser();
+            let parsed = parser.parseFromString(fixupDialogue(curToken), "text/html");
+            Array.prototype.push.apply(parseStack, parsed.body.childNodes);
+        
+            if (endSpace.length > 0) parseStack.push(endSpace);
+        }
+    });
+
+    /* Go back and replace escaped tokens with their regular counterparts. */
+    return parseStack.map(unescapeMarkdownTokens);
+}
+
+/**
+ * Apply full dialogue styling to a string of dialogue text.
+ * 
+ * This performs, in order:
+ * - Style specifier parsing
+ * - Markdown parsing
+ * - Dialogue substitutions / fixups
+ * 
+ * In other words, segments of dialogue delineated by style specifiers have Markdown
+ * formatting applied independently, and the text segments output by each Markdown
+ * parsing pass have fixupDialogue applied independently as well.
+ * 
+ * This returns a list of <span> elements, where each <span> corresponds to a separate
+ * segment of dialogue with applied style specifiers.
+ * 
+ * @param {string} text The dialogue to format.
+ * @param {string} characterID The ID of the character for whom dialogue is being formatted.
+ * @returns {HTMLSpanElement[]}
+ */
+function applyDialogueStyling (text, characterID) {
+    return parseStyleSpecifiers(text).map(function (comp) {
+        /* {'text': 'foo', 'classes': 'cls1 cls2 cls3'} --> <span class="cls1 cls2 cls3">foo</span> */
+        var wrapperSpan = createWrapperSpan(comp.classes, characterID);
+
+        /* Suppress Markdown parsing for <script> tag contents. */
+        var contents = comp.text.split(/(<script>.*?<\/script>)/i).reduce(function (contents, segment) {
+            if (segment.startsWith("<script>")) {
+                contents.push(segment);
+            } else {
+                Array.prototype.push.apply(contents, parseMarkdown(segment, characterID));
+            }
+
+            return contents;
+        }, []);
+        
+        $(wrapperSpan).append(contents);
+        
+        return wrapperSpan;
+    });
 }
 
 /* Strip all formatting instructions (HTML tags and style specifiers)
