@@ -58,6 +58,22 @@ function Save() {
      * @type {Object<string, string[]>}
      */
     this.endings = {};
+    
+    /**
+     * A map containing what markers have been set by this player
+     * for each character.
+     * 
+     * @type {Object<string, any[]>}
+     */
+    this.markers = {};
+    
+    /**
+     * A map containing what collectibles have been unlocked by this player
+     * for each character.
+     * 
+     * @type {Object<string, string[]>}
+     */
+    this.collectibles = {};
 }
 
 /**
@@ -265,6 +281,8 @@ Save.prototype.load = function() {
     this.loadOptions();
     this.loadPlayer();
     this.loadEndings();
+    this.loadCollectibles();
+    this.loadMarkers();
 
     if (CARD_DECKS_ENABLED) {
         ACTIVE_CARD_IMAGES.load();
@@ -453,6 +471,14 @@ Save.prototype.loadEndings = function () {
     this.endings = this.getItem("endings") || {};
 }
 
+Save.prototype.loadCollectibles = function () {
+    this.collectibles = this.getItem("collectibles") || {};
+}
+
+Save.prototype.loadMarkers = function () {
+    this.markers = this.getItem("markers") || {};
+}
+
 /**
  * Get the raw list of selected clothing IDs for the current player gender.
  * @returns {Set<string>}
@@ -558,14 +584,19 @@ Save.prototype.addEnding = function(character, title) {
  */
 Save.prototype.setCollectibleCounter = function (collectible, counter) {
     if (!COLLECTIBLES_ENABLED) return;
+    this.loadCollectibles();
     
-    var charID = '__general';
+    var charID = "__general";
     if (collectible.player) {
         charID = collectible.player.id;
     }
 
-    var key = 'collectibles.' + charID + '.' + collectible.id;
-    this.setItem(key, counter);
+    if (!(charID in this.collectibles)) {
+        this.collectibles[charID] = {};
+    }
+    this.collectibles[charID][collectible.id] = counter;
+    
+    this.setItem("collectibles", this.collectibles);
 }
 
 /**
@@ -576,33 +607,51 @@ Save.prototype.setCollectibleCounter = function (collectible, counter) {
  */
 Save.prototype.getCollectibleCounter = function (collectible) {
     if (!COLLECTIBLES_ENABLED) return 0;
+    this.loadCollectibles();
     
-    var charID = '__general';
+    var charID = "__general";
     if (collectible.player) {
         charID = collectible.player.id;
     }
-
-    /* Need to correct for incorrectly generated key names from previous
-     * versions.
-     */
-    var newKey = 'collectibles.' + charID + '.' + collectible.id;
-    var ctr = this.getItem(newKey);
-    if (typeof(ctr) === "number") {
-        return ctr;
-    } else {
-        var oldKey = 'collectibles.' + charID + collectible.id;
-        ctr = parseInt(this.getItem(oldKey), 10);
-        if (isNaN(ctr)) {
-            /* No values available at all */
-            return 0;
-        }
-
-        /* Save to the correct key and clear out the previous key */
-        this.setItem(newKey, ctr);
-        this.removeItem(oldKey);
-
-        return ctr;
+    
+    if (this.collectibles[charID] === undefined) {
+        this.collectibles[charID] = {}
     }
+    
+    /* Need to correct for incorrectly generated key names from previous
+     * versions. 
+     * Twice now. It's been two years with the "new" system but I'll keep the old one regardless.
+     */
+     
+    var ctr = this.collectibles[charID][collectible.id];
+    
+    if (ctr !== undefined) {
+        return ctr;
+    } else {        
+        var oldKey1 = "collectibles." + charID + "." + collectible.id;
+        ctr = this.getItem(oldKey1);
+        if (typeof(ctr) === "number") {
+            this.removeItem(oldKey1);
+            this.collectibles[charID][collectible.id] = ctr;
+            this.setItem("collectibles", this.collectibles);
+            return ctr;
+        } else {
+            var oldKey2 = "collectibles." + charID + collectible.id;
+            ctr = parseInt(this.getItem(oldKey2), 10);
+            if (isNaN(ctr)) {
+                /* No values available at all */
+                return 0;
+            }
+
+            /* Clear out both of the previous keys, save counter */
+            this.removeItem(oldKey1);
+            this.removeItem(oldKey2);
+            this.collectibles[charID][collectible.id] = ctr;
+            this.setItem("collectibles", this.collectibles);
+            return ctr;
+        }
+    }
+        
 }
 
 /**
@@ -613,8 +662,29 @@ Save.prototype.getCollectibleCounter = function (collectible) {
  * @returns {string | number}
  */
 Save.prototype.getPersistentMarker = function (player, name) {
-    var val = this.getItem('marker.' + player.id + '.' + name, true);
-    return val || '';
+    this.loadMarkers();
+    
+    if (this.markers[player.id] === undefined) {
+        this.markers[player.id] = {};
+    }
+    
+    var val = this.markers[player.id][name];
+    if (val !== undefined) {
+        return val;
+    } else {
+        var oldKey = "marker." + player.id + "." + name;
+        val = this.getItem(oldKey, true);
+        if (val !== "") {
+            /* Remove old key and save value in the new system */
+            this.removeItem(oldKey);
+            this.markers[player.id][name] = val;
+            this.setItem("markers", this.markers);
+            return val;
+        }
+        
+        /* No value stored in old key */
+        return "";
+    }
 }
 
 /**
@@ -625,7 +695,14 @@ Save.prototype.getPersistentMarker = function (player, name) {
  * @param {string | number} value
  */
 Save.prototype.setPersistentMarker = function (player, name, value) {
-    this.setItem('marker.' + player.id + '.' + name, value);
+    this.loadMarkers();
+    
+    if (this.markers[player.id] === undefined) {
+        this.markers[player.id] = {};
+    }
+    
+    this.markers[player.id][name] = value;
+    this.setItem("markers", this.markers);
 }
 
 /**
