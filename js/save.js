@@ -571,9 +571,6 @@ Save.prototype.addEnding = function(character, title) {
     
     //Clear table of endings, so they are loaded agin when player visits gallery
     allEndings = [];
-    anyEndings = [];
-    maleEndings = [];
-    femaleEndings = [];
 }
 
 /**
