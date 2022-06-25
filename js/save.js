@@ -63,15 +63,14 @@ function Save() {
      * A map containing what markers have been set by this player
      * for each character.
      * 
-     * @type {Object<string, any[]>}
+     * @type {Object<string, Object<string, any>>}
      */
     this.markers = {};
     
     /**
-     * A map containing what collectibles have been unlocked by this player
-     * for each character.
+     * A map containing this player's collectible progress for each character.
      * 
-     * @type {Object<string, string[]>}
+     * @type {Object<string, Object<string, number>>}
      */
     this.collectibles = {};
 }
@@ -588,7 +587,7 @@ Save.prototype.setCollectibleCounter = function (collectible, counter) {
         charID = collectible.player.id;
     }
 
-    if (!(charID in this.collectibles)) {
+    if (this.collectibles[charID] === undefined) {
         this.collectibles[charID] = {};
     }
     this.collectibles[charID][collectible.id] = counter;
