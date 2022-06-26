@@ -377,7 +377,7 @@ function startDealPhase () {
     var n = 0;
     for (var i = 0; i < players.length; i++) {
         if (players[i]) {
-            console.log(players[i] + " "+ i);
+            console.log(players[i], i);
             if (!players[i].out) {
                 /* deal out a new hand to this player */
                 dealHand(i, numPlayers, n++);
