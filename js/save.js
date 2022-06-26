@@ -455,7 +455,7 @@ Save.prototype.loadCharacter = function (charID) {
     if (this.characters[charID]) {
         return; 
     }
-    this.characters(charID) = this.getItem(charID) || {};
+    this.characters[charID] = this.getItem(charID) || {};
 }
 
 /**
@@ -616,7 +616,7 @@ Save.prototype.getCollectibleCounter = function (collectible) {
         ctr = this.getItem(oldKey1);
         if (typeof(ctr) === "number") {
             this.removeItem(oldKey1);
-            this.characters[charID].colletibles[collectible.id] = ctr;
+            this.characters[charID].collectibles[collectible.id] = ctr;
             this.setItem(charID, this.characters[charID]);
             return ctr;
         } else {
@@ -630,7 +630,7 @@ Save.prototype.getCollectibleCounter = function (collectible) {
             /* Clear out both of the previous keys, save counter */
             this.removeItem(oldKey1);
             this.removeItem(oldKey2);
-            this.characters[charID].colletibles[collectible.id] = ctr;
+            this.characters[charID].collectibles[collectible.id] = ctr;
             this.setItem(charID, this.characters[charID]);
             return ctr;
         }
