@@ -253,7 +253,7 @@ Save.prototype.loadLocalStorage = function () {
             if (!key.startsWith(this.prefix)) {
                 continue;
             }
-
+            
             var suffix = key.substring(this.prefix.length);
             this.storageCache[suffix] = localStorage.getItem(key);
         } catch (ex) {
@@ -531,7 +531,7 @@ Save.prototype.hasEnding = function(character, title) {
     } else { // check old "endings" array
         endingsArray = (this.getItem("endings") || {})[character];
         if (Array.isArray(endingsArray) && endingsArray.indexOf(title) >= 0) {
-            if (this.characters[character].endings === undefined)) {
+            if (this.characters[character].endings === undefined) {
                 this.characters[character].endings = [];
             }
             this.characters[character].endings.push(title);
@@ -549,7 +549,7 @@ Save.prototype.hasEnding = function(character, title) {
  * @param {string} title
  */
 Save.prototype.addEnding = function(character, title) {
-    if (this.characters[character].endings === undefined)) {
+    if (this.characters[character].endings === undefined) {
         this.characters[character].endings = [];
     } else if (this.characters[character].endings.indexOf(title) >= 0) {
         return;
