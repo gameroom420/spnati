@@ -237,6 +237,65 @@ Save.prototype.convertCookie = function() {
     }
 };
 
+Save.prototype.convertOlderSave = function () {
+    Object.keys(this.storageCache).forEach(function (key) {
+        const value = this.storageCache[key];
+        if (typeof(key) === "string" && key.startsWith("marker.")) {
+        
+            const parts = key.split(".");
+            const character = parts[1];
+            const marker_name = parts[2];
+            
+            const character_object = this.getItem(character) || {};
+            
+            if (character_object.markers === undefined) {
+                character_object.markers = {};
+            }
+            character_object.markers[marker_name] = value;
+            this.removeItem(key);
+            this.setItem(character, character_object);
+            
+        } else if (typeof(key) === "string" && key.startsWith("collectibles.")) {
+            
+            const parts = key.split(".");
+            if (parts.length > 2) {
+                const character = parts[1];
+                const collectible_name = parts[2];
+                
+                const character_object = this.getItem(character) || {};
+                
+                if (character_object.collectibles === undefined) {
+                    character_object.collectibles = {};
+                }
+                character_object.collectibles[collectible_name] = value;
+                this.removeItem(key);
+                this.setItem(character, character_object);
+            } else {
+                // old problem with "collectibles." + charID + collectible.id;
+            }
+        } else if (key === "endings")  {
+            const endings_array = JSON.parse(value);
+            Object.keys(endings_array).forEach(function (character) {
+                const character_object = this.getItem(character) || {};
+                
+                if (character_object.endings === undefined) {
+                    character_object.endings = [];
+                }
+                character_endings = endings_array[character] || [];
+                
+                character_endings.forEach(ending => {
+                    if (character_object.endings.indexOf(ending) == -1) {
+                        character_object.endings.push(ending);
+                    }
+                });
+                this.removeItem(key);
+                this.setItem(character, character_object);  
+            }.bind(this));
+        }
+    }.bind(this));
+        
+}
+
 Save.prototype.loadLocalStorage = function () {
     var len = 0;
     try {
@@ -265,6 +324,7 @@ Save.prototype.loadLocalStorage = function () {
 
 Save.prototype.load = function() {
     this.convertCookie();
+    this.convertOlderSave();
     this.loadOptions();
     this.loadPlayer();
 
@@ -523,23 +583,10 @@ Save.prototype.hasEnding = function(character, title) {
     var unlocked = false;
     var endingsArray = this.characters[character].endings;
     if (Array.isArray(endingsArray)) {
-        unlocked = endingsArray.indexOf(title) >= 0;
+        return endingsArray.indexOf(title) >= 0;
     }
     
-    if (unlocked) {
-        return true;
-    } else { // check old "endings" array
-        endingsArray = (this.getItem("endings") || {})[character];
-        if (Array.isArray(endingsArray) && endingsArray.indexOf(title) >= 0) {
-            if (this.characters[character].endings === undefined) {
-                this.characters[character].endings = [];
-            }
-            this.characters[character].endings.push(title);
-            this.setItem(character, this.character);
-            return true;
-        }
-        return false;
-    } 
+    return false;
 };
 
 /**
@@ -604,36 +651,24 @@ Save.prototype.getCollectibleCounter = function (collectible) {
     
     /* Need to correct for incorrectly generated key names from previous
      * versions. 
-     * Twice now. It's been two years with the "new" system but I'll keep the old one regardless.
      */
-     
     var ctr = this.characters[charID].collectibles[collectible.id];
     
     if (ctr !== undefined) {
         return ctr;
     } else { // check old system       
-        var oldKey1 = "collectibles." + charID + "." + collectible.id;
-        ctr = this.getItem(oldKey1);
-        if (typeof(ctr) === "number") {
-            this.removeItem(oldKey1);
-            this.characters[charID].collectibles[collectible.id] = ctr;
-            this.setItem(charID, this.characters[charID]);
-            return ctr;
-        } else {
-            var oldKey2 = "collectibles." + charID + collectible.id;
-            ctr = parseInt(this.getItem(oldKey2), 10);
-            if (isNaN(ctr)) {
-                /* No values available at all */
-                return 0;
-            }
-
-            /* Clear out both of the previous keys, save counter */
-            this.removeItem(oldKey1);
-            this.removeItem(oldKey2);
-            this.characters[charID].collectibles[collectible.id] = ctr;
-            this.setItem(charID, this.characters[charID]);
-            return ctr;
+        var oldKey2 = "collectibles." + charID + collectible.id;
+        ctr = parseInt(this.getItem(oldKey2), 10);
+        if (isNaN(ctr)) {
+            /* No values available at all */
+            return 0;
         }
+
+        /* Clear out the last of the previous keys, save counter */
+        this.removeItem(oldKey2);
+        this.characters[charID].collectibles[collectible.id] = ctr;
+        this.setItem(charID, this.characters[charID]);
+        return ctr;
     }
         
 }
@@ -654,20 +689,8 @@ Save.prototype.getPersistentMarker = function (player, name) {
     var val = this.characters[charID].markers[name];
     if (val !== undefined) {
         return val;
-    } else { // check old marker system
-        var oldKey = "marker." + player.id + "." + name;
-        val = this.getItem(oldKey, true);
-        if (val !== "") {
-            /* Remove old key and save value in the new system */
-            this.removeItem(oldKey);
-            this.characters[charID].markers[name] = val;
-            this.setItem(charID, this.characters[charID]);
-            return val;
-        }
-        
-        /* No value stored in old key */
-        return "";
     }
+    return "";
 }
 
 /**
