@@ -436,7 +436,7 @@ var DEFAULT_CLOTHING_OPTIONS = [
     new PlayerClothing('jacket', 'jacket', MINOR_ARTICLE, UPPER_ARTICLE, "player/male/jacket.png", false, "jacketA", "male", null),
     new PlayerClothing('shirt', 'shirt', MAJOR_ARTICLE, UPPER_ARTICLE, "player/male/shirt.png", false, "shirtA", "male", null),
     new PlayerClothing('t-shirt', 'shirt', MAJOR_ARTICLE, UPPER_ARTICLE, "player/male/tshirt.png", false, "tshirt", "male", null),
-    new PlayerClothing('undershirt', 'shirt', IMPORTANT_ARTICLE, UPPER_ARTICLE, "player/male/undershirt.png", false, "undershirt", "male", null),
+    new PlayerClothing('undershirt', 'shirt', MAJOR_ARTICLE, UPPER_ARTICLE, "player/male/undershirt.png", false, "undershirt", "male", null),
 
     new PlayerClothing('jacket', 'jacket', MINOR_ARTICLE, UPPER_ARTICLE, "player/female/jacket.png", false, "jacketB", "female", null),
     new PlayerClothing('shirt', 'shirt', MAJOR_ARTICLE, UPPER_ARTICLE, "player/female/shirt.png", false, "shirtB", "female", null),
@@ -478,7 +478,6 @@ var DEFAULT_CLOTHING_OPTIONS = [
     new PlayerClothing('boots', 'shoes', EXTRA_ARTICLE, 'feet', "player/male/boots.png", true, "boots", "male", null),
 
     new PlayerClothing('stockings', 'socks', MINOR_ARTICLE, 'legs', "player/female/stockings.png", true, "stockings", "female", null),
-    new PlayerClothing('socks', 'socks', MINOR_ARTICLE, 'feet', "player/female/socks.png", true, "socksB", "female", null),
     new PlayerClothing('shoes', 'shoes', EXTRA_ARTICLE, 'feet', "player/female/shoes.png", true, "shoesB", "female", null),
 ];
 
@@ -489,6 +488,16 @@ var PLAYER_CLOTHING_OPTIONS = {};
 DEFAULT_CLOTHING_OPTIONS.forEach(function (clothing) {
     PLAYER_CLOTHING_OPTIONS[clothing.id] = clothing;
 });
+
+/* note: "full" clothing is not included here, so that it's grouped with misc. items */
+var CLOTHING_POSITION_SORT_ORDER = [
+    [UPPER_ARTICLE],
+    [LOWER_ARTICLE],
+    ["waist"],
+    ["feet", "legs"],
+    ["head", "neck"],
+    ["hands", "arms"],
+]
 
 /**
  * @type {TitleClothingSelectionIcon[]}
@@ -592,73 +601,43 @@ function finishStartupLoading () {
  */
 function TitleClothingSelectionIcon (clothing) {
     this.clothing = clothing;
-    this.elem = clothing.createSelectionElement();
+    this.elem = clothing.createIconElement("button");
 
     $(this.elem).on("click", this.onClick.bind(this)).addClass("title-content-button");
+    $(this.elem).on("mouseover", displayClothingDescription.bind(null, this.clothing));
+    $(this.elem).on("focus", displayClothingDescription.bind(null, this.clothing));
 
-    /* Selectors block default touch-scrolling behavior, so manually handle that */
     handleSwipe(this.elem, function (touch, lastPos, startPos) {
-        var listElem = document.getElementById("title-clothing-container");
-        listElem.scrollTop -= touch.clientY - lastPos[1];
+        var container = document.getElementById("title-clothing-container");
+        var delta = touch.clientY - lastPos[1];
 
-        /* Hide tooltips when the user is scrolling */
-        if (Math.abs(touch.clientY - startPos[1]) >= 25) {
-            $(this.elem).tooltip("hide");
-        }
-    }.bind(this));
-
-    if (this.clothing.collectible) {
-        $(this.elem).attr("title", null).tooltip({
-            delay: { show: 50 },
-            title: this.tooltip.bind(this)
-        }).on("touchstart", function () {
-            $(this.elem).tooltip("show");
-        }.bind(this));
-    }
+        /* subtract delta so that upward swipes scroll downward and vice-versa */
+        container.scroll({
+            top: container.scrollTop - delta
+        });
+    });
 }
 
 TitleClothingSelectionIcon.prototype.visible = function () {
-    if (this.clothing.isAvailable()) {
-        return true;
-    }
-    
-    if (this.clothing.applicable_genders !== "all" && humanPlayer.gender !== this.clothing.applicable_genders) {
-        return false;
-    }
-
     if (this.clothing.collectible) {
         return !this.clothing.collectible.hidden;
     }
 
-    return false;
-}
-
-TitleClothingSelectionIcon.prototype.tooltip = function () {
-    var collectible = this.clothing.collectible;
-    if (!collectible) return "";
-
-    if (this.clothing.isAvailable()) {
-        let tooltip = collectible.title;
-        if (collectible.player && tooltip.indexOf(collectible.player.metaLabel) < 0) {
-            tooltip += " - from " + collectible.player.metaLabel;
-        }
-
-        return tooltip;
-    } else {
-        return "To unlock: " + collectible.unlock_hint;
-    }
+    return true;
 }
 
 TitleClothingSelectionIcon.prototype.update = function () {
-    $(this.elem).removeClass("available selected");
+    $(this.elem).removeClass("available selected locked");
     if (this.clothing.isAvailable()) {
         $(this.elem).addClass("available");
-		updateClothingCount();
+        updateClothingCount();
+    } else {
+        $(this.elem).addClass("locked");
     }
 
     if (this.clothing.isSelected()) {
         $(this.elem).addClass("selected");
-		updateClothingCount();
+        updateClothingCount();
     }
 }
 
@@ -666,6 +645,7 @@ TitleClothingSelectionIcon.prototype.onClick = function () {
     if (this.clothing.isAvailable()) {
         this.clothing.setSelected(!this.clothing.isSelected());
         this.update();
+        updateSelectedClothingView();
     }
 }
 
@@ -719,67 +699,303 @@ function changePlayerGender (gender) {
     save.savePlayer();
     humanPlayer.gender = gender;
     save.loadPlayer();
+    save.setItem("gender", gender);
     updateTitleScreen();
     updateSelectionVisuals(); // To update epilogue availability status
 }
 
 function createClothingSeparator () {
-    var separator = document.createElement("hr");
-    separator.className = "clothing-separator";
     return separator;
 }
+
+function appendSelectors (elem, selectors) {
+    return $(elem).append(selectors.map(function (s) {
+        return s.elem;
+    }));
+}
+
+/**
+ * 
+ * @param {string} pos
+ * @returns {number} 
+ */
+function getPositionSortKey(pos) {
+    var ret = CLOTHING_POSITION_SORT_ORDER.findIndex(function (group) {
+        return group.indexOf(pos) >= 0;
+    });
+
+    return (ret >= 0) ? ret : CLOTHING_POSITION_SORT_ORDER.length;
+}
+
+/**
+ * 
+ * @param {TitleClothingSelectionIcon[]} selectors 
+ * @param {number} typeIdx 
+ */
+function appendClothingTypeGroup (selectors, typeIdx) {
+    var positions = {};
+
+    selectors.forEach(function (selector) {
+        var key = getPositionSortKey(selector.clothing.position);
+        if (!positions[key]) positions[key] = [];
+        positions[key].push(selector);
+    });
+
+    var typeStr = (typeIdx == 0) ? "important" : ((typeIdx == 1) ? "major" : "other");
+    var $container = $("#title-clothing-container");
+    var separatorKeys = [];
+
+    Object.keys(positions).sort().reduce(function (ret, key) {
+        ret.push([key, positions[key]]);
+        return ret;
+    }, []).forEach(function (pair, subgroupIdx) {
+        var positionKey = pair[0];
+        var subgroup = pair[1];
+
+        if ((typeIdx !== 0 || subgroupIdx !== 0) && subgroup.length > 0) {
+            let separator = document.createElement("hr");
+            separator.className = "clothing-separator";
+            separator.setAttribute("data-position-key", positionKey);
+            separator.setAttribute("data-clothing-type", typeStr);
+            separatorKeys.push(positionKey);
+
+            $container.append(separator);
+        }
+
+        $container.append(subgroup.map(function (s) {
+            return s.elem;
+        }));
+    });
+
+    $(".title-clothing-nav-button").filter(function (idx, elem) {
+        return (
+            (elem.getAttribute("data-nav-target-type") == typeStr) &&
+            (separatorKeys.indexOf(elem.getAttribute("data-nav-target-key")) >= 0)
+        );
+    }).show();
+}
+
+function scrollToClothingSeparator (clothingType, positionKey) {
+    var container = document.getElementById("title-clothing-container");
+    var separator = $(".clothing-separator").filter(function (idx, elem) {
+        return (
+            (elem.getAttribute("data-clothing-type") == clothingType) &&
+            (elem.getAttribute("data-position-key") == positionKey)
+        );
+    });
+
+    if (separator.length === 0) {
+        container.scrollTop = 0;
+    } else {
+        var offset = separator.position().top - separator.outerHeight(true);
+        if (Math.abs(offset) > 5) {
+            container.scrollTop += offset;
+        }
+    }
+}
+
+$(".title-clothing-nav-button").on("click", function (ev) {
+    var target = ev.target;
+    scrollToClothingSeparator(
+        target.getAttribute("data-nav-target-type"),
+        target.getAttribute("data-nav-target-key")
+    );
+});
 
 /************************************************************
  * Updates the gender dependent controls on the title screen.
  ************************************************************/
 function updateTitleScreen () {
-    $titleContainer.removeClass('male female').addClass(humanPlayer.gender);
+    $('#title-gender-size-container').removeClass('male female').addClass(humanPlayer.gender)
     $playerTagsModal.removeClass('male female').addClass(humanPlayer.gender);
 
-    var availableSelectors = [];
-    var defaultSelectors = [];
-    var lockedSelectors = [];
+    var typeGroups = [[], [], []];
+    var typeIdx = {
+        "important": 0,
+        "major": 1,
+        "minor": 2,
+        "extra": 3,
+    };
+
+    titleClothingSelectors.sort(function (a, b) {
+        var cmpA = (a.clothing.applicable_genders === "all" || a.clothing.applicable_genders === humanPlayer.gender);
+        var cmpB = (b.clothing.applicable_genders === "all" || b.clothing.applicable_genders === humanPlayer.gender);
+        return cmpB - cmpA;
+    }).sort(function (a, b) {
+        if (a.clothing.generic === b.clothing.generic) {
+            return 0;
+        } else if (a.clothing.generic < b.clothing.generic) {
+            return -1;
+        } else {
+            return 1;
+        }
+    }).sort(function (a, b) {
+        return typeIdx[a.clothing.type] - typeIdx[b.clothing.type];
+    }).sort(function (a, b) {
+        return b.clothing.isAvailable() - a.clothing.isAvailable();
+    });
 
     titleClothingSelectors.forEach(function (selector) {
-        var clothing = selector.clothing;
         $(selector.elem).detach();
+        if (!selector.visible()) return;
 
-        if (!selector.visible()) {
-            return;
-        }
-
-        if (selector.clothing.collectible) {
-            if (selector.clothing.isAvailable()) {
-                availableSelectors.push(selector);
-            } else {
-                lockedSelectors.push(selector);
-            }
-        } else {
-            defaultSelectors.push(selector);
+        switch (selector.clothing.type) {
+        case "important": typeGroups[0].push(selector); break;
+        case "major": typeGroups[1].push(selector); break;
+        case "minor":
+        case "extra":
+        default:
+            typeGroups[2].push(selector);
+            break;
         }
 
         selector.update();
     });
 
     $("#title-clothing-container").empty();
+    $(".title-clothing-nav-button").hide();
+    typeGroups.forEach(appendClothingTypeGroup);
 
-    if (availableSelectors.length > 0) {
-        $("#title-clothing-container").append(availableSelectors.map(function (s) {
-            return s.elem;
-        })).append(createClothingSeparator());
-    }
+    $('.title-clothing-nav-button[data-nav-target-type="important"][data-nav-target-key="0"]').show();
 
-    $("#title-clothing-container").append(defaultSelectors.map(function (s) {
-        return s.elem;
+    updateSelectedClothingView();
+
+    $("#title-clothing-desc-block").css({"visibility": "hidden"});
+    $("#title-stamina-box")[0].value = humanPlayer.stamina;
+
+    updatePlayerTagsView();
+}
+
+function updateSelectedClothingView () {
+    var selected = orderSelectedClothing();
+    $("#selected-clothing-list").empty().append(selected.map(function (clothing) {
+        var elem = clothing.createIconElement("div");
+        $(elem).on("click", function () {
+            clothing.setSelected(false);
+            updateTitleScreen();
+        }).on("mouseover", function () {
+            displayClothingDescription(clothing);
+        });
+
+        return elem;
     }));
 
-    if (lockedSelectors.length > 0) {
-        $("#title-clothing-container").append(createClothingSeparator()).append(
-            lockedSelectors.map(function (s) {
-                return s.elem;
-            })
-        );
+    if (selected.length > 0) {
+        $("#selected-clothing-empty").hide();
+        $("#selected-clothing-list").show();
+    } else {
+        $("#selected-clothing-empty").show();
+        $("#selected-clothing-list").hide();
     }
+}
+
+/**
+ * 
+ * @param {string} tag 
+ */
+function prettyFormatTag(tag) {
+    return tag.split("_").map(function (s) { return s.initCap(); }).join(" ");
+}
+
+function updatePlayerTagsView () {
+    var anyTagSet = false;
+    var resolvedTags = resolveSelectedPlayerTags();
+    $("#title-tags-list").empty().hide();
+
+    for (var category in resolvedTags) {
+        let categoryLabel = (category === "sexual_orientation" ? "Orientation" : prettyFormatTag(category));
+        let rawTag = resolvedTags[category];
+        let formattedTag = "";
+
+        if (category === "hair_length" || category === "eye_color" || category === "hair_color") {
+            formattedTag = rawTag.split("_", 2)[0].initCap();
+        } else if (category === "skin_color") {
+            formattedTag = rawTag.split("-", 2)[0].initCap();
+        } else {
+            formattedTag = prettyFormatTag(rawTag);
+        }
+
+        let wrapper = document.createElement("tr");
+        wrapper.className = "title-tag-option-wrapper";
+
+        let labelElem = document.createElement("th");
+        labelElem.className = "title-tag-option-label";
+        labelElem.setAttribute("scope", "row");
+        labelElem.innerText = categoryLabel;
+
+        let valueElem = document.createElement("td");
+        valueElem.className = "title-tag-option-value";
+        valueElem.innerText = formattedTag;
+
+        wrapper.appendChild(labelElem);
+        wrapper.appendChild(valueElem);
+        $("#title-tags-list").append(wrapper);
+
+        anyTagSet = true;
+    }
+
+    if (anyTagSet) {
+        $("#title-tags-empty").hide();
+        $("#title-tags-list").show();
+    } else {
+        $("#title-tags-empty").show();
+    }
+}
+
+/**
+ * 
+ * @param {PlayerClothing} clothing 
+ */
+function displayClothingDescription (clothing) {
+    if (clothing.collectible) {
+        let collectible = clothing.collectible;
+        if (!clothing.isAvailable() && collectible.hidden) {
+            return;
+        }
+
+        $("#title-clothing-title").html(collectible.title);
+        
+        if (clothing.isAvailable()) {
+            $("#title-clothing-subtitle").html(collectible.subtitle).show();
+            $("#title-clothing-desc-icon").removeClass("locked").addClass("available");
+        } else {
+            $("#title-clothing-subtitle").hide();
+            $("#title-clothing-desc-icon").removeClass("available").addClass("locked");
+        }
+        if (
+            collectible.player && !(
+                (collectible.title.indexOf(collectible.player.metaLabel) >= 0) ||
+                (clothing.isAvailable() && collectible.subtitle.indexOf(collectible.player.metaLabel) >= 0) ||
+                (!clothing.isAvailable() && collectible.unlock_hint.indexOf(collectible.player.metaLabel) >= 0)
+            )
+        ) {
+            $("#title-clothing-source").text(collectible.player.metaLabel).show();
+        } else {
+            $("#title-clothing-source").hide();
+        }
+
+        $("#title-clothing-desc-block .custom-clothing-img").attr("src", clothing.image);
+
+        if (clothing.isAvailable()) {
+            $("#title-clothing-unlock-label").hide();
+            $("#title-clothing-description").addClass("unlocked").html(collectible.text).show();
+            $("#title-clothing-desc-block .player-clothing-icon").addClass("available");
+        } else {
+            $("#title-clothing-unlock-label").show();
+            $("#title-clothing-description").removeClass("unlocked").html(collectible.unlock_hint).show();
+            $("#title-clothing-desc-block .player-clothing-icon").removeClass("available");
+        }
+    } else {
+        $("#title-clothing-title").html(clothing.name.initCap());
+        $("#title-clothing-subtitle").text("Always Available").show();
+        $("#title-clothing-description").hide();
+        $("#title-clothing-source").hide();
+        $("#title-clothing-unlock-label").hide();
+        $("#title-clothing-desc-block .custom-clothing-img").attr("src", clothing.image);
+        $("#title-clothing-desc-block .player-clothing-icon").addClass("available");
+    }
+
+    $("#title-clothing-desc-block").css({"visibility": "visible"});
 }
 
 /************************************************************
@@ -788,17 +1004,12 @@ function updateTitleScreen () {
  ************************************************************/
 function changePlayerSize (size) {
     humanPlayer.size = size;
-
     $sizeBlocks.removeClass(eSize.SMALL + ' ' + eSize.MEDIUM + ' ' + eSize.LARGE).addClass(size).attr('data-size', size);
 }
 
-/**************************************************************
- * Add tags to the human player based on the selections in the tag
- * dialog and the size.
- **************************************************************/
-function setPlayerTags () {
-    var playerTagList = ['human', 'human_' + humanPlayer.gender,
-                         humanPlayer.size + (humanPlayer.gender == 'male' ? '_penis' : '_breasts')];
+
+function resolveSelectedPlayerTags () {
+    var playerTags = {};
 
     for (category in playerTagSelections) {
         var sel = playerTagSelections[category];
@@ -809,15 +1020,45 @@ function setPlayerTags () {
             } else {
                 if (sel != choice.value) return false;
             }
-            playerTagList.push(choice.value);
+
+            playerTags[category] = choice.value;
             return true;
         });
     }
+
+    return playerTags;
+}
+
+/**************************************************************
+ * Add tags to the human player based on the selections in the tag
+ * dialog and the size.
+ **************************************************************/
+function setPlayerTags () {
+    var playerTagList = ['human', 'human_' + humanPlayer.gender,
+                         humanPlayer.size + (humanPlayer.gender == 'male' ? '_penis' : '_breasts')];
+
+    var resolved = resolveSelectedPlayerTags();
+    for (category in resolved) {
+        playerTagList.push(resolved[category]);
+    }
+
     /* applies tags to the player*/
     console.log(playerTagList);
     humanPlayer.baseTags = playerTagList.map(canonicalizeTag);
     humanPlayer.updateTags();
 }
+
+$("#title-stamina-box").on("change", function (ev) {
+    var newTimerValue = $(ev.target).val();
+    var newTime = Number(newTimerValue);
+    var isValidTimerValue = (newTime != "NaN") && (newTime > 0);
+    if (isValidTimerValue){
+        humanPlayer.stamina = newTime;
+        save.saveOptions();
+    } else {
+        ev.target.value = humanPlayer.stamina;
+    }
+});
 
 /************************************************************
  * The player clicked on the advance button on the title
@@ -880,21 +1121,18 @@ function validateTitleScreen () {
  *****                    Additional Functions                    *****
  **********************************************************************/
 
-/************************************************************
- * Takes all of the clothing selected by the player and adds it,
- * in a particular order, to the list of clothing they are wearing.
- ************************************************************/
-function wearClothing () {
+function orderSelectedClothing () {
     var position = [[], [], []];
-    var typeIdx = {
+    var ret = [];
+    var typeScores = {
         "important": 0,
         "major": 1,
         "minor": 2,
-        "extra": 3,
+        "extra": 3
     };
 
     save.selectedClothing().sort(function (a, b) {
-        return typeIdx[a.type] - typeIdx[b.type];
+        return typeScores[a.type] - typeScores[b.type];
     }).forEach(function (clothing) {
         if (clothing.position == UPPER_ARTICLE) {
             position[0].push(clothing);
@@ -905,27 +1143,33 @@ function wearClothing () {
         }
     });
 
-    /* clear player clothing array */
-    humanPlayer.clothing = [];
-
     /* wear the clothing is sorted order */
     for (var i = 0; i < position[0].length || i < position[1].length; i++) {
         /* wear a lower article, if any remain */
         if (i < position[1].length) {
-            humanPlayer.clothing.push(position[1][i]);
+            ret.push(position[1][i]);
         }
 
         /* wear an upper article, if any remain */
         if (i < position[0].length) {
-            humanPlayer.clothing.push(position[0][i]);
+            ret.push(position[0][i]);
         }
     }
 
     /* wear any other clothing */
     for (var i = 0; i < position[2].length; i++) {
-        humanPlayer.clothing.push(position[2][i]);
+        ret.push(position[2][i]);
     }
 
+    return ret;
+}
+
+/************************************************************
+ * Takes all of the clothing selected by the player and adds it,
+ * in a particular order, to the list of clothing they are wearing.
+ ************************************************************/
+function wearClothing () {
+    humanPlayer.clothing = orderSelectedClothing();
     humanPlayer.initClothingStatus();
 
     /* update the visuals */

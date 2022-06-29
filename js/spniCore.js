@@ -520,10 +520,10 @@ function detectBrokenOffline() {
     return Promise.all([p1, p2]);
 }
 
-function enterTitleScreen() {
+function enterCustomizationScreen() {
     $warningContainer.hide();
     $titleContainer.show();
-    $('.title-candy').show();
+    $('.title-topbar-container').hide();
     $('#title-start-button').focus();
     if (SENTRY_INITIALIZED) Sentry.setTag("screen", "title");
 }
@@ -943,6 +943,12 @@ function showPlayerTagsModal () {
                     formElements[i].value = '';
                 }
             }
+
+            playerTagSelections = {};
+            updatePlayerTagsView();
+            save.savePlayer();
+
+            $playerTagsModal.modal('hide');
         });
     }
 
@@ -959,6 +965,9 @@ function showPlayerTagsModal () {
                 }
             }
         }
+
+        updatePlayerTagsView();
+        save.savePlayer();
     });
     $playerTagsModal.modal('show');
 }
