@@ -113,6 +113,9 @@ $versionModal = $('#version-modal');
 $playerTagsModal = $('#player-tags-modal');
 $collectibleInfoModal = $('#collectibles-info-modal');
 $ioModal = $('#io-modal');
+$importInvalidCode = $('#import-invalid-code');
+$exportCopiedCode = $('#export-copied-code');
+$importCodeFailed = $('#import-code-failed');
 $extrasModal = $('#extras-modal');
 $resortModal = $('#resort-modal');
 $eventAnnouncementModal = $('#event-announcement-modal');
@@ -1019,15 +1022,51 @@ $(':root').on('dblclick', toggleFullscreen);
  * The player clicked on a Load/Save button.
  ************************************************************/
 function showImportModal() {
-    $("#export-code").val(save.serializeStorage());
+    var oldCode = save.serializeStorage();
+    $("#export-code").val(oldCode);
     
-    $('#import-invalid-code').hide();
+    $importInvalidCode.hide();
+    $exportCopiedCode.hide();
+    $importCodeFailed.hide();
     
     $ioModal.modal('show');
 
     $('#import-progress').click(function() {
-        var code = $("#export-code").val();
-
+        var code = $('#export-code').val();
+        importCode(code);
+    });
+    
+    // Use the variable value instead of fetching the text field, because the user may have modified it.
+    $('#copy-clipboard').click(function() {
+        navigator.clipboard.writeText(oldCode).then(function() {
+            $importInvalidCode.hide();
+            $exportCopiedCode.show();
+            $importCodeFailed.hide();
+        }, function() {
+            /* This only rejects if the tab is not active, i.e. it shouldn't happen to a normal user.
+               Does this need to be raised to Sentry?
+            */
+            console.log("Clipboard copy failed");
+            $importInvalidCode.hide();
+            $exportCopiedCode.hide();
+            $importCodeFailed.hide();
+        }); 
+    });
+    
+    $('#import-clipboard').click(function() {
+        navigator.clipboard.readText().then(importCode, function () {
+            /* This only rejects if the user doesn't give us permission. 
+               If the clipboard doesn't contain text, it still calls importCode with the empty string, which correctly fails.
+            
+            */
+            $importInvalidCode.hide();
+            $exportCopiedCode.hide();
+            $importCodeFailed.show();
+        });
+    });
+    
+    
+    function importCode(code) {
         if (SENTRY_INITIALIZED) {
             Sentry.addBreadcrumb({
                 category: 'ui',
@@ -1039,9 +1078,11 @@ function showImportModal() {
         if (save.deserializeStorage(code)) {
             $ioModal.modal('hide');
         } else {
-            $('#import-invalid-code').show();
+            $importInvalidCode.show();
+            $exportCopiedCode.hide();
+            $importCodeFailed.hide();
         }
-    });
+    }
 }
 
 function showExtrasModal() {

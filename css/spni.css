@@ -924,9 +924,12 @@ ul.dropdown-menu>li {
     max-height: 75vh;
 }
 
-.import-error {
+#io-notifications p {
     font-size: 125%;
     margin-bottom: 2%;
+}
+
+#io-notifications .import-error {
     color: firebrick;
 }
 

@@ -2823,12 +2823,27 @@
                             </div>
                             <div class="modal-body">
                                 <form id='load'>
-                                    <textarea class="form-control" id='export-code' rows="15"></textarea>
+                                    <textarea class="form-control" id='export-code' rows="8"></textarea>
                                 </form>
-                                <div class="modal-body-container" style="padding-top:4%;">
-                                    <div id="import-invalid-code" class="import-error">
+                                <div id="io-notifications" class="modal-body-container" style="padding-top:4%;">
+                                    <p id="import-invalid-code" class="import-error">
                                         That code appears to be damaged or invalid.
-                                    </div>
+                                    </p>
+                                    <p id="export-copied-code">
+                                        Copied code to clipboard.
+                                    </p>
+                                    <p id="import-code-failed" class="import-error">
+                                        Couldn't read data. <br />
+                                        Do you need to allow this in your browser permissions?
+                                    </p>
+                                </div>
+                                <div id="io-clipboard-buttons" class="modal-body-container">
+                                    <button id="copy-clipboard"
+                                        class="bordered smooth-button modal-button">Copy to Clipboard</button>
+                                    <button id="import-clipboard"
+                                        class="bordered smooth-button modal-button">Import from Clipboard</button>
+                                </div>
+                                <div id="io-buttons" class="modal-body-container" style="padding-top:1%;">
                                     <button class="bordered smooth-button modal-button"
                                         data-dismiss="modal">Close</button>
                                     <button id="import-progress"
