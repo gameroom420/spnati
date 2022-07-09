@@ -533,12 +533,8 @@ Save.prototype.selectedClothingIDs = function () {
  */
 Save.prototype.selectedClothing = function () {
     var ids = this.selectedClothingIDs();
-    var ret = [];
-    for (var id of ids) {
-        if (PLAYER_CLOTHING_OPTIONS[id] && PLAYER_CLOTHING_OPTIONS[id].isAvailable())
-            ret.push(PLAYER_CLOTHING_OPTIONS[id]);
-    }
-
+    var ret = Array.from(ids, id => PLAYER_CLOTHING_OPTIONS[id]);
+    ret = ret.filter(clothing => clothing && clothing.isAvailable());
     return ret;
 }
 
@@ -566,11 +562,7 @@ Save.prototype.isClothingSelected = function(clothing) {
         selectedClothing.delete(clothing.id);
     }
 
-    var newIDList = [];
-    for (var id of selectedClothing) {
-        newIDList.push(id);
-    }
-    this.setItem("clothing." + humanPlayer.gender, newIDList);
+    this.setItem("clothing." + humanPlayer.gender, Array.from(selectedClothing));
 };
 
 /**
@@ -725,18 +717,14 @@ Save.prototype.getPlayedCharacterSet = function () {
 
 /**
  * Save the set of played characters for resort modal tracking.
- * @param {string[]} set
+ * @param {string[]} characters
  */
-Save.prototype.savePlayedCharacterSet = function (set) {
+Save.prototype.savePlayedCharacterSet = function (characters) {
     /* Get unique characters in set. */
-    var o = {};
-    set.forEach(function (v) {
-        if (loadedOpponents.some(function (pl) { return !pl.status && pl.id === v })) {
-            o[v] = true;
-        }
-    });
+    var uniqueCharacters = Array.from(new Set(characters));
+    uniqueCharacters = uniqueCharacters.filter(v => loadedOpponents.some(function (pl) { return !pl.status && pl.id === v }));
 
-    this.setItem("playedCharacters", Object.keys(o));
+    this.setItem("playedCharacters", uniqueCharacters);
 }
 
 /**
@@ -745,13 +733,7 @@ Save.prototype.savePlayedCharacterSet = function (set) {
  */
  Save.prototype.getFavoritedCharacters = function () {
     var s = this.getItem("favoriteCharacters");
-    var ret = new Set();
-
-    if (Array.isArray(s)) {
-        s.forEach(function (id) { ret.add(id); });
-    }
-
-    return ret;
+    return new Set(s);
 }
 
 /**
@@ -759,13 +741,7 @@ Save.prototype.savePlayedCharacterSet = function (set) {
  * @param {Set<string>} set
  */
 Save.prototype.setFavoritedCharacters = function (set) {
-    /* Get unique characters in set. */
-    var arr = [];
-    set.forEach(function (v) {
-        arr.push(v);
-    });
-
-    this.setItem("favoriteCharacters", arr);
+    this.setItem("favoriteCharacters", Array.from(set));
 }
 
 /**
