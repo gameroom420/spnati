@@ -148,6 +148,11 @@ Save.prototype.serializeStorage = function () {
 /** Loads output from serializeStorage into the save storage */
 Save.prototype.deserializeStorage = function (code) {
     try {
+        // try to fix up malformed B64 where the end buffer doesn't get copied.
+        if (code.length % 4 > 1 && !code.endsWith("=")) {
+            code = code + (code.length % 4 == 2 ? "==" : "=")
+            console.log("Fixed up save code without buffer.");
+        }
         var json = Base64.decode(code);
         console.log(json);
         var data = JSON.parse(json);
