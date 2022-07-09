@@ -1427,20 +1427,23 @@ Player.prototype.getImagesForStage = function (stage) {
     return Object.keys(imageSet);
 };
 
+/**
+ * Preload all images referenced by this character's dialogue for a given stage.
+ * @param {number} stage 
+ * @returns {Promise<Array<HTMLImageElement>>}
+ */
 Player.prototype.preloadStageImages = function (stage) {
-    var cacheAttachElem = document.getElementById("image-cache-elements");
-    if (!cacheAttachElem) {
-        cacheAttachElem = document.createElement("div");
-        $(cacheAttachElem).attr("id", "image-cache-elements").css({ "opacity": 0, "pointer-events": "none" }).prependTo(document.body);
-    }
-
-    this.getImagesForStage(stage).forEach(function(fn) {
-        /* Keep references to the Image elements around so they don't get GC'd. */
-        if (!this.imageCache[fn]) {
-            var img = new Image();
-            img.src = fn;
-            this.imageCache[fn] = img;
-            $(img).css({ "opacity": 0 }).appendTo(cacheAttachElem);
-        }
-    }, this );
+    return Promise.all(this.getImagesForStage(stage).map(function (fn) {
+        return new Promise(function (resolve, reject) {
+            /* Keep references to the Image elements around so they don't get GC'd. */
+            if (this.imageCache[fn]) {
+                resolve(this.imageCache[fn]);
+            } else {
+                var img = new Image();
+                img.addEventListener('load', function() { resolve(img); });
+                img.src = fn;
+                this.imageCache[fn] = img;
+            }
+        }.bind(this));
+    }, this));
 };

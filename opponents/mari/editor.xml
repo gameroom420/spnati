@@ -203,7 +203,6 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <note id="1527">This is me trying to make all the branches converge on one topic for the Stripped lines.</note>
         <note id="1528">This is me trying to make all the branches converge on one topic for the Stripped lines.</note>
         <note id="1578">Mari's frame of reference for being mature and responsible is her big-sisterly instincts as opposed to Asuna's motherly ones.</note>
-        <note id="1576">This will probably need to be adjusted, rewritten, or maybe even replaced entirely depending on the response to the S0 question. I'm fully prepared to do so--but either way, I think Mari would definitely be interested in learning about Asuna's relationship and comparing it to her own.</note>
         <note id="1825">Unlike Mari, I actually kind of have forgotten, so expect me to just make shit up when I eventually respond to your response to this.</note>
         <note id="1848">This is intended less as NTR and more as Mari teasing Noire about being a tsundere.</note>
         <note id="1847">This is intended less as NTR and more as Mari teasing Noire about being a tsundere.</note>
@@ -1287,7 +1286,7 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <label id="1102" label="Removing Hat (Indoors)" folder="Generic" sort="0" />
         <label id="1103" label="Accessories - Removed Belt w/ Pants On" folder="Generic" sort="0" />
         <label id="1104" label="Removing Jewelry" folder="Generic" sort="0" />
-        <label id="1105" label="Removing Swimsuit (w/ Water)" folder="Generic" sort="0" />
+        <label id="1105" label="Removing Swimsuit (w/ Water, Memorability)" folder="Generic" sort="0" />
         <label id="1106" label="Removing Swimsuit (w/o Water)" folder="Generic" sort="0" />
         <label id="1107" label="Removing Mask" folder="Generic" sort="0" />
         <label id="1108" label="Removing Scarf / Sweater (Cold)" folder="Generic" sort="0" />
@@ -1304,11 +1303,11 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <label id="1119" label="Public Areas (Not Exhibitionism)" folder="Backgrounds" sort="0" />
         <label id="1120" label="Public Areas (Not Exhibitionism)" folder="Backgrounds" sort="0" />
         <label id="1121" label="Tiki Bar" folder="Backgrounds" sort="0" />
-        <label id="1122" label="Beach" folder="Backgrounds" sort="0" />
+        <label id="1122" label="Beach (Not Memorability)" folder="Backgrounds" sort="0" />
         <label id="1123" label="Bars (Hospitality)" folder="Backgrounds" sort="0" />
         <label id="1124" label="Classroom" folder="Backgrounds" sort="0" />
         <label id="1125" label="Roof" folder="Backgrounds" sort="0" />
-        <label id="1126" label="Poolside" folder="Backgrounds" sort="0" />
+        <label id="1126" label="Poolside (Memorability)" folder="Backgrounds" sort="0" />
         <label id="1127" label="Hot Spring" folder="Backgrounds" sort="0" />
         <label id="1128" label="Hot Spring" folder="Backgrounds" sort="0" />
         <label id="1129" label="Mansion" folder="Backgrounds" sort="0" />
@@ -1750,7 +1749,7 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <label id="1573" label="S1 - Sunny 1" folder="Anatoly" sort="0" />
         <label id="1574" label="S0 - Lighten Up 2" folder="Blake" sort="0" />
         <label id="1575" label="Confidence 1" folder="Blake" sort="0" />
-        <label id="1576" label="S3 - Ring 1" folder="Asuna" sort="0" />
+        <label id="1576" label="S3 - The Question 1" folder="Asuna" sort="0" />
         <label id="1577" label="S3 - Ring 1B" folder="Asuna" sort="0" />
         <label id="1578" label="S0 - Mature 1" folder="Asuna" sort="0" />
         <label id="1579" label="S1 - Build 3" folder="Misty (HGSS)" sort="0" />
@@ -1794,7 +1793,7 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <label id="1617" label="S1 - Ayumi 1" folder="Yuno" sort="0" />
         <label id="1618" label="S0 - Mature 2A (Unexpected)" folder="Asuna" sort="0" />
         <label id="1619" label="S0 - Mature 2B (Similarities)" folder="Asuna" sort="0" />
-        <label id="1620" label="S3 - Ring 2" folder="Asuna" sort="0" />
+        <label id="1620" label="S1 - Uniform 2A" folder="Asuna" sort="0" />
         <label id="1621" label="S0 - Sweet and Straightforward 1" folder="Arueshalae" sort="0" />
         <label id="1622" label="To Opponents (Female)" folder="Dirty Talk" sort="0" />
         <label id="1623" label="S1 - Downtime 3" folder="Supernova" sort="0" />
@@ -2034,9 +2033,46 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <label id="1857" label="S2 - Goddess 1B (Noire Stages 0-3)" folder="Noire" sort="0" />
         <label id="1858" label="S2 - Goddess 1C (Noire Stages 4-7)" folder="Noire" sort="0" />
         <label id="1859" label="S2 - Goddess 1D (Noire Stages 4-7)" folder="Noire" sort="0" />
+        <label id="1860" label="S3 - Ring 2" folder="Asuna" sort="0" />
+        <label id="1861" label="S1 - Uniform 2B" folder="Asuna" sort="0" />
+        <label id="1862" label="S2 - IRL 2A" folder="Asuna" sort="0" />
+        <label id="1863" label="S2 - IRL 2B" folder="Asuna" sort="0" />
+        <label id="1864" label="S4 - Double Date 1" folder="Asuna" sort="0" />
+        <label id="1865" label="S4 - Tag-Along 1" folder="Asuna" sort="0" />
+        <label id="1866" label="Memorability (Beach / Tiki Bar)" folder="" sort="0" />
+        <label id="1867" label="First Round (Memorability, Beach / Tiki Bar)" folder="" sort="0" />
+        <label id="1868" label="Not Beach / Tiki Bar" folder="Memorability" sort="0" />
+        <label id="1869" label="" folder="Memorability" sort="0" />
+        <label id="1870" label="" folder="Memorability" sort="0" />
+        <label id="1871" label="" folder="Memorability" sort="0" />
+        <label id="1872" label="" folder="Memorability" sort="0" />
+        <label id="1873" label="" folder="Memorability" sort="0" />
+        <label id="1874" label="" folder="Memorability" sort="0" />
+        <label id="1875" label="" folder="Memorability" sort="0" />
+        <label id="1876" label="" folder="Memorability" sort="0" />
+        <label id="1877" label="" folder="Memorability" sort="0" />
+        <label id="1878" label="Not Beach / Tiki Bar" folder="Memorability" sort="0" />
+        <label id="1879" label="" folder="Memorability" sort="0" />
+        <label id="1880" label="" folder="Memorability" sort="0" />
+        <label id="1881" label="Not Beach / Tiki Bar" folder="Memorability" sort="0" />
+        <label id="1882" label="Memorability (Poolside)" folder="Costume Mentions" sort="0" />
+        <label id="1883" label="Removing Swimsuit (w/ Water, Not Memorability)" folder="Generic" sort="0" />
+        <label id="1884" label="Memorability (Pre-Summer Event, Not Beach/Tiki Bar/Poolside)" folder="Costume Mentions" sort="0" />
+        <label id="1885" label="Vitality (Pre-Valentines)" folder="Costume Mentions" sort="0" />
+        <label id="1886" label="Professionality" folder="Costume Mentions" sort="0" />
+        <label id="1887" label="Hospitality" folder="Costume Mentions" sort="0" />
+        <label id="1888" label="Memorability (Beach/Tiki Bar)" folder="Costume Mentions" sort="0" />
+        <label id="1889" label="First Round (Memorability, Poolside)" folder="" sort="0" />
+        <label id="1890" label="First Round (Memorability, Indoors)" folder="" sort="0" />
+        <label id="1891" label="Beach / Tiki Bar" folder="Memorability" sort="0" />
+        <label id="1892" label="Beach / Tiki Bar" folder="Memorability" sort="0" />
+        <label id="1893" label="Beach / Tiki Bar" folder="Memorability" sort="0" />
+        <label id="1894" label="First Round (Post-Epilogue)" folder="" sort="0" />
+        <label id="1895" label="First Round (Set B)" folder="" sort="0" />
     </labels>
-    <nextId>1859</nextId>
+    <nextId>1895</nextId>
     <markers>
+        <marker scope="Public" name="" />
         <marker scope="Public" name="__human_nickname" />
         <marker scope="Public" name="Aaravi_SchoolgirlTrope1" />
         <marker scope="Public" name="about_to_lose">Mari has a good chance of losing the game, this round. (Only set during the very last round of the game - only two players are left, and both Mari and the other player are naked.)</marker>
@@ -2184,17 +2220,26 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <marker scope="Public" name="Arueshalae_Sweet" />
         <marker scope="Public" name="Arueshalae_Sweet1" />
         <marker scope="Public" name="Arueshalae_Sweet2" />
+        <marker scope="Public" name="Asuna_DoubleDate1" />
         <marker scope="Public" name="Asuna_IRL1" />
+        <marker scope="Public" name="Asuna_IRL2A" />
+        <marker scope="Public" name="Asuna_IRL2B" />
         <marker scope="Public" name="Asuna_Mature1" />
         <marker scope="Public" name="Asuna_Mature2" />
         <marker scope="Public" name="Asuna_Mature2A" />
         <marker scope="Public" name="Asuna_Mature2B" />
         <marker scope="Public" name="Asuna_Mature3A" />
         <marker scope="Public" name="Asuna_Mature3B" />
+        <marker scope="Public" name="Asuna_Question1" />
         <marker scope="Public" name="Asuna_Ring1" />
         <marker scope="Public" name="Asuna_Ring1A" />
         <marker scope="Public" name="Asuna_Ring2" />
+        <marker scope="Public" name="Asuna_TagAlong1" />
+        <marker scope="Public" name="Asuna_TheQuestion1" />
         <marker scope="Public" name="Asuna_Uniform1" />
+        <marker scope="Public" name="Asuna_Uniform2" />
+        <marker scope="Public" name="Asuna_Uniform2A" />
+        <marker scope="Public" name="Asuna_Uniform2B" />
         <marker scope="Public" name="Barbara_Expectations1" />
         <marker scope="Public" name="Barbara_Expectations1=2" />
         <marker scope="Public" name="Barbara_Expectations1=3" />
@@ -2287,6 +2332,7 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <marker scope="Public" name="Blake_LightenUp3A" />
         <marker scope="Public" name="Blake_LightenUp3B" />
         <marker scope="Public" name="ButtPose" />
+        <marker scope="Public" name="ButtShown" />
         <marker scope="Public" name="Charlie_KindAndSweet1" />
         <marker scope="Public" name="close_loss">Mari lost the game, despite being close to winning.</marker>
         <marker scope="Public" name="CriticalDarling_Keytar" />
@@ -2339,6 +2385,8 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <marker scope="Public" name="Emi_Energy1" />
         <marker scope="Public" name="Emi_KneeInjuries1" />
         <marker scope="Public" name="Emi_Track1" />
+        <marker scope="Public" name="Epilogue_EncoreMComment" />
+        <marker scope="Public" name="Epilogue_EncoreMSeen" />
         <marker scope="Public" name="Erufuda_Freshman15_1" />
         <marker scope="Public" name="Erufuda_InShape1" />
         <marker scope="Public" name="Erufuda_Uniform1" />
@@ -2431,6 +2479,8 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <marker scope="Public" name="FinaRelationship1">Marks Mari's response to Fina's "relationships prompt" (filtered towards 'taken' characters).</marker>
         <marker scope="Public" name="FinaSpace1">Mari wants to know if Fina is also a Space Pirate, in addition to being an Air Pirate.</marker>
         <marker scope="Public" name="FinaSpace2">The reason Mari's asking Fina about space is because Kel would naturally want to know.</marker>
+        <marker scope="Public" name="FirstRound_DefaultA" />
+        <marker scope="Public" name="FirstRound_DefaultB" />
         <marker scope="Public" name="Fischl_Reading1" />
         <marker scope="Public" name="Fischl_Reading1=1" />
         <marker scope="Public" name="Fischl_Reading2" />
@@ -3000,6 +3050,7 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <marker scope="Public" name="OppSelected_Neptune" />
         <marker scope="Public" name="OppSelected_Noelle" />
         <marker scope="Public" name="OppSelected_Noire" />
+        <marker scope="Public" name="OppSelected_NoireCoolGirl" />
         <marker scope="Public" name="OppSelected_Petra" />
         <marker scope="Public" name="OppSelected_Reimu" />
         <marker scope="Public" name="OppSelected_Rosa" />

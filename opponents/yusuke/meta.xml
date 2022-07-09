@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1655251270508</lastupdate>
+    <lastupdate>1657054998208</lastupdate>
     <enabled>false</enabled>
     <first>Yusuke</first>
     <last>Kitagawa</last>
@@ -15,5 +15,5 @@
     <layers>6</layers>
     <has_collectibles>true</has_collectibles>
     <lines>1723</lines>
-    <poses>236</poses>
+    <poses>237</poses>
 </opponent>

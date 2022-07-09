@@ -10,7 +10,7 @@
 
 $titlePanels = [$("#title-panel-1"), $("#title-panel-2")];
 $nameField = $("#player-name-field");
-$warningContainer = $('#warning-container');
+$warningContainer = $('#initial-warning');
 $titleContainer = $('#main-title-container');
 $sizeBlocks = $('.title-size-block');
 $clothingTable = $("#title-clothing-table");
@@ -28,10 +28,10 @@ var $gameLoadProgress = $(".game-load-progress");
     "nami/0-seductive.png",
     "nami/0-smiling.png",
     "nami/0-smug.png",
-    "meia/0-disappointed.png",              // High Roster Position
-    "meia/1-busy.png",
-    "meia/2-addressing.png",
+    "meia/0-interested.png",              // High Roster Position
     "meia/2-pleased.png",
+    "meia/2-reminiscing.png",
+    "meia/3-happy.png",
     "natsuki/0-tsun.png",                   // High Roster Position
     "natsuki/1-laugh.png",
     "natsuki/2-happy.png",
@@ -152,10 +152,6 @@ var $gameLoadProgress = $(".game-load-progress");
     "barbara/0-surprised.png",
     "barbara/0-sheepish.png",
     "barbara/0-happy.png",
-    "pinkie_pie/0-excited.png",             // Has Recent Updates
-    "pinkie_pie/0-smug.png",
-    "pinkie_pie/1-wink.png",
-    "pinkie_pie/2-laughing.png",
     "weiss_schnee/0-start.png",             // Has Recent Updates
     "weiss_schnee/0-interested.png",
     "weiss_schnee/0-sarcastic.png",
@@ -176,30 +172,18 @@ var $gameLoadProgress = $(".game-load-progress");
     "sayori/1-happy.png",
     "sayori/2-thinking.png",
     "sayori/3-embarassed.png",
-    "zoe/0-happy.png",                      // Has Recent Updates
-    "zoe/0-blush.png",
-    "zoe/0-fangirling.png",
-    "zoe/0-smug.png",
-    "mercy/0-portrait.png",                 // Has Recent Updates
-    "mercy/0-confident.png",
-    "mercy/3-interested.png",
-    "mercy/3-horny.png",
     "noire/0-niya.png",                     // Has Recent Updates
     "noire/0-smug.png",
     "noire/0-teasing.png",
-    "noire/0-thinking.png",
+    "noire/0-embarrassed.png",
     "rosa/0-portrait.png",                  // Has Recent Updates
     "rosa/0-horny.png",
     "rosa/2-embarrassed.png",
     "rosa/1-thinking.png",
     "petra/0-select.png",                   // Has Recent Updates
-    "petra/0-calmSmile.png",
-    "petra/0-stretch.png",
-    "petra/0-horny.png",
-    "bernadetta/0-default.png",             // Has Recent Updates
-    "bernadetta/0-happy.png",
-    "bernadetta/2-comfortable.png",
-    "bernadetta/2-timid.png",
+    "petra/0-wink.png",
+    "reskins/petra_war_outfit/0-happy.png",
+    "reskins/petra_war_outfit/0-horny.png",
     "estelle/0-calm.png",                   // Has Recent Updates
     "estelle/1-determind.png",
     "estelle/2-lecture.png",
@@ -222,12 +206,8 @@ var $gameLoadProgress = $(".game-load-progress");
     "wiifitfemale/0-interested.png",
     "leonie/0-calm.png",                    // Has Recent Updates
     "leonie/0-smug.png",
-    "leonie/1-grin.png",
-    "leonie/2-stretch-alt.png",
-    "amy_rose/0-heart.png",                 // Has Recent Updates
-    "amy_rose/0-hammertalk.png",
-    "amy_rose/0-horny.png",
-    "amy_rose/0-confident.png",
+    "reskins/leonie_war_outfit/1-grin.png",
+    "reskins/leonie_war_outfit/2-stretch-alt.png",
     "kazuma/0-happy.png",                   // Has Recent Updates
     "kazuma/0-appreciative.png",
     "kazuma/1-victory.png",
@@ -268,10 +248,6 @@ var $gameLoadProgress = $(".game-load-progress");
     "asuna_yuuki/0-stripAh.png",
     "asuna_yuuki/4-embarrassed.png",
     "asuna_yuuki/4-pleased.png",
-    "launch/0-start.png",                   // Has Recent Updates
-    "launch/0-win.png",
-    "launch/2-horny.png",
-    "launch/3-embarrassed.png",
     "rouge/0-calm.png",                     // Has Recent Updates
     "rouge/0-mischievous.png",
     "rouge/0-comms.png",
@@ -280,10 +256,6 @@ var $gameLoadProgress = $(".game-load-progress");
     "dust/0-victory.png",
     "dust/1-pensive.png",
     "dust/2-laugh.png",
-    "ms.fortune/0-Happy.png",               // Has Recent Updates
-    "ms.fortune/0-Stoopid.png",
-    "ms.fortune/0-Pun.png",
-    "ms.fortune/0-Horny.png",
     "yshtola/0-calm.png",                   // Has Recent Updates
     "yshtola/0-content.png",
     "yshtola/0-coy.png",
@@ -304,10 +276,6 @@ var $gameLoadProgress = $(".game-load-progress");
     "may/0-happy.png",
     "may/0-oopsy.png",
     "may/0-cute.png",
-    "gwen/0-calm.png",                      // Has Recent Updates
-    "gwen/2-happy.png",
-    "gwen/2-horny.png",
-    "gwen/2-cocky.png",
     "beatrix/0-curtsy.png",                 // Has Recent Updates
     "beatrix/0-happy.png",
     "beatrix/0-interested.png",
@@ -316,10 +284,6 @@ var $gameLoadProgress = $(".game-load-progress");
     "lux/0-cocky.png",
     "lux/3-quizzical.png",
     "lux/4-joyous.png",
-    "stocking/0-happy.png",                 // Has Recent Updates
-    "stocking/0-sipp.png",
-    "stocking/0-hex.png",
-    "stocking/0-smug.png",
     "nagisa/0-clapping.png",                // Has Recent Updates
     "nagisa/1-calm.png",
     "nagisa/2-z_stripping.png",
@@ -333,17 +297,41 @@ var $gameLoadProgress = $(".game-load-progress");
     "mikan/0-explain.png",
     "mikan/2-explain.png",
     "cagliostro/0-Cutesy.png",
-    "cagliostro/0-Happy.png",
-    "cagliostro/0-Shrug.png",
-    "cagliostro/0-Interested.png",
+    "cagliostro/0-Excited.png",
+    "cagliostro/3-Smug.png",
+    "cagliostro/3-Grin.png",
     "mari/0-tease.png",
-    "mari/0-cheer.png",
-    "mari/3-relaxed.png",
+    "reskins/mari_thanksgiving/0-wink-2.png",
+    "reskins/mari_office/3-relaxed.png",
     "mari/4-coy.png",
     "reimu/0-select.png",                   // Highlighted New Character
     "reimu/0-smug.png",
     "reimu/0-bluffing.png",
-    "reimu/0-pleasant.png"
+    "reimu/0-pleasant.png",
+    "mari_setogaya/0-happy.png",                   // Highlighted New Character
+    "mari_setogaya/1-grin.png",
+    "mari_setogaya/3-silly.png",
+    "mari_setogaya/4-after.png",
+    "erufuda/0-pleased.png",                   // Has Recent Updates
+    "erufuda/1-smug.png",
+    "erufuda/1-sucking.png",
+    "erufuda/3-eating.png",
+    "ryuji/0-cocky.png",                   // Has Recent Updates
+    "ryuji/2-cheerful.png",
+    "ryuji/4-what.png",
+    "ryuji/5-fingerguns.png",
+    "futaba/0-nyoro.png",                   // Has Recent Updates
+    "futaba/1-happy.png",
+    "futaba/2-bored.png",
+    "futaba/3-gremlin.png",
+    "videl/0-confident.png",                   // Has Recent Updates
+    "videl/1-flying.png",
+    "videl/4-happy.png",
+    "videl/5-embarrassed.png",
+    "yusuke/0-Excited.png",   // Highlighted New Character
+    "yusuke/3-Expository.png",
+    "yusuke/4-Confused.png",
+    "yusuke/4-Frame.png",
 ];
 
 /* maybe move this data to an external file if the hardcoded stuff changes often enough */

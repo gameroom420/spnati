@@ -158,6 +158,14 @@
         <response id="612" opponent="joey" opponentId="2" />
         <response id="615" opponent="anatoly" opponentId="62" />
         <response id="616" opponent="anatoly" opponentId="63" />
+        <response id="617" opponent="cagliostro" opponentId="12" />
+        <response id="620" opponent="dark_magician_girl" opponentId="29" />
+        <response id="623" opponent="mari" opponentId="1617" />
+        <response id="624" opponent="mari" opponentId="1349" />
+        <response id="625" opponent="mari" opponentId="1355" />
+        <response id="626" opponent="mari" opponentId="1354" />
+        <response id="629" opponent="kora" opponentId="38" />
+        <response id="630" opponent="moon" opponentId="50" />
     </responses>
     <notes>
         <note id="29">The Greek Visionary is a character like Ishizu or Shadi from Yu-gi-oh. Roll with it.</note>
@@ -181,6 +189,7 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <note id="594">Does Reimu know what taxes are lol</note>
         <note id="595">You could have her comment that it's "the kids variant" of Shogi, or something if you like</note>
         <note id="598">a deliberate example of him not knowing what he's talking about</note>
+        <note id="627">2+ rounds so it doesnt play immediately</note>
     </notes>
     <labels>
         <label id="1" label="" folder="Friends" sort="2" />
@@ -787,12 +796,24 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <label id="614" label="" folder="Butt Reactions" sort="0" />
         <label id="615" label="" folder="Responses" sort="0" />
         <label id="616" label="" folder="Responses" sort="0" />
+        <label id="618" label="" folder="Responses" sort="0" />
+        <label id="619" label="" folder="Responses" sort="0" />
+        <label id="620" label="" folder="Targets" sort="0" />
+        <label id="621" label="" folder="Targets" sort="0" />
+        <label id="622" label="" folder="Situations" sort="0" />
+        <label id="623" label="" folder="Mari" sort="0" />
+        <label id="624" label="" folder="Mari Redux" sort="0" />
+        <label id="625" label="" folder="Mari Redux" sort="0" />
+        <label id="626" label="" folder="Mari Redux" sort="0" />
+        <label id="627" label="" folder="Mari" sort="0" />
+        <label id="628" label="" folder="Butt Reactions" sort="0" />
     </labels>
     <prefixes>
         <prefix>yuno_collectible</prefix>
     </prefixes>
-    <nextId>616</nextId>
+    <nextId>630</nextId>
     <markers>
+        <marker scope="Public" name="" />
         <marker scope="Public" name="10rounds_gaku_skill_level" />
         <marker scope="Public" name="acc_draw_25" />
         <marker scope="Public" name="adrien_butt_response" />
@@ -872,6 +893,7 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <marker scope="Public" name="hard_sand1" />
         <marker scope="Public" name="hard_sand2" />
         <marker scope="Public" name="heris_finished" />
+        <marker scope="Public" name="hilbert_butt_reaction" />
         <marker scope="Public" name="hilda_finishCover_Resp" />
         <marker scope="Public" name="horny_forfeit">Forfeit dialogue chain where Yuno thinks about his love interest, Ayumi.</marker>
         <marker scope="Public" name="horny_level">How horny he be</marker>
@@ -894,6 +916,7 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <marker scope="Public" name="mari_must_forfeit" />
         <marker scope="Public" name="mari_pokerResp" />
         <marker scope="Public" name="mari_tournament_resp" />
+        <marker scope="Public" name="mari_Yuno_Ayumi1" />
         <marker scope="Public" name="mariSG_wings_reveal" />
         <marker scope="Public" name="mast_female_ayumi_story1" />
         <marker scope="Public" name="mast_female_ayumi_story1b" />
@@ -1064,6 +1087,7 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <marker scope="Public" name="yuno_arueshalae_self0a" />
         <marker scope="Public" name="yuno_asuna_strip0a" />
         <marker scope="Public" name="yuno_asuna_strip0b" />
+        <marker scope="Public" name="Yuno_Ayumi1" />
         <marker scope="Public" name="yuno_bad_japanese">Talks about how he's half japanese, but isnt fluent in the language</marker>
         <marker scope="Public" name="yuno_barbara_prayeroffer1" />
         <marker scope="Public" name="yuno_barbara_prayerResp" />
@@ -1080,6 +1104,7 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <marker scope="Public" name="yuno_bobobo_triple_undies_resp" />
         <marker scope="Public" name="yuno_brock_kaboom" />
         <marker scope="Public" name="yuno_butt">If this marker is playing, Yuno is showing his backside.</marker>
+        <marker scope="Public" name="yuno_cag_unmasked" />
         <marker scope="Public" name="yuno_CD_dueldevilResp" />
         <marker scope="Public" name="yuno_CD_self_DoYou1Resp" />
         <marker scope="Public" name="yuno_CD_TtFatF_Resp" />
@@ -1091,8 +1116,11 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <marker scope="Public" name="yuno_cynthia_strip0a" />
         <marker scope="Public" name="yuno_dmg_0a" />
         <marker scope="Public" name="yuno_dmg_2a" />
+        <marker scope="Public" name="yuno_dmg_2b" />
         <marker scope="Public" name="yuno_dmg_chest_revealed" />
+        <marker scope="Public" name="yuno_dmg_jacketR" />
         <marker scope="Public" name="yuno_dmg_unoAsk_Resp" />
+        <marker scope="Public" name="yuno_dmg_unoAsk2_Resp" />
         <marker scope="Public" name="yuno_estelle_focusPromptResp" />
         <marker scope="Public" name="yuno_fina_continue1Resp" />
         <marker scope="Public" name="yuno_fina_homeworldsResp" />
@@ -1131,6 +1159,7 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <marker scope="Public" name="yuno_kaz_strip1a" />
         <marker scope="Public" name="yuno_Kora_bladePower1" />
         <marker scope="Public" name="yuno_kora_bladePower2" />
+        <marker scope="Public" name="yuno_kora_gossipResp" />
         <marker scope="Public" name="yuno_kumator" />
         <marker scope="Public" name="yuno_kumatora_greet2Resp" />
         <marker scope="Public" name="yuno_kumatora_greetResp" />
@@ -1164,6 +1193,7 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <marker scope="Public" name="yuno_mari_strip0a" />
         <marker scope="Public" name="yuno_mari_strip0b" />
         <marker scope="Public" name="Yuno_MariForfeitBet" />
+        <marker scope="Public" name="yuno_mariLostBet_mastTalk1" />
         <marker scope="Public" name="yuno_mariS_strip0a" />
         <marker scope="Public" name="yuno_mariS_strip1a" />
         <marker scope="Public" name="yuno_mariS_strip2a" />
