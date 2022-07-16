@@ -962,6 +962,7 @@ function showPlayerTagsModal () {
                 }
             }
         }
+        save.savePlayer();
     });
     $playerTagsModal.modal('show');
 }

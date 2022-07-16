@@ -189,7 +189,11 @@ Save.prototype.deserializeStorage = function (code) {
     }
 
     this.load();
-    loadedOpponents.forEach(opp => this.loadCharacter(opp.id));
+    loadedOpponents.forEach(opp => {
+        this.loadCharacter(opp.id);
+        opp.setFavorited(this.isCharacterFavorited(opp));
+    });
+    updateTitleScreen();
     return true;
 }
 
