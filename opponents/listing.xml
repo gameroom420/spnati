@@ -171,7 +171,7 @@
 		<opponent release="240" highlight="unsorted">yuno_uno</opponent>
 		<opponent release="241" highlight="unsorted">heris</opponent>
 		<opponent release="242" highlight="unsorted">dark_magician_girl</opponent>
-		<opponent relesae="243" highlight="unsorted">leon</opponent>
+		<opponent release="243" highlight="unsorted">leon</opponent>
 		<opponent release="244" highlight="unsorted">mikan</opponent>
 		<opponent release="245" highlight="unsorted">cagliostro</opponent>
 		<opponent release="246" highlight="unsorted">mari</opponent>
@@ -181,6 +181,9 @@
 		<opponent release="250" highlight="new">mari_setogaya</opponent> <!-- expires 2022-08-08 -->
 		<opponent release="73" highlight="updated">moon</opponent> <!-- expires 2022-08-12 -->
 		<opponent release="251" highlight="new">yusuke</opponent> <!-- expires 2022-08-12 -->
+		<opponent release="252" highlight="new">sly_cooper</opponent> <!-- expires 2022-08-13 -->
+		<opponent release="82" status="testing">marinette</opponent>
+		<opponent status="testing">kaz</opponent>
 		<opponent status="testing">trixie</opponent>
 		<opponent status="testing">nico_robin</opponent>
 		<opponent status="testing">nanoko-chan</opponent>
@@ -195,7 +198,6 @@
 		<opponent status="testing">jill</opponent>
 		<opponent status="testing">erza</opponent>
 		<opponent status="testing">aqua_grunt</opponent>
-		<opponent status="testing">sly_cooper</opponent>
 		<opponent status="testing">myriam</opponent>
 		<opponent release="189" status="testing">shamir</opponent>
 		<opponent status="testing">kora</opponent>
@@ -293,7 +295,6 @@
 		<opponent status="incomplete">jenetta</opponent>
 		<opponent status="incomplete">jubilee</opponent>
 		<opponent status="incomplete">kali</opponent>
-		<opponent status="incomplete">kaz</opponent>
 		<opponent status="incomplete">kimberly</opponent>
 		<opponent status="incomplete">kokichi</opponent>
 		<opponent release="44" status="incomplete">korra</opponent>
@@ -304,7 +305,6 @@
 		<opponent status="incomplete">maki</opponent>
 		<opponent status="incomplete">mara_jade</opponent>
 		<opponent release="77" status="incomplete">marceline</opponent>
-		<opponent release="82" status="incomplete">marinette</opponent>
 		<opponent status="incomplete">merlin</opponent>
 		<opponent status="incomplete">merula</opponent>
 		<opponent release="34" status="incomplete">mia</opponent>
@@ -406,6 +406,7 @@
 
 	<!-- Group Listings -->
 	<groups>
+		<group title="Among Thieves" opp1="sly_cooper" opp2="nami" opp3="twisted_fate" opp4="rouge" background="paris rooftop" />
 		<group title="More than Meets the Eye" opp1="mari_setogaya" opp2="cagliostro" opp3="stocking" opp4="ms.fortune" background="mansion" />
 		<group title="2007 Waifus" opp1="reimu" opp2="hatsune_miku" opp3="nagisa" opp4="revy" background="hot spring" />
 		<group title="Arts and Sciences" opp1="monika" opp2="mari" opp3="heris" opp4="wikipe-tan" background="inventory" />

@@ -5,6 +5,14 @@
     <age>21</age>
     <pronunciation>Mah-ree</pronunciation>
     <othernotes />
+    <noteworthy>
+        <case name="Hero Introduction" id="790" priority="FYI" min="0" max="9">
+            <description>Mari tells everyone a bit about her boyfriend Hero and their open relationship. This specific situation plays if Mari hasn't mentioned Hero before.</description>
+        </case>
+        <case name="Open Relationship" id="791" priority="FYI" min="0" max="9">
+            <description>Mari tells everyone about her open relationship with Hero; he's fully aware of and okay with Mari playing strip poker at the Inventory. This specific situation plays if Mari has mentioned Hero before.</description>
+        </case>
+    </noteworthy>
     <responses>
         <response id="260" opponent="ignatz" opponentId="164" />
         <response id="490" opponent="fina" opponentId="814" />
@@ -95,6 +103,7 @@
         <response id="1854" opponent="noire" opponentId="1589" />
         <response id="1855" opponent="noire" opponentId="1586" />
         <response id="1856" opponent="noire" opponentId="1591" />
+        <response id="1914" opponent="ahri" opponentId="423" />
     </responses>
     <notes>
         <note id="495">I am absolutely shilling my own fanfic here: https://archiveofourown.org/chapters/71735256</note>
@@ -206,6 +215,7 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <note id="1825">Unlike Mari, I actually kind of have forgotten, so expect me to just make shit up when I eventually respond to your response to this.</note>
         <note id="1848">This is intended less as NTR and more as Mari teasing Noire about being a tsundere.</note>
         <note id="1847">This is intended less as NTR and more as Mari teasing Noire about being a tsundere.</note>
+        <note id="1913">'Will you walk into my parlour?' said the Spider to the Fly...</note>
     </notes>
     <labels>
         <label id="1" label="" folder="Generic" sort="0" />
@@ -933,19 +943,19 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <label id="742" label="Mari Winning (4+ Layer Lead)" folder="Head-to-Head" sort="35" />
         <label id="743" label="Opponent Winning (1 Layer Lead)" folder="Head-to-Head" sort="29" />
         <label id="744" label="Difficulty Setup" folder="Head-to-Head" sort="0" />
-        <label id="745" label="Difficulty Setup (Phase 1, Difficulty =&gt; Average)" folder="Head-to-Head" sort="0" />
-        <label id="746" label="Difficulty Setup (Phase 1, Difficulty =&gt; Good)" folder="Head-to-Head" sort="2" />
-        <label id="747" label="Difficulty Setup (Phase 1, Difficulty =&gt; Best)" folder="Head-to-Head" sort="3" />
-        <label id="748" label="Difficulty Setup (Phase 2, Difficulty =&gt; Good)" folder="Head-to-Head" sort="4" />
+        <label id="745" label="Difficulty Setup (Phase 1, Difficulty =&gt; Average)" folder="Head-to-Head Difficulty Setup" sort="0" />
+        <label id="746" label="Difficulty Setup (Phase 1, Difficulty =&gt; Good)" folder="Head-to-Head Difficulty Setup" sort="2" />
+        <label id="747" label="Difficulty Setup (Phase 1, Difficulty =&gt; Best)" folder="Head-to-Head Difficulty Setup" sort="3" />
+        <label id="748" label="Difficulty Setup (Phase 2, Difficulty =&gt; Good)" folder="Head-to-Head Difficulty Setup" sort="4" />
         <label id="749" label="Difficulty Setup (Phase 2, Difficulty =&gt; Best)" folder="Head-to-Head" sort="0" />
         <label id="750" label="Difficulty Setup (Phase 2, Difficulty =&gt; Best)" folder="Head-to-Head" sort="0" />
-        <label id="751" label="Difficulty Setup (Phase 3, Difficulty =&gt; Best)" folder="Head-to-Head" sort="5" />
-        <label id="752" label="Difficulty Setup (Phase 2, Difficulty =&gt; Best)" folder="Head-to-Head" sort="6" />
+        <label id="751" label="Difficulty Setup (Phase 3, Difficulty =&gt; Best)" folder="Head-to-Head Difficulty Setup" sort="5" />
+        <label id="752" label="Difficulty Setup (Phase 2, Difficulty =&gt; Best)" folder="Head-to-Head Difficulty Setup" sort="6" />
         <label id="753" label="Difficulty Reset (Lead &gt;= -1)" folder="General Difficulty Setup" sort="0" />
         <label id="754" label="Difficulty =&gt; Good (Lead == -2)" folder="General Difficulty Setup" sort="2" />
         <label id="755" label="Difficulty =&gt; Best (Lead &lt;= -3)" folder="General Difficulty Setup" sort="0" />
-        <label id="756" label="Difficulty =&gt; Best (Lead &lt;= -3)" folder="General Difficulty Setup" sort="3" />
-        <label id="757" label="Difficulty Reset (Lead &gt; -3)" folder="General Difficulty Setup" sort="4" />
+        <label id="756" label="Difficulty =&gt; Best (Lead &lt; -2)" folder="General Difficulty Setup" sort="3" />
+        <label id="757" label="Difficulty Reset (Lead &gt; -2)" folder="General Difficulty Setup" sort="4" />
         <label id="758" label="Matched Layers" folder="Head-to-Head" sort="7" />
         <label id="759" label="Matched Layers" folder="Head-to-Head" sort="0" />
         <label id="760" label="Opponent Leads by 1" folder="Head-to-Head" sort="8" />
@@ -1854,7 +1864,7 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <label id="1678" label="To Opponents (Male)" folder="Dirty Talk" sort="0" />
         <label id="1679" label="S0 - Baking 1" folder="Trifle" sort="0" />
         <label id="1680" label="To Opponents (Male)" folder="Dirty Talk" sort="0" />
-        <label id="1681" label="S2 - Posing 1A" folder="Mari Setogaya" sort="0" />
+        <label id="1681" label="S1 - Posing 1A" folder="Mari Setogaya" sort="0" />
         <label id="1682" label="S1 - Posing 1B" folder="Mari Setogaya" sort="0" />
         <label id="1683" label="S1 - Posing 1C" folder="Mari Setogaya" sort="0" />
         <label id="1684" label="S3 - Pushy 3A" folder="Mari Setogaya" sort="0" />
@@ -2069,8 +2079,74 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <label id="1893" label="Beach / Tiki Bar" folder="Memorability" sort="0" />
         <label id="1894" label="First Round (Post-Epilogue)" folder="" sort="0" />
         <label id="1895" label="First Round (Set B)" folder="" sort="0" />
+        <label id="1896" label="S1 - Death 3B" folder="Reimu" sort="0" />
+        <label id="1897" label="S1 - Death 3A" folder="Reimu" sort="0" />
+        <label id="1898" label="Difficulty =&gt; Best (Lead &lt;= -2)" folder="General Difficulty Setup" sort="0" />
+        <label id="1899" label="Difficulty =&gt; Best (Lead &lt;= -2)" folder="General Difficulty Setup" sort="0" />
+        <label id="1900" label="S1 - Special Someone 1" folder="Reimu" sort="0" />
+        <label id="1901" label="" folder="Mari Setogaya" sort="0" />
+        <label id="1902" label="" folder="Mari Setogaya" sort="0" />
+        <label id="1903" label="" folder="Mari Setogaya" sort="0" />
+        <label id="1904" label="S1 - Posing Test" folder="Mari Setogaya" sort="0" />
+        <label id="1905" label="S4 - Double Date 2" folder="Asuna" sort="0" />
+        <label id="1906" label="S4 - Tag-Along 2A" folder="Asuna" sort="0" />
+        <label id="1907" label="S4 - Tag-Along 2B" folder="Asuna" sort="0" />
+        <label id="1908" label="S3 - The Question 2A" folder="Asuna" sort="0" />
+        <label id="1909" label="S3 - The Question 2B" folder="Asuna" sort="0" />
+        <label id="1910" label="S2 - Personality Read 3A (Performance)" folder="Ahri" sort="0" />
+        <label id="1911" label="S2 - Personality Read 3B (Already?)" folder="Ahri" sort="0" />
+        <label id="1912" label="S1 - Transparent 3A (More Specific?)" folder="Ahri" sort="0" />
+        <label id="1913" label="S1 - Transparent 3B (Said the Spider to the Fly)" folder="Ahri" sort="0" />
+        <label id="1914" label="S0 - Abilities 2A" folder="Ahri" sort="0" />
+        <label id="1915" label="S0 - Abilities 2B" folder="Ahri" sort="0" />
+        <label id="1916" label="S0 - Abilities 2B" folder="Ahri" sort="0" />
+        <label id="1917" label="S2 - Posing 3" folder="Mari Setogaya" sort="0" />
+        <label id="1918" label="S2 - Normal Food 1A" folder="Mari Setogaya" sort="0" />
+        <label id="1919" label="S2 - Normal Food 2B" folder="Mari Setogaya" sort="0" />
+        <label id="1920" label="S2 - Normal Food 2A" folder="Mari Setogaya" sort="0" />
+        <label id="1921" label="S3 - Normal Food 3A" folder="Mari Setogaya" sort="0" />
+        <label id="1922" label="S3 - Normal Food 3B" folder="Mari Setogaya" sort="0" />
+        <label id="1923" label="Save Current Game Status" folder="" sort="0" />
+        <label id="1924" label="" folder="3 Players" sort="0" />
+        <label id="1925" label="Female AI + Female-Attracted Player" folder="3 Players" sort="0" />
+        <label id="1926" label="Female Human + Male AI" folder="3 Players" sort="0" />
+        <label id="1927" label="All Females" folder="3 Players" sort="0" />
+        <label id="1928" label="1 Female (4+ Players)" folder="Special Table Setups" sort="0" />
+        <label id="1929" label="Human is Only Male (4+ Players)" folder="Special Table Setups" sort="0" />
+        <label id="1930" label="S0 - Look 1" folder="Kaz" sort="0" />
+        <label id="1931" label="S0 - Personality Read 1" folder="Kaz" sort="0" />
+        <label id="1932" label="S4 - Captured My Heart 2A" folder="Mari Setogaya" sort="0" />
+        <label id="1933" label="S4 - Captured My Heart 2B" folder="Mari Setogaya" sort="0" />
+        <label id="1934" label="S3 - What Is It Like / Boyfriend 1" folder="Mari Setogaya" sort="0" />
+        <label id="1935" label="S3 - What Is It Like / Boyfriend 2B" folder="Mari Setogaya" sort="0" />
+        <label id="1936" label="S3 - What Is It Like / Boyfriend 2A" folder="Mari Setogaya" sort="0" />
+        <label id="1937" label="S4 - What Is It Like / Boyfriend 3A-1" folder="Mari Setogaya" sort="0" />
+        <label id="1938" label="S4 - What Is It Like / Boyfriend 3A-2" folder="Mari Setogaya" sort="0" />
+        <label id="1939" label="S4 - What Is It Like / Boyfriend 3B-1" folder="Mari Setogaya" sort="0" />
+        <label id="1940" label="S4 - What Is It Like / Boyfriend 3B-2" folder="Mari Setogaya" sort="0" />
+        <label id="1941" label="S4 - Posing Again 1" folder="Mari Setogaya" sort="0" />
+        <label id="1942" label="S4 - Posing Again 2" folder="Mari Setogaya" sort="0" />
+        <label id="1943" label="S5 - Posing Again 3" folder="Mari Setogaya" sort="0" />
+        <label id="1944" label="S5 - How Often? 1" folder="Mari Setogaya" sort="0" />
+        <label id="1945" label="S5 - Kinky Stuff 1" folder="Mari Setogaya" sort="0" />
+        <label id="1946" label="S5 - How Often? 2" folder="Mari Setogaya" sort="0" />
+        <label id="1947" label="S5 - Kinky Stuff 2A" folder="Mari Setogaya" sort="0" />
+        <label id="1948" label="S5 - Kinky Stuff 2B" folder="Mari Setogaya" sort="0" />
+        <label id="1949" label="S6 - Kinky Stuff 3A" folder="Mari Setogaya" sort="0" />
+        <label id="1950" label="S6 - Kinky Stuff 3B" folder="Mari Setogaya" sort="0" />
+        <label id="1951" label="S6 - How Often? 3-1" folder="Mari Setogaya" sort="0" />
+        <label id="1952" label="S6 - How Often? 3-2" folder="Mari Setogaya" sort="0" />
+        <label id="1953" label="S6 - Posing Once Again 1A" folder="Mari Setogaya" sort="0" />
+        <label id="1954" label="S6 - Posing Once Again 1B" folder="Mari Setogaya" sort="0" />
+        <label id="1955" label="S6 - Posing Once Again 2A" folder="Mari Setogaya" sort="0" />
+        <label id="1956" label="S6 - Posing Once Again 2B" folder="Mari Setogaya" sort="0" />
+        <label id="1957" label="S7 - Posing Once Again 3A" folder="Mari Setogaya" sort="0" />
+        <label id="1958" label="S7 - Posing Once Again 3B" folder="Mari Setogaya" sort="0" />
+        <label id="1959" label="After Joint Pose" folder="Mari Setogaya" sort="0" />
+        <label id="1960" label="After Joint Pose" folder="Mari Setogaya" sort="0" />
+        <label id="1961" label="After Joint Pose" folder="Mari Setogaya" sort="0" />
     </labels>
-    <nextId>1895</nextId>
+    <nextId>1961</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="__human_nickname" />
@@ -2124,16 +2200,23 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <marker scope="Public" name="Adrien_Un" />
         <marker scope="Public" name="Adrien_Unlucky1" />
         <marker scope="Public" name="Ahri_Controller1" />
+        <marker scope="Public" name="Ahri_Controller2" />
+        <marker scope="Public" name="Ahri_Controller2A" />
+        <marker scope="Public" name="Ahri_Controller2B" />
         <marker scope="Public" name="Ahri_Distracting1" />
         <marker scope="Public" name="Ahri_DistractingA" />
         <marker scope="Public" name="Ahri_DistractingB" />
         <marker scope="Public" name="Ahri_Read1" />
         <marker scope="Public" name="Ahri_Read2A" />
         <marker scope="Public" name="Ahri_Read2B" />
+        <marker scope="Public" name="Ahri_Read3A" />
+        <marker scope="Public" name="Ahri_Read3B" />
         <marker scope="Public" name="Ahri_Transparent1" />
         <marker scope="Public" name="Ahri_Transparent2" />
         <marker scope="Public" name="Ahri_Transparent2A" />
         <marker scope="Public" name="Ahri_Transparent2B" />
+        <marker scope="Public" name="Ahri_Transparent3A" />
+        <marker scope="Public" name="Ahri_Transparent3B" />
         <marker scope="Public" name="Amy_Boyfriend1" />
         <marker scope="Public" name="Amy_Boyfriend2" />
         <marker scope="Public" name="Amy_Boyfriend3" />
@@ -2221,6 +2304,7 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <marker scope="Public" name="Arueshalae_Sweet1" />
         <marker scope="Public" name="Arueshalae_Sweet2" />
         <marker scope="Public" name="Asuna_DoubleDate1" />
+        <marker scope="Public" name="Asuna_DoubleDate2" />
         <marker scope="Public" name="Asuna_IRL1" />
         <marker scope="Public" name="Asuna_IRL2A" />
         <marker scope="Public" name="Asuna_IRL2B" />
@@ -2235,7 +2319,13 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <marker scope="Public" name="Asuna_Ring1A" />
         <marker scope="Public" name="Asuna_Ring2" />
         <marker scope="Public" name="Asuna_TagAlong1" />
+        <marker scope="Public" name="Asuna_TagAlong2" />
+        <marker scope="Public" name="Asuna_TagAlong2A" />
+        <marker scope="Public" name="Asuna_TagAlong2B" />
         <marker scope="Public" name="Asuna_TheQuestion1" />
+        <marker scope="Public" name="Asuna_TheQuestion2" />
+        <marker scope="Public" name="Asuna_TheQuestion2A" />
+        <marker scope="Public" name="Asuna_TheQuestion2B" />
         <marker scope="Public" name="Asuna_Uniform1" />
         <marker scope="Public" name="Asuna_Uniform2" />
         <marker scope="Public" name="Asuna_Uniform2A" />
@@ -2385,7 +2475,9 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <marker scope="Public" name="Emi_Energy1" />
         <marker scope="Public" name="Emi_KneeInjuries1" />
         <marker scope="Public" name="Emi_Track1" />
+        <marker scope="Public" name="Epilogue_EncoreMAll" />
         <marker scope="Public" name="Epilogue_EncoreMComment" />
+        <marker scope="Public" name="Epilogue_EncoreMGallery" />
         <marker scope="Public" name="Epilogue_EncoreMSeen" />
         <marker scope="Public" name="Erufuda_Freshman15_1" />
         <marker scope="Public" name="Erufuda_InShape1" />
@@ -2663,6 +2755,8 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <marker scope="Public" name="Jim_Taken1" />
         <marker scope="Public" name="Jura_GunCollection" />
         <marker scope="Public" name="Jura_Sentimental" />
+        <marker scope="Public" name="Kaz_Look1" />
+        <marker scope="Public" name="Kaz_PersonalityRead1" />
         <marker scope="Public" name="Komi_Approachable1" />
         <marker scope="Public" name="Komi_Expression1" />
         <marker scope="Public" name="Komi_HeroDating1" />
@@ -2769,6 +2863,8 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <marker scope="Public" name="Mahiru_Camera2B" />
         <marker scope="Public" name="Marinette_SuitStrip3" />
         <marker scope="Public" name="MariS_CapturedMyHeart1" />
+        <marker scope="Public" name="MariS_CapturedMyHeart2A" />
+        <marker scope="Public" name="MariS_CapturedMyHeart2B" />
         <marker scope="Public" name="MariS_FreeTime1" />
         <marker scope="Public" name="MariS_FreeTime1=1" />
         <marker scope="Public" name="MariS_FreeTime2" />
@@ -2780,6 +2876,15 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <marker scope="Public" name="MariS_FreeTime3B" />
         <marker scope="Public" name="MariS_FreeTime3B_1" />
         <marker scope="Public" name="MariS_FreeTime3B_2" />
+        <marker scope="Public" name="MariS_HowOften1" />
+        <marker scope="Public" name="MariS_HowOften2" />
+        <marker scope="Public" name="MariS_HowOften3" />
+        <marker scope="Public" name="MariS_KinkyStuff1A" />
+        <marker scope="Public" name="MariS_KinkyStuff1B" />
+        <marker scope="Public" name="MariS_KinkyStuff2A" />
+        <marker scope="Public" name="MariS_KinkyStuff2B" />
+        <marker scope="Public" name="MariS_KinkyStuff3A" />
+        <marker scope="Public" name="MariS_KinkyStuff3B" />
         <marker scope="Public" name="MariS_LearningMore1A" />
         <marker scope="Public" name="MariS_LearningMore1B" />
         <marker scope="Public" name="MariS_LearningMore1C" />
@@ -2826,18 +2931,37 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <marker scope="Public" name="MariS_MeetingSunnyB1" />
         <marker scope="Public" name="MariS_MeetingSunnyB1_1" />
         <marker scope="Public" name="MariS_MeetingSunnyB1_2" />
+        <marker scope="Public" name="MariS_NormalFood1A" />
+        <marker scope="Public" name="MariS_NormalFood2A" />
+        <marker scope="Public" name="MariS_NormalFood2B" />
+        <marker scope="Public" name="MariS_NormalFood3A" />
+        <marker scope="Public" name="MariS_NormalFood3B" />
         <marker scope="Public" name="MariS_Outfits1" />
         <marker scope="Public" name="MariS_Outfits2A" />
         <marker scope="Public" name="MariS_Outfits2B" />
         <marker scope="Public" name="MariS_Piano1" />
         <marker scope="Public" name="MariS_Piano2" />
+        <marker scope="Public" name="MariS_PoseSetup" />
         <marker scope="Public" name="MariS_Posing1" />
         <marker scope="Public" name="MariS_Posing1A" />
         <marker scope="Public" name="MariS_Posing1B" />
         <marker scope="Public" name="MariS_Posing1C" />
+        <marker scope="Public" name="MariS_Posing2" />
         <marker scope="Public" name="MariS_Posing2A" />
         <marker scope="Public" name="MariS_Posing2B" />
         <marker scope="Public" name="MariS_Posing2C" />
+        <marker scope="Public" name="MariS_Posing3" />
+        <marker scope="Public" name="MariS_Posing3A" />
+        <marker scope="Public" name="MariS_PosingAgain1" />
+        <marker scope="Public" name="MariS_PosingAgain1A" />
+        <marker scope="Public" name="MariS_PosingAgain1B" />
+        <marker scope="Public" name="MariS_PosingAgain2" />
+        <marker scope="Public" name="MariS_PosingAgain3" />
+        <marker scope="Public" name="MariS_PosingOnceAgain1A" />
+        <marker scope="Public" name="MariS_PosingOnceAgain1B" />
+        <marker scope="Public" name="MariS_PosingOnceAgain2A" />
+        <marker scope="Public" name="MariS_PosingOnceAgain2B" />
+        <marker scope="Public" name="MariS_PosingOnceAgain3" />
         <marker scope="Public" name="MariS_Pushy1" />
         <marker scope="Public" name="MariS_Pushy1A" />
         <marker scope="Public" name="MariS_Pushy1B" />
@@ -2860,6 +2984,11 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <marker scope="Public" name="MariS_Sunny3B" />
         <marker scope="Public" name="MariS_Sunny3C" />
         <marker scope="Public" name="MariS_Sunny3D" />
+        <marker scope="Public" name="MariS_WhatIsItLike1" />
+        <marker scope="Public" name="MariS_WhatIsItLike2A" />
+        <marker scope="Public" name="MariS_WhatIsItLike2B" />
+        <marker scope="Public" name="MariS_WhatIsItLike3A" />
+        <marker scope="Public" name="MariS_WhatIsItLike3B" />
         <marker scope="Public" name="Meia_Choir1" />
         <marker scope="Public" name="Meia_Details1" />
         <marker scope="Public" name="MentionedPanties" />
@@ -3109,6 +3238,8 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <marker scope="Public" name="Reimu_Death2" />
         <marker scope="Public" name="Reimu_Death2A" />
         <marker scope="Public" name="Reimu_Death2B" />
+        <marker scope="Public" name="Reimu_Death3A" />
+        <marker scope="Public" name="Reimu_Death3B" />
         <marker scope="Public" name="Reimu_Impressions1" />
         <marker scope="Public" name="Reimu_Impressions2" />
         <marker scope="Public" name="Reimu_Impressions2A" />
@@ -3116,7 +3247,10 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <marker scope="Public" name="Reimu_Impressions2B" />
         <marker scope="Public" name="Reimu_Impressions2B=1" />
         <marker scope="Public" name="Reimu_Impressions3A" />
+        <marker scope="Public" name="Reimu_Impressions3A=1" />
         <marker scope="Public" name="Reimu_Impressions3B" />
+        <marker scope="Public" name="Reimu_Impressions3B=1" />
+        <marker scope="Public" name="Reimu_SpecialSomeone1" />
         <marker scope="Public" name="Revy_Amp1" />
         <marker scope="Public" name="Revy_Hair1" />
         <marker scope="Public" name="RinBasil_Accessory" />

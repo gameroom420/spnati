@@ -874,7 +874,7 @@ function showIndividualSelectionScreen() {
     updateIndividualEpilogueBadges();
 
     /* switch screens */
-    if (SENTRY_INITIALIZED) Sentry.setTag("screen", "select-individual");
+    Sentry.setTag("screen", "select-individual");
     screenTransition($selectScreen, $individualSelectScreen);
 }
 
@@ -903,7 +903,7 @@ function showPresetTables () {
     updateSelectableGroups();
     updateGroupSelectScreen();
 
-    if (SENTRY_INITIALIZED) Sentry.setTag("screen", "select-group");
+    Sentry.setTag("screen", "select-group");
 
     /* switch screens */
     screenTransition($selectScreen, $groupSelectScreen);
@@ -963,13 +963,11 @@ function loadGroup (chosenGroup) {
     clickedRemoveAllButton(false);
     console.log(chosenGroup.title);
     
-    if (SENTRY_INITIALIZED) {
-        Sentry.addBreadcrumb({
-            category: 'select',
-            message: 'Loading group '+chosenGroup.title,
-            level: 'info'
-        });
-    }
+    Sentry.addBreadcrumb({
+        category: 'select',
+        message: 'Loading group '+chosenGroup.title,
+        level: 'info'
+    });
 
     if (useGroupBackgrounds) {
         if (chosenGroup.background && backgrounds[chosenGroup.background]) {
@@ -995,13 +993,11 @@ function loadGroup (chosenGroup) {
                 member.selectAlternateCostume(costumeDesc);
             }
 
-            if (SENTRY_INITIALIZED) {
-                Sentry.addBreadcrumb({
-                    category: 'select',
-                    message: 'Loading group opponent ' + member.id,
-                    level: 'info'
-                });
-            }
+            Sentry.addBreadcrumb({
+                category: 'select',
+                message: 'Loading group opponent ' + member.id,
+                level: 'info'
+            });
 
             member.loadBehaviour(i);
             players[i] = member;
@@ -1058,13 +1054,11 @@ function clickedRandomFillButton (predicate) {
             /* select random opponent */
             var randomOpponent = getRandomNumber(0, loadedOpponentsCopy.length);
 
-            if (SENTRY_INITIALIZED) {
-                Sentry.addBreadcrumb({
-                    category: 'select',
-                    message: 'Loading random opponent ' + loadedOpponentsCopy[randomOpponent].id,
-                    level: 'info'
-                });
-            }
+            Sentry.addBreadcrumb({
+                category: 'select',
+                message: 'Loading random opponent ' + loadedOpponentsCopy[randomOpponent].id,
+                level: 'info'
+            });
 
             /* load opponent */
             players[i] = loadedOpponentsCopy[randomOpponent];
@@ -1300,17 +1294,15 @@ function changeGroupStats (target) {
  * group select screen.
  ************************************************************/
 function selectGroup () {
-    if (SENTRY_INITIALIZED) {
-        Sentry.addBreadcrumb({
-            'category': 'select',
-            'message': 'Loading group at page '+groupPage,
-            'level': 'info'
-        });
-    }
+    Sentry.addBreadcrumb({
+        'category': 'select',
+        'message': 'Loading group at page '+groupPage,
+        'level': 'info'
+    });
 
     loadGroup(selectableGroups[groupPage]);
 
-    if (SENTRY_INITIALIZED) Sentry.setTag("screen", "select-main");
+    Sentry.setTag("screen", "select-main");
 
     /* switch screens */
     screenTransition($groupSelectScreen, $selectScreen);
@@ -1335,17 +1327,15 @@ function changeGroupPage (skip, page) {
         groupPage += page;
     }
     
-    if (SENTRY_INITIALIZED) {
-        Sentry.addBreadcrumb({
-            'category': 'select',
-            'level': 'info',
-            'message': 'Going to preset table page ' + groupPage + ' / ' + (selectableGroups.length-1),
-            'data': {
-                'skip': String(skip),
-                'page': String(page)
-            }
-        });
-    }
+    Sentry.addBreadcrumb({
+        'category': 'select',
+        'level': 'info',
+        'message': 'Going to preset table page ' + groupPage + ' / ' + (selectableGroups.length-1),
+        'data': {
+            'skip': String(skip),
+            'page': String(page)
+        }
+    });
 
     updateGroupSelectScreen();
     updateGroupCountStats();
@@ -1381,7 +1371,7 @@ $groupSelectScreen.data('keyhandler', groupSelectScreen_keyUp);
  ************************************************************/
 function backToSelect () {
     /* switch screens */
-    if (SENTRY_INITIALIZED) Sentry.setTag("screen", "select-main");
+    Sentry.setTag("screen", "select-main");
 
     if (useGroupBackgrounds) optionsBackground.activateBackground();
 
@@ -1397,11 +1387,8 @@ function advanceSelectScreen () {
     console.log("Starting game...");
 
     gameID = generateRandomID();
-
-    if (USAGE_TRACKING) {
-        recordStartGameEvent();
-    }
-
+    recordStartGameEvent();
+    
     var playedCharacters = save.getPlayedCharacterSet();
     players.forEach(function(player) {
         if (player.id !== 'human') {
@@ -1431,7 +1418,7 @@ function advanceSelectScreen () {
  * screen.
  ************************************************************/
 function backSelectScreen () {
-    if (SENTRY_INITIALIZED) Sentry.setTag("screen", "title");
+    Sentry.setTag("screen", "title");
     updateTitleScreen();
     screenTransition($selectScreen, $titleScreen);
 }
@@ -1469,6 +1456,17 @@ function updateSelectionVisuals () {
             }
         }
     });
+
+    var trackingOptions = save.getUsageTrackingInfo();
+    if (trackingOptions.basic && !trackingOptions.promptShown) {
+        if (filled == 0) {
+            showDataCollectionPrompt();
+        } else {
+            hideDataCollectionPrompt(false);
+        }
+    } else {
+        hideDataCollectionPrompt(null);
+    }
 
     /* Update suggestions images. */
     updateDefaultFillView();
