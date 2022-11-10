@@ -271,6 +271,8 @@ function loadListingFile () {
                 creatorSet[creator] = true;
             });
             
+            save.loadCharacter(opp.id);
+            
             var disp = new OpponentSelectionCard(opp);
             opp.selectionCard = disp;
             disp.statusIcon.tooltip({ delay: { show: 200 }, placement: 'bottom',

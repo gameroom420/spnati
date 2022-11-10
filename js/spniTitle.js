@@ -717,9 +717,9 @@ function setupTitleClothing () {
  * screen, or this was called by an internal source.
  ************************************************************/
 function changePlayerGender (gender) {
-    save.savePlayer();
     humanPlayer.gender = gender;
-    save.loadPlayer();
+    save.loadPlayer(); // update gender-dependant options
+    save.savePlayer(); // save new gender
     updateTitleScreen();
     updateSelectionVisuals(); // To update epilogue availability status
 }
@@ -789,7 +789,7 @@ function updateTitleScreen () {
  ************************************************************/
 function changePlayerSize (size) {
     humanPlayer.size = size;
-
+    save.savePlayer();
     $sizeBlocks.removeClass(eSize.SMALL + ' ' + eSize.MEDIUM + ' ' + eSize.LARGE).addClass(size).attr('data-size', size);
 }
 

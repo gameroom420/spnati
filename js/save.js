@@ -51,13 +51,15 @@ function Save() {
      */
     this.storageCache = {};
 
-    /**
-     * A map containing what endings have been unlocked by this player
-     * for each character.
-     * 
-     * @type {Object<string, string[]>}
+    /** 
+     * Map from characters to character data: endings, persistent markers and collectible counters.
+     * endings: {string[]}
+     * markers: {Object<string, any>}
+     * collectibles: {Object<string, number>}
+     *
+     * @type {Object<string, Object>}
      */
-    this.endings = {};
+    this.characters = {};
 }
 
 /**
@@ -146,6 +148,11 @@ Save.prototype.serializeStorage = function () {
 /** Loads output from serializeStorage into the save storage */
 Save.prototype.deserializeStorage = function (code) {
     try {
+        // try to fix up malformed B64 where the end buffer doesn't get copied.
+        if (code.length % 4 > 1 && !code.endsWith("=")) {
+            code = code + (code.length % 4 == 2 ? "==" : "=")
+            console.log("Fixed up save code without buffer.");
+        }
         var json = Base64.decode(code);
         console.log(json);
         var data = JSON.parse(json);
@@ -182,6 +189,11 @@ Save.prototype.deserializeStorage = function (code) {
     }
 
     this.load();
+    loadedOpponents.forEach(opp => {
+        this.loadCharacter(opp.id);
+        opp.setFavorited(this.isCharacterFavorited(opp));
+    });
+    updateTitleScreen();
     return true;
 }
 
@@ -230,6 +242,65 @@ Save.prototype.convertCookie = function() {
     }
 };
 
+Save.prototype.convertOlderSave = function () {
+    Object.keys(this.storageCache).forEach(function (key) {
+        const value = this.storageCache[key];
+        if (typeof(key) === "string" && key.startsWith("marker.")) {
+        
+            const parts = key.split(".");
+            const character = parts[1];
+            const marker_name = parts[2];
+            
+            const character_object = this.getItem(character) || {};
+            
+            if (character_object.markers === undefined) {
+                character_object.markers = {};
+            }
+            character_object.markers[marker_name] = value;
+            this.removeItem(key);
+            this.setItem(character, character_object);
+            
+        } else if (typeof(key) === "string" && key.startsWith("collectibles.")) {
+            
+            const parts = key.split(".");
+            if (parts.length > 2) {
+                const character = parts[1];
+                const collectible_name = parts[2];
+                
+                const character_object = this.getItem(character) || {};
+                
+                if (character_object.collectibles === undefined) {
+                    character_object.collectibles = {};
+                }
+                character_object.collectibles[collectible_name] = value;
+                this.removeItem(key);
+                this.setItem(character, character_object);
+            } else {
+                // old problem with "collectibles." + charID + collectible.id;
+            }
+        } else if (key === "endings")  {
+            const endings_array = JSON.parse(value);
+            Object.keys(endings_array).forEach(function (character) {
+                const character_object = this.getItem(character) || {};
+                
+                if (character_object.endings === undefined) {
+                    character_object.endings = [];
+                }
+                character_endings = endings_array[character] || [];
+                
+                character_endings.forEach(ending => {
+                    if (character_object.endings.indexOf(ending) == -1) {
+                        character_object.endings.push(ending);
+                    }
+                });
+                this.removeItem(key);
+                this.setItem(character, character_object);  
+            }.bind(this));
+        }
+    }.bind(this));
+        
+}
+
 Save.prototype.loadLocalStorage = function () {
     var len = 0;
     try {
@@ -246,7 +317,7 @@ Save.prototype.loadLocalStorage = function () {
             if (!key.startsWith(this.prefix)) {
                 continue;
             }
-
+            
             var suffix = key.substring(this.prefix.length);
             this.storageCache[suffix] = localStorage.getItem(key);
         } catch (ex) {
@@ -258,9 +329,9 @@ Save.prototype.loadLocalStorage = function () {
 
 Save.prototype.load = function() {
     this.convertCookie();
+    this.convertOlderSave();
     this.loadOptions();
     this.loadPlayer();
-    this.loadEndings();
 
     if (CARD_DECKS_ENABLED) {
         ACTIVE_CARD_IMAGES.load();
@@ -420,6 +491,13 @@ Save.prototype.saveSettings = function() {
     this.setItem("settings", settings);
 };
 
+Save.prototype.loadCharacter = function (charID) {
+    if (this.characters[charID]) {
+        return; 
+    }
+    this.characters[charID] = this.getItem(charID) || {};
+}
+
 /**
  * Load usage tracking information from save storage.
  * @returns {{promptShown: boolean, basic: boolean, persistent: boolean, demographics: boolean} | null}
@@ -486,10 +564,6 @@ Save.prototype.setUsageTrackingInfo = function (basic, persistent, demographics)
     });
 }
 
-Save.prototype.loadEndings = function () {
-    this.endings = this.getItem("endings") || {};
-}
-
 /**
  * Get the raw list of selected clothing IDs for the current player gender.
  * @returns {Set<string>}
@@ -505,12 +579,8 @@ Save.prototype.selectedClothingIDs = function () {
  */
 Save.prototype.selectedClothing = function () {
     var ids = this.selectedClothingIDs();
-    var ret = [];
-    for (var id of ids) {
-        if (PLAYER_CLOTHING_OPTIONS[id] && PLAYER_CLOTHING_OPTIONS[id].isAvailable())
-            ret.push(PLAYER_CLOTHING_OPTIONS[id]);
-    }
-
+    var ret = Array.from(ids, id => PLAYER_CLOTHING_OPTIONS[id]);
+    ret = ret.filter(clothing => clothing && clothing.isAvailable());
     return ret;
 }
 
@@ -538,11 +608,7 @@ Save.prototype.isClothingSelected = function(clothing) {
         selectedClothing.delete(clothing.id);
     }
 
-    var newIDList = [];
-    for (var id of selectedClothing) {
-        newIDList.push(id);
-    }
-    this.setItem("clothing." + humanPlayer.gender, newIDList);
+    this.setItem("clothing." + humanPlayer.gender, Array.from(selectedClothing));
 };
 
 /**
@@ -552,13 +618,12 @@ Save.prototype.isClothingSelected = function(clothing) {
  * @param {string} title
  */
 Save.prototype.hasEnding = function(character, title) {
-    this.loadEndings();
-
-    var endingsArray = this.endings[character];
+    var unlocked = false;
+    var endingsArray = this.characters[character].endings;
     if (Array.isArray(endingsArray)) {
         return endingsArray.indexOf(title) >= 0;
     }
-
+    
     return false;
 };
 
@@ -569,22 +634,17 @@ Save.prototype.hasEnding = function(character, title) {
  * @param {string} title
  */
 Save.prototype.addEnding = function(character, title) {
-    this.loadEndings();
-
-    if (!(character in this.endings)) {
-        this.endings[character] = [];
-    } else if (this.endings[character].indexOf(title) >= 0) {
+    if (this.characters[character].endings === undefined) {
+        this.characters[character].endings = [];
+    } else if (this.characters[character].endings.indexOf(title) >= 0) {
         return;
     }
 
-    this.endings[character].push(title);
-    this.setItem("endings", this.endings);
+    this.characters[character].endings.push(title);
+    this.setItem(character, this.character);
     
-    //Clear table of endings, so they are loaded agin when player visits gallery
+    //Clear table of endings, so they are loaded again when player visits gallery
     allEndings = [];
-    anyEndings = [];
-    maleEndings = [];
-    femaleEndings = [];
 }
 
 /**
@@ -596,13 +656,17 @@ Save.prototype.addEnding = function(character, title) {
 Save.prototype.setCollectibleCounter = function (collectible, counter) {
     if (!COLLECTIBLES_ENABLED) return;
     
-    var charID = '__general';
+    var charID = "__general";
     if (collectible.player) {
         charID = collectible.player.id;
     }
 
-    var key = 'collectibles.' + charID + '.' + collectible.id;
-    this.setItem(key, counter);
+    if (this.characters[charID].collectibles === undefined) {
+        this.characters[charID].collectibles = {};
+    }
+    
+    this.characters[charID].collectibles[collectible.id] = counter;
+    this.setItem(charID, this.characters[charID]);
 }
 
 /**
@@ -614,32 +678,37 @@ Save.prototype.setCollectibleCounter = function (collectible, counter) {
 Save.prototype.getCollectibleCounter = function (collectible) {
     if (!COLLECTIBLES_ENABLED) return 0;
     
-    var charID = '__general';
+    var charID = "__general";
     if (collectible.player) {
         charID = collectible.player.id;
     }
-
+    
+    if (this.characters[charID].collectibles === undefined) {
+        this.characters[charID].collectibles = {}
+    }
+    
     /* Need to correct for incorrectly generated key names from previous
-     * versions.
+     * versions. 
      */
-    var newKey = 'collectibles.' + charID + '.' + collectible.id;
-    var ctr = this.getItem(newKey);
-    if (typeof(ctr) === "number") {
+    var ctr = this.characters[charID].collectibles[collectible.id];
+    
+    if (ctr !== undefined) {
         return ctr;
-    } else {
-        var oldKey = 'collectibles.' + charID + collectible.id;
-        ctr = parseInt(this.getItem(oldKey), 10);
+    } else { // check old system       
+        var oldKey2 = "collectibles." + charID + collectible.id;
+        ctr = parseInt(this.getItem(oldKey2), 10);
         if (isNaN(ctr)) {
             /* No values available at all */
             return 0;
         }
 
-        /* Save to the correct key and clear out the previous key */
-        this.setItem(newKey, ctr);
-        this.removeItem(oldKey);
-
+        /* Clear out the last of the previous keys, save counter */
+        this.removeItem(oldKey2);
+        this.characters[charID].collectibles[collectible.id] = ctr;
+        this.setItem(charID, this.characters[charID]);
         return ctr;
     }
+        
 }
 
 /**
@@ -650,8 +719,16 @@ Save.prototype.getCollectibleCounter = function (collectible) {
  * @returns {string | number}
  */
 Save.prototype.getPersistentMarker = function (player, name) {
-    var val = this.getItem('marker.' + player.id + '.' + name, true);
-    return val || '';
+    const charID = player.id;
+    if (this.characters[charID].markers === undefined) {
+        this.characters[charID].markers = {};
+    }
+    
+    var val = this.characters[charID].markers[name];
+    if (val !== undefined) {
+        return val;
+    }
+    return "";
 }
 
 /**
@@ -662,7 +739,13 @@ Save.prototype.getPersistentMarker = function (player, name) {
  * @param {string | number} value
  */
 Save.prototype.setPersistentMarker = function (player, name, value) {
-    this.setItem('marker.' + player.id + '.' + name, value);
+    var charID = player.id;
+    if (this.characters[charID].markers === undefined) {
+        this.characters[charID].markers = {};
+    }
+    
+    this.characters[charID].markers[name] = value;
+    this.setItem(charID, this.characters[charID]);
 }
 
 /**
@@ -680,18 +763,14 @@ Save.prototype.getPlayedCharacterSet = function () {
 
 /**
  * Save the set of played characters for resort modal tracking.
- * @param {string[]} set
+ * @param {string[]} characters
  */
-Save.prototype.savePlayedCharacterSet = function (set) {
+Save.prototype.savePlayedCharacterSet = function (characters) {
     /* Get unique characters in set. */
-    var o = {};
-    set.forEach(function (v) {
-        if (loadedOpponents.some(function (pl) { return !pl.status && pl.id === v })) {
-            o[v] = true;
-        }
-    });
+    var uniqueCharacters = Array.from(new Set(characters));
+    uniqueCharacters = uniqueCharacters.filter(v => loadedOpponents.some(function (pl) { return !pl.status && pl.id === v }));
 
-    this.setItem("playedCharacters", Object.keys(o));
+    this.setItem("playedCharacters", uniqueCharacters);
 }
 
 /**
@@ -700,13 +779,7 @@ Save.prototype.savePlayedCharacterSet = function (set) {
  */
  Save.prototype.getFavoritedCharacters = function () {
     var s = this.getItem("favoriteCharacters");
-    var ret = new Set();
-
-    if (Array.isArray(s)) {
-        s.forEach(function (id) { ret.add(id); });
-    }
-
-    return ret;
+    return new Set(s);
 }
 
 /**
@@ -714,13 +787,7 @@ Save.prototype.savePlayedCharacterSet = function (set) {
  * @param {Set<string>} set
  */
 Save.prototype.setFavoritedCharacters = function (set) {
-    /* Get unique characters in set. */
-    var arr = [];
-    set.forEach(function (v) {
-        arr.push(v);
-    });
-
-    this.setItem("favoriteCharacters", arr);
+    this.setItem("favoriteCharacters", Array.from(set));
 }
 
 /**
