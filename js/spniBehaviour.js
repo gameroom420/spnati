@@ -1504,6 +1504,22 @@ function expandDialogue (dialogue, self, target, bindings) {
             case 'name':
                 substitution = expandNicknames(self, target);
                 break;
+            case 'count':
+                if (bindings) {
+                    var count = bindings.hasOwnProperty(args) ? bindings[args].length : 0;
+                    if (fn == 'text') {
+                        substitution = [ 'zero', 'one', 'two', 'three', 'four', 'five' ][count];
+                    } else if (fn === undefined) {
+                        substitution = count;
+                    }
+                }
+                break;
+            case 'list':
+                var [ name, conj ] = args.split('|');
+                if (bindings && bindings.hasOwnProperty(name)) {
+                    substitution = englishJoin(bindings[name].map(expandNicknames.bind(this, self)), conj);
+                }
+                break;
             case 'clothing':
                 var clothing = (target||self).removedClothing;
                 substitution = expandClothingVariable(clothing, fn, args, self, target, bindings, true);
