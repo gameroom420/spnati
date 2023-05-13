@@ -1185,8 +1185,15 @@ function findVariablePlayer(variable, self, target, bindings) {
     if (variable == 'target') return target;
     if (variable == 'winner' && recentWinner >= 0) return players[recentWinner];
 
-    var normVariable = normalizeBindingName(variable);
-    if (bindings && normVariable in bindings) return bindings[normVariable];
+    const normVariable = normalizeBindingName(variable);
+    if (bindings) {
+	if (normVariable in bindings) return bindings[normVariable][0];
+	const [name, number] = normVariable.split(/(?=\d$)/);
+	if (name in bindings && bindings[name].length >= Number(number)) {
+	    return bindings[name][number - 1];
+	}
+    }
+
     if (players.some(function (p) {
         if (normalizeBindingName(p.id) === normVariable) {
             player = p;
@@ -2353,7 +2360,7 @@ Case.prototype.checkConditions = function (self, opp, postDialogue) {
     /* In the trivial case with no condition variables, we get a single binding combination of {}.
        And with no tests, this.tests.every() trivially returns true. */
     for (var i = 0; i < bindingCombinations.length; i++) {
-        addExtraNumberedBindings(bindingCombinations[i], Object.entries(counterMatches));
+        addExtraBindings(bindingCombinations[i], Object.entries(counterMatches));
         if (this.tests.every(function(test) {
             return test.evaluate(self, opp, bindingCombinations[i]);
         })) {
@@ -2817,7 +2824,8 @@ function commitAllBehaviourUpdates (target) {
 /*
  * Produces all combinations of variable bindings
  * Input: an array of pairs of variable name and matching player references
- * Return value: an array of objects with each variable name bound to a player reference.
+ * Return value: an array of objects with a variable name as key and a 
+ * one-element array with a player reference as value.
  */
 function getAllBindingCombinations (variableMatches) {
     if (variableMatches.length > 0) {
@@ -2833,7 +2841,7 @@ function getAllBindingCombinations (variableMatches) {
                 for (var key in rest[j]) { // copy properties
                     bindings[key] = rest[j][key];
                 }
-                bindings[variable] = matches[i];
+                bindings[variable] = [ matches[i] ];
                 ret.push(bindings);
             }
         }
@@ -2842,17 +2850,14 @@ function getAllBindingCombinations (variableMatches) {
 }
 
 /*
- * Adds additional numbered variables from 2 and up binding to the
- * remaining variable matches not already used in bindings.
+ * Adds remaining matches to the list of player references for each base variable name.
  */
-function addExtraNumberedBindings (bindings, variableMatches) {
+function addExtraBindings (bindings, variableMatches) {
     variableMatches.forEach(function(pair) {
         var variable = pair[0], matches = pair[1];
-        var otherMatches = matches.filter(function(match) { return match != bindings[variable]; });
+        var otherMatches = matches.filter(function(match) { return match != bindings[variable][0]; });
         shuffleArray(otherMatches);
-        otherMatches.forEach(function(match, i) {
-            bindings[variable + (i + 2)] = match;
-        });
+        bindings[variable].push(...otherMatches);
     });
 }
 
