@@ -2355,14 +2355,17 @@ Case.prototype.checkConditions = function (self, opp, postDialogue) {
             return false;
         }
         if (inInterval(matches.length, ctr.count)) {
-            if (matches.length && ctr.variable) {
+            if (ctr.variable) {
                 if (counterMatches.hasOwnProperty(ctr.variable)) {
                     // If two <condition> elements define the same variable, take the intersection of the matches.
                     // If any intersection is empty, getAllBindingCombinations() will return an empty array and the
-                    // case will not match.
+                    // case will not match, unless at least one of the conditions allows zero matches.
                     counterMatches[ctr.variable] = counterMatches[ctr.variable].filter(function(m) { return matches.indexOf(m) >= 0; });
                 } else {
                     counterMatches[ctr.variable] = matches;
+                }
+                if (inInterval(0, ctr.count)) {
+                    counterMatches[ctr.variable].allowZero = true;
                 }
             }
             return true;
@@ -2850,6 +2853,7 @@ function getAllBindingCombinations (variableMatches) {
         var variable = cur[0];
         var matches = cur[1];
         var rest = getAllBindingCombinations(variableMatches.slice(1));
+        if (matches.length == 0 && matches.allowZero) return rest; // Skip this variable instead of returning an empty array.
 
         for (var i = 0; i < matches.length; i++) {
             for (var j = 0; j < rest.length; j++) {
