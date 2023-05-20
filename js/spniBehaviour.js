@@ -1187,11 +1187,11 @@ function findVariablePlayer(variable, self, target, bindings) {
 
     const normVariable = normalizeBindingName(variable);
     if (bindings) {
-	if (normVariable in bindings) return bindings[normVariable][0];
-	const [name, number] = normVariable.split(/(?=\d$)/);
-	if (name in bindings && bindings[name].length >= Number(number)) {
-	    return bindings[name][number - 1];
-	}
+	    if (normVariable in bindings) return bindings[normVariable][0];
+	    const [name, number] = normVariable.split(/(?=\d$)/);
+	    if (name in bindings && bindings[name].length >= Number(number)) {
+	        return bindings[name][number - 1];
+	    }
     }
 
     if (players.some(function (p) {
@@ -2875,6 +2875,9 @@ function getAllBindingCombinations (variableMatches) {
 function addExtraBindings (bindings, variableMatches) {
     variableMatches.forEach(function(pair) {
         var variable = pair[0], matches = pair[1];
+        if (!bindings.hasOwnProperty(variable)) {
+            return;
+        }
         var otherMatches = matches.filter(function(match) { return match != bindings[variable][0]; });
         shuffleArray(otherMatches);
         bindings[variable].push(...otherMatches);
