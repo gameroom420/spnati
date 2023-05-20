@@ -1520,6 +1520,12 @@ function expandDialogue (dialogue, self, target, bindings) {
                     substitution = englishJoin(bindings[name].map(expandNicknames.bind(this, self)), conj);
                 }
                 break;
+            case 'switch':
+                var [ name, ...cases ] = args.split('|'), ix = bindings[name].length - 1;
+                if (bindings && bindings.hasOwnProperty(name)) {
+                    substitution = expandDialogue(cases[ ix > cases.length - 1 ? cases.length - 1 : ix ], self, target, bindings);
+                }
+                break;
             case 'clothing':
                 var clothing = (target||self).removedClothing;
                 substitution = expandClothingVariable(clothing, fn, args, self, target, bindings, true);
