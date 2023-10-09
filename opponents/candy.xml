@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+  <!--
+    There are currently seven possible attributes for a candy:
+
+    `uid` is a character unique identifier to detect character duplication. For
+        most use cases, `uid` should just be the name of the character's folder.
+
+    `uids` is a set of comma-separated character unique identifiers. Use `uids`
+        if your `src` image has multiple characters in it and you want to avoid
+        duplicating more than one of them.
+
+    `base` is the folder path for the `src` image. If you don't include `base`
+        then `uid` will be used as a folder path instead.
+
+    `src` is the file name of the image you want to use. It is always required.
+
+    `scale` adjusts the overall scale of the `src` image. It defaults to '1.0'.
+        Giving a candy a `scale` of '2.0' would make it twice as large on screen.
+
+    `weight` adjusts how likely the candy is to be chosen. It defaults to '1.0'.
+        Giving a candy a `weight` of '5.0' would make it five times more likely
+        to appear, whereas a value of '0.2' would make it five times less likely.
+
+    `slot` restricts what side of the screen a candy can appear on. There are
+        only two possible values: '0' for the left and '1' for the right.
+  -->
+  <candy uid="natsuki" src="0-tsun.png"/>
+  <candy uid="natsuki" src="1-laugh.png"/>
+  <candy uid="natsuki" src="2-happy.png"/>
+  <candy uid="natsuki" src="3-isthatapenis.png"/>
+  <candy uid="nami" src="0-calm.png"/>
+  <candy uid="nami" src="0-seductive.png"/>
+  <candy uid="nami" src="0-smiling.png"/>
+  <candy uid="nami" src="0-smug.png"/>
+  <candy uid="mari" src="0-tease.png"/>
+  <candy uid="mari" base="reskins/mari_thanksgiving" src="0-wink-2.png"/>
+  <candy uid="mari" base="reskins/mari_office" src="3-relaxed.png"/>
+  <candy uid="mari" src="4-coy.png"/>
+  <candy uid="hu_tao" src="0-cocky.png"/>
+  <candy uid="hu_tao" src="0-mischievous.png"/>
+  <candy uid="hu_tao" src="0-oh_my.png"/>
+  <candy uid="hu_tao" src="0-smug.png"/>
+  <candy uid="komi-san" src="0-bashfulA.png"/>
+  <candy uid="komi-san" src="0-excitedA.png"/>
+  <candy uid="komi-san" src="0-portrait.png"/>
+  <candy uid="komi-san" src="1-strippingA.png"/>
+  <candy uid="mari_setogaya" src="0-happy.png"/>
+  <candy uid="mari_setogaya" src="1-grin.png"/>
+  <candy uid="mari_setogaya" src="3-silly.png"/>
+  <candy uid="mari_setogaya" src="4-after.png"/>
+  <candy uid="revy" src="0-awkward.png"/>
+  <candy uid="revy" src="1-heart.png"/>
+  <candy uid="revy" src="2-smoking.png"/>
+  <candy uid="revy" src="3-laughing.png"/>
+  <candy uid="kumatora" src="0-confident.png"/>
+  <candy uid="kumatora" src="0-cheerful.png"/>
+  <candy uid="kumatora" src="0-idle2.png"/>
+  <candy uid="kumatora" src="0-stretching.png"/>
+  <candy uid="yuri" src="0-calm.png"/>
+  <candy uid="yuri" src="0-happy.png"/>
+  <candy uid="yuri" src="3-chat.png"/>
+  <candy uid="yuri" src="3-blush.png"/>
+  <candy uid="monika" src="0-writing-tip.png"/>
+  <candy uid="monika" src="1-interested.png"/>
+  <candy uid="monika" src="2-happy.png"/>
+  <candy uid="monika" src="3-shy-happy.png"/>
+  <candy uid="leon" src="0-idle.png"/>
+  <candy uid="leon" src="0-fingerguns.png"/>
+  <candy uid="leon" src="0-grinning.png"/>
+  <candy uid="leon" src="0-snarky.png"/>
+  <candy uid="fina" src="0-calm.png"/>
+  <candy uid="fina" src="0-sheepish.png"/>
+  <candy uid="fina" src="2-shy.png"/>
+  <candy uid="fina" src="3-gazing.png"/>
+  <candy uid="adrien" src="0-confident.png"/>
+  <candy uid="adrien" src="0-sarcastic.png"/>
+  <candy uid="adrien" src="2-wink.png"/>
+  <candy uid="adrien" src="3-smug.png"/>
+  <candy uid="noire" src="0-teasing.png"/>
+  <candy uid="noire" base="reskins/noire_clear_dress" src="0-embarrassed.png"/>
+  <candy uid="noire" base="reskins/noire_clear_dress" src="0-smug.png"/>
+  <candy uid="noire" base="reskins/noire_cool_girl" src="0-niya.png"/>
+  <candy uid="polly" src="0-Neutral.png"/>
+  <candy uid="polly" src="0-Flirty.png"/>
+  <candy uid="polly" src="0-Excited.png"/>
+  <candy uid="polly" src="0-Partying.png"/>
+  <candy uid="magma_grunt" src="0-team_magma.png"/>
+  <candy uid="magma_grunt" src="0-scheming2.png"/>
+  <candy uid="magma_grunt" src="4-scheming.png"/>
+  <candy uid="magma_grunt" src="4-horny_thoughts.png"/>
+  <candy uid="sucrose" src="0-curious.png"/>
+  <candy uid="sucrose" src="0-aroused.png"/>
+  <candy uid="sucrose" src="0-shy.png"/>
+  <candy uid="sucrose" src="0-interested.png"/>
+  <candy uid="nagatoro" src="0-peace.png"/>
+  <candy uid="nagatoro" src="3-pose.png"/>
+  <candy uid="nagatoro" src="1-strip.png"/>
+  <candy uid="nagatoro" base="reskins/nagatoro_nekotoro" src="0-exh.png"/>
+  <candy uid="nico_robin" src="0-giggling.png"/>
+  <candy uid="nico_robin" src="0-winking.png"/>
+  <candy uid="nico_robin" src="1-calm.png"/>
+  <candy uid="nico_robin" src="1-dominant.png"/>
+  <candy uid="marinette" src="0-derrier.png"/>
+  <candy uid="marinette" src="0-strippinghappy-b.png"/>
+  <candy uid="marinette" src="2-relieved.png"/>
+  <candy uid="marinette" src="4-excited.png"/>
+  <candy uid="bobobo" src="0-pumped.png"/>
+  <candy uid="bobobo" src="0-aside.png"/>
+  <candy uid="bobobo" src="0-boredphone.png"/>
+  <candy uid="bobobo" src="0-stance.png"/>
+  <candy uid="sakura" src="0-calm.png"/>
+  <candy uid="sakura" src="0-hi5.png"/>
+  <candy uid="sakura" src="1-smile.png"/>
+  <candy uid="sakura" src="2-sing.png"/>
+  <candy uid="stocking" src="0-sipp.png"/>
+  <candy uid="stocking" src="2-hex.png"/>
+  <candy uid="stocking" src="3-stripping+.png"/>
+  <candy uid="stocking" src="4-aroused.png"/>
+  <candy uid="kora" src="0-cheer2.png"/>
+  <candy uid="kora" src="1-cheer.png"/>
+  <candy uid="kora" src="2-smorny.png"/>
+  <candy uid="kora" src="2-after_butt.png"/>
+  <candy uid="felix" src="0-default.png"/>
+  <candy uid="felix" src="3-coquettish.png"/>
+  <candy uid="felix" src="4-grabby.png"/>
+  <candy uid="felix" src="5-butt-2.png"/>
+  <candy uid="elphaba" src="0-mischievous.png"/>
+  <candy uid="elphaba" src="2-sarcastic.png"/>
+  <candy uid="elphaba" src="4-amused.png"/>
+  <candy uid="elphaba" src="5-calm.png"/>
+  <candy uid="roll_caskett" src="0-wave.png"/>
+  <candy uid="roll_caskett" src="1-smiling.png"/>
+  <candy uid="roll_caskett" src="1-wave.png"/>
+  <candy uid="roll_caskett" src="2-stretch.png"/>
+  <candy uid="maria" src="0-smug.png"/>
+  <candy uid="maria" src="0-seductive.png"/>
+  <candy uid="maria" src="1-sadistic.png"/>
+  <candy uid="maria" src="1-chuckling.png"/>
+  <candy uid="mitama" src="0-yawn.png"/>
+  <candy uid="mitama" src="1-writing.png"/>
+  <candy uid="mitama" src="2-mischievous.png"/>
+  <candy uid="mitama" src="4-shrug.png"/>
+  <candy uid="tea_gardner" src="0-angry.png"/>
+  <candy uid="tea_gardner" src="1-brave.png"/>
+  <candy uid="tea_gardner" src="2-exhale.png"/>
+  <candy uid="tea_gardner" src="3-happy.png"/>
+  <candy uid="meia" src="0-interested.png"/>
+  <candy uid="meia" src="2-pleased.png"/>
+  <candy uid="meia" src="2-reminiscing.png"/>
+  <candy uid="meia" src="3-happy.png"/>
+  <candy uid="jura" src="0-seductive.png"/>
+  <candy uid="jura" src="1-teasing.png"/>
+  <candy uid="jura" src="2-interested.png"/>
+  <candy uid="jura" src="3-vain.png"/>
+  <candy uid="mia_golden_sun" src="0-calm.png"/>
+  <candy uid="mia_golden_sun" src="0-smug.png"/>
+  <candy uid="mia_golden_sun" src="0-pray.png"/>
+  <candy uid="mia_golden_sun" src="4-praise.png"/>
+  <candy uid="aqua_konosuba" src="0-portrait.png"/>
+  <candy uid="aqua_konosuba" src="0-thumbs up.png"/>
+  <candy uid="aqua_konosuba" src="1-surprised.png"/>
+  <candy uid="aqua_konosuba" src="2-natures beauty.png"/>
+  <candy uid="wasp" src="0-start.png"/>
+  <candy uid="wasp" src="0-flirt.png"/>
+  <candy uid="wasp" src="0-excited.png"/>
+  <candy uid="wasp" src="0-tease.png"/>
+  <candy uid="erufuda" src="0-pleased.png"/>
+  <candy uid="erufuda" src="1-smug.png"/>
+  <candy uid="erufuda" src="1-sucking.png"/>
+  <candy uid="erufuda" src="3-eating.png"/>
+  <candy uid="samus_aran" src="0-portrait.png"/>
+  <candy uid="samus_aran" src="1-introspective.png"/>
+  <candy uid="samus_aran" src="1-curious.png"/>
+  <candy uid="samus_aran" src="1-relaxed.png"/>
+  <candy uid="hatsune_miku" src="0-Casual.png"/>
+  <candy uid="hatsune_miku" src="0-Cheeky.png"/>
+  <candy uid="hatsune_miku" src="0-Encouraging.png"/>
+  <candy uid="hatsune_miku" src="0-Excited.png"/>
+  <candy uid="reimu" src="0-select.png"/>
+  <candy uid="reimu" src="0-smug.png"/>
+  <candy uid="reimu" src="0-bluffing.png"/>
+  <candy uid="reimu" src="0-pleasant.png"/>
+  <candy uid="asuna_yuuki" src="0-overjoyed.png"/>
+  <candy uid="asuna_yuuki" src="0-stripAh.png"/>
+  <candy uid="asuna_yuuki" src="4-embarrassed.png"/>
+  <candy uid="asuna_yuuki" src="4-pleased.png"/>
+  <candy uid="yshtola" src="0-calm.png"/>
+  <candy uid="yshtola" src="0-content.png"/>
+  <candy uid="yshtola" src="0-coy.png"/>
+  <candy uid="yshtola" src="0-snicker.png"/>
+  <candy uid="yuno_uno" src="0-aa_select.png"/>
+  <candy uid="yuno_uno" src="0-casual.png"/>
+  <candy uid="yuno_uno" src="0-embarrassed.png"/>
+  <candy uid="yuno_uno" src="0-happy_to_be_here.png"/>
+  <candy uid="petra" src="0-select.png"/>
+  <candy uid="petra" src="4-wink.png"/>
+  <candy uid="petra" base="reskins/petra_war_outfit" src="0-happy.png"/>
+  <candy uid="petra" base="reskins/petra_war_outfit" src="2-horny.png"/>
+  <candy uid="cagliostro" src="0-Cutesy.png"/>
+  <candy uid="cagliostro" base="reskins/cagliostro_alchemist_reborn" src="0-Excited.png"/>
+  <candy uid="cagliostro" src="3-Smug.png"/>
+  <candy uid="cagliostro" src="3-Grin.png"/>
+  <candy uid="dark_magician_girl" src="0-calm.png"/>
+  <candy uid="dark_magician_girl" src="0-flirty.png"/>
+  <candy uid="dark_magician_girl" src="0-happy.png"/>
+  <candy uid="dark_magician_girl" src="0-interested.png"/>
+  <candy uid="yunyun" src="0-Happy.png"/>
+  <candy uid="yunyun" src="3-Shy.png"/>
+  <candy uid="yunyun" src="4-Posing2.png"/>
+  <candy uid="yunyun" src="5-Facade.png"/>
+  <candy uid="aella" src="0-portrait.png"/>
+  <candy uid="aella" src="0-competitive.png"/>
+  <candy uid="aella" src="1-enthused.png"/>
+  <candy uid="aella" src="2-horny.png"/>
+  <candy uid="senko" src="0-interested.png"/>
+  <candy uid="senko" src="0-araara.png"/>
+  <candy uid="senko" src="2-hug.png"/>
+  <candy uid="senko" src="2-pampering.png"/>
+  <candy uid="rouge" src="0-calm.png"/>
+  <candy uid="rouge" src="0-mischievous.png"/>
+  <candy uid="rouge" src="0-comms.png"/>
+  <candy uid="rouge" src="0-flirty.png"/>
+  <candy uid="may" src="0-calm.png"/>
+  <candy uid="may" src="0-happy.png"/>
+  <candy uid="may" src="0-oopsy.png"/>
+  <candy uid="may" src="0-cute.png"/>
+  <candy uid="gloria" src="0-confident.png"/>
+  <candy uid="gloria" src="0-neutral.png"/>
+  <candy uid="gloria" src="1-smug.png"/>
+  <candy uid="gloria" src="3-z_stripping.png"/>
+  <candy uid="nagisa" src="0-clapping.png"/>
+  <candy uid="nagisa" src="1-calm.png"/>
+  <candy uid="nagisa" src="2-z_stripping.png"/>
+  <candy uid="nagisa" src="3-embarrassed.png"/>
+  <candy uid="fluttershy" src="0-kind2.png"/>
+  <candy uid="fluttershy" src="0-flirty.png"/>
+  <candy uid="fluttershy" src="0-amused.png"/>
+  <candy uid="fluttershy" src="0-flattered.png"/>
+  <candy uid="zoe" src="0-happy.png"/>
+  <candy uid="zoe" src="0-fangirling.png"/>
+  <candy uid="zoe" src="0-smug.png"/>
+  <candy uid="zoe" src="3-blush.png"/>
+  <candy uid="rosa" src="0-portrait.png"/>
+  <candy uid="rosa" src="0-horny.png"/>
+  <candy uid="rosa" src="2-embarrassed.png"/>
+  <candy uid="rosa" src="1-thinking.png"/>
+  <candy uid="wikipe-tan" src="0-donations.png"/>
+  <candy uid="wikipe-tan" src="0-casual.png"/>
+  <candy uid="wikipe-tan" src="2-flirt.png"/>
+  <candy uid="wikipe-tan" src="3-hornyfact.png"/>
+  <candy uid="jim" src="0-Neutral.png"/>
+  <candy uid="jim" src="0-Confident.png"/>
+  <candy uid="jim" src="0-Relaxed.png"/>
+  <candy uid="jim" src="0-Selected.png"/>
+  <candy uid="dunban" src="0-coverse.png"/>
+  <candy uid="dunban" src="0-dramatic.png"/>
+  <candy uid="dunban" src="2-scheming.png"/>
+  <candy uid="dunban" src="5-coverse.png"/>
+  <candy uid="dwight" src="0-startled.png"/>
+  <candy uid="dwight" src="4-fidgeting.png"/>
+  <candy uid="dwight" src="1-thinking.png"/>
+  <candy uid="dwight" src="3-conversational.png"/>
+  <candy uid="aqua_kh" src="0-giggling.png"/>
+  <candy uid="aqua_kh" src="0-happy.png"/>
+  <candy uid="aqua_kh" src="2-keyblade_stance.png"/>
+  <candy uid="aqua_kh" src="2-turned_on.png"/>
+  <candy uid="joey" src="0-cheer.png"/>
+  <candy uid="joey" src="2-approve.png"/>
+  <candy uid="joey" src="3-wink.png"/>
+  <candy uid="joey" src="4-hot.png"/>
+  <candy uid="hilda" src="0-conversational.png"/>
+  <candy uid="hilda" src="1-relaxed.png"/>
+  <candy uid="hilda" src="2-smug.png"/>
+  <candy uid="hilda" src="3-flirty.png"/>
+  <candy uid="kaz" src="0-showoff.png"/>
+  <candy uid="kaz" src="0-aback.png"/>
+  <candy uid="kaz" src="1-toblerone.png"/>
+  <candy uid="kaz" src="2-glad.png"/>
+  <candy uid="arueshalae" src="0-happy.png"/>
+  <candy uid="arueshalae" src="0-laughing.png"/>
+  <candy uid="arueshalae" src="4-singing happy.png"/>
+  <candy uid="arueshalae" src="4-horny.png"/>
+  <candy uid="takatoshi" src="0-Select.png"/>
+  <candy uid="takatoshi" src="0-Yakisoba.png"/>
+  <candy uid="takatoshi" src="3-Embarrassed.png"/>
+  <candy uid="takatoshi" src="3-Yakisoba2.png"/>
+  <candy uid="barbara" src="0-cheering.png"/>
+  <candy uid="barbara" src="0-surprised.png"/>
+  <candy uid="barbara" src="0-sheepish.png"/>
+  <candy uid="barbara" src="0-happy.png"/>
+  <candy uid="dust" src="0-calm.png"/>
+  <candy uid="dust" src="0-victory.png"/>
+  <candy uid="dust" src="1-pensive.png"/>
+  <candy uid="dust" src="2-laugh.png"/>
+  <candy uid="dawn" src="0-elate.png"/>
+  <candy uid="dawn" src="1-happy.png"/>
+  <candy uid="dawn" src="2-shock.png"/>
+  <candy uid="dawn" src="3-smug.png"/>
+  <candy uid="perona" src="0-calm.png"/>
+  <candy uid="perona" src="0-smiling.png"/>
+  <candy uid="perona" src="1-enticed.png"/>
+  <candy uid="perona" src="2-positive.png"/>
+  <candy uid="estelle" src="0-calm.png"/>
+  <candy uid="estelle" src="1-determind.png"/>
+  <candy uid="estelle" src="2-lecture.png"/>
+  <candy uid="estelle" src="3-brush.png"/>
+
+  <!-- inactive candy, stored in case characters qualify again -->
+  <!--
+  <candy uid="pit" src="0-awkward.png"/>
+  <candy uid="pit" src="1-calm.png"/>
+  <candy uid="pit" src="2-pumped.png"/>
+  <candy uid="pit" src="2-victory.png"/>
+  <candy uid="twisted_fate" src="0-Portrait.png"/>
+  <candy uid="twisted_fate" src="0-Charming.png"/>
+  <candy uid="twisted_fate" src="1-Deceiving.png"/>
+  <candy uid="twisted_fate" src="1-Happy.png"/>
+  <candy uid="cynthia" src="0-battleready.png"/>
+  <candy uid="cynthia" src="0-pokeball.png"/>
+  <candy uid="cynthia" src="2-embarrassed.png"/>
+  <candy uid="cynthia" src="2-sarcastic.png"/>
+  <candy uid="jessie" src="0-calm.png"/>
+  <candy uid="jessie" src="0-friendly.png"/>
+  <candy uid="jessie" src="0-playful.png"/>
+  <candy uid="jessie" src="0-curious.png"/>
+  <candy uid="ayano" src="0-happy.png"/>
+  <candy uid="ayano" src="0-taunting.png"/>
+  <candy uid="ayano" src="0-interested.png"/>
+  <candy uid="ayano" src="0-study.png"/>
+  <candy uid="heris" src="0-calm.png"/>
+  <candy uid="heris" src="0-happy.png"/>
+  <candy uid="heris" src="1-blush.png"/>
+  <candy uid="heris" src="1-interested.png"/>
+  <candy uid="weiss_schnee" src="0-start.png"/>
+  <candy uid="weiss_schnee" src="0-interested.png"/>
+  <candy uid="weiss_schnee" src="0-sarcastic.png"/>
+  <candy uid="weiss_schnee" src="0-aroused.png"/>
+  <candy uid="kyou" src="0-calm.png"/>
+  <candy uid="kyou" src="0-sarcastic.png"/>
+  <candy uid="kyou" src="2-shy.png"/>
+  <candy uid="kyou" src="2-smug.png"/>
+  <candy uid="streaming-chan" src="0-neutral.png"/>
+  <candy uid="streaming-chan" src="0-flusteredKawaii.png"/>
+  <candy uid="streaming-chan" src="4-lossdang.png"/>
+  <candy uid="streaming-chan" src="4-interview.png"/>
+  <candy uid="chara_dreemurr" src="0-devious.png"/>
+  <candy uid="chara_dreemurr" src="0-relaxed.png"/>
+  <candy uid="chara_dreemurr" src="0-aroused.png"/>
+  <candy uid="chara_dreemurr" src="0-amused.png"/>
+  <candy uid="larachel" src="0-calm.png"/>
+  <candy uid="larachel" src="1-boisterous.png"/>
+  <candy uid="larachel" src="2-confident.png"/>
+  <candy uid="larachel" src="3-dismissive.png"/>
+  <candy uid="fluttershy" src="0-kind2.png"/>
+  <candy uid="fluttershy" src="0-flirty.png"/>
+  <candy uid="fluttershy" src="0-amused.png"/>
+  <candy uid="fluttershy" src="0-flattered.png"/>
+  <candy uid="laevatein" src="0-default.png"/>
+  <candy uid="laevatein" src="0-smile.png"/>
+  <candy uid="laevatein" src="2-sceptical.png"/>
+  <candy uid="laevatein" src="2-surprised.png"/>
+  <candy uid="supernova" src="0-entering.png"/>
+  <candy uid="supernova" src="0-imagine.png"/>
+  <candy uid="supernova" src="4-giggle.png"/>
+  <candy uid="supernova" src="4-horny.png"/>
+  <candy uid="mikan" src="0-happy.png"/>
+  <candy uid="mikan" src="2-happy.png"/>
+  <candy uid="mikan" src="0-explain.png"/>
+  <candy uid="mikan" src="2-explain.png"/>
+  <candy uid="ryuji" src="0-cocky.png"/>
+  <candy uid="ryuji" src="2-cheerful.png"/>
+  <candy uid="ryuji" src="4-what.png"/>
+  <candy uid="ryuji" src="5-fingerguns.png"/>
+  <candy uid="futaba" src="0-nyoro.png"/>
+  <candy uid="futaba" src="1-happy.png"/>
+  <candy uid="futaba" src="2-bored.png"/>
+  <candy uid="futaba" src="3-gremlin.png"/>
+  <candy uid="yusuke" src="0-Excited.png"/>
+  <candy uid="yusuke" src="3-Expository.png"/>
+  <candy uid="yusuke" src="4-Confused.png"/>
+  <candy uid="yusuke" src="4-Frame.png"/>
+  <candy uid="n" src="0-coNfused.png"/>
+  <candy uid="n" src="4-Naturally.png"/>
+  <candy uid="n" src="2-fiddliNg.png"/>
+  <candy uid="n" src="6-iNform.png"/>
+  <candy uid="sly_cooper" src="0-Select.png"/>
+  <candy uid="sly_cooper" src="0-Comms+.png"/>
+  <candy uid="sly_cooper" src="0-Select.png"/>
+  <candy uid="sly_cooper" src="0-Comms+.png"/>
+  <candy uid="jin" src="0-Cracker.png"/>
+  <candy uid="jin" src="0-Excited.png"/>
+  <candy uid="jin" src="5-Stripped.png"/>
+  <candy uid="jin" src="5-Happy.png"/>
+  <candy uid="binah" src="0-teatime.png"/>
+  <candy uid="binah" src="1-haughty.png"/>
+  <candy uid="binah" src="2-quoth.png"/>
+  <candy uid="binah" src="5-sadistic.png"/>
+  <candy uid="wiifitfemale" src="0-StretchBack.png"/>
+  <candy uid="wiifitfemale" src="0-calm.png"/>
+  <candy uid="wiifitfemale" src="0-happy.png"/>
+  <candy uid="wiifitfemale" src="0-interested.png"/>
+  <candy uid="sayori" src="0-excited.png"/>
+  <candy uid="sayori" src="1-happy.png"/>
+  <candy uid="sayori" src="2-thinking.png"/>
+  <candy uid="sayori" src="3-embarassed.png"/>
+  <candy uid="ryuko" src="0-senketsu-happy.png"/>
+  <candy uid="ryuko" src="2-mako-sad.png"/>
+  <candy uid="ryuko" src="3-pissed.png"/>
+  <candy uid="ryuko" src="5-awkward.png"/>
+  <candy uid="lux" src="0-calm.png"/>
+  <candy uid="lux" src="0-cocky.png"/>
+  <candy uid="lux" src="3-quizzical.png"/>
+  <candy uid="lux" src="4-joyous.png"/>
+  <candy uid="videl" src="0-confident.png"/>
+  <candy uid="videl" src="1-flying.png"/>
+  <candy uid="videl" src="4-happy.png"/>
+  <candy uid="videl" src="5-embarrassed.png"/>
+  <candy uid="lyralei" src="0-happy.png"/>
+  <candy uid="lyralei" src="1-embarrassed.png"/>
+  <candy uid="lyralei" src="3-awkward.png"/>
+  <candy uid="lyralei" src="5-stripped.png"/>
+  <candy uid="myriam" src="0-confident.png"/>
+  <candy uid="myriam" src="2-normal.png"/>
+  <candy uid="myriam" src="3-think.png"/>
+  <candy uid="myriam" src="4-flattered.png"/>
+  <candy uid="neptune" src="0-victory.png"/>
+  <candy uid="neptune" src="0-excited.png"/>
+  <candy uid="neptune" src="2-happy.png"/>
+  <candy uid="neptune" src="2-smug.png"/>
+  <candy uid="anatoly" src="0-horny.png"/>
+  <candy uid="anatoly" src="1-embarrassed.png"/>
+  <candy uid="anatoly" src="2-cute.png"/>
+  <candy uid="anatoly" src="3-calm.png"/>
+  <candy uid="pyrrha" src="0-calm.png"/>
+  <candy uid="pyrrha" src="0-awkward.png"/>
+  <candy uid="pyrrha" src="1-horny.png"/>
+  <candy uid="pyrrha" src="2-encourage.png"/>
+  <candy uid="ignatz" src="0-friendly.png"/>
+  <candy uid="ignatz" src="0-flustered.png"/>
+  <candy uid="ignatz" src="3-happy.png"/>
+  <candy uid="ignatz" src="3-sheepish.png"/>
+  <candy uid="kamina" src="0-point.png"/>
+  <candy uid="kamina" src="0-cross.png"/>
+  <candy uid="kamina" src="0-happy.png"/>
+  <candy uid="kamina" src="0-excited.png"/>
+  <candy uid="aloy" src="0-Horny.png"/>
+  <candy uid="aloy" src="5-Smug.png"/>
+  <candy uid="aloy" src="0-Angry.png"/>
+  <candy uid="aloy" base="reskins/aloy_carja_blazon" src="0-Smug.png"/>
+  <candy uid="trixie" base="trixie/poses" src="0-wink.png"/>
+  <candy uid="trixie" base="trixie/poses" src="1-flirt.png"/>
+  <candy uid="trixie" base="trixie/poses" src="4-disappointed.png"/>
+  <candy uid="trixie" base="trixie/poses" src="5-grumpy.png"/>
+  <candy uid="moon" src="0-joy.png"/>
+  <candy uid="moon" src="0-stripping_bra2.png"/>
+  <candy uid="moon" base="reskins/full_moon" src="0-calm_b.png"/>
+  <candy uid="moon" base="reskins/full_moon" src="0-calm_c.png"/>
+  <candy uid="pinkie_pie" src="0-excited.png"/>
+  <candy uid="pinkie_pie" src="1-stripped.png"/>
+  <candy uid="pinkie_pie" src="2-whatever.png"/>
+  <candy uid="pinkie_pie" src="3-calm.png"/>
+  <candy uid="aaravi" src="0-smug.png"/>
+  <candy uid="aaravi" src="1-excited.png"/>
+  <candy uid="aaravi" src="3-confident.png"/>
+  <candy uid="aaravi" src="4-surprised-blush.png"/>
+  <candy uid="amy" src="0-start.png"/>
+  <candy uid="amy" src="0-cheer.png"/>
+  <candy uid="amy" src="1-singing.png"/>
+  <candy uid="amy" src="1-chat.png"/>
+  <candy uid="ringo_ando" src="0-bounceapple.png"/>
+  <candy uid="ringo_ando" src="1-glad.png"/>
+  <candy uid="ringo_ando" src="2-balanceapple.png"/>
+  <candy uid="ringo_ando" src="3-bounceapple.png"/>
+  <candy uid="caulifla" src="0-Confident.png"/>
+  <candy uid="caulifla" src="0-Happy.png"/>
+  <candy uid="caulifla" src="1-Laughing.png"/>
+  <candy uid="caulifla" src="1-Thinking.png"/>
+  <candy uid="twilight" src="0-confident.png"/>
+  <candy uid="twilight" src="2-smart.png"/>
+  <candy uid="twilight" base="reskins/twilight_sci-twi" src="0-calm.png"/>
+  <candy uid="twilight" base="reskins/twilight_sci-twi" src="0-happy.png"/>
+  <candy uid="kazuma" src="0-happy.png"/>
+  <candy uid="kazuma" src="0-appreciative.png"/>
+  <candy uid="kazuma" src="1-victory.png"/>
+  <candy uid="kazuma" src="3-smirk.png"/>
+  <candy uid="critical_darling" src="0-portrait.png"/>
+  <candy uid="critical_darling" src="0-ice.png"/>
+  <candy uid="critical_darling" src="3-sing.png"/>
+  <candy uid="critical_darling" src="3-rockin.png"/>
+  <candy uid="rarity_eg" src="0-acreative.png"/>
+  <candy uid="rarity_eg" src="0-brelaxed.png"/>
+  <candy uid="rarity_eg" src="0-cinterested.png"/>
+  <candy uid="rarity_eg" src="4-ahappy.png"/>
+  <candy uid="beatrix" src="0-curtsy.png"/>
+  <candy uid="beatrix" src="0-happy.png"/>
+  <candy uid="beatrix" src="0-interested.png"/>
+  <candy uid="beatrix" src="0-oops.png"/>
+  <candy uid="spooky" src="0-innocent.png"/>
+  <candy uid="spooky" src="1-distracted.png"/>
+  <candy uid="spooky" src="2-annoyed.png"/>
+  <candy uid="spooky" src="2-horny.png"/>
+  <candy uid="megumin" src="0-smug.png"/>
+  <candy uid="megumin" src="0-flustered.png"/>
+  <candy uid="megumin" src="2-ecstatic.png"/>
+  <candy uid="megumin" src="3-embarrassed.png"/>
+  <candy uid="cheryl" src="0-inquisitive.png"/>
+  <candy uid="cheryl" src="2-happy.png"/>
+  <candy uid="cheryl" src="3-inspired.png"/>
+  <candy uid="cheryl" src="4-cheeky.png"/>
+  <candy uid="aqua_grunt" src="0-team_aqua.png"/>
+  <candy uid="aqua_grunt" src="2-taunting.png"/>
+  <candy uid="aqua_grunt" src="4-tease.png"/>
+  <candy uid="aqua_grunt" src="5-leg_raised.png"/>
+  <candy uid="eichi" src="0-excited.png"/>
+  <candy uid="eichi" src="0-flirt_altc.png"/>
+  <candy uid="eichi" src="2-flirt.png"/>
+  <candy uid="eichi" src="3-tease.png"/>
+  <candy uid="tomoko" src="0-idle1.png"/>
+  <candy uid="tomoko" src="0-excited.png"/>
+  <candy uid="tomoko" src="0-serene.png"/>
+  <candy uid="tomoko" src="0-shy.png"/>
+  <candy uid="leonie" src="0-calm.png"/>
+  <candy uid="leonie" src="0-smug.png"/>
+  <candy uid="leonie" base="reskins/leonie_war_outfit" src="1-grin.png"/>
+  <candy uid="leonie" base="reskins/leonie_war_outfit" src="2-stretch-alt.png"/>
+  -->
+</catalog>
