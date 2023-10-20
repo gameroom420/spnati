@@ -692,13 +692,7 @@ function loadEventData () {
             });
 
             if (candySet.size > 0) {
-                CANDY_LIST = [];
-    
-                console.log("Event Candy Images:")
-                candySet.forEach(function (path) {
-                    console.log("    * " + path);
-                    CANDY_LIST.push(path);
-                });
+                useEventTitleCandy(candySet);
             }
 
             if (eventBackgrounds.size > 0) {
