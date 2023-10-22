@@ -1504,28 +1504,6 @@ function expandDialogue (dialogue, self, target, bindings) {
             case 'name':
                 substitution = expandNicknames(self, target);
                 break;
-            case 'count':
-                if (bindings) {
-                    var count = bindings.hasOwnProperty(args) ? bindings[args].length : 0;
-                    if (fn == 'text') {
-                        substitution = [ 'zero', 'one', 'two', 'three', 'four', 'five' ][count];
-                    } else if (fn === undefined) {
-                        substitution = count;
-                    }
-                }
-                break;
-            case 'list':
-                var [ name, conj ] = args.split('|');
-                if (bindings && bindings.hasOwnProperty(name)) {
-                    substitution = englishJoin(bindings[name].map(expandNicknames.bind(this, self)), conj);
-                }
-                break;
-            case 'switch':
-                var [ name, ...cases ] = args.split('|'), ix = bindings[name].length - 1;
-                if (bindings && bindings.hasOwnProperty(name)) {
-                    substitution = expandDialogue(cases[ ix > cases.length - 1 ? cases.length - 1 : ix ], self, target, bindings);
-                }
-                break;
             case 'clothing':
                 var clothing = (target||self).removedClothing;
                 substitution = expandClothingVariable(clothing, fn, args, self, target, bindings, true);
@@ -1676,6 +1654,34 @@ function expandDialogue (dialogue, self, target, bindings) {
             case 'selected':
                 var variablePlayer = findVariablePlayer(fn, self, target, bindings);
                 substitution = !!variablePlayer;
+                break;
+            case 'vars':
+                fn = fn_parts[0];
+                switch (fn) {
+                case 'count':
+                case 'textcount':
+                    if (bindings) {
+                        var count = bindings.hasOwnProperty(args) ? bindings[args].length : 0;
+                        if (fn == 'textcount') {
+                            substitution = [ 'zero', 'one', 'two', 'three', 'four', 'five' ][count];
+                        } else if (fn === undefined) {
+                            substitution = count;
+                        }
+                    }
+                    break;
+                case 'list':
+                    var [ name, last, conj ] = args.split('|');
+                    if (bindings && bindings.hasOwnProperty(name)) {
+                        substitution = englishJoin(bindings[name].map(expandNicknames.bind(this, self)).concat(last ? expandDialogue(last, self, target, bindings) : []), conj);
+                    }
+                    break;
+                case 'switch':
+                    var [ name, ...cases ] = args.split('|'), ix = bindings[name].length - 1;
+                    if (bindings && bindings.hasOwnProperty(name)) {
+                        substitution = expandDialogue(cases[ ix > cases.length - 1 ? cases.length - 1 : ix ], self, target, bindings);
+                    }
+                    break;
+                }
                 break;
             case 'target':
             case 'self':
