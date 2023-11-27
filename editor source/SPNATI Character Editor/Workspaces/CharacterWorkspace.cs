@@ -39,27 +39,9 @@ namespace SPNATI_Character_Editor.Workspaces
 			}
 
 			bool knownVersion = _character.Source != EditorSource.CharacterEditor;
-			string version = _character.Version;
-			for (int i = 0; i < Config.VersionHistory.Length; i++)
+			if (!knownVersion && string.Compare(_character.Version, Config.Version) > 0)
 			{
-				if (version == Config.VersionHistory[i])
-				{
-					knownVersion = true;
-					break;
-				}
-			}
-			if (!knownVersion && version != null)
-			{
-				Match match = Regex.Match(version, @"v(\d+)");
-				if (match.Success)
-				{
-					string majorVersion = match.Groups[1].Value;
-					int versionNumber;
-					if (int.TryParse(majorVersion, out versionNumber) && versionNumber >= 5)
-					{
-						ShowBanner($"This character was saved in a later version of the editor ({_character.Version}). Some features may not work properly.", Desktop.Skinning.SkinnedHighlight.Bad);
-					}
-				}
+				ShowBanner($"This character was saved in a later version of the editor ({_character.Version}). Some features may not work properly.", Desktop.Skinning.SkinnedHighlight.Bad);
 			}
 
 			string status = Listing.Instance.GetCharacterStatus(_character.FolderName);
