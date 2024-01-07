@@ -1,10 +1,9 @@
 ﻿
 using KisekaeImporter.SubCodes;
-using System.Collections.Generic;
 
 namespace KisekaeImporter
 {
-	[KisekaeSubCodeList("r", typeof(KisekaeAhoge))]
+	[KisekaeSubCodeList("r", typeof(KisekaeHairpiece))]
 	public class KisekaeHair : KisekaeComponent
 	{
 		[KisekaeSubCode("ea")]
@@ -57,14 +56,14 @@ namespace KisekaeImporter
 			}
 		}
 
-		public KisekaeAhoge GetAhoge(int index)
+		public KisekaeHairpiece GetHairpiece(int index)
 		{
-			return GetSubCode<KisekaeAhoge>("r" + index.ToString("00"));
+			return GetSubCode<KisekaeHairpiece>("r" + index.ToString("00"));
 		}
 
-		public void SetAhoge(int index, KisekaeAhoge ahoge)
+		public void SetHairpiece(int index, KisekaeHairpiece hairpiece)
 		{
-			SetSubCode("r" + index.ToString("00"), ahoge);
+			SetSubCode("r" + index.ToString("00"), hairpiece);
 		}
 	}
 }

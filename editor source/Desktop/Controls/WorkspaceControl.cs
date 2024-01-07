@@ -1,7 +1,6 @@
 ﻿using Desktop.Skinning;
 using System;
 using System.Collections.Generic;
-using System.Reflection;
 using System.Windows.Forms;
 
 namespace Desktop

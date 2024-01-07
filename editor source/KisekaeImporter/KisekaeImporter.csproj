@@ -70,7 +70,7 @@
     <Compile Include="DataStructures\Kisekae\Metadata\KisekaeSubcodeAttribute.cs" />
     <Compile Include="DataStructures\Kisekae\Metadata\KisekaeSubCodeListAttribute.cs" />
     <Compile Include="DataStructures\Kisekae\SubCodes\KKLVersion.cs" />
-    <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeAhoge.cs" />
+    <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeHairpiece.cs" />
     <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeAnimalEars.cs" />
     <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeFootSize.cs" />
     <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeThighSize.cs" />
@@ -99,9 +99,9 @@
     <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeBreasts.cs" />
     <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeGlobalArm.cs" />
     <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeGlove.cs" />
-    <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeHairclip.cs" />
-    <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeGlobalHairpiece.cs" />
-    <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeHairpiece.cs" />
+    <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeLegacyHairpin.cs" />
+    <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeGlobalRibbon.cs" />
+    <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeRibbon.cs" />
     <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeImage.cs" />
     <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeBreastPosition.cs" />
     <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeMassage.cs" />
@@ -110,7 +110,7 @@
     <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeClothes.cs" />
     <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeExpressionBrow.cs" />
     <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeExpressionMouth.cs" />
-    <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeFacePaint.cs" />
+    <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeMark.cs" />
     <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeEar.cs" />
     <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeEyebrows.cs" />
     <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeEyelids.cs" />
