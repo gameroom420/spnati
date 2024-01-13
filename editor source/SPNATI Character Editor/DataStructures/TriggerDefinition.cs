@@ -364,40 +364,20 @@ namespace SPNATI_Character_Editor
 		public static int ToStandardStage(Character character, int stage)
 		{
 			int layers = character.Layers;
-			if (stage == 0 || layers == Clothing.MaxLayers)
-				return stage;
-			return ShiftStage(character, stage);
-		}
-
-		/// <summary>
-		/// Upshifts stages so that it's based off of MaxLayers
-		/// </summary>
-		/// <param name="character"></param>
-		/// <param name="stage"></param>
-		/// <returns></returns>
-		public static int ShiftStage(Character character, int stage)
-		{
-			int layers = character.Layers;
-			//Shift forwards so MaxLayers is the final stage before losing
-			int shiftAmount = Clothing.MaxLayers - layers;
-			return stage + shiftAmount;
-		}
-
-		/// <summary>
-		/// Converts a character-specific stage into the format make_xml.py expects
-		/// </summary>
-		/// <param name="character"></param>
-		/// <param name="stage"></param>
-		/// <returns></returns>
-		public static int ToFlatFileStage(Character character, int stage)
-		{
-			int layers = character.Layers;
-			if (stage >= layers)
+			if (stage == 0)
 			{
-				stage -= (layers + Clothing.ExtraStages);
+				return stage;
 			}
-			return stage;
+			else if (stage >= layers - 1)
+			{
+				return Clothing.MaxLayers + stage - layers;
+			}
+			else
+			{
+				return 1;
+			}
 		}
+
 
 		/// <summary>
 		/// Gets whether a certain trigger gets used while the player is in a particular stage

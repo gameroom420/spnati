@@ -607,30 +607,6 @@ namespace SPNATI_Character_Editor
 			return null;
 		}
 
-		private static void ImportCharacter()
-		{
-			Character current = GetActiveCharacter();
-			if (current == null)
-			{
-				current = RecordLookup.DoLookup(typeof(Character), "") as Character;
-				if (current == null)
-				{
-					return;
-				}
-			}
-			string dir = Config.GetRootDirectory(current);
-			string file = Shell.Instance.ShowOpenFileDialog(dir, "edit-dialogue.txt", "Text files|*.txt|All files|*.*");
-			if (!string.IsNullOrEmpty(file))
-			{
-				FlatFileSerializer.Import(file, current);
-				Character c = current;
-				CharacterDatabase.Set(c.FolderName, c);
-
-				Shell.Instance.CloseWorkspace(Shell.Instance.ActiveWorkspace, true);
-				Shell.Instance.LaunchWorkspace(current);
-			}
-		}
-
 
 		private static void ViewTutorial()
 		{

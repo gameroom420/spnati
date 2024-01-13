@@ -329,31 +329,7 @@ namespace SPNATI_Character_Editor
 			return $"{(string.IsNullOrEmpty(extension) && !id.StartsWith("custom:") ? "custom:" : "")}{(stage >= 0 ? "#-" : "")}{id}{(!string.IsNullOrEmpty(extension) ? extension : "")}";
 		}
 
-		public PoseMapping GetFlatFilePose(string name)
-		{
-			string file = Path.Combine(_character.GetDirectory(), name);
-			if (File.Exists(file))
-			{
-				return GetPose(name);
-			}
-			else
-			{
-				string key = name;
-				if (key.StartsWith("custom:"))
-				{
-					key = "custom:#-" + key.Substring("custom:".Length);
-				}
-				else if (key.StartsWith("set:"))
-				{
-				//	key = "set:#-" + key.Substring("set:".Length);
-				}
-				else
-				{
-					key = "#-" + key;
-				}
-				return GetPose(key);
-			}
-		}
+
 
 		/// <summary>
 		/// Gets a PoseMapping based on how it might appear in a stage element

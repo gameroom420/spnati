@@ -273,7 +273,7 @@ namespace UnitTests
 		[TestMethod]
 		public void Stripped_Upper_Large_Female()
 		{
-			_female.Size = "large";
+			_female.LegacySize = "large";
 			Case c = new Case("stripped");
 			c.Stages.Add(4);
 			Assert.AreEqual("female_large_chest_is_visible", c.GetResponseTag(_female, _male));
@@ -282,7 +282,7 @@ namespace UnitTests
 		[TestMethod]
 		public void Stripped_Upper_Medium_Female()
 		{
-			_female.Size = "medium";
+			_female.LegacySize = "medium";
 			Case c = new Case("stripped");
 			c.Stages.Add(4);
 			Assert.AreEqual("female_medium_chest_is_visible", c.GetResponseTag(_female, _male));
@@ -291,7 +291,7 @@ namespace UnitTests
 		[TestMethod]
 		public void Stripped_Upper_Female()
 		{
-			_female.Size = "small";
+			_female.LegacySize = "small";
 			Case c = new Case("stripped");
 			c.Stages.Add(4);
 			Assert.AreEqual("female_small_chest_is_visible", c.GetResponseTag(_female, _male));
@@ -308,7 +308,7 @@ namespace UnitTests
 		[TestMethod]
 		public void Stripped_Upper_Large_Female_AsImportant()
 		{
-			_femaleMajor.Size = "large";
+			_femaleMajor.LegacySize = "large";
 			Case c = new Case("stripped");
 			c.Stages.Add(4);
 			Assert.AreEqual("female_large_chest_is_visible", c.GetResponseTag(_femaleMajor, _male));
@@ -317,7 +317,7 @@ namespace UnitTests
 		[TestMethod]
 		public void Stripped_Upper_Medium_Female_AsImportant()
 		{
-			_femaleMajor.Size = "medium";
+			_femaleMajor.LegacySize = "medium";
 			Case c = new Case("stripped");
 			c.Stages.Add(4);
 			Assert.AreEqual("female_medium_chest_is_visible", c.GetResponseTag(_femaleMajor, _male));
@@ -326,7 +326,7 @@ namespace UnitTests
 		[TestMethod]
 		public void Stripped_Upper_Female_AsImportant()
 		{
-			_femaleMajor.Size = "small";
+			_femaleMajor.LegacySize = "small";
 			Case c = new Case("stripped");
 			c.Stages.Add(4);
 			Assert.AreEqual("female_small_chest_is_visible", c.GetResponseTag(_femaleMajor, _male));
@@ -375,7 +375,7 @@ namespace UnitTests
 		[TestMethod]
 		public void Stripped_Lower_Large_Male()
 		{
-			_male.Size = "large";
+			_male.LegacySize = "large";
 			Case c = new Case("stripped");
 			c.Stages.Add(5);
 			Assert.AreEqual("male_large_crotch_is_visible", c.GetResponseTag(_male, _female));
@@ -384,7 +384,7 @@ namespace UnitTests
 		[TestMethod]
 		public void Stripped_Lower_Medium_Male()
 		{
-			_male.Size = "medium";
+			_male.LegacySize = "medium";
 			Case c = new Case("stripped");
 			c.Stages.Add(5);
 			Assert.AreEqual("male_medium_crotch_is_visible", c.GetResponseTag(_male, _female));
@@ -393,7 +393,7 @@ namespace UnitTests
 		[TestMethod]
 		public void Stripped_Lower_Small_Male()
 		{
-			_male.Size = "small";
+			_male.LegacySize = "small";
 			Case c = new Case("stripped");
 			c.Stages.Add(5);
 			Assert.AreEqual("male_small_crotch_is_visible", c.GetResponseTag(_male, _female));
@@ -410,7 +410,7 @@ namespace UnitTests
 		[TestMethod]
 		public void Stripped_Lower_Large_Male_AsImportant()
 		{
-			_maleMajor.Size = "large";
+			_maleMajor.LegacySize = "large";
 			Case c = new Case("stripped");
 			c.Stages.Add(5);
 			Assert.AreEqual("male_large_crotch_is_visible", c.GetResponseTag(_maleMajor, _female));
@@ -419,7 +419,7 @@ namespace UnitTests
 		[TestMethod]
 		public void Stripped_Lower_Medium_Male_AsImportant()
 		{
-			_maleMajor.Size = "medium";
+			_maleMajor.LegacySize = "medium";
 			Case c = new Case("stripped");
 			c.Stages.Add(5);
 			Assert.AreEqual("male_medium_crotch_is_visible", c.GetResponseTag(_maleMajor, _female));
@@ -428,7 +428,7 @@ namespace UnitTests
 		[TestMethod]
 		public void Stripped_Lower_Small_Male_AsImportant()
 		{
-			_maleMajor.Size = "small";
+			_maleMajor.LegacySize = "small";
 			Case c = new Case("stripped");
 			c.Stages.Add(5);
 			Assert.AreEqual("male_small_crotch_is_visible", c.GetResponseTag(_maleMajor, _female));
@@ -522,7 +522,7 @@ namespace UnitTests
 		[TestMethod]
 		public void Stripped_Lower_Large_Opponent()
 		{
-			_bimale.Size = "large";
+			_bimale.LegacySize = "large";
 			Case c = new Case("stripped");
 			c.Stages.Add(5);
 			Assert.AreEqual("opponent_crotch_is_visible", c.GetResponseTag(_bimale, _female));
@@ -531,7 +531,7 @@ namespace UnitTests
 		[TestMethod]
 		public void Stripped_Lower_Medium_Opponent()
 		{
-			_bimale.Size = "medium";
+			_bimale.LegacySize = "medium";
 			Case c = new Case("stripped");
 			c.Stages.Add(5);
 			Assert.AreEqual("opponent_crotch_is_visible", c.GetResponseTag(_bimale, _female));
@@ -540,7 +540,7 @@ namespace UnitTests
 		[TestMethod]
 		public void Stripped_Lower_Small_Opponent()
 		{
-			_bimale.Size = "small";
+			_bimale.LegacySize = "small";
 			Case c = new Case("stripped");
 			c.Stages.Add(5);
 			Assert.AreEqual("opponent_crotch_is_visible", c.GetResponseTag(_bimale, _female));
@@ -565,7 +565,7 @@ namespace UnitTests
 		[TestMethod]
 		public void Stripped_Lower_Large_Opponent_AsImportant()
 		{
-			_bimaleMajor.Size = "large";
+			_bimaleMajor.LegacySize = "large";
 			Case c = new Case("stripped");
 			c.Stages.Add(5);
 			Assert.AreEqual("opponent_crotch_is_visible", c.GetResponseTag(_bimaleMajor, _female));
@@ -574,7 +574,7 @@ namespace UnitTests
 		[TestMethod]
 		public void Stripped_Lower_Medium_Opponent_AsImportant()
 		{
-			_bimaleMajor.Size = "medium";
+			_bimaleMajor.LegacySize = "medium";
 			Case c = new Case("stripped");
 			c.Stages.Add(5);
 			Assert.AreEqual("opponent_crotch_is_visible", c.GetResponseTag(_bimaleMajor, _female));
@@ -583,7 +583,7 @@ namespace UnitTests
 		[TestMethod]
 		public void Stripped_Lower_Small_Opponent_AsImportant()
 		{
-			_bimaleMajor.Size = "small";
+			_bimaleMajor.LegacySize = "small";
 			Case c = new Case("stripped");
 			c.Stages.Add(5);
 			Assert.AreEqual("opponent_crotch_is_visible", c.GetResponseTag(_bimaleMajor, _female));
@@ -949,7 +949,7 @@ namespace UnitTests
 		{
 			Case c = new Case("female_small_chest_is_visible");
 			c.LegacyTarget = _female.FolderName;
-			_female.Size = "small";
+			_female.LegacySize = "small";
 			Assert.AreEqual("stripped", c.GetResponseTag(_male, _female));
 		}
 
@@ -965,7 +965,7 @@ namespace UnitTests
 		{
 			Case c = new Case("female_medium_chest_is_visible");
 			c.LegacyTarget = _female.FolderName;
-			_female.Size = "medium";
+			_female.LegacySize = "medium";
 			Assert.AreEqual("stripped", c.GetResponseTag(_male, _female));
 		}
 
@@ -981,7 +981,7 @@ namespace UnitTests
 		{
 			Case c = new Case("female_large_chest_is_visible");
 			c.LegacyTarget = _female.FolderName;
-			_female.Size = "large";
+			_female.LegacySize = "large";
 			Assert.AreEqual("stripped", c.GetResponseTag(_male, _female));
 		}
 
@@ -1087,7 +1087,7 @@ namespace UnitTests
 		{
 			Case c = new Case("male_small_crotch_is_visible");
 			c.LegacyTarget = _male.FolderName;
-			_male.Size = "small";
+			_male.LegacySize = "small";
 			Assert.AreEqual("stripped", c.GetResponseTag(_female, _male));
 		}
 
@@ -1103,7 +1103,7 @@ namespace UnitTests
 		{
 			Case c = new Case("male_medium_crotch_is_visible");
 			c.LegacyTarget = _male.FolderName;
-			_male.Size = "medium";
+			_male.LegacySize = "medium";
 			Assert.AreEqual("stripped", c.GetResponseTag(_female, _male));
 		}
 
@@ -1119,7 +1119,7 @@ namespace UnitTests
 		{
 			Case c = new Case("male_large_crotch_is_visible");
 			c.LegacyTarget = _male.FolderName;
-			_male.Size = "large";
+			_male.LegacySize = "large";
 			Assert.AreEqual("stripped", c.GetResponseTag(_female, _male));
 		}
 
@@ -1457,7 +1457,7 @@ namespace UnitTests
 		{
 			Case c = new Case("female_small_chest_is_visible");
 			c.Conditions.Add(new TargetCondition() { Character = _female.FolderName, Role = "target" });
-			_female.Size = "small";
+			_female.LegacySize = "small";
 			Assert.AreEqual("stripped", c.GetResponseTag(_male, _female));
 		}
 
@@ -1466,7 +1466,7 @@ namespace UnitTests
 		{
 			Case c = new Case("female_medium_chest_is_visible");
 			c.Conditions.Add(new TargetCondition() { Character = _female.FolderName, Role = "target" });
-			_female.Size = "medium";
+			_female.LegacySize = "medium";
 			Assert.AreEqual("stripped", c.GetResponseTag(_male, _female));
 		}
 
@@ -1475,7 +1475,7 @@ namespace UnitTests
 		{
 			Case c = new Case("female_large_chest_is_visible");
 			c.Conditions.Add(new TargetCondition() { Character = _female.FolderName, Role = "target" });
-			_female.Size = "large";
+			_female.LegacySize = "large";
 			Assert.AreEqual("stripped", c.GetResponseTag(_male, _female));
 		}
 
@@ -1531,7 +1531,7 @@ namespace UnitTests
 		{
 			Case c = new Case("male_small_crotch_is_visible");
 			c.Conditions.Add(new TargetCondition() { Character = _male.FolderName, Role = "target" });
-			_male.Size = "small";
+			_male.LegacySize = "small";
 			Assert.AreEqual("stripped", c.GetResponseTag(_female, _male));
 		}
 
@@ -1540,7 +1540,7 @@ namespace UnitTests
 		{
 			Case c = new Case("male_medium_crotch_is_visible");
 			c.Conditions.Add(new TargetCondition() { Character = _male.FolderName, Role = "target" });
-			_male.Size = "medium";
+			_male.LegacySize = "medium";
 			Assert.AreEqual("stripped", c.GetResponseTag(_female, _male));
 		}
 
@@ -1549,7 +1549,7 @@ namespace UnitTests
 		{
 			Case c = new Case("male_large_crotch_is_visible");
 			c.Conditions.Add(new TargetCondition() { Character = _male.FolderName, Role = "target" });
-			_male.Size = "large";
+			_male.LegacySize = "large";
 			Assert.AreEqual("stripped", c.GetResponseTag(_female, _male));
 		}
 

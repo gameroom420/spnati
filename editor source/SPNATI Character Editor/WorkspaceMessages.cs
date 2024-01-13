@@ -53,6 +53,11 @@ namespace SPNATI_Character_Editor
 		/// Sent when the previewed character has changed
 		/// </summary>
 		public const int PreviewCharacterChanged = 10;
+
+		/// <summary>
+		/// Sent when the number of skip layers of a costume has changed
+		/// </summary>
+		public const int SkipLayersChanged = 11;
 	}
 
 	public class UpdateImageArgs

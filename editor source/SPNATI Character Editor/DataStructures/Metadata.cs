@@ -1,6 +1,7 @@
 using Desktop.DataStructures;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Linq;
 using System.Xml.Serialization;
 
 namespace SPNATI_Character_Editor
@@ -224,7 +225,7 @@ namespace SPNATI_Character_Editor
 			{
 				Gender = c.Gender;
 			}
-			Layers = c.Layers;
+			Layers = Layers == 0 ? c.Layers : Layers;
 			DefaultCostumeName = c.Metadata.DefaultCostumeName;
 			Endings = c.Endings.ConvertAll(e => new EpilogueMeta
 			{
@@ -253,7 +254,7 @@ namespace SPNATI_Character_Editor
 			{
 				foreach (AlternateSkin skin in c.Metadata.AlternateSkins)
 					foreach (SkinLink link in skin.Skins)
-						if (link.LayersNonSkip == c.Layers)
+						if (link.LayersNonSkip == c.Metadata.Layers)
 							link.LayersNonSkip = 0;
 			}
 		}

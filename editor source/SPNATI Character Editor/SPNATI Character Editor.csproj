@@ -1413,7 +1413,6 @@
     <Compile Include="ImageCache.cs" />
     <Compile Include="ImportPayload.cs" />
     <Compile Include="Intellisense.cs" />
-    <Compile Include="IO\FlatFileSerializer.cs" />
     <Compile Include="IO\SpnatiXmlSerializer.cs" />
     <Compile Include="DataStructures\Listing.cs" />
     <Compile Include="IO\CharacterStyleSheetSerializer.cs" />

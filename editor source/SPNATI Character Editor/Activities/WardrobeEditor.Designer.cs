@@ -32,6 +32,13 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.gridWardrobe = new Desktop.Skinning.SkinnedDataGridView();
+            this.ColName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColMore = new Desktop.Skinning.SkinnedDataGridViewButtonColumn();
+            this.ColGeneric = new Desktop.CommonControls.RecordColumn();
+            this.ColPlural = new Desktop.Skinning.SkinnedDataGridViewCheckBoxColumn();
+            this.ColType = new Desktop.CommonControls.RecordColumn();
+            this.ColPosition = new Desktop.CommonControls.RecordColumn();
+            this.ColDelete = new Desktop.Skinning.SkinnedDataGridViewButtonColumn();
             this.cmdClothesDown = new Desktop.Skinning.SkinnedButton();
             this.cmdClothesUp = new Desktop.Skinning.SkinnedButton();
             this.label9 = new Desktop.Skinning.SkinnedLabel();
@@ -44,13 +51,6 @@
             this.label5 = new Desktop.Skinning.SkinnedLabel();
             this.label7 = new Desktop.Skinning.SkinnedLabel();
             this.label8 = new Desktop.Skinning.SkinnedLabel();
-            this.ColName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColMore = new Desktop.Skinning.SkinnedDataGridViewButtonColumn();
-            this.ColGeneric = new Desktop.CommonControls.RecordColumn();
-            this.ColPlural = new Desktop.Skinning.SkinnedDataGridViewCheckBoxColumn();
-            this.ColType = new Desktop.CommonControls.RecordColumn();
-            this.ColPosition = new Desktop.CommonControls.RecordColumn();
-            this.ColDelete = new Desktop.Skinning.SkinnedDataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.gridWardrobe)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -115,6 +115,60 @@
             this.gridWardrobe.CellValidating += new System.Windows.Forms.DataGridViewCellValidatingEventHandler(this.gridWardrobe_CellValidating);
             this.gridWardrobe.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.gridWardrobe_RowsAdded);
             this.gridWardrobe.RowsRemoved += new System.Windows.Forms.DataGridViewRowsRemovedEventHandler(this.gridWardrobe_RowsRemoved);
+            // 
+            // ColName
+            // 
+            this.ColName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColName.HeaderText = "Name";
+            this.ColName.Name = "ColName";
+            this.ColName.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // ColMore
+            // 
+            this.ColMore.FieldType = Desktop.Skinning.SkinnedFieldType.Primary;
+            this.ColMore.Flat = true;
+            this.ColMore.HeaderText = "";
+            this.ColMore.Name = "ColMore";
+            this.ColMore.Width = 21;
+            // 
+            // ColGeneric
+            // 
+            this.ColGeneric.AllowsNew = false;
+            this.ColGeneric.HeaderText = "Classification";
+            this.ColGeneric.Name = "ColGeneric";
+            this.ColGeneric.RecordFilter = null;
+            this.ColGeneric.RecordType = null;
+            this.ColGeneric.Width = 150;
+            // 
+            // ColPlural
+            // 
+            this.ColPlural.HeaderText = "Is Plural?";
+            this.ColPlural.Name = "ColPlural";
+            this.ColPlural.Width = 50;
+            // 
+            // ColType
+            // 
+            this.ColType.AllowsNew = false;
+            this.ColType.HeaderText = "Type";
+            this.ColType.Name = "ColType";
+            this.ColType.RecordFilter = null;
+            this.ColType.RecordType = null;
+            // 
+            // ColPosition
+            // 
+            this.ColPosition.AllowsNew = false;
+            this.ColPosition.HeaderText = "Position";
+            this.ColPosition.Name = "ColPosition";
+            this.ColPosition.RecordFilter = null;
+            this.ColPosition.RecordType = null;
+            // 
+            // ColDelete
+            // 
+            this.ColDelete.FieldType = Desktop.Skinning.SkinnedFieldType.Primary;
+            this.ColDelete.Flat = true;
+            this.ColDelete.HeaderText = "";
+            this.ColDelete.Name = "ColDelete";
+            this.ColDelete.Width = 21;
             // 
             // cmdClothesDown
             // 
@@ -286,60 +340,6 @@
             this.label8.Size = new System.Drawing.Size(149, 13);
             this.label8.TabIndex = 0;
             this.label8.Text = "Upper: Covers the chest area.";
-            // 
-            // ColName
-            // 
-            this.ColName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ColName.HeaderText = "Name";
-            this.ColName.Name = "ColName";
-            this.ColName.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // ColMore
-            // 
-            this.ColMore.FieldType = Desktop.Skinning.SkinnedFieldType.Primary;
-            this.ColMore.Flat = true;
-            this.ColMore.HeaderText = "";
-            this.ColMore.Name = "ColMore";
-            this.ColMore.Width = 21;
-            // 
-            // ColGeneric
-            // 
-            this.ColGeneric.AllowsNew = false;
-            this.ColGeneric.HeaderText = "Classification";
-            this.ColGeneric.Name = "ColGeneric";
-            this.ColGeneric.RecordFilter = null;
-            this.ColGeneric.RecordType = null;
-            this.ColGeneric.Width = 150;
-            // 
-            // ColPlural
-            // 
-            this.ColPlural.HeaderText = "Is Plural?";
-            this.ColPlural.Name = "ColPlural";
-            this.ColPlural.Width = 50;
-            // 
-            // ColType
-            // 
-            this.ColType.AllowsNew = false;
-            this.ColType.HeaderText = "Type";
-            this.ColType.Name = "ColType";
-            this.ColType.RecordFilter = null;
-            this.ColType.RecordType = null;
-            // 
-            // ColPosition
-            // 
-            this.ColPosition.AllowsNew = false;
-            this.ColPosition.HeaderText = "Position";
-            this.ColPosition.Name = "ColPosition";
-            this.ColPosition.RecordFilter = null;
-            this.ColPosition.RecordType = null;
-            // 
-            // ColDelete
-            // 
-            this.ColDelete.FieldType = Desktop.Skinning.SkinnedFieldType.Primary;
-            this.ColDelete.Flat = true;
-            this.ColDelete.HeaderText = "";
-            this.ColDelete.Name = "ColDelete";
-            this.ColDelete.Width = 21;
             // 
             // WardrobeEditor
             // 

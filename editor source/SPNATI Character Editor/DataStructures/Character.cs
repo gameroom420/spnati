@@ -128,8 +128,25 @@ namespace SPNATI_Character_Editor
 			set { Set(value); }
 		}
 
+		[DefaultValue("")]
+		[XmlElement("penis")]
+		public string Penis
+		{
+			get { return Get<string>(); }
+			set { Set(value); }
+		}
+
+		[DefaultValue("")]
+		[XmlElement("breasts")]
+		public string Breasts
+		{
+			get { return Get<string>(); }
+			set { Set(value); }
+		}
+
+		[DefaultValue("")]
 		[XmlElement("size")]
-		public string Size
+		public string LegacySize
 		{
 			get { return Get<string>(); }
 			set { Set(value); }
@@ -329,7 +346,7 @@ namespace SPNATI_Character_Editor
 			LastName = "Character";
 			Labels = new ObservableCollection<StageSpecificValue>();
 			Gender = "female";
-			Size = "medium";
+			Breasts = "medium";
 			Intelligence = new ObservableCollection<StageSpecificValue>();
 			Stamina = 15;
 			Tags = new List<CharacterTag>();
@@ -357,7 +374,9 @@ namespace SPNATI_Character_Editor
 			LastName = "";
 			Labels.Clear();
 			Gender = "";
-			Size = "";
+			LegacySize = "";
+			Penis = "";
+			Breasts = "";
 			Behavior = new Behaviour();
 			Intelligence = new ObservableCollection<StageSpecificValue>();
 			Stamina = 15;
@@ -534,100 +553,6 @@ namespace SPNATI_Character_Editor
 			return new StageName(layer.ToString(), label);
 		}
 
-		/// <summary>
-		/// Converts a layer to a user friendly name for the txt flat file
-		/// </summary>
-		/// <param name="layer"></param>
-		public StageName LayerToFlatFileName(int layer, bool advancingStage)
-		{
-			string label = layer.ToString();
-			if (layer < 0 || layer >= Wardrobe.Count + Clothing.ExtraStages)
-			{
-				if (layer == -3)
-				{
-					label = "naked";
-				}
-				else if (layer == -2)
-				{
-					label = "masturbating";
-				}
-				else if (layer == -1)
-				{
-					label = "finished";
-				}
-				else
-				{
-					return null;
-				}
-			}
-			else
-			{
-				if (advancingStage)
-				{
-					layer++;
-					if (layer <= Wardrobe.Count)
-					{
-						Clothing clothes = Wardrobe[Layers - layer];
-						if (clothes.ToString() != "SKIP")
-						{
-							label = "losing " + clothes.ToString();
-						}
-						else
-						{
-							label = "SKIPPED";
-						}
-					}
-					else
-					{
-						label = "lost all clothing";
-					}
-				}
-				else
-				{
-					if (layer == 0)
-						label = "Fully Clothed";
-					else if (layer < Wardrobe.Count)
-					{
-						int index = layer - 1;
-						Clothing lastClothes = Wardrobe[Layers - 1 - index];
-						Clothing clothes = Wardrobe[Layers - 1 - layer];
-						if (lastClothes.ToString() != "SKIP")
-						{
-							label = "Lost " + lastClothes.ToString();
-						}
-						else
-						{
-							if (clothes.ToString() == "SKIP")
-							{
-								label = "EMPTY STAGE";
-							}
-							else
-							{
-								do
-								{
-									index--;
-									clothes = Wardrobe[Layers - 1 - index];
-								} while (clothes.ToString() == "SKIP");
-								label = "Lost " + clothes.ToString();
-							}
-						}
-					}
-					else if (layer == Wardrobe.Count)
-					{
-						label = "Naked";
-					}
-					else if (layer == Wardrobe.Count + 1)
-					{
-						label = "Masturbating";
-					}
-					else if (layer == Wardrobe.Count + 2)
-					{
-						label = "Finished";
-					}
-				}
-			}
-			return new StageName(layer.ToString(), label);
-		}
 
 		/// <summary>
 		/// Adds a new layer
@@ -1030,12 +955,23 @@ namespace SPNATI_Character_Editor
 			targeted = stageCase.GetTargets().Contains(character.FolderName);
 			if (!targeted && (allowedTargetTypes & TargetType.Filter) > 0)
 			{
-				string gender = stageCase.Tag.StartsWith("male_") ? "male" : stageCase.Tag.StartsWith("female_") ? "female" : null;
+				string gender = stageCase.Tag.StartsWith("male_") ? "male" : stageCase.Tag.StartsWith("female_") ? "female" : stageCase.Tag.StartsWith("futanari_") ? "female" : null;
 				if (gender != null && gender != character.Gender)
 					return false;
 				string size = stageCase.Tag.Contains("_large_") ? "large" : stageCase.Tag.Contains("_medium_") ? "medium" : stageCase.Tag.Contains("_small_") ? "small" : null;
-				if (size != null && character.Size != size)
-					return false;
+				if (size != null)
+				{
+					if (stageCase.Tag.Contains("_crotch"))
+					{
+						if (!string.IsNullOrEmpty(character.LegacySize) && character.Gender == "male" && character.LegacySize != size || !string.IsNullOrEmpty(character.Penis) && character.Penis != size)
+							return false;
+					}
+					else
+					{
+						if (!string.IsNullOrEmpty(character.LegacySize) && character.Gender == "female" && character.LegacySize != size || !string.IsNullOrEmpty(character.Breasts) && character.Breasts != size)
+							return false;
+					}
+				}
 
 				foreach (TargetCondition cond in stageCase.Conditions)
 				{
