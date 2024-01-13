@@ -1787,7 +1787,7 @@ namespace SPNATI_Character_Editor
 		{
 			Clothing layer = speaker.Wardrobe[speaker.Layers - stage - 1];
 			string layerType = layer.Type;
-			if (layer.Type == "major")
+			if (layer.Type == "major" || layer.Type == "important")
 			{
 				//if this is the last major and there are no importants, treat as important
 				bool hasUpperImportant = false;
@@ -1831,17 +1831,6 @@ namespace SPNATI_Character_Editor
 			{
 				return "accessory";
 			}
-			else if (layerType == "important")
-			{
-				if (layer.Position == "lower" || layer.Position == "both")
-				{
-					return "crotch";
-				}
-				else if (layer.Position == "upper")
-				{
-					return "chest";
-				}
-			}
 			return layerType;
 		}
 
@@ -1853,7 +1842,13 @@ namespace SPNATI_Character_Editor
 		/// <returns></returns>
 		public string GetResponseTag(Character speaker, Character responder)
 		{
+			if (Tag == "settings_changed")
+			{
+				return null;
+			}
+
 			string gender = speaker.Gender;
+			bool futanari = gender == "female" && !string.IsNullOrEmpty(speaker.Penis);
 
 			//First handle tags where the speaker is actively doing something, since these are the easiest to handle
 			if (Tag == "stripping")
@@ -1873,6 +1868,10 @@ namespace SPNATI_Character_Editor
 					if (speaker.Metadata.CrossGender)
 					{
 						return $"opponent_{layer}_will_be_visible";
+					}
+					if (futanari && layer == "crotch")
+					{
+						return $"futanari_crotch_will_be_visible";
 					}
 					return $"{gender}_{layer}_will_be_visible";
 				}
@@ -1895,29 +1894,32 @@ namespace SPNATI_Character_Editor
 					{
 						return $"opponent_{layer}_is_visible";
 					}
-					else if (gender == "female" && layer == "chest" || gender == "male" && layer == "crotch")
+					if (futanari && layer == "crotch")
 					{
-						return $"{gender}_{speaker.Size}_{layer}_is_visible";
+						return $"futanari_{speaker.Penis}_crotch_is_visible";
 					}
-					else
+					if (gender == "female" && layer == "chest")
 					{
-						return $"{gender}_{layer}_is_visible";
+						string speakerSize = !string.IsNullOrEmpty(speaker.LegacySize) ? speaker.LegacySize : speaker.Breasts;
+						return $"female_{speakerSize}_chest_is_visible";
 					}
+					if (gender == "male" && layer == "crotch")
+					{
+						string speakerSize = !string.IsNullOrEmpty(speaker.LegacySize) ? speaker.LegacySize : speaker.Penis;
+						return $"male_{speakerSize}_crotch_is_visible";
+					}
+					return $"{gender}_{layer}_is_visible";
 				}
 			}
-			else if (Tag == "must_masturbate_first")
+			else if (Tag == "must_masturbate_first" || Tag == "must_masturbate")
 			{
 				if (speaker.Metadata.CrossGender)
 				{
 					return "opponent_lost";
 				}
-				return $"{gender}_must_masturbate";
-			}
-			else if (Tag == "must_masturbate")
-			{
-				if (speaker.Metadata.CrossGender)
+				if (futanari)
 				{
-					return "opponent_lost";
+					return "futanari_must_masturbate";
 				}
 				return $"{gender}_must_masturbate";
 			}
@@ -1926,6 +1928,10 @@ namespace SPNATI_Character_Editor
 				if (speaker.Metadata.CrossGender)
 				{
 					return $"opponent_{Tag}";
+				}
+				if (futanari)
+				{
+					return $"futanari_{Tag}";
 				}
 				return $"{gender}_{Tag}";
 			}
@@ -1958,6 +1964,10 @@ namespace SPNATI_Character_Editor
 			else if (tag != null && tag.StartsWith("male_"))
 			{
 				tag = tag.Substring(5);
+			}
+			else if (tag != null && tag.StartsWith("futanari_"))
+			{
+				tag = tag.Substring(9);
 			}
 			else if (tag != null && tag.StartsWith("opponent_") && !tag.EndsWith("selected"))
 			{
@@ -2165,9 +2175,22 @@ namespace SPNATI_Character_Editor
 				return true;
 			}
 
-			if (trigger.Size != null && trigger.Size != character.Size)
+			if (trigger.Size != null)
 			{
-				return false;
+				if (trigger.Tag.Contains("crotch_"))
+				{
+					if (!string.IsNullOrEmpty(character.LegacySize) && character.Gender == "male" && character.LegacySize != trigger.Size || !string.IsNullOrEmpty(character.Penis) && character.Penis != trigger.Size)
+					{
+						return false;
+					}
+				}
+				else if (trigger.Tag.Contains("chest"))
+				{
+					if (!string.IsNullOrEmpty(character.LegacySize) && character.Gender == "female" && character.LegacySize != trigger.Size || !string.IsNullOrEmpty(character.Breasts) && character.Breasts != trigger.Size)
+					{
+						return false;
+					}
+				}
 			}
 
 			if (trigger.Gender == null || trigger.Gender == character.Gender || character.Metadata.CrossGender)

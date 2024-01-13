@@ -18,6 +18,7 @@ namespace SPNATI_Character_Editor.Activities
 			cboGender.Items.AddRange(new string[] { "female", "male" });
 			cboTitleGender.Items.AddRange(new string[] { "", "female", "male" });
 			cboSize.Items.AddRange(new string[] { "small", "medium", "large" });
+			cboFutanariPenisSize.Items.AddRange(new string[] { "", "small", "medium", "large" });
 			ColDifficulty.Items.AddRange(DialogueLine.AILevels);
 		}
 
@@ -36,8 +37,21 @@ namespace SPNATI_Character_Editor.Activities
 			txtFirstName.Text = _character.FirstName;
 			txtLastName.Text = _character.LastName;
 			txtDefaultCostumeName.Text = _character.Metadata.DefaultCostumeName;
-			cboSize.SelectedItem = _character.Size;
 			cboGender.SelectedItem = _character.Gender;
+			if (_character.Gender == "male")
+			{
+				cboSize.SelectedItem = string.IsNullOrEmpty(_character.LegacySize)? _character.Penis : _character.LegacySize;
+			}
+			else
+			{
+				cboSize.SelectedItem = string.IsNullOrEmpty(_character.LegacySize) ? _character.Breasts : _character.LegacySize;
+				if (!string.IsNullOrEmpty(_character.Penis))
+				{
+					ExpandFutanariSize();
+					cboFutanariPenisSize.SelectedItem = _character.Penis;
+				}
+			}
+
 			if (_character.Metadata.Gender != _character.Gender && !string.IsNullOrEmpty(_character.Metadata.Gender))
 			{
 				cboTitleGender.SelectedItem = _character.Metadata.Gender;
@@ -73,10 +87,11 @@ namespace SPNATI_Character_Editor.Activities
 					PoseMapping pose = _character.PoseLibrary.GetPose(portrait);
 					cboDefaultPic.SelectedItem = pose;
 				}
-				valPicX.Value = Math.Max(valPicX.Minimum, Math.Min((decimal)_character.Metadata.Portrait.X, valPicX.Maximum));
-				valPicY.Value = Math.Max(valPicY.Minimum, Math.Min((decimal)_character.Metadata.Portrait.Y, valPicY.Maximum));
+				valPicX.Value = Math.Max(valPicX.Minimum, Math.Min(_character.Metadata.Portrait.X, valPicX.Maximum));
+				valPicY.Value = Math.Max(valPicY.Minimum, Math.Min(_character.Metadata.Portrait.Y, valPicY.Maximum));
 				valPicScale.Value = Math.Max(valPicScale.Minimum, Math.Min((decimal)_character.Metadata.Portrait.Scale, valPicScale.Maximum));
 			}
+			valLayers.Value = Math.Max(valLayers.Minimum, Math.Min(_character.Metadata.Layers, valLayers.Maximum));
 			gridAI.Data = _character.Intelligence;
 
 			string othernotes = CharacterDatabase.GetEditorData(_character).OtherNotes;
@@ -143,7 +158,9 @@ namespace SPNATI_Character_Editor.Activities
 			{
 				_character.Metadata.Gender = titleGender;
 			}
-			_character.Size = cboSize.SelectedItem.ToString();
+			_character.Penis = _character.Gender == "male" ? cboSize.SelectedItem.ToString() : cboFutanariPenisSize.SelectedItem.ToString();
+			_character.Breasts = _character.Gender == "male" ? "" : cboSize.SelectedItem.ToString();
+			_character.LegacySize = "";
 			_character.Metadata.Description = txtDescription.Text.Replace(Environment.NewLine, "<br>");
 			CharacterDatabase.GetEditorData(_character).Height = txtHeight.Text;
 			_character.Metadata.LegacyHeight = "";
@@ -152,6 +169,7 @@ namespace SPNATI_Character_Editor.Activities
 			CharacterDatabase.GetEditorData(_character).pronunciationGuide = txtpronunciationGuide.Text;
 			_character.Metadata.Source = txtSource.Text;
 			_character.Metadata.DefaultCostumeName = txtDefaultCostumeName.Text;
+			_character.Metadata.Layers = (int)valLayers.Value;
 			_character.Metadata.Writer = txtWriter.Text;
 			_character.Metadata.Artist = txtArtist.Text;
 			gridAI.Save(ColAIStage);
@@ -176,16 +194,21 @@ namespace SPNATI_Character_Editor.Activities
 			Workspace.SendMessage(WorkspaceMessages.UpdatePreviewImage, new UpdateImageArgs(_character, image, 0));
 		}
 
-		private void cboGender_SelectedIndexChanged(object sender, System.EventArgs e)
+		private void cboGender_SelectedIndexChanged(object sender, EventArgs e)
 		{
 			string gender = cboGender.SelectedItem?.ToString();
 			if (gender == "male")
 			{
-				lblSize.Text = "Crotch:";
+				lblSize.Text = "Penis:";
+				lblFutanariPenisSize.Visible = false;
+				cboFutanariPenisSize.SelectedIndex = 0;
+				cboFutanariPenisSize.Visible = false;
+				cmdExpandFutanariSize.Visible = false;
 			}
 			else
 			{
-				lblSize.Text = "Chest:";
+				lblSize.Text = "Breasts:";
+				cmdExpandFutanariSize.Visible = true;
 			}
 		}
 
@@ -199,6 +222,18 @@ namespace SPNATI_Character_Editor.Activities
 			cmdExpandGender.Visible = false;
 			lblTitleGender.Visible = true;
 			cboTitleGender.Visible = true;
+		}
+
+		private void cmdExpandFutanariSize_Click(object sender, EventArgs e)
+		{
+			ExpandFutanariSize();
+		}
+
+		private void ExpandFutanariSize()
+		{
+			cmdExpandFutanariSize.Visible = false;
+			lblFutanariPenisSize.Visible = true;
+			cboFutanariPenisSize.Visible = true;
 		}
 
 		private void cmdExpandLabel_Click(object sender, EventArgs e)
@@ -221,6 +256,8 @@ namespace SPNATI_Character_Editor.Activities
 		private void ExpandPic()
 		{
 			cmdExpandPicOptions.Visible = false;
+			lblLayers.Visible = true;
+			valLayers.Visible = true;
 			lblPicX.Visible = true;
 			valPicX.Visible = true;
 			lblPicY.Visible = true;

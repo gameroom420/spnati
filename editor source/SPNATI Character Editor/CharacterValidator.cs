@@ -559,9 +559,22 @@ namespace SPNATI_Character_Editor
 									warnings.Add(new ValidationError(ValidationFilterLevel.TargetedDialogue, string.Format("Target \"{1}\" is {2}, so this case will never trigger. {0}", caseLabel, condition.Character, target.Gender), context));
 								}
 							}
-							if (!string.IsNullOrEmpty(trigger.Size) && target.Size != trigger.Size)
+							if (!string.IsNullOrEmpty(trigger.Size))
 							{
-								warnings.Add(new ValidationError(ValidationFilterLevel.TargetedDialogue, string.Format("Target \"{1}\" has a size of {2}, so this case will never trigger. {0}", caseLabel, condition.Character, target.Size), context));
+								if (trigger.Tag.Contains("crotch"))
+								{
+									if (target.Gender == "male" && !string.IsNullOrEmpty(target.LegacySize) && target.LegacySize != trigger.Size || !string.IsNullOrEmpty(target.Penis) && target.Penis != trigger.Size)
+									{
+										warnings.Add(new ValidationError(ValidationFilterLevel.TargetedDialogue, string.Format("Target \"{1}\" does not have a penis size of {2}, so this case will never trigger. {0}", caseLabel, condition.Character, trigger.Size), context));
+									}
+								}
+								else
+								{
+									if (target.Gender == "female" && !string.IsNullOrEmpty(target.LegacySize) && target.LegacySize != trigger.Size || !string.IsNullOrEmpty(target.Breasts) && target.Breasts != trigger.Size)
+									{
+										warnings.Add(new ValidationError(ValidationFilterLevel.TargetedDialogue, string.Format("Target \"{1}\" does not have a breasts size of {2}, so this case will never trigger. {0}", caseLabel, condition.Character, trigger.Size), context));
+									}
+								}
 							}
 							if (!string.IsNullOrEmpty(condition.Stage))
 							{

@@ -28,12 +28,12 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+            this.components = new System.ComponentModel.Container();
             this.label1 = new Desktop.Skinning.SkinnedLabel();
             this.txtName = new Desktop.Skinning.SkinnedTextBox();
             this.label2 = new Desktop.Skinning.SkinnedLabel();
             this.cboBaseStage = new Desktop.Skinning.SkinnedComboBox();
             this.label3 = new Desktop.Skinning.SkinnedLabel();
-            this.gridLabels = new SPNATI_Character_Editor.Controls.StageSpecificGrid();
             this.label22 = new Desktop.Skinning.SkinnedLabel();
             this.cboDefaultPic = new Desktop.Skinning.SkinnedComboBox();
             this.lblStatus = new Desktop.Skinning.SkinnedLabel();
@@ -42,6 +42,12 @@
             this.cboGender = new Desktop.Skinning.SkinnedComboBox();
             this.skinnedLabel2 = new Desktop.Skinning.SkinnedLabel();
             this.cboEvent = new Desktop.Skinning.SkinnedComboBox();
+            this.cmdExpandPortrait = new Desktop.Skinning.SkinnedIcon();
+            this.lblLayers = new Desktop.Skinning.SkinnedLabel();
+            this.valLayers = new Desktop.Skinning.SkinnedNumericUpDown();
+            this.gridLabels = new SPNATI_Character_Editor.Controls.StageSpecificGrid();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.valLayers)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -111,14 +117,6 @@
             this.label3.TabIndex = 12;
             this.label3.Text = "Labels:";
             // 
-            // gridLabels
-            // 
-            this.gridLabels.Label = "Display Name";
-            this.gridLabels.Location = new System.Drawing.Point(6, 140);
-            this.gridLabels.Name = "gridLabels";
-            this.gridLabels.Size = new System.Drawing.Size(195, 151);
-            this.gridLabels.TabIndex = 13;
-            // 
             // label22
             // 
             this.label22.AutoSize = true;
@@ -128,7 +126,7 @@
             this.label22.Level = Desktop.Skinning.SkinnedLabelLevel.Normal;
             this.label22.Location = new System.Drawing.Point(3, 32);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(43, 13);
+            this.label22.Size = new System.Drawing.Size(38, 13);
             this.label22.TabIndex = 4;
             this.label22.Text = "Event:";
             // 
@@ -222,7 +220,7 @@
             this.skinnedLabel2.Level = Desktop.Skinning.SkinnedLabelLevel.Normal;
             this.skinnedLabel2.Location = new System.Drawing.Point(224, 32);
             this.skinnedLabel2.Name = "skinnedLabel2";
-            this.skinnedLabel2.Size = new System.Drawing.Size(45, 13);
+            this.skinnedLabel2.Size = new System.Drawing.Size(43, 13);
             this.skinnedLabel2.TabIndex = 6;
             this.skinnedLabel2.Text = "Portrait:";
             // 
@@ -244,10 +242,76 @@
             this.cboEvent.Sorted = false;
             this.cboEvent.TabIndex = 5;
             // 
+            // cmdExpandPortrait
+            // 
+            this.cmdExpandPortrait.Background = Desktop.Skinning.SkinnedBackgroundType.Surface;
+            this.cmdExpandPortrait.FieldType = Desktop.Skinning.SkinnedFieldType.Primary;
+            this.cmdExpandPortrait.Flat = false;
+            this.cmdExpandPortrait.Image = global::SPNATI_Character_Editor.Properties.Resources.Expand;
+            this.cmdExpandPortrait.Location = new System.Drawing.Point(436, 31);
+            this.cmdExpandPortrait.Name = "cmdExpandPortrait";
+            this.cmdExpandPortrait.Size = new System.Drawing.Size(16, 16);
+            this.cmdExpandPortrait.TabIndex = 14;
+            this.cmdExpandPortrait.Text = "skinnedIcon1";
+            this.cmdExpandPortrait.UseVisualStyleBackColor = true;
+            this.cmdExpandPortrait.Click += new System.EventHandler(this.cmdExpandPortrait_Click);
+            // 
+            // lblLayers
+            // 
+            this.lblLayers.AutoSize = true;
+            this.lblLayers.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.lblLayers.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblLayers.Highlight = Desktop.Skinning.SkinnedHighlight.Normal;
+            this.lblLayers.Level = Desktop.Skinning.SkinnedLabelLevel.Normal;
+            this.lblLayers.Location = new System.Drawing.Point(458, 32);
+            this.lblLayers.Name = "lblLayers";
+            this.lblLayers.Size = new System.Drawing.Size(41, 13);
+            this.lblLayers.TabIndex = 15;
+            this.lblLayers.Text = "Layers:";
+            this.lblLayers.Visible = false;
+            this.toolTip1.SetToolTip(this.lblLayers, "Number of layers shown on the selection screen.");
+            // 
+            // valLayers
+            // 
+            this.valLayers.BackColor = System.Drawing.Color.White;
+            this.valLayers.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.valLayers.ForeColor = System.Drawing.Color.Black;
+            this.valLayers.Location = new System.Drawing.Point(505, 29);
+            this.valLayers.Maximum = new decimal(new int[] {
+            9,
+            0,
+            0,
+            0});
+            this.valLayers.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.valLayers.Name = "valLayers";
+            this.valLayers.Size = new System.Drawing.Size(37, 20);
+            this.valLayers.TabIndex = 16;
+            this.valLayers.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.valLayers.Visible = false;
+            // 
+            // gridLabels
+            // 
+            this.gridLabels.Label = "Display Name";
+            this.gridLabels.Location = new System.Drawing.Point(6, 140);
+            this.gridLabels.Name = "gridLabels";
+            this.gridLabels.Size = new System.Drawing.Size(195, 151);
+            this.gridLabels.TabIndex = 13;
+            // 
             // SkinEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.valLayers);
+            this.Controls.Add(this.lblLayers);
+            this.Controls.Add(this.cmdExpandPortrait);
             this.Controls.Add(this.skinnedLabel2);
             this.Controls.Add(this.cboEvent);
             this.Controls.Add(this.cboGender);
@@ -263,7 +327,8 @@
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.label1);
             this.Name = "SkinEditor";
-            this.Size = new System.Drawing.Size(562, 538);
+            this.Size = new System.Drawing.Size(611, 538);
+            ((System.ComponentModel.ISupportInitialize)(this.valLayers)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -285,5 +350,9 @@
 		private Desktop.Skinning.SkinnedComboBox cboGender;
 		private Desktop.Skinning.SkinnedLabel skinnedLabel2;
 		private Desktop.Skinning.SkinnedComboBox cboEvent;
-	}
+        private Desktop.Skinning.SkinnedIcon cmdExpandPortrait;
+        private Desktop.Skinning.SkinnedLabel lblLayers;
+        private Desktop.Skinning.SkinnedNumericUpDown valLayers;
+        private System.Windows.Forms.ToolTip toolTip1;
+    }
 }

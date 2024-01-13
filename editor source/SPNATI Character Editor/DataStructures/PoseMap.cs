@@ -329,7 +329,6 @@ namespace SPNATI_Character_Editor
 			return $"{(string.IsNullOrEmpty(extension) && !id.StartsWith("custom:") ? "custom:" : "")}{(stage >= 0 ? "#-" : "")}{id}{(!string.IsNullOrEmpty(extension) ? extension : "")}";
 		}
 
-
 		/// <summary>
 		/// Gets a PoseMapping based on how it might appear in a stage element
 		/// </summary>

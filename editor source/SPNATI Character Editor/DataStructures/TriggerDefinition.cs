@@ -364,23 +364,19 @@ namespace SPNATI_Character_Editor
 		public static int ToStandardStage(Character character, int stage)
 		{
 			int layers = character.Layers;
-			if (stage == 0 || layers == Clothing.MaxLayers)
-				return stage;
-			return ShiftStage(character, stage);
-		}
 
-		/// <summary>
-		/// Upshifts stages so that it's based off of MaxLayers
-		/// </summary>
-		/// <param name="character"></param>
-		/// <param name="stage"></param>
-		/// <returns></returns>
-		public static int ShiftStage(Character character, int stage)
-		{
-			int layers = character.Layers;
-			//Shift forwards so MaxLayers is the final stage before losing
-			int shiftAmount = Clothing.MaxLayers - layers;
-			return stage + shiftAmount;
+			if (stage == 0)
+			{
+				return stage;
+			}
+			else if (stage >= layers - 1)
+			{
+				return Clothing.MaxLayers + stage - layers;
+			}
+			else
+			{
+				return 1;
+			}
 		}
 
 

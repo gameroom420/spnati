@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SPNATI_Character_Editor.Analyzers
 {
@@ -44,21 +40,21 @@ namespace SPNATI_Character_Editor.Analyzers
 		}
 	}
 
-	public class SizeAnalyzer : IDataAnalyzer
+	public class PenisSizeAnalyzer : IDataAnalyzer
 	{
 		public string Key
 		{
-			get { return "Size"; }
+			get { return "Penis Size"; }
 		}
 
 		public string Name
 		{
-			get { return "Size"; }
+			get { return "Penis Size"; }
 		}
 
 		public string FullName
 		{
-			get { return "Size"; }
+			get { return "Penis Size"; }
 		}
 
 		public string ParentKey
@@ -78,7 +74,45 @@ namespace SPNATI_Character_Editor.Analyzers
 
 		public bool MeetsCriteria(Character character, string op, string value)
 		{
-			return StringOperations.Matches(character.Size, op, value);
+			return StringOperations.Matches((!string.IsNullOrEmpty(character.LegacySize) && character.Gender == "male")? character.LegacySize : character.Penis, op, value);
+		}
+	}
+
+	public class BreastsSizeAnalyzer : IDataAnalyzer
+	{
+		public string Key
+		{
+			get { return "Breasts Size"; }
+		}
+
+		public string Name
+		{
+			get { return "Breasts Size"; }
+		}
+
+		public string FullName
+		{
+			get { return "Breasts Size"; }
+		}
+
+		public string ParentKey
+		{
+			get { return ""; }
+		}
+
+		public string[] GetValues()
+		{
+			return new string[] { "large", "medium", "small" };
+		}
+
+		public Type GetValueType()
+		{
+			return typeof(string);
+		}
+
+		public bool MeetsCriteria(Character character, string op, string value)
+		{
+			return StringOperations.Matches((!string.IsNullOrEmpty(character.LegacySize) && character.Gender == "female") ? character.LegacySize : character.Breasts, op, value);
 		}
 	}
 

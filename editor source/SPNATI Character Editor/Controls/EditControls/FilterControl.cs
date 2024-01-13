@@ -41,11 +41,11 @@ namespace SPNATI_Character_Editor
 				if (workingCase != null && workingCase.Tag != null)
 				{
 					string gender = "";
-					if (workingCase.Tag.Contains("female_"))
+					if (workingCase.Tag.StartsWith("female_") || workingCase.Tag.StartsWith("futanari_"))
 					{
 						gender = "female";
 					}
-					else if (workingCase.Tag.Contains("male_"))
+					else if (workingCase.Tag.StartsWith("male_"))
 					{
 						gender = "male";
 					}
@@ -68,9 +68,20 @@ namespace SPNATI_Character_Editor
 					{
 						size = "small";
 					}
-					if (!string.IsNullOrEmpty(size) && !string.IsNullOrEmpty(c.Size) && c.Size != size)
+
+					if (workingCase.Tag.Contains("crotch_"))
 					{
-						return false;
+						if (!string.IsNullOrEmpty(size) && (!string.IsNullOrEmpty(c.LegacySize) && c.Gender == "male" && c.LegacySize != size || !string.IsNullOrEmpty(c.Penis) && c.Penis != size))
+						{
+							return false;
+						}
+					}
+					else if (workingCase.Tag.Contains("chest"))
+					{
+						if (!string.IsNullOrEmpty(size) && (!string.IsNullOrEmpty(c.LegacySize) && c.Gender == "female" && c.LegacySize != size || !string.IsNullOrEmpty(c.Breasts) && c.Breasts != size))
+						{
+							return false;
+						}
 					}
 					return true;
 				}

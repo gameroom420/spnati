@@ -30,9 +30,9 @@ namespace SPNATI_Character_Editor.Activities
 		private void InitializeComponent()
 		{
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
             this.txtLabel = new Desktop.Skinning.SkinnedTextBox();
             this.label1 = new Desktop.Skinning.SkinnedLabel();
             this.gridAI = new Desktop.Skinning.SkinnedDataGridView();
@@ -62,15 +62,17 @@ namespace SPNATI_Character_Editor.Activities
             this.lblSize = new Desktop.Skinning.SkinnedLabel();
             this.cboGender = new Desktop.Skinning.SkinnedComboBox();
             this.skinnedGroupBox1 = new Desktop.Skinning.SkinnedGroupBox();
+            this.cboFutanariPenisSize = new Desktop.Skinning.SkinnedComboBox();
+            this.lblFutanariPenisSize = new Desktop.Skinning.SkinnedLabel();
+            this.cmdExpandFutanariSize = new Desktop.Skinning.SkinnedIcon();
             this.txtDefaultCostumeName = new Desktop.Skinning.SkinnedTextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.valPicScale = new Desktop.Skinning.SkinnedNumericUpDown();
             this.lblPicScale = new Desktop.Skinning.SkinnedLabel();
             this.valPicY = new Desktop.Skinning.SkinnedNumericUpDown();
             this.lblPicY = new Desktop.Skinning.SkinnedLabel();
             this.valPicX = new Desktop.Skinning.SkinnedNumericUpDown();
             this.cmdExpandPicOptions = new Desktop.Skinning.SkinnedIcon();
-            this.lblPicX = new Desktop.Skinning.SkinnedLabel();
+            this.lblLayers = new Desktop.Skinning.SkinnedLabel();
             this.cmdExpandGender = new Desktop.Skinning.SkinnedIcon();
             this.cboTitleGender = new Desktop.Skinning.SkinnedComboBox();
             this.lblTitleGender = new Desktop.Skinning.SkinnedLabel();
@@ -87,6 +89,9 @@ namespace SPNATI_Character_Editor.Activities
             this.lblTitleLabel = new Desktop.Skinning.SkinnedLabel();
             this.skinnedGroupBox4 = new Desktop.Skinning.SkinnedGroupBox();
             this.skinnedGroupBox5 = new Desktop.Skinning.SkinnedGroupBox();
+            this.valLayers = new Desktop.Skinning.SkinnedNumericUpDown();
+            this.lblPicX = new Desktop.Skinning.SkinnedLabel();
+            this.lblDefaultCostume = new Desktop.Skinning.SkinnedLabel();
             ((System.ComponentModel.ISupportInitialize)(this.gridAI)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.valRounds)).BeginInit();
             this.skinnedGroupBox1.SuspendLayout();
@@ -97,6 +102,7 @@ namespace SPNATI_Character_Editor.Activities
             this.skinnedGroupBox3.SuspendLayout();
             this.skinnedGroupBox4.SuspendLayout();
             this.skinnedGroupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.valLayers)).BeginInit();
             this.SuspendLayout();
             // 
             // txtLabel
@@ -130,27 +136,27 @@ namespace SPNATI_Character_Editor.Activities
             this.gridAI.BackgroundColor = System.Drawing.Color.White;
             this.gridAI.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.gridAI.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridAI.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle28.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle28.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.gridAI.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle28;
             this.gridAI.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridAI.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColAIStage,
             this.ColDifficulty});
             this.gridAI.Data = null;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.gridAI.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle29.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle29.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.gridAI.DefaultCellStyle = dataGridViewCellStyle29;
             this.gridAI.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
             this.gridAI.EnableHeadersVisualStyles = false;
             this.gridAI.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
@@ -158,14 +164,14 @@ namespace SPNATI_Character_Editor.Activities
             this.gridAI.Location = new System.Drawing.Point(107, 27);
             this.gridAI.Name = "gridAI";
             this.gridAI.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridAI.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle30.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle30.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.gridAI.RowHeadersDefaultCellStyle = dataGridViewCellStyle30;
             this.gridAI.RowHeadersVisible = false;
             this.gridAI.Size = new System.Drawing.Size(230, 125);
             this.gridAI.TabIndex = 18;
@@ -225,7 +231,7 @@ namespace SPNATI_Character_Editor.Activities
             this.txtDescription.Location = new System.Drawing.Point(107, 130);
             this.txtDescription.Multiline = true;
             this.txtDescription.Name = "txtDescription";
-            this.txtDescription.Size = new System.Drawing.Size(570, 90);
+            this.txtDescription.Size = new System.Drawing.Size(607, 90);
             this.txtDescription.TabIndex = 15;
             this.toolTip1.SetToolTip(this.txtDescription, "A description of the character which will be displayed on the character select sc" +
         "reen.");
@@ -280,7 +286,7 @@ namespace SPNATI_Character_Editor.Activities
             this.txtLastName.ForeColor = System.Drawing.Color.Black;
             this.txtLastName.Location = new System.Drawing.Point(434, 22);
             this.txtLastName.Name = "txtLastName";
-            this.txtLastName.Size = new System.Drawing.Size(252, 20);
+            this.txtLastName.Size = new System.Drawing.Size(280, 20);
             this.txtLastName.TabIndex = 8;
             this.toolTip1.SetToolTip(this.txtLastName, "The character\'s surname, if they have one.");
             // 
@@ -451,7 +457,7 @@ namespace SPNATI_Character_Editor.Activities
             this.cboSize.Name = "cboSize";
             this.cboSize.SelectedIndex = -1;
             this.cboSize.SelectedItem = null;
-            this.cboSize.Size = new System.Drawing.Size(114, 21);
+            this.cboSize.Size = new System.Drawing.Size(89, 21);
             this.cboSize.Sorted = false;
             this.cboSize.TabIndex = 11;
             this.toolTip1.SetToolTip(this.cboSize, "The Size of a character\'s penis or breasts.");
@@ -505,15 +511,20 @@ namespace SPNATI_Character_Editor.Activities
             // skinnedGroupBox1
             // 
             this.skinnedGroupBox1.BackColor = System.Drawing.Color.White;
+            this.skinnedGroupBox1.Controls.Add(this.lblDefaultCostume);
+            this.skinnedGroupBox1.Controls.Add(this.lblPicX);
+            this.skinnedGroupBox1.Controls.Add(this.valLayers);
+            this.skinnedGroupBox1.Controls.Add(this.cboFutanariPenisSize);
+            this.skinnedGroupBox1.Controls.Add(this.lblFutanariPenisSize);
+            this.skinnedGroupBox1.Controls.Add(this.cmdExpandFutanariSize);
             this.skinnedGroupBox1.Controls.Add(this.txtDefaultCostumeName);
-            this.skinnedGroupBox1.Controls.Add(this.label4);
             this.skinnedGroupBox1.Controls.Add(this.valPicScale);
             this.skinnedGroupBox1.Controls.Add(this.lblPicScale);
             this.skinnedGroupBox1.Controls.Add(this.valPicY);
             this.skinnedGroupBox1.Controls.Add(this.lblPicY);
             this.skinnedGroupBox1.Controls.Add(this.valPicX);
             this.skinnedGroupBox1.Controls.Add(this.cmdExpandPicOptions);
-            this.skinnedGroupBox1.Controls.Add(this.lblPicX);
+            this.skinnedGroupBox1.Controls.Add(this.lblLayers);
             this.skinnedGroupBox1.Controls.Add(this.cmdExpandGender);
             this.skinnedGroupBox1.Controls.Add(this.cboTitleGender);
             this.skinnedGroupBox1.Controls.Add(this.lblTitleGender);
@@ -537,10 +548,58 @@ namespace SPNATI_Character_Editor.Activities
             this.skinnedGroupBox1.Name = "skinnedGroupBox1";
             this.skinnedGroupBox1.PanelType = Desktop.Skinning.SkinnedBackgroundType.Surface;
             this.skinnedGroupBox1.ShowIndicatorBar = false;
-            this.skinnedGroupBox1.Size = new System.Drawing.Size(696, 231);
+            this.skinnedGroupBox1.Size = new System.Drawing.Size(720, 231);
             this.skinnedGroupBox1.TabIndex = 108;
             this.skinnedGroupBox1.TabStop = false;
             this.skinnedGroupBox1.Text = "Demographics";
+            // 
+            // cboFutanariPenisSize
+            // 
+            this.cboFutanariPenisSize.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.cboFutanariPenisSize.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.cboFutanariPenisSize.BackColor = System.Drawing.Color.White;
+            this.cboFutanariPenisSize.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboFutanariPenisSize.FieldType = Desktop.Skinning.SkinnedFieldType.Surface;
+            this.cboFutanariPenisSize.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.cboFutanariPenisSize.FormattingEnabled = true;
+            this.cboFutanariPenisSize.KeyMember = null;
+            this.cboFutanariPenisSize.Location = new System.Drawing.Point(625, 49);
+            this.cboFutanariPenisSize.Name = "cboFutanariPenisSize";
+            this.cboFutanariPenisSize.SelectedIndex = -1;
+            this.cboFutanariPenisSize.SelectedItem = null;
+            this.cboFutanariPenisSize.Size = new System.Drawing.Size(89, 21);
+            this.cboFutanariPenisSize.Sorted = false;
+            this.cboFutanariPenisSize.TabIndex = 121;
+            this.toolTip1.SetToolTip(this.cboFutanariPenisSize, "Futanari penis size.");
+            this.cboFutanariPenisSize.Visible = false;
+            // 
+            // lblFutanariPenisSize
+            // 
+            this.lblFutanariPenisSize.AutoSize = true;
+            this.lblFutanariPenisSize.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.lblFutanariPenisSize.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblFutanariPenisSize.Highlight = Desktop.Skinning.SkinnedHighlight.Normal;
+            this.lblFutanariPenisSize.Level = Desktop.Skinning.SkinnedLabelLevel.Label;
+            this.lblFutanariPenisSize.Location = new System.Drawing.Point(539, 53);
+            this.lblFutanariPenisSize.Name = "lblFutanariPenisSize";
+            this.lblFutanariPenisSize.Size = new System.Drawing.Size(80, 13);
+            this.lblFutanariPenisSize.TabIndex = 120;
+            this.lblFutanariPenisSize.Text = "Penis (futanari):";
+            this.lblFutanariPenisSize.Visible = false;
+            // 
+            // cmdExpandFutanariSize
+            // 
+            this.cmdExpandFutanariSize.Background = Desktop.Skinning.SkinnedBackgroundType.Surface;
+            this.cmdExpandFutanariSize.FieldType = Desktop.Skinning.SkinnedFieldType.Primary;
+            this.cmdExpandFutanariSize.Flat = false;
+            this.cmdExpandFutanariSize.Image = global::SPNATI_Character_Editor.Properties.Resources.Expand;
+            this.cmdExpandFutanariSize.Location = new System.Drawing.Point(529, 51);
+            this.cmdExpandFutanariSize.Name = "cmdExpandFutanariSize";
+            this.cmdExpandFutanariSize.Size = new System.Drawing.Size(16, 16);
+            this.cmdExpandFutanariSize.TabIndex = 119;
+            this.toolTip1.SetToolTip(this.cmdExpandFutanariSize, "Show futanari options");
+            this.cmdExpandFutanariSize.UseVisualStyleBackColor = true;
+            this.cmdExpandFutanariSize.Click += new System.EventHandler(this.cmdExpandFutanariSize_Click);
             // 
             // txtDefaultCostumeName
             // 
@@ -548,19 +607,10 @@ namespace SPNATI_Character_Editor.Activities
             this.txtDefaultCostumeName.ForeColor = System.Drawing.Color.Black;
             this.txtDefaultCostumeName.Location = new System.Drawing.Point(529, 102);
             this.txtDefaultCostumeName.Name = "txtDefaultCostumeName";
-            this.txtDefaultCostumeName.Size = new System.Drawing.Size(148, 20);
+            this.txtDefaultCostumeName.Size = new System.Drawing.Size(185, 20);
             this.txtDefaultCostumeName.TabIndex = 118;
             this.toolTip1.SetToolTip(this.txtDefaultCostumeName, "The name of the character\'s default costume, shown on the character select screen" +
         "");
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(365, 107);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(146, 13);
-            this.label4.TabIndex = 117;
-            this.label4.Text = "Name of the default costume:";
             // 
             // valPicScale
             // 
@@ -568,7 +618,7 @@ namespace SPNATI_Character_Editor.Activities
             this.valPicScale.DecimalPlaces = 1;
             this.valPicScale.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.valPicScale.ForeColor = System.Drawing.Color.Black;
-            this.valPicScale.Location = new System.Drawing.Point(627, 76);
+            this.valPicScale.Location = new System.Drawing.Point(660, 76);
             this.valPicScale.Maximum = new decimal(new int[] {
             200,
             0,
@@ -580,7 +630,7 @@ namespace SPNATI_Character_Editor.Activities
             0,
             0});
             this.valPicScale.Name = "valPicScale";
-            this.valPicScale.Size = new System.Drawing.Size(61, 20);
+            this.valPicScale.Size = new System.Drawing.Size(54, 20);
             this.valPicScale.TabIndex = 115;
             this.toolTip1.SetToolTip(this.valPicScale, "Scaling factor for the character\'s image on the selection screen.");
             this.valPicScale.Value = new decimal(new int[] {
@@ -594,10 +644,10 @@ namespace SPNATI_Character_Editor.Activities
             // 
             this.lblPicScale.AutoSize = true;
             this.lblPicScale.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.lblPicScale.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblPicScale.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblPicScale.Highlight = Desktop.Skinning.SkinnedHighlight.Normal;
-            this.lblPicScale.Level = Desktop.Skinning.SkinnedLabelLevel.Normal;
-            this.lblPicScale.Location = new System.Drawing.Point(567, 80);
+            this.lblPicScale.Level = Desktop.Skinning.SkinnedLabelLevel.Label;
+            this.lblPicScale.Location = new System.Drawing.Point(603, 80);
             this.lblPicScale.Name = "lblPicScale";
             this.lblPicScale.Size = new System.Drawing.Size(54, 13);
             this.lblPicScale.TabIndex = 114;
@@ -609,14 +659,19 @@ namespace SPNATI_Character_Editor.Activities
             this.valPicY.BackColor = System.Drawing.Color.White;
             this.valPicY.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.valPicY.ForeColor = System.Drawing.Color.Black;
-            this.valPicY.Location = new System.Drawing.Point(500, 76);
+            this.valPicY.Location = new System.Drawing.Point(545, 76);
+            this.valPicY.Maximum = new decimal(new int[] {
+            300,
+            0,
+            0,
+            0});
             this.valPicY.Minimum = new decimal(new int[] {
-            100,
+            300,
             0,
             0,
             -2147483648});
             this.valPicY.Name = "valPicY";
-            this.valPicY.Size = new System.Drawing.Size(61, 20);
+            this.valPicY.Size = new System.Drawing.Size(50, 20);
             this.valPicY.TabIndex = 113;
             this.toolTip1.SetToolTip(this.valPicY, "Offset for the character\'s image on the selection screen. Positive values move th" +
         "e image up.");
@@ -626,10 +681,10 @@ namespace SPNATI_Character_Editor.Activities
             // 
             this.lblPicY.AutoSize = true;
             this.lblPicY.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.lblPicY.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblPicY.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblPicY.Highlight = Desktop.Skinning.SkinnedHighlight.Normal;
-            this.lblPicY.Level = Desktop.Skinning.SkinnedLabelLevel.Normal;
-            this.lblPicY.Location = new System.Drawing.Point(477, 80);
+            this.lblPicY.Level = Desktop.Skinning.SkinnedLabelLevel.Label;
+            this.lblPicY.Location = new System.Drawing.Point(526, 80);
             this.lblPicY.Name = "lblPicY";
             this.lblPicY.Size = new System.Drawing.Size(17, 13);
             this.lblPicY.TabIndex = 112;
@@ -641,14 +696,19 @@ namespace SPNATI_Character_Editor.Activities
             this.valPicX.BackColor = System.Drawing.Color.White;
             this.valPicX.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.valPicX.ForeColor = System.Drawing.Color.Black;
-            this.valPicX.Location = new System.Drawing.Point(410, 76);
+            this.valPicX.Location = new System.Drawing.Point(470, 76);
+            this.valPicX.Maximum = new decimal(new int[] {
+            300,
+            0,
+            0,
+            0});
             this.valPicX.Minimum = new decimal(new int[] {
-            100,
+            300,
             0,
             0,
             -2147483648});
             this.valPicX.Name = "valPicX";
-            this.valPicX.Size = new System.Drawing.Size(61, 20);
+            this.valPicX.Size = new System.Drawing.Size(50, 20);
             this.valPicX.TabIndex = 111;
             this.toolTip1.SetToolTip(this.valPicX, "Offset for the character\'s image on the selection screen. Positive values move th" +
         "e image to the right.");
@@ -669,19 +729,20 @@ namespace SPNATI_Character_Editor.Activities
             this.cmdExpandPicOptions.UseVisualStyleBackColor = true;
             this.cmdExpandPicOptions.Click += new System.EventHandler(this.cmdExpandPicOptions_Click);
             // 
-            // lblPicX
+            // lblLayers
             // 
-            this.lblPicX.AutoSize = true;
-            this.lblPicX.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.lblPicX.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblPicX.Highlight = Desktop.Skinning.SkinnedHighlight.Normal;
-            this.lblPicX.Level = Desktop.Skinning.SkinnedLabelLevel.Normal;
-            this.lblPicX.Location = new System.Drawing.Point(387, 80);
-            this.lblPicX.Name = "lblPicX";
-            this.lblPicX.Size = new System.Drawing.Size(17, 13);
-            this.lblPicX.TabIndex = 109;
-            this.lblPicX.Text = "X:";
-            this.lblPicX.Visible = false;
+            this.lblLayers.AutoSize = true;
+            this.lblLayers.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.lblLayers.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblLayers.Highlight = Desktop.Skinning.SkinnedHighlight.Normal;
+            this.lblLayers.Level = Desktop.Skinning.SkinnedLabelLevel.Label;
+            this.lblLayers.Location = new System.Drawing.Point(365, 80);
+            this.lblLayers.Name = "lblLayers";
+            this.lblLayers.Size = new System.Drawing.Size(41, 13);
+            this.lblLayers.TabIndex = 109;
+            this.lblLayers.Text = "Layers:";
+            this.lblLayers.Visible = false;
+            this.toolTip1.SetToolTip(this.lblLayers, "Number of layers shows on the selection screen.");
             // 
             // cmdExpandGender
             // 
@@ -693,7 +754,6 @@ namespace SPNATI_Character_Editor.Activities
             this.cmdExpandGender.Name = "cmdExpandGender";
             this.cmdExpandGender.Size = new System.Drawing.Size(16, 16);
             this.cmdExpandGender.TabIndex = 108;
-            this.cmdExpandGender.Text = "skinnedIcon1";
             this.toolTip1.SetToolTip(this.cmdExpandGender, "Show advanced gender options");
             this.cmdExpandGender.UseVisualStyleBackColor = true;
             this.cmdExpandGender.Click += new System.EventHandler(this.cmdExpandGender_Click);
@@ -791,7 +851,7 @@ namespace SPNATI_Character_Editor.Activities
             this.skinnedGroupBox2.Name = "skinnedGroupBox2";
             this.skinnedGroupBox2.PanelType = Desktop.Skinning.SkinnedBackgroundType.Surface;
             this.skinnedGroupBox2.ShowIndicatorBar = false;
-            this.skinnedGroupBox2.Size = new System.Drawing.Size(696, 101);
+            this.skinnedGroupBox2.Size = new System.Drawing.Size(720, 101);
             this.skinnedGroupBox2.TabIndex = 109;
             this.skinnedGroupBox2.TabStop = false;
             this.skinnedGroupBox2.Text = "Credits";
@@ -809,7 +869,7 @@ namespace SPNATI_Character_Editor.Activities
             this.skinnedGroupBox3.Name = "skinnedGroupBox3";
             this.skinnedGroupBox3.PanelType = Desktop.Skinning.SkinnedBackgroundType.Surface;
             this.skinnedGroupBox3.ShowIndicatorBar = false;
-            this.skinnedGroupBox3.Size = new System.Drawing.Size(460, 189);
+            this.skinnedGroupBox3.Size = new System.Drawing.Size(484, 189);
             this.skinnedGroupBox3.TabIndex = 110;
             this.skinnedGroupBox3.TabStop = false;
             this.skinnedGroupBox3.Text = "Gameplay";
@@ -847,11 +907,11 @@ namespace SPNATI_Character_Editor.Activities
             this.txtOtherNotes.BackColor = System.Drawing.Color.White;
             this.txtOtherNotes.ForeColor = System.Drawing.Color.Black;
             this.txtOtherNotes.Location = new System.Drawing.Point(98, 28);
-            this.txtOtherNotes.Multiline = true;
             this.txtOtherNotes.MaxLength = 1048575;
+            this.txtOtherNotes.Multiline = true;
             this.txtOtherNotes.Name = "txtOtherNotes";
             this.txtOtherNotes.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtOtherNotes.Size = new System.Drawing.Size(570, 223);
+            this.txtOtherNotes.Size = new System.Drawing.Size(616, 223);
             this.txtOtherNotes.TabIndex = 0;
             this.toolTip1.SetToolTip(this.txtOtherNotes, "This information is only seen in this editor, and could be used for taking notes," +
         " giving tips to other writers wanting to target your character, etc.");
@@ -900,10 +960,63 @@ namespace SPNATI_Character_Editor.Activities
             this.skinnedGroupBox5.Name = "skinnedGroupBox5";
             this.skinnedGroupBox5.PanelType = Desktop.Skinning.SkinnedBackgroundType.Surface;
             this.skinnedGroupBox5.ShowIndicatorBar = false;
-            this.skinnedGroupBox5.Size = new System.Drawing.Size(696, 271);
+            this.skinnedGroupBox5.Size = new System.Drawing.Size(720, 271);
             this.skinnedGroupBox5.TabIndex = 113;
             this.skinnedGroupBox5.TabStop = false;
             this.skinnedGroupBox5.Text = "Other Notes";
+            // 
+            // valLayers
+            // 
+            this.valLayers.BackColor = System.Drawing.Color.White;
+            this.valLayers.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.valLayers.ForeColor = System.Drawing.Color.Black;
+            this.valLayers.Location = new System.Drawing.Point(408, 76);
+            this.valLayers.Maximum = new decimal(new int[] {
+            9,
+            0,
+            0,
+            0});
+            this.valLayers.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.valLayers.Name = "valLayers";
+            this.valLayers.Size = new System.Drawing.Size(37, 20);
+            this.valLayers.TabIndex = 122;
+            this.valLayers.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.valLayers.Visible = false;
+            // 
+            // lblPicX
+            // 
+            this.lblPicX.AutoSize = true;
+            this.lblPicX.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.lblPicX.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblPicX.Highlight = Desktop.Skinning.SkinnedHighlight.Normal;
+            this.lblPicX.Level = Desktop.Skinning.SkinnedLabelLevel.Label;
+            this.lblPicX.Location = new System.Drawing.Point(451, 80);
+            this.lblPicX.Name = "lblPicX";
+            this.lblPicX.Size = new System.Drawing.Size(17, 13);
+            this.lblPicX.TabIndex = 123;
+            this.lblPicX.Text = "X:";
+            this.lblPicX.Visible = false;
+            // 
+            // lblDefaultCostume
+            // 
+            this.lblDefaultCostume.AutoSize = true;
+            this.lblDefaultCostume.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.lblDefaultCostume.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblDefaultCostume.Highlight = Desktop.Skinning.SkinnedHighlight.Normal;
+            this.lblDefaultCostume.Level = Desktop.Skinning.SkinnedLabelLevel.Label;
+            this.lblDefaultCostume.Location = new System.Drawing.Point(365, 107);
+            this.lblDefaultCostume.Name = "lblDefaultCostume";
+            this.lblDefaultCostume.Size = new System.Drawing.Size(146, 13);
+            this.lblDefaultCostume.TabIndex = 124;
+            this.lblDefaultCostume.Text = "Name of the default costume:";
             // 
             // MetadataEditor
             // 
@@ -937,6 +1050,7 @@ namespace SPNATI_Character_Editor.Activities
             this.skinnedGroupBox4.PerformLayout();
             this.skinnedGroupBox5.ResumeLayout(false);
             this.skinnedGroupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.valLayers)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -991,12 +1105,17 @@ namespace SPNATI_Character_Editor.Activities
         private Desktop.Skinning.SkinnedTextBox txtOtherNotes;
         private Desktop.Skinning.SkinnedNumericUpDown valPicX;
         private Desktop.Skinning.SkinnedIcon cmdExpandPicOptions;
-        private Desktop.Skinning.SkinnedLabel lblPicX;
+        private Desktop.Skinning.SkinnedLabel lblLayers;
         private Desktop.Skinning.SkinnedLabel lblPicY;
         private Desktop.Skinning.SkinnedLabel lblPicScale;
         private Desktop.Skinning.SkinnedNumericUpDown valPicY;
         private Desktop.Skinning.SkinnedNumericUpDown valPicScale;
-        private System.Windows.Forms.Label label4;
         private Desktop.Skinning.SkinnedTextBox txtDefaultCostumeName;
+        private Desktop.Skinning.SkinnedIcon cmdExpandFutanariSize;
+        private Desktop.Skinning.SkinnedComboBox cboFutanariPenisSize;
+        private Desktop.Skinning.SkinnedLabel lblFutanariPenisSize;
+        private Desktop.Skinning.SkinnedLabel lblPicX;
+        private Desktop.Skinning.SkinnedNumericUpDown valLayers;
+        private Desktop.Skinning.SkinnedLabel lblDefaultCostume;
     }
 }

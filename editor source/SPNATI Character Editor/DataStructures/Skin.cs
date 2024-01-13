@@ -133,19 +133,7 @@ namespace SPNATI_Character_Editor
 			return Id;
 		}
 
-		public void OnBeforeSerialize() {
-
-			int countUnskipped = 0;
-			foreach (Clothing c in Wardrobe)
-			{
-				if (c != null && c.Type != "skip")
-				{
-					countUnskipped++;
-				}
-			}
-
-			LayersNonSkip = countUnskipped;
-		}
+		public void OnBeforeSerialize() { }
 
 		public void OnAfterDeserialize(string source)
 		{
