@@ -346,7 +346,6 @@ namespace SPNATI_Character_Editor
 			LastName = "Character";
 			Labels = new ObservableCollection<StageSpecificValue>();
 			Gender = "female";
-			Breasts = "medium";
 			Intelligence = new ObservableCollection<StageSpecificValue>();
 			Stamina = 15;
 			Tags = new List<CharacterTag>();
@@ -631,12 +630,30 @@ namespace SPNATI_Character_Editor
 			return Path.Combine(root, "attachments", FolderName);
 		}
 
+		private void ConvertLegacySize()
+		{
+			if (Gender == "male")
+			{
+				Penis = Penis?? LegacySize;
+				LegacySize = "";
+			}
+			else
+			{
+				Breasts = Breasts?? LegacySize;
+				LegacySize = "";
+			}
+		}
+
 		public virtual void OnBeforeSerialize()
 		{
 			Behavior.Serializing = true;
 			Gender = Gender.ToLower();
 			Behavior.OnBeforeSerialize();
 			Metadata.PopulateFromCharacter(this);
+			if (!string.IsNullOrEmpty(LegacySize))
+			{
+				ConvertLegacySize();
+			}
 			Version = Config.Version;
 			Metadata.LastUpdate = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
 			foreach (Epilogue ending in Endings)
