@@ -50,6 +50,10 @@ namespace SPNATI_Character_Editor.Activities
 					ExpandFutanariSize();
 					cboFutanariPenisSize.SelectedItem = _character.Penis;
 				}
+				else
+				{
+					cboFutanariPenisSize.SelectedItem = "";
+				}
 			}
 
 			if (_character.Metadata.Gender != _character.Gender && !string.IsNullOrEmpty(_character.Metadata.Gender))
