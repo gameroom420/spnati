@@ -712,6 +712,12 @@ namespace SPNATI_Character_Editor
 			Gender = Gender.ToLower();
 			Behavior.OnBeforeSerialize();
 			Metadata.PopulateFromCharacter(this);
+
+			if (Intelligence.Find(i => i.Stage == 0) == null)
+			{
+				Intelligence.Add(new StageSpecificValue(0, "average"));
+			}
+
 			Version = Config.Version;
 			Metadata.LastUpdate = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
 			foreach (Epilogue ending in Endings)
