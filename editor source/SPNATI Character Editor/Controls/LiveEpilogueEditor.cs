@@ -623,6 +623,15 @@ namespace SPNATI_Character_Editor.Controls
 				sprite.AddValue<string>(0, "Src", src);
 				sprite.AddValue<float>(_time, "Alpha", "100");
 				sprite.AddValue<float>(_time, "Rotation", "0");
+				sprite.AddValue<float>(_time, "ScaleX", "1");
+				sprite.AddValue<float>(_time, "ScaleY", "1");
+				sprite.AddValue<float>(_time, "SkewX", "0");
+				sprite.AddValue<float>(_time, "SkewY", "0");
+				sprite.AddValue<float>(_time, "ClipLeft", "0");
+				sprite.AddValue<float>(_time, "ClipRight", "0");
+				sprite.AddValue<float>(_time, "ClipTop", "0");
+				sprite.AddValue<float>(_time, "ClipBottom", "0");
+				sprite.AddValue<float>(_time, "ClipRadius", "0");
 
 				string id = Path.GetFileNameWithoutExtension(src);
 				int hyphen = id.IndexOf('-');
@@ -848,7 +857,7 @@ namespace SPNATI_Character_Editor.Controls
 			lstScenes.SelectedItem = transition;
 		}
 
-		private void tsRemoveSprite_Click(object sender, EventArgs e)
+		private void tsRemoveScene_Click(object sender, EventArgs e)
 		{
 			Scene scene = _sourceScene;
 			if (scene != null)

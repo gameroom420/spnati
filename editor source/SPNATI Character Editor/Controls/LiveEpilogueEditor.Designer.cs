@@ -450,7 +450,7 @@
 			this.tsRemoveScene.Name = "tsRemoveScene";
 			this.tsRemoveScene.Size = new System.Drawing.Size(23, 22);
 			this.tsRemoveScene.Text = "Remove Scene";
-			this.tsRemoveScene.Click += new System.EventHandler(this.tsRemoveSprite_Click);
+			this.tsRemoveScene.Click += new System.EventHandler(this.tsRemoveScene_Click);
 			// 
 			// tsAddTransition
 			// 
