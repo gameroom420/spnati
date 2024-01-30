@@ -401,7 +401,7 @@ namespace SPNATI_Character_Editor
 
 			foreach (Marker marker in character.Markers.Value.Values)
 			{
-				if (Regex.IsMatch(marker.Name, @"[^\w+]"))
+				if (Regex.IsMatch(marker.Name, @"[^\w+-]"))
 				{
 					warnings.Add(new ValidationError(ValidationFilterLevel.Case, string.Format("Unless other characters already target marker {0}, it is advised to rename it using only letters, numbers, and underscores.", marker.Name)));
 				}
