@@ -45,6 +45,10 @@ namespace SPNATI_Character_Editor.Controls.EditControls
 		protected override void OnClear()
 		{
 			RemoveHandlers();
+			valLeft.Value = 0;
+			valTop.Value = 0;
+			valWidth.Value = 600;
+			valHeight.Value = 1400;
 			AddHandlers();
 			Save();
 		}
