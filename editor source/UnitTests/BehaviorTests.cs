@@ -90,18 +90,6 @@ namespace UnitTests
 			Assert.AreEqual(2, behavior.GetWorkingCases().Count());
 		}
 
-		[TestMethod]
-		public void TreatsConditionsAsAlternativeCases()
-		{
-			Behaviour behavior = _character.Behavior;
-			CreateCase(behavior, 0, "a", "a1", "a2");
-			Case conditioned = CreateCase(behavior, 0, "a", "a1", "a2");
-			conditioned.LegacyFilter = "x";
-			behavior.PrepareForEdit(_character);
-			Assert.AreEqual(1, behavior.GetWorkingCases().Count());
-			Case first = behavior.GetWorkingCases().First();
-			Assert.AreEqual(2, first.AlternativeConditions.Count);
-		}
 
 		[TestMethod]
 		public void SplitIntegration()
@@ -150,20 +138,6 @@ namespace UnitTests
 			Assert.AreEqual("a1", behavior.GetWorkingCases().ToList()[3].Lines[0].Text);
 		}
 
-		[TestMethod]
-		public void ReplaceIgnoresConditions()
-		{
-			Behaviour behavior = _character.Behavior;
-			behavior.PrepareForEdit(_character);
-			CreateWorkingCase(behavior, "a", new int[] { 0, 1, 2 }, "a1");
-			Case c = CreateWorkingCase(behavior, "b", new int[] { 0, 1, 2 }, "c");
-			c.LegacyFilter = "filter";
-			HashSet<string> dest = new HashSet<string>();
-			dest.Add("b");
-			behavior.BulkReplace("a", dest);
-			Assert.AreEqual(3, behavior.GetWorkingCases().Count());
-			Assert.AreEqual("c", behavior.GetWorkingCases().ToList()[1].Lines[0].Text);
-		}
 
 		public void Dispose()
 		{

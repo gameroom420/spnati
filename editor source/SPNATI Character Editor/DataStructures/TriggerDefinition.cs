@@ -383,21 +383,6 @@ namespace SPNATI_Character_Editor
 			return stage + shiftAmount;
 		}
 
-		/// <summary>
-		/// Converts a character-specific stage into the format make_xml.py expects
-		/// </summary>
-		/// <param name="character"></param>
-		/// <param name="stage"></param>
-		/// <returns></returns>
-		public static int ToFlatFileStage(Character character, int stage)
-		{
-			int layers = character.Layers;
-			if (stage >= layers)
-			{
-				stage -= (layers + Clothing.ExtraStages);
-			}
-			return stage;
-		}
 
 		/// <summary>
 		/// Gets whether a certain trigger gets used while the player is in a particular stage

@@ -674,11 +674,6 @@ namespace SPNATI_Character_Editor
 				{
 					LegacyCase.Stages.Add(i);
 				}
-
-				if (LegacyCase.LegacyAlsoPlayingStage == "")
-				{
-					LegacyCase.LegacyAlsoPlayingStage = null;
-				}
 			}
 		}
 	}

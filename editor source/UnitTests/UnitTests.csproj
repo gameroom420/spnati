@@ -55,7 +55,6 @@
   <ItemGroup>
     <Compile Include="AnalyzerTests.cs" />
     <Compile Include="BehaviorTests.cs" />
-    <Compile Include="CaseConversions.cs" />
     <Compile Include="CaseDefinitionTests.cs" />
     <Compile Include="ConfigTests.cs" />
     <Compile Include="DateTests.cs" />

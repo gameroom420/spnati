@@ -453,7 +453,7 @@ namespace SPNATI_Character_Editor
 			Shell.Instance.Fonts = new PrivateFontCollection();
 			int fontLength = Properties.Resources.OpenSans_VariableFont.Length;
 			byte[] fontdata = Properties.Resources.OpenSans_VariableFont;
-			System.IntPtr data = Marshal.AllocCoTaskMem(fontLength);
+			IntPtr data = Marshal.AllocCoTaskMem(fontLength);
 			Marshal.Copy(fontdata, 0, data, fontLength);
 			Shell.Instance.Fonts.AddMemoryFont(data, fontLength);
 		}
@@ -605,30 +605,6 @@ namespace SPNATI_Character_Editor
 				return ws.Record as Character;
 			}
 			return null;
-		}
-
-		private static void ImportCharacter()
-		{
-			Character current = GetActiveCharacter();
-			if (current == null)
-			{
-				current = RecordLookup.DoLookup(typeof(Character), "") as Character;
-				if (current == null)
-				{
-					return;
-				}
-			}
-			string dir = Config.GetRootDirectory(current);
-			string file = Shell.Instance.ShowOpenFileDialog(dir, "edit-dialogue.txt", "Text files|*.txt|All files|*.*");
-			if (!string.IsNullOrEmpty(file))
-			{
-				FlatFileSerializer.Import(file, current);
-				Character c = current;
-				CharacterDatabase.Set(c.FolderName, c);
-
-				Shell.Instance.CloseWorkspace(Shell.Instance.ActiveWorkspace, true);
-				Shell.Instance.LaunchWorkspace(current);
-			}
 		}
 
 

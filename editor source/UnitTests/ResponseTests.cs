@@ -434,13 +434,6 @@ namespace UnitTests
 			Assert.AreEqual("male_small_crotch_is_visible", c.GetResponseTag(_maleMajor, _female));
 		}
 
-		[TestMethod]
-		public void OpponentLost_Is_Target()
-		{
-			Case c = new Case("opponent_lost");
-			c.LegacyTarget = _male.FolderName;
-			Assert.AreEqual("must_strip", c.GetResponseTag(_female, _male));
-		}
 
 		[TestMethod]
 		public void OpponentLost_Is_Not_Target()
@@ -450,27 +443,12 @@ namespace UnitTests
 		}
 
 		[TestMethod]
-		public void Stripping_Opponent_Is_Target()
-		{
-			Case c = new Case("opponent_stripping");
-			c.LegacyTarget = _male.FolderName;
-			Assert.AreEqual("stripping", c.GetResponseTag(_female, _male));
-		}
-
-		[TestMethod]
 		public void Stripping_Opponent_Is_Not_Target()
 		{
 			Case c = new Case("opponent_stripping");
 			Assert.AreEqual("opponent_stripping", c.GetResponseTag(_female, _male));
 		}
 
-		[TestMethod]
-		public void Stripped_Opponent_Is_Target()
-		{
-			Case c = new Case("opponent_stripped");
-			c.LegacyTarget = _male.FolderName;
-			Assert.AreEqual("stripped", c.GetResponseTag(_female, _male));
-		}
 
 		[TestMethod]
 		public void Stripped_Opponent_Is_Not_Target()
@@ -736,13 +714,6 @@ namespace UnitTests
 			Assert.AreEqual("game_over_defeat", c.GetResponseTag(_male, _female));
 		}
 
-		[TestMethod]
-		public void GameOver_Defeat_TargetingWinner()
-		{
-			Case c = new Case("game_over_defeat");
-			c.LegacyTarget = _female.FolderName;
-			Assert.AreEqual("game_over_victory", c.GetResponseTag(_male, _female));
-		}
 
 		[TestMethod]
 		public void Hand_Good()
@@ -779,13 +750,6 @@ namespace UnitTests
 			Assert.AreEqual("male_must_strip", c.GetResponseTag(_female, _male));
 		}
 
-		[TestMethod]
-		public void Male_MustStrip_Target()
-		{
-			Case c = new Case("male_must_strip");
-			c.LegacyTarget = _male.FolderName;
-			Assert.AreEqual("must_strip", c.GetResponseTag(_female, _male));
-		}
 
 		[TestMethod]
 		public void Male_RemovingAccessory_Other()
@@ -794,13 +758,6 @@ namespace UnitTests
 			Assert.AreEqual("male_removing_accessory", c.GetResponseTag(_female, _male));
 		}
 
-		[TestMethod]
-		public void Male_RemovingAccessory_Target()
-		{
-			Case c = new Case("male_removing_accessory");
-			c.LegacyTarget = _male.FolderName;
-			Assert.AreEqual("stripping", c.GetResponseTag(_female, _male));
-		}
 
 		[TestMethod]
 		public void Male_RemovingMinor_Other()
@@ -809,13 +766,6 @@ namespace UnitTests
 			Assert.AreEqual("male_removing_minor", c.GetResponseTag(_female, _male));
 		}
 
-		[TestMethod]
-		public void Male_RemovingMinor_Target()
-		{
-			Case c = new Case("male_removing_minor");
-			c.LegacyTarget = _male.FolderName;
-			Assert.AreEqual("stripping", c.GetResponseTag(_female, _male));
-		}
 
 		[TestMethod]
 		public void Male_RemovingMajor_Other()
@@ -824,13 +774,6 @@ namespace UnitTests
 			Assert.AreEqual("male_removing_major", c.GetResponseTag(_female, _male));
 		}
 
-		[TestMethod]
-		public void Male_RemovingMajor_Target()
-		{
-			Case c = new Case("male_removing_major");
-			c.LegacyTarget = _male.FolderName;
-			Assert.AreEqual("stripping", c.GetResponseTag(_female, _male));
-		}
 
 		[TestMethod]
 		public void Female_MustStrip_Other()
@@ -839,13 +782,6 @@ namespace UnitTests
 			Assert.AreEqual("female_must_strip", c.GetResponseTag(_male, _female));
 		}
 
-		[TestMethod]
-		public void Female_MustStrip_Target()
-		{
-			Case c = new Case("female_must_strip");
-			c.LegacyTarget = _female.FolderName;
-			Assert.AreEqual("must_strip", c.GetResponseTag(_male, _female));
-		}
 
 		[TestMethod]
 		public void Female_RemovingAccessory_Other()
@@ -854,13 +790,6 @@ namespace UnitTests
 			Assert.AreEqual("female_removing_accessory", c.GetResponseTag(_male, _female));
 		}
 
-		[TestMethod]
-		public void Female_RemovingAccessory_Target()
-		{
-			Case c = new Case("female_removing_accessory");
-			c.LegacyTarget = _female.FolderName;
-			Assert.AreEqual("stripping", c.GetResponseTag(_male, _female));
-		}
 
 		[TestMethod]
 		public void Female_RemovingMinor_Other()
@@ -869,13 +798,6 @@ namespace UnitTests
 			Assert.AreEqual("female_removing_minor", c.GetResponseTag(_male, _female));
 		}
 
-		[TestMethod]
-		public void Female_RemovingMinor_Target()
-		{
-			Case c = new Case("female_removing_minor");
-			c.LegacyTarget = _female.FolderName;
-			Assert.AreEqual("stripping", c.GetResponseTag(_male, _female));
-		}
 
 		[TestMethod]
 		public void Female_RemovingMajor_Other()
@@ -884,13 +806,6 @@ namespace UnitTests
 			Assert.AreEqual("female_removing_major", c.GetResponseTag(_male, _female));
 		}
 
-		[TestMethod]
-		public void Female_RemovingMajor_Target()
-		{
-			Case c = new Case("female_removing_major");
-			c.LegacyTarget = _female.FolderName;
-			Assert.AreEqual("stripping", c.GetResponseTag(_male, _female));
-		}
 
 		[TestMethod]
 		public void Male_ChestWillBeVisible_Other()
@@ -899,13 +814,6 @@ namespace UnitTests
 			Assert.AreEqual("male_chest_will_be_visible", c.GetResponseTag(_female, _male));
 		}
 
-		[TestMethod]
-		public void Male_ChestWillBeVisible_Target()
-		{
-			Case c = new Case("male_chest_will_be_visible");
-			c.LegacyTarget = _male.FolderName;
-			Assert.AreEqual("stripping", c.GetResponseTag(_female, _male));
-		}
 
 		[TestMethod]
 		public void Female_ChestWillBeVisible_Other()
@@ -914,13 +822,6 @@ namespace UnitTests
 			Assert.AreEqual("female_chest_will_be_visible", c.GetResponseTag(_female, _male));
 		}
 
-		[TestMethod]
-		public void Female_ChestWillBeVisible_Target()
-		{
-			Case c = new Case("female_chest_will_be_visible");
-			c.LegacyTarget = _female.FolderName;
-			Assert.AreEqual("stripping", c.GetResponseTag(_male, _female));
-		}
 
 		[TestMethod]
 		public void Male_ChestIsVisible_Other()
@@ -929,13 +830,6 @@ namespace UnitTests
 			Assert.AreEqual("male_chest_is_visible", c.GetResponseTag(_female, _male));
 		}
 
-		[TestMethod]
-		public void Male_ChestIsVisible_Target()
-		{
-			Case c = new Case("male_chest_is_visible");
-			c.LegacyTarget = _male.FolderName;
-			Assert.AreEqual("stripped", c.GetResponseTag(_female, _male));
-		}
 
 		[TestMethod]
 		public void Female_SmallChestIsVisible_Other()
@@ -944,14 +838,6 @@ namespace UnitTests
 			Assert.AreEqual("female_small_chest_is_visible", c.GetResponseTag(_male, _female));
 		}
 
-		[TestMethod]
-		public void Female_SmallChestIsVisible_Target()
-		{
-			Case c = new Case("female_small_chest_is_visible");
-			c.LegacyTarget = _female.FolderName;
-			_female.Size = "small";
-			Assert.AreEqual("stripped", c.GetResponseTag(_male, _female));
-		}
 
 		[TestMethod]
 		public void Female_MediumChestIsVisible_Other()
@@ -961,29 +847,12 @@ namespace UnitTests
 		}
 
 		[TestMethod]
-		public void Female_MediumChestIsVisible_Target()
-		{
-			Case c = new Case("female_medium_chest_is_visible");
-			c.LegacyTarget = _female.FolderName;
-			_female.Size = "medium";
-			Assert.AreEqual("stripped", c.GetResponseTag(_male, _female));
-		}
-
-		[TestMethod]
 		public void Female_LargeChestIsVisible_Other()
 		{
 			Case c = new Case("female_large_chest_is_visible");
 			Assert.AreEqual("female_large_chest_is_visible", c.GetResponseTag(_male, _female));
 		}
 
-		[TestMethod]
-		public void Female_LargeChestIsVisible_Target()
-		{
-			Case c = new Case("female_large_chest_is_visible");
-			c.LegacyTarget = _female.FolderName;
-			_female.Size = "large";
-			Assert.AreEqual("stripped", c.GetResponseTag(_male, _female));
-		}
 
 		[TestMethod]
 		public void Female_ChestIsVisible_Other()
@@ -992,13 +861,6 @@ namespace UnitTests
 			Assert.AreEqual("female_chest_is_visible", c.GetResponseTag(_male, _female));
 		}
 
-		[TestMethod]
-		public void Female_ChestIsVisible_Target()
-		{
-			Case c = new Case("female_chest_is_visible");
-			c.LegacyTarget = _female.FolderName;
-			Assert.AreEqual("stripped", c.GetResponseTag(_male, _female));
-		}
 
 		[TestMethod]
 		public void Opponent_ChestIsVisible_Other()
@@ -1007,13 +869,6 @@ namespace UnitTests
 			Assert.AreEqual("opponent_chest_is_visible", c.GetResponseTag(_female, _male));
 		}
 
-		[TestMethod]
-		public void Opponent_ChestIsVisible_Target()
-		{
-			Case c = new Case("opponent_chest_is_visible");
-			c.LegacyTarget = _male.FolderName;
-			Assert.AreEqual("stripped", c.GetResponseTag(_female, _male));
-		}
 
 		[TestMethod]
 		public void Male_CrotchWillBeVisible_Other()
@@ -1022,13 +877,6 @@ namespace UnitTests
 			Assert.AreEqual("male_crotch_will_be_visible", c.GetResponseTag(_female, _male));
 		}
 
-		[TestMethod]
-		public void Male_CrotchWillBeVisible_Target()
-		{
-			Case c = new Case("male_crotch_will_be_visible");
-			c.LegacyTarget = _male.FolderName;
-			Assert.AreEqual("stripping", c.GetResponseTag(_female, _male));
-		}
 
 		[TestMethod]
 		public void Female_CrotchWillBeVisible_Other()
@@ -1037,27 +885,12 @@ namespace UnitTests
 			Assert.AreEqual("female_crotch_will_be_visible", c.GetResponseTag(_female, _male));
 		}
 
-		[TestMethod]
-		public void Female_CrotchWillBeVisible_Target()
-		{
-			Case c = new Case("female_crotch_will_be_visible");
-			c.LegacyTarget = _female.FolderName;
-			Assert.AreEqual("stripping", c.GetResponseTag(_male, _female));
-		}
 
 		[TestMethod]
 		public void Opponent_CrotchWillBeVisible_Other()
 		{
 			Case c = new Case("opponent_crotch_will_be_visible");
 			Assert.AreEqual("opponent_crotch_will_be_visible", c.GetResponseTag(_female, _male));
-		}
-
-		[TestMethod]
-		public void Opponent_CrotchWillBeVisible_Target()
-		{
-			Case c = new Case("opponent_crotch_will_be_visible");
-			c.LegacyTarget = _female.FolderName;
-			Assert.AreEqual("stripping", c.GetResponseTag(_male, _female));
 		}
 
 		[TestMethod]
@@ -1068,28 +901,12 @@ namespace UnitTests
 		}
 
 		[TestMethod]
-		public void Female_CrotchIsVisible_Target()
-		{
-			Case c = new Case("female_crotch_is_visible");
-			c.LegacyTarget = _female.FolderName;
-			Assert.AreEqual("stripped", c.GetResponseTag(_male, _female));
-		}
-
-		[TestMethod]
 		public void Male_SmallCrotchIsVisible_Other()
 		{
 			Case c = new Case("male_small_crotch_is_visible");
 			Assert.AreEqual("male_small_crotch_is_visible", c.GetResponseTag(_female, _male));
 		}
 
-		[TestMethod]
-		public void Male_SmallCrotchIsVisible_Target()
-		{
-			Case c = new Case("male_small_crotch_is_visible");
-			c.LegacyTarget = _male.FolderName;
-			_male.Size = "small";
-			Assert.AreEqual("stripped", c.GetResponseTag(_female, _male));
-		}
 
 		[TestMethod]
 		public void Male_MediumCrotchIsVisible_Other()
@@ -1098,14 +915,6 @@ namespace UnitTests
 			Assert.AreEqual("male_medium_crotch_is_visible", c.GetResponseTag(_female, _male));
 		}
 
-		[TestMethod]
-		public void Male_MediumCrotchIsVisible_Target()
-		{
-			Case c = new Case("male_medium_crotch_is_visible");
-			c.LegacyTarget = _male.FolderName;
-			_male.Size = "medium";
-			Assert.AreEqual("stripped", c.GetResponseTag(_female, _male));
-		}
 
 		[TestMethod]
 		public void Male_LargeCrotchIsVisible_Other()
@@ -1114,14 +923,6 @@ namespace UnitTests
 			Assert.AreEqual("male_large_crotch_is_visible", c.GetResponseTag(_female, _male));
 		}
 
-		[TestMethod]
-		public void Male_LargeCrotchIsVisible_Target()
-		{
-			Case c = new Case("male_large_crotch_is_visible");
-			c.LegacyTarget = _male.FolderName;
-			_male.Size = "large";
-			Assert.AreEqual("stripped", c.GetResponseTag(_female, _male));
-		}
 
 		[TestMethod]
 		public void Male_CrotchIsVisible_Other()
@@ -1130,13 +931,6 @@ namespace UnitTests
 			Assert.AreEqual("male_crotch_is_visible", c.GetResponseTag(_female, _male));
 		}
 
-		[TestMethod]
-		public void Male_CrotchIsVisible_Target()
-		{
-			Case c = new Case("male_crotch_is_visible");
-			c.LegacyTarget = _male.FolderName;
-			Assert.AreEqual("stripped", c.GetResponseTag(_female, _male));
-		}
 
 		[TestMethod]
 		public void Opponent_CrotchIsVisible_Other()
@@ -1145,13 +939,6 @@ namespace UnitTests
 			Assert.AreEqual("opponent_crotch_is_visible", c.GetResponseTag(_female, _male));
 		}
 
-		[TestMethod]
-		public void Opponent_CrotchIsVisible_Target()
-		{
-			Case c = new Case("opponent_crotch_is_visible");
-			c.LegacyTarget = _male.FolderName;
-			Assert.AreEqual("stripped", c.GetResponseTag(_female, _male));
-		}
 
 		[TestMethod]
 		public void Male_MustMasturbate_Other()
@@ -1160,13 +947,6 @@ namespace UnitTests
 			Assert.AreEqual("male_must_masturbate", c.GetResponseTag(_female, _male));
 		}
 
-		[TestMethod]
-		public void Male_MustMasturbate_Target()
-		{
-			Case c = new Case("male_must_masturbate");
-			c.LegacyTarget = _male.FolderName;
-			Assert.AreEqual("must_masturbate", c.GetResponseTag(_female, _male));
-		}
 
 		[TestMethod]
 		public void Female_MustMasturbate_Other()
@@ -1175,13 +955,6 @@ namespace UnitTests
 			Assert.AreEqual("female_must_masturbate", c.GetResponseTag(_male, _female));
 		}
 
-		[TestMethod]
-		public void Female_MustMasturbate_Target()
-		{
-			Case c = new Case("female_must_masturbate");
-			c.LegacyTarget = _female.FolderName;
-			Assert.AreEqual("must_masturbate", c.GetResponseTag(_male, _female));
-		}
 
 		[TestMethod]
 		public void Male_StartMasturbating_Other()
@@ -1190,13 +963,6 @@ namespace UnitTests
 			Assert.AreEqual("male_start_masturbating", c.GetResponseTag(_female, _male));
 		}
 
-		[TestMethod]
-		public void Male_StartMasturbating_Target()
-		{
-			Case c = new Case("male_start_masturbating");
-			c.LegacyTarget = _male.FolderName;
-			Assert.AreEqual("start_masturbating", c.GetResponseTag(_female, _male));
-		}
 
 		[TestMethod]
 		public void Female_StartMasturbating_Other()
@@ -1205,13 +971,6 @@ namespace UnitTests
 			Assert.AreEqual("female_start_masturbating", c.GetResponseTag(_male, _female));
 		}
 
-		[TestMethod]
-		public void Female_StartMasturbating_Target()
-		{
-			Case c = new Case("female_start_masturbating");
-			c.LegacyTarget = _female.FolderName;
-			Assert.AreEqual("start_masturbating", c.GetResponseTag(_male, _female));
-		}
 
 		[TestMethod]
 		public void Opponent_StartMasturbating_Other()
@@ -1220,13 +979,6 @@ namespace UnitTests
 			Assert.AreEqual("opponent_start_masturbating", c.GetResponseTag(_female, _male));
 		}
 
-		[TestMethod]
-		public void Opponent_StartMasturbating_Target()
-		{
-			Case c = new Case("opponent_start_masturbating");
-			c.LegacyTarget = _male.FolderName;
-			Assert.AreEqual("start_masturbating", c.GetResponseTag(_female, _male));
-		}
 
 		[TestMethod]
 		public void Male_Masturbating_Other()
@@ -1235,13 +987,6 @@ namespace UnitTests
 			Assert.AreEqual("male_masturbating", c.GetResponseTag(_female, _male));
 		}
 
-		[TestMethod]
-		public void Male_Masturbating_Target()
-		{
-			Case c = new Case("male_masturbating");
-			c.LegacyTarget = _male.FolderName;
-			Assert.AreEqual("masturbating", c.GetResponseTag(_female, _male));
-		}
 
 		[TestMethod]
 		public void Female_Masturbating_Other()
@@ -1250,13 +995,6 @@ namespace UnitTests
 			Assert.AreEqual("female_masturbating", c.GetResponseTag(_male, _female));
 		}
 
-		[TestMethod]
-		public void Female_Masturbating_Target()
-		{
-			Case c = new Case("female_masturbating");
-			c.LegacyTarget = _female.FolderName;
-			Assert.AreEqual("masturbating", c.GetResponseTag(_male, _female));
-		}
 
 		[TestMethod]
 		public void Opponent_Masturbating_Other()
@@ -1265,13 +1003,6 @@ namespace UnitTests
 			Assert.AreEqual("opponent_masturbating", c.GetResponseTag(_male, _female));
 		}
 
-		[TestMethod]
-		public void Opponent_Masturbating_Target()
-		{
-			Case c = new Case("opponent_masturbating");
-			c.LegacyTarget = _female.FolderName;
-			Assert.AreEqual("masturbating", c.GetResponseTag(_male, _female));
-		}
 
 		[TestMethod]
 		public void Male_Heavy_Masturbating_Other()
@@ -1280,13 +1011,6 @@ namespace UnitTests
 			Assert.AreEqual("male_heavy_masturbating", c.GetResponseTag(_female, _male));
 		}
 
-		[TestMethod]
-		public void Male_Heavy_Masturbating_Target()
-		{
-			Case c = new Case("male_heavy_masturbating");
-			c.LegacyTarget = _male.FolderName;
-			Assert.AreEqual("heavy_masturbating", c.GetResponseTag(_female, _male));
-		}
 
 		[TestMethod]
 		public void Female_Heavy_Masturbating_Other()
@@ -1295,13 +1019,6 @@ namespace UnitTests
 			Assert.AreEqual("female_heavy_masturbating", c.GetResponseTag(_male, _female));
 		}
 
-		[TestMethod]
-		public void Female_Heavy_Masturbating_Target()
-		{
-			Case c = new Case("female_heavy_masturbating");
-			c.LegacyTarget = _female.FolderName;
-			Assert.AreEqual("heavy_masturbating", c.GetResponseTag(_male, _female));
-		}
 
 		[TestMethod]
 		public void Opponent_Heavy_Masturbating_Other()
@@ -1310,13 +1027,6 @@ namespace UnitTests
 			Assert.AreEqual("opponent_heavy_masturbating", c.GetResponseTag(_male, _female));
 		}
 
-		[TestMethod]
-		public void Opponent_Heavy_Masturbating_Target()
-		{
-			Case c = new Case("opponent_heavy_masturbating");
-			c.LegacyTarget = _female.FolderName;
-			Assert.AreEqual("heavy_masturbating", c.GetResponseTag(_male, _female));
-		}
 
 		[TestMethod]
 		public void Male_Finished_Masturbating_Other()
@@ -1325,13 +1035,6 @@ namespace UnitTests
 			Assert.AreEqual("male_finished_masturbating", c.GetResponseTag(_female, _male));
 		}
 
-		[TestMethod]
-		public void Male_Finished_Masturbating_Target()
-		{
-			Case c = new Case("male_finished_masturbating");
-			c.LegacyTarget = _male.FolderName;
-			Assert.AreEqual("finished_masturbating", c.GetResponseTag(_female, _male));
-		}
 
 		[TestMethod]
 		public void Female_Finished_Masturbating_Other()
@@ -1340,13 +1043,6 @@ namespace UnitTests
 			Assert.AreEqual("female_finished_masturbating", c.GetResponseTag(_male, _female));
 		}
 
-		[TestMethod]
-		public void Female_Finished_Masturbating_Target()
-		{
-			Case c = new Case("female_finished_masturbating");
-			c.LegacyTarget = _female.FolderName;
-			Assert.AreEqual("finished_masturbating", c.GetResponseTag(_male, _female));
-		}
 
 		[TestMethod]
 		public void Opponent_Finished_Masturbating_Other()
@@ -1355,787 +1051,7 @@ namespace UnitTests
 			Assert.AreEqual("opponent_finished_masturbating", c.GetResponseTag(_male, _female));
 		}
 
-		[TestMethod]
-		public void Opponent_Finished_Masturbating_Target()
-		{
-			Case c = new Case("opponent_finished_masturbating");
-			c.LegacyTarget = _female.FolderName;
-			Assert.AreEqual("finished_masturbating", c.GetResponseTag(_male, _female));
-		}
 
-		#region Role targets
-		[TestMethod]
-		public void Male_MustStrip_RoleTarget()
-		{
-			Case c = new Case("male_must_strip");
-			c.Conditions.Add(new TargetCondition() { Character = _male.FolderName, Role = "target" });
-			Assert.AreEqual("must_strip", c.GetResponseTag(_female, _male));
-		}
-
-		[TestMethod]
-		public void Male_RemovingAccessory_RoleTarget()
-		{
-			Case c = new Case("male_removing_accessory");
-			c.Conditions.Add(new TargetCondition() { Character = _male.FolderName, Role = "target" });
-			Assert.AreEqual("stripping", c.GetResponseTag(_female, _male));
-		}
-
-		[TestMethod]
-		public void Male_RemovingMinor_RoleTarget()
-		{
-			Case c = new Case("male_removing_minor");
-			c.Conditions.Add(new TargetCondition() { Character = _male.FolderName, Role = "target" });
-			Assert.AreEqual("stripping", c.GetResponseTag(_female, _male));
-		}
-
-		[TestMethod]
-		public void Male_RemovingMajor_RoleTarget()
-		{
-			Case c = new Case("male_removing_major");
-			c.Conditions.Add(new TargetCondition() { Character = _male.FolderName, Role = "target" });
-			Assert.AreEqual("stripping", c.GetResponseTag(_female, _male));
-		}
-
-		[TestMethod]
-		public void Female_MustStrip_RoleTarget()
-		{
-			Case c = new Case("female_must_strip");
-			c.Conditions.Add(new TargetCondition() { Character = _female.FolderName, Role = "target" });
-			Assert.AreEqual("must_strip", c.GetResponseTag(_male, _female));
-		}
-
-		[TestMethod]
-		public void Female_RemovingAccessory_RoleTarget()
-		{
-			Case c = new Case("female_removing_accessory");
-			c.Conditions.Add(new TargetCondition() { Character = _female.FolderName, Role = "target" });
-			Assert.AreEqual("stripping", c.GetResponseTag(_male, _female));
-		}
-
-		[TestMethod]
-		public void Female_RemovingMinor_RoleTarget()
-		{
-			Case c = new Case("female_removing_minor");
-			c.Conditions.Add(new TargetCondition() { Character = _female.FolderName, Role = "target" });
-			Assert.AreEqual("stripping", c.GetResponseTag(_male, _female));
-		}
-
-		[TestMethod]
-		public void Female_RemovingMajor_RoleTarget()
-		{
-			Case c = new Case("female_removing_major");
-			c.Conditions.Add(new TargetCondition() { Character = _female.FolderName, Role = "target" });
-			Assert.AreEqual("stripping", c.GetResponseTag(_male, _female));
-		}
-
-		[TestMethod]
-		public void Male_ChestWillBeVisible_RoleTarget()
-		{
-			Case c = new Case("male_chest_will_be_visible");
-			c.Conditions.Add(new TargetCondition() { Character = _male.FolderName, Role = "target" });
-			Assert.AreEqual("stripping", c.GetResponseTag(_female, _male));
-		}
-
-		[TestMethod]
-		public void Female_ChestWillBeVisible_RoleTarget()
-		{
-			Case c = new Case("female_chest_will_be_visible");
-			c.Conditions.Add(new TargetCondition() { Character = _female.FolderName, Role = "target" });
-			Assert.AreEqual("stripping", c.GetResponseTag(_male, _female));
-		}
-
-		[TestMethod]
-		public void Male_ChestIsVisible_RoleTarget()
-		{
-			Case c = new Case("male_chest_is_visible");
-			c.Conditions.Add(new TargetCondition() { Character = _male.FolderName, Role = "target" });
-			Assert.AreEqual("stripped", c.GetResponseTag(_female, _male));
-		}
-
-		[TestMethod]
-		public void Female_SmallChestIsVisible_RoleTarget()
-		{
-			Case c = new Case("female_small_chest_is_visible");
-			c.Conditions.Add(new TargetCondition() { Character = _female.FolderName, Role = "target" });
-			_female.Size = "small";
-			Assert.AreEqual("stripped", c.GetResponseTag(_male, _female));
-		}
-
-		[TestMethod]
-		public void Female_MediumChestIsVisible_RoleTarget()
-		{
-			Case c = new Case("female_medium_chest_is_visible");
-			c.Conditions.Add(new TargetCondition() { Character = _female.FolderName, Role = "target" });
-			_female.Size = "medium";
-			Assert.AreEqual("stripped", c.GetResponseTag(_male, _female));
-		}
-
-		[TestMethod]
-		public void Female_LargeChestIsVisible_RoleTarget()
-		{
-			Case c = new Case("female_large_chest_is_visible");
-			c.Conditions.Add(new TargetCondition() { Character = _female.FolderName, Role = "target" });
-			_female.Size = "large";
-			Assert.AreEqual("stripped", c.GetResponseTag(_male, _female));
-		}
-
-		[TestMethod]
-		public void Female_ChestIsVisible_RoleTarget()
-		{
-			Case c = new Case("female_chest_is_visible");
-			c.Conditions.Add(new TargetCondition() { Character = _female.FolderName, Role = "target" });
-			Assert.AreEqual("stripped", c.GetResponseTag(_male, _female));
-		}
-
-		[TestMethod]
-		public void Opponent_ChestIsVisible_RoleTarget()
-		{
-			Case c = new Case("opponent_chest_is_visible");
-			c.Conditions.Add(new TargetCondition() { Character = _male.FolderName, Role = "target" });
-			Assert.AreEqual("stripped", c.GetResponseTag(_female, _male));
-		}
-
-		[TestMethod]
-		public void Male_CrotchWillBeVisible_RoleTarget()
-		{
-			Case c = new Case("male_crotch_will_be_visible");
-			c.Conditions.Add(new TargetCondition() { Character = _male.FolderName, Role = "target" });
-			Assert.AreEqual("stripping", c.GetResponseTag(_female, _male));
-		}
-
-		[TestMethod]
-		public void Female_CrotchWillBeVisible_RoleTarget()
-		{
-			Case c = new Case("female_crotch_will_be_visible");
-			c.Conditions.Add(new TargetCondition() { Character = _female.FolderName, Role = "target" });
-			Assert.AreEqual("stripping", c.GetResponseTag(_male, _female));
-		}
-
-		[TestMethod]
-		public void Opponent_CrotchWillBeVisible_RoleTarget()
-		{
-			Case c = new Case("opponent_crotch_will_be_visible");
-			c.Conditions.Add(new TargetCondition() { Character = _female.FolderName, Role = "target" });
-			Assert.AreEqual("stripping", c.GetResponseTag(_male, _female));
-		}
-		[TestMethod]
-		public void Female_CrotchIsVisible_RoleTarget()
-		{
-			Case c = new Case("female_crotch_is_visible");
-			c.Conditions.Add(new TargetCondition() { Character = _female.FolderName, Role = "target" });
-			Assert.AreEqual("stripped", c.GetResponseTag(_male, _female));
-		}
-
-		[TestMethod]
-		public void Male_SmallCrotchIsVisible_RoleTarget()
-		{
-			Case c = new Case("male_small_crotch_is_visible");
-			c.Conditions.Add(new TargetCondition() { Character = _male.FolderName, Role = "target" });
-			_male.Size = "small";
-			Assert.AreEqual("stripped", c.GetResponseTag(_female, _male));
-		}
-
-		[TestMethod]
-		public void Male_MediumCrotchIsVisible_RoleTarget()
-		{
-			Case c = new Case("male_medium_crotch_is_visible");
-			c.Conditions.Add(new TargetCondition() { Character = _male.FolderName, Role = "target" });
-			_male.Size = "medium";
-			Assert.AreEqual("stripped", c.GetResponseTag(_female, _male));
-		}
-
-		[TestMethod]
-		public void Male_LargeCrotchIsVisible_RoleTarget()
-		{
-			Case c = new Case("male_large_crotch_is_visible");
-			c.Conditions.Add(new TargetCondition() { Character = _male.FolderName, Role = "target" });
-			_male.Size = "large";
-			Assert.AreEqual("stripped", c.GetResponseTag(_female, _male));
-		}
-
-		[TestMethod]
-		public void Male_CrotchIsVisible_RoleTarget()
-		{
-			Case c = new Case("male_crotch_is_visible");
-			c.Conditions.Add(new TargetCondition() { Character = _male.FolderName, Role = "target" });
-			Assert.AreEqual("stripped", c.GetResponseTag(_female, _male));
-		}
-
-		[TestMethod]
-		public void Opponent_CrotchIsVisible_RoleTarget()
-		{
-			Case c = new Case("opponent_crotch_is_visible");
-			c.Conditions.Add(new TargetCondition() { Character = _male.FolderName, Role = "target" });
-			Assert.AreEqual("stripped", c.GetResponseTag(_female, _male));
-		}
-
-		[TestMethod]
-		public void Male_MustMasturbate_RoleTarget()
-		{
-			Case c = new Case("male_must_masturbate");
-			c.Conditions.Add(new TargetCondition() { Character = _male.FolderName, Role = "target" });
-			Assert.AreEqual("must_masturbate", c.GetResponseTag(_female, _male));
-		}
-
-		[TestMethod]
-		public void Female_MustMasturbate_RoleTarget()
-		{
-			Case c = new Case("female_must_masturbate");
-			c.Conditions.Add(new TargetCondition() { Character = _female.FolderName, Role = "target" });
-			Assert.AreEqual("must_masturbate", c.GetResponseTag(_male, _female));
-		}
-
-		[TestMethod]
-		public void Male_StartMasturbating_RoleTarget()
-		{
-			Case c = new Case("male_start_masturbating");
-			c.Conditions.Add(new TargetCondition() { Character = _male.FolderName, Role = "target" });
-			Assert.AreEqual("start_masturbating", c.GetResponseTag(_female, _male));
-		}
-
-		[TestMethod]
-		public void Female_StartMasturbating_RoleTarget()
-		{
-			Case c = new Case("female_start_masturbating");
-			c.Conditions.Add(new TargetCondition() { Character = _female.FolderName, Role = "target" });
-			Assert.AreEqual("start_masturbating", c.GetResponseTag(_male, _female));
-		}
-
-		[TestMethod]
-		public void Opponent_StartMasturbating_RoleTarget()
-		{
-			Case c = new Case("opponent_start_masturbating");
-			c.Conditions.Add(new TargetCondition() { Character = _male.FolderName, Role = "target" });
-			Assert.AreEqual("start_masturbating", c.GetResponseTag(_female, _male));
-		}
-
-		[TestMethod]
-		public void Male_Masturbating_RoleTarget()
-		{
-			Case c = new Case("male_masturbating");
-			c.Conditions.Add(new TargetCondition() { Character = _male.FolderName, Role = "target" });
-			Assert.AreEqual("masturbating", c.GetResponseTag(_female, _male));
-		}
-
-		[TestMethod]
-		public void Female_Masturbating_RoleTarget()
-		{
-			Case c = new Case("female_masturbating");
-			c.Conditions.Add(new TargetCondition() { Character = _female.FolderName, Role = "target" });
-			Assert.AreEqual("masturbating", c.GetResponseTag(_male, _female));
-		}
-
-		[TestMethod]
-		public void Opponent_Masturbating_RoleTarget()
-		{
-			Case c = new Case("opponent_masturbating");
-			c.Conditions.Add(new TargetCondition() { Character = _female.FolderName, Role = "target" });
-			Assert.AreEqual("masturbating", c.GetResponseTag(_male, _female));
-		}
-
-		[TestMethod]
-		public void Male_Heavy_Masturbating_RoleTarget()
-		{
-			Case c = new Case("male_heavy_masturbating");
-			c.Conditions.Add(new TargetCondition() { Character = _male.FolderName, Role = "target" });
-			Assert.AreEqual("heavy_masturbating", c.GetResponseTag(_female, _male));
-		}
-
-		[TestMethod]
-		public void Female_Heavy_Masturbating_RoleTarget()
-		{
-			Case c = new Case("female_heavy_masturbating");
-			c.Conditions.Add(new TargetCondition() { Character = _female.FolderName, Role = "target" });
-			Assert.AreEqual("heavy_masturbating", c.GetResponseTag(_male, _female));
-		}
-
-		[TestMethod]
-		public void Opponent_Heavy_Masturbating_RoleTarget()
-		{
-			Case c = new Case("opponent_heavy_masturbating");
-			c.Conditions.Add(new TargetCondition() { Character = _female.FolderName, Role = "target" });
-			Assert.AreEqual("heavy_masturbating", c.GetResponseTag(_male, _female));
-		}
-
-		[TestMethod]
-		public void Male_Finished_Masturbating_RoleTarget()
-		{
-			Case c = new Case("male_finished_masturbating");
-			c.Conditions.Add(new TargetCondition() { Character = _male.FolderName, Role = "target" });
-			Assert.AreEqual("finished_masturbating", c.GetResponseTag(_female, _male));
-		}
-
-		[TestMethod]
-		public void Female_Finished_Masturbating_RoleTarget()
-		{
-			Case c = new Case("female_finished_masturbating");
-			c.Conditions.Add(new TargetCondition() { Character = _female.FolderName, Role = "target" });
-			Assert.AreEqual("finished_masturbating", c.GetResponseTag(_male, _female));
-		}
-
-		[TestMethod]
-		public void Opponent_Finished_Masturbating_RoleTarget()
-		{
-			Case c = new Case("opponent_finished_masturbating");
-			c.Conditions.Add(new TargetCondition() { Character = _female.FolderName, Role = "target" });
-			Assert.AreEqual("finished_masturbating", c.GetResponseTag(_male, _female));
-		}
-		#endregion
-
-		[TestMethod]
-		public void StageLimit_RemovingExtra()
-		{
-			Case c = new Case("female_removing_accessory");
-			c.LegacyTarget = _female.FolderName;
-			Case response = c.CreateResponse(_male, _female);
-			Assert.AreEqual(1, response.Stages.Count);
-			Assert.AreEqual(0, response.Stages[0]);
-		}
-
-		[TestMethod]
-		public void StageLimit_RemovedExtra()
-		{
-			Case c = new Case("female_removed_accessory");
-			c.LegacyTarget = _female.FolderName;
-			Case response = c.CreateResponse(_male, _female);
-			Assert.AreEqual(1, response.Stages.Count);
-			Assert.AreEqual(1, response.Stages[0]);
-		}
-
-		[TestMethod]
-		public void StageLimit_RemovingMinor()
-		{
-			Case c = new Case("female_removing_minor");
-			c.LegacyTarget = _female.FolderName;
-			Case response = c.CreateResponse(_male, _female);
-			Assert.AreEqual(1, response.Stages.Count);
-			Assert.AreEqual(1, response.Stages[0]);
-		}
-
-		[TestMethod]
-		public void StageLimit_RemovedMinor()
-		{
-			Case c = new Case("female_removed_minor");
-			c.LegacyTarget = _female.FolderName;
-			Case response = c.CreateResponse(_male, _female);
-			Assert.AreEqual(1, response.Stages.Count);
-			Assert.AreEqual(2, response.Stages[0]);
-		}
-
-		[TestMethod]
-		public void StageLimit_RemovingMajor()
-		{
-			Case c = new Case("female_removing_major");
-			c.LegacyTarget = _female.FolderName;
-			Case response = c.CreateResponse(_male, _female);
-			Assert.AreEqual(1, response.Stages.Count);
-			Assert.AreEqual(2, response.Stages[0]);
-		}
-
-		[TestMethod]
-		public void StageLimit_RemovedMajor()
-		{
-			Case c = new Case("female_removed_major");
-			c.LegacyTarget = _female.FolderName;
-			Case response = c.CreateResponse(_male, _female);
-			Assert.AreEqual(1, response.Stages.Count);
-			Assert.AreEqual(3, response.Stages[0]);
-		}
-
-		[TestMethod]
-		public void StageLimit_ChestWillBeVisible()
-		{
-			Case c = new Case("female_chest_will_be_visible");
-			c.LegacyTarget = _female.FolderName;
-			Case response = c.CreateResponse(_male, _female);
-			Assert.AreEqual(1, response.Stages.Count);
-			Assert.AreEqual(3, response.Stages[0]);
-		}
-
-		[TestMethod]
-		public void StageLimit_ChestIsVisible()
-		{
-			Case c = new Case("female_large_chest_is_visible");
-			c.LegacyTarget = _female.FolderName;
-			Case response = c.CreateResponse(_male, _female);
-			Assert.AreEqual(1, response.Stages.Count);
-			Assert.AreEqual(4, response.Stages[0]);
-		}
-
-		[TestMethod]
-		public void StageLimit_CrotchWillBeVisible()
-		{
-			Case c = new Case("female_crotch_will_be_visible");
-			c.LegacyTarget = _female.FolderName;
-			Case response = c.CreateResponse(_male, _female);
-			Assert.AreEqual(1, response.Stages.Count);
-			Assert.AreEqual(4, response.Stages[0]);
-		}
-
-		[TestMethod]
-		public void StageLimit_CrotchIsVisible()
-		{
-			Case c = new Case("female_crotch_is_visible");
-			c.LegacyTarget = _female.FolderName;
-			Case response = c.CreateResponse(_male, _female);
-			Assert.AreEqual(1, response.Stages.Count);
-			Assert.AreEqual(5, response.Stages[0]);
-		}
-
-		#region Testing the various response transfers. Too lazy to make individual property tests, so doing everything in bulk for all major combinations
-		[TestMethod]
-		public void NotTargetable_NoTarget_WithAlsoPlaying()
-		{
-			Case c = new Case("good_hand");
-			c.LegacyAlsoPlaying = "other";
-			Case response = c.CreateResponse(_male, _female);
-			Assert.IsTrue(response.Conditions.Count == 1);
-			Assert.AreEqual("other", response.Conditions[0].FilterTag);
-		}
-
-		[TestMethod]
-		public void Targetable_NoTarget_WithAlsoPlaying()
-		{
-			Case c = new Case("female_removing_accessory");
-			c.LegacyAlsoPlaying = "other";
-			Case response = c.CreateResponse(_male, _female);
-			Assert.IsTrue(response.Conditions.Count == 1);
-			Assert.AreEqual("other", response.Conditions[0].FilterTag);
-		}
-
-		[TestMethod]
-		public void Targetable_TargetResponder_WithAlsoPlaying()
-		{
-			Case c = new Case("female_removing_accessory");
-			c.LegacyTarget = _female.FolderName;
-			c.LegacyAlsoPlaying = "other";
-			Case response = c.CreateResponse(_male, _female);
-			Assert.IsTrue(response.Conditions.Count == 1);
-			Assert.AreEqual("other", response.Conditions[0].FilterTag);
-		}
-
-		[TestMethod]
-		public void Targetable_Target_WithAlsoPlaying()
-		{
-			Case c = new Case("female_removing_accessory");
-			c.LegacyTarget = "other1";
-			c.LegacyAlsoPlaying = "other2";
-			Case response = c.CreateResponse(_male, _female);
-			Assert.IsTrue(response.Conditions.Count == 1);
-			Assert.AreEqual("other2", response.Conditions[0].FilterTag);
-		}
-
-		[TestMethod]
-		public void Targetable_NoTarget_NoAlsoPlaying()
-		{
-			Case c = new Case("female_removing_accessory");
-			c.LegacyTotalExposed = "5";
-			c.LegacyTotalFemales = "4";
-			c.LegacyTotalMales = "3-5";
-			c.LegacyTotalFinished = "2";
-			Case response = c.CreateResponse(_male, _female);
-
-			Assert.AreEqual(_female.Layers + Clothing.ExtraStages, response.Stages.Count);
-			Assert.AreEqual(_male.FolderName, response.LegacyAlsoPlaying);
-			Assert.AreEqual(c.LegacyTotalFinished, response.LegacyTotalFinished);
-			Assert.AreEqual(c.LegacyTotalFemales, response.LegacyTotalFemales);
-			Assert.AreEqual(c.LegacyTotalMales, response.LegacyTotalMales);
-			Assert.AreEqual(c.LegacyTotalExposed, response.LegacyTotalExposed);
-		}
-
-		[TestMethod]
-		public void NotTargetable_NoTarget_NoAlsoPlaying()
-		{
-			Case c = new Case("good_hand");
-			c.LegacyTotalExposed = "5";
-			c.LegacyTotalFemales = "4";
-			c.LegacyTotalMales = "3-5";
-			c.LegacyTotalFinished = "2";
-			Case response = c.CreateResponse(_male, _female);
-
-			Assert.AreEqual(_female.Layers + 1, response.Stages.Count);
-			Assert.AreEqual(_male.FolderName, response.LegacyAlsoPlaying);
-			Assert.AreEqual(c.LegacyTotalFinished, response.LegacyTotalFinished);
-			Assert.AreEqual(c.LegacyTotalFemales, response.LegacyTotalFemales);
-			Assert.AreEqual(c.LegacyTotalMales, response.LegacyTotalMales);
-			Assert.AreEqual(c.LegacyTotalExposed, response.LegacyTotalExposed);
-		}
-
-		[TestMethod]
-		public void Targetable_NoTarget_AlsoPlayingResponder()
-		{
-			Case c = new Case("female_removing_accessory");
-			c.LegacyTimeInStage = "5";
-			c.Stages.Add(2);
-			c.Stages.Add(3);
-			c.LegacySaidMarker = "foo";
-			c.LegacyNotSaidMarker = "bar";
-			c.LegacyHasHand = "hand";
-
-			c.LegacyAlsoPlaying = _female.FolderName;
-			c.LegacyAlsoPlayingHand = "good";
-			c.LegacyAlsoPlayingStage = "2-4";
-			c.LegacyAlsoPlayingSaidMarker = "foo2";
-			c.LegacyAlsoPlayingNotSaidMarker = "bar2";
-			c.LegacyAlsoPlayingTimeInStage = "5";
-
-			Case response = c.CreateResponse(_male, _female);
-
-			Assert.AreEqual(_male.FolderName, response.LegacyAlsoPlaying);
-			Assert.AreEqual(c.LegacyTimeInStage, response.LegacyAlsoPlayingTimeInStage);
-			Assert.AreEqual("2-3", response.LegacyAlsoPlayingStage);
-			Assert.AreEqual(c.LegacySaidMarker, response.LegacyAlsoPlayingSaidMarker);
-			Assert.AreEqual(c.LegacyNotSaidMarker, response.LegacyAlsoPlayingNotSaidMarker);
-			Assert.AreEqual(c.LegacyHasHand, response.LegacyAlsoPlayingHand);
-
-			Assert.AreEqual(3, response.Stages.Count);
-			Assert.IsTrue(response.Stages.Contains(2));
-			Assert.IsTrue(response.Stages.Contains(3));
-			Assert.IsTrue(response.Stages.Contains(4));
-			Assert.AreEqual(c.LegacyAlsoPlayingHand, response.LegacyHasHand);
-			Assert.AreEqual(c.LegacyAlsoPlayingSaidMarker, response.LegacySaidMarker);
-			Assert.AreEqual(c.LegacyAlsoPlayingNotSaidMarker, response.LegacyNotSaidMarker);
-			Assert.AreEqual(c.LegacyAlsoPlayingTimeInStage, response.LegacyTimeInStage);
-		}
-
-		[TestMethod]
-		public void NotTargetable_NoTarget_AlsoPlayingResponder()
-		{
-			Case c = new Case("good_hand");
-			c.LegacyTimeInStage = "5";
-			c.Stages.Add(2);
-			c.Stages.Add(3);
-			c.LegacySaidMarker = "foo";
-			c.LegacyNotSaidMarker = "bar";
-			c.LegacyHasHand = "hand";
-
-			c.LegacyAlsoPlaying = _female.FolderName;
-			c.LegacyAlsoPlayingHand = "good";
-			c.LegacyAlsoPlayingStage = "2-4";
-			c.LegacyAlsoPlayingSaidMarker = "foo2";
-			c.LegacyAlsoPlayingNotSaidMarker = "bar2";
-			c.LegacyAlsoPlayingTimeInStage = "5";
-
-			Case response = c.CreateResponse(_male, _female);
-
-			Assert.AreEqual(_male.FolderName, response.LegacyAlsoPlaying);
-			Assert.AreEqual(c.LegacyTimeInStage, response.LegacyAlsoPlayingTimeInStage);
-			Assert.AreEqual("2-3", response.LegacyAlsoPlayingStage);
-			Assert.AreEqual(c.LegacySaidMarker, response.LegacyAlsoPlayingSaidMarker);
-			Assert.AreEqual(c.LegacyNotSaidMarker, response.LegacyAlsoPlayingNotSaidMarker);
-			Assert.AreEqual(c.LegacyHasHand, response.LegacyAlsoPlayingHand);
-
-			Assert.AreEqual(3, response.Stages.Count);
-			Assert.IsTrue(response.Stages.Contains(2));
-			Assert.IsTrue(response.Stages.Contains(3));
-			Assert.IsTrue(response.Stages.Contains(4));
-			Assert.AreEqual(c.LegacyAlsoPlayingHand, response.LegacyHasHand);
-			Assert.AreEqual(c.LegacyAlsoPlayingSaidMarker, response.LegacySaidMarker);
-			Assert.AreEqual(c.LegacyAlsoPlayingNotSaidMarker, response.LegacyNotSaidMarker);
-			Assert.AreEqual(c.LegacyAlsoPlayingTimeInStage, response.LegacyTimeInStage);
-		}
-
-		[TestMethod]
-		public void NotTargetable_TargetableResponse_NoAlsoPlaying()
-		{
-			Case c = new Case("must_strip_normal");
-			c.LegacyTimeInStage = "5";
-			c.Stages.Add(2);
-			c.Stages.Add(3);
-			c.LegacySaidMarker = "foo";
-			c.LegacyNotSaidMarker = "bar";
-			c.LegacyHasHand = "hand";
-
-			Case response = c.CreateResponse(_male, _female);
-
-			Assert.AreEqual(_male.FolderName, response.LegacyTarget);
-			Assert.AreEqual(_female.Layers + Clothing.ExtraStages, response.Stages.Count);
-			Assert.AreEqual(c.LegacyTimeInStage, response.LegacyTargetTimeInStage);
-			Assert.AreEqual("2-3", response.LegacyTargetStage);
-			Assert.AreEqual(c.LegacySaidMarker, response.LegacyTargetSaidMarker);
-			Assert.AreEqual(c.LegacyNotSaidMarker, response.LegacyTargetNotSaidMarker);
-			Assert.AreEqual(c.LegacyHasHand, response.LegacyTargetHand);
-
-			Assert.AreEqual(_female.Layers + Clothing.ExtraStages, response.Stages.Count);
-			Assert.IsNull(response.LegacyAlsoPlaying);
-		}
-
-		[TestMethod]
-		public void NotTargetable_TargetableResponse_WithAlsoPlaying()
-		{
-			Case c = new Case("must_strip_normal");
-			c.LegacyTimeInStage = "5";
-			c.Stages.Add(2);
-			c.Stages.Add(3);
-			c.LegacySaidMarker = "foo";
-			c.LegacyNotSaidMarker = "bar";
-			c.LegacyHasHand = "hand";
-
-			c.LegacyAlsoPlaying = "other";
-			c.LegacyAlsoPlayingHand = "good";
-			c.LegacyAlsoPlayingStage = "2-4";
-			c.LegacyAlsoPlayingSaidMarker = "foo2";
-			c.LegacyAlsoPlayingNotSaidMarker = "bar2";
-			c.LegacyAlsoPlayingTimeInStage = "5";
-
-			Case response = c.CreateResponse(_male, _female);
-
-			Assert.AreEqual(_male.FolderName, response.LegacyTarget);
-			Assert.AreEqual(_female.Layers + Clothing.ExtraStages, response.Stages.Count);
-			Assert.AreEqual(c.LegacyTimeInStage, response.LegacyTargetTimeInStage);
-			Assert.AreEqual("2-3", response.LegacyTargetStage);
-			Assert.AreEqual(c.LegacySaidMarker, response.LegacyTargetSaidMarker);
-			Assert.AreEqual(c.LegacyNotSaidMarker, response.LegacyTargetNotSaidMarker);
-			Assert.AreEqual(c.LegacyHasHand, response.LegacyTargetHand);
-
-			Assert.AreEqual(c.LegacyAlsoPlaying, response.LegacyAlsoPlaying);
-			Assert.AreEqual(c.LegacyAlsoPlayingStage, response.LegacyAlsoPlayingStage);
-			Assert.AreEqual(c.LegacyAlsoPlayingHand, response.LegacyAlsoPlayingHand);
-			Assert.AreEqual(c.LegacyAlsoPlayingSaidMarker, response.LegacyAlsoPlayingSaidMarker);
-			Assert.AreEqual(c.LegacyAlsoPlayingNotSaidMarker, response.LegacyAlsoPlayingNotSaidMarker);
-			Assert.AreEqual(c.LegacyAlsoPlayingTimeInStage, response.LegacyAlsoPlayingTimeInStage);
-		}
-
-		[TestMethod]
-		public void Targetable_Target_NoAlsoPlaying()
-		{
-			Case c = new Case("female_removing_accessory");
-			c.LegacyTimeInStage = "5";
-			c.Stages.Add(2);
-			c.Stages.Add(3);
-			c.LegacySaidMarker = "foo";
-			c.LegacyNotSaidMarker = "bar";
-			c.LegacyHasHand = "hand";
-
-			c.LegacyTarget = "other";
-			c.LegacyTargetHand = "good";
-			c.LegacyTargetStage = "2-4";
-			c.LegacyTargetSaidMarker = "foo2";
-			c.LegacyTargetNotSaidMarker = "bar2";
-			c.LegacyTargetTimeInStage = "5";
-			c.LegacyTargetStatus = "blah";
-			c.LegacyTargetLayers = "2-4";
-			c.LegacyTargetStartingLayers = "1-3";
-
-			Case response = c.CreateResponse(_male, _female);
-
-			Assert.AreEqual(_female.Layers + Clothing.ExtraStages, response.Stages.Count);
-
-			Assert.AreEqual(_male.FolderName, response.LegacyAlsoPlaying);
-			Assert.AreEqual(c.LegacyTimeInStage, response.LegacyAlsoPlayingTimeInStage);
-			Assert.AreEqual("2-3", response.LegacyAlsoPlayingStage);
-			Assert.AreEqual(c.LegacySaidMarker, response.LegacyAlsoPlayingSaidMarker);
-			Assert.AreEqual(c.LegacyNotSaidMarker, response.LegacyAlsoPlayingNotSaidMarker);
-			Assert.AreEqual(c.LegacyHasHand, response.LegacyAlsoPlayingHand);
-
-			Assert.AreEqual(c.LegacyTarget, response.LegacyTarget);
-			Assert.AreEqual(c.LegacyTargetStage, response.LegacyTargetStage);
-			Assert.AreEqual(c.LegacyTargetHand, response.LegacyTargetHand);
-			Assert.AreEqual(c.LegacyTargetSaidMarker, response.LegacyTargetSaidMarker);
-			Assert.AreEqual(c.LegacyTargetNotSaidMarker, response.LegacyTargetNotSaidMarker);
-			Assert.AreEqual(c.LegacyTargetTimeInStage, response.LegacyTargetTimeInStage);
-			Assert.AreEqual(c.LegacyTargetStatus, response.LegacyTargetStatus);
-			Assert.AreEqual(c.LegacyTargetLayers, response.LegacyTargetLayers);
-			Assert.AreEqual(c.LegacyTargetStartingLayers, response.LegacyTargetStartingLayers);
-		}
-
-		[TestMethod]
-		public void Targetable_TargetResponder_NoAlsoPlaying()
-		{
-			Case c = new Case("female_removing_accessory");
-			c.LegacyTimeInStage = "5";
-			c.Stages.Add(2);
-			c.Stages.Add(3);
-			c.LegacySaidMarker = "foo";
-			c.LegacyNotSaidMarker = "bar";
-			c.LegacyHasHand = "hand";
-
-			c.LegacyTarget = _female.FolderName;
-			c.LegacyTargetHand = "good";
-			c.LegacyTargetStage = "2-4";
-			c.LegacyTargetSaidMarker = "foo2";
-			c.LegacyTargetNotSaidMarker = "bar2";
-			c.LegacyTargetTimeInStage = "5";
-			c.LegacyTargetStatus = "blah";
-			c.LegacyTargetLayers = "2-4";
-			c.LegacyTargetStartingLayers = "1-3";
-
-			Case response = c.CreateResponse(_male, _female);
-			
-			Assert.AreEqual(3, response.Stages.Count);
-			Assert.IsTrue(response.Stages.Contains(2));
-			Assert.IsTrue(response.Stages.Contains(3));
-			Assert.IsTrue(response.Stages.Contains(4));
-			Assert.AreEqual(c.LegacyTargetHand, response.LegacyHasHand);
-			Assert.AreEqual(c.LegacyTargetSaidMarker, response.LegacySaidMarker);
-			Assert.AreEqual(c.LegacyTargetNotSaidMarker, response.LegacyNotSaidMarker);
-			Assert.AreEqual(c.LegacyTimeInStage, response.LegacyTimeInStage);
-
-			Assert.AreEqual(_male.FolderName, response.LegacyAlsoPlaying);
-			Assert.AreEqual(c.LegacyTimeInStage, response.LegacyAlsoPlayingTimeInStage);
-			Assert.AreEqual("2-3", response.LegacyAlsoPlayingStage);
-			Assert.AreEqual(c.LegacySaidMarker, response.LegacyAlsoPlayingSaidMarker);
-			Assert.AreEqual(c.LegacyNotSaidMarker, response.LegacyAlsoPlayingNotSaidMarker);
-			Assert.AreEqual(c.LegacyHasHand, response.LegacyAlsoPlayingHand);
-		}
-
-		[TestMethod]
-		public void Targetable_Target_AlsoPlayingResponder()
-		{
-			Case c = new Case("female_removing_accessory");
-			c.LegacyTimeInStage = "5";
-			c.Stages.Add(2);
-			c.Stages.Add(3);
-			c.LegacySaidMarker = "foo";
-			c.LegacyNotSaidMarker = "bar";
-			c.LegacyHasHand = "hand";
-
-			c.LegacyTarget = "other";
-			c.LegacyTargetHand = "good";
-			c.LegacyTargetStage = "2-4";
-			c.LegacyTargetSaidMarker = "foo2";
-			c.LegacyTargetNotSaidMarker = "bar2";
-			c.LegacyTargetTimeInStage = "5";
-			c.LegacyTargetStatus = "blah";
-			c.LegacyTargetLayers = "2-4";
-			c.LegacyTargetStartingLayers = "1-3";
-
-			c.LegacyAlsoPlaying = _female.FolderName;
-			c.LegacyAlsoPlayingHand = "good";
-			c.LegacyAlsoPlayingStage = "2-4";
-			c.LegacyAlsoPlayingSaidMarker = "foo2";
-			c.LegacyAlsoPlayingNotSaidMarker = "bar2";
-			c.LegacyAlsoPlayingTimeInStage = "5";
-
-			Case response = c.CreateResponse(_male, _female);
-			
-			Assert.AreEqual(_male.FolderName, response.LegacyAlsoPlaying);
-			Assert.AreEqual(c.LegacyTimeInStage, response.LegacyAlsoPlayingTimeInStage);
-			Assert.AreEqual("2-3", response.LegacyAlsoPlayingStage);
-			Assert.AreEqual(c.LegacySaidMarker, response.LegacyAlsoPlayingSaidMarker);
-			Assert.AreEqual(c.LegacyNotSaidMarker, response.LegacyAlsoPlayingNotSaidMarker);
-			Assert.AreEqual(c.LegacyHasHand, response.LegacyAlsoPlayingHand);
-
-			Assert.AreEqual(c.LegacyTarget, response.LegacyTarget);
-			Assert.AreEqual(c.LegacyTargetStage, response.LegacyTargetStage);
-			Assert.AreEqual(c.LegacyTargetHand, response.LegacyTargetHand);
-			Assert.AreEqual(c.LegacyTargetSaidMarker, response.LegacyTargetSaidMarker);
-			Assert.AreEqual(c.LegacyTargetNotSaidMarker, response.LegacyTargetNotSaidMarker);
-			Assert.AreEqual(c.LegacyTargetTimeInStage, response.LegacyTargetTimeInStage);
-			Assert.AreEqual(c.LegacyTargetStatus, response.LegacyTargetStatus);
-			Assert.AreEqual(c.LegacyTargetLayers, response.LegacyTargetLayers);
-			Assert.AreEqual(c.LegacyTargetStartingLayers, response.LegacyTargetStartingLayers);
-
-			Assert.AreEqual(3, response.Stages.Count);
-			Assert.IsTrue(response.Stages.Contains(2));
-			Assert.IsTrue(response.Stages.Contains(3));
-			Assert.IsTrue(response.Stages.Contains(4));
-			Assert.AreEqual(c.LegacyAlsoPlayingHand, response.LegacyHasHand);
-			Assert.AreEqual(c.LegacyAlsoPlayingSaidMarker, response.LegacySaidMarker);
-			Assert.AreEqual(c.LegacyAlsoPlayingNotSaidMarker, response.LegacyNotSaidMarker);
-			Assert.AreEqual(c.LegacyAlsoPlayingTimeInStage, response.LegacyTimeInStage);
-		}
-		#endregion
 
 		[TestMethod]
 		public void ExpressionTest_Self()
@@ -2197,37 +1113,6 @@ namespace UnitTests
 			Assert.AreEqual("target.costume", test.Expression);
 		}
 
-		[TestMethod]
-		public void ExpressionTest_Target()
-		{
-			Case response = new Case("opponent_lost")
-			{
-				LegacyTarget = _female.FolderName,
-				Expressions =
-				{
-					new ExpressionTest("target.costume", "blah")
-				}
-			}.CreateResponse(_male, _female);
-			Assert.AreEqual(1, response.Expressions.Count);
-			ExpressionTest test = response.Expressions[0];
-			Assert.AreEqual("self.costume", test.Expression);
-		}
-
-		[TestMethod]
-		public void ExpressionTest_OtherTarget()
-		{
-			Case response = new Case("opponent_lost")
-			{
-				LegacyTarget = _bifemale.FolderName,
-				Expressions =
-				{
-					new ExpressionTest("target.costume", "blah")
-				}
-			}.CreateResponse(_male, _female);
-			Assert.AreEqual(1, response.Expressions.Count);
-			ExpressionTest test = response.Expressions[0];
-			Assert.AreEqual("target.costume", test.Expression);
-		}
 
 		[TestMethod]
 		public void ExpressionTest_AlsoPlaying()

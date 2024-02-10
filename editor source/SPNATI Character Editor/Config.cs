@@ -27,35 +27,6 @@ namespace SPNATI_Character_Editor
 		private static Dictionary<string, string> _settings = new Dictionary<string, string>();
 
 		/// <summary>
-		/// Gets whether a version predates the target version
-		/// </summary>
-		/// <param name="version"></param>
-		/// <param name="targetVersion"></param>
-		/// <returns></returns>
-		public static bool VersionPredates(string version, string targetVersion)
-		{
-			if (string.IsNullOrEmpty(version))
-			{
-				return true;
-			}
-
-			bool passedTarget = false;
-			for (int i = 0; i < VersionHistory.Length; i++)
-			{
-				string v = VersionHistory[i];
-				if (v == targetVersion)
-				{
-					passedTarget = true;
-				}
-				if (v == version)
-				{
-					return !passedTarget;
-				}
-			}
-			return true; //version that predates VersionHistory
-		}
-
-		/// <summary>
 		/// Gets whether a setting has any value
 		/// </summary>
 		/// <param name="key"></param>
@@ -126,8 +97,6 @@ namespace SPNATI_Character_Editor
 
 		static Config()
 		{
-			//3.0 and up use config.ini. Older versions use settings.ini. Using different filenames to allow side-by-side installs since the structure was changed
-
 			string filename = Path.Combine(ExecutableDirectory, "SPNATI\\config.ini");
 			bool read = false;
 			if (File.Exists(filename))
@@ -149,16 +118,8 @@ namespace SPNATI_Character_Editor
 				}
 				else
 				{
-					filename = Path.Combine(AppDataDirectory, "settings.ini");
-					if (File.Exists(filename))
-					{
-						ReadLegacySettings(filename);
-					}
-					else
-					{
-						// default settings
-						Set("autosave", 10);
-					}
+					// default settings
+					Set("autosave", 10);
 				}
 			}
 		}
@@ -182,17 +143,6 @@ namespace SPNATI_Character_Editor
 			}
 		}
 
-		private static void ReadLegacySettings(string file)
-		{
-			string[] lines = File.ReadAllLines(file);
-			try
-			{
-				Set(Settings.GameDirectory, lines[0]);
-				Set(Settings.LastCharacter, lines[1]);
-				Set(Settings.LastVersionRun, lines[5]);
-			}
-			catch { }
-		}
 
 		public static void Save(string dir = "")
 		{

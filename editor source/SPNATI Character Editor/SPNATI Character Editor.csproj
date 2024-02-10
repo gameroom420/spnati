@@ -820,7 +820,6 @@
     <Compile Include="DataStructures\ClothingDefinitions.cs" />
     <Compile Include="DataStructures\Collectible.cs" />
     <Compile Include="DataStructures\CollectibleData.cs" />
-    <Compile Include="DataStructures\DataConversions.cs" />
     <Compile Include="DataStructures\Deck.cs" />
     <Compile Include="DataStructures\Definition.cs" />
     <Compile Include="DataStructures\Definitions.cs" />
@@ -1413,7 +1412,6 @@
     <Compile Include="ImageCache.cs" />
     <Compile Include="ImportPayload.cs" />
     <Compile Include="Intellisense.cs" />
-    <Compile Include="IO\FlatFileSerializer.cs" />
     <Compile Include="IO\SpnatiXmlSerializer.cs" />
     <Compile Include="DataStructures\Listing.cs" />
     <Compile Include="IO\CharacterStyleSheetSerializer.cs" />

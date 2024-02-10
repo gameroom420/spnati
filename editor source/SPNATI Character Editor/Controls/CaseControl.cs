@@ -92,10 +92,6 @@ namespace SPNATI_Character_Editor.Controls
 			}
 			_selectedStage = stage;
 			_selectedCase = workingCase;
-			if (_selectedCase != null)
-			{
-				DataConversions.ConvertCase(_selectedCase, _character);
-			}
 			TrackCase(_selectedCase);
 			if (_selectedCase != null)
 			{

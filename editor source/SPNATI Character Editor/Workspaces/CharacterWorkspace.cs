@@ -3,7 +3,6 @@ using SPNATI_Character_Editor.Activities;
 using SPNATI_Character_Editor.Services;
 using System;
 using System.Collections.Generic;
-using System.Text.RegularExpressions;
 
 namespace SPNATI_Character_Editor.Workspaces
 {
