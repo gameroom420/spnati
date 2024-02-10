@@ -313,7 +313,7 @@ namespace SPNATI_Character_Editor.Controls
 				{
 					if (_wardrobe.GetClothing(i).ToString() == form.fromStage)
 					{
-						clothing.FromStage = i.ToString();
+						clothing.FromStage = (_wardrobe.Layers - i).ToString();
 						break;
 					}
 				}

@@ -57,11 +57,11 @@ namespace SPNATI_Character_Editor.Forms
 			if (!string.IsNullOrEmpty(_clothing.FromStage))
 			{
 				int index = _clothing.FromStage.ToInt();
-				if (index < _layers)
+				if (index <= _layers)
 				{
 					chkNotFromStart.Checked = true;
 					cboFromDeal.Text = _clothing.FromDeal ? "Stripped" : "Stripping";
-					cboFromStage.Text = wardrobe.GetClothing(index).ToString();
+					cboFromStage.Text = wardrobe.GetClothing(_layers - index).ToString();
 				}
 			}
 
