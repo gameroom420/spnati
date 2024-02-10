@@ -214,6 +214,7 @@
 		<opponent addedDate="2023-04-04" release="292" highlight="new">arle</opponent>	<!-- expires 2024-02-14 -->
 		<opponent addedDate="2023-07-09" release="293" highlight="new">shamiko</opponent> <!-- expires 2024-02-18 -->
 		<opponent addedDate="2023-06-02" release="294" highlight="new">sweetheart</opponent> <!-- expires 2024-03-01 -->
+		<opponent addedDate="2023-09-23" status="testing">lysithea</opponent>
 		<opponent addedDate="2019-02-01" release="176" status="testing">ribbon_girl</opponent>
 		<opponent addedDate="2023-06-26" status="testing">yae</opponent>
 		<opponent addedDate="2023-06-26" status="testing">sofia</opponent>
@@ -336,7 +337,6 @@
 		<opponent addedDate="2020-05-06" status="incomplete">leo</opponent>
 		<opponent addedDate="2020-02-29" status="incomplete">lucy</opponent>
 		<opponent addedDate="2021-01-05" status="incomplete">lymilark</opponent>
-		<opponent addedDate="2023-09-23" status="incomplete">lysithea</opponent>
 		<opponent addedDate="2023-01-30" status="incomplete">magical_sempai</opponent>
 		<opponent addedDate="2020-01-07" status="incomplete">maki</opponent>
 		<opponent addedDate="2017-07-28" status="incomplete">mara_jade</opponent>
