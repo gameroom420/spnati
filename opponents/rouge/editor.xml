@@ -97,6 +97,7 @@ https://sonic.fandom.com/wiki/Madonna_Garnet</note>
         <note id="668">Not gonna lie, Meia wearing nothing but her breastplate is actually a pretty hot mental image.</note>
         <note id="685">Trivia: at 105cm (not counting her ears), Rouge is taller than Amy (90cm), Blaze (95cm), and Tikal (95cm), but shorter than Wave (110cm) and Vanilla (130cm). Of course, Rouge's line about height will be more obviously applicable with her furry skin, but I think it's still workable even on her default one.</note>
         <note id="701">I imagine some invention may be required... The question should be open-ended enough that Meia could talk about persons or scenarios, depending on what she prefers to focus on - assuming she's willing to share in the first place. If she'd be more inclined to shut the topic down, I could try rolling with it or we could discuss rewriting the initial question.</note>
+        <note id="721">I imagine some invention may be required... The question should be open-ended enough that Meia could talk about persons or scenarios, depending on what she prefers to focus on - assuming she's willing to share in the first place. If she'd be more inclined to shut the topic down, I could try rolling with it or we could discuss rewriting the initial question.</note>
     </notes>
     <labels>
         <label id="74" label="" color="6" folder="" sort="0" />
@@ -280,14 +281,17 @@ https://sonic.fandom.com/wiki/Madonna_Garnet</note>
         <label id="712" label="" color="6" folder="" sort="0" />
         <label id="709" label="" color="1" folder="" sort="0" />
         <label id="707" label="" color="1" folder="" sort="0" />
-        <label id="703" label="" color="6" folder="" sort="0" />
-        <label id="704" label="" color="1" folder="" sort="0" />
+        <label id="719" label="" color="1" folder="" sort="0" />
         <label id="705" label="" color="6" folder="" sort="0" />
         <label id="706" label="" color="1" folder="" sort="0" />
         <label id="708" label="" color="1" folder="" sort="0" />
         <label id="710" label="" color="6" folder="" sort="0" />
+        <label id="715" label="" color="6" folder="Treasure Scope" sort="0" />
+        <label id="716" label="" color="6" folder="Treasure Scope" sort="0" />
+        <label id="717" label="" color="6" folder="Treasure Scope" sort="0" />
+        <label id="718" label="" color="6" folder="Treasure Scope" sort="0" />
     </labels>
-    <nextId>714</nextId>
+    <nextId>721</nextId>
     <markers>
         <marker scope="Public" name="adrien_heroLewdStories" />
         <marker scope="Public" name="adrien_heroLewdStories_rumors" />
@@ -743,6 +747,7 @@ https://sonic.fandom.com/wiki/Madonna_Garnet</note>
         <marker scope="Public" name="meia_overlookTheft" />
         <marker scope="Public" name="meia_sideDish" />
         <marker scope="Public" name="meia_sideDish_turnabout" />
+        <marker scope="Public" name="meia_sideDish_urges" />
         <marker scope="Public" name="meia_spaceRocks" />
         <marker scope="Public" name="meia_spaceRocks_beauty" />
         <marker scope="Public" name="meia_spaceRocks_rabat" />
@@ -1052,11 +1057,13 @@ https://sonic.fandom.com/wiki/Madonna_Garnet</note>
         <marker scope="Public" name="treasureScope_critical_darling" />
         <marker scope="Public" name="treasureScope_dunban" />
         <marker scope="Public" name="treasureScope_introduction" />
+        <marker scope="Public" name="treasureScope_jura" />
         <marker scope="Public" name="treasureScope_kora" />
         <marker scope="Public" name="treasureScope_kyouko_toshinou" />
         <marker scope="Public" name="treasureScope_leonie" />
         <marker scope="Public" name="treasureScope_mari" />
         <marker scope="Public" name="treasureScope_may" />
+        <marker scope="Public" name="treasureScope_meia" />
         <marker scope="Public" name="treasureScope_mia_golden_sun" />
         <marker scope="Public" name="treasureScope_mom_alola" />
         <marker scope="Public" name="treasureScope_nagatoro" />
