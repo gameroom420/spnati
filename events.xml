@@ -442,6 +442,7 @@
         <character highlight="valentines" partition="1" sort="2">roll_caskett</character>
         <character highlight="valentines" partition="1" sort="2">maria</character>
         <character highlight="valentines" partition="1" sort="2">sheena</character>
+        <character highlight="valentines" partition="1" sort="2">yuno_uno</character>
 
         <costumes highlight="valentines" partition="1" sort="1">valentines</costumes>
 
@@ -450,6 +451,41 @@
             <path>reskins/meia_cupid/1-busy.png</path>
             <path>reskins/meia_cupid/2-pleased.png</path>
             <path>reskins/meia_cupid/2-addressing.png</path>
+			
+            <path>reskins/roll_caskett_pure_white_mechanic/0-wave.png</path>
+            <path>reskins/roll_caskett_pure_white_mechanic/1-smiling.png</path>
+            <path>reskins/roll_caskett_pure_white_mechanic/1-wave.png</path>
+            <path>reskins/roll_caskett_pure_white_mechanic/2-stretch.png</path>
+			
+            <path>reskins/maria_sadistic_venus/0-smug.png</path>
+            <path>reskins/maria_sadistic_venus/0-seductive.png</path>
+            <path>reskins/maria_sadistic_venus/1-sadistic.png</path>
+            <path>reskins/maria_sadistic_venus/1-chuckling.png</path>
+
+            <path>reskins/sheena_sugary_summoner/0-amused.png</path>
+            <path>reskins/sheena_sugary_summoner/0-tsun.png</path>
+            <path>reskins/sheena_sugary_summoner/1-amused.png</path>
+            <path>reskins/sheena_sugary_summoner/1-horny.png</path>
+
+            <path>reskins/yuno_uno_valentine/0-aa_select.png</path>
+            <path>reskins/yuno_uno_valentine/0-casual.png</path>
+            <path>reskins/yuno_uno_valentine/0-embarrassed.png</path>
+            <path>reskins/yuno_uno_valentine/0-happy_to_be_here.png</path>
+
+            <path>reskins/magma_grunt_casual_date/0-cocky.png</path>
+            <path>reskins/magma_grunt_casual_date/0-ladyboner.png</path>
+            <path>reskins/magma_grunt_casual_date/0-neutral.png</path>
+            <path>reskins/magma_grunt_casual_date/0-phone_grin.png</path>
+
+            <path>reskins/anatoly_box_of_chocolates/0-bashful.png</path>
+            <path>reskins/anatoly_box_of_chocolates/0-selection.png</path>
+            <path>reskins/anatoly_box_of_chocolates/0-shy.png</path>
+            <path>reskins/anatoly_box_of_chocolates/0-smug.png</path>	
+
+            <path>reskins/kumatora_waitress/0-annoyed.png</path>
+            <path>reskins/kumatora_waitress/0-cheerful.png</path>
+            <path>reskins/kumatora_waitress/0-flustered.png</path>
+            <path>reskins/kumatora_waitress/0-laughing.png</path>				
             <!--
             <path>reskins/cheerleaderochako/0-calm.png</path>
             <path>reskins/cheerleaderochako/1-heroic.png</path>
