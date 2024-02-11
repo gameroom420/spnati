@@ -439,13 +439,7 @@
         <background>paris rooftop</background>
 
         <!-- Put all costumes into the same group, but place new costumes higher -->
-        <!-- Except there are no 2024 costumes yet - 2023's listed for reference -->
-        <!--
-        <character highlight="valentines" partition="1" sort="2">mari_setogaya</character>
-        <character highlight="valentines" partition="1" sort="2">gloria</character>
-        <character highlight="valentines" partition="1" sort="2">cagliostro</character>
-        <character highlight="valentines" partition="1" sort="2">anatoly</character>
-        -->
+        <character highlight="valentines" partition="1" sort="2">sheena</character>
 
         <costumes highlight="valentines" partition="1" sort="1">valentines</costumes>
 
