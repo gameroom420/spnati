@@ -301,6 +301,9 @@
         <response id="1139" opponent="sanako" opponentId="1" />
         <response id="1140" opponent="sanako" opponentId="21" />
         <response id="1154" opponent="beatrix" opponentId="175" />
+        <response id="1159" opponent="rose" opponentId="131" />
+        <response id="1160" opponent="rose" opponentId="132" />
+        <response id="1161" opponent="rose" opponentId="133" />
     </responses>
     <notes>
         <note id="29">The Greek Visionary is a character like Ishizu or Shadi from Yu-gi-oh. Roll with it.</note>
@@ -1491,11 +1494,23 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <label id="1152" label="" folder="Targets" sort="0" />
         <label id="1153" label="" folder="Targets" sort="0" />
         <label id="1154" label="" folder="Responses" sort="0" />
+        <label id="1155" label="" folder="Responses" sort="0" />
+        <label id="1156" label="" folder="Rose" sort="0" />
+        <label id="1157" label="" folder="Rose" sort="0" />
+        <label id="1158" label="" folder="Rose" sort="0" />
+        <label id="1159" label="" folder="Rose" sort="0" />
+        <label id="1160" label="" folder="Rose" sort="0" />
+        <label id="1161" label="" folder="Rose" sort="0" />
+        <label id="1162" label="" folder="Rose" sort="0" />
+        <label id="1163" label="" folder="Rose" sort="0" />
+        <label id="1164" label="" folder="Rose" sort="0" />
+        <label id="1165" label="" folder="Group Date" sort="0" />
+        <label id="1166" label="Group Date" folder="Group Date" sort="0" />
     </labels>
     <prefixes>
         <prefix>yuno_collectible</prefix>
     </prefixes>
-    <nextId>1154</nextId>
+    <nextId>1166</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="10rounds_gaku_skill_level" />
@@ -1732,6 +1747,7 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <marker scope="Public" name="rosa_chestvis_butt" />
         <marker scope="Public" name="rosa_timegate_bttf1" />
         <marker scope="Public" name="rosa_timegate_stuff1" />
+        <marker scope="Public" name="rose_showing_animaFirstTime" />
         <marker scope="Public" name="saki_butt_reaction" />
         <marker scope="Public" name="saki_heavyFF" />
         <marker scope="Public" name="saki_startFF" />
@@ -2229,6 +2245,7 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <marker scope="Public" name="yuno_miku_strip1a" />
         <marker scope="Public" name="yuno_miku_strip1b" />
         <marker scope="Public" name="yuno_miku_strip1c" />
+        <marker scope="Public" name="yuno_monika_greekHistory" />
         <marker scope="Public" name="yuno_monikaddlc_studentfilter" />
         <marker scope="Public" name="yuno_moskii_bloodsucker1" />
         <marker scope="Public" name="yuno_moskii_bloodsucker2" />
@@ -2291,6 +2308,15 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <marker scope="Public" name="yuno_rita_self0a" />
         <marker scope="Public" name="yuno_rita_techPromptResp" />
         <marker scope="Public" name="yuno_rollcasket_s0a" />
+        <marker scope="Public" name="yuno_rose_degree1" />
+        <marker scope="Public" name="yuno_rose_degree2" />
+        <marker scope="Public" name="yuno_rose_degree3" />
+        <marker scope="Public" name="yuno_rose_reliable1" />
+        <marker scope="Public" name="yuno_rose_reliable2" />
+        <marker scope="Public" name="yuno_rose_reliable3" />
+        <marker scope="Public" name="yuno_rose_smalltalk1" />
+        <marker scope="Public" name="yuno_rose_smalltalk2" />
+        <marker scope="Public" name="yuno_rose_smalltalk3" />
         <marker scope="Public" name="yuno_rouge_hobbiesResp" />
         <marker scope="Public" name="yuno_saki_likeUno0" />
         <marker scope="Public" name="yuno_saki_self0a" />
