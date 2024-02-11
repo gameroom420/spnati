@@ -102,7 +102,34 @@
         <response id="162" opponent="perona" opponentId="15" />
         <response id="163" opponent="perona" opponentId="16" />
         <response id="176" opponent="polly" opponentId="92" />
+        <response id="393" opponent="eichi" opponentId="256" />
+        <response id="394" opponent="eichi" opponentId="124" />
+        <response id="397" opponent="eichi" opponentId="121" />
+        <response id="398" opponent="eichi" opponentId="123" />
+        <response id="401" opponent="eichi" opponentId="803" />
+        <response id="402" opponent="barbara" opponentId="17" />
+        <response id="405" opponent="hatsune_miku" opponentId="197" />
+        <response id="407" opponent="hatsune_miku" opponentId="614" />
+        <response id="409" opponent="hatsune_miku" opponentId="492" />
+        <response id="410" opponent="hatsune_miku" opponentId="493" />
+        <response id="414" opponent="toph" opponentId="21" />
+        <response id="415" opponent="toph" opponentId="6" />
+        <response id="417" opponent="myriam" opponentId="35" />
+        <response id="423" opponent="myriam" opponentId="34" />
+        <response id="425" opponent="yumeko" opponentId="3" />
+        <response id="426" opponent="caitlin" opponentId="50" />
+        <response id="427" opponent="caitlin" opponentId="63" />
+        <response id="428" opponent="caitlin" opponentId="64" />
+        <response id="429" opponent="caitlin" opponentId="65" />
+        <response id="430" opponent="caitlin" opponentId="66" />
+        <response id="432" opponent="queenie" opponentId="27" />
+        <response id="433" opponent="queenie" opponentId="28" />
+        <response id="434" opponent="queenie" opponentId="34" />
+        <response id="435" opponent="queenie" opponentId="35" />
     </responses>
+    <notes>
+        <note id="431">Please don't get too hung up on the use of the word "champion" here. RG is more so asking what it's like being a high-tier competitor who faces a lot of challengers.</note>
+    </notes>
     <labels>
         <label id="1" label="" folder="Player Wager" sort="6" />
         <label id="3" label="" folder="Player Wager" sort="3" />
@@ -198,7 +225,7 @@
         <label id="179" label="Other Arms - Set 1" folder="Noteworthy Things" sort="5" />
         <label id="180" label="Misc. Things" color="4" folder="Noteworthy Things" sort="7" />
         <label id="181" label="Prince / Princess Filter" folder="" sort="0" />
-        <label id="182" label="Mask Explaination" folder="Noteworthy Things" sort="0" />
+        <label id="182" label="Mask Explaination" folder="Noteworthy Things" sort="4" />
         <label id="184" label="" folder="Noteworthy Things" sort="0" />
         <label id="185" label="Misc. Things - Late Game" color="4" folder="Noteworthy Things" sort="8" />
         <label id="186" label="Mask Talk - Late Game" folder="Noteworthy Things" sort="9" />
@@ -262,29 +289,29 @@
         <label id="344" label="Masturbating Opponent Flash" folder="Flashing" sort="0" />
         <label id="346" label="" color="1" folder="" sort="0" />
         <label id="348" label="Butt Pose" folder="" sort="0" />
-        <label id="349" label="Other Arms - Set 2" folder="Noteworthy Things" sort="0" />
+        <label id="349" label="Other Arms - Set 2" folder="Noteworthy Things" sort="13" />
         <label id="350" label="" color="4" folder="" sort="0" />
         <label id="351" label="" color="4" folder="" sort="0" />
-        <label id="352" label="" folder="Backgrounds" sort="0" />
-        <label id="353" label="" folder="Backgrounds" sort="0" />
-        <label id="354" label="" folder="Backgrounds" sort="0" />
-        <label id="355" label="" folder="Backgrounds" sort="0" />
-        <label id="356" label="" folder="Backgrounds" sort="0" />
-        <label id="357" label="" folder="Backgrounds" sort="0" />
-        <label id="358" label="" folder="Backgrounds" sort="0" />
-        <label id="359" label="" folder="Backgrounds" sort="0" />
-        <label id="360" label="" folder="Backgrounds" sort="0" />
-        <label id="361" label="" folder="Backgrounds" sort="0" />
-        <label id="362" label="" folder="Backgrounds" sort="0" />
-        <label id="363" label="" folder="Backgrounds" sort="0" />
+        <label id="352" label="" folder="Backgrounds" sort="13" />
+        <label id="353" label="" folder="Backgrounds" sort="14" />
+        <label id="354" label="" folder="Backgrounds" sort="16" />
+        <label id="355" label="" folder="Backgrounds" sort="15" />
+        <label id="356" label="" folder="Backgrounds" sort="17" />
+        <label id="357" label="" folder="Backgrounds" sort="12" />
+        <label id="358" label="" folder="Backgrounds" sort="20" />
+        <label id="359" label="" folder="Backgrounds" sort="18" />
+        <label id="360" label="" folder="Backgrounds" sort="22" />
+        <label id="361" label="" folder="Backgrounds" sort="21" />
+        <label id="362" label="" folder="Backgrounds" sort="23" />
+        <label id="363" label="" folder="Backgrounds" sort="19" />
         <label id="364" label="" color="7" folder="" sort="0" />
         <label id="69" label="" color="7" folder="" sort="0" />
-        <label id="365" label="" folder="Flashing" sort="0" />
-        <label id="366" label="" folder="Flashing" sort="0" />
-        <label id="367" label="" folder="Flashing" sort="0" />
-        <label id="368" label="" folder="Flashing" sort="0" />
-        <label id="369" label="" folder="Flashing" sort="0" />
-        <label id="370" label="" folder="Flashing" sort="0" />
+        <label id="365" label="" folder="Flashing" sort="2" />
+        <label id="366" label="" folder="Flashing" sort="3" />
+        <label id="367" label="" folder="Flashing" sort="5" />
+        <label id="368" label="" folder="Flashing" sort="4" />
+        <label id="369" label="" folder="Flashing" sort="6" />
+        <label id="370" label="" folder="Flashing" sort="7" />
         <label id="371" label="" color="4" folder="" sort="0" />
         <label id="372" label="" color="4" folder="" sort="0" />
         <label id="373" label="" color="7" folder="" sort="0" />
@@ -292,8 +319,64 @@
         <label id="375" label="" color="7" folder="" sort="0" />
         <label id="377" label="" color="2" folder="" sort="0" />
         <label id="380" label="" color="1" folder="" sort="0" />
+        <label id="381" label="" folder="Sponsorship&gt;Witch Hannah" sort="0" />
+        <label id="382" label="" folder="Sponsorship&gt;Witch Hannah" sort="2" />
+        <label id="383" label="" folder="Sponsorship&gt;Witch Hannah" sort="3" />
+        <label id="384" label="" folder="Sponsorship&gt;Witch Hannah" sort="4" />
+        <label id="385" label="" folder="Sponsorship&gt;Tweetsie" sort="17" />
+        <label id="386" label="" folder="Sponsorship&gt;Tweetsie" sort="2" />
+        <label id="387" label="" folder="Sponsorship&gt;Tweetsie" sort="3" />
+        <label id="388" label="" folder="Sponsorship&gt;Tweetsie" sort="4" />
+        <label id="389" label="" folder="Sponsorship&gt;Tweetsie" sort="5" />
+        <label id="390" label="" folder="Sponsorship&gt;Tweetsie" sort="6" />
+        <label id="391" label="" folder="Sponsorship&gt;Tweetsie" sort="8" />
+        <label id="392" label="" folder="Sponsorship&gt;Tweetsie" sort="7" />
+        <label id="393" label="" folder="Sponsorship&gt;Tweetsie" sort="9" />
+        <label id="394" label="" folder="Sponsorship&gt;Tweetsie" sort="10" />
+        <label id="395" label="" folder="Sponsorship&gt;Tweetsie" sort="11" />
+        <label id="396" label="" folder="Sponsorship&gt;Tweetsie" sort="12" />
+        <label id="397" label="" folder="Sponsorship&gt;Tweetsie" sort="13" />
+        <label id="398" label="" folder="Sponsorship&gt;Tweetsie" sort="14" />
+        <label id="399" label="" folder="Sponsorship&gt;Tweetsie" sort="15" />
+        <label id="400" label="" folder="Sponsorship&gt;Tweetsie" sort="16" />
+        <label id="401" label="" folder="Sponsorship&gt;Tweetsie" sort="17" />
+        <label id="402" label="" folder="Sponsorship&gt;Tweetsie" sort="18" />
+        <label id="403" label="" folder="Sponsorship&gt;Tweetsie" sort="19" />
+        <label id="404" label="" folder="Sponsorship&gt;Tweetsie" sort="20" />
+        <label id="405" label="" folder="Sponsorship&gt;Tweetsie" sort="21" />
+        <label id="406" label="" folder="Sponsorship&gt;Tweetsie" sort="22" />
+        <label id="407" label="" folder="Sponsorship&gt;Tweetsie" sort="23" />
+        <label id="408" label="" folder="Sponsorship&gt;Tweetsie" sort="24" />
+        <label id="409" label="" folder="Sponsorship&gt;Tweetsie" sort="25" />
+        <label id="410" label="" folder="Sponsorship&gt;Tweetsie" sort="26" />
+        <label id="411" label="" folder="Sponsorship&gt;Tweetsie" sort="27" />
+        <label id="412" label="" folder="Sponsorship&gt;Tweetsie" sort="28" />
+        <label id="413" label="" folder="Sponsorship&gt;Another_NSFWAlt" sort="4" />
+        <label id="415" label="" folder="Sponsorship&gt;Another_NSFWAlt" sort="3" />
+        <label id="414" label="" folder="Sponsorship&gt;Another_NSFWAlt" sort="2" />
+        <label id="416" label="" folder="Sponsorship&gt;Another_NSFWAlt" sort="2" />
+        <label id="417" label="" folder="Sponsorship&gt;Another_NSFWAlt" sort="7" />
+        <label id="418" label="" folder="Sponsorship&gt;Another_NSFWAlt" sort="5" />
+        <label id="419" label="" folder="Sponsorship&gt;Another_NSFWAlt" sort="6" />
+        <label id="420" label="" folder="Sponsorship&gt;Another_NSFWAlt" sort="8" />
+        <label id="421" label="" folder="Sponsorship&gt;Another_NSFWAlt" sort="9" />
+        <label id="422" label="" folder="Sponsorship&gt;Another_NSFWAlt" sort="10" />
+        <label id="423" label="" folder="Sponsorship&gt;Another_NSFWAlt" sort="11" />
+        <label id="424" label="" folder="Sponsorship&gt;Another_NSFWAlt" sort="12" />
+        <label id="425" label="" folder="Sponsorship&gt;Another_NSFWAlt" sort="13" />
+        <label id="426" label="" folder="Sponsorship&gt;Another_NSFWAlt" sort="14" />
+        <label id="427" label="" folder="Sponsorship&gt;Another_NSFWAlt" sort="15" />
+        <label id="428" label="" folder="Sponsorship&gt;Another_NSFWAlt" sort="16" />
+        <label id="429" label="" folder="Sponsorship&gt;Another_NSFWAlt" sort="17" />
+        <label id="430" label="" folder="Sponsorship&gt;Another_NSFWAlt" sort="18" />
+        <label id="431" label="" folder="Sponsorship&gt;Another_NSFWAlt" sort="19" />
+        <label id="433" label="" folder="Sponsorship&gt;Another_NSFWAlt" sort="20" />
+        <label id="434" label="" folder="Sponsorship&gt;Another_NSFWAlt" sort="21" />
+        <label id="432" label="" folder="Sponsorship&gt;Another_NSFWAlt" sort="0" />
+        <label id="435" label="" folder="Sponsorship&gt;Another_NSFWAlt" sort="19" />
+        <label id="436" label="" folder="Sponsorship&gt;Another_NSFWAlt" sort="11" />
     </labels>
-    <nextId>380</nextId>
+    <nextId>436</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="1v1" />
@@ -308,11 +391,20 @@
         <marker scope="Public" name="ArmPowerTalk">Ribbon Girl explains what's up with her arms.</marker>
         <marker scope="Public" name="ArmPowerTalk2">Ribbon Girl explains more of her powers.</marker>
         <marker scope="Public" name="ARMSLeagueExplain" />
+        <marker scope="Public" name="Barbara_Idol1" />
+        <marker scope="Public" name="Barbara_Prayer1" />
+        <marker scope="Public" name="Barbara_PrayerIntro" />
         <marker scope="Public" name="BBNoGuard" />
         <marker scope="Public" name="BillyBrand" />
         <marker scope="Public" name="BirdArmNest" />
         <marker scope="Public" name="BlorbBounce" />
         <marker scope="Public" name="Butt" />
+        <marker scope="Public" name="Caitlin_Dealer1" />
+        <marker scope="Public" name="Caitlin_Elite1" />
+        <marker scope="Public" name="Caitlin_Float2" />
+        <marker scope="Public" name="Caitlin_Float3" />
+        <marker scope="Public" name="Caitlin_Float4" />
+        <marker scope="Public" name="Caitlin_Floating1" />
         <marker scope="Public" name="CelebrityNudity" />
         <marker scope="Public" name="ChazzCards" />
         <marker scope="Public" name="CrazyARMSMinigames" />
@@ -332,6 +424,14 @@
         <marker scope="Public" name="CynthiaRuins3" />
         <marker scope="Public" name="CynthiaRumors" />
         <marker scope="Public" name="DoMoreSexualStuff" />
+        <marker scope="Public" name="Eichi_Embarrassment1" />
+        <marker scope="Public" name="Eichi_Exposure1" />
+        <marker scope="Public" name="Eichi_Heaven1" />
+        <marker scope="Public" name="Eichi_MaleIdol1" />
+        <marker scope="Public" name="Eichi_Mall1" />
+        <marker scope="Public" name="Eichi_Monologue1" />
+        <marker scope="Public" name="Eichi_Risks1" />
+        <marker scope="Public" name="Eichi_VendingMachine1" />
         <marker scope="Public" name="ExhibitionPictures" />
         <marker scope="Public" name="ExhibitionShow" />
         <marker scope="Public" name="FightingInHeels" />
@@ -352,6 +452,9 @@
         <marker scope="Public" name="Holiday_Unwrap" />
         <marker scope="Public" name="HowDidIDo">Ribbon Girl asked "How did I do?" when finished masturbating.</marker>
         <marker scope="Public" name="HPJuice" />
+        <marker scope="Public" name="Idol_Downtime" />
+        <marker scope="Public" name="Idol_NudeShow" />
+        <marker scope="Public" name="Idol_Tour" />
         <marker scope="Public" name="Intro" />
         <marker scope="Public" name="JigglyHelix" />
         <marker scope="Public" name="JolyneStand" />
@@ -370,6 +473,21 @@
         <marker scope="Public" name="MechaNoGuard" />
         <marker scope="Public" name="MegatonsTooSlow" />
         <marker scope="Public" name="MeguminPowerRegulation" />
+        <marker scope="Public" name="Miku_AfterPerformance1" />
+        <marker scope="Public" name="Miku_Digital1" />
+        <marker scope="Public" name="Miku_Endorsements1" />
+        <marker scope="Public" name="Miku_FellowIdols1" />
+        <marker scope="Public" name="Miku_MastDuet1" />
+        <marker scope="Public" name="Miku_PerformIntro" />
+        <marker scope="Public" name="Miku_Voice1" />
+        <marker scope="Public" name="Myriam_Box1" />
+        <marker scope="Public" name="Myriam_Box2" />
+        <marker scope="Public" name="Myriam_Bra1" />
+        <marker scope="Public" name="Myriam_Bra2" />
+        <marker scope="Public" name="Myriam_Dress1" />
+        <marker scope="Public" name="Myriam_Dress2" />
+        <marker scope="Public" name="Myriam_Intro" />
+        <marker scope="Public" name="Myriam_Sneak1" />
         <marker scope="Public" name="Nagisa_Food" />
         <marker scope="Public" name="Nagisa_Scar" />
         <marker scope="Public" name="NakedFloating" />
@@ -420,6 +538,11 @@
         <marker scope="Public" name="Prompt_CustomArms" />
         <marker scope="Public" name="PublicImage" />
         <marker scope="Public" name="PublicImage_LosingPanties" />
+        <marker scope="Public" name="Queenie_Cupid1" />
+        <marker scope="Public" name="Queenie_Intro" />
+        <marker scope="Public" name="Queenie_Intro2" />
+        <marker scope="Public" name="Queenie_Magic1Sponso" />
+        <marker scope="Public" name="Queenie_Magic2" />
         <marker scope="Public" name="RealRibbonHair" />
         <marker scope="Public" name="RibbonHair">Ribbon Girl mentions that her hair is made of ribbons.</marker>
         <marker scope="Public" name="RobotKnockout" />
@@ -446,6 +569,9 @@
         <marker scope="Public" name="SwimwearARMS" />
         <marker scope="Public" name="ThankYouErufuda" />
         <marker scope="Public" name="TiredOfTheMask" />
+        <marker scope="Public" name="Toph_Bandit1" />
+        <marker scope="Public" name="Toph_Bracelet1" />
+        <marker scope="Public" name="Toph_FakeRumors1" />
         <marker scope="Public" name="TopOrBottom" />
         <marker scope="Public" name="TwilightIsPony" />
         <marker scope="Public" name="TwintelleHair" />
@@ -453,6 +579,8 @@
         <marker scope="Public" name="UnsanctionedArms" />
         <marker scope="Public" name="WagerStart">Ribbon Girl's wager with the player officially starts.</marker>
         <marker scope="Public" name="WristRibbons" />
+        <marker scope="Public" name="Yumeko_Donating1" />
+        <marker scope="Public" name="Yumeko_ForfeitStart" />
         <marker scope="Public" name="ZLS1" />
         <marker scope="Public" name="ZLS2" />
     </markers>
