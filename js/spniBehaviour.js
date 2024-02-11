@@ -2053,7 +2053,6 @@ function Case($xml, trigger) {
     this.trigger =                  trigger;
     this.stage =                    $xml.attr('stage');
     this.totalRounds =              parseInterval($xml.attr("totalRounds"));
-    this.notSaidMarker =            $xml.attr("notSaidMarker");
     this.customPriority =           parseInt($xml.attr("priority"), 10);
     this.hidden =                   $xml.attr("hidden");
     this.addTags =                  $xml.attr("addCharacterTags");
@@ -2132,7 +2131,6 @@ function Case($xml, trigger) {
     } else {
         this.priority = 0;
         if (this.totalRounds)              this.priority += 10;
-        if (this.notSaidMarker)            this.priority += 1;
 
         this.counters.forEach(function (c) { this.priority += c.priority; }, this);
 
@@ -2250,13 +2248,6 @@ Case.prototype.checkConditions = function (self, opp, postDialogue) {
     if (this.totalRounds) {
         if (!inInterval(currentRound, this.totalRounds)) {
             return false; // failed "totalRounds" requirement
-        }
-    }
-
-    // self marker checks
-    if (this.notSaidMarker) {
-        if (checkMarker(this.notSaidMarker, self, opp)) {
-            return false;
         }
     }
 
