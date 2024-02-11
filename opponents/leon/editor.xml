@@ -1518,7 +1518,7 @@
         <label id="1485" label="C Heavy" folder="" sort="0" />
         <label id="1486" label="Forfeit C" folder="" sort="0" />
     </labels>
-    <nextId>1494</nextId>
+    <nextId>1497</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="aaravi_finished" />
@@ -2630,6 +2630,11 @@
         <marker scope="Public" name="trixie43" />
         <marker scope="Public" name="yae_14" />
         <marker scope="Public" name="yae_transform" />
+        <marker scope="Public" name="yae01a" />
+        <marker scope="Public" name="yae01b" />
+        <marker scope="Public" name="yae11a" />
+        <marker scope="Public" name="yae11b" />
+        <marker scope="Public" name="yaeFF" />
         <marker scope="Public" name="yuri01" />
         <marker scope="Public" name="zls01" />
         <marker scope="Public" name="zls02" />
