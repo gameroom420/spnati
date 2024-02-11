@@ -246,7 +246,6 @@
     <Compile Include="Analyzers\DialogueAnalyzers.cs" />
     <Compile Include="Analyzers\StatusAnalyzer.cs" />
     <Compile Include="Analyzers\StyleAnalyzer.cs" />
-    <Compile Include="Analyzers\VersionAnalyzer.cs" />
     <Compile Include="Analyzers\WardrobeAnalyzers.cs" />
     <Compile Include="Analyzers\MetadataAnalyzers.cs" />
     <Compile Include="Analyzers\IDataAnalyzer.cs" />
