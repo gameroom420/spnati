@@ -1082,19 +1082,23 @@ function wearClothing () {
 
 function getCharacterForCostume(costumePath) {
     const match = costumePath.split("/");
+    var opponent = null;
     
     if (match[0] != "reskins") {
-        return match[0];
+        opponent = loadedOpponents.find(opp => opp.id === match[0]);
+    } else {
+        opponent = loadedOpponents.find(opp => {
+            // opponent has a costume that fits
+            return opp.alternate_costumes.findIndex(costume => costume.folder.endsWith(match[1]+ "/")) != -1;
+        });
     }
-    const opponent = loadedOpponents.find(opp => {
-        // opponent has a costume that fits
-        return opp.alternate_costumes.findIndex(costume => costume.folder.endsWith(match[1]+ "/")) != -1;
-    });
-    if (opponent == undefined) {
-        console.log(`Couldn't find opponent for costume "${costumePath}". The costume may be offline.`);
-        return "";
+
+    if (!opponent) {
+        console.log(`Couldn't find opponent for image "${costumePath}". The character or costume may be offline.`);
+        return null;
     }
-    return opponent.id;
+
+    return opponent;
 }
 
 /************************************************************
@@ -1102,21 +1106,41 @@ function getCharacterForCostume(costumePath) {
  ************************************************************/
 function selectTitleCandy() {
     console.log("Selecting Candy...");
-    var candyImage1 = CANDY_LIST[getRandomNumber(0, CANDY_LIST.length)];
-    var character1 = getCharacterForCostume(candyImage1);
-    var candyImage2 = CANDY_LIST[getRandomNumber(0, CANDY_LIST.length)];
-    var character2 = getCharacterForCostume(candyImage2);
 
-    while (character1 == character2) {
-        candyImage2 = CANDY_LIST[getRandomNumber(0, CANDY_LIST.length)];
-        character2 = getCharacterForCostume(candyImage2);
+    // Map from the raw list of images to [image, character object] pairs,
+    // filtering out any images from offline characters/costumes.
+    var imgList = CANDY_LIST.flatMap(
+        (image) => {
+            let character = getCharacterForCostume(image);
+            if (character) {
+                return [[image, character]];
+            } else {
+                return [];
+            }
+        }
+    );
+
+    shuffleArray(imgList);
+
+    var pair1 = imgList.pop();
+    var candyImage1 = pair1[0];
+    var character1 = pair1[1];
+
+    var pair2 = imgList.pop();
+    var candyImage2 = pair2[0];
+    var character2 = pair2[1];
+    
+    while (character1.id === character2.id) {
+        pair2 = imgList.pop();
+        candyImage2 = pair2[0];
+        character2 = pair2[1];
     }
 
     $titleCandy[0].attr("src", "opponents/" + candyImage1);
     $titleCandy[1].attr("src", "opponents/" + candyImage2);
         
-    var scale1 = (loadedOpponents.find(c => c.id == character1).scale / 100) || 1;
-    var scale2 = (loadedOpponents.find(c => c.id == character2).scale / 100) || 1;
+    var scale1 = (character1.scale / 100) || 1;
+    var scale2 = (character2.scale / 100) || 1;
     
     // if we're restarting, we need to remove previous CSS or it piles up when we re-add it.
     var style1 = ($titleCandy[0].attr("style") || "").replace(/transform\:([a-zA-Z0-9\.\(\)\%\- ])+;/, "")
