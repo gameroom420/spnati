@@ -519,7 +519,7 @@
         <label id="990" label="" color="4" folder="" sort="0" />
         <label id="991" label="" color="4" folder="" sort="0" />
         <label id="996" label="" color="6" folder="" sort="0" />
-        <label id="1579" label="" color="4" folder="" sort="0" />
+        <label id="1663" label="" color="4" folder="" sort="0" />
         <label id="1000" label="" color="4" folder="" sort="0" />
         <label id="1001" label="" color="4" folder="" sort="0" />
         <label id="1002" label="" color="4" folder="" sort="0" />
@@ -757,7 +757,7 @@
         <label id="1314" label="" color="4" folder="" sort="0" />
         <label id="1315" label="" color="4" folder="" sort="0" />
         <label id="1316" label="" color="4" folder="" sort="0" />
-        <label id="1320" label="" color="4" folder="" sort="0" />
+        <label id="1662" label="" color="4" folder="" sort="0" />
         <label id="1323" label="" color="4" folder="" sort="0" />
         <label id="1322" label="" color="4" folder="" sort="0" />
         <label id="1324" label="" color="6" folder="" sort="0" />
@@ -775,15 +775,15 @@
         <label id="1336" label="" color="7" folder="" sort="0" />
         <label id="1337" label="" color="6" folder="" sort="0" />
         <label id="1653" label="" color="4" folder="" sort="0" />
-        <label id="1580" label="" color="4" folder="" sort="0" />
-        <label id="1581" label="" color="4" folder="" sort="0" />
+        <label id="1664" label="" color="4" folder="" sort="0" />
+        <label id="1665" label="" color="4" folder="" sort="0" />
         <label id="1657" label="" color="4" folder="" sort="0" />
         <label id="1654" label="" color="4" folder="" sort="0" />
         <label id="1352" label="" color="4" folder="" sort="0" />
         <label id="1353" label="" color="4" folder="" sort="0" />
         <label id="1650" label="" color="4" folder="" sort="0" />
-        <label id="1362" label="" color="4" folder="" sort="0" />
-        <label id="1363" label="" color="4" folder="" sort="0" />
+        <label id="1660" label="" color="4" folder="" sort="0" />
+        <label id="1666" label="" color="4" folder="" sort="0" />
         <label id="1364" label="" color="4" folder="" sort="0" />
         <label id="1366" label="" color="4" folder="" sort="0" />
         <label id="1367" label="" color="4" folder="" sort="0" />
@@ -947,8 +947,10 @@
         <label id="1645" label="" color="4" folder="" sort="0" />
         <label id="1646" label="" color="4" folder="" sort="0" />
         <label id="1647" label="" color="4" folder="" sort="0" />
+        <label id="1659" label="" color="4" folder="" sort="0" />
+        <label id="1661" label="" color="4" folder="" sort="0" />
     </labels>
-    <nextId>1658</nextId>
+    <nextId>1666</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="2butt">Meia shows off her butt while still in her bodysuit (or Cupid outfit).</marker>
@@ -2660,7 +2662,9 @@
         <marker scope="Public" name="mitama_nap" />
         <marker scope="Public" name="mitama_recruitment" />
         <marker scope="Public" name="mitama_resp0" />
+        <marker scope="Public" name="mitama_resp01" />
         <marker scope="Public" name="mitama_resp1" />
+        <marker scope="Public" name="mitama_resp12" />
         <marker scope="Public" name="mitama0" />
         <marker scope="Public" name="mitama01" />
         <marker scope="Public" name="mitama1" />
@@ -3631,17 +3635,22 @@
         <marker scope="Public" name="sly0" />
         <marker scope="Public" name="small_breasts" />
         <marker scope="Public" name="small_penis" />
+        <marker scope="Public" name="sofia_resp0" />
+        <marker scope="Public" name="sofia_resp1" />
         <marker scope="Public" name="sofia0" />
         <marker scope="Public" name="sofia01" />
         <marker scope="Public" name="sofia1" />
         <marker scope="Public" name="sofia12" />
         <marker scope="Public" name="sofia1s" />
         <marker scope="Public" name="sofia2" />
+        <marker scope="Public" name="sofia23" />
         <marker scope="Public" name="sofia2s" />
         <marker scope="Public" name="sofia3" />
         <marker scope="Public" name="sofia34" />
         <marker scope="Public" name="sofia4" />
         <marker scope="Public" name="sofia45" />
+        <marker scope="Public" name="sofia4s" />
+        <marker scope="Public" name="sofia5s" />
         <marker scope="Public" name="solar_flare0" />
         <marker scope="Public" name="spooky_festive0" />
         <marker scope="Public" name="spooky_nurse0" />

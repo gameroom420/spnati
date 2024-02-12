@@ -208,9 +208,7 @@
         <label id="636" label="" color="4" folder="" sort="0" />
         <label id="361" label="" color="4" folder="" sort="0" />
         <label id="362" label="" color="4" folder="" sort="0" />
-        <label id="1210" label="" color="4" folder="" sort="0" />
         <label id="1212" label="" color="4" folder="" sort="0" />
-        <label id="1209" label="" color="4" folder="" sort="0" />
         <label id="1163" label="" color="4" folder="" sort="0" />
         <label id="371" label="" color="4" folder="" sort="0" />
         <label id="372" label="" color="4" folder="" sort="0" />
@@ -479,7 +477,7 @@
         <label id="765" label="" color="4" folder="" sort="0" />
         <label id="766" label="" color="4" folder="" sort="0" />
         <label id="767" label="" color="4" folder="" sort="0" />
-        <label id="1457" label="" color="4" folder="" sort="0" />
+        <label id="1538" label="" color="4" folder="" sort="0" />
         <label id="769" label="" color="4" folder="" sort="0" />
         <label id="771" label="" color="4" folder="" sort="0" />
         <label id="773" label="" color="4" folder="" sort="0" />
@@ -660,7 +658,7 @@
         <label id="1009" label="" color="6" folder="" sort="0" />
         <label id="1010" label="" color="6" folder="" sort="0" />
         <label id="1011" label="" color="6" folder="" sort="0" />
-        <label id="1455" label="" color="4" folder="" sort="0" />
+        <label id="1537" label="" color="4" folder="" sort="0" />
         <label id="1025" label="" color="4" folder="" sort="0" />
         <label id="1026" label="" color="4" folder="" sort="0" />
         <label id="1027" label="" color="1" folder="" sort="0" />
@@ -734,11 +732,9 @@
         <label id="1180" label="" color="6" folder="" sort="0" />
         <label id="1181" label="" color="6" folder="" sort="0" />
         <label id="1182" label="" color="4" folder="" sort="0" />
-        <label id="1208" label="" color="4" folder="" sort="0" />
         <label id="1520" label="" color="4" folder="" sort="0" />
         <label id="1532" label="" color="4" folder="" sort="0" />
-        <label id="1456" label="" color="4" folder="" sort="0" />
-        <label id="1458" label="" color="4" folder="" sort="0" />
+        <label id="1539" label="" color="4" folder="" sort="0" />
         <label id="1198" label="" color="4" folder="" sort="0" />
         <label id="1521" label="" color="4" folder="" sort="0" />
         <label id="1283" label="" color="4" folder="" sort="0" />
@@ -907,11 +903,12 @@
         <label id="1519" label="" color="4" folder="" sort="0" />
         <label id="1527" label="" color="4" folder="" sort="0" />
         <label id="1528" label="" color="4" folder="" sort="0" />
+        <label id="1534" label="" color="4" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>jura</prefix>
     </prefixes>
-    <nextId>1533</nextId>
+    <nextId>1539</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="1v1">Jura acknowledges that the game has come down to her and one other player.</marker>
@@ -2082,6 +2079,7 @@
         <marker scope="Public" name="mitama7" />
         <marker scope="Public" name="mitama78" />
         <marker scope="Public" name="mitama7s" />
+        <marker scope="Public" name="mitama7s_alt" />
         <marker scope="Public" name="mitama8" />
         <marker scope="Public" name="mom_alola0" />
         <marker scope="Public" name="monika_glitched" />
@@ -2684,7 +2682,10 @@
         <marker scope="Public" name="sofia2s" />
         <marker scope="Public" name="sofia3" />
         <marker scope="Public" name="sofia34" />
+        <marker scope="Public" name="sofia3s" />
         <marker scope="Public" name="sofia4" />
+        <marker scope="Public" name="sofia45" />
+        <marker scope="Public" name="sofia4s" />
         <marker scope="Public" name="sola_revy" />
         <marker scope="Public" name="solar_flare0" />
         <marker scope="Public" name="spooky_festive0" />
