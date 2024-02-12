@@ -38,7 +38,10 @@
         <note id="574">She does not get what's going on.</note>
         <note id="609">Can change this if needed, this is just the general direction I was headed in.</note>
         <note id="614">Nonon will call Aqua KH "Miss Aqua".</note>
-        <note id="789">Ideas:&lt;br&gt;Mia could explain why she chose a mace as her weapon&lt;br&gt;She could call out Nonon's surprise saying how she was the one who wanted her to "crack some heads"&lt;br&gt;</note>
+        <note id="789">Ideas:
+Mia could explain why she chose a mace as her weapon
+She could call out Nonon's surprise saying how she was the one who wanted her to "crack some heads"
+</note>
         <note id="628">Changed this since it feels like it makes more sense.</note>
     </notes>
     <labels>
@@ -123,14 +126,14 @@
         <label id="83" label="" color="6" folder="" sort="0" />
         <label id="527" label="" color="1" folder="Target_Stage0" sort="16" />
         <label id="85" label="" color="6" folder="Target_Stage0" sort="14" />
-        <label id="602" label="" color="3" folder="" sort="0" />
+        <label id="797" label="" color="5" folder="" sort="0" />
         <label id="89" label="" folder="Ryuko" sort="2" />
         <label id="90" label="" folder="Ryuko" sort="4" />
         <label id="91" label="" color="1" folder="" sort="0" />
         <label id="92" label="" folder="Target_Stage0" sort="6" />
         <label id="93" label="" folder="Target_Stage0_B" sort="0" />
         <label id="142" label="" folder="Target_Stage0" sort="38" />
-        <label id="95" label="" color="2" folder="" sort="0" />
+        <label id="799" label="" color="2" folder="Target_Stage0" sort="95" />
         <label id="96" label="" folder="Target_Stage0" sort="30" />
         <label id="100" label="" folder="Target_Stage0" sort="60" />
         <label id="98" label="" folder="Target_Stage4" sort="6" />
@@ -142,7 +145,7 @@
         <label id="104" label="" color="6" folder="" sort="0" />
         <label id="106" label="" color="4" folder="" sort="0" />
         <label id="108" label="" folder="Elite4" sort="4" />
-        <label id="303" label="" color="5" folder="Target_Stage1" sort="4" />
+        <label id="303" label="" folder="Target_Stage1" sort="4" />
         <label id="110" label="" color="3" folder="" sort="0" />
         <label id="115" label="Satsuki" folder="" sort="0" />
         <label id="116" label="Elite4" folder="" sort="0" />
@@ -312,7 +315,7 @@
         <label id="299" label="" color="2" folder="Reply_Stage1" sort="8" />
         <label id="300" label="" color="2" folder="Reply_Stage1" sort="9" />
         <label id="301" label="" color="2" folder="Reply_Stage1" sort="13" />
-        <label id="302" label="" color="5" folder="Target_Stage0" sort="98" />
+        <label id="302" label="" folder="Target_Stage0" sort="98" />
         <label id="109" label="" folder="Target_Stage0" sort="20" />
         <label id="305" label="" folder="Reply_Stage0" sort="0" />
         <label id="306" label="" folder="Target_Stage0" sort="44" />
@@ -587,7 +590,6 @@
         <label id="598" label="" color="1" folder="Target_Stage1" sort="0" />
         <label id="599" label="" color="1" folder="Reply_Stage0" sort="18" />
         <label id="600" label="" color="1" folder="Target_Stage1" sort="19" />
-        <label id="601" label="" color="5" folder="" sort="0" />
         <label id="603" label="Minor/Extra Late (Female)" folder="Unconventional Order" sort="18" />
         <label id="604" label="" color="12" folder="Target_Stage6" sort="0" />
         <label id="605" label="" color="1" folder="Target_Stage0" sort="136" />
@@ -733,10 +735,10 @@
         <label id="748" label="" folder="Target_Stage0" sort="144" />
         <label id="749" label="" color="1" folder="Target_Stage0" sort="206" />
         <label id="750" label="" color="1" folder="Reply_Stage0" sort="0" />
-        <label id="751" label="" color="12" folder="Reply_Stage1" sort="11" />
-        <label id="752" label="" color="12" folder="Target_Stage1" sort="26" />
-        <label id="753" label="" color="12" folder="Reply_Stage1" sort="17" />
-        <label id="754" label="" color="12" folder="Target_Stage2" sort="5" />
+        <label id="751" label="" color="12" folder="Reply_Stage1" sort="0" />
+        <label id="752" label="" folder="Target_Stage1" sort="26" />
+        <label id="753" label="" folder="Reply_Stage1" sort="17" />
+        <label id="754" label="" folder="Target_Stage2" sort="5" />
         <label id="755" label="" color="12" folder="Target_Stage3" sort="3" />
         <label id="438" label="" folder="Reply_Stage2" sort="14" />
         <label id="756" label="monster0" folder="!Sponsorships&gt;Nord&gt;FilteredLines" sort="6" />
@@ -772,9 +774,24 @@
         <label id="787" label="" color="6" folder="Reply_Stage0" sort="0" />
         <label id="788" label="" color="1" folder="Reply_Stage0" sort="0" />
         <label id="789" label="" color="3" folder="Target_Stage0" sort="91" />
+        <label id="790" label="" color="5" folder="Target_Stage0" sort="92" />
+        <label id="791" label="" color="5" folder="Target_Stage1" sort="24" />
+        <label id="792" label="" color="5" folder="Reply_Stage0" sort="21" />
+        <label id="793" label="" color="5" folder="Reply_Stage0" sort="22" />
+        <label id="794" label="" color="12" folder="Target_Stage2" sort="11" />
+        <label id="795" label="" color="12" folder="Reply_Stage1" sort="21" />
+        <label id="796" label="" color="3" folder="" sort="0" />
+        <label id="798" label="" color="2" folder="Target_Stage0" sort="94" />
+        <label id="95" label="" folder="Target_Stage0" sort="8" />
+        <label id="803" label="" folder="Target_Stage0" sort="0" />
+        <label id="804" label="" color="2" folder="Reply_Stage0" sort="0" />
+        <label id="805" label="" color="2" folder="Reply_Stage0" sort="0" />
+        <label id="806" label="" color="2" folder="Reply_Stage2" sort="0" />
+        <label id="807" label="" folder="BG_Cold" sort="0" />
     </labels>
-    <nextId>789</nextId>
+    <nextId>807</nextId>
     <markers>
+        <marker scope="Public" name="" />
         <marker scope="Public" name="adrien01" />
         <marker scope="Public" name="adrien012a" />
         <marker scope="Public" name="adrien012b" />
@@ -822,12 +839,17 @@
         <marker scope="Public" name="arue51" />
         <marker scope="Public" name="arue52" />
         <marker scope="Public" name="arue53" />
+        <marker scope="Public" name="bg_cold" />
         <marker scope="Public" name="butt" />
         <marker scope="Public" name="butt2" />
         <marker scope="Public" name="butt3" />
         <marker scope="Public" name="cag01" />
         <marker scope="Public" name="cag01a" />
+        <marker scope="Public" name="cag01a_boots" />
         <marker scope="Public" name="cag01b" />
+        <marker scope="Public" name="cag01boots" />
+        <marker scope="Public" name="cag02a" />
+        <marker scope="Public" name="cag02b" />
         <marker scope="Public" name="caitlin01" />
         <marker scope="Public" name="cheryl01" />
         <marker scope="Public" name="cream_filled_nonon" />
@@ -844,6 +866,7 @@
         <marker scope="Public" name="eich63" />
         <marker scope="Public" name="eich71" />
         <marker scope="Public" name="eich73" />
+        <marker scope="Public" name="eichi_stfu" />
         <marker scope="Public" name="eichi71" />
         <marker scope="Public" name="even0" />
         <marker scope="Public" name="explain" />
@@ -881,6 +904,7 @@
         <marker scope="Public" name="genocide" />
         <marker scope="Public" name="get_dressed" />
         <marker scope="Public" name="goku_uniform" />
+        <marker scope="Public" name="goku_uniform_on" />
         <marker scope="Public" name="heavy01" />
         <marker scope="Public" name="heavy02" />
         <marker scope="Public" name="heavy03" />
@@ -1011,7 +1035,9 @@
         <marker scope="Public" name="lysithea02" />
         <marker scope="Public" name="lysithea02a" />
         <marker scope="Public" name="lysithea02b" />
+        <marker scope="Public" name="lysithea03" />
         <marker scope="Public" name="lysithea11" />
+        <marker scope="Public" name="lysithea12" />
         <marker scope="Public" name="maris_reply_flex01" />
         <marker scope="Public" name="maris_reply_flex02" />
         <marker scope="Public" name="maris_reply_flex02b" />
@@ -1179,6 +1205,12 @@
         <marker scope="Public" name="reply_arue61" />
         <marker scope="Public" name="reply_arueFFmust" />
         <marker scope="Public" name="reply_arueFFstart" />
+        <marker scope="Public" name="reply_cag01" />
+        <marker scope="Public" name="reply_cag01a" />
+        <marker scope="Public" name="reply_cag01b" />
+        <marker scope="Public" name="reply_cag21" />
+        <marker scope="Public" name="reply_cag21a" />
+        <marker scope="Public" name="reply_cag21b" />
         <marker scope="Public" name="reply_cherly01" />
         <marker scope="Public" name="reply_cheryl01" />
         <marker scope="Public" name="reply_cheryl02" />
@@ -1267,6 +1299,9 @@
         <marker scope="Public" name="reply_leonH10" />
         <marker scope="Public" name="reply_leonH11" />
         <marker scope="Public" name="reply_leonH12" />
+        <marker scope="Public" name="reply_lysithea01" />
+        <marker scope="Public" name="reply_lysithea01a" />
+        <marker scope="Public" name="reply_lysithea01b" />
         <marker scope="Public" name="reply_meia01" />
         <marker scope="Public" name="reply_meia02" />
         <marker scope="Public" name="reply_meia03" />
@@ -1311,6 +1346,7 @@
         <marker scope="Public" name="reply_sanako12" />
         <marker scope="Public" name="reply_sanako12a" />
         <marker scope="Public" name="reply_sanako12b" />
+        <marker scope="Public" name="reply_sanako13" />
         <marker scope="Public" name="reply_sheena01" />
         <marker scope="Public" name="reply_sucrose01" />
         <marker scope="Public" name="reply_tao0" />
@@ -1346,6 +1382,8 @@
         <marker scope="Public" name="sanako12" />
         <marker scope="Public" name="sanako13" />
         <marker scope="Public" name="sanako21" />
+        <marker scope="Public" name="sanako22" />
+        <marker scope="Public" name="sanako31" />
         <marker scope="Public" name="satsuki_fantasy01" />
         <marker scope="Public" name="servant" />
         <marker scope="Public" name="shamiko01" />
@@ -1362,6 +1400,7 @@
         <marker scope="Public" name="sofia01a" />
         <marker scope="Public" name="sofia01b" />
         <marker scope="Public" name="sofia02" />
+        <marker scope="Public" name="sofia03" />
         <marker scope="Public" name="spit" />
         <marker scope="Public" name="start_ff" />
         <marker scope="Public" name="start_heavy" />
@@ -1410,6 +1449,7 @@
         <marker scope="Public" name="winning22" />
         <marker scope="Public" name="yae01" />
         <marker scope="Public" name="yae02" />
+        <marker scope="Public" name="yae03" />
         <marker scope="Public" name="yaemiko_reply01" />
         <marker scope="Public" name="yaemiko_reply02" />
         <marker scope="Public" name="yaemiko_reply02b" />
