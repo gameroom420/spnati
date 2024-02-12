@@ -211,9 +211,9 @@
 		<opponent addedDate="2023-02-10" release="289" highlight="unsorted">solar_flare</opponent>
 		<opponent addedDate="2023-07-24" release="290" highlight="unsorted">nadeshiko</opponent>
 		<opponent addedDate="2023-01-29" release="291" highlight="unsorted">queenie</opponent>
-		<opponent addedDate="2023-04-04" release="292" highlight="new">arle</opponent>	<!-- expires 2024-02-14 -->
-		<opponent addedDate="2023-07-09" release="293" highlight="new">shamiko</opponent> <!-- expires 2024-02-18 -->
-		<opponent addedDate="2023-06-02" release="294" highlight="new">sweetheart</opponent> <!-- expires 2024-03-01 -->
+		<opponent addedDate="2023-04-04" release="292" highlight="new">arle</opponent>	<!-- expires 2024-02-28 -->
+		<opponent addedDate="2023-07-09" release="293" highlight="new">shamiko</opponent> <!-- expires 2024-03-03 -->
+		<opponent addedDate="2023-06-02" release="294" highlight="new">sweetheart</opponent> <!-- expires 2024-03-15 -->
 		<opponent addedDate="2023-09-23" status="testing">lysithea</opponent>
 		<opponent addedDate="2019-02-01" release="176" status="testing">ribbon_girl</opponent>
 		<opponent addedDate="2023-06-26" status="testing">yae</opponent>
