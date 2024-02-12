@@ -443,6 +443,7 @@
         <character highlight="valentines" partition="1" sort="2">roll_caskett</character>
         <character highlight="valentines" partition="1" sort="2">maria</character>
         <character highlight="valentines" partition="1" sort="2">sheena</character>
+        <character highlight="valentines" partition="1" sort="2">meia</character>
 
         <costumes highlight="valentines" partition="1" sort="1">valentines</costumes>
 
@@ -502,10 +503,12 @@
             <path>reskins/flower_girl_ini/1-excited.png</path>
             <path>reskins/flower_girl_ini/2-dumb.png</path>
             <path>reskins/flower_girl_ini/3-cracker.png</path>
+
             <path>reskins/festival_aella/0-happy.png</path>
             <path>reskins/festival_aella/1-flustered.png</path>
             <path>reskins/festival_aella/2-interested.png</path>
             <path>reskins/festival_aella/2-happy.png</path>
+
             <path>reskins/lynbride/0-calm.png</path>
             <path>reskins/lynbride/1-happy.png</path>
             <path>reskins/lynbride/2-interested.png</path>
@@ -526,18 +529,66 @@
             <path>reskins/nagisa_maid_cafe/1-z_stripping.png</path>
             <path>reskins/nagisa_maid_cafe/2-wink.png</path>
             <path>reskins/nagisa_maid_cafe/3-embarrassed_2.png</path>
+            <!-- This costumeis now evergreen/non-seasonal
             <path>reskins/spooky_nurse/0-innocent.png</path>
             <path>reskins/spooky_nurse/0-excited.png</path>
             <path>reskins/spooky_nurse/0-calm.png</path>
             <path>reskins/spooky_nurse/0-happy.png</path>
+            -->
             <path>reskins/emi_lovebunny/0-excited.png</path>
             <path>reskins/emi_lovebunny/1-interested.png</path>
             <path>reskins/emi_lovebunny/2-stripping.png</path>
             <path>reskins/emi_lovebunny/3-happy.png</path>
+
             <path>reskins/twisted_fate_tango/0-1.png</path>
             <path>reskins/twisted_fate_tango/1-Charming.png</path>
             <path>reskins/twisted_fate_tango/2-Calm.png</path>
             <path>reskins/twisted_fate_tango/0-Happy.png</path>
+
+            <path>reskins/estelle_enchanting_bell/0-interested.png</path>
+            <path>reskins/estelle_enchanting_bell/0-lecture.png</path>
+            <path>reskins/estelle_enchanting_bell/0-strip.png</path>
+            <path>reskins/estelle_enchanting_bell/0-happy.png</path>
+
+            <path>reskins/gloria_valentine/0-neutral.png</path>
+            <path>reskins/gloria_valentine/0-horny.png</path>
+            <path>reskins/gloria_valentine/0-z_portrait.png</path>
+            <path>reskins/gloria_valentine/0-flirty.png</path>
+
+            <path>reskins/hu_tao_pyretic_passion/0-cocky.png</path>
+            <path>reskins/hu_tao_pyretic_passion/0-holdHat.png</path>
+            <path>reskins/hu_tao_pyretic_passion/0-mischievous.png</path>
+            <path>reskins/hu_tao_pyretic_passion/0-shhh.png</path>
+
+            <path>reskins/kyou_magician_girl/0-calm.png</path>
+            <path>reskins/kyou_magician_girl/0-excited.png</path>
+            <path>reskins/kyou_magician_girl/0-impressed.png</path>
+            <path>reskins/kyou_magician_girl/0-positive.png</path>
+
+            <path>reskins/mari_nurse/0-tease.png</path>
+            <path>reskins/mari_nurse/0-smug-3.png</path>
+            <path>reskins/mari_nurse/0-coy.png</path>
+            <path>reskins/mari_nurse/0-demure.png</path>
+
+            <path>reskins/mari_setogaya_lovestruck_succubus/0-interested.png</path>
+            <path>reskins/mari_setogaya_lovestruck_succubus/0-wink.png</path>
+            <path>reskins/mari_setogaya_lovestruck_succubus/0-greeting.png</path>
+            <path>reskins/mari_setogaya_lovestruck_succubus/0-grin.png</path>
+
+            <path>reskins/rosa_princess/0-portrait.png</path>
+            <path>reskins/rosa_princess/0-Happy.png</path>
+            <path>reskins/rosa_princess/0-embarrassed.png</path>
+            <path>reskins/rosa_princess/0-bun_touching.png</path>
+
+            <path>reskins/takatoshi_gluttonous_groomsman/0-Confident.png</path>
+            <path>reskins/takatoshi_gluttonous_groomsman/0-Calm.png</path>
+            <path>reskins/takatoshi_gluttonous_groomsman/0-Embarrassed.png</path>
+            <path>reskins/takatoshi_gluttonous_groomsman/0-Yakisoba.png</path>
+
+            <path>reskins/yshtola_sweetheart_scion/0-content.png</path>
+            <path>reskins/yshtola_sweetheart_scion/0-coy.png</path>
+            <path>reskins/yshtola_sweetheart_scion/0-embarrassed.png</path>
+            <path>reskins/yshtola_sweetheart_scion/0-excited.png</path>
         </candy>
     </event>
     <event id="easter">
