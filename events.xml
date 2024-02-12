@@ -439,10 +439,10 @@
         <background>paris rooftop</background>
 
         <!-- Put all costumes into the same group, but place new costumes higher -->
-        <character highlight="valentines" partition="1" sort="2">yuno_uno</character>
-        <character highlight="valentines" partition="1" sort="2">roll_caskett</character>
-        <character highlight="valentines" partition="1" sort="2">maria</character>
-        <character highlight="valentines" partition="1" sort="2">sheena</character>
+        <character highlight="valentines" partition="1" sort="3">yuno_uno</character>
+        <character highlight="valentines" partition="1" sort="3">roll_caskett</character>
+        <character highlight="valentines" partition="1" sort="3">maria</character>
+        <character highlight="valentines" partition="1" sort="3">sheena</character>
         <character highlight="valentines" partition="1" sort="2">meia</character>
 
         <costumes highlight="valentines" partition="1" sort="1">valentines</costumes>
