@@ -23,4 +23,11 @@
         <unlock>Guide Meia's table through the Milky Way.</unlock>
         <hide-details>true</hide-details>
     </collectible>
+    <collectible id="music_box" status="online" img="opponents/meia/musicboxopen.png" thumbnail="opponents/meia/musicbox.png">
+        <title>Music Box</title>
+        <subtitle>Somedays It's a Wonderful World.</subtitle>
+        <text>A gift Meia received from her parents.  When opened, plays a song from Earth, the planet of their ancestors.&lt;br&gt;Clockwise from top right: Meia's Fama; Meia, age 6; Meia's Oma, now restored.  Behind the photo is a mirror.</text>
+        <unlock>Play a game with Cupid Meia.</unlock>
+        <hide-details>true</hide-details>
+    </collectible>
 </collectibles>
