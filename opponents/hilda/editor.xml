@@ -175,6 +175,16 @@
         <response id="0" opponent="petra" opponentId="12" />
         <response id="0" opponent="samus_aran" opponentId="1" />
         <response id="0" opponent="trixie" opponentId="1" />
+        <response id="0" opponent="marinette" opponentId="1361" />
+        <response id="0" opponent="marinette" opponentId="1363" />
+        <response id="0" opponent="amalia" opponentId="1" />
+        <response id="0" opponent="aqua_kh" opponentId="69" />
+        <response id="0" opponent="aqua_kh" opponentId="67" />
+        <response id="0" opponent="aqua_kh" opponentId="51" />
+        <response id="0" opponent="cagliostro" opponentId="1" />
+        <response id="0" opponent="streaming-chan" opponentId="14" />
+        <response id="0" opponent="streaming-chan" opponentId="10" />
+        <response id="0" opponent="mitama" opponentId="3" />
     </responses>
     <notes>
         <note id="119">Yes, Hilda's second line here is very deliberately ironic.</note>
@@ -205,6 +215,9 @@ Hilda is dessert?</note>
         <note id="921">Putting this here for both my benefit and yours - Hilda's special unit in 3 Houses is called the Goneril Valkyries, and they're an all-women infantry - obviously a great source of discussion for the pair. I plan to make mention of this in-character, but I'm already cramming this line pretty full as-is</note>
         <note id="941">If you have a response that works for both versions, you can just use the "LysitheaStyle" variable, but if you want to make different responses to this situation and the War Outfit version, you can the variable tests to be "LysitheaStyle = 1" and "LysitheaStyle = 2"</note>
         <note id="944">I figure early Hilda definitely doesn't know about Lysithea's circumstances being trapped and experimented on by TWSitD, but I'm less sure about that post-timeskip - if you'd like a less accidentally callous version of this interaction where she commiserates them not being able to meet earlier for that outfit, let me know</note>
+        <note id="989">For her Nudist Beach outfit when that drops - can't target it yet, so this has to stay hidden for now</note>
+        <note id="990">Uniform tag check is here to make sure this doesn't play when Nudist Beach gets added</note>
+        <note id="991">"We're delicate flowers, supposed to be kept for better things than fighting!" - intended for later interaction use</note>
     </notes>
     <labels>
         <label id="23" label="High Card" folder="RoundOneReveal" sort="0" />
@@ -994,19 +1007,16 @@ Hilda is dessert?</note>
         <label id="931" label="" color="1" folder="Noire" sort="0" />
         <label id="932" label="" color="1" folder="Noire" sort="0" />
         <label id="933" label="" color="1" folder="Noire" sort="0" />
-        <label id="934" label="" color="1" folder="" sort="0" />
-        <label id="935" label="" color="1" folder="" sort="0" />
-        <label id="936" label="" color="1" folder="" sort="0" />
-        <label id="937" label="" color="1" folder="" sort="0" />
+        <label id="987" label="" color="1" folder="" sort="0" />
+        <label id="986" label="" color="1" folder="" sort="0" />
+        <label id="988" label="" color="1" folder="" sort="0" />
         <label id="938" label="" color="1" folder="" sort="0" />
         <label id="939" label="" color="1" folder="" sort="0" />
-        <label id="940" label="" color="1" folder="" sort="0" />
-        <label id="942" label="" color="1" folder="" sort="0" />
-        <label id="941" label="" color="1" folder="" sort="0" />
+        <label id="983" label="" color="1" folder="" sort="0" />
         <label id="943" label="" color="1" folder="Ladybug" sort="0" />
-        <label id="944" label="" color="1" folder="" sort="0" />
+        <label id="984" label="" color="1" folder="" sort="0" />
         <label id="945" label="" color="1" folder="" sort="0" />
-        <label id="946" label="" color="1" folder="Ladybug" sort="0" />
+        <label id="946" label="" folder="Ladybug" sort="0" />
         <label id="947" label="" color="1" folder="Ladybug" sort="0" />
         <label id="948" label="" color="1" folder="Ladybug" sort="0" />
         <label id="949" label="" color="1" folder="Ladybug" sort="0" />
@@ -1034,8 +1044,25 @@ Hilda is dessert?</note>
         <label id="972" label="" color="1" folder="" sort="0" />
         <label id="973" label="" color="1" folder="" sort="0" />
         <label id="974" label="" color="1" folder="Noire" sort="0" />
+        <label id="975" label="" color="1" folder="Ladybug" sort="0" />
+        <label id="976" label="" folder="Cat/Leon Double" sort="0" />
+        <label id="977" label="" color="1" folder="Cat/Leon Double" sort="0" />
+        <label id="978" label="" color="1" folder="Cat/Leon Double" sort="0" />
+        <label id="979" label="" color="1" folder="Leon" sort="0" />
+        <label id="980" label="" color="1" folder="Leon" sort="0" />
+        <label id="982" label="" color="1" folder="" sort="0" />
+        <label id="985" label="" color="1" folder="" sort="0" />
+        <label id="992" label="" color="1" folder="" sort="0" />
+        <label id="991" label="" color="1" folder="" sort="0" />
+        <label id="993" label="General" color="1" folder="" sort="0" />
+        <label id="994" label="Agree to Help" color="1" folder="" sort="0" />
+        <label id="995" label="General" color="1" folder="" sort="0" />
+        <label id="996" label="Lys Dom" color="1" folder="" sort="0" />
+        <label id="997" label="Lys Sub" color="1" folder="" sort="0" />
+        <label id="998" label="Lys Sub" color="1" folder="" sort="0" />
+        <label id="999" label="Lys Dom" color="1" folder="" sort="0" />
     </labels>
-    <nextId>974</nextId>
+    <nextId>999</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="3HBeachTrip" />
@@ -1092,6 +1119,9 @@ Hilda is dessert?</note>
         <marker scope="Public" name="AnimalEarsCute" />
         <marker scope="Public" name="ApocalypseSomeTime" />
         <marker scope="Public" name="AprilFools" />
+        <marker scope="Public" name="AquaKHFashionableWeapons" />
+        <marker scope="Public" name="AquaKHNotAPervert" />
+        <marker scope="Public" name="AquaKHSwordMagic" />
         <marker scope="Public" name="ArmorLookingGood" />
         <marker scope="Public" name="AssistantJoin" />
         <marker scope="Public" name="AsunaCombatStyle" />
@@ -1190,6 +1220,9 @@ Hilda is dessert?</note>
         <marker scope="Public" name="CatLeonHeavy3" />
         <marker scope="Public" name="CatLeonHeavy4" />
         <marker scope="Public" name="CatLeonHeavy5" />
+        <marker scope="Public" name="CatLeonHeavySelf1" />
+        <marker scope="Public" name="CatLeonHeavySelf2" />
+        <marker scope="Public" name="CatLeonHeavySelf3" />
         <marker scope="Public" name="CatLeonMast1" />
         <marker scope="Public" name="CatLeonMast2" />
         <marker scope="Public" name="CatLeonMast3" />
@@ -1199,10 +1232,21 @@ Hilda is dessert?</note>
         <marker scope="Public" name="CatLeonMast7" />
         <marker scope="Public" name="CatLeonMast8" />
         <marker scope="Public" name="CatLeonMast9" />
+        <marker scope="Public" name="CatLeonMastA" />
+        <marker scope="Public" name="CatLeonMastSelf1" />
+        <marker scope="Public" name="CatLeonMastSelf2" />
+        <marker scope="Public" name="CatLeonMastSelf3" />
+        <marker scope="Public" name="CatLeonMastSelf4" />
+        <marker scope="Public" name="CatLeonMastSelf5" />
+        <marker scope="Public" name="CatLeonMastSelf6" />
+        <marker scope="Public" name="CatLeonMastSelf7" />
+        <marker scope="Public" name="CatLeonMastSelf8" />
+        <marker scope="Public" name="CatLeonMastSelf9" />
         <marker scope="Public" name="CatLeonPreRestricted" />
         <marker scope="Public" name="CatLeonSetup" />
         <marker scope="Public" name="CatLeonSetup2" />
         <marker scope="Public" name="CharlieHappyDemon" />
+        <marker scope="Public" name="CherylDetails" />
         <marker scope="Public" name="CherylFriendlyFace" />
         <marker scope="Public" name="CherylFriendlyFace2" />
         <marker scope="Public" name="CherylFriendlyFace3" />
@@ -1217,7 +1261,7 @@ Hilda is dessert?</note>
         <marker scope="Public" name="ClothesVanishSeen" />
         <marker scope="Public" name="CollectibleHourglassUniform" />
         <marker scope="Public" name="CollectibleHourglassWar" />
-        <marker scope="Public" name="comingback">Hilda says she'll be returning to play strip poker - used to avoid repetition in lines.</marker>
+        <marker scope="Public" name="comingback" />
         <marker scope="Public" name="ConsiderHairTies" />
         <marker scope="Public" name="CynthiaAppearanceAnalysis" />
         <marker scope="Public" name="CynthiaAppearanceAnalysis2" />
@@ -1497,7 +1541,6 @@ Hilda is dessert?</note>
         <marker scope="Public" name="LaevSharedPurposeB3" />
         <marker scope="Public" name="LeanThrowingTease" />
         <marker scope="Public" name="LeftEarly" />
-        <marker scope="Public" name="Leon" />
         <marker scope="Public" name="LeonActionInnuendo" />
         <marker scope="Public" name="LeonActionInnuendo2" />
         <marker scope="Public" name="LeonActionInnuendo3" />
@@ -1509,10 +1552,10 @@ Hilda is dessert?</note>
         <marker scope="Public" name="LeonBackgroundCheck" />
         <marker scope="Public" name="LeonBackgroundCheck2" />
         <marker scope="Public" name="LeonBackgroundCheck3" />
-        <marker scope="Public" name="LeonBackgroundCheck3-s" />
         <marker scope="Public" name="LeonBackgroundCheck3swim" />
         <marker scope="Public" name="LeonBackgroundCheck4" />
         <marker scope="Public" name="LeonBanquetFlirt" />
+        <marker scope="Public" name="LeonBanquetFlirt2" />
         <marker scope="Public" name="LeonBoundHands" />
         <marker scope="Public" name="LeonBoundUp" />
         <marker scope="Public" name="LeonClassWarfare" />
@@ -1524,6 +1567,7 @@ Hilda is dessert?</note>
         <marker scope="Public" name="LeonDestressing2" />
         <marker scope="Public" name="LeonDestressing3" />
         <marker scope="Public" name="LeonFinalLayer" />
+        <marker scope="Public" name="LeonFinalLayer2" />
         <marker scope="Public" name="LeonFuckMe" />
         <marker scope="Public" name="LeonFuckMe2" />
         <marker scope="Public" name="LeonGagged" />
@@ -1560,7 +1604,6 @@ Hilda is dessert?</note>
         <marker scope="Public" name="LeonieDuelLoss" />
         <marker scope="Public" name="LeonieDuelTaunt" />
         <marker scope="Public" name="LeonieDuelWin" />
-        <marker scope="Public" name="LeonieFamiliar Face" />
         <marker scope="Public" name="LeonieFamiliarFace" />
         <marker scope="Public" name="LeonieFinishAdrienTeam" />
         <marker scope="Public" name="LeonieFormalOutfit" />
@@ -1693,12 +1736,38 @@ Hilda is dessert?</note>
         <marker scope="Public" name="LyraleiWildLiving" />
         <marker scope="Public" name="LysitheaBirthday" />
         <marker scope="Public" name="LysitheaCardsAdvice" />
+        <marker scope="Public" name="LysitheaCardsAdvice2" />
         <marker scope="Public" name="LysitheaFashionTalk" />
+        <marker scope="Public" name="LysitheaFashionTalk2" />
         <marker scope="Public" name="LysitheaLackOfSocialising" />
+        <marker scope="Public" name="LysitheaLackOfSocialising2" />
+        <marker scope="Public" name="LysitheaMastHelp" />
+        <marker scope="Public" name="LysitheaMastHelpBodyWriting" />
+        <marker scope="Public" name="LysitheaMastHelpBooks" />
+        <marker scope="Public" name="LysitheaMastHelpClaude" />
+        <marker scope="Public" name="LysitheaMastHelpDominance" />
+        <marker scope="Public" name="LysitheaMastHelpDomLock" />
+        <marker scope="Public" name="LysitheaMastHelpFantasies" />
+        <marker scope="Public" name="LysitheaMastHelpFreeUse" />
+        <marker scope="Public" name="LysitheaMastHelpInnocent" />
+        <marker scope="Public" name="LysitheaMastHelpLibrary" />
+        <marker scope="Public" name="LysitheaMastHelpMagic" />
+        <marker scope="Public" name="LysitheaMastHelpMercedes" />
+        <marker scope="Public" name="LysitheaMastHelpPale" />
+        <marker scope="Public" name="LysitheaMastHelpPinned" />
+        <marker scope="Public" name="LysitheaMastHelpProfessor" />
+        <marker scope="Public" name="LysitheaMastHelpRepressed" />
+        <marker scope="Public" name="LysitheaMastHelpShare" />
+        <marker scope="Public" name="LysitheaMastHelpSubLock" />
+        <marker scope="Public" name="LysitheaMastHelpTouch" />
         <marker scope="Public" name="LysitheaQuestion" />
+        <marker scope="Public" name="LysitheaQuestion2" />
         <marker scope="Public" name="LysitheaSelected" />
         <marker scope="Public" name="LysitheaStyle" />
+        <marker scope="Public" name="LysitheaStyle2A" />
+        <marker scope="Public" name="LysitheaStyle2B" />
         <marker scope="Public" name="LysitheaSupervision" />
+        <marker scope="Public" name="LysitheaSupervision2" />
         <marker scope="Public" name="MariFreeTime" />
         <marker scope="Public" name="MariFreeTimeA" />
         <marker scope="Public" name="MariFreeTimeB" />
@@ -1706,6 +1775,7 @@ Hilda is dessert?</note>
         <marker scope="Public" name="MarinetteArmor2" />
         <marker scope="Public" name="MarinetteArmor3" />
         <marker scope="Public" name="MarinetteBedroomEyes" />
+        <marker scope="Public" name="MarinetteBedroomEyes2" />
         <marker scope="Public" name="MarinetteBookByItsCover" />
         <marker scope="Public" name="MarinetteConcealedSecrets" />
         <marker scope="Public" name="MarinetteConcealedSecrets2" />
@@ -1835,6 +1905,14 @@ Hilda is dessert?</note>
         <marker scope="Public" name="MiraculousDuoKinky2" />
         <marker scope="Public" name="MiraculousDuoKinky3" />
         <marker scope="Public" name="MiraculousDuoKinkyAdrien" />
+        <marker scope="Public" name="MitamaArrivalResponse" />
+        <marker scope="Public" name="MitamaFlowersAtWar" />
+        <marker scope="Public" name="MitamaMagic" />
+        <marker scope="Public" name="MitamaNapStart" />
+        <marker scope="Public" name="MitamaNapStartFinished" />
+        <marker scope="Public" name="MitamaNapStartMast" />
+        <marker scope="Public" name="MitamaNapStartPlaying" />
+        <marker scope="Public" name="MitamaNapStartWinner" />
         <marker scope="Public" name="ModelHowTo" />
         <marker scope="Public" name="MonikaGettingFavours" />
         <marker scope="Public" name="MonikaGettingFavours2" />
@@ -1895,6 +1973,8 @@ Hilda is dessert?</note>
         <marker scope="Public" name="NoMoreAct">This marker activates when Hilda reveals that she's known how to play poker this whole time.</marker>
         <marker scope="Public" name="NonFormalLingerieRevealed" />
         <marker scope="Public" name="NonHumanEttiquette" />
+        <marker scope="Public" name="NononConvergentEvolution" />
+        <marker scope="Public" name="NononUniforms" />
         <marker scope="Public" name="NotManyLayersLeft" />
         <marker scope="Public" name="ObviousWinner" />
         <marker scope="Public" name="ObviousWinnerElimination" />
