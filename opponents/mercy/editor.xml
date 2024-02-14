@@ -182,6 +182,7 @@
         <note id="194">Whoops, this one was meant to have a different marker. I've kept the old one, but added the right one, too</note>
         <note id="197">Metaphors are fun</note>
         <note id="198">Just found the answer to this in Monster Roadtrip - the Human and Monster realms exist seperately, and the Human realm rejects the non-mundane. So when a human dies, they can become a ghost, but once they're a ghost, they'll be pushed out of the Human realm and into the Monster realm instead. That's what happened to Polly</note>
+        <note id="211">"abä, genau" approximately translates to "yes, exactly"</note>
     </notes>
     <labels>
         <label id="45" label="" folder="Player Names" sort="2" />
@@ -285,14 +286,45 @@
         <label id="188" label="" folder="Cynthia - Overwatch History" sort="0" />
         <label id="189" label="" folder="Cynthia - Overwatch History" sort="0" />
         <label id="190" label="April Fools" folder="Seasonal" sort="0" />
+        <label id="199" label="" folder="Background Reactions" sort="0" />
+        <label id="200" label="" folder="Background Reactions" sort="0" />
+        <label id="201" label="" folder="Player Names" sort="0" />
+        <label id="202" label="Halloween" folder="Seasonal" sort="0" />
+        <label id="203" label="Overwatch 2 Release" folder="Seasonal" sort="0" />
+        <label id="204" label="" color="1" folder="" sort="0" />
+        <label id="205" label="" color="1" folder="" sort="0" />
+        <label id="206" label="" color="1" folder="" sort="0" />
+        <label id="207" label="" color="1" folder="" sort="0" />
+        <label id="208" label="" color="1" folder="" sort="0" />
+        <label id="209" label="" color="1" folder="" sort="0" />
+        <label id="210" label="" color="1" folder="" sort="0" />
+        <label id="214" label="" color="1" folder="" sort="0" />
+        <label id="215" label="" color="1" folder="" sort="0" />
+        <label id="216" label="" color="1" folder="" sort="0" />
+        <label id="217" label="" color="1" folder="" sort="0" />
+        <label id="218" label="" color="1" folder="" sort="0" />
+        <label id="219" label="" color="1" folder="" sort="0" />
+        <label id="220" label="" color="1" folder="" sort="0" />
+        <label id="221" label="" color="1" folder="" sort="0" />
+        <label id="222" label="" folder="Robin Prompt Answers" sort="0" />
+        <label id="223" label="" folder="Robin Prompt Answers" sort="0" />
+        <label id="224" label="" folder="Robin Prompt Answers" sort="0" />
+        <label id="225" label="" folder="Robin Prompt Answers" sort="0" />
+        <label id="226" label="" folder="Robin Prompt Answers" sort="0" />
+        <label id="227" label="" folder="Robin Prompt Answers" sort="0" />
+        <label id="228" label="" folder="Robin Prompt Answers" sort="0" />
+        <label id="229" label="" folder="Robin Prompt Answers" sort="0" />
+        <label id="230" label="" folder="Robin Prompt Answers" sort="0" />
+        <label id="231" label="" folder="Robin Prompt Answers" sort="0" />
     </labels>
     <prefixes>
         <prefix>epilogue-</prefix>
         <prefix>Collectible</prefix>
         <prefix>Mercy</prefix>
     </prefixes>
-    <nextId>198</nextId>
+    <nextId>231</nextId>
     <markers>
+        <marker scope="Public" name="" />
         <marker scope="Public" name="AaraviObviousRole" />
         <marker scope="Public" name="AaraviObviousRole2" />
         <marker scope="Public" name="AaraviObviousRole3" />
@@ -360,6 +392,7 @@
         <marker scope="Public" name="BeatrixCoworkers" />
         <marker scope="Public" name="BeatrixCoworkers2" />
         <marker scope="Public" name="BeatrixHopkinsProblems" />
+        <marker scope="Public" name="BloodDonationPrompt" />
         <marker scope="Public" name="Bobobo" />
         <marker scope="Public" name="BoboboAesthetic" />
         <marker scope="Public" name="BoboboAllFriends" />
@@ -454,6 +487,8 @@
         <marker scope="Public" name="CynthiaWorldOnEdge" />
         <marker scope="Public" name="DarknessHeroism" />
         <marker scope="Public" name="DomSubSwitchPrompt" />
+        <marker scope="Public" name="DoroHeavenlyBody" />
+        <marker scope="Public" name="DoroHeavenlyBody2" />
         <marker scope="Public" name="DorothyAnatomy" />
         <marker scope="Public" name="DorothyAnatomy2" />
         <marker scope="Public" name="DorothyAnatomy3" />
@@ -469,12 +504,17 @@
         <marker scope="Public" name="DorothyLilimSex" />
         <marker scope="Public" name="DorothyOmnicSex" />
         <marker scope="Public" name="DorothyOmnicSex2" />
+        <marker scope="Public" name="DorothyOmnicSex3" />
         <marker scope="Public" name="DorothyRecreation" />
         <marker scope="Public" name="DorothyTourism" />
         <marker scope="Public" name="DorothyTourism2a" />
         <marker scope="Public" name="DorothyTourism2b" />
         <marker scope="Public" name="DorothyTourism2c" />
         <marker scope="Public" name="DorothyTourism2d" />
+        <marker scope="Public" name="DorothyTourism3a" />
+        <marker scope="Public" name="DorothyTourism3b" />
+        <marker scope="Public" name="DorothyTourism3c" />
+        <marker scope="Public" name="DorothyTourism3d" />
         <marker scope="Public" name="DorothyWhySexWork" />
         <marker scope="Public" name="DorothyWhySexWork2" />
         <marker scope="Public" name="DorothyWhySexWork3" />
@@ -634,6 +674,7 @@
         <marker scope="Public" name="kazuma_luck_potion" />
         <marker scope="Public" name="kazuma_luck_potion_effects" />
         <marker scope="Public" name="KoraBodyLines" />
+        <marker scope="Public" name="KoraBodyLines2" />
         <marker scope="Public" name="KoraGossipFilms" />
         <marker scope="Public" name="LeonieArcheryInjuries" />
         <marker scope="Public" name="LeonieBladeBreakerII" />
@@ -661,22 +702,35 @@
         <marker scope="Public" name="LyraleiTheyNeedHealing2" />
         <marker scope="Public" name="LyraleiTrickArrows" />
         <marker scope="Public" name="LyraleiWindranger" />
+        <marker scope="Public" name="LysitheaAlbinism" />
+        <marker scope="Public" name="LysitheaArmor" />
+        <marker scope="Public" name="LysitheaArmor2" />
+        <marker scope="Public" name="LysitheaChristmasCakes" />
+        <marker scope="Public" name="LysitheaChristmasCakes2" />
+        <marker scope="Public" name="LysitheaFlight" />
+        <marker scope="Public" name="LysitheaFlight2" />
+        <marker scope="Public" name="LysitheaStuntedGrowth" />
         <marker scope="Public" name="MarcelinePets" />
         <marker scope="Public" name="MarinetteBalance" />
         <marker scope="Public" name="MarinetteBalance2" />
         <marker scope="Public" name="MarinetteBalance3" />
         <marker scope="Public" name="MarinetteOpenRelationship" />
+        <marker scope="Public" name="MarinetteOpenRelationship2" />
         <marker scope="Public" name="MarinetteOverwatchMagic" />
         <marker scope="Public" name="MarinetteOverwatchMagic2" />
+        <marker scope="Public" name="MarinetteOverwatchMagic3" />
         <marker scope="Public" name="MarinetteReputation" />
         <marker scope="Public" name="MarinetteReputation2" />
         <marker scope="Public" name="MarinetteReputation3" />
+        <marker scope="Public" name="MarinetteSpirits" />
+        <marker scope="Public" name="MarinetteSpirits2" />
         <marker scope="Public" name="MarinetteTransform" />
         <marker scope="Public" name="MarinetteTransform2" />
         <marker scope="Public" name="MarinetteTransform3" />
         <marker scope="Public" name="MarinetteWhereCatNoir" />
         <marker scope="Public" name="MarinetteWhereCatNoir2" />
         <marker scope="Public" name="MarinetteWhereCatNoir3" />
+        <marker scope="Public" name="MarinetteWorkplaceDating" />
         <marker scope="Public" name="MaskIdentity" />
         <marker scope="Public" name="MayAppoinment" />
         <marker scope="Public" name="MayComfortablePresentation" />
@@ -750,6 +804,9 @@
         <marker scope="Public" name="MercyFayeSideBet" />
         <marker scope="Public" name="MercyFinalAccessory" />
         <marker scope="Public" name="MercyFutureMusic" />
+        <marker scope="Public" name="MercyGamestartHot" />
+        <marker scope="Public" name="MercyGameStartHot" />
+        <marker scope="Public" name="MercyGameStartSwimsuit" />
         <marker scope="Public" name="MercyGirlsNight" />
         <marker scope="Public" name="MercyGlassesRegret" />
         <marker scope="Public" name="MercyGwenMast" />
@@ -831,7 +888,7 @@
         <marker scope="Public" name="MercyTikiBarSwimsuit" />
         <marker scope="Public" name="MercyWalkingTip1" />
         <marker scope="Public" name="MercyWheatleyOmnicHead" />
-        <marker scope="Public" name="MercyWhereTheLube?" />
+        <marker scope="Public" name="MercyWhereTheLube" />
         <marker scope="Public" name="MercyWidowmakerSad" />
         <marker scope="Public" name="MercyYueliaTransform" />
         <marker scope="Public" name="MercyYueliaTransform2" />
@@ -853,8 +910,6 @@
         <marker scope="Public" name="MiraculousBoundariesA" />
         <marker scope="Public" name="MiraculousBoundariesA2" />
         <marker scope="Public" name="MiraculousBoundariesB" />
-        <marker scope="Public" name="MiraculousBoundariesB-" />
-        <marker scope="Public" name="MiraculousBoundariesB+" />
         <marker scope="Public" name="MiraculousBoundariesBAccepted" />
         <marker scope="Public" name="MiraculousBoundariesBDeclined" />
         <marker scope="Public" name="MiraculousCouple" />
@@ -869,6 +924,7 @@
         <marker scope="Public" name="MuscularComrades" />
         <marker scope="Public" name="MuscularDehydration" />
         <marker scope="Public" name="MuscularEndurance" />
+        <marker scope="Public" name="NagatoroGoodDocBadDoc" />
         <marker scope="Public" name="NamiChopperDocFollowup" />
         <marker scope="Public" name="NamiDoctorChopper" />
         <marker scope="Public" name="NamiDoctorTraffy" />
@@ -882,9 +938,13 @@
         <marker scope="Public" name="NamiWingEngineering" />
         <marker scope="Public" name="NewExcitementPrompt" />
         <marker scope="Public" name="NicoRArchaeology" />
+        <marker scope="Public" name="NicoRArchaeology2" />
         <marker scope="Public" name="NicoRDoctor" />
+        <marker scope="Public" name="NicoRDoctor2" />
         <marker scope="Public" name="NicoRFlowerDemonstration" />
         <marker scope="Public" name="NicoRPlaceOfOrigin" />
+        <marker scope="Public" name="NoelleKnightsHiring" />
+        <marker scope="Public" name="NoelleShortSupply" />
         <marker scope="Public" name="NoMurderPlease" />
         <marker scope="Public" name="OmnicRights1" />
         <marker scope="Public" name="OmnicRights2" />
@@ -1067,11 +1127,6 @@
         <recipe key="dba5778a-dbed-4079-9052-d204275d6f93">
             <cases>
                 <id>25</id>
-            </cases>
-        </recipe>
-        <recipe key="6032096d-cc73-49c3-9df2-45d9f10eb1b0">
-            <cases>
-                <id>27</id>
             </cases>
         </recipe>
         <recipe key="5ba06533-d4a2-4fa5-b906-49e0b3c6946b">
