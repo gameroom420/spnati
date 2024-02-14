@@ -43,6 +43,7 @@ Mia could explain why she chose a mace as her weapon
 She could call out Nonon's surprise saying how she was the one who wanted her to "crack some heads"
 </note>
         <note id="628">Changed this since it feels like it makes more sense.</note>
+        <note id="812">This isn't line padding. Geniunely both background.preposition &amp; background.surface are useless because of the roof background.</note>
     </notes>
     <labels>
         <label id="1" label="" folder="Intro" sort="4" />
@@ -784,12 +785,24 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <label id="798" label="" color="2" folder="Target_Stage0" sort="94" />
         <label id="95" label="" folder="Target_Stage0" sort="8" />
         <label id="803" label="" folder="Target_Stage0" sort="0" />
-        <label id="804" label="" color="2" folder="Reply_Stage0" sort="0" />
+        <label id="804" label="" color="2" folder="Reply_Stage0" sort="23" />
         <label id="805" label="" color="2" folder="Reply_Stage0" sort="0" />
-        <label id="806" label="" color="2" folder="Reply_Stage2" sort="0" />
-        <label id="807" label="" folder="BG_Cold" sort="0" />
+        <label id="806" label="" color="2" folder="Reply_Stage2" sort="7" />
+        <label id="807" label="" folder="BG_Cold" sort="6" />
+        <label id="812" label="" folder="BG_Cold" sort="4" />
+        <label id="813" label="Other" folder="" sort="0" />
+        <label id="814" label="Player" folder="" sort="0" />
+        <label id="815" label="Player" folder="" sort="0" />
+        <label id="816" label="" folder="BG_Sunny" sort="2" />
+        <label id="817" label="" folder="Tags" sort="0" />
+        <label id="818" label="" folder="Tags" sort="0" />
+        <label id="819" label="Weapons (Female)" folder="Clothing" sort="0" />
+        <label id="820" label="Weapons (Male)" folder="Clothing" sort="0" />
+        <label id="821" label="Tie" folder="Clothing" sort="0" />
+        <label id="822" label="Tie" folder="Clothing" sort="0" />
+        <label id="823" label="" folder="Tags" sort="0" />
     </labels>
-    <nextId>807</nextId>
+    <nextId>823</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="adrien01" />
@@ -840,6 +853,7 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <marker scope="Public" name="arue52" />
         <marker scope="Public" name="arue53" />
         <marker scope="Public" name="bg_cold" />
+        <marker scope="Public" name="bg_sun" />
         <marker scope="Public" name="butt" />
         <marker scope="Public" name="butt2" />
         <marker scope="Public" name="butt3" />
@@ -1166,6 +1180,7 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <marker scope="Public" name="panzeke11" />
         <marker scope="Public" name="panzeke12" />
         <marker scope="Public" name="panzeke21" />
+        <marker scope="Public" name="player_tease" />
         <marker scope="Public" name="postcum_threat" />
         <marker scope="Public" name="queenie01" />
         <marker scope="Public" name="queenie01a" />
@@ -1385,6 +1400,7 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <marker scope="Public" name="sanako22" />
         <marker scope="Public" name="sanako31" />
         <marker scope="Public" name="satsuki_fantasy01" />
+        <marker scope="Public" name="selected" />
         <marker scope="Public" name="servant" />
         <marker scope="Public" name="shamiko01" />
         <marker scope="Public" name="shamiko02" />
