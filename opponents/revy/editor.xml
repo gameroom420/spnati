@@ -425,8 +425,9 @@
         <label id="575" label="" color="4" folder="" sort="0" />
         <label id="577" label="" color="4" folder="" sort="0" />
         <label id="578" label="" color="4" folder="" sort="0" />
+        <label id="580" label="" color="4" folder="" sort="0" />
     </labels>
-    <nextId>579</nextId>
+    <nextId>580</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="aaravi0" />
@@ -1657,6 +1658,7 @@
         <marker scope="Public" name="yuna_lr0" />
         <marker scope="Public" name="yuna0" />
         <marker scope="Public" name="yuno_cp0" />
+        <marker scope="Public" name="yuno_gd0" />
         <marker scope="Public" name="yuno_sd0" />
         <marker scope="Public" name="yuno0" />
         <marker scope="Public" name="yunyun_halloween0" />
