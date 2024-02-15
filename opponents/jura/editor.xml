@@ -904,11 +904,12 @@
         <label id="1527" label="" color="4" folder="" sort="0" />
         <label id="1528" label="" color="4" folder="" sort="0" />
         <label id="1534" label="" color="4" folder="" sort="0" />
+        <label id="1540" label="" color="4" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>jura</prefix>
     </prefixes>
-    <nextId>1539</nextId>
+    <nextId>1540</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="1v1">Jura acknowledges that the game has come down to her and one other player.</marker>
@@ -2851,6 +2852,7 @@
         <marker scope="Public" name="yuna_lr0" />
         <marker scope="Public" name="yuna0" />
         <marker scope="Public" name="yuno_cp0" />
+        <marker scope="Public" name="yuno_gd0" />
         <marker scope="Public" name="yuno_hand3" />
         <marker scope="Public" name="yuno_jura_self0b" />
         <marker scope="Public" name="yuno_sd0" />
