@@ -1,0 +1,345 @@
+If Sanako to left and Nadeshiko to right:
+
+SANAKO MUST STRIP SHOES AND SOCKS:
+Sanako [sanako_nadeshiko_sn_s1]: The cards picked me! They must know I'm too cool for school.
+Nadeshiko []*: ??
+
+SANAKO STRIPPING SHOES AND SOCKS:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+SANAKO STRIPPED SHOES AND SOCKS:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+
+SANAKO MUST STRIP SHIRT:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+SANAKO STRIPPING SHIRT:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+SANAKO STRIPPED SHIRT:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+
+SANAKO MUST STRIP SKIRT:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+SANAKO STRIPPING SKIRT:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+SANAKO STRIPPED SKIRT:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+
+SANAKO MUST STRIP BRA:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+SANAKO STRIPPING BRA:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+SANAKO STRIPPED BRA:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+
+SANAKO MUST STRIP PANTIES:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+SANAKO STRIPPING PANTIES:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+SANAKO STRIPPED PANTIES:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+---
+
+NADESHIKO MUST STRIP VEST AND GLOVES:
+Sanako [sanako_nadeshiko_sn_n1]: Nadeshiko, aren't you getting warm under all those layers? We wouldn't want you to overheat, would we?
+Nadeshiko []*: ??
+
+NADESHIKO STRIPPING VEST AND GLOVES:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+NADESHIKO STRIPPED VEST AND GLOVES:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+
+NADESHIKO MUST STRIP SCARF:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+NADESHIKO STRIPPING SCARF:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+NADESHIKO STRIPPED SCARF:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+
+NADESHIKO MUST STRIP BOOTS:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+NADESHIKO STRIPPING BOOTS:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+NADESHIKO STRIPPED BOOTS:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+
+NADESHIKO MUST STRIP SHIRT:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+NADESHIKO STRIPPING SHIRT:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+NADESHIKO STRIPPED SHIRT:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+
+NADESHIKO MUST STRIP SHORTS:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+NADESHIKO STRIPPING SHORTS:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+NADESHIKO STRIPPED SHORTS:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+
+NADESHIKO MUST STRIP LEGGINGS:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+NADESHIKO STRIPPING LEGGINGS:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+NADESHIKO STRIPPED LEGGINGS:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+
+NADESHIKO MUST STRIP BRA:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+NADESHIKO STRIPPING BRA:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+NADESHIKO STRIPPED BRA:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+
+NADESHIKO MUST STRIP PANTIES:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+NADESHIKO STRIPPING PANTIES:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+NADESHIKO STRIPPED PANTIES:
+Sanako []*: ??
+Nadeshiko []*: ??
+
+---
+DUE TO POSITION DETECTION, CONVERSATIONS ABOVE AND BELOW THIS LINE WON'T PLAY IN THE SAME GAME.
+---
+
+If Nadeshiko to left and Sanako to right:
+
+SANAKO MUST STRIP SHOES AND SOCKS:
+Nadeshiko []*: ?? -- Your character leads the conversation here; this is just like how you'd write a regular targeted line
+Sanako []*: ??
+
+SANAKO STRIPPING SHOES AND SOCKS:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED SHOES AND SOCKS:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+
+SANAKO MUST STRIP SHIRT:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING SHIRT:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED SHIRT:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+
+SANAKO MUST STRIP SKIRT:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING SKIRT:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED SKIRT:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+
+SANAKO MUST STRIP BRA:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING BRA:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED BRA:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+
+SANAKO MUST STRIP PANTIES:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING PANTIES:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED PANTIES:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+---
+
+NADESHIKO MUST STRIP VEST AND GLOVES:
+Nadeshiko []*: ?? -- For lines in this conversation stream, Nadeshiko should say something that you think Sanako will have an opinion about. Sanako will reply, and conversation will ensue. Avoid the temptation to mention Sanako specifically here, as when it's Nadeshiko's turn, it's her time in the spotlight
+Sanako []*: ??
+
+NADESHIKO STRIPPING VEST AND GLOVES:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+NADESHIKO STRIPPED VEST AND GLOVES:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+
+NADESHIKO MUST STRIP SCARF:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+NADESHIKO STRIPPING SCARF:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+NADESHIKO STRIPPED SCARF:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+
+NADESHIKO MUST STRIP BOOTS:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+NADESHIKO STRIPPING BOOTS:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+NADESHIKO STRIPPED BOOTS:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+
+NADESHIKO MUST STRIP SHIRT:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+NADESHIKO STRIPPING SHIRT:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+NADESHIKO STRIPPED SHIRT:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+
+NADESHIKO MUST STRIP SHORTS:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+NADESHIKO STRIPPING SHORTS:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+NADESHIKO STRIPPED SHORTS:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+
+NADESHIKO MUST STRIP LEGGINGS:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+NADESHIKO STRIPPING LEGGINGS:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+NADESHIKO STRIPPED LEGGINGS:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+
+NADESHIKO MUST STRIP BRA:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+NADESHIKO STRIPPING BRA:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+NADESHIKO STRIPPED BRA:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+
+NADESHIKO MUST STRIP PANTIES:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+NADESHIKO STRIPPING PANTIES:
+Nadeshiko []*: ??
+Sanako []*: ??
+
+NADESHIKO STRIPPED PANTIES:
+Nadeshiko []*: ??
+Sanako []*: ??

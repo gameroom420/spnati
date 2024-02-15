@@ -89,11 +89,11 @@ Nonon [reply_sanako12]: You have a point. But what about you, Miss ~sanako~? Are
 
 NONON STRIPPED CUFFS:
 Sanako [sanako_nonon_sn_n6]: Me? It might surprise you that even someone like me can turn a few heads. I'm sure you're used to that kind of attention, but for me it's special in a different way.
-Nonon []*: ??
+Nonon [reply_sanako13]: Actually, that doesn't surprise me one bit. You are quite pretty, after all. You really should have more confidence.
 
 
 NONON MUST STRIP DRESS:
-Sanako []*: ?? -- idea: just keep flattering Nonon a lot because she's a precious gremlin
+Sanako [sanako_nonon_sn_n7]: I almost feel bad teaming up against a cutie like ~name~, but it seems like she can take it.
 Nonon []*: ??
 
 NONON STRIPPING DRESS:
@@ -106,7 +106,7 @@ Nonon []*: ??
 
 
 NONON MUST STRIP BRA:
-Sanako []*: ??
+Sanako []*: ?? -- idea: just keep flattering Nonon a lot because she's a precious gremlin
 Nonon []*: ??
 
 NONON STRIPPING BRA:
@@ -168,8 +168,8 @@ Nonon [sanako21]: You know, Miss ~sanako~, it's not often I meet another girl my
 Sanako [sanako_nonon_ns_s7]: You could say that. I'm my own boss, and even though my group is fairly small, not a day goes by without them telling me how much they love me.
 
 SANAKO STRIPPING SKIRT:
-Nonon []*: ??
-Sanako []*: ??
+Nonon [sanako22]: Y-you're the &lt;i&gt;boss&lt;/i&gt;!? A-and your subordinates pledge their love for you every day!? &lt;i&gt;*Gasp*&lt;/i&gt; Just like Lady Satsuki...
+Sanako [sanako_nonon_ns_s8]: I haven't met Lady Satsuki, but if she's a good boss then she probably knows the key to happiness is to show even more love than you receive.
 
 SANAKO STRIPPED SKIRT:
 Nonon []*: ??
@@ -177,7 +177,7 @@ Sanako []*: ??
 
 
 SANAKO MUST STRIP BRA:
-Nonon [ -marker dupiclicated- ]: What brings you to this little tea party, anyway, Miss ~sanako~? Are you really just here to flaunt your body? -- Please set this line to only play when Sanako is to her right
+Nonon [sanako31]: What brings you to this little tea party, anyway, Miss ~sanako~? Are you really just here to flaunt your body? -- Please set this line to only play when Sanako is to her right
 Sanako []*: ??
 
 SANAKO STRIPPING BRA:

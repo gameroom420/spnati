@@ -108,6 +108,14 @@
         <response id="270" opponent="nonon" opponentId="753" />
         <response id="271" opponent="arash" opponentId="147" />
         <response id="272" opponent="nagisa" opponentId="149" />
+        <response id="278" opponent="yuri" opponentId="1" />
+        <response id="279" opponent="nonon" opponentId="794" />
+        <response id="284" opponent="zeke_pandoria" opponentId="482" />
+        <response id="285" opponent="kyoko_kirigiri" opponentId="1578" />
+        <response id="286" opponent="kyoko_kirigiri" opponentId="1427" />
+        <response id="287" opponent="ae86" opponentId="6" />
+        <response id="288" opponent="ae86" opponentId="5" />
+        <response id="289" opponent="ae86" opponentId="1" />
     </responses>
     <notes>
         <note id="159">This is a lie.</note>
@@ -366,29 +374,47 @@
         <label id="254" label="" folder="Jessie to left" sort="0" />
         <label id="255" label="" folder="Jessie to left" sort="0" />
         <label id="256" label="" folder="Nagisa and Kyou to left" sort="0" />
-        <label id="257" label="" folder="Nagisa and Kyou to left" sort="0" />
-        <label id="258" label="" folder="Nagisa and Kyou to left" sort="0" />
+        <label id="257" label="" folder="Nagisa and Kyou to left" sort="2" />
+        <label id="258" label="" folder="Nagisa and Kyou to left" sort="3" />
         <label id="259" label="" folder="Nagisa to left / Kyou to right" sort="0" />
-        <label id="260" label="" folder="Nagisa to left / Kyou to right" sort="0" />
-        <label id="261" label="" folder="Nagisa to left / Kyou to right" sort="0" />
+        <label id="260" label="" folder="Nagisa to left / Kyou to right" sort="2" />
+        <label id="261" label="" folder="Nagisa to left / Kyou to right" sort="3" />
         <label id="263" label="" folder="Chihiro to right" sort="0" />
         <label id="262" label="" folder="Chihiro to left" sort="0" />
-        <label id="264" label="" folder="Chihiro to left" sort="0" />
-        <label id="265" label="" folder="Chihiro to right" sort="0" />
-        <label id="266" label="" folder="Chihiro to right" sort="0" />
-        <label id="267" label="" folder="Chihiro to left" sort="0" />
-        <label id="268" label="" folder="Nonon to left" sort="0" />
-        <label id="269" label="" folder="Nonon to left" sort="0" />
-        <label id="270" label="" folder="Nonon to right" sort="0" />
+        <label id="264" label="" folder="Chihiro to left" sort="2" />
+        <label id="265" label="" folder="Chihiro to right" sort="2" />
+        <label id="266" label="" folder="Chihiro to right" sort="3" />
+        <label id="267" label="" folder="Chihiro to left" sort="3" />
+        <label id="268" label="" folder="Nonon to left" sort="9" />
+        <label id="269" label="" folder="Nonon to left" sort="4" />
+        <label id="270" label="" folder="Nonon to right" sort="8" />
         <label id="271" label="" folder="Arash to left" sort="0" />
-        <label id="272" label="" folder="Nagisa to left" sort="0" />
+        <label id="272" label="" folder="Nagisa to left" sort="3" />
+        <label id="273" label="" folder="Yuri to right" sort="2" />
+        <label id="274" label="" folder="Yuri to right" sort="0" />
+        <label id="275" label="" folder="Mom to left" sort="4" />
+        <label id="276" label="" folder="Mom to left" sort="5" />
+        <label id="277" label="" folder="Mom to left" sort="6" />
+        <label id="278" label="" folder="Yuri to left" sort="0" />
+        <label id="279" label="" folder="Nonon to left" sort="5" />
+        <label id="280" label="" folder="Nonon to right" sort="4" />
+        <label id="281" label="" folder="Nadeshiko to right" sort="2" />
+        <label id="282" label="" folder="Nadeshiko to right" sort="0" />
+        <label id="283" label="" folder="Zeka &amp; Pandoria to right" sort="0" />
+        <label id="284" label="" folder="Zeka &amp; Pandoria to right" sort="2" />
+        <label id="285" label="" folder="Kyoko Kirigiri to left" sort="0" />
+        <label id="286" label="" folder="Kyoko Kirigiri to left" sort="2" />
+        <label id="290" label="" folder="Elizabeth to left" sort="0" />
     </labels>
     <prefixes>
         <prefix>collectible_</prefix>
         <prefix>x-</prefix>
     </prefixes>
-    <nextId>272</nextId>
+    <nextId>290</nextId>
     <markers>
+        <marker scope="Public" name="sanako_ae86_selected" />
+        <marker scope="Public" name="sanako_ae86_selected_indoors" />
+        <marker scope="Public" name="sanako_ae86_selected_street" />
         <marker scope="Public" name="sanako_age_uncertainty">If Nagisa is not playing, Sanako can almost introduce herself as her real age.</marker>
         <marker scope="Public" name="sanako_arash_question_martha" />
         <marker scope="Public" name="sanako_bad_start">Sanako is off to a bad start.</marker>
@@ -408,6 +434,7 @@
         <marker scope="Public" name="sanako_drama_club_costumes">Sanako thinks a princess is just in costume.</marker>
         <marker scope="Public" name="sanako_dva_bodysuit" />
         <marker scope="Public" name="sanako_elaine_dress_as_a_pirate" />
+        <marker scope="Public" name="sanako_elizabeth_nagisa_sisters" />
         <marker scope="Public" name="sanako_everyone_is_so_cute" />
         <marker scope="Public" name="sanako_explains_pairs">Sanako explains basic pairs gameplay.</marker>
         <marker scope="Public" name="sanako_hot">Sanako blames the heat for her skirt removal.</marker>
@@ -449,6 +476,8 @@
         <marker scope="Public" name="sanako_kizuna_cute_bra" />
         <marker scope="Public" name="sanako_kumatora_eternal" />
         <marker scope="Public" name="sanako_kumatora_husband" />
+        <marker scope="Public" name="sanako_kyoko_december_work" />
+        <marker scope="Public" name="sanako_kyoko_large_breast_prompt" />
         <marker scope="Public" name="sanako_kyoko_sk_k1" />
         <marker scope="Public" name="sanako_kyoko_sk_s1" />
         <marker scope="Public" name="sanako_kyou_bike" />
@@ -498,7 +527,10 @@
         <marker scope="Public" name="sanako_mom_ms_m11" />
         <marker scope="Public" name="sanako_mom_ms_m14" />
         <marker scope="Public" name="sanako_mom_ms_m15" />
+        <marker scope="Public" name="sanako_mom_ms_m7" />
         <marker scope="Public" name="sanako_mom_parent_dadbod" />
+        <marker scope="Public" name="sanako_mom_question_spirit_pokemon" />
+        <marker scope="Public" name="sanako_mom_question_vacation_location" />
         <marker scope="Public" name="sanako_moskii_bloodtype" />
         <marker scope="Public" name="sanako_moskii_card_values" />
         <marker scope="Public" name="sanako_moskii_selected" />
@@ -507,6 +539,8 @@
         <marker scope="Public" name="sanako_moskii_sm_s1" />
         <marker scope="Public" name="sanako_moskii_victory" />
         <marker scope="Public" name="sanako_most_experience" />
+        <marker scope="Public" name="sanako_nadeshiko_sn_n1" />
+        <marker scope="Public" name="sanako_nadeshiko_sn_s1" />
         <marker scope="Public" name="sanako_nagisa_christmas_date" />
         <marker scope="Public" name="sanako_nagisa_deslected" />
         <marker scope="Public" name="sanako_nagisa_deslected_2" />
@@ -625,6 +659,7 @@
         <marker scope="Public" name="sanako_nonon_ns_s5" />
         <marker scope="Public" name="sanako_nonon_ns_s6" />
         <marker scope="Public" name="sanako_nonon_ns_s7" />
+        <marker scope="Public" name="sanako_nonon_ns_s8" />
         <marker scope="Public" name="sanako_nonon_postcum_reply" />
         <marker scope="Public" name="sanako_nonon_sn_n1" />
         <marker scope="Public" name="sanako_nonon_sn_n2" />
@@ -632,6 +667,7 @@
         <marker scope="Public" name="sanako_nonon_sn_n4" />
         <marker scope="Public" name="sanako_nonon_sn_n5" />
         <marker scope="Public" name="sanako_nonon_sn_n6" />
+        <marker scope="Public" name="sanako_nonon_sn_n7" />
         <marker scope="Public" name="sanako_nonon_sn_s1" />
         <marker scope="Public" name="sanako_offlimits_thoughts" />
         <marker scope="Public" name="sanako_petra_nagisa_strip0a" />
@@ -665,8 +701,12 @@
         <marker scope="Public" name="sanako_you_can_cover_up" />
         <marker scope="Public" name="sanako_younger_guy" />
         <marker scope="Public" name="sanako_yuno_erection" />
+        <marker scope="Public" name="sanako_yuri_book_recommendations" />
+        <marker scope="Public" name="sanako_yuri_sy_s1" />
+        <marker scope="Public" name="sanako_yuri_sy_y1" />
         <marker scope="Public" name="sanako_zeke_selected" />
         <marker scope="Public" name="sanako_zeke_sz_z1" />
+        <marker scope="Public" name="sanako_zeke_sz_z2" />
         <marker scope="Public" name="sanako_zizou_prince" />
         <marker scope="Public" name="sanako_zonetan_strapless">Sanako mistakes Zone-tan's bare shoulders for a strapless bra.</marker>
     </markers>

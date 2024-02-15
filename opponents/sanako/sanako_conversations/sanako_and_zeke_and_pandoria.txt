@@ -1,0 +1,293 @@
+If Sanako to left and Zeke & Pandoria to right:
+
+SANAKO MUST STRIP SHOES AND SOCKS:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+SANAKO STRIPPING SHOES AND SOCKS:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+SANAKO STRIPPED SHOES AND SOCKS:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+
+SANAKO MUST STRIP SHIRT:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+SANAKO STRIPPING SHIRT:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+SANAKO STRIPPED SHIRT:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+
+SANAKO MUST STRIP SKIRT:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+SANAKO STRIPPING SKIRT:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+SANAKO STRIPPED SKIRT:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+
+SANAKO MUST STRIP BRA:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+SANAKO STRIPPING BRA:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+SANAKO STRIPPED BRA:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+
+SANAKO MUST STRIP PANTIES:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+SANAKO STRIPPING PANTIES:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+SANAKO STRIPPED PANTIES:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+---
+
+ZEKE & PANDORIA MUST STRIP GLOVES:
+Sanako [sanako_zeke_sz_z1]: So.... if you don't mind me asking, Zeke, are the two of you on a date?
+Zeke & Pandoria [zekepandy_sanako_self0a]: {pandy}Yeah, I guess you could call it a date?{!reset}<hr>Pandy and I tend to go everywhere together as part of our thrilling, ongoing adventure! -- please set this line to only play when Sanako is to the left
+
+ZEKE & PANDORIA STRIPPING GLOVES:
+Sanako [sanako_zeke_sz_z2]: That's so sweet. I remember when I met my someone special, we were practically joined at the hip after we went steady. ~player.ifMale(He and I|We)~ never managed to get too far from our chaperone, though.
+Zeke & Pandoria []*: ??
+
+ZEKE & PANDORIA STRIPPED GLOVES:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+
+ZEKE & PANDORIA MUST STRIP PAULDRONS & DRESS:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+ZEKE & PANDORIA STRIPPING PAULDRONS & DRESS:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+ZEKE & PANDORIA STRIPPED PAULDRONS & DRESS:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+
+ZEKE & PANDORIA MUST STRIP COAT & BRA:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+ZEKE & PANDORIA STRIPPING COAT & BRA:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+ZEKE & PANDORIA STRIPPED COAT & BRA:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+
+ZEKE & PANDORIA MUST STRIP BOOTS:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+ZEKE & PANDORIA STRIPPING BOOTS:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+ZEKE & PANDORIA STRIPPED BOOTS:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+
+ZEKE & PANDORIA MUST STRIP PANTS & SHORTS:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+ZEKE & PANDORIA STRIPPING PANTS & SHORTS:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+ZEKE & PANDORIA STRIPPED PANTS & SHORTS:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+
+ZEKE & PANDORIA MUST STRIP BOXERS & PANTIES:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+ZEKE & PANDORIA STRIPPING BOXERS & PANTIES:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+ZEKE & PANDORIA STRIPPED BOXERS & PANTIES:
+Sanako []*: ??
+Zeke & Pandoria []*: ??
+
+---
+DUE TO POSITION DETECTION, CONVERSATIONS ABOVE AND BELOW THIS LINE WON'T PLAY IN THE SAME GAME.
+---
+
+If Zeke & Pandoria to left and Sanako to right:
+
+SANAKO MUST STRIP SHOES AND SOCKS:
+Zeke & Pandoria []*: ?? -- Your characters lead the conversation here; this is just like how you'd write a regular targeted line
+Sanako []*: ??
+
+SANAKO STRIPPING SHOES AND SOCKS:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED SHOES AND SOCKS:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+
+SANAKO MUST STRIP SHIRT:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING SHIRT:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED SHIRT:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+
+SANAKO MUST STRIP SKIRT:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING SKIRT:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED SKIRT:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+
+SANAKO MUST STRIP BRA:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING BRA:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED BRA:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+
+SANAKO MUST STRIP PANTIES:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING PANTIES:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED PANTIES:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+---
+
+ZEKE & PANDORIA MUST STRIP GLOVES:
+Zeke & Pandoria []*: ?? -- For lines in this conversation stream, Zeke and/or Pandoria should say something that you think Sanako will have an opinion about. Sanako will reply, and conversation will ensue. Avoid the temptation to mention Sanako specifically here, as when it's your characters' turn, it's their time in the spotlight
+Sanako []*: ??
+
+ZEKE & PANDORIA STRIPPING GLOVES:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+ZEKE & PANDORIA STRIPPED GLOVES:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+
+ZEKE & PANDORIA MUST STRIP PAULDRONS & DRESS:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+ZEKE & PANDORIA STRIPPING PAULDRONS & DRESS:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+ZEKE & PANDORIA STRIPPED PAULDRONS & DRESS:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+
+ZEKE & PANDORIA MUST STRIP COAT & BRA:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+ZEKE & PANDORIA STRIPPING COAT & BRA:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+ZEKE & PANDORIA STRIPPED COAT & BRA:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+
+ZEKE & PANDORIA MUST STRIP BOOTS:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+ZEKE & PANDORIA STRIPPING BOOTS:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+ZEKE & PANDORIA STRIPPED BOOTS:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+
+ZEKE & PANDORIA MUST STRIP PANTS & SHORTS:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+ZEKE & PANDORIA STRIPPING PANTS & SHORTS:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+ZEKE & PANDORIA STRIPPED PANTS & SHORTS:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+
+ZEKE & PANDORIA MUST STRIP BOXERS & PANTIES:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+ZEKE & PANDORIA STRIPPING BOXERS & PANTIES:
+Zeke & Pandoria []*: ??
+Sanako []*: ??
+
+ZEKE & PANDORIA STRIPPED BOXERS & PANTIES:
+Zeke & Pandoria []*: ??
+Sanako []*: ??

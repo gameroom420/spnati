@@ -1,0 +1,345 @@
+If Sanako to left and Yuri to right:
+
+SANAKO MUST STRIP SHOES AND SOCKS:
+Sanako [sanako_yuri_sy_s1]: Ah, me? Okay. You'll have to excuse me if I'm not any good at this. I practiced in front of the mirror, but this still my first time in front of multiple people.
+Yuri []*: ??
+
+SANAKO STRIPPING SHOES AND SOCKS:
+Sanako []*: ??
+Yuri []*: ??
+
+SANAKO STRIPPED SHOES AND SOCKS:
+Sanako []*: ??
+Yuri []*: ??
+
+
+SANAKO MUST STRIP SHIRT:
+Sanako []*: ??
+Yuri []*: ??
+
+SANAKO STRIPPING SHIRT:
+Sanako []*: ??
+Yuri []*: ??
+
+SANAKO STRIPPED SHIRT:
+Sanako []*: ??
+Yuri []*: ??
+
+
+SANAKO MUST STRIP SKIRT:
+Sanako []*: ??
+Yuri []*: ??
+
+SANAKO STRIPPING SKIRT:
+Sanako []*: ??
+Yuri []*: ??
+
+SANAKO STRIPPED SKIRT:
+Sanako []*: ??
+Yuri []*: ??
+
+
+SANAKO MUST STRIP BRA:
+Sanako []*: ??
+Yuri []*: ??
+
+SANAKO STRIPPING BRA:
+Sanako []*: ??
+Yuri []*: ??
+
+SANAKO STRIPPED BRA:
+Sanako []*: ??
+Yuri []*: ??
+
+
+SANAKO MUST STRIP PANTIES:
+Sanako []*: ??
+Yuri []*: ??
+
+SANAKO STRIPPING PANTIES:
+Sanako []*: ??
+Yuri []*: ??
+
+SANAKO STRIPPED PANTIES:
+Sanako []*: ??
+Yuri []*: ??
+
+---
+
+YURI MUST STRIP SHOES:
+Sanako [sanako_yuri_sy_y1]: Is it already time for the gorgeously-beautiful Yuri to open up to us? It is, isn't it?
+Yuri []*: ??
+
+YURI STRIPPING SHOES:
+Sanako []*: ??
+Yuri []*: ??
+
+YURI STRIPPED SHOES:
+Sanako []*: ??
+Yuri []*: ??
+
+
+YURI MUST STRIP SOCKS:
+Sanako []*: ??
+Yuri []*: ??
+
+YURI STRIPPING SOCKS:
+Sanako []*: ??
+Yuri []*: ??
+
+YURI STRIPPED SOCKS:
+Sanako []*: ??
+Yuri []*: ??
+
+
+YURI MUST STRIP BLAZER:
+Sanako []*: ??
+Yuri []*: ??
+
+YURI STRIPPING BLAZER:
+Sanako []*: ??
+Yuri []*: ??
+
+YURI STRIPPED BLAZER:
+Sanako []*: ??
+Yuri []*: ??
+
+
+YURI MUST STRIP CARDIGAN:
+Sanako []*: ??
+Yuri []*: ??
+
+YURI STRIPPING CARDIGAN:
+Sanako []*: ??
+Yuri []*: ??
+
+YURI STRIPPED CARDIGAN:
+Sanako []*: ??
+Yuri []*: ??
+
+
+YURI MUST STRIP SKIRT:
+Sanako []*: ??
+Yuri []*: ??
+
+YURI STRIPPING SKIRT:
+Sanako []*: ??
+Yuri []*: ??
+
+YURI STRIPPED SKIRT:
+Sanako []*: ??
+Yuri []*: ??
+
+
+YURI MUST STRIP SHIRT:
+Sanako []*: ??
+Yuri []*: ??
+
+YURI STRIPPING SHIRT:
+Sanako []*: ??
+Yuri []*: ??
+
+YURI STRIPPED SHIRT:
+Sanako []*: ??
+Yuri []*: ??
+
+
+YURI MUST STRIP BRA:
+Sanako []*: ??
+Yuri []*: ??
+
+YURI STRIPPING BRA:
+Sanako []*: ??
+Yuri []*: ??
+
+YURI STRIPPED BRA:
+Sanako []*: ??
+Yuri []*: ??
+
+
+YURI MUST STRIP PANTIES:
+Sanako []*: ??
+Yuri []*: ??
+
+YURI STRIPPING PANTIES:
+Sanako []*: ??
+Yuri []*: ??
+
+YURI STRIPPED PANTIES:
+Sanako []*: ??
+Yuri []*: ??
+
+---
+DUE TO POSITION DETECTION, CONVERSATIONS ABOVE AND BELOW THIS LINE WON'T PLAY IN THE SAME GAME.
+---
+
+If Yuri to left and Sanako to right:
+
+SANAKO MUST STRIP SHOES AND SOCKS:
+Yuri []*: ?? -- Yuri leads the conversation here; this is just like how you'd write a regular targeted line
+Sanako []*: ??
+
+SANAKO STRIPPING SHOES AND SOCKS:
+Yuri []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED SHOES AND SOCKS:
+Yuri []*: ??
+Sanako []*: ??
+
+
+SANAKO MUST STRIP SHIRT:
+Yuri []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING SHIRT:
+Yuri []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED SHIRT:
+Yuri []*: ??
+Sanako []*: ??
+
+
+SANAKO MUST STRIP SKIRT:
+Yuri []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING SKIRT:
+Yuri []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED SKIRT:
+Yuri []*: ??
+Sanako []*: ??
+
+
+SANAKO MUST STRIP BRA:
+Yuri []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING BRA:
+Yuri []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED BRA:
+Yuri []*: ??
+Sanako []*: ??
+
+
+SANAKO MUST STRIP PANTIES:
+Yuri []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING PANTIES:
+Yuri []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED PANTIES:
+Yuri []*: ??
+Sanako []*: ??
+
+---
+
+YURI MUST STRIP SHOES:
+Yuri []*: ?? -- For lines in this conversation stream, Yuri should say something that you think Sanako will have an opinion about. Sanako will reply, and conversation will ensue. Avoid the temptation to mention Sanako specifically here, as when it's Yuri's turn, it's her time in the spotlight
+Sanako []*: ??
+
+YURI STRIPPING SHOES:
+Yuri []*: ??
+Sanako []*: ??
+
+YURI STRIPPED SHOES:
+Yuri []*: ??
+Sanako []*: ??
+
+
+YURI MUST STRIP SOCKS:
+Yuri []*: ??
+Sanako []*: ??
+
+YURI STRIPPING SOCKS:
+Yuri []*: ??
+Sanako []*: ??
+
+YURI STRIPPED SOCKS:
+Yuri []*: ??
+Sanako []*: ??
+
+
+YURI MUST STRIP BLAZER:
+Yuri []*: ??
+Sanako []*: ??
+
+YURI STRIPPING BLAZER:
+Yuri []*: ??
+Sanako []*: ??
+
+YURI STRIPPED BLAZER:
+Yuri []*: ??
+Sanako []*: ??
+
+
+YURI MUST STRIP CARDIGAN:
+Yuri []*: ??
+Sanako []*: ??
+
+YURI STRIPPING CARDIGAN:
+Yuri []*: ??
+Sanako []*: ??
+
+YURI STRIPPED CARDIGAN:
+Yuri []*: ??
+Sanako []*: ??
+
+
+YURI MUST STRIP SKIRT:
+Yuri []*: ??
+Sanako []*: ??
+
+YURI STRIPPING SKIRT:
+Yuri []*: ??
+Sanako []*: ??
+
+YURI STRIPPED SKIRT:
+Yuri []*: ??
+Sanako []*: ??
+
+
+YURI MUST STRIP SHIRT:
+Yuri []*: ??
+Sanako []*: ??
+
+YURI STRIPPING SHIRT:
+Yuri []*: ??
+Sanako []*: ??
+
+YURI STRIPPED SHIRT:
+Yuri []*: ??
+Sanako []*: ??
+
+
+YURI MUST STRIP BRA:
+Yuri []*: ??
+Sanako []*: ??
+
+YURI STRIPPING BRA:
+Yuri []*: ??
+Sanako []*: ??
+
+YURI STRIPPED BRA:
+Yuri []*: ??
+Sanako []*: ??
+
+
+YURI MUST STRIP PANTIES:
+Yuri []*: ??
+Sanako []*: ??
+
+YURI STRIPPING PANTIES:
+Yuri []*: ??
+Sanako []*: ??
+
+YURI STRIPPED PANTIES:
+Yuri []*: ??
+Sanako []*: ??
