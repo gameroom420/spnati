@@ -1,12 +1,38 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <metadata>
     <owner>elizabeth</owner>
+    <height>5'6"</height>
+    <age />
+    <pronunciation />
+    <othernotes />
     <noteworthy>
         <case name="Masturbation assistance" id="1" priority="Noteworthy" min="9" max="9">
             <description>Elizabeth is getting off with the assistance of her alternate self from another dimension</description>
         </case>
     </noteworthy>
     <reviewed>true</reviewed>
+    <responses>
+        <response id="8" opponent="komi-san" opponentId="1" />
+        <response id="9" opponent="komi-san" opponentId="22" />
+        <response id="10" opponent="nami" opponentId="12" />
+        <response id="11" opponent="nami" opponentId="13" />
+        <response id="12" opponent="nami" opponentId="51" />
+        <response id="13" opponent="nami" opponentId="11" />
+        <response id="14" opponent="nami" opponentId="624" />
+        <response id="15" opponent="nami" opponentId="53" />
+        <response id="16" opponent="ringo_ando" opponentId="88" />
+        <response id="17" opponent="lux" opponentId="301" />
+        <response id="18" opponent="lux" opponentId="10" />
+        <response id="19" opponent="lux" opponentId="59" />
+        <response id="20" opponent="cagliostro" opponentId="142" />
+        <response id="21" opponent="cagliostro" opponentId="1" />
+        <response id="22" opponent="cagliostro" opponentId="12" />
+        <response id="23" opponent="cagliostro" opponentId="2" />
+        <response id="24" opponent="hu_tao" opponentId="82" />
+        <response id="25" opponent="hu_tao" opponentId="50" />
+        <response id="26" opponent="reimu" opponentId="89" />
+        <response id="27" opponent="ringo_ando" opponentId="310" />
+    </responses>
     <notes>
         <note id="2">This case was hidden due to no longer making sense after changes were made to the targeted character. If you're rewriting this character, feel free to delete it.</note>
         <note id="3">This case was hidden due to no longer making sense after changes were made to the targeted character. If you're rewriting this character, feel free to delete it.</note>
@@ -15,8 +41,9 @@
         <note id="6">This case was hidden due to no longer making sense after the line it was responding to was deleted. If you're rewriting this character, feel free to delete it.</note>
         <note id="7">This case was hidden due to no longer making sense after the line it was responding to was deleted. If you're rewriting this character, feel free to delete it.</note>
     </notes>
-    <nextId>7</nextId>
+    <nextId>27</nextId>
     <markers>
+        <marker scope="Public" name="" />
         <marker scope="Public" name="a _figure_of_speech" />
         <marker scope="Public" name="a_figure_of_speech" />
         <marker scope="Public" name="accidents" />
@@ -56,6 +83,7 @@
         <marker scope="Public" name="jota0" />
         <marker scope="Public" name="jurabutt" />
         <marker scope="Public" name="kiz0" />
+        <marker scope="Public" name="komi_intro" />
         <marker scope="Public" name="lady_comstock" />
         <marker scope="Public" name="lutece" />
         <marker scope="Public" name="marceline_is_a_vampire" />
@@ -73,11 +101,14 @@
         <marker scope="Public" name="nightmare" />
         <marker scope="Public" name="odd" />
         <marker scope="Public" name="panties" />
+        <marker scope="Public" name="paris" />
         <marker scope="Public" name="picture" />
         <marker scope="Public" name="polite" />
         <marker scope="Public" name="princess" />
+        <marker scope="Public" name="puyos" />
         <marker scope="Public" name="reading" />
         <marker scope="Public" name="remi0" />
+        <marker scope="Public" name="robot" />
         <marker scope="Public" name="sanagisa0" />
         <marker scope="Public" name="sanako0" />
         <marker scope="Public" name="songbird" />
