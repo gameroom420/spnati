@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1707634622126</lastupdate>
+    <lastupdate>1708046412237</lastupdate>
     <enabled>false</enabled>
     <first>Yuno</first>
     <last>Katsugo</last>
@@ -20,7 +20,7 @@
         <costume folder="opponents/reskins/yuno_uno_valentine/" img="0-aa_select.png" set="valentines" status="online" label="Yuno">Group Date</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>2078</lines>
+    <lines>2103</lines>
     <poses>206</poses>
     <age />
     <pronunciation />

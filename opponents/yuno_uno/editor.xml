@@ -304,6 +304,12 @@
         <response id="1159" opponent="rose" opponentId="131" />
         <response id="1160" opponent="rose" opponentId="132" />
         <response id="1161" opponent="rose" opponentId="133" />
+        <response id="1167" opponent="meia" opponentId="1669" />
+        <response id="1168" opponent="elizabeth" opponentId="1" />
+        <response id="1173" opponent="aaravi" opponentId="111" />
+        <response id="1174" opponent="aaravi" opponentId="119" />
+        <response id="1175" opponent="aaravi" opponentId="215" />
+        <response id="1179" opponent="toph" opponentId="846" />
     </responses>
     <notes>
         <note id="29">The Greek Visionary is a character like Ishizu or Shadi from Yu-gi-oh. Roll with it.</note>
@@ -352,6 +358,7 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <note id="1091">These first two lines have been written as vague comments so Lysithea not responding / having higher priority targets isn't as much of a big deal</note>
         <note id="1092">he's going somewhere with this; he's going to be praising lysithea for being disciplined</note>
         <note id="1115">in the next case he'll probably question why she has a giant needle in the first place; you can give a funny half-answer if you want</note>
+        <note id="1170">You'll want to respond to this with three different cases that each respond to a different marker. let me know if you want me to change any of these!</note>
     </notes>
     <labels>
         <label id="1" label="" folder="Friends" sort="2" />
@@ -1369,14 +1376,14 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <label id="1027" label="" folder="Butt Reactions" sort="0" />
         <label id="1028" label="" folder="Butt Reactions" sort="0" />
         <label id="1029" label="" folder="Butt Reactions" sort="0" />
-        <label id="1030" label="" color="4" folder="Targets" sort="0" />
+        <label id="1030" label="" folder="Targets" sort="0" />
         <label id="1031" label="" folder="Targets" sort="0" />
         <label id="1032" label="" folder="Targets" sort="0" />
         <label id="1033" label="" folder="Targets" sort="0" />
         <label id="1034" label="" folder="Targets" sort="0" />
         <label id="1035" label="" folder="Targets" sort="0" />
         <label id="1036" label="" folder="Responses" sort="0" />
-        <label id="1037" label="" color="1" folder="Responses" sort="0" />
+        <label id="1037" label="" color="3" folder="Responses" sort="0" />
         <label id="1038" label="" color="3" folder="Targets" sort="0" />
         <label id="1039" label="" color="3" folder="Targets" sort="0" />
         <label id="1040" label="" folder="Responses" sort="0" />
@@ -1506,14 +1513,32 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <label id="1164" label="" folder="Rose" sort="0" />
         <label id="1165" label="" folder="Group Date" sort="0" />
         <label id="1166" label="Group Date" folder="Group Date" sort="0" />
+        <label id="1168" label="" folder="Targets" sort="0" />
+        <label id="1169" label="" folder="Targets" sort="0" />
+        <label id="1170" label="" folder="Targets" sort="0" />
+        <label id="1171" label="" folder="Responses" sort="0" />
+        <label id="1172" label="" folder="Responses" sort="0" />
+        <label id="1173" label="" folder="Targets" sort="0" />
+        <label id="1174" label="" folder="Targets" sort="0" />
+        <label id="1175" label="" folder="Targets" sort="0" />
+        <label id="1176" label="" folder="Responses" sort="0" />
+        <label id="1177" label="" color="1" folder="Targets" sort="0" />
+        <label id="1178" label="" folder="Targets" sort="0" />
+        <label id="1179" label="" color="3" folder="Responses" sort="0" />
+        <label id="1180" label="" folder="Targets" sort="0" />
+        <label id="1181" label="" folder="Responses" sort="0" />
     </labels>
     <prefixes>
         <prefix>yuno_collectible</prefix>
     </prefixes>
-    <nextId>1166</nextId>
+    <nextId>1181</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="10rounds_gaku_skill_level" />
+        <marker scope="Public" name="aaravi_butt" />
+        <marker scope="Public" name="aaravi_hexplanation" />
+        <marker scope="Public" name="aaravi_levelup_1" />
+        <marker scope="Public" name="aaravi_levelup_2" />
         <marker scope="Public" name="acc_draw_25" />
         <marker scope="Public" name="adrien_butt_response" />
         <marker scope="Public" name="ag_legraise_thighs1" />
@@ -1567,6 +1592,7 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <marker scope="Public" name="dirty_little_rat_perv" />
         <marker scope="Public" name="drunk_uno1" />
         <marker scope="Public" name="electric_toothbrush" />
+        <marker scope="Public" name="elizabeth_mast" />
         <marker scope="Public" name="emi_800m_resp" />
         <marker scope="Public" name="emi_butt_reaction" />
         <marker scope="Public" name="emi_buttA_reaction" />
@@ -1708,6 +1734,7 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <marker scope="Public" name="msfortune_finished_laprest" />
         <marker scope="Public" name="must_mast_female_idol" />
         <marker scope="Public" name="muststrip_2_ziroBackstory" />
+        <marker scope="Public" name="muststrip_groupdate_0a" />
         <marker scope="Public" name="my_hand_is_terrible_guys" />
         <marker scope="Public" name="NadeshikoYunoCollegeResp" />
         <marker scope="Public" name="nagamimi_butt_response" />
@@ -1751,6 +1778,7 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <marker scope="Public" name="saki_butt_reaction" />
         <marker scope="Public" name="saki_heavyFF" />
         <marker scope="Public" name="saki_startFF" />
+        <marker scope="Public" name="samus_butt_reaction" />
         <marker scope="Public" name="samus_butt_response" />
         <marker scope="Public" name="samus_butt_response2" />
         <marker scope="Public" name="sanako_crotchvis" />
@@ -1852,7 +1880,9 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <marker scope="Public" name="yuno_9s_blindfold2" />
         <marker scope="Public" name="yuno_9s_blindfold3" />
         <marker scope="Public" name="yuno_aaravi_self0a" />
+        <marker scope="Public" name="yuno_aaravi_self0b" />
         <marker scope="Public" name="yuno_aaravi_self1a" />
+        <marker scope="Public" name="yuno_aaravi_self1b" />
         <marker scope="Public" name="yuno_ae86_gone" />
         <marker scope="Public" name="yuno_aella_hpResp" />
         <marker scope="Public" name="yuno_aella_strip0a" />
@@ -2019,6 +2049,9 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <marker scope="Public" name="yuno_eichi_risky_resp" />
         <marker scope="Public" name="yuno_eichi_spnatiHellEarlyGame" />
         <marker scope="Public" name="yuno_eichi_strip0a" />
+        <marker scope="Public" name="yuno_elizabeth_corset1" />
+        <marker scope="Public" name="yuno_elizabeth_finger1" />
+        <marker scope="Public" name="yuno_elizabeth_time1" />
         <marker scope="Public" name="yuno_elphaba_CustomCard" />
         <marker scope="Public" name="yuno_elphaba_strip0a" />
         <marker scope="Public" name="yuno_elphaba_strip0b" />
@@ -2214,6 +2247,7 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <marker scope="Public" name="yuno_meia_self3c" />
         <marker scope="Public" name="yuno_meia_self4a" />
         <marker scope="Public" name="yuno_meia_self4b" />
+        <marker scope="Public" name="yuno_meia_selfGD_0a" />
         <marker scope="Public" name="yuno_meia_selfHalloween0a" />
         <marker scope="Public" name="yuno_meia_selfHalloween0b" />
         <marker scope="Public" name="yuno_meia_selfSummer0a" />
@@ -2344,6 +2378,7 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <marker scope="Public" name="yuno_sakizls_strip6a" />
         <marker scope="Public" name="yuno_sakizls_zombie_reveal" />
         <marker scope="Public" name="yuno_sakura_headless" />
+        <marker scope="Public" name="yuno_samus_bountyHunter1" />
         <marker scope="Public" name="yuno_samus_removing_armorResp" />
         <marker scope="Public" name="yuno_samus_strip0a" />
         <marker scope="Public" name="yuno_samus_strip0b" />
@@ -2354,6 +2389,8 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <marker scope="Public" name="yuno_sheena_self0a" />
         <marker scope="Public" name="yuno_sly_0a" />
         <marker scope="Public" name="yuno_sofia_intro1" />
+        <marker scope="Public" name="yuno_sofia_intro2" />
+        <marker scope="Public" name="yuno_sofia_self0a" />
         <marker scope="Public" name="yuno_steve_s0a" />
         <marker scope="Public" name="yuno_steve_s0a_scoops" />
         <marker scope="Public" name="yuno_steve_s1a" />
@@ -2371,6 +2408,7 @@ How would she have done against Ziro? Does she even have a soul to steal?</note>
         <marker scope="Public" name="yuno_toph_sensation2" />
         <marker scope="Public" name="yuno_toph_talents1" />
         <marker scope="Public" name="yuno_toph_talents2" />
+        <marker scope="Public" name="yuno_toph_talents3" />
         <marker scope="Public" name="yuno_toph_title1" />
         <marker scope="Public" name="yuno_toph_title2" />
         <marker scope="Public" name="yuno_toph_title3" />
