@@ -770,10 +770,6 @@ TitleClothingSelectionIcon.prototype.visible = function () {
         return true;
     }
 
-    if (this.clothing.applicable_genders !== "all" && humanPlayer.gender !== this.clothing.applicable_genders) {
-        return false;
-    }
-
     if (this.clothing.collectible) {
         return !this.clothing.collectible.hidden;
     }
@@ -896,6 +892,11 @@ function updateTitleScreen () {
 
         selector.update();
     });
+
+    // Move opposite-gender clothing to the end of the list
+    defaultSelectors.sort(
+        (a, b) => (b.clothing.matchesPlayerGender() - a.clothing.matchesPlayerGender())
+    );
 
     $("#title-clothing-container").empty();
 
