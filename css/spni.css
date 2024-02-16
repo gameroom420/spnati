@@ -431,7 +431,8 @@ input[type=search]::-webkit-search-cancel-button {
 }
 
 .hide-table-button,
-.table-bug-report-button {
+.table-bug-report-button,
+.table-feedback-report-button {
     position: absolute;
     width: 3.25%;
     height: 4.50%;
@@ -440,11 +441,17 @@ input[type=search]::-webkit-search-cancel-button {
 }
 
 .hide-table-button {
-    bottom: 22%;
+    bottom: 26.6%;
 }
 
 .table-bug-report-button {
-    bottom: 17.4%;
+    bottom: 22%;
+}
+
+.table-feedback-report-button {
+	bottom: 17.4%;
+	width: 13%;
+	left: 43.5%;
 }
 
 .hide-table-button:hover,
