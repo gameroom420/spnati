@@ -149,7 +149,7 @@
     <tag display="Bunnysuit" description="Wearing a Playboy-esque bunnygirl suit">bunnysuit</tag>
     <tag display="Cape" description="Wearing a cape">cape</tag>
     <tag display="Chest Wrappings" description="Wearing wrapped cloth or bandages to conceal the chest, such as a sarashi">chest_wrappings</tag>
-    <tag display="Choker" description="Wearing a choker">choker</tag>
+    <tag display="Choker" description="Wearing a choker or collar">choker</tag>
     <tag display="Crown" description="Wearing a crown, circlet, or diadem">crown</tag>
     <tag display="Eyepatch" description="Wearing an eyepatch">eyepatch</tag>
     <tag display="Fake Animal Ears" description="Wearing artificial animal ears">fake_animal_ears</tag>
