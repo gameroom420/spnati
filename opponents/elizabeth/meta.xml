@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1708007121922</lastupdate>
+    <lastupdate>1708133843753</lastupdate>
     <enabled>true</enabled>
     <first>Elizabeth</first>
     <last>Comstock</last>
@@ -12,6 +12,6 @@
     <artist>yu_ser,FrostFireFive,josephkantel</artist>
     <description>A young woman who was held captive aboard Columbia since she was a baby, Elizabeth has the power to open tears in the fabric of Space-Time.</description>
     <layers>8</layers>
-    <lines>4265</lines>
+    <lines>4361</lines>
     <poses>136</poses>
 </opponent>
