@@ -33,6 +33,9 @@
         <response id="26" opponent="reimu" opponentId="89" />
         <response id="27" opponent="ringo_ando" opponentId="310" />
         <response id="28" opponent="queenie" opponentId="44" />
+        <response id="30" opponent="aqua_kh" opponentId="67" />
+        <response id="31" opponent="aqua_kh" opponentId="69" />
+        <response id="32" opponent="aqua_kh" opponentId="51" />
     </responses>
     <notes>
         <note id="2">This case was hidden due to no longer making sense after changes were made to the targeted character. If you're rewriting this character, feel free to delete it.</note>
@@ -42,7 +45,7 @@
         <note id="6">This case was hidden due to no longer making sense after the line it was responding to was deleted. If you're rewriting this character, feel free to delete it.</note>
         <note id="7">This case was hidden due to no longer making sense after the line it was responding to was deleted. If you're rewriting this character, feel free to delete it.</note>
     </notes>
-    <nextId>29</nextId>
+    <nextId>32</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="a _figure_of_speech" />
