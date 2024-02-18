@@ -81,6 +81,10 @@ namespace SPNATI_Character_Editor.Providers
 
 			if (_character != null)
 			{
+				if (!_character.IsFullyLoaded)
+				{
+					_character = CharacterDatabase.Load(_character.FolderName);
+				}
 				source = _character.Collectibles.Collectibles;
 			}
 

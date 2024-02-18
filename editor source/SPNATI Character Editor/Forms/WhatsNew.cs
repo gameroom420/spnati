@@ -31,7 +31,8 @@ namespace SPNATI_Character_Editor.Forms
 		private void DisplayVersionHistory()
 		{
 			//Acquire updates from all versions skipped
-			Version lastVersion = new Version(Config.GetString(Settings.LastVersionRun).Substring(1));
+			string lastversionstring = Config.GetString(Settings.LastVersionRun);
+			Version lastVersion = lastversionstring.Length > 1 ? new Version(lastversionstring.Substring(1)) : new Version("1.0");
 			StringBuilder updates = new StringBuilder();
 			string[] files = Directory.GetFiles(Config.ExecutableDirectory, "VersionHistory/v*.html", SearchOption.TopDirectoryOnly);
 			List<KeyValuePair<string, string>> versionUpdates = new List<KeyValuePair<string, string>>();

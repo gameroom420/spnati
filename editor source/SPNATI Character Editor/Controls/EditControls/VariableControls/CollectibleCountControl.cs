@@ -1,8 +1,7 @@
 ﻿using SPNATI_Character_Editor.DataStructures;
 using System.Text.RegularExpressions;
-using System.Collections.Generic;
 using System;
-using SPNATI_Character_Editor.Providers;
+using Desktop;
 
 namespace SPNATI_Character_Editor
 {
@@ -14,6 +13,13 @@ namespace SPNATI_Character_Editor
 			InitializeComponent();
 			cboOperator.DataSource = ExpressionTest.Operators;
 			recField.RecordType = typeof(Collectible);
+			recField.RecordFilter = CounterFilter;
+		}
+
+		private bool CounterFilter(IRecord record)
+		{
+			Collectible collectible = record as Collectible;
+			return collectible.Counter > 0;
 		}
 
 		protected override void BindVariable(string variable)
@@ -80,7 +86,7 @@ namespace SPNATI_Character_Editor
 		{
 			Save();
 		}
-		private void Field_ValueChanged(object sender, System.EventArgs e)
+		private void Field_ValueChanged(object sender, EventArgs e)
 		{
 			Save();
 		}

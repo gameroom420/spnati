@@ -1,6 +1,6 @@
 ﻿namespace SPNATI_Character_Editor
 {
-	partial class PersistentMarkerControl
+	partial class MarkerVariableControl
 	{
 		/// <summary> 
 		/// Required designer variable.
@@ -89,7 +89,7 @@
 			this.skinnedLabel1.TabIndex = 13;
 			this.skinnedLabel1.Text = "Marker:";
 			// 
-			// PersistentMarkerControl
+			// MarkerVariableControl
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -97,7 +97,7 @@
 			this.Controls.Add(this.txtValue);
 			this.Controls.Add(this.cboOperator);
 			this.Controls.Add(this.recField);
-			this.Name = "PersistentMarkerControl";
+			this.Name = "MarkerVariableControl";
 			this.Size = new System.Drawing.Size(605, 21);
 			this.Controls.SetChildIndex(this.recField, 0);
 			this.Controls.SetChildIndex(this.cboOperator, 0);
