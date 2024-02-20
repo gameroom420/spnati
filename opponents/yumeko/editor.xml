@@ -128,6 +128,9 @@
         <marker scope="Public" name="Asuna_resp1a" />
         <marker scope="Public" name="Asuna_resp1b" />
         <marker scope="Public" name="Asuna_resp1c" />
+        <marker scope="Public" name="Asuna_resp2a_partner" />
+        <marker scope="Public" name="Asuna_resp2a_years" />
+        <marker scope="Public" name="Asuna_resp3a" />
         <marker scope="Public" name="Asuna0a" />
         <marker scope="Public" name="Asuna0b" />
         <marker scope="Public" name="Asuna0c" />
@@ -138,6 +141,7 @@
         <marker scope="Public" name="Asuna2b" />
         <marker scope="Public" name="Asuna2c" />
         <marker scope="Public" name="Asuna3a" />
+        <marker scope="Public" name="Asuna3b" />
         <marker scope="Public" name="Beatrix_resp0a" />
         <marker scope="Public" name="Beatrix_resp0b" />
         <marker scope="Public" name="Beatrix_resp0c" />
@@ -151,6 +155,7 @@
         <marker scope="Public" name="Butt" />
         <marker scope="Public" name="bye_bye_barnette" />
         <marker scope="Public" name="caravan" />
+        <marker scope="Public" name="CD_resp0a" />
         <marker scope="Public" name="choice" />
         <marker scope="Public" name="chunni_taunting" />
         <marker scope="Public" name="complexgames" />
@@ -365,12 +370,52 @@
         <marker scope="Public" name="Kyoko7a" />
         <marker scope="Public" name="Kyoko7b" />
         <marker scope="Public" name="Kyoko7c" />
+        <marker scope="Public" name="Kyouko_ears" />
+        <marker scope="Public" name="Kyouko_fate" />
+        <marker scope="Public" name="Kyouko_pass" />
         <marker scope="Public" name="Kyouko_resp0a" />
         <marker scope="Public" name="Kyouko_resp0aalt" />
         <marker scope="Public" name="Kyouko_resp0b" />
         <marker scope="Public" name="Kyouko_resp0balt" />
         <marker scope="Public" name="Kyouko_resp0c" />
         <marker scope="Public" name="Kyouko_resp0calt" />
+        <marker scope="Public" name="Kyouko_resp1a" />
+        <marker scope="Public" name="Kyouko_resp1at" />
+        <marker scope="Public" name="Kyouko_resp1b" />
+        <marker scope="Public" name="Kyouko_resp1c" />
+        <marker scope="Public" name="Kyouko_resp2a" />
+        <marker scope="Public" name="Kyouko_resp2b" />
+        <marker scope="Public" name="Kyouko_resp2c" />
+        <marker scope="Public" name="Kyouko_resp3a" />
+        <marker scope="Public" name="Kyouko_resp3b" />
+        <marker scope="Public" name="Kyouko_resp3c" />
+        <marker scope="Public" name="Kyouko_resp4a" />
+        <marker scope="Public" name="Kyouko_resp4b" />
+        <marker scope="Public" name="Kyouko_resp4c" />
+        <marker scope="Public" name="Kyouko_resp5a" />
+        <marker scope="Public" name="Kyouko_resp5b" />
+        <marker scope="Public" name="Kyouko_resp5c" />
+        <marker scope="Public" name="Kyouko0a" />
+        <marker scope="Public" name="Kyouko0b" />
+        <marker scope="Public" name="Kyouko0c" />
+        <marker scope="Public" name="Kyouko1a" />
+        <marker scope="Public" name="Kyouko1b" />
+        <marker scope="Public" name="Kyouko1c" />
+        <marker scope="Public" name="Kyouko2a" />
+        <marker scope="Public" name="Kyouko2b" />
+        <marker scope="Public" name="Kyouko2c" />
+        <marker scope="Public" name="Kyouko3a" />
+        <marker scope="Public" name="Kyouko3b" />
+        <marker scope="Public" name="Kyouko3c" />
+        <marker scope="Public" name="Kyouko4a" />
+        <marker scope="Public" name="Kyouko4b" />
+        <marker scope="Public" name="Kyouko4c" />
+        <marker scope="Public" name="Kyouko5a" />
+        <marker scope="Public" name="Kyouko5b" />
+        <marker scope="Public" name="Kyouko5c" />
+        <marker scope="Public" name="Kyouko6a" />
+        <marker scope="Public" name="Kyouko6b" />
+        <marker scope="Public" name="Kyouko6c" />
         <marker scope="Public" name="Mari" />
         <marker scope="Public" name="Mari_S0a" />
         <marker scope="Public" name="Mari_S1a" />
@@ -389,6 +434,7 @@
         <marker scope="Public" name="MariS3a" />
         <marker scope="Public" name="MariS3b" />
         <marker scope="Public" name="MariS3c" />
+        <marker scope="Public" name="MariS4a" />
         <marker scope="Public" name="Meia_resp0a" />
         <marker scope="Public" name="Meia_resp0acg" />
         <marker scope="Public" name="Meia_resp0b" />
@@ -527,8 +573,10 @@
         <marker scope="Public" name="Reimu_resp1b" />
         <marker scope="Public" name="Reimu_resp1c" />
         <marker scope="Public" name="Reimu_resp2a" />
+        <marker scope="Public" name="Reimu_resp2b" />
         <marker scope="Public" name="Revy_resp0a" />
         <marker scope="Public" name="Revy0a" />
+        <marker scope="Public" name="Ribbongirl_resp0a" />
         <marker scope="Public" name="ring" />
         <marker scope="Public" name="ring2" />
         <marker scope="Public" name="Robin_resp0a" />
@@ -596,6 +644,7 @@
         <marker scope="Public" name="Shamiko_resp1c" />
         <marker scope="Public" name="Shamiko_resp2a" />
         <marker scope="Public" name="Shamiko_resp2b" />
+        <marker scope="Public" name="Shamiko_resp2c" />
         <marker scope="Public" name="Shamiko0a" />
         <marker scope="Public" name="Shamiko0b" />
         <marker scope="Public" name="Shamiko0c" />
@@ -603,6 +652,8 @@
         <marker scope="Public" name="Shamiko1b" />
         <marker scope="Public" name="Shamiko1bdream" />
         <marker scope="Public" name="Shamiko1bsnake" />
+        <marker scope="Public" name="Shamiko2ca" />
+        <marker scope="Public" name="Shamiko2cb" />
         <marker scope="Public" name="Shamiko4a" />
         <marker scope="Public" name="Shamiko4b" />
         <marker scope="Public" name="Shamiko4c" />
@@ -723,6 +774,7 @@
         <marker scope="Public" name="Wikipe-tan5a" />
         <marker scope="Public" name="Wikipe-tan5b" />
         <marker scope="Public" name="Yae0a" />
+        <marker scope="Public" name="Yae0c" />
         <marker scope="Public" name="YaeMiko_resp0a" />
         <marker scope="Public" name="YaeMiko_resp0b" />
         <marker scope="Public" name="YaeMiko_resp0c" />
