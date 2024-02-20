@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<opponent>
+    <lastupdate>1708389096678</lastupdate>
+    <enabled>false</enabled>
+    <first>Rose</first>
+    <last />
+    <label>Rose</label>
+    <pic>0-anima_happy.png</pic>
+    <gender>female</gender>
+    <from>+Anima</from>
+    <writer>MyMainAccIsANord</writer>
+    <artist>MyMainAccIsANord</artist>
+    <description>A confident young woman and a peddler of accessories. She's also a cat +Anima, meaning she can show or hide catlike traits at will.</description>
+    <layers>6</layers>
+    <default-costume-name>Street Peddler</default-costume-name>
+    <has_collectibles>true</has_collectibles>
+    <lines>606</lines>
+    <poses>244</poses>
+</opponent>
