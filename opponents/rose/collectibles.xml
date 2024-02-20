@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<collectibles>
+    <collectible id="collectible_rose_tigereye" img="opponents/rose/collectibles/collectible_tigereye_full.png" thumbnail="opponents/rose/collectibles/collectible_tigereye.png">
+        <title>Tiger Eye Jewel</title>
+        <text>One of Rose's trinkets, given to you as a gift and a promise for something more.</text>
+        <unlock>Win a game against Rose from +Anima.</unlock>
+        <counter>1</counter>
+    </collectible>
+</collectibles>
