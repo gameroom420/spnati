@@ -1,0 +1,267 @@
+If Sanako to left and Nagatoro to right:
+
+SANAKO MUST STRIP SHOES AND SOCKS:
+Sanako [sanako_nagatoro_sn_s1]: Me? That's no problem. Don't worry about me, okay? I'm more experienced than I look.
+Nagatoro []*: ??
+
+SANAKO STRIPPING SHOES AND SOCKS:
+Sanako []*: ??
+Nagatoro []*: ??
+
+SANAKO STRIPPED SHOES AND SOCKS:
+Sanako []*: ??
+Nagatoro []*: ??
+
+
+SANAKO MUST STRIP SHIRT:
+Sanako []*: ??
+Nagatoro []*: ??
+
+SANAKO STRIPPING SHIRT:
+Sanako []*: ??
+Nagatoro []*: ??
+
+SANAKO STRIPPED SHIRT:
+Sanako []*: ??
+Nagatoro []*: ??
+
+
+SANAKO MUST STRIP SKIRT:
+Sanako []*: ??
+Nagatoro []*: ??
+
+SANAKO STRIPPING SKIRT:
+Sanako []*: ??
+Nagatoro []*: ??
+
+SANAKO STRIPPED SKIRT:
+Sanako []*: ??
+Nagatoro []*: ??
+
+
+SANAKO MUST STRIP BRA:
+Sanako []*: ??
+Nagatoro []*: ??
+
+SANAKO STRIPPING BRA:
+Sanako []*: ??
+Nagatoro []*: ??
+
+SANAKO STRIPPED BRA:
+Sanako []*: ??
+Nagatoro []*: ??
+
+
+SANAKO MUST STRIP PANTIES:
+Sanako []*: ??
+Nagatoro []*: ??
+
+SANAKO STRIPPING PANTIES:
+Sanako []*: ??
+Nagatoro []*: ??
+
+SANAKO STRIPPED PANTIES:
+Sanako []*: ??
+Nagatoro []*: ??
+
+---
+
+NAGATORO MUST STRIP SHOES:
+Sanako [sanako_nagatoro_sn_n1]: Nagatoro, I'd love it if you'd tell us a little about yourself. And about ~player~ too if you're friends.
+Nagatoro []*: ??
+
+NAGATORO STRIPPING SHOES:
+Sanako []*: ??
+Nagatoro []*: ??
+
+NAGATORO STRIPPED SHOES:
+Sanako []*: ??
+Nagatoro []*: ??
+
+
+NAGATORO MUST STRIP SHIRT:
+Sanako []*: ??
+Nagatoro []*: ??
+
+NAGATORO STRIPPING SHIRT:
+Sanako []*: ??
+Nagatoro []*: ??
+
+NAGATORO STRIPPED SHIRT:
+Sanako []*: ??
+Nagatoro []*: ??
+
+
+NAGATORO MUST STRIP SKIRT:
+Sanako []*: ??
+Nagatoro []*: ??
+
+NAGATORO STRIPPING SKIRT:
+Sanako []*: ??
+Nagatoro []*: ??
+
+NAGATORO STRIPPED SKIRT:
+Sanako []*: ??
+Nagatoro []*: ??
+
+
+NAGATORO MUST STRIP SWIMSUIT (top half):
+Sanako []*: ??
+Nagatoro []*: ??
+
+NAGATORO STRIPPING SWIMSUIT (top half):
+Sanako []*: ??
+Nagatoro []*: ??
+
+NAGATORO STRIPPED SWIMSUIT (top half):
+Sanako []*: ??
+Nagatoro []*: ??
+
+
+NAGATORO MUST STRIP SWIMSUIT (bottom half):
+Sanako []*: ??
+Nagatoro []*: ??
+
+NAGATORO STRIPPING SWIMSUIT (bottom half):
+Sanako []*: ??
+Nagatoro []*: ??
+
+NAGATORO STRIPPED SWIMSUIT (bottom half):
+Sanako []*: ??
+Nagatoro []*: ??
+
+---
+DUE TO POSITION DETECTION, CONVERSATIONS ABOVE AND BELOW THIS LINE WON'T PLAY IN THE SAME GAME.
+---
+
+If Nagatoro to left and Sanako to right:
+
+SANAKO MUST STRIP SHOES AND SOCKS:
+Nagatoro []*: ?? -- Nagatoro leads the conversation here; this is just like how you'd write a regular targeted line
+Sanako []*: ??
+
+SANAKO STRIPPING SHOES AND SOCKS:
+Nagatoro []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED SHOES AND SOCKS:
+Nagatoro []*: ??
+Sanako []*: ??
+
+
+SANAKO MUST STRIP SHIRT:
+Nagatoro []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING SHIRT:
+Nagatoro []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED SHIRT:
+Nagatoro []*: ??
+Sanako []*: ??
+
+
+SANAKO MUST STRIP SKIRT:
+Nagatoro []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING SKIRT:
+Nagatoro []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED SKIRT:
+Nagatoro []*: ??
+Sanako []*: ??
+
+
+SANAKO MUST STRIP BRA:
+Nagatoro []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING BRA:
+Nagatoro []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED BRA:
+Nagatoro []*: ??
+Sanako []*: ??
+
+
+SANAKO MUST STRIP PANTIES:
+Nagatoro []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING PANTIES:
+Nagatoro []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED PANTIES:
+Nagatoro []*: ??
+Sanako []*: ??
+
+---
+
+NAGATORO MUST STRIP SHOES:
+Nagatoro []*: ?? -- For lines in this conversation stream, Nagatoro should say something that you think Sanako will have an opinion about. Sanako will reply, and conversation will ensue. Avoid the temptation to mention Sanako specifically here, as when it's Nagatoro's turn, it's her time in the spotlight
+Sanako []*: ??
+
+NAGATORO STRIPPING SHOES:
+Nagatoro []*: ??
+Sanako []*: ??
+
+NAGATORO STRIPPED SHOES:
+Nagatoro []*: ??
+Sanako []*: ??
+
+
+NAGATORO MUST STRIP SHIRT:
+Nagatoro []*: ??
+Sanako []*: ??
+
+NAGATORO STRIPPING SHIRT:
+Nagatoro []*: ??
+Sanako []*: ??
+
+NAGATORO STRIPPED SHIRT:
+Nagatoro []*: ??
+Sanako []*: ??
+
+
+NAGATORO MUST STRIP SKIRT:
+Nagatoro []*: ??
+Sanako []*: ??
+
+NAGATORO STRIPPING SKIRT:
+Nagatoro []*: ??
+Sanako []*: ??
+
+NAGATORO STRIPPED SKIRT:
+Nagatoro []*: ??
+Sanako []*: ??
+
+
+NAGATORO MUST STRIP SWIMSUIT (top half):
+Nagatoro []*: ??
+Sanako []*: ??
+
+NAGATORO STRIPPING SWIMSUIT (top half):
+Nagatoro []*: ??
+Sanako []*: ??
+
+NAGATORO STRIPPED SWIMSUIT (top half):
+Nagatoro []*: ??
+Sanako []*: ??
+
+
+NAGATORO MUST STRIP SWIMSUIT (bottom half):
+Nagatoro []*: ??
+Sanako []*: ??
+
+NAGATORO STRIPPING SWIMSUIT (bottom half):
+Nagatoro []*: ??
+Sanako []*: ??
+
+NAGATORO STRIPPED SWIMSUIT (bottom half):
+Nagatoro []*: ??
+Sanako []*: ??

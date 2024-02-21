@@ -116,6 +116,15 @@
         <response id="287" opponent="ae86" opponentId="6" />
         <response id="288" opponent="ae86" opponentId="5" />
         <response id="289" opponent="ae86" opponentId="1" />
+        <response id="291" opponent="meia" opponentId="1626" />
+        <response id="292" opponent="meia" opponentId="1625" />
+        <response id="293" opponent="meia" opponentId="1619" />
+        <response id="294" opponent="meia" opponentId="1624" />
+        <response id="297" opponent="nagatoro" opponentId="2201" />
+        <response id="298" opponent="nagatoro" opponentId="223" />
+        <response id="299" opponent="nagatoro" opponentId="742" />
+        <response id="300" opponent="jessie" opponentId="15" />
+        <response id="313" opponent="chihiro" opponentId="1" />
     </responses>
     <notes>
         <note id="159">This is a lie.</note>
@@ -379,8 +388,8 @@
         <label id="259" label="" folder="Nagisa to left / Kyou to right" sort="0" />
         <label id="260" label="" folder="Nagisa to left / Kyou to right" sort="2" />
         <label id="261" label="" folder="Nagisa to left / Kyou to right" sort="3" />
-        <label id="263" label="" folder="Chihiro to right" sort="0" />
-        <label id="262" label="" folder="Chihiro to left" sort="0" />
+        <label id="263" label="" folder="Chihiro to left or right" sort="0" />
+        <label id="262" label="" folder="Chihiro to left or right" sort="0" />
         <label id="264" label="" folder="Chihiro to left" sort="2" />
         <label id="265" label="" folder="Chihiro to right" sort="2" />
         <label id="266" label="" folder="Chihiro to right" sort="3" />
@@ -405,12 +414,36 @@
         <label id="285" label="" folder="Kyoko Kirigiri to left" sort="0" />
         <label id="286" label="" folder="Kyoko Kirigiri to left" sort="2" />
         <label id="290" label="" folder="Elizabeth to left" sort="0" />
+        <label id="291" label="" folder="Meia to left" sort="0" />
+        <label id="292" label="" folder="Meia to left" sort="0" />
+        <label id="293" label="" folder="Meia to left" sort="0" />
+        <label id="294" label="" folder="Meia to left" sort="0" />
+        <label id="295" label="" folder="Meia to right" sort="0" />
+        <label id="296" label="" folder="Meia to right" sort="0" />
+        <label id="297" label="" folder="Nagatoro to left" sort="0" />
+        <label id="298" label="" folder="Nagatoro to left" sort="0" />
+        <label id="299" label="" folder="Nagatoro to left or right" sort="0" />
+        <label id="300" label="" folder="Jessie to left" sort="0" />
+        <label id="301" label="" folder="Jessie to left" sort="0" />
+        <label id="302" label="" folder="Nagatoro to right" sort="0" />
+        <label id="303" label="" folder="Nagatoro to right" sort="0" />
+        <label id="304" label="" folder="Yuri to left" sort="0" />
+        <label id="305" label="middle slots empty" folder="" sort="0" />
+        <label id="306" label="middle slots empty" folder="" sort="0" />
+        <label id="307" label="" folder="Chihiro to right" sort="0" />
+        <label id="308" label="" folder="Chihiro to right" sort="0" />
+        <label id="309" label="" folder="Chihiro to right" sort="0" />
+        <label id="310" label="" folder="Chihiro to left" sort="0" />
+        <label id="311" label="" folder="Chihiro to left" sort="0" />
+        <label id="312" label="" folder="Chihiro to left" sort="0" />
+        <label id="313" label="" folder="Chihiro to left" sort="0" />
+        <label id="314" label="" folder="Chihiro to left or right" sort="0" />
     </labels>
     <prefixes>
         <prefix>collectible_</prefix>
         <prefix>x-</prefix>
     </prefixes>
-    <nextId>290</nextId>
+    <nextId>314</nextId>
     <markers>
         <marker scope="Public" name="sanako_ae86_selected" />
         <marker scope="Public" name="sanako_ae86_selected_indoors" />
@@ -423,12 +456,19 @@
         <marker scope="Public" name="sanako_bengal_monitor" />
         <marker scope="Public" name="sanako_bootstraps">Sanako's plan involves bootstraps. But only once because it's very annoying if she says it more than once.</marker>
         <marker scope="Public" name="sanako_card_peek" />
+        <marker scope="Public" name="sanako_chihiro_acceptance" />
         <marker scope="Public" name="sanako_chihiro_cs_c13" />
         <marker scope="Public" name="sanako_chihiro_cs_c14" />
         <marker scope="Public" name="sanako_chihiro_cs_c15" />
+        <marker scope="Public" name="sanako_chihiro_cs_c16" />
+        <marker scope="Public" name="sanako_chihiro_cs_c17" />
+        <marker scope="Public" name="sanako_chihiro_cs_c18" />
         <marker scope="Public" name="sanako_chihiro_sc_c13" />
         <marker scope="Public" name="sanako_chihiro_sc_c14" />
         <marker scope="Public" name="sanako_chihiro_sc_c15" />
+        <marker scope="Public" name="sanako_chihiro_sc_c16" />
+        <marker scope="Public" name="sanako_chihiro_sc_c17" />
+        <marker scope="Public" name="sanako_chihiro_sc_c18" />
         <marker scope="Public" name="sanako_compliments" />
         <marker scope="Public" name="sanako_corrin_boys_name" />
         <marker scope="Public" name="sanako_drama_club_costumes">Sanako thinks a princess is just in costume.</marker>
@@ -441,6 +481,8 @@
         <marker scope="Public" name="sanako_how_you_spend_your_time" />
         <marker scope="Public" name="sanako_human_male_taking_the_lead">Sanako is happy to let the human male player "take the lead".</marker>
         <marker scope="Public" name="sanako_introductions">Sanako invites everybody to introduce themselves.</marker>
+        <marker scope="Public" name="sanako_jessie_forfeit_feedback" />
+        <marker scope="Public" name="sanako_jessie_premium_invite" />
         <marker scope="Public" name="sanako_jessie_qa_backdoor" />
         <marker scope="Public" name="sanako_jessie_qa_darksecrets" />
         <marker scope="Public" name="sanako_jessie_qa_family" />
@@ -508,16 +550,22 @@
         <marker scope="Public" name="sanako_meia_ms_m1" />
         <marker scope="Public" name="sanako_meia_ms_m1_cupid" />
         <marker scope="Public" name="sanako_meia_ms_m2" />
+        <marker scope="Public" name="sanako_meia_ms_m2_cupid" />
+        <marker scope="Public" name="sanako_meia_ms_m3" />
+        <marker scope="Public" name="sanako_meia_ms_m4" />
         <marker scope="Public" name="sanako_meia_ms_s1" />
         <marker scope="Public" name="sanako_meia_ms_s2" />
         <marker scope="Public" name="sanako_meia_ms_s3" />
         <marker scope="Public" name="sanako_meia_ms_s4" />
+        <marker scope="Public" name="sanako_meia_ms_s5" />
         <marker scope="Public" name="sanako_meia_sm_m1" />
         <marker scope="Public" name="sanako_meia_sm_m2" />
         <marker scope="Public" name="sanako_meia_sm_m3" />
+        <marker scope="Public" name="sanako_meia_sm_m4" />
         <marker scope="Public" name="sanako_meia_sm_s1" />
         <marker scope="Public" name="sanako_meia_sm_s2" />
         <marker scope="Public" name="sanako_meia_sm_s3" />
+        <marker scope="Public" name="sanako_meia_sm_s4" />
         <marker scope="Public" name="sanako_mia_spirit_of_things" />
         <marker scope="Public" name="sanako_mia_stern_office_ladies" />
         <marker scope="Public" name="sanako_miko_prince" />
@@ -541,6 +589,11 @@
         <marker scope="Public" name="sanako_most_experience" />
         <marker scope="Public" name="sanako_nadeshiko_sn_n1" />
         <marker scope="Public" name="sanako_nadeshiko_sn_s1" />
+        <marker scope="Public" name="sanako_nagatoro_butt2" />
+        <marker scope="Public" name="sanako_nagatoro_epilogue_ref" />
+        <marker scope="Public" name="sanako_nagatoro_intro" />
+        <marker scope="Public" name="sanako_nagatoro_sn_n1" />
+        <marker scope="Public" name="sanako_nagatoro_sn_s1" />
         <marker scope="Public" name="sanako_nagisa_christmas_date" />
         <marker scope="Public" name="sanako_nagisa_deslected" />
         <marker scope="Public" name="sanako_nagisa_deslected_2" />
@@ -702,6 +755,7 @@
         <marker scope="Public" name="sanako_younger_guy" />
         <marker scope="Public" name="sanako_yuno_erection" />
         <marker scope="Public" name="sanako_yuri_book_recommendations" />
+        <marker scope="Public" name="sanako_yuri_fragrance" />
         <marker scope="Public" name="sanako_yuri_sy_s1" />
         <marker scope="Public" name="sanako_yuri_sy_y1" />
         <marker scope="Public" name="sanako_zeke_selected" />

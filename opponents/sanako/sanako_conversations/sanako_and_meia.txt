@@ -12,19 +12,20 @@ Meia [sanako01left]: You don't need to be concerned with them if they're really 
 
 SANAKO STRIPPED SHOES AND SOCKS:
 Sanako [sanako_meia_sm_s3]: Okay, I can be your after-school tutor. But to keep everyone else happy, I might have to get a little bit nude doing it. I hope that's alright.
-Meia []*: ??
+Meia [sanako1s_left]: You're awfully worried about what we all think...
+  OR [sanako1s_left]: You might lose sight of what you want if you keep trying to please all of <i>us...</i>
 
 
 SANAKO MUST STRIP SHIRT:
-Sanako []*: ??
+Sanako [sanako_meia_sm_s4]: Doesn't a uniform like this make you nostalgic for your high school days? I think that's true even if you're still in school. I remember racing home on a hot afternoon, eager to cool down any way I could.
 Meia []*: ??
 
 SANAKO STRIPPING SHIRT:
-Sanako []*: ??
+Sanako [sanako_meia_sm_s5]*: ??
 Meia []*: ??
 
 SANAKO STRIPPED SHIRT:
-Sanako []*: ??
+Sanako [sanako_meia_sm_s6]*: ??
 Meia []*: ??
 
 
@@ -80,19 +81,20 @@ Meia [sanako_resp01]: ...When people say that kind of thing, they're usually tal
 
 MEIA STRIPPED HEADPIECE:
 Sanako [sanako_meia_sm_m3]: Forget your troubles and let's get comfortable, okay? We'll turn that frown upside down in no time!
-Meia []*: ??
+Meia []: ...It should be interesting, at least.
+  OR []: ...I'm sure I'll learn something.
 
 
 MEIA MUST STRIP ARMOR:
-Sanako []*: ??
+Sanako [sanako_meia_sm_m4]: Meia, would you mind if I asked how you keep yourself so especially trim? Are you on a special diet, or do you just burn off all those calories throughout the day?
 Meia []*: ??
 
 MEIA STRIPPING ARMOR:
-Sanako []*: ??
+Sanako [sanako_meia_sm_m5]*: ??
 Meia []*: ??
 
 MEIA STRIPPED ARMOR:
-Sanako []*: ??
+Sanako [sanako_meia_sm_m6]*: ??
 Meia []*: ??
 
 
@@ -162,8 +164,9 @@ Meia [sanako1]: ...Are you here trying to get out more, before your "life begins
 Sanako [sanako_meia_ms_s4]: Who, me? Ah, I guess you could say that. But life doesn't end when you have responsibilities. You still get a chance to play around every now and then.
 
 SANAKO STRIPPING SHIRT:
-Meia []*: ??
-Sanako [sanako_meia_ms_s5]*: ??
+Meia [sanako12]: ...How do you know that?
+  OR [sanako12]: ...You sound awfully confident about the future.
+Sanako [sanako_meia_ms_s5]: Oh, you know... just some maternal wisdom passed down to me.
 
 SANAKO STRIPPED SHIRT:
 Meia []*: ??
@@ -224,8 +227,9 @@ Meia [sanako_resp01right]: ...So you'd never wear something like this yourself, 
 Sanako [sanako_meia_ms_m2]: Me? Oh, no, I couldn't. I'm not that slim anymore. I wouldn't want to stretch that lovely fabric out of shape.
 
 MEIA STRIPPED HEADPIECE:
-Meia []*: ??
-Sanako [sanako_meia_ms_m3]*: ??
+Meia [sanako_resp1s_right]: "Anymore"?
+  OR [sanako_resp1s_right]: ...Aren't you my age?
+Sanako [sanako_meia_ms_m3]: Ahaha... I mean, um, when I was a little girl. I wore such a cute little leotard for ballet classes, but proportions are very different now...
 
 
 MEIA MUST STRIP EYEPATCH (CUPID):
@@ -234,8 +238,9 @@ Meia [sanako_resp0right_cupid]: I'll keep things simple for now, but a lot of th
 Sanako [sanako_meia_ms_m1_cupid]: I've been meaning to tell you what a beautiful set it is. Fit for a showgirl!
 
 MEIA STRIPPING EYEPATCH (CUPID):
-Meia []*: ??
-Sanako [sanako_meia_ms_m2_cupid]*: ??
+Meia [sanako_resp01right_cupid]: Sanako?<br>...It does kind of remind me of my old idol dresses.
+  OR [sanako_resp01right_cupid]: I used to <i>be</i> a showgirl, Sanako.  An idol.  I was really young, but my costumes were busy.
+Sanako [sanako_meia_ms_m2_cupid]: Aw, that's so sweet! I can just imagine you a few years younger, singing and dancing and making everybody smile!
 
 MEIA STRIPPED EYEPATCH (CUPID):
 Meia []*: ??
@@ -245,15 +250,15 @@ Sanako [sanako_meia_ms_m3_cupid]*: ??
 MEIA MUST STRIP ARMOR:
 Meia [sanako_resp1right]: ...It's me.  I keep trying to multitask...
   OR [sanako_resp1right]: ...That's what I get for filling out maintenance requests this hand.
-Sanako []*: ??
+Sanako [sanako_meia_ms_m4]: You know, Meia, I find that if something's worth doing, it's worth giving my full attention to. You might even start to enjoy yourself a little more.
 
 MEIA STRIPPING ARMOR:
 Meia []*: ??
-Sanako []*: ??
+Sanako [sanako_meia_ms_m5]*: ??
 
 MEIA STRIPPED ARMOR:
 Meia []*: ??
-Sanako []*: ??
+Sanako [sanako_meia_ms_m6]*: ??
 
 
 MEIA MUST STRIP BODYSUIT:
@@ -285,7 +290,8 @@ Sanako []*: ??
 
 
 MEIA MUST STRIP SHORTS:
-Meia []*: ??
+Meia [sanako_resp4right]: ...This is it for me.  We're supposed to make it sexy, aren't we...?
+  OR [sanako_resp4right]: I guess...getting naked was inevitable.  Instead of just stripping, we're meant to play it up...
 Sanako []*: ??
 
 MEIA STRIPPING SHORTS:
