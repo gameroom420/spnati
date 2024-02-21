@@ -110,4 +110,8 @@
         <marker scope="Public" name="lyn_zelda_kokori" />
         <marker scope="Public" name="orgasmtrust" />
     </markers>
+    <pendingLines>
+        <line>Looks like I've been blessed by St. Elimine herself.</line>
+        <line>~Player~, would you share your story with me?</line>
+    </pendingLines>
 </metadata>
