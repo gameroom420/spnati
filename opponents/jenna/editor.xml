@@ -114,6 +114,9 @@
         <response id="201" opponent="joey" opponentId="84" />
         <response id="202" opponent="joey" opponentId="26" />
         <response id="203" opponent="mia_golden_sun" opponentId="636" />
+        <response id="236" opponent="nonon" opponentId="226" />
+        <response id="237" opponent="nonon" opponentId="119" />
+        <response id="238" opponent="nonon" opponentId="779" />
     </responses>
     <labels>
         <label id="11" label="" folder="Lore" sort="0" />
@@ -192,9 +195,15 @@
         <label id="233" label="" folder="Mia" sort="0" />
         <label id="234" label="" folder="Mia" sort="0" />
         <label id="235" label="" folder="Mia" sort="0" />
+        <label id="239" label="" folder="Psynergy" sort="0" />
+        <label id="240" label="" folder="Lore" sort="0" />
+        <label id="241" label="" folder="Lore" sort="0" />
+        <label id="242" label="" folder="Lore" sort="0" />
+        <label id="243" label="" folder="Lore" sort="0" />
+        <label id="244" label="" folder="Lore" sort="0" />
     </labels>
     <onlyCustomPoses>true</onlyCustomPoses>
-    <nextId>235</nextId>
+    <nextId>244</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Private" name="adv_poseposition" />
@@ -231,6 +240,10 @@
         <marker scope="Public" name="Mari_hair" />
         <marker scope="Public" name="nonon01" />
         <marker scope="Public" name="nonon02" />
+        <marker scope="Public" name="psynergy1" />
+        <marker scope="Public" name="psynergy2" />
+        <marker scope="Public" name="psynergy3" />
+        <marker scope="Public" name="psynergy4" />
         <marker scope="Public" name="scarf1" />
         <marker scope="Public" name="self_finished" />
         <marker scope="Public" name="self_finished2" />

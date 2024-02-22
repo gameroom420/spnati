@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1707441678447</lastupdate>
+    <lastupdate>1708547230426</lastupdate>
     <enabled>false</enabled>
     <first>Jenna</first>
     <last />
@@ -14,6 +14,6 @@
     <layers>7</layers>
     <default-costume-name>Vale Venturer</default-costume-name>
     <has_collectibles>false</has_collectibles>
-    <lines>1000</lines>
+    <lines>1031</lines>
     <poses>223</poses>
 </opponent>
