@@ -105,10 +105,12 @@
         <marker scope="Public" name="Shamiko" />
         <marker scope="Public" name="Shamiko_" />
         <marker scope="Public" name="Shamiko_Aqua" />
+        <marker scope="Public" name="Shamiko_Aqua_blessing" />
         <marker scope="Public" name="Shamiko_Aqua_KS_good" />
         <marker scope="Public" name="Shamiko_AquaKS" />
         <marker scope="Public" name="Shamiko_AquaKS_apologize" />
         <marker scope="Public" name="Shamiko_AquaKS_assume" />
+        <marker scope="Public" name="Shamiko_AquaKS_blessing" />
         <marker scope="Public" name="Shamiko_AquaKS_comfy" />
         <marker scope="Public" name="Shamiko_AquaKS_concern" />
         <marker scope="Public" name="Shamiko_AquaKS_cook" />
@@ -133,7 +135,9 @@
         <marker scope="Public" name="Shamiko_AquaKS_notevil" />
         <marker scope="Public" name="Shamiko_AquaKS_order" />
         <marker scope="Public" name="Shamiko_AquaKS_overherhead" />
+        <marker scope="Public" name="Shamiko_AquaKS_PI" />
         <marker scope="Public" name="Shamiko_AquaKS_poison" />
+        <marker scope="Public" name="Shamiko_AquaKS_pure" />
         <marker scope="Public" name="Shamiko_AquaKS_rockbottom" />
         <marker scope="Public" name="Shamiko_AquaKS_route" />
         <marker scope="Public" name="Shamiko_AquaKS_shesnottho" />
@@ -171,14 +175,21 @@
         <marker scope="Public" name="Shamiko_Bowsette_cook" />
         <marker scope="Public" name="Shamiko_Bowsette_horns1" />
         <marker scope="Public" name="Shamiko_Bowsette_pair" />
+        <marker scope="Public" name="Shamiko_Cag_fail" />
+        <marker scope="Public" name="Shamiko_Cag_reaching" />
+        <marker scope="Public" name="Shamiko_Cag_soup" />
         <marker scope="Public" name="Shamiko_Caitlin_sleepy" />
         <marker scope="Public" name="Shamiko_Dunban_cool" />
         <marker scope="Public" name="Shamiko_Dunban_request" />
         <marker scope="Public" name="Shamiko_Erufuda_share" />
+        <marker scope="Public" name="Shamiko_Jura_fuming" />
+        <marker scope="Public" name="Shamiko_Jura_goals" />
         <marker scope="Public" name="Shamiko_Jura_pilot" />
         <marker scope="Public" name="Shamiko_Kyoko_detective" />
         <marker scope="Public" name="Shamiko_Kyoko_training." />
         <marker scope="Public" name="Shamiko_Kyouko_badguy" />
+        <marker scope="Public" name="Shamiko_Kyouko_nemesis" />
+        <marker scope="Public" name="Shamiko_Laev_appearence" />
         <marker scope="Public" name="Shamiko_MariS_affinity" />
         <marker scope="Public" name="Shamiko_MariS_answer2" />
         <marker scope="Public" name="Shamiko_MariS_ask" />
@@ -196,6 +207,9 @@
         <marker scope="Public" name="Shamiko_MariS_whatnow" />
         <marker scope="Public" name="Shamiko_MariS_wholesome" />
         <marker scope="Public" name="Shamiko_Meia_cool" />
+        <marker scope="Public" name="Shamiko_Meia_girl" />
+        <marker scope="Public" name="Shamiko_Meia_Stransform" />
+        <marker scope="Public" name="Shamiko_Meia_try" />
         <marker scope="Public" name="Shamiko_MiaGS_altteach" />
         <marker scope="Public" name="Shamiko_MiaGS_attitude" />
         <marker scope="Public" name="Shamiko_MiaGS_defenseive" />
@@ -204,6 +218,7 @@
         <marker scope="Public" name="Shamiko_MiaGS_potential" />
         <marker scope="Public" name="Shamiko_MiaGS_whoosh" />
         <marker scope="Public" name="Shamiko_Miko_contracts" />
+        <marker scope="Public" name="Shamiko_Miko_excuse" />
         <marker scope="Public" name="Shamiko_Miko_momo" />
         <marker scope="Public" name="Shamiko_Miko_physical" />
         <marker scope="Public" name="Shamiko_Miko_plan" />
@@ -220,12 +235,14 @@
         <marker scope="Public" name="Shamiko_Nami_pride" />
         <marker scope="Public" name="Shamiko_NicoR_history" />
         <marker scope="Public" name="Shamiko_Nonon_demon" />
+        <marker scope="Public" name="Shamiko_Nonon_list" />
         <marker scope="Public" name="Shamiko_Nonon_pull" />
         <marker scope="Public" name="Shamiko_Perona_fan" />
         <marker scope="Public" name="Shamiko_Perona_pride" />
         <marker scope="Public" name="Shamiko_Queenie_shortanswer" />
         <marker scope="Public" name="Shamiko_Reimu_advice" />
         <marker scope="Public" name="Shamiko_Reimu_fade" />
+        <marker scope="Public" name="Shamiko_Reimu_goals" />
         <marker scope="Public" name="Shamiko_Reimu_identity" />
         <marker scope="Public" name="Shamiko_Reimu_nice" />
         <marker scope="Public" name="Shamiko_resp0c" />
@@ -240,6 +257,8 @@
         <marker scope="Public" name="Shamiko_WPtan_right" />
         <marker scope="Public" name="Shamiko_Y" />
         <marker scope="Public" name="Shamiko_Ymiko_act" />
+        <marker scope="Public" name="Shamiko_Ymiko_scare" />
+        <marker scope="Public" name="Shamiko_Ymiko_scare2" />
         <marker scope="Public" name="Shamiko_Yumeko_analogy" />
         <marker scope="Public" name="Shamiko_yumeko_camp" />
         <marker scope="Public" name="Shamiko_Yumeko_cardluck" />
