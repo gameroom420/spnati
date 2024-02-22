@@ -235,6 +235,9 @@
         <response id="1549" opponent="arle" opponentId="480" />
         <response id="1550" opponent="arle" opponentId="481" />
         <response id="1554" opponent="caitlin" opponentId="323" />
+        <response id="1577" opponent="queenie" opponentId="460" />
+        <response id="1582" opponent="neptune" opponentId="70" />
+        <response id="1583" opponent="neptune" opponentId="71" />
     </responses>
     <notes>
         <note id="438">I believe Aqua is actually too lazy to go through with this, so that could potentially come up if Noire mentions the work it takes to be an idol.</note>
@@ -246,6 +249,7 @@
         <note id="1539">Aqua is doing her absolute best to not mention any of her teammates negative qualities, and avoids naming them in case they are present.</note>
         <note id="1540">Aqua is doing her absolute best to not mention any of her teammates negative qualities, and avoids naming them in case they are present.</note>
         <note id="1545">This line is hidden, but I'm writing it in advance because I can imagine what Reimu's reply to the previous one will be.</note>
+        <note id="1595">This is an arrant lie, BUT not from Aqua's perspective, she genuinely believes herself to be above the others when she's just as bad if not worse. So therefore this doesn't break her incapability of lying detailed in her targeting guide, just wanted to clarify that.</note>
     </notes>
     <labels>
         <label id="17" label="" folder="Axis Sheet Collectible" sort="0" />
@@ -715,7 +719,7 @@
         <label id="501" label="" folder="Summer Goddess of Axis" sort="4" />
         <label id="502" label="" folder="Summer Goddess of Axis" sort="12" />
         <label id="503" label="" folder="Summer Goddess of Axis" sort="11" />
-        <label id="504" label="" color="1" folder="Replies" sort="18" />
+        <label id="504" label="" folder="Replies" sort="18" />
         <label id="508" label="" folder="Replies" sort="16" />
         <label id="509" label="" folder="Replies" sort="19" />
         <label id="510" label="" color="0" folder="Targets" sort="155" />
@@ -1535,12 +1539,12 @@
         <label id="1372" label="" folder="Targets" sort="42" />
         <label id="1373" label="" folder="Replies" sort="102" />
         <label id="1374" label="" color="1" folder="Replies" sort="0" />
-        <label id="1375" label="" color="1" folder="Replies" sort="168" />
-        <label id="1376" label="" color="1" folder="Replies" sort="169" />
-        <label id="1377" label="" color="1" folder="Replies" sort="170" />
-        <label id="1378" label="" color="1" folder="Replies" sort="171" />
-        <label id="1379" label="" color="1" folder="Replies" sort="172" />
-        <label id="1380" label="" color="1" folder="Replies" sort="173" />
+        <label id="1375" label="" folder="Replies" sort="168" />
+        <label id="1376" label="" folder="Replies" sort="169" />
+        <label id="1377" label="" folder="Replies" sort="170" />
+        <label id="1378" label="" folder="Replies" sort="171" />
+        <label id="1379" label="" folder="Replies" sort="172" />
+        <label id="1380" label="" folder="Replies" sort="173" />
         <label id="1381" label="" folder="Targets" sort="539" />
         <label id="1382" label="" folder="Replies" sort="174" />
         <label id="1383" label="" color="1" folder="Targets" sort="0" />
@@ -1696,12 +1700,12 @@
         <label id="1536" label="" folder="Yumeko Aqua Catmode" sort="0" />
         <label id="1537" label="" folder="Yumeko Aqua Catmode" sort="0" />
         <label id="1538" label="" folder="Yumeko Aqua Catmode" sort="0" />
-        <label id="1539" label="" color="1" folder="Replies" sort="0" />
-        <label id="1540" label="" color="1" folder="Summer Goddess of Axis" sort="0" />
-        <label id="1541" label="" color="1" folder="Targets" sort="0" />
+        <label id="1539" label="" folder="Replies" sort="0" />
+        <label id="1540" label="" folder="Summer Goddess of Axis" sort="0" />
+        <label id="1541" label="" folder="Targets" sort="0" />
         <label id="1542" label="" color="5" folder="Replies" sort="0" />
-        <label id="1543" label="" color="1" folder="Targets" sort="0" />
-        <label id="1544" label="" color="1" folder="Replies" sort="0" />
+        <label id="1543" label="" folder="Targets" sort="0" />
+        <label id="1544" label="" folder="Replies" sort="0" />
         <label id="1545" label="" color="5" folder="Replies" sort="0" />
         <label id="1546" label="" color="1" folder="Replies" sort="0" />
         <label id="1547" label="" color="1" folder="Replies" sort="0" />
@@ -1709,28 +1713,49 @@
         <label id="1549" label="" color="5" folder="Targets" sort="0" />
         <label id="1550" label="" color="1" folder="Replies" sort="0" />
         <label id="1554" label="" color="1" folder="Replies" sort="0" />
-        <label id="1555" label="" color="1" folder="Replies" sort="0" />
-        <label id="1556" label="" color="1" folder="Targets" sort="0" />
-        <label id="1557" label="" color="1" folder="Targets" sort="0" />
-        <label id="1558" label="" color="1" folder="Targets" sort="0" />
-        <label id="1559" label="" color="3" folder="Replies" sort="0" />
-        <label id="1560" label="" color="3" folder="Replies" sort="0" />
-        <label id="1561" label="" color="3" folder="Replies" sort="0" />
-        <label id="1562" label="" color="1" folder="Targets" sort="0" />
-        <label id="1563" label="" color="1" folder="Targets" sort="0" />
-        <label id="1564" label="" color="1" folder="Targets" sort="0" />
-        <label id="1565" label="" color="1" folder="Targets" sort="0" />
-        <label id="1566" label="" color="1" folder="Targets" sort="0" />
-        <label id="1567" label="" color="1" folder="Targets" sort="0" />
-        <label id="1568" label="" color="1" folder="Targets" sort="0" />
-        <label id="1569" label="" color="1" folder="Replies" sort="0" />
-        <label id="1570" label="" color="1" folder="Replies" sort="0" />
-        <label id="1571" label="" color="1" folder="Replies" sort="0" />
-        <label id="1572" label="" color="1" folder="Replies" sort="0" />
+        <label id="1555" label="" folder="Replies" sort="0" />
+        <label id="1556" label="" folder="Targets" sort="0" />
+        <label id="1557" label="" folder="Targets" sort="0" />
+        <label id="1558" label="" folder="Targets" sort="0" />
+        <label id="1559" label="" folder="Replies" sort="0" />
+        <label id="1560" label="" folder="Replies" sort="0" />
+        <label id="1561" label="" folder="Replies" sort="0" />
+        <label id="1562" label="" folder="Targets" sort="0" />
+        <label id="1563" label="" folder="Targets" sort="0" />
+        <label id="1564" label="" folder="Targets" sort="0" />
+        <label id="1565" label="" folder="Targets" sort="0" />
+        <label id="1566" label="" folder="Targets" sort="0" />
+        <label id="1567" label="" folder="Targets" sort="0" />
+        <label id="1568" label="" folder="Targets" sort="0" />
+        <label id="1569" label="" folder="Replies" sort="0" />
+        <label id="1570" label="" folder="Replies" sort="0" />
+        <label id="1571" label="" folder="Replies" sort="0" />
+        <label id="1572" label="" folder="Replies" sort="0" />
         <label id="1573" label="" color="1" folder="Replies" sort="0" />
         <label id="1574" label="" folder="Targets" sort="0" />
+        <label id="1575" label="" color="3" folder="Replies" sort="0" />
+        <label id="1576" label="" color="3" folder="Replies" sort="0" />
+        <label id="1577" label="" color="1" folder="Replies" sort="0" />
+        <label id="1578" label="" color="1" folder="Replies" sort="0" />
+        <label id="1579" label="" color="1" folder="Replies" sort="0" />
+        <label id="1580" label="" color="1" folder="Targets" sort="0" />
+        <label id="1581" label="" color="1" folder="Targets" sort="0" />
+        <label id="1582" label="" color="3" folder="Replies" sort="0" />
+        <label id="1583" label="" color="3" folder="Replies" sort="0" />
+        <label id="1584" label="" color="3" folder="Replies" sort="0" />
+        <label id="1585" label="" color="3" folder="Replies" sort="0" />
+        <label id="1586" label="" color="1" folder="Targets" sort="0" />
+        <label id="1587" label="" color="1" folder="Replies" sort="0" />
+        <label id="1588" label="" color="1" folder="Replies" sort="0" />
+        <label id="1589" label="" color="1" folder="Replies" sort="0" />
+        <label id="1590" label="" color="1" folder="Targets" sort="0" />
+        <label id="1591" label="" color="1" folder="Replies" sort="0" />
+        <label id="1592" label="" color="1" folder="Summer Goddess of Axis" sort="0" />
+        <label id="1593" label="" color="1" folder="Targets" sort="0" />
+        <label id="1594" label="" color="3" folder="Replies" sort="0" />
+        <label id="1595" label="" color="1" folder="Targets" sort="0" />
     </labels>
-    <nextId>1574</nextId>
+    <nextId>1595</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="Aella_howStrong" />
@@ -1884,9 +1909,11 @@
         <marker scope="Public" name="Asuna_fantasy_world_endB" />
         <marker scope="Public" name="Asuna_hobbies_question" />
         <marker scope="Public" name="Asuna_otherHobbies_cont" />
+        <marker scope="Public" name="Asuna_otherHobbies_end" />
         <marker scope="Public" name="Asuna_otherHobbies_question" />
         <marker scope="Public" name="Asuna_SelfGoddess_reply" />
         <marker scope="Public" name="Asuna_SelfGoddess_reply2" />
+        <marker scope="Public" name="Asuna_SelfGoddess_reply3" />
         <marker scope="Public" name="Asuna_VR_AR_complain" />
         <marker scope="Public" name="Asuna_VR_AR_cont" />
         <marker scope="Public" name="Asuna_VR_AR_end" />
@@ -2118,12 +2145,15 @@
         <marker scope="Public" name="Lysithea_faith_reply" />
         <marker scope="Public" name="Lysithea_faith_reply2" />
         <marker scope="Public" name="Lysithea_faith_reply2B" />
+        <marker scope="Public" name="Lysithea_faith_reply3" />
         <marker scope="Public" name="Lysithea_goddess_reply" />
         <marker scope="Public" name="Lysithea_goddess_reply2" />
         <marker scope="Public" name="Lysithea_goddess_reply2B" />
+        <marker scope="Public" name="Lysithea_goddess_reply3" />
         <marker scope="Public" name="Lysithea_praise_reply" />
         <marker scope="Public" name="Lysithea_praise_reply2" />
         <marker scope="Public" name="Lysithea_praise_reply2B" />
+        <marker scope="Public" name="Lysithea_praise_reply3" />
         <marker scope="Public" name="Megamix_game_start" />
         <marker scope="Public" name="Megumin_Cape1" />
         <marker scope="Public" name="Megumin_Cape2" />
@@ -2215,8 +2245,10 @@
         <marker scope="Public" name="Mia_swimsuit_react" />
         <marker scope="Public" name="Miko_ImmortalGuide" />
         <marker scope="Public" name="Miko_ImmortalGuide_cont" />
+        <marker scope="Public" name="Miko_ImmortalGuide_end" />
         <marker scope="Public" name="Miko_SelfDisciples_reply" />
         <marker scope="Public" name="Miko_SelfDisciples_reply2" />
+        <marker scope="Public" name="Miko_SelfDisciples_reply3" />
         <marker scope="Public" name="Miko_SelfGoddess_reply" />
         <marker scope="Public" name="Miko_SelfGoddess_reply2" />
         <marker scope="Public" name="Miko_SelfGoddess_reply3" />
@@ -2289,14 +2321,18 @@
         <marker scope="Public" name="Neptune_NEET_cont" />
         <marker scope="Public" name="Neptune_NEET_end" />
         <marker scope="Public" name="Neptune_Queen_cont" />
+        <marker scope="Public" name="Neptune_Queen_end" />
         <marker scope="Public" name="Neptune_Queen_question" />
         <marker scope="Public" name="Neptune_Reprisal_reply" />
         <marker scope="Public" name="Neptune_Reprisal_reply2" />
         <marker scope="Public" name="Neptune_Reprisal_reply2B" />
+        <marker scope="Public" name="Neptune_Reprisal_reply3" />
+        <marker scope="Public" name="Neptune_Reprisal_reply3B" />
         <marker scope="Public" name="Neptune_Reprisal_replyB" />
         <marker scope="Public" name="Neptune_SelfNation_reply" />
         <marker scope="Public" name="Neptune_SelfNation_reply2" />
         <marker scope="Public" name="Neptune_SelfNation_reply2B" />
+        <marker scope="Public" name="Neptune_SelfNation_reply3" />
         <marker scope="Public" name="Neptune_showerBath_reply" />
         <marker scope="Public" name="Neptune_stateGoddess_react" />
         <marker scope="Public" name="NicoRobin_ability_limits" />
@@ -2338,6 +2374,7 @@
         <marker scope="Public" name="Noire_vert_cont" />
         <marker scope="Public" name="Noire_WateryHeart_reply" />
         <marker scope="Public" name="Nonon_crimsonDemons" />
+        <marker scope="Public" name="Nonon_crimsonDemons_end" />
         <marker scope="Public" name="Nonon_cumThreat_reply" />
         <marker scope="Public" name="Nonon_dressStrip_react" />
         <marker scope="Public" name="Nonon_lady_jakuzure_reply" />
@@ -2409,10 +2446,14 @@
         <marker scope="Public" name="Queenie_protector_question" />
         <marker scope="Public" name="Queenie_reply1" />
         <marker scope="Public" name="Queenie_reply1_cont" />
+        <marker scope="Public" name="Queenie_reply1_end" />
+        <marker scope="Public" name="Queenie_reply2" />
+        <marker scope="Public" name="Queenie_reply3" />
         <marker scope="Public" name="Queenie_staffForfeit_react" />
         <marker scope="Public" name="Realize_SelfForfeit" />
         <marker scope="Public" name="Realize_SelfForfeit2" />
         <marker scope="Public" name="Reimu_godFighter" />
+        <marker scope="Public" name="Reimu_godFighter_cont" />
         <marker scope="Public" name="Reimu_moneyMaking_reply" />
         <marker scope="Public" name="Reimu_moneyMaking_reply2" />
         <marker scope="Public" name="Reimu_moneyMaking_reply3" />
