@@ -905,11 +905,31 @@
         <label id="1528" label="" color="4" folder="" sort="0" />
         <label id="1534" label="" color="4" folder="" sort="0" />
         <label id="1540" label="" color="4" folder="" sort="0" />
+        <label id="1541" label="" color="2" folder="" sort="0" />
+        <label id="1542" label="" color="2" folder="" sort="0" />
+        <label id="1543" label="" color="2" folder="" sort="0" />
+        <label id="1544" label="" color="2" folder="" sort="0" />
+        <label id="1545" label="" color="2" folder="" sort="0" />
+        <label id="1546" label="" color="2" folder="" sort="0" />
+        <label id="1547" label="" color="2" folder="" sort="0" />
+        <label id="1548" label="" color="2" folder="" sort="0" />
+        <label id="1549" label="" color="2" folder="" sort="0" />
+        <label id="1550" label="" color="2" folder="" sort="0" />
+        <label id="1551" label="" color="2" folder="" sort="0" />
+        <label id="1552" label="" color="2" folder="" sort="0" />
+        <label id="1553" label="" color="2" folder="" sort="0" />
+        <label id="1554" label="" color="2" folder="" sort="0" />
+        <label id="1555" label="" color="2" folder="" sort="0" />
+        <label id="1556" label="" color="2" folder="" sort="0" />
+        <label id="1557" label="" color="2" folder="" sort="0" />
+        <label id="1558" label="" color="4" folder="" sort="0" />
+        <label id="1559" label="" color="2" folder="" sort="0" />
+        <label id="1560" label="" color="2" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>jura</prefix>
     </prefixes>
-    <nextId>1540</nextId>
+    <nextId>1560</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="1v1">Jura acknowledges that the game has come down to her and one other player.</marker>
@@ -1013,6 +1033,9 @@
         <marker scope="Public" name="astolfo0" />
         <marker scope="Public" name="astolfo1" />
         <marker scope="Public" name="asuna_y0" />
+        <marker scope="Public" name="aura_camera" />
+        <marker scope="Public" name="aura_camera_bshot" />
+        <marker scope="Public" name="aura_camera_shot" />
         <marker scope="Public" name="ayano_seduction" />
         <marker scope="Public" name="ayano_seduction_meia" />
         <marker scope="Public" name="ayano_selected" />
@@ -1215,6 +1238,7 @@
         <marker scope="Public" name="cynthia3" />
         <marker scope="Public" name="cynthia3alt" />
         <marker scope="Public" name="cynthia3s" />
+        <marker scope="Public" name="cz75" />
         <marker scope="Public" name="darkness0" />
         <marker scope="Public" name="darkness1" />
         <marker scope="Public" name="dawn_bsss0" />
@@ -2476,6 +2500,7 @@
         <marker scope="Public" name="petra1" />
         <marker scope="Public" name="petra2" />
         <marker scope="Public" name="petra3" />
+        <marker scope="Public" name="photo_collectible" />
         <marker scope="Public" name="pinkie_bunny0" />
         <marker scope="Public" name="planetcountries">Jura misinterprets an Earth nation as an entire planet.</marker>
         <marker scope="Public" name="polly_fh0" />
@@ -2569,6 +2594,7 @@
         <marker scope="Public" name="rosa1s" />
         <marker scope="Public" name="rosa2" />
         <marker scope="Public" name="rosa3" />
+        <marker scope="Public" name="rose0" />
         <marker scope="Public" name="rouge_babies" />
         <marker scope="Public" name="rouge_hobbies" />
         <marker scope="Public" name="rouge_jewel" />

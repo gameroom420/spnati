@@ -1991,23 +1991,23 @@
         </pose>
         <pose id="5-butt2silent">
             <sprite id="butt2" src="reskins/meia_cupid/5-butt2.png" x="0" y="0" />
-            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilent.png" x="73" y="284" />
+            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilent.png" x="74" y="283" />
         </pose>
         <pose id="5-butt3silent">
             <sprite id="butt3" src="reskins/meia_cupid/5-butt3.png" x="0" y="0" />
-            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilent.png" x="54" y="293" scaley="1" rotation="8" />
+            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilent.png" x="55" y="292" scaley="1" rotation="8" />
         </pose>
         <pose id="5-butt4silent">
             <sprite id="butt2" src="reskins/meia_cupid/5-butt4.png" x="0" y="0" />
-            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilent.png" x="60" y="281" />
+            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilent.png" x="60" y="280" />
         </pose>
         <pose id="5-buttchecksilent">
             <sprite id="butt2" src="reskins/meia_cupid/5-buttcheck.png" x="0" y="0" />
-            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilent.png" x="82" y="279" rotation="-11" />
+            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilent.png" x="82" y="278" rotation="-11" />
         </pose>
         <pose id="5-buttspread2silent">
             <sprite id="butt2" src="reskins/meia_cupid/5-buttspread2.png" x="0" y="0" />
-            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilent.png" x="83" y="284" />
+            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilent.png" x="84" y="284" />
         </pose>
         <pose id="5-buttspreadsilent">
             <sprite id="butt2" src="reskins/meia_cupid/5-buttspread.png" x="0" y="0" />
@@ -2439,7 +2439,7 @@
         </pose>
         <pose id="5-butt3silentsmile">
             <sprite id="butt3" src="reskins/meia_cupid/5-butt3.png" x="0" y="0" />
-            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilentsmile.png" x="54" y="293" scaley="1" rotation="8" />
+            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilentsmile.png" x="54" y="292" scaley="1" rotation="8" />
         </pose>
         <pose id="5-butt4silentsmile">
             <sprite id="butt2" src="reskins/meia_cupid/5-butt4.png" x="0" y="0" />
@@ -2447,7 +2447,7 @@
         </pose>
         <pose id="5-buttchecksilentsmile">
             <sprite id="butt2" src="reskins/meia_cupid/5-buttcheck.png" x="0" y="0" />
-            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilentsmile.png" x="82" y="279" rotation="-11" />
+            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilentsmile.png" x="81" y="278" rotation="-11" />
         </pose>
         <pose id="5-buttspread2silentsmile">
             <sprite id="butt2" src="reskins/meia_cupid/5-buttspread2.png" x="0" y="0" />
@@ -2491,6 +2491,43 @@
             <directive type="animation" id="Rouge_TreasureScope_Lens" ease="linear" interpolation="none">
                 <keyframe time="0" src="reskins/meia_cupid/Rouge_TreasureScope_Lens.png" />
                 <keyframe time="3" src="reskins/meia_cupid/Rouge_TreasureScope_Lens.png" />
+            </directive>
+        </pose>
+        <pose id="0-aura">
+            <sprite id="embarrassed" src="reskins/meia_cupid/0-silent2.png" x="0" y="0" alpha="100" />
+            <sprite id="auracamera" z="1" src="reskins/meia_cupid/auracamera.png" x="-64" y="600" scalex="2.5" scaley="2.5" alpha="0" />
+            <sprite id="cameraflash" delay="1.25" src="reskins/meia_cupid/cameraflash.png" x="-10" y="418" scalex="0.1" scaley="0.1" alpha="0" />
+            <sprite id="aura" delay="1.38" src="reskins/meia_cupid/aura.png" x="0" y="0" alpha="0" />
+            <directive type="animation" id="embarrassed" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" alpha="100" />
+                <keyframe time="1" alpha="100" />
+                <keyframe time="1.38" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="auracamera" ease="linear" interpolation="linear">
+                <keyframe time="0" x="-64" y="600" scalex="2.5" scaley="2.5" alpha="0" />
+                <keyframe time="1" x="-64" y="317" scalex="2.5" scaley="2.5" alpha="100" />
+                <keyframe time="1.38" x="-64" y="317" scalex="2.5" scaley="2.5" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="auracamera" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/meia_cupid/auracamera.png" />
+                <keyframe time="1" src="meia/auracamera.png" />
+                <keyframe time="1.38" src="meia/auracamera.png" />
+            </directive>
+            <directive type="animation" id="cameraflash" delay="1.25" ease="ease-out-cubic" interpolation="linear">
+                <keyframe time="0" scalex="0.1" scaley="0.1" alpha="0" />
+                <keyframe time="0.13" scalex="8" scaley="8" alpha="100" />
+                <keyframe time="0.75" scalex="8" scaley="8" alpha="100" />
+                <keyframe time="2.75" alpha="0" />
+            </directive>
+            <directive type="animation" id="aura" delay="1.38" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" />
+                <keyframe time="2.62" x="0" y="0" />
+            </directive>
+            <directive type="animation" id="aura" delay="1.38" ease="ease-in-out-cubic" interpolation="linear">
+                <keyframe time="0" alpha="0" />
+                <keyframe time="2.62" alpha="100" />
             </directive>
         </pose>
     </poses>
