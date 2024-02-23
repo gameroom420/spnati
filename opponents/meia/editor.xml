@@ -952,8 +952,27 @@
         <label id="1667" label="" color="2" folder="" sort="0" />
         <label id="1668" label="" color="2" folder="" sort="0" />
         <label id="1669" label="" color="4" folder="" sort="0" />
+        <label id="1670" label="" color="2" folder="" sort="0" />
+        <label id="1671" label="" color="2" folder="" sort="0" />
+        <label id="1672" label="" color="2" folder="" sort="0" />
+        <label id="1673" label="" color="2" folder="" sort="0" />
+        <label id="1674" label="" color="2" folder="" sort="0" />
+        <label id="1675" label="" color="2" folder="" sort="0" />
+        <label id="1676" label="" color="2" folder="" sort="0" />
+        <label id="1677" label="" color="2" folder="" sort="0" />
+        <label id="1678" label="" color="2" folder="" sort="0" />
+        <label id="1679" label="" color="2" folder="" sort="0" />
+        <label id="1680" label="" color="2" folder="" sort="0" />
+        <label id="1681" label="" color="2" folder="" sort="0" />
+        <label id="1682" label="" color="2" folder="" sort="0" />
+        <label id="1683" label="" color="2" folder="" sort="0" />
+        <label id="1684" label="" color="2" folder="" sort="0" />
+        <label id="1685" label="" color="2" folder="" sort="0" />
+        <label id="1686" label="" color="2" folder="" sort="0" />
+        <label id="1687" label="" color="2" folder="" sort="0" />
+        <label id="1688" label="" color="4" folder="" sort="0" />
     </labels>
-    <nextId>1669</nextId>
+    <nextId>1688</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="2butt">Meia shows off her butt while still in her bodysuit (or Cupid outfit).</marker>
@@ -1115,6 +1134,9 @@
         <marker scope="Public" name="asuna_y0" />
         <marker scope="Public" name="asuna_y01" />
         <marker scope="Public" name="asuna_y1s" />
+        <marker scope="Public" name="aura_camera" />
+        <marker scope="Public" name="aura_camera_followup" />
+        <marker scope="Public" name="aura_camera_shot" />
         <marker scope="Public" name="ayano01" />
         <marker scope="Public" name="ayano01yandere" />
         <marker scope="Public" name="ayano0yandere" />
@@ -3236,6 +3258,7 @@
         <marker scope="Public" name="petra34" />
         <marker scope="Public" name="petra4" />
         <marker scope="Public" name="petra5" />
+        <marker scope="Public" name="photo" />
         <marker scope="Public" name="pilot">Meia realizes another character is a pilot and perks up with interest.</marker>
         <marker scope="Public" name="pilot_recruitment" />
         <marker scope="Public" name="pinkie_bunny0" />
@@ -3378,6 +3401,7 @@
         <marker scope="Public" name="revyresp2_1">Marker to help Meia's banter with Revy flow smoothly.</marker>
         <marker scope="Public" name="riches_to_rags">Meia mentions that she was wealthy as a child, but lived on the streets as a teenager.</marker>
         <marker scope="Public" name="rin1" />
+        <marker scope="Public" name="ring" />
         <marker scope="Public" name="ringo_ppt0" />
         <marker scope="Public" name="ringo_pr0" />
         <marker scope="Public" name="ringo_recruitment" />
@@ -3420,6 +3444,7 @@
         <marker scope="Public" name="rosa4" />
         <marker scope="Public" name="rosa45" />
         <marker scope="Public" name="rosa4alt" />
+        <marker scope="Public" name="rose0" />
         <marker scope="Public" name="rouge_hobbies" />
         <marker scope="Public" name="rouge_jewel" />
         <marker scope="Public" name="rouge_men" />
