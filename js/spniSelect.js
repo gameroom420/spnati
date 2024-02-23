@@ -345,7 +345,7 @@ function loadListingFile () {
             if (!opponentMap[id] && (oppStatus === undefined || oppStatus === 'testing' || includedOpponentStatuses[oppStatus])) {
                 available[id] = true;
             }
-            if (oppStatus === 'testing') {
+            if (oppStatus === 'testing' || oppStatus === 'incomplete') {
                 onTesting[id] = true;
             }
         });
@@ -1297,7 +1297,7 @@ function loadDefaultFillSuggestions () {
          * but testing characters should always stay restricted to the Testing roster.
          * Likewise, force-prefilled characters with non-testing status shouldn't be shown on the Testing menu.
          */
-        if (individualSelectTesting !== (opp.status === "testing")) {
+        if (individualSelectTesting !== (opp.status === "testing" || opp.status === "incomplete")) {
             return false;
         }
 
@@ -1938,6 +1938,7 @@ function sortOpponentsByMostTargeted(indivCap, totalCap) {
 /* Returns true if the testing opponent wasn't updated recently enough to be shown. */
 function isStaleOnTesting(opp) {
     if (!isMainSite) return false;
+    if (includedOpponentStatuses["incomplete"]) return false;
     if (opp.event_character) return false;
     return (Date.now() - opp.lastUpdated > TESTING_MAX_AGE
             && opp.lastUpdated < TESTING_NTH_MOST_RECENT_UPDATE);
