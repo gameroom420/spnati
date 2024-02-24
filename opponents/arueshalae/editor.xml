@@ -38,6 +38,7 @@
         <marker scope="Public" name="Aaravi_resp3a" />
         <marker scope="Public" name="Aaravi_resp3b" />
         <marker scope="Public" name="Aaravi_resp3c" />
+        <marker scope="Public" name="Aaravi_resp4a" />
         <marker scope="Public" name="Aaravi0a" />
         <marker scope="Public" name="Aaravi0b" />
         <marker scope="Public" name="Aaravi0c" />
@@ -47,6 +48,7 @@
         <marker scope="Public" name="Aaravi2a" />
         <marker scope="Public" name="Aaravi2b" />
         <marker scope="Public" name="Aaravi2c" />
+        <marker scope="Public" name="Aaravi3a" />
         <marker scope="Public" name="Anatoly0a" />
         <marker scope="Public" name="Anatoly0b" />
         <marker scope="Public" name="Anatoly0c" />
@@ -203,16 +205,24 @@
         <marker scope="Public" name="Lux0a" />
         <marker scope="Public" name="Lux0b" />
         <marker scope="Public" name="Lux0c" />
+        <marker scope="Public" name="Lysithea_scouting2" />
         <marker scope="Public" name="Lysithea0a" />
         <marker scope="Public" name="Lysithea0c" />
         <marker scope="Public" name="Lysithea0calt" />
         <marker scope="Public" name="Lysithea1a" />
+        <marker scope="Public" name="Lysithea2a" />
         <marker scope="Public" name="Lysithia_gameresp" />
+        <marker scope="Public" name="Lysithia_legacy" />
+        <marker scope="Public" name="Lysithia_legacy2" />
+        <marker scope="Public" name="Lysithia_legacy3" />
         <marker scope="Public" name="Lysithia_magicresp" />
         <marker scope="Public" name="Lysithia_magicresp2" />
         <marker scope="Public" name="Lysithia_natureresp" />
         <marker scope="Public" name="Lysithia_scouting" />
+        <marker scope="Public" name="Lysithia_scouting3" />
         <marker scope="Public" name="Lysithia_seduction" />
+        <marker scope="Public" name="Lysithia_seduction2" />
+        <marker scope="Public" name="Lysithia_seduction3" />
         <marker scope="Public" name="Lysithia_wingsresp" />
         <marker scope="Public" name="Lysithia_wingsresp2" />
         <marker scope="Public" name="Lysithia0b" />
