@@ -7,7 +7,7 @@
     <othernotes>A +Anima, or "Plus Anima", are humans who possess animal-like abilities known as Anima, though the terms are used interchangably. They are able to partially, or sometimes fully, transform into a particular animal.&lt;br&gt;&lt;br&gt;Each +Anima has a symbol or birthmark-like etching on their bodies, indicating and relating to what Anima-Spirit lives within them; in Rose's case, they are on her shoulders and back.&lt;br&gt;&lt;br&gt;A person will lose their Anima when they no longer need it. For those who gained their Anima as children, they will typically lose it around the age of maturity, when they find it easier to integrate into society and live a normal life; some will keep their Anima for longer, even for the their entire lives, but it is dependent on the person and their spiritual awareness.&lt;br&gt;&lt;br&gt;In Rose's case, she is being written as if she has hung on to her +Anima out of a need to be able to fight and look after her younger brother, Pinion, as well as a lack of feeling spiritually at-ease with how difficult her life can be. Regardless, she has kept a positive and friendly outlook, though she is not here to coddle/overly praise other players.&lt;br&gt;&lt;br&gt;Some topics:&lt;br&gt;- Rose's business as a peddler of handcrafted accessories/trinkets&lt;br&gt;- Her protective instincts and being the only one looking after herself and her younger brother, Pinion&lt;br&gt;- Her +Anima spirit, a Cat, which she has used to fend off wild animals, bandits, and even a few rogue other +Anima&lt;br&gt;- Life on the road, she has to travel a lot and never stays in one place for too long&lt;br&gt;- Survival skills, looking after herself, fixing what she has and making the most out of scraps&lt;br&gt;- Hobbies and pasttimes; Rose doesn't have a lot of time to read (and cannot afford to buy books herself) but is eager to learn more from other people, sharing stories with people she meets on the road. She would go out into the woods to explore, finding wild flowers for herbs or just for decor (such as the flower in her hair)&lt;br&gt;- Dreams and aspirations; Rose is very much in short term 'survival' mode and as she is crossing into her 20s she is starting to think of her life beyond just living day by day, but would like advice in how to go about making sure she can look after herself. People can give unsolicited advice if they want and she might rebuke it / play it off at first but she might genuinely like that.&lt;br&gt;- Flirting and banter; Rose in general is here for a good time, not a long time, so she is fine with casual flings etc. A big part of this would be the reactions to the reveal of her +Anima side. I imagine a lot of characters would find it cool or interesting and she would react positively to that given that +Anima are discriminated against in her society</othernotes>
     <noteworthy>
         <case name="Rose's +Anima" id="26" priority="Noteworthy" min="0" max="6">
-            <description>Rose is at ease and ready to show off her cat +Anima - meaning she can show off catlike claws and her eyes subtly change shape.</description>
+            <description>Rose is at ease and ready to show off her cat +Anima - meaning she can show off catlike claws and her eyes subtly change shape. Note that she only does this on a per-pose basis, not for the entire game.</description>
         </case>
         <case name="Rose Butt Pose" id="53" priority="FYI" min="5" max="5">
             <description>Rose shows off another scar, this one is on her back. (She has other scars on her torso and leg.)</description>
@@ -166,60 +166,77 @@
         <label id="118" label="" folder="Targets" sort="3" />
         <label id="119" label="" folder="Targets" sort="5" />
         <label id="120" label="" folder="Conditional" sort="7" />
-        <label id="121" label="" folder="Conditional" sort="0" />
+        <label id="121" label="" folder="Conditional" sort="8" />
         <label id="122" label="" folder="Filtered Lines&gt;Male Crotch Reveals" sort="0" />
-        <label id="123" label="" folder="Filtered Lines&gt;Male Crotch Reveals" sort="0" />
-        <label id="124" label="" folder="Targets" sort="0" />
+        <label id="123" label="" folder="Filtered Lines&gt;Male Crotch Reveals" sort="2" />
+        <label id="124" label="" folder="Targets" sort="13" />
         <label id="125" label="" folder="Events&gt;April Fools" sort="0" />
-        <label id="126" label="" folder="Conditional" sort="0" />
-        <label id="127" label="" folder="Clothing" sort="0" />
+        <label id="126" label="" folder="Conditional" sort="19" />
+        <label id="127" label="" folder="Clothing" sort="7" />
         <label id="128" label="" folder="Response&gt;Yuno" sort="0" />
-        <label id="129" label="" folder="Response&gt;Yuno" sort="0" />
-        <label id="130" label="" folder="Response&gt;Yuno" sort="0" />
+        <label id="129" label="" folder="Response&gt;Yuno" sort="3" />
+        <label id="130" label="" folder="Response&gt;Yuno" sort="5" />
         <label id="131" label="" folder="Targets&gt;Yuno" sort="0" />
-        <label id="132" label="" folder="Targets&gt;Yuno" sort="0" />
-        <label id="133" label="" folder="Targets&gt;Yuno" sort="0" />
-        <label id="136" label="" folder="Response&gt;Yuno" sort="0" />
-        <label id="135" label="" folder="Response&gt;Yuno" sort="0" />
-        <label id="134" label="" folder="Response&gt;Yuno" sort="0" />
-        <label id="137" label="" folder="Conditional (+Anima)" sort="0" />
-        <label id="138" label="" folder="Filtered Lines" sort="0" />
+        <label id="132" label="" folder="Targets&gt;Yuno" sort="2" />
+        <label id="133" label="" folder="Targets&gt;Yuno" sort="3" />
+        <label id="136" label="" folder="Response&gt;Yuno" sort="6" />
+        <label id="135" label="" folder="Response&gt;Yuno" sort="4" />
+        <label id="134" label="" folder="Response&gt;Yuno" sort="2" />
+        <label id="137" label="" folder="Conditional (+Anima)" sort="9" />
+        <label id="138" label="" folder="Filtered Lines" sort="6" />
         <label id="139" label="" folder="Conditional&gt;Backgrounds&gt;Beach" sort="0" />
         <label id="140" label="relaxedmeter - no creepy" color="10" folder="Hidden" sort="0" />
         <label id="141" label="relaxedmeter - no villain" color="10" folder="Hidden" sort="0" />
-        <label id="142" label="" folder="Conditional" sort="0" />
-        <label id="143" label="" folder="Conditional" sort="0" />
-        <label id="144" label="" folder="Conditional" sort="0" />
-        <label id="145" label="" folder="Targets" sort="0" />
-        <label id="146" label="" folder="Targets" sort="0" />
-        <label id="147" label="" folder="Conditional (+Anima)" sort="0" />
-        <label id="148" label="" folder="Filtered Lines" sort="0" />
-        <label id="149" label="" folder="Filtered Lines" sort="0" />
-        <label id="150" label="" folder="Conditional" sort="0" />
-        <label id="151" label="" folder="Conditional" sort="0" />
-        <label id="152" label="" folder="Filtered Lines" sort="0" />
-        <label id="153" label="" folder="Conditional (+Anima)" sort="0" />
-        <label id="154" label="" folder="Conditional (+Anima)" sort="0" />
-        <label id="155" label="" folder="Filtered Lines" sort="0" />
-        <label id="156" label="" folder="Targets" sort="0" />
-        <label id="157" label="" folder="Targets" sort="0" />
-        <label id="158" label="" folder="Conditional (+Anima)" sort="0" />
-        <label id="159" label="" folder="Clothing" sort="0" />
+        <label id="142" label="" folder="Conditional" sort="13" />
+        <label id="143" label="" folder="Conditional" sort="14" />
+        <label id="144" label="" folder="Conditional" sort="24" />
+        <label id="145" label="" folder="Targets" sort="3" />
+        <label id="146" label="" folder="Targets" sort="7" />
+        <label id="147" label="" folder="Conditional (+Anima)" sort="8" />
+        <label id="148" label="" folder="Filtered Lines" sort="7" />
+        <label id="149" label="" folder="Filtered Lines" sort="12" />
+        <label id="150" label="" folder="Conditional" sort="27" />
+        <label id="151" label="" folder="Conditional" sort="28" />
+        <label id="152" label="" folder="Filtered Lines" sort="13" />
+        <label id="153" label="" folder="Conditional (+Anima)" sort="14" />
+        <label id="154" label="" folder="Conditional (+Anima)" sort="16" />
+        <label id="155" label="" folder="Filtered Lines" sort="17" />
+        <label id="156" label="" folder="Targets" sort="16" />
+        <label id="157" label="" folder="Targets" sort="17" />
+        <label id="158" label="" folder="Conditional (+Anima)" sort="6" />
+        <label id="159" label="" folder="Clothing" sort="8" />
         <label id="160" label="" folder="Clothing" sort="0" />
-        <label id="161" label="" folder="Clothing" sort="0" />
-        <label id="162" label="" folder="Conditional" sort="0" />
-        <label id="163" label="" folder="Filtered Lines" sort="0" />
-        <label id="164" label="" folder="Targets" sort="0" />
-        <label id="165" label="" folder="Filtered Lines" sort="0" />
+        <label id="161" label="" folder="Clothing" sort="11" />
+        <label id="162" label="" folder="Conditional" sort="25" />
+        <label id="163" label="" folder="Filtered Lines" sort="3" />
+        <label id="164" label="" folder="Targets" sort="15" />
+        <label id="165" label="" folder="Filtered Lines" sort="2" />
+        <label id="166" label="" folder="Conditional" sort="29" />
+        <label id="167" label="" folder="Clothing" sort="0" />
+        <label id="168" label="" folder="Clothing" sort="0" />
+        <label id="170" label="self 0 - not said show_anima" folder="Response&gt;Meia" sort="0" />
+        <label id="169" label="" folder="Response&gt;Meia" sort="0" />
+        <label id="171" label="" folder="Response&gt;Revy" sort="0" />
+        <label id="172" label="" folder="Response&gt;Jura" sort="0" />
+        <label id="173" label="" folder="Response&gt;Jura" sort="0" />
+        <label id="174" label="" folder="Conditional&gt;Everyone Out" sort="0" />
+        <label id="175" label="" folder="Conditional&gt;Everyone Out" sort="0" />
+        <label id="176" label="" folder="Conditional&gt;Everyone Out" sort="0" />
+        <label id="177" label="" folder="Conditional&gt;Everyone Out" sort="0" />
+        <label id="178" label="" folder="Conditional&gt;Everyone Out" sort="0" />
+        <label id="179" label="" folder="Conditional&gt;Everyone Out" sort="0" />
+        <label id="180" label="" folder="Filtered Lines" sort="0" />
+        <label id="181" label="" folder="Filtered Lines" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>show_anima==1</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>165</nextId>
+    <nextId>181</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="anima_accusation" />
         <marker scope="Public" name="arueshalae_good_dream" />
+        <marker scope="Public" name="everyone_out_1" />
         <marker scope="Public" name="felix_intro_1" />
         <marker scope="Public" name="flashing_1" />
         <marker scope="Public" name="flashing_2" />
@@ -231,7 +248,11 @@
         <marker scope="Public" name="mariS_wings_reveal" />
         <marker scope="Public" name="muststrip5_witty_tag" />
         <marker scope="Public" name="rose_butt" />
+        <marker scope="Public" name="rose_jura0_early" />
+        <marker scope="Public" name="rose_meia0" />
+        <marker scope="Public" name="rose_meia0_early" />
         <marker scope="Public" name="rose_moskii_animaQuestion1" />
+        <marker scope="Public" name="rose_revy_self0a" />
         <marker scope="Public" name="rose_yuno_degree1" />
         <marker scope="Public" name="rose_yuno_degree2" />
         <marker scope="Public" name="rose_yuno_degree3" />
