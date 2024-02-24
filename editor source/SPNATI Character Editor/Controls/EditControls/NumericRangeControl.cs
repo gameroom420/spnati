@@ -3,7 +3,6 @@ using Desktop.CommonControls;
 using Desktop.CommonControls.PropertyControls;
 using System;
 using System.ComponentModel;
-using System.Windows.Forms;
 using System.Collections.Generic;
 
 namespace SPNATI_Character_Editor
@@ -110,6 +109,36 @@ namespace SPNATI_Character_Editor
 			Save();
 		}
 
+		private string ToRange(int min, int max)
+		{
+			if (min == -1 && max == -1)
+			{
+				return null;
+			}
+			else if (min == -1)
+			{
+				//open-ended upper bound
+				return $"-{max}";
+			}
+			else if (max == -1)
+			{
+				//open-ended lower bound
+				return $"{min}-";
+			}
+			else if (max < min)
+			{
+				return $"{min}-{min}";
+			}
+			else if (max == min)
+			{
+				return $"{min}";
+			}
+			else
+			{
+				return $"{min}-{max}";
+			}
+		}
+
 		private string BuildValue()
 		{
 			int from = (int)valFrom.Value;
@@ -126,7 +155,7 @@ namespace SPNATI_Character_Editor
 			{
 				to = -1;
 			}
-			string value = GUIHelper.ToRange(from, to);
+			string value = ToRange(from, to);
 			return value;
 		}
 
