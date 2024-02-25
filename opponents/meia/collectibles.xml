@@ -45,6 +45,8 @@
         <text>"My whole life changed the day I was given one of these.  I hope you'll feel the same way."</text>
         <unlock>Make Meia lose as a female.</unlock>
         <hide-details>true</hide-details>
+        <wearable>true</wearable>
+        <clothing img="opponents/meia/laser-ring1.png" name="laser ring" generic="jewelry" position="hands" type="extra" />
     </collectible>
     <collectible id="music_box" status="online" img="opponents/meia/musicboxopen.png" thumbnail="opponents/meia/musicbox.png">
         <title>Music Box</title>
