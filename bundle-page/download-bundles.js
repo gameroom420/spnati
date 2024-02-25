@@ -123,6 +123,8 @@ function create_bundle_entry (manifest) {
             var desc = 'Includes the following April Fool\'s Day opponents: '+includes_opponents;
         } else if (manifest.category === 'duplicate') {
             var desc = 'Includes outdated versions of the following opponents: '+includes_opponents;
+        } else if (manifest.category === 'broken') {
+            var desc = 'Includes the following extra opponents: '+includes_opponents;
         } else {
             var desc = includes_opponents;
         }

@@ -177,6 +177,10 @@ var statusIndicators = {
         icon: "badge-event.png",
         tooltip: "This opponent is only available in the official version of the game during the April Fool's Day event."
     }
+    broken: {
+        icon: "badge-broken.png",
+        tooltip: "This opponent is incomplete and currently not in development, and uses large amounts of placeholder images or dialogue."
+    },
 }
 
 const MAGNET_TAGS = [

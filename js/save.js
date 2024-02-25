@@ -319,12 +319,13 @@ Save.prototype.loadOptions = function(){
     if ('stamina' in options) humanPlayer.stamina = options.stamina;
 
     /* Load extra characters settings - if rehost, all are disabled by default;
-     * if personal offline, offline and incomplete are enabled but event and duplicate aren't
+     * if personal offline, offline and incomplete are enabled but event, duplicate, and broken aren't
      */
     includedOpponentStatuses['offline'] = false;
     includedOpponentStatuses['incomplete'] = false;
     includedOpponentStatuses['event'] = false;
     includedOpponentStatuses['duplicate'] = false;
+    includedOpponentStatuses['broken'] = false;
 
     if ('showStatuses' in settings) {
         if (!isMainSite) {

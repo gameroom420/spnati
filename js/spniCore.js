@@ -1058,6 +1058,7 @@ function showExtrasModal() {
     if (isMainSite) {
         $(".event-option").prop("hidden", true);
         $(".duplicate-option").prop("hidden", true);
+        $(".broken-option").prop("hidden", true);
     }
 
     updateTrackingToggles();
