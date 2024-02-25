@@ -1646,7 +1646,7 @@ OpponentSelectionCard.prototype.isVisible = function (testingView, ignoreFilter)
          * event characters on Testing (handled by isStaleOnTesting()).
          */
         if (((status !== "testing" && status !== "incomplete") || isStaleOnTesting(this.opponent))
-            && this.opponent.inboundLinesFromSelected("testing") < 5)
+            && this.opponent.inboundLinesFromSelected("testing") < 3)
             return false;
     }
 
