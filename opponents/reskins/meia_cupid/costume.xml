@@ -2410,11 +2410,11 @@
             <sprite id="strip2" src="reskins/meia_cupid/3-strip2.png" x="0" y="0" alpha="0" />
             <directive type="animation" id="2-strip" ease="ease-in-out-cubic" interpolation="linear">
                 <keyframe time="0" alpha="100" />
-                <keyframe time="2" alpha="0" />
+                <keyframe time="3" alpha="0" />
             </directive>
             <directive type="animation" id="strip2" ease="ease-in-out-cubic" interpolation="linear">
                 <keyframe time="0" alpha="0" />
-                <keyframe time="2" alpha="100" />
+                <keyframe time="3" alpha="100" />
             </directive>
         </pose>
         <pose id="3-strip+">
@@ -2422,11 +2422,11 @@
             <sprite id="strip2" src="reskins/meia_cupid/3-strip2+.png" x="0" y="0" alpha="0" />
             <directive type="animation" id="2-strip" ease="ease-in-out-cubic" interpolation="linear">
                 <keyframe time="0" alpha="100" />
-                <keyframe time="2" alpha="0" />
+                <keyframe time="3" alpha="0" />
             </directive>
             <directive type="animation" id="strip2" ease="ease-in-out-cubic" interpolation="linear">
                 <keyframe time="0" alpha="0" />
-                <keyframe time="2" alpha="100" />
+                <keyframe time="3" alpha="100" />
             </directive>
         </pose>
         <pose id="5-ultrainstinctsilentsmile">
