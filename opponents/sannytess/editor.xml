@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <metadata>
     <owner>sannytess</owner>
-    <height>5'4</height>
+    <height>5'2"</height>
     <age />
     <pronunciation />
     <othernotes />
@@ -18,6 +18,9 @@
         <case name="c00m" id="7" priority="FYI" min="8" max="8">
             <description>Sanny cooms on her own face.</description>
         </case>
+        <case name="Surprise Ruined" id="17" priority="Noteworthy" min="0" max="2">
+            <description>Sanny and Tess tell the table that they're also futas when another futanari character strips first.</description>
+        </case>
     </noteworthy>
     <reviewed>true</reviewed>
     <responses>
@@ -32,12 +35,10 @@
     </responses>
     <notes>
         <note id="9">The ending sucked anyway, don't worry, Tess.</note>
+        <note id="16">will probably delete this after some time</note>
     </notes>
-    <onlyCustomPoses>false</onlyCustomPoses>
-    <hidePrefixlessImages>false</hidePrefixlessImages>
-    <nextId>15</nextId>
+    <nextId>17</nextId>
     <markers>
-        <marker scope="Public" name="" />
         <marker scope="Private" name="COCK" />
         <marker scope="Private" name="COCK2" />
         <marker scope="Private" name="creature" />
@@ -82,6 +83,7 @@
         <marker scope="Public" name="strevy1" />
         <marker scope="Public" name="STZoe1" />
         <marker scope="Public" name="sussy&amp;tess" />
+        <marker scope="Public" name="sussy&amp;tess_ejected" />
         <marker scope="Public" name="Trifle_ST_1" />
         <marker scope="Public" name="TST_1" />
         <marker scope="Public" name="wikigirlsstart" />
