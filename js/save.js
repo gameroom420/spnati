@@ -318,7 +318,7 @@ Save.prototype.loadOptions = function(){
 
     if ('stamina' in options) humanPlayer.stamina = options.stamina;
 
-    /* Load extra characters settings - if rehost, all are disabled by default;
+    /* Load extra characters settings - if spnati.net or rehost, all are disabled by default;
      * if personal offline, offline and incomplete are enabled but event, duplicate, and broken aren't
      */
     includedOpponentStatuses['offline'] = false;
@@ -328,10 +328,8 @@ Save.prototype.loadOptions = function(){
     includedOpponentStatuses['broken'] = false;
 
     if ('showStatuses' in settings) {
-        if (!isMainSite) {
-            for (var status of settings.showStatuses) {
-                includedOpponentStatuses[status] = true;
-            }
+        for (var status of settings.showStatuses) {
+            includedOpponentStatuses[status] = true;
         }
     } else if (isLocal) {
         includedOpponentStatuses['offline'] = includedOpponentStatuses['incomplete'] = true;
