@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1706322070484</lastupdate>
+    <lastupdate>1708823721744</lastupdate>
     <enabled>false</enabled>
     <first>Miko</first>
     <last>Yae</last>
@@ -15,6 +15,6 @@
     <layers>6</layers>
     <default-costume-name>Miko's Instruction</default-costume-name>
     <has_collectibles>true</has_collectibles>
-    <lines>1377</lines>
+    <lines>1554</lines>
     <poses>185</poses>
 </opponent>

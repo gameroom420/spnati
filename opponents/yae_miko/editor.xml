@@ -109,6 +109,10 @@
         <response id="111" opponent="shamiko" opponentId="30" />
         <response id="148" opponent="pyrrha" opponentId="53" />
         <response id="149" opponent="kumatora" opponentId="299" />
+        <response id="0" opponent="moon" opponentId="186" />
+        <response id="198" opponent="moon" opponentId="51" />
+        <response id="199" opponent="moon" opponentId="50" />
+        <response id="200" opponent="mulan" opponentId="32" />
     </responses>
     <notes>
         <note id="115">I wrote these lines at 12:20 am
@@ -116,6 +120,7 @@
         <note id="141">Ei being the Raiden Shogun, the Electro Archon, the Narukamo Ogosho, the God of Thunder and Eternity.</note>
         <note id="166">This is in reply to a line nmasp posted in a DM. It may not have found its way into Hu Tao's dialogue yet.</note>
         <note id="170">At one point, Yae Miko smugly tells the Traveler (the player character) that they can see her fox form "in [their] dreams".</note>
+        <note id="178">As foretold by the Prophet Vicineko (pbuh)</note>
     </notes>
     <labels>
         <label id="92" label="Necklace unlock" folder="" sort="0" />
@@ -125,26 +130,28 @@
         <label id="106" label="" color="4" folder="" sort="0" />
         <label id="171" label="" color="4" folder="" sort="0" />
         <label id="173" label="" color="4" folder="" sort="0" />
-        <label id="147" label="" color="4" folder="" sort="0" />
+        <label id="177" label="" color="4" folder="" sort="0" />
         <label id="119" label="" color="4" folder="" sort="0" />
-        <label id="174" label="" color="4" folder="" sort="0" />
-        <label id="122" label="" color="4" folder="" sort="0" />
-        <label id="123" label="" color="4" folder="" sort="0" />
-        <label id="141" label="" color="4" folder="" sort="0" />
+        <label id="186" label="" color="4" folder="" sort="0" />
+        <label id="178" label="" color="4" folder="" sort="0" />
+        <label id="180" label="" color="4" folder="" sort="0" />
         <label id="132" label="" color="4" folder="" sort="0" />
         <label id="127" label="" color="4" folder="" sort="0" />
         <label id="169" label="" color="4" folder="" sort="0" />
-        <label id="167" label="" color="4" folder="" sort="0" />
-        <label id="146" label="" color="4" folder="" sort="0" />
+        <label id="183" label="" color="4" folder="" sort="0" />
         <label id="163" label="" color="4" folder="" sort="0" />
         <label id="164" label="" color="4" folder="" sort="0" />
         <label id="165" label="" color="4" folder="" sort="0" />
-        <label id="168" label="" color="4" folder="" sort="0" />
+        <label id="176" label="" color="4" folder="" sort="0" />
+        <label id="179" label="" color="4" folder="" sort="0" />
+        <label id="181" label="" color="4" folder="" sort="0" />
+        <label id="182" label="" color="4" folder="" sort="0" />
+        <label id="184" label="" color="4" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>collectible_</prefix>
     </prefixes>
-    <nextId>175</nextId>
+    <nextId>200</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="9s_manufactured" />
@@ -169,6 +176,9 @@
         <marker scope="Public" name="arueshalae_darkToLight" />
         <marker scope="Public" name="arueshalae_darkToLight2" />
         <marker scope="Public" name="cagliostro_bodyCount" />
+        <marker scope="Public" name="cagliostro_bodyCount2" />
+        <marker scope="Public" name="cagliostro_resp_sandals1" />
+        <marker scope="Public" name="cagliostro_resp_sleeves1" />
         <marker scope="Public" name="caitlin_resp_booksA" />
         <marker scope="Public" name="caitlin_resp_earringsA" />
         <marker scope="Public" name="caitlin_resp_earsA" />
@@ -195,6 +205,7 @@
         <marker scope="Public" name="jim_warStories" />
         <marker scope="Public" name="jim_warStories2" />
         <marker scope="Public" name="jim_warStories3" />
+        <marker scope="Public" name="jura_aimForFame" />
         <marker scope="Public" name="jura_questionsAboutMen" />
         <marker scope="Public" name="jura_questionsAboutMen2" />
         <marker scope="Public" name="jura_questionsAboutMen3" />
@@ -202,15 +213,23 @@
         <marker scope="Public" name="jura_resp_01" />
         <marker scope="Public" name="jura_resp_1" />
         <marker scope="Public" name="jura_resp_1s" />
+        <marker scope="Public" name="jura_resp_3" />
         <marker scope="Public" name="komi_commDisorder" />
         <marker scope="Public" name="kumatora_adventures" />
         <marker scope="Public" name="mari_piano" />
         <marker scope="Public" name="mari_setogaya_funActivities" />
         <marker scope="Public" name="mari_setogaya_resp_cuteFluffyEars" />
+        <marker scope="Public" name="mari_setogaya_resp_cuteFluffyEars2" />
         <marker scope="Public" name="mari_setogaya_resp_funActivities" />
+        <marker scope="Public" name="mari_setogaya_resp_funActivities2" />
         <marker scope="Public" name="mari_setogaya_resp_royalty" />
+        <marker scope="Public" name="mari_setogaya_resp_royalty2" />
         <marker scope="Public" name="mari_setogaya_resp_shrineCare" />
+        <marker scope="Public" name="mari_setogaya_resp_shrineCare2" />
         <marker scope="Public" name="mari_setogaya_resp_vampireNovel" />
+        <marker scope="Public" name="mari_setogaya_resp_vampireNovel2" />
+        <marker scope="Public" name="mari_setogaya_succubiSlander" />
+        <marker scope="Public" name="meia_mejareRomance" />
         <marker scope="Public" name="meia_overlySerious" />
         <marker scope="Public" name="meia_overlySerious2" />
         <marker scope="Public" name="meia_overlySerious3" />
@@ -223,9 +242,13 @@
         <marker scope="Public" name="meia_resp_men_info2" />
         <marker scope="Public" name="meia_resp_sightseeing2" />
         <marker scope="Public" name="mia_golden_sun_hydroVision" />
+        <marker scope="Public" name="mikan_medicalDramas" />
+        <marker scope="Public" name="mikan_resp_print" />
         <marker scope="Public" name="miko_mindToSword" />
         <marker scope="Public" name="miko_mindToSword2" />
+        <marker scope="Public" name="miko_mindToSword3" />
         <marker scope="Public" name="miko_resp_earrings1" />
+        <marker scope="Public" name="miko_resp_earrings2" />
         <marker scope="Public" name="miko_resp_heartsDesires" />
         <marker scope="Public" name="miko_resp_sandals1" />
         <marker scope="Public" name="miko_resp_sandals2" />
@@ -234,10 +257,13 @@
         <marker scope="Public" name="mitama_jobInterview2" />
         <marker scope="Public" name="mitama_jobInterview3" />
         <marker scope="Public" name="mitama_readingPrefs" />
+        <marker scope="Public" name="mitama_readingPrefs2" />
         <marker scope="Public" name="mitama_resp_meeting" />
+        <marker scope="Public" name="mitama_resp_meeting2" />
         <marker scope="Public" name="monika_otherworldly" />
         <marker scope="Public" name="monika_otherworldly2" />
         <marker scope="Public" name="monika_otherworldly3" />
+        <marker scope="Public" name="moon_notice" />
         <marker scope="Public" name="nagisa_leyLineDisorder" />
         <marker scope="Public" name="nickname" />
         <marker scope="Public" name="nonon_music" />
@@ -251,8 +277,10 @@
         <marker scope="Public" name="petra_2ndLangBooks" />
         <marker scope="Public" name="reimu_resp_shrineDesc" />
         <marker scope="Public" name="reimu_resp_shrineDesc2" />
+        <marker scope="Public" name="reimu_resp_shrineDesc3" />
         <marker scope="Public" name="reimu_sake" />
         <marker scope="Public" name="reimu_sake2" />
+        <marker scope="Public" name="reimu_sake3" />
         <marker scope="Public" name="revy_resp_0" />
         <marker scope="Public" name="revy_resp_1" />
         <marker scope="Public" name="revy_violentStories" />
@@ -261,6 +289,7 @@
         <marker scope="Public" name="sakura_smellComplexion2" />
         <marker scope="Public" name="shamiko_horns" />
         <marker scope="Public" name="shamiko_horns2" />
+        <marker scope="Public" name="shamiko_horns3" />
         <marker scope="Public" name="sofia_irony" />
         <marker scope="Public" name="sucrose_resp_01" />
         <marker scope="Public" name="sucrose_resp_02" />
@@ -299,6 +328,7 @@
         <marker scope="Public" name="yae_miko_lawyer2" />
         <marker scope="Public" name="yae_miko_model1" />
         <marker scope="Public" name="yae_miko_model2" />
+        <marker scope="Public" name="yae_miko_necklace_check" />
         <marker scope="Public" name="yae_miko_playerOralTease" />
         <marker scope="Public" name="yae_miko_playerTofu" />
         <marker scope="Public" name="yae_miko_playerTofu2" />
@@ -319,6 +349,9 @@
         <marker scope="Public" name="yae_miko_writer2" />
         <marker scope="Public" name="yae_miko_yandere1" />
         <marker scope="Public" name="yae_miko_yandere2" />
+        <marker scope="Public" name="yae_ninja" />
+        <marker scope="Public" name="yae_resp_0_1" />
+        <marker scope="Public" name="YaeMikoCape1_resp" />
         <marker scope="Public" name="yumeko_enjoyDrama" />
         <marker scope="Public" name="yumeko_enjoyDrama2" />
         <marker scope="Public" name="yumeko_enjoyDrama3" />
@@ -338,6 +371,33 @@
         <marker scope="Public" name="zeke_pandoria_resp_publishing2" />
         <marker scope="Public" name="zeke_pandoria_resp_publishing3" />
     </markers>
+    <recipes>
+        <recipe key="3b95f9ff-485b-4f9c-851d-c736fb18c0e3">
+            <cases>
+                <id>188</id>
+            </cases>
+        </recipe>
+        <recipe key="1e1fbb2e-ad0d-455e-bdb4-4c456ec97ab4">
+            <cases>
+                <id>189</id>
+            </cases>
+        </recipe>
+        <recipe key="53b0858d-ff7e-4d5d-bcac-ce7af1c4fde9">
+            <cases>
+                <id>190</id>
+            </cases>
+        </recipe>
+        <recipe key="cc28d236-6b17-48ce-a010-48a75ded118c">
+            <cases>
+                <id>191</id>
+            </cases>
+        </recipe>
+        <recipe key="93fb1799-f582-4f08-a53c-49d5e56f6278">
+            <cases>
+                <id>192</id>
+            </cases>
+        </recipe>
+    </recipes>
     <pendingLines>
         <line>Keep telling yourself that.  It might be true one day.</line>
         <line>I've heard parents describe looking after their young children as an "adventure" before.  Perhaps this is similar.</line>
