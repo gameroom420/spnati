@@ -72,6 +72,7 @@ namespace SPNATI_Character_Editor
 				OpponentStatus.Incomplete,
 				OpponentStatus.Duplicate,
 				OpponentStatus.Event,
+				OpponentStatus.Broken,
 			})
 			{
 				chkStatuses.Items.Add(status, statusFilters.Contains(status));

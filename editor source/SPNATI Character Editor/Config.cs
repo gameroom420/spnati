@@ -588,6 +588,7 @@ namespace SPNATI_Character_Editor
 						set.Add(OpponentStatus.Incomplete);
 						set.Add(OpponentStatus.Duplicate);
 						set.Add(OpponentStatus.Event);
+						set.Add(OpponentStatus.Broken);
 						_statusFilters = set;
 						return set;
 					}
@@ -610,6 +611,9 @@ namespace SPNATI_Character_Editor
 									break;
 								case 5:
 									set.Add("event");
+									break;
+								case 6:
+									set.Add("broken");
 									break;
 							}
 						}
