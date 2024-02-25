@@ -4,29 +4,29 @@ Doing all 7
 
 ## Remillia
 
-- [ ] Raise generic count to 1000 (Total - (Targets + Filters)) (979/1000)
-- [ ] Raise her total targeted lines to 300 (184/300)
+- [X] Raise generic count to 1000 (Total - (Targets + Filters))
+- [ ] Raise her total targeted lines to 300 (223/300)
 - [X] Raise her total filter amount to 75
 
 - [ ] Add 10 more lines showing Kyouko's perverted/overactive imagination, in any case (3/10)
 - [X] Add 15 generic masturbation lines (not heavy masturbation) which are flirty/sexy in context
-- [ ] Add 10 more lines of self-exposition in hand=any, all with a play once.
+- [X] Add 10 more lines of self-exposition in hand=any, all with a play once
   - This can be her talking about her friends, her school(college?), her club, her skills, her love of anime/manga, etc
-- [ ] Add 10 more female masturbation lines in her 0-9 case. (3/10)
-- [ ] Add 10 more After finished (self) lines without a filter.
+- [ ] Add 10 more female masturbation lines in her 0-9 case. (4/10)
+- [ ] Add 10 more After finished (self) lines without a filter. (5/10)
 - [ ] Add 5 more lines towards Human which are unrelated to her bow collectible. Any case.
 
 ## L0kkit
 
 - [X] Add at least 30 targeted lines
-- [ ] Add at least 30 hand quality lines
+- [ ] Add at least 30 hand quality lines (2/30)
 - (S) Show her candid side more
 
 ## Ace
 
 - [ ] 10 more generic lines in interval [5, 7] (~3 each suggested)
 - [ ] 4 more unique targets, 5 lines each
-  - [ ] Sanako (1)
+  - [ ] Sanako (2)
 - (S) Target Pokemon chars
 - (S) Bring up friends
 
@@ -43,15 +43,16 @@ Doing all 7
   - [ ] Removed major (female)
   - [ ] Masturbating (male)
   - [ ] Masturbating (female)
-- [ ] 25 outgoing targets
+- [ ] 25 outgoing targets (5/25)
+  - Yumeko 1-2, 2-3, 3-4, 4-5, 5-6
 - [X] 20 filters
 - (S) Tweak face a little - try reduced head size
 - (S) Casual alt
 
 ## Tweetsie
 
-- [ ] 25 targets to any characters (19 / 25)
-- [ ] 25 generics exploring her sexuality more (preferably in interval [4, 7])
+- [X] 25 targets to any characters
+- [ ] 25 generics exploring her sexuality more (preferably in interval [4, 7]) (3/25)
 
 ## Karbol
 
@@ -61,10 +62,10 @@ Doing all 7
 
 ## Nicole
 
-- [ ] 30 total opponent masturbating lines (7/30)
+- [ ] 30 total opponent masturbating lines (18/30)
   - [X] At least 6 non-Heavy
-  - [ ] At least 6 Heavy
-- [X] 10 lines that fill in the 6-year gap.
+  - [ ] At least 6 Heavy (3/6)
+- [X] 10 lines that fill in the 6-year gap
   - This can be stuff like how Kyouko has been adjusting to college, discussion of her college major (whether saying “Yeah I’m in Industrial Anthro History” outright or just discussing some of the stupid stuff she’s learned in her major), some unspecified third thing, how her doujin artist career has evolved, or anything else.
   - You’re free to think of this as being 3 lines each for her at age 20 and 19 respectively and a line each for 18, 17, 16, and 15.
 - Responses for Chihiro's situations
