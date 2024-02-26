@@ -5,14 +5,14 @@ If Sanako to left and Mari to right:
 
 SANAKO MUST STRIP SHOES AND SOCKS:
 Sanako [sanako_setogaya_sm_s1]: Ehehe, it's me! I hope you're looking forward to to~background.time~. It's not every day a girl shows off her body when she's in a relationship.
-Mari []*: ?? -- possible direction: Mari's relaxed sexual attitudes
+Mari [Sanako_comfortable_reply]: Wait, you're in a relationship? Why are you playing this game, then? Can't you have sex with your boyfriend instead?
 
 SANAKO STRIPPING SHOES AND SOCKS:
-Sanako []*: ??
+Sanako [sanako_setogaya_sm_s2]: Just because I'm taken doesn't mean I can't have a little extra fun now and then, Mari. ~player.ifMale(Boys|Everyone)~ can look but not touch, okay?
 Mari []*: ??
 
 SANAKO STRIPPED SHOES AND SOCKS:
-Sanako []*: ??
+Sanako [sanako_setogaya_sm_s3]*: ??
 Mari []*: ??
 
 
@@ -71,14 +71,14 @@ Mari []*: ??
 
 MARI MUST STRIP TIE / HEADBAND / HAT / NECKLACE / CHOKER / BOOTS / COLLAR:
 Sanako [sanako_setogaya_sm_m1]: Mari, I think it's about time you get started. If you're comfortable with all of this, that is.
-Mari []*: possible direction: Mari is surprisingly comfortable with this
+Mari [Sanako_relationship_reply]: Comfortable? Hahaha! Of course I'm comfortable with this, Sanako! What kinda weirdo would show up to play strip poker without wanting to get naked?
 
 MARI STRIPPING TIE / HEADBAND / HAT / NECKLACE / CHOKER / BOOTS / COLLAR:
-Sanako []*: ??
+Sanako [sanako_setogaya_sm_m2]: I'm so glad you feel that way, Mari. You're still young and beautiful, and there's no shame in celebrating that in a safe environment.
 Mari []*: ??
 
 MARI STRIPPED TIE / HEADBAND / HAT / NECKLACE / CHOKER / BOOTS / COLLAR:
-Sanako []*: ??
+Sanako [sanako_setogaya_sm_m3]*: ??
 Mari []*: ??
 
 

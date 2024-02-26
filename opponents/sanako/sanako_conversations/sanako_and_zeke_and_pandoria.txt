@@ -72,15 +72,15 @@ Zeke & Pandoria [zekepandy_sanako_self0a]: {pandy}Yeah, I guess you could call i
 
 ZEKE & PANDORIA STRIPPING GLOVES:
 Sanako [sanako_zeke_sz_z2]: That's so sweet. I remember when I met my someone special, we were practically joined at the hip after we went steady. ~player.ifMale(He and I|We)~ never managed to get too far from our chaperone, though.
-Zeke & Pandoria []*: ??
+Zeke & Pandoria [zekepandy_sanako_self0b]: We never stray too far, either. Though part of that is because we have to fight as a team, we can't do it solo.
 
 ZEKE & PANDORIA STRIPPED GLOVES:
-Sanako []*: ??
+Sanako [sanako_zeke_sz_z3]: Being able to work together and provide for each other as a team is the secret to a strong relationship. I'm so happy for the both of you!
 Zeke & Pandoria []*: ??
 
 
 ZEKE & PANDORIA MUST STRIP PAULDRONS & DRESS:
-Sanako []*: ??
+Sanako []*: ?? -- get married, you two
 Zeke & Pandoria []*: ??
 
 ZEKE & PANDORIA STRIPPING PAULDRONS & DRESS:
