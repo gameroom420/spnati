@@ -24,6 +24,7 @@
         <marker scope="Public" name="aqua_fantasy0bb" />
         <marker scope="Public" name="aqua_hobbies0" />
         <marker scope="Public" name="aqua_hobbies0a" />
+        <marker scope="Public" name="aqua_hobbies0b" />
         <marker scope="Public" name="aqua-kono-stage0" />
         <marker scope="Public" name="aqua-kono-stage0a" />
         <marker scope="Public" name="aqua-kono-stage0b" />
@@ -357,6 +358,7 @@
         <marker scope="Public" name="yui1" />
         <marker scope="Public" name="yui2" />
         <marker scope="Public" name="yumeko_deathgame0" />
+        <marker scope="Public" name="yumeko_deathgame0a" />
         <marker scope="Public" name="yumeko_games0" />
         <marker scope="Public" name="yumeko_games0a" />
         <marker scope="Public" name="yumeko_games0b" />
@@ -370,7 +372,10 @@
         <marker scope="Public" name="yumeko_stage1a" />
         <marker scope="Public" name="yumeko_stage1b" />
         <marker scope="Public" name="yumeko_stage2" />
+        <marker scope="Public" name="yumeko_stage2a" />
+        <marker scope="Public" name="yumeko_stage2aa" />
         <marker scope="Public" name="yumeko_stage3" />
+        <marker scope="Public" name="yumeko_stage3a" />
         <marker scope="Public" name="yumeko_stakes0" />
         <marker scope="Public" name="yumeko_stakes0a" />
         <marker scope="Public" name="yumeko_stakes0b" />
