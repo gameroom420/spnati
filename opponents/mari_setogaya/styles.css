@@ -1,0 +1,9 @@
+.dialogue .example[data-character="mari_setogaya"] {
+  /*This is an example style.*/
+  color: blue;
+}
+
+.dialogue .seto[data-character="mari_setogaya"] {
+  /*Mari Setogaya is speaking.*/
+  color: #A80000;
+}
