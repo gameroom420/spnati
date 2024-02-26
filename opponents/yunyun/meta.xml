@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1698209893635</lastupdate>
+    <lastupdate>1708984313596</lastupdate>
     <enabled>false</enabled>
     <first>Yunyun</first>
     <last>of the Crimson Demons</last>
@@ -12,13 +12,12 @@
     <artist>HorseKiller &amp; If I May &amp; WibblyWarrbles</artist>
     <description>Yunyun is the daughter of the Chief of the Crimson Demons with many insecurities and finds trouble making friends.</description>
     <layers>7</layers>
-    <default-costume-name />
     <alternates>
         <costume folder="opponents/reskins/yunyun_trick_or_friends/" img="0-Happy.png" set="halloween" label="Yunyun">Trick or Friends</costume>
         <costume folder="opponents/reskins/yunyun_wakey_wakey/" img="0-Happy2.png" status="online" label="Yunyun" layers="5">Wakey Wakey</costume>
         <costume folder="opponents/reskins/yunyun_summer_of_friends/" img="0-Happy.png" set="summer" label="Yunyun" layers="5">Summer of Friends</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>1280</lines>
+    <lines>1288</lines>
     <poses>150</poses>
 </opponent>

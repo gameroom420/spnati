@@ -60,6 +60,7 @@
         <response id="305" opponent="nagisa" opponentId="1653" />
         <response id="307" opponent="noire" opponentId="2860" />
         <response id="311" opponent="noire" opponentId="2864" />
+        <response id="318" opponent="jenna" opponentId="98" />
     </responses>
     <notes>
         <note id="139">Two things:
@@ -140,7 +141,7 @@
         <label id="106" label="" folder="Megumin" sort="7" />
         <label id="113" label="" folder="Megumin" sort="0" />
         <label id="114" label="" color="1" folder="" sort="0" />
-        <label id="128" label="" color="3" folder="" sort="0" />
+        <label id="318" label="" color="1" folder="" sort="0" />
         <label id="307" label="" color="1" folder="" sort="0" />
         <label id="140" label="" color="1" folder="" sort="0" />
         <label id="139" label="" color="1" folder="" sort="0" />
@@ -280,18 +281,20 @@
         <label id="280" label="" folder="Wakey Wakey" sort="3" />
         <label id="281" label="" folder="Summer of Friends" sort="3" />
         <label id="284" label="" color="3" folder="" sort="0" />
-        <label id="285" label="" color="1" folder="" sort="0" />
-        <label id="286" label="" color="1" folder="" sort="0" />
-        <label id="287" label="" color="1" folder="" sort="0" />
-        <label id="288" label="" color="1" folder="" sort="0" />
+        <label id="313" label="" color="1" folder="" sort="0" />
+        <label id="314" label="" color="1" folder="" sort="0" />
+        <label id="316" label="" color="1" folder="" sort="0" />
         <label id="305" label="" color="1" folder="" sort="0" />
         <label id="306" label="" color="1" folder="" sort="0" />
         <label id="308" label="" color="1" folder="" sort="0" />
         <label id="309" label="" color="1" folder="" sort="0" />
         <label id="310" label="" color="1" folder="" sort="0" />
         <label id="311" label="" color="1" folder="" sort="0" />
+        <label id="312" label="" color="1" folder="" sort="0" />
+        <label id="315" label="" color="1" folder="" sort="0" />
+        <label id="317" label="" color="1" folder="" sort="0" />
     </labels>
-    <nextId>311</nextId>
+    <nextId>318</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="amy_friendship" />
@@ -331,6 +334,7 @@
         <marker scope="Public" name="FriendshipBand_ON" />
         <marker scope="Public" name="FriendshipBand_PlayerExcitedToo" />
         <marker scope="Public" name="FriendshipBand_strippedOff" />
+        <marker scope="Public" name="Jenna_firePsynergy_reply" />
         <marker scope="Public" name="jessie_family2" />
         <marker scope="Public" name="jessie_million2a" />
         <marker scope="Public" name="jessie_million2b" />
@@ -434,9 +438,15 @@
         <marker scope="Public" name="Noire_whichPartVillage" />
         <marker scope="Public" name="pamper_forfeit" />
         <marker scope="Public" name="Queenie_reply1" />
+        <marker scope="Public" name="Queenie_reply1_cont" />
         <marker scope="Public" name="Queenie_reply1B" />
+        <marker scope="Public" name="Queenie_reply1B_cont" />
+        <marker scope="Public" name="Queenie_reply1B_contB" />
         <marker scope="Public" name="Queenie_reply2" />
+        <marker scope="Public" name="Queenie_reply2_conr" />
+        <marker scope="Public" name="Queenie_reply2_cont" />
         <marker scope="Public" name="Queenie_reply2B" />
+        <marker scope="Public" name="Queenie_reply2B_cont" />
         <marker scope="Public" name="raynor_quest" />
         <marker scope="Public" name="raynor_quest2" />
         <marker scope="Public" name="revy_yunyun01" />
