@@ -91,7 +91,6 @@
         <response id="84" opponent="critical_darling" opponentId="2" />
         <response id="85" opponent="mary" opponentId="19" />
         <response id="86" opponent="perona" opponentId="15" />
-        <response id="88" opponent="sannytess" opponentId="5" />
         <response id="89" opponent="sannytess" opponentId="6" />
         <response id="90" opponent="neptune" opponentId="38" />
         <response id="91" opponent="aoba" opponentId="83" />
@@ -165,8 +164,6 @@
     <labels>
         <label id="12" label="" color="3" folder="" sort="0" />
     </labels>
-    <onlyCustomPoses>false</onlyCustomPoses>
-    <hidePrefixlessImages>false</hidePrefixlessImages>
     <nextId>162</nextId>
     <markers>
         <marker scope="Public" name="" />
