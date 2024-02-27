@@ -163,7 +163,7 @@ var statusIndicators = {
     },
     offline: {
         icon: "badge-offline.png",
-        tooltip: "This opponent has been retired from the official version of the game.",
+        tooltip: "This opponent has been retired and is considered legacy content.",
     },
     incomplete: {
         icon: "badge-incomplete.png",

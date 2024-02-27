@@ -108,6 +108,10 @@ function create_bundle_entry (manifest) {
     if (MAIN_CATEGORIES.indexOf(manifest.category) >= 0 || manifest.category === 'incomplete' || manifest.category === 'event' || manifest.category === 'duplicate') {
         var title = capitalize(manifest.category) + ' Opponents #' + manifest.index;
 
+        if (manifest.category === 'offline') {
+            title = 'Legacy Opponents #' + manifest.index;
+        }
+
         var includes_opponents = manifest.folders.reduce(function (acc, val) {
             var opp = val.replace(/opponents[\\\/]/gi, '');
 
