@@ -627,7 +627,6 @@
     </prefixes>
     <nextId>484</nextId>
     <markers>
-        <marker scope="Public" name="" />
         <marker scope="Public" name="~strongstarter~" />
         <marker scope="Public" name="1st_dong" />
         <marker scope="Public" name="1stbra" />
@@ -801,7 +800,7 @@
         <marker scope="Public" name="nonon_puyo" />
         <marker scope="Public" name="nonon_puyo2" />
         <marker scope="Public" name="nonon_puyoteleport" />
-        <marker scope="Public" name="one-on-one" />
+        <marker scope="Public" name="one_on_one" />
         <marker scope="Public" name="perona_cuteprompt" />
         <marker scope="Public" name="perona_hollow" />
         <marker scope="Public" name="petquestion" />
