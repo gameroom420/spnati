@@ -84,7 +84,6 @@
         <note id="1063">(Meia wouldn't see much distinction between "mid-teens" and "adult")</note>
         <note id="1328">could set up an interaction where they could both take sips (maybe share a cup?)</note>
         <note id="1331">could do an interaction where Perona thinks Pyoro is squishy/stuffed, but then realizes he's metal and tosses him back</note>
-        <note id="1494">willing to revise this if you wanted to focus on the first part (IMO Meia already has a lot of lines saying what she wants)</note>
         <note id="1634">second line is just a quip and can be responded to like the first one</note>
         <note id="1643">I am picturing Rouge only apprehensively suggesting this moment, since Meia watches the player like a hawk, and then she immediately catches them.  I'm open to followups.  The crux of this pose is twofold: the superficial similarity to Meia's headpiece, and the early reveal of how padded her chest is, which is one of the few things that would really embarrass her.</note>
         <note id="1644">Meia tends to be in a better mood for the Cupid skin.</note>
@@ -834,13 +833,12 @@
         <label id="1427" label="" color="4" folder="" sort="0" />
         <label id="1428" label="" color="4" folder="" sort="0" />
         <label id="1648" label="" color="4" folder="" sort="0" />
-        <label id="1493" label="" color="4" folder="" sort="0" />
         <label id="1599" label="" color="4" folder="" sort="0" />
         <label id="1454" label="" color="4" folder="" sort="0" />
         <label id="1578" label="" color="4" folder="" sort="0" />
         <label id="1602" label="" color="4" folder="" sort="0" />
-        <label id="1495" label="" color="4" folder="" sort="0" />
-        <label id="1494" label="" color="4" folder="" sort="0" />
+        <label id="1699" label="" color="4" folder="" sort="0" />
+        <label id="1700" label="" color="4" folder="" sort="0" />
         <label id="1637" label="" color="4" folder="" sort="0" />
         <label id="1485" label="" color="4" folder="" sort="0" />
         <label id="1486" label="" color="4" folder="" sort="0" />
@@ -898,7 +896,7 @@
         <label id="1545" label="" color="4" folder="" sort="0" />
         <label id="1547" label="" color="4" folder="" sort="0" />
         <label id="1548" label="" color="4" folder="" sort="0" />
-        <label id="1550" label="" color="4" folder="" sort="0" />
+        <label id="1698" label="" color="4" folder="" sort="0" />
         <label id="1555" label="" color="4" folder="" sort="0" />
         <label id="1556" label="" color="4" folder="" sort="0" />
         <label id="1557" label="" color="6" folder="" sort="0" />
@@ -972,8 +970,10 @@
         <label id="1690" label="" color="4" folder="" sort="0" />
         <label id="1691" label="" color="4" folder="" sort="0" />
         <label id="1692" label="" color="4" folder="" sort="0" />
+        <label id="1695" label="" color="4" folder="" sort="0" />
+        <label id="1697" label="" color="4" folder="" sort="0" />
     </labels>
-    <nextId>1694</nextId>
+    <nextId>1700</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="2butt">Meia shows off her butt while still in her bodysuit (or Cupid outfit).</marker>
@@ -2325,6 +2325,7 @@
         <marker scope="Public" name="laevatein_bb0" />
         <marker scope="Public" name="laevatein_others" />
         <marker scope="Public" name="laevatein_remember" />
+        <marker scope="Public" name="laevatein_resp0" />
         <marker scope="Public" name="laevatein_words" />
         <marker scope="Public" name="laevatein0" />
         <marker scope="Public" name="laevatein01" />
@@ -3160,6 +3161,7 @@
         <marker scope="Public" name="nonon_resp1" />
         <marker scope="Public" name="nonon_resp12" />
         <marker scope="Public" name="nonon_resp2" />
+        <marker scope="Public" name="nonon_resp23" />
         <marker scope="Public" name="nonon0" />
         <marker scope="Public" name="nonon01" />
         <marker scope="Public" name="nonon1" />
@@ -3172,7 +3174,9 @@
         <marker scope="Public" name="nonon34" />
         <marker scope="Public" name="nonon3s" />
         <marker scope="Public" name="nonon4" />
+        <marker scope="Public" name="nonon45" />
         <marker scope="Public" name="nonon4s" />
+        <marker scope="Public" name="nonon5" />
         <marker scope="Public" name="ochako_qm">Meia resents Ochako's implication that women can't fall in love.</marker>
         <marker scope="Public" name="okino_gakuran0" />
         <marker scope="Public" name="okino_love" />
@@ -3683,6 +3687,7 @@
         <marker scope="Public" name="sofia4" />
         <marker scope="Public" name="sofia45" />
         <marker scope="Public" name="sofia4s" />
+        <marker scope="Public" name="sofia5" />
         <marker scope="Public" name="sofia5s" />
         <marker scope="Public" name="solar_flare0" />
         <marker scope="Public" name="spooky_festive0" />

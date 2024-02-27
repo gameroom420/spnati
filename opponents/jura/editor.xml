@@ -124,7 +124,6 @@
         <note id="1182">Jura's "annoyed" pose will eventually fit this a little better (like she's collecting herself)</note>
         <note id="1212">had to reverse the saying-said order here because Barnette is not naturally in that case and Mitama was commenting on their dynamic like it was presently happening</note>
         <note id="1328">making this an alt convo so she doesn't rag on her appearance too much</note>
-        <note id="1416">I can revise if this is a bit too "real"</note>
         <note id="1503">please replace marker</note>
         <note id="1516">Up to you, but this time I imagine Rouge correctly surmising that Jura wouldn't care even if blatantly peeped on.</note>
     </notes>
@@ -779,11 +778,10 @@
         <label id="1303" label="" color="2" folder="" sort="0" />
         <label id="1304" label="" color="2" folder="" sort="0" />
         <label id="1305" label="" color="2" folder="" sort="0" />
-        <label id="1356" label="" color="4" folder="" sort="0" />
         <label id="1321" label="" color="7" folder="" sort="0" />
         <label id="1451" label="" color="4" folder="" sort="0" />
         <label id="1510" label="" color="4" folder="" sort="0" />
-        <label id="1316" label="" color="4" folder="" sort="0" />
+        <label id="1568" label="" color="4" folder="" sort="0" />
         <label id="1323" label="" color="4" folder="" sort="0" />
         <label id="1474" label="" color="4" folder="" sort="0" />
         <label id="1334" label="" color="7" folder="" sort="0" />
@@ -846,7 +844,6 @@
         <label id="1407" label="" color="1" folder="" sort="0" />
         <label id="1408" label="" color="1" folder="" sort="0" />
         <label id="1409" label="" color="1" folder="" sort="0" />
-        <label id="1416" label="" color="4" folder="" sort="0" />
         <label id="1421" label="" color="1" folder="" sort="0" />
         <label id="1422" label="" color="1" folder="" sort="0" />
         <label id="1424" label="" color="1" folder="" sort="0" />
@@ -927,11 +924,14 @@
         <label id="1560" label="" color="2" folder="" sort="0" />
         <label id="1561" label="" color="2" folder="" sort="0" />
         <label id="1562" label="" color="4" folder="" sort="0" />
+        <label id="1565" label="" color="4" folder="" sort="0" />
+        <label id="1566" label="" color="4" folder="" sort="0" />
+        <label id="1567" label="" color="4" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>jura</prefix>
     </prefixes>
-    <nextId>1564</nextId>
+    <nextId>1568</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="1v1">Jura acknowledges that the game has come down to her and one other player.</marker>
@@ -2449,6 +2449,7 @@
         <marker scope="Public" name="nonon_resp0b" />
         <marker scope="Public" name="nonon_resp1" />
         <marker scope="Public" name="nonon_resp12" />
+        <marker scope="Public" name="nonon_resp2" />
         <marker scope="Public" name="nonon0" />
         <marker scope="Public" name="nonon01" />
         <marker scope="Public" name="nonon1" />
@@ -2462,7 +2463,9 @@
         <marker scope="Public" name="nonon2s_ab" />
         <marker scope="Public" name="nonon2s_b" />
         <marker scope="Public" name="nonon3" />
+        <marker scope="Public" name="nonon34" />
         <marker scope="Public" name="nonon3s" />
+        <marker scope="Public" name="nonon4" />
         <marker scope="Public" name="ochako_cheerleader0" />
         <marker scope="Public" name="okino_gakuran0" />
         <marker scope="Public" name="okino_love" />
@@ -2719,6 +2722,7 @@
         <marker scope="Public" name="sofia4" />
         <marker scope="Public" name="sofia45" />
         <marker scope="Public" name="sofia4s" />
+        <marker scope="Public" name="sofia5" />
         <marker scope="Public" name="sola_revy" />
         <marker scope="Public" name="solar_flare0" />
         <marker scope="Public" name="spooky_festive0" />
