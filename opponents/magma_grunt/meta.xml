@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1680300504202</lastupdate>
+    <lastupdate>1709093698906</lastupdate>
     <enabled>false</enabled>
     <first>Magma</first>
     <last>Grunt</last>
@@ -11,7 +11,7 @@
     <writer>MyMainAccIsANord</writer>
     <artist>MyMainAccIsANord</artist>
     <description>A low-level peon of Team Magma, a gang in the Hoenn region who wish to expand the rule of human civilization. Loyal to the cause, she's here to win -- for Team Magma! And for herself!</description>
-    <epilogue gender="male" markers="true" img="epilogue_magma_grunt_prev.png" hint="Finish a game against Magma Grunt, as a male player, after you've already unlocked her hoodie">Saturday Night Booty Call from the Team Magma Grunt</epilogue>
+    <epilogue gender="male" markers="true" img="epilogue_magma_grunt_prev.png" hint="Finish a game against Magma Grunt, as a male player, after you've already unlocked her hoodie" description="MG invites you over for some casual sex.">Saturday Night Booty Call from the Team Magma Grunt</epilogue>
     <layers>8</layers>
     <alternates>
         <costume folder="opponents/reskins/magma_grunt_shark/" img="0-team_magma.png" set="halloween" label="Magma Grunt">Sharpedo Costume</costume>
@@ -20,7 +20,7 @@
         <costume folder="opponents/reskins/magma_grunt_team_wiki/" img="0-team_magma.png" set="april_fools" label="Wikipedia Grunt">Team Wikipedia</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>1858</lines>
-    <poses>267</poses>
+    <lines>1882</lines>
+    <poses>298</poses>
     <age />
 </opponent>
