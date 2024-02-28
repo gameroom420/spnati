@@ -1,2 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<collectibles />
+<collectibles>
+    <collectible id="rusty_can" status="online" img="opponents/sofia/ex-reward.png" thumbnail="opponents/sofia/ex-rustycan.png">
+        <title>Rusty Can</title>
+        <subtitle>It is an empty, rusty can. Look out for shapr edges.</subtitle>
+        <text>Sofia told you how much she hated spending time with you, how much she hated this can, and then gave it to you with a smile. You're a bit confused, but overall you get the sense this was a positive experience.</text>
+        <unlock>Finish a game with Sofia.</unlock>
+    </collectible>
+</collectibles>
