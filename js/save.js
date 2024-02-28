@@ -331,6 +331,11 @@ Save.prototype.loadOptions = function(){
         for (var status of settings.showStatuses) {
             includedOpponentStatuses[status] = true;
         }
+
+        /* If spnati.net, turn the inaccessible statuses off if they were enabled in an imported save */
+        if (isMainSite) {
+            includedOpponentStatuses['event'] = includedOpponentStatuses['duplicate'] = includedOpponentStatuses['broken'] = false;
+        }
     } else if (isLocal) {
         includedOpponentStatuses['offline'] = includedOpponentStatuses['incomplete'] = true;
     }

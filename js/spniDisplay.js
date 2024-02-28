@@ -1630,7 +1630,7 @@ OpponentSelectionCard.prototype.isVisible = function (testingView, ignoreFilter)
     var status = this.opponent.status;
 
     // Should this opponent be on the "main roster view"?
-    var onMainView = (status === undefined || includedOpponentStatuses[status]);
+    var onMainView = (status === undefined || (includedOpponentStatuses[status] && status !== "incomplete"));
     if (status === "testing" || status === "incomplete") onMainView = onMainView || this.opponent.allow_testing_guest;
     
     if (!testingView) {
