@@ -6,7 +6,7 @@
         <unlock>Win against Aoba.</unlock>
         <hide-details>true</hide-details>
         <wearable>true</wearable>
-        <clothing name="Pink Bowtie" generic="tie" position="neck" type="extra" img="opponents/aoba/AobaBow.png" />
+        <clothing img="opponents/aoba/AobaBow.png" name="pink bowtie" generic="tie" position="neck" type="extra" />
     </collectible>
     <collectible id="Unforgettable_memory" status="online" img="opponents/aoba/0-pissed.png" thumbnail="opponents/aoba/0-pissed.png">
         <title>An Unforgettable Memory.</title>
@@ -22,6 +22,7 @@ Note: She cannot be wearing her "In Development" costume.</unlock>
         <title>Black Coffee</title>
         <text>The most adult drink there is!</text>
         <unlock>Have Aoba correct 4 different characters about her age.</unlock>
+        <hidden>true</hidden>
         <counter>4</counter>
     </collectible>
 </collectibles>

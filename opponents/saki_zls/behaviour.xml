@@ -11040,7 +11040,7 @@
         </trigger>
 
     </behaviour>
-    <epilogue hint="Saki's epilogue isn't ready yet. Please enjoy this one." gender="any" img="ep_PREVIEW_TEMP.png" version="1" status="offline">
+    <epilogue hint="Saki's epilogue isn't ready yet. Please enjoy this one." gender="any" img="ep_PREVIEW_TEMP.png" version="1" status="unlisted">
         <title>Under Construction</title>
         <scene name="UNDER CONSTRUCTION" color="#8000FF" x="0" y="0" width="1280" height="720">
             <directive type="sprite" id="sprite2" src="ep_MeKo.png" x="27%" y="-339" scalex="0.5" scaley="0.5" pivotx="50%" pivoty="50%" />
