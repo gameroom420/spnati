@@ -427,9 +427,9 @@
         <label id="578" label="" color="4" folder="" sort="0" />
         <label id="580" label="" color="4" folder="" sort="0" />
         <label id="581" label="" color="2" folder="" sort="0" />
-        <label id="582" label="" color="4" folder="" sort="0" />
+        <label id="583" label="" color="4" folder="" sort="0" />
     </labels>
-    <nextId>582</nextId>
+    <nextId>583</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="aaravi0" />
@@ -1466,6 +1466,7 @@
         <marker scope="Public" name="rosa_ts0" />
         <marker scope="Public" name="rosa0" />
         <marker scope="Public" name="rose0" />
+        <marker scope="Public" name="rose01" />
         <marker scope="Public" name="rotten">"Bitch, I got plenty of friends, and they're all as rotten as I am.  Why don't I just melt your face with a heated barrel?"</marker>
         <marker scope="Public" name="rouge_hobbies" />
         <marker scope="Public" name="rouge_jewel" />
