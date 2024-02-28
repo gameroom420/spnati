@@ -1,18 +1,18 @@
 from __future__ import print_function
 
-import behaviour_parser as bp
 import os
 import os.path as osp
 import stat
 import sys
 
+import behaviour_parser as bp
+
+
 def iter_listing(opponents_base):
     listing_elem = bp.parse_listing(osp.join(opponents_base, 'listing.xml'))
 
     for individual in listing_elem.find('individuals').iter('opponent'):
-        if 'status' not in individual.attributes:
-            yield individual.text
-        elif individual.attributes['status'] == 'testing':
+        if ('status' not in individual.attributes) or (individual.attributes['status'] in ("testing", "offline", "incomplete")):
             yield individual.text
 
 def calc_image_space(opponents_base, opponent):

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 from __future__ import print_function
 
-import xml.etree.ElementTree as ET
-import shutil as sh
-import sys
 import os
 import os.path as osp
+import shutil as sh
+import sys
+import xml.etree.ElementTree as ET
 
 
 def main():
@@ -21,7 +21,7 @@ def main():
     delete_stages = {}
     
     for opp in listing_xml.find('individuals').iter('opponent'):
-        if 'status' not in opp.attrib or opp.attrib['status'] == "testing":
+        if 'status' not in opp.attrib or opp.attrib['status'] in ("testing", "incomplete", "offline"):
             meta_xml = ET.parse(osp.join(base_dir, 'opponents',  opp.text, 'meta.xml'))
             for alts in meta_xml.iter('alternates'):               
                 n_stages = int(meta_xml.find('layers').text) + 2

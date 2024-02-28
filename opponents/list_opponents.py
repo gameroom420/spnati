@@ -2,9 +2,9 @@
 # to listing.xml prepended)
 from __future__ import print_function
 
+import os
 import sys
 import xml.etree.ElementTree as ET
-import os
 
 if len(sys.argv) > 1:
     filename = sys.argv[1]
@@ -16,5 +16,5 @@ else:
 tree = ET.parse(filename)
 
 for opp in tree.getroot().find('individuals'):
-    if 'status' not in opp.attrib or opp.attrib['status'] == "testing":
+    if 'status' not in opp.attrib or opp.attrib['status'] in ("testing", "incomplete", "offline"):
         print(os.path.join(directory_name, opp.text))
