@@ -53,7 +53,19 @@
         <response id="187" opponent="nonon" opponentId="779" />
         <response id="188" opponent="nonon" opponentId="487" />
         <response id="190" opponent="yuno_uno" opponentId="175" />
+        <response id="192" opponent="magma_grunt" opponentId="895" />
+        <response id="194" opponent="magma_grunt" opponentId="893" />
+        <response id="195" opponent="magma_grunt" opponentId="894" />
+        <response id="196" opponent="magma_grunt" opponentId="171" />
+        <response id="197" opponent="magma_grunt" opponentId="174" />
+        <response id="198" opponent="magma_grunt" opponentId="175" />
+        <response id="199" opponent="magma_grunt" opponentId="95" />
+        <response id="201" opponent="magma_grunt" opponentId="92" />
+        <response id="202" opponent="sanako" opponentId="21" />
     </responses>
+    <notes>
+        <note id="193">Rose has left her slot to visit Magma Grunt's slot - MG is showing her a picture of her own backside</note>
+    </notes>
     <labels>
         <label id="1" label="" folder="Conditional" sort="18" />
         <label id="2" label="" folder="Conditional" sort="16" />
@@ -241,11 +253,23 @@
         <label id="188" label="" folder="Targets" sort="0" />
         <label id="189" label="" folder="Targets" sort="0" />
         <label id="190" label="" folder="Targets" sort="0" />
+        <label id="191" label="" folder="Conditional (+Anima)" sort="0" />
+        <label id="192" label="" folder="Response&gt;Magma Grunt" sort="0" />
+        <label id="193" label="" folder="Response&gt;Magma Grunt" sort="0" />
+        <label id="194" label="" folder="Response&gt;Magma Grunt" sort="0" />
+        <label id="195" label="" folder="Response&gt;Magma Grunt" sort="0" />
+        <label id="196" label="" folder="Targets&gt;Magma Grunt" sort="0" />
+        <label id="199" label="" folder="Targets&gt;Magma Grunt" sort="0" />
+        <label id="200" label="" folder="Targets&gt;Magma Grunt" sort="0" />
+        <label id="201" label="" folder="Targets&gt;Magma Grunt" sort="0" />
+        <label id="202" label="" folder="Targets&gt;Sanako" sort="0" />
+        <label id="203" label="" folder="Response&gt;Kirigiri" sort="0" />
+        <label id="204" label="" folder="Response&gt;Kirigiri" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>show_anima==1</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>190</nextId>
+    <nextId>204</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="anima_accusation" />
@@ -255,12 +279,17 @@
         <marker scope="Public" name="finished" />
         <marker scope="Public" name="flashing_1" />
         <marker scope="Public" name="flashing_2" />
+        <marker scope="Public" name="for_me_misspeak" />
+        <marker scope="Public" name="for_me_misspeak2" />
         <marker scope="Public" name="good_boy" />
         <marker scope="Public" name="losing_to_all_male" />
         <marker scope="Public" name="lost_2_in_a_row" />
         <marker scope="Public" name="lost_2_in_a_row_2" />
         <marker scope="Public" name="lost_2_in_a_row_3" />
         <marker scope="Public" name="mariS_wings_reveal" />
+        <marker scope="Public" name="mg_hood_down" />
+        <marker scope="Public" name="mg_magma_speech1" />
+        <marker scope="Public" name="mg_rose_show_phone" />
         <marker scope="Public" name="muststrip5_witty_tag" />
         <marker scope="Public" name="nonon_lady_jakuzure_resp" />
         <marker scope="Public" name="nonon_postcum_threat_Resp" />
@@ -268,8 +297,12 @@
         <marker scope="Public" name="rose_butt" />
         <marker scope="Public" name="rose_jura0_early" />
         <marker scope="Public" name="rose_kirigiri_self0a" />
+        <marker scope="Public" name="rose_kirigiri_self0b" />
         <marker scope="Public" name="rose_meia0" />
         <marker scope="Public" name="rose_meia0_early" />
+        <marker scope="Public" name="rose_mg_backScar1" />
+        <marker scope="Public" name="rose_mg_backScar2" />
+        <marker scope="Public" name="rose_mg_backScar3" />
         <marker scope="Public" name="rose_moskii_animaQuestion1" />
         <marker scope="Public" name="rose_revy_self0a" />
         <marker scope="Public" name="rose_sofia_default0a" />
@@ -283,6 +316,7 @@
         <marker scope="Public" name="rose_yuno_smalltalk1" />
         <marker scope="Public" name="rose_yuno_smalltalk2" />
         <marker scope="Public" name="rose_yuno_smalltalk3" />
+        <marker scope="Public" name="sanako_spend_your_time" />
         <marker scope="Public" name="show_anima">If set to 1 she will show off her +Anima traits (cat claws and sharp eyes)</marker>
         <marker scope="Public" name="showing_animaFirstTime_yuno" />
         <marker scope="Public" name="standbackup" />
