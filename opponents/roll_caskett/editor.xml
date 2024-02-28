@@ -114,11 +114,19 @@
         <response id="98" opponent="jura" opponentId="1510" />
         <response id="99" opponent="meia" opponentId="1096" />
         <response id="100" opponent="meia" opponentId="1638" />
+        <response id="101" opponent="lysithea" opponentId="349" />
+        <response id="102" opponent="lysithea" opponentId="350" />
+        <response id="103" opponent="lysithea" opponentId="348" />
+        <response id="104" opponent="lysithea" opponentId="351" />
+        <response id="105" opponent="leon" opponentId="1484" />
+        <response id="106" opponent="leon" opponentId="1482" />
+        <response id="111" opponent="leon" opponentId="1477" />
+        <response id="114" opponent="leon" opponentId="1475" />
     </responses>
     <prefixes>
         <prefix>ex</prefix>
     </prefixes>
-    <nextId>100</nextId>
+    <nextId>132</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="9S_s0_1" />
@@ -223,6 +231,9 @@
         <marker scope="Public" name="kumatora_resp0_1" />
         <marker scope="Public" name="Kumatora_s0_1" />
         <marker scope="Public" name="Kumatora_s0_2" />
+        <marker scope="Public" name="leon_finishA" />
+        <marker scope="Public" name="leon_finishB" />
+        <marker scope="Public" name="leon_finishC" />
         <marker scope="Public" name="leon_resp_turnon0" />
         <marker scope="Public" name="leon_resp_turnon1" />
         <marker scope="Public" name="leon_resp_turnon2" />
@@ -244,12 +255,48 @@
         <marker scope="Public" name="leon_resp5_1" />
         <marker scope="Public" name="leon_resp5_2" />
         <marker scope="Public" name="leon_resp5_3" />
+        <marker scope="Public" name="leon_resp6_1" />
+        <marker scope="Public" name="leon_resp6_2" />
+        <marker scope="Public" name="leon_resp7_1" />
+        <marker scope="Public" name="leon_resp7_2" />
+        <marker scope="Public" name="leon_resp7_3" />
+        <marker scope="Public" name="leon_resp7_4" />
+        <marker scope="Public" name="leon_resp7_5" />
+        <marker scope="Public" name="leon_resp7_6" />
+        <marker scope="Public" name="leon_resp7_C0" />
+        <marker scope="Public" name="leon_resp7_C1" />
+        <marker scope="Public" name="leon_resp7_C2" />
+        <marker scope="Public" name="leon_resp7_C3" />
+        <marker scope="Public" name="leon_resp7_C4" />
+        <marker scope="Public" name="leon_resp7_C5" />
+        <marker scope="Public" name="leon_resp7_C6" />
+        <marker scope="Public" name="leon_resp7_D0" />
+        <marker scope="Public" name="leon_resp7_D1" />
+        <marker scope="Public" name="leon_resp7_D2" />
+        <marker scope="Public" name="leon_resp7_D3" />
+        <marker scope="Public" name="leon_resp7_D4" />
+        <marker scope="Public" name="leon_resp7_D5" />
+        <marker scope="Public" name="leon_resp7_D6" />
+        <marker scope="Public" name="leon_resp7_M0" />
+        <marker scope="Public" name="leon_resp7_M1" />
+        <marker scope="Public" name="leon_resp7_M2" />
+        <marker scope="Public" name="leon_resp7_M3" />
+        <marker scope="Public" name="leon_resp7_M4" />
+        <marker scope="Public" name="leon_resp7_M5" />
+        <marker scope="Public" name="leon_resp7_M6" />
         <marker scope="Public" name="leon_respF_poly" />
         <marker scope="Public" name="Leon_s0_1" />
+        <marker scope="Public" name="Leon_s0_2" />
         <marker scope="Public" name="Leon_s1_1" />
+        <marker scope="Public" name="Leon_s1_2" />
         <marker scope="Public" name="lysithea_respK_1" />
+        <marker scope="Public" name="lysithea_respK_2" />
+        <marker scope="Public" name="lysithea_respK_3" />
+        <marker scope="Public" name="lysithea_respKE_2" />
         <marker scope="Public" name="lysithea_respM_1" />
+        <marker scope="Public" name="lysithea_respM_2" />
         <marker scope="Public" name="lysithea_respW_1" />
+        <marker scope="Public" name="lysithea_respW_2" />
         <marker scope="Public" name="mari_resp0_1" />
         <marker scope="Public" name="maria_resp0_1" />
         <marker scope="Public" name="maria_resp0_2" />
