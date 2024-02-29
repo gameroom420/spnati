@@ -64,12 +64,14 @@ var SPECIAL_CASE_NAMES = {
     "chara_dreemurr": "Chara",
     "chell_wheatley": "Chell",
     "hermione_granger": "Hermione",
-    "mettaton_neo": "Mettaton",
     "misty_hgss": "Misty",
     "rarity_eg": "Rarity",
     "samus_aran": "Samus",
     "weiss_schnee": "Weiss",
     "yang_xiao_long": "Yang"
+
+    // broken
+    "mettaton_neo": "Mettaton (failed rework)",
 }
 
 function cell_with_text(text, classes) {
