@@ -234,7 +234,6 @@
 		<opponent addedDate="2017-12-07" release="126" status="offline">black_canary</opponent>
 		<opponent addedDate="2017-09-03" release="90" status="offline">corrin_f</opponent>
 		<opponent addedDate="2017-08-29" release="103" status="offline">corrin_m</opponent>
-		<opponent addedDate="2018-04-26" release="110" status="offline">felicia</opponent>
 		<opponent addedDate="2017-07-12" release="95" status="offline">kurumu</opponent>
 		<opponent addedDate="2017-07-02" release="93" status="offline">mei</opponent>
 		<opponent addedDate="2018-01-31" release="104" status="offline">morrigan</opponent>
@@ -332,6 +331,7 @@
 		<opponent addedDate="2019-09-05" status="incomplete">mythra</opponent>
 		<opponent addedDate="2020-11-21" status="incomplete">nagamimi</opponent>
 		<opponent addedDate="2020-04-01" status="incomplete">nanoko-chan</opponent>
+		<opponent addedDate="2017-08-16" release="89" status="incomplete">neo</opponent>
 		<opponent addedDate="2022-06-03" status="incomplete">nodoka</opponent>
 		<opponent addedDate="2022-10-14" status="incomplete">okino</opponent>
 		<opponent addedDate="2016-08-31" release="14" status="incomplete">pauling</opponent>
@@ -422,7 +422,7 @@
 		<opponent addedDate="2019-04-01" status="event">shou_tucker</opponent>
 		<opponent addedDate="2018-04-01" status="event">el_shaggy_blanco</opponent>
 		<opponent addedDate="2018-04-01" status="event">kool-aid</opponent>
-		<opponent addedDate="2017-08-16" release="89" status="event">neo</opponent>
+		<opponent addedDate="2018-04-26" release="110" status="offline">felicia</opponent>
 		<opponent addedDate="2016-10-16" release="23" status="event">mileena</opponent>
 		<opponent addedDate="2017-08-31" release="124" status="event">kira</opponent>
 		<opponent addedDate="2016-10-26" release="26" status="event">link</opponent>
