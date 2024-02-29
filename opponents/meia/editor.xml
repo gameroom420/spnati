@@ -894,8 +894,8 @@
         <label id="1543" label="" color="10" folder="" sort="0" />
         <label id="1544" label="" color="10" folder="" sort="0" />
         <label id="1545" label="" color="4" folder="" sort="0" />
-        <label id="1547" label="" color="4" folder="" sort="0" />
-        <label id="1548" label="" color="4" folder="" sort="0" />
+        <label id="1715" label="" color="4" folder="" sort="0" />
+        <label id="1716" label="" color="4" folder="" sort="0" />
         <label id="1698" label="" color="4" folder="" sort="0" />
         <label id="1555" label="" color="4" folder="" sort="0" />
         <label id="1556" label="" color="4" folder="" sort="0" />
@@ -915,7 +915,6 @@
         <label id="1618" label="" color="4" folder="" sort="0" />
         <label id="1572" label="" color="4" folder="" sort="0" />
         <label id="1573" label="" color="4" folder="" sort="0" />
-        <label id="1592" label="" color="4" folder="" sort="0" />
         <label id="1705" label="" color="4" folder="" sort="0" />
         <label id="1706" label="" color="4" folder="" sort="0" />
         <label id="1603" label="" color="6" folder="" sort="0" />
@@ -973,8 +972,9 @@
         <label id="1695" label="" color="4" folder="" sort="0" />
         <label id="1697" label="" color="4" folder="" sort="0" />
         <label id="1701" label="" color="4" folder="" sort="0" />
+        <label id="1714" label="" color="4" folder="" sort="0" />
     </labels>
-    <nextId>1713</nextId>
+    <nextId>1716</nextId>
     <markers>
         <marker scope="Public" name="2butt">Meia shows off her butt while still in her bodysuit (or Cupid outfit).</marker>
         <marker scope="Public" name="9s0" />
@@ -3892,11 +3892,14 @@
         <marker scope="Public" name="yae_miko_men" />
         <marker scope="Public" name="yae_miko_resp0" />
         <marker scope="Public" name="yae_miko_resp01" />
+        <marker scope="Public" name="yae_miko_resp1" />
         <marker scope="Public" name="yae_miko_sightseeing" />
         <marker scope="Public" name="yae_miko0" />
         <marker scope="Public" name="yae_miko01" />
         <marker scope="Public" name="yae_miko1s" />
         <marker scope="Public" name="yae_miko2" />
+        <marker scope="Public" name="yae_miko23" />
+        <marker scope="Public" name="yae_miko3" />
         <marker scope="Public" name="yae_resp0" />
         <marker scope="Public" name="yae_resp01" />
         <marker scope="Public" name="yae_resp1" />
