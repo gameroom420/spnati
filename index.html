@@ -2835,7 +2835,7 @@
                                     <h3 class="modal-title text-center extra-characters-options" hidden><b>Extra Characters</b></h3>
 
                                     <table class="extra-settings-group extra-characters-options" hidden>
-                                        <tr>
+                                        <tr class="offline-option">
                                             <td class="setting-toggle">
                                                 <ul class="pagination character-status-toggle" id="show-offline" data-status="offline">
                                                     <li><a href="#" data-value="true">Show</a></li>
@@ -2843,12 +2843,12 @@
                                                 </ul>
                                             </td>
                                             <td class="setting-description">
-                                                <h4 class="modal-title modal-left">🕸️ Offline Characters</h4>
-                                                <h5 class="modal-left">These characters no longer meet the standards of the main game,<br />but are still fully complete.</h5>
+                                                <h4 class="modal-title modal-left">🕸️ Legacy Characters</h4>
+                                                <h5 class="modal-left">These characters no longer meet the standards of the main game,<br />but are still fully playable.</h5>
                                             </td>
                                         </tr>
 										
-                                        <tr>
+                                        <tr class="incomplete-option">
                                             <td class="setting-toggle">
                                                 <ul class="pagination character-status-toggle" id="show-incomplete" data-status="incomplete">
                                                     <li><a href="#" data-value="true">Show</a></li>
@@ -2857,11 +2857,11 @@
                                             </td>
                                             <td class="setting-description">
                                                 <h4 class="modal-title modal-left">🔧 Incomplete Characters</h4>
-                                                <h5 class="modal-left">These characters were never finished or added to the main game,<br />so they may be of lower quality or simply not work properly.</h5>
+                                                <h5 class="modal-left">These characters never completed the process to be added<br />to the main game, so they may be of lower quality.<br />On spnati.net, these are restricted to the Testing Roster.</h5>
                                             </td>
                                         </tr>
 										
-                                        <tr>
+                                        <tr class="event-option">
                                             <td class="setting-toggle">
                                                 <ul class="pagination character-status-toggle" id="show-event" data-status="event">
                                                     <li><a href="#" data-value="true">Show</a></li>
@@ -2874,7 +2874,7 @@
                                             </td>
                                         </tr>
 										
-                                        <tr>
+                                        <tr class="duplicate-option">
                                             <td class="setting-toggle">
                                                 <ul class="pagination character-status-toggle" id="show-duplicate" data-status="duplicate">
                                                     <li><a href="#" data-value="true">Show</a></li>
@@ -2884,6 +2884,19 @@
                                             <td class="setting-description">
                                                 <h4 class="modal-title modal-left">👥 Duplicate Characters</h4>
                                                 <h5 class="modal-left">These are usually older versions of characters that have been replaced.</h5>
+                                            </td>
+                                        </tr>
+										
+                                        <tr class="broken-option">
+                                            <td class="setting-toggle">
+                                                <ul class="pagination character-status-toggle" id="show-broken" data-status="broken">
+                                                    <li><a href="#" data-value="true">Show</a></li>
+                                                    <li><a href="#" data-value="false">Hide</a></li>
+                                                </ul>
+                                            </td>
+                                            <td class="setting-description">
+                                                <h4 class="modal-title modal-left">❌ Broken Characters</h4>
+                                                <h5 class="modal-left">These characters have large amounts of placeholder images or dialogue.</h5>
                                             </td>
                                         </tr>
                                     </table>

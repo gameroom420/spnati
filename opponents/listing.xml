@@ -228,78 +228,42 @@
 		<opponent addedDate="2023-10-23" status="testing">jenna</opponent>
 		<opponent addedDate="2022-12-11" status="testing">kyoko_kirigiri</opponent>
 		<opponent addedDate="2017-06-30" release="92" status="offline">aimee</opponent>
-		<opponent addedDate="2017-01-23" release="45" status="offline">alice</opponent>
 		<opponent addedDate="2017-09-03" release="99" status="offline">alpha</opponent>
 		<opponent addedDate="2017-04-29" release="111" status="offline">ami</opponent>
 		<opponent addedDate="2018-01-11" release="102" status="offline">angie</opponent>
-		<opponent addedDate="2017-09-19" release="94" status="offline">ann</opponent>
-		<opponent addedDate="2017-04-08" release="65" status="offline">arwen</opponent>
 		<opponent addedDate="2017-12-07" release="126" status="offline">black_canary</opponent>
-		<opponent addedDate="2016-08-06" release="10" status="offline">blackrose</opponent>
-		<opponent addedDate="2017-02-05" release="58" status="offline">caleb</opponent>
-		<opponent addedDate="2017-06-07" release="74" status="offline">captain_falcon</opponent>
 		<opponent addedDate="2017-09-03" release="90" status="offline">corrin_f</opponent>
 		<opponent addedDate="2017-08-29" release="103" status="offline">corrin_m</opponent>
-		<opponent addedDate="2016-06-15" release="7" status="offline">daisy</opponent>
-		<opponent addedDate="2016-11-13" release="29" status="offline">daphne</opponent>
-		<opponent addedDate="2017-02-07" release="49" status="offline">d.va</opponent>
-		<opponent addedDate="2017-03-12" release="62" status="offline">elaine</opponent>
-		<opponent addedDate="2017-03-10" release="59" status="offline">elena</opponent>
-		<opponent addedDate="2017-04-29" release="67" status="offline">evie</opponent>
-		<opponent addedDate="2018-04-26" release="110" status="offline">felicia</opponent>
-		<opponent addedDate="2016-11-23" release="35" status="offline">fred</opponent>
-		<opponent addedDate="2017-05-18" release="71" status="offline">gogo</opponent>
-		<opponent addedDate="2016-11-30" release="37" status="offline">harley</opponent>
-		<opponent addedDate="2017-03-06" release="61" status="offline">jane</opponent>
-		<opponent addedDate="2017-01-13" release="43" status="offline">jasmine</opponent>
-		<opponent addedDate="2016-10-29" release="25" status="offline">kim</opponent>
 		<opponent addedDate="2017-07-12" release="95" status="offline">kurumu</opponent>
-		<opponent addedDate="2015-06-30" release="1" status="offline">lara</opponent>
-		<opponent addedDate="2016-12-30" release="40" status="offline">leela</opponent>
-		<opponent addedDate="2015-06-30" release="3" status="offline">lilith</opponent>
-		<opponent addedDate="2017-02-15" release="54" status="offline">meg</opponent>
 		<opponent addedDate="2017-07-02" release="93" status="offline">mei</opponent>
-		<opponent addedDate="2017-06-07" release="72" status="offline">mettaton</opponent>
 		<opponent addedDate="2018-01-31" release="104" status="offline">morrigan</opponent>
-		<opponent addedDate="2017-08-16" release="89" status="offline">neo</opponent>
-		<opponent addedDate="2016-08-13" release="11" status="offline">peach</opponent>
-		<opponent addedDate="2016-11-14" release="30" status="offline">piper</opponent>
-		<opponent addedDate="2016-06-15" release="8" status="offline">rosalina</opponent>
-		<opponent addedDate="2016-10-09" release="20" status="offline">ryu</opponent>
-		<opponent addedDate="2017-05-29" release="78" status="offline">scarlet_witch</opponent>
-		<opponent addedDate="2017-02-11" release="52" status="offline">seven</opponent>
-		<opponent addedDate="2016-09-22" release="17" status="offline">shaggy</opponent>
-		<opponent addedDate="2017-05-23" release="70" status="offline">sharla</opponent>
-		<opponent addedDate="2017-02-15" release="55" status="offline">shazza</opponent>
-		<opponent addedDate="2017-08-13" release="83" status="offline">shego</opponent>
 		<opponent addedDate="2017-08-09" release="85" status="offline">sola</opponent>
-		<opponent addedDate="2017-02-05" release="47" status="offline">sonya</opponent>
-		<opponent addedDate="2016-08-17" release="12" status="offline">tifa</opponent>
-		<opponent addedDate="2016-11-21" release="33" status="offline">tracer</opponent>
-		<opponent addedDate="2017-02-17" release="56" status="offline">xander</opponent>
-		<opponent addedDate="2017-03-03" release="63" status="offline">zelda</opponent>
-		<opponent addedDate="2017-07-30" release="84" status="offline">zizou</opponent>
-		<opponent addedDate="2015-06-30" release="2" status="offline">zoey</opponent>
 		<opponent addedDate="2018-03-25" release="105" status="incomplete">9s</opponent>
 		<opponent addedDate="2021-08-17" status="incomplete">adora</opponent>
 		<opponent addedDate="2022-04-26" status="incomplete">ahri</opponent>
 		<opponent addedDate="2018-01-27" status="incomplete">aiyana</opponent>
+		<opponent addedDate="2017-01-23" release="45" status="incomplete">alice</opponent>
 		<opponent addedDate="2018-05-13" status="incomplete">alice_degracia</opponent>
 		<opponent addedDate="2018-08-26" status="incomplete">alice_mgq</opponent>
+		<opponent addedDate="2017-09-19" release="94" status="incomplete">ann</opponent>
 		<opponent addedDate="2020-04-27" status="incomplete">anna</opponent>
 		<opponent addedDate="2017-03-20" status="incomplete">annie</opponent>
 		<opponent addedDate="2017-04-09" status="incomplete">annie_leonhart</opponent>
 		<opponent addedDate="2021-01-19" status="incomplete">aoba</opponent>
 		<opponent addedDate="2016-09-07" release="16" status="incomplete">april</opponent>
 		<opponent addedDate="2020-01-29" status="incomplete">arash</opponent>
+		<opponent addedDate="2017-04-08" release="65" status="incomplete">arwen</opponent>
 		<opponent addedDate="2021-03-06" status="incomplete">aster</opponent>
 		<opponent addedDate="2018-04-08" status="incomplete">athena</opponent>
 		<opponent addedDate="2021-09-07" status="incomplete">basil</opponent>
 		<opponent addedDate="2017-03-28" status="incomplete">bi</opponent>
+		<opponent addedDate="2016-08-06" release="10" status="incomplete">blackrose</opponent>
 		<opponent addedDate="2022-04-23" status="incomplete">blake_belladonna</opponent>
 		<opponent addedDate="2020-11-20" status="incomplete">bulma</opponent>
+		<opponent addedDate="2017-02-05" release="58" status="incomplete">caleb</opponent>
 		<opponent addedDate="2018-06-08" status="incomplete">calisto</opponent>
 		<opponent addedDate="2018-02-18" status="incomplete">captain_america</opponent>
+		<opponent addedDate="2017-06-07" release="74" status="incomplete">captain_falcon</opponent>
 		<opponent addedDate="2021-07-05" status="incomplete">charlie</opponent>
 		<opponent addedDate="2021-03-01" status="incomplete">chell_wheatley</opponent>
 		<opponent addedDate="2017-10-14" status="incomplete">chica</opponent>
@@ -309,41 +273,57 @@
 		<opponent addedDate="2021-05-25" status="incomplete">colress</opponent>
 		<opponent addedDate="2021-02-01" status="incomplete">colt</opponent>
 		<opponent addedDate="2020-05-26" status="incomplete">connie</opponent>
+		<opponent addedDate="2016-06-15" release="7" status="incomplete">daisy</opponent>
+		<opponent addedDate="2016-11-13" release="29" status="incomplete">daphne</opponent>
 		<opponent addedDate="2017-03-06" release="60" status="incomplete">daria</opponent>
 		<opponent addedDate="2022-08-24" status="incomplete">darkness</opponent>
 		<opponent addedDate="2021-04-01" status="incomplete">death</opponent>
 		<opponent addedDate="2020-08-25" status="incomplete">deimos</opponent>
 		<opponent addedDate="2022-07-31" status="incomplete">dorothy</opponent>
+		<opponent addedDate="2017-02-07" release="49" status="incomplete">d.va</opponent>
+		<opponent addedDate="2017-03-12" release="62" status="incomplete">elaine</opponent>
+		<opponent addedDate="2017-03-10" release="59" status="incomplete">elena</opponent>
 		<opponent addedDate="2020-05-19" status="incomplete">elsa</opponent>
 		<opponent addedDate="2022-03-17" status="incomplete">erza</opponent>
+		<opponent addedDate="2017-04-29" release="67" status="incomplete">evie</opponent>
 		<opponent addedDate="2018-05-05" release="120" status="incomplete">faye</opponent>
 		<opponent addedDate="2021-12-09" status="incomplete">fischl</opponent>
+		<opponent addedDate="2016-11-23" release="35" status="incomplete">fred</opponent>
 		<opponent addedDate="2020-01-13" status="incomplete">gaige</opponent>
 		<opponent addedDate="2022-01-10" status="incomplete">ganyu</opponent>
-		<opponent addedDate="2019-11-30" status="incomplete">hatsume</opponent>
+		<opponent addedDate="2017-05-18" release="71" status="incomplete">gogo</opponent>
+		<opponent addedDate="2016-11-30" release="37" status="incomplete">harley</opponent>
 		<opponent addedDate="2020-12-21" status="incomplete">hermione_granger</opponent>
 		<opponent addedDate="2022-04-29" status="incomplete">hilbert</opponent>
 		<opponent addedDate="2018-02-26" status="incomplete">hinata</opponent>
 		<opponent addedDate="2019-01-08" status="incomplete">hk416</opponent>
 		<opponent addedDate="2018-03-10" status="incomplete">hope</opponent>
+		<opponent addedDate="2017-03-06" release="61" status="incomplete">jane</opponent>
+		<opponent addedDate="2017-01-13" release="43" status="incomplete">jasmine</opponent>
 		<opponent addedDate="2020-05-06" status="incomplete">jason</opponent>
 		<opponent addedDate="2018-07-30" status="incomplete">jenetta</opponent>
 		<opponent addedDate="2022-03-22" status="incomplete">jill</opponent>
 		<opponent addedDate="2018-06-04" status="incomplete">jubilee</opponent>
 		<opponent addedDate="2018-09-23" status="incomplete">kali</opponent>
+		<opponent addedDate="2016-10-29" release="25" status="incomplete">kim</opponent>
 		<opponent addedDate="2018-06-02" status="incomplete">kimberly</opponent>
 		<opponent addedDate="2020-04-01" status="incomplete">kokichi</opponent>
 		<opponent addedDate="2017-01-15" release="44" status="incomplete">korra</opponent>
+		<opponent addedDate="2015-06-30" release="1" status="incomplete">lara</opponent>
 		<opponent addedDate="2019-08-01" status="incomplete">leafy</opponent>
+		<opponent addedDate="2016-12-30" release="40" status="incomplete">leela</opponent>
 		<opponent addedDate="2020-05-06" status="incomplete">leo</opponent>
+		<opponent addedDate="2015-06-30" release="3" status="incomplete">lilith</opponent>
 		<opponent addedDate="2020-02-29" status="incomplete">lucy</opponent>
 		<opponent addedDate="2021-01-05" status="incomplete">lymilark</opponent>
 		<opponent addedDate="2023-01-30" status="incomplete">magical_sempai</opponent>
 		<opponent addedDate="2020-01-07" status="incomplete">maki</opponent>
 		<opponent addedDate="2017-07-28" status="incomplete">mara_jade</opponent>
 		<opponent addedDate="2017-06-19" release="77" status="incomplete">marceline</opponent>
+		<opponent addedDate="2017-02-15" release="54" status="incomplete">meg</opponent>
 		<opponent addedDate="2020-01-29" status="incomplete">merlin</opponent>
 		<opponent addedDate="2018-12-22" status="incomplete">merula</opponent>
+		<opponent addedDate="2017-06-07" release="72" status="incomplete">mettaton</opponent>
 		<opponent addedDate="2016-11-23" release="34" status="incomplete">mia</opponent>
 		<opponent addedDate="2021-12-03" status="incomplete">miki_miura</opponent>
 		<opponent addedDate="2019-07-20" status="incomplete">misaka</opponent>
@@ -351,35 +331,52 @@
 		<opponent addedDate="2019-09-05" status="incomplete">mythra</opponent>
 		<opponent addedDate="2020-11-21" status="incomplete">nagamimi</opponent>
 		<opponent addedDate="2020-04-01" status="incomplete">nanoko-chan</opponent>
+		<opponent addedDate="2017-08-16" release="89" status="incomplete">neo</opponent>
 		<opponent addedDate="2022-06-03" status="incomplete">nodoka</opponent>
 		<opponent addedDate="2022-10-14" status="incomplete">okino</opponent>
-		<opponent addedDate="2018-12-14" status="incomplete">pascal</opponent>
 		<opponent addedDate="2016-08-31" release="14" status="incomplete">pauling</opponent>
 		<opponent addedDate="2017-04-25" status="incomplete">paya</opponent>
+		<opponent addedDate="2016-08-13" release="11" status="incomplete">peach</opponent>
 		<opponent addedDate="2017-08-18" status="incomplete">pearl</opponent>
 		<opponent addedDate="2019-02-28" status="incomplete">penny</opponent>
 		<opponent addedDate="2020-12-02" status="incomplete">penny_polendina</opponent>
+		<opponent addedDate="2016-11-14" release="30" status="incomplete">piper</opponent>
 		<opponent addedDate="2022-10-29" status="incomplete">rin_kagamine</opponent>
 		<opponent addedDate="2022-03-14" status="incomplete">rita</opponent>
 		<opponent addedDate="2017-08-29" status="incomplete">riva</opponent>
+		<opponent addedDate="2016-06-15" release="8" status="incomplete">rosalina</opponent>
 		<opponent addedDate="2020-04-04" status="incomplete">roll</opponent>
 		<opponent addedDate="2019-06-01" status="incomplete">roxie</opponent>
 		<opponent addedDate="2021-01-27" status="incomplete">ruka</opponent>
+		<opponent addedDate="2016-10-09" release="20" status="incomplete">ryu</opponent>
 		<opponent addedDate="2017-07-10" release="81" status="incomplete">sayla</opponent>
+		<opponent addedDate="2017-05-29" release="78" status="incomplete">scarlet_witch</opponent>
+		<opponent addedDate="2017-02-11" release="52" status="incomplete">seven</opponent>
+		<opponent addedDate="2016-09-22" release="17" status="incomplete">shaggy</opponent>
 		<opponent addedDate="2020-03-27" release="189" status="incomplete">shamir</opponent>
+		<opponent addedDate="2017-05-23" release="70" status="incomplete">sharla</opponent>
+		<opponent addedDate="2017-02-15" release="55" status="incomplete">shazza</opponent>
+		<opponent addedDate="2017-08-13" release="83" status="incomplete">shego</opponent>
 		<opponent addedDate="2018-01-11" status="incomplete">sheva</opponent>
+		<opponent addedDate="2017-02-05" release="47" status="incomplete">sonya</opponent>
 		<opponent addedDate="2022-10-01" status="incomplete">steve</opponent>
 		<opponent addedDate="2021-01-19" status="incomplete">susie</opponent>
 		<opponent addedDate="2023-04-15" status="incomplete">suzuya</opponent>
+		<opponent addedDate="2016-08-17" release="12" status="incomplete">tifa</opponent>
 		<opponent addedDate="2017-07-16" status="incomplete">tina</opponent>
+		<opponent addedDate="2016-11-21" release="33" status="incomplete">tracer</opponent>
 		<opponent addedDate="2018-02-06" status="incomplete">uhura</opponent>
 		<opponent addedDate="2018-03-01" status="incomplete">vriska</opponent>
 		<opponent addedDate="2017-04-07" status="incomplete">willow</opponent>
 		<opponent addedDate="2018-08-17" status="incomplete">winter</opponent>
 		<opponent addedDate="2019-10-17" status="incomplete">wonder_woman</opponent>
+		<opponent addedDate="2017-02-17" release="56" status="incomplete">xander</opponent>
 		<opponent addedDate="2020-11-02" status="incomplete">yang_xiao_long</opponent>
 		<opponent addedDate="2021-07-17" status="incomplete">yuna</opponent>
 		<opponent addedDate="2021-11-05" status="incomplete">yuna_ffx</opponent>
+		<opponent addedDate="2017-03-03" release="63" status="incomplete">zelda</opponent>
+		<opponent addedDate="2017-07-30" release="84" status="incomplete">zizou</opponent>
+		<opponent addedDate="2015-06-30" release="2" status="incomplete">zoey</opponent>
 		<opponent addedDate="2023-04-01" status="event">giygas</opponent>
 		<opponent addedDate="2023-04-01" status="event">kekko_kamen</opponent>
 		<opponent addedDate="2023-04-01" status="event">toru_hagakure</opponent>
@@ -425,6 +422,7 @@
 		<opponent addedDate="2019-04-01" status="event">shou_tucker</opponent>
 		<opponent addedDate="2018-04-01" status="event">el_shaggy_blanco</opponent>
 		<opponent addedDate="2018-04-01" status="event">kool-aid</opponent>
+		<opponent addedDate="2018-04-26" release="110" status="offline">felicia</opponent>
 		<opponent addedDate="2016-10-16" release="23" status="event">mileena</opponent>
 		<opponent addedDate="2017-08-31" release="124" status="event">kira</opponent>
 		<opponent addedDate="2016-10-26" release="26" status="event">link</opponent>
@@ -438,7 +436,6 @@
 		<opponent addedDate="2016-11-11" release="28" status="duplicate">dawn_classic</opponent>
 		<opponent addedDate="2016-10-03" release="18" status="duplicate">hermione</opponent>
 		<opponent addedDate="2016-10-13" release="21" status="duplicate">kyoko</opponent>
-		<opponent addedDate="2021-02-19" status="duplicate">mettaton_neo</opponent>
 		<opponent addedDate="2016-10-07" release="19" status="duplicate">misty</opponent>
 		<opponent addedDate="2016-10-13" release="22" status="duplicate">penny_classic</opponent>
 		<opponent addedDate="2018-10-26" release="149" status="duplicate">rarity</opponent>
@@ -449,6 +446,9 @@
 		<opponent addedDate="2016-10-30" release="27" status="duplicate">velma_classic</opponent>
 		<opponent addedDate="2017-04-07" release="68" status="duplicate">weiss</opponent>
 		<opponent addedDate="2017-07-26" release="80" status="duplicate">yang</opponent>
+		<opponent addedDate="2019-11-30" status="broken">hatsume</opponent>
+		<opponent addedDate="2021-02-19" status="broken">mettaton_neo</opponent>
+		<opponent addedDate="2018-12-14" status="broken">pascal</opponent>
 	</individuals>
 
 	<!-- Group Listings -->

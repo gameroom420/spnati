@@ -82,6 +82,7 @@ namespace SPNATI_Character_Editor
 		public static readonly string Incomplete = "incomplete";
 		public static readonly string Duplicate = "duplicate";
 		public static readonly string Event = "event";
+		public static readonly string Broken = "broken";
 		public static readonly string Unlisted = null;
 	}
 

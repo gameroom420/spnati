@@ -119,7 +119,7 @@ namespace SPNATI_Character_Editor.Controls
 					{
 						if (c.FolderName == "human") { continue; }
 						string status = Listing.Instance.GetCharacterStatus(c.FolderName);
-						if (status == OpponentStatus.Incomplete || status == OpponentStatus.Offline || status == OpponentStatus.Duplicate)
+						if (status == OpponentStatus.Incomplete || status == OpponentStatus.Offline || status == OpponentStatus.Duplicate || status == OpponentStatus.Broken)
 							continue; //don't validate characters that aren't in the main opponents folder, since they're likely to have errors but aren't being actively worked on
 						progress.Report(c);
 						List<ValidationError> warnings;

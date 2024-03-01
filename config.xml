@@ -105,4 +105,5 @@
     <include-status>incomplete</include-status>
     <include-status>event</include-status>
     <include-status>duplicate</include-status>
+    <include-status>broken</include-status>
 </config>
