@@ -211,7 +211,7 @@
 		<opponent addedDate="2023-02-10" release="289" highlight="unsorted">solar_flare</opponent>
 		<opponent addedDate="2023-07-24" release="290" highlight="unsorted">nadeshiko</opponent>
 		<opponent addedDate="2023-01-29" release="291" highlight="unsorted">queenie</opponent>
-		<opponent addedDate="2023-04-04" release="292" highlight="new">arle</opponent>	<!-- expires 2024-02-28 -->
+		<opponent addedDate="2023-04-04" release="292" highlight="unsorted">arle</opponent>
 		<opponent addedDate="2023-07-09" release="293" highlight="new">shamiko</opponent> <!-- expires 2024-03-03 -->
 		<opponent addedDate="2023-06-02" release="294" highlight="new">sweetheart</opponent> <!-- expires 2024-03-15 -->
 		<opponent addedDate="2023-11-12" release="295" highlight="new">nonon</opponent> <!-- expires 2024-03-18 -->
@@ -422,7 +422,7 @@
 		<opponent addedDate="2019-04-01" status="event">shou_tucker</opponent>
 		<opponent addedDate="2018-04-01" status="event">el_shaggy_blanco</opponent>
 		<opponent addedDate="2018-04-01" status="event">kool-aid</opponent>
-		<opponent addedDate="2018-04-26" release="110" status="offline">felicia</opponent>
+		<opponent addedDate="2018-04-26" release="110" status="event">felicia</opponent>
 		<opponent addedDate="2016-10-16" release="23" status="event">mileena</opponent>
 		<opponent addedDate="2017-08-31" release="124" status="event">kira</opponent>
 		<opponent addedDate="2016-10-26" release="26" status="event">link</opponent>
