@@ -1063,6 +1063,9 @@ ul.dropdown-menu>li {
 .discord-link {
     border-width: 2.5px;
     border-radius: 4px;
+    width: 45%;
+    max-width: 320px;
+    margin-right: 5%;
 }
 
 .discord-link:hover {
