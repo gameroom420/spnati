@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <metadata>
     <owner>gwen</owner>
+    <height>5'5"</height>
+    <age />
+    <pronunciation />
+    <othernotes />
     <noteworthy>
         <case name="Identity reveal" id="1" priority="MustTarget" min="2" max="2">
             <description>Gwen removed her spider mask, revealing her identity. What a stunning turn of events!</description>
