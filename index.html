@@ -188,6 +188,9 @@
             <a class="bordered twitter-button smooth-button blue banner-flair" target="_blank" href="https://twitter.com/spnati_game">
                 <img class="twitter-logo" src="img/twitter.png" alt="twitter" />
             </a>
+            <button class="bordered discord-button smooth-button banner-flair" onclick="showDiscordModal()">
+                <img class="discord-logo" src="img/discord-mark-white.svg" alt="discord" />
+            </button>
             <button class="title-load-button bordered smooth-button red banner-flair"
                 onclick="showImportModal()">
                 <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
@@ -2579,6 +2582,52 @@
         </div>
     </div>
     <!-- End of Help Modal -->
+    
+    <!-- Discord Modal -->
+    <div id="discord-modal" class="modal table-modal fade" role="dialog">
+        <div class="modal-table-container">
+            <div class="modal-cell-container">
+                <div class="bordered modal-dialog very-wide-modal-dialog">
+                    <div class="bordered modal-dialog-surface">
+                        <!-- Start of Modal Content -->
+                        <div class="modal-content">
+                            <div class="modal-header" style="padding-bottom: 0;">
+                                <h4 class="modal-title text-center">Discord</h4>
+                                <p class="text-center">Join the official SPNatI servers to talk about your favourite characters, or to help create your own!</p>
+								<p class="text-center">By joining these servers, you are confirming that you are over the age of 18.</p>
+                            </div>
+                            <div class="modal-body">
+                                <div class="modal-body-container">
+                                    <div class="discord-row">
+                                        <div class="discord-desc" style="width:50%;">
+                                            The Community Server is the place to go for chit-chat and general discussion about the game. If you just want to hang out and talk about the game and see work-in-progress content, join this server!  
+                                        </div>
+                                        <a href="https://discord.gg/6PYyTz3gYG" class="bordered discord-link">
+                                            <img class="img-responsive" src="https://discord.com/api/guilds/382313725505437698/widget.png?style=banner2" alt="SPNatI Community">
+                                        </a>
+                                    </div>
+                                    <div class="discord-row">
+                                        <div class="discord-desc" style="width:50%;">
+                                            The official Development Server, where characters each have their own channels for feedback, bug reports, and other technical discussion. If you want to make a character, you'll want to join this server.
+                                        </div>
+                                        <a href="https://discord.gg/rCqSXpr" class="bordered discord-link">
+                                            <img class="img-responsive" src="https://discord.com/api/guilds/390355199623036931/widget.png?style=banner2" alt="SPNatI Development">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button id="discord-modal-button" class="bordered smooth-button modal-button"
+                                    data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        <!-- End of Modal Content -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Import/Export Modal -->
 
     <!-- Start of Select Screen Heads-Up modal -->
     <div id="select-headsup-modal" class="modal table-modal fade" role="dialog">

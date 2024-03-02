@@ -1045,6 +1045,30 @@ ul.dropdown-menu>li {
     padding-right: 1rem;
 }
 
+.discord-row {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.discord-row>* {
+    margin: 0.25rem;
+}
+
+.discord-desc {
+    padding: 0 0.5rem;
+}
+
+.discord-link {
+    border-width: 2.5px;
+    border-radius: 4px;
+}
+
+.discord-link:hover {
+    filter: brightness(1.2);
+}
+
 /************************************************************
  * Classes for the dialogue transcript modal.
  ************************************************************/
@@ -2001,16 +2025,26 @@ ul.dropdown-menu>li {
     height: 90%;
 }
 
-.title-load-button {
+.discord-button {
     left: 21%;
+    background: rgb(88, 101, 242) linear-gradient(rgb(88, 101, 242), rgb(49, 62, 207));
 }
 
-.title-extras-button {
+.discord-logo {
+    height: 65%;
+    transform: translateY(-0.2rem);
+}
+
+.title-load-button {
     left: 25.5%;
 }
 
-.title-fullscreen-button {
+.title-extras-button {
     left: 30%;
+}
+
+.title-fullscreen-button {
+    left: 34.5%;
 }
 
 .title-resort-button {

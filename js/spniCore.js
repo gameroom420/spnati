@@ -795,6 +795,13 @@ $('.help-page-select').click(function (ev) {
 })
 
 /************************************************************
+ * The player clicked the Discord button. Shows the server links modal.
+ ************************************************************/
+function showDiscordModal() {
+    $("#discord-modal").modal("show");
+}
+
+/************************************************************
  * The player clicked the player tags button. Shows the player tags modal.
  ************************************************************/
 function showPlayerTagsModal () {
