@@ -18,6 +18,7 @@
     <markers>
         <marker scope="Public" name="aaravi" />
         <marker scope="Public" name="aaravi_hunt" />
+        <marker scope="Public" name="aaravi_where" />
         <marker scope="Public" name="alice" />
         <marker scope="Public" name="alice_queen" />
         <marker scope="Public" name="aqua" />
