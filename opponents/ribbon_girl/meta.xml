@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1709427661648</lastupdate>
+    <lastupdate>1709506861062</lastupdate>
     <enabled>true</enabled>
     <first>Ribbon Girl</first>
     <last />
@@ -13,6 +13,6 @@
     <description>A heart-of-gold popstar and fighter in the ARMS Grand Prix.</description>
     <layers>8</layers>
     <has_collectibles>true</has_collectibles>
-    <lines>1725</lines>
+    <lines>1728</lines>
     <poses>194</poses>
 </opponent>
