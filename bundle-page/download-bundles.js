@@ -68,10 +68,10 @@ var SPECIAL_CASE_NAMES = {
     "rarity_eg": "Rarity",
     "samus_aran": "Samus",
     "weiss_schnee": "Weiss",
-    "yang_xiao_long": "Yang"
+    "yang_xiao_long": "Yang",
 
     // broken
-    "mettaton_neo": "Mettaton (failed rework)",
+    "mettaton_neo": "Mettaton (failed rework)"
 }
 
 function cell_with_text(text, classes) {
