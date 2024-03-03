@@ -107,7 +107,7 @@ function format_name(name) {
 function create_bundle_entry (manifest) {
     var tr = document.createElement('tr');
 
-    if (MAIN_CATEGORIES.indexOf(manifest.category) >= 0 || manifest.category === 'incomplete' || manifest.category === 'event' || manifest.category === 'duplicate') {
+    if (MAIN_CATEGORIES.indexOf(manifest.category) >= 0 || manifest.category === 'incomplete' || manifest.category === 'event' || manifest.category === 'duplicate' || manifest.category === 'broken') {
         var title = capitalize(manifest.category) + ' Opponents #' + manifest.index;
 
         if (manifest.category === 'offline') {
