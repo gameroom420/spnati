@@ -215,9 +215,9 @@
 		<opponent addedDate="2023-07-09" release="293" highlight="new">shamiko</opponent> <!-- expires 2024-03-03 -->
 		<opponent addedDate="2023-06-02" release="294" highlight="new">sweetheart</opponent> <!-- expires 2024-03-15 -->
 		<opponent addedDate="2023-11-12" release="295" highlight="new">nonon</opponent> <!-- expires 2024-03-18 -->
+		<opponent addedDate="2019-02-01" release="176" highlight="updated">ribbon_girl</opponent> <!-- expires 2024-03-31 -->
 		<opponent addedDate="2024-02-20" status="testing">rose</opponent>
 		<opponent addedDate="2023-09-23" status="testing">lysithea</opponent>
-		<opponent addedDate="2019-02-01" release="176" status="testing">ribbon_girl</opponent>
 		<opponent addedDate="2023-06-26" status="testing">yae</opponent>
 		<opponent addedDate="2023-06-26" status="testing">sofia</opponent>
 		<opponent addedDate="2024-01-04" status="testing">moskii</opponent>
@@ -453,6 +453,7 @@
 
 	<!-- Group Listings -->
 	<groups>
+		<group title="Elevator Girls" opp1="ribbon_girl" opp2="pinkie_pie" opp3="sakura" opp4="ini" background="office" />
 		<group title="Pretty in Pink" opp1="nonon" opp2="hilda" opp3="natsuki" opp4="nadeshiko" background="feminine bedroom" />
 		<group title="Sweethearts Quest For Hearts" opp1="sweetheart" opp2="queenie" opp3="stocking" opp4="rosa" background="throne room" />
 		<group title="Horny on Main" opp1="shamiko" opp2="arueshalae" opp3="mari_setogaya" opp4="bowsette" background="romantic" />
@@ -537,7 +538,6 @@
 		<group title="So They Walk Into a Bar..." opp1="futaba" opp2="pit" opp3="nami" opp4="jessie" background="tiki bar" />
 		<group title="Two Worlds One Classroom" opp1="rin" opp2="emi" opp3="monika" opp4="sayori" background="classroom" />
 		<group title="One Track Mind" opp1="guzma" opp2="megumin" opp3="miko" opp4="kamina" background="inventory" />
-		<group title="Elevator Girls" opp1="dark_magician_girl" opp2="pinkie_pie" opp3="sakura" opp4="ini" background="office" />
 		<group title="Magical Stripping" opp1="kazuma" opp2="kyu" opp3="akko" opp4="tharja" background="purple room" />
 		<group title="Classy Combatants" opp1="weiss_schnee" opp2="misato" opp3="mulan" opp4="haru" background="armory" />
 		<group title="Uncommon Autumn" opp1="starfire" opp2="mae" opp3="raven" opp4="misato" background="inventory" />
