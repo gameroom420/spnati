@@ -453,7 +453,6 @@
 
 	<!-- Group Listings -->
 	<groups>
-		<group title="Elevator Girls" opp1="ribbon_girl" opp2="pinkie_pie" opp3="sakura" opp4="ini" background="office" />
 		<group title="Pretty in Pink" opp1="nonon" opp2="hilda" opp3="natsuki" opp4="nadeshiko" background="feminine bedroom" />
 		<group title="Sweethearts Quest For Hearts" opp1="sweetheart" opp2="queenie" opp3="stocking" opp4="rosa" background="throne room" />
 		<group title="Horny on Main" opp1="shamiko" opp2="arueshalae" opp3="mari_setogaya" opp4="bowsette" background="romantic" />
@@ -463,7 +462,7 @@
 		<group title="Goths and Preps" opp1="yumeko" opp2="stocking" opp3="toph" opp4="hatsune_miku" background="library" />
 		<group title="Good Day Sunshine" opp1="mia_golden_sun" opp2="dunban" opp3="barbara" opp4="toph" background="beach" />
 		<group title="Aquas and Spicy Reds" opp1="aqua_konosuba" opp2="aqua_grunt" opp3="magma_grunt" opp4="mari_setogaya" costume4="mari_setogaya_casual_vampire" background="lake" />
-	    <group title="The Milky Way" opp1="mitama" opp2="meia" opp3="aqua_kh" opp4="galatea" background="purple room" />
+		<group title="The Milky Way" opp1="mitama" opp2="meia" opp3="aqua_kh" opp4="galatea" background="purple room" />
 		<group title="Growing Pains" opp1="nagatoro" opp2="cheryl" opp3="jura" opp4="nico_robin" background="birthday backyard" />
 		<group title="Duelist Kingdom" opp1="dark_magician_girl" opp2="may" opp3="tea_gardner" opp4="chazz" background="locker room" />
 		<group title="Force of Nature" opp1="elphaba" opp2="amalia" opp3="trixie" opp4="erufuda" background="lake" />
@@ -471,7 +470,7 @@
 		<group title="Special Blades" opp1="aqua_kh" opp2="ryuko" opp3="dunban" opp4="lucina" background="lake" />
 		<group title="Prove Thyself" opp1="dwight" opp2="leon" opp3="jim" opp4="dunban" background="haunted forest" />
 		<group title="Brains and Beauty" opp1="nico_robin" opp2="sucrose" opp3="yshtola" opp4="mercy" background="library" />
-		<group title="Multiplayer Online Poker Arena (MOPA)" opp1="lyralei" opp2="orendi" opp3="twisted_fate" opp4="lux" background="lake" />
+		<group title="Multiplayer Online Poker Arena (MOPA)" opp1="lyralei" opp2="orendi" opp3="twisted_fate" opp4="ribbon_girl" background="lake" />
 		<group title="Gothic Romance" opp1="binah" opp2="yuri" opp3="tharja" opp4="mavis" background="library" />
 		<group title="Steal Your Heart" opp1="nagatoro" opp2="nami" opp3="noire" opp4="trixie" background="inventory" />
 		<group title="Test, Clean, Pray, Bury" opp1="sucrose" opp2="noelle" opp3="barbara" opp4="hu_tao" background="library" />
@@ -519,7 +518,7 @@
 		<group title="Eager to Fight" opp1="brock" opp2="mulan" opp3="meia" opp4="revy" background="alley" />
 		<group title="Social Distancing" opp1="futaba" opp2="bernadetta" opp3="tomoko" opp4="komi-san" background="bedroom" />
 		<group title="Statuesque" opp1="galatea" opp2="elesa" opp3="komi-san" opp4="palutena" background="mansion" />
-		<group title="Arms Race" opp1="pa-15" opp2="emi" opp3="rin" opp4="orendi" background="armory" />
+		<group title="Arms Race" opp1="pa-15" opp2="emi" opp3="rin" opp4="ribbon_girl" background="armory" />
 		<group title="Witch Time" opp1="orendi" opp2="tharja" opp3="akko" opp4="megumin" background="armory" />
 		<group title="YOU STRIPPED AT THE WRONG TABLE" opp1="saki_zls" opp2="caulifla" opp3="ryuko" opp4="jolyne" background="alley" />
 		<group title="Gym Bunnies" opp1="erufuda" opp2="meia" opp3="rinkah" opp4="rainbow_dash" background="hot spring" />
@@ -538,6 +537,7 @@
 		<group title="So They Walk Into a Bar..." opp1="futaba" opp2="pit" opp3="nami" opp4="jessie" background="tiki bar" />
 		<group title="Two Worlds One Classroom" opp1="rin" opp2="emi" opp3="monika" opp4="sayori" background="classroom" />
 		<group title="One Track Mind" opp1="guzma" opp2="megumin" opp3="miko" opp4="kamina" background="inventory" />
+		<group title="Elevator Girls" opp1="ribbon_girl" opp2="pinkie_pie" opp3="sakura" opp4="ini" background="office" />
 		<group title="Magical Stripping" opp1="kazuma" opp2="kyu" opp3="akko" opp4="tharja" background="purple room" />
 		<group title="Classy Combatants" opp1="weiss_schnee" opp2="misato" opp3="mulan" opp4="haru" background="armory" />
 		<group title="Uncommon Autumn" opp1="starfire" opp2="mae" opp3="raven" opp4="misato" background="inventory" />
