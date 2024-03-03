@@ -117,6 +117,12 @@
         <response id="236" opponent="nonon" opponentId="226" />
         <response id="237" opponent="nonon" opponentId="119" />
         <response id="238" opponent="nonon" opponentId="779" />
+        <response id="252" opponent="sucrose" opponentId="133" />
+        <response id="253" opponent="sucrose" opponentId="145" />
+        <response id="254" opponent="sucrose" opponentId="160" />
+        <response id="255" opponent="sucrose" opponentId="146" />
+        <response id="256" opponent="sucrose" opponentId="271" />
+        <response id="257" opponent="sucrose" opponentId="270" />
     </responses>
     <labels>
         <label id="11" label="" folder="Lore" sort="0" />
@@ -201,9 +207,31 @@
         <label id="242" label="" folder="Lore" sort="0" />
         <label id="243" label="" folder="Lore" sort="0" />
         <label id="244" label="" folder="Lore" sort="0" />
+        <label id="247" label="" folder="Filters" sort="0" />
+        <label id="248" label="" folder="Filters" sort="0" />
+        <label id="249" label="" folder="Filters" sort="0" />
+        <label id="250" label="" folder="Filters" sort="0" />
+        <label id="251" label="" folder="Filters" sort="0" />
+        <label id="258" label="" folder="Filters" sort="0" />
+        <label id="259" label="" folder="Filters" sort="0" />
+        <label id="260" label="" folder="Filters" sort="0" />
+        <label id="261" label="" folder="Filters" sort="0" />
+        <label id="262" label="" folder="Filters" sort="0" />
+        <label id="263" label="" folder="Filters" sort="0" />
+        <label id="264" label="" folder="Filters" sort="0" />
+        <label id="265" label="" folder="Filters" sort="0" />
+        <label id="266" label="" folder="Filters" sort="0" />
+        <label id="267" label="" folder="Filters" sort="0" />
+        <label id="268" label="" folder="Filters" sort="0" />
+        <label id="269" label="" folder="Filters" sort="0" />
+        <label id="270" label="" folder="Filters" sort="0" />
+        <label id="271" label="" folder="Filters" sort="0" />
+        <label id="272" label="" folder="Filters" sort="0" />
+        <label id="273" label="" folder="Filters" sort="0" />
+        <label id="274" label="" folder="Filters" sort="0" />
     </labels>
     <onlyCustomPoses>true</onlyCustomPoses>
-    <nextId>244</nextId>
+    <nextId>274</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Private" name="adv_poseposition" />
