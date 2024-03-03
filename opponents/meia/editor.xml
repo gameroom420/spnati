@@ -89,7 +89,6 @@
         <note id="1644">Meia tends to be in a better mood for the Cupid skin.</note>
         <note id="1646">I'd like to extend this into the next hand line so she can continue and use another butt pose.</note>
         <note id="1658">willing to revise</note>
-        <note id="1693">(her bust size, if it wasn't obvious)</note>
     </notes>
     <labels>
         <label id="1266" label="" color="4" folder="" sort="0" />
@@ -897,7 +896,6 @@
         <label id="1715" label="" color="4" folder="" sort="0" />
         <label id="1716" label="" color="4" folder="" sort="0" />
         <label id="1698" label="" color="4" folder="" sort="0" />
-        <label id="1555" label="" color="4" folder="" sort="0" />
         <label id="1556" label="" color="4" folder="" sort="0" />
         <label id="1557" label="" color="6" folder="" sort="0" />
         <label id="1558" label="" color="6" folder="" sort="0" />
@@ -911,7 +909,6 @@
         <label id="1566" label="" color="4" folder="" sort="0" />
         <label id="1567" label="" color="4" folder="" sort="0" />
         <label id="1630" label="" color="4" folder="" sort="0" />
-        <label id="1693" label="" color="4" folder="" sort="0" />
         <label id="1618" label="" color="4" folder="" sort="0" />
         <label id="1572" label="" color="4" folder="" sort="0" />
         <label id="1573" label="" color="4" folder="" sort="0" />
@@ -928,7 +925,7 @@
         <label id="1612" label="" color="6" folder="" sort="0" />
         <label id="1631" label="" color="4" folder="" sort="0" />
         <label id="1627" label="" color="4" folder="" sort="0" />
-        <label id="1694" label="" color="4" folder="" sort="0" />
+        <label id="1719" label="" color="4" folder="" sort="0" />
         <label id="1620" label="" color="2" folder="" sort="0" />
         <label id="1621" label="" color="2" folder="" sort="0" />
         <label id="1632" label="" color="4" folder="" sort="0" />
@@ -967,14 +964,15 @@
         <label id="1687" label="" color="2" folder="" sort="0" />
         <label id="1688" label="" color="4" folder="" sort="0" />
         <label id="1690" label="" color="4" folder="" sort="0" />
-        <label id="1691" label="" color="4" folder="" sort="0" />
+        <label id="1718" label="" color="4" folder="" sort="0" />
         <label id="1692" label="" color="4" folder="" sort="0" />
         <label id="1695" label="" color="4" folder="" sort="0" />
         <label id="1697" label="" color="4" folder="" sort="0" />
         <label id="1701" label="" color="4" folder="" sort="0" />
         <label id="1714" label="" color="4" folder="" sort="0" />
+        <label id="1717" label="" color="4" folder="" sort="0" />
     </labels>
-    <nextId>1716</nextId>
+    <nextId>1719</nextId>
     <markers>
         <marker scope="Public" name="2butt">Meia shows off her butt while still in her bodysuit (or Cupid outfit).</marker>
         <marker scope="Public" name="9s0" />
@@ -3578,10 +3576,13 @@
         <marker scope="Public" name="sanako_resp0right" />
         <marker scope="Public" name="sanako_resp0right_cupid" />
         <marker scope="Public" name="sanako_resp1" />
+        <marker scope="Public" name="sanako_resp12" />
+        <marker scope="Public" name="sanako_resp12right" />
         <marker scope="Public" name="sanako_resp1right" />
         <marker scope="Public" name="sanako_resp1s_right" />
         <marker scope="Public" name="sanako_resp1s_right_cupid" />
         <marker scope="Public" name="sanako_resp2right" />
+        <marker scope="Public" name="sanako_resp2s_right" />
         <marker scope="Public" name="sanako_resp3right" />
         <marker scope="Public" name="sanako_resp4right" />
         <marker scope="Public" name="sanako0" />
@@ -3594,6 +3595,7 @@
         <marker scope="Public" name="sanako1s" />
         <marker scope="Public" name="sanako1s_left" />
         <marker scope="Public" name="sanako2" />
+        <marker scope="Public" name="sanako23" />
         <marker scope="Public" name="sanako2s" />
         <marker scope="Public" name="sanako3" />
         <marker scope="Public" name="sanako4" />

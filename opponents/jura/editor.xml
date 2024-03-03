@@ -934,11 +934,15 @@
         <label id="1582" label="" color="4" folder="" sort="0" />
         <label id="1583" label="" color="4" folder="" sort="0" />
         <label id="1584" label="" color="6" folder="" sort="0" />
+        <label id="1585" label="" color="2" folder="" sort="0" />
+        <label id="1586" label="" color="2" folder="" sort="0" />
+        <label id="1587" label="" color="2" folder="" sort="0" />
+        <label id="1588" label="" color="2" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>jura</prefix>
     </prefixes>
-    <nextId>1584</nextId>
+    <nextId>1588</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="1v1">Jura acknowledges that the game has come down to her and one other player.</marker>
@@ -1855,6 +1859,7 @@
         <marker scope="Public" name="lysithea56" />
         <marker scope="Public" name="lysithea5s" />
         <marker scope="Public" name="lysithea6" />
+        <marker scope="Public" name="mac10" />
         <marker scope="Public" name="mae0" />
         <marker scope="Public" name="magical_sempai0" />
         <marker scope="Public" name="magma_cd0" />
@@ -2845,6 +2850,7 @@
         <marker scope="Public" name="yae_miko0" />
         <marker scope="Public" name="yae_miko01" />
         <marker scope="Public" name="yae_miko1" />
+        <marker scope="Public" name="yae_miko12" />
         <marker scope="Public" name="yae_miko1s" />
         <marker scope="Public" name="yae_miko3" />
         <marker scope="Public" name="yae_miko34" />
