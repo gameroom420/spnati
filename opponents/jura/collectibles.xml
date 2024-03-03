@@ -43,4 +43,14 @@ You feel her lipstick smear and her breasts squish.  She's wrapped her naked bod
         <wearable>true</wearable>
         <clothing img="opponents/jura/cz75.png" name="CZ 75" generic="" position="held" type="extra" />
     </collectible>
+    <collectible id="mac-10" status="online" img="opponents/jura/mac-10.png" thumbnail="opponents/jura/mac-10.png">
+        <title>MAC-10</title>
+        <subtitle>"Fit only for combat in a phone booth."</subtitle>
+        <text>Type: Machine pistol/Submachine gun&lt;br&gt;Manufacturer: Military Armament Corporation&lt;br&gt;Designed: 1964&lt;br&gt;Cartridge: .45 ACP, 9x19 mm Parabellum&lt;br&gt;Telescoping Bolt&lt;br&gt;Blowback-operated&lt;br&gt;&lt;br&gt;Once banned in the 20th century, this compact antique found its way to Mejare in Barnette's collection.  The "M10" was famous for its two-stage suppressor, giving you ample peace and quiet to take in the Christmas cheer.  Barnette, meanwhile, would fire missiles from it if she could.</text>
+        <unlock>Play a game with Santa Jura.</unlock>
+        <hidden>true</hidden>
+        <hide-details>true</hide-details>
+        <wearable>true</wearable>
+        <clothing img="opponents/jura/mac-10.png" name="MAC-10" generic="" position="held" type="extra" />
+    </collectible>
 </collectibles>
