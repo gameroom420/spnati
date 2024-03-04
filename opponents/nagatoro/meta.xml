@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1698815287579</lastupdate>
+    <lastupdate>1709533241659</lastupdate>
     <enabled>false</enabled>
     <first>Hayase</first>
     <last>Nagatoro</last>
@@ -13,13 +13,12 @@
     <description>An energetic girl with a penchant for bullying her senpai.</description>
     <epilogue gender="male" img="epilogue/thumb2.png" hint="Win a game against Nagatoro.">Let's do it, Senpai! ♡</epilogue>
     <layers>5</layers>
-    <default-costume-name />
     <alternates>
         <costume folder="opponents/reskins/nagatoro_nekotoro/" img="0-annoyed.png" status="online" label="Nagatoro">Nekotoro</costume>
         <costume folder="opponents/reskins/nagatoro_demoness/" img="0-pathetic.png" set="halloween" status="online" label="Nagatoro">Demoness Nagatoro</costume>
         <costume folder="opponents/reskins/nagatoro_beach_day/" img="0-happy.png" set="summer" status="online" label="Nagatoro" layers="4">Beach Day</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>3519</lines>
+    <lines>3532</lines>
     <poses>462</poses>
 </opponent>
