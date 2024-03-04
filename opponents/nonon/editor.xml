@@ -524,7 +524,7 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <label id="531" label="" folder="Target_Stage1" sort="0" />
         <label id="532" label="" color="5" folder="Target_Stage0" sort="156" />
         <label id="533" label="" color="5" folder="Reply_Stage0" sort="16" />
-        <label id="534" label="" color="1" folder="Target_Stage0" sort="178" />
+        <label id="534" label="" folder="Target_Stage0" sort="178" />
         <label id="535" label="" color="1" folder="Target_Stage1" sort="11" />
         <label id="536" label="" folder="Leon Dual - Nonon Lost First" sort="0" />
         <label id="537" label="Extend timer" folder="Leon Dual - Leon Lost First" sort="4" />
@@ -608,9 +608,9 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <label id="617" label="" color="5" folder="Target_Stage0" sort="128" />
         <label id="618" label="" color="6" folder="Nmasp's Sponsorship" sort="2" />
         <label id="619" label="" color="1" folder="Nmasp's Sponsorship" sort="4" />
-        <label id="620" label="" color="10" folder="!Sponsorships&gt;Nmasp" sort="10" />
+        <label id="620" label="" folder="Target_Stage0" sort="10" />
         <label id="621" label="" color="5" folder="Nmasp's Sponsorship" sort="0" />
-        <label id="622" label="" color="5" folder="!Sponsorships&gt;Nmasp" sort="8" />
+        <label id="622" label="" folder="Target_Stage0" sort="8" />
         <label id="624" label="" folder="Target_Stage0" sort="184" />
         <label id="625" label="" folder="Target_Stage0_B" sort="4" />
         <label id="626" label="" folder="Target_Stage0_B" sort="2" />
@@ -734,7 +734,7 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <label id="746" label="" color="5" folder="Target_Stage0_B" sort="7" />
         <label id="747" label="" color="5" folder="Target_Stage0_B" sort="5" />
         <label id="748" label="" folder="Target_Stage0" sort="144" />
-        <label id="749" label="" color="1" folder="Target_Stage0" sort="206" />
+        <label id="749" label="" folder="Target_Stage0" sort="206" />
         <label id="750" label="" color="1" folder="Reply_Stage0" sort="0" />
         <label id="751" label="" color="12" folder="Reply_Stage1" sort="0" />
         <label id="752" label="" folder="Target_Stage1" sort="26" />
@@ -761,10 +761,10 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <label id="772" label="" color="12" folder="!Sponsorships&gt;Nord&gt;MaleTargets" sort="6" />
         <label id="773" label="" color="12" folder="!Sponsorships&gt;Nord&gt;MaleTargets" sort="8" />
         <label id="774" label="" folder="Fanservice" sort="0" />
-        <label id="775" label="" color="3" folder="Target_Stage0" sort="88" />
-        <label id="776" label="" color="3" folder="Target_Stage1" sort="27" />
-        <label id="777" label="" color="3" folder="Target_Stage1" sort="28" />
-        <label id="778" label="" color="3" folder="Target_Stage2" sort="6" />
+        <label id="775" label="" folder="Target_Stage0" sort="88" />
+        <label id="776" label="" folder="Target_Stage1" sort="27" />
+        <label id="777" label="" folder="Target_Stage1" sort="28" />
+        <label id="778" label="" folder="Target_Stage2" sort="6" />
         <label id="780" label="weapons" folder="Removed_Minor/Extra(Male)" sort="0" />
         <label id="781" label="" folder="Elite4" sort="6" />
         <label id="782" label="" folder="Elite4" sort="2" />
@@ -812,8 +812,26 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <label id="831" label="" color="2" folder="Target_Stage2" sort="7" />
         <label id="832" label="" color="12" folder="Reply_Stage4" sort="5" />
         <label id="833" label="" folder="Target_Stage2" sort="0" />
+        <label id="834" label="" color="5" folder="Target_Stage0" sort="0" />
+        <label id="835" label="" color="5" folder="Reply_Stage0" sort="0" />
+        <label id="836" label="" color="10" folder="Target_Stage0" sort="0" />
+        <label id="837" label="" color="10" folder="Target_Stage0" sort="0" />
+        <label id="838" label="" folder="Reply_Stage0B" sort="0" />
+        <label id="840" label="" folder="Target_Stage2" sort="0" />
+        <label id="841" label="" folder="Target_Stage2" sort="0" />
+        <label id="842" label="" folder="Target_Stage2" sort="0" />
+        <label id="843" label="" folder="Target_Stage3" sort="0" />
+        <label id="844" label="" folder="Target_Stage3" sort="0" />
+        <label id="845" label="" folder="Target_Stage3" sort="0" />
+        <label id="846" label="" folder="Target_Stage4" sort="0" />
+        <label id="847" label="" folder="Target_Stage4" sort="0" />
+        <label id="848" label="" folder="Target_Stage4" sort="0" />
+        <label id="849" label="" folder="Target_Stage4" sort="0" />
+        <label id="850" label="" color="3" folder="Target_Stage2" sort="0" />
+        <label id="851" label="" color="3" folder="Reply_Stage0" sort="0" />
+        <label id="852" label="" color="3" folder="Reply_Stage1" sort="0" />
     </labels>
-    <nextId>833</nextId>
+    <nextId>852</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="adrien01" />
@@ -863,6 +881,7 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <marker scope="Public" name="arue51" />
         <marker scope="Public" name="arue52" />
         <marker scope="Public" name="arue53" />
+        <marker scope="Public" name="aura" />
         <marker scope="Public" name="bg_cold" />
         <marker scope="Public" name="bg_sun" />
         <marker scope="Public" name="butt" />
@@ -926,6 +945,8 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <marker scope="Public" name="fluttershy01" />
         <marker scope="Public" name="fluttershy01a" />
         <marker scope="Public" name="fluttershy01b" />
+        <marker scope="Public" name="fluttershy02a" />
+        <marker scope="Public" name="fluttershy02b" />
         <marker scope="Public" name="get_dressed" />
         <marker scope="Public" name="goku_uniform" />
         <marker scope="Public" name="heavy01" />
@@ -1099,6 +1120,8 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <marker scope="Public" name="mikan01" />
         <marker scope="Public" name="mikan01a" />
         <marker scope="Public" name="mikan01b" />
+        <marker scope="Public" name="mikan02" />
+        <marker scope="Public" name="mikan02a" />
         <marker scope="Public" name="miko01" />
         <marker scope="Public" name="monika01" />
         <marker scope="Public" name="monika23" />
@@ -1135,6 +1158,16 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <marker scope="Public" name="naga13" />
         <marker scope="Public" name="naga13b" />
         <marker scope="Public" name="naga21" />
+        <marker scope="Public" name="naga22" />
+        <marker scope="Public" name="naga23" />
+        <marker scope="Public" name="naga31" />
+        <marker scope="Public" name="naga32" />
+        <marker scope="Public" name="naga33" />
+        <marker scope="Public" name="naga41" />
+        <marker scope="Public" name="naga42" />
+        <marker scope="Public" name="naga43" />
+        <marker scope="Public" name="naga43a" />
+        <marker scope="Public" name="naga43b" />
         <marker scope="Public" name="nagisa01" />
         <marker scope="Public" name="natsuki_reply44" />
         <marker scope="Public" name="natsuki01" />
@@ -1184,6 +1217,8 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <marker scope="Public" name="nonon_pen" />
         <marker scope="Public" name="nonon_won" />
         <marker scope="Public" name="pandy13" />
+        <marker scope="Public" name="panzeke_reply01" />
+        <marker scope="Public" name="panzeke_reply11" />
         <marker scope="Public" name="panzeke_sex" />
         <marker scope="Public" name="panzeke01" />
         <marker scope="Public" name="panzeke02" />
@@ -1191,6 +1226,7 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <marker scope="Public" name="panzeke11" />
         <marker scope="Public" name="panzeke12" />
         <marker scope="Public" name="panzeke21" />
+        <marker scope="Public" name="panzeke22" />
         <marker scope="Public" name="player_tease" />
         <marker scope="Public" name="postcum_threat" />
         <marker scope="Public" name="queenie01" />
@@ -1344,6 +1380,7 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <marker scope="Public" name="reply_meia32" />
         <marker scope="Public" name="reply_meia33" />
         <marker scope="Public" name="reply_meia41" />
+        <marker scope="Public" name="reply_mikan01" />
         <marker scope="Public" name="reply_moski" />
         <marker scope="Public" name="reply_moskii01" />
         <marker scope="Public" name="reply_myriam_flex01" />
