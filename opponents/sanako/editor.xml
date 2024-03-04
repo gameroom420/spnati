@@ -143,6 +143,19 @@
         <response id="332" opponent="kyoko_kirigiri" opponentId="2174" />
         <response id="333" opponent="kyoko_kirigiri" opponentId="2175" />
         <response id="334" opponent="ribbon_girl" opponentId="91" />
+        <response id="335" opponent="nadeshiko" opponentId="212" />
+        <response id="342" opponent="mari_setogaya" opponentId="2994" />
+        <response id="343" opponent="mari_setogaya" opponentId="2995" />
+        <response id="344" opponent="rouge" opponentId="5" />
+        <response id="345" opponent="rouge" opponentId="6" />
+        <response id="346" opponent="meia" opponentId="1690" />
+        <response id="347" opponent="meia" opponentId="1691" />
+        <response id="348" opponent="meia" opponentId="1694" />
+        <response id="349" opponent="meia" opponentId="1693" />
+        <response id="350" opponent="meia" opponentId="1692" />
+        <response id="351" opponent="meia" opponentId="1555" />
+        <response id="0" opponent="nadeshiko" opponentId="18" />
+        <response id="353" opponent="nadeshiko" opponentId="19" />
     </responses>
     <notes>
         <note id="159">This is a lie.</note>
@@ -476,12 +489,35 @@
         <label id="332" label="" folder="Kyoko Kirigiri to left" sort="0" />
         <label id="333" label="" folder="Kyoko Kirigiri to left" sort="0" />
         <label id="334" label="" folder="Ribbon Girl to left" sort="0" />
+        <label id="335" label="" folder="Nadeshiko to left" sort="0" />
+        <label id="336" label="birthday backyard" folder="" sort="0" />
+        <label id="337" label="birthday backyard" folder="" sort="0" />
+        <label id="338" label="birthday backyard" folder="" sort="0" />
+        <label id="339" label="birthday backyard" folder="" sort="0" />
+        <label id="340" label="birthday backyard: player won" folder="" sort="0" />
+        <label id="341" label="birthday backyard: player didn't win" folder="" sort="0" />
+        <label id="342" label="" folder="Mari Setogaya to right" sort="0" />
+        <label id="343" label="" folder="Mari Setogaya to right" sort="0" />
+        <label id="344" label="" folder="Rouge the Bat to left" sort="0" />
+        <label id="345" label="" folder="Rouge the Bat to left" sort="0" />
+        <label id="346" label="" folder="Meia to right" sort="0" />
+        <label id="347" label="" folder="Meia to right" sort="0" />
+        <label id="348" label="" folder="Meia to left" sort="0" />
+        <label id="349" label="" folder="Meia to left" sort="0" />
+        <label id="350" label="" folder="Meia to left" sort="0" />
+        <label id="351" label="" folder="Meia to left" sort="0" />
+        <label id="352" label="athletic legs, no companion" folder="" sort="0" />
+        <label id="353" label="chiming in on banter" folder="Nadeshiko to left" sort="0" />
+        <label id="354" label="chiming in on banter" folder="Nadeshiko to left" sort="0" />
+        <label id="355" label="chiming in on banter" folder="Nadeshiko to left" sort="0" />
+        <label id="356" label="chiming in on banter" folder="Nadeshiko to left" sort="0" />
+        <label id="357" label="feminine bedroom" folder="CONVERSATION STATERS" sort="0" />
     </labels>
     <prefixes>
         <prefix>collectible_</prefix>
         <prefix>x-</prefix>
     </prefixes>
-    <nextId>334</nextId>
+    <nextId>357</nextId>
     <markers>
         <marker scope="Public" name="sanako_ae86_selected" />
         <marker scope="Public" name="sanako_ae86_selected_indoors" />
@@ -492,6 +528,11 @@
         <marker scope="Public" name="sanako_baked">Sanako has some baked goodies for everyone after the game.</marker>
         <marker scope="Public" name="sanako_baked_buns">Sanako's buns are almost hot and ready.</marker>
         <marker scope="Public" name="sanako_bengal_monitor" />
+        <marker scope="Public" name="sanako_birthday_game_start" />
+        <marker scope="Public" name="sanako_birthday_human_victory" />
+        <marker scope="Public" name="sanako_birthday_opponent_selected" />
+        <marker scope="Public" name="sanako_birthday_selected" />
+        <marker scope="Public" name="sanako_birthday_self_victory" />
         <marker scope="Public" name="sanako_bootstraps">Sanako's plan involves bootstraps. But only once because it's very annoying if she says it more than once.</marker>
         <marker scope="Public" name="sanako_card_peek" />
         <marker scope="Public" name="sanako_chihiro_acceptance" />
@@ -515,6 +556,7 @@
         <marker scope="Public" name="sanako_elizabeth_nagisa_sisters" />
         <marker scope="Public" name="sanako_everyone_is_so_cute" />
         <marker scope="Public" name="sanako_explains_pairs">Sanako explains basic pairs gameplay.</marker>
+        <marker scope="Public" name="sanako_feminine_bedroom_curtains" />
         <marker scope="Public" name="sanako_hot">Sanako blames the heat for her skirt removal.</marker>
         <marker scope="Public" name="sanako_hot_fanning" />
         <marker scope="Public" name="sanako_how_you_spend_your_time" />
@@ -597,20 +639,26 @@
         <marker scope="Public" name="sanako_meia_ms_m2" />
         <marker scope="Public" name="sanako_meia_ms_m2_cupid" />
         <marker scope="Public" name="sanako_meia_ms_m3" />
+        <marker scope="Public" name="sanako_meia_ms_m3_cupid" />
         <marker scope="Public" name="sanako_meia_ms_m4" />
+        <marker scope="Public" name="sanako_meia_ms_m5" />
         <marker scope="Public" name="sanako_meia_ms_s1" />
         <marker scope="Public" name="sanako_meia_ms_s2" />
         <marker scope="Public" name="sanako_meia_ms_s3" />
         <marker scope="Public" name="sanako_meia_ms_s4" />
         <marker scope="Public" name="sanako_meia_ms_s5" />
+        <marker scope="Public" name="sanako_meia_ms_s6" />
+        <marker scope="Public" name="sanako_meia_ms_s7" />
         <marker scope="Public" name="sanako_meia_sm_m1" />
         <marker scope="Public" name="sanako_meia_sm_m2" />
         <marker scope="Public" name="sanako_meia_sm_m3" />
         <marker scope="Public" name="sanako_meia_sm_m4" />
+        <marker scope="Public" name="sanako_meia_sm_m5" />
         <marker scope="Public" name="sanako_meia_sm_s1" />
         <marker scope="Public" name="sanako_meia_sm_s2" />
         <marker scope="Public" name="sanako_meia_sm_s3" />
         <marker scope="Public" name="sanako_meia_sm_s4" />
+        <marker scope="Public" name="sanako_meia_sm_s5" />
         <marker scope="Public" name="sanako_mia_spirit_of_things" />
         <marker scope="Public" name="sanako_mia_stern_office_ladies" />
         <marker scope="Public" name="sanako_miko_prince" />
@@ -632,11 +680,16 @@
         <marker scope="Public" name="sanako_moskii_sm_s1" />
         <marker scope="Public" name="sanako_moskii_victory" />
         <marker scope="Public" name="sanako_most_experience" />
+        <marker scope="Public" name="sanako_nadeshiko_bad_joke" />
+        <marker scope="Public" name="sanako_nadeshiko_checking_in" />
+        <marker scope="Public" name="sanako_nadeshiko_city" />
         <marker scope="Public" name="sanako_nadeshiko_cook" />
+        <marker scope="Public" name="sanako_nadeshiko_friends" />
         <marker scope="Public" name="sanako_nadeshiko_lonely" />
         <marker scope="Public" name="sanako_nadeshiko_partner_preference" />
         <marker scope="Public" name="sanako_nadeshiko_sn_n1" />
         <marker scope="Public" name="sanako_nadeshiko_sn_s1" />
+        <marker scope="Public" name="sanako_nadeshiko_world" />
         <marker scope="Public" name="sanako_nagatoro_butt2" />
         <marker scope="Public" name="sanako_nagatoro_epilogue_ref" />
         <marker scope="Public" name="sanako_nagatoro_intro" />
@@ -778,7 +831,10 @@
         <marker scope="Public" name="sanako_rose_butt" />
         <marker scope="Public" name="sanako_rose_flashing_1" />
         <marker scope="Public" name="sanako_rose_flashing_2" />
+        <marker scope="Public" name="sanako_rose_long_nails" />
         <marker scope="Public" name="sanako_rose_show_anima" />
+        <marker scope="Public" name="sanako_rouge_club_invitation" />
+        <marker scope="Public" name="sanako_rouge_favorite_jewel" />
         <marker scope="Public" name="sanako_rouge_scope" />
         <marker scope="Public" name="sanako_senko_age" />
         <marker scope="Public" name="sanako_senko_backgrond" />
@@ -794,13 +850,16 @@
         <marker scope="Public" name="sanako_setogaya_poker_face_silly_face" />
         <marker scope="Public" name="sanako_setogaya_sm_m1" />
         <marker scope="Public" name="sanako_setogaya_sm_m2" />
+        <marker scope="Public" name="sanako_setogaya_sm_m3" />
         <marker scope="Public" name="sanako_setogaya_sm_s1" />
         <marker scope="Public" name="sanako_setogaya_sm_s2" />
+        <marker scope="Public" name="sanako_setogaya_sm_s3" />
         <marker scope="Public" name="sanako_setogaya_studies" />
         <marker scope="Public" name="sanako_shamiko_leftovers_recipe" />
         <marker scope="Public" name="sanako_shantae_energetic" />
         <marker scope="Public" name="sanako_shimakaze_clothes_on_fire" />
         <marker scope="Public" name="sanako_shimakaze_flying_robot">Sanako notices Shimakaze's flying robot.</marker>
+        <marker scope="Public" name="sanako_tutor_offer" />
         <marker scope="Public" name="sanako_twisted_fate_ace_sleeve" />
         <marker scope="Public" name="sanako_uniform_cute" />
         <marker scope="Public" name="sanako_victory_skirt_lift" />
