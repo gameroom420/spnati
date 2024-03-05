@@ -18,7 +18,7 @@
     </collectible>
     <collectible id="photo" status="online" img="opponents/jura/photo.png" thumbnail="opponents/jura/photofinish.png">
         <title>Photo Finish</title>
-        <subtitle>Elegance transcends space and time.</subtitle>
+        <subtitle>Elegance transcends dimensions.</subtitle>
         <text>"&lt;i&gt;Come on,&lt;/i&gt; take another one!  Jura can keep going for &lt;i&gt;hours...&lt;/i&gt;"</text>
         <unlock>Jura will never refuse a second angle.</unlock>
         <hide-details>true</hide-details>
