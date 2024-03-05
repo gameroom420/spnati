@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1709093838706</lastupdate>
+    <lastupdate>1709610345393</lastupdate>
     <enabled>false</enabled>
     <first>Rose</first>
     <last />
@@ -14,6 +14,6 @@
     <layers>6</layers>
     <default-costume-name>Street Peddler</default-costume-name>
     <has_collectibles>true</has_collectibles>
-    <lines>681</lines>
-    <poses>252</poses>
+    <lines>703</lines>
+    <poses>253</poses>
 </opponent>

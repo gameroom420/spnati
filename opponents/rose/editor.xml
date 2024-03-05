@@ -62,6 +62,14 @@
         <response id="199" opponent="magma_grunt" opponentId="95" />
         <response id="201" opponent="magma_grunt" opponentId="92" />
         <response id="202" opponent="sanako" opponentId="21" />
+        <response id="212" opponent="revy" opponentId="583" />
+        <response id="213" opponent="meia" opponentId="1688" />
+        <response id="214" opponent="jura" opponentId="1571" />
+        <response id="215" opponent="meia" opponentId="1708" />
+        <response id="216" opponent="jura" opponentId="1569" />
+        <response id="218" opponent="aqua_kh" opponentId="69" />
+        <response id="219" opponent="aqua_kh" opponentId="993" />
+        <response id="220" opponent="aqua_kh" opponentId="51" />
     </responses>
     <notes>
         <note id="193">Rose has left her slot to visit Magma Grunt's slot - MG is showing her a picture of her own backside</note>
@@ -265,13 +273,30 @@
         <label id="202" label="" folder="Targets&gt;Sanako" sort="0" />
         <label id="203" label="" folder="Response&gt;Kirigiri" sort="0" />
         <label id="204" label="" folder="Response&gt;Kirigiri" sort="0" />
+        <label id="205" label="" folder="Targets" sort="0" />
+        <label id="206" label="" folder="Targets" sort="0" />
+        <label id="207" label="" folder="Conditional&gt;Aura Camera" sort="0" />
+        <label id="208" label="" folder="Conditional&gt;Aura Camera" sort="0" />
+        <label id="209" label="" folder="Conditional" sort="0" />
+        <label id="210" label="" folder="Targets" sort="0" />
+        <label id="211" label="" folder="Targets" sort="0" />
+        <label id="212" label="" folder="Response&gt;Revy" sort="0" />
+        <label id="216" label="" folder="Response&gt;Jura" sort="0" />
+        <label id="217" label="" folder="Response&gt;Jura" sort="0" />
+        <label id="218" label="" folder="Targets" sort="0" />
+        <label id="219" label="" folder="Targets" sort="0" />
+        <label id="220" label="" folder="Targets" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>show_anima==1</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>204</nextId>
+    <nextId>220</nextId>
     <markers>
         <marker scope="Public" name="" />
+        <marker scope="Public" name="3player" />
+        <marker scope="Public" name="4player_latejoin" />
+        <marker scope="Public" name="Aella_Flash1" />
+        <marker scope="Public" name="Aella_FlashB" />
         <marker scope="Public" name="anima_accusation" />
         <marker scope="Public" name="arueshalae_good_dream" />
         <marker scope="Public" name="everyone_out_1" />
@@ -279,6 +304,7 @@
         <marker scope="Public" name="finished" />
         <marker scope="Public" name="flashing_1" />
         <marker scope="Public" name="flashing_2" />
+        <marker scope="Public" name="foobar" />
         <marker scope="Public" name="for_me_misspeak" />
         <marker scope="Public" name="for_me_misspeak2" />
         <marker scope="Public" name="good_boy" />
@@ -294,10 +320,19 @@
         <marker scope="Public" name="nonon_lady_jakuzure_resp" />
         <marker scope="Public" name="nonon_postcum_threat_Resp" />
         <marker scope="Public" name="nonon_short" />
+        <marker scope="Public" name="rose_aura_camera0" />
+        <marker scope="Public" name="rose_aura_camera1" />
         <marker scope="Public" name="rose_butt" />
+        <marker scope="Public" name="rose_jura_self2a" />
         <marker scope="Public" name="rose_jura0_early" />
+        <marker scope="Public" name="rose_jura0_early2" />
+        <marker scope="Public" name="rose_jura0_later" />
+        <marker scope="Public" name="rose_jura0_later2" />
         <marker scope="Public" name="rose_kirigiri_self0a" />
         <marker scope="Public" name="rose_kirigiri_self0b" />
+        <marker scope="Public" name="rose_meia_self0a" />
+        <marker scope="Public" name="rose_meia_self2a" />
+        <marker scope="Public" name="rose_meia_self3a" />
         <marker scope="Public" name="rose_meia0" />
         <marker scope="Public" name="rose_meia0_early" />
         <marker scope="Public" name="rose_mg_backScar1" />
@@ -305,8 +340,11 @@
         <marker scope="Public" name="rose_mg_backScar3" />
         <marker scope="Public" name="rose_moskii_animaQuestion1" />
         <marker scope="Public" name="rose_revy_self0a" />
+        <marker scope="Public" name="rose_revy_self0b" />
         <marker scope="Public" name="rose_sofia_default0a" />
+        <marker scope="Public" name="rose_sofia_default0b" />
         <marker scope="Public" name="rose_sofia_interests1" />
+        <marker scope="Public" name="rose_sofia_interests2" />
         <marker scope="Public" name="rose_yuno_degree1" />
         <marker scope="Public" name="rose_yuno_degree2" />
         <marker scope="Public" name="rose_yuno_degree3" />
