@@ -162,3 +162,8 @@
     animation-iteration-count: infinite;
     font-size: 5.5rem;
 }
+
+.dialogue .bold[data-character="aqua_kh"] {
+  /**/
+  font-weight: 800;
+}

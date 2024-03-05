@@ -271,6 +271,13 @@
         <response id="1146" opponent="zeke_pandoria" opponentId="50" />
         <response id="1147" opponent="gwen" opponentId="1" />
         <response id="1148" opponent="gwen" opponentId="130" />
+        <response id="1154" opponent="rose" opponentId="142" />
+        <response id="1156" opponent="rose" opponentId="53" />
+        <response id="1157" opponent="rose" opponentId="26" />
+        <response id="1161" opponent="hilda" opponentId="150" />
+        <response id="1162" opponent="hilda" opponentId="280" />
+        <response id="1163" opponent="hilda" opponentId="148" />
+        <response id="1164" opponent="hilda" opponentId="151" />
     </responses>
     <notes>
         <note id="6">radiant garden is a world in kingdom hearts that is basically "the place where final fantasy characters and some kingdom hearts original characters come from", mainly home to JRPG humans.</note>
@@ -1441,12 +1448,26 @@
         <label id="1149" label="" color="4" folder="Keyblade" sort="0" />
         <label id="1150" label="" color="4" folder="Keyblade" sort="0" />
         <label id="1151" label="" folder="Still in the game" sort="0" />
+        <label id="1152" label="" folder="Situations&gt;Aura Camera" sort="0" />
+        <label id="1153" label="Follow-up" folder="Situations&gt;Aura Camera" sort="0" />
+        <label id="1155" label="" folder="Targets&gt;Rose" sort="0" />
+        <label id="1156" label="" folder="Targets&gt;Rose" sort="0" />
+        <label id="1154" label="" folder="Targets&gt;Rose" sort="0" />
+        <label id="1157" label="" folder="Targets&gt;Rose" sort="0" />
+        <label id="1158" label="" folder="Responses" sort="0" />
+        <label id="1159" label="" folder="Responses" sort="0" />
+        <label id="1160" label="" folder="Responses" sort="0" />
+        <label id="1161" label="" folder="Targets" sort="0" />
+        <label id="1162" label="" folder="Targets" sort="0" />
+        <label id="1163" label="" folder="Targets" sort="0" />
+        <label id="1164" label="" folder="Targets" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>aquaKS_stage==4</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>1151</nextId>
+    <nextId>1164</nextId>
     <markers>
+        <marker scope="Public" name="" />
         <marker scope="Public" name="__lucina_nickname" />
         <marker scope="Public" name="9s_nipples" />
         <marker scope="Public" name="aella_" />
@@ -1549,6 +1570,8 @@
         <marker scope="Public" name="aqua_Arueshalae_bad_dreams" />
         <marker scope="Public" name="aqua_arueshalae_favFeature" />
         <marker scope="Public" name="aqua_Arueshalae_good_dreams" />
+        <marker scope="Public" name="aqua_aura_camera1" />
+        <marker scope="Public" name="aqua_aura_camera2" />
         <marker scope="Public" name="aqua_ayano_pokerResp" />
         <marker scope="Public" name="aqua_binah_startFF" />
         <marker scope="Public" name="aqua_blake_keybladeCont1" />
@@ -1613,6 +1636,7 @@
         <marker scope="Public" name="aqua_dwight_self1a" />
         <marker scope="Public" name="aqua_dwight_self2a" />
         <marker scope="Public" name="Aqua_Earthbending_2" />
+        <marker scope="Public" name="aqua_elizabeth_self0b" />
         <marker scope="Public" name="aqua_elphaba_self2a" />
         <marker scope="Public" name="aqua_elphaba_strip0a" />
         <marker scope="Public" name="aqua_elphaba_strip1a" />
@@ -2008,6 +2032,8 @@
         <marker scope="Public" name="dunban_mariS_boxers3" />
         <marker scope="Public" name="dunban_specialflirting" />
         <marker scope="Public" name="dunbanff_aqua_finishing" />
+        <marker scope="Public" name="elizabeth_self_1a" />
+        <marker scope="Public" name="elizabeth_self_4a_socks" />
         <marker scope="Public" name="elphaba_goldenrule_Q" />
         <marker scope="Public" name="enemies_drop_money" />
         <marker scope="Public" name="epilogue_bonus_unlock" />
@@ -2058,6 +2084,10 @@
         <marker scope="Public" name="hanyany_water_generic" />
         <marker scope="Public" name="headfalloff_1" />
         <marker scope="Public" name="high_card_7">Has gotten the worst possible hand out of them all.</marker>
+        <marker scope="Public" name="hilda_revealWin" />
+        <marker scope="Public" name="hilda_review1a" />
+        <marker scope="Public" name="hilda_review1b" />
+        <marker scope="Public" name="hilda_scarfTie" />
         <marker scope="Public" name="ignoring_pervert">Ignoring a perverted character (that is attracted to her) during her forfeit</marker>
         <marker scope="Private" name="im_wearing_socks" />
         <marker scope="Public" name="inv_traverse_town" />
@@ -2121,6 +2151,8 @@
         <marker scope="Public" name="pollyPossessionRejection" />
         <marker scope="Public" name="ribbongirl_celebNudityResp" />
         <marker scope="Public" name="ribbongirl_MaskPowers" />
+        <marker scope="Public" name="rose_anima_reveal" />
+        <marker scope="Public" name="rose_butt_pose" />
         <marker scope="Public" name="roxas_first_meeting">First time she encounters Roxas</marker>
         <marker scope="Public" name="rumble_racing">Mentions a bonus minigame from KH:BBS</marker>
         <marker scope="Public" name="saki_headfalloff" />
