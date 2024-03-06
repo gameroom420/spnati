@@ -9,7 +9,7 @@
         <case name="Knives count?" id="1" priority="FYI" min="1" max="1">
             <description>Spooky uses her knife as a buffer because she came to the game only wearing a dress.</description>
         </case>
-        <case name="Seriously, just a dress." id="2" priority="Noteworthy" min="2" max="2">
+        <case name="Seriously, just a dress." id="2" priority="MustTarget" min="2" max="2">
             <description>After removing her dress, Spooky is breifly nude before then apparating underwear.</description>
         </case>
         <case name="Fears" id="26" priority="Prompt" min="0" max="4">
@@ -197,8 +197,17 @@
         <label id="228" label="" folder="Reaper Spooky" sort="0" />
         <label id="240" label="" color="1" folder="" sort="0" />
         <label id="241" label="" color="1" folder="" sort="0" />
+        <label id="242" label="" folder="Festive Spooky" sort="0" />
+        <label id="243" label="" folder="Festive Spooky" sort="0" />
+        <label id="244" label="" folder="Festive Spooky" sort="0" />
+        <label id="245" label="Butt" folder="" sort="0" />
+        <label id="246" label="Flashing" folder="Noteworthy Things" sort="0" />
+        <label id="247" label="" folder="Noteworthy Things" sort="0" />
+        <label id="248" label="Flashing" folder="Noteworthy Things" sort="0" />
+        <label id="249" label="Flashing" folder="Noteworthy Things" sort="0" />
+        <label id="250" label="Dress Rip" folder="Noteworthy Things" sort="0" />
     </labels>
-    <nextId>241</nextId>
+    <nextId>261</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="1v1" />
@@ -213,6 +222,7 @@
         <marker scope="Public" name="Beatrix_TwoGhosts" />
         <marker scope="Public" name="Bowsette_Army1" />
         <marker scope="Public" name="Bowsette_Mansion1" />
+        <marker scope="Public" name="Butt" />
         <marker scope="Public" name="Chara_Healing" />
         <marker scope="Public" name="Chara_Healing2" />
         <marker scope="Public" name="Chara_Healing3" />
@@ -241,6 +251,7 @@
         <marker scope="Public" name="DeathTouch" />
         <marker scope="Public" name="DirtyMansion" />
         <marker scope="Public" name="DontEatBabies" />
+        <marker scope="Public" name="DressRip" />
         <marker scope="Public" name="Dust_Friends" />
         <marker scope="Public" name="Dust_Tirsiak1" />
         <marker scope="Public" name="Dust_Tirsiak2" />
@@ -335,12 +346,14 @@
         <marker scope="Public" name="SoulJob" />
         <marker scope="Public" name="SpamCalls" />
         <marker scope="Public" name="SpookyFears" />
+        <marker scope="Public" name="SpookyFlash" />
         <marker scope="Public" name="SpookyPlacesToEat" />
         <marker scope="Public" name="SpookyWinning" />
         <marker scope="Public" name="SpookyWinning1" />
         <marker scope="Public" name="SuccubiStealSouls" />
         <marker scope="Public" name="TogetherForever" />
         <marker scope="Public" name="TooManyRooms" />
+        <marker scope="Public" name="UnderwearSecret" />
         <marker scope="Public" name="VampiresBloodTaste" />
         <marker scope="Public" name="VampiresHypno" />
         <marker scope="Public" name="VampiresSuck" />
