@@ -6213,7 +6213,6 @@
                 <condition count="0" filterAdv="straight|bi-curious" gender="male" role="other" />
                 <condition count="0" filterAdv="lesbian|reverse_bi-curious" gender="female" role="other" />
                 <state img="custom:#-strip_a">I don’t suspect any of you are interested, but rules are rules. I’ve got two choices, and I’m going with my brassiere.</state>
-                <state img="custom:#-strip_a">I don’t suspect any of you are interested, but rules are rules. I’ve got two choices, and I’m going with my brassiere.</state>
             </case>
             <case stage="0" id="129">
                 <condition count="0" stage="1-10" />
@@ -7531,7 +7530,7 @@
                 <state img="custom:#-stripped_c">What’s with that look, ~player~? It’s almost like you’re disappointed about my body.</state>
             </case>
             <case stage="7">
-                <condition count="0" gender="female" role="opp" />
+                <condition count="0" gender="female" role="opp" status="not_chest_visible" />
                 <condition count="0" gender="male" status="not_crotch_visible" role="opp" />
                 <condition count="2-" filter="small_penis" role="opp" />
                 <condition count="0" filterAdv="medium_penis|large_penis|medium_breasts|large_breasts" />
@@ -9196,7 +9195,7 @@
             </case>
             <case stage="0-8 10" id="2196" priority="0">
                 <test expr="~self.tag.bisexual~" value="true" />
-                <test expr="=~target.compatible~" cmp="!=" value="false" />
+                <test expr="~target.compatible~" cmp="!=" value="false" />
                 <state img="custom:lust" marker="contrabandBreasts">I might just have to pat you down for contraband, ~name~.</state>
             </case>
         </trigger>
