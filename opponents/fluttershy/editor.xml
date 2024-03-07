@@ -622,13 +622,13 @@
         <label id="907" label="" color="1" folder="" sort="0" />
         <label id="908" label="" color="1" folder="" sort="0" />
         <label id="909" label="" color="1" folder="" sort="0" />
-        <label id="910" label="" color="1" folder="" sort="0" />
-        <label id="911" label="" color="1" folder="" sort="0" />
+        <label id="913" label="" color="1" folder="" sort="0" />
+        <label id="912" label="" color="1" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>Fluttershy_</prefix>
     </prefixes>
-    <nextId>911</nextId>
+    <nextId>913</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="act_confident_self" />
@@ -1432,7 +1432,9 @@
         <marker scope="Public" name="Noelle_two_different_jobs" />
         <marker scope="Public" name="Nonon_" />
         <marker scope="Public" name="Nonon_FavoriteAnimals_reply" />
+        <marker scope="Public" name="Nonon_FavoriteAnimals_reply2" />
         <marker scope="Public" name="Nonon_pets_reply" />
+        <marker scope="Public" name="Nonon_pets_reply2" />
         <marker scope="Public" name="numberone_bruised_legs" />
         <marker scope="Public" name="Panty_strip1" />
         <marker scope="Public" name="people_in_underwear" />
