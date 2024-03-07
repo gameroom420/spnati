@@ -830,8 +830,14 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <label id="850" label="" color="3" folder="Target_Stage2" sort="0" />
         <label id="851" label="" color="3" folder="Reply_Stage0" sort="0" />
         <label id="852" label="" color="3" folder="Reply_Stage1" sort="0" />
+        <label id="853" label="" folder="Target_FF" sort="0" />
+        <label id="854" label="" folder="Target_FF" sort="0" />
+        <label id="855" label="" folder="Target_FF" sort="0" />
+        <label id="856" label="" folder="Reply_Stage0" sort="0" />
+        <label id="857" label="" folder="Reply_Stage0" sort="0" />
+        <label id="858" label="" folder="Reply_Stage0" sort="0" />
     </labels>
-    <nextId>852</nextId>
+    <nextId>858</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="adrien01" />
@@ -1143,6 +1149,12 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <marker scope="Public" name="nadeshiko01b" />
         <marker scope="Public" name="nadeshiko02a" />
         <marker scope="Public" name="nadeshiko02b" />
+        <marker scope="Public" name="naga_FF01" />
+        <marker scope="Public" name="naga_FF02" />
+        <marker scope="Public" name="naga_FF03" />
+        <marker scope="Public" name="naga_FFHeavy01" />
+        <marker scope="Public" name="naga_FFHeavy02" />
+        <marker scope="Public" name="naga_FFHeavy03" />
         <marker scope="Public" name="naga01" />
         <marker scope="Public" name="naga01a" />
         <marker scope="Public" name="naga01b" />
@@ -1387,6 +1399,9 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <marker scope="Public" name="reply_nadeshiko01" />
         <marker scope="Public" name="reply_nadeshiko11" />
         <marker scope="Public" name="reply_nadeshiko21" />
+        <marker scope="Public" name="reply_naga01" />
+        <marker scope="Public" name="reply_naga02" />
+        <marker scope="Public" name="reply_naga03" />
         <marker scope="Public" name="reply_natsuki01" />
         <marker scope="Public" name="reply_natsuki01a" />
         <marker scope="Public" name="reply_natsuki01b" />
