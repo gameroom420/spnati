@@ -1678,9 +1678,9 @@
         <label id="1513" label="" folder="Targets" sort="0" />
         <label id="1514" label="" folder="Targets" sort="0" />
         <label id="1515" label="" folder="Targets" sort="0" />
-        <label id="1516" label="" color="1" folder="Replies" sort="0" />
-        <label id="1517" label="" color="1" folder="Replies" sort="0" />
-        <label id="1518" label="" color="1" folder="Replies" sort="0" />
+        <label id="1516" label="" folder="Replies" sort="0" />
+        <label id="1517" label="" folder="Replies" sort="0" />
+        <label id="1518" label="" folder="Replies" sort="0" />
         <label id="1519" label="" folder="Targets" sort="0" />
         <label id="1520" label="" folder="Replies" sort="0" />
         <label id="1522" label="" folder="Targets" sort="0" />
@@ -1743,8 +1743,8 @@
         <label id="1582" label="" color="3" folder="Replies" sort="0" />
         <label id="1583" label="" color="3" folder="Replies" sort="0" />
         <label id="1584" label="" color="3" folder="Replies" sort="0" />
-        <label id="1585" label="" color="3" folder="Replies" sort="0" />
-        <label id="1586" label="" color="1" folder="Targets" sort="0" />
+        <label id="1585" label="" folder="Replies" sort="0" />
+        <label id="1586" label="" folder="Targets" sort="0" />
         <label id="1587" label="" color="1" folder="Replies" sort="0" />
         <label id="1588" label="" color="1" folder="Replies" sort="0" />
         <label id="1589" label="" color="1" folder="Replies" sort="0" />
@@ -1754,8 +1754,10 @@
         <label id="1593" label="" color="1" folder="Targets" sort="0" />
         <label id="1594" label="" color="3" folder="Replies" sort="0" />
         <label id="1595" label="" color="1" folder="Targets" sort="0" />
+        <label id="1596" label="" color="3" folder="Replies" sort="0" />
+        <label id="1597" label="" color="3" folder="Replies" sort="0" />
     </labels>
-    <nextId>1595</nextId>
+    <nextId>1597</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="Aella_howStrong" />
@@ -2649,6 +2651,7 @@
         <marker scope="Public" name="Shamiko_cosplay_reply3" />
         <marker scope="Public" name="Shamiko_GoodCook_reply" />
         <marker scope="Public" name="Shamiko_GoodCook_reply2" />
+        <marker scope="Public" name="Shamiko_GoodCook_reply3" />
         <marker scope="Public" name="Shamiko_idiot_insult" />
         <marker scope="Public" name="Shamiko_idiot_insult_cont" />
         <marker scope="Public" name="Shamiko_idiot_insult_end" />
@@ -2670,6 +2673,7 @@
         <marker scope="Public" name="Shamiko_tail_insult_end" />
         <marker scope="Public" name="Shamiko_TamaFamily_reply" />
         <marker scope="Public" name="Shamiko_TamaFamily_reply2" />
+        <marker scope="Public" name="Shamiko_TamaFamily_reply3" />
         <marker scope="Public" name="Shamiko_toleratePathetic" />
         <marker scope="Public" name="Shamiko_toleratePathetic_reply" />
         <marker scope="Public" name="Shamiko_toleratePathetic_reply2" />
