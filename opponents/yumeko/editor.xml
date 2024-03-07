@@ -22,7 +22,6 @@
     </labels>
     <nextId>22</nextId>
     <markers>
-        <marker scope="Public" name="" />
         <marker scope="Public" name="A" />
         <marker scope="Public" name="abstractgames" />
         <marker scope="Public" name="alientarget" />
