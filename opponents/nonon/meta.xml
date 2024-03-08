@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1709715487804</lastupdate>
+    <lastupdate>1709881163088</lastupdate>
     <enabled>false</enabled>
     <first>Nonon</first>
     <last>Jakuzure</last>
@@ -20,7 +20,7 @@
         <costume folder="opponents/reskins/nonon_track_suit/" status="unlisted" label="Nonon">Track Suit</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>1648</lines>
+    <lines>1674</lines>
     <poses>368</poses>
     <dialogue-layer>over</dialogue-layer>
 </opponent>
