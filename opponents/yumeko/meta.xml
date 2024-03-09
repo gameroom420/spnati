@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1709773383848</lastupdate>
+    <lastupdate>1709998490040</lastupdate>
     <enabled>false</enabled>
     <first>Yumeko</first>
     <last>Jabami</last>
@@ -12,7 +12,7 @@
     <artist>coolcat001100</artist>
     <description>A strange girl with a knack for games of chance, the first and last thoughts on Yumeko's mind are always about the luck of the draw. It's not like she suffers from a gambling addiction... because she enjoys having one.</description>
     <epilogue status="unlisted" gender="male" hint="Lose to Yumeko">"Fido"</epilogue>
-    <epilogue gender="female" img="lounge04.jpg" hint="Lose to Yumeko">"Mittens"</epilogue>
+    <epilogue status="unlisted" gender="female" img="lounge04.jpg" hint="Lose to Yumeko">"Mittens"</epilogue>
     <layers>6</layers>
     <default-costume-name>Hyakkaou uniform</default-costume-name>
     <alternates>
