@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1709768488329</lastupdate>
+    <lastupdate>1710037158833</lastupdate>
     <enabled>true</enabled>
     <first>Lyn</first>
     <last />
@@ -17,6 +17,6 @@
     <alternates>
         <costume folder="opponents/reskins/lynbride/" img="0-calm.png" set="valentines" label="Lyn">Bride of the Plains</costume>
     </alternates>
-    <lines>1268</lines>
+    <lines>1351</lines>
     <poses>138</poses>
 </opponent>
