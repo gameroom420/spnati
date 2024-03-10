@@ -70,6 +70,11 @@
         <response id="218" opponent="aqua_kh" opponentId="69" />
         <response id="219" opponent="aqua_kh" opponentId="993" />
         <response id="220" opponent="aqua_kh" opponentId="51" />
+        <response id="280" opponent="aaravi" opponentId="111" />
+        <response id="281" opponent="aaravi" opponentId="215" />
+        <response id="282" opponent="aaravi" opponentId="119" />
+        <response id="287" opponent="kyouko_toshinou" opponentId="108" />
+        <response id="288" opponent="jura" opponentId="20" />
     </responses>
     <notes>
         <note id="193">Rose has left her slot to visit Magma Grunt's slot - MG is showing her a picture of her own backside</note>
@@ -286,15 +291,88 @@
         <label id="218" label="" folder="Targets" sort="0" />
         <label id="219" label="" folder="Targets" sort="0" />
         <label id="220" label="" folder="Targets" sort="0" />
+        <label id="221" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="222" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="223" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="224" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="225" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="226" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="227" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="228" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="229" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="230" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="231" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="232" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="233" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="234" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="235" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="236" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="237" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="238" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="239" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="240" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="241" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="242" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="243" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="244" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="245" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="246" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="247" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="248" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="249" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
+        <label id="250" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
+        <label id="251" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
+        <label id="252" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
+        <label id="253" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
+        <label id="254" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
+        <label id="255" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
+        <label id="256" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
+        <label id="257" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
+        <label id="258" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
+        <label id="259" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
+        <label id="260" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
+        <label id="261" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="262" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="263" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="264" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="265" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="266" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="267" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
+        <label id="268" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
+        <label id="269" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="270" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
+        <label id="271" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
+        <label id="272" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="273" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
+        <label id="274" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
+        <label id="275" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
+        <label id="276" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="277" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
+        <label id="278" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
+        <label id="279" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
+        <label id="280" label="" folder="Aaravi&gt;Situation Reactions" sort="0" />
+        <label id="281" label="" folder="Aaravi&gt;Situation Reactions" sort="0" />
+        <label id="284" label="" folder="Targets&gt;Companions" sort="0" />
+        <label id="285" label="" folder="Targets&gt;Companions" sort="0" />
+        <label id="286" label="" folder="Targets&gt;Companions" sort="0" />
+        <label id="287" label="" folder="Targets" sort="0" />
+        <label id="282" label="" folder="Aaravi&gt;Situation Reactions" sort="0" />
+        <label id="283" label="" folder="Aaravi&gt;Situation Reactions" sort="0" />
+        <label id="288" label="" folder="Targets&gt;Jura" sort="0" />
+        <label id="289" label="" folder="Targets&gt;Jura" sort="0" />
+        <label id="290" label="" folder="Targets&gt;Companions" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>show_anima==1</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>220</nextId>
+    <nextId>290</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="3player" />
         <marker scope="Public" name="4player_latejoin" />
+        <marker scope="Public" name="aaravi_BackScars" />
+        <marker scope="Public" name="aaravi_Hexplanation" />
+        <marker scope="Public" name="aaravi_levelup" />
         <marker scope="Public" name="Aella_Flash1" />
         <marker scope="Public" name="Aella_FlashB" />
         <marker scope="Public" name="anima_accusation" />
@@ -308,6 +386,8 @@
         <marker scope="Public" name="for_me_misspeak" />
         <marker scope="Public" name="for_me_misspeak2" />
         <marker scope="Public" name="good_boy" />
+        <marker scope="Public" name="jura_butt_react" />
+        <marker scope="Public" name="kyouko_D_SexyPose" />
         <marker scope="Public" name="losing_to_all_male" />
         <marker scope="Public" name="lost_2_in_a_row" />
         <marker scope="Public" name="lost_2_in_a_row_2" />
@@ -320,9 +400,39 @@
         <marker scope="Public" name="nonon_lady_jakuzure_resp" />
         <marker scope="Public" name="nonon_postcum_threat_Resp" />
         <marker scope="Public" name="nonon_short" />
+        <marker scope="Public" name="rose_aaravi_bandages1" />
+        <marker scope="Public" name="rose_aaravi_bandages2" />
+        <marker scope="Public" name="rose_aaravi_bandages2B" />
+        <marker scope="Public" name="rose_aaravi_bandages3A" />
+        <marker scope="Public" name="rose_aaravi_bandages3B" />
+        <marker scope="Public" name="rose_aaravi_equipmentStats1" />
+        <marker scope="Public" name="rose_aaravi_equipmentStats2" />
+        <marker scope="Public" name="rose_aaravi_equipmentStats3" />
+        <marker scope="Public" name="rose_aaravi_hunter1" />
+        <marker scope="Public" name="rose_aaravi_hunter1B" />
+        <marker scope="Public" name="rose_aaravi_hunter2" />
+        <marker scope="Public" name="rose_aaravi_hunter2B" />
+        <marker scope="Public" name="rose_aaravi_hunter3" />
+        <marker scope="Public" name="rose_aaravi_LFG1" />
+        <marker scope="Public" name="rose_aaravi_LFG2" />
+        <marker scope="Public" name="rose_aaravi_LFG3" />
+        <marker scope="Public" name="rose_aaravi_loveSkills1" />
+        <marker scope="Public" name="rose_aaravi_loveSkills2" />
+        <marker scope="Public" name="rose_aaravi_loveSkills3" />
+        <marker scope="Public" name="rose_aaravi_otherHobbies1" />
+        <marker scope="Public" name="rose_aaravi_otherHobbies2" />
+        <marker scope="Public" name="rose_aaravi_otherHobbies3A" />
+        <marker scope="Public" name="rose_aaravi_otherHobbies3B" />
+        <marker scope="Public" name="rose_aaravi_specialMoves1" />
+        <marker scope="Public" name="rose_aaravi_specialMoves2" />
+        <marker scope="Public" name="rose_aaravi_specialMoves3" />
+        <marker scope="Public" name="rose_aaraviMustMast" />
+        <marker scope="Public" name="rose_aaraviStartMast" />
+        <marker scope="Public" name="rose_aaraviStartMast2" />
         <marker scope="Public" name="rose_aura_camera0" />
         <marker scope="Public" name="rose_aura_camera1" />
         <marker scope="Public" name="rose_butt" />
+        <marker scope="Public" name="rose_jura_hairCare1" />
         <marker scope="Public" name="rose_jura_self2a" />
         <marker scope="Public" name="rose_jura0_early" />
         <marker scope="Public" name="rose_jura0_early2" />
@@ -330,6 +440,7 @@
         <marker scope="Public" name="rose_jura0_later2" />
         <marker scope="Public" name="rose_kirigiri_self0a" />
         <marker scope="Public" name="rose_kirigiri_self0b" />
+        <marker scope="Public" name="rose_meia_pyoro1" />
         <marker scope="Public" name="rose_meia_self0a" />
         <marker scope="Public" name="rose_meia_self2a" />
         <marker scope="Public" name="rose_meia_self3a" />
@@ -338,6 +449,8 @@
         <marker scope="Public" name="rose_mg_backScar1" />
         <marker scope="Public" name="rose_mg_backScar2" />
         <marker scope="Public" name="rose_mg_backScar3" />
+        <marker scope="Public" name="rose_miko_tojiko1" />
+        <marker scope="Public" name="rose_miko_ward1" />
         <marker scope="Public" name="rose_moskii_animaQuestion1" />
         <marker scope="Public" name="rose_revy_self0a" />
         <marker scope="Public" name="rose_revy_self0b" />
@@ -354,6 +467,36 @@
         <marker scope="Public" name="rose_yuno_smalltalk1" />
         <marker scope="Public" name="rose_yuno_smalltalk2" />
         <marker scope="Public" name="rose_yuno_smalltalk3" />
+        <marker scope="Public" name="rose_zp_antics1" />
+        <marker scope="Public" name="RoseAaravi_AnimaDetection1" />
+        <marker scope="Public" name="RoseAaravi_AnimaDetection2" />
+        <marker scope="Public" name="RoseAaravi_AnimaDetection3" />
+        <marker scope="Public" name="RoseAaravi_CatGirls" />
+        <marker scope="Public" name="RoseAaravi_CatGirls2" />
+        <marker scope="Public" name="RoseAaravi_CatGirls3" />
+        <marker scope="Public" name="RoseAaravi_CatMerchants1" />
+        <marker scope="Public" name="RoseAaravi_CatMerchants2" />
+        <marker scope="Public" name="RoseAaravi_CatMerchants3" />
+        <marker scope="Public" name="RoseAaravi_Experimentation1" />
+        <marker scope="Public" name="RoseAaravi_Experimentation2" />
+        <marker scope="Public" name="RoseAaravi_Experimentation3" />
+        <marker scope="Public" name="RoseAaravi_FriendsForSaleA" />
+        <marker scope="Public" name="RoseAaravi_FriendsForSaleA2" />
+        <marker scope="Public" name="RoseAaravi_FriendsForSaleA3" />
+        <marker scope="Public" name="RoseAaravi_FriendsForSaleB" />
+        <marker scope="Public" name="RoseAaravi_FriendsForSaleB2" />
+        <marker scope="Public" name="RoseAaravi_FriendsForSaleB3" />
+        <marker scope="Public" name="RoseAaravi_PartnerParticulars1" />
+        <marker scope="Public" name="RoseAaravi_PartnerParticulars2" />
+        <marker scope="Public" name="RoseAaravi_PartnerParticulars3" />
+        <marker scope="Public" name="RoseAaravi_Physique1" />
+        <marker scope="Public" name="RoseAaravi_Physique2" />
+        <marker scope="Public" name="RoseAaravi_Physique3" />
+        <marker scope="Public" name="RoseAaravi_Responsibility1" />
+        <marker scope="Public" name="RoseAaravi_Responsibility2" />
+        <marker scope="Public" name="RoseAaravi_Responsibility3" />
+        <marker scope="Public" name="RoseAaravi_SelfEliminated" />
+        <marker scope="Public" name="RoseAaravi_SelfEliminated2" />
         <marker scope="Public" name="sanako_spend_your_time" />
         <marker scope="Public" name="show_anima">If set to 1 she will show off her +Anima traits (cat claws and sharp eyes)</marker>
         <marker scope="Public" name="showing_animaFirstTime_yuno" />
