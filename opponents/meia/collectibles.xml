@@ -3,7 +3,7 @@
     <collectible id="aura_camera" status="online" img="opponents/meia/auracamera.png" thumbnail="opponents/meia/auracamera.png">
         <title>Aura Camera</title>
         <subtitle>"Can't you tell just by looking?"</subtitle>
-        <text>A futuristic camera made by Parfet Balblair, Chief Engineer on the Nirvana.  Given to their young nurse Paiway as a toy with which she can "Pai-check" racy situations.&lt;br&gt;In addition to regular photos, it can reveal the "emotional wavelengths" given off by the subject.  Their Paksis Pragma fusion core feeds off of these to produce energy.  Perhaps the same is true of all living things.</text>
+        <text>A futuristic camera made by Parfet Balblair, Chief Engineer on the Nirvana.  Given to their young nurse Paiway as a toy with which she can "Pai-check" racy situations.&lt;br&gt;&lt;br&gt;In addition to regular photos, it can reveal the "emotional wavelengths" given off by the subject.  Their Paksis Pragma fusion core feeds off of these to produce energy.  Perhaps the same is true of all living things.</text>
         <unlock>Win a game against Meia.</unlock>
         <hide-details>true</hide-details>
         <wearable>true</wearable>
