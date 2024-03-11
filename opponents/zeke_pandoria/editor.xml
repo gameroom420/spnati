@@ -683,12 +683,16 @@
         <label id="539" label="" color="1" folder="Responses" sort="0" />
         <label id="540" label="" color="1" folder="Responses" sort="0" />
         <label id="541" label="" color="3" folder="Responses" sort="0" />
+        <label id="542" label="" folder="Situations" sort="0" />
+        <label id="543" label="" folder="Hidden Logic" sort="0" />
+        <label id="544" label="" folder="Targets" sort="0" />
+        <label id="545" label="" folder="Targets" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>penis=s</posePreviewMarker>
     </posePreviewMarkers>
     <onlyCustomPoses>true</onlyCustomPoses>
-    <nextId>541</nextId>
+    <nextId>545</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="allowsex">If set to 1, Zeke and Pandoria *can* (but are not guaranteed to) have sex for their forfeit.</marker>
