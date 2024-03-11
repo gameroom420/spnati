@@ -9,6 +9,7 @@
         <response id="1" opponent="caulifla" opponentId="2" />
         <response id="3" opponent="nami" opponentId="9" />
         <response id="4" opponent="caulifla" opponentId="3" />
+        <response id="59" opponent="arle" opponentId="274" />
     </responses>
     <notes>
         <note id="5">For Alias' sponsorship. </note>
@@ -68,10 +69,9 @@ The generic lines for stages 0-3 also have their priority set to 5. These marked
         <label id="56" label="" folder="Summer Skin" sort="16" />
         <label id="57" label="" folder="Summer Skin" sort="34" />
     </labels>
-    <onlyCustomPoses>false</onlyCustomPoses>
-    <hidePrefixlessImages>false</hidePrefixlessImages>
-    <nextId>58</nextId>
+    <nextId>59</nextId>
     <markers>
+        <marker scope="Public" name="" />
         <marker scope="Public" name="2_nickels" />
         <marker scope="Public" name="4_cards" />
         <marker scope="Public" name="4th_crusade" />
@@ -84,6 +84,7 @@ The generic lines for stages 0-3 also have their priority set to 5. These marked
         <marker scope="Public" name="AquaKH_Keyblade_Learn" />
         <marker scope="Public" name="Arle_DM_Ask" />
         <marker scope="Public" name="Arle_DM_Ask_2" />
+        <marker scope="Public" name="Arle_DM_Ask_3" />
         <marker scope="Public" name="Arue_hat" />
         <marker scope="Public" name="Arue_hat 2" />
         <marker scope="Public" name="arueshalae_learn" />
@@ -97,6 +98,7 @@ The generic lines for stages 0-3 also have their priority set to 5. These marked
         <marker scope="Public" name="broom">DMG talks about riding a broom.</marker>
         <marker scope="Public" name="Burning" />
         <marker scope="Public" name="Caitlin_birthdays" />
+        <marker scope="Public" name="Caitlin_birthdays_2" />
         <marker scope="Public" name="caitlin_hat" />
         <marker scope="Public" name="Caitlin_Reuniclus" />
         <marker scope="Public" name="Caitlin_sleep" />
