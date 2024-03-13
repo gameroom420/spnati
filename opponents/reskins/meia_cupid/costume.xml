@@ -2592,7 +2592,7 @@
         </pose>
         <pose id="4-stripsilent">
             <sprite id="strip" src="reskins/meia_cupid/4-strip.png" x="0" y="0" />
-            <sprite id="fixing" src="reskins/meia_cupid/5-fixing.png" x="-21" y="0" rotation="3" clipleft="292" clipright="285" cliptop="284" clipbottom="1099" />
+            <sprite id="silentmouth" src="reskins/meia_cupid/silentmouth.png" x="2" y="285" rotation="2" />
         </pose>
         <pose id="0-pyorostaticm">
             <sprite id="silent" src="reskins/meia_cupid/0-pyoro.png" x="0" y="0" alpha="100" />

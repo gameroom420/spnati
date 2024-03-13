@@ -75,8 +75,8 @@
         <pose id="0-looking-open">
             <sprite id="talking" src="reskins/jura_santa/0-looking-.png" x="0" y="0" />
             <sprite id="btalking" z="1" src="reskins/jura_santa/blooking-.png" x="302" y="0" />
-            <sprite id="conversational" src="reskins/jura_santa/0-conversational.png" x="0" y="1" clipleft="265" clipright="261" cliptop="248" clipbottom="1130" />
-            <sprite id="btalking-" z="1" src="reskins/jura_santa/btalking-.png" x="307" y="-2" rotation="-1" clipleft="161" clipright="158" cliptop="329" clipbottom="1054" />
+            <sprite id="bmouthopen" z="1" src="reskins/jura_santa/bmouthopen.png" x="302" y="324" rotation="-7" />
+            <sprite id="mouthopen" src="reskins/jura_santa/mouthopen.png" x="2" y="246" />
         </pose>
         <pose id="0-selected">
             <sprite id="vain" src="reskins/jura_santa/0-vain.png" x="0" y="0" />
@@ -222,7 +222,7 @@
         </pose>
         <pose id="1-smug-">
             <sprite id="smug" src="reskins/jura_santa/1-smug.png" x="0" y="0" />
-            <sprite id="annoyed" src="reskins/jura_santa/1-annoyed.png" x="-9" y="2" rotation="1" clipleft="203" clipright="150" cliptop="85" clipbottom="1133" clipradius="77" />
+            <sprite id="annoyed1" src="reskins/jura_santa/annoyed.png" x="5" y="81" rotation="1" />
         </pose>
         <pose id="1-strippedb">
             <sprite id="strip" src="reskins/jura_santa/1-stripped.png" x="0" y="0" />
@@ -331,7 +331,7 @@
         </pose>
         <pose id="2-smug-">
             <sprite id="smug" src="reskins/jura_santa/2-smug.png" x="0" y="0" />
-            <sprite id="annoyed" src="reskins/jura_santa/2-annoyed.png" x="-9" y="2" rotation="1" clipleft="203" clipright="150" cliptop="85" clipbottom="1133" clipradius="77" />
+            <sprite id="annoyed1" src="reskins/jura_santa/annoyed.png" x="5" y="81" rotation="1" />
         </pose>
         <pose id="2-talking">
             <sprite id="talking" src="reskins/jura_santa/2-talking.png" x="0" y="0" />
@@ -445,7 +445,7 @@
         </pose>
         <pose id="3-smug-">
             <sprite id="smug" src="reskins/jura_santa/3-smug.png" x="0" y="0" />
-            <sprite id="annoyed" src="reskins/jura_santa/3-annoyed.png" x="-9" y="2" rotation="1" clipleft="203" clipright="150" cliptop="85" clipbottom="1133" clipradius="77" />
+            <sprite id="annoyed1" src="reskins/jura_santa/annoyed.png" x="5" y="81" rotation="1" />
         </pose>
         <pose id="3-talking">
             <sprite id="talking" src="reskins/jura_santa/3-talking.png" x="0" y="0" />
@@ -551,7 +551,7 @@
         </pose>
         <pose id="4-smug-">
             <sprite id="smug" src="reskins/jura_santa/4-smug.png" x="0" y="0" />
-            <sprite id="annoyed" src="reskins/jura_santa/4-annoyed.png" x="-9" y="2" rotation="1" clipleft="203" clipright="150" cliptop="85" clipbottom="1133" clipradius="77" />
+            <sprite id="annoyed1" src="reskins/jura_santa/annoyed.png" x="5" y="81" rotation="1" />
         </pose>
         <pose id="4-strip">
             <sprite id="strip" src="reskins/jura_santa/4-strip.png" x="0" y="0" alpha="100" />
@@ -812,7 +812,7 @@
         </pose>
         <pose id="5-smug-">
             <sprite id="smug" src="reskins/jura_santa/5-smug.png" x="0" y="0" />
-            <sprite id="annoyed" src="reskins/jura_santa/5-annoyed.png" x="-9" y="2" rotation="1" clipleft="203" clipright="150" cliptop="85" clipbottom="1133" clipradius="77" />
+            <sprite id="annoyed1" src="reskins/jura_santa/annoyed.png" x="5" y="81" rotation="1" />
         </pose>
         <pose id="5-stretchingcamera">
             <sprite id="stripped" src="reskins/jura_santa/5-stretching.png" x="0" y="0" />
@@ -1083,7 +1083,7 @@
         </pose>
         <pose id="6-smug-">
             <sprite id="smug" src="reskins/jura_santa/6-smug.png" x="0" y="0" />
-            <sprite id="annoyed" src="reskins/jura_santa/6-annoyed.png" x="-9" y="2" rotation="1" clipleft="203" clipright="150" cliptop="85" clipbottom="1133" clipradius="77" />
+            <sprite id="annoyed1" src="reskins/jura_santa/annoyed.png" x="5" y="81" rotation="1" />
         </pose>
         <pose id="6-stretchingcamera">
             <sprite id="stripped" src="reskins/jura_santa/6-stretching.png" x="0" y="0" />
