@@ -129,6 +129,13 @@
         <response id="539" opponent="jura" opponentId="1575" />
         <response id="540" opponent="jura" opponentId="1574" />
         <response id="541" opponent="jura" opponentId="1573" />
+        <response id="546" opponent="sanako" opponentId="358" />
+        <response id="550" opponent="reimu" opponentId="1" />
+        <response id="551" opponent="reimu" opponentId="89" />
+        <response id="556" opponent="meia" opponentId="1738" />
+        <response id="557" opponent="meia" opponentId="1740" />
+        <response id="558" opponent="jura" opponentId="1598" />
+        <response id="559" opponent="rose" opponentId="174" />
     </responses>
     <notes>
         <note id="10">If you want to ask Pandoria / Pandy questions, you could draw attention to the fact that some of her body parts are lightbulbs, such as a lightbulb in her head.. and her tail. Her specific race is known as a "Blade".</note>
@@ -149,6 +156,7 @@
         <note id="430">just a funny easter egg of sorts, don't take it too seriously :P</note>
         <note id="431">just a funny easter egg of sorts, don't take it too seriously :P</note>
         <note id="478">follow up line; pandy explaining that he's just making this up... or IS he?</note>
+        <note id="554">this case locks in the intercouse forfeit so that it is continued for the rest of their forfeit</note>
     </notes>
     <labels>
         <label id="5" label="Pandoria Reminder" folder="" sort="0" />
@@ -318,7 +326,7 @@
         <label id="169" label="" folder="Filtered" sort="8" />
         <label id="170" label="" folder="Filtered" sort="7" />
         <label id="171" label="" folder="Filtered" sort="6" />
-        <label id="172" label="Start Heavy Stage (Insertion)" color="5" folder="Sex" sort="5" />
+        <label id="172" label="Start Heavy Stage (Kissing Insertion)" color="2" folder="Sex&gt;Kissing" sort="5" />
         <label id="173" label="" folder="Filtered" sort="4" />
         <label id="174" label="(self chest visible)" folder="" sort="0" />
         <label id="175" label="" folder="Backgrounds" sort="0" />
@@ -556,10 +564,10 @@
         <label id="412" label="" color="3" folder="Responses" sort="33" />
         <label id="413" label="" color="3" folder="Responses" sort="27" />
         <label id="414" label="" color="3" folder="Responses" sort="42" />
-        <label id="415" label="Heavy (Intercourse)" color="5" folder="Sex" sort="3" />
-        <label id="416" label="" color="5" folder="Sex" sort="6" />
+        <label id="415" label="Heavy (Intercourse)" color="5" folder="Sex&gt;Kissing" sort="3" />
+        <label id="416" label="" color="5" folder="Sex&gt;Kissing" sort="6" />
         <label id="417" label="" color="5" folder="Sex" sort="7" />
-        <label id="418" label="Heavy (Intercourse, last tick)" color="5" folder="Sex" sort="4" />
+        <label id="418" label="Heavy (Intercourse, last tick)" color="5" folder="Sex&gt;Kissing" sort="4" />
         <label id="419" label="" folder="Hidden Logic" sort="0" />
         <label id="420" label="" folder="Hidden Logic" sort="6" />
         <label id="421" label="Sex (Conditions)" color="5" folder="Sex" sort="2" />
@@ -666,7 +674,7 @@
         <label id="523" label="" folder="Situations&gt;Aura Camera" sort="0" />
         <label id="524" label="" folder="Responses" sort="0" />
         <label id="525" label="" folder="Responses" sort="0" />
-        <label id="526" label="" folder="Responses" sort="0" />
+        <label id="526" label="" color="3" folder="Responses" sort="0" />
         <label id="527" label="" folder="Responses" sort="0" />
         <label id="528" label="" folder="Targets&gt;Sofia" sort="0" />
         <label id="529" label="" folder="Targets&gt;Sofia" sort="0" />
@@ -680,19 +688,33 @@
         <label id="536" label="" folder="Targets" sort="0" />
         <label id="537" label="" folder="Targets" sort="0" />
         <label id="538" label="" folder="Targets" sort="0" />
-        <label id="539" label="" color="1" folder="Responses" sort="0" />
-        <label id="540" label="" color="1" folder="Responses" sort="0" />
+        <label id="539" label="" color="3" folder="Responses" sort="0" />
+        <label id="540" label="" color="3" folder="Responses" sort="0" />
         <label id="541" label="" color="3" folder="Responses" sort="0" />
         <label id="542" label="" folder="Situations" sort="0" />
         <label id="543" label="" folder="Hidden Logic" sort="0" />
         <label id="544" label="" folder="Targets" sort="0" />
         <label id="545" label="" folder="Targets" sort="0" />
+        <label id="546" label="" folder="Responses" sort="0" />
+        <label id="547" label="" folder="Filtered" sort="0" />
+        <label id="548" label="" folder="Filtered" sort="0" />
+        <label id="549" label="" folder="Filtered" sort="0" />
+        <label id="550" label="" folder="Prompt Responses" sort="0" />
+        <label id="551" label="" folder="Prompt Responses" sort="0" />
+        <label id="552" label="Heavy (Doggy Style)" color="5" folder="Sex&gt;Doggy" sort="0" />
+        <label id="553" label="Heavy (Doggy Style, last tick)" color="5" folder="Sex&gt;Doggy" sort="0" />
+        <label id="554" label="Start Heavy Stage (Doggy Style)" color="2" folder="Sex&gt;Doggy" sort="0" />
+        <label id="555" label="" color="5" folder="Sex&gt;Doggy" sort="0" />
+        <label id="556" label="" folder="Responses" sort="0" />
+        <label id="557" label="" folder="Responses" sort="0" />
+        <label id="558" label="" color="3" folder="Responses" sort="0" />
+        <label id="559" label="" folder="Targets" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>penis=s</posePreviewMarker>
     </posePreviewMarkers>
     <onlyCustomPoses>true</onlyCustomPoses>
-    <nextId>545</nextId>
+    <nextId>559</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="allowsex">If set to 1, Zeke and Pandoria *can* (but are not guaranteed to) have sex for their forfeit.</marker>
@@ -770,6 +792,9 @@
         <marker scope="Public" name="penis_rating">A silly line for penis reveals where Pandy gives them a rating (based on their size tag, ranking size and cuteness)</marker>
         <marker scope="Public" name="queenie_intro" />
         <marker scope="Public" name="queenie_stafflost" />
+        <marker scope="Public" name="Reimu_GetRichQuickResp" />
+        <marker scope="Public" name="Reimu_SpouseQualitiesRespA" />
+        <marker scope="Public" name="Reimu_SpouseQualitiesRespB" />
         <marker scope="Public" name="rosa_timegate_stripping2" />
         <marker scope="Public" name="rose_butt_pose" />
         <marker scope="Public" name="rose_flashing_2" />
@@ -882,6 +907,7 @@
         <marker scope="Public" name="zeke_jura_self2c" />
         <marker scope="Public" name="zeke_jura_self4a" />
         <marker scope="Public" name="zeke_jura_self4b" />
+        <marker scope="Public" name="zeke_jura_self4c" />
         <marker scope="Public" name="zeke_jura_self5a" />
         <marker scope="Public" name="zeke_jura_self5b" />
         <marker scope="Public" name="zeke_jura_self5c" />
@@ -943,6 +969,7 @@
         <marker scope="Public" name="zeke_meia_self4a" />
         <marker scope="Public" name="zeke_meia_self4b" />
         <marker scope="Public" name="zeke_meia_self4c" />
+        <marker scope="Public" name="zeke_meia_self5a" />
         <marker scope="Public" name="zeke_meia_strip0a" />
         <marker scope="Public" name="zeke_meia_strip0b" />
         <marker scope="Public" name="zeke_meia_strip0c" />
@@ -997,6 +1024,7 @@
         <marker scope="Public" name="zekepandy_caitlin_strip0b" />
         <marker scope="Public" name="zekepandy_caitlin_strip0c" />
         <marker scope="Public" name="zekepandy_meia_self1a" />
+        <marker scope="Public" name="zekepandy_meia_self1b" />
         <marker scope="Public" name="zekepandy_meia_self2a" />
         <marker scope="Public" name="zekepandy_meia_self2b" />
         <marker scope="Public" name="zekepandy_miko_selfGloves1" />
@@ -1021,6 +1049,7 @@
         <marker scope="Public" name="zekepandy_zoe_moragBrighidtResp" />
         <marker scope="Public" name="zekepandy_zoe_moragPresentResp" />
         <marker scope="Public" name="zekepandy_zoe_moragResp" />
+        <marker scope="Public" name="zk_sanako_self1a" />
         <marker scope="Public" name="zk_solarflare_photosynthesis" />
         <marker scope="Public" name="zoe_swapRoles" />
         <marker scope="Public" name="Zoe_ZekePandoriaAbsResp" />
