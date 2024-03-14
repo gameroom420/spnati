@@ -13,30 +13,44 @@ Nagisa [nagisa_kyou_starting_out]: Oh! Is it too late for me to find a table for
 Kyou [kyou_nagisa_starting_out]: You've really thrown yourself into the deep end, Nagisa! Will you sink or swim?
 
 
-NAGISA MUST STRIP SOCKS:
+NAGISA MUST STRIP SOCKS: Sanako only chimes in if present 
 Nagisa [nagisa_kyou_not_family_fun]: The whole idea for this game is so daring, isn't it? But it's not really one I can go home and play with my family.
+Sanako (if to left of Kyou) [sanako_nagisa_kyou_not_family_fun]: I'm sure they'd be happy to help you practice, Nagisa. Just the poker part, I mean. I wouldn't mention the stakes to your father.
 Kyou [kyou_nagisa_awkward]: That would be an awkward thing to bring up with your family. Unless your family is really out there.
+Sanako (if to right of Kyou) [sanako_kyou_nagisa_awkward]: Nagisa's family might have a reputation for being a little unusual, but I hope the neighbors wouldn't think they'd do something like that behind closed doors...
 
-NAGISA STRIPPING SOCKS (minor):
+NAGISA STRIPPING SOCKS (minor): Sanako only chimes in if present
 Nagisa [nagisa_kyou_parents_playing]: I think my mom and dad would enjoy playing this, just the two of them... I don't really want to think about that!
+Sanako (if to left of Kyou) [sanako_nagisa_kyou_parents_playing]: It would be a fun way for them to express their love, wouldn't it?
 Kyou [kyou_nagisa_parents]: From what you've told me about them it seems perfect for them... And I bet your father would still want to invite you...
+Sanako (if to right of Kyou) [sanako_kyou_nagisa_parents]: Fujibayashi, I don't think that's a very appropriate thing to joke about. Mr. Furukawa loves his daughter very much, that's true, but only in the wholesome way that all fathers should.
 
-NAGISA STRIPPED SOCKS (minor):
+NAGISA STRIPPED SOCKS (minor): Sanako only chimes in if present
 Nagisa [nagisa_kyou_teased]: That's gross! My dad's not like that, Kyou! He just likes to tease me, that's all.
+Sanako (if to left of Kyou) [sanako_nagisa_kyou_teased]: That's right! Fujibayashi, I don't think you're being a good friend if you spread rumors like that.
 Kyou [kyou_nagisa_flustered]: Hehe, I can't blame him, you're just so cute when you get all flustered.
+Sanako (if to right of Kyou) [sanako_kyou_nagisa_flustered]: Ah, I think Fujibayashi is just teasing you too. She and your dad seem to have that in common.
 
 
-NAGISA MUST STRIP JACKET:
+NAGISA MUST STRIP JACKET: Sanako only chimes in if present
 Nagisa [nagisa_kyou_food]: Nobody's playing to~background.time~ on an empty tummy, are they? Maybe I could've made something this morning and brought it in.
+Sanako [sanako_nagisa_kyou_nsk_n7] if between Nagisa and Kyou: That's so kind of you. I'm not hungry right now, but it's still relatively early.
 Kyou [kyou_nagisa_appetite]: Maybe after the game we could go get something to eat, Nagisa. I'm sure you'll have worked up quite the appetite by the end.
+Sanako [sanako_nagisa_kyou_nks_n7] if after Nagisa and Kyou: That sounds nice! A ~background.time~ out with the girls!
 
-NAGISA STRIPPING JACKET (accessory):
-Nagisa [nagisa_kyou_cooking]: We don't need to go out anywhere, Kyou. I could cook something up for you at my house. I'm sure my mom won't mind.
+NAGISA STRIPPING JACKET (accessory): Sanako only chimes in if present
+Sanako [sanako_nagisa_kyou_snk_n8] if before Nagisa and Kyou: Maybe we could find a cafe nearby and get to know each other if we don't finish too late.
+Nagisa [nagisa_kyou_cooking]: We don't need to go out anywhere. I could cook something up for you at my house. I'm sure my mom won't mind.
+Sanako [sanako_nagisa_kyou_nsk_n8] if between Nagisa and Kyou: Your mom sounds like a reasonable lady, so I can't see a problem with that.
 Kyou [kyou_nagisa_cooking]: You've told me about your mother's cooking... I think it would be best to stay away.
+Sanako [sanako_nagisa_kyou_nks_n8] if after Nagisa and Kyou: And just what is <i>that</i> supposed to mean, young lady?
 
-NAGISA STRIPPED JACKET (accessory):
+NAGISA STRIPPED JACKET (accessory): Sanako only chimes in if present
+Sanako [sanako_nagisa_kyou_snk_n9] if before Nagisa and Kyou: Wh-What have you heard about Nagisa's mom's cooking, Fujibayashi?
 Nagisa [nagisa_kyou_mom_cooks]: My mom's a really good cook! As for her baking... well... she really fills me up on the shop's leftovers.
+Sanako [sanako_nagisa_kyou_nsk_n9] if between Nagisa and Kyou: I'm sure everything she makes is yummy. I shouldn't need to remind you that it's not nice to say unkind things about something you haven't tried, Fujibayashi.
 Kyou [kyou_nagisa_bread]: Well, I'll take your word for it... Remind me to never touch her bread.
+Sanako [sanako_nagisa_kyou_nks_n9] if after Nagisa and Kyou: <i>Harumph!</i>
 
 
 NAGISA MUST STRIP SHIRT:

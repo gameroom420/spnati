@@ -93,15 +93,15 @@ Barbara [NagisaPanties3A]: We all have to become adults sometime, but that doesn
 
 ---
 
-BARBARA MUST STRIP HAT:
+BARBARA MUST STRIP HAT IN DEFAULT OUTFIT:
 Nagisa [nagisa_barbara_nurse]: Every nurse I meet is so nice, and your outfits are so pretty. Is that what you wear to work, Barbara? I like how unique it is.
 Barbara [NagisaHat1AReply]: I wear this to all three of my jobs, Nagisa. Not only as a nurse, but as a Deaconess and an idol too. I needed an outfit befitting all three!
 
-BARBARA STRIPPING HAT (accessory):
+BARBARA STRIPPING HAT (accessory) IN DEFAULT OUTFIT:
 Nagisa [nagisa_barbara_so_busy]: You must be so busy! I hope your bosses are nice. They must be if they gave you time off to play to~background.time~.
 Barbara [NagisaHat2AReply]: It's not so bad, Nagisa. My only "boss" is Cardinal Calvin in the Church -- but he's so busy that I've hardly seen him in months. Though it's true that all of my work keeps me awfully busy...
 
-BARBARA STRIPPED HAT (accessory):
+BARBARA STRIPPED HAT (accessory) IN DEFAULT OUTFIT:
 Nagisa [nagisa_barbara_manager]: I thought all idols had managers too. Do you have a manager? You didn't sneak out and not tell your manager you were coming, did you?!
 Barbara [NagisaHat3AReply]: N-Nothing like that, Nagisa. A woman named Alice taught me what it means to be an idol, but she's more a mentor than a manager. Learning songs, memorizing routines, putting on shows -- I do that all on my own.
 

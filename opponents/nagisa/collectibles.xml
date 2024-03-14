@@ -33,8 +33,10 @@
     <collectible id="nagisa_waitress_uniform" img="opponents/reskins/nagisa_maid_cafe/0-calm.png" thumbnail="opponents/reskins/nagisa_maid_cafe/0-calm.png">
         <title>Nagisa's Waitress Uniform</title>
         <subtitle>Outfit Unlock</subtitle>
-        <text>"May I take you order?"</text>
-        <unlock>In the future, you will be able to unlock this outfit with a more complex condition. But for a limited time only, for testing purposes, it can be unlocked by selecting Nagisa, selecting Komi-san, then deselecting Komi-san.		
-		</unlock>
+        <text>Determined to help her family however she can, Nagisa gets a part-time job as a waitress at a family restaurant. She's wearing it for you today as a special treat.
+
+This outfit was created for the Valentine's event, so Nagisa may be a little more lovey-dovey with you while wearing it. ♡</text>
+        <unlock>Win 5 games against Nagisa and only one other character. The second character needs to be one of the following: Jim Raynor, Barbara, Reimu, Meia, Jura, Fluttershy, Kyou, or Fina. Each of these characters only counts once.</unlock>
+        <counter>5</counter>
     </collectible>
 </collectibles>

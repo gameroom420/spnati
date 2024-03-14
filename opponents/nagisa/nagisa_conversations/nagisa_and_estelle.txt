@@ -5,9 +5,11 @@ However, a difference between Estelle and Nagisa is that Nagisa's technology is 
 
 If Nagisa to left and Estelle to right:
 
-NAGISA MUST STRIP SHOES:
+NAGISA MUST STRIP SHOES: Sanako only chimes in if present
 Nagisa [nagisa_estelle_ne_n1]: Me? Oh, yeah. That makes sense. Does anyone know how long this game normally goes for? If I'm not home by a reasonable time to~background.time~, my mom and dad might start getting worried about me.
+Sanako [sanako_nagisa_estelle_ne_n1] if between Nagisa and Estelle: I have to keep an eye on the time too. I have to get back before a certain someone notices I'm missing.
 Estelle [NagisaEstelleReply1]: Oh, is that so, ~nagisa~? We'd better be careful, then---I wouldn't want you to miss your curfew! If we're taking too much time, it should be fine if you just leave early.
+Sanako [sanako_nagisa_estelle_reply_1] if after Nagisa and Estelle: Estelle's right, Nagisa. If you need to go for any reason, we'll totally support that. But I don't think we'll be gone so long that your dad will notice.
 
 NAGISA STRIPPING SHOES (accessory):
 Nagisa [nagisa_estelle_ne_n2]: It wouldn't be fair to everyone else if I left early. If it starts getting late, I'll see if I can find a payphone to let them know not to worry.
