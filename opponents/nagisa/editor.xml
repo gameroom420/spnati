@@ -466,6 +466,7 @@
         <response id="1776" opponent="jura" opponentId="20" />
         <response id="1777" opponent="jura" opponentId="33" />
         <response id="1778" opponent="jura" opponentId="952" />
+        <response id="1779" opponent="sanako" opponentId="159" />
     </responses>
     <notes>
         <note id="401">This is a special version of this line for Fluttershy to react to, but it uses the regular marker to allow for replied from anyone.
@@ -2201,15 +2202,16 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <label id="1772" label="" folder="Jura to right" sort="47" />
         <label id="1773" label="" folder="Jura to right" sort="0" />
         <label id="1776" label="" folder="Jura to left or right" sort="0" />
-        <label id="1777" label="" folder="Jura to left" sort="0" />
-        <label id="1778" label="" folder="Jura to left or right" sort="0" />
+        <label id="1777" label="" folder="Jura to left" sort="2" />
+        <label id="1778" label="" folder="Jura to left or right" sort="2" />
+        <label id="1779" label="" folder="Nonon to left / Sanako to left" sort="0" />
     </labels>
     <prefixes>
         <prefix>epilogue</prefix>
         <prefix>collectible</prefix>
         <prefix>x-</prefix>
     </prefixes>
-    <nextId>1778</nextId>
+    <nextId>1779</nextId>
     <markers>
         <marker scope="Public" name="nagisa_9s_are_you_lost" />
         <marker scope="Public" name="nagisa_9s_n9_91" />
@@ -2486,6 +2488,7 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <marker scope="Public" name="nagisa_buffy_xander_looking" />
         <marker scope="Public" name="nagisa_bulma_no_panties" />
         <marker scope="Public" name="nagisa_bulma_waiting_quietly" />
+        <marker scope="Public" name="nagisa_buy_juice" />
         <marker scope="Public" name="nagisa_cag_nc_c1" />
         <marker scope="Public" name="nagisa_cag_nc1_n1" />
         <marker scope="Public" name="nagisa_cag_nc2_n1" />
@@ -4245,6 +4248,7 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <marker scope="Public" name="nagisa_zone-tan_gang_meeting" />
         <marker scope="Public" name="nagisa_zone-tan_mei_not_ready" />
         <marker scope="Public" name="nagisa_zone-tan_no_videos" />
+        <marker scope="Public" name="naigsa_sanako_nonon_ns_s3" />
         <marker scope="Public" name="nickname" />
         <marker scope="Public" name="sanako_nagisa_sn_n6" />
         <marker scope="Public" name="sanako_nagisa_sn_n8" />
