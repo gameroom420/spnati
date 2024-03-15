@@ -123,6 +123,20 @@
         <response id="255" opponent="sucrose" opponentId="146" />
         <response id="256" opponent="sucrose" opponentId="271" />
         <response id="257" opponent="sucrose" opponentId="270" />
+        <response id="275" opponent="pinkie_pie" opponentId="6" />
+        <response id="276" opponent="nagisa" opponentId="60" />
+        <response id="277" opponent="nagisa" opponentId="164" />
+        <response id="278" opponent="nagisa" opponentId="120" />
+        <response id="279" opponent="nagisa" opponentId="262" />
+        <response id="280" opponent="jura" opponentId="33" />
+        <response id="281" opponent="lucina" opponentId="1" />
+        <response id="282" opponent="sanako" opponentId="21" />
+        <response id="283" opponent="mari_setogaya" opponentId="16" />
+        <response id="284" opponent="mari_setogaya" opponentId="34" />
+        <response id="285" opponent="mari_setogaya" opponentId="35" />
+        <response id="286" opponent="nami" opponentId="52" />
+        <response id="287" opponent="toph" opponentId="6" />
+        <response id="288" opponent="sakura" opponentId="2" />
     </responses>
     <labels>
         <label id="11" label="" folder="Lore" sort="0" />
@@ -231,13 +245,16 @@
         <label id="274" label="" folder="Filters" sort="0" />
     </labels>
     <onlyCustomPoses>true</onlyCustomPoses>
-    <nextId>274</nextId>
+    <nextId>288</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Private" name="adv_poseposition" />
         <marker scope="Public" name="asuna1" />
         <marker scope="Public" name="Djinn" />
         <marker scope="Public" name="Djinn1" />
+        <marker scope="Public" name="hu_tao_exciting" />
+        <marker scope="Public" name="hu_tao_parlor" />
+        <marker scope="Public" name="hu_tao_whimsy" />
         <marker scope="Public" name="jenna_mia_self0a" />
         <marker scope="Public" name="jenna_mia_self0b" />
         <marker scope="Public" name="jenna_mia_self0c" />
@@ -259,23 +276,68 @@
         <marker scope="Public" name="jenna_mia_strip2b" />
         <marker scope="Public" name="jenna_mia_strip2c" />
         <marker scope="Public" name="jenna_toph_blind" />
+        <marker scope="Public" name="jura_barnette" />
+        <marker scope="Public" name="jura_confidence" />
+        <marker scope="Public" name="jura_outfit" />
+        <marker scope="Public" name="jura_space" />
+        <marker scope="Public" name="jura_style" />
         <marker scope="Public" name="killing" />
         <marker scope="Public" name="Lore1" />
         <marker scope="Public" name="Lore2" />
         <marker scope="Public" name="Lore3" />
         <marker scope="Public" name="Lore4" />
         <marker scope="Public" name="Lore5" />
+        <marker scope="Public" name="lucina_hiding" />
+        <marker scope="Public" name="lucina_mask" />
+        <marker scope="Public" name="lucina_royalty" />
+        <marker scope="Public" name="lucina_secret" />
+        <marker scope="Public" name="lucina_sword" />
         <marker scope="Public" name="Mari_hair" />
+        <marker scope="Public" name="mari_s_attack" />
+        <marker scope="Public" name="mari_s_blood" />
+        <marker scope="Public" name="mari_s_friendly" />
+        <marker scope="Public" name="mari_s_monster" />
+        <marker scope="Public" name="mari_s_vampire" />
+        <marker scope="Public" name="nagisa_cute" />
+        <marker scope="Public" name="nagisa_friends" />
+        <marker scope="Public" name="nagisa_protect" />
+        <marker scope="Public" name="nagisa_reason" />
+        <marker scope="Public" name="nagisa_school" />
+        <marker scope="Public" name="nonon_baton" />
+        <marker scope="Public" name="nonon_leader" />
+        <marker scope="Public" name="nonon_music" />
+        <marker scope="Public" name="nonon_school" />
+        <marker scope="Public" name="nonon_uniform" />
         <marker scope="Public" name="nonon01" />
         <marker scope="Public" name="nonon02" />
         <marker scope="Public" name="psynergy1" />
         <marker scope="Public" name="psynergy2" />
         <marker scope="Public" name="psynergy3" />
         <marker scope="Public" name="psynergy4" />
+        <marker scope="Public" name="sakura_idol" />
+        <marker scope="Public" name="sakura_name" />
+        <marker scope="Public" name="sakura_pro" />
+        <marker scope="Public" name="sakura_singer" />
+        <marker scope="Public" name="sakura_songs" />
+        <marker scope="Public" name="sanako_age" />
+        <marker scope="Public" name="sanako_mom" />
+        <marker scope="Public" name="sanako_outfit" />
+        <marker scope="Public" name="sanako_relax" />
+        <marker scope="Public" name="sanako_talk" />
         <marker scope="Public" name="scarf1" />
         <marker scope="Public" name="self_finished" />
         <marker scope="Public" name="self_finished2" />
+        <marker scope="Public" name="sucrose_adept" />
         <marker scope="Public" name="sucrose_al1" />
+        <marker scope="Public" name="sucrose_alchemy" />
+        <marker scope="Public" name="sucrose_experiment" />
+        <marker scope="Public" name="sucrose_lightning" />
+        <marker scope="Public" name="sucrose_wind" />
+        <marker scope="Public" name="toph_cards" />
+        <marker scope="Public" name="toph_earth" />
+        <marker scope="Public" name="toph_game" />
+        <marker scope="Public" name="toph_reason" />
+        <marker scope="Public" name="toph_sight" />
         <marker scope="Public" name="yunyun_home1" />
     </markers>
     <recipes>
