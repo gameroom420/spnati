@@ -497,6 +497,7 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <note id="511">This line retains its naturally-higher priority to play over the similar line with one fewer condition.</note>
         <note id="620">This line retains its naturally-higher priority to play over the similar line with one fewer condition.</note>
         <note id="1783">+1 priority over Hand=Any line with the same conditions</note>
+        <note id="1792">Nagisa is taking a photo with Mahiru.</note>
     </notes>
     <labels>
         <label id="1" label="" folder="Waitress" sort="30" />
@@ -2217,13 +2218,14 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <label id="1789" label="" folder="Waitress Uniform collectible unlock checks" sort="0" />
         <label id="1790" label="" folder="Waitress Uniform collectible unlock checks" sort="0" />
         <label id="1791" label="" folder="Waitress Uniform collectible unlock checks" sort="0" />
+        <label id="1793" label="earrings" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>epilogue</prefix>
         <prefix>collectible</prefix>
         <prefix>x-</prefix>
     </prefixes>
-    <nextId>1791</nextId>
+    <nextId>1793</nextId>
     <markers>
         <marker scope="Public" name="nagisa_9s_are_you_lost" />
         <marker scope="Public" name="nagisa_9s_n9_91" />
