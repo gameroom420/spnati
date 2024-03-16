@@ -1517,8 +1517,9 @@
         <label id="1484" label="Roll 1" folder="" sort="0" />
         <label id="1485" label="C Heavy" folder="" sort="0" />
         <label id="1486" label="Forfeit C" folder="" sort="0" />
+        <label id="1498" label="Yae Chat" folder="" sort="0" />
     </labels>
-    <nextId>1497</nextId>
+    <nextId>1498</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="aaravi_finished" />
@@ -1972,6 +1973,7 @@
         <marker scope="Public" name="larachel_ff7" />
         <marker scope="Public" name="larachel_ff8" />
         <marker scope="Public" name="larachel_ff9" />
+        <marker scope="Public" name="leon_date" />
         <marker scope="Public" name="leon_dual_finished" />
         <marker scope="Public" name="leon_dual_finishing" />
         <marker scope="Public" name="leon_dualFFheavy" />
@@ -1988,14 +1990,18 @@
         <marker scope="Public" name="leon_ff31b" />
         <marker scope="Public" name="leon_ff32" />
         <marker scope="Public" name="leon_ffC1" />
+        <marker scope="Public" name="leon_govt" />
         <marker scope="Public" name="leon_interestedC" />
         <marker scope="Public" name="leon_interestedD" />
+        <marker scope="Public" name="leon_missions" />
+        <marker scope="Public" name="leon_ninja" />
         <marker scope="Public" name="leon_nononFF_continue" />
         <marker scope="Public" name="leon_nononFF_mast" />
         <marker scope="Public" name="leon_robinFF" />
         <marker scope="Public" name="leon_VisionA1" />
         <marker scope="Public" name="leon_VisionB1" />
         <marker scope="Public" name="leon_VisionC1" />
+        <marker scope="Public" name="leon_yolo" />
         <marker scope="Public" name="leon01" />
         <marker scope="Public" name="leon01a" />
         <marker scope="Public" name="leon01b" />
@@ -2632,8 +2638,14 @@
         <marker scope="Public" name="yae_transform" />
         <marker scope="Public" name="yae01a" />
         <marker scope="Public" name="yae01b" />
+        <marker scope="Public" name="yae02a" />
+        <marker scope="Public" name="yae02b" />
         <marker scope="Public" name="yae11a" />
         <marker scope="Public" name="yae11b" />
+        <marker scope="Public" name="yae12a" />
+        <marker scope="Public" name="yae12b" />
+        <marker scope="Public" name="yae41" />
+        <marker scope="Public" name="yae51" />
         <marker scope="Public" name="yaeFF" />
         <marker scope="Public" name="yuri01" />
         <marker scope="Public" name="zls01" />
