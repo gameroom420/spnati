@@ -14,7 +14,7 @@ Doing all 7
   - This can be her talking about her friends, her school(college?), her club, her skills, her love of anime/manga, etc
 - [X] Add 10 more female masturbation lines in her 0-9 case.
 - [X] Add 10 more After finished (self) lines without a filter.
-- [ ] Add 5 more lines towards Human which are unrelated to her bow collectible. Any case.
+- [ ] Add 5 more lines towards Human which are unrelated to her bow collectible. Any case. (2/5)
 
 ## L0kkit
 
@@ -43,9 +43,9 @@ Doing all 7
   - [ ] Removed major (female)
   - [ ] Masturbating (male)
   - [ ] Masturbating (female)
-- [ ] 25 outgoing targets (7/25)
+- [ ] 25 outgoing targets (10/25)
   - Yumeko 1-2, 2-3, 3-4, 4-5, 5-6
-  - Nadeshiko 1-2, 2-3
+  - Nadeshiko 1-2, 2-3, 3-4, 4-5, 5-6
 - [X] 20 filters
 - (S) Tweak face a little - try reduced head size
 - (S) Casual alt
