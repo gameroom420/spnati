@@ -704,16 +704,35 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <label id="666" label="" folder="Aura Camera" sort="3" />
         <label id="667" label="" folder="Sponsors&gt;Nicole&gt;Opponent Masturbating" sort="7" />
         <label id="668" label="" folder="Sponsors&gt;Nicole&gt;Opponent Masturbating" sort="8" />
+        <label id="669" label="" folder="Sponsors&gt;Remillia&gt;Talk to ~human~" sort="0" />
+        <label id="670" label="" folder="Sponsors&gt;Remillia&gt;Talk to ~human~" sort="0" />
+        <label id="671" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="672" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="673" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="674" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="675" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="676" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="677" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="678" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="679" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="680" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="681" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="682" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="683" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="684" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="685" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="686" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="687" label="" folder="Targets&gt;Nadeshiko" sort="0" />
     </labels>
     <prefixes>
         <prefix>custom:#-_</prefix>
         <prefix>custom:_</prefix>
     </prefixes>
     <posePreviewMarkers>
-        <posePreviewMarker>Z_WinterUniform</posePreviewMarker>
+        <posePreviewMarker>Z_CatEars</posePreviewMarker>
     </posePreviewMarkers>
     <onlyCustomPoses>true</onlyCustomPoses>
-    <nextId>668</nextId>
+    <nextId>687</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Private" name="B_">Background-related markers</marker>
@@ -724,6 +743,7 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <marker scope="Private" name="D_">Random "sometimes" dialogue</marker>
         <marker scope="Public" name="D_AmbiguousLoser" />
         <marker scope="Public" name="D_AuraCamera" />
+        <marker scope="Public" name="D_AuraCameraFollowUp" />
         <marker scope="Public" name="D_BadHandTrick">Kyouko will bluff on a good hand once per game.</marker>
         <marker scope="Public" name="D_Birthday">Her birthday is March 28</marker>
         <marker scope="Public" name="D_Birthday_NoCostumes">She's the only one wearing a costume to her party?</marker>
@@ -798,6 +818,7 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <marker scope="Public" name="F_SchoolUniform_Why">Lots of horny students at the Inventory</marker>
         <marker scope="Public" name="F_SmashBros">The Smash characters at the table make her want to play it herself.</marker>
         <marker scope="Public" name="F_Swimsuit_NoSuit" />
+        <marker scope="Public" name="Nade_Kyouko_Thrilling" />
         <marker scope="Private" name="Q_">Question prompts</marker>
         <marker scope="Public" name="Q_HighTension">"High Tension" rules to... make the game more intense?</marker>
         <marker scope="Public" name="Q_LateGameSnacks" />
@@ -873,7 +894,12 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <marker scope="Public" name="T_Miko_Strip0Necessities">Self Stripping 0</marker>
         <marker scope="Public" name="T_Miko_Strip0Refined">Self Must Strip 0</marker>
         <marker scope="Public" name="T_Nadeshiko_AllTogether" />
+        <marker scope="Public" name="T_Nadeshiko_Alone" />
+        <marker scope="Public" name="T_Nadeshiko_AloneInTheWoods" />
         <marker scope="Public" name="T_Nadeshiko_AmusementClub" />
+        <marker scope="Public" name="T_Nadeshiko_Appetizer" />
+        <marker scope="Public" name="T_Nadeshiko_BiteInvite" />
+        <marker scope="Public" name="T_Nadeshiko_Bottom" />
         <marker scope="Public" name="T_Nadeshiko_CampingCard" />
         <marker scope="Public" name="T_Nadeshiko_CampingParty" />
         <marker scope="Public" name="T_Nadeshiko_CampingStart" />
@@ -883,20 +909,30 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <marker scope="Public" name="T_Nadeshiko_ClothesC" />
         <marker scope="Public" name="T_Nadeshiko_ClubTogether" />
         <marker scope="Public" name="T_Nadeshiko_EatingContest" />
+        <marker scope="Public" name="T_Nadeshiko_Excited" />
         <marker scope="Public" name="T_Nadeshiko_Gathering" />
+        <marker scope="Public" name="T_Nadeshiko_GettingStarted" />
         <marker scope="Public" name="T_Nadeshiko_GoodFood" />
+        <marker scope="Public" name="T_Nadeshiko_GoodMeal" />
         <marker scope="Public" name="T_Nadeshiko_Hungry" />
+        <marker scope="Public" name="T_Nadeshiko_LateNightFeast" />
         <marker scope="Public" name="T_Nadeshiko_Layers" />
         <marker scope="Public" name="T_Nadeshiko_NotPicky" />
         <marker scope="Public" name="T_Nadeshiko_Outclub" />
         <marker scope="Public" name="T_Nadeshiko_OutfitTalkA" />
         <marker scope="Public" name="T_Nadeshiko_OutfitTalkB" />
         <marker scope="Public" name="T_Nadeshiko_Ramen" />
+        <marker scope="Public" name="T_Nadeshiko_RegularDiner" />
         <marker scope="Public" name="T_Nadeshiko_RibbonTrick" />
+        <marker scope="Public" name="T_Nadeshiko_Saucy" />
         <marker scope="Public" name="T_Nadeshiko_SoloCamp" />
         <marker scope="Public" name="T_Nadeshiko_StolenRoom" />
         <marker scope="Public" name="T_Nadeshiko_StuCoMembers" />
         <marker scope="Public" name="T_Nadeshiko_SuperCamper" />
+        <marker scope="Public" name="T_Nadeshiko_Thrilling" />
+        <marker scope="Public" name="T_Nadeshiko_TomatoClothes" />
+        <marker scope="Public" name="T_Nadeshiko_TomatoTalk" />
+        <marker scope="Public" name="T_Nadeshiko_TomatoUndies" />
         <marker scope="Public" name="T_Nadeshiko_Uniform" />
         <marker scope="Public" name="T_Nagatoro_SkillIssue">Rosalina says "hi"</marker>
         <marker scope="Public" name="T_Nagatoro_Strip0DrawingPlans">Self Stripping 0</marker>
