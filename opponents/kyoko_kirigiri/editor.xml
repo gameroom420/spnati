@@ -165,6 +165,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <note id="2176">Establishing who is Senpai and Kouhai in a relationship is, of course, very common in Japanese culture. Kyoko isn’t currently in school (for reasons varying wildly depending on the value of ~self.marker.timeline~), but can be considered a high school graduate, so someone in an earlier school year calling her a junior detective is a faux pas.</note>
         <note id="2191">Reference to Taehime Uozumi in Danganronpa Kirigiri Volume 2, who is acting as a maid but pulls Kyoko and Yui aside to confide that she's a detective just like them.</note>
         <note id="2196">Shout-outs to If I May for pitching the "contraband" line.</note>
+        <note id="2288">Hey assholes, have fun trying to figure out which one of these is the real April Fool's project :)</note>
     </notes>
     <labels>
         <label id="2045" label="" folder="Technical" sort="30" />
@@ -269,14 +270,14 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="115" label="" folder="Clothing type&gt;Extra/Minor" sort="6" />
         <label id="116" label="Crotch" folder="Filtered" sort="57" />
         <label id="117" label="Witty" folder="Technical" sort="52" />
-        <label id="118" label="blazen't it" color="3" folder="Seasonal&gt;April Fool's" sort="36" />
+        <label id="118" label="blazen't it" color="3" folder="Seasonal&gt;April Fool's" sort="82" />
         <label id="120" label="Shirt" folder="" sort="0" />
         <label id="121" label="Skirt off" folder="" sort="0" />
         <label id="122" label="Player accessory" folder="Clothing type&gt;Extra/Minor" sort="2" />
         <label id="123" label="Player accessory" folder="Clothing type&gt;Extra/Minor" sort="4" />
         <label id="124" label="Player accessory" folder="Clothing type&gt;Extra/Minor" sort="3" />
-        <label id="125" label="" color="6" folder="Seasonal&gt;April Fool's" sort="10" />
-        <label id="126" label="" color="6" folder="Seasonal&gt;April Fool's" sort="14" />
+        <label id="125" label="" color="6" folder="Seasonal&gt;April Fool's" sort="22" />
+        <label id="126" label="" color="6" folder="Seasonal&gt;April Fool's" sort="26" />
         <label id="127" label="Say my name" folder="" sort="0" />
         <label id="128" label="" folder="Clothing type&gt;Extra" sort="10" />
         <label id="129" label="Jacket" folder="" sort="0" />
@@ -287,13 +288,13 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="135" label="Boots" folder="" sort="0" />
         <label id="136" label="Socks" color="3" folder="" sort="0" />
         <label id="137" label="Socks" folder="" sort="0" />
-        <label id="138" label="" color="6" folder="Seasonal&gt;April Fool's" sort="44" />
+        <label id="138" label="" color="6" folder="Seasonal&gt;April Fool's" sort="110" />
         <label id="144" label="Shirt" folder="Costume&gt;Suit" sort="0" />
         <label id="145" label="" folder="Clothing type&gt;Extra" sort="11" />
         <label id="146" label="" folder="Clothing type&gt;Extra" sort="8" />
         <label id="147" label="" folder="Clothing type&gt;Extra" sort="12" />
         <label id="148" label="" folder="Clothing type&gt;Extra" sort="0" />
-        <label id="149" label="" color="6" folder="Seasonal&gt;April Fool's" sort="48" />
+        <label id="149" label="" color="6" folder="Seasonal&gt;April Fool's" sort="138" />
         <label id="150" label="" folder="Clothing type&gt;Extra/Minor" sort="7" />
         <label id="151" label="Player" folder="Clothing type&gt;Extra" sort="13" />
         <label id="152" label="Under pressure" folder="Filtered" sort="10" />
@@ -321,7 +322,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="178" label="" folder="Clothing type&gt;Minor" sort="0" />
         <label id="179" label="" folder="Clothing type&gt;Minor" sort="6" />
         <label id="180" label="" folder="Clothing type&gt;Minor" sort="7" />
-        <label id="181" label="" color="6" folder="Seasonal&gt;April Fool's" sort="66" />
+        <label id="181" label="" color="6" folder="Seasonal&gt;April Fool's" sort="196" />
         <label id="182" label="" folder="Clothing type&gt;Minor" sort="8" />
         <label id="183" label="" folder="Clothing type&gt;Extra/Minor" sort="4" />
         <label id="184" label="" folder="Clothing type&gt;Extra/Minor" sort="5" />
@@ -384,7 +385,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="249" label="" folder="Filtered&gt;Unattracted" sort="5" />
         <label id="250" label="Shirtless" color="3" folder="" sort="0" />
         <label id="251" label="Ellipsis Count" folder="Technical" sort="13" />
-        <label id="255" label="" color="6" folder="Seasonal&gt;April Fool's" sort="56" />
+        <label id="255" label="" color="6" folder="Seasonal&gt;April Fool's" sort="184" />
         <label id="256" label="" folder="Must forfeit" sort="7" />
         <label id="259" label="" folder="Forfeit Acts&gt;Act 1" sort="2" />
         <label id="260" label="" folder="Forfeit Acts&gt;Act 2" sort="2" />
@@ -392,7 +393,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="262" label="Glasses last" folder="" sort="0" />
         <label id="263" label="Glasses last" folder="Clothing type&gt;Specific" sort="3" />
         <label id="264" label="Stand (Default costume)" folder="" sort="0" />
-        <label id="266" label="" folder="Seasonal&gt;April Fool's" sort="62" />
+        <label id="266" label="" folder="Seasonal&gt;April Fool's" sort="190" />
         <label id="267" label="" folder="Clothing type&gt;Major" sort="11" />
         <label id="268" label="" folder="Clothing type&gt;Major" sort="12" />
         <label id="269" label="" folder="Forfeit Acts&gt;Act 2" sort="2" />
@@ -438,7 +439,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="310" label="Junko" folder="Filtered&gt;Danganronpa" sort="10" />
         <label id="311" label="NEEDS HELP WITH MARKER" folder="" sort="0" />
         <label id="312" label="" folder="Forfeit Acts&gt;Act 3" sort="0" />
-        <label id="313" label="Done it" color="6" folder="Seasonal&gt;April Fool's" sort="50" />
+        <label id="313" label="Done it" color="6" folder="Seasonal&gt;April Fool's" sort="144" />
         <label id="314" label="this shouldn't happen right?" folder="Filtered" sort="5" />
         <label id="315" label="IBTC" folder="Filtered" sort="7" />
         <label id="316" label="ENX" folder="Clothing type&gt;Major" sort="0" />
@@ -490,11 +491,11 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="362" label="fallback" folder="" sort="0" />
         <label id="364" label="any-set" folder="" sort="0" />
         <label id="363" label="Generic: any-set" folder="" sort="0" />
-        <label id="365" label="" color="6" folder="Seasonal&gt;April Fool's" sort="54" />
-        <label id="366" label="" color="6" folder="Seasonal&gt;April Fool's" sort="70" />
-        <label id="367" label="" color="6" folder="Seasonal&gt;April Fool's" sort="72" />
-        <label id="368" label="" color="6" folder="Seasonal&gt;April Fool's" sort="80" />
-        <label id="369" label="" color="6" folder="Seasonal&gt;April Fool's" sort="74" />
+        <label id="365" label="" color="6" folder="Seasonal&gt;April Fool's" sort="148" />
+        <label id="366" label="" color="6" folder="Seasonal&gt;April Fool's" sort="208" />
+        <label id="367" label="" color="6" folder="Seasonal&gt;April Fool's" sort="214" />
+        <label id="368" label="" color="6" folder="Seasonal&gt;April Fool's" sort="226" />
+        <label id="369" label="" color="6" folder="Seasonal&gt;April Fool's" sort="218" />
         <label id="370" label="Shirt" color="3" folder="" sort="0" />
         <label id="371" label="Shirt" folder="" sort="0" />
         <label id="372" label="Shirtless" folder="" sort="0" />
@@ -536,9 +537,9 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="412" label="Necktie off" folder="" sort="0" />
         <label id="413" label="Necktie off" folder="" sort="0" />
         <label id="414" label="Skirt" folder="" sort="0" />
-        <label id="415" label="" folder="Seasonal&gt;April Fool's" sort="20" />
-        <label id="416" label="" folder="Seasonal&gt;April Fool's" sort="12" />
-        <label id="417" label="" folder="Seasonal&gt;April Fool's" sort="30" />
+        <label id="415" label="" folder="Seasonal&gt;April Fool's" sort="36" />
+        <label id="416" label="" folder="Seasonal&gt;April Fool's" sort="24" />
+        <label id="417" label="" folder="Seasonal&gt;April Fool's" sort="62" />
         <label id="418" label="Nude" color="3" folder="" sort="0" />
         <label id="419" label="Brassiere" folder="" sort="0" />
         <label id="420" label="Brassiere" folder="" sort="0" />
@@ -578,7 +579,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="454" label="Sun strip" folder="Filtered&gt;Background" sort="2" />
         <label id="455" label="Stand" folder="" sort="0" />
         <label id="456" label="" folder="Clothing type&gt;Extra/Minor&gt;Odd order" sort="4" />
-        <label id="457" label="" color="6" folder="Seasonal&gt;April Fool's" sort="78" />
+        <label id="457" label="" color="6" folder="Seasonal&gt;April Fool's" sort="224" />
         <label id="458" label="" folder="Antics&gt;Bluffs" sort="0" />
         <label id="459" label="" folder="Antics&gt;Bluffs" sort="0" />
         <label id="460" label="" folder="Antics&gt;Bluffs" sort="0" />
@@ -727,7 +728,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="620" label="Nagatoro IR Pre0-1" folder="Technical&gt;Duplicate dialogue" sort="9" />
         <label id="621" label="Nagatoro IR Pre0-2" folder="Technical&gt;Duplicate dialogue" sort="22" />
         <label id="622" label="Nagatoro IL 0-3" folder="Targeted&gt;Replies&gt;Stage 0" sort="84" />
-        <label id="623" label="" folder="Seasonal&gt;April Fool's" sort="26" />
+        <label id="623" label="" folder="Seasonal&gt;April Fool's" sort="56" />
         <label id="624" label="DR1 Spoilers!" folder="Technical&gt;Timeline" sort="0" />
         <label id="625" label="DR1 Spoilers!" folder="Technical&gt;Timeline" sort="2" />
         <label id="626" label="DR1 Spoilers!" folder="Technical&gt;Timeline" sort="3" />
@@ -1395,27 +1396,27 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="1301" label="Stand" folder="Targeted&gt;Replies&gt;Forfeit&gt;Ferris" sort="16" />
         <label id="1302" label="" folder="Targeted&gt;Replies&gt;Forfeit&gt;Ferris" sort="0" />
         <label id="1303" label="" folder="Targeted&gt;Replies&gt;Forfeit&gt;Ferris" sort="14" />
-        <label id="1304" label="AE86 A-2" color="2" folder="Seasonal&gt;April Fool's" sort="104" />
+        <label id="1304" label="AE86 A-2" color="2" folder="Seasonal&gt;April Fool's" sort="258" />
         <label id="1305" label="" folder="Must forfeit" sort="23" />
         <label id="1306" label="Samus 0-1" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="20" />
-        <label id="1307" label="" folder="Seasonal&gt;April Fool's" sort="58" />
-        <label id="1308" label="" folder="Seasonal&gt;April Fool's" sort="64" />
-        <label id="1309" label="" folder="Seasonal&gt;April Fool's" sort="82" />
-        <label id="1310" label="" folder="Seasonal&gt;April Fool's" sort="8" />
-        <label id="1311" label="AE86 0-1" folder="Seasonal&gt;April Fool's" sort="86" />
-        <label id="1312" label="AE86 0-2" folder="Seasonal&gt;April Fool's" sort="94" />
-        <label id="1313" label="AE86 0-3" folder="Seasonal&gt;April Fool's" sort="98" />
-        <label id="1314" label="AE86 B-1" color="3" folder="Seasonal&gt;April Fool's" sort="84" />
-        <label id="1315" label="AE86 B-2" color="3" folder="Seasonal&gt;April Fool's" sort="92" />
-        <label id="1316" label="AE86 B-3" color="3" folder="Seasonal&gt;April Fool's" sort="96" />
-        <label id="1317" label="AE86 8-1" folder="Seasonal&gt;April Fool's" sort="90" />
-        <label id="1318" label="AE86 8-2" folder="Seasonal&gt;April Fool's" sort="106" />
-        <label id="1319" label="" folder="Seasonal&gt;April Fool's" sort="46" />
-        <label id="1320" label="AE86 7-1" folder="Seasonal&gt;April Fool's" sort="102" />
-        <label id="1321" label="AE86 A-1" color="2" folder="Seasonal&gt;April Fool's" sort="88" />
-        <label id="1322" label="AE86 B-4" color="3" folder="Seasonal&gt;April Fool's" sort="100" />
-        <label id="1323" label="AE86 8-1" folder="Seasonal&gt;April Fool's" sort="32" />
-        <label id="1324" label="AE86 10-1" folder="Seasonal&gt;April Fool's" sort="60" />
+        <label id="1307" label="" folder="Seasonal&gt;April Fool's" sort="186" />
+        <label id="1308" label="" folder="Seasonal&gt;April Fool's" sort="192" />
+        <label id="1309" label="" folder="Seasonal&gt;April Fool's" sort="228" />
+        <label id="1310" label="" folder="Seasonal&gt;April Fool's" sort="20" />
+        <label id="1311" label="AE86 0-1" folder="Seasonal&gt;April Fool's" sort="234" />
+        <label id="1312" label="AE86 0-2" folder="Seasonal&gt;April Fool's" sort="248" />
+        <label id="1313" label="AE86 0-3" folder="Seasonal&gt;April Fool's" sort="252" />
+        <label id="1314" label="AE86 B-1" color="3" folder="Seasonal&gt;April Fool's" sort="232" />
+        <label id="1315" label="AE86 B-2" color="3" folder="Seasonal&gt;April Fool's" sort="246" />
+        <label id="1316" label="AE86 B-3" color="3" folder="Seasonal&gt;April Fool's" sort="250" />
+        <label id="1317" label="AE86 8-1" folder="Seasonal&gt;April Fool's" sort="242" />
+        <label id="1318" label="AE86 8-2" folder="Seasonal&gt;April Fool's" sort="260" />
+        <label id="1319" label="" folder="Seasonal&gt;April Fool's" sort="116" />
+        <label id="1320" label="AE86 7-1" folder="Seasonal&gt;April Fool's" sort="256" />
+        <label id="1321" label="AE86 A-1" color="2" folder="Seasonal&gt;April Fool's" sort="238" />
+        <label id="1322" label="AE86 B-4" color="3" folder="Seasonal&gt;April Fool's" sort="254" />
+        <label id="1323" label="AE86 8-1" folder="Seasonal&gt;April Fool's" sort="68" />
+        <label id="1324" label="AE86 10-1" folder="Seasonal&gt;April Fool's" sort="188" />
         <label id="1325" label="Miki 3-1" folder="Targeted&gt;Outbounds&gt;Stage 3" sort="2" />
         <label id="1326" label="Chihiro 5" folder="Targeted&gt;Outbounds&gt;Stage 5" sort="5" />
         <label id="1327" label="" folder="Clothing type&gt;Extra" sort="0" />
@@ -1498,21 +1499,21 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="1405" label="Sofia 0-3A" color="2" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="40" />
         <label id="1406" label="" folder="Targeted&gt;Trio+" sort="4" />
         <label id="1407" label="Treasure Scope" color="5" folder="Targeted&gt;Replies&gt;Hand" sort="6" />
-        <label id="1408" label="" color="6" folder="Seasonal&gt;April Fool's" sort="68" />
+        <label id="1408" label="" color="6" folder="Seasonal&gt;April Fool's" sort="200" />
         <label id="496" label="Regular" folder="" sort="0" />
         <label id="1409" label="Noises" folder="" sort="0" />
         <label id="1410" label="Tandem/Extreme" folder="Filtered" sort="12" />
-        <label id="1411" label="Duplicate" color="6" folder="Seasonal&gt;April Fool's" sort="34" />
-        <label id="1412" label="" color="6" folder="Seasonal&gt;April Fool's" sort="4" />
-        <label id="1413" label="Duplicate" color="6" folder="Seasonal&gt;April Fool's" sort="42" />
-        <label id="1414" label="Duplicate" color="6" folder="Seasonal&gt;April Fool's" sort="40" />
-        <label id="1415" label="" color="6" folder="Seasonal&gt;April Fool's" sort="76" />
-        <label id="1416" label="" color="6" folder="Seasonal&gt;April Fool's" sort="52" />
-        <label id="1417" label="" color="6" folder="Seasonal&gt;April Fool's" sort="6" />
-        <label id="1418" label="" color="6" folder="Seasonal&gt;April Fool's" sort="16" />
-        <label id="1419" label="" color="6" folder="Seasonal&gt;April Fool's" sort="22" />
-        <label id="1420" label="" color="6" folder="Seasonal&gt;April Fool's" sort="24" />
-        <label id="1421" label="" color="6" folder="Seasonal&gt;April Fool's" sort="28" />
+        <label id="1411" label="Duplicate" color="6" folder="Seasonal&gt;April Fool's" sort="76" />
+        <label id="1412" label="" color="6" folder="Seasonal&gt;April Fool's" sort="10" />
+        <label id="1413" label="Duplicate" color="6" folder="Seasonal&gt;April Fool's" sort="106" />
+        <label id="1414" label="Duplicate" color="6" folder="Seasonal&gt;April Fool's" sort="102" />
+        <label id="1415" label="" color="6" folder="Seasonal&gt;April Fool's" sort="220" />
+        <label id="1416" label="" color="6" folder="Seasonal&gt;April Fool's" sort="146" />
+        <label id="1417" label="" color="6" folder="Seasonal&gt;April Fool's" sort="18" />
+        <label id="1418" label="" color="6" folder="Seasonal&gt;April Fool's" sort="28" />
+        <label id="1419" label="" color="6" folder="Seasonal&gt;April Fool's" sort="44" />
+        <label id="1420" label="" color="6" folder="Seasonal&gt;April Fool's" sort="50" />
+        <label id="1421" label="" color="6" folder="Seasonal&gt;April Fool's" sort="60" />
         <label id="1422" label="" folder="Sponsorships&gt;Remillia&gt;Sexuality" sort="2" />
         <label id="1423" label="Series-specific: DC" folder="Prompts" sort="2" />
         <label id="1425" label="Pasties" folder="Clothing type&gt;Specific" sort="3" />
@@ -1521,7 +1522,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="1428" label="" folder="Sponsorships&gt;Remillia&gt;Sexuality" sort="6" />
         <label id="1429" label="" folder="Targeted&gt;Outbounds&gt;Stage 4" sort="9" />
         <label id="1430" label="" folder="Targeted&gt;Trio+" sort="2" />
-        <label id="1431" label="" folder="Seasonal&gt;April Fool's" sort="38" />
+        <label id="1431" label="" folder="Seasonal&gt;April Fool's" sort="96" />
         <label id="1432" label="Shamiko IL 0-1A" color="2" folder="Targeted&gt;Replies&gt;Stage 0" sort="14" />
         <label id="1433" label="Shamiko IL 0-1B" color="3" folder="Targeted&gt;Replies&gt;Stage 0" sort="12" />
         <label id="1434" label="Shamiko IR pre0-1B" folder="Technical&gt;Duplicate dialogue" sort="53" />
@@ -1669,7 +1670,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="1580" label="December: Xmas" folder="Seasonal" sort="2" />
         <label id="1581" label="December: NYE" folder="Seasonal" sort="3" />
         <label id="1582" label="New Year’s Day" folder="Seasonal" sort="4" />
-        <label id="1583" label="" folder="Seasonal&gt;April Fool's" sort="0" />
+        <label id="1583" label="" folder="Seasonal&gt;April Fool's" sort="8" />
         <label id="1584" label="Volleyball" folder="Sponsorships&gt;Remillia&gt;General" sort="5" />
         <label id="1585" label="Chuunibyou" folder="Sponsorships&gt;Remillia&gt;Miscellaneous" sort="13" />
         <label id="1586" label="Volleyball" folder="" sort="0" />
@@ -1711,7 +1712,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="1623" label="Nonon IR pre0-2" folder="Technical&gt;Duplicate dialogue" sort="76" />
         <label id="1624" label="Greedy" folder="Sponsorships&gt;Remillia&gt;Miscellaneous" sort="10" />
         <label id="1625" label="Greedy/Thief" folder="Sponsorships&gt;Remillia&gt;Miscellaneous" sort="3" />
-        <label id="1626" label="" folder="Seasonal&gt;April Fool's" sort="4" />
+        <label id="1626" label="" folder="Seasonal&gt;April Fool's" sort="12" />
         <label id="1627" label="Toshinou select B" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="9" />
         <label id="1628" label="Gloria IL 1-2" folder="Targeted&gt;Replies&gt;Stage 1" sort="24" />
         <label id="1629" label="Gloria IR pre1-2" folder="Technical&gt;Duplicate dialogue" sort="118" />
@@ -1865,7 +1866,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="1778" label="Yumeko IR 7-3B" folder="Technical&gt;Duplicate dialogue" sort="8" />
         <label id="1779" label="Coffee follow-up" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="9" />
         <label id="1780" label="Coffee follow-up" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="10" />
-        <label id="1781" label="" color="6" folder="Seasonal&gt;April Fool's" sort="18" />
+        <label id="1781" label="" color="6" folder="Seasonal&gt;April Fool's" sort="32" />
         <label id="1782" label="Silence 0" color="2" folder="" sort="0" />
         <label id="1783" label="Silence 1" color="2" folder="" sort="0" />
         <label id="1784" label="Silence 2" color="2" folder="" sort="0" />
@@ -2169,8 +2170,8 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="2052" label="" folder="Filtered" sort="100" />
         <label id="2053" label="" folder="Filtered&gt;Advanced gender" sort="7" />
         <label id="2054" label="" folder="Filtered" sort="103" />
-        <label id="2055" label="" folder="Seasonal&gt;April Fool's" sort="47" />
-        <label id="2056" label="" folder="Seasonal&gt;April Fool's" sort="48" />
+        <label id="2055" label="" folder="Seasonal&gt;April Fool's" sort="124" />
+        <label id="2056" label="" folder="Seasonal&gt;April Fool's" sort="130" />
         <label id="2057" label="Lost badly" folder="" sort="0" />
         <label id="2058" label="Stamina minimum" folder="Technical" sort="39" />
         <label id="2059" label="Human superthrow" folder="Filtered" sort="118" />
@@ -2306,22 +2307,243 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="2178" label="Yuto" folder="Sponsorships&gt;Remillia&gt;General" sort="7" />
         <label id="2179" label="Mondo and Fuyuhiko" folder="Sponsorships&gt;Remillia&gt;General" sort="8" />
         <label id="2180" label="Hina" folder="Sponsorships&gt;Remillia&gt;General" sort="9" />
-        <label id="2187" label="Mahiru" folder="Sponsorships&gt;Remillia&gt;General" sort="0" />
-        <label id="2185" label="Makoto" folder="Sponsorships&gt;Remillia&gt;General" sort="0" />
-        <label id="2188" label="Shikiba" folder="Sponsorships&gt;Remillia&gt;General" sort="0" />
-        <label id="2189" label="Mahiru" folder="Filtered&gt;Danganronpa" sort="0" />
-        <label id="2184" label="Hiro" folder="Sponsorships&gt;Remillia&gt;General" sort="0" />
+        <label id="2187" label="Mahiru" folder="Sponsorships&gt;Remillia&gt;General" sort="13" />
+        <label id="2185" label="Makoto" folder="Sponsorships&gt;Remillia&gt;General" sort="12" />
+        <label id="2188" label="Shikiba" folder="Sponsorships&gt;Remillia&gt;General" sort="4" />
+        <label id="2189" label="Mahiru" folder="Filtered&gt;Danganronpa" sort="3" />
+        <label id="2184" label="Hiro" folder="Sponsorships&gt;Remillia&gt;General" sort="11" />
         <label id="2190" label="" folder="Miscellaneous" sort="0" />
-        <label id="2191" label="Maid" folder="Sponsorships&gt;Remillia&gt;Miscellaneous" sort="0" />
-        <label id="2192" label="Jewelry" folder="Sponsorships&gt;Remillia&gt;Miscellaneous" sort="0" />
-        <label id="2193" label="Eyepatch" folder="Sponsorships&gt;Remillia&gt;Miscellaneous" sort="0" />
-        <label id="2194" label="Chuuni eyepatch" folder="Sponsorships&gt;Remillia&gt;Miscellaneous" sort="0" />
+        <label id="2191" label="Maid" folder="Sponsorships&gt;Remillia&gt;Miscellaneous" sort="12" />
+        <label id="2192" label="Jewelry" folder="Sponsorships&gt;Remillia&gt;Miscellaneous" sort="2" />
+        <label id="2193" label="Eyepatch" folder="Sponsorships&gt;Remillia&gt;Miscellaneous" sort="13" />
+        <label id="2194" label="Chuuni eyepatch" folder="Sponsorships&gt;Remillia&gt;Miscellaneous" sort="16" />
         <label id="2195" label="" folder="Sponsorships&gt;Remillia&gt;Sexuality" sort="0" />
-        <label id="2196" label="Attracted" folder="Sponsorships&gt;Remillia&gt;Sexuality" sort="0" />
+        <label id="2196" label="Attracted" folder="Sponsorships&gt;Remillia&gt;Sexuality" sort="8" />
         <label id="2197" label="" folder="Technical&gt;Nicknames" sort="0" />
-        <label id="2198" label="" folder="Technical&gt;Nicknames" sort="0" />
-        <label id="2199" label="Rose 0-2" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="0" />
-        <label id="2200" label="Rose 0-3" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="0" />
+        <label id="2198" label="" folder="Technical&gt;Nicknames" sort="32" />
+        <label id="2199" label="Rose 0-2" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="16" />
+        <label id="2200" label="Rose 0-3" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="28" />
+        <label id="2201" label="" folder="Forfeit Acts&gt;Act 3" sort="10" />
+        <label id="2203" label="Metal R 0-1" color="3" folder="Seasonal&gt;April Fool's" sort="152" />
+        <label id="2204" label="Metal R 0-2" color="3" folder="Seasonal&gt;April Fool's" sort="160" />
+        <label id="2205" label="Metal R 0-3" color="3" folder="Seasonal&gt;April Fool's" sort="164" />
+        <label id="2206" label="Metal R 1-1" color="3" folder="Seasonal&gt;April Fool's" sort="170" />
+        <label id="2207" label="Metal R 1-2" color="3" folder="Seasonal&gt;April Fool's" sort="86" />
+        <label id="2208" label="Metal R 1-3" color="3" folder="Seasonal&gt;April Fool's" sort="112" />
+        <label id="2209" label="Metal R 2-1" color="3" folder="Seasonal&gt;April Fool's" sort="34" />
+        <label id="2210" label="Metal R 2-1" color="3" folder="Seasonal&gt;April Fool's" sort="4" />
+        <label id="2211" label="Metal R 2-2" color="3" folder="Seasonal&gt;April Fool's" sort="70" />
+        <label id="2212" label="Metal R 2-3" color="3" folder="Seasonal&gt;April Fool's" sort="120" />
+        <label id="2213" label="Metal R 3-1" color="3" folder="Seasonal&gt;April Fool's" sort="40" />
+        <label id="2214" label="Metal R 3-2" color="3" folder="Seasonal&gt;April Fool's" sort="88" />
+        <label id="2215" label="Metal R 3-3" color="3" folder="Seasonal&gt;April Fool's" sort="126" />
+        <label id="2216" label="Metal R FF-1" color="3" folder="Seasonal&gt;April Fool's" sort="58" />
+        <label id="2218" label="Metal L 0-1" color="1" folder="Seasonal&gt;April Fool's" sort="46" />
+        <label id="2219" label="Metal L 0-2" color="1" folder="Seasonal&gt;April Fool's" sort="78" />
+        <label id="2220" label="Metal L 0-3" color="1" folder="Seasonal&gt;April Fool's" sort="108" />
+        <label id="2221" label="Metal L 1-1" color="1" folder="Seasonal&gt;April Fool's" sort="48" />
+        <label id="2222" label="Metal L 1-2" color="1" folder="Seasonal&gt;April Fool's" sort="92" />
+        <label id="2223" label="Metal L 1-3" color="1" folder="Seasonal&gt;April Fool's" sort="128" />
+        <label id="2224" label="Metal L 2-1" color="1" folder="Seasonal&gt;April Fool's" sort="52" />
+        <label id="2225" label="Metal R 2-2" color="3" folder="Seasonal&gt;April Fool's" sort="6" />
+        <label id="2226" label="Metal L 2-2" color="1" folder="Seasonal&gt;April Fool's" sort="98" />
+        <label id="2227" label="Metal L 2-3" color="1" folder="Seasonal&gt;April Fool's" sort="134" />
+        <label id="2228" label="Metal L 3-1" color="1" folder="Seasonal&gt;April Fool's" sort="54" />
+        <label id="2229" label="Metal L 3-2" color="1" folder="Seasonal&gt;April Fool's" sort="100" />
+        <label id="2230" label="Metal L 3-3" color="1" folder="Seasonal&gt;April Fool's" sort="140" />
+        <label id="2231" label="Metal L FF-1A" color="1" folder="Seasonal&gt;April Fool's" sort="136" />
+        <label id="2232" label="Metal L FF-1B" color="6" folder="Seasonal&gt;April Fool's" sort="142" />
+        <label id="2233" label="Omega R 0-1" color="3" folder="Seasonal&gt;April Fool's" sort="104" />
+        <label id="2234" label="Omega R 0-2" color="3" folder="Seasonal&gt;April Fool's" sort="132" />
+        <label id="2235" label="Omega R 0-3" color="3" folder="Seasonal&gt;April Fool's" sort="194" />
+        <label id="2236" label="Omega R 1-1" color="3" folder="Seasonal&gt;April Fool's" sort="64" />
+        <label id="2237" label="Omega R 1-2" color="3" folder="Seasonal&gt;April Fool's" sort="150" />
+        <label id="2238" label="Omega R 1-3" color="3" folder="Seasonal&gt;April Fool's" sort="198" />
+        <label id="2239" label="Omega R 2-1" color="3" folder="Seasonal&gt;April Fool's" sort="66" />
+        <label id="2240" label="Omega R 2-2" color="3" folder="Seasonal&gt;April Fool's" sort="154" />
+        <label id="2241" label="Omega R 2-3" color="3" folder="Seasonal&gt;April Fool's" sort="202" />
+        <label id="2242" label="Omega R 3-1" color="3" folder="Seasonal&gt;April Fool's" sort="72" />
+        <label id="2243" label="Omega R 3-2" color="3" folder="Seasonal&gt;April Fool's" sort="156" />
+        <label id="2244" label="Omega R 3-3" color="3" folder="Seasonal&gt;April Fool's" sort="204" />
+        <label id="2245" label="Omega R FF-1" color="3" folder="Seasonal&gt;April Fool's" sort="94" />
+        <label id="2246" label="Omega L 0-1" color="1" folder="Seasonal&gt;April Fool's" sort="74" />
+        <label id="2247" label="Omega L 0-2" color="1" folder="Seasonal&gt;April Fool's" sort="158" />
+        <label id="2248" label="Omega L 0-3" color="1" folder="Seasonal&gt;April Fool's" sort="206" />
+        <label id="2249" label="Omega L 1-1" color="1" folder="Seasonal&gt;April Fool's" sort="80" />
+        <label id="2250" label="Omega L 1-2" color="1" folder="Seasonal&gt;April Fool's" sort="162" />
+        <label id="2251" label="Omega L 1-3" color="1" folder="Seasonal&gt;April Fool's" sort="210" />
+        <label id="2252" label="Omega L 2-1" color="1" folder="Seasonal&gt;April Fool's" sort="84" />
+        <label id="2253" label="Omega L 2-2" color="1" folder="Seasonal&gt;April Fool's" sort="166" />
+        <label id="2254" label="Omega L 2-3" color="1" folder="Seasonal&gt;April Fool's" sort="212" />
+        <label id="2255" label="Omega L 3-1" color="1" folder="Seasonal&gt;April Fool's" sort="90" />
+        <label id="2256" label="Omega L 3-2" color="1" folder="Seasonal&gt;April Fool's" sort="168" />
+        <label id="2257" label="Omega L 3-3" color="1" folder="Seasonal&gt;April Fool's" sort="216" />
+        <label id="2258" label="Omega L FF-1" color="1" folder="Seasonal&gt;April Fool's" sort="222" />
+        <label id="2259" label="Omega FF-2" folder="Seasonal&gt;April Fool's" sort="230" />
+        <label id="2260" label="Omega FF-3" folder="Seasonal&gt;April Fool's" sort="236" />
+        <label id="2261" label="Omega FF-4" folder="Seasonal&gt;April Fool's" sort="244" />
+        <label id="2262" label="Omega End" folder="Seasonal&gt;April Fool's" sort="240" />
+        <label id="2263" label="Y. Devil Hand-1" folder="Seasonal&gt;April Fool's" sort="16" />
+        <label id="2264" label="Y. Devil Hand-2" folder="Seasonal&gt;April Fool's" sort="14" />
+        <label id="2265" label="Y. Devil R 0-1" color="3" folder="Seasonal&gt;April Fool's" sort="38" />
+        <label id="2266" label="CWU R 0-2" color="3" folder="Seasonal&gt;April Fool's" sort="122" />
+        <label id="2267" label="CWU R 0-3" color="3" folder="Seasonal&gt;April Fool's" sort="182" />
+        <label id="2268" label="CWU R 1-1" color="3" folder="Seasonal&gt;April Fool's" sort="42" />
+        <label id="2269" label="C. Robot R 1-2A" color="3" folder="Seasonal&gt;April Fool's" sort="114" />
+        <label id="2270" label="C. Robot R 1-3A" color="3" folder="Seasonal&gt;April Fool's" sort="172" />
+        <label id="2271" label="C. Robot R 2-1A" color="3" folder="Seasonal&gt;April Fool's" sort="30" />
+        <label id="2272" label="C. Robot R 1-2B" color="9" folder="Seasonal&gt;April Fool's" sort="118" />
+        <label id="2273" label="C. Robot R 1-3B" color="9" folder="Seasonal&gt;April Fool's" sort="174" />
+        <label id="2274" label="C. Robot R 2-1B" color="9" folder="Seasonal&gt;April Fool's" sort="176" />
+        <label id="2275" label="W. Machine R 2-2" color="3" folder="Seasonal&gt;April Fool's" sort="178" />
+        <label id="2276" label="W. Machine R 2-3" color="3" folder="Seasonal&gt;April Fool's" sort="180" />
+        <label id="2277" label="Y. Devil L 0-1" color="1" folder="Seasonal&gt;April Fool's" sort="31" />
+        <label id="2278" label="CWU L 0-2" color="1" folder="Seasonal&gt;April Fool's" sort="60" />
+        <label id="2279" label="CWU L 0-3" color="1" folder="Seasonal&gt;April Fool's" sort="84" />
+        <label id="2280" label="CWU L 1-1" color="1" folder="Seasonal&gt;April Fool's" sort="32" />
+        <label id="2281" label="C. Robot L 1-2A" color="1" folder="Seasonal&gt;April Fool's" sort="24" />
+        <label id="2282" label="C. Robot L 1-3A" color="1" folder="Seasonal&gt;April Fool's" sort="83" />
+        <label id="2283" label="C. Robot L 2-1A" color="1" folder="Seasonal&gt;April Fool's" sort="25" />
+        <label id="2284" label="C. Robot L 1-2B" color="6" folder="Seasonal&gt;April Fool's" sort="57" />
+        <label id="2285" label="C. Robot L 1-3B" color="6" folder="Seasonal&gt;April Fool's" sort="84" />
+        <label id="2286" label="C. Robot L 2-1B" color="6" folder="Seasonal&gt;April Fool's" sort="85" />
+        <label id="2287" label="W. Machine L 2-2" color="1" folder="Seasonal&gt;April Fool's" sort="135" />
+        <label id="2288" label="W. Machine L 2-3" color="1" folder="Seasonal&gt;April Fool's" sort="136" />
+        <label id="2289" label="" folder="Must forfeit" sort="0" />
+        <label id="2290" label="Chihiro Victory" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="0" />
+        <label id="2291" label="Chihiro Victory" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="1" />
+        <label id="2292" label="Confident/exhib" folder="Filtered" sort="0" />
+        <label id="2293" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="0" />
+        <label id="2294" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="2" />
+        <label id="2295" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="3" />
+        <label id="2296" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="4" />
+        <label id="2297" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="5" />
+        <label id="2298" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="6" />
+        <label id="2299" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="9" />
+        <label id="2300" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="10" />
+        <label id="2301" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="11" />
+        <label id="2302" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="12" />
+        <label id="2303" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="13" />
+        <label id="2304" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="14" />
+        <label id="2305" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="15" />
+        <label id="2306" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="16" />
+        <label id="2307" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="17" />
+        <label id="2308" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="18" />
+        <label id="2309" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="19" />
+        <label id="2310" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="20" />
+        <label id="2311" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="21" />
+        <label id="2312" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="22" />
+        <label id="2313" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="23" />
+        <label id="2314" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="24" />
+        <label id="2315" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="25" />
+        <label id="2316" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="26" />
+        <label id="2317" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="27" />
+        <label id="2318" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="28" />
+        <label id="2319" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="29" />
+        <label id="2320" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="30" />
+        <label id="2321" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="31" />
+        <label id="2322" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="32" />
+        <label id="2323" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="33" />
+        <label id="2324" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="34" />
+        <label id="2325" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="35" />
+        <label id="2326" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="36" />
+        <label id="2327" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="37" />
+        <label id="2328" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="38" />
+        <label id="2329" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="39" />
+        <label id="2330" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="40" />
+        <label id="2331" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="41" />
+        <label id="2332" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="42" />
+        <label id="2333" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="43" />
+        <label id="2334" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="44" />
+        <label id="2335" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="45" />
+        <label id="2336" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="46" />
+        <label id="2337" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="47" />
+        <label id="2338" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="48" />
+        <label id="2339" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="49" />
+        <label id="2340" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="50" />
+        <label id="2341" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="51" />
+        <label id="2342" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="52" />
+        <label id="2343" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="53" />
+        <label id="2344" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="54" />
+        <label id="2345" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="55" />
+        <label id="2346" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="56" />
+        <label id="2347" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="57" />
+        <label id="2348" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="58" />
+        <label id="2349" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="59" />
+        <label id="2350" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="60" />
+        <label id="2351" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="61" />
+        <label id="2352" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="62" />
+        <label id="2353" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="63" />
+        <label id="2354" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="0" />
+        <label id="2355" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="0" />
+        <label id="2356" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="64" />
+        <label id="2357" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="65" />
+        <label id="2358" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="66" />
+        <label id="2359" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="67" />
+        <label id="2360" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="68" />
+        <label id="2361" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="69" />
+        <label id="2362" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="70" />
+        <label id="2363" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="71" />
+        <label id="2364" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="72" />
+        <label id="2365" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="73" />
+        <label id="2366" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="74" />
+        <label id="2367" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="75" />
+        <label id="2368" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="76" />
+        <label id="2369" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="77" />
+        <label id="2370" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="78" />
+        <label id="2371" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="79" />
+        <label id="2372" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="80" />
+        <label id="2373" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="81" />
+        <label id="2374" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="82" />
+        <label id="2375" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="83" />
+        <label id="2376" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="84" />
+        <label id="2377" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="85" />
+        <label id="2378" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="86" />
+        <label id="2379" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="87" />
+        <label id="2380" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="88" />
+        <label id="2381" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="89" />
+        <label id="2382" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="90" />
+        <label id="2383" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="91" />
+        <label id="2384" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="92" />
+        <label id="2385" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="93" />
+        <label id="2386" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="94" />
+        <label id="2387" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="95" />
+        <label id="2388" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="96" />
+        <label id="2389" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="97" />
+        <label id="2390" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="98" />
+        <label id="2391" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="99" />
+        <label id="2392" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="100" />
+        <label id="2393" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="101" />
+        <label id="2394" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="102" />
+        <label id="2395" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="103" />
+        <label id="2396" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="104" />
+        <label id="2397" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="105" />
+        <label id="2398" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="106" />
+        <label id="2399" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="107" />
+        <label id="2400" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="108" />
+        <label id="2401" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="109" />
+        <label id="2402" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="110" />
+        <label id="2405" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="111" />
+        <label id="2406" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="112" />
+        <label id="2407" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="113" />
+        <label id="2408" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="114" />
+        <label id="2409" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="115" />
+        <label id="2410" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="116" />
+        <label id="2411" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="117" />
+        <label id="2412" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="118" />
+        <label id="2413" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="119" />
+        <label id="2414" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="120" />
+        <label id="2415" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="121" />
+        <label id="2416" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="122" />
+        <label id="2417" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="123" />
+        <label id="2418" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="124" />
+        <label id="2419" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="125" />
+        <label id="2420" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="126" />
+        <label id="2421" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="127" />
+        <label id="2422" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="128" />
+        <label id="2423" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="129" />
+        <label id="2424" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="7" />
+        <label id="2425" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="8" />
     </labels>
     <prefixes>
         <prefix>#-aside</prefix>
@@ -2351,7 +2573,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
     <posePreviewMarkers>
         <posePreviewMarker>hair==1</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>2200</nextId>
+    <nextId>2425</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="." />
@@ -2467,6 +2689,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="chihiro_mahiru_selfieRe" />
         <marker scope="Public" name="chihiro_noticedAlterEgo" />
         <marker scope="Public" name="chihiro_outGeneric" />
+        <marker scope="Public" name="chihiro_victory6" />
         <marker scope="Public" name="chihiroOutsGeneric" />
         <marker scope="Public" name="chivulva" />
         <marker scope="Public" name="chuuniPowersPrompt" />
@@ -2485,12 +2708,26 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="constanze_whatYouEat" />
         <marker scope="Public" name="constanze_youGotThis" />
         <marker scope="Public" name="contrabandBreasts" />
+        <marker scope="Public" name="copyRobot_12a" />
+        <marker scope="Public" name="copyRobot_12b" />
+        <marker scope="Public" name="copyRobot_13" />
+        <marker scope="Public" name="copyRobot_13a" />
+        <marker scope="Public" name="copyRobot_13b" />
+        <marker scope="Public" name="copyRobot_21" />
+        <marker scope="Public" name="copyRobot_21a" />
+        <marker scope="Public" name="copyRobot_21b" />
         <marker scope="Public" name="corner" />
         <marker scope="Public" name="cornered" />
         <marker scope="Public" name="costume">Marker indicating her costume using strings. 0 = default; FF = Future Foundation costume; swimsuit = Danganronpa S swimsuit costume.</marker>
         <marker scope="Public" name="creepyCompany" />
         <marker scope="Public" name="criminalClassmates" />
         <marker scope="Public" name="cute">"It really is quite cute." "What? I'm allowed to like cute things." (=3 if triggered by male opponent)</marker>
+        <marker scope="Public" name="cwu01p_02" />
+        <marker scope="Public" name="cwu01p_03" />
+        <marker scope="Public" name="cwu01p_11" />
+        <marker scope="Public" name="cwu01p_12" />
+        <marker scope="Public" name="cwu01p_12a" />
+        <marker scope="Public" name="cwu01p_13" />
         <marker scope="Public" name="death_accusation" />
         <marker scope="Public" name="december" />
         <marker scope="Public" name="decemberPartner" />
@@ -2499,6 +2736,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="detectiveReveal">She has stated outright or otherwise confirmed that she is a detective.</marker>
         <marker scope="Public" name="deutsch">X times, she has said something in the German language</marker>
         <marker scope="Public" name="diamondsInTheBuff" />
+        <marker scope="Public" name="didYouThrow" />
         <marker scope="Public" name="dirtyTalk" />
         <marker scope="Public" name="dirtyTalkReview" />
         <marker scope="Public" name="disappointment">"No human language can describe the disappointment I'm feeling right now."</marker>
@@ -2531,6 +2769,23 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="dwight_stare2" />
         <marker scope="Public" name="dwight_stare3" />
         <marker scope="Public" name="dwight_stare3_lustVariation" />
+        <marker scope="Public" name="e102_01" />
+        <marker scope="Public" name="e102_02" />
+        <marker scope="Public" name="e102_03" />
+        <marker scope="Public" name="e102_11" />
+        <marker scope="Public" name="e102_12" />
+        <marker scope="Public" name="e102_13" />
+        <marker scope="Public" name="e102_21" />
+        <marker scope="Public" name="e102_22" />
+        <marker scope="Public" name="e102_23" />
+        <marker scope="Public" name="e102_31" />
+        <marker scope="Public" name="e102_32" />
+        <marker scope="Public" name="e102_33" />
+        <marker scope="Public" name="e102_41" />
+        <marker scope="Public" name="e102_42" />
+        <marker scope="Public" name="e102_43" />
+        <marker scope="Public" name="e102_44" />
+        <marker scope="Public" name="e102_end" />
         <marker scope="Public" name="earnMyTrust" />
         <marker scope="Public" name="eatShitYuuhain" />
         <marker scope="Public" name="EHCount" />
@@ -2770,6 +3025,19 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="meia_familyWhat" />
         <marker scope="Public" name="mentalPhysicalStrengthPrompt" />
         <marker scope="Public" name="merryChristmas" />
+        <marker scope="Public" name="metalSonic_01" />
+        <marker scope="Public" name="metalSonic_02" />
+        <marker scope="Public" name="metalSonic_03" />
+        <marker scope="Public" name="metalSonic_11" />
+        <marker scope="Public" name="metalSonic_12" />
+        <marker scope="Public" name="metalSonic_13" />
+        <marker scope="Public" name="metalSonic_21" />
+        <marker scope="Public" name="metalSonic_22" />
+        <marker scope="Public" name="metalSonic_23" />
+        <marker scope="Public" name="metalSonic_31" />
+        <marker scope="Public" name="metalSonic_32" />
+        <marker scope="Public" name="metalSonic_33" />
+        <marker scope="Public" name="metalSonic_41" />
         <marker scope="Public" name="mg_slugmaBalls" />
         <marker scope="Public" name="miaFey_parentTrouble" />
         <marker scope="Public" name="mikan_confident1Re" />
@@ -2813,6 +3081,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="namiHito_leave" />
         <marker scope="Public" name="neededThis" />
         <marker scope="Public" name="nervousAreYou" />
+        <marker scope="Public" name="niceBody" />
         <marker scope="Public" name="nikaidou_headOff" />
         <marker scope="Public" name="nipplePiercingQuery" />
         <marker scope="Public" name="nippleStim" />
@@ -2961,6 +3230,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="SHE_SAYS_FUCK" />
         <marker scope="Public" name="sheSaidFuck" />
         <marker scope="Public" name="SHE-SAYS-FUCK" />
+        <marker scope="Public" name="showoff" />
         <marker scope="Public" name="shutInLookAtMe" />
         <marker scope="Public" name="shutInLookAtYou" />
         <marker scope="Public" name="shyExtraFirst" />
@@ -3117,6 +3387,8 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="whydYouNameYourselfAnthrax">I wouldn't be caught dead with a name like that.</marker>
         <marker scope="Public" name="whySocks" />
         <marker scope="Public" name="willBeStaring" />
+        <marker scope="Public" name="wilyMachine_22" />
+        <marker scope="Public" name="wilyMachine_23" />
         <marker scope="Public" name="won7High">X times, she's remarked on having High Card 7 as her hand and winning anyway.</marker>
         <marker scope="Public" name="yae_compromised" />
         <marker scope="Public" name="yae_fuqYouSay">Choose yaer next words very carefully.</marker>
@@ -3124,6 +3396,9 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="yandereWarning1" />
         <marker scope="Public" name="yandereWarning2" />
         <marker scope="Public" name="yandereWarning3" />
+        <marker scope="Public" name="yellowDevil_01" />
+        <marker scope="Public" name="yellowDevil_bumo" />
+        <marker scope="Public" name="yellowDevil_idea" />
         <marker scope="Public" name="yumeko_0a" />
         <marker scope="Public" name="yumeko_0b" />
         <marker scope="Public" name="yumeko_0c" />
@@ -3278,7 +3553,6 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <line>Male accessory anticipatory</line>
         <line>Aggressive target</line>
         <line>(F FF) I feel tempted to try and copy your movements exactly... Unless...you'd like to cut the pretenses altogether?</line>
-        <line>Don’t let me distract you. I’m only naked here.</line>
         <line>Much better view down here (female opp time in stage &gt; self time in stage)</line>
         <line>I think you should lose more. Wouldn’t you like to enjoy ourselves together?</line>
         <line>reset heavy if moe, submissive male joins</line>
@@ -3286,5 +3560,12 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <line>smallSolicitation as a situation callout?</line>
         <line>Vagid on tan/dark skin</line>
         <line>Cute face?</line>
+        <line>You have a nice body. It makes sense why you’d want to show it off.</line>
+        <line>Nice breasts.</line>
+        <line>Your…areolae are so &lt;i&gt;red&lt;/i&gt;, Suzuya…</line>
+        <line>Heavy lines upon clothing.reveals, ticksinstage=0</line>
+        <line>Full breasts…</line>
+        <line>Vulva…</line>
+        <line>Scrotum…</line>
     </pendingLines>
 </metadata>
