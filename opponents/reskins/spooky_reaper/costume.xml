@@ -4,6 +4,9 @@
     <label>Spooky</label>
     <tags>
         <tag>alternative_skin</tag>
+        <tag remove="true">butt_pose</tag>
+        <tag from="0" to="1">hood</tag>
+        <tag from="2" to="6">long_hair</tag>
     </tags>
     <layers>4</layers>
     <folder>opponents/reskins/spooky_reaper/</folder>
