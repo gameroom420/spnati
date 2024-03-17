@@ -2387,9 +2387,9 @@
             <sprite id="shortsback" parent="shorts" z="-1" src="reskins/meia_cupid/shortsback.png" x="4" y="639" />
             <directive type="animation" id="butt" ease="smooth" interpolation="spline">
                 <keyframe time="0" x="0" rotation="0" />
-                <keyframe time="0.25" x="1" rotation="-1" />
-                <keyframe time="0.75" x="1" rotation="1" />
-                <keyframe time="1" x="0" rotation="0" />
+                <keyframe time="0.12" x="1" rotation="-1" />
+                <keyframe time="0.25" x="1" rotation="1" />
+                <keyframe time="0.62" x="0" rotation="0" />
             </directive>
             <directive type="animation" id="shorts" ease="smooth" interpolation="linear">
                 <keyframe time="0" x="4" alpha="100" />
