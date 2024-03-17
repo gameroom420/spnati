@@ -641,7 +641,8 @@
         <background>garden</background>
 
         <!-- Put all costumes into the same group, but place new costumes higher -->
-        <character highlight="easter" partition="1" sort="2">mari_setogaya</character>
+        <!-- Except there are no new costumes this year - below item is for demonstration only -->
+        <!-- <character highlight="easter" partition="1" sort="2">mari_setogaya</character> -->
 
         <costumes highlight="easter" partition="1" sort="1">easter</costumes>
 
@@ -849,9 +850,7 @@
 
         <!-- Put AF costumes and AF characters into the same group, but place AF-only characters before costumes -->
         <!-- Also, put this year's new characters/costumes first -->
-        <!--
-        <character highlight="april_fools" partition="1" sort="4">cats</character> //placeholder for 2024 characters
-        -->
+        <!-- <character highlight="april_fools" partition="1" sort="4">[REDACTED]</character> -->
         <character highlight="april_fools" partition="1" sort="3">mari_setogaya</character>
         <tag highlight="april_fools" partition="1" sort="2">april_fools</tag>
         <costumes highlight="april_fools" partition="1" sort="1">april_fools</costumes>
