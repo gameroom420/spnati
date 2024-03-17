@@ -41,7 +41,7 @@ You feel her lipstick smear and her breasts squish.  She's wrapped her naked bod
         <unlock>Make Jura lose as a female.</unlock>
         <hide-details>true</hide-details>
         <wearable>true</wearable>
-        <clothing img="opponents/jura/cz75.png" name="CZ 75" generic="" position="held" type="extra" />
+        <clothing img="opponents/jura/cz75.png" name="CZ 75" generic="weapon" position="held" type="extra" />
     </collectible>
     <collectible id="mac-10" status="online" img="opponents/jura/mac-10.png" thumbnail="opponents/jura/mac-10.png">
         <title>MAC-10</title>
@@ -51,6 +51,6 @@ You feel her lipstick smear and her breasts squish.  She's wrapped her naked bod
         <hidden>true</hidden>
         <hide-details>true</hide-details>
         <wearable>true</wearable>
-        <clothing img="opponents/jura/mac-10.png" name="MAC-10" generic="" position="held" type="extra" />
+        <clothing img="opponents/jura/mac-10.png" name="MAC-10" generic="weapon" position="held" type="extra" />
     </collectible>
 </collectibles>

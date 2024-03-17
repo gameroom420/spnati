@@ -41,7 +41,7 @@
     </collectible>
     <collectible id="laser_ring" status="online" img="opponents/meia/laser-ring1.png" thumbnail="opponents/meia/laser-ring1.png">
         <title>Laser Ring</title>
-        <subtitle>A Mejarian's weapon of choice.</subtitle>
+        <subtitle>The finger-wielded weapon of Mejare.</subtitle>
         <text>"My whole life changed the day I was given one of these.  I hope you'll feel the same way."</text>
         <unlock>Make Meia lose as a female.</unlock>
         <hide-details>true</hide-details>
