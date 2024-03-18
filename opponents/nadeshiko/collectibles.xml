@@ -24,6 +24,7 @@
     <collectible id="nadeshiko_scarf" status="online" img="opponents/nadeshiko/attachments/NadeshikoScarf.png" thumbnail="opponents/nadeshiko/attachments/ScarfThumbnail.png">
         <title>Nadeshiko's Scarf</title>
         <subtitle>The perfect camping accesory!</subtitle>
+        <text>Nadeshiko wanted to thank you for listening to her camping tips. As you prepare to leave, she hands you a scarf, identical to her's. "They were selling this at the outdoor's store I work at not too long ago, and I thought that, perhaps, you should have it!" You wrap the scarf around your neck as you get up to leave. It really does feel comfy.</text>
         <unlock>Hear ten of Nadeshiko's "Camping Tips."</unlock>
         <hide-details>true</hide-details>
         <counter>10</counter>
