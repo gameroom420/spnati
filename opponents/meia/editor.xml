@@ -595,7 +595,6 @@
         <label id="1078" label="" color="4" folder="" sort="0" />
         <label id="1079" label="" color="4" folder="" sort="0" />
         <label id="1080" label="" color="4" folder="" sort="0" />
-        <label id="1649" label="" color="4" folder="" sort="0" />
         <label id="1082" label="" color="4" folder="" sort="0" />
         <label id="1083" label="" color="4" folder="" sort="0" />
         <label id="1084" label="" color="6" folder="" sort="0" />
@@ -831,7 +830,7 @@
         <label id="1426" label="" color="4" folder="" sort="0" />
         <label id="1427" label="" color="4" folder="" sort="0" />
         <label id="1428" label="" color="4" folder="" sort="0" />
-        <label id="1648" label="" color="4" folder="" sort="0" />
+        <label id="1743" label="" color="4" folder="" sort="0" />
         <label id="1736" label="" color="4" folder="" sort="0" />
         <label id="1454" label="" color="4" folder="" sort="0" />
         <label id="1578" label="" color="4" folder="" sort="0" />
@@ -936,7 +935,6 @@
         <label id="1644" label="" color="4" folder="" sort="0" />
         <label id="1645" label="" color="4" folder="" sort="0" />
         <label id="1646" label="" color="4" folder="" sort="0" />
-        <label id="1647" label="" color="4" folder="" sort="0" />
         <label id="1732" label="" color="4" folder="" sort="0" />
         <label id="1737" label="" color="4" folder="" sort="0" />
         <label id="1667" label="" color="2" folder="" sort="0" />
@@ -973,7 +971,7 @@
         <label id="1721" label="" color="2" folder="" sort="0" />
         <label id="1722" label="" color="2" folder="" sort="0" />
     </labels>
-    <nextId>1741</nextId>
+    <nextId>1743</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="2butt">Meia shows off her butt while still in her bodysuit (or Cupid outfit).</marker>
@@ -2476,7 +2474,9 @@
         <marker scope="Public" name="lysithea4s" />
         <marker scope="Public" name="lysithea5" />
         <marker scope="Public" name="lysithea56" />
+        <marker scope="Public" name="lysithea5s" />
         <marker scope="Public" name="lysithea6" />
+        <marker scope="Public" name="lysithea67" />
         <marker scope="Public" name="lysithea6s" />
         <marker scope="Public" name="magical_sempai" />
         <marker scope="Public" name="magma_grunt_cd0" />
