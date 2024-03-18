@@ -679,10 +679,12 @@
             <path>reskins/may_hopping_bunny/0-oopsy.png</path>
             <path>reskins/may_hopping_bunny/0-ready.png</path>
             <path>reskins/may_hopping_bunny/0-confident.png</path>
+            <!--
             <path>reskins/pink_bunny/0-hi.png</path>
             <path>reskins/pink_bunny/0-wink.png</path>
             <path>reskins/pink_bunny/1-happy.png</path>
             <path>reskins/pink_bunny/1-excited.png</path>
+            -->
             <path>reskins/rosa_bunny_buns/0-bun_touching.png</path>
             <path>reskins/rosa_bunny_buns/0-calm.png</path>
             <path>reskins/rosa_bunny_buns/0-Happy.png</path>
