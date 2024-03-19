@@ -637,8 +637,8 @@
         <background>garden</background>
 
         <!-- Put all costumes into the same group, but place new costumes higher -->
-        <!-- Except there are no new costumes this year - below item is for demonstration only -->
-        <!-- <character highlight="easter" partition="1" sort="2">mari_setogaya</character> -->
+        <character highlight="easter" partition="1" sort="2">mari</character>
+        <character highlight="easter" partition="1" sort="2">gloria</character>
 
         <costumes highlight="easter" partition="1" sort="1">easter</costumes>
 
@@ -665,12 +665,10 @@
             <path>reskins/kazuma_spring/0-embarrassed.png</path>
             <path>reskins/kazuma_spring/0-horrified.png</path>
             <path>reskins/kazuma_spring/0-shocked.png</path>
-            <!--
             <path>reskins/mari_spring/0-casual.png</path>
             <path>reskins/mari_spring/0-wink.png</path>
             <path>reskins/mari_spring/0-relaxed.png</path>
             <path>reskins/mari_spring/0-demure.png</path>
-            -->
             <path>reskins/mari_setogaya_succu-bunny/0-wink.png</path>
             <path>reskins/mari_setogaya_succu-bunny/0-grin.png</path>
             <path>reskins/mari_setogaya_succu-bunny/0-nice.png</path>
