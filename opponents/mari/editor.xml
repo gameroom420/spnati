@@ -2603,8 +2603,10 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <label id="2378" label="S0 - Atmosphere 1" folder="Yumeko" sort="0" />
         <label id="2379" label="S0 - Outfit 1A (Fallback)" folder="Lysithea" sort="0" />
         <label id="2380" label="S0 - Outfit 1B (Self Costume = Default / Informality + Early Self Stages)" folder="Lysithea" sort="0" />
+        <label id="2381" label="Post-Encore (Whimsicality)" folder="Generic" sort="0" />
+        <label id="2382" label="Post-Encore (Whimsicality)" folder="Generic" sort="0" />
     </labels>
-    <nextId>2380</nextId>
+    <nextId>2382</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="__human_nickname" />
