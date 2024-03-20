@@ -18,6 +18,9 @@
         <case name="Rose Flashing 2" id="143" priority="Noteworthy" min="3" max="4">
             <description>Rose lifts up her shirt to flash the others if she says flashing_2. Variation 2 - she doesn't cover her nipples.</description>
         </case>
+        <case name="Everyone Else Eliminated" id="174" priority="Noteworthy" min="5" max="6">
+            <description>Description about what's interesting happening with the character (i.e. why should others target this?)</description>
+        </case>
     </noteworthy>
     <reviewed>true</reviewed>
     <responses>
@@ -75,6 +78,18 @@
         <response id="282" opponent="aaravi" opponentId="119" />
         <response id="287" opponent="kyouko_toshinou" opponentId="108" />
         <response id="288" opponent="jura" opponentId="20" />
+        <response id="296" opponent="rosa" opponentId="839" />
+        <response id="297" opponent="rosa" opponentId="840" />
+        <response id="298" opponent="rosa" opponentId="841" />
+        <response id="301" opponent="rouge" opponentId="261" />
+        <response id="302" opponent="rouge" opponentId="5" />
+        <response id="0" opponent="rouge" opponentId="10" />
+        <response id="303" opponent="rouge" opponentId="6" />
+        <response id="306" opponent="rosa" opponentId="842" />
+        <response id="307" opponent="rosa" opponentId="843" />
+        <response id="308" opponent="rosa" opponentId="844" />
+        <response id="309" opponent="rosa" opponentId="845" />
+        <response id="310" opponent="rosa" opponentId="846" />
     </responses>
     <notes>
         <note id="193">Rose has left her slot to visit Magma Grunt's slot - MG is showing her a picture of her own backside</note>
@@ -361,11 +376,34 @@
         <label id="288" label="" folder="Targets&gt;Jura" sort="0" />
         <label id="289" label="" folder="Targets&gt;Jura" sort="0" />
         <label id="290" label="" folder="Targets&gt;Companions" sort="0" />
+        <label id="291" label="Collectible - Tiger Eye" folder="" sort="0" />
+        <label id="292" label="" folder="Targets&gt;Rose" sort="0" />
+        <label id="215" label="" folder="Response&gt;Meia" sort="0" />
+        <label id="214" label="" folder="Response&gt;Jura" sort="0" />
+        <label id="213" label="" folder="Response&gt;Meia" sort="0" />
+        <label id="293" label="" folder="Conditional" sort="0" />
+        <label id="294" label="" folder="Conditional" sort="0" />
+        <label id="295" label="Collectible - Tiger Eye" folder="" sort="0" />
+        <label id="296" label="" folder="Rosa" sort="0" />
+        <label id="297" label="" folder="Rosa" sort="0" />
+        <label id="299" label="" folder="Targets&gt;Rouge" sort="0" />
+        <label id="300" label="" folder="Targets&gt;Rouge" sort="0" />
+        <label id="301" label="" folder="Targets&gt;Rouge" sort="0" />
+        <label id="302" label="" folder="Targets&gt;Rouge" sort="0" />
+        <label id="303" label="" folder="Targets&gt;Rouge" sort="0" />
+        <label id="304" label="" folder="Targets&gt;Rouge" sort="0" />
+        <label id="305" label="" folder="Targets&gt;Rouge" sort="0" />
+        <label id="298" label="" folder="Rosa" sort="0" />
+        <label id="306" label="" folder="Rosa" sort="0" />
+        <label id="307" label="" folder="Rosa" sort="0" />
+        <label id="309" label="" folder="Rosa" sort="0" />
+        <label id="308" label="" folder="Rosa" sort="0" />
+        <label id="310" label="" folder="Rosa" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>show_anima==1</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>290</nextId>
+    <nextId>310</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="3player" />
@@ -377,6 +415,7 @@
         <marker scope="Public" name="Aella_FlashB" />
         <marker scope="Public" name="anima_accusation" />
         <marker scope="Public" name="arueshalae_good_dream" />
+        <marker scope="Public" name="clubRouge_invitationResp" />
         <marker scope="Public" name="everyone_out_1" />
         <marker scope="Public" name="felix_intro_1" />
         <marker scope="Public" name="finished" />
@@ -386,6 +425,7 @@
         <marker scope="Public" name="for_me_misspeak" />
         <marker scope="Public" name="for_me_misspeak2" />
         <marker scope="Public" name="good_boy" />
+        <marker scope="Public" name="hot_spring_peddling" />
         <marker scope="Public" name="jura_butt_react" />
         <marker scope="Public" name="kyouko_D_SexyPose" />
         <marker scope="Public" name="losing_to_all_male" />
@@ -400,6 +440,7 @@
         <marker scope="Public" name="nonon_lady_jakuzure_resp" />
         <marker scope="Public" name="nonon_postcum_threat_Resp" />
         <marker scope="Public" name="nonon_short" />
+        <marker scope="Public" name="rosa_ROSE_strip0b" />
         <marker scope="Public" name="rose_aaravi_bandages1" />
         <marker scope="Public" name="rose_aaravi_bandages2" />
         <marker scope="Public" name="rose_aaravi_bandages2B" />
@@ -454,6 +495,14 @@
         <marker scope="Public" name="rose_moskii_animaQuestion1" />
         <marker scope="Public" name="rose_revy_self0a" />
         <marker scope="Public" name="rose_revy_self0b" />
+        <marker scope="Public" name="rose_ROSA_nails1" />
+        <marker scope="Public" name="rose_rosa_self0a" />
+        <marker scope="Public" name="rose_rosa_self0b" />
+        <marker scope="Public" name="rose_rosa_self0c" />
+        <marker scope="Public" name="rose_rosa_self1a" />
+        <marker scope="Public" name="rose_rosa_self1b" />
+        <marker scope="Public" name="rose_rosa_self1c" />
+        <marker scope="Public" name="rose_rouge_strip2a" />
         <marker scope="Public" name="rose_sofia_default0a" />
         <marker scope="Public" name="rose_sofia_default0b" />
         <marker scope="Public" name="rose_sofia_interests1" />
@@ -497,6 +546,7 @@
         <marker scope="Public" name="RoseAaravi_Responsibility3" />
         <marker scope="Public" name="RoseAaravi_SelfEliminated" />
         <marker scope="Public" name="RoseAaravi_SelfEliminated2" />
+        <marker scope="Public" name="rouge_favjewel" />
         <marker scope="Public" name="sanako_spend_your_time" />
         <marker scope="Public" name="show_anima">If set to 1 she will show off her +Anima traits (cat claws and sharp eyes)</marker>
         <marker scope="Public" name="showing_animaFirstTime_yuno" />
