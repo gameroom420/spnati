@@ -12,10 +12,11 @@
         <case name="Amenities Prompt" id="168" priority="Prompt" min="3" max="7">
             <description>Senko asks the table what sorts of modern amenities they enjoy.</description>
         </case>
-        <case name="Halloween Punishment Prompt" id="194" priority="Noteworthy" min="1" max="4">
+        <case name="Halloween Punishment Prompt" id="194" priority="Prompt" min="1" max="4">
             <description>Senko (as an oni) asks how people hate being punished.</description>
         </case>
     </noteworthy>
+    <reviewed>true</reviewed>
     <responses>
         <response id="16" opponent="miko" opponentId="6" />
         <response id="17" opponent="susie" opponentId="103" />
@@ -621,11 +622,23 @@
         <label id="589" label="" folder="Early Game" sort="4" />
         <label id="590" label="Kind Forfeit" folder="Situational Awareness lmao" sort="11" />
         <label id="591" label="Kind Forfeit" folder="Situational Awareness lmao" sort="12" />
+        <label id="619" label="" folder="Easter Costume" sort="0" />
+        <label id="620" label="" folder="Easter Costume" sort="0" />
+        <label id="621" label="" folder="Easter Costume" sort="0" />
+        <label id="622" label="" folder="Easter Costume" sort="0" />
+        <label id="623" label="" folder="Easter Costume" sort="0" />
+        <label id="624" label="" folder="Easter Costume" sort="0" />
+        <label id="625" label="" folder="Easter Costume" sort="0" />
+        <label id="626" label="" folder="Easter Costume" sort="0" />
+        <label id="627" label="" folder="Easter Costume" sort="0" />
+        <label id="628" label="" folder="Easter Costume" sort="0" />
+        <label id="629" label="" folder="Easter Costume" sort="0" />
+        <label id="630" label="" folder="Easter Costume" sort="0" />
     </labels>
     <prefixes>
         <prefix>a-</prefix>
     </prefixes>
-    <nextId>617</nextId>
+    <nextId>630</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="1DN" />
