@@ -423,14 +423,14 @@
         <label id="573" label="" color="4" folder="" sort="0" />
         <label id="574" label="" color="4" folder="" sort="0" />
         <label id="575" label="" color="4" folder="" sort="0" />
-        <label id="577" label="" color="4" folder="" sort="0" />
-        <label id="578" label="" color="4" folder="" sort="0" />
         <label id="580" label="" color="4" folder="" sort="0" />
         <label id="581" label="" color="2" folder="" sort="0" />
         <label id="583" label="" color="4" folder="" sort="0" />
         <label id="584" label="" color="2" folder="" sort="0" />
+        <label id="585" label="" color="4" folder="" sort="0" />
+        <label id="588" label="" color="4" folder="" sort="0" />
     </labels>
-    <nextId>584</nextId>
+    <nextId>588</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="aaravi0" />
@@ -778,6 +778,7 @@
         <marker scope="Public" name="gloria_ca0" />
         <marker scope="Public" name="gloria_cv0" />
         <marker scope="Public" name="gloria_ps0" />
+        <marker scope="Public" name="gloria_sb0" />
         <marker scope="Public" name="gloria0" />
         <marker scope="Public" name="gray0" />
         <marker scope="Public" name="gruntilda0" />
@@ -1011,6 +1012,7 @@
         <marker scope="Public" name="lysithea_resp23" />
         <marker scope="Public" name="lysithea_resp3" />
         <marker scope="Public" name="lysithea_resp34" />
+        <marker scope="Public" name="lysithea_resp4" />
         <marker scope="Public" name="lysithea0" />
         <marker scope="Public" name="lysithea01" />
         <marker scope="Public" name="lysithea1s" />
