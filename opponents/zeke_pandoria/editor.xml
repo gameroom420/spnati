@@ -143,6 +143,8 @@
         <response id="575" opponent="kyouko_toshinou" opponentId="324" />
         <response id="598" opponent="nonon" opponentId="882" />
         <response id="599" opponent="nonon" opponentId="867" />
+        <response id="601" opponent="nonon" opponentId="860" />
+        <response id="602" opponent="nonon" opponentId="932" />
     </responses>
     <notes>
         <note id="10">If you want to ask Pandoria / Pandy questions, you could draw attention to the fact that some of her body parts are lightbulbs, such as a lightbulb in her head.. and her tail. Her specific race is known as a "Blade".</note>
@@ -166,6 +168,8 @@
         <note id="554">this case locks in the intercouse forfeit so that it is continued for the rest of their forfeit</note>
         <note id="572">open-ended question where you can give any response you like</note>
         <note id="573">pandy is flirting</note>
+        <note id="604">"not saying it's a bad thing, but you shouldn't set yourself up for disappointment if she turns you down" kinda vibes</note>
+        <note id="605">open-ended question where you can give any response you like</note>
     </notes>
     <labels>
         <label id="5" label="Pandoria Reminder" folder="" sort="0" />
@@ -758,12 +762,22 @@
         <label id="597" label="" folder="Responses" sort="0" />
         <label id="598" label="" folder="Responses" sort="0" />
         <label id="599" label="" folder="Responses" sort="0" />
+        <label id="600" label="" color="3" folder="Responses" sort="0" />
+        <label id="601" label="" folder="Responses" sort="0" />
+        <label id="602" label="" folder="Responses" sort="0" />
+        <label id="603" label="" color="3" folder="Targets" sort="0" />
+        <label id="604" label="" color="3" folder="Targets" sort="0" />
+        <label id="605" label="" color="3" folder="#Sponsorship&gt;Tweetsie&gt;Pandoria Targets" sort="0" />
+        <label id="606" label="" color="3" folder="#Sponsorship&gt;Tweetsie&gt;Pandoria Targets" sort="0" />
+        <label id="607" label="" folder="Also Playing (Z&amp;P)" sort="0" />
+        <label id="608" label="" color="3" folder="#Sponsorship&gt;Tweetsie&gt;Pandoria Targets" sort="0" />
+        <label id="609" label="" folder="Responses" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>penis=s</posePreviewMarker>
     </posePreviewMarkers>
     <onlyCustomPoses>true</onlyCustomPoses>
-    <nextId>599</nextId>
+    <nextId>609</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="allowsex">If set to 1, Zeke and Pandoria *can* (but are not guaranteed to) have sex for their forfeit.</marker>
@@ -840,8 +854,10 @@
         <marker scope="Public" name="pandy_nonon_self1b" />
         <marker scope="Public" name="pandy_nonon_self1c" />
         <marker scope="Public" name="pandy_senko_foxWisdom1" />
+        <marker scope="Public" name="pandy_senko_foxWisdom2" />
         <marker scope="Public" name="pandy_senko_selfCare1" />
         <marker scope="Public" name="pandy_senko_soCute1" />
+        <marker scope="Public" name="pandy_senko_soCute2" />
         <marker scope="Public" name="pandy_strips_boots">Pandoria strips her boots while Zeke removes his boots.</marker>
         <marker scope="Public" name="pandy_strips_bottom">Pandoria strips her bottoms (underwear) while Zeke removes his own boxers.</marker>
         <marker scope="Public" name="pandy_strips_bra">Pandoria strips her bra when Zeke takes off his pants.</marker>
@@ -1123,6 +1139,7 @@
         <marker scope="Public" name="zekepandy_zoe_moragPresentResp" />
         <marker scope="Public" name="zekepandy_zoe_moragResp" />
         <marker scope="Public" name="zk_sanako_self1a" />
+        <marker scope="Public" name="zk_sanako_self1b" />
         <marker scope="Public" name="zk_solarflare_photosynthesis" />
         <marker scope="Public" name="zoe_swapRoles" />
         <marker scope="Public" name="Zoe_ZekePandoriaAbsResp" />
@@ -1140,14 +1157,19 @@
         <marker scope="Public" name="zp_nonon_self1b" />
         <marker scope="Public" name="zp_nonon_self2a" />
         <marker scope="Public" name="zp_nonon_self2b" />
+        <marker scope="Public" name="zp_nonon_self2c" />
         <marker scope="Public" name="zp_nonon_self3a" />
         <marker scope="Public" name="zp_nonon_self3b" />
+        <marker scope="Public" name="zp_nonon_self3c" />
         <marker scope="Public" name="zp_nonon_self5a" />
+        <marker scope="Public" name="zp_nonon_self5b" />
         <marker scope="Public" name="zp_nonon_strip0a" />
         <marker scope="Public" name="zp_nonon_strip0b" />
         <marker scope="Public" name="zp_nonon_strip0c" />
         <marker scope="Public" name="zp_nonon_strip1a" />
         <marker scope="Public" name="zp_nonon_strip1b" />
+        <marker scope="Public" name="zp_nonon_strip2a" />
+        <marker scope="Public" name="zp_nonon_strip3a" />
         <marker scope="Public" name="zp_sofia_intro1" />
         <marker scope="Public" name="zp_sofia_intro2" />
         <marker scope="Public" name="zp_sofia_suitors1" />
