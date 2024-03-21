@@ -7,6 +7,6 @@
         <unlock>Finish a game with Bella Goth.</unlock>
         <counter>1</counter>
         <wearable>true</wearable>
-        <clothing name="plumbob necklace" generic="jewelry" position="neck" type="extra" img="opponents/bella_goth/images/plumbob_necklace.png" />
+        <clothing img="opponents/bella_goth/images/plumbob_necklace.png" name="plumbob necklace" generic="jewelry" position="neck" type="extra" />
     </collectible>
 </collectibles>
