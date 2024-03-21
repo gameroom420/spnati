@@ -638,6 +638,7 @@
 
         <!-- Put all costumes into the same group, but place new costumes higher -->
         <character highlight="easter" partition="1" sort="2">mari</character>
+        <character highlight="easter" partition="1" sort="2">senko</character>
         <character highlight="easter" partition="1" sort="2">gloria</character>
 
         <costumes highlight="easter" partition="1" sort="1">easter</costumes>
