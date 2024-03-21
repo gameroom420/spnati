@@ -942,11 +942,12 @@ funny answer: crab because her mech gets likened to one</note>
         <label id="1605" label="" color="4" folder="" sort="0" />
         <label id="1606" label="" color="4" folder="" sort="0" />
         <label id="1607" label="" color="4" folder="" sort="0" />
+        <label id="1608" label="" color="4" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>jura</prefix>
     </prefixes>
-    <nextId>1607</nextId>
+    <nextId>1608</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="1v1">Jura acknowledges that the game has come down to her and one other player.</marker>
@@ -2709,6 +2710,7 @@ funny answer: crab because her mech gets likened to one</note>
         <marker scope="Public" name="senko_shrines2" />
         <marker scope="Public" name="senko_ssv0" />
         <marker scope="Public" name="senko_tail" />
+        <marker scope="Public" name="senko_ut0" />
         <marker scope="Public" name="senko0" />
         <marker scope="Public" name="senko01" />
         <marker scope="Public" name="senko1" />
