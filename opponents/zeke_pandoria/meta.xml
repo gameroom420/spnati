@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1710988140781</lastupdate>
+    <lastupdate>1711054551037</lastupdate>
     <enabled>false</enabled>
     <first>Zeke</first>
     <last>von Genbu</last>
@@ -14,11 +14,12 @@
     <layers>6</layers>
     <default-costume-name>Thunderbolt Zeke</default-costume-name>
     <alternates>
-        <costume folder="opponents/reskins/zeke_pandoria_beach/" img="0-select.png" set="summer" status="unlisted" label="Zeke">Surfinator / Beach Date</costume>
+        <costume folder="opponents/reskins/zeke_pandoria_beach/" img="0-select.png" set="summer" status="unlisted" label="Zeke" layers="4">Surfinator / Beach Date</costume>
+        <costume folder="opponents/reskins/zeke_pandoria_easter/" img="0-select.png" set="easter" status="unlisted" label="Zeke">Fancy Attire</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>1211</lines>
-    <poses>269</poses>
+    <lines>1223</lines>
+    <poses>274</poses>
     <z-index>-5</z-index>
     <font-size>small</font-size>
 </opponent>
