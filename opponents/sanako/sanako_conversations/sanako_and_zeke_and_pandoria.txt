@@ -81,10 +81,10 @@ Zeke & Pandoria [zekepandy_sanako_self0c]: If you think that's impressive, just 
 
 ZEKE & PANDORIA MUST STRIP PAULDRONS & DRESS:
 Sanako [sanako_zeke_sz_z4]: Zeke is quite the hunk. Don't let him get away, Pandoria. Have you two decided what the future holds yet? Wedding bells anytime soon?
-Zeke & Pandoria []*: ??
+Zeke & Pandoria [zk_sanako_self1a]: W-Wedding bells? Er, not just yet, Sanako! We're...<hr>{pandy}We're still sorting some things out! Yeah...
 
 ZEKE & PANDORIA STRIPPING PAULDRONS & DRESS:
-Sanako [sanako_zeke_sz_z5]*: ??
+Sanako [sanako_zeke_sz_z5]: Some men are just afraid to commit. Other men... well, let's just say they're happy to live off a lifetime of free samples.
 Zeke & Pandoria []*: ??
 
 ZEKE & PANDORIA STRIPPED PAULDRONS & DRESS:

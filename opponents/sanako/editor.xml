@@ -163,6 +163,20 @@
         <response id="378" opponent="nagisa" opponentId="1188" />
         <response id="379" opponent="estelle" opponentId="735" />
         <response id="380" opponent="neptune" opponentId="38" />
+        <response id="382" opponent="nagisa" opponentId="654" />
+        <response id="383" opponent="nagisa" opponentId="661" />
+        <response id="384" opponent="nagisa" opponentId="668" />
+        <response id="387" opponent="kyou" opponentId="511" />
+        <response id="388" opponent="kyou" opponentId="518" />
+        <response id="389" opponent="kyou" opponentId="525" />
+        <response id="390" opponent="kyoko_kirigiri" opponentId="2088" />
+        <response id="391" opponent="kyoko_kirigiri" opponentId="1874" />
+        <response id="396" opponent="reimu" opponentId="443" />
+        <response id="397" opponent="reimu" opponentId="458" />
+        <response id="398" opponent="reimu" opponentId="473" />
+        <response id="399" opponent="nagisa" opponentId="1421" />
+        <response id="400" opponent="nagisa" opponentId="1436" />
+        <response id="401" opponent="nagisa" opponentId="1450" />
     </responses>
     <notes>
         <note id="159">This is a lie.</note>
@@ -292,10 +306,10 @@
         <label id="122" label="headphones" folder="" sort="0" />
         <label id="123" label="headphones" folder="" sort="0" />
         <label id="124" label="" folder="Shamiko to left" sort="0" />
-        <label id="125" label="" folder="Nagisa to left / Raynor to right" sort="0" />
-        <label id="126" label="" folder="Nagisa and Raynor to left" sort="0" />
-        <label id="127" label="" folder="Nagisa and Reimu to left" sort="2" />
-        <label id="128" label="" folder="Nagisa and Reimu to left" sort="0" />
+        <label id="125" label="" folder="Raynor to right / Nagisa to left" sort="0" />
+        <label id="126" label="" folder="Raynor and Nagisa to left" sort="0" />
+        <label id="127" label="" folder="Reimu and Nagisa to left" sort="2" />
+        <label id="128" label="" folder="Reimu and Nagisa to left" sort="0" />
         <label id="129" label="" folder="Nagisa and Meia to left" sort="0" />
         <label id="130" label="big butt and breasts" folder="" sort="0" />
         <label id="131" label="big butt and breasts" folder="" sort="0" />
@@ -303,12 +317,12 @@
         <label id="133" label="" folder="Nagisa and Petra to left" sort="0" />
         <label id="134" label="" folder="Nagisa to left / Petra to right" sort="0" />
         <label id="135" label="" folder="Nagisa to left / Jura to left" sort="0" />
-        <label id="136" label="" folder="Nagisa to left / Jura to left or right" sort="2" />
-        <label id="137" label="" folder="Nagisa and Jura to left" sort="2" />
+        <label id="136" label="" folder="Jura to left or right / Nagisa to left" sort="2" />
+        <label id="137" label="" folder="Jura and Nagisa to left" sort="2" />
         <label id="138" label="" folder="Nagisa and Jura to left" sort="3" />
-        <label id="139" label="" folder="Nagisa to left / Jura to right" sort="0" />
-        <label id="140" label="" folder="Nagisa to left / Jura to left or right" sort="0" />
-        <label id="141" label="" folder="Nagisa and Jura to left" sort="2" />
+        <label id="139" label="" folder="Jura to right / Nagisa to left" sort="0" />
+        <label id="140" label="" folder="Jura to left or right / Nagisa to left" sort="0" />
+        <label id="141" label="" folder="Jura and Nagisa to left" sort="2" />
         <label id="142" label="" folder="Nagisa and Jura to left" sort="0" />
         <label id="143" label="holiday lodge" folder="" sort="0" />
         <label id="144" label="" folder="Nonon to left" sort="7" />
@@ -348,7 +362,7 @@
         <label id="180" label="" folder="Meia to left" sort="3" />
         <label id="181" label="" folder="Nonon to right" sort="5" />
         <label id="182" label="" folder="Nonon to left" sort="5" />
-        <label id="183" label="" folder="Kyou to left" sort="0" />
+        <label id="183" label="" folder="Kyou to left" sort="2" />
         <label id="184" label="" folder="Jessie to left" sort="0" />
         <label id="185" label="" folder="Jessie to left" sort="2" />
         <label id="186" label="" folder="Jessie to left" sort="3" />
@@ -427,7 +441,7 @@
         <label id="260" label="" folder="Nagisa to left / Kyou to right" sort="2" />
         <label id="261" label="" folder="Nagisa to left / Kyou to right" sort="3" />
         <label id="263" label="" folder="Chihiro to left or right" sort="0" />
-        <label id="262" label="" folder="Chihiro to left or right" sort="0" />
+        <label id="262" label="" folder="Chihiro to left or right" sort="2" />
         <label id="264" label="" folder="Chihiro to left" sort="2" />
         <label id="265" label="" folder="Chihiro to right" sort="2" />
         <label id="266" label="" folder="Chihiro to right" sort="3" />
@@ -442,59 +456,59 @@
         <label id="275" label="" folder="Mom to left" sort="4" />
         <label id="276" label="" folder="Mom to left" sort="5" />
         <label id="277" label="" folder="Mom to left" sort="6" />
-        <label id="278" label="" folder="Yuri to left" sort="0" />
+        <label id="278" label="" folder="Yuri to left" sort="2" />
         <label id="279" label="" folder="Nonon to left" sort="5" />
         <label id="280" label="" folder="Nonon to right" sort="4" />
         <label id="281" label="" folder="Nadeshiko to right" sort="2" />
         <label id="282" label="" folder="Nadeshiko to right" sort="0" />
         <label id="283" label="" folder="Zeka &amp; Pandoria to right" sort="0" />
         <label id="284" label="" folder="Zeke &amp; Pandoria to right" sort="2" />
-        <label id="285" label="" folder="Kyoko Kirigiri to left" sort="0" />
+        <label id="285" label="" folder="Kyoko Kirigiri to left" sort="2" />
         <label id="286" label="" folder="Kyoko Kirigiri to left" sort="2" />
         <label id="290" label="" folder="Elizabeth to left" sort="0" />
-        <label id="291" label="" folder="Meia to left" sort="0" />
-        <label id="292" label="" folder="Meia to left" sort="0" />
-        <label id="293" label="" folder="Meia to left" sort="0" />
-        <label id="294" label="" folder="Meia to left" sort="0" />
-        <label id="295" label="" folder="Meia to right" sort="0" />
-        <label id="296" label="" folder="Meia to right" sort="0" />
+        <label id="291" label="" folder="Meia to left" sort="15" />
+        <label id="292" label="" folder="Meia to left" sort="12" />
+        <label id="293" label="" folder="Meia to left" sort="11" />
+        <label id="294" label="" folder="Meia to left" sort="5" />
+        <label id="295" label="" folder="Meia to right" sort="7" />
+        <label id="296" label="" folder="Meia to right" sort="2" />
         <label id="297" label="" folder="Nagatoro to left" sort="0" />
-        <label id="298" label="" folder="Nagatoro to left" sort="0" />
+        <label id="298" label="" folder="Nagatoro to left" sort="2" />
         <label id="299" label="" folder="Nagatoro to left or right" sort="0" />
-        <label id="300" label="" folder="Jessie to left" sort="0" />
-        <label id="301" label="" folder="Jessie to left" sort="0" />
-        <label id="302" label="" folder="Nagatoro to right" sort="0" />
+        <label id="300" label="" folder="Jessie to left" sort="15" />
+        <label id="301" label="" folder="Jessie to left" sort="16" />
+        <label id="302" label="" folder="Nagatoro to right" sort="2" />
         <label id="303" label="" folder="Nagatoro to right" sort="0" />
-        <label id="304" label="" folder="Yuri to left" sort="0" />
+        <label id="304" label="" folder="Yuri to left" sort="3" />
         <label id="305" label="middle slots empty" folder="" sort="0" />
         <label id="306" label="middle slots empty" folder="" sort="0" />
         <label id="307" label="" folder="Chihiro to right" sort="0" />
-        <label id="308" label="" folder="Chihiro to right" sort="0" />
-        <label id="309" label="" folder="Chihiro to right" sort="0" />
+        <label id="308" label="" folder="Chihiro to right" sort="3" />
+        <label id="309" label="" folder="Chihiro to right" sort="5" />
         <label id="310" label="" folder="Chihiro to left" sort="0" />
-        <label id="311" label="" folder="Chihiro to left" sort="0" />
+        <label id="311" label="" folder="Chihiro to left" sort="3" />
         <label id="312" label="" folder="Chihiro to left" sort="0" />
-        <label id="313" label="" folder="Chihiro to left" sort="0" />
+        <label id="313" label="" folder="Chihiro to left" sort="5" />
         <label id="314" label="" folder="Chihiro to left or right" sort="0" />
-        <label id="315" label="" folder="Mari Setogaya to right" sort="0" />
-        <label id="316" label="" folder="Mari Setogaya to right" sort="0" />
-        <label id="317" label="" folder="Nadeshiko to left" sort="0" />
-        <label id="318" label="" folder="Nadeshiko to left" sort="0" />
-        <label id="319" label="" folder="Nadeshiko to left" sort="0" />
-        <label id="320" label="" folder="Zeke &amp; Pandoria to right" sort="0" />
+        <label id="315" label="" folder="Mari Setogaya to right" sort="3" />
+        <label id="316" label="" folder="Mari Setogaya to right" sort="7" />
+        <label id="317" label="" folder="Nadeshiko to left" sort="3" />
+        <label id="318" label="" folder="Nadeshiko to left" sort="4" />
+        <label id="319" label="" folder="Nadeshiko to left" sort="2" />
+        <label id="320" label="" folder="Zeke &amp; Pandoria to right" sort="4" />
         <label id="321" label="" folder="Yuri to left" sort="0" />
-        <label id="323" label="" folder="Rose to left or right" sort="0" />
+        <label id="323" label="" folder="Rose to left or right" sort="2" />
         <label id="322" label="" folder="Rose to left or right" sort="0" />
         <label id="324" label="hot" folder="" sort="0" />
-        <label id="325" label="" folder="Jura to left" sort="0" />
-        <label id="326" label="" folder="Jura to left" sort="0" />
+        <label id="325" label="" folder="Jura to left" sort="4" />
+        <label id="326" label="" folder="Jura to left" sort="9" />
         <label id="327" label="" folder="Twisted Fate to left" sort="0" />
-        <label id="328" label="" folder="Rose to left" sort="0" />
+        <label id="328" label="" folder="Rose to left" sort="2" />
         <label id="329" label="" folder="Rose to left" sort="0" />
-        <label id="330" label="" folder="Kyoko Kirigiri to right" sort="0" />
-        <label id="331" label="" folder="Kyoko Kirigiri to right" sort="0" />
-        <label id="332" label="" folder="Kyoko Kirigiri to left" sort="0" />
-        <label id="333" label="" folder="Kyoko Kirigiri to left" sort="0" />
+        <label id="330" label="" folder="Kyoko Kirigiri to right" sort="4" />
+        <label id="331" label="" folder="Kyoko Kirigiri to right" sort="2" />
+        <label id="332" label="" folder="Kyoko Kirigiri to left" sort="4" />
+        <label id="333" label="" folder="Kyoko Kirigiri to left" sort="6" />
         <label id="334" label="" folder="Ribbon Girl to left" sort="0" />
         <label id="335" label="" folder="Nadeshiko to left" sort="0" />
         <label id="336" label="birthday backyard" folder="" sort="0" />
@@ -503,34 +517,34 @@
         <label id="339" label="birthday backyard" folder="" sort="0" />
         <label id="340" label="birthday backyard: player won" folder="" sort="0" />
         <label id="341" label="birthday backyard: player didn't win" folder="" sort="0" />
-        <label id="342" label="" folder="Mari Setogaya to right" sort="0" />
-        <label id="343" label="" folder="Mari Setogaya to right" sort="0" />
+        <label id="342" label="" folder="Mari Setogaya to right" sort="8" />
+        <label id="343" label="" folder="Mari Setogaya to right" sort="4" />
         <label id="344" label="" folder="Rouge the Bat to left" sort="0" />
-        <label id="345" label="" folder="Rouge the Bat to left" sort="0" />
-        <label id="346" label="" folder="Meia to right" sort="0" />
-        <label id="347" label="" folder="Meia to right" sort="0" />
-        <label id="348" label="" folder="Meia to left" sort="0" />
-        <label id="349" label="" folder="Meia to left" sort="0" />
-        <label id="350" label="" folder="Meia to left" sort="0" />
-        <label id="351" label="" folder="Meia to left" sort="0" />
+        <label id="345" label="" folder="Rouge the Bat to left" sort="2" />
+        <label id="346" label="" folder="Meia to right" sort="4" />
+        <label id="347" label="" folder="Meia to right" sort="9" />
+        <label id="348" label="" folder="Meia to left" sort="14" />
+        <label id="349" label="" folder="Meia to left" sort="8" />
+        <label id="350" label="" folder="Meia to left" sort="7" />
+        <label id="351" label="" folder="Meia to left" sort="3" />
         <label id="352" label="athletic legs, no companion" folder="" sort="0" />
-        <label id="353" label="chiming in on banter" folder="Nadeshiko to left" sort="0" />
-        <label id="354" label="chiming in on banter" folder="Nadeshiko to left" sort="0" />
-        <label id="355" label="chiming in on banter" folder="Nadeshiko to left" sort="0" />
-        <label id="356" label="chiming in on banter" folder="Nadeshiko to left" sort="0" />
-        <label id="357" label="feminine bedroom" folder="CONVERSATION STATERS" sort="0" />
-        <label id="358" label="" folder="Zeke &amp; Pandoria to right" sort="0" />
+        <label id="353" label="chiming in on banter" folder="Nadeshiko to left" sort="6" />
+        <label id="354" label="chiming in on banter" folder="Nadeshiko to left" sort="7" />
+        <label id="355" label="chiming in on banter" folder="Nadeshiko to left" sort="8" />
+        <label id="356" label="chiming in on banter" folder="Nadeshiko to left" sort="9" />
+        <label id="357" label="feminine bedroom" folder="CONVERSATION STATERS" sort="3" />
+        <label id="358" label="" folder="Zeke &amp; Pandoria to right" sort="2" />
         <label id="359" label="" folder="Nagatoro to left" sort="0" />
-        <label id="360" label="chiming in on banter" folder="Nagatoro to left" sort="0" />
-        <label id="361" label="chiming in on banter" folder="Nagatoro to left or right" sort="0" />
+        <label id="360" label="chiming in on banter" folder="Nagatoro to left" sort="3" />
+        <label id="361" label="chiming in on banter" folder="Nagatoro to left or right" sort="2" />
         <label id="362" label="" folder="Kyou to left" sort="0" />
-        <label id="363" label="" folder="Kyou to left" sort="0" />
-        <label id="364" label="" folder="Kyou to left" sort="0" />
+        <label id="363" label="" folder="Kyou to left" sort="5" />
+        <label id="364" label="" folder="Kyou to left" sort="6" />
         <label id="365" label="" folder="Kyou to left / Nagisa to left or right" sort="0" />
-        <label id="366" label="" folder="Kyou to left / Nagisa to left or right" sort="0" />
-        <label id="367" label="" folder="Mari Setogaya to right" sort="0" />
-        <label id="368" label="" folder="Mari Setogaya to right" sort="0" />
-        <label id="369" label="" folder="Nadeshiko to left" sort="0" />
+        <label id="366" label="" folder="Kyou to left / Nagisa to left or right" sort="2" />
+        <label id="367" label="" folder="Mari Setogaya to right" sort="6" />
+        <label id="368" label="" folder="Mari Setogaya to right" sort="2" />
+        <label id="369" label="" folder="Nadeshiko to left" sort="5" />
         <label id="370" label="alley" folder="" sort="0" />
         <label id="371" label="club" folder="" sort="0" />
         <label id="372" label="feminine bedroom" folder="" sort="0" />
@@ -541,12 +555,36 @@
         <label id="378" label="" folder="Nagisa to left / Estelle to right" sort="0" />
         <label id="379" label="" folder="Nagisa and Estelle to left" sort="0" />
         <label id="380" label="" folder="Neptune to left" sort="0" />
+        <label id="381" label="" folder="Yuri to left" sort="4" />
+        <label id="382" label="" folder="Nagisa to left / Kyou to right" sort="2" />
+        <label id="383" label="" folder="Nagisa to left / Kyou to right" sort="4" />
+        <label id="384" label="" folder="Nagisa to left / Kyou to right" sort="6" />
+        <label id="385" label="" folder="Nagisa and Kyou to right" sort="0" />
+        <label id="386" label="" folder="Nagisa and Kyou to right" sort="2" />
+        <label id="387" label="" folder="Nagisa and Kyou to left" sort="2" />
+        <label id="388" label="" folder="Nagisa and Kyou to left" sort="4" />
+        <label id="389" label="" folder="Nagisa and Kyou to left" sort="6" />
+        <label id="390" label="haunted forest" folder="Kyoko Kirigiri to left" sort="3" />
+        <label id="391" label="" folder="Kyoko Kirigiri to left" sort="0" />
+        <label id="392" label="" folder="Marinette to left or right" sort="0" />
+        <label id="393" label="" folder="Rouge the Bat to left or right" sort="0" />
+        <label id="394" label="" folder="Nagisa and Reimu to right" sort="0" />
+        <label id="395" label="" folder="Nagisa and Reimu to right" sort="2" />
+        <label id="396" label="" folder="Nagisa to right / Reimu to left" sort="0" />
+        <label id="397" label="" folder="Nagisa to right / Reimu to left" sort="2" />
+        <label id="398" label="" folder="Nagisa to right / Reimu to left" sort="3" />
+        <label id="399" label="" folder="Nagisa and Reimu to left" sort="0" />
+        <label id="400" label="" folder="Nagisa and Reimu to left" sort="2" />
+        <label id="401" label="" folder="Nagisa and Reimu to left" sort="3" />
+        <label id="402" label="" folder="Zeke &amp; Pandoria to right" sort="0" />
+        <label id="403" label="grass surface" folder="" sort="0" />
+        <label id="404" label="hairy / garden" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>collectible_</prefix>
         <prefix>x-</prefix>
     </prefixes>
-    <nextId>380</nextId>
+    <nextId>404</nextId>
     <markers>
         <marker scope="Public" name="sanako_ae86_selected" />
         <marker scope="Public" name="sanako_ae86_selected_indoors" />
@@ -591,6 +629,7 @@
         <marker scope="Public" name="sanako_explains_pairs">Sanako explains basic pairs gameplay.</marker>
         <marker scope="Public" name="sanako_feminine_bedroom_curtains" />
         <marker scope="Public" name="sanako_feminine_bedroom_selected" />
+        <marker scope="Public" name="sanako_grass_ticklish" />
         <marker scope="Public" name="sanako_hot">Sanako blames the heat for her skirt removal.</marker>
         <marker scope="Public" name="sanako_hot_fanning" />
         <marker scope="Public" name="sanako_how_you_spend_your_time" />
@@ -636,9 +675,11 @@
         <marker scope="Public" name="sanako_kumatora_eternal" />
         <marker scope="Public" name="sanako_kumatora_husband" />
         <marker scope="Public" name="sanako_kyoko_december_work" />
+        <marker scope="Public" name="sanako_kyoko_haunted_voyeurs" />
         <marker scope="Public" name="sanako_kyoko_ks_k1" />
         <marker scope="Public" name="sanako_kyoko_ks_s1" />
         <marker scope="Public" name="sanako_kyoko_large_breast_prompt" />
+        <marker scope="Public" name="sanako_kyoko_selected_scantily" />
         <marker scope="Public" name="sanako_kyoko_sk_k1" />
         <marker scope="Public" name="sanako_kyoko_sk_k2" />
         <marker scope="Public" name="sanako_kyoko_sk_s1" />
@@ -755,8 +796,16 @@
         <marker scope="Public" name="sanako_nagisa_jura_nj_j8" />
         <marker scope="Public" name="sanako_nagisa_jura_nj_j9" />
         <marker scope="Public" name="sanako_nagisa_jura_nj_j9_right" />
+        <marker scope="Public" name="sanako_nagisa_kyou_nks_n7" />
+        <marker scope="Public" name="sanako_nagisa_kyou_nks_n8" />
+        <marker scope="Public" name="sanako_nagisa_kyou_nks_n9" />
         <marker scope="Public" name="sanako_nagisa_kyou_not_family_fun" />
+        <marker scope="Public" name="sanako_nagisa_kyou_nsk_n7" />
+        <marker scope="Public" name="sanako_nagisa_kyou_nsk_n8" />
+        <marker scope="Public" name="sanako_nagisa_kyou_nsk_n9" />
         <marker scope="Public" name="sanako_nagisa_kyou_parents_playing" />
+        <marker scope="Public" name="sanako_nagisa_kyou_snk_n8" />
+        <marker scope="Public" name="sanako_nagisa_kyou_snk_n9" />
         <marker scope="Public" name="sanako_nagisa_kyou_teased" />
         <marker scope="Public" name="sanako_nagisa_losing_streak" />
         <marker scope="Public" name="sanako_nagisa_meia_telling_tomoya" />
@@ -805,6 +854,14 @@
         <marker scope="Public" name="sanako_nagisa_petra_pn_n1" />
         <marker scope="Public" name="sanako_nagisa_reimu_rn_n12" />
         <marker scope="Public" name="sanako_nagisa_reimu_rn_r8" />
+        <marker scope="Public" name="sanako_nagisa_reimu_rns_n4" />
+        <marker scope="Public" name="sanako_nagisa_reimu_rns_n5" />
+        <marker scope="Public" name="sanako_nagisa_reimu_rns_n6" />
+        <marker scope="Public" name="sanako_nagisa_reimu_rsn_n4" />
+        <marker scope="Public" name="sanako_nagisa_reimu_rsn_n5" />
+        <marker scope="Public" name="sanako_nagisa_reimu_rsn_n6" />
+        <marker scope="Public" name="sanako_nagisa_reimu_srn_n5" />
+        <marker scope="Public" name="sanako_nagisa_reimu_srn_n6" />
         <marker scope="Public" name="sanako_nagisa_selected" />
         <marker scope="Public" name="sanako_nagisa_sn_n1" />
         <marker scope="Public" name="sanako_nagisa_sn_n10" />
@@ -871,6 +928,7 @@
         <marker scope="Public" name="sanako_nonon_sn_n7" />
         <marker scope="Public" name="sanako_nonon_sn_s1" />
         <marker scope="Public" name="sanako_offlimits_thoughts" />
+        <marker scope="Public" name="sanako_outdoors_nudist" />
         <marker scope="Public" name="sanako_paris_rooftop_selected" />
         <marker scope="Public" name="sanako_petra_nagisa_strip0a" />
         <marker scope="Public" name="sanako_press_buttons">Sanako observes that we're pressing a sarcastic girl's buttons.</marker>
@@ -924,11 +982,13 @@
         <marker scope="Public" name="sanako_yuri_selected" />
         <marker scope="Public" name="sanako_yuri_sy_s1" />
         <marker scope="Public" name="sanako_yuri_sy_y1" />
+        <marker scope="Public" name="sanako_yuri_victory_keep_secret" />
         <marker scope="Public" name="sanako_zeke_selected" />
         <marker scope="Public" name="sanako_zeke_sz_z1" />
         <marker scope="Public" name="sanako_zeke_sz_z2" />
         <marker scope="Public" name="sanako_zeke_sz_z3" />
         <marker scope="Public" name="sanako_zeke_sz_z4" />
+        <marker scope="Public" name="sanako_zeke_sz_z5" />
         <marker scope="Public" name="sanako_zizou_prince" />
         <marker scope="Public" name="sanako_zonetan_strapless">Sanako mistakes Zone-tan's bare shoulders for a strapless bra.</marker>
     </markers>
