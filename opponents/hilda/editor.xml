@@ -185,6 +185,8 @@
         <response id="0" opponent="streaming-chan" opponentId="14" />
         <response id="0" opponent="streaming-chan" opponentId="10" />
         <response id="0" opponent="mitama" opponentId="3" />
+        <response id="0" opponent="nonon" opponentId="487" />
+        <response id="0" opponent="nonon" opponentId="226" />
     </responses>
     <notes>
         <note id="119">Yes, Hilda's second line here is very deliberately ironic.</note>
@@ -1073,9 +1075,9 @@ Hilda is dessert?</note>
         <label id="1022" label="" color="1" folder="" sort="0" />
         <label id="1023" label="" color="1" folder="" sort="0" />
         <label id="1024" label="" color="1" folder="" sort="0" />
-        <label id="1026" label="" color="1" folder="" sort="0" />
-        <label id="990" label="" color="1" folder="" sort="0" />
-        <label id="1027" label="" color="1" folder="" sort="0" />
+        <label id="1032" label="" color="1" folder="" sort="0" />
+        <label id="1030" label="" color="1" folder="" sort="0" />
+        <label id="1029" label="" color="1" folder="" sort="0" />
         <label id="1011" label="Touch2" color="1" folder="" sort="0" />
         <label id="1012" label="Share2" color="1" folder="" sort="0" />
         <label id="1010" label="Pale2" color="1" folder="" sort="0" />
@@ -1085,8 +1087,10 @@ Hilda is dessert?</note>
         <label id="1006" label="Dominance2" color="1" folder="" sort="0" />
         <label id="1004" label="Claude2" color="1" folder="" sort="0" />
         <label id="1005" label="Books2" color="1" folder="" sort="0" />
+        <label id="1028" label="" color="1" folder="" sort="0" />
+        <label id="1031" label="" color="1" folder="" sort="0" />
     </labels>
-    <nextId>1027</nextId>
+    <nextId>1032</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="3HBeachTrip" />
@@ -2026,8 +2030,13 @@ Hilda is dessert?</note>
         <marker scope="Public" name="NonFormalLingerieRevealed" />
         <marker scope="Public" name="NonHumanEttiquette" />
         <marker scope="Public" name="NononConvergentEvolution" />
+        <marker scope="Public" name="NononConvergentEvolution2" />
         <marker scope="Public" name="NononDeerCounter" />
+        <marker scope="Public" name="NononDeerCounter2" />
+        <marker scope="Public" name="NononPriorities" />
+        <marker scope="Public" name="NononRespectSuperiors" />
         <marker scope="Public" name="NononUniforms" />
+        <marker scope="Public" name="NononUniforms2" />
         <marker scope="Public" name="NotManyLayersLeft" />
         <marker scope="Public" name="ObviousWinner" />
         <marker scope="Public" name="ObviousWinnerElimination" />
