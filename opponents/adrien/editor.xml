@@ -481,6 +481,8 @@
         <response id="933" opponent="leon" opponentId="1452" />
         <response id="934" opponent="leon" opponentId="1453" />
         <response id="936" opponent="nonon" opponentId="629" />
+        <response id="938" opponent="nonon" opponentId="681" />
+        <response id="939" opponent="nonon" opponentId="682" />
     </responses>
     <notes>
         <note id="935">Intention of this line is expecting a reply like "Well why are you here?" if there's chemistyr </note>
@@ -989,7 +991,7 @@
     <prefixes>
         <prefix>plagg</prefix>
     </prefixes>
-    <nextId>937</nextId>
+    <nextId>939</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="adr_mari_dual" />
@@ -1462,7 +1464,11 @@
         <marker scope="Public" name="nonon01" />
         <marker scope="Public" name="nonon01a" />
         <marker scope="Public" name="nonon01b" />
+        <marker scope="Public" name="nonon02" />
+        <marker scope="Public" name="nonon02a" />
+        <marker scope="Public" name="nonon02b" />
         <marker scope="Public" name="nonon11" />
+        <marker scope="Public" name="nonon12" />
         <marker scope="Public" name="palutena_post" />
         <marker scope="Public" name="pandemonica_shift" />
         <marker scope="Public" name="perona_ff" />
