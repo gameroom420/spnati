@@ -667,11 +667,15 @@
         <label id="661" label="" color="1" folder="" sort="0" />
         <label id="666" label="" folder="Easter Costume" sort="0" />
         <label id="667" label="" folder="Easter Costume" sort="0" />
+        <label id="668" label="" color="1" folder="" sort="0" />
+        <label id="669" label="" color="1" folder="" sort="0" />
+        <label id="670" label="" color="1" folder="" sort="0" />
+        <label id="671" label="" color="1" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>a-</prefix>
     </prefixes>
-    <nextId>667</nextId>
+    <nextId>671</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="1DN" />
@@ -1218,6 +1222,8 @@
         <marker scope="Public" name="slyFFH4" />
         <marker scope="Public" name="slyFFH5" />
         <marker scope="Public" name="sm_ff" />
+        <marker scope="Public" name="Sofia_monster_reply" />
+        <marker scope="Public" name="Sofia_selfCook_reply" />
         <marker scope="Public" name="spooky_shapeshifting" />
         <marker scope="Public" name="spooky01" />
         <marker scope="Public" name="stocking_costume" />
@@ -1250,6 +1256,8 @@
         <marker scope="Public" name="tomoko02" />
         <marker scope="Public" name="tomoko03" />
         <marker scope="Public" name="uni_ff" />
+        <marker scope="Public" name="Yae_selfElder_reply" />
+        <marker scope="Public" name="Yae_selfYokai_reply" />
         <marker scope="Public" name="yshotola01" />
         <marker scope="Public" name="yshtola02" />
         <marker scope="Public" name="yuri_feet" />
