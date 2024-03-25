@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<costume>
+    <id>rouge_canon</id>
+    <label>Rouge</label>
+    <tags>
+        <tag>alternative_skin</tag>
+        <tag from="0" to="4">flies</tag>
+        <tag from="6" to="6">flies</tag>
+        <tag remove="true">flying_forfeit</tag>
+        <tag>furry</tag>
+        <tag from="5" to="5">kneeling_forfeit</tag>
+        <tag>short</tag>
+        <tag from="5" to="5">uses_toy</tag>
+    </tags>
+    <layers>4</layers>
+    <folder>opponents/reskins/rouge_canon/</folder>
+    <wardrobe>
+        <clothing name="bodysuit" generic="bodysuit" position="lower" type="major" />
+        <clothing name="gloves" generic="gloves" position="hands" type="extra" plural="true" />
+        <clothing name="boots" generic="shoes" position="feet" type="extra" plural="true" />
+        <clothing name="chest plate" generic="" position="upper" type="major" />
+    </wardrobe>
+
+    <poses>
+        <pose id="5-finishing_scream">
+            <sprite id="Rouge_Echo1" z="1" src="rouge/Rouge_Echo.png" x="1" y="549" scalex="0.02" scaley="0.02" alpha="75" />
+            <sprite id="Rouge_Echo2" delay="0.75" z="1" src="rouge/Rouge_Echo.png" x="1" y="549" scalex="0.02" scaley="0.02" alpha="75" />
+            <sprite id="Rouge_Wings_Flappy" z="-1" src="rouge/Rouge_Wings_Flappy.png" x="29" y="672" scalex="1" rotation="7" />
+            <sprite id="finishing" src="reskins/rouge_canon/5-finishing.png" x="0" y="0" />
+            <directive type="animation" id="Rouge_Echo1" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="1" y="549" scalex="0.02" scaley="0.02" alpha="75" />
+                <keyframe time="0.38" x="1" y="549" alpha="75" />
+                <keyframe time="0.75" x="1" y="549" alpha="100" />
+                <keyframe time="1.12" x="1" alpha="75" />
+                <keyframe time="1.5" x="1" scalex="1.75" scaley="1.75" alpha="0" />
+            </directive>
+            <directive type="animation" id="Rouge_Echo2" delay="0.75" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="1" y="549" scalex="0.02" scaley="0.02" alpha="75" />
+                <keyframe time="0.37" alpha="75" />
+                <keyframe time="0.75" alpha="100" />
+                <keyframe time="1.13" alpha="75" />
+                <keyframe time="1.5" x="1" scalex="1.75" scaley="1.75" alpha="0" />
+            </directive>
+            <directive type="animation" id="Rouge_Wings_Flappy" ease="ease-out" interpolation="linear">
+                <keyframe time="0" scalex="1" />
+                <keyframe time="0.25" scalex="0.5" />
+                <keyframe time="0.5" scalex="1" />
+                <keyframe time="0.88" scalex="0.5" />
+                <keyframe time="1.38" scalex="0.95" />
+                <keyframe time="1.5" scalex="1" />
+                <keyframe time="2.25" scalex="1" />
+            </directive>
+        </pose>
+        <pose id="2-callingCard">
+            <sprite id="mischievous" src="reskins/rouge_canon/2-mischievous.png" x="0" y="0" />
+            <sprite id="Rouge_CardBack" src="rouge/Rouge_CardBack.png" x="184" y="128" scalex="0" scaley="0.3" />
+            <sprite id="Rouge_CardFront" src="rouge/Rouge_CardFront.png" x="184" y="128" scalex="0.3" scaley="0.3" />
+            <directive type="animation" id="Rouge_CardBack" ease="linear" interpolation="linear">
+                <keyframe time="0" x="184" y="128" scaley="0.3" />
+                <keyframe time="0.75" scaley="0.3" />
+                <keyframe time="1.5" scaley="0.3" />
+                <keyframe time="2.25" scaley="0.3" />
+            </directive>
+            <directive type="animation" id="Rouge_CardBack" loop="true" ease="linear" interpolation="linear" iterations="3">
+                <keyframe time="0" scalex="0" />
+                <keyframe time="0.75" scalex="0" />
+                <keyframe time="1.5" scalex="0.3" />
+                <keyframe time="2.25" scalex="0" />
+                <keyframe time="3" scalex="0" />
+            </directive>
+            <directive type="animation" id="Rouge_CardFront" loop="true" ease="linear" interpolation="linear" iterations="3">
+                <keyframe time="0" scalex="0.3" />
+                <keyframe time="0.75" scalex="0" />
+                <keyframe time="2.25" scalex="0" />
+                <keyframe time="3" scalex="0.3" />
+            </directive>
+        </pose>
+        <pose id="6-angryLoot">
+            <sprite id="angry" src="reskins/rouge_canon/6-angry.png" x="0" y="0" />
+            <sprite id="Rouge_Jewelry_RingSide" marker="loot_ring" z="-1" src="rouge/Rouge_Jewelry_RingSide.png" x="-229" y="625" scalex="1.5" scaley="1.5" alpha="100" rotation="-50" />
+            <sprite id="Rouge_Jewelry_Bracelet" marker="loot_bracelet" z="1" src="rouge/Rouge_Jewelry_Bracelet.png" x="120" y="618" scalex="1" scaley="1" rotation="-297" />
+            <sprite id="Rouge_Jewelry_NecklaceFront" marker="loot_pendant" z="1" src="rouge/Rouge_Jewelry_NecklaceFront.png" x="-1" y="457" scalex="0.75" scaley="0.75" rotation="2" />
+            <sprite id="Rouge_Jewelry_Crown" marker="loot_crown" z="1" src="rouge/Rouge_Jewelry_Crown.png" x="-123" y="266" scalex="1" scaley="1" rotation="299" />
+        </pose>
+        <pose id="6-annoyedLoot">
+            <sprite id="angry" src="reskins/rouge_canon/6-annoyed.png" x="0" y="0" />
+            <sprite id="Rouge_Jewelry_RingSide" marker="loot_ring" z="-1" src="rouge/Rouge_Jewelry_RingFront.png" x="-64" y="576" scalex="1.5" scaley="1.5" alpha="100" rotation="-366" />
+            <sprite id="Rouge_Jewelry_Bracelet" marker="loot_bracelet" z="1" src="rouge/Rouge_Jewelry_Bracelet.png" x="124" y="551" rotation="-408" />
+            <sprite id="Rouge_Jewelry_NecklaceFront" marker="loot_pendant" z="1" src="rouge/Rouge_Jewelry_NecklaceFront.png" x="-1" y="456" scalex="0.75" scaley="0.75" rotation="2" />
+            <sprite id="Rouge_Jewelry_Crown" marker="loot_crown" z="1" src="rouge/Rouge_Jewelry_Crown.png" x="-85" y="412" scalex="1" scaley="1" pivotx="0%" pivoty="0%" rotation="289" />
+        </pose>
+        <pose id="6-awkwardLoot">
+            <sprite id="awkward" src="reskins/rouge_canon/6-awkward.png" x="0" y="0" />
+            <sprite id="Rouge_Jewelry_RingSide" marker="loot_ring" z="1" src="rouge/Rouge_Jewelry_RingSide.png" x="-38" y="588" scalex="1.5" scaley="1.5" alpha="100" rotation="-127" />
+            <sprite id="Rouge_Jewelry_Bracelet" marker="loot_bracelet" z="1" src="rouge/Rouge_Jewelry_Bracelet.png" x="57" y="560" rotation="-395" />
+            <sprite id="Rouge_Jewelry_NecklaceFront" marker="loot_pendant" z="1" src="rouge/Rouge_Jewelry_NecklaceFront.png" x="-12" y="456" scalex="0.75" scaley="0.75" rotation="2" />
+            <sprite id="Rouge_Jewelry_Crown" marker="loot_crown" z="1" src="rouge/Rouge_Jewelry_Crown.png" x="-104" y="247" scalex="1" scaley="1" rotation="309" />
+        </pose>
+        <pose id="6-boastLoot">
+            <sprite id="boast" src="reskins/rouge_canon/6-boast.png" x="0" y="0" />
+            <sprite id="Rouge_Jewelry_RingSide" marker="loot_ring" z="-1" src="rouge/Rouge_Jewelry_RingSide.png" x="-158" y="684" scalex="1.5" scaley="1.5" alpha="100" rotation="-32" />
+            <sprite id="Rouge_Jewelry_Bracelet" marker="loot_bracelet" z="3" src="rouge/Rouge_Jewelry_Bracelet.png" x="23" y="536" scalex="1" scaley="1" rotation="-361" />
+            <sprite id="Rouge_Jewelry_NecklaceFront" marker="loot_pendant" z="1" src="rouge/Rouge_Jewelry_NecklaceFront.png" x="0" y="471" scalex="0.75" scaley="0.75" rotation="-1" />
+            <sprite id="Rouge_Jewelry_Crown" marker="loot_crown" z="1" src="rouge/Rouge_Jewelry_Crown.png" x="-110" y="266" scalex="1" scaley="1" rotation="307" />
+            <sprite id="Rouge_HandBoastFurry" marker="loot_pendant" z="2" src="reskins/rouge_canon/Rouge_HandBoastFurry.png" x="0" y="0" />
+        </pose>
+        <pose id="6-buttLoot">
+            <sprite id="awkward" src="reskins/rouge_canon/6-butt.png" x="0" y="0" />
+            <sprite id="Rouge_Jewelry_RingSide" marker="loot_ring" z="1" src="rouge/Rouge_Jewelry_RingSide.png" x="123" y="703" scalex="1.5" scaley="1.5" alpha="100" rotation="-204" />
+            <sprite id="Rouge_Jewelry_Bracelet" marker="loot_bracelet" z="1" src="rouge/Rouge_Jewelry_Bracelet.png" x="-125" y="611" rotation="-435" />
+            <sprite id="Rouge_Jewelry_NecklaceBack" marker="loot_pendant" z="1" src="rouge/Rouge_Jewelry_NecklaceBack.png" x="7" y="442" scalex="0.75" scaley="0.75" rotation="2" />
+            <sprite id="Rouge_Jewelry_Crown" marker="loot_crown" z="1" src="rouge/Rouge_Jewelry_Crown.png" x="123" y="236" scalex="1" scaley="1" rotation="413" />
+        </pose>
+        <pose id="6-calmLoot">
+            <sprite id="calm" src="reskins/rouge_canon/6-calm.png" x="0" y="0" />
+            <sprite id="Rouge_Jewelry_RingSide" marker="loot_ring" z="1" src="rouge/Rouge_Jewelry_RingSide.png" x="-112" y="725" scalex="1.5" scaley="1.5" alpha="100" rotation="-101" />
+            <sprite id="Rouge_Jewelry_Bracelet" marker="loot_bracelet" z="1" src="rouge/Rouge_Jewelry_Bracelet.png" x="81" y="550" scalex="1" scaley="1" rotation="-420" />
+            <sprite id="Rouge_Jewelry_NecklaceFront" marker="loot_pendant" z="1" src="rouge/Rouge_Jewelry_NecklaceFront.png" x="4" y="441" scalex="0.75" scaley="0.75" rotation="-1" />
+            <sprite id="Rouge_Jewelry_Crown" marker="loot_crown" z="1" src="rouge/Rouge_Jewelry_Crown.png" x="-113" y="249" scalex="1" scaley="1" rotation="299" />
+        </pose>
+        <pose id="6-commsLoot">
+            <sprite id="comms" src="reskins/rouge_canon/6-comms.png" x="0" y="0" />
+            <sprite id="Rouge_Jewelry_RingSide" marker="loot_ring" z="1" src="rouge/Rouge_Jewelry_RingSide.png" x="-110" y="639" scalex="1.5" scaley="1.5" alpha="100" rotation="-189" />
+            <sprite id="Rouge_Jewelry_Bracelet" marker="loot_bracelet" z="1" src="rouge/Rouge_Jewelry_Bracelet.png" x="135" y="454" scalex="1" scaley="1" rotation="-430" />
+            <sprite id="Rouge_Jewelry_NecklaceFront" marker="loot_pendant" z="1" src="rouge/Rouge_Jewelry_NecklaceFront.png" x="-5" y="456" scalex="0.75" scaley="0.75" rotation="3" />
+            <sprite id="Rouge_Jewelry_Crown" marker="loot_crown" z="1" src="rouge/Rouge_Jewelry_Crown.png" x="-129" y="279" scalex="1" scaley="1" rotation="294" />
+        </pose>
+        <pose id="6-confidentLoot">
+            <sprite id="confident" src="reskins/rouge_canon/6-confident.png" x="0" y="0" scalex="1" />
+            <sprite id="Rouge_Jewelry_RingSide" marker="loot_ring" z="1" src="rouge/Rouge_Jewelry_RingSide.png" x="-168" y="397" scalex="1.5" scaley="1.5" alpha="100" rotation="-425" />
+            <sprite id="Rouge_Jewelry_Bracelet" marker="loot_bracelet" z="1" src="rouge/Rouge_Jewelry_Bracelet.png" x="126" y="530" scalex="1" scaley="1" rotation="-592" />
+            <sprite id="Rouge_Jewelry_NecklaceFront" marker="loot_pendant" z="1" src="rouge/Rouge_Jewelry_NecklaceFront.png" x="3" y="457" scalex="0.75" scaley="0.75" rotation="-4" />
+            <sprite id="Rouge_Jewelry_Crown" marker="loot_crown" z="1" src="rouge/Rouge_Jewelry_Crown.png" x="-116" y="262" scalex="1" scaley="1" rotation="303" />
+        </pose>
+        <pose id="6-disappointedLoot">
+            <sprite id="disappointed" src="reskins/rouge_canon/6-disappointed.png" x="0" y="0" />
+            <sprite id="Rouge_Jewelry_RingSide" marker="loot_ring" z="-1" src="rouge/Rouge_Jewelry_RingSide.png" x="-86" y="726" scalex="1.5" scaley="1.5" alpha="100" rotation="-458" />
+            <sprite id="Rouge_Jewelry_Bracelet" marker="loot_bracelet" z="1" src="rouge/Rouge_Jewelry_Bracelet.png" x="92" y="553" scalex="1" scaley="1" rotation="-593" />
+            <sprite id="Rouge_Jewelry_NecklaceFront" marker="loot_pendant" z="1" src="rouge/Rouge_Jewelry_NecklaceFront.png" x="2" y="456" scalex="0.75" scaley="0.75" rotation="-4" />
+            <sprite id="Rouge_Jewelry_Crown" marker="loot_crown" z="1" src="rouge/Rouge_Jewelry_Crown.png" x="-119" y="261" scalex="1" scaley="1" rotation="301" />
+        </pose>
+        <pose id="6-downcastLoot">
+            <sprite id="downcast" src="reskins/rouge_canon/6-downcast.png" x="0" y="0" />
+            <sprite id="Rouge_Jewelry_RingFront" marker="loot_ring" z="1" src="rouge/Rouge_Jewelry_RingFront.png" x="-72" y="697" scalex="1.5" scaley="1.5" alpha="100" rotation="95" />
+            <sprite id="Rouge_Jewelry_Bracelet" marker="loot_bracelet" z="1" src="rouge/Rouge_Jewelry_Bracelet.png" x="7" y="576" scalex="1" scaley="1" rotation="-549" />
+            <sprite id="Rouge_Jewelry_NecklaceFront" marker="loot_pendant" z="1" src="rouge/Rouge_Jewelry_NecklaceFront.png" x="-5" y="456" scalex="0.75" scaley="0.75" rotation="5" />
+            <sprite id="Rouge_Jewelry_Crown" marker="loot_crown" z="1" src="rouge/Rouge_Jewelry_Crown.png" x="-89" y="241" scalex="1" scaley="1" rotation="314" />
+        </pose>
+        <pose id="6-enchantedLoot">
+            <sprite id="enchanted" src="reskins/rouge_canon/6-enchanted.png" x="0" y="0" />
+            <sprite id="Rouge_Jewelry_RingFront" marker="loot_ring" z="-1" src="rouge/Rouge_Jewelry_RingSide.png" x="-245" y="633" scalex="1.5" scaley="1.5" alpha="100" rotation="-18" />
+            <sprite id="Rouge_Jewelry_Bracelet" marker="loot_bracelet" z="2" src="rouge/Rouge_Jewelry_Bracelet.png" x="78" y="466" scalex="1" scaley="1" rotation="-640" />
+            <sprite id="Rouge_Jewelry_NecklaceFront" marker="loot_pendant" z="1" src="rouge/Rouge_Jewelry_NecklaceFront.png" x="2" y="465" scalex="0.75" scaley="0.75" rotation="-3" />
+            <sprite id="Rouge_Jewelry_Crown" marker="loot_crown" z="1" src="rouge/Rouge_Jewelry_Crown.png" x="-112" y="266" scalex="1" scaley="1" rotation="301" />
+        </pose>
+        <pose id="6-flirtyLoot">
+            <sprite id="flirty" src="reskins/rouge_canon/6-flirty.png" x="0" y="0" />
+            <sprite id="Rouge_Jewelry_RingSide" marker="loot_ring" z="-1" src="rouge/Rouge_Jewelry_RingSide.png" x="-5" y="586" scalex="1.5" scaley="1.5" alpha="100" rotation="-515" />
+            <sprite id="Rouge_Jewelry_Bracelet" marker="loot_bracelet" z="-1" src="rouge/Rouge_Jewelry_Bracelet.png" x="82" y="399" scalex="1" scaley="1" rotation="-331" />
+            <sprite id="Rouge_Jewelry_NecklaceFront" marker="loot_pendant" z="1" src="rouge/Rouge_Jewelry_NecklaceFront.png" x="2" y="457" scalex="0.75" scaley="0.75" rotation="-5" />
+            <sprite id="Rouge_Jewelry_Crown" marker="loot_crown" z="1" src="rouge/Rouge_Jewelry_Crown.png" x="-106" y="260" scalex="1" scaley="1" rotation="303" />
+        </pose>
+        <pose id="6-grumpyLoot">
+            <sprite id="grumpy" src="reskins/rouge_canon/6-grumpy.png" x="0" y="0" scalex="1" />
+            <sprite id="Rouge_Jewelry_RingSide" marker="loot_ring" z="1" src="rouge/Rouge_Jewelry_RingSide.png" x="94" y="517" scalex="1.5" scaley="1.5" alpha="100" rotation="-653" />
+            <sprite id="Rouge_Jewelry_Bracelet" marker="loot_bracelet" z="2" src="rouge/Rouge_Jewelry_Bracelet.png" x="0" y="516" scalex="1" scaley="1" rotation="-346" />
+            <sprite id="Rouge_Jewelry_NecklaceFront" marker="loot_pendant" z="1" src="rouge/Rouge_Jewelry_NecklaceFront.png" x="-6" y="455" scalex="0.75" scaley="0.75" rotation="1" />
+            <sprite id="Rouge_Jewelry_Crown" marker="loot_crown" z="1" src="rouge/Rouge_Jewelry_Crown.png" x="-122" y="276" scalex="1" scaley="1" rotation="293" />
+        </pose>
+        <pose id="6-innocentLoot">
+            <sprite id="innocent" src="reskins/rouge_canon/6-innocent.png" x="0" y="0" />
+            <sprite id="Rouge_Jewelry_RingSide" marker="loot_ring" z="-1" src="rouge/Rouge_Jewelry_RingSide.png" x="-21" y="606" scalex="1.5" scaley="1.5" alpha="100" rotation="-880" />
+            <sprite id="Rouge_Jewelry_Bracelet" marker="loot_bracelet" z="3" src="rouge/Rouge_Jewelry_Bracelet.png" x="38" y="511" scalex="1" scaley="1" rotation="-526" />
+            <sprite id="Rouge_Jewelry_NecklaceFront" marker="loot_pendant" z="1" src="rouge/Rouge_Jewelry_NecklaceFront.png" x="2" y="459" scalex="0.75" scaley="0.75" rotation="-5" />
+            <sprite id="Rouge_Jewelry_Crown" marker="loot_crown" z="1" src="rouge/Rouge_Jewelry_Crown.png" x="-130" y="285" scalex="1" scaley="1" rotation="290" />
+            <sprite id="Rouge_HandInnocentFurry" marker="loot_pendant" z="2" src="reskins/rouge_canon/Rouge_HandInnocentFurry.png" x="0" y="0" />
+        </pose>
+        <pose id="6-mischievousLoot">
+            <sprite id="mischievous" src="reskins/rouge_canon/6-mischievous.png" x="0" y="0" />
+            <sprite id="Rouge_Jewelry_RingSide" marker="loot_ring" z="3" src="rouge/Rouge_Jewelry_RingSide.png" x="36" y="460" scalex="1.5" scaley="1.5" alpha="100" rotation="-661" />
+            <sprite id="Rouge_Jewelry_Bracelet" marker="loot_bracelet" z="1" src="rouge/Rouge_Jewelry_Bracelet.png" x="96" y="482" scalex="1" scaley="1" rotation="-70" />
+            <sprite id="Rouge_Jewelry_NecklaceFront" marker="loot_pendant" z="1" src="rouge/Rouge_Jewelry_NecklaceFront.png" x="-2" y="455" scalex="0.75" scaley="0.75" rotation="3" />
+            <sprite id="Rouge_Jewelry_Crown" marker="loot_crown" z="1" src="rouge/Rouge_Jewelry_Crown.png" x="-118" y="276" scalex="1" scaley="1" rotation="294" />
+            <sprite id="Rouge_HandMischievousFurry" marker="loot_pendant" z="2" src="reskins/rouge_canon/Rouge_HandMischievousFurry.png" x="0" y="0" />
+        </pose>
+        <pose id="6-remarkingLoot">
+            <sprite id="remarking" src="reskins/rouge_canon/6-remarking.png" x="0" y="0" />
+            <sprite id="Rouge_Jewelry_RingSide" marker="loot_ring" z="1" src="rouge/Rouge_Jewelry_RingSide.png" x="-168" y="406" scalex="1.5" scaley="1.5" alpha="100" rotation="-796" />
+            <sprite id="Rouge_Jewelry_Bracelet" marker="loot_bracelet" z="1" src="rouge/Rouge_Jewelry_Bracelet.png" x="89" y="556" scalex="1" scaley="1" rotation="-422" />
+            <sprite id="Rouge_Jewelry_NecklaceFront" marker="loot_pendant" z="1" src="rouge/Rouge_Jewelry_NecklaceFront.png" x="3" y="456" scalex="0.75" scaley="0.75" rotation="-4" />
+            <sprite id="Rouge_Jewelry_Crown" marker="loot_crown" z="1" src="rouge/Rouge_Jewelry_Crown.png" x="-98" y="257" scalex="1" scaley="1" rotation="304" />
+        </pose>
+        <pose id="6-sassyLoot">
+            <sprite id="sassy" src="reskins/rouge_canon/6-sassy.png" x="0" y="0" />
+            <sprite id="Rouge_Jewelry_RingSide" marker="loot_ring" z="1" src="rouge/Rouge_Jewelry_RingSide.png" x="-102" y="659" scalex="1.5" scaley="1.5" alpha="100" rotation="-547" />
+            <sprite id="Rouge_Jewelry_Bracelet" marker="loot_bracelet" z="1" src="rouge/Rouge_Jewelry_Bracelet.png" x="92" y="482" scalex="1" scaley="1" rotation="-431" />
+            <sprite id="Rouge_Jewelry_NecklaceFront" marker="loot_pendant" z="1" src="rouge/Rouge_Jewelry_NecklaceFront.png" x="-3" y="460" scalex="0.75" scaley="0.75" rotation="1" />
+            <sprite id="Rouge_Jewelry_Crown" marker="loot_crown" z="1" src="rouge/Rouge_Jewelry_Crown.png" x="-125" y="283" scalex="1" scaley="1" rotation="292" />
+        </pose>
+        <pose id="6-shockedLoot">
+            <sprite id="shocked" src="reskins/rouge_canon/6-shocked.png" x="0" y="0" />
+            <sprite id="Rouge_Jewelry_RingSide" marker="loot_ring" z="1" src="rouge/Rouge_Jewelry_RingSide.png" x="-288" y="563" scalex="1.5" scaley="1.5" alpha="100" rotation="-384" />
+            <sprite id="Rouge_Jewelry_Bracelet" marker="loot_bracelet" z="1" src="rouge/Rouge_Jewelry_Bracelet.png" x="138" y="618" scalex="1" scaley="1" rotation="-140" />
+            <sprite id="Rouge_Jewelry_NecklaceFront" marker="loot_pendant" z="1" src="rouge/Rouge_Jewelry_NecklaceFront.png" x="-10" y="470" scalex="0.75" scaley="0.75" rotation="5" />
+            <sprite id="Rouge_Jewelry_Crown" marker="loot_crown" z="1" src="rouge/Rouge_Jewelry_Crown.png" x="-95" y="257" scalex="1" scaley="1" rotation="311" />
+        </pose>
+        <pose id="6-shrugLoot">
+            <sprite id="shrug" src="reskins/rouge_canon/6-shrug.png" x="0" y="0" />
+            <sprite id="Rouge_Jewelry_RingSide" marker="loot_ring" z="-1" src="rouge/Rouge_Jewelry_RingSide.png" x="-241" y="536" scalex="1.5" scaley="1.5" alpha="100" rotation="-916" />
+            <sprite id="Rouge_Jewelry_Bracelet" marker="loot_bracelet" z="1" src="rouge/Rouge_Jewelry_Bracelet.png" x="153" y="491" scalex="1" scaley="1" rotation="-388" />
+            <sprite id="Rouge_Jewelry_NecklaceFront" marker="loot_pendant" z="1" src="rouge/Rouge_Jewelry_NecklaceFront.png" x="-5" y="458" scalex="0.75" scaley="0.75" rotation="-3" />
+            <sprite id="Rouge_Jewelry_Crown" marker="loot_crown" z="1" src="rouge/Rouge_Jewelry_Crown.png" x="-103" y="256" scalex="1" scaley="1" rotation="304" />
+        </pose>
+        <pose id="6-sighLoot">
+            <sprite id="sigh" src="reskins/rouge_canon/6-sigh.png" x="0" y="0" />
+            <sprite id="Rouge_Jewelry_RingSide" marker="loot_ring" z="1" src="rouge/Rouge_Jewelry_RingSide.png" x="-97" y="722" scalex="1.5" scaley="1.5" alpha="100" rotation="-895" />
+            <sprite id="Rouge_Jewelry_Bracelet" marker="loot_bracelet" z="1" src="rouge/Rouge_Jewelry_Bracelet.png" x="101" y="658" scalex="1" scaley="1" rotation="-450" />
+            <sprite id="Rouge_Jewelry_NecklaceFront" marker="loot_pendant" z="1" src="rouge/Rouge_Jewelry_NecklaceFront.png" x="7" y="453" scalex="0.75" scaley="0.75" rotation="-6" />
+            <sprite id="Rouge_Jewelry_Crown" marker="loot_crown" z="1" src="rouge/Rouge_Jewelry_Crown.png" x="-150" y="309" scalex="1" scaley="1" rotation="282" />
+            <sprite id="Rouge_ThighSighFurry" marker="loot_bracelet" z="2" src="reskins/rouge_canon/Rouge_ThighSighFurry.png" x="0" y="0" />
+        </pose>
+        <pose id="6-smugLoot">
+            <sprite id="smug" src="reskins/rouge_canon/6-smug.png" x="0" y="0" />
+            <sprite id="Rouge_Jewelry_RingSide" marker="loot_ring" z="3" src="rouge/Rouge_Jewelry_RingSide.png" x="63" y="475" scalex="1.5" scaley="1.5" alpha="100" rotation="-1019" />
+            <sprite id="Rouge_Jewelry_Bracelet" marker="loot_bracelet" z="1" src="rouge/Rouge_Jewelry_Bracelet.png" x="68" y="572" scalex="1" scaley="1" rotation="-768" />
+            <sprite id="Rouge_Jewelry_NecklaceFront" marker="loot_pendant" z="1" src="rouge/Rouge_Jewelry_NecklaceFront.png" x="-4" y="460" scalex="0.75" scaley="0.75" rotation="4" />
+            <sprite id="Rouge_Jewelry_Crown" marker="loot_crown" z="1" src="rouge/Rouge_Jewelry_Crown.png" x="-122" y="276" scalex="1" scaley="1" rotation="298" />
+            <sprite id="Rouge_HandSmugFurry" marker="loot_pendant" z="2" src="reskins/rouge_canon/Rouge_HandSmugFurry.png" x="0" y="0" />
+        </pose>
+        <pose id="6-thinkingLoot">
+            <sprite id="thinking" src="reskins/rouge_canon/6-thinking.png" x="0" y="0" />
+            <sprite id="Rouge_Jewelry_RingSide" marker="loot_ring" z="3" src="rouge/Rouge_Jewelry_RingSide.png" x="106" y="594" scalex="1.5" scaley="1.5" alpha="100" rotation="-1699" />
+            <sprite id="Rouge_Jewelry_Bracelet" marker="loot_bracelet" z="3" src="rouge/Rouge_Jewelry_Bracelet.png" x="20" y="512" scalex="1" scaley="1" rotation="-876" />
+            <sprite id="Rouge_Jewelry_NecklaceFront" marker="loot_pendant" z="1" src="rouge/Rouge_Jewelry_NecklaceFront.png" x="4" y="458" scalex="0.75" scaley="0.75" rotation="-4" />
+            <sprite id="Rouge_Jewelry_Crown" marker="loot_crown" z="1" src="rouge/Rouge_Jewelry_Crown.png" x="-112" y="261" scalex="1" scaley="1" rotation="304" />
+            <sprite id="Rouge_HandThinkingFurry" marker="loot_bracelet" z="2" src="reskins/rouge_canon/Rouge_HandThinkingFurry.png" x="0" y="0" />
+        </pose>
+        <pose id="6-unimpressedLoot">
+            <sprite id="unimpressed" src="reskins/rouge_canon/6-unimpressed.png" x="0" y="0" />
+            <sprite id="Rouge_Jewelry_RingSide" marker="loot_ring" z="2" src="rouge/Rouge_Jewelry_RingSide.png" x="93" y="516" scalex="1.5" scaley="1.5" alpha="100" rotation="-1375" />
+            <sprite id="Rouge_Jewelry_Bracelet" marker="loot_bracelet" z="2" src="rouge/Rouge_Jewelry_Bracelet.png" x="5" y="514" scalex="1" scaley="1" rotation="-885" />
+            <sprite id="Rouge_Jewelry_NecklaceFront" marker="loot_pendant" z="1" src="rouge/Rouge_Jewelry_NecklaceFront.png" x="-4" y="457" scalex="0.75" scaley="0.75" rotation="2" />
+            <sprite id="Rouge_Jewelry_Crown" marker="loot_crown" z="1" src="rouge/Rouge_Jewelry_Crown.png" x="-121" y="275" scalex="1" scaley="1" rotation="296" />
+            <sprite id="Rouge_HandUnimpressedFurry" z="2" src="reskins/rouge_canon/Rouge_HandUnimpressedFurry.png" x="0" y="0" />
+        </pose>
+        <pose id="6-yawnLoot">
+            <sprite id="yawn" src="reskins/rouge_canon/6-yawn.png" x="0" y="0" />
+            <sprite id="Rouge_Jewelry_RingSide" marker="loot_ring" z="-1" src="rouge/Rouge_Jewelry_RingSide.png" x="35" y="873" scalex="1.5" scaley="1.5" pivoty="40%" alpha="100" rotation="-1286" />
+            <sprite id="Rouge_Jewelry_Bracelet" marker="loot_bracelet" z="-1" src="rouge/Rouge_Jewelry_Bracelet.png" x="-83" y="789" scalex="1" scaley="1" rotation="-840" />
+            <sprite id="Rouge_Jewelry_NecklaceFront" marker="loot_pendant" z="1" src="rouge/Rouge_Jewelry_NecklaceBack.png" x="4" y="741" scalex="0.75" scaley="0.75" rotation="189" />
+            <sprite id="Rouge_Jewelry_Crown" marker="loot_crown" z="1" src="rouge/Rouge_Jewelry_Crown.png" x="111" y="1272" scalex="1" scaley="1" rotation="-180" />
+        </pose>
+        <pose id="0-treasure_scope">
+            <sprite id="flirty" z="1" src="reskins/rouge_canon/0-flirty.png" x="0" y="0" alpha="100" />
+            <sprite id="Rouge_TreasureScope_XRay" src="reskins/rouge_canon/Rouge_TreasureScope_XRay.png" x="0" y="0" alpha="100" />
+            <sprite id="Rouge_TreasureScope_Lens" z="100" src="rouge/Rouge_TreasureScope_Lens.png" x="250" y="417" scalex="0.97" scaley="0.97" alpha="0" />
+            <directive type="animation" id="flirty" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" alpha="100" />
+                <keyframe time="2" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="Rouge_TreasureScope_XRay" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" alpha="100" />
+                <keyframe time="3" alpha="100" />
+            </directive>
+            <directive type="animation" id="Rouge_TreasureScope_Lens" ease="ease-out" interpolation="linear">
+                <keyframe time="0" x="250" alpha="0" />
+                <keyframe time="1" x="250" alpha="0" />
+                <keyframe time="2" x="0" alpha="100" />
+                <keyframe time="3" x="0" />
+            </directive>
+            <directive type="animation" id="Rouge_TreasureScope_Lens" ease="smooth" interpolation="linear">
+                <keyframe time="0" y="417" />
+                <keyframe time="3" y="417" />
+            </directive>
+            <directive type="animation" id="Rouge_TreasureScope_Lens" ease="linear" interpolation="linear">
+                <keyframe time="0" scalex="0.97" scaley="0.97" />
+                <keyframe time="3" scalex="0.97" scaley="0.97" />
+            </directive>
+        </pose>
+        <pose id="4-dildo">
+            <sprite id="mischievous" src="reskins/rouge_canon/4-mischievous.png" x="0" y="0" />
+            <sprite id="Rouge_QuartzDildoSide" src="reskins/rouge_canon/Rouge_QuartzDildoSide.png" x="189" y="128" scalex="0.3" scaley="0.3" rotation="45" />
+        </pose>
+    </poses>
+
+</costume>
