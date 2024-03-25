@@ -7,6 +7,7 @@ var SPECIAL_CASE_NAMES = {
     "alice_mgq": "Alice (MGQ)",
     "aqua_kh": "Aqua (KH)",
     "aqua_konosuba": "Aqua (KonoSuba)",
+    "aoi_asahina": "Aoi",
     "d.va": "D.Va",
     "frisk_and_friends": "Frisk",
     "hatsune_miku": "Miku",
