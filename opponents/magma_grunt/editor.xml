@@ -164,6 +164,13 @@
         <response id="898" opponent="rose" opponentId="53" />
         <response id="899" opponent="rose" opponentId="142" />
         <response id="900" opponent="rose" opponentId="143" />
+        <response id="905" opponent="aqua_konosuba" opponentId="1171" />
+        <response id="907" opponent="aqua_konosuba" opponentId="1172" />
+        <response id="908" opponent="aqua_konosuba" opponentId="1175" />
+        <response id="909" opponent="aqua_konosuba" opponentId="1174" />
+        <response id="910" opponent="aqua_konosuba" opponentId="1173" />
+        <response id="911" opponent="mari_setogaya" opponentId="421" />
+        <response id="912" opponent="mari_setogaya" opponentId="422" />
     </responses>
     <notes>
         <note id="18">If the player isn't gay, magma grunt slowly starts flirting with them when they strip</note>
@@ -1013,6 +1020,18 @@
         <label id="900" label="" folder="Targets&gt;Rose" sort="0" />
         <label id="899" label="" folder="Targets&gt;Rose" sort="0" />
         <label id="902" label="" folder="Situations" sort="0" />
+        <label id="903" label="" folder="Responses" sort="0" />
+        <label id="904" label="" folder="Responses" sort="0" />
+        <label id="905" label="" folder="Opp - Aqua (Konosuba)" sort="0" />
+        <label id="906" label="" folder="Opp - Aqua (Konosuba)" sort="0" />
+        <label id="907" label="" folder="Opp - Aqua (Konosuba)" sort="0" />
+        <label id="908" label="" folder="Opp - Aqua (Konosuba)" sort="0" />
+        <label id="910" label="" folder="Opp - Aqua (Konosuba)" sort="0" />
+        <label id="909" label="" folder="Opp - Aqua (Konosuba)" sort="0" />
+        <label id="911" label="" folder="Responses" sort="0" />
+        <label id="912" label="" folder="Responses" sort="0" />
+        <label id="913" label="" color="2" folder="Opp - Aqua (Konosuba)" sort="0" />
+        <label id="914" label="" color="2" folder="Opp - Aqua (Konosuba)" sort="0" />
     </labels>
     <prefixes>
         <prefix>Epilogue_chat</prefix>
@@ -1022,7 +1041,7 @@
         <prefix>Epilogue</prefix>
         <prefix>Burger</prefix>
     </prefixes>
-    <nextId>902</nextId>
+    <nextId>914</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="8_hand_good_prideful">Magma Grunt said something particularly prideful when she was in stage 8, and might be setting herself up for failure.</marker>
@@ -1054,6 +1073,13 @@
         <marker scope="Public" name="ag_halloween" />
         <marker scope="Public" name="AG_MG_Candy_Resp" />
         <marker scope="Public" name="aoba_qna_nene" />
+        <marker scope="Public" name="aquaKS_MG_paddedChest_claim" />
+        <marker scope="Public" name="aquaKS_noPanties" />
+        <marker scope="Public" name="aquaKS_noPanties_Winter" />
+        <marker scope="Public" name="aquaKS_notGettingRidOfWater" />
+        <marker scope="Public" name="aquaKS_notGettingRidOfWaterB" />
+        <marker scope="Public" name="aquaKS_selfChestRevealed" />
+        <marker scope="Public" name="aquaKS_youDumbResp" />
         <marker scope="Public" name="butt_didntlose">Shown her butt (butt_pre_roundreveal) but didn't lose the round</marker>
         <marker scope="Public" name="butt_didntlose_after">Shown her butt (butt_didntlose_after), didn't lose the round, turns forward again</marker>
         <marker scope="Public" name="butt_lostround">Shown her butt (butt_pre_roundreveal), lost the round</marker>
@@ -1183,6 +1209,8 @@
         <marker scope="Public" name="magma_strip_wild_poochyena" />
         <marker scope="Public" name="magmagrunt_gamestart_duplicate">Has seen another Team Magma Grunt at game start</marker>
         <marker scope="Public" name="magmagrunt_gamestart_livingdead">Has seen an Undead player at game start</marker>
+        <marker scope="Public" name="mariS_MG_hoodie_horns_question" />
+        <marker scope="Public" name="mariS_MG_tight_costume" />
         <marker scope="Public" name="mast_boobplay" />
         <marker scope="Public" name="mast_boobsquish" />
         <marker scope="Public" name="mast_butt_say" />
