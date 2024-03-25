@@ -4,7 +4,7 @@
     <height>5' 3"</height>
     <age />
     <pronunciation />
-    <othernotes />
+    <othernotes>Hair and eyes by PapaChubsNubs&lt;br&gt;Custom boobs by Unknown (?)</othernotes>
     <noteworthy>
         <case name="Running Like Crazy" id="10" priority="MustTarget" min="9" max="9">
             <description>If the background has water, Aoi will go swimming.</description>
@@ -166,10 +166,12 @@
         <label id="153" label="First Round Negative" folder="Sequences" sort="0" />
         <label id="157" label="Two Kyokos" folder="" sort="0" />
         <label id="158" label="Two Kyokos" folder="" sort="0" />
+        <label id="159" label="Early Game" folder="" sort="0" />
+        <label id="160" label="Forfeit" folder="" sort="0" />
+        <label id="161" label="Postgame" folder="" sort="0" />
     </labels>
-    <nextId>158</nextId>
+    <nextId>161</nextId>
     <markers>
-        <marker scope="Public" name="" />
         <marker scope="Private" name="B_">Background related.</marker>
         <marker scope="Private" name="D_">Dialogue that does not fit in other categories</marker>
         <marker scope="Public" name="D_Ability" />
@@ -195,7 +197,6 @@
         <marker scope="Public" name="L_FirstRound-" />
         <marker scope="Public" name="L_FirstRound+" />
         <marker scope="Public" name="L_GreatHand" />
-        <marker scope="Public" name="L_HeroTime" />
         <marker scope="Public" name="L_Hunch" />
         <marker scope="Public" name="L_Palm" />
         <marker scope="Public" name="L_Palm1" />
@@ -233,8 +234,10 @@
         <marker scope="Public" name="T_ChihiroStripping4" />
         <marker scope="Public" name="T_KyokoChihiro" />
         <marker scope="Public" name="T_KyokoLost0" />
+        <marker scope="Public" name="T_KyokoLost6" />
         <marker scope="Public" name="T_KyokoRottenEgg" />
         <marker scope="Public" name="T_KyokoStart" />
+        <marker scope="Public" name="T_KyokoStripping6" />
         <marker scope="Public" name="T_KyoukoLost0" />
         <marker scope="Public" name="T_KyoukoStart" />
         <marker scope="Public" name="T_MahiruBirthday" />
@@ -243,6 +246,8 @@
         <marker scope="Public" name="T_noCeleste" />
         <marker scope="Public" name="T_SakuraStrip2" />
         <marker scope="Public" name="T_Self_NadeshikoNervous" />
+        <marker scope="Public" name="T_SweetheartLost0" />
+        <marker scope="Public" name="T_SweetheartStart" />
         <marker scope="Public" name="T_TwoKyokoLost0" />
         <marker scope="Public" name="T_ZekeLost0">Zeke Must Strip 0</marker>
         <marker scope="Public" name="Z_AoiIsConfident" />
