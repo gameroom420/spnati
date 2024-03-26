@@ -238,13 +238,18 @@
         <response id="1577" opponent="queenie" opponentId="460" />
         <response id="1582" opponent="neptune" opponentId="70" />
         <response id="1583" opponent="neptune" opponentId="71" />
+        <response id="1598" opponent="sofia" opponentId="99" />
+        <response id="1599" opponent="sofia" opponentId="100" />
+        <response id="1601" opponent="nagatoro" opponentId="742" />
+        <response id="1604" opponent="nagatoro" opponentId="2" />
+        <response id="1609" opponent="samus_aran" opponentId="1" />
+        <response id="1614" opponent="magma_grunt" opponentId="914" />
     </responses>
     <notes>
         <note id="438">I believe Aqua is actually too lazy to go through with this, so that could potentially come up if Noire mentions the work it takes to be an idol.</note>
         <note id="1030">As it would turn out, lazing around and eating snacks is something Aqua herself is very guilty of. Aqua can't lie, but she will try to avoid putting herself in a position where she has to admit that she ALSO does what Noire is accusing Neptune of doing. So that's why she's reacting the way she is in this line.</note>
         <note id="1039">It's worth noting that her water and holy magic are most definitely NOT enough to handle everything. Best exemplified with her crippling inability to do anything to giant toads, whom resist water attacks and are not evil, so holy magic doesn't do much of anything. This could be a topic of conversation for one of Aqua's strips if you'd like.</note>
         <note id="1147">This could easily lead to other targets related to what Nami has seen in the great blue sea, which I assume is quite a lot. So for this line of dialogue it's perfectly fine if you pick something shorter since Nami only has two lines left for this strip. Other more complex sights or places she's visited could be explored in later strips.</note>
-        <note id="1171">Just fyi, these lines have different markers</note>
         <note id="1516">Aqua will use blessing on herself after this.</note>
         <note id="1539">Aqua is doing her absolute best to not mention any of her teammates negative qualities, and avoids naming them in case they are present.</note>
         <note id="1540">Aqua is doing her absolute best to not mention any of her teammates negative qualities, and avoids naming them in case they are present.</note>
@@ -698,7 +703,7 @@
         <label id="480" label="" folder="Targets" sort="201" />
         <label id="481" label="" folder="Targets" sort="241" />
         <label id="482" label="" folder="Targets" sort="248" />
-        <label id="483" label="" color="1" folder="Replies" sort="3" />
+        <label id="483" label="" folder="Replies" sort="3" />
         <label id="484" label="" folder="Replies" sort="2" />
         <label id="485" label="" folder="Targets" sort="151" />
         <label id="486" label="" folder="Targets" sort="98" />
@@ -1330,21 +1335,14 @@
         <label id="1158" label="" folder="PromptResponses" sort="17" />
         <label id="1159" label="" folder="PromptResponses" sort="18" />
         <label id="1160" label="" folder="PromptResponses" sort="56" />
-        <label id="1166" label="" color="3" folder="" sort="0" />
-        <label id="1165" label="" color="3" folder="" sort="0" />
-        <label id="1167" label="" color="3" folder="" sort="0" />
-        <label id="1168" label="" color="3" folder="" sort="0" />
-        <label id="1169" label="" color="3" folder="" sort="0" />
-        <label id="1170" label="" color="3" folder="" sort="0" />
-        <label id="1171" label="" color="1" folder="Targets" sort="206" />
-        <label id="1172" label="" color="1" folder="Targets" sort="207" />
-        <label id="1173" label="" color="1" folder="Targets" sort="208" />
-        <label id="1174" label="" color="1" folder="Targets" sort="249" />
-        <label id="1175" label="" color="1" folder="Targets" sort="260" />
-        <label id="1176" label="" color="3" folder="" sort="0" />
+        <label id="1171" label="" folder="Targets" sort="206" />
+        <label id="1172" label="" folder="Targets" sort="207" />
+        <label id="1173" label="" folder="Targets" sort="208" />
+        <label id="1174" label="" folder="Targets" sort="249" />
+        <label id="1175" label="" folder="Targets" sort="260" />
+        <label id="1614" label="" color="1" folder="Replies" sort="0" />
         <label id="1177" label="" color="3" folder="" sort="0" />
-        <label id="1178" label="" color="3" folder="" sort="0" />
-        <label id="1179" label="" color="3" folder="" sort="0" />
+        <label id="1615" label="" color="1" folder="Replies" sort="0" />
         <label id="1180" label="" folder="Replies" sort="176" />
         <label id="1181" label="" folder="Targets" sort="591" />
         <label id="1182" label="" folder="Targets" sort="592" />
@@ -1756,8 +1754,24 @@
         <label id="1595" label="" color="1" folder="Targets" sort="0" />
         <label id="1596" label="" color="3" folder="Replies" sort="0" />
         <label id="1597" label="" color="3" folder="Replies" sort="0" />
+        <label id="1598" label="" color="1" folder="Replies" sort="0" />
+        <label id="1599" label="" color="1" folder="Replies" sort="0" />
+        <label id="1600" label="" color="3" folder="" sort="0" />
+        <label id="1601" label="" color="3" folder="PromptResponses" sort="0" />
+        <label id="1602" label="" color="3" folder="PromptResponses" sort="0" />
+        <label id="1603" label="" color="3" folder="" sort="0" />
+        <label id="1604" label="" color="3" folder="PromptResponses" sort="0" />
+        <label id="1605" label="" color="1" folder="Replies" sort="0" />
+        <label id="1606" label="" color="1" folder="Targets" sort="0" />
+        <label id="1607" label="" color="1" folder="Targets" sort="0" />
+        <label id="1608" label="" color="1" folder="Targets" sort="0" />
+        <label id="1609" label="" folder="PromptResponses" sort="0" />
+        <label id="1610" label="" color="1" folder="Targets" sort="0" />
+        <label id="1611" label="" color="1" folder="Targets" sort="0" />
+        <label id="1612" label="" color="1" folder="Targets" sort="0" />
+        <label id="1613" label="" color="1" folder="Targets" sort="0" />
     </labels>
-    <nextId>1597</nextId>
+    <nextId>1615</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="Aella_howStrong" />
@@ -2215,13 +2229,18 @@
         <marker scope="Public" name="MG_buttShow_SelfShow" />
         <marker scope="Public" name="MG_ChestReveal" />
         <marker scope="Public" name="MG_notGettingRidOfWater" />
+        <marker scope="Public" name="MG_notGettingRidOfWater_cont" />
+        <marker scope="Public" name="MG_notGettingRidOfWater_contB" />
         <marker scope="Public" name="MG_notGettingRidOfWaterB" />
         <marker scope="Public" name="MG_paddedChest_claim" />
         <marker scope="Public" name="MG_PreChestReveal" />
+        <marker scope="Public" name="MG_selfNoPan_reply" />
+        <marker scope="Public" name="MG_selfNoPan_winter_reply" />
         <marker scope="Public" name="MG_tooMuchWater_react" />
         <marker scope="Public" name="MG_tooMuchWater_react2" />
         <marker scope="Public" name="MG_tooMuchWater_react3" />
         <marker scope="Public" name="MG_youDumb" />
+        <marker scope="Public" name="MG_youDumb_cont" />
         <marker scope="Public" name="Mia_beachwear_cont" />
         <marker scope="Public" name="Mia_beachwear_end" />
         <marker scope="Public" name="Mia_beachwear_endB" />
@@ -2294,7 +2313,14 @@
         <marker scope="Public" name="Mitama_Vacation_reply3B" />
         <marker scope="Public" name="Mitama_Vacation_replyB" />
         <marker scope="Public" name="Moskii_vampire_reply" />
+        <marker scope="Public" name="Nagatoro_butt_fight" />
+        <marker scope="Public" name="Nagatoro_noBra_react" />
         <marker scope="Public" name="Nagatoro_SelfOutfit_reply" />
+        <marker scope="Public" name="Nagatoro_SelfOutfit_reply2" />
+        <marker scope="Public" name="Nagatoro_shoeThrow_react" />
+        <marker scope="Public" name="Nagatoro_smallAndPeppy" />
+        <marker scope="Public" name="Nagatoro_smallAndPeppyB" />
+        <marker scope="Public" name="Nagatoro_submissive_player" />
         <marker scope="Public" name="Nami_bodyPositive_reply" />
         <marker scope="Public" name="Nami_butt_react" />
         <marker scope="Public" name="Nami_climaTact_react" />
@@ -2322,6 +2348,7 @@
         <marker scope="Public" name="Neptune_NEET" />
         <marker scope="Public" name="Neptune_NEET_cont" />
         <marker scope="Public" name="Neptune_NEET_end" />
+        <marker scope="Public" name="Neptune_planetNeptune" />
         <marker scope="Public" name="Neptune_Queen_cont" />
         <marker scope="Public" name="Neptune_Queen_end" />
         <marker scope="Public" name="Neptune_Queen_question" />
@@ -2503,6 +2530,8 @@
         <marker scope="Public" name="Sakura_suspicions" />
         <marker scope="Public" name="Sakura_zombie_handAnyAfter" />
         <marker scope="Public" name="Sakura_zombie_react" />
+        <marker scope="Public" name="Samus_armor_react" />
+        <marker scope="Public" name="Samus_preArmor" />
         <marker scope="Public" name="sans_game_start" />
         <marker scope="Public" name="Self_accesory_notPayingAttention" />
         <marker scope="Public" name="Self_accessoriesDoMatter" />
@@ -2684,6 +2713,8 @@
         <marker scope="Public" name="Shamiko_uselessCMF" />
         <marker scope="Public" name="Shy_Natures_Beauty" />
         <marker scope="Public" name="Shy_SmugHelp_Others" />
+        <marker scope="Public" name="Sofia_extraordinary_reply" />
+        <marker scope="Public" name="Sofia_gracefulGoddess_reply" />
         <marker scope="Public" name="SolarFlare_MetMeReply" />
         <marker scope="Public" name="SolarFlare_YouWerePlant" />
         <marker scope="Public" name="Spooky_ghost_clothes" />
