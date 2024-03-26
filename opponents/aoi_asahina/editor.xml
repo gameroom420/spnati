@@ -264,12 +264,13 @@
         <marker scope="Public" name="T_KyoukoStart" />
         <marker scope="Public" name="T_MahiruBirthday" />
         <marker scope="Public" name="T_NadeshikoChubby" />
-        <marker scope="Public" name="T_Nagatoro_Lost0" />
-        <marker scope="Public" name="T_NagatoroLost0">Nagatoro Must Strip 0</marker>
+        <marker scope="Public" name="T_Nagatoro_TLost0">Nagatoro Must Strip 0</marker>
         <marker scope="Public" name="T_noCeleste" />
         <marker scope="Public" name="T_SakuraStrip2" />
         <marker scope="Public" name="T_Self_KyokoLost7" />
         <marker scope="Public" name="T_Self_NadeshikoNervous" />
+        <marker scope="Public" name="T_Sweetheart_TLost0" />
+        <marker scope="Public" name="T_SweetheartStart" />
         <marker scope="Public" name="T_TwoKyokoLost0" />
         <marker scope="Public" name="T_ZekeLost0">Zeke Must Strip 0</marker>
         <marker scope="Public" name="Z_AoiIsConfident" />
