@@ -1,12 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <metadata>
     <owner>scm</owner>
+    <height>5'6"</height>
+    <age />
+    <pronunciation />
+    <othernotes>He's an asshole to (almost) everyone. You have been warned.</othernotes>
     <responses>
         <response id="1" opponent="polly" opponentId="221" />
         <response id="7" opponent="constanze" opponentId="43" />
     </responses>
-    <onlyCustomPoses>false</onlyCustomPoses>
-    <hidePrefixlessImages>false</hidePrefixlessImages>
     <nextId>7</nextId>
     <markers>
         <marker scope="Public" name="" />
@@ -42,10 +44,13 @@
         <marker scope="Public" name="scm_annie" />
         <marker scope="Public" name="scm_annieleon" />
         <marker scope="Public" name="scm_aoba" />
+        <marker scope="Public" name="scm_aoi_asahina" />
         <marker scope="Public" name="scm_april" />
+        <marker scope="Public" name="scm_aqua_konosuba" />
         <marker scope="Public" name="scm_aquagrunt" />
         <marker scope="Public" name="scm_aquakh" />
         <marker scope="Public" name="scm_arash" />
+        <marker scope="Public" name="scm_arle" />
         <marker scope="Public" name="scm_arueshalae" />
         <marker scope="Public" name="scm_arwen" />
         <marker scope="Public" name="scm_aster" />
@@ -75,6 +80,7 @@
         <marker scope="Public" name="scm_bella" />
         <marker scope="Public" name="scm_bernie" />
         <marker scope="Public" name="scm_bi" />
+        <marker scope="Public" name="scm_binah" />
         <marker scope="Public" name="scm_blake" />
         <marker scope="Public" name="scm_blakebelladonna" />
         <marker scope="Public" name="scm_bobobo" />
@@ -146,6 +152,7 @@
         <marker scope="Public" name="scm_elena" />
         <marker scope="Public" name="scm_elesa" />
         <marker scope="Public" name="scm_elizabeth" />
+        <marker scope="Public" name="scm_elphaba" />
         <marker scope="Public" name="scm_elsa" />
         <marker scope="Public" name="scm_emi" />
         <marker scope="Public" name="scm_emi_hairpluck" />
@@ -173,7 +180,9 @@
         <marker scope="Public" name="scm_gaige" />
         <marker scope="Public" name="scm_galatea" />
         <marker scope="Public" name="scm_ganyu" />
+        <marker scope="Public" name="scm_gigyas" />
         <marker scope="Public" name="scm_girlfriend" />
+        <marker scope="Public" name="scm_giygas" />
         <marker scope="Public" name="scm_glassjoe" />
         <marker scope="Public" name="scm_gloria" />
         <marker scope="Public" name="scm_gogo" />
@@ -205,6 +214,7 @@
         <marker scope="Public" name="scm_jasmine" />
         <marker scope="Public" name="scm_jason" />
         <marker scope="Public" name="scm_jenetta" />
+        <marker scope="Public" name="scm_jenna" />
         <marker scope="Public" name="scm_jessie" />
         <marker scope="Public" name="scm_jill" />
         <marker scope="Public" name="scm_jim" />
@@ -222,6 +232,7 @@
         <marker scope="Public" name="scm_kamina" />
         <marker scope="Public" name="scm_kaz" />
         <marker scope="Public" name="scm_kazuma" />
+        <marker scope="Public" name="scm_kekko" />
         <marker scope="Public" name="scm_kim" />
         <marker scope="Public" name="scm_kimberly" />
         <marker scope="Public" name="scm_kira" />
@@ -288,6 +299,8 @@
         <marker scope="Public" name="scm_mettaton" />
         <marker scope="Public" name="scm_mettatonneo" />
         <marker scope="Public" name="scm_mia" />
+        <marker scope="Public" name="scm_mia_goldensun" />
+        <marker scope="Public" name="scm_mia_kekko" />
         <marker scope="Public" name="scm_mikan" />
         <marker scope="Public" name="scm_miki" />
         <marker scope="Public" name="scm_miko" />
@@ -305,12 +318,14 @@
         <marker scope="Public" name="scm_moon" />
         <marker scope="Public" name="scm_mordred" />
         <marker scope="Public" name="scm_morrigan" />
+        <marker scope="Public" name="scm_moskii" />
         <marker scope="Public" name="scm_msfortune" />
         <marker scope="Public" name="scm_muffins" />
         <marker scope="Public" name="scm_mulan" />
         <marker scope="Public" name="scm_myriam" />
         <marker scope="Public" name="scm_mythra" />
         <marker scope="Public" name="scm_N" />
+        <marker scope="Public" name="scm_nadeshiko" />
         <marker scope="Public" name="scm_nagamimi" />
         <marker scope="Public" name="scm_nagatoro" />
         <marker scope="Public" name="scm_nagisa" />
@@ -329,8 +344,10 @@
         <marker scope="Public" name="scm_nep" />
         <marker scope="Public" name="scm_nicorobin" />
         <marker scope="Public" name="scm_ninetales" />
+        <marker scope="Public" name="scm_nodoka" />
         <marker scope="Public" name="scm_noelle" />
         <marker scope="Public" name="scm_noire" />
+        <marker scope="Public" name="scm_nonon" />
         <marker scope="Public" name="scm_nugi" />
         <marker scope="Public" name="scm_ochako" />
         <marker scope="Public" name="scm_okino" />
@@ -391,6 +408,7 @@
         <marker scope="Public" name="scm_ringo" />
         <marker scope="Public" name="scm_rinkah" />
         <marker scope="Public" name="scm_rita" />
+        <marker scope="Public" name="scm_riva" />
         <marker scope="Public" name="scm_rogue" />
         <marker scope="Public" name="scm_roll" />
         <marker scope="Public" name="scm_rollcaskett" />
@@ -424,6 +442,7 @@
         <marker scope="Public" name="scm_sextoilet" />
         <marker scope="Public" name="scm_shaggy" />
         <marker scope="Public" name="scm_shaggyblanco" />
+        <marker scope="Public" name="scm_shamiko" />
         <marker scope="Public" name="scm_shamir" />
         <marker scope="Public" name="scm_shantae" />
         <marker scope="Public" name="scm_shantaeclassic" />
@@ -436,6 +455,7 @@
         <marker scope="Public" name="scm_shimakaze" />
         <marker scope="Public" name="scm_shoutucker" />
         <marker scope="Public" name="scm_slycooper" />
+        <marker scope="Public" name="scm_sofia" />
         <marker scope="Public" name="scm_sola" />
         <marker scope="Public" name="scm_solarflare" />
         <marker scope="Public" name="scm_sonya" />
@@ -448,6 +468,8 @@
         <marker scope="Public" name="scm_suctioncup" />
         <marker scope="Public" name="scm_supernova" />
         <marker scope="Public" name="scm_susie" />
+        <marker scope="Public" name="scm_suzuya" />
+        <marker scope="Public" name="scm_sweetheart" />
         <marker scope="Public" name="scm_syrenne" />
         <marker scope="Public" name="scm_taiyaki" />
         <marker scope="Public" name="scm_taiyakigirl" />
@@ -459,6 +481,7 @@
         <marker scope="Public" name="scm_tina" />
         <marker scope="Public" name="scm_tomoko" />
         <marker scope="Public" name="scm_toph" />
+        <marker scope="Public" name="scm_toru" />
         <marker scope="Public" name="scm_tracer" />
         <marker scope="Public" name="scm_trifle" />
         <marker scope="Public" name="scm_trixie" />
@@ -482,18 +505,22 @@
         <marker scope="Public" name="scm_winter" />
         <marker scope="Public" name="scm_wonderwoman" />
         <marker scope="Public" name="scm_xander" />
+        <marker scope="Public" name="scm_yae" />
+        <marker scope="Public" name="scm_yae_miko" />
         <marker scope="Public" name="scm_yang" />
         <marker scope="Public" name="scm_yangxiao" />
         <marker scope="Public" name="scm_yshtola" />
         <marker scope="Public" name="scm_yuelia" />
         <marker scope="Public" name="scm_yuellia" />
         <marker scope="Public" name="scm_yukari" />
+        <marker scope="Public" name="scm_yumeko" />
         <marker scope="Public" name="scm_yuna" />
         <marker scope="Public" name="scm_yunaffx" />
         <marker scope="Public" name="scm_yuno" />
         <marker scope="Public" name="scm_yunyun" />
         <marker scope="Public" name="scm_yuri" />
         <marker scope="Public" name="scm_yusuke" />
+        <marker scope="Public" name="scm_zeke_and_pandoria" />
         <marker scope="Public" name="scm_zelda" />
         <marker scope="Public" name="scm_zenobia" />
         <marker scope="Public" name="scm_zizou" />

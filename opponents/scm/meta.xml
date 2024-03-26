@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1687560098164</lastupdate>
+    <lastupdate>1711488707833</lastupdate>
     <enabled>true</enabled>
     <first>Suction Cup Man</first>
     <last />
     <label>Suction Cup Man</label>
     <pic>0-calm.png</pic>
     <gender>male</gender>
-    <height>5'6"</height>
     <from>Piemations</from>
     <writer>SentimentalRotom</writer>
     <artist>SentimentalRotom</artist>
     <description>What do you MEAN description?! He's SUCTION CUP MAN! </description>
     <layers>8</layers>
-    <has_collectibles>false</has_collectibles>
-    <lines>831</lines>
+    <lines>854</lines>
     <poses>207</poses>
 </opponent>
