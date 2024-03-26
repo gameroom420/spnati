@@ -1518,8 +1518,21 @@
         <label id="1485" label="C Heavy" folder="" sort="0" />
         <label id="1486" label="Forfeit C" folder="" sort="0" />
         <label id="1498" label="Yae Chat" folder="" sort="0" />
+        <label id="1499" label="" folder="Targets" sort="0" />
+        <label id="1500" label="" folder="Targets" sort="0" />
+        <label id="1501" label="" folder="Targets" sort="0" />
+        <label id="1502" label="We all know why I need to put this case here" color="6" folder="" sort="0" />
+        <label id="1503" label="Setup" folder="Rouge Dual Forfeit" sort="0" />
+        <label id="1504" label="Join - Furry" folder="Rouge Dual Forfeit" sort="0" />
+        <label id="1505" label="Heavy - Furry" folder="Rouge Dual Forfeit" sort="0" />
+        <label id="1506" label="Finishing - Furry" folder="Rouge Dual Forfeit" sort="0" />
+        <label id="1507" label="Finished - Furry" folder="Rouge Dual Forfeit" sort="0" />
+        <label id="1508" label="Lube 1 - Furry" folder="Rouge Dual Forfeit" sort="0" />
+        <label id="1509" label="Lube 2 - Furry" folder="Rouge Dual Forfeit" sort="0" />
+        <label id="1510" label="Penetrate - Furry" folder="Rouge Dual Forfeit" sort="0" />
+        <label id="1511" label="Bang - Furry" folder="Rouge Dual Forfeit" sort="0" />
     </labels>
-    <nextId>1498</nextId>
+    <nextId>1512</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="aaravi_finished" />
@@ -2013,6 +2026,7 @@
         <marker scope="Public" name="leon03" />
         <marker scope="Public" name="leon03a" />
         <marker scope="Public" name="leon03b" />
+        <marker scope="Public" name="leon03f" />
         <marker scope="Public" name="leon11" />
         <marker scope="Public" name="leon11a" />
         <marker scope="Public" name="leon11b" />
@@ -2439,6 +2453,7 @@
         <marker scope="Public" name="rosa62" />
         <marker scope="Public" name="rosa63" />
         <marker scope="Public" name="rouge_dual" />
+        <marker scope="Public" name="rouge_dual_furry" />
         <marker scope="Public" name="rouge_ff" />
         <marker scope="Public" name="rouge01" />
         <marker scope="Public" name="rouge02" />
@@ -2508,6 +2523,7 @@
         <marker scope="Public" name="sheena01" />
         <marker scope="Public" name="sheena02" />
         <marker scope="Public" name="sheena11" />
+        <marker scope="Public" name="sheena12" />
         <marker scope="Public" name="sly01" />
         <marker scope="Public" name="sly02" />
         <marker scope="Public" name="sly03" />
@@ -2640,12 +2656,21 @@
         <marker scope="Public" name="yae01b" />
         <marker scope="Public" name="yae02a" />
         <marker scope="Public" name="yae02b" />
+        <marker scope="Public" name="yae03a1" />
+        <marker scope="Public" name="yae03a2" />
         <marker scope="Public" name="yae11a" />
         <marker scope="Public" name="yae11b" />
         <marker scope="Public" name="yae12a" />
         <marker scope="Public" name="yae12b" />
+        <marker scope="Public" name="yae13a" />
+        <marker scope="Public" name="yae13b" />
         <marker scope="Public" name="yae41" />
+        <marker scope="Public" name="yae42" />
+        <marker scope="Public" name="yae42a" />
+        <marker scope="Public" name="yae42b" />
+        <marker scope="Public" name="yae42c" />
         <marker scope="Public" name="yae51" />
+        <marker scope="Public" name="yae52" />
         <marker scope="Public" name="yaeFF" />
         <marker scope="Public" name="yuri01" />
         <marker scope="Public" name="zls01" />
