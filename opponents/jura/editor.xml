@@ -128,6 +128,8 @@
         <note id="1516">Up to you, but this time I imagine Rouge correctly surmising that Jura wouldn't care even if blatantly peeped on.</note>
         <note id="1593">serious answer: whatever Rose would actually say
 funny answer: crab because her mech gets likened to one</note>
+        <note id="1613">I already wrote all my targets as if she had her canon look, so this is just a small acknowledgement</note>
+        <note id="1614">I already wrote all my targets as if she had her canon look, so this is just a minor variation (unless you want to expand it into an alt convo)</note>
     </notes>
     <labels>
         <label id="106" label="" color="4" folder="" sort="0" />
@@ -943,11 +945,12 @@ funny answer: crab because her mech gets likened to one</note>
         <label id="1607" label="" color="4" folder="" sort="0" />
         <label id="1608" label="" color="4" folder="" sort="0" />
         <label id="1609" label="" color="4" folder="" sort="0" />
+        <label id="1613" label="" color="4" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>jura</prefix>
     </prefixes>
-    <nextId>1612</nextId>
+    <nextId>1614</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="1v1">Jura acknowledges that the game has come down to her and one other player.</marker>
@@ -2630,6 +2633,8 @@ funny answer: crab because her mech gets likened to one</note>
         <marker scope="Public" name="rose23" />
         <marker scope="Public" name="rose4" />
         <marker scope="Public" name="rouge_babies" />
+        <marker scope="Public" name="rouge_bfb" />
+        <marker scope="Public" name="rouge_bfb1" />
         <marker scope="Public" name="rouge_hobbies" />
         <marker scope="Public" name="rouge_jewel" />
         <marker scope="Public" name="rouge_resp0" />
