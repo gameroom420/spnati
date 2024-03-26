@@ -105,7 +105,12 @@
         <response id="113" opponent="fluttershy" opponentId="22" />
         <response id="114" opponent="moskii" opponentId="1" />
         <response id="116" opponent="hatsune_miku" opponentId="372" />
+        <response id="128" opponent="jura" opponentId="1610" />
+        <response id="132" opponent="meia" opponentId="1352" />
     </responses>
+    <notes>
+        <note id="129">Give an honest answer if you feel like it, but at this early stage it would still be funny if the question is clearly too much and Yae has to backpedal. Either way!</note>
+    </notes>
     <labels>
         <label id="119" label="" folder="Spnanon's Sponsorship" sort="4" />
         <label id="120" label="" folder="Spnanon's Sponsorship" sort="2" />
@@ -121,7 +126,7 @@
         <prefix>ex</prefix>
         <prefix>op</prefix>
     </prefixes>
-    <nextId>127</nextId>
+    <nextId>132</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="AquaKS_s0_1" />
@@ -164,16 +169,22 @@
         <marker scope="Public" name="Bobobo_s5_3" />
         <marker scope="Public" name="catnoir_resp0_1" />
         <marker scope="Public" name="catnoir_resp0_2" />
+        <marker scope="Public" name="catnoir_resp0_3" />
         <marker scope="Public" name="catnoir_resp1_1" />
         <marker scope="Public" name="catnoir_resp1_2" />
+        <marker scope="Public" name="catnoir_resp1_3" />
+        <marker scope="Public" name="catnoir_resp1_4" />
         <marker scope="Public" name="catnoir_resp2_1" />
         <marker scope="Public" name="catnoir_resp3_1" />
         <marker scope="Public" name="catnoir_resp3_2" />
         <marker scope="Public" name="DMG_s0_1" />
         <marker scope="Public" name="DMG_s1_1" />
         <marker scope="Public" name="Fluttershy_s0_1" />
+        <marker scope="Public" name="Fluttershy_s0_2" />
         <marker scope="Public" name="Fluttershy_s1_1" />
+        <marker scope="Public" name="Fluttershy_s1_2" />
         <marker scope="Public" name="Fluttershy_s2_1" />
+        <marker scope="Public" name="Fluttershy_s2_2" />
         <marker scope="Public" name="Ghost_sN_1" />
         <marker scope="Public" name="jura_resp0_1" />
         <marker scope="Public" name="jura_resp0_2" />
@@ -189,6 +200,7 @@
         <marker scope="Public" name="jura_resp3_3" />
         <marker scope="Public" name="jura_resp4_1" />
         <marker scope="Public" name="jura_resp4_2" />
+        <marker scope="Public" name="jura_resp4_3" />
         <marker scope="Public" name="jura_resp5_1" />
         <marker scope="Public" name="jura_resp5_2" />
         <marker scope="Public" name="jura_resp5_3" />
@@ -200,7 +212,10 @@
         <marker scope="Public" name="Jura_s1_3" />
         <marker scope="Public" name="Jura_s2_1" />
         <marker scope="Public" name="Jura_s2_2" />
+        <marker scope="Public" name="Jura_s2_2meia" />
+        <marker scope="Public" name="Jura_s2_3" />
         <marker scope="Public" name="Jura_s3_1" />
+        <marker scope="Public" name="Jura_s3_2" />
         <marker scope="Public" name="kaz_resp0_1" />
         <marker scope="Public" name="kaz_resp0_2" />
         <marker scope="Public" name="kaz_resp0_3" />
@@ -329,11 +344,13 @@
         <marker scope="Public" name="meia_resp4_3" />
         <marker scope="Public" name="meia_resp5_1" />
         <marker scope="Public" name="meia_resp5_2" />
+        <marker scope="Public" name="meia_resp5_3" />
         <marker scope="Public" name="Meia_s0_1" />
         <marker scope="Public" name="Meia_s0_2" />
         <marker scope="Public" name="Meia_s0_3" />
         <marker scope="Public" name="Meia_s1_1" />
         <marker scope="Public" name="Meia_s1_2" />
+        <marker scope="Public" name="meiajura_resp3_1" />
         <marker scope="Public" name="miko_resp0_1" />
         <marker scope="Public" name="miko_resp0_2" />
         <marker scope="Public" name="miko_resp0_3" />
@@ -408,7 +425,10 @@
         <marker scope="Public" name="Roll_s5_2" />
         <marker scope="Public" name="Roll_s5_3" />
         <marker scope="Public" name="Senko_s0_1" />
+        <marker scope="Public" name="Senko_s0_2" />
         <marker scope="Public" name="Senko_s1_1" />
+        <marker scope="Public" name="Senko_s1_2" />
+        <marker scope="Public" name="Senko_s2_1" />
         <marker scope="Public" name="Sheena_Proposition" />
         <marker scope="Public" name="sheena_resp0_1" />
         <marker scope="Public" name="sheena_resp0_1a" />
