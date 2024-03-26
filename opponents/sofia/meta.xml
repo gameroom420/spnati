@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1711195897974</lastupdate>
+    <lastupdate>1711437030599</lastupdate>
     <enabled>false</enabled>
     <first>Sofia</first>
     <last>de Sainte-Coquille</last>
@@ -13,6 +13,6 @@
     <description>The daughter of a wealthy nobleman and one of Sharance's eligible bachelorettes. Although she is considerate and caring, she is more than a little eccentric. She loves garbage and useless things and has a peculiar habit of saying the opposite of whatever she means.</description>
     <layers>6</layers>
     <has_collectibles>true</has_collectibles>
-    <lines>1103</lines>
-    <poses>183</poses>
+    <lines>1122</lines>
+    <poses>185</poses>
 </opponent>
