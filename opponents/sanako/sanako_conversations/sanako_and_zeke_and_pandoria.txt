@@ -85,10 +85,10 @@ Zeke & Pandoria [zk_sanako_self1a]: W-Wedding bells? Er, not just yet, Sanako! W
 
 ZEKE & PANDORIA STRIPPING PAULDRONS & DRESS:
 Sanako [sanako_zeke_sz_z5]: Some men are just afraid to commit. Other men... well, let's just say they're happy to live off a lifetime of free samples.
-Zeke & Pandoria []*: ??
+Zeke & Pandoria [zk_sanako_self1b]: We're not like that, are we?<hr>{pandy}No, it's more... There's a lot we haven't really discussed, is all. We're still a couple, and that's all that matters to us!
 
 ZEKE & PANDORIA STRIPPED PAULDRONS & DRESS:
-Sanako [sanako_zeke_sz_z6]*: ??
+Sanako [sanako_zeke_sz_z6]: It's okay if you want to take it slow. When my partner and I were getting to know each other, he was a bundle of nerves just holding my hand!
 Zeke & Pandoria []*: ??
 
 
