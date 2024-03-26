@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1711488707833</lastupdate>
+    <lastupdate>1711489974708</lastupdate>
     <enabled>true</enabled>
     <first>Suction Cup Man</first>
     <last />
@@ -12,6 +12,6 @@
     <artist>SentimentalRotom</artist>
     <description>What do you MEAN description?! He's SUCTION CUP MAN! </description>
     <layers>8</layers>
-    <lines>854</lines>
+    <lines>855</lines>
     <poses>207</poses>
 </opponent>
