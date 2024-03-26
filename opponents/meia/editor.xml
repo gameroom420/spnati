@@ -89,6 +89,8 @@
         <note id="1644">Meia tends to be in a better mood for the Cupid skin.</note>
         <note id="1646">I'd like to extend this into the next hand line so she can continue and use another butt pose.</note>
         <note id="1658">willing to revise</note>
+        <note id="1752">I already wrote all my targets as if she had her canon look, so this is just a minor variation (unless you want to expand it into an alt convo)</note>
+        <note id="1753">I already wrote all my targets as if she had her canon look, so this is just a small acknowledgement</note>
     </notes>
     <labels>
         <label id="1266" label="" color="4" folder="" sort="0" />
@@ -969,8 +971,12 @@
         <label id="1722" label="" color="2" folder="" sort="0" />
         <label id="1744" label="" color="4" folder="" sort="0" />
         <label id="1745" label="" color="4" folder="" sort="0" />
+        <label id="1752" label="" color="4" folder="" sort="0" />
+        <label id="1753" label="" color="4" folder="" sort="0" />
+        <label id="1754" label="" color="4" folder="" sort="0" />
+        <label id="1755" label="" color="4" folder="" sort="0" />
     </labels>
-    <nextId>1751</nextId>
+    <nextId>1755</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="2butt">Meia shows off her butt while still in her bodysuit (or Cupid outfit).</marker>
@@ -3458,6 +3464,9 @@
         <marker scope="Public" name="rose34" />
         <marker scope="Public" name="rose4" />
         <marker scope="Public" name="rose5" />
+        <marker scope="Public" name="rouge_bfb" />
+        <marker scope="Public" name="rouge_bfb3" />
+        <marker scope="Public" name="rouge_bfb45" />
         <marker scope="Public" name="rouge_hobbies" />
         <marker scope="Public" name="rouge_jewel" />
         <marker scope="Public" name="rouge_men" />
@@ -3489,6 +3498,7 @@
         <marker scope="Public" name="rouge34" />
         <marker scope="Public" name="rouge3s" />
         <marker scope="Public" name="rouge4" />
+        <marker scope="Public" name="rouge45" />
         <marker scope="Public" name="rouge4s" />
         <marker scope="Public" name="ruka0" />
         <marker scope="Public" name="ryuko_4s" />
