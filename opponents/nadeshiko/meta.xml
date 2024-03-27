@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1711501602423</lastupdate>
+    <lastupdate>1711517233516</lastupdate>
     <enabled>false</enabled>
     <first>Nadeshiko</first>
     <last>Kagamihara</last>
@@ -14,6 +14,6 @@
     <layers>8</layers>
     <default-costume-name>Comfy Camper</default-costume-name>
     <has_collectibles>true</has_collectibles>
-    <lines>1366</lines>
+    <lines>1396</lines>
     <poses>239</poses>
 </opponent>
