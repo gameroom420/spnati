@@ -432,8 +432,9 @@
         <label id="589" label="" color="4" folder="" sort="0" />
         <label id="590" label="" color="4" folder="" sort="0" />
         <label id="591" label="" color="4" folder="" sort="0" />
+        <label id="592" label="" color="4" folder="" sort="0" />
     </labels>
-    <nextId>591</nextId>
+    <nextId>592</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="aaravi0" />
@@ -459,6 +460,7 @@
         <marker scope="Public" name="aoba_id0" />
         <marker scope="Public" name="aoba_ld0" />
         <marker scope="Public" name="aoba0" />
+        <marker scope="Public" name="aoi_asahina0" />
         <marker scope="Public" name="aqua_grunt_gg0" />
         <marker scope="Public" name="aqua_grunt0" />
         <marker scope="Public" name="aqua_intimidating" />
