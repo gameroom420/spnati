@@ -402,24 +402,24 @@
         <label id="354" label="" folder="Nadeshiko (Stripped)" sort="8" />
         <label id="355" label="" folder="Nadeshiko (Masturbating)" sort="0" />
         <label id="357" label="" folder="Nadeshiko Must Strip (Kyouko)" sort="0" />
-        <label id="358" label="" folder="Nadeshiko Must Strip (Kyouko)" sort="0" />
+        <label id="358" label="" folder="Nadeshiko Must Strip (Kyouko)" sort="2" />
         <label id="359" label="" folder="Kyouko (Must Strip)" sort="0" />
-        <label id="360" label="" folder="Kyouko (Must Strip)" sort="0" />
-        <label id="361" label="" folder="Nadeshiko Stripping (Kyouko)" sort="0" />
-        <label id="362" label="" folder="Nadeshiko Stripping (Kyouko)" sort="0" />
+        <label id="360" label="" folder="Kyouko (Must Strip)" sort="2" />
+        <label id="361" label="" folder="Nadeshiko Stripping (Kyouko)" sort="3" />
+        <label id="362" label="" folder="Nadeshiko Stripping (Kyouko)" sort="2" />
         <label id="363" label="" folder="Kyouko (Stripping)" sort="0" />
-        <label id="364" label="" folder="Kyouko (Stripping)" sort="0" />
+        <label id="364" label="" folder="Kyouko (Stripping)" sort="2" />
         <label id="365" label="" folder="Kyouko (Stripped)" sort="0" />
-        <label id="366" label="" folder="Kyouko (Stripped)" sort="0" />
+        <label id="366" label="" folder="Kyouko (Stripped)" sort="2" />
         <label id="367" label="" folder="Nadeshiko Stripping (Kyouko)" sort="0" />
-        <label id="368" label="" folder="Nadeshiko Stripped (Kyouko)" sort="0" />
+        <label id="368" label="" folder="Nadeshiko Stripped (Kyouko)" sort="3" />
         <label id="369" label="" folder="Nadeshiko Stripped (Kyouko)" sort="0" />
-        <label id="370" label="" folder="Nadeshiko Stripped (Kyouko)" sort="0" />
-        <label id="371" label="" folder="Kyouko (Must Strip)" sort="0" />
-        <label id="372" label="" folder="Kyouko (Stripped)" sort="0" />
-        <label id="373" label="" folder="Kyouko (Stripping)" sort="0" />
-        <label id="374" label="" folder="Nadeshiko Must Strip (Kyouko)" sort="0" />
-        <label id="375" label="" folder="Nadeshiko Stripping (Kyouko)" sort="0" />
+        <label id="370" label="" folder="Nadeshiko Stripped (Kyouko)" sort="2" />
+        <label id="371" label="" folder="Kyouko (Must Strip)" sort="3" />
+        <label id="372" label="" folder="Kyouko (Stripped)" sort="3" />
+        <label id="373" label="" folder="Kyouko (Stripping)" sort="3" />
+        <label id="374" label="" folder="Nadeshiko Must Strip (Kyouko)" sort="3" />
+        <label id="375" label="" folder="Nadeshiko Stripping (Kyouko)" sort="4" />
     </labels>
     <nextId>375</nextId>
     <markers>
@@ -564,6 +564,7 @@
         <marker scope="Public" name="Kyouko_Nade_CampingPartners" />
         <marker scope="Public" name="Kyouko_Nade_CampingPartners2" />
         <marker scope="Public" name="Kyouko_Nade_CampingPartners3" />
+        <marker scope="Public" name="Kyouko_Nade_Impressed" />
         <marker scope="Public" name="largeFemale">Used for any line tied to a female opponent with large breasts</marker>
         <marker scope="Public" name="largeMale">Used for any line tied to a male opponent with a large penis</marker>
         <marker scope="Public" name="Lookerstory_R" />
@@ -644,6 +645,7 @@
         <marker scope="Public" name="Nade_Nonon_2-1" />
         <marker scope="Public" name="Nade_Rainbow_EatingContest" />
         <marker scope="Public" name="Nade_Reimu_Spouse" />
+        <marker scope="Public" name="Nade_Sanako_Comfy" />
         <marker scope="Public" name="Nade_Sayaka_R" />
         <marker scope="Public" name="Nade_Solar_1-1" />
         <marker scope="Public" name="Nade_Solar_2-1" />
