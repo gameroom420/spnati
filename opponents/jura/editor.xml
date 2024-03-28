@@ -948,11 +948,12 @@ funny answer: crab because her mech gets likened to one</note>
         <label id="1609" label="" color="4" folder="" sort="0" />
         <label id="1613" label="" color="4" folder="" sort="0" />
         <label id="1615" label="" color="4" folder="" sort="0" />
+        <label id="1616" label="" color="4" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>jura</prefix>
     </prefixes>
-    <nextId>1615</nextId>
+    <nextId>1616</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="1v1">Jura acknowledges that the game has come down to her and one other player.</marker>
@@ -2615,6 +2616,7 @@ funny answer: crab because her mech gets likened to one</note>
         <marker scope="Public" name="roll_caskett1s" />
         <marker scope="Public" name="roll0" />
         <marker scope="Public" name="rosa_bb0" />
+        <marker scope="Public" name="rosa_lg0" />
         <marker scope="Public" name="rosa_os0" />
         <marker scope="Public" name="rosa_pr0" />
         <marker scope="Public" name="rosa_resp0" />
