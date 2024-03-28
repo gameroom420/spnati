@@ -90,9 +90,11 @@
         <response id="308" opponent="rosa" opponentId="844" />
         <response id="309" opponent="rosa" opponentId="845" />
         <response id="310" opponent="rosa" opponentId="846" />
+        <response id="318" opponent="rosa" opponentId="857" />
     </responses>
     <notes>
         <note id="193">Rose has left her slot to visit Magma Grunt's slot - MG is showing her a picture of her own backside</note>
+        <note id="311">attempts to peddle to opponents that are not poor OR are not villains AND not creepy</note>
     </notes>
     <labels>
         <label id="1" label="" folder="Conditional" sort="18" />
@@ -399,11 +401,19 @@
         <label id="309" label="" folder="Rosa" sort="0" />
         <label id="308" label="" folder="Rosa" sort="0" />
         <label id="310" label="" folder="Rosa" sort="0" />
+        <label id="311" label="" folder="Conditional" sort="0" />
+        <label id="312" label="" folder="Response" sort="0" />
+        <label id="313" label="" folder="Targets" sort="0" />
+        <label id="314" label="" folder="Targets" sort="0" />
+        <label id="315" label="" folder="Conditional" sort="0" />
+        <label id="316" label="" folder="Conditional" sort="0" />
+        <label id="317" label="" folder="Targets" sort="0" />
+        <label id="318" label="" folder="Rosa&gt;Lucario Girl" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>show_anima==1</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>310</nextId>
+    <nextId>318</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="3player" />
@@ -440,6 +450,9 @@
         <marker scope="Public" name="nonon_lady_jakuzure_resp" />
         <marker scope="Public" name="nonon_postcum_threat_Resp" />
         <marker scope="Public" name="nonon_short" />
+        <marker scope="Public" name="peddling_abouttolose_naked" />
+        <marker scope="Public" name="peddling_generic" />
+        <marker scope="Public" name="peddling_topless" />
         <marker scope="Public" name="rosa_ROSE_strip0b" />
         <marker scope="Public" name="rose_aaravi_bandages1" />
         <marker scope="Public" name="rose_aaravi_bandages2" />
@@ -470,6 +483,7 @@
         <marker scope="Public" name="rose_aaraviMustMast" />
         <marker scope="Public" name="rose_aaraviStartMast" />
         <marker scope="Public" name="rose_aaraviStartMast2" />
+        <marker scope="Public" name="rose_aoi_swimming1" />
         <marker scope="Public" name="rose_aura_camera0" />
         <marker scope="Public" name="rose_aura_camera1" />
         <marker scope="Public" name="rose_butt" />
@@ -493,6 +507,7 @@
         <marker scope="Public" name="rose_miko_tojiko1" />
         <marker scope="Public" name="rose_miko_ward1" />
         <marker scope="Public" name="rose_moskii_animaQuestion1" />
+        <marker scope="Public" name="rose_resp0_1" />
         <marker scope="Public" name="rose_revy_self0a" />
         <marker scope="Public" name="rose_revy_self0b" />
         <marker scope="Public" name="rose_ROSA_nails1" />
@@ -502,11 +517,15 @@
         <marker scope="Public" name="rose_rosa_self1a" />
         <marker scope="Public" name="rose_rosa_self1b" />
         <marker scope="Public" name="rose_rosa_self1c" />
+        <marker scope="Public" name="rose_rosa_strip3c_hero" />
         <marker scope="Public" name="rose_rouge_strip2a" />
         <marker scope="Public" name="rose_sofia_default0a" />
         <marker scope="Public" name="rose_sofia_default0b" />
+        <marker scope="Public" name="rose_sofia_default0c" />
         <marker scope="Public" name="rose_sofia_interests1" />
         <marker scope="Public" name="rose_sofia_interests2" />
+        <marker scope="Public" name="rose_sofia_interests3" />
+        <marker scope="Public" name="rose_sofia_self0a" />
         <marker scope="Public" name="rose_yuno_degree1" />
         <marker scope="Public" name="rose_yuno_degree2" />
         <marker scope="Public" name="rose_yuno_degree3" />
