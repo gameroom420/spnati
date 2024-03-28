@@ -1,25 +1,29 @@
 # Sponsorship reqs
 
-Doing all 7
+[ ] Remillia
+[ ] L0kkit
+[ ] Spaceman
+[ ] Tweetsie
+[X] Nicole
 
 ## Remillia
 
 - [X] Raise generic count to 1000 (Total - (Targets + Filters))
-- [ ] Raise her total targeted lines to 300 (244/300)
+- [ ] Raise her total targeted lines to 300 (273/300)
 - [X] Raise her total filter amount to 75
 
-- [ ] Add 10 more lines showing Kyouko's perverted/overactive imagination, in any case (3/10)
+- [ ] Add 10 more lines showing Kyouko's perverted/overactive imagination, in any case (7/10)
 - [X] Add 15 generic masturbation lines (not heavy masturbation) which are flirty/sexy in context
 - [X] Add 10 more lines of self-exposition in hand=any, all with a play once
   - This can be her talking about her friends, her school(college?), her club, her skills, her love of anime/manga, etc
 - [X] Add 10 more female masturbation lines in her 0-9 case.
 - [X] Add 10 more After finished (self) lines without a filter.
-- [ ] Add 5 more lines towards Human which are unrelated to her bow collectible. Any case. (2/5)
+- [X] Add 5 more lines towards Human which are unrelated to her bow collectible. Any case.
 
 ## L0kkit
 
 - [X] Add at least 30 targeted lines
-- [ ] Add at least 30 hand quality lines (2/30)
+- [ ] Add at least 30 hand quality lines (3/30)
 - (S) Show her candid side more
 
 ## Ace
@@ -43,9 +47,9 @@ Doing all 7
   - [ ] Removed major (female)
   - [ ] Masturbating (male)
   - [ ] Masturbating (female)
-- [ ] 25 outgoing targets (10/25)
+- [ ] 25 outgoing targets (12/25)
   - Yumeko 1-2, 2-3, 3-4, 4-5, 5-6
-  - Nadeshiko 1-2, 2-3, 3-4, 4-5, 5-6
+  - Nadeshiko 1-2, 2-3, 3-4, 4-5, 5-6, 6-7, 7-8
 - [X] 20 filters
 - (S) Tweak face a little - try reduced head size
 - (S) Casual alt
@@ -53,7 +57,7 @@ Doing all 7
 ## Tweetsie
 
 - [X] 25 targets to any characters
-- [ ] 25 generics exploring her sexuality more (preferably in interval [4, 7]) (3/25)
+- [ ] 25 generics exploring her sexuality more (preferably in interval [4, 7]) (15/25)
 
 ## Karbol
 
