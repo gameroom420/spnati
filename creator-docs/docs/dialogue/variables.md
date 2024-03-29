@@ -20,10 +20,10 @@ Additionally, if a variable is written in all caps (e.g. `~PLAYER~`), then the e
 | `~name~`     | The name (label) of the current target. The same as `~target~`. The target depends on the situation and not all situations have a target. | 
 | `~background~` | The name of the current background. |
 | `~rng(lo-hi)~` | Generates a random number between `lo` and `hi`, inclusive. |
-| `~count(variable)~`      | The number of players matching the condition(s) to which the custom variable `variable` has been assigned. If `variable` has not been assigned, this expands to 0. This makes it possible to require that zero players fulfill all conditions in a set, or that the same number of players fulfills two conditions. |
-| `~count.text(variable)~` | The same as `~count(variable)~`, but as text ("zero", "one", ... "five"). |
-| `~list(variable)~`, `~list(variable|conjunction)~` | The (nick)names of the player(s) matching all the conditions defining `variable`, separated by commas and `conjunction` (defaults to "and"). If `conjunction` is empty (`~list(variable|)~`), the (nick)names will all be joined by commas.
-| `~switch(variable|text-if-one|text-if-two|...)~`   | Expands to the alternative corresponding to the number of players matching the conditions defining `variable` (starting at 1). Similar to the `ifPlural()` functions, but there can optionally be separate cases for 3, 4, and 5. If the number of matches is greater than the number of alternatives, the last alternative is used.
+| `~vars.count(variable)~`      | The number of players matching the condition(s) to which the custom variable `variable` has been assigned. If `variable` has not been assigned, this expands to 0. This makes it possible to require that zero players fulfill all conditions in a set, or that the same number of players fulfills two conditions. |
+| `~vars.textcount(variable)~` | The same as `~vars.count(variable)~`, but as text ("zero", "one", ... "five"). |
+| `~vars.list(variable|last|conjunction)~` | The (nick)names of the player(s) matching all the conditions defining `variable`, plus `last`, separated by commas and `conjunction` (defaults to "and"). If `conjunction` is empty, the (nick)names (and `last`) will all be joined by commas. Example: `~vars.list(opp|me|or)~` might expand to "Mari, Aqua, or me".
+| `~vars.switch(variable|text-if-one|text-if-two|...)~`   | Expands to the alternative corresponding to the number of players matching the conditions defining `variable` (starting at 1). Similar to the `ifPlural()` functions, but there can optionally be separate cases for 3, 4, and 5. If the number of matches is greater than the number of alternatives, the last alternative is used.
 | `~blank~`      | Expands to a blank (i.e. empty) string. This is mostly useful for creating lines where a character says nothing at all, such as during joint interactions. |
 
 Note that backgrounds have lots of information that can be accessed using variables;
@@ -122,7 +122,7 @@ with the same names but with `2`, `3`, and so on, appended. These can also be us
 numbered variables will be tried.
 
 If multiple conditions define the same variable, but at least one of them have a 0 lower bound, the variable may end up undefined, either because no player at all 
-matched a condition with 0 lower bound, or because no one player matched all conditions. You can use the `~count()~` function to check how many players matched the
+matched a condition with 0 lower bound, or because no one player matched all conditions. You can use the `~vars.count()~` function to check how many players matched the
 conditions.
 
 Note that you _don't_ have to define a custom variable to reference a specific character whose presence you've ensured with an Opponent or Also Playing condition.
