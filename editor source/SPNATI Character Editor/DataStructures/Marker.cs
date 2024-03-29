@@ -103,11 +103,14 @@ namespace SPNATI_Character_Editor
 		}
 
 		/// <summary>
-		/// Extracts the string from a marker equation
+		/// Obtains the relevant parts of a marker predicate of the form marker==5 or marker*==5
 		/// </summary>
-		/// <param name="marker"></param>
-		/// <returns></returns>
-		public static string ExtractConditionPieces(string marker, out MarkerOperator op, out string value, out bool perTarget)
+		/// <param name="marker">Marker condition to split</param>
+		/// <param name="op">Conditional operator</param>
+		/// <param name="value">Right hand side of equation</param>
+		/// <param name="perTarget">Whether the marker is per-target</param>
+		/// <returns>Left side of equation</returns>
+		public static string ParseCondition(string marker, out MarkerOperator op, out string value, out bool perTarget)
 		{
 			if (string.IsNullOrEmpty(marker))
 			{
@@ -124,15 +127,35 @@ namespace SPNATI_Character_Editor
 			marker = marker.Replace("zzzzzz1njnr3icn4", "!=");
 			marker = marker.Replace("zzzzzz1njnr3icn5", "!@");
 
-			Match match = Regex.Match(marker, @"^([-\w+\.]+)(\*?)(\s*(\<\=|\>\=|\<|\>|\=\=|!\=|\=|!\@|\@)?\s*([-\w]+|~[-\w]+~))?");
+			// Regex from spniBehaviour.js, function checkMarker()
+			Match match = Regex.Match(marker, @"^([\w\-\+]+)(\*?)(\s*(\<\=|\>\=|\<|\>|\=\=|!\=|\=|!\@|\@)?\s*(.+))?\s*$");
+			if (!match.Success)
+			{
+				value = "";
+				perTarget = false;
+				op = MarkerOperator.Equals;
+				return marker;
+			}
+
 			op = ToOperator(match.Groups[4].ToString());
 			value = match.Groups[5]?.ToString();
-			if (string.IsNullOrEmpty(value))
+			perTarget = !string.IsNullOrEmpty(match.Groups[2]?.ToString());
+			return match.Groups[1].ToString().Replace("zzzzzz1njnr3icnx", "!");
+		}
+
+		/// <summary>
+		/// Extracts the string from a marker equation
+		/// </summary>
+		/// <param name="marker"></param>
+		/// <returns></returns>
+		public static string ExtractConditionPieces(string marker, out MarkerOperator op, out string value, out bool perTarget)
+		{
+			string name = ParseCondition(marker, out op, out value, out perTarget);
+			if (!string.IsNullOrEmpty(marker) && string.IsNullOrEmpty(value))
 			{
 				value = "1";
 			}
-			perTarget = !string.IsNullOrEmpty(match.Groups[2]?.ToString());
-			return match.Groups[1].ToString().Replace("zzzzzz1njnr3icnx", "!");
+			return name;
 		}
 
 		/// <summary>
@@ -177,7 +200,7 @@ namespace SPNATI_Character_Editor
 			else
 			{
 				value = null;
-				op = null;	
+				op = null;
 			}
 
 			if (marker.EndsWith("*"))
@@ -197,7 +220,10 @@ namespace SPNATI_Character_Editor
 		/// <returns>Left side of equation</returns>
 		public static string SplitConditional(string marker, out MarkerOperator op, out string rhs)
 		{
-			///Note: I originally converted *SaidMarker strings into a class instead of repeatedly piecing and unpiecing the parts, 
+			// I considered replacing this with a call to ParseEquation(), but this function doesn't even know what to do with
+			// per-target markers, so I decided to leave it be
+
+			///Note: I originally converted *SaidMarker strings into a class instead of repeatedly piecing and unpiecing the parts,
 			///but it complicated a number of things with serialization, primarily performance and maintaining member order
 
 			marker = Regex.Replace(marker, @"\s+", ""); //throw away any whitespace
@@ -381,7 +407,7 @@ namespace SPNATI_Character_Editor
 		}
 
 		public override string ToString()
-		{ 
+		{
 			return Start.ToString() + "-" + End.ToString();
 		}
 

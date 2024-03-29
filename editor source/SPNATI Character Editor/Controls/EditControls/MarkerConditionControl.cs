@@ -81,7 +81,7 @@ namespace SPNATI_Character_Editor
 			{
 				recField.RecordContext = Context;
 			}
-			
+
 			cboOperator.SelectedIndex = 0;
 
 			string value = GetValue()?.ToString();
@@ -91,31 +91,11 @@ namespace SPNATI_Character_Editor
 		private void ApplyValue(string dataValue)
 		{
 			dataValue = dataValue ?? "";
-			string pattern = @"^([-\w\.]+)(\*?)(\s*(\<\=|\>\=|\<|\>|\=\=|!\=|\=|!\@|\@)?\s*([-\w]+|~[-\w]+~))?$";
-			Regex regex = new Regex(pattern);
-			Match match = regex.Match(dataValue);
-			if (match.Success)
-			{
-				string name = match.Groups[1].Value;
-				string perTarget = match.Groups[2].Value;
-				string op = match.Groups[4].Value;
-				string value = match.Groups[5].Value;
-				recField.RecordKey = name;
-				chkPerTarget.Checked = perTarget == "*";
-				if (!string.IsNullOrEmpty(op))
-				{
-					if (op == "=")
-					{
-						op = "==";
-					}
-					cboOperator.SelectedItem = op;
-				}
-				txtValue.Text = value;
-			}
-			else
-			{
-				recField.RecordKey = dataValue;
-			}
+			string name = Marker.ParseCondition(dataValue, out var op, out var value, out var perTarget);
+			recField.RecordKey = name;
+			chkPerTarget.Checked = perTarget;
+			cboOperator.SelectedItem = op.Serialize();
+			txtValue.Text = value;
 		}
 
 		protected override void RemoveHandlers()
