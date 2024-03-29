@@ -467,6 +467,12 @@
         <response id="1777" opponent="jura" opponentId="33" />
         <response id="1778" opponent="jura" opponentId="952" />
         <response id="1779" opponent="sanako" opponentId="159" />
+        <response id="1794" opponent="jura" opponentId="278" />
+        <response id="1795" opponent="jura" opponentId="933" />
+        <response id="1796" opponent="jura" opponentId="9" />
+        <response id="1797" opponent="jura" opponentId="10" />
+        <response id="1798" opponent="jura" opponentId="12" />
+        <response id="1799" opponent="jura" opponentId="14" />
     </responses>
     <notes>
         <note id="401">This is a special version of this line for Fluttershy to react to, but it uses the regular marker to allow for replied from anyone.
@@ -2219,13 +2225,19 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <label id="1790" label="" folder="Waitress Uniform collectible unlock checks" sort="0" />
         <label id="1791" label="" folder="Waitress Uniform collectible unlock checks" sort="0" />
         <label id="1793" label="earrings" folder="" sort="0" />
+        <label id="1794" label="" folder="Jura and Cheryl to left or right" sort="0" />
+        <label id="1795" label="" folder="Jura and Revy to left or right" sort="0" />
+        <label id="1797" label="" folder="Tharja and Jura to left or right" sort="0" />
+        <label id="1796" label="" folder="Tharja and Jura to left or right" sort="0" />
+        <label id="1798" label="" folder="Tharja and Jura to left or right" sort="0" />
+        <label id="1799" label="" folder="Jura to left" sort="0" />
     </labels>
     <prefixes>
         <prefix>epilogue</prefix>
         <prefix>collectible</prefix>
         <prefix>x-</prefix>
     </prefixes>
-    <nextId>1793</nextId>
+    <nextId>1799</nextId>
     <markers>
         <marker scope="Public" name="nagisa_9s_are_you_lost" />
         <marker scope="Public" name="nagisa_9s_n9_91" />
@@ -3096,7 +3108,9 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <marker scope="Public" name="nagisa_jim_zip_stuck" />
         <marker scope="Public" name="nagisa_joey_jjoke13" />
         <marker scope="Public" name="nagisa_jura_babies" />
+        <marker scope="Public" name="nagisa_jura_birthday" />
         <marker scope="Public" name="nagisa_jura_butt" />
+        <marker scope="Public" name="nagisa_jura_cheryl_hug" />
         <marker scope="Public" name="nagisa_jura_christmas_traditions" />
         <marker scope="Public" name="nagisa_jura_confident" />
         <marker scope="Public" name="nagisa_jura_cover_my_eyes" />
@@ -3203,6 +3217,7 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <marker scope="Public" name="nagisa_jura_nj_n8" />
         <marker scope="Public" name="nagisa_jura_nj_n9" />
         <marker scope="Public" name="nagisa_jura_played" />
+        <marker scope="Public" name="nagisa_jura_revy_resp6s" />
         <marker scope="Public" name="nagisa_jura_santa_f" />
         <marker scope="Public" name="nagisa_jura_seduction" />
         <marker scope="Public" name="nagisa_jura_seems_grown_up" />
@@ -4164,6 +4179,8 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <marker scope="Public" name="nagisa_tea_poolside_raincheck" />
         <marker scope="Public" name="nagisa_tentacle">Nagisa can make a tentacle comparison when playing with Zone-tan.</marker>
         <marker scope="Public" name="nagisa_terrible_pirate">Nagisa would make a terrible pirate.</marker>
+        <marker scope="Public" name="nagisa_tharja_jura_boob2" />
+        <marker scope="Public" name="nagisa_tharja_jura_boob3" />
         <marker scope="Public" name="nagisa_tharja_something_scary" />
         <marker scope="Public" name="nagisa_tie_game_over" />
         <marker scope="Public" name="nagisa_tifa_win">Nagisa thinks Tifa will "win" even if she loses (because of her bust).</marker>

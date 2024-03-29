@@ -212,17 +212,24 @@ Miko [NagisaShoes3]: Yet, I fear that neither you, nor the one who bestowed the 
 Nagisa [nagisa_miko_mn_n03]: If you find out what it means, please tell me. I don't really know much about blessings and that kind of thing.
 
 
-NAGISA MUST STRIP SOCKS:
+NAGISA MUST STRIP SOCKS: Sanako chimes in if present
 Miko [NagisaSock1]: I am correct in presuming that your blessing was bestowed almost by accident, Lady Nagisa. Still, for an otherwise normal human to call down the power of the gods— one cannot take that lightly. -- please set to play only when Nagisa is to the right
 Nagisa [nagisa_miko_mn_n04]: I'm not sure, Miko. I don't remember getting any blessings. My family's not very religious or anything.
+Sanako [sanako_nagisa_miko_mns_n4]: Maybe you yourself are the blessing, Nagisa. I'd believe that.
 
-NAGISA STRIPPING SOCKS:
+NAGISA STRIPPING SOCKS: Sanako chimes in if present
+Sanako [sanako_nagisa_miko_smn_n5]: I think she means you're the blessing to your family, Nagisa. You're so precious to them, after all.
 Miko [NagisaSock2]: I honestly fear I’ve never loved my own progeny so. And, thanks to my immortality, most of my heirs have long passed. All that remains is the youkai of the masks I once crafted, Hata no Kokoro. -- please set to play only when Nagisa is to the right
+Sanako [sanako_nagisa_miko_msn_n5]: I had no idea. That's heartbreaking...
 Nagisa [nagisa_miko_mn_n05]: Oh, I'm so sorry if I reminded you of something sad. They say the greatest tragedy is when a parent outlives her child.
+Sanako [sanako_nagisa_miko_mns_n5]: It's too awful to even imagine!
 
-NAGISA STRIPPED SOCKS:
+NAGISA STRIPPED SOCKS: Sanako chimes in if present
+Sanako [sanako_nagisa_miko_smn_n6]: Ah, let's not dwell on anything too negative. You were talking about Nagisa's blessing, Miko?
 Miko [NagisaSock3]: Your blessing is the real deal, Lady Nagisa. Though darkness may yet swirl about you, never shall it touch you. And without control of it, your neck may as well be underneath a sword. -- please set to play only when Nagisa is to the right
+Sanako [sanako_nagisa_miko_msn_n6]: This conversation has taken a dark turn. Should we maybe think about something more cheerful?
 Nagisa [nagisa_miko_mn_n06]: That sounds more like a curse. What if... what if I'm just making everyone I talk to sadder just by me being around. Maybe I should just be considerate and leave everyone else alone...
+Sanako [sanako_nagisa_miko_mns_n6]: That's not true, Nagisa! You're like a ray of sunshine for all of us. I don't know anything about curses, but I know that our lives are better for having you around.
 
 
 NAGISA MUST STRIP JACKET:
