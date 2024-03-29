@@ -186,8 +186,9 @@
         <label id="173" label="" folder="Sequences" sort="0" />
         <label id="175" label="Skinny Dipping" folder="" sort="0" />
         <label id="176" label="" folder="Target: Nadeshiko" sort="0" />
+        <label id="183" label="Early Game" folder="" sort="0" />
     </labels>
-    <nextId>177</nextId>
+    <nextId>183</nextId>
     <markers>
         <marker scope="Private" name="B_">Background related markers.</marker>
         <marker scope="Private" name="D_">Dialogue that doesn't fit in other categories.</marker>
@@ -202,6 +203,7 @@
         <marker scope="Public" name="D_WeDontTalkAboutJunko" />
         <marker scope="Private" name="F">Lines that target specific filters.</marker>
         <marker scope="Public" name="F_ChubbyTraining" />
+        <marker scope="Public" name="hina_chihiro_endW" />
         <marker scope="Private" name="L_">Linked dialogue that form sequences.</marker>
         <marker scope="Public" name="L_AoiDeparts" />
         <marker scope="Public" name="L_AoiReturns" />
@@ -271,12 +273,24 @@
         <marker scope="Public" name="T_SweetheartStart" />
         <marker scope="Public" name="T_TwoKyokoLost0" />
         <marker scope="Private" name="TI_">Targeted lines when Hina is stripping</marker>
+        <marker scope="Public" name="TI_Jura_0-1" />
+        <marker scope="Public" name="TI_Jura_0-1Swim" />
+        <marker scope="Public" name="TI_Kyoko_0Trio" />
+        <marker scope="Public" name="TI_Kyoko_4-3Memory" />
+        <marker scope="Public" name="TI_Kyoko_4-3Touch" />
+        <marker scope="Public" name="TI_Kyoko_6-3Shaved" />
         <marker scope="Public" name="TI_Kyoko_7-1" />
         <marker scope="Public" name="TI_Kyoko_7-1KeepDown" />
         <marker scope="Public" name="TI_Kyoko_7-1Secret" />
         <marker scope="Public" name="TI_Kyoko_7-2" />
+        <marker scope="Public" name="TI_KyokoButtPose" />
+        <marker scope="Public" name="TI_Meia_0-1" />
         <marker scope="Public" name="TI_Nadeshiko_4-1" />
         <marker scope="Public" name="TI_NadeshikoNervous" />
+        <marker scope="Public" name="TI_Revy_0-1" />
+        <marker scope="Public" name="TI_Revy_0-1Swim" />
+        <marker scope="Public" name="TI_Rosa_0-1" />
+        <marker scope="Public" name="TI_Rose_0-1Swim" />
         <marker scope="Private" name="TO_">Targeted lines when other characters are stripping.</marker>
         <marker scope="Public" name="TO_Chiaki_0-1">Chiaki Must Strip Stage 0</marker>
         <marker scope="Public" name="TO_Chihiro_0-1">Chihiro Must Strip Stage 0</marker>
@@ -290,14 +304,17 @@
         <marker scope="Public" name="TO_Kyoko_7-3Naked" />
         <marker scope="Public" name="TO_Nagatoro_0-1">Nagatoro Must Strip Stage 0</marker>
         <marker scope="Public" name="TO_Noelle_1-3Geo" />
+        <marker scope="Public" name="TO_Rosa_0-1" />
         <marker scope="Public" name="TO_Sakura_2-2" />
         <marker scope="Public" name="TO_Sakura_2-3Zombie" />
         <marker scope="Public" name="TO_Sweetheart_0-1">Sweetheart Must Strip Stage 0</marker>
         <marker scope="Public" name="TO_Zeke_0-1" />
         <marker scope="Private" name="Z_" />
+        <marker scope="Public" name="Z_AoiIsConfident" />
         <marker scope="Public" name="Z_AoiVictory" />
         <marker scope="Public" name="Z_Finished" />
         <marker scope="Public" name="Z_GamesPlayed" />
         <marker scope="Public" name="Z_HinaConfident" />
+        <marker scope="Public" name="zset_hinaConfident" />
     </markers>
 </metadata>
