@@ -1457,6 +1457,8 @@ function expandPlayerVariable(split_fn, args, player, self, target, bindings) {
         return player.out ? player.timer : player.stamina;
     case 'heavy':
         return (player.forfeit[0] === PLAYER_HEAVY_MASTURBATING) ? "true" : "false";
+    case 'tied':
+        return rankPlayers().tied.includes(player) ? "true" : "false";
     default:
         return expandNicknames(self, player);
     }
@@ -2513,6 +2515,9 @@ Opponent.prototype.findBehaviour = function(triggers, opp, volatileOnly) {
         bestMatch.forEach(function (c) {
             if (c !== chosenState.parentCase) c.cleanupMutableState();
         });
+        if (triggers[0] === PLAYERS_TIED) {
+            chosenState.parentCase.variableBindings.tied = rankPlayers().tied;
+        }
 
         return new State(chosenState);
     }

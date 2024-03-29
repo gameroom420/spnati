@@ -493,6 +493,25 @@ function completeExchangePhase () {
     allowProgression(eGamePhase.REVEAL);
 }
 
+function rankPlayers () {
+    /* Sort players by their hand strengths, worst first. */
+    let sortedPlayers = players.filter(function(p) { return !p.out; });
+    sortedPlayers.sort(function(p1, p2) { return compareHands(p1.hand, p2.hand); });
+    let i = 0;
+    /* The probability of a three-way tie is basically zero,
+     * but it's theoretically possible. */
+    while (++i < sortedPlayers.length
+           && compareHands(sortedPlayers[0].hand,
+                           sortedPlayers[i].hand) == 0);
+    let ret = { winner: sortedPlayers.at(-1) };
+    if (i > 1) {
+        ret.tied = sortedPlayers.slice(0, i);
+    } else {
+        ret.loser = sortedPlayers[0];
+    }
+    return ret;
+}
+
 /************************************************************
  * Processes everything required to complete the reveal phase
  * of a round. Shows everyone's hand and determines who lost
@@ -511,16 +530,14 @@ function completeRevealPhase () {
         }
     }
 
-    /* Sort players by their hand strengths, worst first. */
-    var sortedPlayers = players.filter(function(p) { return !p.out; });
-    sortedPlayers.sort(function(p1, p2) { return compareHands(p1.hand, p2.hand); });
+    let result = rankPlayers();
 
     if (chosenDebug !== -1 && DEBUG) {
         previousLoser = recentLoser;
         recentLoser = chosenDebug;
     } else {
         /* Check if (at least) the two worst hands are equal. */
-        if (compareHands(sortedPlayers[0].hand, sortedPlayers[1].hand) == 0) {
+        if (result.tied) {
             console.log("Fuck... there was an absolute tie");
             /* inform the player */
             players.forEach(function (p) {
@@ -530,24 +547,17 @@ function completeRevealPhase () {
                 }
             });
             updateAllBehaviours(null, null, PLAYERS_TIED);
-
-            /* The probability of a three-way tie is basically zero,
-             * but it's theoretically possible. */
-            for (var i = 0;
-                 i < 2 || (i < sortedPlayers.length
-                           && compareHands(sortedPlayers[0].hand,
-                                           sortedPlayers[i].hand) == 0);
-                 i++) {
-                $gameLabels[sortedPlayers[i].slot].addClass("tied");
+            for (p of result.tied) {
+                $gameLabels[p.slot].addClass("tied");
             };
             /* reset the round */
             allowProgression(eGamePhase.DEAL);
             return;
         }
         previousLoser = recentLoser;
-        recentLoser = sortedPlayers[0].slot;
+        recentLoser = result.loser.slot;
     }
-    recentWinner = sortedPlayers[sortedPlayers.length-1].slot;
+    recentWinner = result.winner.slot;
 
     console.log("Player "+recentLoser+" is the loser.");
     Sentry.addBreadcrumb({
