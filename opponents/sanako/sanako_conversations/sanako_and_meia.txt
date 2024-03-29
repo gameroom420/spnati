@@ -18,11 +18,11 @@ Meia [sanako1s_left]: You're awfully worried about what we all think...
 
 SANAKO MUST STRIP SHIRT:
 Sanako [sanako_meia_sm_s4]: Doesn't a uniform like this make you nostalgic for your high school days? I think that's true even if you're still in school. I remember racing home on a hot afternoon, eager to cool down any way I could.
-Meia [sanako1left]: ...I never went to high school.  There weren't many hot afternoons, either.
-  OR [sanako1left]: ...I was left on my own right before I would've started high school.
+Meia [sanako1left]: ...What are your plans for when it's over?
+  OR [sanako1left]: ...What'll you do when school ends?
 
 SANAKO STRIPPING SHIRT:
-Sanako [sanako_meia_sm_s5]: I just wanted to grow up so fast. And I did. Probably a little but <i>too</i> fast.
+Sanako [sanako_meia_sm_s5]: When school's all finished, the world is a girl's oyster! Or something like that. There's no helping being an adult at that point.
 Meia []*: ??
 
 SANAKO STRIPPED SHIRT:
@@ -93,10 +93,11 @@ Meia [sanako_resp1]: ...Training's what you could call my hobby, Sanako.
 
 MEIA STRIPPING ARMOR:
 Sanako [sanako_meia_sm_m5]: Sometimes I wish my job was a bit more physical. After baking, housework, running the store, tutoring, preparing meals, it's just so hard to find the time for something extra.
-Meia []*: ??
+Meia [sanako_resp12]: You're just always helping others instead of worrying about yourself.
+  OR [sanako_resp12]: It <i>is</i> selfish to always work on myself.  Maybe you've got the opposite problem.
 
 MEIA STRIPPED ARMOR:
-Sanako [sanako_meia_sm_m6]*: ??
+Sanako [sanako_meia_sm_m6]: But I think no matter how much training I did, I'd never be as lithe as you are, Meia.
 Meia []*: ??
 
 
@@ -163,7 +164,7 @@ Sanako [sanako_meia_ms_s3]: I think with enough love and patience, any of us cou
 SANAKO MUST STRIP SHIRT:
 Meia [sanako1]: ...Are you here trying to get out more, before your "life begins"?
   OR [sanako1] I used to hear older girls dream about graduation...being "adults."  Is this your chance to cut loose before that?
-Sanako [sanako_meia_ms_s4]: Who, me? Ah, I guess you could say that. But life doesn't end when you have responsibilities. You still get a chance to play around every now and then.
+Sanako [sanako_meia_ms_s4]: Ah, I guess you could say that. But life doesn't end when you have responsibilities. You still get a chance to play around every now and then.
 
 SANAKO STRIPPING SHIRT:
 Meia [sanako12]: ...How do you know that?
@@ -182,12 +183,13 @@ Meia [sanako2]: What kinds of things do you study here?  The subjects, I mean.  
 Sanako [sanako_meia_ms_s7]: Oh, hmmm? What subjects at school? There's Social Studies, Art, Physical Education, Home Economics, English... I'm sure there's more. There's... learning about the human body...
 
 SANAKO STRIPPING SKIRT:
-Meia []*: ??
-Sanako [sanako_meia_ms_s8]*: ??
+Meia [sanako23]: ...What have you learned?
+  OR [sanako23]: ...Does that compare to what you'd learn here?
+Sanako [sanako_meia_ms_s8]: I'm not sure if I could learn anymore at this point. But there's still a lot I could <i>teach</i>...
 
 SANAKO STRIPPED SKIRT:
 Meia []*: ??
-Sanako [sanako_meia_ms_s10]*: ??
+Sanako [sanako_meia_ms_s9]*: ??
 
 
 SANAKO MUST STRIP BRA:
@@ -257,27 +259,28 @@ Meia [sanako_resp1right]: ...It's me.  I keep trying to multitask...
 Sanako [sanako_meia_ms_m4]: You know, Meia, I find that if something's worth doing, it's worth giving my full attention to. You might even start to enjoy yourself a little more.
 
 MEIA STRIPPING ARMOR:
-Meia [sanako_resp2right]: ...Maybe, Sanako, but I was never going to enjoy---<i>this</i> part.
-  OR [sanako_resp2right]: ...I guess I was trying to take my mind off things, Sanako.  I mean---well, you can---see.
+Meia [sanako_resp12right]: ...Maybe, Sanako, but I was never going to enjoy---<i>this</i> part.
+  OR [sanako_resp12right]: ...I guess I was trying to take my mind off things, Sanako.  I mean---well, you can---see.
 Sanako [sanako_meia_ms_m5]: Oh? Ah. Well... I'm sure you weren't trying to mislead us. Those things are one-size-fits-all, I'm guessing. And so cavernous.
 
 MEIA STRIPPED ARMOR:
-Meia []*: ??
-Sanako [sanako_meia_ms_m6]*: ??
+Meia [sanako_resp2s_right]: ...You could say the same thing about this place.
+  OR [sanako_resp2s_right]: You're right.  It's very accepting...for all kinds of girls.
+Sanako [sanako_meia_ms_m6]: With that out of the way, I'm sure you'll be able to focus so much better.
 
 
 MEIA MUST STRIP BODYSUIT:
 Meia [sanako_resp2right]: ...Pyoro, have you finished your scan of the background radiation?<hr>{pyoro}This place really is what it seems.<br>...Do you wanna scan the other players?
   OR [sanako_resp2right]: {pyoro}I'm back, Meia!  Half-life analysis confirms this Earth is the predicted age.<br>...I could try it on your tablemates, too.{!reset}<hr>What do you mean?
-Sanako []*: ??
+Sanako [sanako_meia_ms_m7]: Ah! Th-That's okay, Mr. Robot. No need to scan us. A woman can't keep her mystery if you get too much science involved.
 
 MEIA STRIPPING BODYSUIT:
 Meia []*: ??
-Sanako []*: ??
+Sanako [sanako_meia_ms_m8]*: ??
 
 MEIA STRIPPED BODYSUIT:
 Meia []*: ??
-Sanako []*: ??
+Sanako [sanako_meia_ms_m9]*: ??
 
 
 MEIA MUST STRIP BRA:

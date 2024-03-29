@@ -182,11 +182,22 @@
         <response id="420" opponent="nagisa" opponentId="999" />
         <response id="421" opponent="nagisa" opponentId="1000" />
         <response id="422" opponent="nagisa" opponentId="1001" />
+        <response id="427" opponent="meia" opponentId="1718" />
+        <response id="428" opponent="meia" opponentId="1719" />
+        <response id="429" opponent="meia" opponentId="1572" />
+        <response id="432" opponent="yuno_uno" opponentId="775" />
+        <response id="433" opponent="yuno_uno" opponentId="810" />
+        <response id="436" opponent="yuno_uno" opponentId="774" />
+        <response id="437" opponent="yuno_uno" opponentId="806" />
     </responses>
     <notes>
         <note id="159">This is a lie.</note>
         <note id="168">Avoiding slot 1 because that's when she does her sanako_introductions line.</note>
         <note id="167">Sanako is not a regular student, and she has worked as a teacher before. Kyoko will be able to see through this facade.</note>
+        <note id="433">Manual priority set lower than 150 to avoid overriding Sanako's stripping interactions. Natural priority for this case would normally be 241.</note>
+        <note id="434">Variation for when Nagisa is present. Manual priority set lower than 150 to avoid overriding Sanako's stripping interactions. Natural priority for this case would normally be 341.</note>
+        <note id="435">Variation for when Nagisa is definitely not present. Manual priority set lower than 150 to avoid overriding Sanako's stripping interactions. Natural priority for this case would normally be 341.</note>
+        <note id="437">Manual priority set lower than 150 to avoid overriding Sanako's stripping interactions. Natural priority for this case would normally be 241.</note>
     </notes>
     <labels>
         <label id="2" label="sandals" folder="" sort="0" />
@@ -605,13 +616,27 @@
         <label id="424" label="" folder="Nagisa to right / Miko to left" sort="0" />
         <label id="425" label="" folder="Nagisa and Miko to right" sort="0" />
         <label id="426" label="" folder="Nagisa and Miko to right" sort="0" />
+        <label id="427" label="" folder="Meia to left" sort="0" />
+        <label id="428" label="" folder="Meia to left" sort="0" />
+        <label id="429" label="" folder="Meia to left" sort="0" />
+        <label id="430" label="" folder="Meia to right" sort="0" />
+        <label id="431" label="" folder="Yuno and Mari Setogaya to left or right" sort="0" />
+        <label id="432" label="the_big_succ begins without Nagisa watching" folder="Yuno and Mari Setogaya to left or right" sort="0" />
+        <label id="433" label="the_big_succ" folder="Yuno and Mari Setogaya to left or right" sort="0" />
+        <label id="434" label="the_big_succ with Nagisa watching" folder="Yuno and Mari Setogaya to left or right" sort="0" />
+        <label id="435" label="the_big_succ without Nagisa watching" folder="Yuno and Mari Setogaya to left or right" sort="0" />
+        <label id="436" label="bigsucc_finished without Nagisa watching" folder="Yuno and Mari Setogaya to left or right" sort="0" />
+        <label id="437" label="bigsucc_after" folder="Yuno and Mari Setogaya to left or right" sort="0" />
+        <label id="438" label="the_big_succ begins with Nagisa watching" folder="Yuno and Mari Setogaya to left or right" sort="0" />
+        <label id="439" label="bigsucc_finished with Nagisa watching" folder="Yuno and Mari Setogaya to left or right" sort="0" />
     </labels>
     <prefixes>
         <prefix>collectible_</prefix>
         <prefix>x-</prefix>
     </prefixes>
-    <nextId>426</nextId>
+    <nextId>439</nextId>
     <markers>
+        <marker scope="Public" name="" />
         <marker scope="Public" name="sanako_ae86_selected" />
         <marker scope="Public" name="sanako_ae86_selected_indoors" />
         <marker scope="Public" name="sanako_ae86_selected_street" />
@@ -751,6 +776,8 @@
         <marker scope="Public" name="sanako_meia_ms_m3_cupid" />
         <marker scope="Public" name="sanako_meia_ms_m4" />
         <marker scope="Public" name="sanako_meia_ms_m5" />
+        <marker scope="Public" name="sanako_meia_ms_m6" />
+        <marker scope="Public" name="sanako_meia_ms_m7" />
         <marker scope="Public" name="sanako_meia_ms_s1" />
         <marker scope="Public" name="sanako_meia_ms_s2" />
         <marker scope="Public" name="sanako_meia_ms_s3" />
@@ -758,11 +785,13 @@
         <marker scope="Public" name="sanako_meia_ms_s5" />
         <marker scope="Public" name="sanako_meia_ms_s6" />
         <marker scope="Public" name="sanako_meia_ms_s7" />
+        <marker scope="Public" name="sanako_meia_ms_s8" />
         <marker scope="Public" name="sanako_meia_sm_m1" />
         <marker scope="Public" name="sanako_meia_sm_m2" />
         <marker scope="Public" name="sanako_meia_sm_m3" />
         <marker scope="Public" name="sanako_meia_sm_m4" />
         <marker scope="Public" name="sanako_meia_sm_m5" />
+        <marker scope="Public" name="sanako_meia_sm_m6" />
         <marker scope="Public" name="sanako_meia_sm_s1" />
         <marker scope="Public" name="sanako_meia_sm_s2" />
         <marker scope="Public" name="sanako_meia_sm_s3" />
@@ -1015,6 +1044,32 @@
         <marker scope="Public" name="sanako_you_can_cover_up" />
         <marker scope="Public" name="sanako_younger_guy" />
         <marker scope="Public" name="sanako_yuno_erection" />
+        <marker scope="Public" name="sanako_yuno_mari_nagisa_the_big_succ_begins" />
+        <marker scope="Public" name="sanako_yuno_setogaya_bigsucc_after" />
+        <marker scope="Public" name="sanako_yuno_setogaya_bigsucc_finished" />
+        <marker scope="Public" name="sanako_yuno_setogaya_nagisa_bigsucc_finished" />
+        <marker scope="Public" name="sanako_yuno_setogaya_nagisa_the_big_succ_begins" />
+        <marker scope="Public" name="sanako_yuno_setogaya_the_big_succ_1" />
+        <marker scope="Public" name="sanako_yuno_setogaya_the_big_succ_10" />
+        <marker scope="Public" name="sanako_yuno_setogaya_the_big_succ_11" />
+        <marker scope="Public" name="sanako_yuno_setogaya_the_big_succ_12" />
+        <marker scope="Public" name="sanako_yuno_setogaya_the_big_succ_13" />
+        <marker scope="Public" name="sanako_yuno_setogaya_the_big_succ_14" />
+        <marker scope="Public" name="sanako_yuno_setogaya_the_big_succ_15" />
+        <marker scope="Public" name="sanako_yuno_setogaya_the_big_succ_16" />
+        <marker scope="Public" name="sanako_yuno_setogaya_the_big_succ_17" />
+        <marker scope="Public" name="sanako_yuno_setogaya_the_big_succ_18" />
+        <marker scope="Public" name="sanako_yuno_setogaya_the_big_succ_19" />
+        <marker scope="Public" name="sanako_yuno_setogaya_the_big_succ_2" />
+        <marker scope="Public" name="sanako_yuno_setogaya_the_big_succ_20" />
+        <marker scope="Public" name="sanako_yuno_setogaya_the_big_succ_3" />
+        <marker scope="Public" name="sanako_yuno_setogaya_the_big_succ_4" />
+        <marker scope="Public" name="sanako_yuno_setogaya_the_big_succ_5" />
+        <marker scope="Public" name="sanako_yuno_setogaya_the_big_succ_6" />
+        <marker scope="Public" name="sanako_yuno_setogaya_the_big_succ_7" />
+        <marker scope="Public" name="sanako_yuno_setogaya_the_big_succ_8" />
+        <marker scope="Public" name="sanako_yuno_setogaya_the_big_succ_9" />
+        <marker scope="Public" name="sanako_yuno_setogaya_the_big_succ_begins" />
         <marker scope="Public" name="sanako_yuri_back_pain" />
         <marker scope="Public" name="sanako_yuri_book_recommendations" />
         <marker scope="Public" name="sanako_yuri_boys_and_accessories" />
