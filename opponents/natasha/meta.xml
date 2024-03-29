@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1648839848877</lastupdate>
+    <lastupdate>1711740829065</lastupdate>
     <enabled>false</enabled>
     <first>Natasha</first>
     <last>Cerebellum</last>
     <label>Natasha</label>
-    <pic>0-arm.png</pic>
+    <pic x="-10">0-arm-extended.png</pic>
     <gender>female</gender>
-    <height>5'8"</height>
     <from>Another dang original character by freakin' BlueKoin</from>
     <writer>BlueKoin</writer>
     <artist>BlueKoin</artist>
-    <description>Star pupil at Dr. Aisling's School of Chaos, the notorious "villain school," Natasha uses her mechanical arms to spread chaos and misery.</description>
+    <description>Notorious supervillain and all-around sociopath, Natasha takes great joy in inflicting pain and suffering on everyone she can in any way she can.</description>
     <layers>7</layers>
-    <has_collectibles>false</has_collectibles>
-    <lines>495</lines>
-    <poses>132</poses>
+    <default-costume-name>Greater Hater</default-costume-name>
+    <has_collectibles>true</has_collectibles>
+    <lines>878</lines>
+    <poses>161</poses>
 </opponent>

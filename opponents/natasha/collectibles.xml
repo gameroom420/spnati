@@ -1,2 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<collectibles />
+<collectibles>
+    <collectible id="collectible_x" img="opponents/natasha/x.png" thumbnail="opponents/natasha/x.png">
+        <title>Digital 72648 CC</title>
+        <subtitle>Urpqcuh nwlxmnm.</subtitle>
+        <text>Vh jurjb rb Yujcrwdv. R twxf cqjc wjvn rbw'c pxrwp cx vnjw jwhcqrwp cx hxd, kdc hxd ljw cadbc vn. R mxw'c twxf fqjc hxd'an mxrwp cx arm Wjcjbqj xo qna neru, kdc R wnnm hxd cx tnny rc dy. Bqn'm yaxen j yxfnaodu juuh ro bqn'm xwuh urbcnw cx anjbxw, jwm jocna Wnax Oxacn mrnm R wnnm juu cqn qnuy R ljw pnc. YB: Mxw'c onnu cxx yaxdm jkxdc bxuerwp cqn lhyqna. R tnyc rc njbh.</text>
+        <hidden>true</hidden>
+        <hide-details>true</hide-details>
+    </collectible>
+</collectibles>

@@ -1,24 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <metadata>
     <owner>natasha</owner>
+    <height>5'6"</height>
+    <age />
+    <pronunciation />
+    <othernotes>What? You need NOTES on me? What don't you get? I'm evil, I've got extendable mechanical arms with numerous gadgets stored inside, and my overbite is my most CHARMING feature and is NOT a blemish.&lt;br&gt;&lt;br&gt;I'm not dumb enough to tell you my weeknesses, so don't bother asking. I'd never admit if you guessed one, either. I'm always thinking several steps ahead, so I might as well tell you I don't have any weeknesses at all.&lt;br&gt;&lt;br&gt;Don't think you can talk behind my back in another language. I speak SEVERAL. Nulla è reale, tutto è lecito.&lt;br&gt;&lt;br&gt;I've been evil all of my life. I'm sure you can imagine a little toddler me, knocking over other kids' block towers and stealing their jiuce boxes. And yes, I AM human. My hair and skin are both natural.&lt;br&gt;&lt;br&gt;Would you believe me if I said I'm a people person? Well it's true, I just love screwing with people more. In fact, I rarely actually kill anyone. It's much more fun to make you beg for death, and then deny you the pleasure.&lt;br&gt;&lt;br&gt;As much as you might want me gone, the world NEEDS people like me. Humans NEED people to direct their hate towards, an enemy in common to rally against. You can't have good without bad.</othernotes>
     <noteworthy>
-        <case name="Natasha Cerebellum" id="10" priority="FYI" min="0" max="0">
-            <description>Natasha is a very infamous villain and daughter to the (neutral) scientist who made robot prosthetics possible. She lives and breathes evil.</description>
+        <case name="About Me" id="10" priority="FYI" min="0" max="0">
+            <description>I'm a very infamous villain and daughter to the (neutral) scientist who made robot prosthetics possible. I live and breathe evil.</description>
         </case>
         <case name="Arm Origins 1" id="9" priority="Noteworthy" min="1" max="1">
-            <description>Natasha will ask what others think caused her to lose her arms.</description>
+            <description>When taking off my hoodie, I will ask what others think caused me to lose my arms. Pay attention, 'cause I will NOT respond to targets directed at the "stripping" phase here.</description>
         </case>
         <case name="Arm Origins 2" id="22" priority="Noteworthy" min="2" max="2">
-            <description>Natasha will either tease the table by not sharing the story behind her arms, or explain that she cut them off intentionally to make herself more evil.</description>
+            <description>I will either tease the table by not sharing the story behind my arms, or explain that I cut them off intentionally to make myself more evil.</description>
         </case>
         <case name="Arm Origins 3" id="23" priority="FYI" min="2" max="2">
-            <description>If Natasha explains the story behind her arms, in the next game she's in, she will point out that she already explained it to the player.</description>
+            <description>If I explained the story behind my arms, in the next game I'm in, I may point out that I already explained it to the player, or give a completely different story.</description>
         </case>
         <case name="Un-Evil" id="24" priority="Noteworthy" min="7" max="7">
-            <description>When Natasha loses, she suddenly and inexplicably becomes un-evil, effectively becoming just a normal girl.</description>
+            <description>When I lose, I suddenly and inexplicably becomes un-evil, effectively becoming just a normal girl. Don't ask me how or why.</description>
         </case>
         <case name="Cheater" id="36" priority="Noteworthy" min="5" max="5">
-            <description>When Natasha has to reveal her chest, she'll also reveal that she's been cheating the whole time, and won't stop cheating either.</description>
+            <description>When I have to reveal my chest, I may also reveal that I've been cheating the whole time, and won't stop cheating either.</description>
+        </case>
+        <case name="Hotdog Is Not A Sandwich" id="70" priority="Prompt" min="0" max="7">
+            <description>I remind you that a hogdot is NOT a sandwich.</description>
         </case>
     </noteworthy>
     <responses>
@@ -26,32 +33,126 @@
         <response id="51" opponent="dreamcatcher" opponentId="9" />
         <response id="52" opponent="dreamcatcher" opponentId="8" />
         <response id="53" opponent="dreamcatcher" opponentId="5" />
+        <response id="71" opponent="revy" opponentId="3" />
+        <response id="72" opponent="revy" opponentId="4" />
+        <response id="80" opponent="helper-chan" opponentId="46" />
+        <response id="82" opponent="helper-chan" opponentId="57" />
+        <response id="83" opponent="helper-chan" opponentId="58" />
+        <response id="84" opponent="helper-chan" opponentId="59" />
+        <response id="87" opponent="caitlin" opponentId="50" />
+        <response id="92" opponent="magma_grunt" opponentId="171" />
+        <response id="93" opponent="magma_grunt" opponentId="173" />
+        <response id="94" opponent="magma_grunt" opponentId="174" />
+        <response id="95" opponent="magma_grunt" opponentId="175" />
+        <response id="96" opponent="aqua_grunt" opponentId="102" />
+        <response id="97" opponent="aqua_grunt" opponentId="156" />
+        <response id="110" opponent="nadeshiko" opponentId="151" />
+        <response id="111" opponent="nadeshiko" opponentId="9" />
+        <response id="112" opponent="jura" opponentId="945" />
     </responses>
+    <notes>
+        <note id="61">Is it too mean to change "Mommy/Daddy" to "Loser?" Perhaps. Is it in character? Definitely.</note>
+        <note id="59">Seriously! Knock it off!</note>
+        <note id="85">Natasha is attempting to troll Meia with a false accusation.</note>
+        <note id="86">Natasha is attempting to troll Jura with a lie about her looks.</note>
+        <note id="89">Natasha is attempting to troll Caitlin by lying about her reputation.</note>
+        <note id="101">Natasha is attempting to troll AG by belittling Water type Pokemon.</note>
+        <note id="102">Natasha is attempting to troll MG by belittling Fire type Pokemon.</note>
+        <note id="112">Natasha is attempting to get a rise out of Jura by dissing Barnette.</note>
+    </notes>
     <labels>
-        <label id="7" label="" folder="Prompts" sort="0" />
-        <label id="8" label="" folder="Prompts" sort="3" />
-        <label id="10" label="" folder="Noteworthy Things" sort="0" />
-        <label id="11" label="" folder="Noteworthy Things" sort="2" />
+        <label id="7" label="Meanest Thing You've Ever Done?" folder="Prompts" sort="0" />
+        <label id="8" label="Try To Make Me Mad" folder="Prompts" sort="3" />
+        <label id="10" label="Intro" folder="Noteworthy Things" sort="0" />
+        <label id="11" label="No Non-Con" folder="Noteworthy Things" sort="2" />
         <label id="12" label="" folder="Noteworthy Things" sort="3" />
         <label id="13" label="" folder="Noteworthy Things" sort="7" />
-        <label id="14" label="" folder="Prompts" sort="2" />
-        <label id="15" label="" folder="Noteworthy Things" sort="9" />
-        <label id="16" label="" folder="Noteworthy Things" sort="8" />
+        <label id="14" label="Don't You Hate Conformity?" folder="Prompts" sort="2" />
+        <label id="15" label="Multilingual" folder="Noteworthy Things" sort="9" />
+        <label id="16" label="Arms" folder="Noteworthy Things" sort="8" />
         <label id="17" label="" folder="Noteworthy Things" sort="4" />
         <label id="18" label="" folder="Noteworthy Things" sort="6" />
-        <label id="37" label="" folder="Noteworthy Things" sort="10" />
+        <label id="37" label="Frisk For Cards (Winning Streak)" folder="Noteworthy Things" sort="10" />
         <label id="49" label="" folder="Noteworthy Things" sort="5" />
+        <label id="54" label="" color="1" folder="" sort="0" />
+        <label id="55" label="" color="2" folder="" sort="0" />
+        <label id="56" label="" color="1" folder="" sort="0" />
+        <label id="57" label="" color="1" folder="" sort="0" />
+        <label id="58" label="" color="1" folder="" sort="0" />
+        <label id="59" label="An Entirely Useless Trigger" folder="" sort="0" />
+        <label id="60" label="" color="4" folder="" sort="0" />
+        <label id="61" label="&quot;Mommy&quot; / &quot;Daddy&quot; Name Filter" folder="" sort="0" />
+        <label id="62" label="&quot;Master&quot; / &quot;Mistress&quot; Name Filter" folder="" sort="0" />
+        <label id="64" label="" color="7" folder="" sort="0" />
+        <label id="65" label="" color="7" folder="" sort="0" />
+        <label id="66" label="" color="7" folder="" sort="0" />
+        <label id="67" label="" color="7" folder="" sort="0" />
+        <label id="68" label="" color="7" folder="" sort="0" />
+        <label id="69" label="" color="7" folder="" sort="0" />
+        <label id="70" label="Hotdog Is Not A Sandwich" folder="Prompts" sort="4" />
+        <label id="71" label="" color="4" folder="" sort="0" />
+        <label id="72" label="" color="4" folder="" sort="0" />
+        <label id="73" label="" color="4" folder="" sort="0" />
+        <label id="5" label="" color="1" folder="" sort="0" />
+        <label id="74" label="British Tag Nickname" folder="" sort="0" />
+        <label id="75" label="" folder="Noteworthy Things" sort="6" />
+        <label id="76" label="Not Scared Of Superman" folder="Noteworthy Things" sort="12" />
+        <label id="77" label="&quot;Master&quot; / &quot;Mistress&quot; Name Filter" folder="" sort="0" />
+        <label id="78" label="&quot;Mommy&quot; / &quot;Daddy&quot; Name Filter" folder="" sort="0" />
+        <label id="80" label="" color="7" folder="" sort="0" />
+        <label id="82" label="" color="5" folder="" sort="0" />
+        <label id="83" label="" color="5" folder="" sort="0" />
+        <label id="84" label="" color="5" folder="" sort="0" />
+        <label id="90" label="Aqua / Magma Grunt Intro" folder="" sort="0" />
+        <label id="91" label="Aqua &amp; Magma Grunt Intro" folder="" sort="0" />
+        <label id="92" label="" color="7" folder="" sort="0" />
+        <label id="93" label="" color="7" folder="" sort="0" />
+        <label id="94" label="" color="7" folder="" sort="0" />
+        <label id="95" label="" color="7" folder="" sort="0" />
+        <label id="96" label="" color="7" folder="" sort="0" />
+        <label id="98" label="" color="7" folder="" sort="0" />
+        <label id="97" label="" color="7" folder="" sort="0" />
+        <label id="99" label="" color="7" folder="" sort="0" />
+        <label id="100" label="" color="7" folder="" sort="0" />
+        <label id="103" label="" folder="Noteworthy Things" sort="0" />
+        <label id="104" label="" color="4" folder="" sort="0" />
+        <label id="105" label="" color="4" folder="" sort="0" />
+        <label id="85" label="" color="4" folder="" sort="0" />
+        <label id="106" label="" color="4" folder="" sort="0" />
+        <label id="107" label="" color="4" folder="" sort="0" />
+        <label id="86" label="" color="4" folder="" sort="0" />
+        <label id="79" label="Cheating B" folder="" sort="0" />
+        <label id="108" label="Cheating C" folder="" sort="0" />
+        <label id="112" label="" color="4" folder="" sort="0" />
     </labels>
-    <nextId>53</nextId>
+    <nextId>112</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="Adrien_Costume1" />
+        <marker scope="Public" name="AdultWords" />
+        <marker scope="Public" name="AG_Aspirations1" />
+        <marker scope="Public" name="AG_Speech1" />
+        <marker scope="Public" name="AG_Speech2a" />
+        <marker scope="Public" name="AG_Speech2b" />
+        <marker scope="Public" name="AG_Speech3a" />
+        <marker scope="Public" name="AG_Speech3b" />
+        <marker scope="Public" name="AG_WaterWeak1" />
+        <marker scope="Public" name="ALittleShock" />
         <marker scope="Public" name="AlreadyToldArmStory" />
         <marker scope="Public" name="Arms" />
         <marker scope="Public" name="ArmStory" />
         <marker scope="Public" name="BadEndings" />
         <marker scope="Public" name="BeatinNBruisin" />
         <marker scope="Public" name="BeeShoes" />
+        <marker scope="Public" name="BrokenFormatting" />
+        <marker scope="Public" name="BrokeOuttaPrison" />
+        <marker scope="Public" name="Bully_BrokenSpine" />
+        <marker scope="Public" name="Bully_BurnedHouses" />
+        <marker scope="Public" name="Bully_HadADog" />
+        <marker scope="Public" name="Caitlin_Claping1" />
+        <marker scope="Public" name="Caitlin_Psychic1" />
+        <marker scope="Public" name="Caitlin_Weak1" />
+        <marker scope="Public" name="CatchingFlies" />
         <marker scope="Public" name="CD_Human1" />
         <marker scope="Public" name="CD_Human2" />
         <marker scope="Public" name="CD_Ice1" />
@@ -63,10 +164,17 @@
         <marker scope="Public" name="CD_VillainRaven" />
         <marker scope="Public" name="CD_VillainWereshark" />
         <marker scope="Public" name="Cheating" />
+        <marker scope="Public" name="CheatingB" />
+        <marker scope="Public" name="CheatingC" />
         <marker scope="Public" name="CheatingIsHard" />
+        <marker scope="Public" name="CopsCantStopMe" />
+        <marker scope="Public" name="CorperateGreed" />
         <marker scope="Public" name="Death_Cheat1" />
         <marker scope="Public" name="Death_Win1" />
         <marker scope="Public" name="Defeat" />
+        <marker scope="Public" name="DogMoms" />
+        <marker scope="Public" name="DormPopcorn" />
+        <marker scope="Public" name="DoYourselfAFavor" />
         <marker scope="Public" name="Dreamcatcher_Good1" />
         <marker scope="Public" name="Dreamcatcher_Good2" />
         <marker scope="Public" name="Dreamcatcher_Good3" />
@@ -78,33 +186,125 @@
         <marker scope="Public" name="Dreamcatcher_Prison3" />
         <marker scope="Public" name="EnoughTether" />
         <marker scope="Public" name="EvilSinceBirth" />
+        <marker scope="Public" name="FourPeopleOverpowering" />
         <marker scope="Public" name="FriskForCards" />
+        <marker scope="Public" name="GameStart" />
+        <marker scope="Public" name="GoodInvalidation" />
+        <marker scope="Public" name="GrapplingIsThePinnacle" />
         <marker scope="Public" name="GrizLegs" />
+        <marker scope="Public" name="Grunt_Intro" />
         <marker scope="Public" name="HateConformity" />
+        <marker scope="Public" name="HeckThePolice" />
+        <marker scope="Public" name="Helperchan_BrokenArm1" />
+        <marker scope="Public" name="Helperchan_Cheating1" />
+        <marker scope="Public" name="Helperchan_GoingDown" />
+        <marker scope="Public" name="Helperchan_Helpful1" />
+        <marker scope="Public" name="Helperchan_Helpful2" />
+        <marker scope="Public" name="Helperchan_Helpful3" />
+        <marker scope="Public" name="Helperchan_Rival1" />
+        <marker scope="Public" name="Helperchan_Rival2" />
+        <marker scope="Public" name="Helperchan_Rival3" />
+        <marker scope="Public" name="Helperchan_WhyHelp1" />
+        <marker scope="Public" name="Helperchan_WhyHelp2" />
+        <marker scope="Public" name="Helperchan_WhyHelp3" />
+        <marker scope="Public" name="Helperchan_XevozFakeout1" />
+        <marker scope="Public" name="Helperchan_XevozFakeout2" />
+        <marker scope="Public" name="HotdogNotSandwich" />
         <marker scope="Public" name="ILikeFire" />
+        <marker scope="Public" name="InnocentBystanders" />
         <marker scope="Public" name="Intro" />
+        <marker scope="Public" name="Jura_Barnette1" />
+        <marker scope="Public" name="Jura_Beauty1" />
+        <marker scope="Public" name="Jura_GrayHair1" />
+        <marker scope="Public" name="Jura_Proclamations1" />
+        <marker scope="Public" name="LargerArms" />
+        <marker scope="Public" name="LongWindedJokeThatProbablyWasntEvenWorthTyping" />
+        <marker scope="Public" name="ManualFunctions" />
+        <marker scope="Public" name="Meia_EatingBabies1" />
+        <marker scope="Public" name="Meia_Hair1" />
+        <marker scope="Public" name="Meia_Misidentified1" />
+        <marker scope="Public" name="MG_FireWeak1" />
+        <marker scope="Public" name="MG_Speech1" />
+        <marker scope="Public" name="MG_Speech2" />
+        <marker scope="Public" name="MG_Speech3a" />
+        <marker scope="Public" name="MG_Speech3b" />
+        <marker scope="Public" name="MG_Weapons1" />
         <marker scope="Public" name="MiddleFinger" />
+        <marker scope="Public" name="MonsterArt" />
         <marker scope="Public" name="MoreArms" />
         <marker scope="Public" name="MorningCoffee" />
         <marker scope="Public" name="Multilingual" />
+        <marker scope="Public" name="Nadeshiko_Inventory1" />
+        <marker scope="Public" name="Nadeshiko_Locations1" />
+        <marker scope="Public" name="Nadeshiko_Partner1" />
+        <marker scope="Public" name="Natasha_WhyHelp1" />
+        <marker scope="Public" name="Natasha_WhyHelp2" />
         <marker scope="Public" name="NeroForteFail" />
+        <marker scope="Public" name="NewArms" />
+        <marker scope="Public" name="NewHaircut" />
+        <marker scope="Public" name="nickname" />
+        <marker scope="Public" name="NicknameMasterMistress" />
+        <marker scope="Public" name="NicknameMommyDaddy" />
         <marker scope="Public" name="NoBuckTeeth" />
         <marker scope="Public" name="NoCursing" />
         <marker scope="Public" name="NoFunnyBusiness" />
         <marker scope="Public" name="NoKindBones" />
         <marker scope="Public" name="NoNonCon" />
+        <marker scope="Public" name="NoScars" />
+        <marker scope="Public" name="NotScaredOfSuperman" />
+        <marker scope="Public" name="OrderOfBozos" />
+        <marker scope="Public" name="PastBully" />
         <marker scope="Public" name="PityMode" />
         <marker scope="Public" name="PityModeEnd" />
+        <marker scope="Public" name="PlayerNoPityWin" />
         <marker scope="Public" name="PlayTheClassics" />
         <marker scope="Public" name="Prompt_ArmStory" />
         <marker scope="Public" name="Prompt_MakeMeAngry" />
         <marker scope="Public" name="Prompt_MeanestThing" />
+        <marker scope="Public" name="PuttinOnTheZap" />
+        <marker scope="Public" name="RedMarket" />
+        <marker scope="Public" name="RememberToForget" />
         <marker scope="Public" name="Revy_Guns1" />
+        <marker scope="Public" name="Revy_Killing1" />
+        <marker scope="Public" name="Revy_Music1" />
         <marker scope="Public" name="Revy_Smoking1" />
+        <marker scope="Public" name="Revy_Threat1" />
+        <marker scope="Public" name="RootOfAllEvil" />
+        <marker scope="Public" name="RuinYourDay" />
         <marker scope="Public" name="Saki_Issues1" />
+        <marker scope="Public" name="ScaredOfNero" />
+        <marker scope="Public" name="SCM_Defeated" />
+        <marker scope="Public" name="SCM_Grapple1" />
+        <marker scope="Public" name="SCM_Grapple2a" />
+        <marker scope="Public" name="SCM_Grapple2b" />
+        <marker scope="Public" name="SCM_Grapple2c" />
+        <marker scope="Public" name="SCM_Grapple2d" />
+        <marker scope="Public" name="SCM_ToothDis1" />
+        <marker scope="Public" name="SelfishEvil" />
+        <marker scope="Public" name="SelfishGood" />
         <marker scope="Public" name="Shantae_Genie1" />
+        <marker scope="Public" name="SleepForever" />
+        <marker scope="Public" name="StrongLegs" />
+        <marker scope="Public" name="SuddenDeath" />
+        <marker scope="Public" name="TheGoodInNero" />
+        <marker scope="Public" name="TheGoodYouMiss" />
+        <marker scope="Public" name="ThinLineOfGood" />
+        <marker scope="Public" name="ToddlerSlang" />
         <marker scope="Public" name="ToyingWithPeople" />
+        <marker scope="Public" name="TrulyDontLetsStart" />
+        <marker scope="Public" name="TrustAndLies" />
+        <marker scope="Public" name="Turandot_Dating1" />
+        <marker scope="Public" name="Turandot_Intro" />
+        <marker scope="Public" name="TwistedLegacy" />
+        <marker scope="Public" name="TwoGrunts_Intro" />
+        <marker scope="Public" name="UnevilTheory" />
+        <marker scope="Public" name="UnfoundedFears" />
+        <marker scope="Public" name="VerySuperExtremelyEvil" />
         <marker scope="Public" name="Victory" />
+        <marker scope="Public" name="WhatKindOfEvil" />
+        <marker scope="Public" name="WillyWonkaMovies" />
         <marker scope="Public" name="WontDitchArms" />
+        <marker scope="Public" name="WorldOfHate" />
+        <marker scope="Public" name="YourLifeIsYourOwn" />
     </markers>
 </metadata>
