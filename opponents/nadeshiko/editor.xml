@@ -448,8 +448,9 @@
         <label id="401" label="" folder="Kyouko (Must Strip)" sort="14" />
         <label id="402" label="" folder="Kyouko (Stripping)" sort="14" />
         <label id="54" label="" folder="Kyouko (Stripped)" sort="14" />
+        <label id="403" label="" folder="Kyouko (Stripped)" sort="0" />
     </labels>
-    <nextId>402</nextId>
+    <nextId>403</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="9S_Nade_1-1" />
@@ -684,6 +685,7 @@
         <marker scope="Public" name="Nade_Kyouko_Tasty" />
         <marker scope="Public" name="Nade_Kyouko_Thrilling" />
         <marker scope="Public" name="Nade_Kyouko_TomatoUndies" />
+        <marker scope="Public" name="Nade_Kyouko_WhyTomato" />
         <marker scope="Public" name="Nade_Kyouko_WhyTomatoNade_Kyouko_WhyTomato" />
         <marker scope="Public" name="Nade_Kyouko_Youreon" />
         <marker scope="Public" name="Nade_Kyouko_Yum" />
