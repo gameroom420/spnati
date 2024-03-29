@@ -1664,7 +1664,7 @@ function expandDialogue (dialogue, self, target, bindings) {
                         var count = bindings.hasOwnProperty(args) ? bindings[args].length : 0;
                         if (fn == 'textcount') {
                             substitution = [ 'zero', 'one', 'two', 'three', 'four', 'five' ][count];
-                        } else if (fn === undefined) {
+                        } else if (fn === 'count') {
                             substitution = count;
                         }
                     }
