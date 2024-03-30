@@ -278,6 +278,15 @@
         <response id="1162" opponent="hilda" opponentId="280" />
         <response id="1163" opponent="hilda" opponentId="148" />
         <response id="1164" opponent="hilda" opponentId="151" />
+        <response id="1165" opponent="rose" opponentId="311" />
+        <response id="1166" opponent="rose" opponentId="293" />
+        <response id="1167" opponent="aoi_asahina" opponentId="55" />
+        <response id="1171" opponent="beatrix" opponentId="190" />
+        <response id="1172" opponent="jenna" opponentId="73" />
+        <response id="1174" opponent="jenna" opponentId="61" />
+        <response id="1176" opponent="ringo_ando" opponentId="820" />
+        <response id="1177" opponent="jura" opponentId="1349" />
+        <response id="1178" opponent="jura" opponentId="625" />
     </responses>
     <notes>
         <note id="6">radiant garden is a world in kingdom hearts that is basically "the place where final fantasy characters and some kingdom hearts original characters come from", mainly home to JRPG humans.</note>
@@ -298,7 +307,7 @@
         <note id="467">aqua_arueshalae_</note>
         <note id="481">in theory you could respond to both versions of this line with a single response. up to you, I can work with either direction (same or different responses)</note>
         <note id="575">Will only play the first time Aqua sees this</note>
-        <note id="576">Will only play the first time Aqua sees this</note>
+        <note id="576">Will play the 2nd+ time Aqua sees this</note>
         <note id="687">She also says aqua_nagatoro_s0c at the same time here</note>
         <note id="727">she's going to say something like "I think your hearts were connected/resonated with each other", you know KH stuff</note>
         <note id="794">the filter here is broadly for Terra but it could end up applying to other KH males e.g. Sora. would</note>
@@ -1461,17 +1470,32 @@
         <label id="1162" label="" folder="Targets" sort="0" />
         <label id="1163" label="" folder="Targets" sort="0" />
         <label id="1164" label="" folder="Targets" sort="0" />
+        <label id="1165" label="" folder="Targets&gt;Rose" sort="0" />
+        <label id="1166" label="" folder="Targets&gt;Rose" sort="0" />
+        <label id="1167" label="" folder="Targets" sort="0" />
+        <label id="1168" label="" folder="Targets" sort="0" />
+        <label id="1169" label="" folder="Targets" sort="0" />
+        <label id="1170" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1171" label="" folder="Responses" sort="0" />
+        <label id="1172" label="" folder="Targets" sort="0" />
+        <label id="1173" label="" folder="Targets" sort="0" />
+        <label id="1174" label="" folder="Targets" sort="0" />
+        <label id="1175" label="" folder="Targets" sort="0" />
+        <label id="1176" label="" folder="Responses" sort="0" />
+        <label id="1177" label="" folder="Responses" sort="0" />
+        <label id="1178" label="" folder="Responses" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>aquaKS_stage==4</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>1164</nextId>
+    <nextId>1178</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="__lucina_nickname" />
         <marker scope="Public" name="9s_nipples" />
         <marker scope="Public" name="aella_" />
         <marker scope="Public" name="ag_aquaKH_strip0b" />
+        <marker scope="Public" name="aoi_newRecord" />
         <marker scope="Public" name="aqua_9s_pictures1" />
         <marker scope="Public" name="aqua_aaravi_hydro1" />
         <marker scope="Public" name="aqua_aaravi_lore1" />
@@ -1491,6 +1515,8 @@
         <marker scope="Public" name="aqua_and_darkness_oppstrip">Either Aqua or Darkness (both from Konosuba) must strip - makes a comment on it</marker>
         <marker scope="Public" name="aqua_any_slowly_1" />
         <marker scope="Public" name="aqua_any_slowly_2" />
+        <marker scope="Public" name="aqua_aoi_school1" />
+        <marker scope="Public" name="aqua_aoi_waterTraining1" />
         <marker scope="Public" name="aqua_aqua_blessing" />
         <marker scope="Public" name="aqua_aqua_GoddessOfLust" />
         <marker scope="Public" name="aqua_aqua_kirigir_nopanComment" />
@@ -1680,8 +1706,10 @@
         <marker scope="Public" name="aqua_jura_self5b" />
         <marker scope="Public" name="aqua_jura_self5c" />
         <marker scope="Public" name="aqua_jura_self6MustMast" />
+        <marker scope="Public" name="aqua_jura_self6StartMast" />
         <marker scope="Public" name="aqua_jura_selfSummer0" />
         <marker scope="Public" name="aqua_jura_selfSummer0b" />
+        <marker scope="Public" name="aqua_jura_selfWinter0" />
         <marker scope="Public" name="aqua_kaz_self0a" />
         <marker scope="Public" name="aqua_kaz_self0b" />
         <marker scope="Public" name="aqua_kaz_self0c" />
@@ -2009,6 +2037,7 @@
         <marker scope="Public" name="beatrix_confirmAge" />
         <marker scope="Public" name="beatrix_endoftheuniverse" />
         <marker scope="Public" name="beatrix_Heartless1" />
+        <marker scope="Public" name="beatrix_Heartless2" />
         <marker scope="Public" name="birthday">Wishes the player (or another character?) a happy birthday on the birthday background</marker>
         <marker scope="Public" name="burning_up">Forfeit specific line with potential follow-ups</marker>
         <marker scope="Public" name="butt_pose">Showing off her butt pose</marker>
@@ -2091,6 +2120,8 @@
         <marker scope="Public" name="ignoring_pervert">Ignoring a perverted character (that is attracted to her) during her forfeit</marker>
         <marker scope="Private" name="im_wearing_socks" />
         <marker scope="Public" name="inv_traverse_town" />
+        <marker scope="Public" name="jenna_crotchReveal_sweater" />
+        <marker scope="Public" name="jenna_lore3" />
         <marker scope="Public" name="keyblade_7_rounds" />
         <marker scope="Public" name="keyblade_doesnt_count_as_layer" />
         <marker scope="Public" name="keyblade_intimidating" />
@@ -2151,8 +2182,11 @@
         <marker scope="Public" name="pollyPossessionRejection" />
         <marker scope="Public" name="ribbongirl_celebNudityResp" />
         <marker scope="Public" name="ribbongirl_MaskPowers" />
+        <marker scope="Public" name="ringo_beyblade" />
         <marker scope="Public" name="rose_anima_reveal" />
         <marker scope="Public" name="rose_butt_pose" />
+        <marker scope="Public" name="rose_peddling" />
+        <marker scope="Public" name="rose_peddling_hotspring" />
         <marker scope="Public" name="roxas_first_meeting">First time she encounters Roxas</marker>
         <marker scope="Public" name="rumble_racing">Mentions a bonus minigame from KH:BBS</marker>
         <marker scope="Public" name="saki_headfalloff" />
@@ -2204,6 +2238,7 @@
         <marker scope="Public" name="womanizer">Targeting someone who is good at seducing women (or asssumed to be)</marker>
         <marker scope="Public" name="years_spent_alone">Forfeit specific line with potential follow-ups</marker>
         <marker scope="Private" name="yuno_hard">Yuno has a hard pp.</marker>
+        <marker scope="Public" name="zp_heavy_ff_insertion_start" />
         <marker scope="Public" name="zp_heavy_ff_intercrural_start" />
         <marker scope="Public" name="zp_naked_together" />
         <marker scope="Public" name="zp_pandy_strips_too" />
