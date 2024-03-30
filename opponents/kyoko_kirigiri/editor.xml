@@ -2416,7 +2416,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="2287" label="W. Machine L 2-2" color="1" folder="Seasonal&gt;April Fool's" sort="135" />
         <label id="2288" label="W. Machine L 2-3" color="1" folder="Seasonal&gt;April Fool's" sort="136" />
         <label id="2289" label="" folder="Must forfeit" sort="27" />
-        <label id="2290" label="Chihiro Victory" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="34" />
+        <label id="2290" label="Chihiro Victory 6" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="34" />
         <label id="2293" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="0" />
         <label id="2294" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="2" />
         <label id="2295" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="3" />
@@ -2565,13 +2565,36 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="2441" label="" folder="Targeted&gt;Outbounds&gt;Forfeit" sort="40" />
         <label id="2442" label="Hina+Toshinou" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="18" />
         <label id="2443" label="Hina+Toshinou" folder="Targeted&gt;Trio+" sort="6" />
-        <label id="2444" label="Talking about Junko" folder="Targeted&gt;Replies&gt;Generic" sort="0" />
-        <label id="2445" label="" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="0" />
-        <label id="2446" label="" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="0" />
-        <label id="2447" label="Hina, waterside" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="0" />
-        <label id="2448" label="" folder="Technical&gt;Duplicate dialogue" sort="0" />
+        <label id="2444" label="Talking about Junko" folder="Targeted&gt;Replies&gt;Generic" sort="8" />
+        <label id="2445" label="" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="10" />
+        <label id="2446" label="" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="11" />
+        <label id="2447" label="Hina, waterside" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="2" />
+        <label id="2448" label="" folder="Technical&gt;Duplicate dialogue" sort="2" />
         <label id="2449" label="" folder="Intro/Ending" sort="0" />
-        <label id="2450" label="Hina (Kyoko shuts up)" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="0" />
+        <label id="2450" label="Hina (Kyoko shuts up)" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="22" />
+        <label id="2451" label="Hina A" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="27" />
+        <label id="2452" label="Hina B" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="28" />
+        <label id="2453" label="Hina A, sitting" folder="Technical&gt;Duplicate dialogue" sort="29" />
+        <label id="2454" label="Hina B, sitting" folder="Technical&gt;Duplicate dialogue" sort="30" />
+        <label id="2455" label="" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="31" />
+        <label id="2456" label="" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="32" />
+        <label id="2457" label="" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="33" />
+        <label id="2458" label="" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="34" />
+        <label id="2459" label="" folder="Technical&gt;Duplicate dialogue" sort="35" />
+        <label id="2291" label="Chihiro victory 6" folder="Technical&gt;Duplicate dialogue" sort="266" />
+        <label id="2460" label="" folder="Targeted&gt;Outbounds&gt;Stage 4" sort="35" />
+        <label id="2461" label="" folder="Forfeit" sort="0" />
+        <label id="2462" label="" folder="Targeted&gt;Outbounds&gt;Forfeit" sort="15" />
+        <label id="2463" label="" folder="Stage X" sort="0" />
+        <label id="2464" label="" folder="Targeted&gt;Outbounds&gt;Stage X" sort="14" />
+        <label id="2465" label="" folder="Targeted&gt;Outbounds&gt;Forfeit" sort="0" />
+        <label id="2466" label="" folder="Targeted&gt;Replies&gt;Stage 7" sort="7" />
+        <label id="2467" label="" folder="Targeted&gt;Replies&gt;Stage 7" sort="8" />
+        <label id="2468" label="Alter Ego Victory" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="29" />
+        <label id="2469" label="Chihiro Victory 0" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="30" />
+        <label id="2470" label="Chihiro Victory 0" folder="Technical&gt;Duplicate dialogue" sort="267" />
+        <label id="2471" label="Alter Ego Victory" folder="Technical&gt;Duplicate dialogue" sort="268" />
+        <label id="2472" label="" folder="Clothing type&gt;Minor" sort="0" />
     </labels>
     <prefixes>
         <prefix>#-aside</prefix>
@@ -2601,14 +2624,23 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
     <posePreviewMarkers>
         <posePreviewMarker>hair==1</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>2450</nextId>
+    <nextId>2472</nextId>
     <markers>
-        <marker scope="Public" name="+careerMention" />
-        <marker scope="Public" name="+quips" />
         <marker scope="Public" name="ae86_strip" />
         <marker scope="Public" name="ae86_strip01" />
         <marker scope="Public" name="aella_weapons" />
         <marker scope="Public" name="alwaysReady">Semper paratus!</marker>
+        <marker scope="Public" name="hina_coMast1" />
+        <marker scope="Public" name="hina_coMast2" />
+        <marker scope="Public" name="hina_coMast3" />
+        <marker scope="Public" name="hina_coMast4" />
+        <marker scope="Public" name="hina_hinaWin" />
+        <marker scope="Public" name="hina_kyokoWin" />
+        <marker scope="Public" name="hina_malePopularity" />
+        <marker scope="Public" name="hina_r73" />
+        <marker scope="Public" name="hina_sensitivity" />
+        <marker scope="Public" name="hina_sensitivtitty" />
+        <marker scope="Public" name="hina_topTouch1" />
         <marker scope="Public" name="aquaKH_aceDetective" />
         <marker scope="Public" name="aquaKH_masterNickname" />
         <marker scope="Public" name="aquaKH_shadow" />
@@ -2675,7 +2707,6 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="buttPoseGrantedB" />
         <marker scope="Public" name="buttPoseOffer" />
         <marker scope="Public" name="buttPoseOfferA" />
-        <marker scope="Public" name="buttPoseOfferA=2" />
         <marker scope="Public" name="buttPoseOfferB" />
         <marker scope="Public" name="buttPoses">Counts how many times she's used a rear-facing pose with no lower clothing left.</marker>
         <marker scope="Public" name="buttSurvey" />
@@ -2706,15 +2737,20 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="cd_goodSave" />
         <marker scope="Public" name="cd_maleStaminaRe" />
         <marker scope="Public" name="cheryl_homicide" />
+        <marker scope="Public" name="chihiro_" />
         <marker scope="Public" name="chihiro_build" />
         <marker scope="Public" name="chihiro_chivulva" />
         <marker scope="Public" name="chihiro_chivulva_alter" />
         <marker scope="Public" name="chihiro_chivulva_main" />
+        <marker scope="Public" name="chihiro_defeat" />
+        <marker scope="Public" name="chihiro_endingA" />
         <marker scope="Public" name="chihiro_hamsterballWtf" />
         <marker scope="Public" name="chihiro_mahiru_noselfieRe" />
         <marker scope="Public" name="chihiro_mahiru_selfieRe" />
         <marker scope="Public" name="chihiro_noticedAlterEgo" />
         <marker scope="Public" name="chihiro_outGeneric" />
+        <marker scope="Public" name="chihiro_victory0" />
+        <marker scope="Public" name="chihiro_victory5" />
         <marker scope="Public" name="chihiro_victory6" />
         <marker scope="Public" name="chihiroOutsGeneric" />
         <marker scope="Public" name="chivulva" />
@@ -2816,7 +2852,6 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="eatShitYuuhain" />
         <marker scope="Public" name="EHCount" />
         <marker scope="Private" name="ellipsisCount">She's said X lines that are just ellipsis, lacking any letters that a word could be made out of. Decrements by 1 each strip phase. Swapping cards lines are not counted.</marker>
-        <marker scope="Public" name="-ellipsisCount" />
         <marker scope="Public" name="elphaba_notWitchcraft" />
         <marker scope="Public" name="elphaba_sorceryVsWitchcraft" />
         <marker scope="Public" name="elphaba_witchcraft" />
@@ -2867,11 +2902,9 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="ferrisDom_earPull" />
         <marker scope="Public" name="ferrisDom_eyesAndEars" />
         <marker scope="Public" name="ferrisDom_FHbeg" />
-        <marker scope="Public" name="ferrisDom_FH-beg" />
         <marker scope="Public" name="ferrisDom_FHcute" />
         <marker scope="Public" name="ferrisDom_FHears" />
         <marker scope="Public" name="ferrisDom_FHevidence" />
-        <marker scope="Public" name="ferrisDom_FH-evidence" />
         <marker scope="Public" name="ferrisDom_FHlast" />
         <marker scope="Public" name="ferrisDom_FHpermission" />
         <marker scope="Public" name="ferrisDom_H" />
@@ -3274,7 +3307,6 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="shareWithClass" />
         <marker scope="Public" name="SHE_SAYS_FUCK" />
         <marker scope="Public" name="sheSaidFuck" />
-        <marker scope="Public" name="SHE-SAYS-FUCK" />
         <marker scope="Public" name="showoff" />
         <marker scope="Public" name="shutInLookAtMe" />
         <marker scope="Public" name="shutInLookAtYou" />
@@ -3419,13 +3451,12 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="upskirtSituation" />
         <marker scope="Public" name="V_cameLikeThatQuery" />
         <marker scope="Private" name="V_clothing">Based on custom vocabulary; for use in-line in place of ~clothing~.</marker>
-        <marker scope="Private" name="V_clothing.uncountable" />
+        <marker scope="Private" name="V_clothing_uncountable">Boolean companion to V_clothing.</marker>
         <marker scope="Public" name="V_customFirst">Some goofy edge cases change this; her first name, for use in-line if you’re too weird for ~target~, or if you want to change a nickname for her mid-game.</marker>
         <marker scope="Public" name="V_customLast">Some goofy edge cases change this; her last name, for use in-line if you’re too weird for ~target~, or if you want to change a nickname for her mid-game.</marker>
         <marker scope="Private" name="V_lineKey" />
         <marker scope="Private" name="V_revealed">Based on custom vocabulary; for use in-line in place of ~revealed~.</marker>
-        <marker scope="Private" name="V_revealed.uncountable" />
-        <marker scope="Public" name="v_seed" />
+        <marker scope="Private" name="V_revealed_uncountable">Boolean companion to V_revealed.</marker>
         <marker scope="Private" name="V_seed">Mysterious mayhem makes you merry! Spin the wheel of fun!</marker>
         <marker scope="Public" name="volleyball" />
         <marker scope="Public" name="wellYouLost" />
@@ -3521,7 +3552,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="yuno_nyc" />
         <marker scope="Public" name="yuno_nyc_hontou" />
         <marker scope="Public" name="yuno_nyc_truly" />
-        <marker scope="Public" name="yuto" />
+        <marker scope="Public" name="yuto">Dude has an infinite pastry hack and still can't hit a growth spurt.</marker>
         <marker scope="Public" name="zeroEscape" />
         <marker scope="Public" name="zlsHeadDrop1" />
         <marker scope="Public" name="zombieHeadDrops">X times, a targeted line for a zombie character's head falling off has played. We got at least three of those in this game!</marker>
@@ -3616,5 +3647,6 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <line>Scrotum…</line>
         <line>Male player wears Meia's bodysuit</line>
         <line>Feet line wearing dress/skirt -- I could tell her to take caution not to show off more than she needs to. But why would I do that?</line>
+        <line>Lines when gloves just came off when someone has already been eliminated</line>
     </pendingLines>
 </metadata>
