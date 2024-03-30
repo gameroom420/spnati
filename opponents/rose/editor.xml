@@ -91,10 +91,12 @@
         <response id="309" opponent="rosa" opponentId="845" />
         <response id="310" opponent="rosa" opponentId="846" />
         <response id="318" opponent="rosa" opponentId="857" />
+        <response id="319" opponent="ringo_ando" opponentId="1102" />
     </responses>
     <notes>
         <note id="193">Rose has left her slot to visit Magma Grunt's slot - MG is showing her a picture of her own backside</note>
         <note id="311">attempts to peddle to opponents that are not poor OR are not villains AND not creepy</note>
+        <note id="321">going with the logic that most people wouldnt have time/effort to spare on learning how to swim in a poor, barely even medieval setting&lt;br&gt;</note>
     </notes>
     <labels>
         <label id="1" label="" folder="Conditional" sort="18" />
@@ -409,11 +411,14 @@
         <label id="316" label="" folder="Conditional" sort="0" />
         <label id="317" label="" folder="Targets" sort="0" />
         <label id="318" label="" folder="Rosa&gt;Lucario Girl" sort="0" />
+        <label id="319" label="" folder="Response" sort="0" />
+        <label id="320" label="Stand back up (Ringo)" color="3" folder="" sort="0" />
+        <label id="321" label="" folder="Targets" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>show_anima==1</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>318</nextId>
+    <nextId>321</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="3player" />
@@ -426,6 +431,7 @@
         <marker scope="Public" name="anima_accusation" />
         <marker scope="Public" name="arueshalae_good_dream" />
         <marker scope="Public" name="clubRouge_invitationResp" />
+        <marker scope="Public" name="e" />
         <marker scope="Public" name="everyone_out_1" />
         <marker scope="Public" name="felix_intro_1" />
         <marker scope="Public" name="finished" />
@@ -484,6 +490,7 @@
         <marker scope="Public" name="rose_aaraviStartMast" />
         <marker scope="Public" name="rose_aaraviStartMast2" />
         <marker scope="Public" name="rose_aoi_swimming1" />
+        <marker scope="Public" name="rose_aoi_swimming2" />
         <marker scope="Public" name="rose_aura_camera0" />
         <marker scope="Public" name="rose_aura_camera1" />
         <marker scope="Public" name="rose_butt" />
@@ -510,6 +517,7 @@
         <marker scope="Public" name="rose_resp0_1" />
         <marker scope="Public" name="rose_revy_self0a" />
         <marker scope="Public" name="rose_revy_self0b" />
+        <marker scope="Public" name="rose_ringo_puyopin" />
         <marker scope="Public" name="rose_ROSA_nails1" />
         <marker scope="Public" name="rose_rosa_self0a" />
         <marker scope="Public" name="rose_rosa_self0b" />
