@@ -92,6 +92,20 @@
         <response id="485" opponent="hilda" opponentId="984" />
         <response id="486" opponent="hilda" opponentId="982" />
         <response id="487" opponent="hilda" opponentId="993" />
+        <response id="497" opponent="nonon" opponentId="910" />
+        <response id="498" opponent="nonon" opponentId="901" />
+        <response id="505" opponent="meia" opponentId="1743" />
+        <response id="507" opponent="jura" opponentId="1523" />
+        <response id="508" opponent="jura" opponentId="1519" />
+        <response id="509" opponent="jura" opponentId="1520" />
+        <response id="514" opponent="hilda" opponentId="1005" />
+        <response id="532" opponent="hilda" opponentId="1013" />
+        <response id="533" opponent="hilda" opponentId="1014" />
+        <response id="534" opponent="hilda" opponentId="1021" />
+        <response id="535" opponent="hilda" opponentId="1024" />
+        <response id="536" opponent="hilda" opponentId="1001" />
+        <response id="538" opponent="hilda" opponentId="1002" />
+        <response id="539" opponent="hilda" opponentId="1003" />
     </responses>
     <notes>
         <note id="66">Wealth: Lys talks about being impoverished and disadvantaged, even as a noble
@@ -115,6 +129,7 @@ Witch: Outfits and the value of presentation. Lysithea under-represents herself 
 Fight: Mixing damage and healing; How to prioritize</note>
         <note id="274">balthus=Lysithea is attracted to him. 
 cyril=Lysithea is attracted to him, and making an observation about wanting to make sure he's mature enough before pursuing him. </note>
+        <note id="500">Nonon's marker here does not seem to be correct. </note>
     </notes>
     <labels>
         <label id="1" label="" folder="Golden Deer - Hilda" sort="0" />
@@ -389,7 +404,7 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <label id="271" label="" folder="Golden Deer - Hilda" sort="0" />
         <label id="272" label="" folder="Golden Deer - Hilda" sort="0" />
         <label id="273" label="" folder="Golden Deer - Hilda" sort="0" />
-        <label id="274" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="274" label="" folder="Golden Deer - Hilda" sort="0" />
         <label id="275" label="" folder="Divine and Demonic Opponents" sort="0" />
         <label id="276" label="" folder="Sweet Opponents" sort="0" />
         <label id="277" label="" folder="Sweet Opponents" sort="0" />
@@ -443,9 +458,9 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <label id="325" label="" folder="Fire Emblem / Fantasy" sort="0" />
         <label id="326" label="" folder="Fire Emblem / Fantasy" sort="0" />
         <label id="327" label="" folder="Quirky Cute and Tomboys" sort="0" />
-        <label id="330" label="" color="4" folder="Future/Modern Opponents" sort="0" />
+        <label id="330" label="" folder="Future/Modern Opponents" sort="0" />
         <label id="331" label="" folder="Future/Modern Opponents" sort="0" />
-        <label id="332" label="" color="4" folder="Future/Modern Opponents" sort="0" />
+        <label id="332" label="" folder="Future/Modern Opponents" sort="0" />
         <label id="333" label="" folder="Smart Opponents" sort="0" />
         <label id="334" label="" folder="Future/Modern Opponents" sort="0" />
         <label id="336" label="" folder="Jura Responses" sort="0" />
@@ -500,9 +515,9 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <label id="384" label="" folder="Male Opponents" sort="0" />
         <label id="385" label="" folder="Male Opponents" sort="0" />
         <label id="386" label="" color="4" folder="Future/Modern Opponents" sort="0" />
-        <label id="387" label="" color="4" folder="Future/Modern Opponents" sort="0" />
-        <label id="388" label="" color="4" folder="Future/Modern Opponents" sort="0" />
-        <label id="389" label="" color="4" folder="Future/Modern Opponents" sort="0" />
+        <label id="387" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="388" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="389" label="" folder="Future/Modern Opponents" sort="0" />
         <label id="390" label="" folder="Future/Modern Opponents" sort="0" />
         <label id="391" label="" folder="Divine and Demonic Opponents" sort="0" />
         <label id="392" label="" folder="Divine and Demonic Opponents" sort="0" />
@@ -579,16 +594,16 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <label id="461" label="" folder="Sweet Opponents" sort="0" />
         <label id="462" label="" folder="Sweet Opponents" sort="0" />
         <label id="40" label="" folder="Golden Deer - Hilda" sort="0" />
-        <label id="463" label="" color="4" folder="Future/Modern Opponents" sort="0" />
-        <label id="464" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
-        <label id="465" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
-        <label id="466" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
-        <label id="467" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="463" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="464" label="" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="465" label="" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="466" label="" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="467" label="" folder="Quirky Cute and Tomboys" sort="0" />
         <label id="468" label="" folder="Quirky Cute and Tomboys" sort="0" />
-        <label id="469" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
-        <label id="470" label="" color="4" folder="Future/Modern Opponents" sort="0" />
+        <label id="469" label="" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="470" label="" folder="Future/Modern Opponents" sort="0" />
         <label id="471" label="" folder="Future/Modern Opponents" sort="0" />
-        <label id="472" label="" color="4" folder="Future/Modern Opponents" sort="0" />
+        <label id="472" label="" folder="Future/Modern Opponents" sort="0" />
         <label id="473" label="" folder="Future/Modern Opponents" sort="0" />
         <label id="474" label="" folder="Future/Modern Opponents" sort="0" />
         <label id="475" label="" folder="Future/Modern Opponents" sort="0" />
@@ -599,10 +614,10 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <label id="480" label="" folder="Smart Opponents" sort="0" />
         <label id="481" label="" folder="Smart Opponents" sort="0" />
         <label id="482" label="" folder="Smart Opponents" sort="0" />
-        <label id="483" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
-        <label id="484" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
-        <label id="485" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
-        <label id="486" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="483" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="484" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="485" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="486" label="" folder="Golden Deer - Hilda" sort="0" />
         <label id="487" label="" folder="Golden Deer - Hilda" sort="0" />
         <label id="488" label="" folder="Golden Deer - Hilda" sort="0" />
         <label id="489" label="" folder="Golden Deer - Hilda" sort="0" />
@@ -612,8 +627,52 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <label id="493" label="" folder="Golden Deer - Hilda" sort="0" />
         <label id="494" label="" folder="Golden Deer - Hilda" sort="0" />
         <label id="495" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="496" label="" folder="fire Emblem /" sort="0" />
+        <label id="497" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="498" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="499" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="500" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="501" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="502" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="503" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="504" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="505" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="506" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="507" label="" folder="Jura Responses" sort="0" />
+        <label id="508" label="" folder="Jura Responses" sort="0" />
+        <label id="509" label="" folder="Jura Responses" sort="0" />
+        <label id="510" label="" folder="Sweet Opponents" sort="0" />
+        <label id="511" label="" folder="Sweet Opponents" sort="0" />
+        <label id="512" label="" folder="Sweet Opponents" sort="0" />
+        <label id="513" label="" folder="Sweet Opponents" sort="0" />
+        <label id="514" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="515" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="516" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="517" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="518" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="519" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="520" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="521" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="522" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="523" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="524" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="525" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="526" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="527" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="528" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="529" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="530" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="531" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="532" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="533" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="534" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="535" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="536" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="537" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="539" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="538" label="" folder="Golden Deer - Hilda" sort="0" />
     </labels>
-    <nextId>495</nextId>
+    <nextId>539</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="ask" />
@@ -721,21 +780,31 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <marker scope="Public" name="ask_heris_researchS" />
         <marker scope="Public" name="ask_heris_workS" />
         <marker scope="Public" name="ask_hilda_balthus" />
+        <marker scope="Public" name="ask_hilda_balthusI" />
         <marker scope="Public" name="ask_hilda_balthusS" />
         <marker scope="Public" name="ask_hilda_claude" />
+        <marker scope="Public" name="ask_hilda_claudeI" />
         <marker scope="Public" name="ask_hilda_claudeS" />
+        <marker scope="Public" name="ask_hilda_coachE" />
         <marker scope="Public" name="ask_hilda_coachI" />
         <marker scope="Public" name="ask_hilda_coachS" />
         <marker scope="Public" name="ask_hilda_cyril" />
+        <marker scope="Public" name="ask_hilda_cyrilI" />
         <marker scope="Public" name="ask_hilda_cyrilS" />
+        <marker scope="Public" name="ask_hilda_fashionE" />
         <marker scope="Public" name="ask_hilda_fashionI" />
         <marker scope="Public" name="ask_hilda_fashionS" />
         <marker scope="Public" name="ask_hilda_firsttime" />
+        <marker scope="Public" name="ask_hilda_firsttimeI" />
         <marker scope="Public" name="ask_hilda_firsttimeS" />
+        <marker scope="Public" name="ask_hilda_marriageI" />
         <marker scope="Public" name="ask_hilda_marriageS" />
+        <marker scope="Public" name="ask_hilda_mybooksI" />
         <marker scope="Public" name="ask_hilda_mybooksS" />
+        <marker scope="Public" name="ask_hilda_socialE" />
         <marker scope="Public" name="ask_hilda_socialI" />
         <marker scope="Public" name="ask_hilda_socialS" />
+        <marker scope="Public" name="ask_hilda_watchE" />
         <marker scope="Public" name="ask_hilda_watchI" />
         <marker scope="Public" name="ask_hilda_watchS" />
         <marker scope="Public" name="ask_hutao_" />
@@ -764,6 +833,7 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <marker scope="Public" name="ask_jura_funE" />
         <marker scope="Public" name="ask_jura_funI" />
         <marker scope="Public" name="ask_jura_funS" />
+        <marker scope="Public" name="ask_jura_intimatesI" />
         <marker scope="Public" name="ask_jura_intimatesS" />
         <marker scope="Public" name="ask_jura_partnerE" />
         <marker scope="Public" name="ask_jura_partnerI" />
@@ -783,6 +853,9 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <marker scope="Public" name="ask_komi_interestsS" />
         <marker scope="Public" name="ask_komi_shyS" />
         <marker scope="Public" name="ask_komi_talkS" />
+        <marker scope="Public" name="ask_lae_blademagicS" />
+        <marker scope="Public" name="ask_lae_emotionS" />
+        <marker scope="Public" name="ask_lae_muspellS" />
         <marker scope="Public" name="ask_leon_houseI" />
         <marker scope="Public" name="ask_leon_houseS" />
         <marker scope="Public" name="ask_leon_observeS" />
@@ -891,11 +964,15 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <marker scope="Public" name="ask_noire_divinityS" />
         <marker scope="Public" name="ask_noire_gamesI" />
         <marker scope="Public" name="ask_noire_gamesS" />
+        <marker scope="Public" name="ask_nonon_bandE" />
         <marker scope="Public" name="ask_nonon_bandI" />
         <marker scope="Public" name="ask_nonon_bandS" />
+        <marker scope="Public" name="ask_nonon_gameI" />
         <marker scope="Public" name="ask_nonon_gameS" />
+        <marker scope="Public" name="ask_nonon_satsukiE" />
         <marker scope="Public" name="ask_nonon_satsukiI" />
         <marker scope="Public" name="ask_nonon_satsukiS" />
+        <marker scope="Public" name="ask_nonon_shineI" />
         <marker scope="Public" name="ask_nonon_shineS" />
         <marker scope="Public" name="ask_petra_beachE" />
         <marker scope="Public" name="ask_petra_beachI" />
@@ -939,6 +1016,7 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <marker scope="Public" name="ask_revy_gunsE" />
         <marker scope="Public" name="ask_revy_gunsI" />
         <marker scope="Public" name="ask_revy_gunsS" />
+        <marker scope="Public" name="ask_revy_mercI" />
         <marker scope="Public" name="ask_revy_mercS" />
         <marker scope="Public" name="ask_revy_musicE" />
         <marker scope="Public" name="ask_revy_musicI" />
@@ -970,9 +1048,13 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <marker scope="Public" name="ask_sakura_operaI" />
         <marker scope="Public" name="ask_sakura_operaS" />
         <marker scope="Public" name="ask_sakura_performS" />
+        <marker scope="Public" name="ask_senko_ageI" />
         <marker scope="Public" name="ask_senko_ageS" />
+        <marker scope="Public" name="ask_senko_maturityI" />
         <marker scope="Public" name="ask_senko_maturityS" />
+        <marker scope="Public" name="ask_senko_romanceI" />
         <marker scope="Public" name="ask_senko_romanceS" />
+        <marker scope="Public" name="ask_senko_timeI" />
         <marker scope="Public" name="ask_senko_timeS" />
         <marker scope="Public" name="ask_setogaya_experienceI" />
         <marker scope="Public" name="ask_setogaya_experienceS" />
@@ -1073,15 +1155,29 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <marker scope="Public" name="reply_dunban_futureS" />
         <marker scope="Public" name="reply_dunban_magicI" />
         <marker scope="Public" name="reply_dunban_magicS" />
+        <marker scope="Public" name="reply_hilda_gossipS" />
+        <marker scope="Public" name="reply_hilda_holstS" />
         <marker scope="Public" name="reply_hilda_mastbooks" />
+        <marker scope="Public" name="reply_hilda_mastbooks2" />
         <marker scope="Public" name="reply_hilda_mastclaude" />
+        <marker scope="Public" name="reply_hilda_mastclaude2" />
+        <marker scope="Public" name="reply_hilda_mastdom" />
+        <marker scope="Public" name="reply_hilda_mastdom2" />
         <marker scope="Public" name="reply_hilda_mastinnocent" />
+        <marker scope="Public" name="reply_hilda_mastinnocent2" />
+        <marker scope="Public" name="reply_hilda_mastlibrary" />
+        <marker scope="Public" name="reply_hilda_mastlibrary2" />
         <marker scope="Public" name="reply_hilda_mastpale" />
         <marker scope="Public" name="reply_hilda_mastshare" />
+        <marker scope="Public" name="reply_hilda_masttouch" />
+        <marker scope="Public" name="reply_hilda_styleE" />
         <marker scope="Public" name="reply_hilda_styleI" />
         <marker scope="Public" name="reply_hilda_styleS" />
+        <marker scope="Public" name="reply_hilda_territoryE" />
         <marker scope="Public" name="reply_hilda_territoryI" />
         <marker scope="Public" name="reply_hilda_territoryS" />
+        <marker scope="Public" name="reply_hilda_underwearI" />
+        <marker scope="Public" name="reply_hilda_underwearS" />
         <marker scope="Public" name="reply_hutao_ghostsS" />
         <marker scope="Public" name="reply_jura_bodyE" />
         <marker scope="Public" name="reply_jura_bodyI" />
@@ -1089,7 +1185,9 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <marker scope="Public" name="reply_jura_cakeE" />
         <marker scope="Public" name="reply_jura_cakeI" />
         <marker scope="Public" name="reply_jura_cakeS" />
+        <marker scope="Public" name="reply_jura_defyI" />
         <marker scope="Public" name="reply_jura_defyS" />
+        <marker scope="Public" name="reply_jura_liveI" />
         <marker scope="Public" name="reply_jura_liveS" />
         <marker scope="Public" name="reply_jura_oldageE" />
         <marker scope="Public" name="reply_jura_oldageI" />
@@ -1100,10 +1198,12 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <marker scope="Public" name="reply_jura_swordsE" />
         <marker scope="Public" name="reply_jura_swordsI" />
         <marker scope="Public" name="reply_jura_swordsS" />
+        <marker scope="Public" name="reply_jura_typeS" />
         <marker scope="Public" name="reply_ladybug_appearanceS" />
         <marker scope="Public" name="reply_ladybug_relaxS" />
         <marker scope="Public" name="reply_ladybug_rushI" />
         <marker scope="Public" name="reply_ladybug_rushS" />
+        <marker scope="Public" name="reply_laevatein_stratS" />
         <marker scope="Public" name="reply_leon_creepyI" />
         <marker scope="Public" name="reply_leon_creepyS" />
         <marker scope="Public" name="reply_leon_dressupI" />
@@ -1118,6 +1218,7 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <marker scope="Public" name="reply_mari_defaultS" />
         <marker scope="Public" name="reply_mari_informalS" />
         <marker scope="Public" name="reply_marinette_" />
+        <marker scope="Public" name="reply_meia_legacyI" />
         <marker scope="Public" name="reply_meia_legacyS" />
         <marker scope="Public" name="reply_meia_magicS" />
         <marker scope="Public" name="reply_meia_modestyE" />
@@ -1152,6 +1253,8 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <marker scope="Public" name="reply_natsuki_friendS" />
         <marker scope="Public" name="reply_natsuki_studyS" />
         <marker scope="Public" name="reply_natsuki_witchS" />
+        <marker scope="Public" name="reply_nonon_goldendeerS" />
+        <marker scope="Public" name="reply_nonon_hairS" />
         <marker scope="Public" name="reply_nonon_magicI" />
         <marker scope="Public" name="reply_nonon_magicroleplayS" />
         <marker scope="Public" name="reply_nonon_magicS" />
@@ -1172,6 +1275,7 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <marker scope="Public" name="reply_reimu_outfitE" />
         <marker scope="Public" name="reply_reimu_outfitI" />
         <marker scope="Public" name="reply_reimu_outfitS" />
+        <marker scope="Public" name="reply_revy_cig_offer" />
         <marker scope="Public" name="reply_revy_insultE" />
         <marker scope="Public" name="reply_revy_insultI" />
         <marker scope="Public" name="reply_revy_insultS" />
