@@ -873,6 +873,24 @@
         <include-status>event</include-status>
         <include-status>event-background</include-status>
     </event>
+    <!-- Second event to handle the second half - will be eventually replaced by the event toggle feature -->
+    <event id="april_fools_2" consistent-timezone="true">
+        <name>April Fools Day</name>
+
+        <dates>
+            <date>
+                <from month="4" day="4" />
+                <to month="4" day="7" />
+            </date>
+        </dates>
+
+        <!-- NO FEATURED BACKGROUND -->
+
+        <!-- NO FEATURED INDIVIDUAL CHARACTERS OR HIGHLIGHTS  -->
+
+        <include-status>event</include-status>
+        <include-status>event-background</include-status>
+    </event>
 
     <!-- temp event to keep Easter up on Easter itself for as long as we can -->
     <event id="easter2" consistent-timezone="true">
