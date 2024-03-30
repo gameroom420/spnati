@@ -519,7 +519,7 @@
         <label id="990" label="" color="4" folder="" sort="0" />
         <label id="991" label="" color="4" folder="" sort="0" />
         <label id="996" label="" color="6" folder="" sort="0" />
-        <label id="1748" label="" color="4" folder="" sort="0" />
+        <label id="1769" label="" color="4" folder="" sort="0" />
         <label id="1000" label="" color="4" folder="" sort="0" />
         <label id="1001" label="" color="4" folder="" sort="0" />
         <label id="1002" label="" color="4" folder="" sort="0" />
@@ -698,7 +698,7 @@
         <label id="1462" label="" color="4" folder="" sort="0" />
         <label id="1213" label="" color="4" folder="" sort="0" />
         <label id="1206" label="" color="4" folder="" sort="0" />
-        <label id="1751" label="" color="4" folder="" sort="0" />
+        <label id="1773" label="" color="4" folder="" sort="0" />
         <label id="1222" label="" color="4" folder="" sort="0" />
         <label id="1226" label="" color="1" folder="" sort="0" />
         <label id="1227" label="" color="1" folder="" sort="0" />
@@ -755,7 +755,7 @@
         <label id="1314" label="" color="4" folder="" sort="0" />
         <label id="1315" label="" color="4" folder="" sort="0" />
         <label id="1316" label="" color="4" folder="" sort="0" />
-        <label id="1750" label="" color="4" folder="" sort="0" />
+        <label id="1771" label="" color="4" folder="" sort="0" />
         <label id="1323" label="" color="4" folder="" sort="0" />
         <label id="1322" label="" color="4" folder="" sort="0" />
         <label id="1324" label="" color="6" folder="" sort="0" />
@@ -773,8 +773,6 @@
         <label id="1336" label="" color="7" folder="" sort="0" />
         <label id="1337" label="" color="6" folder="" sort="0" />
         <label id="1758" label="" color="4" folder="" sort="0" />
-        <label id="1654" label="" color="4" folder="" sort="0" />
-        <label id="1352" label="" color="4" folder="" sort="0" />
         <label id="1353" label="" color="4" folder="" sort="0" />
         <label id="1650" label="" color="4" folder="" sort="0" />
         <label id="1733" label="" color="4" folder="" sort="0" />
@@ -889,8 +887,8 @@
         <label id="1543" label="" color="10" folder="" sort="0" />
         <label id="1544" label="" color="10" folder="" sort="0" />
         <label id="1545" label="" color="4" folder="" sort="0" />
-        <label id="1715" label="" color="4" folder="" sort="0" />
-        <label id="1716" label="" color="4" folder="" sort="0" />
+        <label id="1767" label="" color="4" folder="" sort="0" />
+        <label id="1765" label="" color="4" folder="" sort="0" />
         <label id="1698" label="" color="4" folder="" sort="0" />
         <label id="1556" label="" color="4" folder="" sort="0" />
         <label id="1557" label="" color="6" folder="" sort="0" />
@@ -957,10 +955,10 @@
         <label id="1687" label="" color="2" folder="" sort="0" />
         <label id="1734" label="" color="4" folder="" sort="0" />
         <label id="1762" label="" color="4" folder="" sort="0" />
-        <label id="1749" label="" color="4" folder="" sort="0" />
+        <label id="1770" label="" color="4" folder="" sort="0" />
         <label id="1697" label="" color="4" folder="" sort="0" />
         <label id="1735" label="" color="4" folder="" sort="0" />
-        <label id="1714" label="" color="4" folder="" sort="0" />
+        <label id="1766" label="" color="4" folder="" sort="0" />
         <label id="1720" label="" color="6" folder="" sort="0" />
         <label id="1721" label="" color="2" folder="" sort="0" />
         <label id="1722" label="" color="2" folder="" sort="0" />
@@ -974,8 +972,11 @@
         <label id="1757" label="" color="4" folder="" sort="0" />
         <label id="1759" label="" color="4" folder="" sort="0" />
         <label id="1760" label="" color="4" folder="" sort="0" />
+        <label id="1764" label="" color="4" folder="" sort="0" />
+        <label id="1768" label="" color="4" folder="" sort="0" />
+        <label id="1772" label="" color="4" folder="" sort="0" />
     </labels>
-    <nextId>1763</nextId>
+    <nextId>1773</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="2butt">Meia shows off her butt while still in her bodysuit (or Cupid outfit).</marker>
@@ -2164,6 +2165,7 @@
         <marker scope="Public" name="jura1s" />
         <marker scope="Public" name="jura2" />
         <marker scope="Public" name="jura23" />
+        <marker scope="Public" name="jura23yae" />
         <marker scope="Public" name="jura2s" />
         <marker scope="Public" name="jura3" />
         <marker scope="Public" name="jura34" />
@@ -3708,7 +3710,9 @@
         <marker scope="Public" name="sofia_resp1" />
         <marker scope="Public" name="sofia_resp12" />
         <marker scope="Public" name="sofia_resp2" />
+        <marker scope="Public" name="sofia_resp23" />
         <marker scope="Public" name="sofia_resp3" />
+        <marker scope="Public" name="sofia_resp34" />
         <marker scope="Public" name="sofia0" />
         <marker scope="Public" name="sofia01" />
         <marker scope="Public" name="sofia1" />
@@ -3726,6 +3730,7 @@
         <marker scope="Public" name="sofia5" />
         <marker scope="Public" name="sofia56" />
         <marker scope="Public" name="sofia5s" />
+        <marker scope="Public" name="sofia6s" />
         <marker scope="Public" name="solar_flare0" />
         <marker scope="Public" name="spooky_festive0" />
         <marker scope="Public" name="spooky_nurse0" />
@@ -3924,6 +3929,7 @@
         <marker scope="Public" name="yae_miko_resp0" />
         <marker scope="Public" name="yae_miko_resp01" />
         <marker scope="Public" name="yae_miko_resp1" />
+        <marker scope="Public" name="yae_miko_resp12" />
         <marker scope="Public" name="yae_miko_sightseeing" />
         <marker scope="Public" name="yae_miko0" />
         <marker scope="Public" name="yae_miko01" />
@@ -3931,9 +3937,13 @@
         <marker scope="Public" name="yae_miko2" />
         <marker scope="Public" name="yae_miko23" />
         <marker scope="Public" name="yae_miko3" />
+        <marker scope="Public" name="yae_miko34" />
+        <marker scope="Public" name="yae_miko3s" />
+        <marker scope="Public" name="yae_miko5" />
         <marker scope="Public" name="yae_resp0" />
         <marker scope="Public" name="yae_resp01" />
         <marker scope="Public" name="yae_resp1" />
+        <marker scope="Public" name="yae_resp12" />
         <marker scope="Public" name="yae0" />
         <marker scope="Public" name="yae01" />
         <marker scope="Public" name="yae1" />
@@ -3944,6 +3954,7 @@
         <marker scope="Public" name="yae2s" />
         <marker scope="Public" name="yae3" />
         <marker scope="Public" name="yae34" />
+        <marker scope="Public" name="yae34jura" />
         <marker scope="Public" name="yae3jura" />
         <marker scope="Public" name="yae3s" />
         <marker scope="Public" name="yae4" />
