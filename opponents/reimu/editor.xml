@@ -222,6 +222,8 @@
         <response id="571" opponent="meia" opponentId="1650" />
         <response id="572" opponent="jura" opponentId="1525" />
         <response id="573" opponent="jura" opponentId="1526" />
+        <response id="574" opponent="aqua_konosuba" opponentId="1593" />
+        <response id="575" opponent="yae_miko" opponentId="177" />
     </responses>
     <notes>
         <note id="99">Note: This is a blatent lie</note>
@@ -640,7 +642,7 @@
         <label id="522" label="" folder="Nagisa to right" sort="0" />
         <label id="523" label="" folder="Nagisa to right" sort="0" />
     </labels>
-    <nextId>573</nextId>
+    <nextId>575</nextId>
     <markers>
         <marker scope="Public" name="AimeeArmband1" />
         <marker scope="Public" name="AimeeCowboyOutfit1" />
@@ -666,6 +668,8 @@
         <marker scope="Public" name="AquaKonosubaSocks1" />
         <marker scope="Public" name="AquaKonosubaSocks1_resp" />
         <marker scope="Public" name="AquaKonosubaSocks2" />
+        <marker scope="Public" name="AquaKonosubaSocks2_resp" />
+        <marker scope="Public" name="AquaKonosubaSocks3" />
         <marker scope="Public" name="ArueshalaeArmor1" />
         <marker scope="Public" name="ArueshalaeArmor2" />
         <marker scope="Public" name="ArueshalaeArmor3" />
@@ -955,6 +959,7 @@
         <marker scope="Public" name="KyokoKirigiriTie3" />
         <marker scope="Public" name="KyoukoToshinouJacket1" />
         <marker scope="Public" name="KyoukoToshinouJacket2" />
+        <marker scope="Public" name="KyoukoToshinouJacket3" />
         <marker scope="Public" name="KyoukoToshinouSexyPose_resp" />
         <marker scope="Public" name="KyoukoToshinouShoes1" />
         <marker scope="Public" name="KyoukoToshinouShoes2" />
@@ -1214,7 +1219,9 @@
         <marker scope="Public" name="MonikaShoes3Erase" />
         <marker scope="Public" name="MonikaShoes3Speech" />
         <marker scope="Public" name="MonikaSocks1_resp" />
+        <marker scope="Public" name="MonikaSocks2_resp" />
         <marker scope="Public" name="MonikaStockings1" />
+        <marker scope="Public" name="MonikaStockings2" />
         <marker scope="Public" name="MonikaWon" />
         <marker scope="Public" name="MoonShoes1_resp" />
         <marker scope="Private" name="MPlayerFantasy1" />
@@ -1511,11 +1518,13 @@
         <marker scope="Public" name="TurandotShoes2_resp" />
         <marker scope="Public" name="TurandotShoes3" />
         <marker scope="Public" name="TurandotShoes3_resp" />
+        <marker scope="Public" name="YaeMikoEarrings1" />
         <marker scope="Public" name="YaeMikoSandals1" />
         <marker scope="Public" name="YaeMikoSandals2" />
         <marker scope="Public" name="YaeMikoSandals3" />
         <marker scope="Public" name="YaeMikoShoes1_resp" />
         <marker scope="Public" name="YaeMikoShoes2_resp" />
+        <marker scope="Public" name="YaeMikoShoes3_resp" />
         <marker scope="Public" name="YoukaiDesire1">Talking about how youkai are beings of desire.</marker>
         <marker scope="Public" name="YoukaiDesire2" />
         <marker scope="Public" name="YoukaiExplanation">You may think Reimu's a bad guy for wanting to exterminate youkai, but that's all a facade. She secretly cares for the youkai of Gensokyo.</marker>
