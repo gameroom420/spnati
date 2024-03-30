@@ -422,13 +422,14 @@
     </responses>
     <labels>
         <label id="440" label="The Buddy System" folder="" sort="0" />
+        <label id="567" label="STREETS" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>donpatchsword</prefix>
         <prefix>accent</prefix>
         <prefix>STREETS</prefix>
     </prefixes>
-    <nextId>566</nextId>
+    <nextId>567</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="Aaravi_DontBlink" />
