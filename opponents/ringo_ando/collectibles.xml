@@ -1,2 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<collectibles />
+<collectibles>
+    <collectible id="Apple" status="online" img="opponents/ringo_ando/10-neutral.png" thumbnail="opponents/ringo_ando/ringo_apple.png">
+        <title>Ringo's apple</title>
+        <subtitle>She had a couple extra ones.</subtitle>
+        <text>After the game ended Ringo realizes she was carrying a couple extra apples and gave one to everyone.</text>
+        <unlock>Make Ringo lose and finish the game.</unlock>
+        <hide-details>true</hide-details>
+    </collectible>
+</collectibles>
