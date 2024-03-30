@@ -215,6 +215,7 @@
         <response id="533" opponent="kumatora" opponentId="208" />
         <response id="534" opponent="arle" opponentId="28" />
         <response id="535" opponent="arle" opponentId="10" />
+        <response id="1100" opponent="rose" opponentId="311" />
     </responses>
     <labels>
         <label id="91" label="" folder="Early Tags" sort="0" />
@@ -1280,8 +1281,16 @@
         <label id="1096" label="" folder="targets" sort="0" />
         <label id="1097" label="" folder="targets" sort="0" />
         <label id="1098" label="" folder="targets" sort="0" />
+        <label id="1099" label="" folder="targets" sort="0" />
+        <label id="1100" label="" folder="targets" sort="0" />
+        <label id="1101" label="" folder="targets" sort="0" />
+        <label id="1102" label="" folder="targets" sort="0" />
+        <label id="1103" label="" folder="targets" sort="0" />
+        <label id="1104" label="" folder="targets" sort="0" />
+        <label id="1105" label="" folder="targets" sort="0" />
+        <label id="451" label="" folder="targets" sort="0" />
     </labels>
-    <nextId>1098</nextId>
+    <nextId>1105</nextId>
     <markers>
         <marker scope="Public" name="~nickname~" />
         <marker scope="Public" name="10without1ststrip" />
@@ -1579,6 +1588,8 @@
         <marker scope="Public" name="nico_multiplearms" />
         <marker scope="Public" name="nico_orgasm1" />
         <marker scope="Public" name="nico_startmast" />
+        <marker scope="Public" name="no_bra_counter" />
+        <marker scope="Public" name="no_bra2" />
         <marker scope="Public" name="no_dickes" />
         <marker scope="Public" name="noelle_strip" />
         <marker scope="Public" name="noire_puyo0" />
@@ -1637,7 +1648,10 @@
         <marker scope="Public" name="rosa_intc" />
         <marker scope="Public" name="rosa_pokemon" />
         <marker scope="Public" name="rosa_specialother" />
+        <marker scope="Public" name="rose_box" />
+        <marker scope="Public" name="rose_puyopin" />
         <marker scope="Public" name="rouge_sonicquestion" />
+        <marker scope="Public" name="rouge_sonicsez" />
         <marker scope="Public" name="rouge_titsout" />
         <marker scope="Public" name="sakizls_pussfakeout" />
         <marker scope="Public" name="sakura" />
@@ -1699,6 +1713,7 @@
         <marker scope="Public" name="yuelia_cloak" />
         <marker scope="Public" name="yuelia_necklace" />
         <marker scope="Public" name="yuelia_transformstrip" />
+        <marker scope="Public" name="yumeko_humiliation" />
         <marker scope="Public" name="yun_book1" />
         <marker scope="Public" name="yun_book2" />
         <marker scope="Public" name="yun_ribbonend" />
