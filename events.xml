@@ -452,12 +452,12 @@
             <path>reskins/meia_cupid/1-busy.png</path>
             <path>reskins/meia_cupid/2-pleased.png</path>
             <path>reskins/meia_cupid/2-addressing.png</path>
-			
+
             <path>reskins/roll_caskett_pure_white_mechanic/0-wave.png</path>
             <path>reskins/roll_caskett_pure_white_mechanic/1-smiling.png</path>
             <path>reskins/roll_caskett_pure_white_mechanic/1-wave.png</path>
             <path>reskins/roll_caskett_pure_white_mechanic/2-stretch.png</path>
-			
+
             <path>reskins/maria_sadistic_venus/0-smug.png</path>
             <path>reskins/maria_sadistic_venus/0-seductive.png</path>
             <path>reskins/maria_sadistic_venus/1-sadistic.png</path>
@@ -481,12 +481,12 @@
             <path>reskins/anatoly_box_of_chocolates/0-bashful.png</path>
             <path>reskins/anatoly_box_of_chocolates/0-selection.png</path>
             <path>reskins/anatoly_box_of_chocolates/0-shy.png</path>
-            <path>reskins/anatoly_box_of_chocolates/0-smug.png</path>	
+            <path>reskins/anatoly_box_of_chocolates/0-smug.png</path>
 
             <path>reskins/kumatora_waitress/0-annoyed.png</path>
             <path>reskins/kumatora_waitress/0-cheerful.png</path>
             <path>reskins/kumatora_waitress/0-flustered.png</path>
-            <path>reskins/kumatora_waitress/0-laughing.png</path>				
+            <path>reskins/kumatora_waitress/0-laughing.png</path>
             <!--
             <path>reskins/cheerleaderochako/0-calm.png</path>
             <path>reskins/cheerleaderochako/1-heroic.png</path>
@@ -872,6 +872,68 @@
         <!-- This works exactly like <include-status> in (prod-)config.xml. -->
         <include-status>event</include-status>
         <include-status>event-background</include-status>
+    </event>
+
+    <!-- temp event to keep Easter up on Easter itself for as long as we can -->
+    <event id="easter2" consistent-timezone="true">
+        <name>Easter</name>
+        <dates>
+            <date>
+                <from year="2024" month="3" day="31" />
+                <to year="2024" month="3" day="31" />
+            </date>
+        </dates>
+
+        <background>garden</background>
+
+        <character highlight="easter" partition="1" sort="2">mari</character>
+        <character highlight="easter" partition="1" sort="2">senko</character>
+        <character highlight="easter" partition="1" sort="2">gloria</character>
+
+        <costumes highlight="easter" partition="1" sort="1">easter</costumes>
+
+        <candy>
+            <path>reskins/new_year_aella/0-calm.png</path>
+            <path>reskins/new_year_aella/0-embarrassed.png</path>
+            <path>reskins/new_year_aella/0-happy.png</path>
+            <path>reskins/new_year_aella/0-interested.png</path>
+            <path>reskins/bunny_catria/0-calm.png</path>
+            <path>reskins/bunny_catria/0-ironic.png</path>
+            <path>reskins/bunny_catria/0-heart.png</path>
+            <path>reskins/bunny_catria/0-behind.png</path>
+            <path>reskins/florina_easter/0-interested.png</path>
+            <path>reskins/florina_easter/0-horny.png</path>
+            <path>reskins/florina_easter/0-calm.png</path>
+            <path>reskins/florina_easter/1-stripped.png</path>
+            <path>reskins/kazuma_spring/0-awkward.png</path>
+            <path>reskins/kazuma_spring/0-embarrassed.png</path>
+            <path>reskins/kazuma_spring/0-horrified.png</path>
+            <path>reskins/kazuma_spring/0-shocked.png</path>
+            <path>reskins/mari_spring/0-casual.png</path>
+            <path>reskins/mari_spring/0-wink.png</path>
+            <path>reskins/mari_spring/0-relaxed.png</path>
+            <path>reskins/mari_spring/0-demure.png</path>
+            <path>reskins/mari_setogaya_succu-bunny/0-wink.png</path>
+            <path>reskins/mari_setogaya_succu-bunny/0-grin.png</path>
+            <path>reskins/mari_setogaya_succu-bunny/0-nice.png</path>
+            <path>reskins/mari_setogaya_succu-bunny/0-strip.png</path>
+            <path>reskins/may_hopping_bunny/0-cute.png</path>
+            <path>reskins/may_hopping_bunny/0-oopsy.png</path>
+            <path>reskins/may_hopping_bunny/0-ready.png</path>
+            <path>reskins/may_hopping_bunny/0-confident.png</path>
+            <path>reskins/rosa_bunny_buns/0-bun_touching.png</path>
+            <path>reskins/rosa_bunny_buns/0-calm.png</path>
+            <path>reskins/rosa_bunny_buns/0-Happy.png</path>
+            <path>reskins/rosa_bunny_buns/0-portrait.png</path>
+            <path>reskins/sheena_chosen_beauty/0-calm.png</path>
+            <path>reskins/sheena_chosen_beauty/0-flustered.png</path>
+            <path>reskins/sheena_chosen_beauty/0-interested.png</path>
+            <path>reskins/sheena_chosen_beauty/0-angry.png</path>
+            <path>reskins/yshtola_leporine_scion/0-calm.png</path>
+            <path>reskins/yshtola_leporine_scion/0-coy.png</path>
+            <path>reskins/yshtola_leporine_scion/0-excited.png</path>
+            <path>reskins/yshtola_leporine_scion/0-smug.png</path>
+        </candy>
     </event>
 
     <!--
