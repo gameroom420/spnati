@@ -50,3 +50,8 @@
   font-style: italic;
   direction: none;
 }
+
+.dialogue .rev[data-character="giygas"] {
+  /*Sofia’s opposite text style..*/
+  color: #F13C0E;
+}

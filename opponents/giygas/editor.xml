@@ -12,9 +12,22 @@
         <case name="Giygas transforms (2/2)" id="210" priority="MustTarget" min="1" max="1">
             <description>Giygas changes to his second form: an ethereal screaming red face swirl. (2/2)</description>
         </case>
+        <case name="Giygas “strips”" id="658" priority="Noteworthy" min="1" max="3">
+            <description>…by going into progressively trippier subsequent forms.</description>
+        </case>
+        <case name="Giygas’s defeat (1/3)" id="661" priority="Noteworthy" min="4" max="4">
+            <description>The finishing blow…SEEMS to have been dealt to Giygas?</description>
+        </case>
+        <case name="Giygas’s defeat (2/3)" id="660" priority="Noteworthy" min="5" max="5">
+            <description>For Giygas’s forfeit, the fabric of reality starts crumbling in his apparent death spiral.</description>
+        </case>
+        <case name="Giygas’s defeat (3/3)" id="662" priority="Noteworthy" min="6" max="6">
+            <description>Giygas has fizzled away into nothingness. The evil is defeated.</description>
+        </case>
     </noteworthy>
     <responses>
         <response id="125" opponent="nico_robin" opponentId="304" />
+        <response id="643" opponent="caulifla" opponentId="2" />
     </responses>
     <notes>
         <note id="32">A reference to the Sky Yddet and its Final Blow attack from Earthbound Beginnings. Giygas, not fully realizing what an angel is, thinks Pit is like this but for Earthlings. "Gnilhtrae" is Earthling backwards, if you haven't figured that out yet.</note>
@@ -29,6 +42,12 @@
         <note id="169">"Security of the planet" line needs hajime.png once that is available</note>
         <note id="305">The whole sequence will need hajime poses once they're in.</note>
         <note id="306">Let it be known that I, Kiki Retzorg, actually started crying while writing this line.</note>
+        <note id="644">Giygas lives in some timeline of Universe 7, I guess.</note>
+        <note id="574">This line was included with Giygas as he dropped during the 3-day April Fool's event of 2023, which Arle joined the game IMMEDIATELY after.</note>
+        <note id="707">This is just MvC dialogue lol</note>
+        <note id="712">This line isn't meant to stay, it's just here because these two STILL don't have the actual banter leading to this resolution.</note>
+        <note id="713">This line isn't meant to stay, it's just here because these two STILL don't have the actual banter leading to this resolution.</note>
+        <note id="714">Thanks to Kobrad for writing this script.</note>
     </notes>
     <labels>
         <label id="1" label="" folder="Alien presence" sort="0" />
@@ -93,9 +112,9 @@
         <label id="66" label="" folder="Ignored generic cases" sort="33" />
         <label id="67" label="" folder="Ignored generic cases" sort="34" />
         <label id="68" label="Trifle's treats" folder="" sort="0" />
-        <label id="69" label="Trifle's treats" folder="" sort="0" />
-        <label id="70" label="Trifle's treats" folder="" sort="0" />
-        <label id="71" label="Trifle's treats" folder="" sort="0" />
+        <label id="69" label="Trifle's treats" folder="Prayer&gt;!April Fool’s" sort="25" />
+        <label id="70" label="Trifle's treats" folder="Prayer&gt;!April Fool’s" sort="26" />
+        <label id="71" label="Trifle's treats" folder="Prayer&gt;!April Fool’s" sort="27" />
         <label id="72" label="Giygas lines" folder="" sort="0" />
         <label id="73" label="Cogdis" folder="" sort="0" />
         <label id="74" label="2 alt" folder="meglavonia" sort="7" />
@@ -183,7 +202,7 @@
         <label id="163" label="Trolled" folder="" sort="0" />
         <label id="164" label="Trolled" folder="" sort="0" />
         <label id="165" label="Trolled" folder="" sort="0" />
-        <label id="168" label="/Oubtound stage X" folder="hajime" sort="2" />
+        <label id="168" label="/Outbound stage X" folder="hajime" sort="2" />
         <label id="169" label="Ally losing" folder="hajime" sort="5" />
         <label id="170" label="Generic" folder="" sort="0" />
         <label id="172" label="Allies only" folder="" sort="0" />
@@ -226,7 +245,7 @@
         <label id="212" label="" folder="hajime" sort="0" />
         <label id="213" label="" folder="hajime" sort="2" />
         <label id="214" label="" folder="hajime" sort="6" />
-        <label id="215" label="" folder="Oubtound stage 7" sort="0" />
+        <label id="215" label="" folder="Outbound stage 7" sort="3" />
         <label id="216" label="" folder="Outbound stage 5" sort="7" />
         <label id="217" label="" folder="Outbound stage 6" sort="2" />
         <label id="218" label="Joke Forfeit" folder="" sort="0" />
@@ -270,9 +289,426 @@
         <label id="312" label="" folder="Moon+Mom" sort="22" />
         <label id="313" label="" folder="Moon+Mom" sort="26" />
         <label id="314" label="" folder="Moon+Mom" sort="24" />
+        <label id="315" label="" folder="Level-Up&gt;!Slot 1" sort="0" />
+        <label id="316" label="" folder="Level-Up&gt;!Slot 1" sort="2" />
+        <label id="317" label="" folder="Level-Up&gt;!Slot 1" sort="4" />
+        <label id="318" label="" folder="Level-Up&gt;!Slot 1" sort="3" />
+        <label id="319" label="" folder="Level-Up&gt;!Slot 1" sort="38" />
+        <label id="320" label="" folder="Level-Up&gt;!Slot 1" sort="37" />
+        <label id="321" label="" folder="Level-Up&gt;!Slot 1" sort="35" />
+        <label id="322" label="" folder="Level-Up&gt;!Slot 1" sort="36" />
+        <label id="323" label="" folder="Level-Up&gt;!Slot 1" sort="34" />
+        <label id="324" label="" folder="Level-Up&gt;!Slot 1" sort="33" />
+        <label id="325" label="" folder="Level-Up&gt;!Slot 1" sort="32" />
+        <label id="326" label="" folder="Level-Up&gt;!Slot 1" sort="27" />
+        <label id="327" label="" folder="Level-Up&gt;!Slot 1" sort="30" />
+        <label id="328" label="" folder="Level-Up&gt;!Slot 1" sort="23" />
+        <label id="329" label="" folder="Level-Up&gt;!Slot 1" sort="22" />
+        <label id="330" label="" folder="Level-Up&gt;!Slot 1" sort="21" />
+        <label id="331" label="" folder="Level-Up&gt;!Slot 1" sort="31" />
+        <label id="332" label="" folder="Level-Up&gt;!Slot 1" sort="29" />
+        <label id="333" label="" folder="Level-Up&gt;!Slot 1" sort="5" />
+        <label id="334" label="" folder="Level-Up&gt;!Slot 1" sort="6" />
+        <label id="335" label="" folder="Level-Up&gt;!Slot 1" sort="7" />
+        <label id="336" label="" folder="Level-Up&gt;!Slot 1" sort="8" />
+        <label id="337" label="" folder="Level-Up&gt;!Slot 1" sort="10" />
+        <label id="338" label="" folder="Level-Up&gt;!Slot 1" sort="11" />
+        <label id="339" label="" folder="Level-Up&gt;!Slot 1" sort="12" />
+        <label id="340" label="" folder="Level-Up&gt;!Slot 1" sort="15" />
+        <label id="341" label="" folder="Level-Up&gt;!Slot 1" sort="13" />
+        <label id="342" label="" folder="Level-Up&gt;!Slot 1" sort="14" />
+        <label id="343" label="" folder="Level-Up&gt;!Slot 1" sort="16" />
+        <label id="344" label="" folder="Level-Up&gt;!Slot 1" sort="9" />
+        <label id="345" label="" folder="Level-Up&gt;!Slot 1" sort="17" />
+        <label id="346" label="" folder="Level-Up&gt;!Slot 1" sort="18" />
+        <label id="347" label="" folder="Level-Up&gt;!Slot 1" sort="19" />
+        <label id="348" label="" folder="Level-Up&gt;!Slot 1" sort="20" />
+        <label id="349" label="" folder="Level-Up&gt;!Slot 1" sort="24" />
+        <label id="350" label="" folder="Level-Up&gt;!Slot 1" sort="25" />
+        <label id="351" label="" folder="Level-Up&gt;!Slot 1" sort="26" />
+        <label id="352" label="" folder="Level-Up&gt;!Slot 1" sort="28" />
+        <label id="353" label="" folder="Level-Up&gt;!Slot 1" sort="40" />
+        <label id="354" label="" folder="Level-Up&gt;!Slot 1" sort="39" />
+        <label id="355" label="" folder="Level-Up&gt;!Slot 2" sort="0" />
+        <label id="356" label="" folder="Level-Up&gt;!Slot 2" sort="2" />
+        <label id="357" label="" folder="Level-Up&gt;!Slot 2" sort="4" />
+        <label id="358" label="" folder="Level-Up&gt;!Slot 2" sort="3" />
+        <label id="359" label="" folder="Level-Up&gt;!Slot 2" sort="5" />
+        <label id="360" label="" folder="Level-Up&gt;!Slot 2" sort="6" />
+        <label id="361" label="" folder="Level-Up&gt;!Slot 2" sort="7" />
+        <label id="362" label="" folder="Level-Up&gt;!Slot 2" sort="8" />
+        <label id="363" label="" folder="Level-Up&gt;!Slot 2" sort="10" />
+        <label id="364" label="" folder="Level-Up&gt;!Slot 2" sort="11" />
+        <label id="365" label="" folder="Level-Up&gt;!Slot 2" sort="12" />
+        <label id="366" label="" folder="Level-Up&gt;!Slot 2" sort="15" />
+        <label id="367" label="" folder="Level-Up&gt;!Slot 2" sort="13" />
+        <label id="368" label="" folder="Level-Up&gt;!Slot 2" sort="14" />
+        <label id="369" label="" folder="Level-Up&gt;!Slot 2" sort="16" />
+        <label id="370" label="" folder="Level-Up&gt;!Slot 2" sort="9" />
+        <label id="371" label="" folder="Level-Up&gt;!Slot 2" sort="17" />
+        <label id="372" label="" folder="Level-Up&gt;!Slot 2" sort="18" />
+        <label id="373" label="" folder="Level-Up&gt;!Slot 2" sort="19" />
+        <label id="374" label="" folder="Level-Up&gt;!Slot 2" sort="20" />
+        <label id="375" label="" folder="Level-Up&gt;!Slot 2" sort="24" />
+        <label id="376" label="" folder="Level-Up&gt;!Slot 2" sort="25" />
+        <label id="377" label="" folder="Level-Up&gt;!Slot 2" sort="26" />
+        <label id="378" label="" folder="Level-Up&gt;!Slot 2" sort="28" />
+        <label id="379" label="" folder="Level-Up&gt;!Slot 2" sort="29" />
+        <label id="380" label="" folder="Level-Up&gt;!Slot 2" sort="31" />
+        <label id="381" label="" folder="Level-Up&gt;!Slot 2" sort="21" />
+        <label id="382" label="" folder="Level-Up&gt;!Slot 2" sort="22" />
+        <label id="383" label="" folder="Level-Up&gt;!Slot 2" sort="23" />
+        <label id="384" label="" folder="Level-Up&gt;!Slot 2" sort="30" />
+        <label id="385" label="" folder="Level-Up&gt;!Slot 2" sort="27" />
+        <label id="386" label="" folder="Level-Up&gt;!Slot 2" sort="33" />
+        <label id="387" label="" folder="Level-Up&gt;!Slot 2" sort="32" />
+        <label id="388" label="" folder="Level-Up&gt;!Slot 2" sort="34" />
+        <label id="389" label="" folder="Level-Up&gt;!Slot 2" sort="36" />
+        <label id="390" label="" folder="Level-Up&gt;!Slot 2" sort="35" />
+        <label id="391" label="" folder="Level-Up&gt;!Slot 2" sort="37" />
+        <label id="392" label="" folder="Level-Up&gt;!Slot 2" sort="38" />
+        <label id="393" label="" folder="Level-Up&gt;!Slot 2" sort="39" />
+        <label id="394" label="" folder="Level-Up&gt;!Slot 2" sort="41" />
+        <label id="395" label="" folder="Level-Up&gt;!Slot 2" sort="40" />
+        <label id="396" label="" folder="Level-Up&gt;!Slot 3" sort="0" />
+        <label id="397" label="" folder="Level-Up&gt;!Slot 3" sort="2" />
+        <label id="398" label="" folder="Level-Up&gt;!Slot 3" sort="4" />
+        <label id="399" label="" folder="Level-Up&gt;!Slot 3" sort="3" />
+        <label id="400" label="" folder="Level-Up&gt;!Slot 3" sort="5" />
+        <label id="401" label="" folder="Level-Up&gt;!Slot 3" sort="6" />
+        <label id="402" label="" folder="Level-Up&gt;!Slot 3" sort="7" />
+        <label id="403" label="" folder="Level-Up&gt;!Slot 3" sort="8" />
+        <label id="404" label="" folder="Level-Up&gt;!Slot 3" sort="10" />
+        <label id="405" label="" folder="Level-Up&gt;!Slot 3" sort="11" />
+        <label id="406" label="" folder="Level-Up&gt;!Slot 3" sort="12" />
+        <label id="407" label="" folder="Level-Up&gt;!Slot 3" sort="15" />
+        <label id="408" label="" folder="Level-Up&gt;!Slot 3" sort="13" />
+        <label id="409" label="" folder="Level-Up&gt;!Slot 3" sort="14" />
+        <label id="410" label="" folder="Level-Up&gt;!Slot 3" sort="16" />
+        <label id="411" label="" folder="Level-Up&gt;!Slot 3" sort="9" />
+        <label id="412" label="" folder="Level-Up&gt;!Slot 3" sort="17" />
+        <label id="413" label="" folder="Level-Up&gt;!Slot 3" sort="18" />
+        <label id="414" label="" folder="Level-Up&gt;!Slot 3" sort="19" />
+        <label id="415" label="" folder="Level-Up&gt;!Slot 3" sort="20" />
+        <label id="416" label="" folder="Level-Up&gt;!Slot 3" sort="24" />
+        <label id="417" label="" folder="Level-Up&gt;!Slot 3" sort="25" />
+        <label id="418" label="" folder="Level-Up&gt;!Slot 3" sort="26" />
+        <label id="419" label="" folder="Level-Up&gt;!Slot 3" sort="28" />
+        <label id="420" label="" folder="Level-Up&gt;!Slot 3" sort="29" />
+        <label id="421" label="" folder="Level-Up&gt;!Slot 3" sort="31" />
+        <label id="422" label="" folder="Level-Up&gt;!Slot 3" sort="21" />
+        <label id="423" label="" folder="Level-Up&gt;!Slot 3" sort="22" />
+        <label id="424" label="" folder="Level-Up&gt;!Slot 3" sort="23" />
+        <label id="425" label="" folder="Level-Up&gt;!Slot 3" sort="30" />
+        <label id="426" label="" folder="Level-Up&gt;!Slot 3" sort="27" />
+        <label id="427" label="" folder="Level-Up&gt;!Slot 3" sort="33" />
+        <label id="428" label="" folder="Level-Up&gt;!Slot 3" sort="32" />
+        <label id="429" label="" folder="Level-Up&gt;!Slot 3" sort="34" />
+        <label id="430" label="" folder="Level-Up&gt;!Slot 3" sort="36" />
+        <label id="431" label="" folder="Level-Up&gt;!Slot 3" sort="35" />
+        <label id="432" label="" folder="Level-Up&gt;!Slot 3" sort="37" />
+        <label id="433" label="" folder="Level-Up&gt;!Slot 3" sort="38" />
+        <label id="434" label="" folder="Level-Up&gt;!Slot 3" sort="39" />
+        <label id="435" label="" folder="Level-Up&gt;!Slot 3" sort="41" />
+        <label id="436" label="" folder="Level-Up&gt;!Slot 3" sort="40" />
+        <label id="437" label="" folder="Level-Up&gt;!Slot 4" sort="0" />
+        <label id="438" label="" folder="Level-Up&gt;!Slot 4" sort="2" />
+        <label id="439" label="" folder="Level-Up&gt;!Slot 4" sort="4" />
+        <label id="440" label="" folder="Level-Up&gt;!Slot 4" sort="3" />
+        <label id="441" label="" folder="Level-Up&gt;!Slot 4" sort="5" />
+        <label id="442" label="" folder="Level-Up&gt;!Slot 4" sort="6" />
+        <label id="443" label="" folder="Level-Up&gt;!Slot 4" sort="7" />
+        <label id="444" label="" folder="Level-Up&gt;!Slot 4" sort="8" />
+        <label id="445" label="" folder="Level-Up&gt;!Slot 4" sort="10" />
+        <label id="446" label="" folder="Level-Up&gt;!Slot 4" sort="11" />
+        <label id="447" label="" folder="Level-Up&gt;!Slot 4" sort="12" />
+        <label id="448" label="" folder="Level-Up&gt;!Slot 4" sort="15" />
+        <label id="449" label="" folder="Level-Up&gt;!Slot 4" sort="13" />
+        <label id="450" label="" folder="Level-Up&gt;!Slot 4" sort="14" />
+        <label id="451" label="" folder="Level-Up&gt;!Slot 4" sort="16" />
+        <label id="452" label="" folder="Level-Up&gt;!Slot 4" sort="9" />
+        <label id="453" label="" folder="Level-Up&gt;!Slot 4" sort="17" />
+        <label id="454" label="" folder="Level-Up&gt;!Slot 4" sort="18" />
+        <label id="455" label="" folder="Level-Up&gt;!Slot 4" sort="19" />
+        <label id="456" label="" folder="Level-Up&gt;!Slot 4" sort="20" />
+        <label id="457" label="" folder="Level-Up&gt;!Slot 4" sort="24" />
+        <label id="458" label="" folder="Level-Up&gt;!Slot 4" sort="25" />
+        <label id="459" label="" folder="Level-Up&gt;!Slot 4" sort="26" />
+        <label id="460" label="" folder="Level-Up&gt;!Slot 4" sort="28" />
+        <label id="461" label="" folder="Level-Up&gt;!Slot 4" sort="29" />
+        <label id="462" label="" folder="Level-Up&gt;!Slot 4" sort="31" />
+        <label id="463" label="" folder="Level-Up&gt;!Slot 4" sort="21" />
+        <label id="464" label="" folder="Level-Up&gt;!Slot 4" sort="22" />
+        <label id="465" label="" folder="Level-Up&gt;!Slot 4" sort="23" />
+        <label id="466" label="" folder="Level-Up&gt;!Slot 4" sort="30" />
+        <label id="467" label="" folder="Level-Up&gt;!Slot 4" sort="27" />
+        <label id="468" label="" folder="Level-Up&gt;!Slot 4" sort="33" />
+        <label id="469" label="" folder="Level-Up&gt;!Slot 4" sort="32" />
+        <label id="470" label="" folder="Level-Up&gt;!Slot 4" sort="34" />
+        <label id="471" label="" folder="Level-Up&gt;!Slot 4" sort="36" />
+        <label id="472" label="" folder="Level-Up&gt;!Slot 4" sort="35" />
+        <label id="473" label="" folder="Level-Up&gt;!Slot 4" sort="37" />
+        <label id="474" label="" folder="Level-Up&gt;!Slot 4" sort="38" />
+        <label id="475" label="" folder="Level-Up&gt;!Slot 4" sort="39" />
+        <label id="476" label="" folder="Level-Up&gt;!Slot 4" sort="41" />
+        <label id="477" label="" folder="Level-Up&gt;!Slot 4" sort="40" />
+        <label id="478" label="" folder="Level-Up&gt;Player" sort="0" />
+        <label id="479" label="" folder="Level-Up&gt;Player" sort="2" />
+        <label id="480" label="" folder="Level-Up&gt;Player" sort="3" />
+        <label id="481" label="" folder="Level-Up&gt;Player" sort="4" />
+        <label id="482" label="" folder="Level-Up&gt;Player" sort="5" />
+        <label id="483" label="" folder="Level-Up" sort="4" />
+        <label id="484" label="" folder="Level-Up&gt;Player" sort="6" />
+        <label id="485" label="PSI Weakened" folder="Prayer&gt;!!Opponent prays&gt;Cheryl" sort="2" />
+        <label id="486" label="" folder="Prayer&gt;!!Opponent prays&gt;Cheryl" sort="6" />
+        <label id="487" label="PSI Weakened" folder="Prayer&gt;!!Opponent prays&gt;Cheryl" sort="3" />
+        <label id="488" label="" folder="Prayer&gt;!!Opponent prays&gt;Cheryl" sort="7" />
+        <label id="489" label="PSI Weakened" folder="Prayer&gt;!!Opponent prays&gt;Cheryl" sort="4" />
+        <label id="490" label="" folder="Prayer&gt;!!Opponent prays&gt;Cheryl" sort="8" />
+        <label id="491" label="Darkness" folder="Prayer&gt;!!Opponent prays&gt;Cheryl" sort="0" />
+        <label id="492" label="PSI Weakened" folder="Prayer&gt;!!Opponent prays&gt;Cheryl" sort="5" />
+        <label id="493" label="" folder="Prayer&gt;!!Opponent prays&gt;Cheryl" sort="9" />
+        <label id="494" label="PSI weakened" folder="Prayer" sort="4" />
+        <label id="495" label="No scene" folder="Prayer" sort="8" />
+        <label id="496" label="PSI weakened" folder="Prayer" sort="5" />
+        <label id="497" label="No scene" folder="Prayer" sort="9" />
+        <label id="498" label="PSI weakened" folder="Prayer" sort="6" />
+        <label id="499" label="No scene" folder="Prayer" sort="10" />
+        <label id="500" label="Darkness" folder="Prayer" sort="2" />
+        <label id="501" label="Final scene" folder="Prayer" sort="3" />
+        <label id="502" label="PSI weakened" folder="Prayer" sort="7" />
+        <label id="503" label="No scene" folder="Prayer" sort="11" />
+        <label id="504" label="Lucas and co." folder="Prayer&gt;EarthBound" sort="0" />
+        <label id="505" label="Frisk: Inventory" folder="Prayer&gt;Undertale" sort="2" />
+        <label id="506" label="Frisk: other BG" folder="Prayer&gt;Undertale" sort="2" />
+        <label id="507" label="F&amp;F: outdoor" folder="Prayer&gt;Undertale" sort="0" />
+        <label id="508" label="Kris" folder="Prayer&gt;Undertale" sort="4" />
+        <label id="509" label="Old friend" folder="Prayer&gt;Undertale" sort="5" />
+        <label id="510" label="Viewers" folder="Prayer&gt;VA-11 Hall-A" sort="0" />
+        <label id="511" label="Gabriel" folder="Prayer&gt;Miraculous" sort="0" />
+        <label id="512" label="Takumi" folder="Prayer&gt;!April Fool’s" sort="16" />
+        <label id="513" label="Archie" folder="Prayer&gt;Pokémon" sort="3" />
+        <label id="514" label="Ventus" folder="Prayer&gt;!1-Rep Series" sort="15" />
+        <label id="515" label="Mortimer" folder="Prayer&gt;!April Fool’s" sort="12" />
+        <label id="516" label="Edelgard" folder="Prayer&gt;Fire Emblem" sort="0" />
+        <label id="517" label="Iris" folder="Prayer&gt;Pokémon" sort="13" />
+        <label id="518" label="Marth" folder="Prayer&gt;Fire Emblem" sort="8" />
+        <label id="519" label="Kale" folder="Prayer&gt;Dragon Ball" sort="0" />
+        <label id="520" label="Hajime" folder="Prayer&gt;Danganronpa" sort="4" />
+        <label id="521" label="Mondo" folder="Prayer&gt;Danganronpa" sort="0" />
+        <label id="522" label="Hidden Gem" folder="Prayer&gt;!1-Rep Series" sort="0" />
+        <label id="523" label="Derp" folder="Prayer&gt;!April Fool’s" sort="3" />
+        <label id="524" label="Canter Zoom" folder="Prayer&gt;My Little Pony" sort="9" />
+        <label id="525" label="Golden Queen" folder="Prayer&gt;!1-Rep Series" sort="5" />
+        <label id="526" label="David" folder="Prayer&gt;Dead By Daylight" sort="0" />
+        <label id="527" label="Skyla" folder="Prayer&gt;Pokémon" sort="7" />
+        <label id="528" label="Gooseman" folder="Prayer&gt;!April Fool’s" sort="14" />
+        <label id="529" label="Farina" folder="Prayer&gt;Fire Emblem" sort="5" />
+        <label id="530" label="Celestia" folder="Prayer&gt;My Little Pony" sort="7" />
+        <label id="531" label="Gumshoe" folder="Prayer&gt;Ace Attorney" sort="0" />
+        <label id="532" label="Puppeteer" folder="Prayer&gt;!April Fool’s" sort="4" />
+        <label id="533" label="Parents" folder="Prayer&gt;!April Fool’s" sort="10" />
+        <label id="534" label="Little Mac" folder="Prayer&gt;!April Fool’s" sort="13" />
+        <label id="535" label="Mum" folder="Prayer&gt;Pokémon" sort="0" />
+        <label id="536" label="Team Skull" folder="Prayer&gt;Pokémon" sort="12" />
+        <label id="537" label="Looker" folder="Prayer&gt;Pokémon" sort="6" />
+        <label id="538" label="Magno" folder="Prayer&gt;Vandread" sort="2" />
+        <label id="539" label="NNSG, both: Hitoshi" folder="Prayer&gt;!April Fool’s" sort="2" />
+        <label id="540" label="Laegjarn" folder="Prayer&gt;Fire Emblem" sort="9" />
+        <label id="541" label="Eirika" folder="Prayer&gt;Fire Emblem" sort="6" />
+        <label id="542" label="Claude" folder="Prayer&gt;Fire Emblem" sort="3" />
+        <label id="543" label="Hero of Wild: Riju" color="2" folder="Prayer&gt;Legend of Zelda" sort="0" />
+        <label id="544" label="Hero of Wild: Sidon" color="4" folder="Prayer&gt;Legend of Zelda" sort="2" />
+        <label id="545" label="Hero of Wild: Teba" color="3" folder="Prayer&gt;Legend of Zelda" sort="3" />
+        <label id="546" label="Hero of Wild: Yunobo" color="1" folder="Prayer&gt;Legend of Zelda" sort="4" />
+        <label id="547" label="Eliwood" folder="Prayer&gt;Fire Emblem" sort="4" />
+        <label id="548" label="Maxie" folder="Prayer&gt;Pokémon" sort="4" />
+        <label id="549" label="Hiyoko" folder="Prayer&gt;Danganronpa" sort="3" />
+        <label id="550" label="Alya" folder="Prayer&gt;Miraculous" sort="2" />
+        <label id="551" label="Littleroot Town" folder="Prayer&gt;Pokémon" sort="10" />
+        <label id="552" label="N. Brio" folder="Prayer&gt;!April Fool’s" sort="5" />
+        <label id="553" label="Misty" folder="Prayer&gt;Vandread" sort="0" />
+        <label id="554" label="Maya" folder="Prayer&gt;Ace Attorney" sort="2" />
+        <label id="555" label="Shao Kahn" folder="Prayer&gt;!April Fool’s" sort="6" />
+        <label id="556" label="Mr. Peanut" folder="Prayer&gt;!April Fool’s" sort="15" />
+        <label id="557" label="Azama" folder="Prayer&gt;Fire Emblem" sort="7" />
+        <label id="558" label="Kukui" folder="Prayer&gt;Pokémon" sort="11" />
+        <label id="559" label="Mime" folder="Prayer&gt;!April Fool’s" sort="17" />
+        <label id="560" label="Moon, Diamond route: Selene" folder="Prayer&gt;Pokémon" sort="14" />
+        <label id="561" label="Moon: Mitchell" folder="Prayer&gt;Pokémon" sort="17" />
+        <label id="562" label="Gina" folder="Prayer&gt;!April Fool’s" sort="24" />
+        <label id="563" label="Anthea and Concordia" folder="Prayer&gt;Pokémon" sort="8" />
+        <label id="564" label="Grizelda" folder="Prayer&gt;!April Fool’s" sort="7" />
+        <label id="565" label="Deku Tree" folder="Prayer&gt;Legend of Zelda" sort="5" />
+        <label id="566" label="Goddess" folder="Prayer&gt;Legend of Zelda" sort="6" />
+        <label id="567" label="Viridi" folder="Prayer&gt;Kid Icarus" sort="2" />
+        <label id="568" label="Brief" folder="Prayer&gt;Panty &amp; Stocking" sort="0" />
+        <label id="569" label="Dorothea" folder="Prayer&gt;Fire Emblem" sort="2" />
+        <label id="570" label="Cakes" folder="Prayer&gt;My Little Pony" sort="8" />
+        <label id="571" label="Centurions" folder="Prayer&gt;Kid Icarus" sort="0" />
+        <label id="572" label="Applejack" folder="Prayer&gt;My Little Pony" sort="6" />
+        <label id="573" label="Flandre" folder="Prayer&gt;Touhou" sort="0" />
+        <label id="574" label="Ringo: Arle" folder="Prayer&gt;Puyo Puyo" sort="0" />
+        <label id="575" label="Hugh" folder="Prayer&gt;Pokémon" sort="5" />
+        <label id="576" label="Koutarou" folder="Prayer&gt;ZombieLand Saga" sort="0" />
+        <label id="577" label="Spongebob and Patrick" folder="Prayer&gt;!April Fool’s" sort="11" />
+        <label id="578" label="Jaycox" folder="Prayer&gt;!April Fool’s" sort="8" />
+        <label id="579" label="Nightwing" folder="Prayer&gt;Detective Comics" sort="0" />
+        <label id="580" label="Garterbelt" folder="Prayer&gt;Panty &amp; Stocking" sort="2" />
+        <label id="581" label="Amber and Dr. Kelvin" folder="Prayer&gt;!1-Rep Series" sort="3" />
+        <label id="582" label="Twilight: dragon" folder="Prayer&gt;My Little Pony" sort="0" />
+        <label id="583" label="Twilight: Cadence" folder="Prayer&gt;My Little Pony" sort="2" />
+        <label id="584" label="Sci-Twi: Sunset Shimmer" folder="Prayer&gt;My Little Pony" sort="3" />
+        <label id="585" label="Jimmy T." folder="Prayer&gt;!April Fool’s" sort="9" />
+        <label id="586" label="Rowan" folder="Prayer&gt;Pokémon" sort="2" />
+        <label id="587" label="Emporio" folder="Prayer&gt;JoJo’s Bizarre Adventure" sort="2" />
+        <label id="588" label="Holly" folder="Prayer&gt;JoJo’s Bizarre Adventure" sort="0" />
+        <label id="589" label="Makoto" folder="Prayer&gt;Danganronpa" sort="2" />
+        <label id="590" label="Venus" folder="Prayer&gt;HuniePop" sort="0" />
+        <label id="591" label="Quiet trainer" folder="Prayer&gt;Pokémon" sort="9" />
+        <label id="592" label="NNSG, solo: Hitoshi" folder="Prayer&gt;!April Fool’s" sort="0" />
+        <label id="593" label="Rarity: sister" folder="Prayer&gt;My Little Pony" sort="4" />
+        <label id="594" label="Rarity: dogs" folder="Prayer&gt;My Little Pony" sort="5" />
+        <label id="595" label="Noxus" folder="Prayer&gt;!1-Rep Series" sort="2" />
+        <label id="596" label="Balance Boards" folder="Prayer&gt;!1-Rep Series" sort="4" />
+        <label id="597" label="Info-chan" folder="Prayer&gt;!1-Rep Series" sort="7" />
+        <label id="598" label="Kirie" folder="Prayer&gt;!April Fool’s" sort="19" />
+        <label id="599" label="Jelly Jiggler" folder="Prayer&gt;!April Fool’s" sort="18" />
+        <label id="600" label="Bowser Jr." folder="Prayer&gt;!1-Rep Series" sort="6" />
+        <label id="601" label="Volo" folder="Prayer&gt;Pokémon" sort="16" />
+        <label id="602" label="Herp" folder="Prayer&gt;!April Fool’s" sort="20" />
+        <label id="603" label="S. Blanco: Tex" folder="Prayer&gt;Scooby Doo" sort="0" />
+        <label id="604" label="Pygmalion" folder="Prayer&gt;!1-Rep Series" sort="8" />
+        <label id="605" label="Khonjin" folder="Prayer&gt;!April Fool’s" sort="23" />
+        <label id="606" label="Brenty" folder="Prayer&gt;!April Fool’s" sort="21" />
+        <label id="607" label="Morgan" folder="Prayer&gt;Ace Attorney" sort="3" />
+        <label id="608" label="Tiffany" folder="Prayer&gt;HuniePop" sort="2" />
+        <label id="609" label="Shinobu" folder="Prayer&gt;JoJo’s Bizarre Adventure" sort="3" />
+        <label id="610" label="Player" folder="Prayer&gt;!1-Rep Series" sort="9" />
+        <label id="611" label="Futo" folder="Prayer&gt;Touhou" sort="2" />
+        <label id="612" label="Emperor" folder="Prayer&gt;Disney" sort="0" />
+        <label id="613" label="Kaiba" folder="Prayer&gt;Yu-Gi-Oh!" sort="0" />
+        <label id="614" label="Trigon" folder="Prayer&gt;Detective Comics" sort="2" />
+        <label id="615" label="Marisa" folder="Prayer&gt;Touhou" sort="3" />
+        <label id="616" label="Parents" folder="Prayer&gt;ZombieLand Saga" sort="2" />
+        <label id="617" label="Contributor" folder="Prayer&gt;Wikipedia" sort="2" />
+        <label id="618" label="College student" folder="Prayer&gt;Wikipedia" sort="0" />
+        <label id="619" label="Joey" folder="Prayer&gt;Dead By Daylight" sort="2" />
+        <label id="620" label="Donnel" folder="Prayer&gt;Fire Emblem" sort="10" />
+        <label id="621" label="Treats" folder="Prayer&gt;!April Fool’s" sort="22" />
+        <label id="622" label="Mr. Satan" folder="Prayer&gt;Dragon Ball" sort="2" />
+        <label id="623" label="Shuichi" folder="Prayer&gt;Danganronpa" sort="5" />
+        <label id="624" label="Player nudge" folder="Prayer" sort="12" />
+        <label id="625" label="Player prays" folder="Prayer" sort="0" />
+        <label id="626" label="Ibuki" folder="Prayer&gt;Danganronpa" sort="4" />
+        <label id="627" label="" folder="Level-Up&gt;Player" sort="5" />
+        <label id="628" label="" folder="Level-Up" sort="4" />
+        <label id="629" label="Blade" folder="Weapons" sort="0" />
+        <label id="630" label="Blade" folder="Weapons" sort="5" />
+        <label id="631" label="Wand" folder="Weapons" sort="2" />
+        <label id="632" label="Gun" folder="Weapons" sort="3" />
+        <label id="633" label="Gun" folder="Weapons" sort="6" />
+        <label id="634" label="Gun, alien" folder="Weapons" sort="4" />
+        <label id="635" label="Gun, alien" folder="Weapons" sort="7" />
+        <label id="636" label="Footwear" folder="" sort="0" />
+        <label id="637" label="Dumbqua Ou 0-1" folder="Outbound stage 0" sort="3" />
+        <label id="638" label="Dumbqua Ou 0-2" folder="Outbound stage 0" sort="5" />
+        <label id="639" label="Generic" folder="" sort="0" />
+        <label id="640" label="Girlfriend Ou X-1" folder="Outbound stage X" sort="2" />
+        <label id="641" label="Girlfriend Ou X-2" folder="Outbound stage X" sort="3" />
+        <label id="642" label="Blind" folder="" sort="0" />
+        <label id="643" label="Caulifla 1-1" folder="Outbound stage 1" sort="0" />
+        <label id="644" label="Caulifla Ou 0-1" folder="Outbound stage 0" sort="3" />
+        <label id="645" label="Caulifla Ou 1-2" folder="Outbound stage 1" sort="2" />
+        <label id="646" label="1-1%Outbound stage 1" folder="Outbound stage 0" sort="7" />
+        <label id="647" label="1-2%Outbound stage 1" folder="Outbound stage 0" sort="9" />
+        <label id="648" label="Sofia Ou 0-1" folder="Outbound stage 0" sort="4" />
+        <label id="649" label="But nobody came." color="1" folder="Prayer&gt;Undertale" sort="0" />
+        <label id="650" label="" folder="Level-Up&gt;!Slot 1" sort="8" />
+        <label id="651" label="" folder="Level-Up&gt;!Slot 1" sort="33" />
+        <label id="652" label="" folder="Level-Up&gt;!Slot 2" sort="8" />
+        <label id="653" label="" folder="Level-Up&gt;!Slot 2" sort="33" />
+        <label id="654" label="" folder="Level-Up&gt;!Slot 3" sort="8" />
+        <label id="655" label="" folder="Level-Up&gt;!Slot 3" sort="33" />
+        <label id="656" label="" folder="Level-Up&gt;!Slot 4" sort="8" />
+        <label id="657" label="" folder="Level-Up&gt;!Slot 4" sort="23" />
+        <label id="663" label="Kumatora 0-1" folder="Kumatora Outbounds" sort="0" />
+        <label id="664" label="Queenie Ou 0-1" folder="Outbound stage 3" sort="2" />
+        <label id="665" label="Zombies" folder="" sort="0" />
+        <label id="666" label="Zombies" folder="" sort="0" />
+        <label id="667" label="Mulan reveal" folder="Outbound stage 2" sort="0" />
+        <label id="668" label="Mulan revealed" folder="Outbound stage 2" sort="2" />
+        <label id="670" label="" folder="Throwing" sort="2" />
+        <label id="671" label="" folder="Throwing" sort="3" />
+        <label id="672" label="" folder="Throwing" sort="4" />
+        <label id="673" label="" folder="Throwing" sort="5" />
+        <label id="674" label="" folder="Throwing" sort="6" />
+        <label id="675" label="" folder="Throwing" sort="7" />
+        <label id="676" label="" folder="Throwing" sort="8" />
+        <label id="677" label="" folder="Throwing" sort="9" />
+        <label id="678" label="" folder="Throwing" sort="10" />
+        <label id="679" label="" folder="Throwing" sort="12" />
+        <label id="680" label="" folder="Throwing" sort="11" />
+        <label id="681" label="" folder="Throwing" sort="13" />
+        <label id="682" label="" folder="Throwing" sort="0" />
+        <label id="684" label="0-1" folder="Outbound stage 0" sort="10" />
+        <label id="685" label="0-2" folder="Outbound stage 0" sort="15" />
+        <label id="686" label="%Outbound stage 2" folder="Outbound stage 0" sort="5" />
+        <label id="687" label="%Outbound stage 2" folder="Outbound stage 0" sort="11" />
+        <label id="688" label="%Outbound stage 2" folder="Outbound stage 0" sort="16" />
+        <label id="689" label="X-1%Outbound stage X" folder="Outbound stage 0" sort="12" />
+        <label id="690" label="Ageless A" folder="" sort="0" />
+        <label id="691" label="Ageless B" folder="" sort="0" />
+        <label id="692" label="Ageless C" folder="" sort="0" />
+        <label id="693" label="Ageless A2" folder="" sort="0" />
+        <label id="694" label="Ageless A2" folder="" sort="0" />
+        <label id="695" label="" folder="Outbound stage 6" sort="3" />
+        <label id="696" label="" folder="Ignored generic cases" sort="0" />
+        <label id="697" label="Bugstopper" folder="" sort="0" />
+        <label id="698" label="Bugstopper" folder="" sort="0" />
+        <label id="699" label="Bugstopper" folder="" sort="0" />
+        <label id="700" label="Bugstopper" folder="" sort="0" />
+        <label id="701" label="Bugstopper" folder="" sort="0" />
+        <label id="702" label="Straight flush" folder="" sort="0" />
+        <label id="703" label="Straight flush" folder="" sort="0" />
+        <label id="704" label="Straight flush" folder="" sort="0" />
+        <label id="705" label="" folder="Hero Rosa" sort="0" />
+        <label id="706" label="" folder="Hero Rosa" sort="0" />
+        <label id="707" label="" folder="Hero Rosa" sort="0" />
+        <label id="708" label="" folder="Hero Rosa" sort="0" />
+        <label id="709" label="" folder="Hero Rosa" sort="0" />
+        <label id="710" label="" folder="Hero Rosa" sort="0" />
+        <label id="711" label="" folder="Hero Rosa" sort="0" />
+        <label id="714" label="Prayer script" folder="" sort="0" />
+        <label id="715" label="Prayer script" folder="Prayer" sort="0" />
+        <label id="716" label="Prayer script" folder="Prayer" sort="0" />
+        <label id="717" label="Slow down nerd" folder="Prayer" sort="0" />
+        <label id="718" label="Slow down nerd" folder="Prayer" sort="0" />
+        <label id="719" label="Spell ID: plea" folder="Prayer&gt;!!Opponent prays&gt;Mia" sort="0" />
+        <label id="720" label="Spell ID: wish" folder="Prayer&gt;!!Opponent prays&gt;Mia" sort="0" />
+        <label id="721" label="Garet" folder="Prayer&gt;!!Opponent prays&gt;Mia" sort="0" />
+        <label id="722" label="Ivan" folder="Prayer&gt;!!Opponent prays&gt;Mia" sort="0" />
+        <label id="723" label="Apprentices" folder="Prayer&gt;!!Opponent prays&gt;Mia" sort="0" />
+        <label id="724" label="Darkness" folder="Prayer&gt;!!Opponent prays&gt;Mia" sort="0" />
+        <label id="725" label="Isaac" folder="Prayer&gt;!!Opponent prays&gt;Mia" sort="0" />
+        <label id="726" label="Damage 1" folder="Prayer&gt;!!Opponent prays&gt;Mia" sort="0" />
+        <label id="727" label="Damage 2" folder="Prayer&gt;!!Opponent prays&gt;Mia" sort="0" />
+        <label id="728" label="Damage 3" folder="Prayer&gt;!!Opponent prays&gt;Mia" sort="0" />
+        <label id="729" label="Damage 4" folder="Prayer&gt;!!Opponent prays&gt;Mia" sort="0" />
+        <label id="730" label="Green Giant" folder="Prayer&gt;!April Fool’s&gt;Kool-Aid" sort="0" />
+        <label id="731" label="Smol Nozomi" folder="Prayer&gt;!April Fool’s&gt;Kool-Aid" sort="0" />
+        <label id="732" label="Vanessa" folder="Prayer&gt;!April Fool’s&gt;Kool-Aid" sort="0" />
+        <label id="733" label="Donkey" folder="Prayer&gt;!April Fool’s&gt;Kool-Aid" sort="0" />
+        <label id="734" label="Elmer Fudd" folder="Prayer&gt;!April Fool’s&gt;Kool-Aid" sort="0" />
+        <label id="735" label="Nermal" folder="Prayer&gt;!April Fool’s&gt;Kool-Aid" sort="0" />
+        <label id="736" label="Chalmers" folder="Prayer&gt;!April Fool’s&gt;Kool-Aid" sort="0" />
+        <label id="737" label="Dorbees" folder="Prayer&gt;!April Fool’s&gt;Kool-Aid" sort="0" />
+        <label id="738" label="Mole" folder="Prayer&gt;!April Fool’s&gt;Kool-Aid" sort="0" />
+        <label id="739" label="Daughter" folder="Prayer&gt;!April Fool’s&gt;Kool-Aid" sort="0" />
+        <label id="740" label="Fat Controller" folder="Prayer&gt;!April Fool’s&gt;Kool-Aid" sort="0" />
     </labels>
     <prefixes>
-        <prefix>0-giegue</prefix>
+        <prefix>#-giegue</prefix>
         <prefix>1-</prefix>
         <prefix>2-</prefix>
         <prefix>3-</prefix>
@@ -280,9 +716,13 @@
         <prefix>5-</prefix>
         <prefix>6-</prefix>
     </prefixes>
-    <nextId>314</nextId>
+    <nextId>740</nextId>
     <markers>
         <marker scope="Public" name="" />
+        <marker scope="Public" name="+TO_rosaHero_galactus" />
+        <marker scope="Public" name="aaravi_intro" />
+        <marker scope="Public" name="aaravi_intro_group" />
+        <marker scope="Public" name="aaravi_intro_solo" />
         <marker scope="Public" name="D">Dialogue, in stage 0.</marker>
         <marker scope="Public" name="D_10thInning" />
         <marker scope="Public" name="D_animalPleasure" />
@@ -331,9 +771,11 @@
         <marker scope="Public" name="D_prepareToBeAmazed" />
         <marker scope="Public" name="D_reflectAndStrip" />
         <marker scope="Public" name="D_showdown" />
-        <marker scope="Public" name="D_speechCheckCritFail" />
+        <marker scope="Public" name="D_speechCheckCritFail">Remnants of a writer in the jaws of the end-of-March time crunch.</marker>
+        <marker scope="Public" name="D_stinks" />
         <marker scope="Public" name="D_tearlessRetina" />
         <marker scope="Public" name="D_telepathicInstantRegret" />
+        <marker scope="Public" name="D_traitor" />
         <marker scope="Public" name="D_treacheryOfEarth" />
         <marker scope="Public" name="D_trolledA">Swapping cards.</marker>
         <marker scope="Public" name="D_trolledB">Hand=any.</marker>
@@ -342,6 +784,7 @@
         <marker scope="Public" name="D_yourName" />
         <marker scope="Public" name="D_yourPSIstinks" />
         <marker scope="Public" name="D_yourPSIstinksAndIsStolen" />
+        <marker scope="Public" name="E">Ending (game over) lines.</marker>
         <marker scope="Public" name="E_1ally" />
         <marker scope="Public" name="E_1earthling" />
         <marker scope="Public" name="E_1enemy" />
@@ -359,16 +802,15 @@
         <marker scope="Public" name="E_mixed" />
         <marker scope="Public" name="E_salvation" />
         <marker scope="Public" name="E_scapegoat" />
-        <marker scope="Public" name="E_theGoodEnding" />
+        <marker scope="Public" name="E_theGoodEnding">There's no crying until the end, and the end is here.</marker>
         <marker scope="Public" name="E_tldr" />
         <marker scope="Public" name="E_tryAgain" />
         <marker scope="Public" name="E_war" />
         <marker scope="Public" name="E_wontDieAlone" />
         <marker scope="Public" name="F">Filtered lines, dependent on opponent tags and such.</marker>
-        <marker scope="Public" name="F_" />
         <marker scope="Public" name="F_???" />
         <marker scope="Public" name="F_0ppGlasses" />
-        <marker scope="Public" name="F_a" />
+        <marker scope="Public" name="F_agelessPSI" />
         <marker scope="Public" name="F_ALLCAPS">Even with a few years, GIYGAS couldn’t convince the average bugaboo.</marker>
         <marker scope="Public" name="F_alliesOnly_alreadyDone" />
         <marker scope="Public" name="F_alliesOnly_dressUp" />
@@ -378,6 +820,7 @@
         <marker scope="Public" name="F_alliesOnly_thanks" />
         <marker scope="Public" name="F_alliesOnly_weather" />
         <marker scope="Public" name="F_alliesOnly_weekend" />
+        <marker scope="Public" name="F_anthrax">A name one shouldn't be caught dead going by.</marker>
         <marker scope="Public" name="F_armorStrip" />
         <marker scope="Public" name="F_armorStrip_ally" />
         <marker scope="Public" name="F_armorStrip_ally2" />
@@ -385,8 +828,11 @@
         <marker scope="Public" name="F_averageHumanMother" />
         <marker scope="Public" name="F_bailout" />
         <marker scope="Public" name="F_beatMeWithPity" />
-        <marker scope="Public" name="F_blunt4k" />
+        <marker scope="Public" name="F_blade" />
+        <marker scope="Public" name="F_blunt4k">Get money make money year 2000</marker>
         <marker scope="Public" name="F_boorishBanal" />
+        <marker scope="Public" name="F_borrowMeEyes" />
+        <marker scope="Public" name="F_centuriesOfWisdom" />
         <marker scope="Public" name="F_checkmateDa" />
         <marker scope="Public" name="F_cornDogs" />
         <marker scope="Public" name="F_courtship" />
@@ -397,9 +843,13 @@
         <marker scope="Public" name="F_glassesStrip" />
         <marker scope="Public" name="F_glassesStrip_ally" />
         <marker scope="Public" name="F_gumshoe" />
+        <marker scope="Public" name="F_gun" />
+        <marker scope="Public" name="F_gun_alien" />
+        <marker scope="Public" name="F_gun_earthling" />
         <marker scope="Public" name="F_hahaGuysYouGotMeUnzipsTrueForm" />
         <marker scope="Public" name="F_hatStrip" />
         <marker scope="Public" name="F_helmetStrip" />
+        <marker scope="Public" name="F_honorAndShame" />
         <marker scope="Public" name="F_itchyTasty" />
         <marker scope="Public" name="F_lostAlly" />
         <marker scope="Public" name="F_mouthwash" />
@@ -411,11 +861,14 @@
         <marker scope="Public" name="F_selfishDesires" />
         <marker scope="Public" name="F_shameAndPity" />
         <marker scope="Public" name="F_stolenPSI" />
+        <marker scope="Public" name="F_straightFlush" />
         <marker scope="Public" name="F_thorns" />
         <marker scope="Public" name="F_tldr" />
         <marker scope="Public" name="F_twoBacks" />
+        <marker scope="Public" name="F_underfoot" />
         <marker scope="Public" name="F_underwear" />
         <marker scope="Public" name="F_underwear_insects" />
+        <marker scope="Public" name="F_wand" />
         <marker scope="Public" name="F_youMustBeSoEmbarrassed" />
         <marker scope="Public" name="F_yourPSIstinks" />
         <marker scope="Public" name="F_yourPSIstinksAndIsStolen" />
@@ -436,17 +889,22 @@
         <marker scope="Public" name="G_rosiePalms" />
         <marker scope="Public" name="G_rottenNothing" />
         <marker scope="Public" name="G_smell" />
+        <marker scope="Public" name="G_surname" />
         <marker scope="Public" name="G_tasty" />
         <marker scope="Public" name="G_thieves" />
         <marker scope="Public" name="I">Introduction lines as or before the game starts.</marker>
         <marker scope="Public" name="I_applechaser" />
         <marker scope="Public" name="I_applechasers" />
+        <marker scope="Public" name="I_cancelTrip" />
         <marker scope="Public" name="I_curtain" />
         <marker scope="Public" name="I_destroyer" />
         <marker scope="Public" name="I_ender" />
         <marker scope="Public" name="I_generic" />
+        <marker scope="Public" name="I_megaloStrikeBack" />
+        <marker scope="Public" name="I_psi" />
         <marker scope="Public" name="I_stole" />
         <marker scope="Public" name="I_stoleSomething" />
+        <marker scope="Public" name="I_thenPerish" />
         <marker scope="Public" name="I_varik" />
         <marker scope="Public" name="L">Level-up markers, for stage 6.</marker>
         <marker scope="Public" name="L_end" />
@@ -456,6 +914,7 @@
         <marker scope="Public" name="L_lockStat1" />
         <marker scope="Public" name="L_lockStat2" />
         <marker scope="Public" name="L_lockStats" />
+        <marker scope="Public" name="L_spawnPresent" />
         <marker scope="Public" name="L_stat1Lock" />
         <marker scope="Public" name="L_stat2Lock" />
         <marker scope="Public" name="L1">Level-up markers for opponent in slot 1.</marker>
@@ -491,21 +950,22 @@
         <marker scope="Public" name="LP_genericSweetCheck" />
         <marker scope="Public" name="LP_level" />
         <marker scope="Public" name="LP_power" />
+        <marker scope="Public" name="LP_present" />
         <marker scope="Public" name="LP_stats1" />
         <marker scope="Public" name="LP_stats2" />
-        <marker scope="Public" name="LV">Level-up Variables, for use in-dialogue in stage 6.</marker>
-        <marker scope="Public" name="LV_stat" />
-        <marker scope="Public" name="LV_stat1" />
-        <marker scope="Public" name="LV_stat2" />
-        <marker scope="Public" name="LV_stat3" />
-        <marker scope="Public" name="LV_sweet">Oh, baby! Sweet! That rocks!</marker>
-        <marker scope="Public" name="LVK">Level-up Variable Keys; randomly-generated numbers used to assign strings at random for certain LV markers.</marker>
-        <marker scope="Public" name="LVK_stat1" />
-        <marker scope="Public" name="LVK_stat2" />
-        <marker scope="Public" name="LVK_stat3" />
-        <marker scope="Public" name="LVK_sweet" />
+        <marker scope="Private" name="LV">Level-up Variables, for use in-dialogue in stage 6.</marker>
+        <marker scope="Private" name="LV_stat" />
+        <marker scope="Private" name="LV_stat1" />
+        <marker scope="Private" name="LV_stat2" />
+        <marker scope="Private" name="LV_stat3" />
+        <marker scope="Private" name="LV_sweet">Oh, baby! Sweet! That rocks!</marker>
+        <marker scope="Private" name="LVK">Level-up Variable Keys; randomly-generated numbers used to assign strings at random for certain LV markers.</marker>
+        <marker scope="Private" name="LVK_stat1" />
+        <marker scope="Private" name="LVK_stat2" />
+        <marker scope="Private" name="LVK_stat3" />
+        <marker scope="Private" name="LVK_sweet" />
+        <marker scope="Public" name="monika_effects_opt_out" />
         <marker scope="Public" name="P">Prayer scene targets.</marker>
-        <marker scope="Public" name="P_" />
         <marker scope="Public" name="P_adrien" />
         <marker scope="Public" name="P_ae86" />
         <marker scope="Public" name="P_ag" />
@@ -520,6 +980,7 @@
         <marker scope="Public" name="P_catria" />
         <marker scope="Public" name="P_caulifla" />
         <marker scope="Public" name="P_cd" />
+        <marker scope="Public" name="P_chara">But nobody came.</marker>
         <marker scope="Public" name="P_chiaki" />
         <marker scope="Public" name="P_chihiro" />
         <marker scope="Public" name="P_cynthia" />
@@ -554,6 +1015,18 @@
         <marker scope="Public" name="P_kirigiri" />
         <marker scope="Public" name="P_kizuna" />
         <marker scope="Public" name="P_kokichi" />
+        <marker scope="Public" name="P_koolAid" />
+        <marker scope="Public" name="P_koolAid_barry" />
+        <marker scope="Public" name="P_koolAid_chungus" />
+        <marker scope="Public" name="P_koolAid_dorbees" />
+        <marker scope="Public" name="P_koolAid_garf" />
+        <marker scope="Public" name="P_koolAid_glob" />
+        <marker scope="Public" name="P_koolAid_grand" />
+        <marker scope="Public" name="P_koolAid_krabs" />
+        <marker scope="Public" name="P_koolAid_man" />
+        <marker scope="Public" name="P_koolAid_shrek" />
+        <marker scope="Public" name="P_koolAid_skinner" />
+        <marker scope="Public" name="P_koolAid_thomas" />
         <marker scope="Public" name="P_kumatora" />
         <marker scope="Public" name="P_kyu" />
         <marker scope="Public" name="P_laevatein" />
@@ -571,6 +1044,13 @@
         <marker scope="Public" name="P_megamix" />
         <marker scope="Public" name="P_meia" />
         <marker scope="Public" name="P_mg" />
+        <marker scope="Public" name="P_mia" />
+        <marker scope="Public" name="P_mia_apprentices" />
+        <marker scope="Public" name="P_mia_darkness" />
+        <marker scope="Public" name="P_mia_garet" />
+        <marker scope="Public" name="P_mia_isaac" />
+        <marker scope="Public" name="P_mia_ivan" />
+        <marker scope="Public" name="P_miaFey" />
         <marker scope="Public" name="P_mikan" />
         <marker scope="Public" name="P_miko" />
         <marker scope="Public" name="P_mileena" />
@@ -645,20 +1125,49 @@
         <marker scope="Public" name="PG_s4" />
         <marker scope="Public" name="PG_scenes" />
         <marker scope="Public" name="PG_tries" />
+        <marker scope="Public" name="rosa_badguy" />
+        <marker scope="Public" name="rosa_gonnahappen" />
+        <marker scope="Public" name="rosa_yuhhuh" />
         <marker scope="Public" name="T">Targeted lines (other than prayer scenes).</marker>
+        <marker scope="Public" name="T_aoi_lol" />
         <marker scope="Public" name="T_cheryl_pDarkness" />
         <marker scope="Public" name="T_cheryl_pReady" />
         <marker scope="Public" name="T_cheryl_pS1" />
         <marker scope="Public" name="T_cheryl_pS2" />
         <marker scope="Public" name="T_cheryl_pS3" />
         <marker scope="Public" name="T_cheryl_pS4" />
+        <marker scope="Public" name="T_hina_lol" />
+        <marker scope="Public" name="T_mia_pCut" />
+        <marker scope="Public" name="T_mia_pReady" />
+        <marker scope="Public" name="T_mia_pS1" />
+        <marker scope="Public" name="T_mia_pS2" />
+        <marker scope="Public" name="T_mia_pS3" />
+        <marker scope="Public" name="T_mia_pS4" />
+        <marker scope="Public" name="T_piper_jealous" />
+        <marker scope="Public" name="T_zlsZombies1" />
         <marker scope="Public" name="TI">Targets that are Inbound, responding to targeted lines from opponents.</marker>
+        <marker scope="Public" name="TI_e102_eve" />
+        <marker scope="Public" name="TI_kumatora_awkward" />
+        <marker scope="Public" name="TI_kumatora_dread" />
+        <marker scope="Public" name="TI_kumatora_greet" />
+        <marker scope="Public" name="TI_kumatora_greet2" />
+        <marker scope="Public" name="TI_kumatora_intoDark" />
+        <marker scope="Public" name="TI_kumatora_oinkOinkOink1" />
+        <marker scope="Public" name="TI_kumatora_oinkOinkOink2" />
+        <marker scope="Public" name="TI_kumatora_prepare" />
+        <marker scope="Public" name="TI_kumatora_regret" />
         <marker scope="Public" name="TI_revy_tits" />
         <marker scope="Public" name="TI_revy_tits2" />
         <marker scope="Public" name="TI_revy_whore" />
         <marker scope="Public" name="TI_revy_whore2" />
+        <marker scope="Public" name="TI_scm_brave" />
         <marker scope="Public" name="TO">Targets that are Outbound, as part of the initiating side of an interaction.</marker>
         <marker scope="Public" name="TO_" />
+        <marker scope="Public" name="TO_aaravi_attack" />
+        <marker scope="Public" name="TO_aquaKS_mindRead" />
+        <marker scope="Public" name="TO_aquaKS_PSI" />
+        <marker scope="Public" name="TO_arleRingo_fierceGals1" />
+        <marker scope="Public" name="TO_arleRingo_fierceGals2" />
         <marker scope="Public" name="TO_azami_collapse" />
         <marker scope="Public" name="TO_azami_critical" />
         <marker scope="Public" name="TO_azami_goDie" />
@@ -672,15 +1181,35 @@
         <marker scope="Public" name="TO_car_spaceBoy1" />
         <marker scope="Public" name="TO_car_spaceBoy2" />
         <marker scope="Public" name="TO_car_strip0" />
+        <marker scope="Public" name="TO_caulifla_frieza" />
+        <marker scope="Public" name="TO_caulifla_ssj" />
+        <marker scope="Public" name="TO_caulifla_ssjBreather" />
+        <marker scope="Public" name="TO_caulifla_transformation" />
         <marker scope="Public" name="TO_chihiro_alterEgo" />
         <marker scope="Public" name="TO_chihiro_retreat" />
         <marker scope="Public" name="TO_chihiro_reveal" />
+        <marker scope="Public" name="TO_e102_tragic" />
         <marker scope="Public" name="TO_frisk_select" />
         <marker scope="Public" name="TO_ganyu_sleepForever" />
+        <marker scope="Public" name="TO_gf_guns" />
+        <marker scope="Public" name="TO_gf_guts" />
+        <marker scope="Public" name="TO_jotaro3_01" />
+        <marker scope="Public" name="TO_jotaro3_21" />
+        <marker scope="Public" name="TO_jotaro3_22" />
+        <marker scope="Public" name="TO_jotaro3_hinjaku" />
+        <marker scope="Public" name="TO_jotaro3_muda" />
+        <marker scope="Public" name="TO_jotaro3_noGood" />
+        <marker scope="Public" name="TO_jotaro3_noroi" />
+        <marker scope="Public" name="TO_jotaro3_timeStop1" />
+        <marker scope="Public" name="TO_jotaro3_timeStop2" />
+        <marker scope="Public" name="TO_jotaro3_transformation" />
+        <marker scope="Public" name="TO_kumatora_heartbeat" />
         <marker scope="Public" name="TO_kumatora_nickname" />
+        <marker scope="Public" name="TO_kumatora_troublemaker" />
         <marker scope="Public" name="TO_maria_MARIA" />
         <marker scope="Public" name="TO_megamix_collapse" />
         <marker scope="Public" name="TO_megamix_critical" />
+        <marker scope="Public" name="TO_mg_slugma" />
         <marker scope="Public" name="TO_mom_start" />
         <marker scope="Public" name="TO_moonMom_cantDoThis" />
         <marker scope="Public" name="TO_moonMom_end" />
@@ -697,6 +1226,8 @@
         <marker scope="Public" name="TO_moonMom_transformation1" />
         <marker scope="Public" name="TO_moonMom_transformation2" />
         <marker scope="Public" name="TO_moonMom_yagh" />
+        <marker scope="Public" name="TO_mulan_soldier1" />
+        <marker scope="Public" name="TO_mulan_soldier2" />
         <marker scope="Public" name="TO_nicoRobin_momJeans" />
         <marker scope="Public" name="TO_papyrus_starmor" />
         <marker scope="Public" name="TO_pit_finished" />
@@ -709,15 +1240,36 @@
         <marker scope="Public" name="TO_queenie_transformation" />
         <marker scope="Public" name="TO_queenie_transformation1" />
         <marker scope="Public" name="TO_queenie_transformation2" />
+        <marker scope="Public" name="TO_queenie_whatsLove" />
+        <marker scope="Public" name="TO_roll_hat" />
+        <marker scope="Public" name="TO_rosaHero_badguy" />
+        <marker scope="Public" name="TO_rosaHero_dormammu" />
+        <marker scope="Public" name="TO_rosaHero_galactus" />
+        <marker scope="Public" name="TO_rosaHero_galactus1" />
+        <marker scope="Public" name="TO_rosaHero_galactus2" />
+        <marker scope="Public" name="TO_rosaHero_galactus3" />
+        <marker scope="Public" name="TO_rosaHero_galactus4" />
+        <marker scope="Public" name="TO_rosaHero_galactus5" />
+        <marker scope="Public" name="TO_rosaHero_galactusJKThisOneIsThanos" />
+        <marker scope="Public" name="TO_rosaHero_gonnahappen" />
+        <marker scope="Public" name="TO_rosaHero_howDareYou" />
+        <marker scope="Public" name="TO_rosaHero_thanos" />
+        <marker scope="Public" name="TO_rosaHero_ucd" />
+        <marker scope="Public" name="TO_rosaHero_ultron" />
+        <marker scope="Public" name="TO_rosaHero_yuhhuh" />
         <marker scope="Public" name="TO_samus_intro" />
         <marker scope="Public" name="TO_samus_select" />
         <marker scope="Public" name="TO_sans_finish" />
+        <marker scope="Public" name="TO_sofia_lies" />
         <marker scope="Public" name="TO_tess_FutaGiygas" />
         <marker scope="Public" name="TO_tess_PKFuta" />
         <marker scope="Public" name="TO_tick_headfirst" />
         <marker scope="Public" name="TO_toru_brainwaves" />
         <marker scope="Public" name="TO_toshinou_guessYouDie" />
         <marker scope="Public" name="TO_tsunderplane_boom" />
+        <marker scope="Public" name="TO_vegeta_intro" />
+        <marker scope="Public" name="TO_vegeta_intro1" />
+        <marker scope="Public" name="TO_vegeta_intro2" />
         <marker scope="Public" name="TO_wario_intro" />
         <marker scope="Public" name="TO_wario_notGrateful" />
         <marker scope="Public" name="TO_wario_select" />
@@ -726,20 +1278,39 @@
         <marker scope="Public" name="TO_wario_whyYouSuck1" />
         <marker scope="Public" name="TO_wario_whyYouSuck2" />
         <marker scope="Public" name="TO_wario_whyYouSuck3" />
+        <marker scope="Public" name="TO_yaeMiko_made" />
         <marker scope="Public" name="TO_yuno_madwoman" />
         <marker scope="Public" name="TO_yuno_nicole" />
-        <marker scope="Public" name="TV">Target Variables, for use in-dialogue.</marker>
-        <marker scope="Public" name="TV_playername">Player name before nicknames.</marker>
-        <marker scope="Public" name="TV_tess_futa" />
-        <marker scope="Public" name="TV_trifle_treats" />
-        <marker scope="Public" name="TVK">Target Variable Keys; randomly-generated numbers used to assign strings at random for certain TV markers.</marker>
-        <marker scope="Public" name="TVK_trifle_treats" />
+        <marker scope="Public" name="TO_yuno_playerNamedNicole" />
+        <marker scope="Public" name="TO_zlsZombies1" />
+        <marker scope="Public" name="TO_zlsZombies2" />
+        <marker scope="Private" name="TV">Target Variables, for use in-dialogue.</marker>
+        <marker scope="Public" name="TV_mia_spell" />
+        <marker scope="Private" name="TV_playername">Player name before nicknames.</marker>
+        <marker scope="Private" name="TV_tess_futa" />
+        <marker scope="Private" name="TV_trifle_treats" />
+        <marker scope="Private" name="TVK">Target Variable Keys; randomly-generated numbers used to assign strings at random for certain TV markers.</marker>
+        <marker scope="Public" name="tvk_trifle_treats" />
+        <marker scope="Private" name="TVK_trifle_treats" />
         <marker scope="Public" name="TX_mom" />
         <marker scope="Public" name="X">Xtra-special markers, performing all-game functions.</marker>
         <marker scope="Public" name="X_alienPresence" />
         <marker scope="Public" name="X_alliesOnly" />
         <marker scope="Public" name="X_badHandCount" />
+        <marker scope="Public" name="X_crying" />
         <marker scope="Public" name="X_earthlingAbsence" />
+        <marker scope="Public" name="X_frozen" />
         <marker scope="Private" name="X_slot" />
+        <marker scope="Public" name="yaeMiko_made" />
     </markers>
+    <pendingLines>
+        <line>five decades, faced "gods", aqua</line>
+        <line>god's not here today, aqua</line>
+        <line>SHAMIKO: (I wonder if anyone here has a mind reading power. Hey! Blink twice if you’re hearing this.)</line>
+        <line>LOTTE: Sorry. I’m going to sing a little bit. I-It allows me to communicate with the spirits in objects.</line>
+        <line>You…know Porky Minch. Our relation is closer than we thought…</line>
+        <line>Who do you think Porky got his troops from? His toys? Who do you think fostered his cruelty, played to his cowardice?</line>
+        <line>Ha! Ath-Yolazsth’s hunger is but a murmur next to the might of our PSI! It’s already over for you, Earthling!</line>
+        <line>Zhectast… Compared to me, Zhectast is a puppy! Watch, Earthling! It’s already over for you and your world!</line>
+    </pendingLines>
 </metadata>
