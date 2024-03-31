@@ -350,7 +350,7 @@
             </case>
             <case stage="0-7">
                 <condition role="target" character="palutena" />
-                <state img="#-thinking.png">It makes sense for an angel to have so much ornamentation, given how humans make up stories to feel like part of something bigger....</state>
+                <state img="#-thinking.png" dialogue-layer="over">It makes sense for an angel to have so much ornamentation, given how humans make up stories to feel like part of something bigger....</state>
                 <state img="#-concerned.png">My opponent removing her outermost layer? It seems almost inconsequential!</state>
                 <state img="#-disgusted.png">At least I have the excuse of this all being part of my physical form. What you're doing feels like cheating.</state>
             </case>

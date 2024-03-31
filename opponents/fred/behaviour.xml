@@ -65,7 +65,7 @@
             <case stage="0-5">
                 <state img="#-calm.png">There's no point in bluffing against me. It's not like I even know what I'm doing.</state>
                 <state img="#-calm.png">Danger is my middle name. Fred Herman Danger Jones.</state>
-                <state img="#-calm.png">It sure would help help if we could find another clue.</state>
+                <state img="#-calm.png">It sure would help if we could find another clue.</state>
                 <state img="#-calm.png">These cards sure are something. I just don't know what they are.</state>
             </case>
             <case stage="6">

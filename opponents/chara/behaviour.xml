@@ -1476,7 +1476,7 @@
 
         <trigger id="must_masturbate">
             <case stage="7">
-                <state img="#-loss.png">alright, I must own up to the consequences.</state>
+                <state img="#-loss.png">Alright, I must own up to the consequences.</state>
                 <state img="#-loss.png">You all better enjoy this. I'll kill you all for this.</state>
             </case>
         </trigger>

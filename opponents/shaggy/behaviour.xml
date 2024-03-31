@@ -393,7 +393,7 @@
 
         <trigger id="male_start_masturbating">
             <case stage="0-8">
-                <state img="#-disinterested.png">Okay. Let's get keep this game moving.</state>
+                <state img="#-disinterested.png">Okay. Let's keep this game moving.</state>
             </case>
         </trigger>
 
