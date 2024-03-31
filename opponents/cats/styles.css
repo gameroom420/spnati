@@ -1,0 +1,4 @@
+.dialogue .transmission[data-character="cats"] {
+  /*makes his text even smaller, used for forfeit*/
+  font-size: 60%;
+}

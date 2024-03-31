@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<opponent>
+    <lastupdate>1711913611116</lastupdate>
+    <enabled>false</enabled>
+    <first>CATS</first>
+    <last />
+    <label>CATS</label>
+    <pic>0-idle.png</pic>
+    <gender>male</gender>
+    <from>Zero Wing</from>
+    <writer>Endymio</writer>
+    <artist>Bluejae</artist>
+    <description>MESSAGE FROM FEDERATION COMMAND TO PILOT OF 'ZIG-01': CATS HAS RETURN TO SYSTEM. ALL FEDERATION BASE ARE LOST. YOU ARE OUR ONLY HOPE. DISTRACT IN GAME OF POKER TO OVERLOAD SYSTEM. FOR GREAT JUSTICE!</description>
+    <layers>7</layers>
+    <lines>144</lines>
+    <poses>66</poses>
+    <z-index>-69</z-index>
+</opponent>

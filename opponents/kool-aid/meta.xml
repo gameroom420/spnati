@@ -3,14 +3,14 @@
     <lastupdate>1648762900115</lastupdate>
     <enabled>false</enabled>
     <first>kool-aid</first>
-    <last>Character</last>
+    <last />
     <label>kool-aid</label>
     <pic>koolaid.png</pic>
     <gender>male</gender>
     <height>Various</height>
     <from>Sin</from>
     <writer>Superfluous</writer>
-    <artist>Superfluous</artist>
+    <artist>Superfluous, TheKoolest</artist>
     <description />
     <layers>8</layers>
     <alternates>

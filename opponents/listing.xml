@@ -380,56 +380,60 @@
 		<opponent addedDate="2017-03-03" release="63" status="incomplete">zelda</opponent>
 		<opponent addedDate="2017-07-30" release="84" status="incomplete">zizou</opponent>
 		<opponent addedDate="2015-06-30" release="2" status="incomplete">zoey</opponent>
-		<opponent addedDate="2023-04-01" status="event">giygas</opponent>
-		<opponent addedDate="2023-04-01" status="event">kekko_kamen</opponent>
-		<opponent addedDate="2023-04-01" status="event">toru_hagakure</opponent>
-		<opponent addedDate="2022-04-01" status="event">bella_goth</opponent>
-		<opponent addedDate="2022-04-01" status="event">derpette</opponent>
-		<opponent addedDate="2021-04-01" status="event">derpina</opponent>
-		<opponent addedDate="2022-04-01" status="event">dreamcatcher</opponent>
-		<opponent addedDate="2022-04-01" status="event">fernando</opponent>
-		<opponent addedDate="2022-04-01" status="event">frisk_and_friends</opponent>
-		<opponent addedDate="2022-04-01" status="event">gruntilda</opponent>
-		<opponent addedDate="2022-04-01" status="event">natasha</opponent>
-		<opponent addedDate="2022-04-01" status="event">sandy_cheeks</opponent>
-		<opponent addedDate="2022-04-01" status="event">sannytess</opponent>
-		<opponent addedDate="2022-04-05" status="event">trifle</opponent>
-		<opponent addedDate="2022-04-01" status="event">wario</opponent>
-		<opponent addedDate="2021-08-21" status="event">rogue_x-men</opponent>
-		<opponent addedDate="2021-04-01" status="event">constanze</opponent>
-		<opponent addedDate="2021-04-01" status="event">girlfriend</opponent>
-		<opponent addedDate="2021-04-01" status="event">koneko-chan</opponent>
-		<opponent addedDate="2021-04-01" status="event">megamix</opponent>
-		<opponent addedDate="2021-04-01" status="event">mom_alola</opponent>
-		<opponent addedDate="2021-04-01" status="event">ninetales</opponent>
-		<opponent addedDate="2021-04-01" status="event">pot_of_greed</opponent>
-		<opponent addedDate="2021-04-01" status="event">raku-chan</opponent>
-		<opponent addedDate="2021-04-01" status="event">sans</opponent>
-		<opponent addedDate="2021-04-01" status="event">sex_toilet</opponent>
-		<opponent addedDate="2021-04-01" status="event">taiyaki_girl</opponent>
-		<opponent addedDate="2021-04-01" status="event">tick</opponent>
-		<opponent addedDate="2020-04-01" status="event">astolfo_bean_plushie</opponent>
-		<opponent addedDate="2020-04-01" status="event">azami</opponent>
-		<opponent addedDate="2020-04-01" status="event">freddie</opponent>
-		<opponent addedDate="2020-04-01" status="event">glass_joe</opponent>
-		<opponent addedDate="2020-04-01" status="event">gray</opponent>
-		<opponent addedDate="2020-04-01" status="event">monique</opponent>
-		<opponent addedDate="2020-04-01" status="event">nami_szs</opponent>
-		<opponent addedDate="2020-04-01" status="event">scm</opponent>
-		<opponent addedDate="2020-04-01" status="event">yukari</opponent>
-		<opponent addedDate="2020-04-01" status="event">zenobia</opponent>
-		<opponent addedDate="2019-04-01" status="event">ae86</opponent>
-		<opponent addedDate="2019-04-01" status="event">default-chan</opponent>
-		<opponent addedDate="2019-04-01" status="event">derpy_hooves</opponent>
-		<opponent addedDate="2019-04-01" status="event">mister_clean</opponent>
-		<opponent addedDate="2019-04-01" status="event">shou_tucker</opponent>
-		<opponent addedDate="2018-04-01" status="event">el_shaggy_blanco</opponent>
-		<opponent addedDate="2018-04-01" status="event">kool-aid</opponent>
-		<opponent addedDate="2018-04-26" release="110" status="event">felicia</opponent>
-		<opponent addedDate="2016-10-16" release="23" status="event">mileena</opponent>
-		<opponent addedDate="2017-08-31" release="124" status="event">kira</opponent>
-		<opponent addedDate="2016-10-26" release="26" status="event">link</opponent>
-		<opponent addedDate="2017-06-07" release="75" status="event">gay_spaghetti_chef</opponent>
+		<opponent addedDate="2024-04-01">cats</opponent>
+		<opponent addedDate="2024-04-01">helper-chan</opponent>
+		<opponent addedDate="2024-04-01">hot_spring_woman</opponent>
+		<opponent addedDate="2024-04-01">tae</opponent>
+		<opponent addedDate="2023-04-01">giygas</opponent>
+		<opponent addedDate="2023-04-01">kekko_kamen</opponent>
+		<opponent addedDate="2023-04-01">toru_hagakure</opponent>
+		<opponent addedDate="2022-04-01">bella_goth</opponent>
+		<opponent addedDate="2022-04-01">derpette</opponent>
+		<opponent addedDate="2021-04-01">derpina</opponent>
+		<opponent addedDate="2022-04-01">dreamcatcher</opponent>
+		<opponent addedDate="2022-04-01">fernando</opponent>
+		<opponent addedDate="2022-04-01">frisk_and_friends</opponent>
+		<opponent addedDate="2022-04-01">gruntilda</opponent>
+		<opponent addedDate="2022-04-01">natasha</opponent>
+		<opponent addedDate="2022-04-01">sandy_cheeks</opponent>
+		<opponent addedDate="2022-04-01">sannytess</opponent>
+		<opponent addedDate="2022-04-05">trifle</opponent>
+		<opponent addedDate="2022-04-01">wario</opponent>
+		<opponent addedDate="2021-08-21">rogue_x-men</opponent>
+		<opponent addedDate="2021-04-01">constanze</opponent>
+		<opponent addedDate="2021-04-01">girlfriend</opponent>
+		<opponent addedDate="2021-04-01">koneko-chan</opponent>
+		<opponent addedDate="2021-04-01">megamix</opponent>
+		<opponent addedDate="2021-04-01">mom_alola</opponent>
+		<opponent addedDate="2021-04-01">ninetales</opponent>
+		<opponent addedDate="2021-04-01">pot_of_greed</opponent>
+		<opponent addedDate="2021-04-01">raku-chan</opponent>
+		<opponent addedDate="2021-04-01">sans</opponent>
+		<opponent addedDate="2021-04-01">sex_toilet</opponent>
+		<opponent addedDate="2021-04-01">taiyaki_girl</opponent>
+		<opponent addedDate="2021-04-01">tick</opponent>
+		<opponent addedDate="2020-04-01">astolfo_bean_plushie</opponent>
+		<opponent addedDate="2020-04-01">azami</opponent>
+		<opponent addedDate="2020-04-01">freddie</opponent>
+		<opponent addedDate="2020-04-01">glass_joe</opponent>
+		<opponent addedDate="2020-04-01">gray</opponent>
+		<opponent addedDate="2020-04-01">monique</opponent>
+		<opponent addedDate="2020-04-01">nami_szs</opponent>
+		<opponent addedDate="2020-04-01">scm</opponent>
+		<opponent addedDate="2020-04-01">yukari</opponent>
+		<opponent addedDate="2020-04-01">zenobia</opponent>
+		<opponent addedDate="2019-04-01">ae86</opponent>
+		<opponent addedDate="2019-04-01">default-chan</opponent>
+		<opponent addedDate="2019-04-01">derpy_hooves</opponent>
+		<opponent addedDate="2019-04-01">mister_clean</opponent>
+		<opponent addedDate="2019-04-01">shou_tucker</opponent>
+		<opponent addedDate="2018-04-01">el_shaggy_blanco</opponent>
+		<opponent addedDate="2018-04-01">kool-aid</opponent>
+		<opponent addedDate="2018-04-26" release="110">felicia</opponent>
+		<opponent addedDate="2016-10-16" release="23">mileena</opponent>
+		<opponent addedDate="2017-08-31" release="124">kira</opponent>
+		<opponent addedDate="2016-10-26" release="26">link</opponent>
+		<opponent addedDate="2017-06-07" release="75">gay_spaghetti_chef</opponent>
 		<opponent addedDate="2017-04-05" release="66" status="duplicate">amy_rose_classic</opponent>
 		<opponent addedDate="2015-08-01" release="5" status="duplicate">asuna</opponent>
 		<opponent addedDate="2017-06-18" release="79" status="duplicate">blake</opponent>

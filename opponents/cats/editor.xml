@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+    <owner>cats</owner>
+    <height />
+    <age />
+    <pronunciation />
+    <othernotes>i might drop dead of a brain aneurism if i use the character editor any longer</othernotes>
+    <noteworthy>
+        <case name="CATS' Job Offer." id="1" priority="Noteworthy" min="0" max="7">
+            <description>CATS has noticed someone at the table doesn't respect the law, and has offered them an opportunity to join his space pirate crew.</description>
+        </case>
+        <case name="CATS Teleports Away." id="2" priority="MustTarget" min="7" max="7">
+            <description>Instead of forfeiting, CATS has just teleported away!</description>
+        </case>
+        <case name="How are you?" id="5" priority="FYI" min="0" max="0">
+            <description>CATS rhetorically asks how the people at the table are doing. If your character isn't too socially adept, they could reply genuinely.</description>
+        </case>
+        <case name="Police detected." id="6" priority="FYI" min="0" max="7">
+            <description>CATS is surprised at the presence of police/military figures at the table.</description>
+        </case>
+    </noteworthy>
+    <responses>
+        <response id="3" opponent="sannytess" opponentId="1" />
+        <response id="4" opponent="dreamcatcher" opponentId="20" />
+    </responses>
+    <notes>
+        <note id="7">translator's note: i dont fucking know what this means either lol
+</note>
+        <note id="8">man i dont know</note>
+        <note id="9">real line from the real release. what the fuck.</note>
+    </notes>
+    <nextId>9</nextId>
+    <markers>
+        <marker scope="Public" name="endingcount">counts how many times the player has defeated CATS (hopefully!)</marker>
+    </markers>
+</metadata>

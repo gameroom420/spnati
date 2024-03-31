@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<opponent>
+    <lastupdate>1711603323737</lastupdate>
+    <enabled>false</enabled>
+    <first>Helper-chan</first>
+    <last />
+    <label>Helper-chan</label>
+    <pic>0-informative.png</pic>
+    <gender>female</gender>
+    <from>Strip Poker Night at the Inventory</from>
+    <writer>BlueKoin</writer>
+    <artist>BlueKoin</artist>
+    <description>A friendly girl who's eager to help the people of the Inventory. She's always working behind-the-scenes to help Strip Poker matches go smoothly.</description>
+    <layers>7</layers>
+    <default-costume-name>Helpy Helperton</default-costume-name>
+    <lines>394</lines>
+    <poses>191</poses>
+</opponent>

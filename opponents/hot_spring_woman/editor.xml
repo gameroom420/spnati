@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+    <owner>hot_spring_woman</owner>
+    <height />
+    <age />
+    <pronunciation />
+    <othernotes />
+    <responses>
+        <response id="4" opponent="kumatora" opponentId="170" />
+        <response id="16" opponent="giygas" opponentId="209" />
+        <response id="28" opponent="rose" opponentId="26" />
+    </responses>
+    <labels>
+        <label id="1" label="" folder="Targets" sort="0" />
+        <label id="2" label="" folder="Targets" sort="2" />
+        <label id="3" label="" folder="Targets" sort="3" />
+        <label id="4" label="" folder="PromptResponses" sort="0" />
+        <label id="5" label="" folder="PromptResponses" sort="2" />
+        <label id="6" label="" folder="PromptResponses" sort="3" />
+        <label id="7" label="" folder="PromptResponses" sort="4" />
+        <label id="8" label="" folder="PromptResponses" sort="5" />
+        <label id="9" label="" folder="PromptResponses" sort="6" />
+        <label id="10" label="" folder="PromptResponses" sort="7" />
+        <label id="11" label="" folder="PromptResponses" sort="8" />
+        <label id="12" label="" folder="Targets" sort="4" />
+        <label id="13" label="" folder="Targets" sort="5" />
+        <label id="14" label="" folder="Targets" sort="6" />
+        <label id="15" label="" folder="Targets" sort="7" />
+        <label id="16" label="" folder="Targets" sort="8" />
+        <label id="17" label="" folder="Targets" sort="9" />
+        <label id="18" label="" folder="Targets" sort="10" />
+        <label id="19" label="" folder="Targets" sort="11" />
+        <label id="20" label="" folder="Targets" sort="12" />
+        <label id="21" label="" folder="Targets" sort="13" />
+        <label id="22" label="" folder="Targets" sort="14" />
+        <label id="23" label="" folder="Targets" sort="15" />
+        <label id="24" label="" folder="Targets" sort="16" />
+        <label id="25" label="" folder="Targets" sort="17" />
+        <label id="26" label="" folder="Targets" sort="18" />
+        <label id="27" label="" folder="Targets" sort="0" />
+        <label id="28" label="" folder="PromptResponses" sort="0" />
+        <label id="29" label="" folder="Targets" sort="0" />
+        <label id="30" label="" folder="Targets" sort="0" />
+    </labels>
+    <nextId>30</nextId>
+    <markers>
+        <marker scope="Public" name="" />
+        <marker scope="Public" name="AccessoryMinor_Thinking" />
+        <marker scope="Public" name="AccessoryMinor_Thinking2" />
+        <marker scope="Public" name="AfterFinished" />
+        <marker scope="Public" name="Alien_lost" />
+        <marker scope="Public" name="First_forfeit" />
+        <marker scope="Public" name="First_forfeit_cont" />
+        <marker scope="Public" name="First_loss" />
+        <marker scope="Public" name="First_loss_cont" />
+        <marker scope="Public" name="First_loss_end" />
+        <marker scope="Public" name="GettingInHotSprings" />
+        <marker scope="Public" name="Giygas_stop" />
+        <marker scope="Public" name="Giygas_stop2" />
+        <marker scope="Public" name="Kumatora_GameStart" />
+        <marker scope="Public" name="Kumatora_pendat" />
+        <marker scope="Public" name="Kumatora_pendat2" />
+        <marker scope="Public" name="No_hot_springs" />
+        <marker scope="Public" name="Playing_poker" />
+        <marker scope="Public" name="Rose_clothes1" />
+        <marker scope="Public" name="Rose_clothes1B" />
+        <marker scope="Public" name="Rose_hotSprings" />
+        <marker scope="Public" name="Self_nude" />
+    </markers>
+</metadata>

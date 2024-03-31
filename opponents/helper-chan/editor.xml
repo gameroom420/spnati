@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+    <owner>helper-chan</owner>
+    <height>5'9"</height>
+    <age>19</age>
+    <pronunciation />
+    <othernotes>Helper-chan's desire to help everyone is fueled by her kind heart, and is not a sexual thing. She does, however, have a slight praise kink.&lt;br&gt;&lt;br&gt;She is not officially employed by the Inventory and simply volunteers her time there a lot. She's on much greater terms with the official Inventory staff than Moon is.&lt;br&gt;&lt;br&gt;Helper-chan's outfit is neither an Inventory uniform nor a school uniform, it's just her casual outfit. The pin on her sweater is also just a generic poker-related pin.&lt;br&gt;&lt;br&gt;Helper-chan is not a Meeseeks; she does not loathe her own existence and will not vanish when she has completed a request. She is also unaffiliated with Helpy and The Greater Good, and does not have regenerative abilities.&lt;br&gt;&lt;br&gt;Though it may seem like her inventions are all failures, some of them were big successes, making Helper-chan rather wealthy. She would have little issue with an opponent asking her to help them financially when responding to her "Need Help?" prompt.&lt;br&gt;&lt;br&gt;Things Helper-chan will NOT help with:&lt;br&gt;-Physically or emotionally attacking opponents.&lt;br&gt;-Breaking laws.&lt;br&gt;-Breaking the rules of the game (stripping out-of-turn, having a hand of more than 5 cards, etc).&lt;br&gt;-Enacting fetishes that are not SPNatI-approved.&lt;br&gt;-Anything that would require new images that isn't a crossover interaction.&lt;br&gt;When in doubt, DM BlueKoin.</othernotes>
+    <responses>
+        <response id="15" opponent="moon" opponentId="51" />
+        <response id="16" opponent="moon" opponentId="149" />
+        <response id="39" opponent="natasha" opponentId="7" />
+        <response id="40" opponent="natasha" opponentId="14" />
+        <response id="41" opponent="natasha" opponentId="36" />
+        <response id="42" opponent="natasha" opponentId="9" />
+        <response id="44" opponent="natasha" opponentId="63" />
+        <response id="45" opponent="natasha" opponentId="24" />
+        <response id="49" opponent="natasha" opponentId="22" />
+        <response id="55" opponent="natasha" opponentId="81" />
+        <response id="64" opponent="emi" opponentId="2" />
+        <response id="65" opponent="emi" opponentId="1" />
+        <response id="67" opponent="dunban" opponentId="2" />
+    </responses>
+    <labels>
+        <label id="1" label="Misc. Advice" color="4" folder="" sort="0" />
+        <label id="2" label="Invention Talk" color="4" folder="" sort="0" />
+        <label id="3" label="Prompt - Need Help?" folder="Prompts" sort="0" />
+        <label id="4" label="Gay Man / Straight Woman Filter" folder="" sort="0" />
+        <label id="5" label="Blind Opponent" folder="" sort="0" />
+        <label id="6" label="Mute Opponent" folder="" sort="0" />
+        <label id="8" label="Misc. Things" color="4" folder="" sort="0" />
+        <label id="9" label="Gay Man / Straight Woman Filter" folder="" sort="0" />
+        <label id="10" label="April Fool's" folder="" sort="0" />
+        <label id="11" label="Lewd Advice" color="4" folder="" sort="0" />
+        <label id="12" label="Lewd Misc." color="4" folder="" sort="0" />
+        <label id="13" label="Generic Must Strip" color="4" folder="" sort="0" />
+        <label id="14" label="One Item Remaining" folder="" sort="0" />
+        <label id="17" label="Underwear Lines - Not Exhibitionist" folder="" sort="0" />
+        <label id="18" label="Nude Lines" folder="" sort="0" />
+        <label id="19" label="Nude Lines - Not Exhibitionist" folder="" sort="0" />
+        <label id="20" label="Not Gay Man / Straight Woman Filter" folder="" sort="0" />
+        <label id="21" label="Generic Must Masturbate" folder="" sort="0" />
+        <label id="22" label="Hairy Filter" folder="" sort="0" />
+        <label id="23" label="Any Pubic Hair Filter" folder="" sort="0" />
+        <label id="24" label="Must Masturbate - Fully Clothed Victory" folder="" sort="0" />
+        <label id="25" label="Fully Clothed Victory" folder="" sort="0" />
+        <label id="26" label="Inventor Misc Talk" folder="" sort="0" />
+        <label id="27" label="Not Gay Man / Straight Woman Filter" folder="" sort="0" />
+        <label id="28" label="Fully Clothed Victory" folder="" sort="0" />
+        <label id="29" label="Fully Clothed Victory - Not Gay Man / Straight Woman Filter" folder="" sort="0" />
+        <label id="30" label="Not Gay Man / Straight Woman Filter" folder="" sort="0" />
+        <label id="31" label="Not Gay Man / Straight Woman Filter" folder="" sort="0" />
+        <label id="32" label="Generic Must Masturbate" folder="" sort="0" />
+        <label id="33" label="Gay Man / Straight Woman Filter" folder="" sort="0" />
+        <label id="34" label="Losing Streak" folder="" sort="0" />
+        <label id="46" label="" color="7" folder="" sort="0" />
+        <label id="36" label="" color="1" folder="" sort="0" />
+        <label id="41" label="" color="7" folder="" sort="0" />
+        <label id="47" label="" color="7" folder="" sort="0" />
+        <label id="48" label="" color="7" folder="" sort="0" />
+        <label id="43" label="" color="7" folder="" sort="0" />
+        <label id="42" label="" color="7" folder="" sort="0" />
+        <label id="51" label="" color="7" folder="" sort="0" />
+        <label id="49" label="" color="7" folder="" sort="0" />
+        <label id="50" label="" color="7" folder="" sort="0" />
+        <label id="52" label="" color="7" folder="" sort="0" />
+        <label id="56" label="" color="6" folder="" sort="0" />
+        <label id="57" label="" color="5" folder="" sort="0" />
+        <label id="58" label="" color="5" folder="" sort="0" />
+        <label id="59" label="" color="5" folder="" sort="0" />
+        <label id="60" label="" color="1" folder="" sort="0" />
+        <label id="61" label="" color="1" folder="" sort="0" />
+        <label id="62" label="" color="1" folder="" sort="0" />
+        <label id="63" label="" color="1" folder="" sort="0" />
+        <label id="66" label="Robot Opponent" folder="" sort="0" />
+        <label id="68" label="Yumeko - Win Bet 2" color="3" folder="" sort="0" />
+        <label id="69" label="Yumeko - Must Strip Taunting" folder="" sort="0" />
+        <label id="70" label="Yumeko - Must Strip Taunting" folder="" sort="0" />
+        <label id="71" label="Yumeko - Must Strip Taunting" folder="" sort="0" />
+        <label id="72" label="Yumeko - Lost Bet" folder="" sort="0" />
+        <label id="73" label="Yumeko - Lost Bet" folder="" sort="0" />
+        <label id="74" label="Yumeko - Bet Start" folder="" sort="0" />
+        <label id="75" label="Yumeko - Win Bet 1" color="3" folder="" sort="0" />
+        <label id="76" label="Yumeko - Bet Naked" folder="" sort="0" />
+        <label id="77" label="" folder="CD - Annie Branch" sort="0" />
+        <label id="78" label="" folder="CD - Annie Branch" sort="0" />
+        <label id="79" label="" folder="CD - Oakfield Branch" sort="0" />
+        <label id="80" label="" folder="CD - Inventory Branch" sort="0" />
+        <label id="81" label="" folder="CD - Inventory Branch" sort="0" />
+        <label id="82" label="" folder="CD - Oakfield Branch" sort="0" />
+    </labels>
+    <nextId>82</nextId>
+    <markers>
+        <marker scope="Public" name="" />
+        <marker scope="Public" name="Advice_ABCGum" />
+        <marker scope="Public" name="Advice_BassistFriend" />
+        <marker scope="Public" name="Advice_BetterSleep" />
+        <marker scope="Public" name="Advice_BodyTemperature" />
+        <marker scope="Public" name="Advice_BossKun" />
+        <marker scope="Public" name="Advice_Communication" />
+        <marker scope="Public" name="Advice_ComputerTrouble" />
+        <marker scope="Public" name="Advice_DentalHygiene" />
+        <marker scope="Public" name="Advice_DiscontinuedToys" />
+        <marker scope="Public" name="Advice_DoIt" />
+        <marker scope="Public" name="Advice_EnergeticMusic" />
+        <marker scope="Public" name="Advice_JetLag" />
+        <marker scope="Public" name="Advice_Masturbate" />
+        <marker scope="Public" name="Advice_OpenJar" />
+        <marker scope="Public" name="Advice_PornPositions" />
+        <marker scope="Public" name="Advice_RetroCartridges" />
+        <marker scope="Public" name="Advice_ScanJoke" />
+        <marker scope="Public" name="Advice_ShakenSoda" />
+        <marker scope="Public" name="Advice_SleepClothes" />
+        <marker scope="Public" name="Advice_SneezeScience" />
+        <marker scope="Public" name="Advice_StripPoker" />
+        <marker scope="Public" name="Advice_WeirdFetishes" />
+        <marker scope="Public" name="Advice_Workout" />
+        <marker scope="Public" name="Advice_WrongTool" />
+        <marker scope="Public" name="Advice_YoureBreathtaking" />
+        <marker scope="Public" name="Bella_Simlish" />
+        <marker scope="Public" name="Butt" />
+        <marker scope="Public" name="CD_Annie1" />
+        <marker scope="Public" name="CD_Annie2" />
+        <marker scope="Public" name="CD_Annie3" />
+        <marker scope="Public" name="CD_Inventory1" />
+        <marker scope="Public" name="CD_Inventory2" />
+        <marker scope="Public" name="CD_Inventory3" />
+        <marker scope="Public" name="CD_Oakfield1" />
+        <marker scope="Public" name="CD_Oakfield2" />
+        <marker scope="Public" name="CD_Oakfield3" />
+        <marker scope="Public" name="Dunban_StrippingShirt1" />
+        <marker scope="Public" name="Dunban_StrippingShirt2" />
+        <marker scope="Public" name="Emi_Accident" />
+        <marker scope="Public" name="Emi_StrippingLegs1" />
+        <marker scope="Public" name="Emi_StrippingLegs2" />
+        <marker scope="Public" name="Finished_RareAccept" />
+        <marker scope="Public" name="Followup_Demons" />
+        <marker scope="Public" name="Followup_Recontinuing" />
+        <marker scope="Public" name="Followup_RivalArm" />
+        <marker scope="Public" name="Followup_StalkerChan" />
+        <marker scope="Public" name="Followup_Vampires" />
+        <marker scope="Public" name="Followup_Vampires2" />
+        <marker scope="Public" name="Followup_Volunteer" />
+        <marker scope="Public" name="Helperchan_Annie1" />
+        <marker scope="Public" name="Helperchan_Annie2" />
+        <marker scope="Public" name="Helperchan_Inventory1" />
+        <marker scope="Public" name="Helperchan_Inventory2" />
+        <marker scope="Public" name="Helperchan_Oakfield1" />
+        <marker scope="Public" name="Helperchan_Oakfield2" />
+        <marker scope="Public" name="Helperchan_Rival1" />
+        <marker scope="Public" name="Helperchan_Rival2" />
+        <marker scope="Public" name="Intro" />
+        <marker scope="Public" name="Invention_AutoBed" />
+        <marker scope="Public" name="Invention_BionicCast" />
+        <marker scope="Public" name="Invention_BreakfastMachine" />
+        <marker scope="Public" name="Invention_DragonfireFizz" />
+        <marker scope="Public" name="Invention_GameController" />
+        <marker scope="Public" name="Invention_HumanPotion" />
+        <marker scope="Public" name="Invention_MaidRobot" />
+        <marker scope="Public" name="Invention_StickyArm" />
+        <marker scope="Public" name="Invention_StuntStuff" />
+        <marker scope="Public" name="Invention_Suitcase" />
+        <marker scope="Public" name="Misc_BuildingIdeas" />
+        <marker scope="Public" name="Misc_EditorChan" />
+        <marker scope="Public" name="Misc_InventorInjuries" />
+        <marker scope="Public" name="Misc_LewdInventions" />
+        <marker scope="Public" name="Misc_MarineLife" />
+        <marker scope="Public" name="Misc_NotDating" />
+        <marker scope="Public" name="Misc_NotEmployed" />
+        <marker scope="Public" name="Misc_ScamInventors" />
+        <marker scope="Public" name="Misc_ScrewingAround" />
+        <marker scope="Public" name="Misc_TowelUse" />
+        <marker scope="Public" name="Misc_UniverseMap" />
+        <marker scope="Public" name="Misc_WeirdOpponents" />
+        <marker scope="Public" name="MustStrip_Glasses" />
+        <marker scope="Public" name="Natasha_BrokenArm1" />
+        <marker scope="Public" name="Natasha_BrokenArm2" />
+        <marker scope="Public" name="Natasha_Cheating1" />
+        <marker scope="Public" name="Natasha_Cheating2" />
+        <marker scope="Public" name="Natasha_GoingDown" />
+        <marker scope="Public" name="Natasha_Hacking1" />
+        <marker scope="Public" name="Natasha_Helpful1" />
+        <marker scope="Public" name="Natasha_Helpful2" />
+        <marker scope="Public" name="Natasha_Helpful3" />
+        <marker scope="Public" name="Natasha_Rival1" />
+        <marker scope="Public" name="Natasha_Rival2" />
+        <marker scope="Public" name="Natasha_Rival3" />
+        <marker scope="Public" name="Natasha_WhyHelp1" />
+        <marker scope="Public" name="Natasha_WhyHelp2" />
+        <marker scope="Public" name="Natasha_WhyHelp3" />
+        <marker scope="Public" name="Natasha_XevozFakeout1" />
+        <marker scope="Public" name="Opponent_Blind" />
+        <marker scope="Public" name="Opponent_Mute" />
+        <marker scope="Public" name="Opponent_Robot" />
+        <marker scope="Public" name="Prompt_NeedHelp" />
+        <marker scope="Public" name="Rin_Help1" />
+        <marker scope="Public" name="Rin_Help2" />
+        <marker scope="Public" name="Selected_Nude" />
+        <marker scope="Public" name="Stripping_AlphaRangerDoubleFakeout" />
+        <marker scope="Public" name="Stripping_RivalTalk" />
+        <marker scope="Public" name="Stripping_RuneslayerFakeout" />
+        <marker scope="Public" name="Yumeko_BetWin1" />
+        <marker scope="Public" name="Yumeko_NakedBet1" />
+    </markers>
+</metadata>
