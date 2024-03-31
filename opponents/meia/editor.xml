@@ -81,7 +81,6 @@
         <note id="698">I'm intentionally preserving the misunderstanding, but I can revise this if you were expecting an actual explanation</note>
         <note id="754">Meia doesn't mean quite the same thing, but close enough for a misunderstanding</note>
         <note id="1009">(Meia wouldn't have a lot of experience with animals/mammals)</note>
-        <note id="1063">(Meia wouldn't see much distinction between "mid-teens" and "adult")</note>
         <note id="1328">could set up an interaction where they could both take sips (maybe share a cup?)</note>
         <note id="1331">could do an interaction where Perona thinks Pyoro is squishy/stuffed, but then realizes he's metal and tosses him back</note>
         <note id="1634">second line is just a quip and can be responded to like the first one</note>
@@ -123,7 +122,7 @@
         <label id="223" label="" color="4" folder="" sort="0" />
         <label id="821" label="" color="4" folder="" sort="0" />
         <label id="808" label="" color="4" folder="" sort="0" />
-        <label id="1652" label="" color="4" folder="" sort="0" />
+        <label id="1777" label="" color="4" folder="" sort="0" />
         <label id="177" label="" color="4" folder="" sort="0" />
         <label id="411" label="" color="4" folder="" sort="0" />
         <label id="822" label="" color="4" folder="" sort="0" />
@@ -154,7 +153,6 @@
         <label id="296" label="" color="4" folder="" sort="0" />
         <label id="297" label="" color="4" folder="" sort="0" />
         <label id="298" label="" color="4" folder="" sort="0" />
-        <label id="308" label="" color="4" folder="" sort="0" />
         <label id="317" label="" color="4" folder="" sort="0" />
         <label id="318" label="" color="4" folder="" sort="0" />
         <label id="426" label="" color="4" folder="" sort="0" />
@@ -774,7 +772,7 @@
         <label id="1337" label="" color="6" folder="" sort="0" />
         <label id="1758" label="" color="4" folder="" sort="0" />
         <label id="1353" label="" color="4" folder="" sort="0" />
-        <label id="1650" label="" color="4" folder="" sort="0" />
+        <label id="1776" label="" color="4" folder="" sort="0" />
         <label id="1733" label="" color="4" folder="" sort="0" />
         <label id="1739" label="" color="4" folder="" sort="0" />
         <label id="1364" label="" color="4" folder="" sort="0" />
@@ -968,15 +966,19 @@
         <label id="1753" label="" color="4" folder="" sort="0" />
         <label id="1754" label="" color="4" folder="" sort="0" />
         <label id="1755" label="" color="4" folder="" sort="0" />
-        <label id="1756" label="" color="4" folder="" sort="0" />
+        <label id="1775" label="" color="4" folder="" sort="0" />
         <label id="1757" label="" color="4" folder="" sort="0" />
         <label id="1759" label="" color="4" folder="" sort="0" />
         <label id="1760" label="" color="4" folder="" sort="0" />
         <label id="1764" label="" color="4" folder="" sort="0" />
         <label id="1768" label="" color="4" folder="" sort="0" />
         <label id="1772" label="" color="4" folder="" sort="0" />
+        <label id="1774" label="" color="4" folder="" sort="0" />
+        <label id="1778" label="" color="4" folder="" sort="0" />
+        <label id="1779" label="" color="4" folder="" sort="0" />
+        <label id="1780" label="" color="4" folder="" sort="0" />
     </labels>
-    <nextId>1773</nextId>
+    <nextId>1780</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="2butt">Meia shows off her butt while still in her bodysuit (or Cupid outfit).</marker>
@@ -1061,6 +1063,7 @@
         <marker scope="Public" name="aoba0" />
         <marker scope="Public" name="aoba01" />
         <marker scope="Public" name="aoi_asahina0" />
+        <marker scope="Public" name="aoi_asahina01" />
         <marker scope="Public" name="aqua_grunt_gg0" />
         <marker scope="Public" name="aqua_grunt_resp0" />
         <marker scope="Public" name="aqua_grunt_resp01" />
@@ -3362,6 +3365,7 @@
         <marker scope="Public" name="reimu_resp1s_jura" />
         <marker scope="Public" name="reimu_resp2" />
         <marker scope="Public" name="reimu_resp23" />
+        <marker scope="Public" name="reimu_resp3" />
         <marker scope="Public" name="reimu_resp5" />
         <marker scope="Public" name="reimu_resp56" />
         <marker scope="Public" name="reimu_sightseeing" />
@@ -3377,6 +3381,10 @@
         <marker scope="Public" name="reimu34" />
         <marker scope="Public" name="reimu3s" />
         <marker scope="Public" name="reimu4" />
+        <marker scope="Public" name="reimu45" />
+        <marker scope="Public" name="reimu45jura" />
+        <marker scope="Public" name="reimu4s" />
+        <marker scope="Public" name="reimu5" />
         <marker scope="Public" name="revy_classical">Meia tells Revy that she was surprised, and somewhat dismayed, to discover that men wrote much of Earth's classical music.</marker>
         <marker scope="Public" name="revy_dogfights">Meia tells Revy that it's easier psychologically to kill people when piloting a Dread.</marker>
         <marker scope="Public" name="revy_killing" />
@@ -3458,6 +3466,7 @@
         <marker scope="Public" name="rosa4" />
         <marker scope="Public" name="rosa45" />
         <marker scope="Public" name="rosa4alt" />
+        <marker scope="Public" name="rosa5s" />
         <marker scope="Public" name="rose_resp2" />
         <marker scope="Public" name="rose0" />
         <marker scope="Public" name="rose01" />
