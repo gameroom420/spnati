@@ -137,6 +137,7 @@
         <response id="286" opponent="nami" opponentId="52" />
         <response id="287" opponent="toph" opponentId="6" />
         <response id="288" opponent="sakura" opponentId="2" />
+        <response id="290" opponent="pinkie_pie" opponentId="1" />
     </responses>
     <labels>
         <label id="11" label="" folder="Lore" sort="0" />
@@ -243,9 +244,10 @@
         <label id="272" label="" folder="Filters" sort="0" />
         <label id="273" label="" folder="Filters" sort="0" />
         <label id="274" label="" folder="Filters" sort="0" />
+        <label id="289" label="" folder="Filters" sort="0" />
     </labels>
     <onlyCustomPoses>true</onlyCustomPoses>
-    <nextId>288</nextId>
+    <nextId>290</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Private" name="adv_poseposition" />
@@ -298,6 +300,8 @@
         <marker scope="Public" name="mari_s_friendly" />
         <marker scope="Public" name="mari_s_monster" />
         <marker scope="Public" name="mari_s_vampire" />
+        <marker scope="Public" name="meia_adept" />
+        <marker scope="Public" name="meia_affinity" />
         <marker scope="Public" name="nagisa_cute" />
         <marker scope="Public" name="nagisa_friends" />
         <marker scope="Public" name="nagisa_protect" />
@@ -310,6 +314,11 @@
         <marker scope="Public" name="nonon_uniform" />
         <marker scope="Public" name="nonon01" />
         <marker scope="Public" name="nonon02" />
+        <marker scope="Public" name="pink_atmos" />
+        <marker scope="Public" name="pinkie_energy" />
+        <marker scope="Public" name="pinkie_fun" />
+        <marker scope="Public" name="pinkie_journey" />
+        <marker scope="Public" name="pinkie_party" />
         <marker scope="Public" name="psynergy1" />
         <marker scope="Public" name="psynergy2" />
         <marker scope="Public" name="psynergy3" />
