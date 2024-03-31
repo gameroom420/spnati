@@ -998,7 +998,7 @@
                 <state img="#-wondering.png" marker="AquaKH_s0_1">
                     <text>... Remind me again what it is you're named. I want to say it starts with a "Q?" ... Quanda.</text>
                     <operations>
-                        <nickname op="=" name="" weight="0" />
+                        <nickname character="aqua_kh" op="=" name="Quanda" weight="0" />
                     </operations>
                 </state>
             </case>
@@ -1011,7 +1011,7 @@
                 <state img="#-wondering.png" marker="AquaGrunt_s0_1">
                     <text>What was your name again, human? Grunt? What sort of thing do you do, Grunt?</text>
                     <operations>
-                        <nickname character="magma_grunt" op="=" name="" weight="0" />
+                        <nickname character="magma_grunt" op="=" name="Grunt" weight="0" />
                     </operations>
                 </state>
             </case>
