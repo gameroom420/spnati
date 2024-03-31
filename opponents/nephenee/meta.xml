@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<opponent>
+    <lastupdate>1711812099915</lastupdate>
+    <enabled>false</enabled>
+    <first>Nephenee</first>
+    <last />
+    <label>Nephenee</label>
+    <pic>0-calm.png</pic>
+    <gender>female</gender>
+    <from>Fire Emblem: Path of Radiance</from>
+    <writer>Fence</writer>
+    <artist>Fence</artist>
+    <description>A caring and beautiful soldier from the village of Ohma. She's a little shy due to her country upbringing and affectations.</description>
+    <layers>7</layers>
+    <default-costume-name>Strongest Country Girl</default-costume-name>
+    <lines>677</lines>
+    <poses>223</poses>
+</opponent>
