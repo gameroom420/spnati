@@ -861,6 +861,7 @@
 
         <!-- Put AF costumes and AF characters into the same group, but place AF-only characters before costumes -->
         <!-- Also, put this year's new characters/costumes first -->
+        <character highlight="april_fools" partition="1" sort="4">cats</character>
         <!-- <character highlight="april_fools" partition="1" sort="4">[REDACTED]</character> -->
         <!-- <character highlight="april_fools" partition="1" sort="4">[REDACTED]</character> -->
         <!-- <character highlight="april_fools" partition="1" sort="4">[REDACTED]</character> -->
