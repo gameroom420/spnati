@@ -1,2 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<collectibles />
+<collectibles>
+    <collectible id="catscape" status="online" img="opponents/cats/capecollectable.png" thumbnail="opponents/cats/capecollectable.png">
+        <title>CATS' CAPE</title>
+        <text>CONGRATULATION !! CATS IS DEFEAT !! NOW TAKEN HIS CAPE AS TROPHY.</text>
+        <unlock>DOWN WITH CATS COMPLETELY !!</unlock>
+        <wearable>true</wearable>
+        <clothing img="opponents/cats/capecollectable.png" name="CATS' CAPE" generic="cape" position="other" type="extra" />
+    </collectible>
+</collectibles>
