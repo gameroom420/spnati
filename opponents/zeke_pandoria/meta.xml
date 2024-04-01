@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1711054551037</lastupdate>
+    <lastupdate>1712009179776</lastupdate>
     <enabled>false</enabled>
     <first>Zeke</first>
     <last>von Genbu</last>
     <label>Zeke and Pandoria</label>
-    <pic x="-1" y="-3" scale="98">0-select.png</pic>
+    <pic x="-2" y="-3" scale="99">0-select.png</pic>
     <gender>male</gender>
     <from>Xenoblade Chronicles 2</from>
     <writer>MyMainAccIsANord</writer>
@@ -18,8 +18,8 @@
         <costume folder="opponents/reskins/zeke_pandoria_easter/" img="0-select.png" set="easter" status="unlisted" label="Zeke">Fancy Attire</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>1223</lines>
-    <poses>274</poses>
+    <lines>1324</lines>
+    <poses>295</poses>
     <z-index>-5</z-index>
     <font-size>small</font-size>
 </opponent>
