@@ -25,6 +25,8 @@
         <response id="142" opponent="elesa" opponentId="1" />
         <response id="154" opponent="sakura" opponentId="2" />
         <response id="174" opponent="noelle" opponentId="41" />
+        <response id="192" opponent="ringo_ando" opponentId="310" />
+        <response id="193" opponent="ringo_ando" opponentId="88" />
     </responses>
     <notes>
         <note id="162">In the school mode timeline, Mukuro Ikusaba still dresses up as Junko. In Summer Camp, Junko doesn't even show up if Mukuro is there.</note>
@@ -187,10 +189,31 @@
         <label id="175" label="Skinny Dipping" folder="" sort="0" />
         <label id="176" label="" folder="Target: Nadeshiko" sort="0" />
         <label id="183" label="Early Game" folder="" sort="0" />
+        <label id="138" label="" folder="Target: Kyoko" sort="0" />
+        <label id="185" label="" folder="Target: Kyoko" sort="0" />
+        <label id="186" label="" folder="Target: Chihiro" sort="0" />
+        <label id="187" label="" folder="Target: Chihiro" sort="0" />
+        <label id="188" label="Aqua School Blank" folder="" sort="0" />
+        <label id="189" label="Aqua School Kyoko" folder="" sort="0" />
+        <label id="190" label="Aqua School Chihiro" folder="" sort="0" />
+        <label id="194" label="Beat Kyoko A" folder="" sort="0" />
+        <label id="195" label="Beat Kyoko B" folder="" sort="0" />
+        <label id="196" label="Two Kyokos" folder="" sort="0" />
+        <label id="197" label="Underwear Kyoko" folder="Target: Kyoko" sort="0" />
+        <label id="200" label="" folder="Target: Kyoko" sort="0" />
+        <label id="201" label="" folder="Target: Kyoko" sort="0" />
+        <label id="202" label="" folder="Target: Kyoko" sort="0" />
+        <label id="204" label="CoMast1" folder="" sort="0" />
+        <label id="205" label="CoMast3" folder="" sort="0" />
+        <label id="206" label="CoMast2" folder="" sort="0" />
+        <label id="207" label="CoMast4" folder="" sort="0" />
+        <label id="208" label="Beach" folder="Backgrounds" sort="0" />
+        <label id="210" label="" folder="Situations" sort="0" />
     </labels>
-    <nextId>183</nextId>
+    <nextId>210</nextId>
     <markers>
         <marker scope="Private" name="B_">Background related markers.</marker>
+        <marker scope="Public" name="B_BeachTan" />
         <marker scope="Private" name="D_">Dialogue that doesn't fit in other categories.</marker>
         <marker scope="Public" name="D_Ability" />
         <marker scope="Public" name="D_BoobDistract" />
@@ -246,6 +269,7 @@
         <marker scope="Public" name="S_Towel" />
         <marker scope="Public" name="S_WhatILove" />
         <marker scope="Private" name="T_">Lines that target other characters.</marker>
+        <marker scope="Public" name="T_AquaRecord" />
         <marker scope="Public" name="T_ChihiroAlterEgo" />
         <marker scope="Public" name="T_ChihiroEnd" />
         <marker scope="Public" name="T_ChihiroSecret" />
@@ -258,8 +282,15 @@
         <marker scope="Public" name="T_Kyoko_Junko" />
         <marker scope="Public" name="T_Kyoko_Lost0Trio" />
         <marker scope="Public" name="T_KyokoChihiro" />
+        <marker scope="Public" name="T_KyokoCoMast1" />
+        <marker scope="Public" name="T_KyokoCoMast2" />
+        <marker scope="Public" name="T_KyokoCoMast3" />
+        <marker scope="Public" name="T_KyokoCoMast4" />
         <marker scope="Public" name="T_KyokoKeepUp" />
         <marker scope="Public" name="T_KyokoStart" />
+        <marker scope="Public" name="T_KyokoSuggesting" />
+        <marker scope="Public" name="T_KyokoTopTouch" />
+        <marker scope="Public" name="T_Kyouko_01" />
         <marker scope="Public" name="T_Kyouko_0-1" />
         <marker scope="Public" name="T_KyoukoStart" />
         <marker scope="Public" name="T_MahiruBirthday" />
@@ -273,48 +304,87 @@
         <marker scope="Public" name="T_SweetheartStart" />
         <marker scope="Public" name="T_TwoKyokoLost0" />
         <marker scope="Private" name="TI_">Targeted lines when Hina is stripping</marker>
-        <marker scope="Public" name="TI_Jura_0-1" />
+        <marker scope="Public" name="TI_Aqua_01Chihiro" />
+        <marker scope="Public" name="TI_Aqua_01Kyoko" />
+        <marker scope="Public" name="TI_Aqua_01Student" />
+        <marker scope="Public" name="TI_Aqua_11Training" />
+        <marker scope="Public" name="TI_Jura_01" />
         <marker scope="Public" name="TI_Jura_0-1Swim" />
         <marker scope="Public" name="TI_Kyoko_0Trio" />
+        <marker scope="Public" name="TI_Kyoko_43Memory" />
         <marker scope="Public" name="TI_Kyoko_4-3Memory" />
+        <marker scope="Public" name="TI_Kyoko_43Touch" />
         <marker scope="Public" name="TI_Kyoko_4-3Touch" />
+        <marker scope="Public" name="TI_Kyoko_51Proposal" />
+        <marker scope="Public" name="TI_Kyoko_62" />
+        <marker scope="Public" name="TI_Kyoko_63Shaved" />
         <marker scope="Public" name="TI_Kyoko_6-3Shaved" />
+        <marker scope="Public" name="TI_Kyoko_71" />
         <marker scope="Public" name="TI_Kyoko_7-1" />
+        <marker scope="Public" name="TI_Kyoko_71KeepDown" />
         <marker scope="Public" name="TI_Kyoko_7-1KeepDown" />
+        <marker scope="Public" name="TI_Kyoko_71Secret" />
         <marker scope="Public" name="TI_Kyoko_7-1Secret" />
         <marker scope="Public" name="TI_Kyoko_7-2" />
+        <marker scope="Public" name="TI_Kyoko_Proposal" />
+        <marker scope="Public" name="TI_Kyoko_XPopular" />
+        <marker scope="Public" name="TI_Kyoko_XProposal" />
         <marker scope="Public" name="TI_KyokoButtPose" />
+        <marker scope="Public" name="TI_Levi_01" />
+        <marker scope="Public" name="TI_Levi_01Sports" />
+        <marker scope="Public" name="TI_Meia_01" />
         <marker scope="Public" name="TI_Meia_0-1" />
         <marker scope="Public" name="TI_Nadeshiko_4-1" />
+        <marker scope="Public" name="TI_Nadeshiko_41SkinnyDip" />
         <marker scope="Public" name="TI_NadeshikoNervous" />
+        <marker scope="Public" name="TI_Revy_01" />
         <marker scope="Public" name="TI_Revy_0-1" />
         <marker scope="Public" name="TI_Revy_0-1Swim" />
+        <marker scope="Public" name="TI_Rosa_01" />
         <marker scope="Public" name="TI_Rosa_0-1" />
+        <marker scope="Public" name="TI_Rose_01Swim" />
         <marker scope="Public" name="TI_Rose_0-1Swim" />
+        <marker scope="Public" name="TI_SCM_01" />
+        <marker scope="Public" name="TI_SCM_LastName" />
         <marker scope="Private" name="TO_">Targeted lines when other characters are stripping.</marker>
+        <marker scope="Public" name="TO_Chiaki_01" />
         <marker scope="Public" name="TO_Chiaki_0-1">Chiaki Must Strip Stage 0</marker>
+        <marker scope="Public" name="TO_Chihiro_01" />
         <marker scope="Public" name="TO_Chihiro_0-1">Chihiro Must Strip Stage 0</marker>
         <marker scope="Public" name="TO_Chihiro_4-3" />
         <marker scope="Public" name="TO_Chihiro_4-3AlterEgo" />
         <marker scope="Public" name="TO_Chihiro_5-3" />
+        <marker scope="Public" name="TO_Kyoko_01" />
         <marker scope="Public" name="TO_Kyoko_0-1">Kyoko Must Strip Stage 0</marker>
         <marker scope="Public" name="TO_Kyoko_1-2Junko" />
+        <marker scope="Public" name="TO_Kyoko_62" />
         <marker scope="Public" name="TO_Kyoko_6-2">Kyoko Stripping Stage 6</marker>
+        <marker scope="Public" name="TO_Kyoko_73" />
         <marker scope="Public" name="TO_Kyoko_7-3">Kyoko Stripped Stage 7</marker>
+        <marker scope="Public" name="TO_Kyoko_73Naked" />
         <marker scope="Public" name="TO_Kyoko_7-3Naked" />
+        <marker scope="Public" name="TO_Kyouko_01" />
+        <marker scope="Public" name="TO_Levi_01" />
+        <marker scope="Public" name="TO_Nagatoro_01" />
         <marker scope="Public" name="TO_Nagatoro_0-1">Nagatoro Must Strip Stage 0</marker>
         <marker scope="Public" name="TO_Noelle_1-3Geo" />
+        <marker scope="Public" name="TO_Ringo_01" />
+        <marker scope="Public" name="TO_Ringo_0-1" />
+        <marker scope="Public" name="TO_Ringo_11" />
+        <marker scope="Public" name="TO_Ringo_1-1" />
+        <marker scope="Public" name="TO_Rosa_01" />
         <marker scope="Public" name="TO_Rosa_0-1" />
         <marker scope="Public" name="TO_Sakura_2-2" />
         <marker scope="Public" name="TO_Sakura_2-3Zombie" />
+        <marker scope="Public" name="TO_Sweetheart_01" />
         <marker scope="Public" name="TO_Sweetheart_0-1">Sweetheart Must Strip Stage 0</marker>
+        <marker scope="Public" name="TO_Zeke_01" />
         <marker scope="Public" name="TO_Zeke_0-1" />
-        <marker scope="Private" name="Z_" />
+        <marker scope="Private" name="Z_">Intenal state. Vast majority of this will only be relevant to Aoi herself.</marker>
         <marker scope="Public" name="Z_AoiIsConfident" />
         <marker scope="Public" name="Z_AoiVictory" />
         <marker scope="Public" name="Z_Finished" />
         <marker scope="Public" name="Z_GamesPlayed" />
         <marker scope="Public" name="Z_HinaConfident" />
-        <marker scope="Public" name="zset_hinaConfident" />
     </markers>
 </metadata>
