@@ -1886,25 +1886,25 @@
                 <state img="#-toofar.png" marker="zoe_reply_hand03">~Player~ isn't scared of me, ~zoe~! I'm not a monster! N-not that there's anything wrong with being a monster, of course...</state>
             </case>
             <case stage="0-5" id="2103">
-                <condition role="self" saidMarker="birthday1" />
+                <condition role="self" saidMarker="birthday1" notSaidMarker="birthday2" />
                 <test expr="~day.number~" value="1" />
                 <test expr="~month.number~" value="4" />
                 <state img="#-gen.png" marker="birthday2">Don't tell me you forgot what day it is, ~player~... That would be very {bully}gross.{!reset}</state>
             </case>
             <case stage="0-5" id="2104">
-                <condition role="self" saidMarker="birthday2" />
+                <condition role="self" saidMarker="birthday2" notSaidMarker="birthday3" />
                 <test expr="~day.number~" value="1" />
                 <test expr="~month.number~" value="4" />
                 <state img="#-yay.png" marker="birthday3">That's right, it's my birthday today, ~player~!</state>
             </case>
             <case stage="0-5" id="2105">
-                <condition role="self" saidMarker="birthday3" />
+                <condition role="self" saidMarker="birthday3" notSaidMarker="birthday4" />
                 <test expr="~day.number~" value="1" />
                 <test expr="~month.number~" value="4" />
                 <state img="#-hey.png" marker="birthday4">Huh? April fools? I'm serious, it's really my birthday!</state>
             </case>
             <case stage="0-5" id="2106">
-                <condition role="self" saidMarker="birthday4" />
+                <condition role="self" saidMarker="birthday4" notSaidMarker="birthday5" />
                 <test expr="~day.number~" value="1" />
                 <test expr="~month.number~" value="4" />
                 <state img="#-angy.png" marker="birthday5">Hey! M-my existence isn't a prank!</state>
@@ -2044,6 +2044,7 @@
                 <state img="#-pout.png" marker="beach02">Do people really do it on the beach? The sand is getting everywhere...</state>
             </case>
             <case stage="0-5" id="2102">
+                <condition role="self" notSaidMarker="birthday1" />
                 <test expr="~day.number~" value="1" />
                 <test expr="~month.number~" value="4" />
                 <state img="#-keke.png" marker="birthday1">By the way, guess what day it is today, ~player~! Guess!</state>
