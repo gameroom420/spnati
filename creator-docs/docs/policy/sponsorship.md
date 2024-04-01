@@ -8,6 +8,8 @@ Promoting your character from Testing to Main Game
 
 For release into the main game, a character must pass community sponsorship. **Five** sponsorships are required for new characters and **three** for reworks. These sponsorships will be _conditional_ sponsorships, meaning the flaws outlined in the post _must_ be addressed before the character will be accepted.  
 
+The number of sponsorships required is relaxed for new characters where all writers have already had a character sponsored and on the Main Roster before. These characters only need **three** sponsorships, but all three must be from developers who have likewise had a character on the Main Roster.
+
 A character is considered _new_ when it uses no prior dialogue or artwork from another version of the character. A character is considered _reworked_ when it encounters a substantial art overhaul, substantial dialogue update, or inheritance by a new author. **The moderation team reserves full rights to make judgment calls on this distinction.** 
 
 Some reworked main roster characters are eligible for **Quick Pass**, and won't need to return to Testing. [For more information on Quick Pass and the difference between new characters and reworks, see here.](/docs/policy/reworks.html)
@@ -66,6 +68,7 @@ The Mod QA will be as follows:
  - Validator check for major issues
  - [Tag-removed](https://spnati-mike.github.io/Remove-Tags/) spellcheck, reported on the character’s Discord channel.
  - Testing that all collectibles work properly and [are in line with the rules](/docs/advanced/collectibles.html)
+ - Confirmation of dialogue in each of the Futa cases, with the exception that the Visible general case doesn't need lines if the three size cases have lines, and vice versa.
 
 If a character is found not to meet all of the chosen sponsors' flaws, they will be required to address those before the character can be added to the main roster. Additionally, if significant or numerous technical issues are found, the developer will be asked to fix those as well.
 
