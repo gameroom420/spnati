@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1711582864037</lastupdate>
+    <lastupdate>1711933825194</lastupdate>
     <enabled>false</enabled>
     <first>Rosa</first>
     <last />
@@ -13,8 +13,8 @@
     <description>An experienced and dedicated Pokémon trainer from the Unova region. Adept at facing any kind of adversaries in a Pokémon battle, but not so much in strip poker. She also runs the Join Avenue, and has starred in Pokéstar Studios film productions.</description>
     <epilogue gender="male" img="epilogue/rosa_epi1_thumbnail.png" hint="Finish a game against Rosa." description="Mating press.">Rosa's Other Game</epilogue>
     <epilogue status="unlisted" gender="female" hint="Finish a game against Rosa">Rosa's Ferris Wheel Jaunt</epilogue>
-    <epilogue status="unlisted" gender="any" hint="Win a game against Rosa (softcore epilogue)">Rosa's Holiday Hijinks</epilogue>
     <epilogue status="unlisted" gender="any" hint="Outlast Rosa and finish a game with her.">Rosa on the Big Screen!</epilogue>
+    <epilogue status="unlisted" gender="female" hint="Finish a game against Rosa as a female player." description="Rosa has invited you to join her and one of her gal-pals for a relaxing spa day!">Rosa's Spa Day</epilogue>
     <layers>7</layers>
     <alternates>
         <costume folder="opponents/reskins/rosa_office/" img="0-portrait.png" status="online" label="Rosa">Office Star</costume>
@@ -26,6 +26,6 @@
         <costume folder="opponents/reskins/rosa_hero/" img="0-portrait.png" set="april_fools" label="Lucario Girl" layers="6">Marvellous Lucario Girl</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>2328</lines>
+    <lines>2335</lines>
     <poses>187</poses>
 </opponent>
