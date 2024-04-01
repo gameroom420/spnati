@@ -6,18 +6,30 @@
         <tag>medium_hair</tag>
         <tag>blue_eyes</tag>
         <tag>fair-skinned</tag>
+        <tag>curvy</tag>
         <tag>shaved</tag>
+        <tag>flat_chest</tag>
         <tag>small_breasts</tag>
+        <tag>non-human</tag>
         <tag>robot</tag>
         <tag from="0" to="5">armor</tag>
         <tag from="0" to="3">bodysuit</tag>
         <tag from="0" to="2">helmet</tag>
         <tag from="0" to="0">high_heels</tag>
+        <tag from="0" to="0">thigh_highs</tag>
+        <tag>no_bra</tag>
+        <tag>no_underwear</tag>
         <tag>boob_envy</tag>
+        <tag>confident</tag>
+        <tag>dominant</tag>
         <tag>mean</tag>
         <tag>vain</tag>
         <tag>bisexual</tag>
         <tag>single</tag>
+        <tag>villain</tag>
+        <tag>fighter</tag>
+        <tag>military</tag>
+        <tag>vanishes_clothes</tag>
         <tag>video_game</tag>
         <tag>future</tag>
         <tag>sci-fi</tag>

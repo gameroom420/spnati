@@ -7,21 +7,17 @@
         <tag>red_eyes</tag>
         <tag>exotic_eyes</tag>
         <tag>unusual_skin</tag>
-        <tag>skinny</tag>
-        <tag>shaved</tag>
+        <tag>short</tag>
         <tag>alien</tag>
         <tag>cyborg</tag>
-        <tag>robot</tag>
+        <tag>non-human</tag>
         <tag>cape</tag>
-        <tag>eyepatch</tag>
-        <tag>formal_attire</tag>
         <tag>aggressive</tag>
-        <tag>fancy</tag>
+        <tag>indifferent</tag>
         <tag>insane</tag>
         <tag>mean</tag>
         <tag>serious</tag>
-        <tag>ageless</tag>
-        <tag>virtual</tag>
+        <tag from="9" to="9">silent</tag>
         <tag>villain</tag>
         <tag>criminal</tag>
         <tag>pirate</tag>
@@ -33,5 +29,6 @@
         <tag>future</tag>
         <tag>sci-fi</tag>
         <tag>space</tag>
+        <tag>zero_wing</tag>
     </tags>
 </opponent>

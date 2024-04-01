@@ -5,14 +5,18 @@
     <tags>
         <tag>alternative_skin</tag>
         <tag from="0" to="3">bunnysuit</tag>
+        <tag from="0" to="2">choker</tag>
         <tag from="4" to="5">crotch_pasty</tag>
+        <tag>easter_skin</tag>
         <tag from="0" to="4">fake_animal_ears</tag>
         <tag from="0" to="3">fake_tail</tag>
         <tag remove="true">hairy</tag>
         <tag remove="true">hat</tag>
         <tag>jewelry</tag>
         <tag>no_bra</tag>
+        <tag>no_underwear</tag>
         <tag remove="true">pubic_hair</tag>
+        <tag remove="true">pubic_hair_peek</tag>
         <tag>scantily-clad</tag>
         <tag>shaved</tag>
         <tag remove="true">sweater</tag>

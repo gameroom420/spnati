@@ -8,9 +8,10 @@
         <tag from="6" to="6">flies</tag>
         <tag remove="true">flying_forfeit</tag>
         <tag>furry</tag>
-        <tag from="5" to="5">kneeling_forfeit</tag>
+        <tag>kneeling_forfeit</tag>
         <tag>short</tag>
-        <tag from="5" to="5">uses_toy</tag>
+        <tag>shortstack</tag>
+        <tag>uses_toy</tag>
     </tags>
     <layers>4</layers>
     <folder>opponents/reskins/rouge_canon/</folder>
