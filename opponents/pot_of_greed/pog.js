@@ -294,7 +294,7 @@ if (!pog) var pog = (function (root) {
         this.rigFor = function(player) {
             var rigSuit = getRandomNumber(0, 4);
 
-            var handCards = CARDS_PER_HAND;
+            var handCards = 5;
 
             // give PoG a seven-royal-flush
             if (players[player] && players[player].id === "pot_of_greed") {
@@ -302,7 +302,7 @@ if (!pog) var pog = (function (root) {
             }
 
             for (var n = 0; n < handCards; n++) {
-                var i = cards.length - 1 - (player * CARDS_PER_HAND + n);
+                var i = cards.length - 1 - (player * 5 + n);
 
                 // extra two per PoG
                 for (var k = 1; k < player; k++) {
@@ -1204,8 +1204,8 @@ if (!pog) var pog = (function (root) {
 
             if (strategy == eStrategies.SUBOPTIMAL) {
                 /* Check for flush draw, even if holding a pair */
-                /* CARDS_PER_HAND instead of numCards is not a mistake, since 5-flushes are possible */
-                if (player.hand.suits.some(function(s) { return s == CARDS_PER_HAND - 1; })) {
+                /* 4 instead of (numCards - 1) is not a mistake, since 5-flushes are possible */
+                if (player.hand.suits.some(function(s) { return s == 4; })) {
                     player.hand.tradeIns = hand.map(function(c) { return player.hand.suits[c.suit] == 1; });
                     console.log("Hand is " + (player.hand.strength == PAIR ? "okay" : "bad") + ", going for a flush, trading in one card. " + player.hand.tradeIns);
                     return;
