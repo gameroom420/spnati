@@ -131,6 +131,7 @@ funny answer: crab because her mech gets likened to one</note>
         <note id="1613">I already wrote all my targets as if she had her canon look, so this is just a small acknowledgement</note>
         <note id="1614">I already wrote all my targets as if she had her canon look, so this is just a minor variation (unless you want to expand it into an alt convo)</note>
         <note id="1598">revised</note>
+        <note id="1643">I assume saying it outright will fluster her, but willing to revise</note>
     </notes>
     <labels>
         <label id="106" label="" color="4" folder="" sort="0" />
@@ -727,11 +728,11 @@ funny answer: crab because her mech gets likened to one</note>
         <label id="1176" label="" color="4" folder="" sort="0" />
         <label id="1177" label="" color="4" folder="" sort="0" />
         <label id="1178" label="" color="4" folder="" sort="0" />
-        <label id="1523" label="" color="4" folder="" sort="0" />
+        <label id="1643" label="" color="4" folder="" sort="0" />
         <label id="1180" label="" color="6" folder="" sort="0" />
         <label id="1181" label="" color="6" folder="" sort="0" />
         <label id="1182" label="" color="4" folder="" sort="0" />
-        <label id="1520" label="" color="4" folder="" sort="0" />
+        <label id="1644" label="" color="4" folder="" sort="0" />
         <label id="1624" label="" color="4" folder="" sort="0" />
         <label id="1198" label="" color="4" folder="" sort="0" />
         <label id="1603" label="" color="4" folder="" sort="0" />
@@ -895,7 +896,7 @@ funny answer: crab because her mech gets likened to one</note>
         <label id="1516" label="" color="4" folder="" sort="0" />
         <label id="1517" label="" color="4" folder="" sort="0" />
         <label id="1518" label="" color="4" folder="" sort="0" />
-        <label id="1519" label="" color="4" folder="" sort="0" />
+        <label id="1642" label="" color="4" folder="" sort="0" />
         <label id="1626" label="" color="4" folder="" sort="0" />
         <label id="1593" label="" color="4" folder="" sort="0" />
         <label id="1540" label="" color="4" folder="" sort="0" />
@@ -950,11 +951,21 @@ funny answer: crab because her mech gets likened to one</note>
         <label id="1617" label="" color="4" folder="" sort="0" />
         <label id="1629" label="" color="4" folder="" sort="0" />
         <label id="1632" label="" color="4" folder="" sort="0" />
+        <label id="1637" label="" color="4" folder="" sort="0" />
+        <label id="1638" label="" color="4" folder="" sort="0" />
+        <label id="1639" label="" color="4" folder="" sort="0" />
+        <label id="1640" label="" color="4" folder="" sort="0" />
+        <label id="1641" label="" color="4" folder="" sort="0" />
+        <label id="1645" label="" color="4" folder="" sort="0" />
+        <label id="1646" label="" color="4" folder="" sort="0" />
+        <label id="1647" label="" color="4" folder="" sort="0" />
+        <label id="1648" label="" color="4" folder="" sort="0" />
+        <label id="1649" label="" color="4" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>jura</prefix>
     </prefixes>
-    <nextId>1636</nextId>
+    <nextId>1649</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="1v1">Jura acknowledges that the game has come down to her and one other player.</marker>
@@ -1135,6 +1146,8 @@ funny answer: crab because her mech gets likened to one</note>
         <marker scope="Public" name="caitlin_mb0" />
         <marker scope="Public" name="caitlin0" />
         <marker scope="Public" name="camera" />
+        <marker scope="Public" name="cats0" />
+        <marker scope="Public" name="cats1" />
         <marker scope="Public" name="cd_band" />
         <marker scope="Public" name="cd_cd0" />
         <marker scope="Public" name="cd_play" />
@@ -1536,6 +1549,7 @@ funny answer: crab because her mech gets likened to one</note>
         <marker scope="Public" name="hatsune_miku1" />
         <marker scope="Public" name="height_f" />
         <marker scope="Public" name="height_m" />
+        <marker scope="Public" name="helperchan0" />
         <marker scope="Public" name="heris_passion" />
         <marker scope="Public" name="heris0" />
         <marker scope="Public" name="heris1" />
@@ -1555,6 +1569,7 @@ funny answer: crab because her mech gets likened to one</note>
         <marker scope="Public" name="hilda0" />
         <marker scope="Public" name="hilda01" />
         <marker scope="Public" name="hilda1" />
+        <marker scope="Public" name="hsw0" />
         <marker scope="Public" name="hu_tao_poems" />
         <marker scope="Public" name="hu_tao_pp0" />
         <marker scope="Public" name="hu_tao_zh0" />
@@ -1824,6 +1839,8 @@ funny answer: crab because her mech gets likened to one</note>
         <marker scope="Public" name="leonie0" />
         <marker scope="Public" name="leonie1" />
         <marker scope="Public" name="leonie2" />
+        <marker scope="Public" name="leviathan_resp0" />
+        <marker scope="Public" name="leviathan0" />
         <marker scope="Public" name="lucina_seductionf" />
         <marker scope="Public" name="lucina_seductionm" />
         <marker scope="Public" name="lucina_travel" />
@@ -1875,10 +1892,13 @@ funny answer: crab because her mech gets likened to one</note>
         <marker scope="Public" name="lysithea3s_alt" />
         <marker scope="Public" name="lysithea4" />
         <marker scope="Public" name="lysithea45" />
+        <marker scope="Public" name="lysithea4s" />
         <marker scope="Public" name="lysithea5" />
         <marker scope="Public" name="lysithea56" />
         <marker scope="Public" name="lysithea5s" />
         <marker scope="Public" name="lysithea6" />
+        <marker scope="Public" name="lysithea67" />
+        <marker scope="Public" name="lysithea6s" />
         <marker scope="Public" name="mac10" />
         <marker scope="Public" name="mae0" />
         <marker scope="Public" name="magical_sempai0" />
@@ -2382,6 +2402,8 @@ funny answer: crab because her mech gets likened to one</note>
         <marker scope="Public" name="natsuki_mitama" />
         <marker scope="Public" name="natsuki_pyrrha" />
         <marker scope="Public" name="nayru_jm">Jura tells Nayru that Meia tends to relax the more naked she is.</marker>
+        <marker scope="Public" name="nephenee_resp0" />
+        <marker scope="Public" name="nephenee0" />
         <marker scope="Public" name="neptune_bath" />
         <marker scope="Public" name="neptune_find" />
         <marker scope="Public" name="neptune_girls" />
@@ -2815,6 +2837,7 @@ funny answer: crab because her mech gets likened to one</note>
         <marker scope="Public" name="syrenne_bath" />
         <marker scope="Public" name="syrenne_magic" />
         <marker scope="Public" name="syrenne_tease" />
+        <marker scope="Public" name="tae0" />
         <marker scope="Public" name="taiyaki0" />
         <marker scope="Public" name="takatoshi_gg0" />
         <marker scope="Public" name="takatoshi_love" />
