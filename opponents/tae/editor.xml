@@ -8,6 +8,10 @@
     <nextId>0</nextId>
     <markers>
         <marker scope="Public" name="" />
+        <marker scope="Public" name="jura_annoyance0" />
+        <marker scope="Public" name="kyoko_name0" />
+        <marker scope="Public" name="meia_nolife0" />
+        <marker scope="Public" name="revy_braindead0" />
         <marker scope="Public" name="saki_gone" />
         <marker scope="Public" name="sakura_gone" />
         <marker scope="Public" name="tae_head" />
