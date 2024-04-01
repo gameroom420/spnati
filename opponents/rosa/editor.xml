@@ -166,6 +166,8 @@
         <response id="875" opponent="yae" opponentId="1" />
         <response id="876" opponent="yshtola" opponentId="6" />
         <response id="877" opponent="jura" opponentId="395" />
+        <response id="878" opponent="giygas" opponentId="707" />
+        <response id="879" opponent="giygas" opponentId="708" />
     </responses>
     <notes>
         <note id="2">Rosa mentions that she doesn't remember the rules for Poker.</note>
@@ -980,13 +982,17 @@
         <label id="875" label="" color="6" folder="Targets" sort="0" />
         <label id="876" label="" folder="Targets" sort="0" />
         <label id="877" label="" folder="Responses" sort="0" />
+        <label id="878" label="" folder="Giygas" sort="0" />
+        <label id="879" label="" folder="Giygas" sort="0" />
+        <label id="880" label="" folder="Giygas" sort="0" />
+        <label id="881" label="" folder="Targets&gt;HSW" sort="0" />
+        <label id="882" label="" folder="Targets&gt;HSW" sort="0" />
     </labels>
     <prefixes>
         <prefix>fire</prefix>
     </prefixes>
-    <nextId>877</nextId>
+    <nextId>882</nextId>
     <markers>
-        <marker scope="Public" name="" />
         <marker scope="Public" name="aaravi_avenue" />
         <marker scope="Public" name="aaravi_avenue2" />
         <marker scope="Public" name="aaravi_avenue3" />
@@ -1153,6 +1159,11 @@
         <marker scope="Public" name="ghost_encounter">Rosa mentions having seen a ghost before.</marker>
         <marker scope="Public" name="girls_table" />
         <marker scope="Public" name="girls_table2" />
+        <marker scope="Public" name="giygas_badguy" />
+        <marker scope="Public" name="giygas_bargain" />
+        <marker scope="Public" name="giygas_lightNeverGoOut" />
+        <marker scope="Public" name="giygas_notgonnahappen" />
+        <marker scope="Public" name="giygas_nuhuh" />
         <marker scope="Public" name="gloria_erufuda_fries" />
         <marker scope="Public" name="gloria_rosa_bedroomantics1" />
         <marker scope="Public" name="gloria_rosa_bedroomantics3" />
@@ -1438,6 +1449,7 @@
         <marker scope="Public" name="rosa_DressSense_c" />
         <marker scope="Public" name="rosa_eating_gloria" />
         <marker scope="Public" name="rosa_epilogue_seen" />
+        <marker scope="Public" name="rosa_epilogue2_seen" />
         <marker scope="Public" name="rosa_erufuda_fries" />
         <marker scope="Public" name="rosa_fina_end1answerResp" />
         <marker scope="Public" name="rosa_fina_start2cupil_resp" />
@@ -1472,6 +1484,8 @@
         <marker scope="Public" name="rosa_heris_strip1a" />
         <marker scope="Public" name="rosa_hilbert_lookerStoryResp" />
         <marker scope="Public" name="rosa_hilbert_strip0a" />
+        <marker scope="Public" name="rosa_hsw_0a" />
+        <marker scope="Public" name="rosa_hsw_1a" />
         <marker scope="Public" name="rosa_human_final_round" />
         <marker scope="Public" name="rosa_ignatz_ArtStore0" />
         <marker scope="Public" name="rosa_ignatz_attraction1" />
