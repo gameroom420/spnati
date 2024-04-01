@@ -714,7 +714,7 @@
         <label id="746" label="Vegeta" folder="Prayer&gt;Dragon Ball" sort="2" />
         <label id="747" label="Ludiva" folder="Prayer&gt;!1-Rep Series" sort="10" />
         <label id="748" label="Guile" folder="Prayer&gt;Street Fighter" sort="0" />
-        <label id="749" label="Riki" folder="Prayer&gt;Xenoblade" sort="0" />
+        <label id="749" label="Riki" folder="Prayer&gt;Xenobald Chronicles" sort="0" />
         <label id="750" label="Crusch" folder="Prayer&gt;!1-Rep Series" sort="8" />
         <label id="751" label="Vyse" folder="Prayer&gt;!1-Rep Series" sort="11" />
         <label id="752" label="Natsu" folder="Prayer&gt;Fairy Tail" sort="0" />
@@ -730,7 +730,7 @@
         <label id="762" label="Eris" folder="Prayer&gt;KonoSuba" sort="2" />
         <label id="763" label="Classmates" folder="Prayer&gt;!April Fool’s" sort="19" />
         <label id="764" label="Tadano" folder="Prayer&gt;!1-Rep Series" sort="15" />
-        <label id="765" label="Nia" folder="Prayer&gt;Xenoblade" sort="3" />
+        <label id="765" label="Nia" folder="Prayer&gt;Xenobald Chronicles" sort="3" />
         <label id="766" label="Yui" folder="Prayer&gt;!1-Rep Series" sort="9" />
         <label id="767" label="Sheepherder" folder="Prayer&gt;!1-Rep Series" sort="16" />
         <label id="768" label="Ada" folder="Prayer&gt;Resident Evil" sort="0" />
@@ -761,7 +761,7 @@
         <label id="793" label="Volnutt" folder="Prayer&gt;Mega Man" sort="0" />
         <label id="794" label="Senri" folder="Prayer&gt;!1-Rep Series" sort="26" />
         <label id="795" label="Omega" folder="Prayer&gt;Sonic" sort="2" />
-        <label id="796" label="Juju" folder="Prayer&gt;Xenoblade" sort="2" />
+        <label id="796" label="Juju" folder="Prayer&gt;Xenobald Chronicles" sort="2" />
         <label id="797" label="Orochi" folder="Prayer&gt;Tales" sort="0" />
         <label id="798" label="Sherman" folder="Prayer&gt;!1-Rep Series" sort="27" />
         <label id="799" label="Jet Penguins" folder="Prayer&gt;Legend of Dark Witch" sort="0" />
@@ -777,7 +777,7 @@
         <label id="809" label="Matoya" folder="Prayer&gt;Final Fantasy" sort="0" />
         <label id="810" label="Byakuren" folder="Prayer&gt;Touhou" sort="2" />
         <label id="811" label="Ayumi, Gaku, Yanagi" folder="Prayer&gt;" sort="0" />
-        <label id="812" label="Poppi and Tora" folder="Prayer&gt;Xenobalde" sort="0" />
+        <label id="812" label="Poppi and Tora" folder="Prayer&gt;Xenobald Chronicles" sort="0" />
         <label id="813" label="Damien" folder="Prayer&gt;Monster Prom" sort="2" />
         <label id="814" label="Constanze: Amanda" folder="Prayer&gt;Little Witch Academia" sort="3" />
         <label id="815" label="Constanze: Jasminka" folder="Prayer&gt;Little Witch Academia" sort="4" />
@@ -821,6 +821,11 @@
         <label id="853" label="Allies" folder="Prayer&gt;!April Fool’s" sort="22" />
         <label id="854" label="Darkness" folder="Prayer&gt;!April Fool’s" sort="32" />
         <label id="855" label="Allies only" folder="" sort="0" />
+        <label id="856" label="Track captain" folder="Prayer&gt;Katawa Shoujo" sort="0" />
+        <label id="857" label="Lilly" folder="Prayer&gt;Katawa Shoujo" sort="0" />
+        <label id="858" label="Haruhiko" folder="Prayer&gt;Katawa Shoujo" sort="0" />
+        <label id="859" label="Haruhiko" folder="Prayer&gt;Katawa Shoujo" sort="0" />
+        <label id="860" label="Cat women" folder="Prayer&gt;Darkstalkers" sort="0" />
     </labels>
     <prefixes>
         <prefix>#-giegue</prefix>
@@ -831,7 +836,7 @@
         <prefix>5-</prefix>
         <prefix>6-</prefix>
     </prefixes>
-    <nextId>855</nextId>
+    <nextId>860</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="+TO_rosaHero_galactus" />
@@ -1131,6 +1136,8 @@
         <marker scope="Public" name="P_dunban" />
         <marker scope="Public" name="P_dwight" />
         <marker scope="Public" name="P_elesa" />
+        <marker scope="Public" name="P_emi" />
+        <marker scope="Public" name="P_felicia" />
         <marker scope="Public" name="P_felix" />
         <marker scope="Public" name="P_fernando" />
         <marker scope="Public" name="P_fey" />
@@ -1147,6 +1154,7 @@
         <marker scope="Public" name="P_grunty" />
         <marker scope="Public" name="P_gsc" />
         <marker scope="Public" name="P_guzma" />
+        <marker scope="Public" name="P_hanako" />
         <marker scope="Public" name="P_helperChan" />
         <marker scope="Public" name="P_hilbert" />
         <marker scope="Public" name="P_hildaBW" />
@@ -1225,6 +1233,7 @@
         <marker scope="Public" name="P_mia_ivan" />
         <marker scope="Public" name="P_miaFey" />
         <marker scope="Public" name="P_mikan" />
+        <marker scope="Public" name="P_miki" />
         <marker scope="Public" name="P_miko" />
         <marker scope="Public" name="P_miku" />
         <marker scope="Public" name="P_mileena" />
