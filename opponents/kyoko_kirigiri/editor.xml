@@ -2618,6 +2618,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="2493" label="" folder="Seasonal&gt;April Fool's" sort="129" />
         <label id="2494" label="" folder="Seasonal&gt;April Fool's" sort="136" />
         <label id="2495" label="Tae 0-1" folder="Seasonal&gt;April Fool's" sort="149" />
+        <label id="2496" label="Tae 0-2" folder="Seasonal&gt;April Fool's" sort="0" />
     </labels>
     <prefixes>
         <prefix>#-aside</prefix>
@@ -2647,7 +2648,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
     <posePreviewMarkers>
         <posePreviewMarker>hair==1</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>2495</nextId>
+    <nextId>2496</nextId>
     <markers>
         <marker scope="Public" name="." />
         <marker scope="Public" name="+careerMention" />
@@ -3413,6 +3414,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="sweetheart_selfPillow" />
         <marker scope="Public" name="swissFrancs">Despite being Japanese, she says her jacket cost 90 Swiss francs.</marker>
         <marker scope="Public" name="tae_01" />
+        <marker scope="Public" name="tae_02" />
         <marker scope="Public" name="tae_zombie" />
         <marker scope="Public" name="takeOffMyUndies">And don't let her catch you wearing them again!</marker>
         <marker scope="Public" name="tanlines" />
