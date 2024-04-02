@@ -2595,7 +2595,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="2470" label="Chihiro Victory 0" folder="Technical&gt;Duplicate dialogue" sort="267" />
         <label id="2471" label="Alter Ego Victory" folder="Technical&gt;Duplicate dialogue" sort="268" />
         <label id="2472" label="" folder="Clothing type&gt;Minor" sort="0" />
-        <label id="2473" label="" folder="Seasonal&gt;April Fool's" sort="168" />
+        <label id="2473" label="Yamada 2-3" folder="Targeted&gt;Outbounds&gt;Stage 2" sort="168" />
         <label id="2474" label="" folder="Seasonal&gt;April Fool's" sort="170" />
         <label id="2475" label="" folder="Seasonal&gt;April Fool's" sort="4" />
         <label id="2476" label="" folder="Seasonal&gt;April Fool's" sort="174" />
@@ -2617,8 +2617,47 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="2492" label="" folder="Seasonal&gt;April Fool's" sort="118" />
         <label id="2493" label="" folder="Seasonal&gt;April Fool's" sort="129" />
         <label id="2494" label="" folder="Seasonal&gt;April Fool's" sort="136" />
-        <label id="2495" label="Tae 0-1" folder="Seasonal&gt;April Fool's" sort="149" />
-        <label id="2496" label="Tae 0-2" folder="Seasonal&gt;April Fool's" sort="0" />
+        <label id="2495" label="Yamada 0-1" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="6" />
+        <label id="2496" label="Yamada 0-2" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="2" />
+        <label id="2497" label="Yamada 0-3" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="4" />
+        <label id="2498" label="Yamada 1-1" folder="Targeted&gt;Outbounds&gt;Stage 1" sort="4" />
+        <label id="2499" label="Yamada 1-2A" color="2" folder="Targeted&gt;Outbounds&gt;Stage 1" sort="10" />
+        <label id="2500" label="Yamada 1-3A" color="2" folder="Targeted&gt;Outbounds&gt;Stage 1" sort="16" />
+        <label id="2501" label="Yamada 1-2B" color="3" folder="Targeted&gt;Outbounds&gt;Stage 1" sort="7" />
+        <label id="2502" label="Yamada 1-3B" color="3" folder="Targeted&gt;Outbounds&gt;Stage 1" sort="17" />
+        <label id="2503" label="Yamada 2-1" folder="Targeted&gt;Outbounds&gt;Stage 2" sort="16" />
+        <label id="2504" label="Yamada 2-2" folder="Targeted&gt;Outbounds&gt;Stage 2" sort="18" />
+        <label id="2505" label="Yamada 3-1" folder="Targeted&gt;Outbounds&gt;Stage 3" sort="4" />
+        <label id="2506" label="Yamada 3-2" folder="Targeted&gt;Outbounds&gt;Stage 3" sort="8" />
+        <label id="2507" label="Yamada 3-3" folder="Targeted&gt;Outbounds&gt;Stage 3" sort="12" />
+        <label id="2508" label="Yamada 4-1" folder="Targeted&gt;Outbounds&gt;Stage 4" sort="11" />
+        <label id="2509" label="Yamada 4-2" folder="Targeted&gt;Outbounds&gt;Stage 4" sort="17" />
+        <label id="2510" label="Yamada 4-3A" color="2" folder="Targeted&gt;Outbounds&gt;Stage 4" sort="24" />
+        <label id="2511" label="Yamada 4-3B" color="3" folder="Targeted&gt;Outbounds&gt;Stage 4" sort="25" />
+        <label id="2512" label="Yamada 5-1" folder="Targeted&gt;Outbounds&gt;Stage 5" sort="4" />
+        <label id="2513" label="Yamada 5-2" folder="Targeted&gt;Outbounds&gt;Stage 5" sort="7" />
+        <label id="2514" label="Yamada 5-3" folder="Targeted&gt;Outbounds&gt;Stage 5" sort="11" />
+        <label id="2515" label="Yamada FF 1" folder="Targeted&gt;Outbounds&gt;Forfeit" sort="7" />
+        <label id="2516" label="Yamada FF 2" folder="Targeted&gt;Outbounds&gt;Forfeit" sort="14" />
+        <label id="2517" label="Yamada stage 1-2" folder="Targeted&gt;Replies&gt;Forfeit" sort="0" />
+        <label id="2518" label="Yamada stage 3" folder="Targeted&gt;Replies&gt;Forfeit" sort="0" />
+        <label id="2519" label="Yamada stage 4" folder="Targeted&gt;Replies&gt;Forfeit" sort="0" />
+        <label id="2520" label="Yamada stage 5" folder="Targeted&gt;Replies&gt;Forfeit" sort="0" />
+        <label id="2521" label="Yamada stage 6" folder="Targeted&gt;Replies&gt;Forfeit" sort="0" />
+        <label id="2522" label="Yamada stage 7" folder="Targeted&gt;Replies&gt;Forfeit" sort="0" />
+        <label id="2523" label="" folder="Technical&gt;Duplicate dialogue" sort="257" />
+        <label id="2524" label="Yamada stage 1-2" folder="Technical&gt;Duplicate dialogue" sort="0" />
+        <label id="2525" label="Yamada stage 3" folder="Technical&gt;Duplicate dialogue" sort="0" />
+        <label id="2526" label="Yamada stage 4" folder="Technical&gt;Duplicate dialogue" sort="0" />
+        <label id="2527" label="Yamada stage 5" folder="Technical&gt;Duplicate dialogue" sort="0" />
+        <label id="2528" label="Yamada memory: 0" folder="Technical" sort="0" />
+        <label id="2529" label="Yamada memory: 1" folder="Technical" sort="0" />
+        <label id="2530" label="Yamada memory: 2" folder="Technical" sort="0" />
+        <label id="2531" label="Yamada memory: 3" folder="Technical" sort="0" />
+        <label id="2532" label="Yamada memory: 4" folder="Technical" sort="0" />
+        <label id="2533" label="Yamada memory: 5" folder="Technical" sort="0" />
+        <label id="2534" label="Yamada memory: 7" folder="Technical" sort="0" />
+        <label id="2535" label="Yamada memory: 7" folder="Technical" sort="0" />
     </labels>
     <prefixes>
         <prefix>#-aside</prefix>
@@ -2648,11 +2687,8 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
     <posePreviewMarkers>
         <posePreviewMarker>hair==1</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>2496</nextId>
+    <nextId>2535</nextId>
     <markers>
-        <marker scope="Public" name="." />
-        <marker scope="Public" name="+careerMention" />
-        <marker scope="Public" name="+quips" />
         <marker scope="Public" name="ae86_strip" />
         <marker scope="Public" name="ae86_strip01" />
         <marker scope="Public" name="aella_weapons" />
@@ -3415,6 +3451,30 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="swissFrancs">Despite being Japanese, she says her jacket cost 90 Swiss francs.</marker>
         <marker scope="Public" name="tae_01" />
         <marker scope="Public" name="tae_02" />
+        <marker scope="Public" name="tae_03" />
+        <marker scope="Public" name="tae_11" />
+        <marker scope="Public" name="tae_12" />
+        <marker scope="Public" name="tae_12a" />
+        <marker scope="Public" name="tae_12b" />
+        <marker scope="Public" name="tae_13a" />
+        <marker scope="Public" name="tae_13b" />
+        <marker scope="Public" name="tae_21" />
+        <marker scope="Public" name="tae_22" />
+        <marker scope="Public" name="tae_31" />
+        <marker scope="Public" name="tae_32" />
+        <marker scope="Public" name="tae_33" />
+        <marker scope="Public" name="tae_41" />
+        <marker scope="Public" name="tae_42" />
+        <marker scope="Public" name="tae_43" />
+        <marker scope="Public" name="tae_43a" />
+        <marker scope="Public" name="tae_43b" />
+        <marker scope="Public" name="tae_51" />
+        <marker scope="Public" name="tae_52" />
+        <marker scope="Public" name="tae_53" />
+        <marker scope="Public" name="tae_ff1" />
+        <marker scope="Public" name="tae_ff2" />
+        <marker scope="Public" name="tae_playedWith" />
+        <marker scope="Public" name="tae_selfMustForfeit" />
         <marker scope="Public" name="tae_zombie" />
         <marker scope="Public" name="takeOffMyUndies">And don't let her catch you wearing them again!</marker>
         <marker scope="Public" name="tanlines" />
