@@ -1086,6 +1086,7 @@
         <marker scope="Public" name="MeiaBodysuit3" />
         <marker scope="Public" name="MeiaBothLost" />
         <marker scope="Public" name="MeiaBra1" />
+        <marker scope="Public" name="MeiaBra2" />
         <marker scope="Public" name="MeiaBra3" />
         <marker scope="Public" name="MeiaEyepiece1" />
         <marker scope="Public" name="MeiaEyepiece2" />
