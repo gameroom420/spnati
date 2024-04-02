@@ -483,6 +483,8 @@
         <response id="2976" opponent="sanako" opponentId="195" />
         <response id="2983" opponent="shamiko" opponentId="52" />
         <response id="3013" opponent="aaravi" opponentId="614" />
+        <response id="3020" opponent="yae_miko" opponentId="218" />
+        <response id="3022" opponent="leviathan" opponentId="31" />
     </responses>
     <notes>
         <note id="412">Yes, Mari is implying that Kazuma is lying just to see her pose naked for him. You are free to have Kazuma defend his case, so to speak.</note>
@@ -3402,7 +3404,7 @@
         <label id="2942" label="" folder="Silly Succubus Nform" sort="87" />
         <label id="2943" label="" folder="Silly Succubus Nform" sort="88" />
         <label id="2944" label="" folder="Silly Succubus Nform" sort="86" />
-        <label id="2945" label="" folder="Silly Succubus" sort="87" />
+        <label id="2945" label="" folder="Silly Succubus" sort="0" />
         <label id="2946" label="" folder="Silly Succubus Nform" sort="54" />
         <label id="2947" label="" folder="Silly Succubus Nform" sort="55" />
         <label id="2948" label="" folder="Silly Succubus Nform" sort="56" />
@@ -3446,11 +3448,11 @@
         <label id="2986" label="" color="3" folder="Replies" sort="579" />
         <label id="2987" label="" color="3" folder="Replies" sort="580" />
         <label id="2988" label="" color="1" folder="Replies" sort="237" />
-        <label id="2989" label="" color="1" folder="Targets" sort="0" />
-        <label id="2990" label="" color="1" folder="Targets" sort="0" />
-        <label id="2991" label="" color="1" folder="Targets" sort="0" />
-        <label id="2992" label="" color="1" folder="Targets" sort="0" />
-        <label id="2993" label="" color="1" folder="Targets" sort="0" />
+        <label id="2989" label="" folder="Targets" sort="0" />
+        <label id="2990" label="" folder="Targets" sort="0" />
+        <label id="2991" label="" folder="Targets" sort="0" />
+        <label id="2992" label="" folder="Targets" sort="0" />
+        <label id="2993" label="" folder="Targets" sort="0" />
         <label id="2994" label="" folder="Replies" sort="0" />
         <label id="2995" label="" folder="Replies" sort="0" />
         <label id="2996" label="" folder="Replies" sort="0" />
@@ -3475,8 +3477,15 @@
         <label id="3015" label="" color="3" folder="Replies" sort="0" />
         <label id="3016" label="" color="1" folder="Targets" sort="0" />
         <label id="3017" label="" color="1" folder="Targets" sort="0" />
+        <label id="3018" label="" folder="Silly Succubus" sort="0" />
+        <label id="3019" label="" folder="Silly Succubus" sort="0" />
+        <label id="3020" label="" color="1" folder="Replies" sort="0" />
+        <label id="3021" label="" color="1" folder="Replies" sort="0" />
+        <label id="3022" label="" color="3" folder="Targets" sort="0" />
+        <label id="3023" label="" color="1" folder="Targets" sort="0" />
+        <label id="3024" label="" color="1" folder="Targets" sort="0" />
     </labels>
-    <nextId>3017</nextId>
+    <nextId>3024</nextId>
     <markers>
         <marker scope="Public" name="Aaravi_chest_achievement" />
         <marker scope="Public" name="Aaravi_CulturalExchange_reply2Peers" />
@@ -4360,6 +4369,8 @@
         <marker scope="Public" name="LeonNatsuki_sheHasAChanceRight3" />
         <marker scope="Public" name="let_em_drop" />
         <marker scope="Public" name="let_em_drop_cont" />
+        <marker scope="Public" name="Leviathan_functionalBits" />
+        <marker scope="Public" name="Leviathan_swimmer" />
         <marker scope="Public" name="Lux_catpuns_reply" />
         <marker scope="Public" name="Lux_knight_question" />
         <marker scope="Public" name="Lux_mast_go_somewhereReply" />
@@ -5205,6 +5216,7 @@
         <marker scope="Public" name="YaeMiko_shrineCare" />
         <marker scope="Public" name="YaeMiko_shrineCare_cont" />
         <marker scope="Public" name="YaeMiko_shrineCare_end" />
+        <marker scope="Public" name="YaeMiko_succubiSlander_reply" />
         <marker scope="Public" name="YaeMiko_vampireNovel" />
         <marker scope="Public" name="YaeMiko_vampireNovel_cont" />
         <marker scope="Public" name="YaeMiko_vampireNovel_end" />

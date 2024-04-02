@@ -536,6 +536,42 @@
                 <keyframe time="1.2" src="reskins/mari_setogaya_silly_succubus/Detransform4N.png" />
             </directive>
         </pose>
+        <pose id="8-AFbuttHonkHonk">
+            <sprite id="buttHonk" src="reskins/mari_setogaya_silly_succubus/6-butt_grab2.png" x="0" y="0" />
+            <sprite id="HONK" src="reskins/mari_setogaya_silly_succubus/HONK.png" x="-170" y="652" scalex="0.6" scaley="0.6" alpha="0" rotation="-12" />
+            <sprite id="HONK(copy)" src="reskins/mari_setogaya_silly_succubus/HONK.png" x="-170" y="652" scalex="0.6" scaley="0.6" alpha="0" rotation="-12" />
+            <directive type="animation" id="buttHonk" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/mari_setogaya_silly_succubus/6-butt_grab2.png" />
+                <keyframe time="1" src="reskins/mari_setogaya_silly_succubus/6-butt_grab.png" />
+                <keyframe time="1.4" src="reskins/mari_setogaya_silly_succubus/6-butt_grab2.png" />
+                <keyframe time="1.8" src="reskins/mari_setogaya_silly_succubus/6-butt_grab.png" />
+                <keyframe time="2.2" src="reskins/mari_setogaya_silly_succubus/6-butt_grab2.png" />
+            </directive>
+            <directive type="animation" id="HONK" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="-170" />
+                <keyframe time="1" x="-170" />
+                <keyframe time="1.75" x="-380" />
+            </directive>
+            <directive type="animation" id="HONK" ease="linear" interpolation="linear">
+                <keyframe time="0" y="652" scalex="0.6" scaley="0.6" alpha="0" rotation="-12" />
+                <keyframe time="1" alpha="0" />
+                <keyframe time="1.12" alpha="100" />
+                <keyframe time="1.75" alpha="100" />
+                <keyframe time="1.88" alpha="0" />
+            </directive>
+            <directive type="animation" id="HONK(copy)" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="-170" />
+                <keyframe time="1.8" x="-170" />
+                <keyframe time="2.55" x="-380" />
+            </directive>
+            <directive type="animation" id="HONK(copy)" ease="linear" interpolation="linear">
+                <keyframe time="0" y="652" scalex="0.6" scaley="0.6" alpha="0" rotation="-12" />
+                <keyframe time="1.8" alpha="0" />
+                <keyframe time="1.92" alpha="100" />
+                <keyframe time="2.55" alpha="100" />
+                <keyframe time="2.68" alpha="0" />
+            </directive>
+        </pose>
         <pose id="6-AFbuttHonkHonk">
             <sprite id="buttHonk" src="reskins/mari_setogaya_silly_succubus/6-butt_grab2.png" x="0" y="0" />
             <sprite id="HONK" src="reskins/mari_setogaya_silly_succubus/HONK.png" x="-170" y="652" scalex="0.6" scaley="0.6" alpha="0" rotation="-12" />
