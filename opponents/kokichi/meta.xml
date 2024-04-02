@@ -1,16 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1712014646217</lastupdate>
-    <enabled>true</enabled>
+    <lastupdate>1712026129981</lastupdate>
+    <enabled>false</enabled>
     <first>Kokichi</first>
     <last>Ouma</last>
     <label>Kokichi</label>
-    <pic>0-neutral.png</pic>
+    <pic />
     <gender>male</gender>
-    <from>Danganronpa V3</from>
-    <writer>Thursday, BlackKodi, AztecSirachup, Kati, Tortilla</writer>
-    <artist>Halo, Kati</artist>
-    <description>The Ultimate Supreme Leader, and the head of a mysterious organization known as D.I.C.E. He is equal parts intelligent and irritating, with a little pompousness mixed in as well.</description>
     <layers>8</layers>
     <lines>565</lines>
     <poses>183</poses>
