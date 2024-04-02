@@ -1,8 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <metadata>
     <owner>kokichi</owner>
+    <height>5'1</height>
+    <age />
+    <pronunciation />
+    <othernotes />
+    <responses>
+        <response id="27" opponent="jasmine" opponentId="1" />
+        <response id="29" opponent="jason" opponentId="26" />
+        <response id="30" opponent="miko" opponentId="6" />
+        <response id="31" opponent="nami" opponentId="10" />
+    </responses>
+    <notes>
+        <note id="32">This case was hidden due to no longer making sense after changes were made to the targeted character. If you're rewriting this character, feel free to delete it.</note>
+    </notes>
     <nextId>32</nextId>
     <markers>
+        <marker scope="Public" name="bitter" />
         <marker scope="Public" name="CAR" />
         <marker scope="Public" name="debug" />
         <marker scope="Public" name="design" />
