@@ -218,6 +218,7 @@
 		<opponent addedDate="2019-02-01" release="176" highlight="updated">ribbon_girl</opponent> <!-- expires 2024-04-17 -->
 		<opponent addedDate="2023-06-26" release="296" highlight="new">yae</opponent> <!-- expires 2024-05-02 -->
 		<opponent addedDate="2023-06-26" release="297" highlight="new">sofia</opponent> <!-- expires 2024-05-02 -->
+        <opponent addedDate="2020-04-01" status="testing">kokichi</opponent>
 		<opponent addedDate="2024-03-31" status="testing">nephenee</opponent>
 		<opponent addedDate="2024-03-31" status="testing">leviathan</opponent>		
 		<opponent addedDate="2024-03-25" status="testing">aoi_asahina</opponent>
@@ -310,7 +311,6 @@
 		<opponent addedDate="2018-09-23" status="incomplete">kali</opponent>
 		<opponent addedDate="2016-10-29" release="25" status="incomplete">kim</opponent>
 		<opponent addedDate="2018-06-02" status="incomplete">kimberly</opponent>
-		<opponent addedDate="2020-04-01" status="incomplete">kokichi</opponent>
 		<opponent addedDate="2017-01-15" release="44" status="incomplete">korra</opponent>
 		<opponent addedDate="2015-06-30" release="1" status="incomplete">lara</opponent>
 		<opponent addedDate="2019-08-01" status="incomplete">leafy</opponent>
