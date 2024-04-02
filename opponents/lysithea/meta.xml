@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1711915049972</lastupdate>
+    <lastupdate>1712018205781</lastupdate>
     <enabled>false</enabled>
     <first>Lysithea</first>
     <last>von Ordelia</last>
@@ -13,6 +13,6 @@
     <description>Lysithea is an adept student and a loyal friend. Persistent, impatient, and smart, she enters the Inventory to enjoy herself and experience physical intimacy in an environment that won't distract from her studies or responsibilities. </description>
     <layers>7</layers>
     <default-costume-name>War Outfit</default-costume-name>
-    <lines>1602</lines>
-    <poses>283</poses>
+    <lines>1624</lines>
+    <poses>284</poses>
 </opponent>

@@ -687,10 +687,13 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <label id="553" label="" folder="Divine and Demonic Opponents" sort="0" />
         <label id="554" label="" folder="Divine and Demonic Opponents" sort="0" />
         <label id="555" label="" folder="Male Opponents" sort="0" />
-        <label id="556" label="Human lines, brat" folder="" sort="0" />
-        <label id="557" label="Human lines, dom" folder="" sort="0" />
+        <label id="556" label="Human lines, brat" color="11" folder="" sort="0" />
+        <label id="557" label="Human lines, dom" color="11" folder="" sort="0" />
+        <label id="558" label="" color="9" folder="" sort="0" />
+        <label id="559" label="" color="9" folder="" sort="0" />
+        <label id="560" label="" color="9" folder="" sort="0" />
     </labels>
-    <nextId>557</nextId>
+    <nextId>560</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="ask" />
