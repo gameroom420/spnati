@@ -5,10 +5,26 @@
     <age />
     <pronunciation />
     <othernotes />
+    <noteworthy>
+        <case name="HSW leaves" id="31" priority="Noteworthy" min="0" max="0">
+            <description>If Hot Spring Woman is not played in the hot spring background, she outright leaves.</description>
+        </case>
+        <case name="Hot Spring Invitation" id="32" priority="Prompt" min="4" max="4">
+            <description>Hot Spring Woman asks the other players if they'd like to get in the water with her.</description>
+        </case>
+        <case name="HSW about to get in the water" id="33" priority="FYI" min="4" max="4">
+            <description>Hot Spring Woman indicates that she's about to get in the hot spring.</description>
+        </case>
+        <case name="HSW in hot spring" id="34" priority="Noteworthy" min="4" max="4">
+            <description>Hot Spring Woman gets in the water and remains there for the rest of the game (IMPORTANT: If you respond to this beware that this is a global line).</description>
+        </case>
+    </noteworthy>
     <responses>
         <response id="4" opponent="kumatora" opponentId="170" />
         <response id="16" opponent="giygas" opponentId="209" />
         <response id="28" opponent="rose" opponentId="26" />
+        <response id="35" opponent="rosa" opponentId="882" />
+        <response id="36" opponent="rosa" opponentId="881" />
     </responses>
     <labels>
         <label id="1" label="" folder="Targets" sort="0" />
@@ -41,8 +57,10 @@
         <label id="28" label="" folder="PromptResponses" sort="0" />
         <label id="29" label="" folder="Targets" sort="0" />
         <label id="30" label="" folder="Targets" sort="0" />
+        <label id="35" label="" color="5" folder="Replies" sort="0" />
+        <label id="36" label="" color="5" folder="Replies" sort="0" />
     </labels>
-    <nextId>30</nextId>
+    <nextId>36</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="AccessoryMinor_Thinking" />
@@ -57,11 +75,14 @@
         <marker scope="Public" name="GettingInHotSprings" />
         <marker scope="Public" name="Giygas_stop" />
         <marker scope="Public" name="Giygas_stop2" />
+        <marker scope="Public" name="HotSpring_dipInvitation" />
         <marker scope="Public" name="Kumatora_GameStart" />
         <marker scope="Public" name="Kumatora_pendat" />
         <marker scope="Public" name="Kumatora_pendat2" />
         <marker scope="Public" name="No_hot_springs" />
         <marker scope="Public" name="Playing_poker" />
+        <marker scope="Public" name="Rosa_reply1" />
+        <marker scope="Public" name="Rosa_reply2" />
         <marker scope="Public" name="Rose_clothes1" />
         <marker scope="Public" name="Rose_clothes1B" />
         <marker scope="Public" name="Rose_hotSprings" />
