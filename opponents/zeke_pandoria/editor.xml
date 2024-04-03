@@ -154,6 +154,7 @@
         <response id="0" opponent="nephenee" opponentId="12" />
         <response id="656" opponent="meia" opponentId="1757" />
         <response id="657" opponent="meia" opponentId="1758" />
+        <response id="678" opponent="aoi_asahina" opponentId="211" />
     </responses>
     <notes>
         <note id="10">If you want to ask Pandoria / Pandy questions, you could draw attention to the fact that some of her body parts are lightbulbs, such as a lightbulb in her head.. and her tail. Her specific race is known as a "Blade".</note>
@@ -832,9 +833,9 @@
         <label id="652" label="" folder="Responses" sort="87" />
         <label id="653" label="" color="3" folder="Targets" sort="110" />
         <label id="654" label="" color="3" folder="Targets" sort="111" />
-        <label id="655" label="" folder="Targets" sort="112" />
+        <label id="655" label="" color="3" folder="Targets" sort="112" />
         <label id="656" label="" color="3" folder="Responses" sort="88" />
-        <label id="657" label="" folder="Responses" sort="89" />
+        <label id="657" label="" color="3" folder="Responses" sort="89" />
         <label id="658" label="" folder="#Sponsorship&gt;Lokkit&gt;Pandoria Lines" sort="16" />
         <label id="659" label="" folder="Filtered" sort="0" />
         <label id="660" label="" folder="Filtered" sort="0" />
@@ -843,14 +844,27 @@
         <label id="663" label="" folder="Filtered" sort="0" />
         <label id="664" label="" folder="Filtered" sort="0" />
         <label id="665" label="" folder="Filtered" sort="0" />
+        <label id="666" label="" folder="Targets" sort="0" />
+        <label id="667" label="" color="3" folder="Responses" sort="0" />
+        <label id="668" label="" folder="Responses" sort="0" />
+        <label id="669" label="" folder="Summer After Strip Lines" sort="0" />
+        <label id="670" label="" folder="Summer After Strip Lines" sort="0" />
+        <label id="671" label="" folder="Summer After Strip Lines" sort="0" />
+        <label id="672" label="" folder="Summer After Strip Lines" sort="0" />
+        <label id="673" label="" folder="Summer After Strip Lines" sort="0" />
+        <label id="674" label="" folder="Summer After Strip Lines" sort="0" />
+        <label id="675" label="" color="2" folder="" sort="0" />
+        <label id="676" label="" color="2" folder="" sort="0" />
+        <label id="677" label="" color="2" folder="" sort="0" />
+        <label id="678" label="" folder="Responses" sort="0" />
+        <label id="679" label="" color="1" folder="Targets" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>penis=h</posePreviewMarker>
     </posePreviewMarkers>
     <onlyCustomPoses>true</onlyCustomPoses>
-    <nextId>665</nextId>
+    <nextId>679</nextId>
     <markers>
-        <marker scope="Public" name="" />
         <marker scope="Public" name="allowsex">If set to 1, Zeke and Pandoria *can* (but are not guaranteed to) have sex for their forfeit.</marker>
         <marker scope="Public" name="allowsex_lockin" />
         <marker scope="Public" name="arle_adaptquestion" />
@@ -887,6 +901,8 @@
         <marker scope="Public" name="hand_pandy_exposition1" />
         <marker scope="Public" name="heavy_ff_insertion_start" />
         <marker scope="Public" name="heavy_ff_intercrural_start" />
+        <marker scope="Public" name="hotspring_1" />
+        <marker scope="Public" name="hotspring_2" />
         <marker scope="Public" name="how_wars_profit_nopon" />
         <marker scope="Public" name="hsw_join" />
         <marker scope="Public" name="hsw_wantToJoin" />
@@ -916,6 +932,7 @@
         <marker scope="Public" name="pandy_jura_strip2" />
         <marker scope="Public" name="pandy_jura_strip2b" />
         <marker scope="Public" name="pandy_jura_strip2c" />
+        <marker scope="Public" name="pandy_jura_strip3" />
         <marker scope="Public" name="pandy_kora_self0a" />
         <marker scope="Public" name="pandy_kyouko_comedian1" />
         <marker scope="Public" name="pandy_kyouko_pickupLine1" />
@@ -1135,6 +1152,7 @@
         <marker scope="Public" name="zeke_meia_self4c" />
         <marker scope="Public" name="zeke_meia_self5a" />
         <marker scope="Public" name="zeke_meia_self5b" />
+        <marker scope="Public" name="zeke_meia_self5c" />
         <marker scope="Public" name="zeke_meia_strip0a" />
         <marker scope="Public" name="zeke_meia_strip0b" />
         <marker scope="Public" name="zeke_meia_strip0c" />
@@ -1144,6 +1162,7 @@
         <marker scope="Public" name="zeke_meia_strip2a" />
         <marker scope="Public" name="zeke_meia_strip2b" />
         <marker scope="Public" name="zeke_meia_strip3a" />
+        <marker scope="Public" name="zeke_meia_strip3b" />
         <marker scope="Public" name="zeke_misaka_strip0a" />
         <marker scope="Public" name="zeke_nadeshiko_fancy1" />
         <marker scope="Public" name="zeke_nadeshiko_fancy2" />
@@ -1191,11 +1210,13 @@
         <marker scope="Public" name="zekepandy_caitlin_strip0a" />
         <marker scope="Public" name="zekepandy_caitlin_strip0b" />
         <marker scope="Public" name="zekepandy_caitlin_strip0c" />
+        <marker scope="Public" name="zekepandy_jura_strip3" />
         <marker scope="Public" name="zekepandy_meia_self1a" />
         <marker scope="Public" name="zekepandy_meia_self1b" />
         <marker scope="Public" name="zekepandy_meia_self1c" />
         <marker scope="Public" name="zekepandy_meia_self2a" />
         <marker scope="Public" name="zekepandy_meia_self2b" />
+        <marker scope="Public" name="zekepandy_meia_self2c" />
         <marker scope="Public" name="zekepandy_miko_selfGloves1" />
         <marker scope="Public" name="zekepandy_miko_selfGloves2" />
         <marker scope="Public" name="zekepandy_miko_selfGloves3" />
@@ -1224,6 +1245,7 @@
         <marker scope="Public" name="zoe_swapRoles" />
         <marker scope="Public" name="Zoe_ZekePandoriaAbsResp" />
         <marker scope="Public" name="zp_aoi_self0a" />
+        <marker scope="Public" name="zp_aoi_self0b" />
         <marker scope="Public" name="zp_aura_camera1" />
         <marker scope="Public" name="zp_bowsette_robotGFresp" />
         <marker scope="Public" name="zp_caitlin_single1" />
