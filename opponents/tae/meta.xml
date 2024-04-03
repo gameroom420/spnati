@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1712008179581</lastupdate>
+    <lastupdate>1712107801504</lastupdate>
     <enabled>false</enabled>
     <first>Tae</first>
     <last>Yamada</last>
@@ -12,6 +12,6 @@
     <artist>Bluekoin (posing), MisterSolitare (model, posing)</artist>
     <description>Tae Yamada, aka Number Zero, is part of the group Franchouchou. Though an idol, she doesn't sing and often "does her own thing" when dancing - in fact, she can't really speak well.</description>
     <layers>6</layers>
-    <lines>342</lines>
+    <lines>372</lines>
     <poses>167</poses>
 </opponent>
