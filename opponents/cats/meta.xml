@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1711997973467</lastupdate>
+    <lastupdate>1712173226863</lastupdate>
     <enabled>false</enabled>
     <first>CATS</first>
     <last />
@@ -13,7 +13,7 @@
     <description>MESSAGE FROM FEDERATION COMMAND TO PILOT OF 'ZIG-01': CATS HAS RETURN TO SYSTEM. ALL FEDERATION BASE ARE LOST. YOU ARE OUR ONLY HOPE. DISTRACT IN GAME OF POKER TO OVERLOAD SYSTEM. FOR GREAT JUSTICE!</description>
     <layers>7</layers>
     <has_collectibles>true</has_collectibles>
-    <lines>143</lines>
+    <lines>152</lines>
     <poses>66</poses>
     <z-index>-69</z-index>
 </opponent>
