@@ -209,11 +209,18 @@
         <label id="207" label="CoMast4" folder="" sort="0" />
         <label id="208" label="Beach" folder="Backgrounds" sort="0" />
         <label id="210" label="" folder="Situations" sort="0" />
+        <label id="212" label="" folder="Situations" sort="0" />
+        <label id="213" label="" folder="Target: Kyoko" sort="0" />
+        <label id="214" label="" folder="Target: Kyoko" sort="0" />
+        <label id="215" label="" folder="Target: Kyoko" sort="0" />
     </labels>
-    <nextId>210</nextId>
+    <nextId>215</nextId>
     <markers>
         <marker scope="Private" name="B_">Background related markers.</marker>
         <marker scope="Public" name="B_BeachTan" />
+        <marker scope="Public" name="B_DRClassroom" />
+        <marker scope="Public" name="B_KyokoClassroom" />
+        <marker scope="Public" name="B_KyokoShower" />
         <marker scope="Private" name="D_">Dialogue that doesn't fit in other categories.</marker>
         <marker scope="Public" name="D_Ability" />
         <marker scope="Public" name="D_BoobDistract" />
@@ -275,12 +282,14 @@
         <marker scope="Public" name="T_ChihiroSecret" />
         <marker scope="Public" name="T_ChihiroStart" />
         <marker scope="Public" name="T_ChihiroStripping4" />
+        <marker scope="Public" name="T_KokichiStart" />
         <marker scope="Public" name="T_Kyoko_1-2Junko" />
         <marker scope="Public" name="T_Kyoko_EndingL">Kyoko wins, Hina lost.</marker>
         <marker scope="Public" name="T_Kyoko_EndingW">Hina wins. Kyoko lost.</marker>
         <marker scope="Public" name="T_Kyoko_IntroWater" />
         <marker scope="Public" name="T_Kyoko_Junko" />
         <marker scope="Public" name="T_Kyoko_Lost0Trio" />
+        <marker scope="Public" name="T_KyokoAlley" />
         <marker scope="Public" name="T_KyokoChihiro" />
         <marker scope="Public" name="T_KyokoCoMast1" />
         <marker scope="Public" name="T_KyokoCoMast2" />
@@ -303,11 +312,13 @@
         <marker scope="Public" name="T_Sweetheart_TLost0" />
         <marker scope="Public" name="T_SweetheartStart" />
         <marker scope="Public" name="T_TwoKyokoLost0" />
+        <marker scope="Public" name="T_ZekeLost0" />
         <marker scope="Private" name="TI_">Targeted lines when Hina is stripping</marker>
         <marker scope="Public" name="TI_Aqua_01Chihiro" />
         <marker scope="Public" name="TI_Aqua_01Kyoko" />
         <marker scope="Public" name="TI_Aqua_01Student" />
         <marker scope="Public" name="TI_Aqua_11Training" />
+        <marker scope="Public" name="TI_Aqua_12PJs" />
         <marker scope="Public" name="TI_Jura_01" />
         <marker scope="Public" name="TI_Jura_0-1Swim" />
         <marker scope="Public" name="TI_Kyoko_0Trio" />
@@ -354,6 +365,7 @@
         <marker scope="Public" name="TO_Chihiro_4-3" />
         <marker scope="Public" name="TO_Chihiro_4-3AlterEgo" />
         <marker scope="Public" name="TO_Chihiro_5-3" />
+        <marker scope="Public" name="TO_Kokichi_01" />
         <marker scope="Public" name="TO_Kyoko_01" />
         <marker scope="Public" name="TO_Kyoko_0-1">Kyoko Must Strip Stage 0</marker>
         <marker scope="Public" name="TO_Kyoko_1-2Junko" />
@@ -380,6 +392,7 @@
         <marker scope="Public" name="TO_Sweetheart_0-1">Sweetheart Must Strip Stage 0</marker>
         <marker scope="Public" name="TO_Zeke_01" />
         <marker scope="Public" name="TO_Zeke_0-1" />
+        <marker scope="Public" name="TO_Zeke_02HowTheyMet" />
         <marker scope="Private" name="Z_">Intenal state. Vast majority of this will only be relevant to Aoi herself.</marker>
         <marker scope="Public" name="Z_AoiIsConfident" />
         <marker scope="Public" name="Z_AoiVictory" />
