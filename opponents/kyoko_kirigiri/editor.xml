@@ -2639,25 +2639,29 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="2514" label="Yamada 5-3" folder="Targeted&gt;Outbounds&gt;Stage 5" sort="11" />
         <label id="2515" label="Yamada FF 1" folder="Targeted&gt;Outbounds&gt;Forfeit" sort="7" />
         <label id="2516" label="Yamada FF 2" folder="Targeted&gt;Outbounds&gt;Forfeit" sort="14" />
-        <label id="2517" label="Yamada stage 1-2" folder="Targeted&gt;Replies&gt;Forfeit" sort="0" />
-        <label id="2518" label="Yamada stage 3" folder="Targeted&gt;Replies&gt;Forfeit" sort="0" />
-        <label id="2519" label="Yamada stage 4" folder="Targeted&gt;Replies&gt;Forfeit" sort="0" />
-        <label id="2520" label="Yamada stage 5" folder="Targeted&gt;Replies&gt;Forfeit" sort="0" />
-        <label id="2521" label="Yamada stage 6" folder="Targeted&gt;Replies&gt;Forfeit" sort="0" />
-        <label id="2522" label="Yamada stage 7" folder="Targeted&gt;Replies&gt;Forfeit" sort="0" />
+        <label id="2517" label="Yamada stage 1-2" folder="Targeted&gt;Replies&gt;Forfeit" sort="8" />
+        <label id="2518" label="Yamada stage 3" folder="Targeted&gt;Replies&gt;Forfeit" sort="9" />
+        <label id="2519" label="Yamada stage 4" folder="Targeted&gt;Replies&gt;Forfeit" sort="10" />
+        <label id="2520" label="Yamada stage 5" folder="Targeted&gt;Replies&gt;Forfeit" sort="7" />
+        <label id="2521" label="Yamada stage 6" folder="Targeted&gt;Replies&gt;Forfeit" sort="11" />
+        <label id="2522" label="Yamada stage 7" folder="Targeted&gt;Replies&gt;Forfeit" sort="12" />
         <label id="2523" label="" folder="Technical&gt;Duplicate dialogue" sort="257" />
-        <label id="2524" label="Yamada stage 1-2" folder="Technical&gt;Duplicate dialogue" sort="0" />
-        <label id="2525" label="Yamada stage 3" folder="Technical&gt;Duplicate dialogue" sort="0" />
-        <label id="2526" label="Yamada stage 4" folder="Technical&gt;Duplicate dialogue" sort="0" />
-        <label id="2527" label="Yamada stage 5" folder="Technical&gt;Duplicate dialogue" sort="0" />
-        <label id="2528" label="Yamada memory: 0" folder="Technical" sort="0" />
-        <label id="2529" label="Yamada memory: 1" folder="Technical" sort="0" />
-        <label id="2530" label="Yamada memory: 2" folder="Technical" sort="0" />
-        <label id="2531" label="Yamada memory: 3" folder="Technical" sort="0" />
-        <label id="2532" label="Yamada memory: 4" folder="Technical" sort="0" />
-        <label id="2533" label="Yamada memory: 5" folder="Technical" sort="0" />
-        <label id="2534" label="Yamada memory: 7" folder="Technical" sort="0" />
-        <label id="2535" label="Yamada memory: 7" folder="Technical" sort="0" />
+        <label id="2524" label="Yamada stage 1-2" folder="Technical&gt;Duplicate dialogue" sort="266" />
+        <label id="2525" label="Yamada stage 3" folder="Technical&gt;Duplicate dialogue" sort="267" />
+        <label id="2526" label="Yamada stage 4" folder="Technical&gt;Duplicate dialogue" sort="268" />
+        <label id="2527" label="Yamada stage 5" folder="Technical&gt;Duplicate dialogue" sort="265" />
+        <label id="2528" label="Yamada memory: 0" folder="Technical" sort="49" />
+        <label id="2529" label="Yamada memory: 1" folder="Technical" sort="50" />
+        <label id="2530" label="Yamada memory: 2" folder="Technical" sort="51" />
+        <label id="2531" label="Yamada memory: 3" folder="Technical" sort="52" />
+        <label id="2532" label="Yamada memory: 4" folder="Technical" sort="53" />
+        <label id="2533" label="Yamada memory: 5" folder="Technical" sort="54" />
+        <label id="2534" label="Yamada memory: 8" folder="Technical" sort="55" />
+        <label id="2535" label="Yamada memory: 8" folder="Technical" sort="47" />
+        <label id="2536" label="Entering hot spring" folder="Seasonal&gt;April Fool's" sort="148" />
+        <label id="2537" label="In hot spring" folder="Seasonal&gt;April Fool's" sort="0" />
+        <label id="2538" label="In hot spring with ZP" folder="Seasonal&gt;April Fool's" sort="0" />
+        <label id="2539" label="Yamada memory: 6" folder="Technical" sort="47" />
     </labels>
     <prefixes>
         <prefix>#-aside</prefix>
@@ -2687,8 +2691,13 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
     <posePreviewMarkers>
         <posePreviewMarker>hair==1</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>2535</nextId>
+    <nextId>2539</nextId>
     <markers>
+        <marker scope="Public" name="" />
+        <marker scope="Public" name="." />
+        <marker scope="Public" name="+careerMention" />
+        <marker scope="Public" name="+hsw_inBG_any" />
+        <marker scope="Public" name="+quips" />
         <marker scope="Public" name="ae86_strip" />
         <marker scope="Public" name="ae86_strip01" />
         <marker scope="Public" name="aella_weapons" />
@@ -3106,8 +3115,11 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="hsw_ff2" />
         <marker scope="Public" name="hsw_fled" />
         <marker scope="Public" name="hsw_inBG" />
+        <marker scope="Public" name="hsw_inBG_any" />
         <marker scope="Public" name="hsw_inBG2" />
         <marker scope="Public" name="hsw_mixed" />
+        <marker scope="Public" name="hsw_preJoin" />
+        <marker scope="Public" name="hsw_submerged" />
         <marker scope="Public" name="hugePenis">She has seen and reacted to a penis with the huge_penis tag.</marker>
         <marker scope="Public" name="humanBra" />
         <marker scope="Public" name="humanExtraLayers">"Already completely exposed yourself, yet you still have layers to spare?" (to human)</marker>
@@ -3668,6 +3680,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="zeroEscape" />
         <marker scope="Public" name="zlsHeadDrop1" />
         <marker scope="Public" name="zombieHeadDrops">X times, a targeted line for a zombie character's head falling off has played. We got at least three of those in this game!</marker>
+        <marker scope="Public" name="zp_hsw_turters" />
     </markers>
     <recipes>
         <recipe key="43e68bf4-4dc8-4938-a5d7-8f1e17e1202e">
