@@ -888,7 +888,7 @@
         <label id="1767" label="" color="4" folder="" sort="0" />
         <label id="1765" label="" color="4" folder="" sort="0" />
         <label id="1794" label="" color="4" folder="" sort="0" />
-        <label id="1556" label="" color="4" folder="" sort="0" />
+        <label id="1808" label="" color="4" folder="" sort="0" />
         <label id="1557" label="" color="6" folder="" sort="0" />
         <label id="1558" label="" color="6" folder="" sort="0" />
         <label id="1559" label="" color="1" folder="" sort="0" />
@@ -915,7 +915,7 @@
         <label id="1612" label="" color="6" folder="" sort="0" />
         <label id="1631" label="" color="4" folder="" sort="0" />
         <label id="1627" label="" color="4" folder="" sort="0" />
-        <label id="1763" label="" color="4" folder="" sort="0" />
+        <label id="1806" label="" color="4" folder="" sort="0" />
         <label id="1620" label="" color="2" folder="" sort="0" />
         <label id="1621" label="" color="2" folder="" sort="0" />
         <label id="1632" label="" color="4" folder="" sort="0" />
@@ -952,7 +952,7 @@
         <label id="1686" label="" color="2" folder="" sort="0" />
         <label id="1687" label="" color="2" folder="" sort="0" />
         <label id="1734" label="" color="4" folder="" sort="0" />
-        <label id="1762" label="" color="4" folder="" sort="0" />
+        <label id="1807" label="" color="4" folder="" sort="0" />
         <label id="1770" label="" color="4" folder="" sort="0" />
         <label id="1735" label="" color="4" folder="" sort="0" />
         <label id="1766" label="" color="4" folder="" sort="0" />
@@ -968,7 +968,6 @@
         <label id="1800" label="" color="4" folder="" sort="0" />
         <label id="1795" label="" color="4" folder="" sort="0" />
         <label id="1759" label="" color="4" folder="" sort="0" />
-        <label id="1760" label="" color="4" folder="" sort="0" />
         <label id="1764" label="" color="4" folder="" sort="0" />
         <label id="1768" label="" color="4" folder="" sort="0" />
         <label id="1772" label="" color="4" folder="" sort="0" />
@@ -987,9 +986,12 @@
         <label id="1790" label="" color="4" folder="" sort="0" />
         <label id="1791" label="" color="4" folder="" sort="0" />
         <label id="1793" label="" color="4" folder="" sort="0" />
+        <label id="1803" label="" color="4" folder="" sort="0" />
+        <label id="1804" label="" color="4" folder="" sort="0" />
     </labels>
-    <nextId>1802</nextId>
+    <nextId>1808</nextId>
     <markers>
+        <marker scope="Public" name="" />
         <marker scope="Public" name="2butt">Meia shows off her butt while still in her bodysuit (or Cupid outfit).</marker>
         <marker scope="Public" name="9s0" />
         <marker scope="Public" name="9s1" />
@@ -3375,6 +3377,7 @@
         <marker scope="Public" name="raku0" />
         <marker scope="Public" name="ravenfriendly">Meia says she was equally unfriendly to Raven at first.</marker>
         <marker scope="Public" name="react_mast">Meia first reacts to someone masturbating after confirming the rule.</marker>
+        <marker scope="Public" name="reimu_getrichquick" />
         <marker scope="Public" name="reimu_men" />
         <marker scope="Public" name="reimu_recruitment" />
         <marker scope="Public" name="reimu_resp0" />
@@ -3390,6 +3393,7 @@
         <marker scope="Public" name="reimu_resp5" />
         <marker scope="Public" name="reimu_resp56" />
         <marker scope="Public" name="reimu_sightseeing" />
+        <marker scope="Public" name="reimu_spousequalities" />
         <marker scope="Public" name="reimu0" />
         <marker scope="Public" name="reimu01" />
         <marker scope="Public" name="reimu1" />
@@ -3638,10 +3642,12 @@
         <marker scope="Public" name="sanako_resp1right" />
         <marker scope="Public" name="sanako_resp1s_right" />
         <marker scope="Public" name="sanako_resp1s_right_cupid" />
+        <marker scope="Public" name="sanako_resp2" />
         <marker scope="Public" name="sanako_resp23right" />
         <marker scope="Public" name="sanako_resp2right" />
         <marker scope="Public" name="sanako_resp2s_right" />
         <marker scope="Public" name="sanako_resp3right" />
+        <marker scope="Public" name="sanako_resp3s_right" />
         <marker scope="Public" name="sanako_resp4right" />
         <marker scope="Public" name="sanako0" />
         <marker scope="Public" name="sanako01" />
@@ -3657,6 +3663,7 @@
         <marker scope="Public" name="sanako23" />
         <marker scope="Public" name="sanako2s" />
         <marker scope="Public" name="sanako3" />
+        <marker scope="Public" name="sanako34" />
         <marker scope="Public" name="sanako3s" />
         <marker scope="Public" name="sanako4" />
         <marker scope="Public" name="sandy_cheeks0" />
