@@ -848,9 +848,8 @@ funny answer: crab because her mech gets likened to one</note>
         <label id="1422" label="" color="1" folder="" sort="0" />
         <label id="1424" label="" color="1" folder="" sort="0" />
         <label id="1491" label="" color="4" folder="" sort="0" />
-        <label id="1427" label="" color="4" folder="" sort="0" />
         <label id="1428" label="" color="4" folder="" sort="0" />
-        <label id="1563" label="" color="4" folder="" sort="0" />
+        <label id="1660" label="" color="4" folder="" sort="0" />
         <label id="1430" label="" color="6" folder="" sort="0" />
         <label id="1431" label="" color="1" folder="" sort="0" />
         <label id="1432" label="" color="1" folder="" sort="0" />
@@ -962,11 +961,14 @@ funny answer: crab because her mech gets likened to one</note>
         <label id="1648" label="" color="4" folder="" sort="0" />
         <label id="1649" label="" color="4" folder="" sort="0" />
         <label id="1656" label="" color="4" folder="" sort="0" />
+        <label id="1657" label="" color="4" folder="" sort="0" />
+        <label id="1658" label="" color="4" folder="" sort="0" />
+        <label id="1659" label="" color="4" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>jura</prefix>
     </prefixes>
-    <nextId>1656</nextId>
+    <nextId>1660</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="1v1">Jura acknowledges that the game has come down to her and one other player.</marker>
@@ -2575,6 +2577,7 @@ funny answer: crab because her mech gets likened to one</note>
         <marker scope="Public" name="raku0" />
         <marker scope="Public" name="ravencalm">Jura teases Raven over trying to remain focused around her.</marker>
         <marker scope="Public" name="reimu_babies" />
+        <marker scope="Public" name="reimu_getrichquick" />
         <marker scope="Public" name="reimu_resp0" />
         <marker scope="Public" name="reimu_resp01" />
         <marker scope="Public" name="reimu_resp1" />
@@ -2583,6 +2586,7 @@ funny answer: crab because her mech gets likened to one</note>
         <marker scope="Public" name="reimu_seduction" />
         <marker scope="Public" name="reimu_seduction_f" />
         <marker scope="Public" name="reimu_selfselected" />
+        <marker scope="Public" name="reimu_spousequalities" />
         <marker scope="Public" name="reimu0" />
         <marker scope="Public" name="reimu01" />
         <marker scope="Public" name="reimu1" />
@@ -2724,6 +2728,7 @@ funny answer: crab because her mech gets likened to one</note>
         <marker scope="Public" name="sanako_resp12right" />
         <marker scope="Public" name="sanako_resp1right" />
         <marker scope="Public" name="sanako_resp1s_right" />
+        <marker scope="Public" name="sanako_resp1s_right_hand" />
         <marker scope="Public" name="sanako_resp2right" />
         <marker scope="Public" name="sanako_resp2s_right" />
         <marker scope="Public" name="sanako_resp3right" />
@@ -2735,6 +2740,7 @@ funny answer: crab because her mech gets likened to one</note>
         <marker scope="Public" name="sanako12" />
         <marker scope="Public" name="sanako1s" />
         <marker scope="Public" name="sanako2" />
+        <marker scope="Public" name="sanako23" />
         <marker scope="Public" name="sanako2s" />
         <marker scope="Public" name="sanako3" />
         <marker scope="Public" name="sanako4" />
