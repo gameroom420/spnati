@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1712028348904</lastupdate>
+    <lastupdate>1712095022302</lastupdate>
     <enabled>true</enabled>
     <first>Kokichi</first>
     <last>Ouma</last>
@@ -12,6 +12,6 @@
     <artist>Halo, Kati</artist>
     <description>The Ultimate Supreme Leader, and the head of a mysterious organization known as D.I.C.E. He is equal parts intelligent and irritating, with a little pompousness mixed in as well.</description>
     <layers>8</layers>
-    <lines>565</lines>
+    <lines>571</lines>
     <poses>183</poses>
 </opponent>
