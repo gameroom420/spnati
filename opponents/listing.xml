@@ -218,7 +218,7 @@
 		<opponent addedDate="2019-02-01" release="176" highlight="updated">ribbon_girl</opponent> <!-- expires 2024-04-17 -->
 		<opponent addedDate="2023-06-26" release="296" highlight="new">yae</opponent> <!-- expires 2024-05-02 -->
 		<opponent addedDate="2023-06-26" release="297" highlight="new">sofia</opponent> <!-- expires 2024-05-02 -->
-        <opponent addedDate="2020-04-01" status="testing">kokichi</opponent>
+		<opponent addedDate="2020-04-01" status="testing">kokichi</opponent>
 		<opponent addedDate="2024-03-31" status="testing">nephenee</opponent>
 		<opponent addedDate="2024-03-31" status="testing">leviathan</opponent>		
 		<opponent addedDate="2024-03-25" status="testing">aoi_asahina</opponent>
