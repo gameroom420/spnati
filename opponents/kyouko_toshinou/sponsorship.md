@@ -12,7 +12,7 @@
 - [ ] Raise her total targeted lines to 300 (273/300)
 - [X] Raise her total filter amount to 75
 
-- [ ] Add 10 more lines showing Kyouko's perverted/overactive imagination, in any case (7/10)
+- [X] Add 10 more lines showing Kyouko's perverted/overactive imagination, in any case
 - [X] Add 15 generic masturbation lines (not heavy masturbation) which are flirty/sexy in context
 - [X] Add 10 more lines of self-exposition in hand=any, all with a play once
   - This can be her talking about her friends, her school(college?), her club, her skills, her love of anime/manga, etc
@@ -23,7 +23,7 @@
 ## L0kkit
 
 - [X] Add at least 30 targeted lines
-- [ ] Add at least 30 hand quality lines (3/30)
+- [ ] Add at least 30 hand quality lines (5/30)
 - (S) Show her candid side more
 
 ## Ace
@@ -41,10 +41,10 @@
   - [ ] Removing accessory (female)
   - [ ] Removed accessory (male)
   - [ ] Removed accessory (female)
-  - [ ] Average hand
-  - [ ] Bad hand
-  - [ ] Removed major (male)
-  - [ ] Removed major (female)
+  - [ ] Average hand (1/5)
+  - [ ] Bad hand (1/5)
+  - [ ] Removed major (male) (1/5)
+  - [ ] Removed major (female) (1/5)
   - [ ] Masturbating (male)
   - [ ] Masturbating (female)
 - [ ] 25 outgoing targets (12/25)
