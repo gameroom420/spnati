@@ -2662,6 +2662,8 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="2537" label="In hot spring" folder="Seasonal&gt;April Fool's" sort="0" />
         <label id="2538" label="In hot spring with ZP" folder="Seasonal&gt;April Fool's" sort="0" />
         <label id="2539" label="Yamada memory: 6" folder="Technical" sort="47" />
+        <label id="2540" label="Enter spring w/ Toshinou" folder="Seasonal&gt;April Fool's" sort="148" />
+        <label id="2541" label="HSW+Toshinou Ending" folder="Seasonal&gt;April Fool's" sort="148" />
     </labels>
     <prefixes>
         <prefix>#-aside</prefix>
@@ -2687,11 +2689,13 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <prefix>#-mast_</prefix>
         <prefix>#-stand</prefix>
         <prefix>#-heavier</prefix>
+        <prefix>custom:10-submerged</prefix>
+        <prefix>custom:#-submerged</prefix>
     </prefixes>
     <posePreviewMarkers>
         <posePreviewMarker>hair==1</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>2539</nextId>
+    <nextId>2541</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="." />
