@@ -175,6 +175,15 @@
         <response id="156" opponent="mitama" opponentId="2695" />
         <response id="157" opponent="mitama" opponentId="2696" />
         <response id="158" opponent="aqua_konosuba" opponentId="1541" />
+        <response id="159" opponent="lysithea" opponentId="394" />
+        <response id="160" opponent="lysithea" opponentId="392" />
+        <response id="161" opponent="lysithea" opponentId="395" />
+        <response id="162" opponent="aqua_konosuba" opponentId="1595" />
+        <response id="163" opponent="yae_miko" opponentId="180" />
+        <response id="164" opponent="yae_miko" opponentId="179" />
+        <response id="165" opponent="yae_miko" opponentId="181" />
+        <response id="166" opponent="mitama" opponentId="2786" />
+        <response id="167" opponent="mitama" opponentId="2787" />
     </responses>
     <notes>
         <note id="75">Note: She absolutely does.</note>
@@ -188,8 +197,9 @@
         <note id="154">Pretend she's smiling or something this'll use the stripping+ line in the rework.</note>
         <note id="155">Pretend she's smiling or something this'll use the stripping+ line in the rework.</note>
     </notes>
-    <nextId>158</nextId>
+    <nextId>167</nextId>
     <markers>
+        <marker scope="Public" name="" />
         <marker scope="Public" name="9SBoots1" />
         <marker scope="Public" name="9SBoots2" />
         <marker scope="Public" name="9SGloves1" />
@@ -215,6 +225,8 @@
         <marker scope="Public" name="AquaKonosubaCape3_resp" />
         <marker scope="Public" name="AquaKonosubaHeadphones1_resp" />
         <marker scope="Public" name="AquaKonosubaHeadphones2_resp" />
+        <marker scope="Public" name="AquaKonosubaHeadphones3_resp" />
+        <marker scope="Public" name="AquaKonosubaSleeves1" />
         <marker scope="Public" name="AquaKonosubaSocks1" />
         <marker scope="Public" name="AquaKonosubaSocks2" />
         <marker scope="Public" name="AquaKonosubaSocks3" />
@@ -643,10 +655,14 @@
         <marker scope="Public" name="LysitheaCape2_resp" />
         <marker scope="Public" name="LysitheaCape3_resp" />
         <marker scope="Public" name="LysitheaNation1_resp" />
+        <marker scope="Public" name="LysitheaNation2_resp" />
         <marker scope="Public" name="LysitheaNecklace1" />
         <marker scope="Public" name="LysitheaNecklace2" />
+        <marker scope="Public" name="LysitheaNecklace3" />
         <marker scope="Public" name="LysitheaPrince1_resp" />
+        <marker scope="Public" name="LysitheaPrince2_resp" />
         <marker scope="Public" name="LysitheaWife1_resp" />
+        <marker scope="Public" name="LysitheaWife2_resp" />
         <marker scope="Public" name="MagicalSempaiSocks1" />
         <marker scope="Public" name="MagmaGruntGloves1" />
         <marker scope="Public" name="MagmaGruntShirt3_resp" />
@@ -726,14 +742,17 @@
         <marker scope="Public" name="MitamaArmor3" />
         <marker scope="Public" name="MitamaCape1_resp" />
         <marker scope="Public" name="MitamaCape2_resp" />
+        <marker scope="Public" name="MitamaCape3_resp" />
         <marker scope="Public" name="MitamaCapelet1" />
         <marker scope="Public" name="MitamaCapelet2" />
         <marker scope="Public" name="MitamaDress1" />
+        <marker scope="Public" name="MitamaDress2" />
         <marker scope="Public" name="MitamaSandals1" />
         <marker scope="Public" name="MitamaSandals2" />
         <marker scope="Public" name="MitamaSandals3" />
         <marker scope="Public" name="MitamaSword1_resp" />
         <marker scope="Public" name="MitamaSword2_resp" />
+        <marker scope="Public" name="MitamaSword3_resp" />
         <marker scope="Public" name="MonikaBelts1_resp" />
         <marker scope="Public" name="MonikaBelts2_resp" />
         <marker scope="Public" name="MonikaBelts3_resp" />
@@ -985,6 +1004,7 @@
         <marker scope="Public" name="ShamikoShoes3" />
         <marker scope="Public" name="ShamikoTights1" />
         <marker scope="Public" name="ShamikoTights2" />
+        <marker scope="Public" name="ShamikoTights3" />
         <marker scope="Public" name="ShikiRen">Miko wants Rensouhou to pledge their loyalty too.</marker>
         <marker scope="Private" name="Shy_Mast_02" />
         <marker scope="Private" name="Shy_Mast_start" />
@@ -1124,15 +1144,21 @@
         <marker scope="Public" name="YaeMikoCape1_resp" />
         <marker scope="Public" name="YaeMikoCape2a_resp" />
         <marker scope="Public" name="YaeMikoCape2b_resp" />
+        <marker scope="Public" name="YaeMikoCape3A_resp" />
+        <marker scope="Public" name="YaeMikoCape3B_resp" />
+        <marker scope="Public" name="YaeMikoCape3HT_resp" />
         <marker scope="Public" name="YaeMikoEarrings1" />
         <marker scope="Public" name="YaeMikoEarrings2" />
+        <marker scope="Public" name="YaeMikoEarrings3" />
         <marker scope="Public" name="YaeMikoSandals1" />
         <marker scope="Public" name="YaeMikoSandals2" />
         <marker scope="Public" name="YaeMikoSandals3" />
         <marker scope="Public" name="YaeShirt1" />
+        <marker scope="Public" name="YaeShirt2" />
         <marker scope="Public" name="YaeShoes1" />
         <marker scope="Public" name="YaeShoes2" />
         <marker scope="Public" name="YaeShoes3" />
+        <marker scope="Public" name="YaeSword1_resp" />
         <marker scope="Private" name="YoukaiSatisfaction" />
         <marker scope="Public" name="Yuelia_Andy_resp">Yuelia Response</marker>
         <marker scope="Public" name="Yuelia_Cervantes_resp">Yuelia Response</marker>
@@ -1206,6 +1232,7 @@
         <marker scope="Public" name="ZekePandyGloves1" />
         <marker scope="Public" name="ZekePandyGloves2" />
         <marker scope="Public" name="ZekePandyGloves3" />
+        <marker scope="Public" name="ZekePandyPauldrons1" />
         <marker scope="Public" name="ZoePalutenaShip_resp" />
         <marker scope="Public" name="ZoeShoes1" />
         <marker scope="Public" name="ZoeShoes2" />
