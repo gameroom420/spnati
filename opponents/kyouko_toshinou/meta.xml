@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1711590406750</lastupdate>
+    <lastupdate>1712229932649</lastupdate>
     <enabled>false</enabled>
     <first>Kyouko</first>
     <last>Toshinou</last>
@@ -17,6 +17,6 @@
         <costume folder="opponents/reskins/kyouko_toshinou_sexy_tomato/" img="0-portrait.png" set="sleepover" status="unlisted" label="Kyouko" layers="5">Sexy Tomato</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>1434</lines>
-    <poses>463</poses>
+    <lines>1452</lines>
+    <poses>466</poses>
 </opponent>

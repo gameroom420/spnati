@@ -60,6 +60,7 @@
         <response id="538" opponent="kyoko_kirigiri" opponentId="579" />
         <response id="540" opponent="kyoko_kirigiri" opponentId="1549" />
         <response id="541" opponent="kyoko_kirigiri" opponentId="564" />
+        <response id="781" opponent="kyoko_kirigiri" opponentId="2536" />
     </responses>
     <notes>
         <note id="5">The marker is available so other characters can see which uniform she's wearing just in case they absolutely need to know for whatever reason. FYI, it's always unset when she loses the red dress.
@@ -81,7 +82,6 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <note id="403">Yes, these are mixed in with the usual opponent masturbating lines.</note>
         <note id="404">Yes, these are mixed in with the usual opponent masturbating lines.</note>
         <note id="453">If I could include moe I would, but I'm not sure how to get the conditions to work out where any of blonde, small_breasts, or moe counts for this. I'm kinda just leaning on moe+!short+!small_breasts being rare</note>
-        <note id="454">If I could include moe I would, but I'm not sure how to get the conditions to work out where any of blonde, small_breasts, or moe counts for this. I'm kinda just leaning on moe+!short+!small_breasts being rare</note>
         <note id="455">If I could include moe I would, but I'm not sure how to get the conditions to work out where any of blonde, small_breasts, or moe counts for this. I'm kinda just leaning on moe+!short+!small_breasts being rare</note>
         <note id="482">Literally don't have any better pose for this yet</note>
         <note id="507">iffy on whether to include finished in this, (in other words, todo: stage 9 lines)</note>
@@ -338,7 +338,7 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <label id="271" label="Hair decoration" folder="Specific items" sort="16" />
         <label id="272" label="Hair decoration (cursed hair)" folder="Specific items" sort="13" />
         <label id="273" label="" folder="Specific items" sort="0" />
-        <label id="274" label="Thigh-highs (not exposed)" folder="Specific items" sort="0" />
+        <label id="274" label="Thigh-highs (not exposed)" folder="Specific items" sort="2" />
         <label id="275" label="Thigh-highs (exposed but not naked)" folder="Specific items" sort="2" />
         <label id="276" label="Thigh-highs (naked)" folder="Specific items" sort="3" />
         <label id="277" label="Exposed" folder="Minor/Accessory late" sort="7" />
@@ -781,19 +781,48 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <label id="747" label="" folder="Costume&gt;Magenta Sweat" sort="0" />
         <label id="750" label="" folder="Sponsors&gt;Tweetsie&gt;Sexy generics" sort="3" />
         <label id="751" label="" folder="Sponsors&gt;Remillia&gt;Imagination" sort="3" />
-        <label id="752" label="" folder="Sponsors&gt;Remillia&gt;Imagination" sort="0" />
+        <label id="752" label="Target revealing underwear or exposing themselves" folder="Sponsors&gt;Remillia&gt;Imagination" sort="0" />
         <label id="753" label="" folder="Sponsors&gt;Remillia&gt;Imagination" sort="5" />
         <label id="754" label="" folder="Sponsors&gt;Remillia&gt;Imagination" sort="6" />
         <label id="755" label="" folder="Sponsors&gt;Tweetsie&gt;Sexy generics" sort="3" />
         <label id="756" label="" folder="Sponsors&gt;Tweetsie&gt;Sexy generics" sort="0" />
         <label id="757" label="" folder="Sponsors&gt;Tweetsie&gt;Sexy generics" sort="0" />
+        <label id="758" label="Average Hand" folder="Sponsors&gt;Spaceman" sort="2" />
+        <label id="759" label="" folder="Sponsors&gt;Lokkit&gt;Hand quality" sort="2" />
+        <label id="760" label="Bad Hand" folder="Spaceman" sort="0" />
+        <label id="744" label="" folder="Costume&gt;Magenta Sweat" sort="4" />
+        <label id="745" label="" folder="Costume&gt;Magenta Sweat" sort="5" />
+        <label id="761" label="Birthday" folder="Costume&gt;Magenta Sweat" sort="2" />
+        <label id="762" label="" folder="Costume&gt;Club Uniform" sort="8" />
+        <label id="763" label="Panties" folder="Costume&gt;Magenta Sweat" sort="14" />
+        <label id="764" label="Bra" folder="Costume&gt;Magenta Sweat" sort="20" />
+        <label id="765" label="Target removed pantyhose with underwear under" folder="Sponsors&gt;Remillia&gt;Imagination" sort="7" />
+        <label id="766" label="Indicate pantyhose wearer" folder="Sponsors&gt;Remillia&gt;Imagination" sort="8" />
+        <label id="767" label="Socks" folder="Costume&gt;Magenta Sweat" sort="15" />
+        <label id="768" label="Opponent removing jacket as last item" folder="Sponsors&gt;Remillia&gt;Imagination" sort="4" />
+        <label id="769" label="" folder="Specific items" sort="0" />
+        <label id="770" label="" folder="Specific items" sort="0" />
+        <label id="771" label="" folder="Specific items" sort="17" />
+        <label id="772" label="" folder="Sponsors&gt;Remillia&gt;Imagination" sort="7" />
+        <label id="773" label="" folder="Sponsors&gt;Spaceman&gt;Female removed major" sort="0" />
+        <label id="774" label="" folder="Sponsors&gt;Spaceman&gt;Male removed major" sort="0" />
+        <label id="775" label="" folder="Sponsors&gt;Spaceman&gt;Female removed major" sort="0" />
+        <label id="776" label="" folder="Targets&gt;Hot Spring Woman" sort="0" />
+        <label id="777" label="" folder="Targets&gt;Hot Spring Woman" sort="2" />
+        <label id="778" label="" folder="Targets&gt;Hot Spring Woman" sort="3" />
+        <label id="779" label="" folder="Targets&gt;Hot Spring Woman" sort="0" />
+        <label id="780" label="" folder="Targets&gt;Hot Spring Woman" sort="0" />
+        <label id="781" label="" folder="Targets&gt;Hot Spring Woman" sort="4" />
+        <label id="782" label="" folder="Targets&gt;Hot Spring Woman" sort="5" />
+        <label id="783" label="" folder="Targets&gt;Hot Spring Woman" sort="6" />
+        <label id="784" label="" folder="Targets&gt;Hot Spring Woman" sort="7" />
     </labels>
     <prefixes>
         <prefix>custom:#-_</prefix>
         <prefix>custom:_</prefix>
     </prefixes>
     <onlyCustomPoses>true</onlyCustomPoses>
-    <nextId>757</nextId>
+    <nextId>784</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Private" name="B_">Background-related markers</marker>
@@ -843,6 +872,7 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <marker scope="Public" name="D_UnderwearBeforeSkirt" />
         <marker scope="Public" name="D_UnderwearCriesOut">Are you gonna show it the world?</marker>
         <marker scope="Public" name="D_WhatIfJunk">Predicting a low-scoring hand.</marker>
+        <marker scope="Public" name="D_YuiGamingL" />
         <marker scope="Public" name="E_AmusementActivities" />
         <marker scope="Public" name="E_AmusementClub">The club's been out a room for a while now.</marker>
         <marker scope="Public" name="E_ArtMajor" />
@@ -880,8 +910,11 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <marker scope="Public" name="F_SchoolUniform_Why">Lots of horny students at the Inventory</marker>
         <marker scope="Public" name="F_SmashBros">The Smash characters at the table make her want to play it herself.</marker>
         <marker scope="Public" name="F_Swimsuit_NoSuit" />
+        <marker scope="Public" name="FZ_pantyhose">Temporary marker indicating the target had pantyhose during their "stripping" phase</marker>
+        <marker scope="Public" name="giygas" />
         <marker scope="Public" name="Nade_Kyouko_Camping2" />
         <marker scope="Public" name="Nade_Kyouko_Thrilling" />
+        <marker scope="Public" name="opp" />
         <marker scope="Private" name="Q_">Question prompts</marker>
         <marker scope="Public" name="Q_HighTension">"High Tension" rules to... make the game more intense?</marker>
         <marker scope="Public" name="Q_LateGameSnacks" />
@@ -898,6 +931,7 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <marker scope="Public" name="S_NoRibbonOrSidetails">First hand on stage 7 - Kyouko took away her ribbon and sidetails at the same time, making a pretty jarring change of appearance. (Club Uniform)</marker>
         <marker scope="Public" name="S_RibbonOff">Self Stripping 6 - Taking the ribbon off (Club Uniform)</marker>
         <marker scope="Public" name="S_RibbonStays">Self Stripping - Kyouko plans to keep her ribbon.</marker>
+        <marker scope="Public" name="S_Sweater4" />
         <marker scope="Public" name="S_TomatoesRevealed">Self Stripped - The tomato pattern on her underwear is visible. (Club Uniform)</marker>
         <marker scope="Public" name="S_Uniform">Self Stripping 2 - Explain the uniform (Club Uniform)</marker>
         <marker scope="Public" name="SlyCooper_PantsOffA">Sly Cooper Stripping 0</marker>
@@ -926,6 +960,9 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <marker scope="Public" name="T_Elphaba_Strip0Silliness">Self Must Strip 0</marker>
         <marker scope="Public" name="T_Elphaba_TwinNamesHelpful" />
         <marker scope="Public" name="T_Elphaba_TwinNamesUnhelpful" />
+        <marker scope="Public" name="T_HSW_InBG" />
+        <marker scope="Public" name="T_HSW_Joining" />
+        <marker scope="Public" name="T_HSW_JumpIn" />
         <marker scope="Public" name="T_Jura_Strip1Laze">Self Must Strip 1</marker>
         <marker scope="Public" name="T_Jura_Strip1NotEasy">Self Stripping 1</marker>
         <marker scope="Public" name="T_Kirigiri_AsMuchFun">Kirigiri Stripped 2</marker>
