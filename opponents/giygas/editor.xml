@@ -48,6 +48,7 @@
         <note id="712">This line isn't meant to stay, it's just here because these two STILL don't have the actual banter leading to this resolution.</note>
         <note id="713">This line isn't meant to stay, it's just here because these two STILL don't have the actual banter leading to this resolution.</note>
         <note id="714">Thanks to Kobrad for writing this script.</note>
+        <note id="875">It's absolutely, definitely impossible for this line to play, but I didn't realize that until after it was fully implemented, so I'm not getting rid of it. Consider it your reward for rifling through Giygas's files.</note>
     </notes>
     <labels>
         <label id="1" label="" folder="Alien presence" sort="0" />
@@ -632,7 +633,7 @@
         <label id="655" label="" folder="Level-Up&gt;!Slot 3" sort="33" />
         <label id="656" label="" folder="Level-Up&gt;!Slot 4" sort="8" />
         <label id="657" label="" folder="Level-Up&gt;!Slot 4" sort="23" />
-        <label id="663" label="Kumatora 0-1" folder="Kumatora Outbounds" sort="0" />
+        <label id="663" label="0-1" folder="Kumatora&gt;Stage 0" sort="0" />
         <label id="664" label="Queenie Ou 0-1" folder="Outbound stage 3" sort="2" />
         <label id="665" label="Zombies" folder="" sort="0" />
         <label id="666" label="Zombies" folder="" sort="0" />
@@ -653,10 +654,10 @@
         <label id="682" label="" folder="Throwing" sort="0" />
         <label id="684" label="0-1" folder="Outbound stage 0" sort="10" />
         <label id="685" label="0-2" folder="Outbound stage 0" sort="15" />
-        <label id="686" label="%Outbound stage 2" folder="Outbound stage 0" sort="5" />
-        <label id="687" label="%Outbound stage 2" folder="Outbound stage 0" sort="11" />
-        <label id="688" label="%Outbound stage 2" folder="Outbound stage 0" sort="16" />
-        <label id="689" label="X-1%Outbound stage X" folder="Outbound stage 0" sort="12" />
+        <label id="686" label="" folder="Outbound stage 2" sort="5" />
+        <label id="687" label="" folder="Outbound stage 2" sort="11" />
+        <label id="688" label="" folder="Outbound stage 2" sort="16" />
+        <label id="689" label="X-1" folder="Outbound stage X" sort="12" />
         <label id="690" label="Ageless A" folder="" sort="0" />
         <label id="691" label="Ageless B" folder="" sort="0" />
         <label id="692" label="Ageless C" folder="" sort="0" />
@@ -818,7 +819,7 @@
         <label id="850" label="Darkness" folder="Prayer&gt;KonoSuba" sort="0" />
         <label id="851" label="Brycen-Man" folder="Prayer&gt;!April Fool’s&gt;!Costumes" sort="2" />
         <label id="852" label="Lily" folder="Prayer&gt;ZombieLand Saga" sort="0" />
-        <label id="853" label="Allies" folder="Prayer&gt;!April Fool’s&gt;Video Games" sort="22" />
+        <label id="853" label="CATS: Allies" folder="Prayer&gt;!April Fool’s&gt;Video Games" sort="22" />
         <label id="854" label="Darkness" folder="Prayer&gt;!April Fool’s&gt;!Costumes" sort="32" />
         <label id="855" label="Allies only" folder="" sort="0" />
         <label id="856" label="Track captain" folder="Prayer&gt;Katawa Shoujo" sort="0" />
@@ -832,7 +833,49 @@
         <label id="864" label="" folder="AF Costumes" sort="11" />
         <label id="865" label="" folder="AF Costumes" sort="0" />
         <label id="866" label="" folder="Outbound stage X" sort="5" />
-        <label id="867" label="Kirito" folder="Prayer&gt;!1-Rep Series&gt;Manga" />
+        <label id="867" label="Kirito" folder="Prayer&gt;!1-Rep Series&gt;Manga" sort="0" />
+        <label id="868" label="Allies only" color="3" folder="Outbound stage X" sort="4" />
+        <label id="869" label="Allies only" color="3" folder="Outbound stage 6" sort="3" />
+        <label id="870" label="Allies only" color="3" folder="Outbound stage X" sort="8" />
+        <label id="871" label="Allies only" color="3" folder="Outbound stage 6" sort="5" />
+        <label id="872" label="%" folder="Outbound stage 9" sort="0" />
+        <label id="873" label="Allies only" color="3" folder="Outbound stage 8" sort="2" />
+        <label id="874" label="Allies only" color="3" folder="" sort="0" />
+        <label id="875" label="CATS: Federation" folder="Prayer&gt;!April Fool’s&gt;Video Games" sort="9" />
+        <label id="876" label="0-2" folder="Kumatora&gt;Stage 0" sort="2" />
+        <label id="877" label="0-3" folder="Kumatora&gt;Stage 0" sort="3" />
+        <label id="878" label="0-3" folder="Kumatora&gt;Stage 0" sort="0" />
+        <label id="879" label="1-1" folder="Kumatora&gt;Stage 1" sort="0" />
+        <label id="880" label="1-2" folder="Kumatora&gt;Stage 1" sort="2" />
+        <label id="881" label="1-3" folder="Kumatora&gt;Stage 1" sort="3" />
+        <label id="882" label="1-1" folder="Kumatora&gt;Stage 1" sort="0" />
+        <label id="883" label="2-1" folder="Kumatora&gt;Stage 2" sort="0" />
+        <label id="884" label="2-2" folder="Kumatora&gt;Stage 2" sort="2" />
+        <label id="885" label="2-3" folder="Kumatora&gt;Stage 2" sort="3" />
+        <label id="886" label="3-1" folder="Kumatora&gt;Stage 3" sort="2" />
+        <label id="887" label="3-2A" folder="Kumatora&gt;Stage 3" sort="3" />
+        <label id="888" label="3-2B" folder="Kumatora&gt;Stage 3" sort="4" />
+        <label id="889" label="3-3" folder="Kumatora&gt;Stage 3" sort="5" />
+        <label id="890" label="3-4 (HAND)" folder="Kumatora&gt;Stage 3" sort="0" />
+        <label id="891" label="4-1" folder="Kumatora&gt;Stage 4" sort="0" />
+        <label id="892" label="4-2" folder="Kumatora&gt;Stage 4" sort="2" />
+        <label id="893" label="4-3" folder="Kumatora&gt;Stage 4" sort="3" />
+        <label id="894" label="5-1" folder="Kumatora&gt;Stage 5" sort="0" />
+        <label id="895" label="5-2" folder="Kumatora&gt;Stage 5" sort="2" />
+        <label id="896" label="5-3A" folder="Kumatora&gt;Stage 5" sort="3" />
+        <label id="897" label="5-3B" folder="Duplicate dialogue" sort="2" />
+        <label id="898" label="6-1" folder="Kumatora&gt;Stage 6" sort="0" />
+        <label id="899" label="6-2" folder="Kumatora&gt;Stage 6" sort="2" />
+        <label id="900" label="6-3" folder="Kumatora&gt;Stage 6" sort="3" />
+        <label id="901" label="7-1 (ff)" folder="Kumatora&gt;Stage FF" sort="0" />
+        <label id="902" label="0 to 2" folder="Kumatora&gt;Transformation (inbound)" sort="0" />
+        <label id="903" label="3" folder="Kumatora&gt;Transformation (inbound)" sort="2" />
+        <label id="904" label="4, 6, 7" folder="Kumatora&gt;Transformation (inbound)" sort="3" />
+        <label id="905" label="5" folder="Kumatora&gt;Transformation (inbound)" sort="4" />
+        <label id="906" label="8" folder="Kumatora&gt;Transformation (inbound)" sort="5" />
+        <label id="907" label="8" color="1" folder="Kumatora&gt;Transformation (inbound)" sort="8" />
+        <label id="908" label="5" color="1" folder="Kumatora&gt;Transformation (inbound)" sort="7" />
+        <label id="909" label="0 to 3" color="1" folder="Kumatora&gt;Transformation (inbound)" sort="6" />
     </labels>
     <prefixes>
         <prefix>#-giegue</prefix>
@@ -843,7 +886,7 @@
         <prefix>5-</prefix>
         <prefix>6-</prefix>
     </prefixes>
-    <nextId>866</nextId>
+    <nextId>909</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="+TO_rosaHero_galactus" />
@@ -1111,6 +1154,7 @@
         <marker scope="Public" name="P_aquaKS" />
         <marker scope="Public" name="P_arle" />
         <marker scope="Public" name="P_astolfoBean" />
+        <marker scope="Public" name="P_asuna" />
         <marker scope="Public" name="P_ayano" />
         <marker scope="Public" name="P_azami" />
         <marker scope="Public" name="P_bella" />
@@ -1124,6 +1168,7 @@
         <marker scope="Public" name="P_cammy" />
         <marker scope="Public" name="P_catria" />
         <marker scope="Public" name="P_cats" />
+        <marker scope="Public" name="P_cats_altEnding" />
         <marker scope="Public" name="P_caulifla" />
         <marker scope="Public" name="P_cd" />
         <marker scope="Public" name="P_chara">But nobody came.</marker>
@@ -1388,6 +1433,7 @@
         <marker scope="Public" name="T_zlsZombies1" />
         <marker scope="Public" name="T_zombiePaper" />
         <marker scope="Public" name="TI">Targets that are Inbound, responding to targeted lines from opponents.</marker>
+        <marker scope="Public" name="TI_cats_casablanca" />
         <marker scope="Public" name="TI_e102_eve" />
         <marker scope="Public" name="TI_kumatora_awkward" />
         <marker scope="Public" name="TI_kumatora_dread" />
@@ -1398,6 +1444,14 @@
         <marker scope="Public" name="TI_kumatora_oinkOinkOink2" />
         <marker scope="Public" name="TI_kumatora_prepare" />
         <marker scope="Public" name="TI_kumatora_regret" />
+        <marker scope="Public" name="TI_kumatora_transformation1a" />
+        <marker scope="Public" name="TI_kumatora_transformation1b" />
+        <marker scope="Public" name="TI_kumatora_transformation1c" />
+        <marker scope="Public" name="TI_kumatora_transformation1d" />
+        <marker scope="Public" name="TI_kumatora_transformation1g" />
+        <marker scope="Public" name="TI_kumatora_transformation2b" />
+        <marker scope="Public" name="TI_kumatora_transformation2d" />
+        <marker scope="Public" name="TI_kumatora_transformation2g" />
         <marker scope="Public" name="TI_revy_tits" />
         <marker scope="Public" name="TI_revy_tits2" />
         <marker scope="Public" name="TI_revy_whore" />
@@ -1423,6 +1477,12 @@
         <marker scope="Public" name="TO_car_spaceBoy1" />
         <marker scope="Public" name="TO_car_spaceBoy2" />
         <marker scope="Public" name="TO_car_strip0" />
+        <marker scope="Public" name="TO_cast_alliesOnly_gerberra1" />
+        <marker scope="Public" name="TO_cats_alliesOnly_gerberra2" />
+        <marker scope="Public" name="TO_cats_alliesOnly_party" />
+        <marker scope="Public" name="TO_cats_alliesOnly_rendezvous" />
+        <marker scope="Public" name="TO_cats_alliesOnly_report" />
+        <marker scope="Public" name="TO_cats_fealty" />
         <marker scope="Public" name="TO_cats_ffa1" />
         <marker scope="Public" name="TO_cats_ffa2" />
         <marker scope="Public" name="TO_cats_ffb1" />
@@ -1459,6 +1519,28 @@
         <marker scope="Public" name="TO_jotaro3_timeStop1" />
         <marker scope="Public" name="TO_jotaro3_timeStop2" />
         <marker scope="Public" name="TO_jotaro3_transformation" />
+        <marker scope="Public" name="TO_kumatora_02" />
+        <marker scope="Public" name="TO_kumatora_03" />
+        <marker scope="Public" name="TO_kumatora_11" />
+        <marker scope="Public" name="TO_kumatora_12" />
+        <marker scope="Public" name="TO_kumatora_13" />
+        <marker scope="Public" name="TO_kumatora_21" />
+        <marker scope="Public" name="TO_kumatora_22" />
+        <marker scope="Public" name="TO_kumatora_23" />
+        <marker scope="Public" name="TO_kumatora_31" />
+        <marker scope="Public" name="TO_kumatora_32" />
+        <marker scope="Public" name="TO_kumatora_33" />
+        <marker scope="Public" name="TO_kumatora_34" />
+        <marker scope="Public" name="TO_kumatora_41" />
+        <marker scope="Public" name="TO_kumatora_42" />
+        <marker scope="Public" name="TO_kumatora_43" />
+        <marker scope="Public" name="TO_kumatora_51" />
+        <marker scope="Public" name="TO_kumatora_52" />
+        <marker scope="Public" name="TO_kumatora_53" />
+        <marker scope="Public" name="TO_kumatora_61" />
+        <marker scope="Public" name="TO_kumatora_62" />
+        <marker scope="Public" name="TO_kumatora_63" />
+        <marker scope="Public" name="TO_kumatora_71" />
         <marker scope="Public" name="TO_kumatora_heartbeat" />
         <marker scope="Public" name="TO_kumatora_nickname" />
         <marker scope="Public" name="TO_kumatora_troublemaker" />
