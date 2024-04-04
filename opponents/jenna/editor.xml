@@ -249,7 +249,6 @@
     <onlyCustomPoses>true</onlyCustomPoses>
     <nextId>290</nextId>
     <markers>
-        <marker scope="Public" name="" />
         <marker scope="Private" name="adv_poseposition" />
         <marker scope="Public" name="asuna1" />
         <marker scope="Public" name="Djinn" />
