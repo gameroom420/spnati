@@ -121,6 +121,7 @@
         <note id="166">This is in reply to a line nmasp posted in a DM. It may not have found its way into Hu Tao's dialogue yet.</note>
         <note id="170">At one point, Yae Miko smugly tells the Traveler (the player character) that they can see her fox form "in [their] dreams".</note>
         <note id="178">As foretold by the Prophet Vicineko (pbuh)</note>
+        <note id="240">Inazuma is in a civil war when the Inazuma story arc starts.</note>
     </notes>
     <labels>
         <label id="92" label="Necklace unlock" folder="" sort="0" />
@@ -129,25 +130,23 @@
         <label id="105" label="" color="4" folder="" sort="0" />
         <label id="106" label="" color="4" folder="" sort="0" />
         <label id="171" label="" color="4" folder="" sort="0" />
-        <label id="210" label="" color="4" folder="" sort="0" />
-        <label id="177" label="" color="4" folder="" sort="0" />
+        <label id="246" label="" color="4" folder="" sort="0" />
+        <label id="239" label="" color="4" folder="" sort="0" />
         <label id="119" label="" color="4" folder="" sort="0" />
         <label id="178" label="" color="4" folder="" sort="0" />
         <label id="180" label="" color="4" folder="" sort="0" />
         <label id="132" label="" color="4" folder="" sort="0" />
         <label id="127" label="" color="4" folder="" sort="0" />
-        <label id="209" label="" color="4" folder="" sort="0" />
+        <label id="248" label="" color="4" folder="" sort="0" />
         <label id="223" label="" color="4" folder="" sort="0" />
         <label id="163" label="" color="4" folder="" sort="0" />
         <label id="164" label="" color="4" folder="" sort="0" />
         <label id="165" label="" color="4" folder="" sort="0" />
-        <label id="176" label="" color="4" folder="" sort="0" />
         <label id="179" label="" color="4" folder="" sort="0" />
         <label id="181" label="" color="4" folder="" sort="0" />
-        <label id="206" label="" color="4" folder="" sort="0" />
-        <label id="207" label="" color="4" folder="" sort="0" />
-        <label id="208" label="" color="4" folder="" sort="0" />
-        <label id="211" label="" color="4" folder="" sort="0" />
+        <label id="241" label="" color="4" folder="" sort="0" />
+        <label id="243" label="" color="4" folder="" sort="0" />
+        <label id="245" label="" color="4" folder="" sort="0" />
         <label id="212" label="" color="4" folder="" sort="0" />
         <label id="213" label="" color="4" folder="" sort="0" />
         <label id="214" label="" color="4" folder="" sort="0" />
@@ -163,11 +162,19 @@
         <label id="225" label="" color="4" folder="" sort="0" />
         <label id="226" label="" color="4" folder="" sort="0" />
         <label id="227" label="" color="4" folder="" sort="0" />
+        <label id="238" label="" color="4" folder="" sort="0" />
+        <label id="240" label="" color="4" folder="" sort="0" />
+        <label id="242" label="" color="4" folder="" sort="0" />
+        <label id="244" label="" color="4" folder="" sort="0" />
+        <label id="247" label="" color="4" folder="" sort="0" />
+        <label id="249" label="" color="4" folder="" sort="0" />
+        <label id="250" label="" color="4" folder="" sort="0" />
+        <label id="251" label="" color="4" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>collectible_</prefix>
     </prefixes>
-    <nextId>237</nextId>
+    <nextId>252</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="9s_manufactured" />
@@ -191,6 +198,7 @@
         <marker scope="Public" name="adrien_resp02" />
         <marker scope="Public" name="arueshalae_darkToLight" />
         <marker scope="Public" name="arueshalae_darkToLight2" />
+        <marker scope="Public" name="ask_yaemiko_enchantS" />
         <marker scope="Public" name="cagliostro_bodyCount" />
         <marker scope="Public" name="cagliostro_bodyCount2" />
         <marker scope="Public" name="cagliostro_resp_sandals1" />
@@ -223,18 +231,27 @@
         <marker scope="Public" name="jim_warStories3" />
         <marker scope="Public" name="jura_aimForFame" />
         <marker scope="Public" name="jura_aimForFame2" />
+        <marker scope="Public" name="jura_aimForFame3" />
         <marker scope="Public" name="jura_questionsAboutMen" />
         <marker scope="Public" name="jura_questionsAboutMen2" />
         <marker scope="Public" name="jura_questionsAboutMen3" />
         <marker scope="Public" name="jura_resp_0" />
         <marker scope="Public" name="jura_resp_01" />
         <marker scope="Public" name="jura_resp_1" />
+        <marker scope="Public" name="jura_resp_12" />
         <marker scope="Public" name="jura_resp_1s" />
+        <marker scope="Public" name="jura_resp_2s" />
         <marker scope="Public" name="jura_resp_3" />
         <marker scope="Public" name="jura_resp_34" />
         <marker scope="Public" name="jura_resp_4" />
+        <marker scope="Public" name="jura_resp_45" />
+        <marker scope="Public" name="jura_resp_4s" />
         <marker scope="Public" name="komi_commDisorder" />
         <marker scope="Public" name="kumatora_adventures" />
+        <marker scope="Public" name="lysithea_resp_backgroundS" />
+        <marker scope="Public" name="lysithea_resp_careerS" />
+        <marker scope="Public" name="lysithea_resp_enchantS" />
+        <marker scope="Public" name="lysithea_resp_foxyS" />
         <marker scope="Public" name="mari_piano" />
         <marker scope="Public" name="mari_setogaya_funActivities" />
         <marker scope="Public" name="mari_setogaya_resp_cuteFluffyEars" />
@@ -255,6 +272,7 @@
         <marker scope="Public" name="mari_setogaya_succubiSlander" />
         <marker scope="Public" name="meia_mejareRomance" />
         <marker scope="Public" name="meia_mejareRomance2" />
+        <marker scope="Public" name="meia_mejareRomance3" />
         <marker scope="Public" name="meia_overlySerious" />
         <marker scope="Public" name="meia_overlySerious2" />
         <marker scope="Public" name="meia_overlySerious3" />
@@ -264,6 +282,9 @@
         <marker scope="Public" name="meia_resp_2" />
         <marker scope="Public" name="meia_resp_23" />
         <marker scope="Public" name="meia_resp_3" />
+        <marker scope="Public" name="meia_resp_34" />
+        <marker scope="Public" name="meia_resp_3s" />
+        <marker scope="Public" name="meia_resp_5" />
         <marker scope="Public" name="meia_resp_earth_sightseeing" />
         <marker scope="Public" name="meia_resp_men_info" />
         <marker scope="Public" name="meia_resp_men_info2" />
@@ -304,9 +325,12 @@
         <marker scope="Public" name="nonon_resp_02a" />
         <marker scope="Public" name="nonon_resp_03a" />
         <marker scope="Public" name="petra_2ndLangBooks" />
+        <marker scope="Public" name="reimu_resp_konkon" />
         <marker scope="Public" name="reimu_resp_shrineDesc" />
         <marker scope="Public" name="reimu_resp_shrineDesc2" />
         <marker scope="Public" name="reimu_resp_shrineDesc3" />
+        <marker scope="Public" name="reimu_rumors" />
+        <marker scope="Public" name="reimu_rumorsMarketing" />
         <marker scope="Public" name="reimu_sake" />
         <marker scope="Public" name="reimu_sake2" />
         <marker scope="Public" name="reimu_sake3" />
@@ -316,6 +340,7 @@
         <marker scope="Public" name="roll_caskett_cook" />
         <marker scope="Public" name="sakura_smellComplexion" />
         <marker scope="Public" name="sakura_smellComplexion2" />
+        <marker scope="Public" name="scm_resp" />
         <marker scope="Public" name="shamiko_horns" />
         <marker scope="Public" name="shamiko_horns2" />
         <marker scope="Public" name="shamiko_horns3" />
@@ -413,6 +438,7 @@
         <marker scope="Public" name="zeke_pandoria_resp_publishing1" />
         <marker scope="Public" name="zeke_pandoria_resp_publishing2" />
         <marker scope="Public" name="zeke_pandoria_resp_publishing3" />
+        <marker scope="Public" name="zoe_fiction" />
     </markers>
     <recipes>
         <recipe key="3b95f9ff-485b-4f9c-851d-c736fb18c0e3">
