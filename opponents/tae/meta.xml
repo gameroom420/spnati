@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1712107801504</lastupdate>
+    <lastupdate>1712253425298</lastupdate>
     <enabled>false</enabled>
     <first>Tae</first>
     <last>Yamada</last>
@@ -9,7 +9,7 @@
     <gender>female</gender>
     <from>Zombieland Saga</from>
     <writer>alphafire</writer>
-    <artist>Bluekoin (posing), MisterSolitare (model, posing)</artist>
+    <artist>Bluekoin (posing), Mister Solitare (model, posing)</artist>
     <description>Tae Yamada, aka Number Zero, is part of the group Franchouchou. Though an idol, she doesn't sing and often "does her own thing" when dancing - in fact, she can't really speak well.</description>
     <layers>6</layers>
     <lines>372</lines>
