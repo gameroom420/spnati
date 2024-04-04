@@ -96,14 +96,35 @@
         <response id="99" opponent="jura" opponentId="1609" />
         <response id="100" opponent="meia" opponentId="1748" />
         <response id="101" opponent="jura" opponentId="1590" />
+        <response id="102" opponent="nami" opponentId="12" />
+        <response id="103" opponent="nami" opponentId="13" />
+        <response id="104" opponent="ms.fortune" opponentId="24" />
+        <response id="105" opponent="nephenee" opponentId="14" />
+        <response id="107" opponent="leviathan" opponentId="21" />
+        <response id="109" opponent="yae" opponentId="140" />
+        <response id="110" opponent="leviathan" opponentId="25" />
+        <response id="0" opponent="mari_setogaya" opponentId="35" />
+        <response id="0" opponent="mari_setogaya" opponentId="2" />
+        <response id="0" opponent="mari_setogaya" opponentId="21" />
+        <response id="0" opponent="mari_setogaya" opponentId="1" />
+        <response id="0" opponent="mari_setogaya" opponentId="22" />
+        <response id="0" opponent="mari_setogaya" opponentId="56" />
+        <response id="0" opponent="mari_setogaya" opponentId="55" />
+        <response id="112" opponent="rose" opponentId="313" />
+        <response id="113" opponent="yae_miko" opponentId="224" />
+        <response id="114" opponent="jura" opponentId="1621" />
+        <response id="116" opponent="zeke_pandoria" opponentId="649" />
+        <response id="117" opponent="zeke_pandoria" opponentId="650" />
+        <response id="118" opponent="zeke_pandoria" opponentId="651" />
     </responses>
     <prefixes>
         <prefix>ex</prefix>
     </prefixes>
-    <nextId>101</nextId>
+    <nextId>118</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="AquaKS_resp0_1" />
+        <marker scope="Public" name="AquaKS_resp0_2" />
         <marker scope="Public" name="AquaKS_resp2_1" />
         <marker scope="Public" name="Babble" />
         <marker scope="Public" name="bobobo_resp0_1" />
@@ -164,6 +185,7 @@
         <marker scope="Public" name="jura_resp4_3" />
         <marker scope="Public" name="jura_resp5_1" />
         <marker scope="Public" name="jura_resp5_2" />
+        <marker scope="Public" name="jura_resp5_3" />
         <marker scope="Public" name="kaz_resp0_1" />
         <marker scope="Public" name="kaz_resp0_2" />
         <marker scope="Public" name="kaz_resp0_3" />
@@ -252,6 +274,7 @@
         <marker scope="Public" name="meia_resp4_3" />
         <marker scope="Public" name="meia_resp5_1" />
         <marker scope="Public" name="meia_resp5_2" />
+        <marker scope="Public" name="meia_resp5_3" />
         <marker scope="Public" name="Meia_s0_1" />
         <marker scope="Public" name="Meia_s0_2" />
         <marker scope="Public" name="Meia_s0_3" />
@@ -260,8 +283,11 @@
         <marker scope="Public" name="Meia_s1_3" />
         <marker scope="Public" name="Meia_s2_1" />
         <marker scope="Public" name="Meia_s2_2" />
+        <marker scope="Public" name="Meia_s2_3" />
         <marker scope="Public" name="Meia_s3_1" />
         <marker scope="Public" name="Meia_s3_2" />
+        <marker scope="Public" name="Meia_s3_3" />
+        <marker scope="Public" name="Meia_s4_1" />
         <marker scope="Public" name="miags_resp0_1" />
         <marker scope="Public" name="miags_resp1_1" />
         <marker scope="Public" name="miags_resp1_2" />
@@ -327,8 +353,10 @@
         <marker scope="Public" name="Roll_s5_3" />
         <marker scope="Public" name="rose_resp0_1" />
         <marker scope="Public" name="rose_resp0_2" />
+        <marker scope="Public" name="rose_resp0_3" />
         <marker scope="Public" name="rose_resp1_1" />
         <marker scope="Public" name="Rose_s0_1" />
+        <marker scope="Public" name="Rose_s0_2" />
         <marker scope="Public" name="Senko_s0_1" />
         <marker scope="Public" name="Senko_s0_2" />
         <marker scope="Public" name="Senko_s1_1" />
@@ -415,8 +443,11 @@
         <marker scope="Public" name="Yae_s5_1" />
         <marker scope="Public" name="Yae_s5_2" />
         <marker scope="Public" name="Yae_s5_3" />
+        <marker scope="Public" name="yaemiko_resp0_1" />
         <marker scope="Public" name="YaeMiko_s0_1" />
+        <marker scope="Public" name="YaeMiko_s0_2" />
         <marker scope="Public" name="YaeMiko_s1_1" />
+        <marker scope="Public" name="YaeMiko_s1_2" />
         <marker scope="Public" name="YaeMiko_s3_1" />
         <marker scope="Public" name="yshtola_resp0_1" />
         <marker scope="Public" name="yshtola_resp0_2" />
@@ -469,9 +500,13 @@
         <marker scope="Public" name="Yuno_s0_2" />
         <marker scope="Public" name="zandp_resp0_1" />
         <marker scope="Public" name="zandp_resp0_2" />
+        <marker scope="Public" name="zandp_resp0_3" />
         <marker scope="Public" name="zandp_resp1_1" />
         <marker scope="Public" name="zandp_resp1_2" />
+        <marker scope="Public" name="zandp_resp1_3" />
         <marker scope="Public" name="zandp_resp3_1" />
+        <marker scope="Public" name="zandp_resp3_2" />
+        <marker scope="Public" name="zandp_resp3_3" />
         <marker scope="Public" name="ZandP_s0_1" />
         <marker scope="Public" name="zoe_respE_1" />
         <marker scope="Public" name="zoe_respG_1" />
