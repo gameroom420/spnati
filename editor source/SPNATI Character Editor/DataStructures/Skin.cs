@@ -7,7 +7,6 @@ using System.IO;
 using System.Linq;
 using System.Xml;
 using System.Xml.Serialization;
-using System.ComponentModel;
 
 namespace SPNATI_Character_Editor
 {
@@ -150,7 +149,7 @@ namespace SPNATI_Character_Editor
 				}
 				if (!folder.EndsWith("/"))
 				{
-					folder = folder + "/";
+					folder += "/";
 				}
 				f.Value = folder;
 			});

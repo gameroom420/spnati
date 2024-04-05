@@ -1,8 +1,6 @@
-﻿using SPNATI_Character_Editor.DataStructures;
+﻿using Desktop;
+using SPNATI_Character_Editor.DataStructures;
 using System.Text.RegularExpressions;
-using System.Collections.Generic;
-using System;
-using SPNATI_Character_Editor.Providers;
 
 namespace SPNATI_Character_Editor
 {
@@ -14,6 +12,13 @@ namespace SPNATI_Character_Editor
 			InitializeComponent();
 
 			recField.RecordType = typeof(Collectible);
+			recField.RecordFilter = FilterWearable;
+		}
+
+		private bool FilterWearable(IRecord record)
+		{
+			Collectible collectible = record as Collectible;
+			return collectible.Wearable;
 		}
 
 		protected override void BindVariable(string variable)
