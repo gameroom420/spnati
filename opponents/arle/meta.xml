@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1705384288270</lastupdate>
+    <lastupdate>1709260308288</lastupdate>
     <enabled>false</enabled>
     <first>Arle</first>
     <last>Nadja</last>
@@ -15,8 +15,9 @@
     <default-costume-name>Modern Arle</default-costume-name>
     <alternates>
         <costume folder="opponents/reskins/arle_classic_style/" img="0-yeah.png" status="online" label="Arle">Classic Arle</costume>
+        <costume folder="opponents/reskins/arle_puyo_puyo_da/" img="0-casting.png" set="april_fools" status="unlisted" label="Arle">Puyo Puyo DA</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>1307</lines>
+    <lines>1308</lines>
     <poses>267</poses>
 </opponent>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<costume>
+    <id>senko_usagi-tsune</id>
+    <label>Senko</label>
+    <tags>
+        <tag>alternative_skin</tag>
+        <tag from="0" to="4">bunnysuit</tag>
+        <tag>choker</tag>
+        <tag from="5" to="5">crotch_pasty</tag>
+        <tag>easter_skin</tag>
+        <tag from="0" to="4">fake_animal_ears</tag>
+        <tag from="0" to="2">japanese_clothing</tag>
+        <tag>no_bra</tag>
+        <tag>no_underwear</tag>
+        <tag from="5" to="5">pubic_hair_peek</tag>
+        <tag>scantily-clad</tag>
+        <tag remove="true">shimapan</tag>
+    </tags>
+    <layers>7</layers>
+    <folder>opponents/reskins/senko_usagi-tsune/</folder>
+    <wardrobe>
+        <clothing name="socks" generic="socks" position="feet" type="minor" plural="true" />
+        <clothing name="leaf" generic="" position="lower" type="important" />
+        <clothing name="leotard" generic="leotard" position="upper" type="important" />
+        <clothing name="bunny ears" generic="hair decoration" position="head" type="extra" plural="true" />
+        <clothing name="sleeves" generic="" position="both" type="minor" />
+        <clothing name="pants and sash" generic="" position="both" type="major" plural="true" />
+        <clothing name="sandals" generic="shoes" position="feet" type="extra" plural="true" />
+    </wardrobe>
+
+
+</costume>

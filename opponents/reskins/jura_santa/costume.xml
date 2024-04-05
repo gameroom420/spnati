@@ -34,25 +34,6 @@
             <sprite id="talking" src="reskins/jura_santa/0-surprised.png" x="0" y="0" />
             <sprite id="btalking" z="1" src="reskins/jura_santa/bexcited.png" x="196" y="0" rotation="0" />
         </pose>
-        <pose id="0-calling">
-            <sprite id="talking" src="reskins/jura_santa/0-talking-.png" x="0" y="0" alpha="0" />
-            <sprite id="btalking" z="1" src="reskins/jura_santa/btalking.png" x="308" y="0" alpha="0" />
-            <sprite id="calling" src="reskins/jura_santa/0-calling.png" x="0" y="0" />
-            <directive type="animation" id="talking" ease="smooth" interpolation="linear">
-                <keyframe time="0" x="0" y="0" alpha="0" />
-                <keyframe time="1.5" alpha="0" />
-                <keyframe time="2" alpha="100" />
-            </directive>
-            <directive type="animation" id="btalking" ease="smooth" interpolation="linear">
-                <keyframe time="0" x="308" y="0" alpha="0" />
-                <keyframe time="1" alpha="0" />
-                <keyframe time="1.5" alpha="100" />
-            </directive>
-            <directive type="animation" id="calling" delay="1.5" ease="smooth" interpolation="linear">
-                <keyframe time="0" alpha="100" />
-                <keyframe time="0.5" alpha="0" />
-            </directive>
-        </pose>
         <pose id="0-hug">
             <sprite id="hug" z="-1" src="reskins/jura_santa/0-hug.png" x="0" y="0" />
             <sprite id="cheryl" z="1" src="reskins/jura_santa/8c-notarm.png" x="-2" y="0" rotation="6" />
@@ -75,8 +56,8 @@
         <pose id="0-looking-open">
             <sprite id="talking" src="reskins/jura_santa/0-looking-.png" x="0" y="0" />
             <sprite id="btalking" z="1" src="reskins/jura_santa/blooking-.png" x="302" y="0" />
-            <sprite id="conversational" src="reskins/jura_santa/0-conversational.png" x="0" y="1" clipleft="265" clipright="261" cliptop="248" clipbottom="1130" />
-            <sprite id="btalking-" z="1" src="reskins/jura_santa/btalking-.png" x="307" y="-2" rotation="-1" clipleft="161" clipright="158" cliptop="329" clipbottom="1054" />
+            <sprite id="bmouthopen" z="1" src="reskins/jura_santa/bmouthopen.png" x="302" y="323" rotation="-7" />
+            <sprite id="mouthopen" src="reskins/jura_santa/mouthopen.png" x="2" y="246" />
         </pose>
         <pose id="0-selected">
             <sprite id="vain" src="reskins/jura_santa/0-vain.png" x="0" y="0" />
@@ -108,7 +89,7 @@
         </pose>
         <pose id="0-smug-">
             <sprite id="smug" src="reskins/jura_santa/0-smug.png" x="0" y="0" />
-            <sprite id="annoyed" src="reskins/jura_santa/0-annoyed.png" x="-9" y="2" rotation="1" clipleft="203" clipright="150" cliptop="85" clipbottom="1133" clipradius="77" />
+            <sprite id="annoyed0" src="reskins/jura_santa/annoyed0.png" x="27" y="48" />
         </pose>
         <pose id="0-stripb">
             <sprite id="strip" src="reskins/jura_santa/0-strip.png" x="0" y="0" />
@@ -168,25 +149,6 @@
             <sprite id="talking" src="reskins/jura_santa/1-surprised.png" x="0" y="0" />
             <sprite id="btalking" z="1" src="reskins/jura_santa/bexcited.png" x="196" y="0" rotation="0" />
         </pose>
-        <pose id="1-calling">
-            <sprite id="talking" src="reskins/jura_santa/1-talking-.png" x="0" y="0" alpha="0" />
-            <sprite id="btalking" z="1" src="reskins/jura_santa/btalking.png" x="308" y="0" alpha="0" />
-            <sprite id="calling" src="reskins/jura_santa/1-calling.png" x="0" y="0" />
-            <directive type="animation" id="talking" ease="smooth" interpolation="linear">
-                <keyframe time="0" x="0" y="0" alpha="0" />
-                <keyframe time="1.5" alpha="0" />
-                <keyframe time="2" alpha="100" />
-            </directive>
-            <directive type="animation" id="btalking" ease="smooth" interpolation="linear">
-                <keyframe time="0" x="308" y="0" alpha="0" />
-                <keyframe time="1" alpha="0" />
-                <keyframe time="1.5" alpha="100" />
-            </directive>
-            <directive type="animation" id="calling" delay="1.5" ease="smooth" interpolation="linear">
-                <keyframe time="0" alpha="100" />
-                <keyframe time="0.5" alpha="0" />
-            </directive>
-        </pose>
         <pose id="1-hug">
             <sprite id="hug" z="-1" src="reskins/jura_santa/1-hug.png" x="0" y="0" />
             <sprite id="cheryl" z="1" src="reskins/jura_santa/8c-notarm.png" x="-2" y="0" rotation="6" />
@@ -209,8 +171,8 @@
         <pose id="1-looking-open">
             <sprite id="talking" src="reskins/jura_santa/1-looking-.png" x="0" y="0" />
             <sprite id="btalking" z="1" src="reskins/jura_santa/blooking-.png" x="302" y="0" />
-            <sprite id="conversational" src="reskins/jura_santa/0-conversational.png" x="0" y="1" clipleft="265" clipright="261" cliptop="248" clipbottom="1130" />
-            <sprite id="btalking-" z="1" src="reskins/jura_santa/btalking-.png" x="307" y="-2" rotation="-1" clipleft="161" clipright="158" cliptop="329" clipbottom="1054" />
+            <sprite id="mouthopen" src="reskins/jura_santa/mouthopen.png" x="2" y="246" />
+            <sprite id="bmouthopen" z="1" src="reskins/jura_santa/bmouthopen.png" x="302" y="323" rotation="-7" />
         </pose>
         <pose id="1-silentthinking">
             <sprite id="thinking" src="reskins/jura_santa/1-thinking.png" x="0" y="0" />
@@ -222,7 +184,7 @@
         </pose>
         <pose id="1-smug-">
             <sprite id="smug" src="reskins/jura_santa/1-smug.png" x="0" y="0" />
-            <sprite id="annoyed" src="reskins/jura_santa/1-annoyed.png" x="-9" y="2" rotation="1" clipleft="203" clipright="150" cliptop="85" clipbottom="1133" clipradius="77" />
+            <sprite id="annoyed1" src="reskins/jura_santa/annoyed.png" x="5" y="81" rotation="1" />
         </pose>
         <pose id="1-strippedb">
             <sprite id="strip" src="reskins/jura_santa/1-stripped.png" x="0" y="0" />
@@ -277,25 +239,6 @@
             <sprite id="talking" src="reskins/jura_santa/2-surprised.png" x="0" y="0" />
             <sprite id="btalking" z="1" src="reskins/jura_santa/bexcited.png" x="196" y="0" rotation="0" />
         </pose>
-        <pose id="2-calling">
-            <sprite id="talking" src="reskins/jura_santa/2-talking-.png" x="0" y="0" alpha="0" />
-            <sprite id="btalking" z="1" src="reskins/jura_santa/btalking.png" x="308" y="0" alpha="0" />
-            <sprite id="calling" src="reskins/jura_santa/2-calling.png" x="0" y="0" />
-            <directive type="animation" id="talking" ease="smooth" interpolation="linear">
-                <keyframe time="0" x="0" y="0" alpha="0" />
-                <keyframe time="1.5" alpha="0" />
-                <keyframe time="2" alpha="100" />
-            </directive>
-            <directive type="animation" id="btalking" ease="smooth" interpolation="linear">
-                <keyframe time="0" x="308" y="0" alpha="0" />
-                <keyframe time="1" alpha="0" />
-                <keyframe time="1.5" alpha="100" />
-            </directive>
-            <directive type="animation" id="calling" delay="1.5" ease="smooth" interpolation="linear">
-                <keyframe time="0" alpha="100" />
-                <keyframe time="0.5" alpha="0" />
-            </directive>
-        </pose>
         <pose id="2-hug">
             <sprite id="hug" z="-1" src="reskins/jura_santa/2-hug.png" x="0" y="0" />
             <sprite id="cheryl" z="1" src="reskins/jura_santa/8c-notarm.png" x="-2" y="0" rotation="6" />
@@ -318,8 +261,8 @@
         <pose id="2-looking-open">
             <sprite id="talking" src="reskins/jura_santa/2-looking-.png" x="0" y="0" />
             <sprite id="btalking" z="1" src="reskins/jura_santa/blooking-.png" x="302" y="0" />
-            <sprite id="conversational" src="reskins/jura_santa/0-conversational.png" x="0" y="1" clipleft="265" clipright="261" cliptop="248" clipbottom="1130" />
-            <sprite id="btalking-" z="1" src="reskins/jura_santa/btalking-.png" x="307" y="-2" rotation="-1" clipleft="161" clipright="158" cliptop="329" clipbottom="1054" />
+            <sprite id="mouthopen" src="reskins/jura_santa/mouthopen.png" x="2" y="246" />
+            <sprite id="bmouthopen" z="1" src="reskins/jura_santa/bmouthopen.png" x="302" y="323" rotation="-7" />
         </pose>
         <pose id="2-silentthinking">
             <sprite id="thinking" src="reskins/jura_santa/2-thinking.png" x="0" y="0" />
@@ -331,7 +274,7 @@
         </pose>
         <pose id="2-smug-">
             <sprite id="smug" src="reskins/jura_santa/2-smug.png" x="0" y="0" />
-            <sprite id="annoyed" src="reskins/jura_santa/2-annoyed.png" x="-9" y="2" rotation="1" clipleft="203" clipright="150" cliptop="85" clipbottom="1133" clipradius="77" />
+            <sprite id="annoyed1" src="reskins/jura_santa/annoyed.png" x="5" y="81" rotation="1" />
         </pose>
         <pose id="2-talking">
             <sprite id="talking" src="reskins/jura_santa/2-talking.png" x="0" y="0" />
@@ -387,25 +330,6 @@
             <sprite id="talking" src="reskins/jura_santa/3-surprised.png" x="0" y="0" />
             <sprite id="btalking" z="1" src="reskins/jura_santa/bexcited.png" x="196" y="0" rotation="0" />
         </pose>
-        <pose id="3-calling">
-            <sprite id="talking" src="reskins/jura_santa/3-talking-.png" x="0" y="0" alpha="0" />
-            <sprite id="btalking" z="1" src="reskins/jura_santa/btalking.png" x="308" y="0" alpha="0" />
-            <sprite id="calling" src="reskins/jura_santa/3-calling.png" x="0" y="0" />
-            <directive type="animation" id="talking" ease="smooth" interpolation="linear">
-                <keyframe time="0" x="0" y="0" alpha="0" />
-                <keyframe time="1.5" alpha="0" />
-                <keyframe time="2" alpha="100" />
-            </directive>
-            <directive type="animation" id="btalking" ease="smooth" interpolation="linear">
-                <keyframe time="0" x="308" y="0" alpha="0" />
-                <keyframe time="1" alpha="0" />
-                <keyframe time="1.5" alpha="100" />
-            </directive>
-            <directive type="animation" id="calling" delay="1.5" ease="smooth" interpolation="linear">
-                <keyframe time="0" alpha="100" />
-                <keyframe time="0.5" alpha="0" />
-            </directive>
-        </pose>
         <pose id="3-cameratalk">
             <sprite id="stripped" src="reskins/jura_santa/3-talking+.png" x="0" y="0" />
             <sprite id="bcamera+" z="-1" src="reskins/jura_santa/bcameratalk.png" x="305" y="0" rotation="2" />
@@ -432,8 +356,8 @@
         <pose id="3-looking-open">
             <sprite id="talking" src="reskins/jura_santa/3-looking-.png" x="0" y="0" />
             <sprite id="btalking" z="1" src="reskins/jura_santa/blooking-.png" x="302" y="0" />
-            <sprite id="conversational" src="reskins/jura_santa/0-conversational.png" x="0" y="1" clipleft="265" clipright="261" cliptop="248" clipbottom="1130" />
-            <sprite id="btalking-" z="1" src="reskins/jura_santa/btalking-.png" x="307" y="-2" rotation="-1" clipleft="161" clipright="158" cliptop="329" clipbottom="1054" />
+            <sprite id="mouthopen" src="reskins/jura_santa/mouthopen.png" x="2" y="246" />
+            <sprite id="bmouthopen" z="1" src="reskins/jura_santa/bmouthopen.png" x="302" y="323" rotation="-7" />
         </pose>
         <pose id="3-silentthinking">
             <sprite id="thinking" src="reskins/jura_santa/3-thinking.png" x="0" y="0" />
@@ -445,7 +369,7 @@
         </pose>
         <pose id="3-smug-">
             <sprite id="smug" src="reskins/jura_santa/3-smug.png" x="0" y="0" />
-            <sprite id="annoyed" src="reskins/jura_santa/3-annoyed.png" x="-9" y="2" rotation="1" clipleft="203" clipright="150" cliptop="85" clipbottom="1133" clipradius="77" />
+            <sprite id="annoyed1" src="reskins/jura_santa/annoyed.png" x="5" y="81" rotation="1" />
         </pose>
         <pose id="3-talking">
             <sprite id="talking" src="reskins/jura_santa/3-talking.png" x="0" y="0" />
@@ -497,25 +421,6 @@
             <sprite id="talking" src="reskins/jura_santa/4-surprised.png" x="0" y="0" />
             <sprite id="btalking" z="1" src="reskins/jura_santa/bexcited.png" x="196" y="0" rotation="0" />
         </pose>
-        <pose id="4-calling">
-            <sprite id="talking" src="reskins/jura_santa/4-talking-.png" x="0" y="0" alpha="0" />
-            <sprite id="btalking" z="1" src="reskins/jura_santa/btalking.png" x="308" y="0" alpha="0" />
-            <sprite id="calling" src="reskins/jura_santa/4-calling.png" x="0" y="0" />
-            <directive type="animation" id="talking" ease="smooth" interpolation="linear">
-                <keyframe time="0" x="0" y="0" alpha="0" />
-                <keyframe time="1.5" alpha="0" />
-                <keyframe time="2" alpha="100" />
-            </directive>
-            <directive type="animation" id="btalking" ease="smooth" interpolation="linear">
-                <keyframe time="0" x="308" y="0" alpha="0" />
-                <keyframe time="1" alpha="0" />
-                <keyframe time="1.5" alpha="100" />
-            </directive>
-            <directive type="animation" id="calling" delay="1.5" ease="smooth" interpolation="linear">
-                <keyframe time="0" alpha="100" />
-                <keyframe time="0.5" alpha="0" />
-            </directive>
-        </pose>
         <pose id="4-hug">
             <sprite id="hug" z="-1" src="reskins/jura_santa/4-hug.png" x="0" y="0" />
             <sprite id="cheryl" z="1" src="reskins/jura_santa/8c-notarm.png" x="-2" y="0" rotation="6" />
@@ -538,8 +443,8 @@
         <pose id="4-looking-open">
             <sprite id="talking" src="reskins/jura_santa/4-looking-.png" x="0" y="0" />
             <sprite id="btalking" z="1" src="reskins/jura_santa/blooking-.png" x="302" y="0" />
-            <sprite id="conversational" src="reskins/jura_santa/0-conversational.png" x="0" y="1" clipleft="265" clipright="261" cliptop="248" clipbottom="1130" />
-            <sprite id="btalking-" z="1" src="reskins/jura_santa/btalking-.png" x="307" y="-2" rotation="-1" clipleft="161" clipright="158" cliptop="329" clipbottom="1054" />
+            <sprite id="mouthopen" src="reskins/jura_santa/mouthopen.png" x="2" y="246" />
+            <sprite id="bmouthopen" z="1" src="reskins/jura_santa/bmouthopen.png" x="302" y="323" rotation="-7" />
         </pose>
         <pose id="4-silentthinking">
             <sprite id="thinking" src="reskins/jura_santa/4-thinking.png" x="0" y="0" />
@@ -551,7 +456,7 @@
         </pose>
         <pose id="4-smug-">
             <sprite id="smug" src="reskins/jura_santa/4-smug.png" x="0" y="0" />
-            <sprite id="annoyed" src="reskins/jura_santa/4-annoyed.png" x="-9" y="2" rotation="1" clipleft="203" clipright="150" cliptop="85" clipbottom="1133" clipradius="77" />
+            <sprite id="annoyed1" src="reskins/jura_santa/annoyed.png" x="5" y="81" rotation="1" />
         </pose>
         <pose id="4-strip">
             <sprite id="strip" src="reskins/jura_santa/4-strip.png" x="0" y="0" alpha="100" />
@@ -684,25 +589,6 @@
             <sprite id="stripped" src="reskins/jura_santa/5-butt.png" x="0" y="0" />
             <sprite id="bcamera+" z="-1" src="reskins/jura_santa/bcameraperfect.png" x="268" y="0" rotation="2" />
         </pose>
-        <pose id="5-calling">
-            <sprite id="talking" src="reskins/jura_santa/5-talking-.png" x="0" y="0" alpha="0" />
-            <sprite id="btalking" z="1" src="reskins/jura_santa/btalking.png" x="339" y="0" alpha="0" />
-            <sprite id="calling" src="reskins/jura_santa/5-calling.png" x="0" y="0" />
-            <directive type="animation" id="talking" ease="smooth" interpolation="linear">
-                <keyframe time="0" x="0" y="0" alpha="0" />
-                <keyframe time="1.5" alpha="0" />
-                <keyframe time="2" alpha="100" />
-            </directive>
-            <directive type="animation" id="btalking" ease="smooth" interpolation="linear">
-                <keyframe time="0" x="339" y="0" alpha="0" />
-                <keyframe time="1" alpha="0" />
-                <keyframe time="1.5" alpha="100" />
-            </directive>
-            <directive type="animation" id="calling" delay="1.5" ease="smooth" interpolation="linear">
-                <keyframe time="0" alpha="100" />
-                <keyframe time="0.5" alpha="0" />
-            </directive>
-        </pose>
         <pose id="5-camera+">
             <sprite id="stripped" src="reskins/jura_santa/5-talking+.png" x="0" y="0" />
             <sprite id="bcamera+" z="-1" src="reskins/jura_santa/bcamera+.png" x="305" y="0" rotation="2" />
@@ -746,8 +632,8 @@
         <pose id="5-looking-open">
             <sprite id="talking" src="reskins/jura_santa/5-looking-.png" x="0" y="0" />
             <sprite id="btalking" z="1" src="reskins/jura_santa/blooking-.png" x="302" y="0" />
-            <sprite id="conversational" src="reskins/jura_santa/0-conversational.png" x="0" y="1" clipleft="265" clipright="261" cliptop="248" clipbottom="1130" />
-            <sprite id="btalking-" z="1" src="reskins/jura_santa/btalking-.png" x="307" y="-2" rotation="-1" clipleft="161" clipright="158" cliptop="329" clipbottom="1054" />
+            <sprite id="mouthopen" src="reskins/jura_santa/mouthopen.png" x="2" y="246" />
+            <sprite id="bmouthopen" z="1" src="reskins/jura_santa/bmouthopen.png" x="302" y="323" rotation="-7" />
         </pose>
         <pose id="5-nagatoro">
             <sprite id="nagatoro" src="reskins/jura_santa/5-sexyb.png" x="0" y="0" />
@@ -812,7 +698,7 @@
         </pose>
         <pose id="5-smug-">
             <sprite id="smug" src="reskins/jura_santa/5-smug.png" x="0" y="0" />
-            <sprite id="annoyed" src="reskins/jura_santa/5-annoyed.png" x="-9" y="2" rotation="1" clipleft="203" clipright="150" cliptop="85" clipbottom="1133" clipradius="77" />
+            <sprite id="annoyed1" src="reskins/jura_santa/annoyed.png" x="5" y="81" rotation="1" />
         </pose>
         <pose id="5-stretchingcamera">
             <sprite id="stripped" src="reskins/jura_santa/5-stretching.png" x="0" y="0" />
@@ -1017,8 +903,8 @@
         <pose id="6-looking-open">
             <sprite id="talking" src="reskins/jura_santa/6-looking-.png" x="0" y="0" />
             <sprite id="btalking" z="1" src="reskins/jura_santa/blooking-.png" x="302" y="0" />
-            <sprite id="conversational" src="reskins/jura_santa/0-conversational.png" x="0" y="1" clipleft="265" clipright="261" cliptop="248" clipbottom="1130" />
-            <sprite id="btalking-" z="1" src="reskins/jura_santa/btalking-.png" x="307" y="-2" rotation="-1" clipleft="161" clipright="158" cliptop="329" clipbottom="1054" />
+            <sprite id="mouthopen" src="reskins/jura_santa/mouthopen.png" x="2" y="246" />
+            <sprite id="bmouthopen" z="1" src="reskins/jura_santa/bmouthopen.png" x="302" y="323" rotation="-7" />
         </pose>
         <pose id="6-nagatoro">
             <sprite id="nagatoro" src="reskins/jura_santa/6-sexyb.png" x="0" y="0" />
@@ -1083,7 +969,7 @@
         </pose>
         <pose id="6-smug-">
             <sprite id="smug" src="reskins/jura_santa/6-smug.png" x="0" y="0" />
-            <sprite id="annoyed" src="reskins/jura_santa/6-annoyed.png" x="-9" y="2" rotation="1" clipleft="203" clipright="150" cliptop="85" clipbottom="1133" clipradius="77" />
+            <sprite id="annoyed1" src="reskins/jura_santa/annoyed.png" x="5" y="81" rotation="1" />
         </pose>
         <pose id="6-stretchingcamera">
             <sprite id="stripped" src="reskins/jura_santa/6-stretching.png" x="0" y="0" />
@@ -1425,6 +1311,108 @@
             <directive type="animation" id="Rouge_TreasureScope_Lens" ease="linear" interpolation="none">
                 <keyframe time="0" src="reskins/jura_santa/Rouge_TreasureScope_Lens.png" />
                 <keyframe time="3" src="reskins/jura_santa/Rouge_TreasureScope_Lens.png" />
+            </directive>
+        </pose>
+        <pose id="0-aura">
+            <sprite id="embarrassed" src="reskins/jura_santa/0-proud.png" x="0" y="0" alpha="100" />
+            <sprite id="auracamera" z="1" src="reskins/jura_santa/auracamera.png" x="-64" y="600" scalex="2.5" scaley="2.5" alpha="0" />
+            <sprite id="cameraflash" delay="1.25" src="reskins/jura_santa/cameraflash.png" x="-10" y="418" scalex="0.1" scaley="0.1" alpha="0" />
+            <sprite id="aura" delay="1.38" src="reskins/jura_santa/aura.png" x="0" y="0" alpha="0" />
+            <directive type="animation" id="embarrassed" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" alpha="100" />
+                <keyframe time="1" alpha="100" />
+                <keyframe time="1.38" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="auracamera" ease="linear" interpolation="linear">
+                <keyframe time="0" x="-64" y="600" scalex="2.5" scaley="2.5" alpha="0" />
+                <keyframe time="1" x="-64" y="317" scalex="2.5" scaley="2.5" alpha="100" />
+                <keyframe time="1.38" x="-64" y="317" scalex="2.5" scaley="2.5" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="auracamera" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/jura_santa/auracamera.png" />
+                <keyframe time="1" src="reskins/jura_santa/auracamera.png" />
+                <keyframe time="1.38" src="reskins/jura_santa/auracamera.png" />
+            </directive>
+            <directive type="animation" id="cameraflash" delay="1.25" ease="ease-out-cubic" interpolation="linear">
+                <keyframe time="0" scalex="0.1" scaley="0.1" alpha="0" />
+                <keyframe time="0.13" scalex="8" scaley="8" alpha="100" />
+                <keyframe time="0.75" scalex="8" scaley="8" alpha="100" />
+                <keyframe time="2.75" alpha="0" />
+            </directive>
+            <directive type="animation" id="aura" delay="1.38" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" />
+                <keyframe time="2.62" x="0" y="0" />
+            </directive>
+            <directive type="animation" id="aura" delay="1.38" ease="ease-in-out-cubic" interpolation="linear">
+                <keyframe time="0" alpha="0" />
+                <keyframe time="2.62" alpha="100" />
+            </directive>
+        </pose>
+        <pose id="0-baura">
+            <sprite id="embarrassed" src="reskins/jura_santa/0-proud.png" x="0" y="0" alpha="100" />
+            <sprite id="auracamera" z="1" src="reskins/jura_santa/auracamera.png" x="114" y="600" scalex="2.5" scaley="2.5" alpha="0" />
+            <sprite id="cameraflash" delay="1.25" src="reskins/jura_santa/cameraflash.png" x="75" y="418" scalex="0.1" scaley="0.1" alpha="0" />
+            <sprite id="aura" delay="1.38" src="reskins/jura_santa/aura.png" x="0" y="0" alpha="0" />
+            <sprite id="blooking-" z="-1" src="reskins/jura_santa/blooking-.png" x="367" y="0" alpha="100" />
+            <sprite id="baura" delay="1.38" z="-1" src="reskins/jura_santa/baura.png" x="367" y="0" alpha="0" />
+            <directive type="animation" id="embarrassed" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" alpha="100" />
+                <keyframe time="1" alpha="100" />
+                <keyframe time="1.38" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="auracamera" ease="linear" interpolation="linear">
+                <keyframe time="0" x="114" y="600" scalex="2.5" scaley="2.5" alpha="0" />
+                <keyframe time="1" x="114" y="317" scalex="2.5" scaley="2.5" alpha="100" />
+                <keyframe time="1.38" x="114" y="317" scalex="2.5" scaley="2.5" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="auracamera" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/jura_santa/auracamera.png" />
+                <keyframe time="1" src="reskins/jura_santa/auracamera.png" />
+                <keyframe time="1.38" src="reskins/jura_santa/auracamera.png" />
+            </directive>
+            <directive type="animation" id="cameraflash" delay="1.25" ease="linear" interpolation="linear">
+                <keyframe time="0" x="75" y="418" />
+                <keyframe time="0.13" x="75" />
+                <keyframe time="0.75" x="75" />
+            </directive>
+            <directive type="animation" id="cameraflash" delay="1.25" ease="ease-out-cubic" interpolation="linear">
+                <keyframe time="0" scalex="0.1" scaley="0.1" alpha="0" />
+                <keyframe time="0.13" scalex="8" scaley="8" alpha="100" />
+                <keyframe time="0.75" scalex="8" scaley="8" alpha="100" />
+                <keyframe time="2.75" alpha="0" />
+            </directive>
+            <directive type="animation" id="aura" delay="1.38" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" />
+                <keyframe time="2.62" x="0" y="0" />
+            </directive>
+            <directive type="animation" id="aura" delay="1.38" ease="ease-in-out-cubic" interpolation="linear">
+                <keyframe time="0" alpha="0" />
+                <keyframe time="2.62" alpha="100" />
+            </directive>
+            <directive type="animation" id="blooking-" ease="linear" interpolation="linear">
+                <keyframe time="0" x="367" y="0" />
+                <keyframe time="1.38" x="367" y="0" />
+            </directive>
+            <directive type="animation" id="blooking-" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/jura_santa/blooking-.png" />
+                <keyframe time="1.38" src="reskins/jura_santa/blooking-.png" />
+            </directive>
+            <directive type="animation" id="blooking-" ease="ease-in-out-cubic" interpolation="linear">
+                <keyframe time="0" alpha="100" />
+                <keyframe time="1.38" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="baura" delay="1.38" ease="linear" interpolation="linear">
+                <keyframe time="0" x="367" y="0" />
+                <keyframe time="2.62" x="367" />
+            </directive>
+            <directive type="animation" id="baura" delay="1.38" ease="ease-in-out-cubic" interpolation="linear">
+                <keyframe time="0" alpha="0" />
+                <keyframe time="2.62" alpha="100" />
             </directive>
         </pose>
     </poses>

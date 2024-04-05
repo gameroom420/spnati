@@ -353,6 +353,9 @@
         <response id="903" opponent="toph" opponentId="767" />
         <response id="904" opponent="solar_flare" opponentId="75" />
         <response id="908" opponent="jura" opponentId="1246" />
+        <response id="910" opponent="nonon" opponentId="620" />
+        <response id="914" opponent="nonon" opponentId="868" />
+        <response id="918" opponent="nonon" opponentId="870" />
     </responses>
     <notes>
         <note id="412">I intentionally made Fluttershy ask Oz a question that Fischl herself could reply to. To further solidify her unintentional ignoring of Fischl over Oz.</note>
@@ -621,11 +624,26 @@
         <label id="907" label="" color="1" folder="" sort="0" />
         <label id="908" label="" color="1" folder="" sort="0" />
         <label id="909" label="" color="1" folder="" sort="0" />
+        <label id="916" label="" color="1" folder="" sort="0" />
+        <label id="915" label="" color="3" folder="" sort="0" />
+        <label id="914" label="" color="3" folder="" sort="0" />
+        <label id="917" label="" color="1" folder="" sort="0" />
+        <label id="918" label="" color="1" folder="" sort="0" />
+        <label id="919" label="" color="1" folder="" sort="0" />
+        <label id="920" label="" color="1" folder="" sort="0" />
+        <label id="921" label="" color="1" folder="" sort="0" />
+        <label id="922" label="" color="1" folder="" sort="0" />
+        <label id="923" label="" color="1" folder="" sort="0" />
+        <label id="924" label="" color="1" folder="" sort="0" />
+        <label id="925" label="" color="2" folder="" sort="0" />
+        <label id="926" label="" color="2" folder="" sort="0" />
+        <label id="927" label="" color="2" folder="" sort="0" />
+        <label id="928" label="" color="2" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>Fluttershy_</prefix>
     </prefixes>
-    <nextId>909</nextId>
+    <nextId>928</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="act_confident_self" />
@@ -1427,6 +1445,16 @@
         <marker scope="Public" name="Noelle_strip_reply2" />
         <marker scope="Public" name="Noelle_strip_reply2B" />
         <marker scope="Public" name="Noelle_two_different_jobs" />
+        <marker scope="Public" name="Nonon_" />
+        <marker scope="Public" name="Nonon_capable" />
+        <marker scope="Public" name="Nonon_FavoriteAnimals_reply" />
+        <marker scope="Public" name="Nonon_FavoriteAnimals_reply2" />
+        <marker scope="Public" name="Nonon_FavoriteAnimals_reply3" />
+        <marker scope="Public" name="Nonon_music_question" />
+        <marker scope="Public" name="Nonon_pets_reply" />
+        <marker scope="Public" name="Nonon_pets_reply2" />
+        <marker scope="Public" name="Nonon_pets_reply3" />
+        <marker scope="Public" name="Nonon_selfBrave_reply" />
         <marker scope="Public" name="numberone_bruised_legs" />
         <marker scope="Public" name="Panty_strip1" />
         <marker scope="Public" name="people_in_underwear" />
@@ -1613,6 +1641,7 @@
         <marker scope="Public" name="Rouge_shelterPetting_reply" />
         <marker scope="Public" name="Rouge_shyAnimalException_reply" />
         <marker scope="Public" name="Rouge_sideWager_SelfLost" />
+        <marker scope="Public" name="Rouge_sideWager_SelfWon" />
         <marker scope="Public" name="Rouge_sideWager_start" />
         <marker scope="Public" name="Rouge_softboobs_replyA" />
         <marker scope="Public" name="Rouge_softboobs_replyB" />
@@ -1679,6 +1708,10 @@
         <marker scope="Public" name="SlyCooper_strip2" />
         <marker scope="Public" name="small_things" />
         <marker scope="Public" name="snail_worries" />
+        <marker scope="Public" name="Sofia_selfConfident_reply" />
+        <marker scope="Public" name="Sofia_selfDislike_reply" />
+        <marker scope="Public" name="Sofia_selfExperience_reply" />
+        <marker scope="Public" name="Sofia_selfHate_reply" />
         <marker scope="Public" name="SolarFlare_SelfBeat_reply" />
         <marker scope="Public" name="SolarFlare_SelfGarden_reply" />
         <marker scope="Public" name="SolarFlare_SelfSkills_reply" />
@@ -1848,6 +1881,9 @@
         <marker scope="Public" name="Wikipe-tan_strip3" />
         <marker scope="Public" name="WindblumeSucrose_confused" />
         <marker scope="Public" name="worried4Sucrose" />
+        <marker scope="Public" name="Yae_extremeMethod_reply" />
+        <marker scope="Public" name="Yae_risqueQuestions_reply" />
+        <marker scope="Public" name="Yae_smokeBomb_reply" />
         <marker scope="Public" name="youre_funny_ignatz" />
         <marker scope="Public" name="Yuna_strip1" />
         <marker scope="Public" name="Yuri_Fluttershy_shy_sing" />

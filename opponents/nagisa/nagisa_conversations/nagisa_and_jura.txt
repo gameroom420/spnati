@@ -1,0 +1,499 @@
+If Nagisa to left and Jura to right:
+
+NAGISA MUST STRIP SHOES:
+Nagisa [nagisa_jura_nj_n1]: Oops! Oh well. I don't want to be the center of attention, so please just play on and I'll pick something to take off.
+Jura [nagisa0left]: Give me a break.  You <i>don't</i> want to be the center of attention?  That's the whole point of the game!
+  OR [nagisa0left]: <i>Yeah, OK.</i>  The girl who signed up for strip poker with strangers doesn't want attention.
+  OR [nagisa0left]: Are we really supposed to buy that?  You can blush all you want, but you came here to be <i>ogled</i> like the rest of us.
+
+NAGISA STRIPPING SHOES:
+Nagisa [nagisa_jura_nj_n2]: I'm not really here for that, Jura. Is... is that the reason you're here?
+Jura [nagisa01left]: I'm here for a <i>lot</i> of reasons...I mean, it's <i>Earth!</i>  Back before all the colonies were settled...men and women, <i>living together!</i>
+  OR [nagisa01left]: It's not the <i>only</i> reason.  <i>You</i> live here...<i>me,</i> it's like walking through history!  The two sexes, interlinked...
+
+NAGISA STRIPPED SHOES IF PLAYING WITH 1+ MALES:
+Nagisa [nagisa_jura_nj_n3_unusual]: You should know that men and women don't normally do stuff like this. Well, maybe as couple in private... but not in a group.
+Jura []: <i>In private,</i> huh?  I wouldn't mind <i>capturing</i> one---to use as my private little plaything.
+  OR []: Well, who wants to be <i>exposed</i> all the time, anyway?  <i>In private</i> is where you can experiment all you want...maybe on a live capture.
+
+NAGISA STRIPPED SHOES IF NOT PLAYING WITH MALES AND NOT EXHIBITIONIST BACKGROUND:
+Nagisa [nagisa_jura_nj_n3_no_peeping]: I don't think I'd ever be able to do this if men were here playing too! We should probably stay on guard, just to make sure none are peeping.
+Jura []: I was kind of <i>hoping</i> for some!  They already walked in on me in the hot spring.  Everyone <i>else</i> got embarrassed.
+  OR []: Ahhn, but that's <i>exciting!</i>  Knowing I cast the same spell on men that I do on women.  Besides, the prisoners already got a peep at us all while we were bathing.
+
+
+HAND=ANY:
+Nagisa [nagisa_playing_with_boys]*: ??
+Jura [nagisa0_boys]: Oh, so you don't know much about men, either, Nagisa?  I thought you---at least get <i>taught</i> about them here.
+  OR [nagisa0_boys]: Shouldn't an Earth girl know all about men?  I thought you lived with them.  I thought---do you at least <i>learn</i> about them?  In school?
+  OR [nagisa0_boys]: ...Are men and women still kept separate on Earth?  You've been talking like you barely know them...um, maybe you've had a school lecture, at least?
+  OR [nagisa0_boys]: ...To be honest, I thought men and women played games like this together all the time here.  But this civilian girl...they seem new to her.  Do they just make you read about them?
+
+
+NAGISA MUST STRIP SOCKS:
+Nagisa [nagisa_jura_nj_n4]: Ah. Sorry. I hope it's okay with everyone if I go to bare feet. Unless you hate that kind of thing. If people liked other people's feet, wouldn't it be so much easier to get a foot massage, ehehe...
+Jura [nagisa1left]: <i>Mm,</i> that's one of the best parts of our spa treatment.  It's the first bit they do before letting us lie back and drift away...
+  OR [nagisa1left]: Oh, I <i>love</i> our foot massages!  I mean, I love the full-body treatment our spa does.  But they start it with the feet, to ease the pain of a day's battle...
+
+NAGISA STRIPPING SOCKS:
+Nagisa [nagisa_jura_nj_n5]: That sounds so nice! I'd love to try a spa treatment one day. I wonder if that's the kind of thing you could do with friends for free at home.
+Jura [nagisa12left]: <i>Uhh...</i>you certainly <i>can.</i>  I certainly <i>have.</i>  But you might end up more than <i>friends.</i>
+  OR [nagisa12left]: <i>Ahaha.  Everything</i> has a price.  In this case, your friendship---swapped for something more <i>intimate.</i>
+
+NAGISA STRIPPED SOCKS:
+Nagisa [nagisa_jura_nj_n6]: Oh, you're right, Jura. In that case, I'll just invite girls over. The boys will have to sit this one out.
+Jura []: ...Who do you think I was talking about?
+  OR []: ...Oh, brother.  As if I'd want a man twisting my toes anyway.
+
+
+NAGISA MUST STRIP JACKET:
+Nagisa [nagisa_jura_nj_n7]: Normally if something unusual happens to me, it's because someone did something silly. It's kind of a weird feeling knowing that someone was me this time!
+Jura [nagisa2left]: <i>Hmmn...</i>well, that's the trouble with putting yourself out there.  Sometimes you get made a fool of...or worse.
+  OR [nagisa2left]: Jura <i>loves</i> this kind of attention...but, <i>haahn,</i> not everything goes so smoothly.  There's embarrassment, and then there's...
+
+NAGISA STRIPPING JACKET:
+Nagisa [nagisa_jura_nj_n8]: I just want to make a nice entry like a graceful diver... but it's me so I'll still probably end up doing a belly flop...
+Jura [nagisa23left]: What makes you want to try, anyway?  A lot of girls are happy just supporting someone else.
+  OR [nagisa23left]: Hey, most girls don't even attempt it.  They know their place as one of the "stagehands."
+
+NAGISA STRIPPED JACKET:
+Nagisa [nagisa_jura_nj_n9]: Maybe it's a bit selfish of me. I kind of wanted to see what kind of reaction I would get if it was just me. I can't really get an honest opinion from the people who dote on me...
+Jura []: You can't?  Jura <i>is</i> very selfish...but that's the Jura that Barnette loves to dote on!
+  OR []: If they don't love you when you're <i>you,</i> all that "doting" is more like "controlling."
+
+
+NAGISA MUST STRIP SHIRT:
+Nagisa [nagisa_jura_nj_n10]: How many of us are around the same age, do you think? I'm eighteen. ~Player~ seems a little older, I think.
+Jura [nagisa3left]: <i>Mohhn.</i>  It's a little weird to have turned the corner on being a teenager.  It's only been a year, and some of the younger girls get all <i>formal</i> with me...
+  OR [nagisa3left]: <i>Hmmn,</i> there's something about turning twenty...I mean, Barnette's <i>nineteen,</i> but doesn't that sound like we're years apart?
+
+NAGISA STRIPPING SHIRT:
+Nagisa [nagisa_jura_nj_n11]: Eeep! I didn't realize it was my turn... Doing something like this for the first time is probably hard no matter how old you are, right?
+Jura [nagisa34left]: Uh...maybe if you're <i>fourteen.</i>  By <i>now,</i> you should really be more comfortable with yourself.
+  OR [nagisa34left]: ...I guess?  But this is kind of late for a first time.
+
+NAGISA STRIPPED SHIRT:
+Nagisa [nagisa_jura_nj_n12]: I'm... I'm sure thousands of girls are having their first times every day all over the country!
+Jura []: ...<i>Sheesh.</i>  Maybe twenty <i>does</i> make a big difference.
+  OR []: ...You know, I can <i>see</i> why people would think we're way apart...
+
+
+NAGISA MUST STRIP SKIRT AND AT LEAST ONE MALE PRESENT:
+Nagisa [nagisa_jura_nj_n13_m]: I had a dream once that I was at place I didn't recognize and everyone was staring at me in my underwear... I suppose dreams <i>can</i> come true...
+Jura [nagisa4left]: Why is this such a big deal for you, anyway?  Do men tell you not to show off or something?
+  OR [nagisa4left]: I just don't get why you'd be <i>so</i> shy.  Is it because there's men around?
+
+NAGISA STRIPPING SKIRT AND AT LEAST ONE MALE PRESENT:
+Nagisa [nagisa_jura_nj_n14_m]: Maybe men wouldn't care unless it's a pretty lady prancing around... But I'm kind of a private person, <i>so I care!</i> Sorry... I got a bit loud just then...
+Jura [nagisa45left]: I know.  For a moment, you were actually asserting yourself.  Do men not like that, either?
+  OR [nagisa45left]: It's also OK to have an <i>opinion.</i>  Now I'm <i>really</i> concerned what they've hammered into you...
+
+NAGISA STRIPPED SKIRT:
+Nagisa [nagisa_jura_nj_n15_m]: I think it's just natural for a woman to get shy about undressing when a man is watching. I think... I think they get shy if we watch them too.
+Jura []: ...Well, ~male~?
+  OR []: Maybe we should let ~male~ speak for himself.  If he's not too shy, that is.
+
+
+NAGISA MUST STRIP SKIRT AND NO MALES PRESENT:
+Nagisa [nagisa_jura_nj_n13_f]: I thought this would be easier because it's just us girls here... Even now, I still have to build up my courage...
+Jura [nagisa4left_alt]: Why is this such a big deal for you, anyway?  You're kind of <i>skinny,</i> but you still look fine.
+  OR [nagisa4left_alt]: It's not like you're <i>ugly,</i> you know.  Just relax and have fun!
+
+NAGISA STRIPPING SKIRT AND NO MALES PRESENT:
+Nagisa [nagisa_jura_nj_n14_f]: I don't think I know anyone who's not shy about everyone seeing their thighs. Um, except maybe you, Jura. Don't you ever feel shy sometimes?
+Jura [nagisa45left_alt]: Not about <i>that.</i>  I'd have to be...well, <i>doing</i> something dirty.
+  OR [nagisa45left_alt]: I've got nothing to be shy about!<br>...<i>Physically,</i> anyway.  We all <i>get up to things</i> we'd rather keep private...
+
+NAGISA STRIPPED SKIRT AND NO MALES PRESENT:
+Nagisa [nagisa_jura_nj_n15_f]: Sometimes the girls at school talk about doing dirty stuff... some of the things they say would make <i>anyone</i> blush...
+Jura [nagisa5s_left_alt]: Hey, you can't tease Jura with gossip like that.  There's no reason to keep it to yourself if <i>they</i> couldn't.
+  OR [nagisa5s_left_alt]: <i>Oh?</i>  No rumor must go around escaping Jura's ears.  They volunteered it, after all.
+
+NAGISA HAND AFTER STRIPPED SKIRT AND NO MALES PRESENT:
+Nagisa [nagisa_jura_nj_n15_f_hand]: I can't repeat rude talk like that, Jura! If you want a clue, um, they do a gesture with their tongues a lot...
+Jura [nagisa5_hand]: Do they, Nagisa?<br>...Hmm, this planet's probably got a few gestures I don't know.
+  OR [nagisa5_hand]: That's it?  I know what <i>those</i> mean, Nagisa.<br>...Back home, anyway.
+
+
+NAGISA MUST STRIP BRA:
+Nagisa [nagisa_jura_nj_n16]: I... I have to take off my bra now. Um, you can all take a peek if you have to. But if you have a boyfriend or girlfriend, you should check with them first if it's okay to look...
+Jura [nagisa5left]: What are you implying?  Barnette should feel <i>threatened</i> around you, is that it?
+  OR [nagisa5left]: <i>Oh?</i>  You're trying to seduce Jura's delicate heart, right under her lover's nose?
+
+NAGISA STRIPPING BRA:
+Nagisa [nagisa_jura_nj_n17]: N-No! I'm not trying to steal anyone away! Isn't a good idea to ask for permission first anyway?
+Jura [nagisa56left]: Well, you <i>are</i> pretty cute.  But if you don't trust your own <i>partner,</i> the whole thing is already in trouble.
+  OR [nagisa56left]: Have you <i>had</i> a girlfriend?  Or whatever they call a man.  After a while, you just---don't <i>need</i> to ask that kind of thing!
+
+NAGISA STRIPPED BRA:
+Nagisa [nagisa_jura_nj_n18]: I haven't had a ~player.ifMale(boyfriend|girlfriend)~ before. It's not that I wouldn't trust ~player.ifMale(him|her)~, I just don't think I'd want ~player.ifMale(him|her)~ to be ogling anyone's body... except, um, except maybe mine...
+Jura []: <i>Hohoho...</i>pride and jealousy.  I think you're really coming along to~background.time~.
+  OR []: So in other words, you're starting to <i>like</i> the way you look, and stand up for it.  Imagine that.
+
+
+NAGISA MUST STRIP PANTIES AND AT LEAST ONE MALE PRESENT:
+Nagisa [nagisa_jura_nj_n19_m]: Ah! Um, I kind of hoped the first boy to see me undressed would be my future husband, but I suppose I knew this would happen from the moment we started...
+Jura [nagisa6left]: You Earth girls treat men really weird.  Like, you dream of one that you'll spend your whole life with, but you don't want the rest anywhere near.
+  OR [nagisa6left]: For someone who wants to <i>marry</i> a man, you're awfully scared of them.  And it's not just you!  How does anyone <i>find</i> a "husband"?
+
+NAGISA STRIPPING PANTIES AND AT LEAST ONE MALE PRESENT:
+Nagisa [nagisa_jura_nj_n20_m]: J-Just because you might have feelings for someone doesn't mean you want to show them everything right away!
+Jura [nagisa67left]: I'm just saying, you've got to decide if men are the enemy or not.  We've been headed in the other direction.
+  OR [nagisa67left]: <i>Hohh, boy...</i>things must need to balance out.  We make peace with men, and you make enemies...
+
+NAGISA STRIPPED PANTIES AND AT LEAST ONE MALE PRESENT:
+Nagisa [nagisa_jura_nj_n21_m]: I don't want to make an enemy out of any boys, but I had to try my hardest to~background.time~! Um, but I lost, so I hope... I hope me being willing to go this far makes up for it...
+Jura []: Whether it is or isn't, just be happy with <i>yourself!</i>  You don't want to try to please someone who doesn't appreciate that.
+  OR []: You shouldn't worry so much about what they think.  Be pretty for <i>yourself,</i> and they'll just have to deal with it!
+
+
+NAGISA MUST STRIP PANTIES AND NO MALES PRESENT:
+Nagisa [nagisa_jura_nj_n19_f]: Oh. I... I hope you can keep relying on you all for support... Even though it's just us girls, this is a new experience for me...
+Jura [nagisa6left_f]: <i>Welllll...</i>you're not my <i>crewmate.</i>  Can you pledge to support me, too?
+  OR [nagisa6left_f]: Trust offered is trust earned.  Can you do that, even when you're so vulnerable?  Lay your heart out for a stranger?
+
+NAGISA STRIPPING PANTIES AND NO MALES PRESENT:
+Nagisa [nagisa_jura_nj_n20_f]: I'm... I'm giving you everything I have!
+Jura [nagisa67left_f]: Then give a little more, and become a whole new girl!  You owe it to yourself as much as us!
+  OR [nagisa67left_f]: <i>No way!</i>  Is that what you would've said when we started?  Show us the Nagisa who's crawled out of her shell!
+
+NAGISA STRIPPED PANTIES AND NO MALES PRESENT:
+Nagisa [nagisa_jura_nj_n21_f]: Sorry, but that was my limit! I have to cover up now or I might overheat from embarrassment...
+Jura []: ...<i>Hmph.</i>  We'll call it progress.
+  OR []: <i>...Hahhhn.</i>  You never make this kind of thing simple...
+
+---
+
+JURA MUST STRIP SWORD:
+Nagisa [nagisa_jura_nj_j1]: Jura, pardon us, but I think you lost that one. Also, um, are you <i>really</i> a pilot?
+Jura [nagisa_resp0]: The <i>excitement</i> just keeps growing...<br><i>...Yes.</i>  What's <i>that</i> supposed to mean, Nagisa?
+  OR [nagisa_resp0]: <i>Hmm, Jura's turn...</i>what?  Um, <i>yeah,</i> Nagisa.  What about it?
+
+JURA STRIPPING SWORD:
+Nagisa [nagisa_jura_nj_j2]: You have such long, beautiful hair. I was just wondering... how do you manage it? I thought if a girl joins the defence force, they have to cut their hair to fit into their helmet.
+Jura [nagisa_resp01]: <i>Oh, thank you!</i><br>...But we're not exactly the <i>military.</i>  We're pirates!  I don't even wear our <i>uniform.</i>
+  OR [nagisa_resp01]: Well, <i>pirates</i> are a little looser with the dress code.  We get to chance to <i>express ourselves,</i> flaunt our beauty!  So I appreciate the compliment...
+
+JURA STRIPPED SWORD:
+Nagisa [nagisa_jura_nj_j3]: It's nice to be able to express ourselves, especially if we do that by showing how safety conscious we are.
+Jura []: ...You were worried about the sword, I take it.
+  OR []: I'll show that by <i>disarming.</i>  You're not exactly setting off alarm bells.
+
+
+JURA MUST STRIP BOOTS:
+Nagisa [nagisa_jura_nj_j4]: Barnette seemed lovely, Jura. How long have you two been a couple?
+Jura [nagisa_resp1]: <i>Isn't she,</i> Nagisa?  Not that she'd take the compliment.  It's been around two years or so...<i>I know,</i> time to start thinking about marriage.
+  OR [nagisa_resp1]: Nagisa?<br>About two years, almost.  After everything that's happened, I've been thinking about proposing to her...
+
+JURA STRIPPING BOOTS:
+Nagisa [nagisa_jura_nj_j5]: Oh, wow! That's so exciting! Have you decided where you want to live? Are you going to use her last name or yours? Do you want a big family?
+Jura [nagisa_resp12]: Well, the thing is, we can't really <i>do</i> any of that as long as we're stuck on a ship in---<i>deep space.</i>
+  OR [nagisa_resp12]: ...<i>Haahn.</i>  That all sounds nice to think about, but the truth is we'd still be pilots, marooned across the galaxy...
+
+JURA STRIPPED BOOTS:
+Nagisa [nagisa_jura_nj_j6]: Even if you can't afford find a place for yourselves, I think it's okay to start a new life under one big roof with everybody. Maybe you could save for a downpayment on a one-bedroom apartment.
+Jura []: That's not---<i>oh, damn it...</i><br>It's more like---we both have to be out there fighting. Fighting for a better future to live in...
+  OR []: Oh, we'd <i>have</i> to be with everyone.  There's nowhere else to---<i>ugh, damn it.</i>  I hope that'll change when we get home...
+
+
+JURA MUST STRIP SLEEVES:
+Nagisa [nagisa_jura_nj_j7]: It's your turn, so I hope this is an okay time to ask, Jura. If you and Barnette have a baby, have you decided if you both want to have one, or just one of you? I'm not really sure how it works in space.
+Jura [nagisa_resp2]: <i>I'll</i> have it, of course!  Barnette's more of an "Oma," Nagisa.  She's said as much.
+  OR [nagisa_resp2]: <i>Ahaha,</i> Nagisa.  The second I brought it up, Barnette asked if I wanted her to be the Oma.  Safe to say I'll be carrying it...
+
+JURA STRIPPING SLEEVES: Sanako only chimes in if present
+Nagisa [nagisa_jura_nj_j8]: You’re so lucky! I'd love to be a mom someday. Even though I know it would be pretty hard on my body.
+Sanako (if to left or right of Jura) [sanako_nagisa_jura_nj_j8]: It will be so nice when you get to experience that joy. ~player.ifMale(It wouldn't hurt if you met a boy here, you know.|If you're worried about the future, there's always adoption.)~
+Jura [nagisa_resp23]: I'm a big girl, I'll be fine.  There's got to be ways for <i>you</i> to fill out.
+  OR [nagisa_resp23]: Don't worry about <i>me.</i>  I've got fat in the right places, and muscle in the rest...have you tried eating and exercising more?
+
+JURA STRIPPED SLEEVES: Sanako only chimes in if present
+Nagisa [nagisa_jura_nj_j9]: My mom makes me eat a lot, so if I didn't have to go up so many stairs and hills, I'd have the tummy without the baby, haha! I'm sure I'm not nearly as active as you are though, Jura.
+Sanako (if to left of Jura): [sanako_nagisa_jura_nj_j9]: She probably feeds you so much because you're so skinny, Nagisa! That's just a mom's job, you know?
+Jura []: And I need a lot of fuel for that.  Look at me now---I'll be a <i>fiend</i> once I'm eating for two!
+  OR []: <i>Mhmhm.</i>  I'm sure I <i>eat</i> more, too.  With a <i>baby,</i> it'll be one plate of pasta after another...!
+Sanako (if to right of Jura): [sanako_nagisa_jura_nj_j9_right]: Eating for two is just the first blessing of motherhood, ehehe...
+
+
+JURA MUST STRIP CHOKER BELT:
+Nagisa [nagisa_jura_nj_j10]: Jura, I think you might get scouted as a model when you're here on Earth. You might even get to be on the front cover of a magazine.
+Jura [nagisa_resp3]: <i>Ahhhn,</i> Nagisa, you really think so?  Do you know someone you can call?  That's easier than <i>my</i> plan!
+  OR [nagisa_resp3]: <i>Really?</i>  They're checking <i>this</i> place out, Nagisa?  I was gonna make the whole thing happen myself!
+
+JURA STRIPPING CHOKER BELT:
+Nagisa [nagisa_jura_nj_j11]: According to the TV, you can never be sure who or where a model scout will be... so I <i>guess</i> it could be someone here. Probably not though.
+Jura [nagisa_resp34]: ...<i>Hmph.</i>  Relying on luck will go exactly like you'd think.  <i>No...</i>Jura will broadcast her beauty across the <i>whole planet!</i>
+  OR [nagisa_resp34]: ...Oh.  Well, <i>fine---</i>Jura isn't going to sit around and wait for her moment to happen.  Soon, <i>every</i> Earthling will be showered in her image!
+
+JURA STRIPPED CHOKER BELT: (front of dress unclipped)
+Nagisa [nagisa_jura_nj_j12]: You might be able to get featured in a variety show, Jura. But, um, they might make you wear a sweater...
+Jura []: ...As if I couldn't make that work.
+  OR []: And make <i>me</i> modest?  You'd have better luck with a supernova.
+
+
+JURA MUST STRIP DRESS:
+Nagisa [nagisa_jura_nj_j13]: Oh no, Jura! I think it's you again. Unless... this is what you wanted? Are we your test audience?
+Jura [nagisa_resp4]: Oh, no, Nagisa...this is <i>not</i> a test!  It's a real, live showing of <i>Jura Basil Elden---!</i>
+  OR [nagisa_resp4]: It's <i>time...</i>Nagisa, don't weep for me.  And don't look away!  I'm making <i>no compromise---!</i>
+
+JURA STRIPPING DRESS: (Barnette appears with a video camera)
+Nagisa [nagisa_jura_nj_j14]: Don't tell me not just us but everyone in the whole nation is going to see!
+Jura [nagisa_resp45]: <i>Muhuhu...</i>you wanted me <i>all to yourself,</i> didn't you?  So does the girl filming!
+  OR [nagisa_resp45]: <i>I know...</i>once you meet Jura, you don't want to share her with anyone else!  <i>Hohoho...</i> right, Barnette?
+
+JURA STRIPPED DRESS:
+Nagisa [nagisa_jura_nj_j15]: B-Barnette, are you really okay with this?
+Jura []: {barnette}OK with---<i>what,</i> the angle?  I'm busy---<i>ohhhn,</i> Jura, you are so <i>sexy!</i>{!reset}<hr><i>Ohohohoho!</i>  Sexy from <i>every</i> angle!
+  OR []: {barnette}<i>Agh---</i>don't interrupt, Nagisa!  This is her---<i>ahhn,</i> you look great, Jura!  You're like the Madonna and the Aphrodite all in one!</i>{!reset}<hr><i>Ohoho,</i> it's <i>true---!</i>
+
+
+JURA MUST STRIP THONG: Sanako only chimes in if present
+Nagisa [nagisa_jura_nj_j16]: I wouldn't trade my mom and dad for anything... but I wish I had been born beautiful like you, Jura...
+Sanako (if to left or right of Jura) [sanako_nagisa_jura_nj_j16]: Aw, aren't you just the sweetest, Nagisa? I'm sure your parents wouldn't trade you for the whole world.
+Jura [nagisa_resp5]: I'd say I wouldn't trade my <i>beauty</i> for anything, Nagisa.<br>...Nobody's got <i>everything,</i> huh?
+  OR [nagisa_resp5]: <i>Ahaha,</i> thank you, Nagisa...but you're not wrong.  You've got your <i>own</i> blessings.
+
+JURA STRIPPING THONG:
+Nagisa [nagisa_jura_nj_j17]: It's not just that you're nice and you're beautiful, it's that you're so ready to show everyone. I'm not surprised that you're dating already. I'm sure... I'm sure there are lots of people who want to date you.
+Jura [nagisa_resp56]: I have <i>admirers,</i> sure.  Like you.  But <i>dating?  Mhmhm...</i>well, you should know by now.  Jura can be quite the handful!
+  OR [nagisa_resp56]: <i>Hmhm.</i>  If there's one thing you should've learned by now, it's that Jura isn't easy to please.  I'm like the Sun---you love to see it, but it's hard to get too close!
+
+JURA STRIPPED THONG:
+Nagisa [nagisa_jura_nj_j18]: That's probably one more thing people like about you. At least that's what I think, anyway.
+Jura []: <i>You mean it?</i>  Well...let's not pretend <i>personality</i> is my biggest asset.
+  OR []: ...You're so sweet.  But I'm no fool...I know what people like about me most of all.
+
+---
+DUE TO POSITION DETECTION, CONVERSATIONS ABOVE AND BELOW THIS LINE WON'T PLAY IN THE SAME GAME.
+---
+
+If Jura to left and Nagisa to right:
+
+NAGISA MUST STRIP SHOES:
+Jura [nagisa0]: Are you OK?  You look like you're about to <i>cry.</i>  Definitely not the type of girl I'd expect to put on a strip show...
+  OR [nagisa0]: You seem <i>really</i> out of your element.  Have you <i>ever</i> taken off that skirt?  All <i>sexy,</i> I mean.
+  OR [nagisa0]: You've been talking like it'll be a struggle for you to just strip, <i>period.</i>  It's about more than <i>that--</i>you've got to <i>dazzle</i> us!
+  OR [nagisa0]: No offense, but I'll always take <i>sexy</i> over <i>shy.</i>  You don't seem confident enough to give a real <i>striptease...</i>or strip at all.
+  OR [nagisa0]: <i>Hmm...</i>the <i>wallflowers</i> really stick out here.  It's not enough to just play, you know---you've got to <i>work it!</i>
+Nagisa [nagisa_jura_jn_n1]: This is just a lot of pressure, that's all. I practised in front of the mirror at home, but it's different with people watching...
+
+NAGISA STRIPPING SHOES:
+Jura [nagisa01]: That's the best <i>part!</i>  Sex appeal is a <i>girl's pride.</i>  It's your job to win us over!
+  OR [nagisa01]: People <i>watching</i> is what makes it so exciting!  Don't you get a <i>rush,</i> knowing they're drinking in your feminine beauty?  It's your <i>identity!</i>
+Nagisa [nagisa_jura_jn_n2]: It is? I... I don't think it is. Not for me, at least...
+
+NAGISA STRIPPED SHOES:
+Jura [nagisa1s]: ...Is this a cultural thing?  Don't let people boss you around!
+  OR [nagisa1s]: Why not?  You're pretty cute.  Or did a bunch of people tell you it's not your place growing up?
+Nagisa [nagisa_jura_jn_n3]: Ah, let's agree to disagree. Each person is different, after all.
+
+
+NAGISA MUST STRIP SHOES IN WAITRESS UNIFORM:
+Jura [nagisa_maidcafe0]: <i>Nagisa?</i>  It <i>is</i> you! Why are you all dressed up like a maid now?  You ought to be a <i>fairy</i> or an <i>elf.</i>
+Nagisa [nagisa_jura_jn_n1_waitress]: I came here straight from work, so this is my work uniform. Sometimes my manager asks us to dress up, but only for special events. My friend Nishina looks very pretty as a fairy.
+
+NAGISA STRIPPING SHOES IN WAITRESS UNIFORM:
+Jura [nagisa_maidcafe01]: <i>Hmm.  Waiting tables</i> is...well, I'd charm the customers, but Jura wants to be the <i>star.</i>
+  OR [nagisa_maidcafe01]: Something like a waitress or a salesgirl, huh...I'd get <i>attention,</i> sure, but---people should be competing for <i>Jura's</i> attention!
+Nagisa [nagisa_jura_jn_n2_waitress]: Some of the restaurant's customers visit to see their favorite waitresses. That hasn't happened to me yet, thankfully. It mostly happens for the cuter girls.
+
+NAGISA STRIPPED SHOES IN WAITRESS UNIFORM:
+Jura [nagisa_maidcafe1s]: <i>Heeey,</i> you're perfectly cute!  You're just too <i>shy.</i>  I've never worked a job like that, but everyone knows you've got to <i>make</i> them like you!
+  OR [nagisa_maidcafe1s]: Don't say those kinds of things about yourself!  Your problem isn't <i>looks,</i> it's <i>confidence.</i>  The <i>popular</i> girls probably chat them up.
+Nagisa [nagisa_jura_jn_n3_waitress]: I think you'd make a great waitress, Jura. You'd have lots of regulars, I'm sure. The only thing is that you have to be okay wearing a dress like this with a petticoat.
+
+
+NAGISA MUST STRIP SOCKS:
+Jura [nagisa1]: So you're actually spending <i>extra</i> time in school?  I didn't spend <i>enough.</i>
+  OR [nagisa1]: You should've graduated last year, right?  It's hard to imagine being a student for all those years.
+Nagisa [nagisa_jura_jn_n4]: It's okay, because I actually love my school. I think if we went to school together, Jura, you wouldn't mind repeating a year. It's easier the second time.
+
+NAGISA STRIPPING SOCKS:
+Jura [nagisa12]: <i>Wouldn't mind?</i>  Everyone would call me the <i>dumb girl!</i>  Or I'd end up running with <i>punks,</i> or whoever else was left...
+  OR [nagisa12]: <i>What?</i>  I'd be labeled <i>dumb blonde</i> for years!  The only <i>other</i> girls who repeated were the lowlifes.
+Nagisa [nagisa_jura_jn_n5]: But if the "dummies" and the "delinquents" get to know each other and become best friends, it doesn't matter what everyone else calls them. That's what I think, anyway.
+
+NAGISA STRIPPED SOCKS:
+Jura [nagisa2s]: <i>Hmph.</i>  The whole thing got shut down by the time I was fifteen, anyway.<br>...Hey, are you speaking from experience?
+  OR [nagisa2s]: ...So, that's you and your classmate?  Don't worry about <i>me---</i>it's been years.
+Nagisa [nagisa_jura_jn_n6]: You couldn't haven't been out of school for all that long, Jura, even if it feels like forever. As for me and my friend... that's all I can say about that for now.
+
+
+NAGISA MUST STRIP JACKET:
+Jura [nagisa2]: I would <i>not</i> think you're the drama type.  Even <i>I</i> wouldn't want to act...I'd want to be myself!
+  OR [nagisa2]: I know I'm a shining star, but Jura doesn't need to be anyone but <i>herself...</i>so no Drama Club for me, OK?  I'm surprised <i>you</i> like it!
+Nagisa [nagisa_jura_jn_n7]: That's how a lot of people replied when I invited them to help me restart the club, Jura. I know acting isn't for everyone, but for me... well, there's just something in me that tells me I should do it, no matter what.
+
+NAGISA STRIPPING JACKET:
+Jura [nagisa23]: OK.  Show us what you're made of.  I want you to act <i>proud, confident!</i>  You're strong and sexy and you know it!
+  OR [nagisa23]: Well, why don't you give us a taste, <i>right now?</i>  Let's see your impression of a <i>bombshell,</i> fierce and flirty.
+Nagisa [nagisa_jura_jn_n8]: R-Right now?
+
+NAGISA STRIPPED JACKET:
+Jura [nagisa3s]: The stage waits for <i>no one!</i>  Come on, I want to see your <i>unique take</i> on it.
+  OR [nagisa3s]: <i>Right now!</i>  Oh, but don't just copy Jura...be original!
+Nagisa [nagisa_jura_jn_n9]: O-Okay!<br>I-I'm h-hot stuff! You... you better watch out or... or you'll get sizzled!
+
+
+NAGISA MUST STRIP SHIRT:
+Jura [nagisa3]: I hope you're feeling OK at the <i>moment,</i> at least.  <i>Chronic illness...</i>I hate it when my <i>hair</i> isn't set right!
+  OR [nagisa3]: If my <i>makeup</i> is smudged, or I've got flyaway hairs...<i>that alone</i> will make me feel so <i>defeated.</i>  Your <i>frailty</i> isn't bothering you, right?
+Nagisa [nagisa_jura_jn_n10]: Don't worry about me, Jura. I'm fine as long as I keep warm... Wait, did I just lose? That means...
+
+NAGISA STRIPPING SHIRT:
+Jura [nagisa34]: <i>Ahaha...</i>well, if you want to stay <i>warm,</i> you could just nuzzle up in my chest.
+  OR [nagisa34]: <i>Oh?</i>  Mhmhm...Jura has an especially <i>warm</i> embrace.  Free to any girl she deems fit!
+Nagisa [nagisa_jura_jn_n11]: I, uh... th-thank you for the offer, Jura, but I wouldn't want to inconvenience you. Let's save that for an emergency.
+
+NAGISA STRIPPED SHIRT:
+Jura [nagisa4s]: A girl feeling cold and lonely <i>is</i> an emergency!  If it's bad enough, I might even have to give her a <i>kiss!</i>
+  OR [nagisa4s]: Sounds like your case is worse than we thought.  You might need a <i>kiss</i> to start feeling better...
+Nagisa [nagisa_jura_jn_n12]: No, that's okay, Jura. I... I don't think the circumstances here are right for my first kiss...
+
+
+NAGISA MUST STRIP SKIRT:
+Jura [nagisa4]: <i>Hmm,</i> so you're a virgin, right?  But you've also been hanging out with a man.  When are you two going to start getting physical?
+  OR [nagisa4]: Have you had sex?  <i>No...</i>you can barely <i>say</i> sex.  But have you done <i>anything</i> with that man you like?
+Nagisa [nagisa_jura_jn_n13]: Just because a girl and boy are friends doesn't mean they'll... touch each other! Besides, there's nothing with being a vir--- being a person who hasn't done that kind of stuff...
+
+NAGISA STRIPPING SKIRT:
+Jura [nagisa45]: Oh, is it different with men?  <i>I</i> used to fool around with girls in school.  It wasn't a big deal or anything...
+  OR [nagisa45]: <i>Um, OK.</i>  It's just good to play a little, see if you'll make good girlfriends.  Or---<i>boyfriends.</i>  Is that more serious?
+Nagisa [nagisa_jura_jn_n14]: Ah, um, well... It's hard to know what boys are thinking, but my dad says teenage boys think about s-sex all the time... Not with me. With tall ladies with big boobies in revealing outfits...
+
+NAGISA STRIPPED SKIRT:
+Jura [nagisa5s]: So if we ever met, I'd <i>steal him away from you,</i> is that right?
+  OR [nagisa5s]: ...In other words, he'd be <i>head-over-heels</i> if he ever saw <i>me.</i>  Did I get that?
+Nagisa [nagisa_jura_jn_n15]: Y-You wouldn't! Would you? Please don't do that, Jura. Pretty please...
+
+
+NAGISA MUST STRIP BRA:
+Jura [nagisa5]: <i>Heeey,</i> listen up...you have to say what you're really thinking!  OK?  You're showing your body, so show us your heart.
+  OR [nagisa5]: It really gets on my nerves when girls aren't honest...<i>Nagisa.</i>  I want you to speak your mind for once, <i>straightforward!</i>
+Nagisa [nagisa_jura_jn_n16]: D-Do I have to, Jura? Um, well, I... I was just wondering if I should do anything to make myself stand out more. Do you think people would like me more if I tried do some... some sexy poses?
+
+NAGISA STRIPPING BRA:
+Jura [nagisa56]: ...<i>You mean,</i> you'd like to do some sexy poses?
+  OR [nagisa56]: ...In other words, you want to do some sexy poses.  What better time is there?
+Nagisa [nagisa_jura_jn_n17]: I-It's not that I <i>want</i> to... It's just that maybe I was wondering if this is a good time to see if it's even possible. For, um, for the future.
+
+NAGISA STRIPPED BRA: Sanako only chimes in if present
+Jura [nagisa6s]: <i>...Sheesh.</i>  You're <i>hopeless...</i>it can never just be that you're pretty, can it?  Because you <i>are!</i>
+  OR [nagisa6s]: I just told you, <i>be honest!  Mohhn...</i><br>Hasn't anyone ever told you how pretty you are?
+Nagisa [nagisa_jura_jn_n18]: If even a beautiful girl like you tells me that, maybe... maybe my mom was right. Maybe I <i>am</i> cute?
+Sanako (if after Jura and Nagisa) [sanako_nagisa_jura_jn_n18]: I think you're getting through to her, Jura!
+
+
+NAGISA MUST STRIP PANTIES:
+Jura [nagisa6]: You know, I think you're starting to stand up straighter already!  In between all the blushing, anyway.
+  OR [nagisa6]: You don't even realize it, do you?  You've been <i>standing taller, talking louder...</i>even making eye contact!<br>...Sometimes.
+Nagisa [nagisa_jura_jn_n19]: Y-You think so? I've been trying my hardest. And I know what's next. If I'm going to do it, I'd better do it now before I lose my nerve...
+
+NAGISA STRIPPING PANTIES:
+Jura [nagisa67]: Ugh, you're <i>already</i> overthinking it!  It's so <i>frustrating</i> to watch you shy types...
+  OR [nagisa67]: Don't think about it, just <i>do it!</i>  It'll be over before you realize.  <i>Ughh,</i> it's just like how Dita can never spit it out...
+Nagisa [nagisa_jura_jn_n20]: I'm... I'm doing it!
+
+NAGISA STRIPPED PANTIES:
+Jura [nagisa7s]: There you go!  <i>Sooo,</i> how do you feel?  Ready to face the world?
+  OR [nagisa7s]: You did!  Much better, right?  And if you can withstand <i>Jura's</i> prying eyes, what else could the world throw at you?
+Nagisa [nagisa_jura_jn_n21]: I'm still kind of terrified, but I'm proud of myself too. Thank you so much. I think I'll leave facing the rest of the world until another day.
+
+---
+
+JURA MUST STRIP SWORD:
+Jura [nagisa0right]: <i>Barneeeette,</i> I really want you here full-time...what if there's a threat at the <i>table?</i><hr>{barnette}...Like the <i>scared student?</i>
+  OR [nagisa0right]: Oh, Barnette.  It's Jura's turn, so you should just stay with me...<i>for safety.</i><hr>{barnette}<i>Jura,</i> that schoolgirl can barely look you in the eye.
+Nagisa [nagisa_jura_jn_j1]: Um, I'm sorry if I'm making you nervous. I won't cause any trouble, I promise.
+
+JURA STRIPPING SWORD:
+Jura [nagisa01right]: I'm just making fun, Nagisa...<br>I want Barnette to play with us!  Don't you think we're cute together?
+  OR [nagisa01right]: <i>Nagisa!</i>  It's not you, it's <i>Barnette!</i>  We make a great pair, don't we?  We've been voted the crew's "Best Couple" for two years now!
+Nagisa [nagisa_jura_jn_j2]: I... I didn't realize. That you were a couple, I mean. I... I don't know if couples can play as a team. Maybe Barnette should get her own cards.
+
+JURA STRIPPED SWORD:
+Jura [nagisa1s_right]: <i>Aha,</i> well, I just meant she could stay as my <i>backup.</i><hr>{barnette}...I don't know how to play.
+  OR [nagisa1s_right]: {barnette}...I can't play cards.{!reset}<hr>That doesn't mean you can't stick around, you know...
+Nagisa [nagisa_jura_jn_j3_indoors]: Maybe you could guard the door for us. Just to make sure no one walks in when we're... when we're not decent...
+    OR [nagisa_jura_jn_j3_outdoors]: If you wanted to do some exploring, I think there's probably lots of interesting things around here. We could call you when we're all finished.
+
+
+JURA MUST STRIP BOOTS:
+Jura [nagisa1right]: <i>Ah,</i> here comes my first flourish!  Jura will work up such an appetite to~background.time~... I wanna go home later and have some prosciutto bread.
+  OR [nagisa1right]: This is going to be a <i>busy, dramatic</i> ~background.time~!  I'll need dinner when we get home.  Maybe a big, hot <i>stromboli...</i>or pork buns!
+Nagisa [nagisa_jura_jn_j4]: That sounds delicious, Jura! I always promise myself something yummy too when I have to do something hard. We usually have a lot of leftovers at the bakery.
+
+JURA STRIPPING BOOTS: Sanako only chimes in if present
+Jura [nagisa12right]: You have a <i>bakery,</i> Nagisa?  Hmm, what's the most filling thing on the menu?  A dish no one can <i>take their eyes off of---!</i>
+  OR [nagisa12right]: <i>Bakery?</i>  Nagisa, you just got much more---<i>delicious.</i>  And what leaves customers <i>satisfied,</i> like a <i>dazzling spectacle---?</i>
+Nagisa [nagisa_jura_jn_j5]: My mom creates a special pastry every week. Whenever a customer tries one, they always say they couldn't eat another bite! Do you like sweet things, Jura?
+Sanako (if after Jura and Nagisa) [sanako_nagisa_jura_jn_j5]: <i>(Of all the things she could have picked, she said my bread. Even when I'm not watching, she shows everyone what a kind heart she has.)</i>
+
+JURA STRIPPED BOOTS:
+Jura [nagisa2s_right]: <i>Do I?</i><br>...Maybe a little <i>too</i> much.  My last birthday cake was mostly icing...
+  OR [nagisa2s_right]: <i>Ahh...</i>how should I put this?  Barnette baked a giant yule log last Christmas, and I said it needed more powdered sugar...
+Nagisa [nagisa_jura_jn_j6]: Hehehe, you might have an even bigger sweet tooth than I do.
+
+
+JURA MUST STRIP SLEEVES:
+Jura [nagisa2right]: People playing <i>this</i> ought to understand.  Don't you hate feeling <i>lonely?</i>  Jura <i>always</i> wants someone else around...
+  OR [nagisa2right]: You all must be desperate for some company to come here.  Jura has an <i>excuse,</i> but she still likes it, too...
+Nagisa [nagisa_jura_jn_j7]: This game is enough of a distraction, so I hardly feel lonely at all right now. You need private time too, Jura! I love my family very much, but that doesn't mean I should invite them to the bath or the restroom...
+
+JURA STRIPPING SLEEVES:
+Jura [nagisa23right]: <i>Hmnn...</i>you can only get <i>so close</i> to family, Nagisa.  Eventually you have to start your own...
+  OR [nagisa23right]: You <i>start off</i> doing exactly that, Nagisa.  Then you grow up, and grow <i>apart</i> from your family...so you need to find a partner.
+Nagisa [nagisa_jura_jn_j8]: That's true. Even so, I think there's a lot to be said for being able to be content with being alone. Even if everyone else leaves, you'll always have yourself to talk to.
+
+JURA STRIPPED SLEEVES:
+Jura [nagisa3s_right]: Is that how <i>you've</i> been living?  I do know some <i>loners,</i> but...<i>mohhn.</i>
+  OR [nagisa3s_right]: Some girls live like that, for sure...and I <i>just don't understand.</i>  Are <i>you</i> content with being alone?
+Nagisa [nagisa_jura_jn_j9]: I... I'm not lonely right now. I have you here, Jura!
+
+
+JURA MUST STRIP CHOKER BELT:
+Jura [nagisa3right]: <i>Barnette,</i> you've got the camera, right?  Jura's big moment is coming soon...!<hr>{barnette}Yeah, of course!  I wouldn't miss it!
+  OR [nagisa3right]: {barnette}Jura, the camera's ready to go when you are, OK?  You're gonna look <i>fabulous!</i>{!reset}<hr><i>Ahh,</i> Jura's so <i>excited...</i>but it's not time <i>yet!</i>
+Nagisa [nagisa_jura_jn_j10]: Ah! Be careful where you point that camcorder. Some people might not like it if their faces or other parts are in the video.
+
+JURA STRIPPING CHOKER BELT:
+Jura [nagisa34right]: It's for <i>me,</i> Nagisa...<i>Jura!</i>  My <i>grand reveal</i> is coming soon...as for Barnette, she's got a habit of <i>tunnel vision.</i>
+  OR [nagisa34right]: Don't worry, Nagisa.  Barnette would have to be <i>convinced</i> to film anyone but her lovely Jura, with all her sexy shapes and curves...
+Nagisa [nagisa_jura_jn_j11]: O-Okay. If you trust Barnette, I do too. Just... don't lend the cassette tape to any boys. Just in case.
+
+JURA STRIPPED CHOKER BELT: (front of dress unclipped)
+Jura [nagisa4s_right]: ...Why not?  I want it broadcast <i>everywhere!</i>  Every Earth airwave we can find!  Men already walked in on me in the hot spring, anyway.
+  OR [nagisa4s_right]: There's "boys" on planet Earth, right?  <i>Keep your frequencies tuned.</i>  This <i>whole world</i> is going to see my gorgeous image!
+Nagisa [nagisa_jura_jn_j12]: You aren't going to show them <i>everything</i>, are you?! I think you need to have those little blurry squares covering your nude parts, otherwise its illegal!
+
+
+JURA MUST STRIP DRESS:
+Jura [nagisa4right]: <i>Well, there's no time to waste!</i>  Feast your eyes on the <i>glory</i> of the female form...that this dress was guarding so jealously!
+  OR [nagisa4right]: Oh!  <i>Ohhh,</i> it's <i>time!</i>  If you thought I was a statuesque beauty <i>before,</i> let's cast off the dress---it's covered <i>far too much!</i>
+Nagisa [nagisa_jura_jn_j13]: Jura, you're so bold!
+
+JURA STRIPPING DRESS: (Barnette appears with a video camera)
+Jura [nagisa45right]: <i>Barnette,</i> find my sexiest angle...and <i>zoom in tight!</i><br>Hmhmhm, I always look so <i>modest</i> next to you!
+  OR [nagisa45right]: <i>Bold in piloting, bold in beauty...</i>and here comes my loyal camera girl, when I'm finally showing more than she does!
+Nagisa [nagisa_jura_jn_j14]: It's not a competition! Um... well, I suppose it kind of <i>is</i> a competition. But we don't need to compare ourselves to Barnette. She's doing her best.
+
+JURA STRIPPED DRESS:
+Jura [nagisa5s_right]: <i>Muhuhu...ohohohohoho!</i>  If it's a <i>competition,</i> Nagisa...it's already decided!
+  OR [nagisa5s_right]: <i>Back home...</i>if something can be a competition, we'll <i>make it one.</i>  But in <i>looks...</i>ohohoho...<i>Jura reigns supreme!</i>
+Nagisa [nagisa_jura_jn_j15]: Congratulations. I think you might have a couple of unfair advantages...
+
+
+JURA MUST STRIP THONG:
+Jura [nagisa5right]: <i>Ahh...</i>there goes the---<i>last bit.</i>  It's so <i>final,</i> you know?  A pilot shouldn't be undefended...
+  OR [nagisa5right]: <i>Hmm...</i>so, it's Jura's---last line of defense.  It's like flying without a shield...
+Nagisa [nagisa_jura_jn_j16]: It's much more serious than that, Jura! Panties are a girl's last line of defence against the whole world!
+
+JURA STRIPPING THONG:
+Jura [nagisa56right]: <i>W-well,</i> that's why a great <i>body</i> is so important!  More than anything, that's <i>you!</i>
+  OR [nagisa56right]: It's true...b-but it means you've got to shine your brightest!  When everything else falls away, it's just you and your body.
+Nagisa [nagisa_jura_jn_j17]: That's true... It seems like that's all anyone looks for in a girlfriend, and you have it all, Jura. You're amazing.
+
+JURA STRIPPED THONG:
+Jura [nagisa6s_right]: <i>Thank youuuu...</i>but <i>hey,</i> looks aren't the <i>only</i> thing.  You've got to be <i>smart,</i> and <i>tenacious,</i> too...and it helps to be a great cook!
+  OR [nagisa6s_right]: <i>Aren't I?</i>  Oh, but Jura loves hearing about it...and, you know, the body includes the <i>mind!</i>  <i>Passion, courage, charisma!</i>  Cooking skills!
+Nagisa [nagisa_jura_jn_j18]: You'll make somebody a really great wife one day, Jura. Maybe if I work on my cooking, I can find someone who will settle for someone like me...

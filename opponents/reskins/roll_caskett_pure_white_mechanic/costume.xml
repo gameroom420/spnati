@@ -6,7 +6,7 @@
         <tag>alternative_skin</tag>
         <tag remove="true">bodysuit</tag>
         <tag>bottomless_first</tag>
-        <tag from="2" to="4">leotard</tag>
+        <tag from="3" to="4">leotard</tag>
         <tag>no_underwear</tag>
         <tag from="0" to="5">thigh_highs</tag>
         <tag>valentines_skin</tag>
@@ -23,5 +23,28 @@
         <clothing name="shoes" generic="shoes" position="feet" type="minor" plural="true" />
     </wardrobe>
 
+    <poses>
+        <pose id="yae6_presenting_roll">
+            <sprite id="xyae" z="2" src="reskins/roll_caskett_pure_white_mechanic/#-xyae.png" x="0" y="0" scalex="1" scaley="1" />
+            <sprite id="backofhair" src="roll_caskett/ex-backofhair.png" x="0" y="0" />
+            <sprite id="yae-presenting6" z="1" src="roll_caskett/ex-yae-presenting6.png" x="84" y="0" />
+            <sprite id="yae-armleft" z="3" src="roll_caskett/ex-yae-armleft.png" x="74" y="-19" scalex="0.9" scaley="1" rotation="16" />
+            <sprite id="yae-armright" z="3" src="roll_caskett/ex-yae-armright.png" x="65" y="-23" rotation="-9" />
+        </pose>
+        <pose id="yae4_presenting_roll">
+            <sprite id="xyae" z="2" src="reskins/roll_caskett_pure_white_mechanic/#-xyae.png" x="0" y="0" scalex="1" scaley="1" />
+            <sprite id="backofhair" src="roll_caskett/ex-backofhair.png" x="0" y="0" />
+            <sprite id="yae-presenting4" z="1" src="roll_caskett/ex-yae-presenting4.png" x="84" y="0" />
+            <sprite id="yae-armleft" z="3" src="roll_caskett/ex-yae-armleft.png" x="74" y="-19" scalex="0.9" scaley="1" rotation="16" />
+            <sprite id="yae-armright" z="3" src="roll_caskett/ex-yae-armright.png" x="65" y="-23" rotation="-9" />
+        </pose>
+        <pose id="yae5_presenting_roll">
+            <sprite id="xyae" z="2" src="reskins/roll_caskett_pure_white_mechanic/#-xyae.png" x="0" y="0" scalex="1" scaley="1" />
+            <sprite id="backofhair" src="roll_caskett/ex-backofhair.png" x="0" y="0" />
+            <sprite id="yae-presenting5" z="1" src="roll_caskett/ex-yae-presenting5.png" x="84" y="0" />
+            <sprite id="yae-armleft" z="3" src="roll_caskett/ex-yae-armleft.png" x="74" y="-19" scalex="0.9" scaley="1" rotation="16" />
+            <sprite id="yae-armright" z="3" src="roll_caskett/ex-yae-armright.png" x="65" y="-23" rotation="-9" />
+        </pose>
+    </poses>
 
 </costume>

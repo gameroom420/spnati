@@ -209,17 +209,25 @@ Reimu [NagisaShoes3A]: No one's getting married <i>right</i> away, Nagisa. But t
 Nagisa [nagisa_reimu_rn_n3]: I wonder who's going to be assigned to be my partner... I hope they're nice.
 
 
-NAGISA MUST STRIP SOCKS: (conditional on previous case)
+NAGISA MUST STRIP SOCKS: (conditional on previous case) Sanako chimes in if present
 Reimu [NagisaSocks1A]: Say, Nagisa… it sounded earlier like you didn't care about <i>who</i> you married. Are you really so unparticular about love?
+Sanako [sanako_nagisa_reimu_rsn_n4] if between Reimu and Nagisa: I'm curious about that too, Nagisa. You wouldn't just rush into marriage with the first ~player.ifMale(boy|person)~ that came along, would you?
 Nagisa [nagisa_reimu_rn_n4]: I'm sorry, but that's not true, Reimu. If someone asked me to marry them, I'd take it very seriously, and I might even say no. If anyone ever wanted to marry a girl like me, that is...
+Sanako [sanako_nagisa_reimu_rns_n4] if after Reimu and Nagisa: Who wouldn't want to marry a cutie like you, Nagisa? I'm sure it won't be long before you have ~player.ifMale(boys|suitors)~ lining up for a chance to talk to you.
 
-NAGISA STRIPPING SOCKS (minor):
+NAGISA STRIPPING SOCKS (minor): Sanako chimes in if present
+Sanako [sanako_nagisa_reimu_srn_n5] if before Reimu and Nagisa: Is that really what you think? That nobody would want to marry you?
 Reimu [NagisaSocks2A]: <i>Hmph,</i> it doesn't matter to me if anyone wants to marry you. It's easier for me the less competition I have. …So why do you think no one would want you?
+Sanako [sanako_nagisa_reimu_rsn_n5] if between Reimu and Nagisa: I'm so glad that girls your age are being proactive, Reimu. You never get any bites if you don't cast the line, after all.
 Nagisa [nagisa_reimu_rn_n5]: I'm not all that smart or pretty or funny... It's hard for me to make friends, so I can't imagine having ~player.ifMale(a boyfriend|someone interested in me in that way)~.
+Sanako [sanako_nagisa_reimu_rns_n5] if after Reimu and Nagisa: You just have to put yourself out there more, sweetie. Everyone who gets to know you thinks you're wonderful.
 
-NAGISA STRIPPED SOCKS (minor):
+NAGISA STRIPPED SOCKS (minor): Sanako chimes in if present
+Sanako [sanako_nagisa_reimu_srn_n6] if before Reimu and Nagisa: I see. Instead of being down on yourself, try to visualize your goal and then just work toward it slowly.
 Reimu [NagisaSocks3A]: You're pretty and you seem like a good girl, but you're more pessimistic than a poverty god. But I'm sure you'd be the sort of wife who could treat her spouse right.
+Sanako [sanako_nagisa_reimu_rsn_n6] if between Reimu and Nagisa: Reimu's right. I think you'll make a lovely wife for ~player.ifMale(someone lucky|some lucky man)~ one day. When you're ready, or course.
 Nagisa [nagisa_reimu_rn_n6]: Sometimes I like to daydream about what I'd do if I was someone's wife. Um, I mean like the stuff my mom does. Not the bedroom part...
+Sanako [sanako_nagisa_reimu_rns_n6] if after Reimu and Nagisa: The bedroom part is just as important, but there'll be time to learn about that later.
 
 
 NAGISA MUST STRIP JACKET:

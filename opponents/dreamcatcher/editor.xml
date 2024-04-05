@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <metadata>
     <owner>dreamcatcher</owner>
+    <height />
+    <age />
+    <pronunciation />
+    <othernotes />
     <noteworthy>
         <case name="Dreamcatcher" id="4" priority="FYI" min="0" max="5">
             <description>Dreamcatcher is an unspecified creature from the Realm of Dreams. She can manipulate the dreams of others and bring their nightmares to life.</description>
@@ -40,6 +44,8 @@
         <response id="45" opponent="natasha" opponentId="7" />
         <response id="46" opponent="natasha" opponentId="9" />
         <response id="47" opponent="natasha" opponentId="22" />
+        <response id="60" opponent="nadeshiko" opponentId="151" />
+        <response id="61" opponent="nadeshiko" opponentId="9" />
     </responses>
     <notes>
         <note id="42">In case you haven't seen her other lines about it, "Portal Master" is refering to the player.</note>
@@ -48,14 +54,14 @@
         <label id="1" label="Portal Master Intro" folder="Noteworthy Things" sort="2" />
         <label id="2" label="Misc Things" folder="Noteworthy Things" sort="9" />
         <label id="3" label="" folder="Noteworthy Things" sort="0" />
-        <label id="4" label="" folder="Noteworthy Things" sort="10" />
-        <label id="5" label="" folder="Prompts" sort="0" />
+        <label id="4" label="What Is Dreamcatcher?" folder="Noteworthy Things" sort="10" />
+        <label id="5" label="Prompt - Sleepwear" folder="Prompts" sort="0" />
         <label id="6" label="" folder="Noteworthy Things" sort="0" />
         <label id="7" label="" folder="Noteworthy Things" sort="3" />
-        <label id="8" label="" folder="Prompts" sort="2" />
+        <label id="8" label="Prompt - Giant for a Day" folder="Prompts" sort="2" />
         <label id="9" label="" folder="Noteworthy Things" sort="5" />
         <label id="10" label="" folder="Noteworthy Things" sort="4" />
-        <label id="11" label="" folder="Prompts" sort="3" />
+        <label id="11" label="Prompt - Spicy Food" folder="Prompts" sort="3" />
         <label id="12" label="" folder="Noteworthy Things" sort="6" />
         <label id="13" label="" folder="Noteworthy Things" sort="0" />
         <label id="14" label="" folder="Hand Peeking" sort="0" />
@@ -63,16 +69,22 @@
         <label id="16" label="" folder="Hand Peeking" sort="0" />
         <label id="17" label="" folder="Hand Peeking" sort="0" />
         <label id="18" label="" folder="Hand Peeking" sort="2" />
-        <label id="21" label="" color="0" folder="Noteworthy Things" sort="8" />
+        <label id="21" label="" folder="Noteworthy Things" sort="8" />
         <label id="23" label="" folder="Hand Peeking" sort="3" />
         <label id="25" label="" color="2" folder="" sort="0" />
+        <label id="49" label="Dream-Related Topics" folder="Noteworthy Things" sort="11" />
+        <label id="50" label="" folder="Noteworthy Things" sort="0" />
+        <label id="51" label="" folder="Noteworthy Things" sort="0" />
+        <label id="52" label="(~player~==Eon)" folder="" sort="0" />
+        <label id="53" label="" folder="Noteworthy Things" sort="0" />
+        <label id="59" label="Butt Pose" folder="" sort="0" />
     </labels>
-    <nextId>48</nextId>
+    <nextId>61</nextId>
     <markers>
-        <marker scope="Public" name="" />
         <marker scope="Public" name="BecomingSensei" />
         <marker scope="Public" name="BlasterTronLight" />
         <marker scope="Public" name="BlasterTronSwitch" />
+        <marker scope="Public" name="Butt" />
         <marker scope="Public" name="Car_Invited1" />
         <marker scope="Public" name="Car_Invited2" />
         <marker scope="Public" name="Car_Invited3" />
@@ -94,11 +106,18 @@
         <marker scope="Public" name="DreamBeing" />
         <marker scope="Public" name="DreamOrNightmare" />
         <marker scope="Public" name="DreamText" />
+        <marker scope="Public" name="FrontButt" />
         <marker scope="Public" name="HandPeeking" />
         <marker scope="Public" name="Intro" />
+        <marker scope="Public" name="Jura_Dreams1" />
         <marker scope="Public" name="KaosIntro" />
         <marker scope="Public" name="KrankcaseLegs" />
+        <marker scope="Public" name="LucidDreaming" />
         <marker scope="Public" name="MagsIsUndead" />
+        <marker scope="Public" name="Meia_Visions1" />
+        <marker scope="Public" name="Nadeshiko_CampSleeping1" />
+        <marker scope="Public" name="Nadeshiko_Inventory1" />
+        <marker scope="Public" name="Nadeshiko_Partner1" />
         <marker scope="Public" name="Natasha_Arms2" />
         <marker scope="Public" name="Natasha_Arms3a" />
         <marker scope="Public" name="Natasha_Arms3b" />
@@ -113,6 +132,9 @@
         <marker scope="Public" name="Natasha_Prison1" />
         <marker scope="Public" name="Natasha_Prison2" />
         <marker scope="Public" name="Natasha_Prison3" />
+        <marker scope="Public" name="Nattybumpo" />
+        <marker scope="Public" name="nickname" />
+        <marker scope="Public" name="nickname*==Portal Master" />
         <marker scope="Public" name="NotSensei" />
         <marker scope="Public" name="NotSoStealthElf" />
         <marker scope="Public" name="PainYattaCandy" />
@@ -124,6 +146,8 @@
         <marker scope="Public" name="Prompt_Giant" />
         <marker scope="Public" name="Prompt_Sleepwear" />
         <marker scope="Public" name="Prompt_SpicyFood" />
+        <marker scope="Public" name="Revy_DreamTaste1" />
+        <marker scope="Public" name="SannyTess_FutaDream1" />
         <marker scope="Public" name="SleepIsImportant" />
         <marker scope="Public" name="StripSkystonesSmash" />
         <marker scope="Public" name="TraptaniumMustard" />
@@ -131,5 +155,6 @@
         <marker scope="Public" name="Yuelia_Butterfly1" />
         <marker scope="Public" name="Yuelia_Butterfly2" />
         <marker scope="Public" name="Yuelia_Butterfly3" />
+        <marker scope="Public" name="Zoe_DreamEnergy1" />
     </markers>
 </metadata>

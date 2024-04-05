@@ -233,8 +233,8 @@ if (!pog) var pog = (function (root) {
                                  $("#player-" + i + "-card-6"),
                                  $("#player-" + i + "-card-7")];
  
-                players[i].hand.cards = Array(CARDS_PER_HAND + 2);
-                players[i].hand.tradeIns = Array(CARDS_PER_HAND + 2);
+                players[i].hand.cards = Array(7);
+                players[i].hand.tradeIns = Array(7);
             }
         }
     }
@@ -294,7 +294,7 @@ if (!pog) var pog = (function (root) {
         this.rigFor = function(player) {
             var rigSuit = getRandomNumber(0, 4);
 
-            var handCards = CARDS_PER_HAND;
+            var handCards = 5;
 
             // give PoG a seven-royal-flush
             if (players[player] && players[player].id === "pot_of_greed") {
@@ -302,7 +302,7 @@ if (!pog) var pog = (function (root) {
             }
 
             for (var n = 0; n < handCards; n++) {
-                var i = cards.length - 1 - (player * CARDS_PER_HAND + n);
+                var i = cards.length - 1 - (player * 5 + n);
 
                 // extra two per PoG
                 for (var k = 1; k < player; k++) {
@@ -480,7 +480,7 @@ if (!pog) var pog = (function (root) {
         hand.strength = NONE;
         hand.value = [];
 
-        if (hand.cards.length > CARDS_PER_HAND) {
+        if (hand.cards.length > 5) {
             pairedCards = [false, false, false, false, false, false, false];
             straightCards = [false, false, false, false, false, false, false];
             flushCards = [false, false, false, false, false, false, false];
@@ -538,17 +538,17 @@ if (!pog) var pog = (function (root) {
         for (var i = 0; i < hand.ranks.length; i++) {
             if (hand.ranks[i] == 1) {
                 sequence++;
-                if (sequence == CARDS_PER_HAND) {
+                if (sequence == 5) {
                     /* one card each of five consecutive ranks is a
                      * straight */
                     have_straight = i+1;
-                    markAllInStraight(i+1, CARDS_PER_HAND, hand.cards, straightCards);
-                } else if (sequence == CARDS_PER_HAND + 1) {
+                    markAllInStraight(i+1, 5, hand.cards, straightCards);
+                } else if (sequence == 6) {
                     have_six_straight = i+1;
-                    markAllInStraight(i+1, CARDS_PER_HAND + 1, hand.cards, straightCards);
-                } else if (sequence == CARDS_PER_HAND + 2) {
+                    markAllInStraight(i+1, 6, hand.cards, straightCards);
+                } else if (sequence == 7) {
                     have_seven_straight = i+1;
-                    markAllInStraight(i+1, CARDS_PER_HAND + 2, hand.cards, straightCards);
+                    markAllInStraight(i+1, 7, hand.cards, straightCards);
                     break;
                 }
             } else if (sequence > 0) {
@@ -564,18 +564,18 @@ if (!pog) var pog = (function (root) {
 
         /* second, flushes */
         for (var i = 0; i < hand.suits.length; i++) {
-            if (hand.suits[i] == CARDS_PER_HAND + 2) {
+            if (hand.suits[i] == 7) {
                 have_seven_flush = 1;
                 have_six_flush = 1;
                 have_flush = 1;
                 markAllOfSuit(i, hand.cards, flushCards);
                 break;
-            } else if (hand.suits[i] == CARDS_PER_HAND + 1) {
+            } else if (hand.suits[i] == 6) {
                 have_six_flush = 1;
                 have_flush = 1;
                 markAllOfSuit(i, hand.cards, flushCards);
                 break;
-            } else if (hand.suits[i] == CARDS_PER_HAND) {
+            } else if (hand.suits[i] == 5) {
                 /* hand is a flush */
                 have_flush = 1;
                 markAllOfSuit(i, hand.cards, flushCards);
@@ -992,7 +992,7 @@ if (!pog) var pog = (function (root) {
             KEEPALL    : "keep-all"
         };
 
-        var numCards = CARDS_PER_HAND;
+        var numCards = 5;
 
         if (player.id === "pot_of_greed") {
             numCards += 2;
@@ -1204,8 +1204,8 @@ if (!pog) var pog = (function (root) {
 
             if (strategy == eStrategies.SUBOPTIMAL) {
                 /* Check for flush draw, even if holding a pair */
-                /* CARDS_PER_HAND instead of numCards is not a mistake, since 5-flushes are possible */
-                if (player.hand.suits.some(function(s) { return s == CARDS_PER_HAND - 1; })) {
+                /* 4 instead of (numCards - 1) is not a mistake, since 5-flushes are possible */
+                if (player.hand.suits.some(function(s) { return s == 4; })) {
                     player.hand.tradeIns = hand.map(function(c) { return player.hand.suits[c.suit] == 1; });
                     console.log("Hand is " + (player.hand.strength == PAIR ? "okay" : "bad") + ", going for a flush, trading in one card. " + player.hand.tradeIns);
                     return;

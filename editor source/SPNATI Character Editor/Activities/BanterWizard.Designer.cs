@@ -186,6 +186,7 @@ namespace SPNATI_Character_Editor.Activities
             "Incomplete",
             "Event",
             "Duplicate",
+            "Broken",
             "Unlisted"});
             this.chkCharacterFiltering.Location = new System.Drawing.Point(12, 405);
             this.chkCharacterFiltering.Name = "chkCharacterFiltering";

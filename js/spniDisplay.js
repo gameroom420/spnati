@@ -1080,7 +1080,7 @@ OpponentDisplay.prototype.update = function(player) {
         this.bubble.show();
         this.bubble.removeClass('arrow-down arrow-left arrow-right arrow-up');
         if (arrowDirection != 'none') this.bubble.addClass('arrow-'+arrowDirection);
-        bubbleArrowOffsetRules[this.slot-1][0].style.left = arrowLocation;
+        bubbleArrowOffsetRules[this.slot-1][0].style.left = arrowLocation  || '50%';
         bubbleArrowOffsetRules[this.slot-1][1].style.top = arrowLocation;
         /* Configure z-indices */
         this.imageArea.css('z-index', player.z_index);
@@ -1631,8 +1631,9 @@ OpponentSelectionCard.prototype.isVisible = function (testingView, ignoreFilter)
     var status = this.opponent.status;
 
     // Should this opponent be on the "main roster view"?
-    var onMainView = (status === undefined || includedOpponentStatuses[status]);
-    if (status === "testing") onMainView = onMainView || this.opponent.allow_testing_guest;
+    var onMainView = (status === undefined || (includedOpponentStatuses[status]));
+    if (isMainSite) onMainView = onMainView && status !== "incomplete";
+    if (status === "testing" || status === "incomplete") onMainView = onMainView || this.opponent.allow_testing_guest;
     
     if (!testingView) {
         // Regular view: include all opponents with undefined status and with
@@ -1646,8 +1647,8 @@ OpponentSelectionCard.prototype.isVisible = function (testingView, ignoreFilter)
          * Additionally, if an event is active, ignore staleness for
          * event characters on Testing (handled by isStaleOnTesting()).
          */
-        if ((status !== "testing" || isStaleOnTesting(this.opponent))
-            && this.opponent.inboundLinesFromSelected("testing") < 5)
+        if (((status !== "testing" && status !== "incomplete") || isStaleOnTesting(this.opponent))
+            && this.opponent.inboundLinesFromSelected("testing") < 3)
             return false;
     }
 

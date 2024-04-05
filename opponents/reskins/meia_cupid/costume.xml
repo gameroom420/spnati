@@ -1991,23 +1991,23 @@
         </pose>
         <pose id="5-butt2silent">
             <sprite id="butt2" src="reskins/meia_cupid/5-butt2.png" x="0" y="0" />
-            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilent.png" x="73" y="284" />
+            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilent.png" x="74" y="283" />
         </pose>
         <pose id="5-butt3silent">
             <sprite id="butt3" src="reskins/meia_cupid/5-butt3.png" x="0" y="0" />
-            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilent.png" x="54" y="293" scaley="1" rotation="8" />
+            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilent.png" x="55" y="292" scaley="1" rotation="8" />
         </pose>
         <pose id="5-butt4silent">
             <sprite id="butt2" src="reskins/meia_cupid/5-butt4.png" x="0" y="0" />
-            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilent.png" x="60" y="281" />
+            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilent.png" x="60" y="280" />
         </pose>
         <pose id="5-buttchecksilent">
             <sprite id="butt2" src="reskins/meia_cupid/5-buttcheck.png" x="0" y="0" />
-            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilent.png" x="82" y="279" rotation="-11" />
+            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilent.png" x="82" y="278" rotation="-11" />
         </pose>
         <pose id="5-buttspread2silent">
             <sprite id="butt2" src="reskins/meia_cupid/5-buttspread2.png" x="0" y="0" />
-            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilent.png" x="83" y="284" />
+            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilent.png" x="84" y="284" />
         </pose>
         <pose id="5-buttspreadsilent">
             <sprite id="butt2" src="reskins/meia_cupid/5-buttspread.png" x="0" y="0" />
@@ -2387,9 +2387,9 @@
             <sprite id="shortsback" parent="shorts" z="-1" src="reskins/meia_cupid/shortsback.png" x="4" y="639" />
             <directive type="animation" id="butt" ease="smooth" interpolation="spline">
                 <keyframe time="0" x="0" rotation="0" />
-                <keyframe time="0.25" x="1" rotation="-1" />
-                <keyframe time="0.75" x="1" rotation="1" />
-                <keyframe time="1" x="0" rotation="0" />
+                <keyframe time="0.12" x="1" rotation="-1" />
+                <keyframe time="0.25" x="1" rotation="1" />
+                <keyframe time="0.62" x="0" rotation="0" />
             </directive>
             <directive type="animation" id="shorts" ease="smooth" interpolation="linear">
                 <keyframe time="0" x="4" alpha="100" />
@@ -2410,11 +2410,11 @@
             <sprite id="strip2" src="reskins/meia_cupid/3-strip2.png" x="0" y="0" alpha="0" />
             <directive type="animation" id="2-strip" ease="ease-in-out-cubic" interpolation="linear">
                 <keyframe time="0" alpha="100" />
-                <keyframe time="2" alpha="0" />
+                <keyframe time="3" alpha="0" />
             </directive>
             <directive type="animation" id="strip2" ease="ease-in-out-cubic" interpolation="linear">
                 <keyframe time="0" alpha="0" />
-                <keyframe time="2" alpha="100" />
+                <keyframe time="3" alpha="100" />
             </directive>
         </pose>
         <pose id="3-strip+">
@@ -2422,11 +2422,11 @@
             <sprite id="strip2" src="reskins/meia_cupid/3-strip2+.png" x="0" y="0" alpha="0" />
             <directive type="animation" id="2-strip" ease="ease-in-out-cubic" interpolation="linear">
                 <keyframe time="0" alpha="100" />
-                <keyframe time="2" alpha="0" />
+                <keyframe time="3" alpha="0" />
             </directive>
             <directive type="animation" id="strip2" ease="ease-in-out-cubic" interpolation="linear">
                 <keyframe time="0" alpha="0" />
-                <keyframe time="2" alpha="100" />
+                <keyframe time="3" alpha="100" />
             </directive>
         </pose>
         <pose id="5-ultrainstinctsilentsmile">
@@ -2439,7 +2439,7 @@
         </pose>
         <pose id="5-butt3silentsmile">
             <sprite id="butt3" src="reskins/meia_cupid/5-butt3.png" x="0" y="0" />
-            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilentsmile.png" x="54" y="293" scaley="1" rotation="8" />
+            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilentsmile.png" x="54" y="292" scaley="1" rotation="8" />
         </pose>
         <pose id="5-butt4silentsmile">
             <sprite id="butt2" src="reskins/meia_cupid/5-butt4.png" x="0" y="0" />
@@ -2447,7 +2447,7 @@
         </pose>
         <pose id="5-buttchecksilentsmile">
             <sprite id="butt2" src="reskins/meia_cupid/5-buttcheck.png" x="0" y="0" />
-            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilentsmile.png" x="82" y="279" rotation="-11" />
+            <sprite id="sidemouthsilent" src="reskins/meia_cupid/sidemouthsilentsmile.png" x="81" y="278" rotation="-11" />
         </pose>
         <pose id="5-buttspread2silentsmile">
             <sprite id="butt2" src="reskins/meia_cupid/5-buttspread2.png" x="0" y="0" />
@@ -2492,6 +2492,173 @@
                 <keyframe time="0" src="reskins/meia_cupid/Rouge_TreasureScope_Lens.png" />
                 <keyframe time="3" src="reskins/meia_cupid/Rouge_TreasureScope_Lens.png" />
             </directive>
+        </pose>
+        <pose id="0-aura">
+            <sprite id="embarrassed" src="reskins/meia_cupid/0-silent2.png" x="0" y="0" alpha="100" />
+            <sprite id="auracamera" z="1" src="reskins/meia_cupid/auracamera.png" x="-64" y="600" scalex="2.5" scaley="2.5" alpha="0" />
+            <sprite id="cameraflash" delay="1.25" src="reskins/meia_cupid/cameraflash.png" x="-10" y="418" scalex="0.1" scaley="0.1" alpha="0" />
+            <sprite id="aura" delay="1.38" src="reskins/meia_cupid/aura.png" x="0" y="0" alpha="0" />
+            <directive type="animation" id="embarrassed" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" alpha="100" />
+                <keyframe time="1" alpha="100" />
+                <keyframe time="1.38" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="auracamera" ease="linear" interpolation="linear">
+                <keyframe time="0" x="-64" y="600" scalex="2.5" scaley="2.5" alpha="0" />
+                <keyframe time="1" x="-64" y="317" scalex="2.5" scaley="2.5" alpha="100" />
+                <keyframe time="1.38" x="-64" y="317" scalex="2.5" scaley="2.5" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="auracamera" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/meia_cupid/auracamera.png" />
+                <keyframe time="1" src="meia/auracamera.png" />
+                <keyframe time="1.38" src="meia/auracamera.png" />
+            </directive>
+            <directive type="animation" id="cameraflash" delay="1.25" ease="ease-out-cubic" interpolation="linear">
+                <keyframe time="0" scalex="0.1" scaley="0.1" alpha="0" />
+                <keyframe time="0.13" scalex="8" scaley="8" alpha="100" />
+                <keyframe time="0.75" scalex="8" scaley="8" alpha="100" />
+                <keyframe time="2.75" alpha="0" />
+            </directive>
+            <directive type="animation" id="aura" delay="1.38" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" />
+                <keyframe time="2.62" x="0" y="0" />
+            </directive>
+            <directive type="animation" id="aura" delay="1.38" ease="ease-in-out-cubic" interpolation="linear">
+                <keyframe time="0" alpha="0" />
+                <keyframe time="2.62" alpha="100" />
+            </directive>
+        </pose>
+        <pose id="0-pyorodeterminedstill">
+            <sprite id="silent" src="reskins/meia_cupid/0-silent2.png" x="0" y="0" alpha="100" />
+            <sprite id="pyorom" z="2" src="reskins/meia_cupid/pyorodetermined.png" x="-333" y="152" alpha="100" rotation="-2" />
+            <sprite id="pyoroarm" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroarm.png" x="84" y="119" scalex="1" />
+            <sprite id="pyoroarm(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroarm.png" x="221" y="116" scalex="-1" />
+            <sprite id="pyorohand" parent="pyorom" z="-1" src="reskins/meia_cupid/pyorohand.png" x="38" y="85" pivotx="48%" pivoty="52%" rotation="-4" />
+            <sprite id="pyorohand(copy)" parent="pyorom" src="reskins/meia_cupid/pyorohand.png" x="265" y="80" scalex="-1" scaley="1" rotation="-357" />
+            <sprite id="pyoroleg" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="208" y="205" scalex="-1" rotation="5" />
+            <sprite id="pyoroleg(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="114" y="205" scalex="1" rotation="2" />
+        </pose>
+        <pose id="1-pyorodeterminedstill">
+            <sprite id="silent" src="reskins/meia_cupid/1-silent2.png" x="0" y="0" alpha="100" />
+            <sprite id="pyorom" z="2" src="reskins/meia_cupid/pyorodetermined.png" x="-333" y="152" alpha="100" rotation="-2" />
+            <sprite id="pyoroarm" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroarm.png" x="84" y="119" scalex="1" />
+            <sprite id="pyoroarm(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroarm.png" x="221" y="116" scalex="-1" />
+            <sprite id="pyorohand" parent="pyorom" z="-1" src="reskins/meia_cupid/pyorohand.png" x="38" y="85" pivotx="48%" pivoty="52%" rotation="-4" />
+            <sprite id="pyorohand(copy)" parent="pyorom" src="reskins/meia_cupid/pyorohand.png" x="265" y="80" scalex="-1" scaley="1" rotation="-357" />
+            <sprite id="pyoroleg" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="208" y="205" scalex="-1" rotation="5" />
+            <sprite id="pyoroleg(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="114" y="205" scalex="1" rotation="2" />
+        </pose>
+        <pose id="2-pyorodeterminedstill">
+            <sprite id="silent" src="reskins/meia_cupid/2-silent2.png" x="0" y="0" alpha="100" />
+            <sprite id="pyorom" z="2" src="reskins/meia_cupid/pyorodetermined.png" x="-333" y="152" alpha="100" rotation="-2" />
+            <sprite id="pyoroarm" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroarm.png" x="84" y="119" scalex="1" />
+            <sprite id="pyoroarm(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroarm.png" x="221" y="116" scalex="-1" />
+            <sprite id="pyorohand" parent="pyorom" z="-1" src="reskins/meia_cupid/pyorohand.png" x="38" y="85" pivotx="48%" pivoty="52%" rotation="-4" />
+            <sprite id="pyorohand(copy)" parent="pyorom" src="reskins/meia_cupid/pyorohand.png" x="265" y="80" scalex="-1" scaley="1" rotation="-357" />
+            <sprite id="pyoroleg" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="208" y="205" scalex="-1" rotation="5" />
+            <sprite id="pyoroleg(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="114" y="205" scalex="1" rotation="2" />
+        </pose>
+        <pose id="3-pyorodeterminedstill">
+            <sprite id="silent" src="reskins/meia_cupid/3-silent2.png" x="0" y="0" alpha="100" />
+            <sprite id="pyorom" z="2" src="reskins/meia_cupid/pyorodetermined.png" x="-333" y="152" alpha="100" rotation="-2" />
+            <sprite id="pyoroarm" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroarm.png" x="84" y="119" scalex="1" />
+            <sprite id="pyoroarm(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroarm.png" x="221" y="116" scalex="-1" />
+            <sprite id="pyorohand" parent="pyorom" z="-1" src="reskins/meia_cupid/pyorohand.png" x="38" y="85" pivotx="48%" pivoty="52%" rotation="-4" />
+            <sprite id="pyorohand(copy)" parent="pyorom" src="reskins/meia_cupid/pyorohand.png" x="265" y="80" scalex="-1" scaley="1" rotation="-357" />
+            <sprite id="pyoroleg" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="208" y="205" scalex="-1" rotation="5" />
+            <sprite id="pyoroleg(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="114" y="205" scalex="1" rotation="2" />
+        </pose>
+        <pose id="4-pyorodeterminedstill">
+            <sprite id="silent" src="reskins/meia_cupid/4-silent2.png" x="0" y="0" alpha="100" />
+            <sprite id="pyorom" z="2" src="reskins/meia_cupid/pyorodetermined.png" x="-333" y="152" alpha="100" rotation="-2" />
+            <sprite id="pyoroarm" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroarm.png" x="84" y="119" scalex="1" />
+            <sprite id="pyoroarm(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroarm.png" x="221" y="116" scalex="-1" />
+            <sprite id="pyorohand" parent="pyorom" z="-1" src="reskins/meia_cupid/pyorohand.png" x="38" y="85" pivotx="48%" pivoty="52%" rotation="-4" />
+            <sprite id="pyorohand(copy)" parent="pyorom" src="reskins/meia_cupid/pyorohand.png" x="265" y="80" scalex="-1" scaley="1" rotation="-357" />
+            <sprite id="pyoroleg" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="208" y="205" scalex="-1" rotation="5" />
+            <sprite id="pyoroleg(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="114" y="205" scalex="1" rotation="2" />
+        </pose>
+        <pose id="5-pyorodeterminedstill">
+            <sprite id="silent" src="reskins/meia_cupid/5-silent2.png" x="0" y="0" alpha="100" />
+            <sprite id="pyorom" z="2" src="reskins/meia_cupid/pyorodetermined.png" x="-333" y="152" alpha="100" rotation="-2" />
+            <sprite id="pyoroarm" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroarm.png" x="84" y="119" scalex="1" />
+            <sprite id="pyoroarm(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroarm.png" x="221" y="116" scalex="-1" />
+            <sprite id="pyorohand" parent="pyorom" z="-1" src="reskins/meia_cupid/pyorohand.png" x="38" y="85" pivotx="48%" pivoty="52%" rotation="-4" />
+            <sprite id="pyorohand(copy)" parent="pyorom" src="reskins/meia_cupid/pyorohand.png" x="265" y="80" scalex="-1" scaley="1" rotation="-357" />
+            <sprite id="pyoroleg" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="208" y="205" scalex="-1" rotation="5" />
+            <sprite id="pyoroleg(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="114" y="205" scalex="1" rotation="2" />
+        </pose>
+        <pose id="4-stripsilent">
+            <sprite id="strip" src="reskins/meia_cupid/4-strip.png" x="0" y="0" />
+            <sprite id="silentmouth" src="reskins/meia_cupid/silentmouth.png" x="2" y="285" rotation="2" />
+        </pose>
+        <pose id="0-pyorostaticm">
+            <sprite id="silent" src="reskins/meia_cupid/0-pyoro.png" x="0" y="0" alpha="100" />
+            <sprite id="pyorom" z="2" src="reskins/meia_cupid/pyorosadm.png" x="-298" y="152" alpha="100" rotation="-2" />
+            <sprite id="pyoroarm" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroarm.png" x="84" y="119" scalex="1" />
+            <sprite id="pyoroarm(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroarm.png" x="221" y="116" scalex="-1" />
+            <sprite id="pyorohand" parent="pyorom" z="-1" src="reskins/meia_cupid/pyorohand.png" x="40" y="85" pivotx="48%" pivoty="52%" rotation="-3" />
+            <sprite id="pyorohand(copy)" parent="pyorom" src="reskins/meia_cupid/pyorohand.png" x="264" y="84" scalex="-1" scaley="1" rotation="-349" />
+            <sprite id="pyoroleg" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="204" y="205" scalex="-1" rotation="12" />
+            <sprite id="pyoroleg(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="114" y="205" scalex="1" rotation="2" />
+            <sprite id="static" z="2" src="reskins/meia_cupid/static.png" x="-300" y="149" rotation="-2" />
+        </pose>
+        <pose id="1-pyorostaticm">
+            <sprite id="silent" src="reskins/meia_cupid/1-pyoro.png" x="0" y="0" alpha="100" />
+            <sprite id="pyorom" z="2" src="reskins/meia_cupid/pyorosadm.png" x="-298" y="152" alpha="100" rotation="-2" />
+            <sprite id="pyoroarm" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroarm.png" x="84" y="119" scalex="1" />
+            <sprite id="pyoroarm(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroarm.png" x="221" y="116" scalex="-1" />
+            <sprite id="pyorohand" parent="pyorom" z="-1" src="reskins/meia_cupid/pyorohand.png" x="40" y="85" pivotx="48%" pivoty="52%" rotation="-3" />
+            <sprite id="pyorohand(copy)" parent="pyorom" src="reskins/meia_cupid/pyorohand.png" x="264" y="84" scalex="-1" scaley="1" rotation="-349" />
+            <sprite id="pyoroleg" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="204" y="205" scalex="-1" rotation="12" />
+            <sprite id="pyoroleg(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="114" y="205" scalex="1" rotation="2" />
+            <sprite id="static" z="2" src="reskins/meia_cupid/static.png" x="-300" y="149" rotation="-2" />
+        </pose>
+        <pose id="2-pyorostaticm">
+            <sprite id="silent" src="reskins/meia_cupid/2-pyoro.png" x="0" y="0" alpha="100" />
+            <sprite id="pyorom" z="2" src="reskins/meia_cupid/pyorosadm.png" x="-298" y="152" alpha="100" rotation="-2" />
+            <sprite id="pyoroarm" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroarm.png" x="84" y="119" scalex="1" />
+            <sprite id="pyoroarm(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroarm.png" x="221" y="116" scalex="-1" />
+            <sprite id="pyorohand" parent="pyorom" z="-1" src="reskins/meia_cupid/pyorohand.png" x="40" y="85" pivotx="48%" pivoty="52%" rotation="-3" />
+            <sprite id="pyorohand(copy)" parent="pyorom" src="reskins/meia_cupid/pyorohand.png" x="264" y="84" scalex="-1" scaley="1" rotation="-349" />
+            <sprite id="pyoroleg" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="204" y="205" scalex="-1" rotation="12" />
+            <sprite id="pyoroleg(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="114" y="205" scalex="1" rotation="2" />
+            <sprite id="static" z="2" src="reskins/meia_cupid/static.png" x="-300" y="149" rotation="-2" />
+        </pose>
+        <pose id="3-pyorostaticm">
+            <sprite id="silent" src="reskins/meia_cupid/3-pyoro.png" x="0" y="0" alpha="100" />
+            <sprite id="pyorom" z="2" src="reskins/meia_cupid/pyorosadm.png" x="-298" y="152" alpha="100" rotation="-2" />
+            <sprite id="pyoroarm" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroarm.png" x="84" y="119" scalex="1" />
+            <sprite id="pyoroarm(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroarm.png" x="221" y="116" scalex="-1" />
+            <sprite id="pyorohand" parent="pyorom" z="-1" src="reskins/meia_cupid/pyorohand.png" x="40" y="85" pivotx="48%" pivoty="52%" rotation="-3" />
+            <sprite id="pyorohand(copy)" parent="pyorom" src="reskins/meia_cupid/pyorohand.png" x="264" y="84" scalex="-1" scaley="1" rotation="-349" />
+            <sprite id="pyoroleg" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="204" y="205" scalex="-1" rotation="12" />
+            <sprite id="pyoroleg(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="114" y="205" scalex="1" rotation="2" />
+            <sprite id="static" z="2" src="reskins/meia_cupid/static.png" x="-300" y="149" rotation="-2" />
+        </pose>
+        <pose id="4-pyorostaticm">
+            <sprite id="silent" src="reskins/meia_cupid/4-pyoro.png" x="0" y="0" alpha="100" />
+            <sprite id="pyorom" z="2" src="reskins/meia_cupid/pyorosadm.png" x="-298" y="152" alpha="100" rotation="-2" />
+            <sprite id="pyoroarm" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroarm.png" x="84" y="119" scalex="1" />
+            <sprite id="pyoroarm(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroarm.png" x="221" y="116" scalex="-1" />
+            <sprite id="pyorohand" parent="pyorom" z="-1" src="reskins/meia_cupid/pyorohand.png" x="40" y="85" pivotx="48%" pivoty="52%" rotation="-3" />
+            <sprite id="pyorohand(copy)" parent="pyorom" src="reskins/meia_cupid/pyorohand.png" x="264" y="84" scalex="-1" scaley="1" rotation="-349" />
+            <sprite id="pyoroleg" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="204" y="205" scalex="-1" rotation="12" />
+            <sprite id="pyoroleg(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="114" y="205" scalex="1" rotation="2" />
+            <sprite id="static" z="2" src="reskins/meia_cupid/static.png" x="-300" y="149" rotation="-2" />
+        </pose>
+        <pose id="5-pyorostaticm">
+            <sprite id="silent" src="reskins/meia_cupid/5-pyoro.png" x="0" y="0" alpha="100" />
+            <sprite id="pyorom" z="2" src="reskins/meia_cupid/pyorosadm.png" x="-298" y="152" alpha="100" rotation="-2" />
+            <sprite id="pyoroarm" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroarm.png" x="84" y="119" scalex="1" />
+            <sprite id="pyoroarm(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroarm.png" x="221" y="116" scalex="-1" />
+            <sprite id="pyorohand" parent="pyorom" z="-1" src="reskins/meia_cupid/pyorohand.png" x="40" y="85" pivotx="48%" pivoty="52%" rotation="-3" />
+            <sprite id="pyorohand(copy)" parent="pyorom" src="reskins/meia_cupid/pyorohand.png" x="264" y="84" scalex="-1" scaley="1" rotation="-349" />
+            <sprite id="pyoroleg" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="204" y="205" scalex="-1" rotation="12" />
+            <sprite id="pyoroleg(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="114" y="205" scalex="1" rotation="2" />
+            <sprite id="static" z="2" src="reskins/meia_cupid/static.png" x="-300" y="149" rotation="-2" />
         </pose>
     </poses>
 

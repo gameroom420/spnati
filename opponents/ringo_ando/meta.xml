@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1705446966204</lastupdate>
+    <lastupdate>1712105116596</lastupdate>
     <enabled>false</enabled>
     <first>Ringo</first>
     <last>Ando</last>
@@ -11,11 +11,13 @@
     <writer>Horsecatdraws, Napsu?-han</writer>
     <artist>Horsecatdraws</artist>
     <description>Used to just be a student at Suzuran Junior High, until she got exposed to "the light". Now she has magical abilities which she uses by combining 4 or more "puyos" of the same color. She's quite curious... but also quite easily-distracted! (Also she doesn't do well with ghosts...)</description>
+    <epilogue gender="male" img="epilogue_preview.png" hint="Win a game against Ringo." description="After the game ends you and Ringo decide to hang out until it's time for her to return to her world, but there will be one more unexpected bump on the road that will get you two to get closer than expected.">Getting back home</epilogue>
     <layers>8</layers>
     <alternates>
         <costume folder="opponents/reskins/ringo_ando_puyo_tetris/" img="0-neutral.png" status="online" label="Ringo">Puyo Puyo Tetris</costume>
         <costume folder="opponents/reskins/ringo_ando_poison_ringo/" img="0-neutral.png" set="halloween" status="online" label="Ringo">Poison Ringo</costume>
     </alternates>
-    <lines>2058</lines>
+    <has_collectibles>true</has_collectibles>
+    <lines>2074</lines>
     <poses>275</poses>
 </opponent>

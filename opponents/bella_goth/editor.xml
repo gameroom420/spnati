@@ -42,8 +42,13 @@
         <label id="22" label="" folder="Targets" sort="0" />
         <label id="23" label="" folder="Targets" sort="0" />
         <label id="24" label="" folder="Targets" sort="0" />
+        <label id="25" label="" folder="Situations" sort="0" />
+        <label id="26" label="" folder="Situations" sort="0" />
+        <label id="27" label="" folder="Targets" sort="0" />
+        <label id="28" label="" folder="Targets" sort="0" />
+        <label id="29" label="" folder="Targets" sort="0" />
     </labels>
-    <nextId>24</nextId>
+    <nextId>29</nextId>
     <markers>
         <marker scope="Public" name="bellagoth_yuno_stiffyResp" />
         <marker scope="Public" name="bubblePos" />

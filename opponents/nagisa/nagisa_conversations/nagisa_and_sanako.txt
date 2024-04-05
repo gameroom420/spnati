@@ -1,0 +1,362 @@
+
+If Nagisa to left and Sanako to right:
+
+NAGISA MUST STRIP SHOES:
+Nagisa [nagisa_sanako_ns_n1]: Sorry that I kind of rushed my introduction earlier. My name is Nagisa Furukawa. It's a pleasure to be working with you all.
+Sanako [sanako_nagisa_ns_n1]: You're looking bright and eager to~background.time~, Nagisa. Is it your first time to a place like this?
+
+NAGISA STRIPPING SHOES:
+Nagisa [nagisa_sanako_ns_n2]: Is it that obvious? Um, yeah, I've never done anything like this before. I'll be in your care.
+Sanako [sanako_nagisa_ns_n2]: Don't you worry. We'll ease you into it gently. If that's what you want, of course.
+
+NAGISA STRIPPED SHOES:
+Nagisa [nagisa_sanako_ns_n3]: Yes, please. I'm still a beginner, so I might make a lot of mistakes...
+Sanako [sanako_nagisa_ns_n3]: There's nothing wrong with making a mistake, Nagisa. As long as you learn from it.
+
+
+NAGISA MUST STRIP SOCKS:
+Nagisa [nagisa_sanako_ns_n4]: This ~background.term~ is not as bad as I was expecting.
+Sanako [sanako_nagisa_ns_n4]: What were you expecting, Nagisa?
+
+NAGISA STRIPPING SOCKS:
+Nagisa [nagisa_sanako_ns_n5]: Um, I don't know. I haven't been to an adults-only event before, so I didn't really know what I'd find here.
+Sanako [sanako_nagisa_ns_n5]: There are some seedy places out there that you should avoid. Don't go anywhere without doing some research first, okay?
+
+NAGISA STRIPPED SOCKS:
+Nagisa [nagisa_sanako_ns_n6]: Maybe it's just the friendly faces here that make the difference. Thanks for making me feel at home.
+Sanako [sanako_nagisa_ns_n6]: I think it's important that you can feel confident anywhere, Nagisa. If this is how you choose to push your boundaries, I'll support you all the way.
+
+
+NAGISA MUST STRIP JACKET:
+Nagisa [nagisa_sanako_ns_n7]: I... I hope I can count on all of you to keep a secret...
+Sanako [sanako_nagisa_ns_n7]: Of course, Nagisa. I spoke to everyone beforehand, and we all want this to be a safe environment for you to share whatever you want to share.
+
+NAGISA STRIPPING JACKET:
+Nagisa [nagisa_sanako_ns_n8]: Sanako, have you ever been to the Furukawa Bakery? It's downhill from the school and then a short walk, opposite a park.
+Sanako [sanako_nagisa_ns_n8]: Sure, I know it! I go there all the time.
+
+NAGISA STRIPPED JACKET:
+Nagisa [nagisa_sanako_ns_n9]: Um, well, if you're at the bakery, please don't tell my mom you saw me here.
+Sanako [sanako_nagisa_ns_n9]: I'm sure she'd be proud you were here, showing everyone how brave you are. But, okay, I won't tell your mom if you don't tell your grandma.
+
+NAGISA HAND AFTER STRIPPED JACKET:
+Nagisa [nagisa_sanako_ns_n9_doubletake]: What do you mean? Wh-Why would I tell my grandma?
+Sanako [sanako_nagisa_ns_n9_doubletake]: Ehehe! Nagisa, that's <i>my</i> little secret!
+
+
+NAGISA MUST STRIP SHIRT: (conditional on previous case)
+Nagisa [nagisa_sanako_ns_n10]: I knew this was coming... I just didn't expect it to sneak up me so fast.
+Sanako [sanako_nagisa_ns_n10]: Nagisa, you mentioned keeping this from your mom earlier. Do you not get along with her?
+
+NAGISA STRIPPING SHIRT:
+Nagisa [nagisa_sanako_ns_n11]: It's not that, Sanako... It's just that, um, I'm taking my shirt off in front of people I've never met before... I can't tell my mom that!
+Sanako [sanako_nagisa_ns_n11]: Is that all? I'm sure your mom is cool and would love to cheer you on. She's probably not some prude.
+
+NAGISA STRIPPED SHIRT:
+Nagisa [nagisa_sanako_ns_n12]: Um, another reason I didn't tell my mom I was coming here is because she'd want to come too to make sure I was safe. And that would just be weird.
+Sanako [sanako_nagisa_ns_n12]: I understand, Nagisa. Even so, I'm sure she's still watching over you somehow, making sure that no harm can come to you.
+
+
+NAGISA MUST STRIP SKIRT:
+Nagisa [nagisa_sanako_ns_n13]: Oh... Um, you don't think playing this game is <i>wrong</i>... do you?
+Sanako [sanako_nagisa_ns_n13]: We'd be real meanies if we blamed you for something we're doing too. Is that what you mean?
+
+NAGISA STRIPPING SKIRT:
+Nagisa [nagisa_sanako_ns_n14]: This just feels kind of... naughty, you know? Like I've been guarding my panties my whole life, and now I'm just going to... show everyone?
+Sanako [sanako_nagisa_ns_n14]: You're a grown woman now, Nagisa. Doing something naughty every now and then can be exciting!
+
+NAGISA STRIPPED SKIRT:
+Nagisa [nagisa_sanako_ns_n15]: It... It is kind of exciting. I wasn't expecting so much support, haha! My heart is beating so fast right now...
+Sanako [sanako_nagisa_ns_n15]: Don't tell anyone, but some of the ladies in the neighborhood have little underwear parties sometimes. We can get a lot done before the rest of the town wakes up.
+
+
+NAGISA MUST STRIP BRA:
+Nagisa [nagisa_sanako_ns_n16]: Ah! The only options I have left are the serious ones...
+Sanako [sanako_nagisa_ns_n16]: What are you going to show off first, honey? Your boobies or that cute butt? I'm sure everyone will love you, no matter which one you pick.
+
+NAGISA STRIPPING BRA:
+Nagisa [nagisa_sanako_ns_n17]: I... I couldn't possibly take off my panties. N-Not yet... But, um, my boobies aren't all that big. Not compared to some girls...
+Sanako [sanako_nagisa_ns_n17]: Nagisa, Nagisa, Nagisa... You can be proud of them no matter the size, you know? What people really like is the smiling face that goes with them.
+
+NAGISA STRIPPED BRA:
+Nagisa [nagisa_sanako_ns_n18]: L-Like this? Th-This is too embarrassing, sorry!
+Sanako [sanako_nagisa_ns_n18]: There's our adorable girl! You can cover up now. We just earned a little peek, that's all.
+
+
+NAGISA MUST STRIP PANTIES:
+Nagisa [nagisa_sanako_ns_n19]: How... how do you know if this is the right time? I thought... I mean, I used to think maybe I would just wait until my wedding night...
+Sanako [sanako_nagisa_ns_n19]: To let someone else see you nude? It's up to you, of course. But there are lots of places where you need to get naked in Japan. You don't even go to the hot springs, right? So if you get comfortable with it now, some fun opportunities might open up for you.
+
+NAGISA STRIPPING PANTIES:
+Nagisa [nagisa_sanako_ns_n20]: I... I hope you're right!
+Sanako [sanako_nagisa_ns_n20]: So brave! I'm proud of you, Nagisa. You're quite the mature adult now, I see.
+
+NAGISA STRIPPED PANTIES:
+Nagisa [nagisa_sanako_ns_n21]: I did it! Even though all eyes were on me, I still managed to go through it. I'm so relieved. Um, but you don't have to keep looking... if you don't want to.
+Sanako [sanako_nagisa_ns_n21]: Okay, everyone. We've had our fun. You can all take a glance now and then, but no leering at her, please.
+
+
+NAGISA MUST MASTURBATE:
+Nagisa [nagisa_sanako_ns_n22] if first: It's me?! U-Um... Th-This is the biggest step... but I'll do my best.
+    OR [nagisa_sanako_ns_n22] if later: It's me. Thank you for letting me join you, everyone. This is the biggest step... but I'll do my best.
+Sanako [sanako_nagisa_ns_n22]: It's like a rite of passage. Sweetie, if you can do this, you can do anything.
+
+NAGISA STARTING TO MASTURBATE:
+Nagisa [nagisa_sanako_ns_n23]: What if... what if I can't, um, finish? What if I'm here for hours, and you're all waiting for me?
+Sanako [sanako_nagisa_ns_n23]: Don't worry about that, Nagisa. Just tune us all out and think of whatever gets your heart racing. And if that doesn't work, there's a little secret I'll teach you about making it look good that works in the bedroom too.
+
+---
+
+SANAKO MUST STRIP SHOES AND SOCKS:
+Nagisa [nagisa_sanako_ns_s1]: Sanako, about that uniform... Do you go to Hikarizaka Private High School too?
+Sanako [sanako_nagisa_ns_s1]: I sure do!
+
+SANAKO STRIPPING SHOES AND SOCKS:
+Nagisa [nagisa_sanako_ns_s2]: Your crest is for senior year. Oh, but I suppose it would have to be to play a game like this.
+Sanako [sanako_nagisa_ns_s2]: Don't worry, Nagisa. My birthday was a little while back.
+
+SANAKO STRIPPED SHOES AND SOCKS:
+Nagisa [nagisa_sanako_ns_s3]: I just don't think I've seen you around before. But I'm repeating, so I haven't met everyone in my new year level.
+Sanako [sanako_nagisa_ns_s3]: That's okay. I've been around the whole time. I don't blame you for not noticing me.
+
+
+SANAKO MUST STRIP SHIRT:
+Nagisa [nagisa_sanako_ns_s4]: Even though I don't think I've seen you around school, Sanako, you do still seem familiar somehow...
+Sanako [sanako_nagisa_ns_s4]: Is that so, Nagisa? Who do I remind you of? Someone pretty, I hope.
+
+SANAKO STRIPPING SHIRT:
+Nagisa [nagisa_sanako_ns_s5]: You <i>are</i> very pretty, and I'm sure I should remember you if we've met... Oh, I'm sorry, I'm getting distracted. Ah, are you taking off your shirt already?
+Sanako [sanako_nagisa_ns_s5]: I am. To tell you the truth, I've been looking forward to showing off my body a little. Normally I only have an audience of one.
+
+SANAKO STRIPPED SHIRT:
+Nagisa [nagisa_sanako_ns_s6]: I wish I could be as confident as you, Sanako. Nobody's going to stay interested in a boring girl like me...
+Sanako [sanako_nagisa_ns_s6]: Don't sell yourself short, Nagisa. You're every bit as lovely plus more. You just have to believe in yourself as much as I do.
+
+
+SANAKO MUST STRIP SKIRT:
+Nagisa [nagisa_sanako_ns_s7]: Oh, I just remembered! Sanako, would you like to join the drama club? I'm trying to restart it, and we go to the same school!
+Sanako [sanako_nagisa_ns_s7]: I do love to dress up! Who would be your club's advisor?
+
+SANAKO STRIPPING SKIRT:
+Nagisa [nagisa_sanako_ns_s8]: That's the thing, we don't have an advisor yet...
+Sanako [sanako_nagisa_ns_s8]: Just a moment, honey. It's been a long time since I got to show my panties off to someone new, you know?
+
+SANAKO STRIPPED SKIRT:
+Nagisa [nagisa_sanako_ns_s9]: It has? Wait, but...
+Sanako [sanako_nagisa_ns_s9]: Don't worry so much, Nagisa. I've been eighteen for longer than you'd think.
+
+
+SANAKO MUST STRIP BRA:
+Nagisa [nagisa_sanako_ns_s10]: It's your turn, Sanako. I know you said you're excited for everyone to praise you, but...
+Sanako [sanako_nagisa_ns_s10]: Is there something wrong, Nagisa? I don't have to keep going if it's making you feel uncomfortable.
+
+SANAKO STRIPPING BRA:
+Nagisa [nagisa_sanako_ns_s11]: It's like when Fuu-chan came to visit, and me and her and my mom all had a bath together. It didn't feel weird. It just felt... normal, you know? Maybe you remind me of Fuu-chan.
+Sanako [sanako_nagisa_ns_s11]: So you're saying you're just not that moved at the idea of seeing my chest? Honey, that's okay. In fact, it might be weird if it <i>did</i> excite you. That's the last thing I want to happen, haha...
+
+SANAKO STRIPPED BRA:
+Nagisa [nagisa_sanako_ns_s12]: Thanks for understanding, Sanako. It's not that I dislike your body or anything... I'd <i>like</i> to say nice things to make you feel good...
+Sanako [sanako_nagisa_ns_s12]: Sweetheart, I'm getting more than enough attention from everyone else. You just keep being you. I'll always support that.
+
+
+SANAKO MUST STRIP PANTIES:
+Nagisa [nagisa_sanako_ns_s13]: Sanako... um, no need to do anything drastic... You still have your glasses and maybe your ribbons?
+Sanako [sanako_nagisa_ns_s13]: Sorry, Nagisa, but I need those to complete my look. So I guess it's time to go all in, ehehe!
+
+SANAKO STRIPPING PANTIES:
+Nagisa [nagisa_sanako_ns_s14]: You're not one of those promiscuous girls my mom told me about, are you?
+Sanako [sanako_nagisa_ns_s14]: Not at all! ~player.ifMale(One man is enough for me.|Just showing off a little isn't wrong.)~ Anyway, I hope the rest of you have been looking forward to this at least!
+
+SANAKO STRIPPED PANTIES:
+Nagisa [nagisa_sanako_ns_s15]: <i>(I hope this girl's not a bad influence...)</i>
+Sanako [sanako_nagisa_ns_s15]: <i>(I haven't had this much attention in years! Aw, but poor Nagisa. She's staring at the ~background.surface~ again. I don't think she's looked this way once since I took my bra off. Not that I blame her.)</i>
+
+
+SANAKO MUST MASTURBATE:
+Nagisa [nagisa_sanako_ns_s16]: I'm so sorry, Sanako, but I think you're out. I know you'd like to show off for everyone, so I'll do my duty and watch every moment until the very end!
+Sanako [sanako_nagisa_ns_s16]: Oh my. Nagisa, you don't have to do that. In fact, it would make me happy if you'd watch ~background.if.indoors(the door|out for unexpected visitors)~ instead.
+
+SANAKO STARTING TO MASTURBATE:
+Nagisa [nagisa_sanako_ns_s17]: Sure! You can count on me! I was kind of getting nervous about looking anyway...
+Sanako [sanako_nagisa_ns_s17]: Ahhh... I'm going to be taking some personal time now, so please don't interrupt me for a while, okay?
+
+---
+DUE TO POSITION DETECTION, CONVERSATIONS ABOVE AND BELOW THIS LINE WON'T PLAY IN THE SAME GAME.
+---
+
+If Sanako to left and Nagisa to right:
+
+NAGISA MUST STRIP SHOES:
+Sanako [sanako_nagisa_sn_n1]: "Nagisa" is such a lovely name. It's nice to get to know you like this.
+Nagisa [nagisa_sanako_sn_n1]: Um, thanks, Sanako. I've been meaning to ask... Do you go to Hikarizaka Private High School too?
+
+NAGISA STRIPPING SHOES:
+Sanako [sanako_nagisa_sn_n2]: Oh, because of the uniform? Hehe, my secret's out. Yeah, you could say you and I cross paths a lot.
+Nagisa [nagisa_sanako_sn_n2]: I'm sorry that I don't recognize you from school. It's nice we could meet each other now though.
+
+NAGISA STRIPPED SHOES:
+Sanako [sanako_nagisa_sn_n3]: I'm sure we'll be friends, Nagisa. I have a good feeling about it.
+Nagisa [nagisa_sanako_sn_n3]: You're so friendly, Sanako. I like you already!
+
+
+NAGISA MUST STRIP SOCKS:
+Sanako [sanako_nagisa_sn_n4]: Unlucky, Nagisa. Don't give up, though. Stand strong. Fight on!
+Nagisa [nagisa_sanako_sn_n4]: Thanks for the encouragement, Sanako. But it's okay. I'm not out yet.
+
+NAGISA STRIPPING SOCKS:
+Sanako [sanako_nagisa_sn_n5]: Do your best! Don't be disheartened. We're all rooting for you.
+Nagisa [nagisa_sanako_sn_n5]: Really, it's fine. It's just my socks. This is the easy part.
+
+NAGISA STRIPPED SOCKS:
+Sanako [sanako_nagisa_sn_n6]: Just remember, when life gives you lemons, make a lemon zest pretzel surprise.
+Nagisa [nagisa_sanako_sn_n6]: I should introduce you to my mom, Sanako. I think you two would get along so well!
+
+
+NAGISA MUST STRIP JACKET:
+Sanako [sanako_nagisa_sn_n7]: So... Nagisa, is there a special ~player.ifMale(boy|person)~ in your life? Maybe a friend of yours who keeps visiting? Hmmmm?
+Nagisa [nagisa_sanako_sn_n7]: Ah, um... Maybe there's someone who I can't stop thinking about. I might... I might have feelings for ~player.ifMale(him|them)~... But I don't think ~player.ifMale(he feels|they feel)~ the same way back.
+
+NAGISA STRIPPING JACKET:
+Sanako [sanako_nagisa_sn_n8]: Oooh! Tell us more! Have you held hands? Been on any dates? Have you... kissed?
+Nagisa [nagisa_sanako_sn_n8]: N-No, we haven't done anything like that! I... I still haven't had my first kiss yet...
+
+NAGISA STRIPPED JACKET:
+Sanako [sanako_nagisa_sn_n9]: Aw, that's okay. There's no rush. I'm sure your parents can wait a few extra years to be grandparents.
+Nagisa [nagisa_sanako_sn_n9]: It's not like I'm not interested in that kind of stuff. I just don't know how to get started.
+
+
+NAGISA MUST STRIP SHIRT:
+Sanako [sanako_nagisa_sn_n10]: Sooooo... what brings a girl like you to a place like this, Nagisa? Have you been hiding a bit of an exhibitionist streak?
+Nagisa [nagisa_sanako_sn_n10]: N-No! It's nothing like that...
+
+NAGISA STRIPPING SHIRT:
+Sanako [sanako_nagisa_sn_n11]: Oho, so you're here to see everyone else get nude. How naughty! But I understand. You're a woman with needs now.
+Nagisa [nagisa_sanako_sn_n11]: Ah! Um, n-no... that's not totally true...
+
+NAGISA STRIPPED SHIRT:
+Sanako [sanako_nagisa_sn_n12]: You're so fun to tease, Nagisa. I know you're just here to prove something to yourself. Did I do a good job distracting you while you took your shirt off?
+Nagisa [nagisa_sanako_sn_n12]: Oh! Thank you, Sanako. Sorry for misunderstanding.
+
+
+NAGISA MUST STRIP SKIRT:
+Sanako [sanako_nagisa_sn_n13]: Nagisa, don't be alarmed, but everyone's waiting for you.
+Nagisa [nagisa_sanako_sn_n13]: They are?
+
+NAGISA STRIPPING SKIRT:
+Sanako [sanako_nagisa_sn_n14]: It's okay if you don't want to be parading around in your underwear. What do you want to do, honey?
+Nagisa [nagisa_sanako_sn_n14]: I... I came this far. I can't turn back now.
+
+NAGISA STRIPPED SKIRT:
+Sanako [sanako_nagisa_sn_n15]: I believe in you. The Nagisa I know is determined to do anything she sets her mind to.
+Nagisa [nagisa_sanako_sn_n15]: I can't promise I'll be as brave as the Nagisa you know, but I'll try...
+
+
+NAGISA MUST STRIP BRA:
+Sanako [sanako_nagisa_sn_n16]: It's the moment of truth, honey. What are you going to do?
+Nagisa [nagisa_sanako_sn_n16]: If you promise you won't be mean to me, I... I think I can do it.
+
+NAGISA STRIPPING BRA:
+Sanako [sanako_nagisa_sn_n17]: Don't you know, Nagisa? The human brain is wired so that a person is happy whenever they see boobies. It doesn't matter if they're big or small.
+Nagisa [nagisa_sanako_sn_n17]: Is that really true? Okay... here... here are mine then.
+
+NAGISA STRIPPED BRA:
+Sanako [sanako_nagisa_sn_n18]: Aw, they're so cute now! For the split second we saw them anyway. And everybody loves them, see?
+Nagisa [nagisa_sanako_sn_n18]: Th-Thanks... I think I'll still try to cover up for now, though...
+
+
+NAGISA MUST STRIP PANTIES:
+Sanako [sanako_nagisa_sn_n19]: I didn't think I'd be here for your big debut, but if this is how you want to do it, I'll be here for you.
+Nagisa [nagisa_sanako_sn_n19]: Y-You won't think of me badly, will you? Maybe I...
+
+NAGISA STRIPPING PANTIES:
+Sanako [sanako_nagisa_sn_n20]: Go ahead, Nagisa. Don't worry so much. You don't have anything I haven't seen before.
+Nagisa [nagisa_sanako_sn_n20]: H-Here I go!
+
+NAGISA STRIPPED PANTIES:
+Sanako [sanako_nagisa_sn_n21]: You did it! I'm so proud of you. Ehehe, it takes everything I have not to give you a big hug!
+Nagisa [nagisa_sanako_sn_n21]: I was so worried everyone would start booing or something... Thank you for being excited! I... I can't believe I really did that...
+
+
+NAGISA MUST MASTURBATE:
+Sanako [sanako_nagisa_sn_n22]: Aw. My poor, innocent angel...
+Nagisa [nagisa_sanako_sn_n22]: It's... It's okay. I... I can do this. Sometimes... sometimes I do this privately, you know...
+
+NAGISA STARTING TO MASTURBATE:
+Sanako [sanako_nagisa_sn_n23]: Of course. You should be free to explore your sexuality however you want, honey. I promise I won't embarrass you.
+Nagisa [nagisa_sanako_sn_n23]: Normally I think about boys I know, but... um.... never mind!<br> <i>(~player.ifMale(|I hope Sanako knows I didn't mean I'd think about her! If I was going to think about a girl... )~~Player~ ~player.ifMale(is watching me so intently... Does he like me? I... I hope so...|seems really nice...)~)</i>
+
+---
+
+SANAKO MUST STRIP SHOES AND SOCKS:
+Sanako [sanako_nagisa_sn_s1]: Me already? If you insist! What a fun idea this is! I wouldn't even be here if it wasn't for... a friend.
+Nagisa [nagisa_sanako_sn_s1]: Oh, did you come with a friend to~background.time~, Sanako?
+
+SANAKO STRIPPING SHOES AND SOCKS:
+Sanako [sanako_nagisa_sn_s2]: My friend and I do a lot of things together, but actually, she doesn't know I'm here! Ehehe...
+Nagisa [nagisa_sanako_sn_s2]: <i>(She's flashing her panties! Didn't her mom ever teach her to be more careful around boys?!)</i>
+    OR [nagisa_sanako_sn_s2] if no males: <i>(She's flashing her panties! Didn't her mom ever teach her to be more careful with that kind of stuff?!)</i>
+
+SANAKO STRIPPED SHOES AND SOCKS:
+Sanako [sanako_nagisa_sn_s3]: School uniform skirts are so short these days! I know you naughty people were peeking, but I don't mind.
+Nagisa [nagisa_sanako_sn_s3]: I... I wasn't peeking!
+
+
+SANAKO MUST STRIP SHIRT:
+Sanako [sanako_nagisa_sn_s4]: The girl I'm borrowing this shirt from has a bit of a smaller bust. It's feeling a little constricting.
+Nagisa [nagisa_sanako_sn_s4]: If you'd like to untuck your shirt, I'm sure nobody would mind. The disciplinary committee probably won't catch us.
+
+SANAKO STRIPPING SHIRT:
+Sanako [sanako_nagisa_sn_s5]: Let's take it off instead. I used to turn heads in a swimsuit, you know? Maybe I can still catch a few glances.
+Nagisa [nagisa_sanako_sn_s5]: Ah! I-If you want to, then please go ahead. I'm... I'm sure you'll be very popular...
+
+SANAKO STRIPPED SHIRT:
+Sanako [sanako_nagisa_sn_s6]: Ehehe, this is so exciting! So, any thoughts on this cute bra?
+Nagisa [nagisa_sanako_sn_s6]: My mom bought a bra just like that the last time we went to the department store, but I don't think she's worn it yet.
+
+
+SANAKO MUST STRIP SKIRT:
+Sanako [sanako_nagisa_sn_s7]: Who wants another look at these matching panties I bought?
+Nagisa [nagisa_sanako_sn_s7]: You're so daring, Sanako... Even for a senior.
+
+SANAKO STRIPPING SKIRT:
+Sanako [sanako_nagisa_sn_s8]: So hurtful, Nagisa! Do you really think of me as a senior citizen? Am I old and decrepit in your eyes? Has my age caught up with me all at once?!
+Nagisa [nagisa_sanako_sn_s8]: S-Sorry! I didn't mean a senior citizen, Sanako! I meant in school! The color of your uniform crest is for senior year!
+
+SANAKO STRIPPED SKIRT:
+Sanako [sanako_nagisa_sn_s9]: Th-That's right! I'm not some out-of-touch housewife desperately using her still-youthful looks to cling to the past and connect with today's generation!
+Nagisa [nagisa_sanako_sn_s9]: Um, yeah. Me neither. But I'm repeating senior year, so maybe I'm a <i>little</i> out-of-touch...
+
+
+SANAKO MUST STRIP BRA:
+Sanako [sanako_nagisa_sn_s10]: Ohoho, you're all insatiable for my treats, aren't you? I might have to play this role more often.
+Nagisa [nagisa_sanako_sn_s10]: The most important role we can play is as role models, Sanako. We're representing the school when we're in uniform, after all.
+
+SANAKO STRIPPING BRA:
+Sanako [sanako_nagisa_sn_s11]: I think everyone wants me to keep doing this modeling out of uniform, Nagisa. You wouldn't tell on me, would you?
+Nagisa [nagisa_sanako_sn_s11]: N-No. Um, if I don't look, then I won't be lying if a teacher asks if I saw anything...
+
+SANAKO STRIPPED BRA:
+Sanako [sanako_nagisa_sn_s12]: So, what do you think of my boobies? Am I inspiring you?
+Nagisa [nagisa_sanako_sn_s12]: I'm still not looking, but I'm sure they're wonderful...
+
+
+SANAKO MUST STRIP PANTIES:
+Sanako [sanako_nagisa_sn_s13]: You cheeky ~player.ifMale(boys and girls|girls)~ just want me to reveal <i>all</i> my secrets, don't you?
+Nagisa [nagisa_sanako_sn_s13]: Y-Your secrets are safe with us, Sanako. We won't tell anyone.
+
+SANAKO STRIPPING PANTIES:
+Sanako [sanako_nagisa_sn_s14]: Of course, you should only take your panties off if you're in a safe environment. This is just some harmless fun, so I'm going to go ahead!
+Nagisa [nagisa_sanako_sn_s14]: We should give you some privacy. We could all turn around if you'd like.
+
+SANAKO STRIPPED PANTIES:
+Sanako [sanako_nagisa_sn_s15]: Don't anyone get handsy, okay? You can look, but don't touch. Not you, Nagisa. You shouldn't look <i>or</i> touch.
+Nagisa [nagisa_sanako_sn_s15]: <i>(Even though she's being so bold, she's still keeping herself chaste. That's so cool. She must be a virgin like me.)</i>
+
+
+SANAKO MUST MASTURBATE:
+Sanako [sanako_nagisa_sn_s16]: It's time to have some fun! But first, Nagisa, I want you to make me a promise.
+Nagisa [nagisa_sanako_sn_s16]: M-Me? Of course. What do you need, Sanako?
+
+SANAKO STARTING TO MASTURBATE:
+Sanako [sanako_nagisa_sn_s17]: It would make me feel all self-conscious if you watched me. So maybe just think about other things instead for a bit, okay?
+Nagisa [nagisa_sanako_sn_s17]: I think I understand. I'd like to keep being your friend, Sanako, so it's probably better if I don't see you like that... I promise I won't look.

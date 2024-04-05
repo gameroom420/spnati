@@ -84,6 +84,28 @@
         <response id="420" opponent="petra" opponentId="821" />
         <response id="421" opponent="petra" opponentId="860" />
         <response id="423" opponent="petra" opponentId="859" />
+        <response id="474" opponent="meia" opponentId="1647" />
+        <response id="476" opponent="meia" opponentId="1648" />
+        <response id="481" opponent="mercy" opponentId="221" />
+        <response id="482" opponent="mercy" opponentId="217" />
+        <response id="484" opponent="hilda" opponentId="983" />
+        <response id="485" opponent="hilda" opponentId="984" />
+        <response id="486" opponent="hilda" opponentId="982" />
+        <response id="487" opponent="hilda" opponentId="993" />
+        <response id="497" opponent="nonon" opponentId="910" />
+        <response id="498" opponent="nonon" opponentId="901" />
+        <response id="505" opponent="meia" opponentId="1743" />
+        <response id="507" opponent="jura" opponentId="1523" />
+        <response id="508" opponent="jura" opponentId="1519" />
+        <response id="509" opponent="jura" opponentId="1520" />
+        <response id="514" opponent="hilda" opponentId="1005" />
+        <response id="532" opponent="hilda" opponentId="1013" />
+        <response id="533" opponent="hilda" opponentId="1014" />
+        <response id="534" opponent="hilda" opponentId="1021" />
+        <response id="535" opponent="hilda" opponentId="1024" />
+        <response id="536" opponent="hilda" opponentId="1001" />
+        <response id="538" opponent="hilda" opponentId="1002" />
+        <response id="539" opponent="hilda" opponentId="1003" />
     </responses>
     <notes>
         <note id="66">Wealth: Lys talks about being impoverished and disadvantaged, even as a noble
@@ -102,6 +124,12 @@ ask_mia_tribeS = Description of the world </note>
         <note id="212">This could be a joke about orgasm timing, were one to make the joke.</note>
         <note id="270">I have decided to change this tone to be far more of Lys trolling</note>
         <note id="402">I believe Tea's condition should be "Said" not saying marker for this to work. </note>
+        <note id="480">Bio: Perhaps a reference to Gabriel? 
+Witch: Outfits and the value of presentation. Lysithea under-represents herself here, but I think she could be yet more terrifying with an appropriate degree of presence. 
+Fight: Mixing damage and healing; How to prioritize</note>
+        <note id="274">balthus=Lysithea is attracted to him. 
+cyril=Lysithea is attracted to him, and making an observation about wanting to make sure he's mature enough before pursuing him. </note>
+        <note id="500">Nonon's marker here does not seem to be correct. </note>
     </notes>
     <labels>
         <label id="1" label="" folder="Golden Deer - Hilda" sort="0" />
@@ -430,15 +458,15 @@ ask_mia_tribeS = Description of the world </note>
         <label id="325" label="" folder="Fire Emblem / Fantasy" sort="0" />
         <label id="326" label="" folder="Fire Emblem / Fantasy" sort="0" />
         <label id="327" label="" folder="Quirky Cute and Tomboys" sort="0" />
-        <label id="330" label="" color="4" folder="Future/Modern Opponents" sort="0" />
+        <label id="330" label="" folder="Future/Modern Opponents" sort="0" />
         <label id="331" label="" folder="Future/Modern Opponents" sort="0" />
-        <label id="332" label="" color="4" folder="Future/Modern Opponents" sort="0" />
+        <label id="332" label="" folder="Future/Modern Opponents" sort="0" />
         <label id="333" label="" folder="Smart Opponents" sort="0" />
-        <label id="334" label="" color="4" folder="Future/Modern Opponents" sort="0" />
+        <label id="334" label="" folder="Future/Modern Opponents" sort="0" />
         <label id="336" label="" folder="Jura Responses" sort="0" />
         <label id="335" label="" folder="Jura Responses" sort="0" />
         <label id="337" label="" folder="Jura Responses" sort="0" />
-        <label id="338" label="" color="4" folder="Future/Modern Opponents" sort="0" />
+        <label id="338" label="" folder="Future/Modern Opponents" sort="0" />
         <label id="339" label="" folder="Dunban Responses" sort="0" />
         <label id="340" label="" folder="Dunban Responses" sort="0" />
         <label id="341" label="" folder="Male Opponents" sort="0" />
@@ -487,10 +515,10 @@ ask_mia_tribeS = Description of the world </note>
         <label id="384" label="" folder="Male Opponents" sort="0" />
         <label id="385" label="" folder="Male Opponents" sort="0" />
         <label id="386" label="" color="4" folder="Future/Modern Opponents" sort="0" />
-        <label id="387" label="" color="4" folder="Future/Modern Opponents" sort="0" />
-        <label id="388" label="" color="4" folder="Future/Modern Opponents" sort="0" />
-        <label id="389" label="" color="4" folder="Future/Modern Opponents" sort="0" />
-        <label id="390" label="" color="4" folder="Future/Modern Opponents" sort="0" />
+        <label id="387" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="388" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="389" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="390" label="" folder="Future/Modern Opponents" sort="0" />
         <label id="391" label="" folder="Divine and Demonic Opponents" sort="0" />
         <label id="392" label="" folder="Divine and Demonic Opponents" sort="0" />
         <label id="393" label="" folder="Divine and Demonic Opponents" sort="0" />
@@ -566,8 +594,106 @@ ask_mia_tribeS = Description of the world </note>
         <label id="461" label="" folder="Sweet Opponents" sort="0" />
         <label id="462" label="" folder="Sweet Opponents" sort="0" />
         <label id="40" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="463" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="464" label="" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="465" label="" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="466" label="" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="467" label="" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="468" label="" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="469" label="" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="470" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="471" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="472" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="473" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="474" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="475" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="476" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="477" label="" folder="Smart Opponents" sort="0" />
+        <label id="478" label="" folder="Smart Opponents" sort="0" />
+        <label id="479" label="" folder="Smart Opponents" sort="0" />
+        <label id="480" label="" folder="Smart Opponents" sort="0" />
+        <label id="481" label="" folder="Smart Opponents" sort="0" />
+        <label id="482" label="" folder="Smart Opponents" sort="0" />
+        <label id="483" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="484" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="485" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="486" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="487" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="488" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="489" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="490" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="491" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="492" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="493" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="494" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="495" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="496" label="" folder="Fire Emblem / Fantasy" sort="0" />
+        <label id="497" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="498" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="499" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="500" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="501" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="502" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="503" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="504" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="505" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="506" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="507" label="" folder="Jura Responses" sort="0" />
+        <label id="508" label="" folder="Jura Responses" sort="0" />
+        <label id="509" label="" folder="Jura Responses" sort="0" />
+        <label id="510" label="" folder="Sweet Opponents" sort="0" />
+        <label id="511" label="" folder="Sweet Opponents" sort="0" />
+        <label id="512" label="" folder="Sweet Opponents" sort="0" />
+        <label id="513" label="" folder="Sweet Opponents" sort="0" />
+        <label id="514" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="515" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="516" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="517" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="518" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="519" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="520" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="521" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="522" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="523" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="524" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="525" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="526" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="527" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="528" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="529" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="530" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="531" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="532" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="533" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="534" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="535" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="536" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="537" label="" color="4" folder="Golden Deer - Hilda" sort="0" />
+        <label id="539" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="538" label="" folder="Golden Deer - Hilda" sort="0" />
+        <label id="540" label="" folder="Divine and Demonic Opponents" sort="0" />
+        <label id="541" label="" folder="Divine and Demonic Opponents" sort="0" />
+        <label id="542" label="" folder="Divine and Demonic Opponents" sort="0" />
+        <label id="543" label="" folder="Divine and Demonic Opponents" sort="0" />
+        <label id="544" label="" folder="Fire Emblem / Fantasy" sort="0" />
+        <label id="545" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="546" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="547" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="548" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="549" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="550" label="" folder="Future/Modern Opponents" sort="0" />
+        <label id="551" label="" folder="Ghouls Just Wanna Have Fun" sort="0" />
+        <label id="552" label="" folder="Ghouls Just Wanna Have Fun" sort="0" />
+        <label id="553" label="" folder="Divine and Demonic Opponents" sort="0" />
+        <label id="554" label="" folder="Divine and Demonic Opponents" sort="0" />
+        <label id="555" label="" folder="Male Opponents" sort="0" />
+        <label id="556" label="Human lines, brat" color="11" folder="" sort="0" />
+        <label id="557" label="Human lines, dom" color="11" folder="" sort="0" />
+        <label id="558" label="" color="9" folder="" sort="0" />
+        <label id="559" label="" color="9" folder="" sort="0" />
+        <label id="560" label="" color="9" folder="" sort="0" />
     </labels>
-    <nextId>462</nextId>
+    <nextId>560</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="ask" />
@@ -674,12 +800,32 @@ ask_mia_tribeS = Description of the world </note>
         <marker scope="Public" name="ask_goldendeer_dirtytalkS" />
         <marker scope="Public" name="ask_heris_researchS" />
         <marker scope="Public" name="ask_heris_workS" />
+        <marker scope="Public" name="ask_hilda_balthus" />
+        <marker scope="Public" name="ask_hilda_balthusI" />
+        <marker scope="Public" name="ask_hilda_balthusS" />
+        <marker scope="Public" name="ask_hilda_claude" />
+        <marker scope="Public" name="ask_hilda_claudeI" />
+        <marker scope="Public" name="ask_hilda_claudeS" />
+        <marker scope="Public" name="ask_hilda_coachE" />
         <marker scope="Public" name="ask_hilda_coachI" />
         <marker scope="Public" name="ask_hilda_coachS" />
+        <marker scope="Public" name="ask_hilda_cyril" />
+        <marker scope="Public" name="ask_hilda_cyrilI" />
+        <marker scope="Public" name="ask_hilda_cyrilS" />
+        <marker scope="Public" name="ask_hilda_fashionE" />
         <marker scope="Public" name="ask_hilda_fashionI" />
         <marker scope="Public" name="ask_hilda_fashionS" />
+        <marker scope="Public" name="ask_hilda_firsttime" />
+        <marker scope="Public" name="ask_hilda_firsttimeI" />
+        <marker scope="Public" name="ask_hilda_firsttimeS" />
+        <marker scope="Public" name="ask_hilda_marriageI" />
+        <marker scope="Public" name="ask_hilda_marriageS" />
+        <marker scope="Public" name="ask_hilda_mybooksI" />
+        <marker scope="Public" name="ask_hilda_mybooksS" />
+        <marker scope="Public" name="ask_hilda_socialE" />
         <marker scope="Public" name="ask_hilda_socialI" />
         <marker scope="Public" name="ask_hilda_socialS" />
+        <marker scope="Public" name="ask_hilda_watchE" />
         <marker scope="Public" name="ask_hilda_watchI" />
         <marker scope="Public" name="ask_hilda_watchS" />
         <marker scope="Public" name="ask_hutao_" />
@@ -705,8 +851,10 @@ ask_mia_tribeS = Description of the world </note>
         <marker scope="Public" name="ask_jura_confidenceE" />
         <marker scope="Public" name="ask_jura_confidenceI" />
         <marker scope="Public" name="ask_jura_confidenceS" />
+        <marker scope="Public" name="ask_jura_funE" />
         <marker scope="Public" name="ask_jura_funI" />
         <marker scope="Public" name="ask_jura_funS" />
+        <marker scope="Public" name="ask_jura_intimatesI" />
         <marker scope="Public" name="ask_jura_intimatesS" />
         <marker scope="Public" name="ask_jura_partnerE" />
         <marker scope="Public" name="ask_jura_partnerI" />
@@ -726,6 +874,9 @@ ask_mia_tribeS = Description of the world </note>
         <marker scope="Public" name="ask_komi_interestsS" />
         <marker scope="Public" name="ask_komi_shyS" />
         <marker scope="Public" name="ask_komi_talkS" />
+        <marker scope="Public" name="ask_lae_blademagicS" />
+        <marker scope="Public" name="ask_lae_emotionS" />
+        <marker scope="Public" name="ask_lae_muspellS" />
         <marker scope="Public" name="ask_leon_houseI" />
         <marker scope="Public" name="ask_leon_houseS" />
         <marker scope="Public" name="ask_leon_observeS" />
@@ -746,6 +897,15 @@ ask_mia_tribeS = Description of the world </note>
         <marker scope="Public" name="ask_leonie_physicalityS" />
         <marker scope="Public" name="ask_leonie_workoutI" />
         <marker scope="Public" name="ask_leonie_workoutS" />
+        <marker scope="Public" name="ask_leviathan_armorS" />
+        <marker scope="Public" name="ask_leviathan_exposeS" />
+        <marker scope="Public" name="ask_leviathan_haughtyS" />
+        <marker scope="Public" name="ask_leviathan_interestsS" />
+        <marker scope="Public" name="ask_leviathan_reploidS" />
+        <marker scope="Public" name="ask_leviathan_sexS" />
+        <marker scope="Public" name="ask_leviathan_tpE" />
+        <marker scope="Public" name="ask_leviathan_tpI" />
+        <marker scope="Public" name="ask_leviathan_tpS" />
         <marker scope="Public" name="ask_mari_commonS" />
         <marker scope="Public" name="ask_mari_composureS" />
         <marker scope="Public" name="ask_mari_goalS" />
@@ -778,12 +938,18 @@ ask_mia_tribeS = Description of the world </note>
         <marker scope="Public" name="ask_meia_wantE" />
         <marker scope="Public" name="ask_meia_wantI" />
         <marker scope="Public" name="ask_meia_wantS" />
+        <marker scope="Public" name="ask_mercy_angelE" />
         <marker scope="Public" name="ask_mercy_angelI" />
         <marker scope="Public" name="ask_mercy_angelS" />
+        <marker scope="Public" name="ask_mercy_bioS" />
+        <marker scope="Public" name="ask_mercy_combateS" />
+        <marker scope="Public" name="ask_mercy_dateE" />
         <marker scope="Public" name="ask_mercy_dateI" />
         <marker scope="Public" name="ask_mercy_dateS" />
+        <marker scope="Public" name="ask_mercy_flightE" />
         <marker scope="Public" name="ask_mercy_flightI" />
         <marker scope="Public" name="ask_mercy_flightS" />
+        <marker scope="Public" name="ask_mercy_witchS" />
         <marker scope="Public" name="ask_mercyI" />
         <marker scope="Public" name="ask_mia_genieI" />
         <marker scope="Public" name="ask_mia_genieS" />
@@ -810,6 +976,11 @@ ask_mia_tribeS = Description of the world </note>
         <marker scope="Public" name="ask_mitama_priestS" />
         <marker scope="Public" name="ask_mitama_solitudeS" />
         <marker scope="Public" name="ask_mitama_undressS" />
+        <marker scope="Public" name="ask_moskii_attireS" />
+        <marker scope="Public" name="ask_moskii_attractiveS" />
+        <marker scope="Public" name="ask_moskii_bitsS" />
+        <marker scope="Public" name="ask_moskii_bloodS" />
+        <marker scope="Public" name="ask_moskii_humansS" />
         <marker scope="Public" name="ask_nadeshiko_activitiesS" />
         <marker scope="Public" name="ask_nadeshiko_equipmentS" />
         <marker scope="Public" name="ask_nadeshiko_professionS" />
@@ -828,8 +999,18 @@ ask_mia_tribeS = Description of the world </note>
         <marker scope="Public" name="ask_noire_divinityS" />
         <marker scope="Public" name="ask_noire_gamesI" />
         <marker scope="Public" name="ask_noire_gamesS" />
+        <marker scope="Public" name="ask_nonon_bandE" />
+        <marker scope="Public" name="ask_nonon_bandI" />
         <marker scope="Public" name="ask_nonon_bandS" />
+        <marker scope="Public" name="ask_nonon_gameI" />
+        <marker scope="Public" name="ask_nonon_gameS" />
+        <marker scope="Public" name="ask_nonon_satsukiE" />
+        <marker scope="Public" name="ask_nonon_satsukiI" />
         <marker scope="Public" name="ask_nonon_satsukiS" />
+        <marker scope="Public" name="ask_nonon_shineI" />
+        <marker scope="Public" name="ask_nonon_shineS" />
+        <marker scope="Public" name="ask_pandy_boundariesS" />
+        <marker scope="Public" name="ask_pekezandy_whatS" />
         <marker scope="Public" name="ask_petra_beachE" />
         <marker scope="Public" name="ask_petra_beachI" />
         <marker scope="Public" name="ask_petra_beachS" />
@@ -860,11 +1041,14 @@ ask_mia_tribeS = Description of the world </note>
         <marker scope="Public" name="ask_reimu_jobE" />
         <marker scope="Public" name="ask_reimu_jobI" />
         <marker scope="Public" name="ask_reimu_jobS" />
+        <marker scope="Public" name="ask_reimu_marraigeI" />
         <marker scope="Public" name="ask_reimu_marraigeS" />
+        <marker scope="Public" name="ask_reimu_sakeI" />
         <marker scope="Public" name="ask_reimu_sakeS" />
         <marker scope="Public" name="ask_reimu_spellsE" />
         <marker scope="Public" name="ask_reimu_spellsI" />
         <marker scope="Public" name="ask_reimu_spellsS" />
+        <marker scope="Public" name="ask_reimu_youkaiI" />
         <marker scope="Public" name="ask_reimu_youkaiS" />
         <marker scope="Public" name="ask_reimu_zeniE" />
         <marker scope="Public" name="ask_reimu_zeniI" />
@@ -872,10 +1056,15 @@ ask_mia_tribeS = Description of the world </note>
         <marker scope="Public" name="ask_revy_gunsE" />
         <marker scope="Public" name="ask_revy_gunsI" />
         <marker scope="Public" name="ask_revy_gunsS" />
+        <marker scope="Public" name="ask_revy_mercI" />
+        <marker scope="Public" name="ask_revy_mercS" />
         <marker scope="Public" name="ask_revy_musicE" />
         <marker scope="Public" name="ask_revy_musicI" />
         <marker scope="Public" name="ask_revy_musicS" />
+        <marker scope="Public" name="ask_revy_smokingE" />
+        <marker scope="Public" name="ask_revy_smokingI" />
         <marker scope="Public" name="ask_revy_smokingS" />
+        <marker scope="Public" name="ask_revy_tattooE" />
         <marker scope="Public" name="ask_revy_tattooI" />
         <marker scope="Public" name="ask_revy_tattooS" />
         <marker scope="Public" name="ask_ringo_magicS" />
@@ -899,9 +1088,13 @@ ask_mia_tribeS = Description of the world </note>
         <marker scope="Public" name="ask_sakura_operaI" />
         <marker scope="Public" name="ask_sakura_operaS" />
         <marker scope="Public" name="ask_sakura_performS" />
+        <marker scope="Public" name="ask_senko_ageI" />
         <marker scope="Public" name="ask_senko_ageS" />
+        <marker scope="Public" name="ask_senko_maturityI" />
         <marker scope="Public" name="ask_senko_maturityS" />
+        <marker scope="Public" name="ask_senko_romanceI" />
         <marker scope="Public" name="ask_senko_romanceS" />
+        <marker scope="Public" name="ask_senko_timeI" />
         <marker scope="Public" name="ask_senko_timeS" />
         <marker scope="Public" name="ask_setogaya_experienceI" />
         <marker scope="Public" name="ask_setogaya_experienceS" />
@@ -953,9 +1146,14 @@ ask_mia_tribeS = Description of the world </note>
         <marker scope="Public" name="ask_toph_obviousS" />
         <marker scope="Public" name="ask_twilight_snackE" />
         <marker scope="Public" name="ask_twilight_snackS" />
+        <marker scope="Public" name="ask_yaemiko_backgroundS" />
+        <marker scope="Public" name="ask_yaemiko_careerS" />
+        <marker scope="Public" name="ask_yaemiko_enchantS" />
+        <marker scope="Public" name="ask_yaemiko_foxyS" />
         <marker scope="Public" name="ask_yuno_cardsS" />
         <marker scope="Public" name="ask_yuno_historyS" />
         <marker scope="Public" name="ask_yuno_mysticismS" />
+        <marker scope="Public" name="ask_zeke_intentionsS" />
         <marker scope="Public" name="brat_ff" />
         <marker scope="Public" name="ghost_opp" />
         <marker scope="Public" name="ghost_opp2" />
@@ -972,11 +1170,13 @@ ask_mia_tribeS = Description of the world </note>
         <marker scope="Public" name="lifespanE" />
         <marker scope="Public" name="lifespanI" />
         <marker scope="Public" name="lysithea34" />
+        <marker scope="Public" name="LysitheaMastHelpDominance" />
         <marker scope="Public" name="Lysithia_gameresp" />
         <marker scope="Public" name="Lysithia_magicresp" />
         <marker scope="Public" name="Lysithia_wingsresp" />
         <marker scope="Public" name="mast_brat" />
         <marker scope="Public" name="mast_dom" />
+        <marker scope="Public" name="reply" />
         <marker scope="Public" name="reply_" />
         <marker scope="Public" name="reply_adrien_cattyS" />
         <marker scope="Public" name="reply_adrien_clothesS" />
@@ -1000,8 +1200,29 @@ ask_mia_tribeS = Description of the world </note>
         <marker scope="Public" name="reply_dunban_futureS" />
         <marker scope="Public" name="reply_dunban_magicI" />
         <marker scope="Public" name="reply_dunban_magicS" />
+        <marker scope="Public" name="reply_hilda_gossipS" />
+        <marker scope="Public" name="reply_hilda_holstS" />
+        <marker scope="Public" name="reply_hilda_mastbooks" />
+        <marker scope="Public" name="reply_hilda_mastbooks2" />
+        <marker scope="Public" name="reply_hilda_mastclaude" />
+        <marker scope="Public" name="reply_hilda_mastclaude2" />
+        <marker scope="Public" name="reply_hilda_mastdom" />
+        <marker scope="Public" name="reply_hilda_mastdom2" />
+        <marker scope="Public" name="reply_hilda_mastinnocent" />
+        <marker scope="Public" name="reply_hilda_mastinnocent2" />
+        <marker scope="Public" name="reply_hilda_mastlibrary" />
+        <marker scope="Public" name="reply_hilda_mastlibrary2" />
+        <marker scope="Public" name="reply_hilda_mastpale" />
+        <marker scope="Public" name="reply_hilda_mastshare" />
+        <marker scope="Public" name="reply_hilda_masttouch" />
+        <marker scope="Public" name="reply_hilda_styleE" />
+        <marker scope="Public" name="reply_hilda_styleI" />
         <marker scope="Public" name="reply_hilda_styleS" />
+        <marker scope="Public" name="reply_hilda_territoryE" />
+        <marker scope="Public" name="reply_hilda_territoryI" />
         <marker scope="Public" name="reply_hilda_territoryS" />
+        <marker scope="Public" name="reply_hilda_underwearI" />
+        <marker scope="Public" name="reply_hilda_underwearS" />
         <marker scope="Public" name="reply_hutao_ghostsS" />
         <marker scope="Public" name="reply_jura_bodyE" />
         <marker scope="Public" name="reply_jura_bodyI" />
@@ -1009,7 +1230,9 @@ ask_mia_tribeS = Description of the world </note>
         <marker scope="Public" name="reply_jura_cakeE" />
         <marker scope="Public" name="reply_jura_cakeI" />
         <marker scope="Public" name="reply_jura_cakeS" />
+        <marker scope="Public" name="reply_jura_defyI" />
         <marker scope="Public" name="reply_jura_defyS" />
+        <marker scope="Public" name="reply_jura_liveI" />
         <marker scope="Public" name="reply_jura_liveS" />
         <marker scope="Public" name="reply_jura_oldageE" />
         <marker scope="Public" name="reply_jura_oldageI" />
@@ -1020,10 +1243,12 @@ ask_mia_tribeS = Description of the world </note>
         <marker scope="Public" name="reply_jura_swordsE" />
         <marker scope="Public" name="reply_jura_swordsI" />
         <marker scope="Public" name="reply_jura_swordsS" />
+        <marker scope="Public" name="reply_jura_typeS" />
         <marker scope="Public" name="reply_ladybug_appearanceS" />
         <marker scope="Public" name="reply_ladybug_relaxS" />
         <marker scope="Public" name="reply_ladybug_rushI" />
         <marker scope="Public" name="reply_ladybug_rushS" />
+        <marker scope="Public" name="reply_laevatein_stratS" />
         <marker scope="Public" name="reply_leon_creepyI" />
         <marker scope="Public" name="reply_leon_creepyS" />
         <marker scope="Public" name="reply_leon_dressupI" />
@@ -1038,7 +1263,10 @@ ask_mia_tribeS = Description of the world </note>
         <marker scope="Public" name="reply_mari_defaultS" />
         <marker scope="Public" name="reply_mari_informalS" />
         <marker scope="Public" name="reply_marinette_" />
+        <marker scope="Public" name="reply_meia_legacyI" />
+        <marker scope="Public" name="reply_meia_legacyS" />
         <marker scope="Public" name="reply_meia_magicS" />
+        <marker scope="Public" name="reply_meia_modestyE" />
         <marker scope="Public" name="reply_meia_modestyI" />
         <marker scope="Public" name="reply_meia_modestyS" />
         <marker scope="Public" name="reply_meia_relianceE" />
@@ -1047,10 +1275,14 @@ ask_mia_tribeS = Description of the world </note>
         <marker scope="Public" name="reply_meia_strategyE" />
         <marker scope="Public" name="reply_meia_strategyI" />
         <marker scope="Public" name="reply_meia_strategyS" />
+        <marker scope="Public" name="reply_meia_validE" />
+        <marker scope="Public" name="reply_meia_validI" />
         <marker scope="Public" name="reply_meia_validS" />
         <marker scope="Public" name="reply_meia_workoutE" />
         <marker scope="Public" name="reply_meia_workoutI" />
         <marker scope="Public" name="reply_meia_workoutS" />
+        <marker scope="Public" name="reply_mercy_albinoS" />
+        <marker scope="Public" name="reply_mercy_stuntedS" />
         <marker scope="Public" name="reply_mia_academyI" />
         <marker scope="Public" name="reply_mia_academyS" />
         <marker scope="Public" name="reply_mia_hobbiesI" />
@@ -1066,8 +1298,12 @@ ask_mia_tribeS = Description of the world </note>
         <marker scope="Public" name="reply_natsuki_friendS" />
         <marker scope="Public" name="reply_natsuki_studyS" />
         <marker scope="Public" name="reply_natsuki_witchS" />
+        <marker scope="Public" name="reply_nonon_goldendeerS" />
+        <marker scope="Public" name="reply_nonon_hairS" />
         <marker scope="Public" name="reply_nonon_magicI" />
+        <marker scope="Public" name="reply_nonon_magicroleplayS" />
         <marker scope="Public" name="reply_nonon_magicS" />
+        <marker scope="Public" name="reply_nonon_usualI" />
         <marker scope="Public" name="reply_nonon_usualS" />
         <marker scope="Public" name="reply_petra_aspirations1" />
         <marker scope="Public" name="reply_petra_aspirationsI" />
@@ -1084,6 +1320,8 @@ ask_mia_tribeS = Description of the world </note>
         <marker scope="Public" name="reply_reimu_outfitE" />
         <marker scope="Public" name="reply_reimu_outfitI" />
         <marker scope="Public" name="reply_reimu_outfitS" />
+        <marker scope="Public" name="reply_reimu_scholarS" />
+        <marker scope="Public" name="reply_revy_cig_offer" />
         <marker scope="Public" name="reply_revy_insultE" />
         <marker scope="Public" name="reply_revy_insultI" />
         <marker scope="Public" name="reply_revy_insultS" />

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1692236002989</lastupdate>
+    <lastupdate>1712238324049</lastupdate>
     <enabled>true</enabled>
     <first>Ryuko</first>
     <last>Matoi</last>
@@ -16,6 +16,6 @@
     <epilogue gender="female" img="bg3.jpg">Naked Soul</epilogue>
     <layers>7</layers>
     <has_collectibles>true</has_collectibles>
-    <lines>3121</lines>
+    <lines>3166</lines>
     <poses>195</poses>
 </opponent>

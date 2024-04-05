@@ -85,12 +85,24 @@
     </labels>
     <nextId>76</nextId>
     <markers>
+        <marker scope="Public" name="armory_start" />
+        <marker scope="Public" name="beach_start" />
+        <marker scope="Public" name="bleak_forest_sta" />
+        <marker scope="Public" name="bleak_forest_start" />
         <marker scope="Public" name="darlingstrip" />
+        <marker scope="Public" name="eliwood_human" />
         <marker scope="Public" name="florina_bee" />
         <marker scope="Public" name="florina_friends" />
         <marker scope="Public" name="florina_huey" />
+        <marker scope="Public" name="florina+florina" />
+        <marker scope="Public" name="florinaplayer_human" />
+        <marker scope="Public" name="florinatimes2" />
         <marker scope="Public" name="handholding" />
+        <marker scope="Public" name="hector_human" />
         <marker scope="Public" name="jealous" />
+        <marker scope="Public" name="lake_start" />
+        <marker scope="Public" name="lake_start_1" />
+        <marker scope="Public" name="lake_start_2" />
         <marker scope="Public" name="line1" />
         <marker scope="Public" name="line2" />
         <marker scope="Public" name="line3" />
@@ -108,6 +120,19 @@
         <marker scope="Public" name="lyn_revy_pirates" />
         <marker scope="Public" name="lyn_show_future_spouse" />
         <marker scope="Public" name="lyn_zelda_kokori" />
+        <marker scope="Public" name="mansion_start" />
+        <marker scope="Public" name="matthew_human" />
         <marker scope="Public" name="orgasmtrust" />
+        <marker scope="Public" name="roof_start" />
+        <marker scope="Public" name="sacaen_bow" />
+        <marker scope="Public" name="school_start" />
+        <marker scope="Public" name="serra_human" />
     </markers>
+    <pendingLines>
+        <line>Looks like I've been blessed by St. Elimine herself.</line>
+        <line>~Player~, would you share your story with me?</line>
+        <line>&lt;i&gt;&lt;/i&gt;</line>
+        <line>~~</line>
+        <line>Losing to me should bring you no shame, ~name~. If you back down and flee, however... </line>
+    </pendingLines>
 </metadata>

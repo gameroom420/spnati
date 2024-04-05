@@ -114,6 +114,30 @@
         <response id="201" opponent="joey" opponentId="84" />
         <response id="202" opponent="joey" opponentId="26" />
         <response id="203" opponent="mia_golden_sun" opponentId="636" />
+        <response id="236" opponent="nonon" opponentId="226" />
+        <response id="237" opponent="nonon" opponentId="119" />
+        <response id="238" opponent="nonon" opponentId="779" />
+        <response id="252" opponent="sucrose" opponentId="133" />
+        <response id="253" opponent="sucrose" opponentId="145" />
+        <response id="254" opponent="sucrose" opponentId="160" />
+        <response id="255" opponent="sucrose" opponentId="146" />
+        <response id="256" opponent="sucrose" opponentId="271" />
+        <response id="257" opponent="sucrose" opponentId="270" />
+        <response id="275" opponent="pinkie_pie" opponentId="6" />
+        <response id="276" opponent="nagisa" opponentId="60" />
+        <response id="277" opponent="nagisa" opponentId="164" />
+        <response id="278" opponent="nagisa" opponentId="120" />
+        <response id="279" opponent="nagisa" opponentId="262" />
+        <response id="280" opponent="jura" opponentId="33" />
+        <response id="281" opponent="lucina" opponentId="1" />
+        <response id="282" opponent="sanako" opponentId="21" />
+        <response id="283" opponent="mari_setogaya" opponentId="16" />
+        <response id="284" opponent="mari_setogaya" opponentId="34" />
+        <response id="285" opponent="mari_setogaya" opponentId="35" />
+        <response id="286" opponent="nami" opponentId="52" />
+        <response id="287" opponent="toph" opponentId="6" />
+        <response id="288" opponent="sakura" opponentId="2" />
+        <response id="290" opponent="pinkie_pie" opponentId="1" />
     </responses>
     <labels>
         <label id="11" label="" folder="Lore" sort="0" />
@@ -192,15 +216,46 @@
         <label id="233" label="" folder="Mia" sort="0" />
         <label id="234" label="" folder="Mia" sort="0" />
         <label id="235" label="" folder="Mia" sort="0" />
+        <label id="239" label="" folder="Psynergy" sort="0" />
+        <label id="240" label="" folder="Lore" sort="0" />
+        <label id="241" label="" folder="Lore" sort="0" />
+        <label id="242" label="" folder="Lore" sort="0" />
+        <label id="243" label="" folder="Lore" sort="0" />
+        <label id="244" label="" folder="Lore" sort="0" />
+        <label id="247" label="" folder="Filters" sort="0" />
+        <label id="248" label="" folder="Filters" sort="0" />
+        <label id="249" label="" folder="Filters" sort="0" />
+        <label id="250" label="" folder="Filters" sort="0" />
+        <label id="251" label="" folder="Filters" sort="0" />
+        <label id="258" label="" folder="Filters" sort="0" />
+        <label id="259" label="" folder="Filters" sort="0" />
+        <label id="260" label="" folder="Filters" sort="0" />
+        <label id="261" label="" folder="Filters" sort="0" />
+        <label id="262" label="" folder="Filters" sort="0" />
+        <label id="263" label="" folder="Filters" sort="0" />
+        <label id="264" label="" folder="Filters" sort="0" />
+        <label id="265" label="" folder="Filters" sort="0" />
+        <label id="266" label="" folder="Filters" sort="0" />
+        <label id="267" label="" folder="Filters" sort="0" />
+        <label id="268" label="" folder="Filters" sort="0" />
+        <label id="269" label="" folder="Filters" sort="0" />
+        <label id="270" label="" folder="Filters" sort="0" />
+        <label id="271" label="" folder="Filters" sort="0" />
+        <label id="272" label="" folder="Filters" sort="0" />
+        <label id="273" label="" folder="Filters" sort="0" />
+        <label id="274" label="" folder="Filters" sort="0" />
+        <label id="289" label="" folder="Filters" sort="0" />
     </labels>
     <onlyCustomPoses>true</onlyCustomPoses>
-    <nextId>235</nextId>
+    <nextId>290</nextId>
     <markers>
-        <marker scope="Public" name="" />
         <marker scope="Private" name="adv_poseposition" />
         <marker scope="Public" name="asuna1" />
         <marker scope="Public" name="Djinn" />
         <marker scope="Public" name="Djinn1" />
+        <marker scope="Public" name="hu_tao_exciting" />
+        <marker scope="Public" name="hu_tao_parlor" />
+        <marker scope="Public" name="hu_tao_whimsy" />
         <marker scope="Public" name="jenna_mia_self0a" />
         <marker scope="Public" name="jenna_mia_self0b" />
         <marker scope="Public" name="jenna_mia_self0c" />
@@ -222,19 +277,75 @@
         <marker scope="Public" name="jenna_mia_strip2b" />
         <marker scope="Public" name="jenna_mia_strip2c" />
         <marker scope="Public" name="jenna_toph_blind" />
+        <marker scope="Public" name="jura_barnette" />
+        <marker scope="Public" name="jura_confidence" />
+        <marker scope="Public" name="jura_outfit" />
+        <marker scope="Public" name="jura_space" />
+        <marker scope="Public" name="jura_style" />
         <marker scope="Public" name="killing" />
         <marker scope="Public" name="Lore1" />
         <marker scope="Public" name="Lore2" />
         <marker scope="Public" name="Lore3" />
         <marker scope="Public" name="Lore4" />
         <marker scope="Public" name="Lore5" />
+        <marker scope="Public" name="lucina_hiding" />
+        <marker scope="Public" name="lucina_mask" />
+        <marker scope="Public" name="lucina_royalty" />
+        <marker scope="Public" name="lucina_secret" />
+        <marker scope="Public" name="lucina_sword" />
         <marker scope="Public" name="Mari_hair" />
+        <marker scope="Public" name="mari_s_attack" />
+        <marker scope="Public" name="mari_s_blood" />
+        <marker scope="Public" name="mari_s_friendly" />
+        <marker scope="Public" name="mari_s_monster" />
+        <marker scope="Public" name="mari_s_vampire" />
+        <marker scope="Public" name="meia_adept" />
+        <marker scope="Public" name="meia_affinity" />
+        <marker scope="Public" name="nagisa_cute" />
+        <marker scope="Public" name="nagisa_friends" />
+        <marker scope="Public" name="nagisa_protect" />
+        <marker scope="Public" name="nagisa_reason" />
+        <marker scope="Public" name="nagisa_school" />
+        <marker scope="Public" name="nonon_baton" />
+        <marker scope="Public" name="nonon_leader" />
+        <marker scope="Public" name="nonon_music" />
+        <marker scope="Public" name="nonon_school" />
+        <marker scope="Public" name="nonon_uniform" />
         <marker scope="Public" name="nonon01" />
         <marker scope="Public" name="nonon02" />
+        <marker scope="Public" name="pink_atmos" />
+        <marker scope="Public" name="pinkie_energy" />
+        <marker scope="Public" name="pinkie_fun" />
+        <marker scope="Public" name="pinkie_journey" />
+        <marker scope="Public" name="pinkie_party" />
+        <marker scope="Public" name="psynergy1" />
+        <marker scope="Public" name="psynergy2" />
+        <marker scope="Public" name="psynergy3" />
+        <marker scope="Public" name="psynergy4" />
+        <marker scope="Public" name="sakura_idol" />
+        <marker scope="Public" name="sakura_name" />
+        <marker scope="Public" name="sakura_pro" />
+        <marker scope="Public" name="sakura_singer" />
+        <marker scope="Public" name="sakura_songs" />
+        <marker scope="Public" name="sanako_age" />
+        <marker scope="Public" name="sanako_mom" />
+        <marker scope="Public" name="sanako_outfit" />
+        <marker scope="Public" name="sanako_relax" />
+        <marker scope="Public" name="sanako_talk" />
         <marker scope="Public" name="scarf1" />
         <marker scope="Public" name="self_finished" />
         <marker scope="Public" name="self_finished2" />
+        <marker scope="Public" name="sucrose_adept" />
         <marker scope="Public" name="sucrose_al1" />
+        <marker scope="Public" name="sucrose_alchemy" />
+        <marker scope="Public" name="sucrose_experiment" />
+        <marker scope="Public" name="sucrose_lightning" />
+        <marker scope="Public" name="sucrose_wind" />
+        <marker scope="Public" name="toph_cards" />
+        <marker scope="Public" name="toph_earth" />
+        <marker scope="Public" name="toph_game" />
+        <marker scope="Public" name="toph_reason" />
+        <marker scope="Public" name="toph_sight" />
         <marker scope="Public" name="yunyun_home1" />
     </markers>
     <recipes>

@@ -23,13 +23,20 @@
         <title>Nagisa's Skirt</title>
         <subtitle>Standard issue for girls at Hikarizaka Private High School</subtitle>
         <text>When Nagisa was putting her skirt back on, the zipper broke! Flustered and with few options, she agreed to temporarily trade her skirt with what you wearing. And that is the story of how you wore Nagisa's skirt home, barely holding the zipper closed the whole way.
-
-
 </text>
         <unlock>Make Nagisa more comfortable by letting her watch 10 different girls take off their skirts or dresses before she takes off hers.</unlock>
         <hide-details>true</hide-details>
         <counter>10</counter>
         <wearable>true</wearable>
         <clothing img="opponents/nagisa/collectible_nagisa_skirt.png" name="skirt" generic="skirt" position="lower" type="major" />
+    </collectible>
+    <collectible id="nagisa_waitress_uniform" img="opponents/reskins/nagisa_maid_cafe/0-calm.png" thumbnail="opponents/reskins/nagisa_maid_cafe/0-calm.png">
+        <title>Nagisa's Waitress Uniform</title>
+        <subtitle>Outfit Unlock</subtitle>
+        <text>Determined to help her family however she can, Nagisa gets a part-time job as a waitress at a family restaurant. She's wearing it for you today as a special treat.
+
+This outfit was created for the Valentine's event, so Nagisa may be a little more lovey-dovey with you while wearing it. ♡</text>
+        <unlock>Win 5 games against Nagisa and only one other character. The second character needs to be one of the following: Jim Raynor, Barbara, Reimu, Meia, Jura, Fluttershy, Kyou, or Fina. Each of these characters only counts once.</unlock>
+        <counter>5</counter>
     </collectible>
 </collectibles>

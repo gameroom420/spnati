@@ -2,7 +2,7 @@
 <metadata>
     <owner>rouge</owner>
     <height />
-    <age />
+    <age>24</age>
     <pronunciation />
     <othernotes />
     <noteworthy>
@@ -281,7 +281,6 @@ https://sonic.fandom.com/wiki/Madonna_Garnet</note>
         <label id="712" label="" color="6" folder="" sort="0" />
         <label id="709" label="" color="1" folder="" sort="0" />
         <label id="707" label="" color="1" folder="" sort="0" />
-        <label id="719" label="" color="1" folder="" sort="0" />
         <label id="705" label="" color="6" folder="" sort="0" />
         <label id="706" label="" color="1" folder="" sort="0" />
         <label id="708" label="" color="1" folder="" sort="0" />
@@ -290,8 +289,12 @@ https://sonic.fandom.com/wiki/Madonna_Garnet</note>
         <label id="716" label="" color="6" folder="Treasure Scope" sort="0" />
         <label id="717" label="" color="6" folder="Treasure Scope" sort="0" />
         <label id="718" label="" color="6" folder="Treasure Scope" sort="0" />
+        <label id="723" label="" color="6" folder="" sort="0" />
+        <label id="724" label="" color="6" folder="Treasure Scope" sort="0" />
+        <label id="725" label="" color="6" folder="Treasure Scope" sort="0" />
+        <label id="726" label="" color="6" folder="Treasure Scope" sort="0" />
     </labels>
-    <nextId>721</nextId>
+    <nextId>726</nextId>
     <markers>
         <marker scope="Public" name="adrien_heroLewdStories" />
         <marker scope="Public" name="adrien_heroLewdStories_rumors" />
@@ -443,6 +446,7 @@ https://sonic.fandom.com/wiki/Madonna_Garnet</note>
         <marker scope="Public" name="amyRose_vanilla_subtleNudge" />
         <marker scope="Public" name="amyRose_vanilla_suspicion" />
         <marker scope="Public" name="amyRose_whySonic" />
+        <marker scope="Public" name="arueshalae_treasureScopeAftermath" />
         <marker scope="Public" name="bat_erogenousZone" />
         <marker scope="Public" name="bountyHunter_noFightPlz" />
         <marker scope="Public" name="brailleBan" />
@@ -745,6 +749,8 @@ https://sonic.fandom.com/wiki/Madonna_Garnet</note>
         <marker scope="Public" name="meia_menFemdom" />
         <marker scope="Public" name="meia_menHarem" />
         <marker scope="Public" name="meia_overlookTheft" />
+        <marker scope="Public" name="meia_selfLost" />
+        <marker scope="Public" name="meia_selfLost_furry" />
         <marker scope="Public" name="meia_sideDish" />
         <marker scope="Public" name="meia_sideDish_turnabout" />
         <marker scope="Public" name="meia_sideDish_urges" />
@@ -1059,6 +1065,7 @@ https://sonic.fandom.com/wiki/Madonna_Garnet</note>
         <marker scope="Public" name="treasureScope_introduction" />
         <marker scope="Public" name="treasureScope_jura" />
         <marker scope="Public" name="treasureScope_kora" />
+        <marker scope="Public" name="treasureScope_kyoko_kirigiri" />
         <marker scope="Public" name="treasureScope_kyouko_toshinou" />
         <marker scope="Public" name="treasureScope_leonie" />
         <marker scope="Public" name="treasureScope_mari" />

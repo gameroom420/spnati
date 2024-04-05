@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1699024271573</lastupdate>
+    <lastupdate>1710463922115</lastupdate>
     <enabled>true</enabled>
     <first>Spooky</first>
     <last />
@@ -21,6 +21,6 @@
         <costume folder="opponents/reskins/spooky_festive/" img="0-welcome.png" set="xmas" label="Spooky">Festive Spooky</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>1900</lines>
-    <poses>110</poses>
+    <lines>1913</lines>
+    <poses>125</poses>
 </opponent>

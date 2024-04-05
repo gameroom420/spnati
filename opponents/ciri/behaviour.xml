@@ -34,7 +34,7 @@
 
         <trigger id="game_start">
             <case stage="0">
-                <state img="#-default.png">If this is anything like Gwent your in trouble.</state>
+                <state img="#-default.png">If this is anything like Gwent, you're in trouble.</state>
             </case>
         </trigger>
 
@@ -97,7 +97,7 @@
                 <state img="#-worried.png">This better work.</state>
             </case>
             <case stage="7">
-                <state img="#-worried.png">This is going to be close</state>
+                <state img="#-worried.png">This is going to be close.</state>
             </case>
             <case stage="8">
                 <state img="#-worried.png">This is too close for comfort.</state>

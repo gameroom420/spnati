@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<opponent>
+    <lastupdate>1712231711367</lastupdate>
+    <enabled>false</enabled>
+    <first>Fairy</first>
+    <last>Leviathan</last>
+    <label>Fairy Leviathan</label>
+    <pic>0-pleased.png</pic>
+    <gender>female</gender>
+    <from>Mega Man Zero</from>
+    <writer>Fence</writer>
+    <artist>Fence</artist>
+    <description>The fierce and feisty head of Neo Arcadia's naval forces. Known for her sadistically playful demeanor, she is right at home in the ocean.</description>
+    <layers>6</layers>
+    <default-costume-name>Siren General</default-costume-name>
+    <lines>726</lines>
+    <poses>203</poses>
+</opponent>

@@ -55,7 +55,7 @@ namespace SPNATI_Character_Editor.Workspaces
 				{
 					ShowBanner("This is a joke character, only available during the April Fool's Day event.", Desktop.Skinning.SkinnedHighlight.Bad);
 				}
-				else if (status == OpponentStatus.Incomplete)
+				else if (status == OpponentStatus.Incomplete || status == OpponentStatus.Broken)
 				{
 					ShowBanner("This character is incomplete, meaning they have likely been abandoned.", Desktop.Skinning.SkinnedHighlight.Bad);
 				}

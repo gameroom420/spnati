@@ -7,14 +7,13 @@
     <label>Spider-Woman</label>
     <pic>0-calm.png</pic>
     <gender>female</gender>
-    <height>5'5"</height>
     <from>Spider-Gwen</from>
     <writer>nmasp, FrostFireFive, Just Saiyan, A Fat Llama</writer>
-    <artist>FEFreak204</artist>
+    <artist>FEFreak726</artist>
     <description>"Alright people, let's start at the beginning. My name's Gwen Stacy. I'm from Earth-65. And I am the one, the only, Spider-Woman. I'm a part-time crime-fighter. A part-time rocker. And a full-time badass, so I've been told. You probably know the rest..."</description>
     <layers>6</layers>
     <has_collectibles>true</has_collectibles>
-    <lines>3350</lines>
+    <lines>3348</lines>
     <poses>154</poses>
     <dialogue-layer>over</dialogue-layer>
 </opponent>

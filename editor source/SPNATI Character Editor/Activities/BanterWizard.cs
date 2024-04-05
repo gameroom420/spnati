@@ -41,6 +41,7 @@ namespace SPNATI_Character_Editor.Activities
 		private bool _filterIncomplete;
 		private bool _filterEvent;
 		private bool _filterDuplicate;
+		private bool _filterBroken;
 		private bool _filterUnlisted;
 
 		private bool _filterToOne;
@@ -136,6 +137,7 @@ namespace SPNATI_Character_Editor.Activities
 			_filterIncomplete = false;
 			_filterEvent = false;
 			_filterDuplicate = false;
+			_filterBroken = false;
 			_filterUnlisted = false;
 			chkCharacterFiltering.SetItemChecked(0, true);
 			chkCharacterFiltering.SetItemChecked(1, true);
@@ -246,6 +248,8 @@ namespace SPNATI_Character_Editor.Activities
 				return _filterEvent;
 			if (status == OpponentStatus.Duplicate)
 				return _filterDuplicate;
+			if (status == OpponentStatus.Broken)
+				return _filterBroken;
 			if (status == OpponentStatus.Unlisted)
 				return _filterUnlisted;
 			return true;
@@ -1281,7 +1285,8 @@ namespace SPNATI_Character_Editor.Activities
 			_filterIncomplete = chkCharacterFiltering.GetItemChecked(3);
 			_filterEvent = chkCharacterFiltering.GetItemChecked(4);
 			_filterDuplicate = chkCharacterFiltering.GetItemChecked(5);
-			_filterUnlisted = chkCharacterFiltering.GetItemChecked(6);
+			_filterBroken = chkCharacterFiltering.GetItemChecked(6);
+			_filterUnlisted = chkCharacterFiltering.GetItemChecked(7);
 		}
 
 		private void recOneCharacter_RecordChanged(object sender, RecordEventArgs e)

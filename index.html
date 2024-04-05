@@ -188,6 +188,9 @@
             <a class="bordered twitter-button smooth-button blue banner-flair" target="_blank" href="https://twitter.com/spnati_game">
                 <img class="twitter-logo" src="img/twitter.png" alt="twitter" />
             </a>
+            <button class="bordered discord-button smooth-button banner-flair" onclick="showDiscordModal()">
+                <img class="discord-logo" src="img/discord-mark-white.svg" alt="discord" />
+            </button>
             <button class="title-load-button bordered smooth-button red banner-flair"
                 onclick="showImportModal()">
                 <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
@@ -2579,6 +2582,52 @@
         </div>
     </div>
     <!-- End of Help Modal -->
+    
+    <!-- Discord Modal -->
+    <div id="discord-modal" class="modal table-modal fade" role="dialog">
+        <div class="modal-table-container">
+            <div class="modal-cell-container">
+                <div class="bordered modal-dialog very-wide-modal-dialog">
+                    <div class="bordered modal-dialog-surface">
+                        <!-- Start of Modal Content -->
+                        <div class="modal-content">
+                            <div class="modal-header" style="padding-bottom: 0;">
+                                <h4 class="modal-title text-center">Discord</h4>
+                                <p class="text-center">Join the official SPNatI servers to talk about your favorite characters, or to help create your own!</p>
+								<p class="text-center">By joining these servers, you are confirming that you are over the age of 18.</p>
+                            </div>
+                            <div class="modal-body">
+                                <div class="modal-body-container">
+                                    <div class="discord-row">
+                                        <div class="discord-desc" style="width:50%;">
+                                            The Community Server is the place to go for chit-chat and general discussion about the game. If you just want to hang out and talk about the game and see work-in-progress content, join this server!  
+                                        </div>
+                                        <a href="https://discord.gg/6PYyTz3gYG" class="bordered discord-link" target="_blank">
+                                            <img class="img-responsive" style="margin-left: auto;margin-right: 5rem;" src="https://discord.com/api/guilds/382313725505437698/widget.png?style=banner2" alt="SPNatI Community">
+                                        </a>
+                                    </div>
+                                    <div class="discord-row">
+                                        <div class="discord-desc" style="width:50%;">
+                                            The official Development Server is where characters each have their own channels for feedback, bug reports, and other technical discussion. If you want to make a character, you'll want to join this server.
+                                        </div>
+                                        <a href="https://discord.gg/rCqSXpr" class="bordered discord-link" target="_blank">
+                                            <img class="img-responsive" style="margin-left: auto;margin-right: 5rem;" src="https://discord.com/api/guilds/390355199623036931/widget.png?style=banner2" alt="SPNatI Development">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button id="discord-modal-button" class="bordered smooth-button modal-button"
+                                    data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        <!-- End of Modal Content -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Import/Export Modal -->
 
     <!-- Start of Select Screen Heads-Up modal -->
     <div id="select-headsup-modal" class="modal table-modal fade" role="dialog">
@@ -2835,7 +2884,7 @@
                                     <h3 class="modal-title text-center extra-characters-options" hidden><b>Extra Characters</b></h3>
 
                                     <table class="extra-settings-group extra-characters-options" hidden>
-                                        <tr>
+                                        <tr class="offline-option">
                                             <td class="setting-toggle">
                                                 <ul class="pagination character-status-toggle" id="show-offline" data-status="offline">
                                                     <li><a href="#" data-value="true">Show</a></li>
@@ -2843,12 +2892,12 @@
                                                 </ul>
                                             </td>
                                             <td class="setting-description">
-                                                <h4 class="modal-title modal-left">🕸️ Offline Characters</h4>
-                                                <h5 class="modal-left">These characters no longer meet the standards of the main game,<br />but are still fully complete.</h5>
+                                                <h4 class="modal-title modal-left">🕸️ Legacy Characters</h4>
+                                                <h5 class="modal-left">These characters no longer meet the standards of the main game,<br />but are still fully playable.</h5>
                                             </td>
                                         </tr>
 										
-                                        <tr>
+                                        <tr class="incomplete-option">
                                             <td class="setting-toggle">
                                                 <ul class="pagination character-status-toggle" id="show-incomplete" data-status="incomplete">
                                                     <li><a href="#" data-value="true">Show</a></li>
@@ -2857,11 +2906,11 @@
                                             </td>
                                             <td class="setting-description">
                                                 <h4 class="modal-title modal-left">🔧 Incomplete Characters</h4>
-                                                <h5 class="modal-left">These characters were never finished or added to the main game,<br />so they may be of lower quality or simply not work properly.</h5>
+                                                <h5 class="modal-left">These characters never completed the process to be added<br />to the main game, so they may be of lower quality.<br />On spnati.net, these are restricted to the Testing Roster.</h5>
                                             </td>
                                         </tr>
 										
-                                        <tr>
+                                        <tr class="event-option">
                                             <td class="setting-toggle">
                                                 <ul class="pagination character-status-toggle" id="show-event" data-status="event">
                                                     <li><a href="#" data-value="true">Show</a></li>
@@ -2874,7 +2923,7 @@
                                             </td>
                                         </tr>
 										
-                                        <tr>
+                                        <tr class="duplicate-option">
                                             <td class="setting-toggle">
                                                 <ul class="pagination character-status-toggle" id="show-duplicate" data-status="duplicate">
                                                     <li><a href="#" data-value="true">Show</a></li>
@@ -2884,6 +2933,19 @@
                                             <td class="setting-description">
                                                 <h4 class="modal-title modal-left">👥 Duplicate Characters</h4>
                                                 <h5 class="modal-left">These are usually older versions of characters that have been replaced.</h5>
+                                            </td>
+                                        </tr>
+										
+                                        <tr class="broken-option">
+                                            <td class="setting-toggle">
+                                                <ul class="pagination character-status-toggle" id="show-broken" data-status="broken">
+                                                    <li><a href="#" data-value="true">Show</a></li>
+                                                    <li><a href="#" data-value="false">Hide</a></li>
+                                                </ul>
+                                            </td>
+                                            <td class="setting-description">
+                                                <h4 class="modal-title modal-left">❌ Broken Characters</h4>
+                                                <h5 class="modal-left">These characters have large amounts of placeholder images or dialogue.</h5>
                                             </td>
                                         </tr>
                                     </table>
@@ -3151,9 +3213,9 @@
             <button class='bordered table-bug-report-button' onclick="showBugReportModal()" tabindex="4">
                 <span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
             </button>
-            <button class="bordered smooth-button green modal-button table-feedback-report-button"  onclick="showFeedbackReportModal()">
+            <button class="bordered table-feedback-report-button"  onclick="showFeedbackReportModal()">
                 <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-                <span class="game-menu-label">Give Feedback</span>
+                <span class="game-menu-label">Feedback</span>
             </button>			
 
             <!-- Game Table -->

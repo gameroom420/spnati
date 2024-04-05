@@ -585,7 +585,59 @@ The "winner" gets rewarded by people telling them they're hot, basically.</note>
         <marker scope="Public" name="gettin_hot_resp" />
         <marker scope="Public" name="giant_killer_enemies" />
         <marker scope="Public" name="gift_boxes_after_battle" />
+        <marker scope="Public" name="giga_ass_troublemaker_resp" />
+        <marker scope="Public" name="giga_ass_troublemaker_resp2" />
+        <marker scope="Public" name="giga_ass_troublemaker_resp3" />
+        <marker scope="Public" name="giygas" />
+        <marker scope="Public" name="giygas_enabler" />
         <marker scope="Public" name="giygas_greet" />
+        <marker scope="Public" name="giygas_greet2" />
+        <marker scope="Public" name="giygas_molecricket" />
+        <marker scope="Public" name="giygas_tranformation1a_resp" />
+        <marker scope="Public" name="giygas_tranformation1b" />
+        <marker scope="Public" name="giygas_tranformation1b_resp" />
+        <marker scope="Public" name="giygas_tranformation1c" />
+        <marker scope="Public" name="giygas_tranformation1c_resp" />
+        <marker scope="Public" name="giygas_tranformation1d" />
+        <marker scope="Public" name="giygas_tranformation1d_resp" />
+        <marker scope="Public" name="giygas_tranformation2a" />
+        <marker scope="Public" name="giygas_tranformation2a_resp" />
+        <marker scope="Public" name="giygas_tranformation2b_resp" />
+        <marker scope="Public" name="giygas_tranformation2c" />
+        <marker scope="Public" name="giygas_tranformation2d" />
+        <marker scope="Public" name="giygas_tranformation2e" />
+        <marker scope="Public" name="giygas_tranformation41a_resp" />
+        <marker scope="Public" name="giygas_transform1" />
+        <marker scope="Public" name="giygas_transform1c" />
+        <marker scope="Public" name="giygas_transform1c_resp" />
+        <marker scope="Public" name="giygas_transform41" />
+        <marker scope="Public" name="giygas_transformation" />
+        <marker scope="Public" name="giygas_transformation1e" />
+        <marker scope="Public" name="giygas_transformation1f" />
+        <marker scope="Public" name="giygas_transformation2f" />
+        <marker scope="Public" name="giygas_transformation3c" />
+        <marker scope="Public" name="giygas_transformation3d" />
+        <marker scope="Public" name="giygas_transformation3e" />
+        <marker scope="Public" name="giygas_transformation3f" />
+        <marker scope="Public" name="giygas11_rep" />
+        <marker scope="Public" name="giygas12_rep" />
+        <marker scope="Public" name="giygas13_rep" />
+        <marker scope="Public" name="giygas21_resp" />
+        <marker scope="Public" name="giygas22_resp" />
+        <marker scope="Public" name="giygas23_resp" />
+        <marker scope="Public" name="giygas31_resp" />
+        <marker scope="Public" name="giygas32_resp" />
+        <marker scope="Public" name="giygas33_resp" />
+        <marker scope="Public" name="giygas41_resp" />
+        <marker scope="Public" name="giygas42_resp" />
+        <marker scope="Public" name="giygas43_resp" />
+        <marker scope="Public" name="giygas51_resp" />
+        <marker scope="Public" name="giygas52_resp" />
+        <marker scope="Public" name="giygas53_resp" />
+        <marker scope="Public" name="giygas61_resp" />
+        <marker scope="Public" name="giygas62_resp" />
+        <marker scope="Public" name="giygas63_rep" />
+        <marker scope="Public" name="giygas71_resp" />
         <marker scope="Public" name="gloria" />
         <marker scope="Public" name="gloria_greet" />
         <marker scope="Public" name="gloria_greet2" />
@@ -919,6 +971,8 @@ The "winner" gets rewarded by people telling them they're hot, basically.</note>
         <marker scope="Public" name="kumatora0_resp" />
         <marker scope="Public" name="kumatora01_magypsy_resp" />
         <marker scope="Public" name="kumatora01_map_resp" />
+        <marker scope="Public" name="kumatora01_resp" />
+        <marker scope="Public" name="kumatora02_resp" />
         <marker scope="Public" name="Kumatora0b_resp" />
         <marker scope="Public" name="Kumatora0c_resp" />
         <marker scope="Public" name="Kumatora0csuit_resp" />
@@ -1290,6 +1344,7 @@ The "winner" gets rewarded by people telling them they're hot, basically.</note>
         <marker scope="Public" name="no_glove_puns" />
         <marker scope="Public" name="noire_greet" />
         <marker scope="Public" name="noire_greet2" />
+        <marker scope="Public" name="nonon_greet" />
         <marker scope="Public" name="nut_cookie" />
         <marker scope="Public" name="palutena_greet1" />
         <marker scope="Public" name="papyrus_greet" />
@@ -1549,6 +1604,8 @@ The "winner" gets rewarded by people telling them they're hot, basically.</note>
         <marker scope="Public" name="wiki_BDay_resp" />
         <marker scope="Public" name="wiki_SadDonate_resp" />
         <marker scope="Public" name="windranger_commando" />
+        <marker scope="Public" name="yae_adventures_resp" />
+        <marker scope="Public" name="yaemiko_greet" />
         <marker scope="Public" name="yshtola_greet" />
         <marker scope="Public" name="yshtola_speakamerican" />
         <marker scope="Public" name="yui21" />

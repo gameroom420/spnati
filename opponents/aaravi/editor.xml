@@ -160,6 +160,7 @@
         <note id="585">These cases all have the same marker, but at different values. Check that MonikaUniform3 is true to respond to the general idea of prepping better, or that MonikaUniform3 = 1, 2, 3, or 4 for the different specific lines</note>
         <note id="593">There is very little sexism in the Monster Realm - possibly in part due to the fact that when everyone is a monster who can enact terrifying violence, you have to be very stupid to be sexist. There are only two notable sexist characters that I can remember (Leonard and Wolfpack), and both are consistently wrong about everything</note>
         <note id="597">Aaravi is being crass, but she's genuinely trying to check that Arueshalae is doing okay. Feel free to have Arue understand what she's trying for or focus on the surface rudeness, as you prefer</note>
+        <note id="623">For the sake of absolute clarity - Aaravi is getting increasingly attracted to Arue, and rather than feel vulnerable saying that she likes her, she's trying to convince herself it's a magical effect</note>
     </notes>
     <labels>
         <label id="1" label="" folder="Final Duel" sort="5" />
@@ -373,8 +374,8 @@
         <label id="509" label="" color="1" folder="" sort="0" />
         <label id="262" label="" color="1" folder="" sort="0" />
         <label id="561" label="" color="1" folder="" sort="0" />
-        <label id="577" label="" color="1" folder="" sort="0" />
-        <label id="579" label="" color="1" folder="" sort="0" />
+        <label id="617" label="" color="1" folder="" sort="0" />
+        <label id="614" label="" color="1" folder="" sort="0" />
         <label id="273" label="" color="1" folder="" sort="0" />
         <label id="274" label="" color="1" folder="" sort="0" />
         <label id="275" label="" color="1" folder="" sort="0" />
@@ -490,7 +491,6 @@
         <label id="501" label="Dominant" folder="Player Names" sort="0" />
         <label id="500" label="" color="1" folder="" sort="0" />
         <label id="557" label="" color="1" folder="" sort="0" />
-        <label id="580" label="" color="1" folder="" sort="0" />
         <label id="568" label="" color="1" folder="" sort="0" />
         <label id="566" label="" color="1" folder="" sort="0" />
         <label id="452" label="Socks Before Shoes" folder="Target Human" sort="0" />
@@ -502,12 +502,12 @@
         <label id="459" label="" color="1" folder="" sort="0" />
         <label id="458" label="" color="1" folder="" sort="0" />
         <label id="576" label="" color="1" folder="" sort="0" />
-        <label id="596" label="" color="1" folder="" sort="0" />
+        <label id="622" label="" color="1" folder="" sort="0" />
         <label id="463" label="" color="1" folder="" sort="0" />
         <label id="464" label="" color="1" folder="" sort="0" />
         <label id="512" label="" color="1" folder="" sort="0" />
-        <label id="582" label="" color="1" folder="" sort="0" />
-        <label id="578" label="" color="1" folder="" sort="0" />
+        <label id="619" label="" color="1" folder="" sort="0" />
+        <label id="618" label="" color="1" folder="" sort="0" />
         <label id="574" label="" color="1" folder="" sort="0" />
         <label id="474" label="" color="1" folder="" sort="0" />
         <label id="475" label="" color="1" folder="" sort="0" />
@@ -526,7 +526,7 @@
         <label id="506" label="" color="1" folder="" sort="0" />
         <label id="507" label="" color="1" folder="" sort="0" />
         <label id="508" label="" color="1" folder="" sort="0" />
-        <label id="597" label="" color="1" folder="" sort="0" />
+        <label id="623" label="" color="1" folder="" sort="0" />
         <label id="519" label="" color="1" folder="" sort="0" />
         <label id="575" label="" color="1" folder="" sort="0" />
         <label id="594" label="" color="1" folder="" sort="0" />
@@ -574,18 +574,24 @@
         <label id="588" label="" color="1" folder="" sort="0" />
         <label id="589" label="" color="1" folder="" sort="0" />
         <label id="598" label="" color="1" folder="" sort="0" />
-        <label id="599" label="" color="1" folder="" sort="0" />
         <label id="600" label="" color="1" folder="" sort="0" />
-        <label id="601" label="" color="1" folder="" sort="0" />
         <label id="602" label="" color="1" folder="" sort="0" />
         <label id="603" label="R1 Heroes" folder="Giygas" sort="0" />
         <label id="604" label="R1 Villains" folder="Giygas" sort="0" />
         <label id="605" label="R1 Mixed" folder="Giygas" sort="0" />
         <label id="606" label="R1 Fighters" folder="Giygas" sort="0" />
         <label id="607" label="Poker Level Up" folder="" sort="0" />
+        <label id="608" label="" color="1" folder="" sort="0" />
+        <label id="609" label="Rose Target Ideas" folder="" sort="0" />
+        <label id="613" label="" color="1" folder="" sort="0" />
+        <label id="615" label="" color="1" folder="" sort="0" />
+        <label id="616" label="" color="1" folder="" sort="0" />
+        <label id="624" label="" color="1" folder="" sort="0" />
+        <label id="625" label="" color="1" folder="" sort="0" />
     </labels>
-    <nextId>607</nextId>
+    <nextId>625</nextId>
     <markers>
+        <marker scope="Public" name="" />
         <marker scope="Public" name="AaraviBirthday" />
         <marker scope="Public" name="AdventureVsHorror" />
         <marker scope="Public" name="AloyReality" />
@@ -631,6 +637,7 @@
         <marker scope="Public" name="ArueCrest" />
         <marker scope="Public" name="ArueCrest2" />
         <marker scope="Public" name="ArueCrest3" />
+        <marker scope="Public" name="ArueGreaterCause" />
         <marker scope="Public" name="ArueLonely" />
         <marker scope="Public" name="ArueLonely2" />
         <marker scope="Public" name="ArueLonely3" />
@@ -640,7 +647,9 @@
         <marker scope="Public" name="AruePathfinders" />
         <marker scope="Public" name="AruePathfinders2" />
         <marker scope="Public" name="AruePathfinders3" />
+        <marker scope="Public" name="ArueSeduced" />
         <marker scope="Public" name="ArueSelfControl" />
+        <marker scope="Public" name="ArueSelfControl2" />
         <marker scope="Public" name="ArueVictory" />
         <marker scope="Public" name="ArueVictory2" />
         <marker scope="Public" name="ArueVictory3" />
@@ -1026,6 +1035,10 @@
         <marker scope="Public" name="MariSCulturalExchange2Peers" />
         <marker scope="Public" name="MariSCulturalExchange2PerceptionCheck" />
         <marker scope="Public" name="MariSCulturalExchange2Polly" />
+        <marker scope="Public" name="MariSCulturalExchange3Peers" />
+        <marker scope="Public" name="MariSCulturalExchange3PerceptionCheckAlone" />
+        <marker scope="Public" name="MariSCulturalExchange3PerceptionCheckPresent" />
+        <marker scope="Public" name="MariSCulturalExchange3Polly" />
         <marker scope="Public" name="MariSDetransform" />
         <marker scope="Public" name="MariSDowntime" />
         <marker scope="Public" name="MariSDowntimeA" />
@@ -1047,7 +1060,9 @@
         <marker scope="Public" name="MariSHavingFun" />
         <marker scope="Public" name="MariSMindGames" />
         <marker scope="Public" name="MariSMindGamesA" />
+        <marker scope="Public" name="MariSMindGamesA2" />
         <marker scope="Public" name="MariSMindGamesB" />
+        <marker scope="Public" name="MariSMindGamesB2" />
         <marker scope="Public" name="MariSMonsters" />
         <marker scope="Public" name="MariSMonsters2" />
         <marker scope="Public" name="MariSMonsters3A" />
@@ -1115,6 +1130,7 @@
         <marker scope="Public" name="MoskiiBloodTypeResponseA" />
         <marker scope="Public" name="MoskiiBloodTypeResponseB" />
         <marker scope="Public" name="MoskiiHomeSweetHome" />
+        <marker scope="Public" name="MoskiiHomeSweetHome2" />
         <marker scope="Public" name="MoskiiSlayerRules" />
         <marker scope="Public" name="NagatoroAboutPlayer" />
         <marker scope="Public" name="NagatoroAboutPlayer2" />
@@ -1293,6 +1309,64 @@
         <marker scope="Public" name="RosaAvenueOffer" />
         <marker scope="Public" name="RosaAvenueOffer2" />
         <marker scope="Public" name="RosaAvenueOffer3" />
+        <marker scope="Public" name="RoseAccessoryFunction" />
+        <marker scope="Public" name="RoseAccessoryFunction2" />
+        <marker scope="Public" name="RoseAccessoryFunction3" />
+        <marker scope="Public" name="RoseAnimaDetection" />
+        <marker scope="Public" name="RoseAnimaDetection2" />
+        <marker scope="Public" name="RoseAnimaDetection3" />
+        <marker scope="Public" name="RoseCatGirls" />
+        <marker scope="Public" name="RoseCatGirls2" />
+        <marker scope="Public" name="RoseCatGirls3" />
+        <marker scope="Public" name="RoseCatMerchants" />
+        <marker scope="Public" name="RoseCatMerchants2" />
+        <marker scope="Public" name="RoseCatMerchants3" />
+        <marker scope="Public" name="RoseDowntime" />
+        <marker scope="Public" name="RoseDowntime2A" />
+        <marker scope="Public" name="RoseDowntime2B" />
+        <marker scope="Public" name="RoseDowntime3A" />
+        <marker scope="Public" name="RoseDowntime3B" />
+        <marker scope="Public" name="RoseEliminated" />
+        <marker scope="Public" name="RoseEliminated2" />
+        <marker scope="Public" name="RoseEliminated3" />
+        <marker scope="Public" name="RoseExperimentation" />
+        <marker scope="Public" name="RoseExperimentation2" />
+        <marker scope="Public" name="RoseExperimentation3" />
+        <marker scope="Public" name="RoseFriendsForSaleA" />
+        <marker scope="Public" name="RoseFriendsForSaleA2" />
+        <marker scope="Public" name="RoseFriendsForSaleA3" />
+        <marker scope="Public" name="RoseFriendsForSaleB" />
+        <marker scope="Public" name="RoseFriendsForSaleB2" />
+        <marker scope="Public" name="RoseFriendsForSaleB3" />
+        <marker scope="Public" name="RoseHunting" />
+        <marker scope="Public" name="RoseHunting2" />
+        <marker scope="Public" name="RoseHunting3" />
+        <marker scope="Public" name="RosePartnerParticulars" />
+        <marker scope="Public" name="RosePartnerParticulars2" />
+        <marker scope="Public" name="RosePartnerParticulars3" />
+        <marker scope="Public" name="RosePhysique" />
+        <marker scope="Public" name="RosePhysique2" />
+        <marker scope="Public" name="RosePhysique3" />
+        <marker scope="Public" name="RoseResponsibility" />
+        <marker scope="Public" name="RoseResponsibility2" />
+        <marker scope="Public" name="RoseResponsibility3" />
+        <marker scope="Public" name="RoseSelfMustMast" />
+        <marker scope="Public" name="RoseSelfMustMast2" />
+        <marker scope="Public" name="RoseSexpertise" />
+        <marker scope="Public" name="RoseSexpertise2" />
+        <marker scope="Public" name="RoseSexpertise3" />
+        <marker scope="Public" name="RoseSoloQuesting" />
+        <marker scope="Public" name="RoseSoloQuesting2" />
+        <marker scope="Public" name="RoseSoloQuesting3" />
+        <marker scope="Public" name="RoseTechniques" />
+        <marker scope="Public" name="RoseTechniques2" />
+        <marker scope="Public" name="RoseTechniques3" />
+        <marker scope="Public" name="RoseWrappings" />
+        <marker scope="Public" name="RoseWrappings2" />
+        <marker scope="Public" name="RoseWrappings2A" />
+        <marker scope="Public" name="RoseWrappings2B" />
+        <marker scope="Public" name="RoseWrappings3A" />
+        <marker scope="Public" name="RoseWrappings3B" />
         <marker scope="Public" name="SakiBandages" />
         <marker scope="Public" name="SakiBandages2" />
         <marker scope="Public" name="SakiBandagesAlternate" />
@@ -1409,9 +1483,11 @@
         <marker scope="Public" name="YshtolaScions" />
         <marker scope="Public" name="YunoChallengerApproaches" />
         <marker scope="Public" name="YunoChallengerApproaches2" />
+        <marker scope="Public" name="YunoChallengerApproaches3" />
         <marker scope="Public" name="YunoTwoProtag" />
         <marker scope="Public" name="YunoTwoProtagonists" />
         <marker scope="Public" name="YunoTwoProtagonists2" />
+        <marker scope="Public" name="YunoTwoProtagonists3" />
         <marker scope="Public" name="YunyunBondRewards" />
         <marker scope="Public" name="YunyunClassDerision" />
         <marker scope="Public" name="YunyunFreeFriend" />

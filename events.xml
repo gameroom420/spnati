@@ -452,12 +452,12 @@
             <path>reskins/meia_cupid/1-busy.png</path>
             <path>reskins/meia_cupid/2-pleased.png</path>
             <path>reskins/meia_cupid/2-addressing.png</path>
-			
+
             <path>reskins/roll_caskett_pure_white_mechanic/0-wave.png</path>
             <path>reskins/roll_caskett_pure_white_mechanic/1-smiling.png</path>
             <path>reskins/roll_caskett_pure_white_mechanic/1-wave.png</path>
             <path>reskins/roll_caskett_pure_white_mechanic/2-stretch.png</path>
-			
+
             <path>reskins/maria_sadistic_venus/0-smug.png</path>
             <path>reskins/maria_sadistic_venus/0-seductive.png</path>
             <path>reskins/maria_sadistic_venus/1-sadistic.png</path>
@@ -481,12 +481,12 @@
             <path>reskins/anatoly_box_of_chocolates/0-bashful.png</path>
             <path>reskins/anatoly_box_of_chocolates/0-selection.png</path>
             <path>reskins/anatoly_box_of_chocolates/0-shy.png</path>
-            <path>reskins/anatoly_box_of_chocolates/0-smug.png</path>	
+            <path>reskins/anatoly_box_of_chocolates/0-smug.png</path>
 
             <path>reskins/kumatora_waitress/0-annoyed.png</path>
             <path>reskins/kumatora_waitress/0-cheerful.png</path>
             <path>reskins/kumatora_waitress/0-flustered.png</path>
-            <path>reskins/kumatora_waitress/0-laughing.png</path>				
+            <path>reskins/kumatora_waitress/0-laughing.png</path>
             <!--
             <path>reskins/cheerleaderochako/0-calm.png</path>
             <path>reskins/cheerleaderochako/1-heroic.png</path>
@@ -597,10 +597,6 @@
         <!-- The April Fool's event is the first three days of April, and we want to keep these event separate where possible because of how different they are. -->
         <dates>
             <date>
-                <from year="2023" month="4" day="7" /> <!-- Good Friday in 2023 is April 7 -->
-                <to year="2023" month="4" day="20" />
-            </date>
-            <date>
                 <from year="2024" month="3" day="17" /> <!-- Good Friday in 2024 is March 29, so these dates are mostly early. -->
                 <to year="2024" month="3" day="30" />
             </date>
@@ -641,7 +637,9 @@
         <background>garden</background>
 
         <!-- Put all costumes into the same group, but place new costumes higher -->
-        <character highlight="easter" partition="1" sort="2">mari_setogaya</character>
+        <character highlight="easter" partition="1" sort="2">mari</character>
+        <character highlight="easter" partition="1" sort="2">senko</character>
+        <character highlight="easter" partition="1" sort="2">gloria</character>
 
         <costumes highlight="easter" partition="1" sort="1">easter</costumes>
 
@@ -668,14 +666,28 @@
             <path>reskins/kazuma_spring/0-embarrassed.png</path>
             <path>reskins/kazuma_spring/0-horrified.png</path>
             <path>reskins/kazuma_spring/0-shocked.png</path>
+            <path>reskins/mari_spring/0-casual.png</path>
+            <path>reskins/mari_spring/0-wink.png</path>
+            <path>reskins/mari_spring/0-relaxed.png</path>
+            <path>reskins/mari_spring/0-demure.png</path>
+            <path>reskins/mari_setogaya_succu-bunny/0-wink.png</path>
+            <path>reskins/mari_setogaya_succu-bunny/0-grin.png</path>
+            <path>reskins/mari_setogaya_succu-bunny/0-nice.png</path>
+            <path>reskins/mari_setogaya_succu-bunny/0-strip.png</path>
             <path>reskins/may_hopping_bunny/0-cute.png</path>
             <path>reskins/may_hopping_bunny/0-oopsy.png</path>
             <path>reskins/may_hopping_bunny/0-ready.png</path>
             <path>reskins/may_hopping_bunny/0-confident.png</path>
+            <!--
             <path>reskins/pink_bunny/0-hi.png</path>
             <path>reskins/pink_bunny/0-wink.png</path>
             <path>reskins/pink_bunny/1-happy.png</path>
             <path>reskins/pink_bunny/1-excited.png</path>
+            -->
+            <path>reskins/rosa_bunny_buns/0-bun_touching.png</path>
+            <path>reskins/rosa_bunny_buns/0-calm.png</path>
+            <path>reskins/rosa_bunny_buns/0-Happy.png</path>
+            <path>reskins/rosa_bunny_buns/0-portrait.png</path>
             <path>reskins/sheena_chosen_beauty/0-calm.png</path>
             <path>reskins/sheena_chosen_beauty/0-flustered.png</path>
             <path>reskins/sheena_chosen_beauty/0-interested.png</path>
@@ -849,14 +861,34 @@
 
         <!-- Put AF costumes and AF characters into the same group, but place AF-only characters before costumes -->
         <!-- Also, put this year's new characters/costumes first -->
-        <!--
-        <character highlight="april_fools" partition="1" sort="4">cats</character> //placeholder for 2024 characters
-        -->
+        <character highlight="april_fools" partition="1" sort="4">cats</character>
+        <character highlight="april_fools" partition="1" sort="4">helper-chan</character>
+        <character highlight="april_fools" partition="1" sort="4">hot_spring_woman</character>
+        <character highlight="april_fools" partition="1" sort="4">tae</character>
         <character highlight="april_fools" partition="1" sort="3">mari_setogaya</character>
+        <character highlight="april_fools" partition="1" sort="3">rosa</character>
         <tag highlight="april_fools" partition="1" sort="2">april_fools</tag>
         <costumes highlight="april_fools" partition="1" sort="1">april_fools</costumes>
 
         <!-- This works exactly like <include-status> in (prod-)config.xml. -->
+        <include-status>event</include-status>
+        <include-status>event-background</include-status>
+    </event>
+    <!-- Second event to handle the second half - will be eventually replaced by the event toggle feature -->
+    <event id="april_fools_2" consistent-timezone="true">
+        <name>April Fools Day</name>
+
+        <dates>
+            <date>
+                <from month="4" day="4" />
+                <to month="4" day="7" />
+            </date>
+        </dates>
+
+        <!-- NO FEATURED BACKGROUND -->
+
+        <!-- NO FEATURED INDIVIDUAL CHARACTERS OR HIGHLIGHTS  -->
+
         <include-status>event</include-status>
         <include-status>event-background</include-status>
     </event>

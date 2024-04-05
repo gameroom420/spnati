@@ -2603,8 +2603,25 @@ At least at time of writing (Nov. 2021), Mari is listed at the very bottom of th
         <label id="2378" label="S0 - Atmosphere 1" folder="Yumeko" sort="0" />
         <label id="2379" label="S0 - Outfit 1A (Fallback)" folder="Lysithea" sort="0" />
         <label id="2380" label="S0 - Outfit 1B (Self Costume = Default / Informality + Early Self Stages)" folder="Lysithea" sort="0" />
+        <label id="2381" label="Post-Encore (Whimsicality)" folder="Generic" sort="0" />
+        <label id="2382" label="Post-Encore (Whimsicality)" folder="Generic" sort="0" />
+        <label id="2383" label="" folder="Whimsicality" sort="0" />
+        <label id="2384" label="" folder="Whimsicality" sort="0" />
+        <label id="2385" label="" folder="Whimsicality" sort="0" />
+        <label id="2386" label="" folder="Whimsicality" sort="0" />
+        <label id="2387" label="" folder="Whimsicality" sort="0" />
+        <label id="2388" label="" folder="Whimsicality" sort="0" />
+        <label id="2389" label="" folder="Whimsicality" sort="0" />
+        <label id="2390" label="" folder="Whimsicality" sort="0" />
+        <label id="2391" label="" folder="Whimsicality" sort="0" />
+        <label id="2392" label="" folder="Whimsicality" sort="0" />
+        <label id="2393" label="" folder="Whimsicality" sort="0" />
+        <label id="2394" label="" folder="Whimsicality" sort="0" />
+        <label id="2395" label="" folder="Whimsicality" sort="0" />
+        <label id="2396" label="" folder="Whimsicality" sort="0" />
+        <label id="2397" label="" folder="Whimsicality" sort="0" />
     </labels>
-    <nextId>2380</nextId>
+    <nextId>2397</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="__human_nickname" />

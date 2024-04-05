@@ -160,6 +160,17 @@
         <response id="885" opponent="dwight" opponentId="3" />
         <response id="891" opponent="dwight" opponentId="1" />
         <response id="892" opponent="aqua_kh" opponentId="69" />
+        <response id="897" opponent="rose" opponentId="26" />
+        <response id="898" opponent="rose" opponentId="53" />
+        <response id="899" opponent="rose" opponentId="142" />
+        <response id="900" opponent="rose" opponentId="143" />
+        <response id="905" opponent="aqua_konosuba" opponentId="1171" />
+        <response id="907" opponent="aqua_konosuba" opponentId="1172" />
+        <response id="908" opponent="aqua_konosuba" opponentId="1175" />
+        <response id="909" opponent="aqua_konosuba" opponentId="1174" />
+        <response id="910" opponent="aqua_konosuba" opponentId="1173" />
+        <response id="911" opponent="mari_setogaya" opponentId="421" />
+        <response id="912" opponent="mari_setogaya" opponentId="422" />
     </responses>
     <notes>
         <note id="18">If the player isn't gay, magma grunt slowly starts flirting with them when they strip</note>
@@ -198,7 +209,7 @@
         <label id="12" label="" folder="Opp - Cynthia" sort="7" />
         <label id="13" label="" folder="April Fools Characters" sort="3" />
         <label id="14" label="" folder="Play Once Opponents" sort="6" />
-        <label id="15" label="Desire player Mast opponent" folder="Human Flirting M" sort="0" />
+        <label id="15" label="Desire player Mast opponent" folder="Human Flirting M" sort="3" />
         <label id="16" label="Mast opponent" folder="" sort="0" />
         <label id="17" label="Desire player" folder="" sort="0" />
         <label id="18" label="stage 1" folder="player flirt" sort="0" />
@@ -394,7 +405,7 @@
         <label id="226" label="" folder="Opp Dialogue" sort="5" />
         <label id="227" label="" folder="Opp Dialogue" sort="3" />
         <label id="228" label="" folder="Opp Dialogue" sort="6" />
-        <label id="230" label="" folder="Opp Dialogue" sort="0" />
+        <label id="230" label="" folder="Opp Dialogue" sort="3" />
         <label id="231" label="" folder="Targets" sort="5" />
         <label id="232" label="" folder="Targets" sort="6" />
         <label id="233" label="Failed Joke(s)" folder="Other" sort="0" />
@@ -421,7 +432,7 @@
         <label id="255" label="" folder="Hidden" sort="0" />
         <label id="261" label="Why are we here? (after 3 player losses)" folder="Player Game Any" sort="0" />
         <label id="262" label="Third Game+ 5" folder="Player Game 3+" sort="0" />
-        <label id="263" label="" folder="Clothes" sort="0" />
+        <label id="263" label="" folder="Clothes" sort="2" />
         <label id="264" label="" folder="Clothes" sort="2" />
         <label id="267" label="Loud (Real)" color="6" folder="" sort="0" />
         <label id="268" label="Dramatic (Real)" folder="" sort="0" />
@@ -487,7 +498,7 @@
         <label id="331" label="Self only out" folder="" sort="0" />
         <label id="332" label="2-3 Forfeit" folder="" sort="0" />
         <label id="336" label="" folder="Play Once Opponents" sort="19" />
-        <label id="337" label="" folder="Targets" sort="0" />
+        <label id="337" label="" folder="Targets" sort="4" />
         <label id="338" label="" folder="Targets" sort="2" />
         <label id="339" label="" folder="Targets" sort="0" />
         <label id="340" label="" folder="Targets" sort="29" />
@@ -604,7 +615,7 @@
         <label id="477" label="Human Familiar" folder="" sort="0" />
         <label id="478" label="" folder="Targets" sort="36" />
         <label id="479" label="Go go Team Magma!" folder="Targets" sort="37" />
-        <label id="480" label="" folder="Opp - Cynthia" sort="4" />
+        <label id="480" label="" folder="Opp - Dawn" sort="4" />
         <label id="481" label="" folder="Opp - Cynthia" sort="2" />
         <label id="482" label="" folder="Opp - Cynthia" sort="3" />
         <label id="483" label="" folder="Opp - Cynthia" sort="4" />
@@ -704,7 +715,7 @@
         <label id="580" label="Epilogue" color="2" folder="Hidden" sort="8" />
         <label id="581" label="Epilogue" folder="Hidden" sort="0" />
         <label id="582" label="Epilogue" color="2" folder="Hidden" sort="4" />
-        <label id="154" label="" folder="Rosa" sort="0" />
+        <label id="154" label="" folder="Rosa" sort="4" />
         <label id="583" label="" folder="Cynthia" sort="6" />
         <label id="584" label="" folder="Cynthia" sort="14" />
         <label id="585" label="" folder="Cynthia" sort="22" />
@@ -737,269 +748,290 @@
         <label id="612" label="Sharpedo Outfit" folder="Costume" sort="14" />
         <label id="613" label="Sharpedo Outfit" folder="Costume" sort="15" />
         <label id="614" label="Sharpedo Outfit" folder="Costume" sort="16" />
-        <label id="615" label="Sharpedo Outfit" color="0" folder="Costume" sort="0" />
+        <label id="615" label="Sharpedo Outfit" color="0" folder="Costume" sort="27" />
         <label id="616" label="" folder="Opp - Nami" sort="0" />
-        <label id="617" label="1st game w hoodie" folder="Wearing Hoodie" sort="0" />
+        <label id="617" label="1st game w hoodie" folder="Wearing Hoodie" sort="3" />
         <label id="618" label="" folder="Logic" sort="0" />
         <label id="619" label="" folder="Wearing Hoodie" sort="0" />
         <label id="620" label="" folder="Hidden" sort="0" />
-        <label id="621" label="" folder="Hidden" sort="0" />
-        <label id="622" label="2nd game w hoodie in a row" folder="Wearing Hoodie" sort="0" />
+        <label id="621" label="" folder="Hidden" sort="2" />
+        <label id="622" label="2nd game w hoodie in a row" folder="Wearing Hoodie" sort="2" />
         <label id="623" label="3rd game w hoodie in a row" folder="Wearing Hoodie" sort="0" />
-        <label id="624" label="Magma Hoodie (collectible)" folder="Articles" sort="0" />
-        <label id="625" label="Magma Hoodie (collectible)" folder="Articles" sort="0" />
-        <label id="626" label="Magma Hoodie (collectible)" folder="Articles" sort="0" />
-        <label id="627" label="Magma Hoodie (collectible)" folder="Articles" sort="0" />
-        <label id="629" label="" folder="Opp - Trixie" sort="0" />
-        <label id="630" label="" folder="Opp - Trixie" sort="0" />
+        <label id="624" label="Magma Hoodie (collectible)" folder="Articles" sort="7" />
+        <label id="625" label="Magma Hoodie (collectible)" folder="Articles" sort="8" />
+        <label id="626" label="Magma Hoodie (collectible)" folder="Articles" sort="9" />
+        <label id="627" label="Magma Hoodie (collectible)" folder="Articles" sort="10" />
+        <label id="629" label="" folder="Opp - Trixie" sort="5" />
+        <label id="630" label="" folder="Opp - Trixie" sort="7" />
         <label id="631" label="" folder="Opp - Trixie" sort="0" />
-        <label id="632" label="" folder="Opp - Trixie" sort="0" />
-        <label id="634" label="" folder="Opp - Trixie" sort="0" />
-        <label id="635" label="" folder="Opp - Trixie" sort="0" />
-        <label id="636" label="" folder="Targets" sort="0" />
-        <label id="638" label="" folder="Targets" sort="0" />
-        <label id="639" label="" folder="Targets" sort="0" />
-        <label id="642" label="" folder="Targets" sort="0" />
-        <label id="643" label="" folder="Targets" sort="0" />
+        <label id="632" label="" folder="Opp - Trixie" sort="2" />
+        <label id="634" label="" folder="Opp - Trixie" sort="3" />
+        <label id="635" label="" folder="Opp - Trixie" sort="9" />
+        <label id="636" label="" folder="Targets" sort="39" />
+        <label id="638" label="" folder="Targets" sort="30" />
+        <label id="639" label="" folder="Targets" sort="40" />
+        <label id="642" label="" folder="Targets" sort="31" />
+        <label id="643" label="" folder="Targets" sort="32" />
         <label id="648" label="" folder="Targets" sort="0" />
-        <label id="650" label="" folder="Fina" sort="0" />
-        <label id="649" label="" folder="Fina" sort="0" />
-        <label id="651" label="" folder="Fina" sort="0" />
+        <label id="650" label="" folder="Fina" sort="2" />
+        <label id="649" label="" folder="Fina" sort="5" />
+        <label id="651" label="" folder="Fina" sort="3" />
         <label id="652" label="" folder="Fina" sort="0" />
-        <label id="653" label="" folder="Trixie" sort="0" />
+        <label id="653" label="" folder="Trixie" sort="2" />
         <label id="654" label="" folder="Trixie" sort="0" />
         <label id="655" label="" folder="Opp - Trixie" sort="0" />
-        <label id="656" label="" folder="Opp - Trixie" sort="0" />
-        <label id="657" label="" folder="Opp - Trixie" sort="0" />
-        <label id="658" label="" folder="Opp - Trixie" sort="0" />
+        <label id="656" label="" folder="Opp - Trixie" sort="6" />
+        <label id="657" label="" folder="Opp - Trixie" sort="4" />
+        <label id="658" label="" folder="Opp - Trixie" sort="8" />
         <label id="659" label="" folder="Opp - Kumatora" sort="0" />
-        <label id="660" label="" folder="Characters" sort="0" />
-        <label id="661" label="" folder="Rosa" sort="0" />
+        <label id="660" label="" folder="Characters" sort="7" />
+        <label id="661" label="" folder="Rosa" sort="7" />
         <label id="662" label="" folder="Rosa" sort="0" />
-        <label id="663" label="" folder="Rosa" sort="0" />
-        <label id="664" label="" folder="Rosa" sort="0" />
-        <label id="665" label="" folder="Rosa" sort="0" />
-        <label id="666" label="" folder="Rosa" sort="0" />
-        <label id="667" label="" folder="Rosa" sort="0" />
+        <label id="663" label="" folder="Rosa" sort="2" />
+        <label id="664" label="" folder="Rosa" sort="12" />
+        <label id="665" label="" folder="Rosa" sort="3" />
+        <label id="666" label="" folder="Rosa" sort="8" />
+        <label id="667" label="" folder="Rosa" sort="13" />
         <label id="668" label="" folder="Nord Interactions" sort="0" />
         <label id="669" label="Casual Date Costume" folder="Date" sort="0" />
-        <label id="670" label="Valentines" folder="Event" sort="0" />
-        <label id="671" label="Casual Date Valentines" folder="Date" sort="0" />
+        <label id="670" label="Valentines" folder="Event" sort="6" />
+        <label id="671" label="Casual Date Valentines" folder="Date" sort="2" />
         <label id="672" label="" folder="Aqua Grunt" sort="0" />
-        <label id="673" label="" folder="Aqua Grunt" sort="0" />
-        <label id="674" label="" folder="Dawn" sort="0" />
-        <label id="675" label="" folder="Dawn" sort="0" />
-        <label id="676" label="" folder="Opp - Dawn" sort="0" />
-        <label id="677" label="" folder="Opp - Dawn" sort="0" />
-        <label id="679" label="" folder="Opp - Dawn" sort="0" />
-        <label id="680" label="" folder="Dawn" sort="0" />
-        <label id="681" label="" folder="Dawn" sort="0" />
-        <label id="682" label="" folder="Opp - Dawn" sort="0" />
-        <label id="683" label="" folder="Dawn" sort="0" />
-        <label id="684" label="" folder="Opp - Dawn" sort="0" />
-        <label id="685" label="" folder="Opp - Dawn" sort="0" />
-        <label id="686" label="" folder="Opp - Dawn" sort="0" />
-        <label id="687" label="" folder="Dawn" sort="0" />
-        <label id="688" label="" folder="Dawn" sort="0" />
-        <label id="689" label="" folder="Dawn" sort="0" />
+        <label id="673" label="" folder="Aqua Grunt" sort="2" />
+        <label id="674" label="" folder="Dawn" sort="4" />
+        <label id="675" label="" folder="Dawn" sort="7" />
+        <label id="676" label="" folder="Opp - Dawn" sort="8" />
+        <label id="677" label="" folder="Opp - Dawn" sort="5" />
+        <label id="679" label="" folder="Opp - Dawn" sort="10" />
+        <label id="680" label="" folder="Dawn" sort="2" />
+        <label id="681" label="" folder="Dawn" sort="5" />
+        <label id="682" label="" folder="Opp - Dawn" sort="4" />
+        <label id="683" label="" folder="Dawn" sort="8" />
+        <label id="684" label="" folder="Opp - Dawn" sort="6" />
+        <label id="685" label="" folder="Opp - Dawn" sort="7" />
+        <label id="686" label="" folder="Opp - Dawn" sort="9" />
+        <label id="687" label="" folder="Dawn" sort="3" />
+        <label id="688" label="" folder="Dawn" sort="6" />
+        <label id="689" label="" folder="Dawn" sort="9" />
         <label id="644" label="" folder="Opp Dialogue" sort="0" />
-        <label id="645" label="" folder="Opp Dialogue" sort="0" />
-        <label id="646" label="" folder="Opp Dialogue" sort="0" />
-        <label id="690" label="vday" folder="Hidden" sort="0" />
-        <label id="691" label="vday" folder="Collectible" sort="0" />
+        <label id="645" label="" folder="Opp Dialogue" sort="2" />
+        <label id="646" label="" folder="Opp Dialogue" sort="5" />
+        <label id="690" label="vday" folder="Hidden" sort="6" />
+        <label id="691" label="vday" folder="Collectible" sort="3" />
         <label id="692" label="default big mac" folder="" sort="0" />
-        <label id="693" label="" folder="Event" sort="0" />
-        <label id="694" label="" folder="Event" sort="0" />
-        <label id="695" label="Casual Date" folder="Costume" sort="0" />
-        <label id="696" label="Casual Date" folder="Costume" sort="0" />
-        <label id="697" label="Casual Date" folder="Costume" sort="0" />
-        <label id="698" label="Casual Date" folder="Costume" sort="0" />
-        <label id="699" label="Casual Date" folder="Costume" sort="0" />
-        <label id="700" label="Casual Date" folder="Costume" sort="0" />
-        <label id="701" label="Casual Date" folder="Costume" sort="0" />
-        <label id="702" label="Casual Date" folder="Costume" sort="0" />
-        <label id="703" label="Casual Date" folder="Costume" sort="0" />
-        <label id="704" label="Casual Date" folder="Costume" sort="0" />
-        <label id="705" label="Casual Date" folder="Costume" sort="0" />
-        <label id="706" label="Casual Date" folder="Costume" sort="0" />
-        <label id="707" label="" folder="Aqua Grunt" sort="0" />
-        <label id="708" label="" folder="Aqua Grunt" sort="0" />
-        <label id="709" label="" folder="Aqua Grunt" sort="0" />
-        <label id="710" label="" folder="Aqua Grunt" sort="0" />
-        <label id="711" label="" folder="Aqua Grunt" sort="0" />
-        <label id="712" label="" folder="Aqua Grunt" sort="0" />
-        <label id="713" label="" folder="Aqua Grunt" sort="0" />
+        <label id="693" label="" folder="Event" sort="4" />
+        <label id="694" label="" folder="Event" sort="5" />
+        <label id="695" label="Casual Date" folder="Costume" sort="16" />
+        <label id="696" label="Casual Date" folder="Costume" sort="17" />
+        <label id="697" label="Casual Date" folder="Costume" sort="18" />
+        <label id="698" label="Casual Date" folder="Costume" sort="19" />
+        <label id="699" label="Casual Date" folder="Costume" sort="20" />
+        <label id="700" label="Casual Date" folder="Costume" sort="21" />
+        <label id="701" label="Casual Date" folder="Costume" sort="22" />
+        <label id="702" label="Casual Date" folder="Costume" sort="28" />
+        <label id="703" label="Casual Date" folder="Costume" sort="29" />
+        <label id="704" label="Casual Date" folder="Costume" sort="30" />
+        <label id="705" label="Casual Date" folder="Costume" sort="31" />
+        <label id="706" label="Casual Date" folder="Costume" sort="32" />
+        <label id="707" label="" folder="Aqua Grunt" sort="28" />
+        <label id="708" label="" folder="Aqua Grunt" sort="29" />
+        <label id="709" label="" folder="Aqua Grunt" sort="30" />
+        <label id="710" label="" folder="Aqua Grunt" sort="31" />
+        <label id="711" label="" folder="Aqua Grunt" sort="32" />
+        <label id="712" label="" folder="Aqua Grunt" sort="33" />
+        <label id="713" label="" folder="Aqua Grunt" sort="34" />
         <label id="714" label="" folder="Aqua Grunt" sort="0" />
-        <label id="715" label="" folder="Aqua Grunt" sort="0" />
-        <label id="716" label="" folder="Aqua Grunt" sort="0" />
-        <label id="717" label="" folder="Aqua Grunt" sort="0" />
-        <label id="718" label="" folder="Aqua Grunt" sort="0" />
-        <label id="719" label="" folder="Aqua Grunt" sort="0" />
-        <label id="720" label="" folder="Aqua Grunt" sort="0" />
-        <label id="721" label="" folder="Aqua Grunt" sort="0" />
-        <label id="722" label="" folder="Aqua Grunt" sort="0" />
+        <label id="715" label="" folder="Aqua Grunt" sort="38" />
+        <label id="716" label="" folder="Aqua Grunt" sort="39" />
+        <label id="717" label="" folder="Aqua Grunt" sort="40" />
+        <label id="718" label="" folder="Aqua Grunt" sort="36" />
+        <label id="719" label="" folder="Aqua Grunt" sort="41" />
+        <label id="720" label="" folder="Aqua Grunt" sort="42" />
+        <label id="721" label="" folder="Aqua Grunt" sort="43" />
+        <label id="722" label="" folder="Aqua Grunt" sort="6" />
         <label id="723" label="" folder="Aqua Grunt" sort="0" />
-        <label id="724" label="" folder="Aqua Grunt" sort="0" />
-        <label id="725" label="" folder="Aqua Grunt" sort="0" />
-        <label id="726" label="" folder="Aqua Grunt" sort="0" />
-        <label id="727" label="" folder="Aqua Grunt" sort="0" />
-        <label id="728" label="" folder="Aqua Grunt" sort="0" />
-        <label id="729" label="" folder="Aqua Grunt" sort="0" />
-        <label id="730" label="" folder="Aqua Grunt" sort="0" />
-        <label id="731" label="" folder="Aqua Grunt" sort="0" />
-        <label id="732" label="" folder="Aqua Grunt" sort="0" />
-        <label id="733" label="" folder="Aqua Grunt" sort="0" />
-        <label id="734" label="" folder="Aqua Grunt" sort="0" />
-        <label id="735" label="" folder="Aqua Grunt" sort="0" />
-        <label id="736" label="" folder="Aqua Grunt" sort="0" />
-        <label id="737" label="" folder="Aqua Grunt" sort="0" />
+        <label id="724" label="" folder="Aqua Grunt" sort="7" />
+        <label id="725" label="" folder="Aqua Grunt" sort="8" />
+        <label id="726" label="" folder="Aqua Grunt" sort="9" />
+        <label id="727" label="" folder="Aqua Grunt" sort="10" />
+        <label id="728" label="" folder="Aqua Grunt" sort="11" />
+        <label id="729" label="" folder="Aqua Grunt" sort="12" />
+        <label id="730" label="" folder="Aqua Grunt" sort="13" />
+        <label id="731" label="" folder="Aqua Grunt" sort="14" />
+        <label id="732" label="" folder="Aqua Grunt" sort="15" />
+        <label id="733" label="" folder="Aqua Grunt" sort="16" />
+        <label id="734" label="" folder="Aqua Grunt" sort="17" />
+        <label id="735" label="" folder="Aqua Grunt" sort="18" />
+        <label id="736" label="" folder="Aqua Grunt" sort="19" />
+        <label id="737" label="" folder="Aqua Grunt" sort="21" />
         <label id="738" label="" folder="Aqua Grunt" sort="0" />
         <label id="739" label="" folder="Aqua Grunt" sort="0" />
-        <label id="740" label="" folder="Aqua Grunt" sort="0" />
-        <label id="741" label="" folder="Aqua Grunt" sort="0" />
-        <label id="742" label="" folder="Aqua Grunt" sort="0" />
-        <label id="743" label="" folder="Aqua Grunt" sort="0" />
-        <label id="744" label="" folder="Aqua Grunt" sort="0" />
-        <label id="745" label="" folder="Aqua Grunt" sort="0" />
-        <label id="746" label="" folder="Aqua Grunt" sort="0" />
-        <label id="747" label="" folder="Aqua Grunt" sort="0" />
-        <label id="748" label="" folder="Aqua Grunt" sort="0" />
-        <label id="749" label="" folder="Aqua Grunt" sort="0" />
-        <label id="750" label="" folder="Aqua Grunt" sort="0" />
-        <label id="751" label="" folder="Aqua Grunt" sort="0" />
-        <label id="752" label="" folder="Aqua Grunt" sort="0" />
-        <label id="753" label="" folder="Aqua Grunt" sort="0" />
-        <label id="754" label="" folder="Aqua Grunt" sort="0" />
-        <label id="755" label="" folder="Aqua Grunt" sort="0" />
-        <label id="756" label="" folder="Aqua Grunt" sort="0" />
+        <label id="740" label="" folder="Aqua Grunt" sort="22" />
+        <label id="741" label="" folder="Aqua Grunt" sort="23" />
+        <label id="742" label="" folder="Aqua Grunt" sort="24" />
+        <label id="743" label="" folder="Aqua Grunt" sort="25" />
+        <label id="744" label="" folder="Aqua Grunt" sort="26" />
+        <label id="745" label="" folder="Aqua Grunt" sort="27" />
+        <label id="746" label="" folder="Aqua Grunt" sort="53" />
+        <label id="747" label="" folder="Aqua Grunt" sort="54" />
+        <label id="748" label="" folder="Aqua Grunt" sort="55" />
+        <label id="749" label="" folder="Aqua Grunt" sort="4" />
+        <label id="750" label="" folder="Aqua Grunt" sort="48" />
+        <label id="751" label="" folder="Aqua Grunt" sort="44" />
+        <label id="752" label="" folder="Aqua Grunt" sort="49" />
+        <label id="753" label="" folder="Aqua Grunt" sort="46" />
+        <label id="754" label="" folder="Aqua Grunt" sort="50" />
+        <label id="755" label="" folder="Aqua Grunt" sort="51" />
+        <label id="756" label="" folder="Aqua Grunt" sort="52" />
         <label id="757" label="" folder="Aqua Grunt" sort="0" />
-        <label id="758" label="" folder="Aqua Grunt" sort="0" />
-        <label id="761" label="" folder="Mari S" sort="0" />
-        <label id="764" label="" folder="Mari S" sort="0" />
-        <label id="762" label="" folder="Mari S" sort="0" />
-        <label id="763" label="" folder="Mari S" sort="0" />
+        <label id="758" label="" folder="Aqua Grunt" sort="45" />
+        <label id="761" label="" folder="Mari S" sort="4" />
+        <label id="764" label="" folder="Mari S" sort="5" />
+        <label id="762" label="" folder="Mari S" sort="3" />
+        <label id="763" label="" folder="Mari S" sort="2" />
         <label id="760" label="" folder="Mari S" sort="0" />
-        <label id="765" label="" folder="Generic" sort="0" />
-        <label id="766" label="Sharpedo Outfit" color="0" folder="Aqua Grunt" sort="0" />
-        <label id="767" label="Wikipedia" folder="Event" sort="0" />
-        <label id="769" label="" folder="Wikipedia Costume" sort="0" />
-        <label id="770" label="" folder="Wikipedia Costume" sort="0" />
-        <label id="771" label="" folder="Wikipedia Costume" sort="0" />
-        <label id="772" label="" folder="Wikipedia Costume" sort="0" />
-        <label id="773" label="" folder="Wikipedia Costume" sort="0" />
-        <label id="774" label="" folder="Wikipedia Costume" sort="0" />
-        <label id="775" label="" folder="Wikipedia Costume" sort="0" />
-        <label id="776" label="League of Legends" folder="Wikipedia Costume" sort="0" />
-        <label id="777" label="Genshin Impact" folder="Wikipedia Costume" sort="0" />
-        <label id="778" label="Pokemon" folder="Wikipedia Costume" sort="0" />
-        <label id="779" label="Stockings (wikipedia)" folder="Articles" sort="0" />
-        <label id="780" label="" folder="Wikipedia Costume" sort="0" />
-        <label id="781" label="" folder="Wikipedia Costume" sort="0" />
-        <label id="782" label="" folder="Wikipedia Costume" sort="0" />
-        <label id="783" label="" folder="Wikipedia Costume" sort="0" />
-        <label id="784" label="" folder="Wikipedia Costume" sort="0" />
-        <label id="785" label="" folder="Wikipedia Costume" sort="0" />
-        <label id="786" label="" folder="Wikipedia Costume" sort="0" />
-        <label id="787" label="" folder="Wikipedia Costume" sort="0" />
-        <label id="788" label="" folder="Wikipedia Costume" sort="0" />
-        <label id="789" label="" folder="Wikipedia Costume" sort="0" />
-        <label id="790" label="" folder="Wikipedia Costume" sort="0" />
-        <label id="791" label="" folder="Wikipedia Costume" sort="0" />
-        <label id="792" label="" folder="Wikipedia Costume" sort="0" />
-        <label id="793" label="" folder="Wikipedia Costume" sort="0" />
-        <label id="794" label="" folder="Aqua Grunt" sort="0" />
-        <label id="795" label="" folder="Aqua Grunt" sort="0" />
-        <label id="796" label="" folder="Aqua Grunt" sort="0" />
-        <label id="797" label="" folder="Targets" sort="0" />
+        <label id="765" label="" folder="Generic" sort="18" />
+        <label id="766" label="Sharpedo Outfit" color="0" folder="Aqua Grunt" sort="20" />
+        <label id="767" label="Wikipedia" folder="Event" sort="3" />
+        <label id="769" label="" folder="Wikipedia Costume" sort="6" />
+        <label id="770" label="" folder="Wikipedia Costume" sort="4" />
+        <label id="771" label="" folder="Wikipedia Costume" sort="5" />
+        <label id="772" label="" folder="Wikipedia Costume" sort="7" />
+        <label id="773" label="" folder="Wikipedia Costume" sort="8" />
+        <label id="774" label="" folder="Wikipedia Costume" sort="9" />
+        <label id="775" label="" folder="Wikipedia Costume" sort="10" />
+        <label id="776" label="League of Legends" folder="Wikipedia Costume" sort="11" />
+        <label id="777" label="Genshin Impact" folder="Wikipedia Costume" sort="12" />
+        <label id="778" label="Pokemon" folder="Wikipedia Costume" sort="13" />
+        <label id="779" label="Stockings (wikipedia)" folder="Articles" sort="19" />
+        <label id="780" label="" folder="Wikipedia Costume" sort="22" />
+        <label id="781" label="" folder="Wikipedia Costume" sort="14" />
+        <label id="782" label="" folder="Wikipedia Costume" sort="15" />
+        <label id="783" label="" folder="Wikipedia Costume" sort="23" />
+        <label id="784" label="" folder="Wikipedia Costume" sort="24" />
+        <label id="785" label="" folder="Wikipedia Costume" sort="16" />
+        <label id="786" label="" folder="Wikipedia Costume" sort="17" />
+        <label id="787" label="" folder="Wikipedia Costume" sort="18" />
+        <label id="788" label="" folder="Wikipedia Costume" sort="19" />
+        <label id="789" label="" folder="Wikipedia Costume" sort="20" />
+        <label id="790" label="" folder="Wikipedia Costume" sort="25" />
+        <label id="791" label="" folder="Wikipedia Costume" sort="26" />
+        <label id="792" label="" folder="Wikipedia Costume" sort="27" />
+        <label id="793" label="" folder="Wikipedia Costume" sort="21" />
+        <label id="794" label="" folder="Aqua Grunt" sort="35" />
+        <label id="795" label="" folder="Aqua Grunt" sort="37" />
+        <label id="796" label="" folder="Aqua Grunt" sort="47" />
+        <label id="797" label="" folder="Targets" sort="12" />
         <label id="798" label="" folder="Wikipedia Costume" sort="0" />
-        <label id="799" label="" folder="Wikipedia Costume" sort="0" />
-        <label id="800" label="" folder="Wikipedia Costume" sort="0" />
+        <label id="799" label="" folder="Wikipedia Costume" sort="2" />
+        <label id="800" label="" folder="Wikipedia Costume" sort="3" />
         <label id="801" label="" folder="Magma-Tan" sort="0" />
-        <label id="802" label="" folder="Targets" sort="0" />
-        <label id="803" label="" folder="Targets" sort="0" />
-        <label id="804" label="" folder="Responses" sort="0" />
-        <label id="805" label="" folder="Responses" sort="0" />
-        <label id="806" label="" folder="Targets" sort="0" />
-        <label id="807" label="" folder="Targets" sort="0" />
-        <label id="808" label="" folder="Targets" sort="0" />
-        <label id="811" label="" folder="Responses" sort="0" />
-        <label id="812" label="" folder="Situations" sort="0" />
-        <label id="813" label="" folder="Situations" sort="0" />
-        <label id="814" label="" folder="May" sort="0" />
-        <label id="815" label="" folder="Targets" sort="0" />
+        <label id="802" label="" folder="Targets" sort="43" />
+        <label id="803" label="" folder="Targets" sort="34" />
+        <label id="804" label="" folder="Responses" sort="5" />
+        <label id="805" label="" folder="Responses" sort="6" />
+        <label id="806" label="" folder="Targets" sort="35" />
+        <label id="807" label="" folder="Targets" sort="7" />
+        <label id="808" label="" folder="Targets" sort="8" />
+        <label id="811" label="" folder="Responses" sort="3" />
+        <label id="812" label="" folder="Situations" sort="3" />
+        <label id="813" label="" folder="Situations" sort="4" />
+        <label id="814" label="" folder="May" sort="4" />
+        <label id="815" label="" folder="Targets" sort="36" />
         <label id="148" label="" folder="Clothes" sort="0" />
-        <label id="816" label="" folder="Tags" sort="0" />
-        <label id="817" label="" folder="Tags" sort="0" />
-        <label id="818" label="" folder="Wearing Hoodie" sort="0" />
-        <label id="819" label="" folder="Butt" sort="0" />
-        <label id="820" label="Desire player Mast opponent" folder="Human Flirting M" sort="0" />
+        <label id="816" label="" folder="Tags" sort="14" />
+        <label id="817" label="" folder="Tags" sort="5" />
+        <label id="818" label="" folder="Wearing Hoodie" sort="4" />
+        <label id="819" label="" folder="Butt" sort="2" />
+        <label id="820" label="Desire player Mast opponent" folder="Human Flirting M" sort="4" />
         <label id="821" label="Desire player Mast opponent" folder="Human Flirting M" sort="0" />
-        <label id="822" label="Aqua Bandana no AG" folder="Articles" sort="0" />
-        <label id="823" label="Aqua Bandana AG Present" folder="Articles" sort="0" />
-        <label id="824" label="" folder="Aqua Grunt" sort="0" />
-        <label id="825" label="Desire player Mast opponent" folder="Human Flirting M" sort="0" />
-        <label id="826" label="" folder="Targets" sort="0" />
-        <label id="300" label="" folder="Targets" sort="0" />
-        <label id="429" label="" folder="Targets" sort="0" />
-        <label id="827" label="" folder="Targets" sort="0" />
-        <label id="526" label="" folder="Targets" sort="0" />
-        <label id="829" label="" folder="Targets" sort="0" />
-        <label id="831" label="" folder="Opponents" sort="0" />
-        <label id="834" label="" folder="Targets" sort="0" />
-        <label id="835" label="" folder="Targets" sort="0" />
-        <label id="836" label="" folder="Targets" sort="0" />
-        <label id="837" label="" folder="Targets" sort="0" />
-        <label id="838" label="" folder="Targets" sort="0" />
-        <label id="839" label="" folder="Targets" sort="0" />
+        <label id="822" label="Aqua Bandana no AG" folder="Articles" sort="11" />
+        <label id="823" label="Aqua Bandana AG Present" folder="Articles" sort="6" />
+        <label id="824" label="" folder="Aqua Grunt" sort="5" />
+        <label id="825" label="Desire player Mast opponent" folder="Human Flirting M" sort="2" />
+        <label id="826" label="" folder="Targets" sort="46" />
+        <label id="300" label="" folder="Targets" sort="48" />
+        <label id="429" label="" folder="Targets" sort="49" />
+        <label id="827" label="" folder="Targets" sort="50" />
+        <label id="526" label="" folder="Targets" sort="51" />
+        <label id="829" label="" folder="Targets" sort="53" />
+        <label id="831" label="" folder="Opponents" sort="4" />
+        <label id="834" label="" folder="Targets" sort="57" />
+        <label id="835" label="" folder="Targets" sort="58" />
+        <label id="836" label="" folder="Targets" sort="73" />
+        <label id="837" label="" folder="Targets" sort="59" />
+        <label id="838" label="" folder="Targets" sort="60" />
+        <label id="839" label="" folder="Targets" sort="61" />
         <label id="840" label="" folder="Targets" sort="0" />
-        <label id="841" label="" folder="Targets" sort="0" />
+        <label id="841" label="" folder="Targets" sort="62" />
         <label id="842" label="" folder="Targets" sort="0" />
-        <label id="843" label="" folder="Targets" sort="0" />
-        <label id="844" label="" folder="Generic but more specific" sort="0" />
-        <label id="342" label="" folder="Targets" sort="0" />
-        <label id="845" label="" folder="Targets" sort="0" />
-        <label id="847" label="" folder="Situations" sort="0" />
-        <label id="846" label="" folder="Targets" sort="0" />
-        <label id="848" label="" folder="Targets" sort="0" />
-        <label id="849" label="" folder="Targets" sort="0" />
-        <label id="851" label="" folder="Situations" sort="0" />
+        <label id="843" label="" folder="Targets" sort="55" />
+        <label id="844" label="" folder="Generic but more specific" sort="3" />
+        <label id="342" label="" folder="Targets" sort="44" />
+        <label id="845" label="" folder="Targets" sort="70" />
+        <label id="847" label="" folder="Situations" sort="5" />
+        <label id="846" label="" folder="Targets" sort="45" />
+        <label id="848" label="" folder="Targets" sort="47" />
+        <label id="849" label="" folder="Targets" sort="56" />
+        <label id="851" label="" folder="Situations" sort="2" />
         <label id="850" label="" folder="Situations" sort="0" />
-        <label id="854" label="" folder="Targets" sort="0" />
-        <label id="855" label="" folder="Targets" sort="0" />
-        <label id="856" label="" folder="Targets" sort="0" />
-        <label id="857" label="" folder="Targets" sort="0" />
+        <label id="854" label="" folder="Targets" sort="63" />
+        <label id="855" label="" folder="Targets" sort="71" />
+        <label id="856" label="" folder="Targets" sort="74" />
+        <label id="857" label="" folder="Targets" sort="64" />
         <label id="858" label="" folder="Human Flirting F" sort="0" />
-        <label id="859" label="Desire player Mast opponent" folder="Human Flirting F" sort="0" />
-        <label id="860" label="Desire player Mast opponent" folder="Human Flirting F" sort="0" />
+        <label id="859" label="Desire player Mast opponent" folder="Human Flirting F" sort="2" />
+        <label id="860" label="Desire player Mast opponent" folder="Human Flirting F" sort="3" />
         <label id="861" label="No Arrow" folder="" sort="0" />
-        <label id="862" label="" folder="Targets" sort="0" />
-        <label id="863" label="" folder="Targets" sort="0" />
-        <label id="864" label="" folder="Aqua Grunt" sort="0" />
+        <label id="862" label="" folder="Targets" sort="52" />
+        <label id="863" label="" folder="Targets" sort="54" />
+        <label id="864" label="" folder="Aqua Grunt" sort="3" />
         <label id="866" label="test" folder="" sort="0" />
         <label id="867" label="" folder="Yuno" sort="0" />
         <label id="868" label="" folder="Yuno" sort="0" />
         <label id="870" label="2* weight" folder="Post-Epilogue" sort="0" />
-        <label id="871" label="" folder="Logic" sort="0" />
-        <label id="872" label="" folder="Logic" sort="0" />
-        <label id="873" label="5* weight" folder="Post-Epilogue" sort="0" />
-        <label id="874" label="" folder="Responses" sort="0" />
+        <label id="871" label="" folder="Logic" sort="2" />
+        <label id="872" label="" folder="Logic" sort="3" />
+        <label id="873" label="5* weight" folder="Post-Epilogue" sort="2" />
+        <label id="874" label="" folder="Responses" sort="7" />
         <label id="875" label="" folder="Targets" sort="0" />
-        <label id="876" label="" folder="Targets" sort="0" />
-        <label id="877" label="" folder="Targets" sort="0" />
-        <label id="878" label="" folder="Situations" sort="0" />
-        <label id="879" label="" folder="Targets" sort="0" />
-        <label id="880" label="" folder="Targets" sort="0" />
+        <label id="876" label="" folder="Targets" sort="11" />
+        <label id="877" label="" folder="Targets" sort="75" />
+        <label id="878" label="" folder="Situations" sort="6" />
+        <label id="879" label="" folder="Targets" sort="67" />
+        <label id="880" label="" folder="Targets" sort="72" />
         <label id="881" label="" folder="Three Aqua's" sort="0" />
-        <label id="882" label="" folder="Three Aqua's" sort="0" />
-        <label id="883" label="" folder="Three Aqua's" sort="0" />
-        <label id="884" label="" folder="Targets" sort="0" />
-        <label id="885" label="" folder="Responses" sort="0" />
+        <label id="882" label="" folder="Three Aqua's" sort="2" />
+        <label id="883" label="" folder="Three Aqua's" sort="3" />
+        <label id="884" label="" folder="Targets" sort="37" />
+        <label id="885" label="" folder="Responses" sort="2" />
         <label id="886" label="" folder="Responses" sort="0" />
-        <label id="887" label="" folder="Targets" sort="0" />
-        <label id="888" label="" folder="Targets" sort="0" />
-        <label id="889" label="" folder="Targets" sort="0" />
-        <label id="890" label="" folder="Targets" sort="0" />
-        <label id="891" label="" folder="Responses" sort="0" />
+        <label id="887" label="" folder="Targets" sort="9" />
+        <label id="888" label="" folder="Targets" sort="2" />
+        <label id="889" label="" folder="Targets" sort="10" />
+        <label id="890" label="" folder="Targets" sort="3" />
+        <label id="891" label="" folder="Responses" sort="4" />
+        <label id="893" label="" folder="Targets&gt;Rose" sort="0" />
+        <label id="894" label="" folder="Targets&gt;Rose" sort="0" />
+        <label id="895" label="" folder="Targets&gt;Rose" sort="0" />
+        <label id="896" label="" folder="Targets&gt;Rose" sort="0" />
+        <label id="897" label="" folder="Targets&gt;Rose" sort="0" />
+        <label id="898" label="" folder="Targets&gt;Rose" sort="0" />
+        <label id="900" label="" folder="Targets&gt;Rose" sort="0" />
+        <label id="899" label="" folder="Targets&gt;Rose" sort="0" />
+        <label id="902" label="" folder="Situations" sort="0" />
+        <label id="903" label="" folder="Responses" sort="0" />
+        <label id="904" label="" folder="Responses" sort="0" />
+        <label id="905" label="" folder="Opp - Aqua (Konosuba)" sort="0" />
+        <label id="906" label="" folder="Opp - Aqua (Konosuba)" sort="0" />
+        <label id="907" label="" folder="Opp - Aqua (Konosuba)" sort="0" />
+        <label id="908" label="" folder="Opp - Aqua (Konosuba)" sort="0" />
+        <label id="910" label="" folder="Opp - Aqua (Konosuba)" sort="0" />
+        <label id="909" label="" folder="Opp - Aqua (Konosuba)" sort="0" />
+        <label id="911" label="" folder="Responses" sort="0" />
+        <label id="912" label="" folder="Responses" sort="0" />
+        <label id="913" label="" color="2" folder="Opp - Aqua (Konosuba)" sort="0" />
+        <label id="914" label="" color="2" folder="Opp - Aqua (Konosuba)" sort="0" />
     </labels>
     <prefixes>
         <prefix>Epilogue_chat</prefix>
@@ -1009,7 +1041,7 @@
         <prefix>Epilogue</prefix>
         <prefix>Burger</prefix>
     </prefixes>
-    <nextId>892</nextId>
+    <nextId>914</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="8_hand_good_prideful">Magma Grunt said something particularly prideful when she was in stage 8, and might be setting herself up for failure.</marker>
@@ -1041,6 +1073,13 @@
         <marker scope="Public" name="ag_halloween" />
         <marker scope="Public" name="AG_MG_Candy_Resp" />
         <marker scope="Public" name="aoba_qna_nene" />
+        <marker scope="Public" name="aquaKS_MG_paddedChest_claim" />
+        <marker scope="Public" name="aquaKS_noPanties" />
+        <marker scope="Public" name="aquaKS_noPanties_Winter" />
+        <marker scope="Public" name="aquaKS_notGettingRidOfWater" />
+        <marker scope="Public" name="aquaKS_notGettingRidOfWaterB" />
+        <marker scope="Public" name="aquaKS_selfChestRevealed" />
+        <marker scope="Public" name="aquaKS_youDumbResp" />
         <marker scope="Public" name="butt_didntlose">Shown her butt (butt_pre_roundreveal) but didn't lose the round</marker>
         <marker scope="Public" name="butt_didntlose_after">Shown her butt (butt_didntlose_after), didn't lose the round, turns forward again</marker>
         <marker scope="Public" name="butt_lostround">Shown her butt (butt_pre_roundreveal), lost the round</marker>
@@ -1170,6 +1209,8 @@
         <marker scope="Public" name="magma_strip_wild_poochyena" />
         <marker scope="Public" name="magmagrunt_gamestart_duplicate">Has seen another Team Magma Grunt at game start</marker>
         <marker scope="Public" name="magmagrunt_gamestart_livingdead">Has seen an Undead player at game start</marker>
+        <marker scope="Public" name="mariS_MG_hoodie_horns_question" />
+        <marker scope="Public" name="mariS_MG_tight_costume" />
         <marker scope="Public" name="mast_boobplay" />
         <marker scope="Public" name="mast_boobsquish" />
         <marker scope="Public" name="mast_butt_say" />
@@ -1578,6 +1619,10 @@
         <marker scope="Public" name="mg_rosa_strip5a" />
         <marker scope="Public" name="mg_rosa_strip5b" />
         <marker scope="Public" name="mg_rosa_strip5c" />
+        <marker scope="Public" name="mg_rose_backScar1" />
+        <marker scope="Public" name="mg_rose_backScar2" />
+        <marker scope="Public" name="mg_rose_backScar3" />
+        <marker scope="Public" name="mg_rose_show_phone" />
         <marker scope="Public" name="mg_saki_head_fall_off" />
         <marker scope="Public" name="mg_saki_zombie_reveal_no_saki" />
         <marker scope="Public" name="mg_saki_zombie_reveal_no_sakura" />
@@ -1744,6 +1789,11 @@
         <marker scope="Public" name="removing_accessory_f_shy" />
         <marker scope="Public" name="removing_accessory_f_student" />
         <marker scope="Public" name="rosa_vday" />
+        <marker scope="Public" name="rose_butt_Resp" />
+        <marker scope="Public" name="rose_flashing1" />
+        <marker scope="Public" name="rose_flashing2" />
+        <marker scope="Public" name="rose_show_anima" />
+        <marker scope="Public" name="rose_show_anima2" />
         <marker scope="Public" name="selected_3_aquas" />
         <marker scope="Public" name="selected_3_aquas2" />
         <marker scope="Public" name="selected_sharpedo" />

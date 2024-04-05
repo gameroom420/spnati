@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+    <owner>nephenee</owner>
+    <height />
+    <age />
+    <pronunciation />
+    <othernotes />
+    <noteworthy>
+        <case name="Hard Headed" id="12" priority="Noteworthy" min="6" max="6">
+            <description>Nephenee takes off all her clothes before removing her helmet as her last layer.</description>
+        </case>
+        <case name="Wrath" id="13" priority="FYI" min="5" max="5">
+            <description>When Nephenee is down to her last couple of layers, her Wrath ability may trigger during her stripping sequence and increase her AI level. (Make sure to target the marker.)</description>
+        </case>
+        <case name="What's the Word 1" id="24" priority="Prompt" min="0" max="5">
+            <description>If Nephenee is still trying her best to speak properly, she'll ask aloud what the proper term for boobs is right before a girl shows hers. (Make sure to target the marker.)</description>
+        </case>
+        <case name="What's the Word 2" id="25" priority="Prompt" min="0" max="5">
+            <description>If Nephenee is still trying her best to speak properly, she'll ask aloud what the proper term for vagina is right before a girl shows hers. (Make sure to target the marker.)</description>
+        </case>
+    </noteworthy>
+    <reviewed>true</reviewed>
+    <responses>
+        <response id="0" opponent="chihiro" opponentId="2" />
+        <response id="0" opponent="chihiro" opponentId="1" />
+        <response id="14" opponent="leviathan" opponentId="20" />
+        <response id="16" opponent="leviathan" opponentId="21" />
+        <response id="18" opponent="leviathan" opponentId="24" />
+        <response id="19" opponent="leviathan" opponentId="25" />
+        <response id="0" opponent="mari_setogaya" opponentId="22" />
+        <response id="0" opponent="mari_setogaya" opponentId="2" />
+        <response id="0" opponent="mari_setogaya" opponentId="55" />
+        <response id="0" opponent="mari_setogaya" opponentId="35" />
+        <response id="0" opponent="mari_setogaya" opponentId="21" />
+        <response id="0" opponent="mari_setogaya" opponentId="56" />
+        <response id="0" opponent="mari_setogaya" opponentId="1" />
+        <response id="21" opponent="leviathan" opponentId="28" />
+        <response id="0" opponent="nami" opponentId="13" />
+        <response id="22" opponent="nami" opponentId="12" />
+        <response id="23" opponent="leviathan" opponentId="30" />
+        <response id="0" opponent="ms.fortune" opponentId="24" />
+        <response id="26" opponent="aqua_kh" opponentId="67" />
+        <response id="27" opponent="zeke_pandoria" opponentId="643" />
+        <response id="28" opponent="zeke_pandoria" opponentId="644" />
+        <response id="29" opponent="zeke_pandoria" opponentId="645" />
+        <response id="30" opponent="zeke_pandoria" opponentId="639" />
+        <response id="31" opponent="zeke_pandoria" opponentId="646" />
+        <response id="32" opponent="meia" opponentId="1791" />
+        <response id="33" opponent="jura" opponentId="1649" />
+        <response id="34" opponent="revy" opponentId="604" />
+    </responses>
+    <labels>
+        <label id="1" label="" folder="Bobobo Non-conversations" sort="0" />
+        <label id="2" label="" folder="Bobobo Non-conversations" sort="0" />
+        <label id="3" label="" folder="Bobobo Non-conversations" sort="0" />
+        <label id="4" label="" folder="Bobobo Non-conversations" sort="0" />
+        <label id="5" label="" folder="Bobobo Non-conversations" sort="0" />
+        <label id="6" label="" folder="Bobobo Non-conversations" sort="0" />
+        <label id="7" label="" folder="Bobobo Non-conversations" sort="0" />
+        <label id="8" label="" folder="Bobobo Non-conversations" sort="0" />
+        <label id="9" label="" folder="Bobobo Non-conversations" sort="0" />
+        <label id="10" label="" folder="Bobobo Non-conversations" sort="0" />
+        <label id="11" label="" folder="Bobobo Non-conversations" sort="0" />
+    </labels>
+    <nextId>34</nextId>
+    <markers>
+        <marker scope="Public" name="" />
+        <marker scope="Public" name="AquaKH_s0_1" />
+        <marker scope="Public" name="Bobobo_s0_1" />
+        <marker scope="Public" name="Bobobo_s1_1" />
+        <marker scope="Public" name="Bobobo_s2_1" />
+        <marker scope="Public" name="Bobobo_s3_1" />
+        <marker scope="Public" name="Bobobo_s4_1" />
+        <marker scope="Public" name="Bobobo_s5_1" />
+        <marker scope="Public" name="jura_resp0_1" />
+        <marker scope="Public" name="Jura_s0_1" />
+        <marker scope="Public" name="Jura_s0_2" />
+        <marker scope="Public" name="Leviathan_Finalx" />
+        <marker scope="Public" name="Leviathan_Finalx2" />
+        <marker scope="Public" name="leviathan_resp0_1" />
+        <marker scope="Public" name="leviathan_resp0_2" />
+        <marker scope="Public" name="leviathan_resp0_3" />
+        <marker scope="Public" name="leviathan_resp1_1" />
+        <marker scope="Public" name="leviathan_resp1_2" />
+        <marker scope="Public" name="leviathan_resp1_3" />
+        <marker scope="Public" name="leviathan_resp2_1" />
+        <marker scope="Public" name="leviathan_resp2_2" />
+        <marker scope="Public" name="leviathan_resp2_3" />
+        <marker scope="Public" name="leviathan_resp3_1" />
+        <marker scope="Public" name="leviathan_resp3_2" />
+        <marker scope="Public" name="leviathan_resp3_3" />
+        <marker scope="Public" name="leviathan_resp4_1" />
+        <marker scope="Public" name="leviathan_resp4_2" />
+        <marker scope="Public" name="leviathan_resp4_3" />
+        <marker scope="Public" name="leviathan_resp5_1" />
+        <marker scope="Public" name="leviathan_resp5_2" />
+        <marker scope="Public" name="leviathan_resp5_3" />
+        <marker scope="Public" name="leviathan_resp6_1" />
+        <marker scope="Public" name="leviathan_resp6_2" />
+        <marker scope="Public" name="leviathan_resp6_3" />
+        <marker scope="Public" name="leviathan_resp6_3x" />
+        <marker scope="Public" name="Leviathan_s0_1" />
+        <marker scope="Public" name="Leviathan_s0_2" />
+        <marker scope="Public" name="Leviathan_s0_3" />
+        <marker scope="Public" name="Leviathan_s1_1" />
+        <marker scope="Public" name="Leviathan_s1_2" />
+        <marker scope="Public" name="Leviathan_s1_3" />
+        <marker scope="Public" name="Leviathan_s2_1" />
+        <marker scope="Public" name="Leviathan_s2_2" />
+        <marker scope="Public" name="Leviathan_s2_3" />
+        <marker scope="Public" name="Leviathan_s3_1" />
+        <marker scope="Public" name="Leviathan_s3_2" />
+        <marker scope="Public" name="Leviathan_s3_3" />
+        <marker scope="Public" name="Leviathan_s4_1" />
+        <marker scope="Public" name="Leviathan_s4_2" />
+        <marker scope="Public" name="Leviathan_s4_3" />
+        <marker scope="Public" name="Leviathan_s5_1" />
+        <marker scope="Public" name="Leviathan_s5_2" />
+        <marker scope="Public" name="Leviathan_s5_3" />
+        <marker scope="Public" name="meia_resp0_1" />
+        <marker scope="Public" name="Meia_s0_1" />
+        <marker scope="Public" name="Meia_s0_2" />
+        <marker scope="Public" name="nadeshiko_resp0_1" />
+        <marker scope="Public" name="nadeshiko_resp0_2" />
+        <marker scope="Public" name="nadeshiko_resp0_3" />
+        <marker scope="Public" name="nadeshiko_resp1_1" />
+        <marker scope="Public" name="nadeshiko_resp1_2" />
+        <marker scope="Public" name="nadeshiko_resp1_3" />
+        <marker scope="Public" name="nadeshiko_resp2_1" />
+        <marker scope="Public" name="nadeshiko_resp2_2" />
+        <marker scope="Public" name="nadeshiko_resp2_3" />
+        <marker scope="Public" name="nadeshiko_resp3_1" />
+        <marker scope="Public" name="nadeshiko_resp3_2" />
+        <marker scope="Public" name="nadeshiko_resp3_3" />
+        <marker scope="Public" name="nadeshiko_resp4_1" />
+        <marker scope="Public" name="nadeshiko_resp4_2" />
+        <marker scope="Public" name="nadeshiko_resp4_3" />
+        <marker scope="Public" name="nadeshiko_resp5_1" />
+        <marker scope="Public" name="nadeshiko_resp5_2" />
+        <marker scope="Public" name="nadeshiko_resp5_3" />
+        <marker scope="Public" name="nadeshiko_resp6_1" />
+        <marker scope="Public" name="nadeshiko_resp6_2" />
+        <marker scope="Public" name="nadeshiko_resp6_3" />
+        <marker scope="Public" name="nadeshiko_resp7_1" />
+        <marker scope="Public" name="nadeshiko_resp7_2" />
+        <marker scope="Public" name="Nadeshiko_s0_1" />
+        <marker scope="Public" name="Nadeshiko_s0_2" />
+        <marker scope="Public" name="Nadeshiko_s0_3" />
+        <marker scope="Public" name="Nadeshiko_s1_1" />
+        <marker scope="Public" name="Nadeshiko_s1_2" />
+        <marker scope="Public" name="Nadeshiko_s1_3" />
+        <marker scope="Public" name="Nadeshiko_s2_1" />
+        <marker scope="Public" name="Nadeshiko_s2_2" />
+        <marker scope="Public" name="Nadeshiko_s2_3" />
+        <marker scope="Public" name="Nadeshiko_s3_1" />
+        <marker scope="Public" name="Nadeshiko_s3_2" />
+        <marker scope="Public" name="Nadeshiko_s3_3" />
+        <marker scope="Public" name="Nadeshiko_s4_1" />
+        <marker scope="Public" name="Nadeshiko_s4_2" />
+        <marker scope="Public" name="Nadeshiko_s4_3" />
+        <marker scope="Public" name="Nadeshiko_s5_1" />
+        <marker scope="Public" name="Nadeshiko_s5_2" />
+        <marker scope="Public" name="Nadeshiko_s5_3" />
+        <marker scope="Public" name="Nadeshiko_s6_1" />
+        <marker scope="Public" name="Nadeshiko_s6_2" />
+        <marker scope="Public" name="Nadeshiko_s6_3" />
+        <marker scope="Public" name="Nadeshiko_s7_1" />
+        <marker scope="Public" name="Nadeshiko_s7_2" />
+        <marker scope="Public" name="Nadeshiko_s7_3" />
+        <marker scope="Public" name="Nadeshiko_sFinal_1" />
+        <marker scope="Public" name="Nadeshiko_sFinal_2" />
+        <marker scope="Public" name="nephenee_resp0_1" />
+        <marker scope="Public" name="nephenee_resp0_2" />
+        <marker scope="Public" name="nephenee_resp1_1" />
+        <marker scope="Public" name="nephenee_resp1_2" />
+        <marker scope="Public" name="nephenee_resp2_1" />
+        <marker scope="Public" name="nephenee_resp2_2" />
+        <marker scope="Public" name="nephenee_resp3_1" />
+        <marker scope="Public" name="nephenee_resp3_2" />
+        <marker scope="Public" name="nephenee_resp4_1" />
+        <marker scope="Public" name="nephenee_resp4_2" />
+        <marker scope="Public" name="nephenee_resp5_1" />
+        <marker scope="Public" name="nephenee_resp5_2" />
+        <marker scope="Public" name="Nonon_s5_3x" />
+        <marker scope="Public" name="Pussy" />
+        <marker scope="Public" name="revy_resp0_1" />
+        <marker scope="Public" name="roll_resp0_1" />
+        <marker scope="Public" name="roll_resp0_2" />
+        <marker scope="Public" name="roll_resp0_3" />
+        <marker scope="Public" name="roll_resp1_1" />
+        <marker scope="Public" name="roll_resp1_2" />
+        <marker scope="Public" name="roll_resp1_3" />
+        <marker scope="Public" name="roll_resp2_1" />
+        <marker scope="Public" name="roll_resp2_2" />
+        <marker scope="Public" name="roll_resp2_3" />
+        <marker scope="Public" name="roll_resp3_1" />
+        <marker scope="Public" name="roll_resp3_2" />
+        <marker scope="Public" name="roll_resp3_3" />
+        <marker scope="Public" name="roll_resp4_1" />
+        <marker scope="Public" name="roll_resp4_2" />
+        <marker scope="Public" name="roll_resp4_3" />
+        <marker scope="Public" name="roll_resp5_1" />
+        <marker scope="Public" name="roll_resp5_2" />
+        <marker scope="Public" name="roll_resp5_3" />
+        <marker scope="Public" name="roll_resp6_1" />
+        <marker scope="Public" name="roll_resp6_2" />
+        <marker scope="Public" name="roll_resp6_3" />
+        <marker scope="Public" name="Roll_s0_1" />
+        <marker scope="Public" name="Roll_s0_2" />
+        <marker scope="Public" name="Roll_s0_3" />
+        <marker scope="Public" name="Roll_s1_1" />
+        <marker scope="Public" name="Roll_s1_2" />
+        <marker scope="Public" name="Roll_s1_3" />
+        <marker scope="Public" name="Roll_s2_1" />
+        <marker scope="Public" name="Roll_s2_2" />
+        <marker scope="Public" name="Roll_s2_3" />
+        <marker scope="Public" name="Roll_s3_1" />
+        <marker scope="Public" name="Roll_s3_2" />
+        <marker scope="Public" name="Roll_s3_3" />
+        <marker scope="Public" name="Roll_s4_1" />
+        <marker scope="Public" name="Roll_s4_2" />
+        <marker scope="Public" name="Roll_s4_3" />
+        <marker scope="Public" name="Roll_s5_1" />
+        <marker scope="Public" name="Roll_s5_2" />
+        <marker scope="Public" name="Roll_s5_3" />
+        <marker scope="Public" name="Tits" />
+        <marker scope="Public" name="Wrath" />
+        <marker scope="Public" name="zandp_resp0_1" />
+        <marker scope="Public" name="zandp_resp0_2" />
+        <marker scope="Public" name="zandp_resp0_3" />
+        <marker scope="Public" name="zandp_resp5_1" />
+        <marker scope="Public" name="zandp_resp6_1" />
+    </markers>
+</metadata>

@@ -1,11 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <collectibles>
-    <collectible id="laser_ring" img="opponents/meia/laser-ring1.png" thumbnail="opponents/meia/laser-ring1.png">
-        <title>Laser Ring</title>
-        <subtitle>A Mejarian's weapon of choice.</subtitle>
-        <text>"My whole life changed the day I was given a laser ring.  Keep yourself safe with it---I'd like to meet you again."</text>
+    <collectible id="aura_camera" status="online" img="opponents/meia/auracamera.png" thumbnail="opponents/meia/auracamera.png">
+        <title>Aura Camera</title>
+        <subtitle>"Can't you tell just by looking?"</subtitle>
+        <text>A futuristic camera made by Parfet Balblair, Chief Engineer on the Nirvana.  Given to their young nurse Paiway as a toy with which she can "Pai-check" racy situations.&lt;br&gt;&lt;br&gt;In addition to regular photos, it can reveal the "emotional wavelengths" given off by the subject.  Their Paksis Pragma fusion core feeds off of these to produce energy.  Perhaps the same is true of all living things.</text>
         <unlock>Win a game against Meia.</unlock>
         <hide-details>true</hide-details>
+        <wearable>true</wearable>
+        <clothing img="opponents/meia/auracamera.png" name="Aura Camera" generic="" position="held" type="extra" />
     </collectible>
     <collectible id="suit" status="online" img="opponents/meia/suit.png" thumbnail="opponents/meia/suit.png">
         <title>Flightsuit</title>
@@ -23,11 +25,35 @@
         <unlock>Guide Meia's table through the Milky Way.</unlock>
         <hide-details>true</hide-details>
     </collectible>
+    <collectible id="photo" status="online" img="opponents/meia/photo.png" thumbnail="opponents/meia/photofinish.png">
+        <title>Photo Finish</title>
+        <subtitle>A memory beyond time and space.</subtitle>
+        <text>"I'll never be able to come back here.  So...you can take some photos if you'd like."</text>
+        <unlock>Give Meia some exposure when she's most exposed.</unlock>
+        <hide-details>true</hide-details>
+    </collectible>
+    <collectible id="handshake" status="online" img="opponents/meia/handshake.png" thumbnail="opponents/meia/hand.png">
+        <title>Handshake</title>
+        <subtitle>A postgame farewell.</subtitle>
+        <text>"I'm glad that I met you."</text>
+        <unlock>Make Meia lose as a male.</unlock>
+        <hide-details>true</hide-details>
+    </collectible>
+    <collectible id="laser_ring" status="online" img="opponents/meia/laser-ring1.png" thumbnail="opponents/meia/laser-ring1.png">
+        <title>Laser Ring</title>
+        <subtitle>The finger-wielded weapon of Mejare.</subtitle>
+        <text>"My whole life changed the day I was given one of these.  I hope you'll feel the same way."</text>
+        <unlock>Make Meia lose as a female.</unlock>
+        <hide-details>true</hide-details>
+        <wearable>true</wearable>
+        <clothing img="opponents/meia/laser-ring1.png" name="laser ring" generic="jewelry" position="hands" type="extra" />
+    </collectible>
     <collectible id="music_box" status="online" img="opponents/meia/musicboxopen.png" thumbnail="opponents/meia/musicbox.png">
         <title>Music Box</title>
         <subtitle>Somedays It's a Wonderful World.</subtitle>
         <text>A gift Meia received from her parents.  When opened, plays a song from Earth, the planet of their ancestors.&lt;br&gt;Clockwise from top right: Meia's Fama; Meia, age 6; Meia's Oma, now restored.  Behind the photo is a mirror.</text>
         <unlock>Play a game with Cupid Meia.</unlock>
+        <hidden>true</hidden>
         <hide-details>true</hide-details>
     </collectible>
 </collectibles>

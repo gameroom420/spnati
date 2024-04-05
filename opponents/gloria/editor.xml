@@ -985,13 +985,20 @@ Rosa's costume index
         <label id="760" label="" folder="Nadeshiko" sort="0" />
         <label id="761" label="" folder="Nadeshiko" sort="0" />
         <label id="762" label="" folder="Tag Filters" sort="0" />
+        <label id="763" label="" folder="Easter" sort="0" />
+        <label id="764" label="" folder="Easter" sort="0" />
+        <label id="765" label="" folder="Easter" sort="0" />
+        <label id="766" label="" folder="Easter" sort="0" />
+        <label id="767" label="" folder="Easter" sort="0" />
+        <label id="768" label="" folder="Easter" sort="0" />
+        <label id="769" label="" folder="Easter" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>gloriacostume==default</posePreviewMarker>
         <posePreviewMarker>nadeshikocostume==default</posePreviewMarker>
         <posePreviewMarker>rosacostume==default</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>762</nextId>
+    <nextId>769</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="__human_nickname" />

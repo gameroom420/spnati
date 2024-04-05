@@ -32,6 +32,13 @@
         <response id="25" opponent="hu_tao" opponentId="50" />
         <response id="26" opponent="reimu" opponentId="89" />
         <response id="27" opponent="ringo_ando" opponentId="310" />
+        <response id="28" opponent="queenie" opponentId="44" />
+        <response id="30" opponent="aqua_kh" opponentId="67" />
+        <response id="31" opponent="aqua_kh" opponentId="69" />
+        <response id="32" opponent="aqua_kh" opponentId="51" />
+        <response id="33" opponent="nonon" opponentId="779" />
+        <response id="34" opponent="senko" opponentId="15" />
+        <response id="35" opponent="senko" opponentId="168" />
     </responses>
     <notes>
         <note id="2">This case was hidden due to no longer making sense after changes were made to the targeted character. If you're rewriting this character, feel free to delete it.</note>
@@ -41,29 +48,82 @@
         <note id="6">This case was hidden due to no longer making sense after the line it was responding to was deleted. If you're rewriting this character, feel free to delete it.</note>
         <note id="7">This case was hidden due to no longer making sense after the line it was responding to was deleted. If you're rewriting this character, feel free to delete it.</note>
     </notes>
-    <nextId>27</nextId>
+    <nextId>36</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="a _figure_of_speech" />
         <marker scope="Public" name="a_figure_of_speech" />
         <marker scope="Public" name="accidents" />
+        <marker scope="Public" name="actress_cag" />
+        <marker scope="Public" name="admiring_toji" />
+        <marker scope="Public" name="agressive_nonon" />
+        <marker scope="Public" name="AKHussy" />
+        <marker scope="Public" name="alche_liz" />
+        <marker scope="Public" name="amenities_liz_books" />
+        <marker scope="Public" name="amenities_liz_music" />
         <marker scope="Public" name="angry" />
+        <marker scope="Public" name="applegone" />
+        <marker scope="Public" name="appleQ" />
+        <marker scope="Public" name="apron_senko" />
+        <marker scope="Public" name="attachments_senko" />
+        <marker scope="Public" name="bandQ" />
+        <marker scope="Public" name="beach_start" />
         <marker scope="Public" name="big_daddy" />
         <marker scope="Public" name="bioshocked" />
+        <marker scope="Public" name="blade_AKH" />
+        <marker scope="Public" name="bodysuit_lux" />
+        <marker scope="Public" name="boobies_lux" />
+        <marker scope="Public" name="boobies_nonon" />
+        <marker scope="Public" name="boobreveal_AKH" />
         <marker scope="Public" name="booker" />
+        <marker scope="Public" name="boots_lux" />
+        <marker scope="Public" name="boots_nonon" />
+        <marker scope="Public" name="bouncy_CD" />
+        <marker scope="Public" name="bra_CD" />
+        <marker scope="Public" name="bracers_cag" />
+        <marker scope="Public" name="brareveal_ringo" />
+        <marker scope="Public" name="breastplate_lux" />
+        <marker scope="Public" name="butt_AKH" />
+        <marker scope="Public" name="butt_nami" />
+        <marker scope="Public" name="buttgliostro" />
+        <marker scope="Public" name="buttonQ" />
+        <marker scope="Public" name="cag_chemist" />
+        <marker scope="Public" name="cag_cloak" />
+        <marker scope="Public" name="calmanoid" />
         <marker scope="Public" name="catria0" />
+        <marker scope="Public" name="CD" />
+        <marker scope="Public" name="CD_outfit" />
         <marker scope="Public" name="chairs" />
         <marker scope="Public" name="character_broken" />
+        <marker scope="Public" name="choices_nonon" />
+        <marker scope="Public" name="choices_senko" />
         <marker scope="Public" name="columbia" />
+        <marker scope="Public" name="connection_AKH" />
+        <marker scope="Public" name="consort_miko" />
+        <marker scope="Public" name="constume_senko" />
+        <marker scope="Public" name="corset_answer" />
+        <marker scope="Public" name="criticalbutt" />
+        <marker scope="Public" name="cute_cag" />
+        <marker scope="Public" name="danger_lux" />
+        <marker scope="Public" name="dangerlux" />
         <marker scope="Public" name="decency" />
+        <marker scope="Public" name="diff_tastes" />
+        <marker scope="Public" name="dress_nonon" />
+        <marker scope="Public" name="easy_dress" />
         <marker scope="Public" name="elizabeth_is_rude" />
         <marker scope="Public" name="erased" />
         <marker scope="Public" name="excited" />
         <marker scope="Public" name="experience" />
+        <marker scope="Public" name="eyes_yumeko" />
         <marker scope="Public" name="figurative_speech" />
         <marker scope="Public" name="first_blood" />
         <marker scope="Public" name="florina_hair" />
+        <marker scope="Public" name="floti_ngo" />
+        <marker scope="Public" name="fluffytail_senko" />
         <marker scope="Public" name="fluids" />
+        <marker scope="Public" name="fooliz" />
+        <marker scope="Public" name="forfeit_sit" />
+        <marker scope="Public" name="fox_girl_senko" />
         <marker scope="Public" name="French_lessons" />
         <marker scope="Public" name="French_lessons_p1" />
         <marker scope="Public" name="French_lessons_p2" />
@@ -74,46 +134,239 @@
         <marker scope="Public" name="French_lessons_p7" />
         <marker scope="Public" name="French_lessons_p8" />
         <marker scope="Public" name="friendly" />
+        <marker scope="Public" name="friendly_komi" />
+        <marker scope="Public" name="friendos" />
+        <marker scope="Public" name="funny_lux" />
+        <marker scope="Public" name="gambler_Y" />
+        <marker scope="Public" name="ghost_hu" />
+        <marker scope="Public" name="girl_miko" />
+        <marker scope="Public" name="goodgirl_nami" />
         <marker scope="Public" name="graceful_godot" />
+        <marker scope="Public" name="greenscreen_start" />
+        <marker scope="Public" name="gun_samus" />
+        <marker scope="Public" name="hair_AKH" />
+        <marker scope="Public" name="hairclip_doubt" />
+        <marker scope="Public" name="hat" />
+        <marker scope="Public" name="hat_hu" />
+        <marker scope="Public" name="hat_nonon" />
         <marker scope="Public" name="have" />
+        <marker scope="Public" name="heart_queenie" />
         <marker scope="Public" name="hermione_magic" />
         <marker scope="Public" name="hero" />
+        <marker scope="Public" name="hu_poem" />
         <marker scope="Public" name="hugger" />
         <marker scope="Public" name="hurt" />
+        <marker scope="Public" name="identity_senko" />
+        <marker scope="Public" name="intro_AHK" />
+        <marker scope="Public" name="intro_caglio" />
+        <marker scope="Public" name="intro_hu" />
+        <marker scope="Public" name="intro_queenie" />
+        <marker scope="Public" name="intro_reimu" />
+        <marker scope="Public" name="intro_yumeko" />
+        <marker scope="Public" name="jacket_joke" />
+        <marker scope="Public" name="jacket_komi" />
+        <marker scope="Public" name="jokes_lux" />
         <marker scope="Public" name="jota0" />
         <marker scope="Public" name="jurabutt" />
+        <marker scope="Public" name="kind_AKH" />
+        <marker scope="Public" name="kittykittyyumeko" />
         <marker scope="Public" name="kiz0" />
+        <marker scope="Public" name="komi_goals" />
         <marker scope="Public" name="komi_intro" />
+        <marker scope="Public" name="komi_relax" />
+        <marker scope="Public" name="komi_style" />
+        <marker scope="Public" name="komi_talking" />
         <marker scope="Public" name="lady_comstock" />
+        <marker scope="Public" name="leaving" />
+        <marker scope="Public" name="life_gamble" />
+        <marker scope="Public" name="liz_lux" />
+        <marker scope="Public" name="loud_nonon" />
         <marker scope="Public" name="lutece" />
+        <marker scope="Public" name="luxxy" />
+        <marker scope="Public" name="magic?" />
+        <marker scope="Public" name="magicQ" />
         <marker scope="Public" name="marceline_is_a_vampire" />
+        <marker scope="Public" name="matching_undies" />
         <marker scope="Public" name="meia_blue_hair" />
         <marker scope="Public" name="men" />
         <marker scope="Public" name="merci" />
+        <marker scope="Public" name="metroidQ" />
+        <marker scope="Public" name="miko_toji" />
+        <marker scope="Public" name="mirror_cag" />
+        <marker scope="Public" name="mismatched_CD" />
         <marker scope="Public" name="mistaken_identity" />
         <marker scope="Public" name="mistys_bad_friends" />
+        <marker scope="Public" name="modestyQ" />
         <marker scope="Public" name="morrigan_bats" />
+        <marker scope="Public" name="motivesAKH" />
         <marker scope="Public" name="mula0" />
+        <marker scope="Public" name="naked_blue" />
         <marker scope="Public" name="navi0" />
         <marker scope="Public" name="naviyru0" />
         <marker scope="Public" name="nayru0" />
         <marker scope="Public" name="new_things" />
+        <marker scope="Public" name="nice_tojiko" />
+        <marker scope="Public" name="nicegrl_senko" />
+        <marker scope="Public" name="nickname_CD" />
         <marker scope="Public" name="nightmare" />
+        <marker scope="Public" name="nobra_hu" />
+        <marker scope="Public" name="nonon_hair" />
+        <marker scope="Public" name="nonon_personality1" />
+        <marker scope="Public" name="nonon_personality2" />
+        <marker scope="Public" name="nonon_strategy" />
+        <marker scope="Public" name="nopanties_hu" />
+        <marker scope="Public" name="not_surprised" />
+        <marker scope="Public" name="notheplace" />
         <marker scope="Public" name="odd" />
+        <marker scope="Public" name="oddQ" />
+        <marker scope="Public" name="pamper_liz" />
         <marker scope="Public" name="panties" />
+        <marker scope="Public" name="panties_komicute" />
+        <marker scope="Public" name="panties_senko" />
+        <marker scope="Public" name="paranoia" />
         <marker scope="Public" name="paris" />
+        <marker scope="Public" name="paris_start" />
+        <marker scope="Public" name="penQ" />
         <marker scope="Public" name="picture" />
+        <marker scope="Public" name="pink_shoes" />
+        <marker scope="Public" name="play_uno" />
         <marker scope="Public" name="polite" />
+        <marker scope="Public" name="pretty_lux" />
+        <marker scope="Public" name="prince_miko" />
         <marker scope="Public" name="princess" />
+        <marker scope="Public" name="prudish_liz" />
         <marker scope="Public" name="puyos" />
+        <marker scope="Public" name="puyos_bra" />
+        <marker scope="Public" name="puyosQ" />
+        <marker scope="Public" name="queenie_attitude" />
+        <marker scope="Public" name="queenietrick" />
+        <marker scope="Public" name="questionMikan" />
+        <marker scope="Public" name="radiant_lux" />
         <marker scope="Public" name="reading" />
+        <marker scope="Public" name="redeyes_yumeko" />
+        <marker scope="Public" name="relateto_AKH" />
         <marker scope="Public" name="remi0" />
+        <marker scope="Public" name="ribbonsQ" />
+        <marker scope="Public" name="rin_tro" />
+        <marker scope="Public" name="ring_butt" />
+        <marker scope="Public" name="ringo_boobs" />
+        <marker scope="Public" name="robe_senko" />
         <marker scope="Public" name="robot" />
+        <marker scope="Public" name="robot_lady" />
+        <marker scope="Public" name="robot_trust" />
+        <marker scope="Public" name="samus_bod" />
+        <marker scope="Public" name="samus_songbird" />
+        <marker scope="Public" name="samus_trust" />
         <marker scope="Public" name="sanagisa0" />
         <marker scope="Public" name="sanako0" />
+        <marker scope="Public" name="sandals_senko" />
+        <marker scope="Public" name="sashes_AKH" />
+        <marker scope="Public" name="senko_boobs" />
+        <marker scope="Public" name="shorts_AKH" />
+        <marker scope="Public" name="shower_nami" />
+        <marker scope="Public" name="sill_iz" />
+        <marker scope="Public" name="singer_CD" />
+        <marker scope="Public" name="skirt_lux" />
+        <marker scope="Public" name="smartojiko" />
+        <marker scope="Public" name="socks_AKH" />
+        <marker scope="Public" name="socks_CD" />
+        <marker scope="Public" name="socks_senko" />
         <marker scope="Public" name="songbird" />
+        <marker scope="Public" name="spouse_reimu" />
+        <marker scope="Public" name="st_nonon" />
+        <marker scope="Public" name="staff_fly" />
+        <marker scope="Public" name="staff_gone" />
+        <marker scope="Public" name="staff_nami" />
+        <marker scope="Public" name="staff_returned" />
+        <marker scope="Public" name="stillsocks_senko" />
+        <marker scope="Public" name="story_komi" />
+        <marker scope="Public" name="strategy_ringo" />
+        <marker scope="Public" name="strong_lux" />
+        <marker scope="Public" name="surprised_liz_tojiko" />
+        <marker scope="Public" name="surprisedbyYumeko" />
+        <marker scope="Public" name="sword_miko" />
+        <marker scope="Public" name="tallerliz" />
         <marker scope="Public" name="the_rapture" />
+        <marker scope="Public" name="thingsincommon" />
+        <marker scope="Public" name="tiara_cag" />
+        <marker scope="Public" name="tiny_nonon" />
+        <marker scope="Public" name="toji_boobs" />
         <marker scope="Public" name="tower" />
+        <marker scope="Public" name="towers" />
+        <marker scope="Public" name="trick_queenie" />
+        <marker scope="Public" name="trust_miko" />
+        <marker scope="Public" name="ug_liz" />
+        <marker scope="Public" name="underwear_yuno" />
+        <marker scope="Public" name="underwearCD?" />
+        <marker scope="Public" name="underwearQ_CD" />
+        <marker scope="Public" name="uno_colors" />
+        <marker scope="Public" name="uno_form" />
+        <marker scope="Public" name="uno_one" />
+        <marker scope="Public" name="warrior_lux" />
+        <marker scope="Public" name="water_blue" />
+        <marker scope="Public" name="weirdos" />
+        <marker scope="Public" name="whynotskirt_yumeko" />
+        <marker scope="Public" name="wife_miko" />
+        <marker scope="Public" name="wifematerial_nop" />
         <marker scope="Public" name="will_the_circle_be_unbroken" />
+        <marker scope="Public" name="womanhood" />
+        <marker scope="Public" name="youkay" />
+        <marker scope="Public" name="yumeko_blouse" />
+        <marker scope="Public" name="Yumeko_butt" />
+        <marker scope="Public" name="yumeko_choice" />
+        <marker scope="Public" name="yumeko_surprise" />
+        <marker scope="Public" name="yuno_dong" />
+        <marker scope="Public" name="yuno_intro" />
+        <marker scope="Public" name="yuno_reveal" />
+        <marker scope="Public" name="zerosuit_gone" />
     </markers>
+    <pendingLines>
+        <line>&lt;i&gt;&lt;/i&gt;</line>
+        <line>~~</line>
+        <line>markers: </line>
+        <line>Add finished lines to: Aqua KH, Komi - San, Reimu, Nonon, Hu Tao, Samus, Lux, Critical Darling, Mikan, Yuno, Nami. Senko, Queenie, Yumeko.</line>
+        <line>Add forfeit lines: Mikan, Yuno, Senko, </line>
+        <line>add chit chat lines: Mikan, </line>
+        <line>without targets/ in need of review:</line>
+        <line>1. Shamiko.                                                 41. Marinette.                              81. Kora.                         121. Yusuke.                                  161. KIzuna AI.                              201. Kyouku</line>
+        <line>2. Aqua. (konsuba)                                      42. Cheyl.                                    82. Barbara.                    122. Bernardette.                            162. Sayaka                                  202. Ribbon Girl </line>
+        <line>3. Lyn.                                                         43. Cat Noir.                                83. Dawn.                        123. Chihiro.                                    163. Misato.                                  203. Sanako.</line>
+        <line>4. Fluttershy.                                                44. Natsuki.                                84. Sei.                             124. Guzma.                                   164. Jotaro. </line>
+        <line>5. Mari.                                                        45. Nadeshiko.                           85. Wasp.                         125. Starfire.                                    165. Jolyne.</line>
+        <line>6. Laevatein.                                               46. Kumatora.                             86. Elesa.                           126. N.                                            166. Tharja. </line>
+        <line>7. Ryuko.                                                    47. Felix.                                     87. Erufuda.                        127. Ayano.                                    167. Mavis.</line>
+        <line>8. Jura.                                                        48. Pinkie.                                  88. Dark Magician Girl.        128. Futaba.                                   168. Palutena.</line>
+        <line>9. Meia.                                                       49. Beatrix.                                 89. Elphaba                          129. Ryuji.                                      169. Haru.  </line>
+        <line>10. Revy.                                                     50. Joey.                                    90. Dwight                           130. Pit.                                           170. Catria. </line>
+        <line>11. Hilda.                                                     51. Rainbow Dash.                    91. Hanako.                         131. L'Arachel.                                 171. Yuelia</line>
+        <line>12. Mercy.                                                   52. Myriam.                                 92. May.                               132, Kyou.                                        172. Florina.</line>
+        <line>13. Aaravi.                                                   53. Nagisa.                                 93. Panty.                             133. Saki                                          173. Zone- Tan. </line>
+        <line>14. Leon.                                                     54. Sucrose.                               94. Aqua Grunt.                    134. Weiss.                                       174. Misty.</line>
+        <line>15. Rouge.                                                  55. Toph.                                    95. Tomoko.                          135. Cynthia.                                     175. Mae.</line>
+        <line>16. Nico Robin.                                           56. Caitlin.                                   96. Eichi.                               136. Saki (Emergence)                       176. Mahiru. </line>
+        <line>17. Sheena.                                                57. Noire.                                    97. Nugi - Chan.                     137. Chara.                                         177. Croix.</line>
+        <line>18. Maria.                                                    58. Stocking.                              98. Navi.                                138. Streaming Chan                           178. Juri. </line>
+        <line>19. Roll.                                                       59. Bowsette.                             99. Moon.                               139. Fina.                                             179. Chun Li</line>
+        <line>20. Kaz.                                                       60. Solar Flare.                          100. Kazuma.                           140. Spider Woman.                            180. Cammy.</line>
+        <line>21. Y'Shtola.                                                61. Zoe.                                    101. Magma Grunt.                   141. Jessie.                                          181. Buffy. </line>
+        <line>22. Bobobo.                                                 62. Sakura.                               102. Caulifla.                             142. Amy (sonic)                                   182. Chiaki. </line>
+        <line>23. Mitama.                                                  63. Petra.                                   103. Amy.                                 143. Ms. Fortune.                                 183. Leggy. </line>
+        <line>24. Sweetheart.                                           64. Aella.                                    104. Trixie.                                144. Lunch.                                          184. R. Mika.</line>
+        <line>25. Asuna.                                                   65. Polly.                                    105. Rarity.                                145. Syrenne.                                       185. Coco.</line>
+        <line>26. Dust.                                                      66. Lotte.                                    106. Twilight.                             146. PA-15                                           186. Rinkah.</line>
+        <line>27. Monika.                                                  67. Raven.                                 107. Aloy.                                   147. Remilia.                                        187. Amalia.  </line>
+        <line>28. Mia.                                                        68. Spooky.                                108. Anatoly.                              148. Shimakaze.                                  188. Nayru. </line>
+        <line>29. Pyrrha.                                                    69. Nagatoro.                             109. Windranger.                       149. Shantae.                                       189. Kyu.</line>
+        <line>30. Yuri.                                                        70. Yunyun.                                110. Binah.                                 150. Brock.                                           190. Ochako. </line>
+        <line>31. Arushalae.                                               71. Princess Rosalia.                  111. Sayori.                               151. Emi.                                               191. Ruby.</line>
+        <line>32. Tea.                                                        72. Supernova.                           112. Noelle.                                152. Rin.                                              192.  Jenna.</line>
+        <line>33. Dunban.                                                 73. Wikipe - Tan.                         113. Jin.                                     153. Mulan.                                           193. Lyshitea.</line>
+        <line>34. Neptune.                                                74. Mari.                                       114. Wi-Fit Trainer                     154. Lucina.                                           194. Sofia.</line>
+        <line>35. Raynor.                                                   75. Estelle.                                   115. Sly Cooper.                        155. Galatea.                                         195. Yae.</line>
+        <line>36. Arle Nadja.                                              76. Videl                                       116. Turandot.                           156. Aako.                                            196. Yae Miko.</line>
+        <line>37. Gloria.                                                     77. Perona.                                   117. Mary.                                  157. Ini.                                                 197. Moskii</line>
+        <line>38. Leonie.                                                    78. Hatsune Miku.                        118. Twisted Fate.                      158. Chazz.                                          198. Rose.</line>
+        <line>39. Heris.                                                       79. Takatoshi.                              119. Franziska.                            159. Velma.                                         199. Zeke - Pandoria. </line>
+        <line>40. Kamina.                                                    80. Ignatz.                                    120. Megumin.                             160. Orendi.                                         200. Kyoko.</line>
+    </pendingLines>
 </metadata>

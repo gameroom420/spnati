@@ -1,0 +1,403 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+    <owner>aoi_asahina</owner>
+    <height>5' 3"</height>
+    <age />
+    <pronunciation />
+    <othernotes>Hair and eyes by Chubsnubs&lt;br&gt;Boobs by Unknown</othernotes>
+    <noteworthy>
+        <case name="Running Like Crazy" id="10" priority="MustTarget" min="9" max="9">
+            <description>If the background has water, Aoi will go swimming.</description>
+        </case>
+        <case name="Aoi Returns" id="39" priority="MustTarget" min="9" max="9">
+            <description>Aoi returns from her swim.</description>
+        </case>
+        <case name="New Record" id="55" priority="Prompt" min="0" max="0">
+            <description>Aoi hasn't stripped for 15 rounds. She asks if that's a new record.</description>
+        </case>
+    </noteworthy>
+    <reviewed>true</reviewed>
+    <responses>
+        <response id="5" opponent="kyoko_kirigiri" opponentId="55" />
+        <response id="112" opponent="kyoko_kirigiri" opponentId="168" />
+        <response id="136" opponent="brock" opponentId="1" />
+        <response id="138" opponent="kyoko_kirigiri" opponentId="42" />
+        <response id="142" opponent="elesa" opponentId="1" />
+        <response id="154" opponent="sakura" opponentId="2" />
+        <response id="174" opponent="noelle" opponentId="41" />
+        <response id="192" opponent="ringo_ando" opponentId="310" />
+        <response id="193" opponent="ringo_ando" opponentId="88" />
+    </responses>
+    <notes>
+        <note id="162">In the school mode timeline, Mukuro Ikusaba still dresses up as Junko. In Summer Camp, Junko doesn't even show up if Mukuro is there.</note>
+        <note id="168">Has a duplicate for if Kyoko is the one selected.</note>
+        <note id="169">This may trigger a joint epilogue if it ever comes down to that.</note>
+        <note id="177">This line has a duplicate for if Hina is selected first.</note>
+    </notes>
+    <labels>
+        <label id="1" label="" folder="Player Exposed" sort="0" />
+        <label id="2" label="Palm 1" folder="Sequences" sort="0" />
+        <label id="3" label="Palm1" folder="Sequences" sort="0" />
+        <label id="4" label="Palm2" folder="Sequences" sort="0" />
+        <label id="6" label="" folder="Sequences" sort="0" />
+        <label id="7" label="" folder="Sequences" sort="0" />
+        <label id="8" label="" folder="Sequences" sort="0" />
+        <label id="9" label="" folder="Player Exposed" sort="0" />
+        <label id="10" label="" folder="Sequences" sort="0" />
+        <label id="11" label="Swim Link 3" folder="Sequences" sort="0" />
+        <label id="12" label="" folder="Sequences" sort="0" />
+        <label id="13" label="Shoes" folder="" sort="0" />
+        <label id="14" label="Tank Top" folder="" sort="0" />
+        <label id="15" label="Socks" folder="" sort="0" />
+        <label id="16" label="Legband" folder="" sort="0" />
+        <label id="17" label="Jacket" folder="" sort="0" />
+        <label id="18" label="" folder="Situations" sort="0" />
+        <label id="19" label="Underwear" folder="" sort="0" />
+        <label id="20" label="Shoes" folder="" sort="0" />
+        <label id="21" label="Socks" folder="" sort="0" />
+        <label id="22" label="Tank Top" folder="" sort="0" />
+        <label id="23" label="Legband" folder="" sort="0" />
+        <label id="24" label="Jacket" folder="" sort="0" />
+        <label id="25" label="Tank Top (Override)" folder="Overrides" sort="0" />
+        <label id="26" label="Shorts" folder="" sort="0" />
+        <label id="27" label="Underwear" folder="" sort="0" />
+        <label id="28" label="Tank Top (Danganronpa)" folder="Sequences" sort="0" />
+        <label id="29" label="" folder="Sequences" sort="0" />
+        <label id="30" label="10 Rounds" folder="Situations" sort="0" />
+        <label id="31" label="Shorts" folder="" sort="0" />
+        <label id="33" label="Run 2" folder="Sequences" sort="0" />
+        <label id="34" label="Run 3" folder="Sequences" sort="0" />
+        <label id="35" label="Run 4" folder="Sequences" sort="0" />
+        <label id="36" label="First Loss" folder="Situations" sort="0" />
+        <label id="38" label="Player Royal Flush" folder="Situations" sort="0" />
+        <label id="39" label="" folder="Sequences" sort="0" />
+        <label id="40" label="1st Strip" folder="Situations" sort="0" />
+        <label id="41" label="" folder="Situations" sort="0" />
+        <label id="42" label="Early Game" folder="Basics" sort="0" />
+        <label id="43" label="Decent" folder="Basics" sort="0" />
+        <label id="44" label="Exposed" folder="Basics" sort="0" />
+        <label id="45" label="Forfeit" folder="Basics" sort="0" />
+        <label id="46" label="" folder="Basics" sort="0" />
+        <label id="47" label="" folder="Situations" sort="0" />
+        <label id="48" label="Shorts" folder="" sort="0" />
+        <label id="49" label="" folder="Situations" sort="0" />
+        <label id="50" label="" folder="Situations" sort="0" />
+        <label id="51" label="Jacket (Override)" folder="Overrides" sort="0" />
+        <label id="52" label="Underwear (Override)" folder="Overrides" sort="0" />
+        <label id="53" label="Birthday Suit" folder="Overrides" sort="0" />
+        <label id="55" label="" folder="Situations" sort="0" />
+        <label id="56" label="" folder="Situations" sort="0" />
+        <label id="57" label="" folder="Basics" sort="0" />
+        <label id="58" label="" folder="Target: Nadeshiko" sort="0" />
+        <label id="59" label="" folder="Basics" sort="0" />
+        <label id="60" label="" folder="Basics" sort="0" />
+        <label id="61" label="" folder="Basics" sort="0" />
+        <label id="62" label="" folder="Basics" sort="0" />
+        <label id="63" label="" folder="Basics" sort="0" />
+        <label id="64" label="" folder="Basics" sort="0" />
+        <label id="65" label="" folder="Basics" sort="0" />
+        <label id="66" label="" folder="Basics" sort="0" />
+        <label id="67" label="" folder="Basics" sort="0" />
+        <label id="68" label="" folder="Basics" sort="0" />
+        <label id="69" label="" folder="Basics" sort="0" />
+        <label id="70" label="" folder="Basics" sort="0" />
+        <label id="71" label="DR Table" folder="" sort="0" />
+        <label id="72" label="" folder="Sequences" sort="0" />
+        <label id="73" label="" folder="Situations" sort="0" />
+        <label id="74" label="" folder="Situations" sort="0" />
+        <label id="75" label="Socks (Override)" folder="Overrides" sort="0" />
+        <label id="76" label="Early Game" folder="" sort="0" />
+        <label id="77" label="Decent" folder="" sort="0" />
+        <label id="78" label="Exposed" folder="" sort="0" />
+        <label id="79" label="Forfeit" folder="" sort="0" />
+        <label id="81" label="Early Game" folder="" sort="0" />
+        <label id="82" label="Socks" folder="Clothing" sort="0" />
+        <label id="84" label="Swimsuit" folder="Clothing" sort="0" />
+        <label id="83" label="Shoes" folder="Clothing" sort="0" />
+        <label id="86" label="" folder="Sequences" sort="0" />
+        <label id="87" label="Starting Line" folder="Sequences" sort="0" />
+        <label id="88" label="" folder="Sequences" sort="0" />
+        <label id="85" label="Extra" folder="Basics" sort="0" />
+        <label id="89" label="Minor" folder="Basics" sort="0" />
+        <label id="90" label="Major" folder="Basics" sort="0" />
+        <label id="91" label="Important" folder="Basics" sort="0" />
+        <label id="92" label="Donuts" folder="Sequences" sort="0" />
+        <label id="80" label="Postgame" folder="" sort="0" />
+        <label id="96" label="ChihiroCharm1" folder="Sequences" sort="0" />
+        <label id="97" label="ChihiroCharm2" folder="Sequences" sort="0" />
+        <label id="98" label="" folder="Basics" sort="0" />
+        <label id="99" label="" folder="Basics" sort="0" />
+        <label id="100" label="Bra" folder="Clothing" sort="0" />
+        <label id="101" label="Skip" folder="Sequences" sort="0" />
+        <label id="102" label="" folder="Sequences" sort="0" />
+        <label id="103" label="Post Swim" folder="Sequences" sort="0" />
+        <label id="104" label="" folder="Sequences" sort="0" />
+        <label id="105" label="Birthday + Mahiru" folder="Overrides" sort="0" />
+        <label id="106" label="Office" folder="Backgrounds" sort="0" />
+        <label id="107" label="Start Swim Link" folder="Sequences" sort="0" />
+        <label id="108" label="Water" folder="Backgrounds" sort="0" />
+        <label id="109" label="Swim Link 1" folder="Sequences" sort="0" />
+        <label id="110" label="Swim Link 2" folder="Sequences" sort="0" />
+        <label id="111" label="First Forfeit" folder="Sequences" sort="0" />
+        <label id="112" label="" folder="Target: Kyoko" sort="0" />
+        <label id="113" label="" folder="Target: Kyoko" sort="0" />
+        <label id="114" label="First Forfeit" folder="Sequences" sort="0" />
+        <label id="117" label="Practice Run 1" folder="Sequences" sort="0" />
+        <label id="118" label="Practice Run 2" folder="Sequences" sort="0" />
+        <label id="119" label="Practice Run 3" folder="Sequences" sort="0" />
+        <label id="120" label="Practice Run 4" folder="Sequences" sort="0" />
+        <label id="121" label="" folder="Overrides" sort="0" />
+        <label id="122" label="" folder="Situations" sort="0" />
+        <label id="123" label="Set Confident" folder="Situations" sort="0" />
+        <label id="124" label="Games Played" folder="" sort="0" />
+        <label id="125" label="Game Played" folder="" sort="0" />
+        <label id="126" label="Practice Run 1" folder="Practice Run" sort="0" />
+        <label id="127" label="Practice Run 2" folder="Practice Run" sort="0" />
+        <label id="128" label="Practice Run 3" folder="Practice Run" sort="0" />
+        <label id="129" label="Practice Run 4" folder="Practice Run" sort="0" />
+        <label id="130" label="Games Played" folder="" sort="0" />
+        <label id="131" label="" folder="Sequences" sort="0" />
+        <label id="132" label="Boob Distraction" folder="Sequences" sort="0" />
+        <label id="133" label="Baseball Quotes" folder="Sequences" sort="0" />
+        <label id="134" label="42" folder="Sequences" sort="0" />
+        <label id="137" label="" folder="Situations" sort="0" />
+        <label id="139" label="Home Run" folder="Sequences" sort="0" />
+        <label id="140" label="" folder="Sequences" sort="0" />
+        <label id="141" label="" folder="Sequences" sort="0" />
+        <label id="143" label="Last One Out" folder="" sort="0" />
+        <label id="144" label="First Forfeit" folder="Sequences" sort="0" />
+        <label id="145" label="Socks (Override)" folder="Overrides" sort="0" />
+        <label id="146" label="" folder="Situations" sort="0" />
+        <label id="147" label="Unlocks Collectible" folder="Sequences" sort="0" />
+        <label id="148" label="Collectible" folder="" sort="0" />
+        <label id="149" label="DR Table" folder="" sort="0" />
+        <label id="152" label="First Round Positive" folder="Sequences" sort="0" />
+        <label id="153" label="First Round Negative" folder="Sequences" sort="0" />
+        <label id="157" label="Two Kyokos" folder="Target: Kyoko" sort="0" />
+        <label id="158" label="Two Kyokos" folder="" sort="0" />
+        <label id="159" label="Kyoko Set Confident" folder="" sort="0" />
+        <label id="161" label="" folder="Target: Kyoko" sort="0" />
+        <label id="163" label="Tank Top Kyoko" folder="Target: Kyoko" sort="0" />
+        <label id="164" label="Underwear Kyoko" folder="Target: Kyoko" sort="0" />
+        <label id="165" label="" folder="Situations" sort="0" />
+        <label id="166" label="Underwear Kyoko" folder="Target: Kyoko" sort="0" />
+        <label id="167" label="" folder="Target: Kyoko" sort="0" />
+        <label id="170" label="Early Game" folder="" sort="0" />
+        <label id="171" label="Forfeit" folder="" sort="0" />
+        <label id="172" label="Postgame" folder="" sort="0" />
+        <label id="173" label="" folder="Sequences" sort="0" />
+        <label id="175" label="Skinny Dipping" folder="" sort="0" />
+        <label id="176" label="" folder="Target: Nadeshiko" sort="0" />
+        <label id="183" label="Early Game" folder="" sort="0" />
+        <label id="138" label="" folder="Target: Kyoko" sort="0" />
+        <label id="185" label="" folder="Target: Kyoko" sort="0" />
+        <label id="186" label="" folder="Target: Chihiro" sort="0" />
+        <label id="187" label="" folder="Target: Chihiro" sort="0" />
+        <label id="188" label="Aqua School Blank" folder="" sort="0" />
+        <label id="189" label="Aqua School Kyoko" folder="" sort="0" />
+        <label id="190" label="Aqua School Chihiro" folder="" sort="0" />
+        <label id="194" label="Beat Kyoko A" folder="" sort="0" />
+        <label id="195" label="Beat Kyoko B" folder="" sort="0" />
+        <label id="196" label="Two Kyokos" folder="" sort="0" />
+        <label id="197" label="Underwear Kyoko" folder="Target: Kyoko" sort="0" />
+        <label id="200" label="" folder="Target: Kyoko" sort="0" />
+        <label id="201" label="" folder="Target: Kyoko" sort="0" />
+        <label id="202" label="" folder="Target: Kyoko" sort="0" />
+        <label id="204" label="CoMast1" folder="" sort="0" />
+        <label id="205" label="CoMast3" folder="" sort="0" />
+        <label id="206" label="CoMast2" folder="" sort="0" />
+        <label id="207" label="CoMast4" folder="" sort="0" />
+        <label id="208" label="Beach" folder="Backgrounds" sort="0" />
+        <label id="210" label="" folder="Situations" sort="0" />
+        <label id="212" label="" folder="Situations" sort="0" />
+        <label id="213" label="" folder="Target: Kyoko" sort="0" />
+        <label id="214" label="" folder="Target: Kyoko" sort="0" />
+        <label id="215" label="" folder="Target: Kyoko" sort="0" />
+    </labels>
+    <nextId>215</nextId>
+    <markers>
+        <marker scope="Private" name="B_">Background related markers.</marker>
+        <marker scope="Public" name="B_BeachTan" />
+        <marker scope="Public" name="B_DRClassroom" />
+        <marker scope="Public" name="B_KyokoClassroom" />
+        <marker scope="Public" name="B_KyokoShower" />
+        <marker scope="Private" name="D_">Dialogue that doesn't fit in other categories.</marker>
+        <marker scope="Public" name="D_Ability" />
+        <marker scope="Public" name="D_BoobDistract" />
+        <marker scope="Public" name="D_ComputerCardGames" />
+        <marker scope="Public" name="D_Impossible" />
+        <marker scope="Public" name="D_RelayRace" />
+        <marker scope="Public" name="D_Sand" />
+        <marker scope="Public" name="D_Topless" />
+        <marker scope="Public" name="D_TwoKyokos" />
+        <marker scope="Public" name="D_WeDontTalkAboutJunko" />
+        <marker scope="Private" name="F">Lines that target specific filters.</marker>
+        <marker scope="Public" name="F_ChubbyTraining" />
+        <marker scope="Public" name="hina_chihiro_endW" />
+        <marker scope="Private" name="L_">Linked dialogue that form sequences.</marker>
+        <marker scope="Public" name="L_AoiDeparts" />
+        <marker scope="Public" name="L_AoiReturns" />
+        <marker scope="Public" name="L_AoiSwims" />
+        <marker scope="Public" name="L_BigRisk" />
+        <marker scope="Public" name="L_ChihiroCharm1" />
+        <marker scope="Public" name="L_ChihiroCharm2" />
+        <marker scope="Public" name="L_DeckStack" />
+        <marker scope="Public" name="L_FirstForfeit" />
+        <marker scope="Public" name="L_FirstRound" />
+        <marker scope="Public" name="L_FirstRound-" />
+        <marker scope="Public" name="L_FirstRound+" />
+        <marker scope="Public" name="L_GreatHand" />
+        <marker scope="Public" name="L_HeroTime" />
+        <marker scope="Public" name="L_Hunch" />
+        <marker scope="Public" name="L_NadeSkinnyDip" />
+        <marker scope="Public" name="L_Palm" />
+        <marker scope="Public" name="L_Palm1" />
+        <marker scope="Public" name="L_Palm2" />
+        <marker scope="Public" name="L_PracticeResolve" />
+        <marker scope="Public" name="L_PracticeRun" />
+        <marker scope="Public" name="L_PracticeRun2" />
+        <marker scope="Public" name="L_RunningThoughts" />
+        <marker scope="Public" name="L_Skipped" />
+        <marker scope="Public" name="L_StartingLine" />
+        <marker scope="Public" name="L_SwimLikeCrazy" />
+        <marker scope="Public" name="L_SwimThoughts" />
+        <marker scope="Public" name="L_TheMan" />
+        <marker scope="Public" name="L_Type" />
+        <marker scope="Private" name="Q_">Called out questions and prompts.</marker>
+        <marker scope="Public" name="Q_Donuts" />
+        <marker scope="Public" name="Q_NewRecord" />
+        <marker scope="Public" name="Q_SurvivorGames" />
+        <marker scope="Private" name="S_">Self stripping related.</marker>
+        <marker scope="Public" name="S_Backstory" />
+        <marker scope="Public" name="S_FutureFoundation?" />
+        <marker scope="Public" name="S_Jacket" />
+        <marker scope="Public" name="S_KyokoButtPose" />
+        <marker scope="Public" name="S_Legband" />
+        <marker scope="Public" name="S_Towel" />
+        <marker scope="Public" name="S_WhatILove" />
+        <marker scope="Private" name="T_">Lines that target other characters.</marker>
+        <marker scope="Public" name="T_AquaRecord" />
+        <marker scope="Public" name="T_ChihiroAlterEgo" />
+        <marker scope="Public" name="T_ChihiroEnd" />
+        <marker scope="Public" name="T_ChihiroSecret" />
+        <marker scope="Public" name="T_ChihiroStart" />
+        <marker scope="Public" name="T_ChihiroStripping4" />
+        <marker scope="Public" name="T_KokichiStart" />
+        <marker scope="Public" name="T_Kyoko_1-2Junko" />
+        <marker scope="Public" name="T_Kyoko_EndingL">Kyoko wins, Hina lost.</marker>
+        <marker scope="Public" name="T_Kyoko_EndingW">Hina wins. Kyoko lost.</marker>
+        <marker scope="Public" name="T_Kyoko_IntroWater" />
+        <marker scope="Public" name="T_Kyoko_Junko" />
+        <marker scope="Public" name="T_Kyoko_Lost0Trio" />
+        <marker scope="Public" name="T_KyokoAlley" />
+        <marker scope="Public" name="T_KyokoChihiro" />
+        <marker scope="Public" name="T_KyokoCoMast1" />
+        <marker scope="Public" name="T_KyokoCoMast2" />
+        <marker scope="Public" name="T_KyokoCoMast3" />
+        <marker scope="Public" name="T_KyokoCoMast4" />
+        <marker scope="Public" name="T_KyokoKeepUp" />
+        <marker scope="Public" name="T_KyokoStart" />
+        <marker scope="Public" name="T_KyokoSuggesting" />
+        <marker scope="Public" name="T_KyokoTopTouch" />
+        <marker scope="Public" name="T_Kyouko_01" />
+        <marker scope="Public" name="T_Kyouko_0-1" />
+        <marker scope="Public" name="T_KyoukoStart" />
+        <marker scope="Public" name="T_MahiruBirthday" />
+        <marker scope="Public" name="T_NadeshikoChubby" />
+        <marker scope="Public" name="T_noCeleste" />
+        <marker scope="Public" name="T_NoelleVision" />
+        <marker scope="Public" name="T_SakuraStrip2" />
+        <marker scope="Public" name="T_Self_KyokoLost7" />
+        <marker scope="Public" name="T_Self_NadeshikoNervous" />
+        <marker scope="Public" name="T_Sweetheart_TLost0" />
+        <marker scope="Public" name="T_SweetheartStart" />
+        <marker scope="Public" name="T_TwoKyokoLost0" />
+        <marker scope="Public" name="T_ZekeLost0" />
+        <marker scope="Private" name="TI_">Targeted lines when Hina is stripping</marker>
+        <marker scope="Public" name="TI_Aqua_01Chihiro" />
+        <marker scope="Public" name="TI_Aqua_01Kyoko" />
+        <marker scope="Public" name="TI_Aqua_01Student" />
+        <marker scope="Public" name="TI_Aqua_11Training" />
+        <marker scope="Public" name="TI_Aqua_12PJs" />
+        <marker scope="Public" name="TI_Jura_01" />
+        <marker scope="Public" name="TI_Jura_0-1Swim" />
+        <marker scope="Public" name="TI_Kyoko_0Trio" />
+        <marker scope="Public" name="TI_Kyoko_43Memory" />
+        <marker scope="Public" name="TI_Kyoko_4-3Memory" />
+        <marker scope="Public" name="TI_Kyoko_43Touch" />
+        <marker scope="Public" name="TI_Kyoko_4-3Touch" />
+        <marker scope="Public" name="TI_Kyoko_51Proposal" />
+        <marker scope="Public" name="TI_Kyoko_62" />
+        <marker scope="Public" name="TI_Kyoko_63Shaved" />
+        <marker scope="Public" name="TI_Kyoko_6-3Shaved" />
+        <marker scope="Public" name="TI_Kyoko_71" />
+        <marker scope="Public" name="TI_Kyoko_7-1" />
+        <marker scope="Public" name="TI_Kyoko_71KeepDown" />
+        <marker scope="Public" name="TI_Kyoko_7-1KeepDown" />
+        <marker scope="Public" name="TI_Kyoko_71Secret" />
+        <marker scope="Public" name="TI_Kyoko_7-1Secret" />
+        <marker scope="Public" name="TI_Kyoko_7-2" />
+        <marker scope="Public" name="TI_Kyoko_Proposal" />
+        <marker scope="Public" name="TI_Kyoko_XPopular" />
+        <marker scope="Public" name="TI_Kyoko_XProposal" />
+        <marker scope="Public" name="TI_KyokoButtPose" />
+        <marker scope="Public" name="TI_Levi_01" />
+        <marker scope="Public" name="TI_Levi_01Sports" />
+        <marker scope="Public" name="TI_Meia_01" />
+        <marker scope="Public" name="TI_Meia_0-1" />
+        <marker scope="Public" name="TI_Nadeshiko_4-1" />
+        <marker scope="Public" name="TI_Nadeshiko_41SkinnyDip" />
+        <marker scope="Public" name="TI_NadeshikoNervous" />
+        <marker scope="Public" name="TI_Revy_01" />
+        <marker scope="Public" name="TI_Revy_0-1" />
+        <marker scope="Public" name="TI_Revy_0-1Swim" />
+        <marker scope="Public" name="TI_Rosa_01" />
+        <marker scope="Public" name="TI_Rosa_0-1" />
+        <marker scope="Public" name="TI_Rose_01Swim" />
+        <marker scope="Public" name="TI_Rose_0-1Swim" />
+        <marker scope="Public" name="TI_SCM_01" />
+        <marker scope="Public" name="TI_SCM_LastName" />
+        <marker scope="Private" name="TO_">Targeted lines when other characters are stripping.</marker>
+        <marker scope="Public" name="TO_Chiaki_01" />
+        <marker scope="Public" name="TO_Chiaki_0-1">Chiaki Must Strip Stage 0</marker>
+        <marker scope="Public" name="TO_Chihiro_01" />
+        <marker scope="Public" name="TO_Chihiro_0-1">Chihiro Must Strip Stage 0</marker>
+        <marker scope="Public" name="TO_Chihiro_4-3" />
+        <marker scope="Public" name="TO_Chihiro_4-3AlterEgo" />
+        <marker scope="Public" name="TO_Chihiro_5-3" />
+        <marker scope="Public" name="TO_Kokichi_01" />
+        <marker scope="Public" name="TO_Kyoko_01" />
+        <marker scope="Public" name="TO_Kyoko_0-1">Kyoko Must Strip Stage 0</marker>
+        <marker scope="Public" name="TO_Kyoko_1-2Junko" />
+        <marker scope="Public" name="TO_Kyoko_62" />
+        <marker scope="Public" name="TO_Kyoko_6-2">Kyoko Stripping Stage 6</marker>
+        <marker scope="Public" name="TO_Kyoko_73" />
+        <marker scope="Public" name="TO_Kyoko_7-3">Kyoko Stripped Stage 7</marker>
+        <marker scope="Public" name="TO_Kyoko_73Naked" />
+        <marker scope="Public" name="TO_Kyoko_7-3Naked" />
+        <marker scope="Public" name="TO_Kyouko_01" />
+        <marker scope="Public" name="TO_Levi_01" />
+        <marker scope="Public" name="TO_Nagatoro_01" />
+        <marker scope="Public" name="TO_Nagatoro_0-1">Nagatoro Must Strip Stage 0</marker>
+        <marker scope="Public" name="TO_Noelle_1-3Geo" />
+        <marker scope="Public" name="TO_Ringo_01" />
+        <marker scope="Public" name="TO_Ringo_0-1" />
+        <marker scope="Public" name="TO_Ringo_11" />
+        <marker scope="Public" name="TO_Ringo_1-1" />
+        <marker scope="Public" name="TO_Rosa_01" />
+        <marker scope="Public" name="TO_Rosa_0-1" />
+        <marker scope="Public" name="TO_Sakura_2-2" />
+        <marker scope="Public" name="TO_Sakura_2-3Zombie" />
+        <marker scope="Public" name="TO_Sweetheart_01" />
+        <marker scope="Public" name="TO_Sweetheart_0-1">Sweetheart Must Strip Stage 0</marker>
+        <marker scope="Public" name="TO_Zeke_01" />
+        <marker scope="Public" name="TO_Zeke_0-1" />
+        <marker scope="Public" name="TO_Zeke_02HowTheyMet" />
+        <marker scope="Private" name="Z_">Intenal state. Vast majority of this will only be relevant to Aoi herself.</marker>
+        <marker scope="Public" name="Z_AoiIsConfident" />
+        <marker scope="Public" name="Z_AoiVictory" />
+        <marker scope="Public" name="Z_Finished" />
+        <marker scope="Public" name="Z_GamesPlayed" />
+        <marker scope="Public" name="Z_HinaConfident" />
+    </markers>
+</metadata>

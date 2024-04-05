@@ -144,8 +144,6 @@
         <note id="123">You already have responses to Saki taking off her makeup, losing her head, and stuff, but I wasn't sure if you wanted to rewrite those to take into account the back and forth we've done.</note>
         <note id="133">https://en.wikipedia.org/wiki/Urusei_Yatsura - this is what the refrance</note>
     </notes>
-    <onlyCustomPoses>false</onlyCustomPoses>
-    <hidePrefixlessImages>false</hidePrefixlessImages>
     <nextId>133</nextId>
     <markers>
         <marker scope="Private" name="6cards">Saki requests 6 cards</marker>
@@ -725,6 +723,7 @@
         <marker scope="Public" name="sakura_taught_dirtytalk">Saki teaches Sakura how to dirtytalk.</marker>
         <marker scope="Public" name="sakura_taught_dirtytalkF">Dirtytalk for female players.</marker>
         <marker scope="Public" name="sakura_taught_dirtytalkM">Dirtytalk for male players.</marker>
+        <marker scope="Public" name="SakuraTaeSelected" />
         <marker scope="Public" name="SamusAranPowerSuit1" />
         <marker scope="Public" name="SamusAranPowerSuit2" />
         <marker scope="Public" name="SamusAranPowerSuit3" />
@@ -741,6 +740,17 @@
         <marker scope="Public" name="SheenaShoes3_resp" />
         <marker scope="Public" name="Smooth">Smooth - Carlos Santana ft. Rob Thomas</marker>
         <marker scope="Public" name="SnowHalation">Snow Halation - µ’s</marker>
+        <marker scope="Public" name="SolarFlareBandages3_resp" />
+        <marker scope="Public" name="SolarFlareEvilZombies_resp" />
+        <marker scope="Public" name="SolarFlareFans_resp" />
+        <marker scope="Public" name="SolarFlareGang_resp" />
+        <marker scope="Public" name="SolarFlareHair_resp" />
+        <marker scope="Public" name="SolarFlareNice_resp" />
+        <marker scope="Public" name="SolarFlareOutfit_resp" />
+        <marker scope="Public" name="SolarFlareShoes1" />
+        <marker scope="Public" name="SolarFlareShoes2" />
+        <marker scope="Public" name="SolarFlareShoes3" />
+        <marker scope="Public" name="SolarFlareZombieWorld_resp" />
         <marker scope="Public" name="SpecialAttacked">Saki is hit by Toyosatomimi no Miko's special attack.</marker>
         <marker scope="Public" name="ss_threesome">Checks whether or not Saki has floated the idea of a threesome yet.</marker>
         <marker scope="Public" name="SteamedHams">Steamed Hams - The Simpsons</marker>
@@ -783,6 +793,53 @@
         <marker scope="Public" name="SyrenneStory_resp" />
         <marker scope="Public" name="SyrenneTalk_resp" />
         <marker scope="Public" name="SyrenneTease_resp" />
+        <marker scope="Public" name="tae_q_ai" />
+        <marker scope="Public" name="tae_q_fantasies" />
+        <marker scope="Public" name="tae_q_junko" />
+        <marker scope="Public" name="tae_q_lily" />
+        <marker scope="Public" name="tae_q_preferences" />
+        <marker scope="Public" name="tae_q_private" />
+        <marker scope="Public" name="tae_q_sakura" />
+        <marker scope="Public" name="tae_q_shades" />
+        <marker scope="Public" name="tae_q_virgin" />
+        <marker scope="Public" name="tae_q_yuugiri" />
+        <marker scope="Public" name="TaeChestBandages1" />
+        <marker scope="Public" name="TaeChestBandages2" />
+        <marker scope="Public" name="TaeChestBandages3" />
+        <marker scope="Public" name="TaeCrotchBandages1" />
+        <marker scope="Public" name="TaeCrotchBandages2" />
+        <marker scope="Public" name="TaeCrotchBandages2Head" />
+        <marker scope="Public" name="TaeCrotchBandages3" />
+        <marker scope="Public" name="TaeDefeat" />
+        <marker scope="Public" name="TaeDress1" />
+        <marker scope="Public" name="TaeDress2" />
+        <marker scope="Public" name="TaeDress3" />
+        <marker scope="Public" name="TaeFinished" />
+        <marker scope="Public" name="TaeGameStart" />
+        <marker scope="Public" name="TaeGreeting" />
+        <marker scope="Public" name="TaeHumanWon" />
+        <marker scope="Public" name="TaeMakeup1" />
+        <marker scope="Public" name="TaeMakeup2A" />
+        <marker scope="Public" name="TaeMakeup2B" />
+        <marker scope="Public" name="TaeMakeup3A" />
+        <marker scope="Public" name="TaeMakeup3B" />
+        <marker scope="Public" name="TaeMustMasturbate" />
+        <marker scope="Public" name="TaeSakuraDefeat" />
+        <marker scope="Public" name="TaeSakuraGameStart" />
+        <marker scope="Public" name="TaeSakuraSelected" />
+        <marker scope="Public" name="TaeSelected01" />
+        <marker scope="Public" name="TaeSelected02" />
+        <marker scope="Public" name="TaeSelected03" />
+        <marker scope="Public" name="TaeShoes1" />
+        <marker scope="Public" name="TaeShoes2" />
+        <marker scope="Public" name="TaeShoes3" />
+        <marker scope="Public" name="TaeStartMasturbating" />
+        <marker scope="Public" name="TaeTights1" />
+        <marker scope="Public" name="TaeTights2" />
+        <marker scope="Public" name="TaeTights3" />
+        <marker scope="Public" name="TaeUnselected01" />
+        <marker scope="Public" name="TaeUnselected02" />
+        <marker scope="Public" name="TaeVictory" />
         <marker scope="Public" name="TakatoshiCloningBlues_resp" />
         <marker scope="Public" name="TakatoshiJacket1_resp" />
         <marker scope="Public" name="TakatoshiJacket2_resp" />

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1707253455623</lastupdate>
+    <lastupdate>1709092601912</lastupdate>
     <enabled>false</enabled>
     <first>Maria</first>
     <last />
@@ -18,6 +18,6 @@
         <costume folder="opponents/reskins/maria_sadistic_venus/" img="0-bashful.png" set="valentines" label="Maria">Sadistic Venus</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>1331</lines>
+    <lines>1343</lines>
     <poses>155</poses>
 </opponent>

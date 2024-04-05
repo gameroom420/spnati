@@ -144,7 +144,7 @@ Sanako [sanako_jura_js_s1]: You've got an eye for these kinds of things, don't y
 SANAKO STRIPPING SHOES AND SOCKS:
 Jura [sanako01]: Ugh, I know <i>that</i> feeling.  There were a couple years where my mom couldn't buy me new bras fast enough.
   OR [sanako01]: ...<i>Hoohn,</i> memories.  <i>I</i> was bursting through every bra I got for a while.  Mom was proud <i>and</i> annoyed...
-Sanako [sanako_jura_js_s2]: I'm sure she was proud of you, though. You blossomed into a a lovely young woman.
+Sanako [sanako_jura_js_s2]: It's easy to see why she was proud of you. You blossomed into a a lovely young woman.
 
 SANAKO STRIPPED SHOES AND SOCKS:
 Jura [sanako1s]: <i>Ahhh,</i> thank you...you're pretty, too.  If you're all settled in, we should focus on how <i>grown-up</i> we've become...
@@ -158,12 +158,14 @@ Jura [sanako1]: I'm glad you're taking this whole thing in stride.  When I saw a
 Sanako [sanako_jura_js_s4]: Who, me? I'm an expert in controlling my emotions when I need to. I'm not some shy little girl, and now I'll prove it!
 
 SANAKO STRIPPING SHIRT:
-Jura []*: ??
-Sanako []*: ??
+Jura [sanako12]: ...I could honestly be better about that.  It's one thing between girls, but when the <i>enemy</i> sees you tremble...
+  OR [sanako12]: Maybe I could learn from you.  It hurts my image to blow up on someone!<br>...Plus, you don't want to <i>lose your nerve</i> in combat...
+Sanako [sanako_jura_js_s5]: Showing some vulnerability can help bring you closer together. Of course, showing a little cleavage doesn't hurt either, ehehe...
+-- Note: Sanako does not currently have a good stripping pose for this line, so this pose will be swapped out in the future.
 
 SANAKO STRIPPED SHIRT:
 Jura []*: ??
-Sanako []*: ??
+Sanako [sanako_jura_js_s6]*: ??
 
 
 SANAKO MUST STRIP SKIRT:
@@ -195,7 +197,8 @@ Sanako []*: ??
 
 
 SANAKO MUST STRIP PANTIES:
-Jura []*: ??
+Jura [sanako4]: <i>This is it,</i> Sanako!  You'll be revealing the <i>darkest, most intimate</i> parts of yourself.  Honestly, it feels like you've been holding back this whole time.
+  OR [sanako4]: Ah, <i>your</i> turn again.  Since you'll be <i>baring it all</i> for us, do you have any <i>juicy secrets</i> to share, as well?  Jura gets that impression...
 Sanako []*: ??
 
 SANAKO STRIPPING PANTIES:
@@ -223,7 +226,9 @@ Jura [sanako_resp1s_right]: ...<i>Hmmn,</i> you made Barnette mad.  Well, anyway
   OR [sanako_resp1s_right]: That's a nice attitude and all, but you shouldn't blurt out the first thing that---<i>no, Barnette...!</i>  Great, she left again...
 Sanako [sanako_jura_js_j3]: I'm sorry. I didn't mean to offend. Jura, please apologise to Miss Barnette on my behalf.
 
--- I wasn't sure if you were fishing for a bigger reaction, but I could have Sanako have a little cry to herself in a hand line immediately afterwards if that was what you were going for. Sanae's weird bread being insulted is the thing that tips off the waterworks usually.
+HAND AFTER JURA STRIPPED SWORD
+Jura []*: ??
+Sanako []*: ?? -- Sanako might be a little upset for a moment here, but I will probably do it via thinking, so there's not a direct need for Jura to have something extra here for Sanako to raect to.
 
 
 JURA MUST STRIP BOOTS:
@@ -232,12 +237,13 @@ Jura [sanako_resp1right]: <i>Hmmn...</i>it's nice to get out and meet some stran
 Sanako [sanako_jura_js_j4]: People start looking through you when they know you too well, don't they? Unless you say or do something unexpected, they'll never take notice.
 
 JURA STRIPPING BOOTS:
-Jura []*: ??
-Sanako []*: ??
+Jura [sanako_resp12right]: But you're a fresh face, Sanako!  Aren't you already---<i>enraptured?</i>
+  OR [sanako_resp12right]: <i>Sanako,</i> I'm always thinking of how to shine brighter.  I'm just saying, to~background.time~ should be a freebie!  <i>Riiiiiight---?</i>
+Sanako [sanako_jura_js_j5]: You are positively beautiful, Jura! Like a Hollywood star or a Scandinavian supermodel!
 
 JURA STRIPPED BOOTS:
 Jura []*: ??
-Sanako []*: ??
+Sanako [sanako_jura_js_j6]*: ??
 
 
 JURA MUST STRIP SLEEVES:
@@ -281,7 +287,8 @@ Sanako []*: ??
 
 
 JURA MUST STRIP THONG:
-Jura []*: ??
+Jura [sanako_resp5right]: <i>Nothing left...</i>so <i>naked and vulnerable,</i> like the day I was born!<br>...There I go again, always thinking about having a baby.
+  OR [sanako_resp5right]: Me <i>again?</i>  I'll be as naked as the baby I want so badly...
 Sanako []*: ??
 
 JURA STRIPPING THONG:

@@ -7,13 +7,12 @@
     <label>Amy</label>
     <pic>0-heart.png</pic>
     <gender>female</gender>
-    <height>5' 2"</height>
     <from>Sonic the Hedgehog</from>
     <writer>sonamy12</writer>
-    <artist>FEFreak204</artist>
+    <artist>FEFreak726</artist>
     <description>Amy Rose (aka Rosey the Rascal) is Sonic the Hedgehog's self proclaimed bride-to-be. She often assists her beloved in various adventures as they seek to thwart the plans of the villainous Dr. Eggman.</description>
     <layers>7</layers>
     <has_collectibles>true</has_collectibles>
-    <lines>1397</lines>
+    <lines>1398</lines>
     <poses>226</poses>
 </opponent>

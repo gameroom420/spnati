@@ -72,23 +72,23 @@ Zeke & Pandoria [zekepandy_sanako_self0a]: {pandy}Yeah, I guess you could call i
 
 ZEKE & PANDORIA STRIPPING GLOVES:
 Sanako [sanako_zeke_sz_z2]: That's so sweet. I remember when I met my someone special, we were practically joined at the hip after we went steady. ~player.ifMale(He and I|We)~ never managed to get too far from our chaperone, though.
-Zeke & Pandoria []*: ??
+Zeke & Pandoria [zekepandy_sanako_self0b]: We never stray too far, either. Though part of that is because we have to fight as a team, we can't do it solo.
 
 ZEKE & PANDORIA STRIPPED GLOVES:
-Sanako []*: ??
-Zeke & Pandoria []*: ??
+Sanako [sanako_zeke_sz_z3]: Being able to work together and provide for each other as a team is the secret to a strong relationship. I'm so happy for the both of you!
+Zeke & Pandoria [zekepandy_sanako_self0c]: If you think that's impressive, just wait until we bust out our dynamic Driver-and-Blade combo moves!<hr>{pandy}Yeah, watch out!
 
 
 ZEKE & PANDORIA MUST STRIP PAULDRONS & DRESS:
-Sanako []*: ??
-Zeke & Pandoria []*: ??
+Sanako [sanako_zeke_sz_z4]: Zeke is quite the hunk. Don't let him get away, Pandoria. Have you two decided what the future holds yet? Wedding bells anytime soon?
+Zeke & Pandoria [zk_sanako_self1a]: W-Wedding bells? Er, not just yet, Sanako! We're...<hr>{pandy}We're still sorting some things out! Yeah...
 
 ZEKE & PANDORIA STRIPPING PAULDRONS & DRESS:
-Sanako []*: ??
-Zeke & Pandoria []*: ??
+Sanako [sanako_zeke_sz_z5]: Some men are just afraid to commit. Other men... well, let's just say they're happy to live off a lifetime of free samples.
+Zeke & Pandoria [zk_sanako_self1b]: We're not like that, are we?<hr>{pandy}No, it's more... There's a lot we haven't really discussed, is all. We're still a couple, and that's all that matters to us!
 
 ZEKE & PANDORIA STRIPPED PAULDRONS & DRESS:
-Sanako []*: ??
+Sanako [sanako_zeke_sz_z6]: It's okay if you want to take it slow. When my partner and I were getting to know each other, he was a bundle of nerves just holding my hand!
 Zeke & Pandoria []*: ??
 
 

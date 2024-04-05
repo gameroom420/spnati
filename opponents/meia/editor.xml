@@ -65,7 +65,6 @@
         <note id="224">Dependent on an art update, but Cag should take initiative on the next phase and not wait for an answer.</note>
         <note id="235">Maybe take this in a "Turandot learns about spaceships/piloting" direction?</note>
         <note id="264">This might be a neat opportunity for a virginity/purity discussion.  Since sex and pregnancy aren't linked on Mejare, they wouldn't have a super strong attitude towards it (i.e. Meia might not understand why it would preclude Turandot from marriage).</note>
-        <note id="27">Bear in mind that Meia is pending an art update, and is barely a B cup on a good day.</note>
         <note id="345">Alt-conversation lead-in for the previous lines talking about judgmental kids and Robin's past.  Willing to revise.</note>
         <note id="346">Willing to revise</note>
         <note id="347">Willing to revise</note>
@@ -82,15 +81,17 @@
         <note id="698">I'm intentionally preserving the misunderstanding, but I can revise this if you were expecting an actual explanation</note>
         <note id="754">Meia doesn't mean quite the same thing, but close enough for a misunderstanding</note>
         <note id="1009">(Meia wouldn't have a lot of experience with animals/mammals)</note>
-        <note id="1063">(Meia wouldn't see much distinction between "mid-teens" and "adult")</note>
         <note id="1328">could set up an interaction where they could both take sips (maybe share a cup?)</note>
         <note id="1331">could do an interaction where Perona thinks Pyoro is squishy/stuffed, but then realizes he's metal and tosses him back</note>
-        <note id="1494">willing to revise this if you wanted to focus on the first part (IMO Meia already has a lot of lines saying what she wants)</note>
         <note id="1634">second line is just a quip and can be responded to like the first one</note>
         <note id="1643">I am picturing Rouge only apprehensively suggesting this moment, since Meia watches the player like a hawk, and then she immediately catches them.  I'm open to followups.  The crux of this pose is twofold: the superficial similarity to Meia's headpiece, and the early reveal of how padded her chest is, which is one of the few things that would really embarrass her.</note>
         <note id="1644">Meia tends to be in a better mood for the Cupid skin.</note>
         <note id="1646">I'd like to extend this into the next hand line so she can continue and use another butt pose.</note>
         <note id="1658">willing to revise</note>
+        <note id="1752">I already wrote all my targets as if she had her canon look, so this is just a minor variation (unless you want to expand it into an alt convo)</note>
+        <note id="1753">I already wrote all my targets as if she had her canon look, so this is just a small acknowledgement</note>
+        <note id="1812">I saw your Notes and can revise this if it's too dry.  Perhaps Aqua can comment on just &lt;i&gt;how&lt;/i&gt; dryly and officially Meia responds.</note>
+        <note id="1814">See DMs</note>
     </notes>
     <labels>
         <label id="1266" label="" color="4" folder="" sort="0" />
@@ -123,7 +124,7 @@
         <label id="223" label="" color="4" folder="" sort="0" />
         <label id="821" label="" color="4" folder="" sort="0" />
         <label id="808" label="" color="4" folder="" sort="0" />
-        <label id="1652" label="" color="4" folder="" sort="0" />
+        <label id="1801" label="" color="4" folder="" sort="0" />
         <label id="177" label="" color="4" folder="" sort="0" />
         <label id="411" label="" color="4" folder="" sort="0" />
         <label id="822" label="" color="4" folder="" sort="0" />
@@ -154,7 +155,6 @@
         <label id="296" label="" color="4" folder="" sort="0" />
         <label id="297" label="" color="4" folder="" sort="0" />
         <label id="298" label="" color="4" folder="" sort="0" />
-        <label id="308" label="" color="4" folder="" sort="0" />
         <label id="317" label="" color="4" folder="" sort="0" />
         <label id="318" label="" color="4" folder="" sort="0" />
         <label id="426" label="" color="4" folder="" sort="0" />
@@ -280,11 +280,9 @@
         <label id="1195" label="" color="4" folder="" sort="0" />
         <label id="1196" label="" color="4" folder="" sort="0" />
         <label id="642" label="" color="5" folder="" sort="0" />
-        <label id="803" label="" color="4" folder="" sort="0" />
-        <label id="802" label="" color="4" folder="" sort="0" />
+        <label id="1815" label="" color="4" folder="" sort="0" />
         <label id="983" label="" color="4" folder="" sort="0" />
         <label id="709" label="" color="4" folder="" sort="0" />
-        <label id="799" label="" color="4" folder="" sort="0" />
         <label id="755" label="" color="4" folder="" sort="0" />
         <label id="661" label="" color="4" folder="" sort="0" />
         <label id="662" label="" color="4" folder="" sort="0" />
@@ -354,7 +352,6 @@
         <label id="787" label="" color="4" folder="" sort="0" />
         <label id="788" label="" color="4" folder="" sort="0" />
         <label id="804" label="" color="4" folder="" sort="0" />
-        <label id="805" label="" color="4" folder="" sort="0" />
         <label id="795" label="" color="4" folder="" sort="0" />
         <label id="796" label="" color="4" folder="" sort="0" />
         <label id="984" label="" color="4" folder="" sort="0" />
@@ -519,7 +516,7 @@
         <label id="990" label="" color="4" folder="" sort="0" />
         <label id="991" label="" color="4" folder="" sort="0" />
         <label id="996" label="" color="6" folder="" sort="0" />
-        <label id="1663" label="" color="4" folder="" sort="0" />
+        <label id="1769" label="" color="4" folder="" sort="0" />
         <label id="1000" label="" color="4" folder="" sort="0" />
         <label id="1001" label="" color="4" folder="" sort="0" />
         <label id="1002" label="" color="4" folder="" sort="0" />
@@ -597,7 +594,6 @@
         <label id="1078" label="" color="4" folder="" sort="0" />
         <label id="1079" label="" color="4" folder="" sort="0" />
         <label id="1080" label="" color="4" folder="" sort="0" />
-        <label id="1649" label="" color="4" folder="" sort="0" />
         <label id="1082" label="" color="4" folder="" sort="0" />
         <label id="1083" label="" color="4" folder="" sort="0" />
         <label id="1084" label="" color="6" folder="" sort="0" />
@@ -699,8 +695,7 @@
         <label id="1462" label="" color="4" folder="" sort="0" />
         <label id="1213" label="" color="4" folder="" sort="0" />
         <label id="1206" label="" color="4" folder="" sort="0" />
-        <label id="1656" label="" color="4" folder="" sort="0" />
-        <label id="1655" label="" color="4" folder="" sort="0" />
+        <label id="1773" label="" color="4" folder="" sort="0" />
         <label id="1222" label="" color="4" folder="" sort="0" />
         <label id="1226" label="" color="1" folder="" sort="0" />
         <label id="1227" label="" color="1" folder="" sort="0" />
@@ -742,7 +737,7 @@
         <label id="1295" label="" color="4" folder="" sort="0" />
         <label id="1297" label="" color="4" folder="" sort="0" />
         <label id="1298" label="" color="4" folder="" sort="0" />
-        <label id="1609" label="" color="4" folder="" sort="0" />
+        <label id="1710" label="" color="4" folder="" sort="0" />
         <label id="1300" label="" color="4" folder="" sort="0" />
         <label id="1301" label="" color="4" folder="" sort="0" />
         <label id="1302" label="" color="4" folder="" sort="0" />
@@ -757,7 +752,7 @@
         <label id="1314" label="" color="4" folder="" sort="0" />
         <label id="1315" label="" color="4" folder="" sort="0" />
         <label id="1316" label="" color="4" folder="" sort="0" />
-        <label id="1662" label="" color="4" folder="" sort="0" />
+        <label id="1771" label="" color="4" folder="" sort="0" />
         <label id="1323" label="" color="4" folder="" sort="0" />
         <label id="1322" label="" color="4" folder="" sort="0" />
         <label id="1324" label="" color="6" folder="" sort="0" />
@@ -774,16 +769,11 @@
         <label id="1335" label="" color="4" folder="" sort="0" />
         <label id="1336" label="" color="7" folder="" sort="0" />
         <label id="1337" label="" color="6" folder="" sort="0" />
-        <label id="1653" label="" color="4" folder="" sort="0" />
-        <label id="1664" label="" color="4" folder="" sort="0" />
-        <label id="1665" label="" color="4" folder="" sort="0" />
-        <label id="1657" label="" color="4" folder="" sort="0" />
-        <label id="1654" label="" color="4" folder="" sort="0" />
-        <label id="1352" label="" color="4" folder="" sort="0" />
+        <label id="1796" label="" color="4" folder="" sort="0" />
         <label id="1353" label="" color="4" folder="" sort="0" />
-        <label id="1650" label="" color="4" folder="" sort="0" />
-        <label id="1660" label="" color="4" folder="" sort="0" />
-        <label id="1666" label="" color="4" folder="" sort="0" />
+        <label id="1799" label="" color="4" folder="" sort="0" />
+        <label id="1733" label="" color="4" folder="" sort="0" />
+        <label id="1739" label="" color="4" folder="" sort="0" />
         <label id="1364" label="" color="4" folder="" sort="0" />
         <label id="1366" label="" color="4" folder="" sort="0" />
         <label id="1367" label="" color="4" folder="" sort="0" />
@@ -833,14 +823,12 @@
         <label id="1426" label="" color="4" folder="" sort="0" />
         <label id="1427" label="" color="4" folder="" sort="0" />
         <label id="1428" label="" color="4" folder="" sort="0" />
-        <label id="1648" label="" color="4" folder="" sort="0" />
-        <label id="1493" label="" color="4" folder="" sort="0" />
-        <label id="1599" label="" color="4" folder="" sort="0" />
+        <label id="1786" label="" color="4" folder="" sort="0" />
+        <label id="1736" label="" color="4" folder="" sort="0" />
         <label id="1454" label="" color="4" folder="" sort="0" />
         <label id="1578" label="" color="4" folder="" sort="0" />
-        <label id="1602" label="" color="4" folder="" sort="0" />
-        <label id="1495" label="" color="4" folder="" sort="0" />
-        <label id="1494" label="" color="4" folder="" sort="0" />
+        <label id="1797" label="" color="4" folder="" sort="0" />
+        <label id="1700" label="" color="4" folder="" sort="0" />
         <label id="1637" label="" color="4" folder="" sort="0" />
         <label id="1485" label="" color="4" folder="" sort="0" />
         <label id="1486" label="" color="4" folder="" sort="0" />
@@ -896,12 +884,10 @@
         <label id="1543" label="" color="10" folder="" sort="0" />
         <label id="1544" label="" color="10" folder="" sort="0" />
         <label id="1545" label="" color="4" folder="" sort="0" />
-        <label id="1547" label="" color="4" folder="" sort="0" />
-        <label id="1548" label="" color="4" folder="" sort="0" />
-        <label id="1550" label="" color="4" folder="" sort="0" />
-        <label id="1625" label="" color="4" folder="" sort="0" />
-        <label id="1555" label="" color="4" folder="" sort="0" />
-        <label id="1556" label="" color="4" folder="" sort="0" />
+        <label id="1767" label="" color="4" folder="" sort="0" />
+        <label id="1765" label="" color="4" folder="" sort="0" />
+        <label id="1794" label="" color="4" folder="" sort="0" />
+        <label id="1808" label="" color="4" folder="" sort="0" />
         <label id="1557" label="" color="6" folder="" sort="0" />
         <label id="1558" label="" color="6" folder="" sort="0" />
         <label id="1559" label="" color="1" folder="" sort="0" />
@@ -914,26 +900,21 @@
         <label id="1566" label="" color="4" folder="" sort="0" />
         <label id="1567" label="" color="4" folder="" sort="0" />
         <label id="1630" label="" color="4" folder="" sort="0" />
-        <label id="1626" label="" color="4" folder="" sort="0" />
-        <label id="1624" label="" color="4" folder="" sort="0" />
         <label id="1618" label="" color="4" folder="" sort="0" />
-        <label id="1572" label="" color="4" folder="" sort="0" />
         <label id="1573" label="" color="4" folder="" sort="0" />
-        <label id="1592" label="" color="4" folder="" sort="0" />
-        <label id="1600" label="" color="4" folder="" sort="0" />
-        <label id="1601" label="" color="4" folder="" sort="0" />
+        <label id="1741" label="" color="4" folder="" sort="0" />
         <label id="1603" label="" color="6" folder="" sort="0" />
-        <label id="1598" label="" color="4" folder="" sort="0" />
+        <label id="1709" label="" color="4" folder="" sort="0" />
         <label id="1604" label="" color="6" folder="" sort="0" />
         <label id="1605" label="" color="6" folder="" sort="0" />
-        <label id="1606" label="" color="4" folder="" sort="0" />
-        <label id="1608" label="" color="4" folder="" sort="0" />
+        <label id="1713" label="" color="4" folder="" sort="0" />
+        <label id="1712" label="" color="4" folder="" sort="0" />
         <label id="1610" label="" color="6" folder="" sort="0" />
         <label id="1611" label="" color="6" folder="" sort="0" />
         <label id="1612" label="" color="6" folder="" sort="0" />
         <label id="1631" label="" color="4" folder="" sort="0" />
         <label id="1627" label="" color="4" folder="" sort="0" />
-        <label id="1619" label="" color="4" folder="" sort="0" />
+        <label id="1806" label="" color="4" folder="" sort="0" />
         <label id="1620" label="" color="2" folder="" sort="0" />
         <label id="1621" label="" color="2" folder="" sort="0" />
         <label id="1632" label="" color="4" folder="" sort="0" />
@@ -946,14 +927,74 @@
         <label id="1644" label="" color="4" folder="" sort="0" />
         <label id="1645" label="" color="4" folder="" sort="0" />
         <label id="1646" label="" color="4" folder="" sort="0" />
-        <label id="1647" label="" color="4" folder="" sort="0" />
-        <label id="1659" label="" color="4" folder="" sort="0" />
-        <label id="1661" label="" color="4" folder="" sort="0" />
+        <label id="1732" label="" color="4" folder="" sort="0" />
+        <label id="1737" label="" color="4" folder="" sort="0" />
         <label id="1667" label="" color="2" folder="" sort="0" />
         <label id="1668" label="" color="2" folder="" sort="0" />
         <label id="1669" label="" color="4" folder="" sort="0" />
+        <label id="1670" label="" color="2" folder="" sort="0" />
+        <label id="1671" label="" color="2" folder="" sort="0" />
+        <label id="1672" label="" color="2" folder="" sort="0" />
+        <label id="1673" label="" color="2" folder="" sort="0" />
+        <label id="1674" label="" color="2" folder="" sort="0" />
+        <label id="1675" label="" color="2" folder="" sort="0" />
+        <label id="1676" label="" color="2" folder="" sort="0" />
+        <label id="1677" label="" color="2" folder="" sort="0" />
+        <label id="1678" label="" color="2" folder="" sort="0" />
+        <label id="1679" label="" color="2" folder="" sort="0" />
+        <label id="1680" label="" color="2" folder="" sort="0" />
+        <label id="1681" label="" color="2" folder="" sort="0" />
+        <label id="1682" label="" color="2" folder="" sort="0" />
+        <label id="1683" label="" color="2" folder="" sort="0" />
+        <label id="1684" label="" color="2" folder="" sort="0" />
+        <label id="1685" label="" color="2" folder="" sort="0" />
+        <label id="1686" label="" color="2" folder="" sort="0" />
+        <label id="1687" label="" color="2" folder="" sort="0" />
+        <label id="1734" label="" color="4" folder="" sort="0" />
+        <label id="1807" label="" color="4" folder="" sort="0" />
+        <label id="1770" label="" color="4" folder="" sort="0" />
+        <label id="1735" label="" color="4" folder="" sort="0" />
+        <label id="1766" label="" color="4" folder="" sort="0" />
+        <label id="1720" label="" color="6" folder="" sort="0" />
+        <label id="1721" label="" color="2" folder="" sort="0" />
+        <label id="1722" label="" color="2" folder="" sort="0" />
+        <label id="1744" label="" color="4" folder="" sort="0" />
+        <label id="1745" label="" color="4" folder="" sort="0" />
+        <label id="1752" label="" color="4" folder="" sort="0" />
+        <label id="1753" label="" color="4" folder="" sort="0" />
+        <label id="1754" label="" color="4" folder="" sort="0" />
+        <label id="1755" label="" color="4" folder="" sort="0" />
+        <label id="1800" label="" color="4" folder="" sort="0" />
+        <label id="1795" label="" color="4" folder="" sort="0" />
+        <label id="1759" label="" color="4" folder="" sort="0" />
+        <label id="1764" label="" color="4" folder="" sort="0" />
+        <label id="1768" label="" color="4" folder="" sort="0" />
+        <label id="1772" label="" color="4" folder="" sort="0" />
+        <label id="1774" label="" color="4" folder="" sort="0" />
+        <label id="1798" label="" color="4" folder="" sort="0" />
+        <label id="1802" label="" color="4" folder="" sort="0" />
+        <label id="1780" label="" color="4" folder="" sort="0" />
+        <label id="1781" label="" color="4" folder="" sort="0" />
+        <label id="1782" label="" color="4" folder="" sort="0" />
+        <label id="1783" label="" color="4" folder="" sort="0" />
+        <label id="1784" label="" color="4" folder="" sort="0" />
+        <label id="1785" label="" color="4" folder="" sort="0" />
+        <label id="1787" label="" color="4" folder="" sort="0" />
+        <label id="1788" label="" color="4" folder="" sort="0" />
+        <label id="1789" label="" color="4" folder="" sort="0" />
+        <label id="1790" label="" color="4" folder="" sort="0" />
+        <label id="1791" label="" color="4" folder="" sort="0" />
+        <label id="1793" label="" color="4" folder="" sort="0" />
+        <label id="1803" label="" color="4" folder="" sort="0" />
+        <label id="1804" label="" color="4" folder="" sort="0" />
+        <label id="1809" label="" color="4" folder="" sort="0" />
+        <label id="1810" label="" color="4" folder="" sort="0" />
+        <label id="1811" label="" color="4" folder="" sort="0" />
+        <label id="1812" label="" color="4" folder="" sort="0" />
+        <label id="1813" label="" color="4" folder="" sort="0" />
+        <label id="1814" label="" color="4" folder="" sort="0" />
     </labels>
-    <nextId>1669</nextId>
+    <nextId>1816</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="2butt">Meia shows off her butt while still in her bodysuit (or Cupid outfit).</marker>
@@ -1037,6 +1078,8 @@
         <marker scope="Public" name="aoba_ld0" />
         <marker scope="Public" name="aoba0" />
         <marker scope="Public" name="aoba01" />
+        <marker scope="Public" name="aoi_asahina0" />
+        <marker scope="Public" name="aoi_asahina01" />
         <marker scope="Public" name="aqua_grunt_gg0" />
         <marker scope="Public" name="aqua_grunt_resp0" />
         <marker scope="Public" name="aqua_grunt_resp01" />
@@ -1056,7 +1099,12 @@
         <marker scope="Public" name="aqua_grunt4s" />
         <marker scope="Public" name="aqua_intimidating" />
         <marker scope="Public" name="aqua_keyblade" />
+        <marker scope="Public" name="aqua_kh_allfemalecrew" />
         <marker scope="Public" name="aqua_kh_cs0" />
+        <marker scope="Public" name="aqua_kh_resp0" />
+        <marker scope="Public" name="aqua_kh_resp0cupid" />
+        <marker scope="Public" name="aqua_kh_resp1" />
+        <marker scope="Public" name="aqua_kh_resp4" />
         <marker scope="Public" name="aqua_kh_wf0" />
         <marker scope="Public" name="aqua_konosuba_sga0" />
         <marker scope="Public" name="aqua_konosuba_wg0" />
@@ -1084,8 +1132,10 @@
         <marker scope="Public" name="aqua4s" />
         <marker scope="Public" name="aqua5" />
         <marker scope="Public" name="aqua56" />
+        <marker scope="Public" name="aqua5s" />
         <marker scope="Public" name="aqua6" />
         <marker scope="Public" name="aqua67" />
+        <marker scope="Public" name="aqua6s" />
         <marker scope="Public" name="arash_peace" />
         <marker scope="Public" name="arash_servant" />
         <marker scope="Public" name="areusha" />
@@ -1115,6 +1165,9 @@
         <marker scope="Public" name="asuna_y0" />
         <marker scope="Public" name="asuna_y01" />
         <marker scope="Public" name="asuna_y1s" />
+        <marker scope="Public" name="aura_camera" />
+        <marker scope="Public" name="aura_camera_followup" />
+        <marker scope="Public" name="aura_camera_shot" />
         <marker scope="Public" name="ayano01" />
         <marker scope="Public" name="ayano01yandere" />
         <marker scope="Public" name="ayano0yandere" />
@@ -1246,6 +1299,9 @@
         <marker scope="Public" name="caitlin0" />
         <marker scope="Public" name="caitlin2" />
         <marker scope="Public" name="cap_uncomfortable">Meia questions why Captain America, a man, is uncomfortable with nudity.</marker>
+        <marker scope="Public" name="cats0" />
+        <marker scope="Public" name="cats1" />
+        <marker scope="Public" name="cats1s_hand" />
         <marker scope="Public" name="cd_band" />
         <marker scope="Public" name="cd_cd0" />
         <marker scope="Public" name="cd_play" />
@@ -1830,6 +1886,7 @@
         <marker scope="Public" name="gloria_ps0" />
         <marker scope="Public" name="gloria_resp0" />
         <marker scope="Public" name="gloria_resp1" />
+        <marker scope="Public" name="gloria_sb0" />
         <marker scope="Public" name="gloria0" />
         <marker scope="Public" name="gloria01" />
         <marker scope="Public" name="gloria1" />
@@ -1860,6 +1917,7 @@
         <marker scope="Public" name="headpiece" />
         <marker scope="Public" name="height_f" />
         <marker scope="Public" name="height_m" />
+        <marker scope="Public" name="helperchan0" />
         <marker scope="Public" name="heris_passion" />
         <marker scope="Public" name="heris_recruitment" />
         <marker scope="Public" name="heris_resp0" />
@@ -1927,6 +1985,7 @@
         <marker scope="Public" name="hilda7s" />
         <marker scope="Public" name="hitechdread">"My &lt;i&gt;Dread&lt;/i&gt; is advanced...nothing about &lt;i&gt;me&lt;/i&gt; needs to be."</marker>
         <marker scope="Public" name="honorifics">Meia questions a character's use of honorifics.</marker>
+        <marker scope="Public" name="hsw0" />
         <marker scope="Public" name="hu_tao_poems" />
         <marker scope="Public" name="hu_tao_pp0" />
         <marker scope="Public" name="hu_tao_resp0" />
@@ -2137,6 +2196,7 @@
         <marker scope="Public" name="jura1s" />
         <marker scope="Public" name="jura2" />
         <marker scope="Public" name="jura23" />
+        <marker scope="Public" name="jura23yae" />
         <marker scope="Public" name="jura2s" />
         <marker scope="Public" name="jura3" />
         <marker scope="Public" name="jura34" />
@@ -2302,6 +2362,7 @@
         <marker scope="Public" name="laevatein_bb0" />
         <marker scope="Public" name="laevatein_others" />
         <marker scope="Public" name="laevatein_remember" />
+        <marker scope="Public" name="laevatein_resp0" />
         <marker scope="Public" name="laevatein_words" />
         <marker scope="Public" name="laevatein0" />
         <marker scope="Public" name="laevatein01" />
@@ -2374,6 +2435,8 @@
         <marker scope="Public" name="leonie1" />
         <marker scope="Public" name="leonie1s" />
         <marker scope="Public" name="leonie2" />
+        <marker scope="Public" name="leviathan_resp0" />
+        <marker scope="Public" name="leviathan0" />
         <marker scope="Public" name="lizbluehair">Meia tells Elizabeth that she should not be confined to anyone else's restrictions over her hair.</marker>
         <marker scope="Public" name="lizmen">Meia tells Elizabeth about the first man she ever saw in person.</marker>
         <marker scope="Public" name="lucina_men" />
@@ -2452,8 +2515,11 @@
         <marker scope="Public" name="lysithea4s" />
         <marker scope="Public" name="lysithea5" />
         <marker scope="Public" name="lysithea56" />
+        <marker scope="Public" name="lysithea5s" />
         <marker scope="Public" name="lysithea6" />
+        <marker scope="Public" name="lysithea67" />
         <marker scope="Public" name="lysithea6s" />
+        <marker scope="Public" name="lysithea7s" />
         <marker scope="Public" name="magical_sempai" />
         <marker scope="Public" name="magma_grunt_cd0" />
         <marker scope="Public" name="magma_grunt_resp0" />
@@ -3036,6 +3102,8 @@
         <marker scope="Public" name="nayru_doubt">Meia tells Nayru it's better to have to let go of the past.</marker>
         <marker scope="Public" name="nayru_intro">Meia returns Nayru's greeting and notes their similar blue hair, yet opposite personalities.</marker>
         <marker scope="Public" name="nayru_mj">Meia claims to Nayru that she is only playing out of curiosity about men, not to relax.</marker>
+        <marker scope="Public" name="nephenee_resp0" />
+        <marker scope="Public" name="nephenee0" />
         <marker scope="Public" name="neptune_bath" />
         <marker scope="Public" name="neptune_find" />
         <marker scope="Public" name="neptune_meninfo" />
@@ -3137,6 +3205,7 @@
         <marker scope="Public" name="nonon_resp1" />
         <marker scope="Public" name="nonon_resp12" />
         <marker scope="Public" name="nonon_resp2" />
+        <marker scope="Public" name="nonon_resp23" />
         <marker scope="Public" name="nonon0" />
         <marker scope="Public" name="nonon01" />
         <marker scope="Public" name="nonon1" />
@@ -3149,7 +3218,11 @@
         <marker scope="Public" name="nonon34" />
         <marker scope="Public" name="nonon3s" />
         <marker scope="Public" name="nonon4" />
+        <marker scope="Public" name="nonon45" />
         <marker scope="Public" name="nonon4s" />
+        <marker scope="Public" name="nonon5" />
+        <marker scope="Public" name="nonon56" />
+        <marker scope="Public" name="nonon5s" />
         <marker scope="Public" name="ochako_qm">Meia resents Ochako's implication that women can't fall in love.</marker>
         <marker scope="Public" name="okino_gakuran0" />
         <marker scope="Public" name="okino_love" />
@@ -3236,6 +3309,7 @@
         <marker scope="Public" name="petra34" />
         <marker scope="Public" name="petra4" />
         <marker scope="Public" name="petra5" />
+        <marker scope="Public" name="photo" />
         <marker scope="Public" name="pilot">Meia realizes another character is a pilot and perks up with interest.</marker>
         <marker scope="Public" name="pilot_recruitment" />
         <marker scope="Public" name="pinkie_bunny0" />
@@ -3316,6 +3390,7 @@
         <marker scope="Public" name="raku0" />
         <marker scope="Public" name="ravenfriendly">Meia says she was equally unfriendly to Raven at first.</marker>
         <marker scope="Public" name="react_mast">Meia first reacts to someone masturbating after confirming the rule.</marker>
+        <marker scope="Public" name="reimu_getrichquick" />
         <marker scope="Public" name="reimu_men" />
         <marker scope="Public" name="reimu_recruitment" />
         <marker scope="Public" name="reimu_resp0" />
@@ -3326,9 +3401,12 @@
         <marker scope="Public" name="reimu_resp1s_jura" />
         <marker scope="Public" name="reimu_resp2" />
         <marker scope="Public" name="reimu_resp23" />
+        <marker scope="Public" name="reimu_resp3" />
+        <marker scope="Public" name="reimu_resp34" />
         <marker scope="Public" name="reimu_resp5" />
         <marker scope="Public" name="reimu_resp56" />
         <marker scope="Public" name="reimu_sightseeing" />
+        <marker scope="Public" name="reimu_spousequalities" />
         <marker scope="Public" name="reimu0" />
         <marker scope="Public" name="reimu01" />
         <marker scope="Public" name="reimu1" />
@@ -3336,11 +3414,21 @@
         <marker scope="Public" name="reimu1s" />
         <marker scope="Public" name="reimu2" />
         <marker scope="Public" name="reimu23" />
+        <marker scope="Public" name="reimu23jura" />
         <marker scope="Public" name="reimu2s" />
         <marker scope="Public" name="reimu3" />
         <marker scope="Public" name="reimu34" />
         <marker scope="Public" name="reimu3s" />
         <marker scope="Public" name="reimu4" />
+        <marker scope="Public" name="reimu45" />
+        <marker scope="Public" name="reimu45jura" />
+        <marker scope="Public" name="reimu4s" />
+        <marker scope="Public" name="reimu5" />
+        <marker scope="Public" name="reimu56" />
+        <marker scope="Public" name="reimu5s" />
+        <marker scope="Public" name="reimu5s_jura" />
+        <marker scope="Public" name="reimu6" />
+        <marker scope="Public" name="reply_meia_legacyS" />
         <marker scope="Public" name="revy_classical">Meia tells Revy that she was surprised, and somewhat dismayed, to discover that men wrote much of Earth's classical music.</marker>
         <marker scope="Public" name="revy_dogfights">Meia tells Revy that it's easier psychologically to kill people when piloting a Dread.</marker>
         <marker scope="Public" name="revy_killing" />
@@ -3378,6 +3466,7 @@
         <marker scope="Public" name="revyresp2_1">Marker to help Meia's banter with Revy flow smoothly.</marker>
         <marker scope="Public" name="riches_to_rags">Meia mentions that she was wealthy as a child, but lived on the streets as a teenager.</marker>
         <marker scope="Public" name="rin1" />
+        <marker scope="Public" name="ring" />
         <marker scope="Public" name="ringo_ppt0" />
         <marker scope="Public" name="ringo_pr0" />
         <marker scope="Public" name="ringo_recruitment" />
@@ -3406,6 +3495,7 @@
         <marker scope="Public" name="roll_caskett1s" />
         <marker scope="Public" name="roll0" />
         <marker scope="Public" name="rosa_bb0" />
+        <marker scope="Public" name="rosa_lg0" />
         <marker scope="Public" name="rosa_os0" />
         <marker scope="Public" name="rosa_pr0" />
         <marker scope="Public" name="rosa_shd0" />
@@ -3420,6 +3510,19 @@
         <marker scope="Public" name="rosa4" />
         <marker scope="Public" name="rosa45" />
         <marker scope="Public" name="rosa4alt" />
+        <marker scope="Public" name="rosa5s" />
+        <marker scope="Public" name="rose_resp2" />
+        <marker scope="Public" name="rose0" />
+        <marker scope="Public" name="rose01" />
+        <marker scope="Public" name="rose2" />
+        <marker scope="Public" name="rose23" />
+        <marker scope="Public" name="rose3" />
+        <marker scope="Public" name="rose34" />
+        <marker scope="Public" name="rose4" />
+        <marker scope="Public" name="rose5" />
+        <marker scope="Public" name="rouge_bfb" />
+        <marker scope="Public" name="rouge_bfb3" />
+        <marker scope="Public" name="rouge_bfb45" />
         <marker scope="Public" name="rouge_hobbies" />
         <marker scope="Public" name="rouge_jewel" />
         <marker scope="Public" name="rouge_men" />
@@ -3451,6 +3554,7 @@
         <marker scope="Public" name="rouge34" />
         <marker scope="Public" name="rouge3s" />
         <marker scope="Public" name="rouge4" />
+        <marker scope="Public" name="rouge45" />
         <marker scope="Public" name="rouge4s" />
         <marker scope="Public" name="ruka0" />
         <marker scope="Public" name="ryuko_4s" />
@@ -3545,10 +3649,18 @@
         <marker scope="Public" name="sanako_resp01right_cupid" />
         <marker scope="Public" name="sanako_resp0right" />
         <marker scope="Public" name="sanako_resp0right_cupid" />
+        <marker scope="Public" name="sanako_resp1" />
+        <marker scope="Public" name="sanako_resp12" />
+        <marker scope="Public" name="sanako_resp12right" />
         <marker scope="Public" name="sanako_resp1right" />
         <marker scope="Public" name="sanako_resp1s_right" />
+        <marker scope="Public" name="sanako_resp1s_right_cupid" />
+        <marker scope="Public" name="sanako_resp2" />
+        <marker scope="Public" name="sanako_resp23right" />
         <marker scope="Public" name="sanako_resp2right" />
+        <marker scope="Public" name="sanako_resp2s_right" />
         <marker scope="Public" name="sanako_resp3right" />
+        <marker scope="Public" name="sanako_resp3s_right" />
         <marker scope="Public" name="sanako_resp4right" />
         <marker scope="Public" name="sanako0" />
         <marker scope="Public" name="sanako01" />
@@ -3556,10 +3668,16 @@
         <marker scope="Public" name="sanako0left" />
         <marker scope="Public" name="sanako1" />
         <marker scope="Public" name="sanako12" />
+        <marker scope="Public" name="sanako12left" />
+        <marker scope="Public" name="sanako1left" />
         <marker scope="Public" name="sanako1s" />
         <marker scope="Public" name="sanako1s_left" />
         <marker scope="Public" name="sanako2" />
+        <marker scope="Public" name="sanako23" />
+        <marker scope="Public" name="sanako2s" />
         <marker scope="Public" name="sanako3" />
+        <marker scope="Public" name="sanako34" />
+        <marker scope="Public" name="sanako3s" />
         <marker scope="Public" name="sanako4" />
         <marker scope="Public" name="sandy_cheeks0" />
         <marker scope="Public" name="sannytess_nb0" />
@@ -3602,6 +3720,7 @@
         <marker scope="Public" name="senko_shrines" />
         <marker scope="Public" name="senko_ssv0" />
         <marker scope="Public" name="senko_tail" />
+        <marker scope="Public" name="senko_ut0" />
         <marker scope="Public" name="senko0" />
         <marker scope="Public" name="senko01" />
         <marker scope="Public" name="senko1" />
@@ -3619,9 +3738,13 @@
         <marker scope="Public" name="sextoilet0" />
         <marker scope="Public" name="shamiko0" />
         <marker scope="Public" name="shamiko01" />
+        <marker scope="Public" name="shamiko1s" />
         <marker scope="Public" name="shamiko2" />
+        <marker scope="Public" name="shamiko23" />
         <marker scope="Public" name="shamiko4" />
         <marker scope="Public" name="shamiko45" />
+        <marker scope="Public" name="shamiko5" />
+        <marker scope="Public" name="shamiko5s" />
         <marker scope="Public" name="shamir_resp01" />
         <marker scope="Public" name="shantae_dance" />
         <marker scope="Public" name="shantae_resp0" />
@@ -3639,7 +3762,13 @@
         <marker scope="Public" name="small_breasts" />
         <marker scope="Public" name="small_penis" />
         <marker scope="Public" name="sofia_resp0" />
+        <marker scope="Public" name="sofia_resp01" />
         <marker scope="Public" name="sofia_resp1" />
+        <marker scope="Public" name="sofia_resp12" />
+        <marker scope="Public" name="sofia_resp2" />
+        <marker scope="Public" name="sofia_resp23" />
+        <marker scope="Public" name="sofia_resp3" />
+        <marker scope="Public" name="sofia_resp34" />
         <marker scope="Public" name="sofia0" />
         <marker scope="Public" name="sofia01" />
         <marker scope="Public" name="sofia1" />
@@ -3650,10 +3779,14 @@
         <marker scope="Public" name="sofia2s" />
         <marker scope="Public" name="sofia3" />
         <marker scope="Public" name="sofia34" />
+        <marker scope="Public" name="sofia3s" />
         <marker scope="Public" name="sofia4" />
         <marker scope="Public" name="sofia45" />
         <marker scope="Public" name="sofia4s" />
+        <marker scope="Public" name="sofia5" />
+        <marker scope="Public" name="sofia56" />
         <marker scope="Public" name="sofia5s" />
+        <marker scope="Public" name="sofia6s" />
         <marker scope="Public" name="solar_flare0" />
         <marker scope="Public" name="spooky_festive0" />
         <marker scope="Public" name="spooky_nurse0" />
@@ -3722,6 +3855,7 @@
         <marker scope="Public" name="syrenne_magic" />
         <marker scope="Public" name="syrenne_tease" />
         <marker scope="Public" name="tablet">Meia busies herself early on with work on her electronic tablet.</marker>
+        <marker scope="Public" name="tae0" />
         <marker scope="Public" name="taiyaki0" />
         <marker scope="Public" name="takatoshi_gg0" />
         <marker scope="Public" name="takatoshi_love" />
@@ -3851,14 +3985,22 @@
         <marker scope="Public" name="yae_miko_men" />
         <marker scope="Public" name="yae_miko_resp0" />
         <marker scope="Public" name="yae_miko_resp01" />
+        <marker scope="Public" name="yae_miko_resp1" />
+        <marker scope="Public" name="yae_miko_resp12" />
         <marker scope="Public" name="yae_miko_sightseeing" />
         <marker scope="Public" name="yae_miko0" />
         <marker scope="Public" name="yae_miko01" />
         <marker scope="Public" name="yae_miko1s" />
         <marker scope="Public" name="yae_miko2" />
+        <marker scope="Public" name="yae_miko23" />
+        <marker scope="Public" name="yae_miko3" />
+        <marker scope="Public" name="yae_miko34" />
+        <marker scope="Public" name="yae_miko3s" />
+        <marker scope="Public" name="yae_miko5" />
         <marker scope="Public" name="yae_resp0" />
         <marker scope="Public" name="yae_resp01" />
         <marker scope="Public" name="yae_resp1" />
+        <marker scope="Public" name="yae_resp12" />
         <marker scope="Public" name="yae0" />
         <marker scope="Public" name="yae01" />
         <marker scope="Public" name="yae1" />
@@ -3869,11 +4011,16 @@
         <marker scope="Public" name="yae2s" />
         <marker scope="Public" name="yae3" />
         <marker scope="Public" name="yae34" />
+        <marker scope="Public" name="yae34jura" />
         <marker scope="Public" name="yae3jura" />
+        <marker scope="Public" name="yae3s" />
         <marker scope="Public" name="yae4" />
         <marker scope="Public" name="yae45" />
         <marker scope="Public" name="yae4s" />
         <marker scope="Public" name="yae5" />
+        <marker scope="Public" name="yae56" />
+        <marker scope="Public" name="yae5s" />
+        <marker scope="Public" name="yae6s" />
         <marker scope="Public" name="yang_xl0" />
         <marker scope="Public" name="yang_xl01" />
         <marker scope="Public" name="yshtola_fs0" />
@@ -4048,15 +4195,26 @@
         <marker scope="Public" name="zekepandoria_resp12" />
         <marker scope="Public" name="zekepandoria_resp2" />
         <marker scope="Public" name="zekepandoria_resp23" />
+        <marker scope="Public" name="zekepandoria_resp3" />
         <marker scope="Public" name="zekepandoria0" />
         <marker scope="Public" name="zekepandoria01" />
+        <marker scope="Public" name="zekepandoria1" />
+        <marker scope="Public" name="zekepandoria12" />
         <marker scope="Public" name="zekepandoria1s" />
         <marker scope="Public" name="zekepandoria2" />
+        <marker scope="Public" name="zekepandoria23" />
+        <marker scope="Public" name="zekepandoria2s" />
         <marker scope="Public" name="zekepandoria3" />
         <marker scope="Public" name="zekepandoria34" />
+        <marker scope="Public" name="zekepandoria34jura" />
+        <marker scope="Public" name="zekepandoria3s" />
         <marker scope="Public" name="zekepandoria4" />
         <marker scope="Public" name="zekepandoria45" />
         <marker scope="Public" name="zekepandoria4s" />
+        <marker scope="Public" name="zekepandoria5" />
+        <marker scope="Public" name="zekepandoria56" />
+        <marker scope="Public" name="zekepandoria5s" />
+        <marker scope="Public" name="zekepandoria6s" />
         <marker scope="Public" name="zenobia0" />
         <marker scope="Public" name="zoe0" />
         <marker scope="Public" name="zoe01" />

@@ -9,6 +9,7 @@
         <response id="1" opponent="caulifla" opponentId="2" />
         <response id="3" opponent="nami" opponentId="9" />
         <response id="4" opponent="caulifla" opponentId="3" />
+        <response id="59" opponent="arle" opponentId="274" />
     </responses>
     <notes>
         <note id="5">For Alias' sponsorship. </note>
@@ -28,6 +29,8 @@ The generic lines for stages 0-3 also have their priority set to 5. These marked
         <note id="17">For Rem's Sponsorship</note>
         <note id="18">For Rem's Sponsorship</note>
         <note id="58">I do not apologize for this marker's name.</note>
+        <note id="60">This line couples with the visible (crotch, opponent) case. It is intended that one or the other plays depending on which is revealed first by the opponent, and the other line should not play afterwards.</note>
+        <note id="61">This line couples with the visible (chest, opponent) case. It is intended that one or the other plays depending on which is revealed first by the opponent, and the other line should not play afterwards.</note>
     </notes>
     <labels>
         <label id="19" label="" folder="Summer Skin" sort="2" />
@@ -68,9 +71,7 @@ The generic lines for stages 0-3 also have their priority set to 5. These marked
         <label id="56" label="" folder="Summer Skin" sort="16" />
         <label id="57" label="" folder="Summer Skin" sort="34" />
     </labels>
-    <onlyCustomPoses>false</onlyCustomPoses>
-    <hidePrefixlessImages>false</hidePrefixlessImages>
-    <nextId>58</nextId>
+    <nextId>61</nextId>
     <markers>
         <marker scope="Public" name="2_nickels" />
         <marker scope="Public" name="4_cards" />
@@ -84,6 +85,7 @@ The generic lines for stages 0-3 also have their priority set to 5. These marked
         <marker scope="Public" name="AquaKH_Keyblade_Learn" />
         <marker scope="Public" name="Arle_DM_Ask" />
         <marker scope="Public" name="Arle_DM_Ask_2" />
+        <marker scope="Public" name="Arle_DM_Ask_3" />
         <marker scope="Public" name="Arue_hat" />
         <marker scope="Public" name="Arue_hat 2" />
         <marker scope="Public" name="arueshalae_learn" />
@@ -92,11 +94,15 @@ The generic lines for stages 0-3 also have their priority set to 5. These marked
         <marker scope="Public" name="attack">DMG references using an attack.</marker>
         <marker scope="Public" name="big_hair" />
         <marker scope="Public" name="Birthday Suit" />
+        <marker scope="Public" name="bookworm_reveal_1" />
+        <marker scope="Public" name="bookworm_reveal_chest" />
+        <marker scope="Public" name="bookworm_reveal_crotch" />
         <marker scope="Public" name="bounty_hunter" />
         <marker scope="Public" name="Brainwashed" />
         <marker scope="Public" name="broom">DMG talks about riding a broom.</marker>
         <marker scope="Public" name="Burning" />
         <marker scope="Public" name="Caitlin_birthdays" />
+        <marker scope="Public" name="Caitlin_birthdays_2" />
         <marker scope="Public" name="caitlin_hat" />
         <marker scope="Public" name="Caitlin_Reuniclus" />
         <marker scope="Public" name="Caitlin_sleep" />
@@ -137,6 +143,7 @@ The generic lines for stages 0-3 also have their priority set to 5. These marked
         <marker scope="Public" name="dmg_strong" />
         <marker scope="Public" name="dragon_knight" />
         <marker scope="Public" name="Duel Spirit" />
+        <marker scope="Public" name="duelists_of_the_roses" />
         <marker scope="Public" name="dunban_prowess" />
         <marker scope="Public" name="dunban_sword" />
         <marker scope="Public" name="dunban_sword_2" />
@@ -171,6 +178,7 @@ The generic lines for stages 0-3 also have their priority set to 5. These marked
         <marker scope="Public" name="HexManiac" />
         <marker scope="Public" name="history" />
         <marker scope="Public" name="immortal" />
+        <marker scope="Public" name="Jenna_psynergy" />
         <marker scope="Public" name="Jinzo" />
         <marker scope="Public" name="Jura rapier" />
         <marker scope="Public" name="Ka" />
@@ -209,6 +217,7 @@ The generic lines for stages 0-3 also have their priority set to 5. These marked
         <marker scope="Public" name="no_hats" />
         <marker scope="Public" name="Noelle Knight" />
         <marker scope="Public" name="Noelle Vision" />
+        <marker scope="Public" name="nonon_skull_1" />
         <marker scope="Public" name="not_blonde">DMG questions Asuna's hair color.</marker>
         <marker scope="Public" name="not_mana" />
         <marker scope="Public" name="off">DMG makes a Queen of Hearts joke.</marker>
@@ -242,6 +251,7 @@ The generic lines for stages 0-3 also have their priority set to 5. These marked
         <marker scope="Public" name="sempai_dove" />
         <marker scope="Public" name="sempai_magic_1" />
         <marker scope="Public" name="sempai_magic_2" />
+        <marker scope="Public" name="shamiko_cute" />
         <marker scope="Public" name="silly_outfit" />
         <marker scope="Public" name="sleep_hat" />
         <marker scope="Public" name="slifer" />
@@ -268,6 +278,7 @@ The generic lines for stages 0-3 also have their priority set to 5. These marked
         <marker scope="Public" name="Syrus?" />
         <marker scope="Public" name="Takahashi" />
         <marker scope="Public" name="tea_dance" />
+        <marker scope="Public" name="tea_dance_1" />
         <marker scope="Public" name="tea_show" />
         <marker scope="Public" name="tea_stripper_2_A" />
         <marker scope="Public" name="tea_stripper_A" />

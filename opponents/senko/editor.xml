@@ -12,10 +12,11 @@
         <case name="Amenities Prompt" id="168" priority="Prompt" min="3" max="7">
             <description>Senko asks the table what sorts of modern amenities they enjoy.</description>
         </case>
-        <case name="Halloween Punishment Prompt" id="194" priority="Noteworthy" min="1" max="4">
+        <case name="Halloween Punishment Prompt" id="194" priority="Prompt" min="1" max="4">
             <description>Senko (as an oni) asks how people hate being punished.</description>
         </case>
     </noteworthy>
+    <reviewed>true</reviewed>
     <responses>
         <response id="16" opponent="miko" opponentId="6" />
         <response id="17" opponent="susie" opponentId="103" />
@@ -270,6 +271,8 @@
         <response id="610" opponent="aqua_konosuba" opponentId="1065" />
         <response id="611" opponent="aqua_konosuba" opponentId="1068" />
         <response id="612" opponent="aqua_konosuba" opponentId="1069" />
+        <response id="649" opponent="zeke_pandoria" opponentId="572" />
+        <response id="652" opponent="lysithea" opponentId="50" />
     </responses>
     <notes>
         <note id="461">This will be about words or acts, lmao</note>
@@ -621,11 +624,58 @@
         <label id="589" label="" folder="Early Game" sort="4" />
         <label id="590" label="Kind Forfeit" folder="Situational Awareness lmao" sort="11" />
         <label id="591" label="Kind Forfeit" folder="Situational Awareness lmao" sort="12" />
+        <label id="619" label="" folder="Easter Costume" sort="0" />
+        <label id="620" label="" folder="Easter Costume" sort="0" />
+        <label id="621" label="" folder="Easter Costume" sort="0" />
+        <label id="622" label="" folder="Easter Costume" sort="0" />
+        <label id="623" label="" folder="Easter Costume" sort="0" />
+        <label id="624" label="" folder="Easter Costume" sort="0" />
+        <label id="625" label="" folder="Easter Costume" sort="0" />
+        <label id="626" label="" folder="Easter Costume" sort="0" />
+        <label id="627" label="" folder="Easter Costume" sort="0" />
+        <label id="628" label="" folder="Easter Costume" sort="0" />
+        <label id="629" label="" folder="Easter Costume" sort="0" />
+        <label id="630" label="" folder="Easter Costume" sort="0" />
+        <label id="631" label="" folder="Bedtime Tea" sort="0" />
+        <label id="632" label="" folder="Bedtime Tea" sort="0" />
+        <label id="634" label="" folder="Bedtime Tea" sort="0" />
+        <label id="635" label="" folder="Bedtime Tea" sort="0" />
+        <label id="636" label="" folder="Bedtime Tea" sort="0" />
+        <label id="637" label="" folder="Bedtime Tea" sort="0" />
+        <label id="638" label="" folder="Bedtime Tea" sort="0" />
+        <label id="639" label="" folder="Bedtime Tea" sort="0" />
+        <label id="640" label="" folder="Bedtime Tea" sort="0" />
+        <label id="641" label="" folder="Bedtime Tea" sort="0" />
+        <label id="642" label="" folder="Bedtime Tea" sort="0" />
+        <label id="643" label="" folder="Bedtime Tea" sort="0" />
+        <label id="644" label="" folder="Bedtime Tea" sort="0" />
+        <label id="645" label="" folder="Bedtime Tea" sort="0" />
+        <label id="646" label="" folder="Bedtime Tea" sort="0" />
+        <label id="647" label="" folder="Bedtime Tea" sort="0" />
+        <label id="648" label="" folder="Bedtime Tea" sort="0" />
+        <label id="664" label="" color="1" folder="" sort="0" />
+        <label id="665" label="" color="1" folder="" sort="0" />
+        <label id="652" label="" color="1" folder="" sort="0" />
+        <label id="653" label="" color="1" folder="" sort="0" />
+        <label id="654" label="" color="1" folder="" sort="0" />
+        <label id="655" label="" color="1" folder="" sort="0" />
+        <label id="656" label="" color="1" folder="" sort="0" />
+        <label id="663" label="" color="1" folder="" sort="0" />
+        <label id="662" label="" color="1" folder="" sort="0" />
+        <label id="659" label="" color="3" folder="" sort="0" />
+        <label id="660" label="" color="1" folder="" sort="0" />
+        <label id="661" label="" color="1" folder="" sort="0" />
+        <label id="666" label="" folder="Easter Costume" sort="0" />
+        <label id="667" label="" folder="Easter Costume" sort="0" />
+        <label id="668" label="" color="1" folder="" sort="0" />
+        <label id="669" label="" color="1" folder="" sort="0" />
+        <label id="670" label="" color="1" folder="" sort="0" />
+        <label id="671" label="" color="1" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>a-</prefix>
     </prefixes>
-    <nextId>617</nextId>
+    <nextId>671</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="1DN" />
@@ -818,6 +868,10 @@
         <marker scope="Public" name="lux_partner" />
         <marker scope="Public" name="lux_senko" />
         <marker scope="Public" name="lux_vibrator" />
+        <marker scope="Public" name="Lysithea_maturity_reply" />
+        <marker scope="Public" name="Lysithea_romance_reply" />
+        <marker scope="Public" name="Lysithea_selfAge_reply" />
+        <marker scope="Public" name="Lysithea_time_reply" />
         <marker scope="Public" name="mari_FF1" />
         <marker scope="Public" name="mari_FF10" />
         <marker scope="Public" name="mari_FF2" />
@@ -869,8 +923,12 @@
         <marker scope="Public" name="mitama22" />
         <marker scope="Public" name="mitama23" />
         <marker scope="Public" name="modern_amenities" />
+        <marker scope="Public" name="Monika_shoes_stripped" />
+        <marker scope="Public" name="Monika_skirt_stripped" />
+        <marker scope="Public" name="Monika_skirt_stripping" />
         <marker scope="Public" name="monika01" />
         <marker scope="Public" name="monika02" />
+        <marker scope="Public" name="monika03" />
         <marker scope="Public" name="nadia_neko" />
         <marker scope="Public" name="nadia01" />
         <marker scope="Public" name="nadia02" />
@@ -1164,6 +1222,8 @@
         <marker scope="Public" name="slyFFH4" />
         <marker scope="Public" name="slyFFH5" />
         <marker scope="Public" name="sm_ff" />
+        <marker scope="Public" name="Sofia_monster_reply" />
+        <marker scope="Public" name="Sofia_selfCook_reply" />
         <marker scope="Public" name="spooky_shapeshifting" />
         <marker scope="Public" name="spooky01" />
         <marker scope="Public" name="stocking_costume" />
@@ -1196,6 +1256,8 @@
         <marker scope="Public" name="tomoko02" />
         <marker scope="Public" name="tomoko03" />
         <marker scope="Public" name="uni_ff" />
+        <marker scope="Public" name="Yae_selfElder_reply" />
+        <marker scope="Public" name="Yae_selfYokai_reply" />
         <marker scope="Public" name="yshotola01" />
         <marker scope="Public" name="yshtola02" />
         <marker scope="Public" name="yuri_feet" />
@@ -1212,6 +1274,13 @@
         <marker scope="Public" name="yuri51" />
         <marker scope="Public" name="yuri52" />
         <marker scope="Public" name="yuri53" />
+        <marker scope="Public" name="ZekePandoria_foxWisdom_reply" />
+        <marker scope="Public" name="ZekePandoria_foxWisdom_reply2" />
+        <marker scope="Public" name="ZekePandoria_reply" />
+        <marker scope="Public" name="ZekePandoria_selfCare_reply" />
+        <marker scope="Public" name="ZekePandoria_selfCare_reply2" />
+        <marker scope="Public" name="ZekePandoria_soCute_reply" />
+        <marker scope="Public" name="ZekePandoria_soCute_reply2" />
     </markers>
     <pendingLines>
         <line>105**ca51.1.33.100.12.45.51.7.20.14.60.76_daF4DEE0_db_dd9.0.82.0.19.-19_dhEF9D85.27.58.33.1_di5_qa_qb_dc1.4.F3ABDF.E3B48C.CD766F.0_eh_ea8.FCFCFC.DBDBDB.56.1.0_ec_ed_ef_eg_r053.FCFCFC.DBDBDB.56.1.2.26.66.149.586.553.0.1.490.1.0.0_r062.FCFCFC.DBDBDB.56.1.1.68.100.149.377.461.0.1.501.1.0.0_r073.FCFCFC.DBDBDB.56.2.1.26.80.143.549.553.0.1.501.1.0.0_r082.FCFCFC.DBDBDB.56.0.2.41.100.161.594.496.0.1.501.1.0.0_r093.FCFCFC.DBDBDB.56.1.1.30.33.112.538.506.0.1.548.1.0.0_r103.FCFCFC.DBDBDB.56.2.1.6.64.175.365.560.0.1.594.1.0.0_r113.FCFCFC.DBDBDB.56.0.0.16.80.288.480.307.0.3.455.1.44.0_r123.FCFCFC.DBDBDB.56.1.1.12.17.176.388.602.0.1.559.1.0.0_r133.FCFCFC.DBDBDB.56.1.1.12.41.171.369.576.0.1.559.1.0.0_r142.FCFCFC.DBDBDB.56.2.2.58.100.184.389.575.0.3.604.1.0.0_r153.FCFCFC.DBDBDB.56.2.2.23.10.140.424.621.0.1.594.1.0.0_r163.FCFCFC.DBDBDB.56.2.2.6.38.156.513.613.0.1.559.1.0.0_r1720.FCFCFC.DBDBDB.56.1.2.209.147.174.491.598.0.0.479.1.0.0_r183.FCFCFC.DBDBDB.56.2.2.36.48.113.494.609.0.1.594.1.0.0_r193.FCFCFC.DBDBDB.56.1.2.6.58.159.507.624.0.4.525.1.0.0_r203.FCFCFC.DBDBDB.56.1.2.6.38.137.507.624.0.1.472.1.0.0_r2127.FCFCFC.DBDBDB.56.0.2.-21.-15.102.617.586.0.5.455.1.0.0_r2219.FCFCFC.DBDBDB.56.0.2.68.186.54.556.600.0.1.376.1.0.0_r2319.FCFCFC.DBDBDB.56.0.2.68.186.54.555.600.0.0.376.1.0.0_r2420.FCFCFC.DBDBDB.56.0.2.0.26.61.580.595.0.0.445.1.0.0_r2520.FCFCFC.DBDBDB.56.0.2.8.50.106.568.596.0.0.559.1.0.0_r263.FCFCFC.DBDBDB.56.0.2.44.36.107.513.626.0.1.559.1.0.0_r2719.FCFCFC.DBDBDB.56.0.0.109.263.48.507.547.0.1.410.1.0.0_r283.FCFCFC.DBDBDB.56.1.2.6.58.159.507.624.0.0.525.1.0.0_r2920.FCFCFC.DBDBDB.56.0.2.100.100.122.502.629.0.0.500.1.0.0_r3020.FCFCFC.DBDBDB.56.0.2.100.117.110.502.610.0.0.500.1.0.0_r3125.FCFCFC.DBDBDB.56.2.2.-40.-23.176.634.536.0.0.500.0.0.0_r3225.FCFCFC.DBDBDB.56.2.2.-44.-34.176.625.531.0.0.500.0.0.0_r3325.FCFCFC.DBDBDB.56.2.2.-40.-21.360.542.538.0.0.500.0.0.0_r3425.FCFCFC.DBDBDB.56.2.2.-43.-36.360.530.538.0.0.500.0.0.0_r3525.FCFCFC.DBDBDB.56.0.2.-40.-28.160.594.543.0.0.500.0.0.0_r362.FCFCFC.DBDBDB.56.0.2.0.0.24.483.629.0.0.467.1.0.0_r373.FCFCFC.DBDBDB.56.2.0.12.41.135.593.560.0.1.433.1.0.0_r382.FCFCFC.DBDBDB.56.2.2.58.100.184.389.575.0.0.604.1.0.0_r3925.FCFCFC.DBDBDB.56.2.2.-43.-29.176.451.536.0.0.500.0.0.0_r4020.FCFCFC.DBDBDB.56.0.2.1.48.79.559.609.0.0.479.1.0.0_r4120.FCFCFC.DBDBDB.56.0.2.0.51.62.553.609.0.0.445.1.0.0_fa10.36.70.65.70.36.56.1_fb7_fh9_fk17_fc66.932225.55.66.932225.55.40.4D2819.4D2819.40.50.54_fj_fd16.1.26.FCFCFC.56.75_fe74.75_ff0000000000_fg0.65.55.0.0.0.-46.4_fi6.65.28.35.-6_pa_f00-5.0.261.580.369.-5.0.1.0.500.100.0.0/#]images\senkoTail.png</line>

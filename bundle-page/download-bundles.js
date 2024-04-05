@@ -7,6 +7,8 @@ var SPECIAL_CASE_NAMES = {
     "alice_mgq": "Alice (MGQ)",
     "aqua_kh": "Aqua (KH)",
     "aqua_konosuba": "Aqua (KonoSuba)",
+    "aoi_asahina": "Aoi",
+    "cats": "CATS",
     "d.va": "D.Va",
     "frisk_and_friends": "Frisk",
     "hatsune_miku": "Miku",
@@ -64,12 +66,14 @@ var SPECIAL_CASE_NAMES = {
     "chara_dreemurr": "Chara",
     "chell_wheatley": "Chell",
     "hermione_granger": "Hermione",
-    "mettaton_neo": "Mettaton",
     "misty_hgss": "Misty",
     "rarity_eg": "Rarity",
     "samus_aran": "Samus",
     "weiss_schnee": "Weiss",
-    "yang_xiao_long": "Yang"
+    "yang_xiao_long": "Yang",
+
+    // broken
+    "mettaton_neo": "Mettaton (failed rework)"
 }
 
 function cell_with_text(text, classes) {
@@ -105,8 +109,12 @@ function format_name(name) {
 function create_bundle_entry (manifest) {
     var tr = document.createElement('tr');
 
-    if (MAIN_CATEGORIES.indexOf(manifest.category) >= 0 || manifest.category === 'incomplete' || manifest.category === 'event' || manifest.category === 'duplicate') {
+    if (MAIN_CATEGORIES.indexOf(manifest.category) >= 0 || manifest.category === 'incomplete' || manifest.category === 'event' || manifest.category === 'duplicate' || manifest.category === 'broken') {
         var title = capitalize(manifest.category) + ' Opponents #' + manifest.index;
+
+        if (manifest.category === 'offline') {
+            title = 'Legacy Opponents #' + manifest.index;
+        }
 
         var includes_opponents = manifest.folders.reduce(function (acc, val) {
             var opp = val.replace(/opponents[\\\/]/gi, '');
@@ -123,6 +131,8 @@ function create_bundle_entry (manifest) {
             var desc = 'Includes the following April Fool\'s Day opponents: '+includes_opponents;
         } else if (manifest.category === 'duplicate') {
             var desc = 'Includes outdated versions of the following opponents: '+includes_opponents;
+        } else if (manifest.category === 'broken') {
+            var desc = 'Includes the following extra opponents: '+includes_opponents;
         } else {
             var desc = includes_opponents;
         }

@@ -8,14 +8,14 @@ If Sanako to left and Kyoko to right:
 
 SANAKO MUST STRIP SHOES AND SOCKS:
 Sanako [sanako_kyoko_sk_s1]: Even though I'm just a regular student, I hope it's okay if I take a turn as the teacher and let you know a few things about myself.
-Kyoko []*: ??
+Kyoko [sanako_sk_s1]: That’s quite forward of you… Go on.
 
 SANAKO STRIPPING SHOES AND SOCKS:
-Sanako []*: ??
+Sanako [sanako_kyoko_sk_s2]: Well, my name is Sanako Isogai, but please keep calling me Sanako. I'm in senior year at Hikarizaka. I love cooking up unique treats and my family! That's all!
 Kyoko []*: ??
 
 SANAKO STRIPPED SHOES AND SOCKS:
-Sanako []*: ??
+Sanako [sanako_kyoko_sk_s3]*: ??
 Kyoko []*: ??
 
 
@@ -74,14 +74,14 @@ Kyoko []*: ??
 
 KYOKO MUST STRIP JACKET:
 Sanako [sanako_kyoko_sk_k1]: Kyoko, how's our junior detective doing over there?
-Kyoko []*: ??
+Kyoko [sanako_sk_k1]: I’m fine. …You ask that like you’re older than me.
 
 KYOKO STRIPPING JACKET:
-Sanako []*: ??
+Sanako [sanako_kyoko_sk_k2]: Well, I might be just a <i>little</i> older. But I'm sure you outrank me in investigator-type things. Sluething and all that.
 Kyoko []*: ??
 
 KYOKO STRIPPED JACKET:
-Sanako []*: ??
+Sanako [sanako_kyoko_sk_k3]: ??
 Kyoko []*: ??
 
 
@@ -182,16 +182,16 @@ DUE TO POSITION DETECTION, CONVERSATIONS ABOVE AND BELOW THIS LINE WON'T PLAY IN
 If Kyoko to left and Sanako to right:
 
 SANAKO MUST STRIP SHOES AND SOCKS:
-Kyoko []*: ?? -- Your character leads the conversation here; this is just like how you'd write a regular targeted line
-Sanako []*: ??
+Kyoko [sanako_ks_s1]: It’s been a long time since I’ve seen a uniform like yours. Where do you study?
+Sanako [sanako_kyoko_ks_s1]: Who, me? I'm sure you wouldn't have heard of Hikarizaka Private High School, Kyoko. It was founded in 1972. The school is at the highest elevation in town, and the view is breathtaking.
 
 SANAKO STRIPPING SHOES AND SOCKS:
 Kyoko []*: ??
-Sanako []*: ??
+Sanako [sanako_kyoko_ks_s2]*: ??
 
 SANAKO STRIPPED SHOES AND SOCKS:
 Kyoko []*: ??
-Sanako []*: ??
+Sanako [sanako_kyoko_ks_s3]*: ??
 
 
 SANAKO MUST STRIP SHIRT:
@@ -248,16 +248,16 @@ Sanako []*: ??
 ---
 
 KYOKO MUST STRIP JACKET:
-Kyoko []*: ?? -- For lines in this conversation stream, your character should say something that you think Sanako will have an opinion about. Sanako will reply, and conversation will ensue. Avoid the temptation to mention Sanako specifically here, as when it's your character's turn, it's her time in the spotlight
-Sanako []*: ??
+Kyoko [sanako_ks_k1]: I’d say my visit to ~background.if.inventory(the Inventory|here)~ has gone well so far. I might’ve been needing a break for a while…
+Sanako [sanako_kyoko_ks_k1]: I know the feeling. Full days, all go-go-go, with hardly a moment to yourself! When it's like that, you have to take every opportunity you can to relax.
 
 KYOKO STRIPPING JACKET:
 Kyoko []*: ??
-Sanako []*: ??
+Sanako [sanako_kyoko_ks_k2]*: ??
 
 KYOKO STRIPPED JACKET:
 Kyoko []*: ??
-Sanako []*: ??
+Sanako [sanako_kyoko_ks_k3]*: ??
 
 
 KYOKO MUST STRIP TIE:

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<opponent>
+    <lastupdate>1712185039686</lastupdate>
+    <enabled>false</enabled>
+    <first>Hot Spring Woman</first>
+    <last />
+    <label>Hot Spring Woman</label>
+    <pic>0-calm.png</pic>
+    <gender>female</gender>
+    <from>Mother 3</from>
+    <writer>Mymans76</writer>
+    <artist>Bluejae, Mymans76 (posing)</artist>
+    <description>An elusive lady from the Nowhere Islands that enjoys a good relaxing hot spring.</description>
+    <layers>2</layers>
+    <lines>263</lines>
+    <poses>55</poses>
+</opponent>

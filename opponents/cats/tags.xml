@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<opponent>
+    <tags>
+        <tag>green_hair</tag>
+        <tag>exotic_hair</tag>
+        <tag>long_hair</tag>
+        <tag>red_eyes</tag>
+        <tag>exotic_eyes</tag>
+        <tag>unusual_skin</tag>
+        <tag>short</tag>
+        <tag>alien</tag>
+        <tag>cyborg</tag>
+        <tag>non-human</tag>
+        <tag>cape</tag>
+        <tag>aggressive</tag>
+        <tag>indifferent</tag>
+        <tag>insane</tag>
+        <tag>mean</tag>
+        <tag>serious</tag>
+        <tag from="9" to="9">silent</tag>
+        <tag>villain</tag>
+        <tag>criminal</tag>
+        <tag>pirate</tag>
+        <tag>joke_forfeit</tag>
+        <tag from="9" to="9">breaks_fourth_wall</tag>
+        <tag>april_fools</tag>
+        <tag>internet_meme</tag>
+        <tag>video_game</tag>
+        <tag>future</tag>
+        <tag>sci-fi</tag>
+        <tag>space</tag>
+        <tag>zero_wing</tag>
+    </tags>
+</opponent>

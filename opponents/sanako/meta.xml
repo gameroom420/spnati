@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1708012929787</lastupdate>
+    <lastupdate>1711692750810</lastupdate>
     <enabled>true</enabled>
     <first>Sanako</first>
     <last>Isogai</last>
@@ -14,8 +14,8 @@
     <layers>5</layers>
     <default-costume-name>Summer Uniform</default-costume-name>
     <has_collectibles>true</has_collectibles>
-    <lines>1409</lines>
-    <poses>271</poses>
+    <lines>1614</lines>
+    <poses>270</poses>
     <has_ending>false</has_ending>
     <has_ending>false</has_ending>
 </opponent>

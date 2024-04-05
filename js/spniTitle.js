@@ -151,7 +151,15 @@ var CANDY_LIST = [
     "sweetheart/0-cutsey.png",         // Highlighted New Character
     "sweetheart/1-graceful.png",
     "sweetheart/1-despair.png",
-    "sweetheart/1-stripping1.png",	
+    "sweetheart/1-stripping1.png",
+    "nonon/0-portrait.png",         // Highlighted New Character
+    "nonon/0-pout.png",
+    "nonon/0-awkward.png",
+    "nonon/3-strip32.png",
+    "ribbon_girl/0-happy.png",         // Highlighted Updated Character
+    "ribbon_girl/1-dukes.png",
+    "ribbon_girl/6-cheer.png",
+    "ribbon_girl/6-wink.png",	
     "samus_aran/0-portrait.png",           // Has Recent Updates
     "samus_aran/1-introspective.png",
     "samus_aran/1-curious.png",

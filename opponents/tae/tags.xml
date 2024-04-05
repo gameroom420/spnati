@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<opponent>
+    <tags>
+        <tag>black_hair</tag>
+        <tag>long_hair</tag>
+        <tag>very_long_hair</tag>
+        <tag>messy_hair</tag>
+        <tag>red_eyes</tag>
+        <tag>exotic_eyes</tag>
+        <tag from="0" to="2">pale-skinned</tag>
+        <tag from="3" to="8">unusual_skin</tag>
+        <tag>pubic_hair</tag>
+        <tag>hairy</tag>
+        <tag from="0" to="4">medium_breasts</tag>
+        <tag from="5" to="8">large_breasts</tag>
+        <tag from="3" to="8">monster</tag>
+        <tag from="3" to="8">undead</tag>
+        <tag from="0" to="4">chest_wrappings</tag>
+        <tag from="0" to="1">pantyhose</tag>
+        <tag>aggressive</tag>
+        <tag>creepy</tag>
+        <tag>ditzy</tag>
+        <tag>dumb</tag>
+        <tag>insane</tag>
+        <tag>quiet</tag>
+        <tag>reverse_bi-curious</tag>
+        <tag>single</tag>
+        <tag>japanese</tag>
+        <tag>celebrity</tag>
+        <tag>dancer</tag>
+        <tag>idol</tag>
+        <tag>singer</tag>
+        <tag>breasts_smaller_clothed</tag>
+        <tag>butt_pose</tag>
+        <tag>april_fools</tag>
+        <tag>anime</tag>
+        <tag>manga</tag>
+        <tag>zombieland_saga</tag>
+    </tags>
+</opponent>

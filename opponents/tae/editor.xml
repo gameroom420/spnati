@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+    <owner>tae</owner>
+    <height>5'7''</height>
+    <age>29</age>
+    <pronunciation>Tie Ya-ma-da</pronunciation>
+    <othernotes />
+    <nextId>0</nextId>
+    <markers>
+        <marker scope="Public" name="" />
+        <marker scope="Public" name="jura_annoyance0" />
+        <marker scope="Public" name="kyoko_investigate0" />
+        <marker scope="Public" name="kyoko_investigate0a" />
+        <marker scope="Public" name="kyoko_investigate0b" />
+        <marker scope="Public" name="kyoko_life0" />
+        <marker scope="Public" name="kyoko_life0a" />
+        <marker scope="Public" name="kyoko_life0aa" />
+        <marker scope="Public" name="kyoko_life0b" />
+        <marker scope="Public" name="kyoko_life0bb" />
+        <marker scope="Public" name="kyoko_name0" />
+        <marker scope="Public" name="kyoko_name0a" />
+        <marker scope="Public" name="kyoko_name0b" />
+        <marker scope="Public" name="kyoko_place0" />
+        <marker scope="Public" name="kyoko_place0a" />
+        <marker scope="Public" name="kyoko_place0aa" />
+        <marker scope="Public" name="kyoko_place0b" />
+        <marker scope="Public" name="kyoko_place0bb" />
+        <marker scope="Public" name="kyoko_preference0" />
+        <marker scope="Public" name="kyoko_preference0a" />
+        <marker scope="Public" name="kyoko_preference0b" />
+        <marker scope="Public" name="kyoko_work0" />
+        <marker scope="Public" name="kyoko_work0a" />
+        <marker scope="Public" name="kyoko_work0b" />
+        <marker scope="Public" name="meia_nolife0" />
+        <marker scope="Public" name="revy_braindead0" />
+        <marker scope="Public" name="saki_gone" />
+        <marker scope="Public" name="sakura_gone" />
+        <marker scope="Public" name="tae_head" />
+    </markers>
+</metadata>

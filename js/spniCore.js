@@ -795,6 +795,13 @@ $('.help-page-select').click(function (ev) {
 })
 
 /************************************************************
+ * The player clicked the Discord button. Shows the server links modal.
+ ************************************************************/
+function showDiscordModal() {
+    $("#discord-modal").modal("show");
+}
+
+/************************************************************
  * The player clicked the player tags button. Shows the player tags modal.
  ************************************************************/
 function showPlayerTagsModal () {
@@ -1047,14 +1054,18 @@ function showImportModal() {
 }
 
 function showExtrasModal() {
-    /* hide Extra Opponents options if online version */
-    if (!getReportedOrigin().includes("spnati.net")) {
-        $(".extra-characters-options").prop("hidden", false);
-        $('ul.character-status-toggle').each(function() {
-            var show = includedOpponentStatuses[$(this).data('status')];
-            $(this).children(':has(a[data-value=true])').toggleClass('active', show);
-            $(this).children(':has(a[data-value=false])').toggleClass('active', !show);
-        });
+    $(".extra-characters-options").prop("hidden", false);
+    $('ul.character-status-toggle').each(function() {
+        var show = includedOpponentStatuses[$(this).data('status')];
+        $(this).children(':has(a[data-value=true])').toggleClass('active', show);
+        $(this).children(':has(a[data-value=false])').toggleClass('active', !show);
+    });
+
+    /* hide some Extra Opponents options if online version */
+    if (isMainSite) {
+        $(".event-option").prop("hidden", true);
+        $(".duplicate-option").prop("hidden", true);
+        $(".broken-option").prop("hidden", true);
     }
 
     updateTrackingToggles();

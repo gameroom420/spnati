@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <metadata>
     <owner>amy_rose</owner>
+    <height>5' 2"</height>
+    <age />
+    <pronunciation />
+    <othernotes />
     <noteworthy>
         <case name="Going Shopping" id="8" priority="Prompt" min="0" max="2">
             <description>Amy asks the table if they go shopping.</description>

@@ -413,6 +413,7 @@
         <marker scope="Public" name="Laev_Sayaka_mage." />
         <marker scope="Public" name="Laev_Senko" />
         <marker scope="Public" name="Laev_Senko_kind" />
+        <marker scope="Public" name="Laev_Shamiko_meaning" />
         <marker scope="Public" name="Laev_sorry" />
         <marker scope="Public" name="Laev_Stocking_choco" />
         <marker scope="Public" name="Laev_Stocking_style" />
@@ -477,6 +478,10 @@
         <marker scope="Public" name="Laev_Zoe_Cynthia_why" />
         <marker scope="Public" name="Laevatein_boots" />
         <marker scope="Public" name="Laevatein_boots." />
+        <marker scope="Public" name="Laevatein_Lysithea_start" />
+        <marker scope="Public" name="Laevatein_Lysithea_strat" />
+        <marker scope="Public" name="Laevatein_Meia_connect" />
+        <marker scope="Public" name="Laevatein_Petra_hunt" />
         <marker scope="Public" name="Laevatein1s_reponse" />
         <marker scope="Public" name="Laevatein1s_responsem" />
         <marker scope="Public" name="Laevatein1s_responser" />

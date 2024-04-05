@@ -59,6 +59,7 @@
     <tag display="Fat / Chubby" description="Has pronounced body fat. Anywhere from a little extra, or beer belly, or larger">chubby</tag>
     <tag display="Curvy" gender="female" description="Curvier build, with wide, well-defined hips/thighs">curvy</tag>
     <tag display="Short" description="Character is notably shorter than average">short</tag>
+    <tag display="Shortstack" paired="short" description="Character is short to a usually non-human degree, often with wide hips and/or large breasts">shortstack</tag>
     <tag display="Tall" description="Character is notably taller than average">tall</tag>
     <tag display="Twink" gender="male" description="Character is male, young, and of a slim build, often short, and with relatively little body hair and no facial hair">twink</tag>
     <tag display="Big Butt" description="Notably large derrière. Note: this tag requires a butt pose to be applied">big_butt</tag>
@@ -149,7 +150,7 @@
     <tag display="Bunnysuit" description="Wearing a Playboy-esque bunnygirl suit">bunnysuit</tag>
     <tag display="Cape" description="Wearing a cape">cape</tag>
     <tag display="Chest Wrappings" description="Wearing wrapped cloth or bandages to conceal the chest, such as a sarashi">chest_wrappings</tag>
-    <tag display="Choker" description="Wearing a choker">choker</tag>
+    <tag display="Choker" description="Wearing a choker or collar">choker</tag>
     <tag display="Crown" description="Wearing a crown, circlet, or diadem">crown</tag>
     <tag display="Eyepatch" description="Wearing an eyepatch">eyepatch</tag>
     <tag display="Fake Animal Ears" description="Wearing artificial animal ears">fake_animal_ears</tag>
@@ -179,7 +180,7 @@
     <tag display="Sunglasses" description="Wearing sunglasses">sunglasses</tag>
     <tag display="Sweater" description="Wearing a sweater. Hoodies and cardigans do not count.">sweater</tag>
     <tag display="Swimwear" description="Wearing swimwear, including all varieties of bikinis and swimsuits">swimwear</tag>
-    <tag display="Thigh-High Socks" description="Wearing socks that reach the thigh">thigh_highs</tag>
+    <tag display="Thigh-High Socks / Boots" description="Wearing socks or boots that reach the thigh">thigh_highs</tag>
     <tag display="Thong" description="Wearing thong-style underwear">thong</tag>
   </group>
     <group label="Outfits" multiselect="true">
@@ -307,6 +308,7 @@
     <tag display="Dancer" description="The character is a professional dancer of any variety, or dances as a hobby">dancer</tag>
     <tag display="Delinquent" description="The character is young and involved in petty crime">delinquent</tag>
     <tag display="Detective" description="Works as a detective">detective</tag>
+    <tag display="Farmer" description="Character owns or works on a farm or ranch, tending crops or animals">farmer</tag>
     <tag display="Fighter" description="Regularly takes part in combat">fighter</tag>
     <tag display="Gambler" description="Character spends a lot of time gambling, to the point it's a large aspect of their character">gambler</tag>
     <tag display="Gamer" description="Plays video games as a career or hobby">gamer</tag>
@@ -468,6 +470,7 @@
   </group>
   <group label="Source Material" multiselect="true">
     <tag display=".hack" paired="video_game" description="From the .hack game series">dot_hack</tag>
+    <tag display="+Anima" paired="fantasy,manga" description="From the manga +Anima">plus_anima</tag>
     <tag display="7th Dragon" paired="video_game,sci-fi,future,post-apocalyptic" description="From the 7th Dragon series of games">7th_dragon</tag>
     <tag display="13 Sentinels: Aegis Rim" paired="video_game,sci-fi" description="From the game 13 Sentinels: Aegis Rim">13_sentinels</tag>
     <tag display="A Certain Magical Index" paired="anime,light_novel,future,sci-fi" description="From the A Certain Magical Index franchise">index_franchise</tag>
@@ -539,6 +542,7 @@
     <tag display="Fire Emblem: Blazing Blade" paired="nintendo,fire_emblem,video_game,fantasy" description="From Fire Emblem: Blazing Blade">fe_blazing_blade</tag>
     <tag display="Fire Emblem: Fates" paired="nintendo,fire_emblem,video_game,fantasy" description="From Fire Emblem: Fates">fe_fates</tag>
     <tag display="Fire Emblem: Heroes" paired="nintendo,fire_emblem,video_game,gacha_game,fantasy" description="Debuted in Fire Emblem: Heroes">fe_heroes</tag>
+    <tag display="Fire Emblem: Path of Radiance" paired="nintendo,fire_emblem,video_game,fantasy" description="From Fire Emblem: Path of Radiance">fe_path_of_radiance</tag>
     <tag display="Fire Emblem: The Sacred Stones" paired="nintendo,fire_emblem,video_game,fantasy" description="From Fire Emblem: The Sacred Stones">fe_sacred_stones</tag>
     <tag display="Fire Emblem: Shadow Dragon" paired="nintendo,fire_emblem,video_game,fantasy" description="From Fire Emblem: Shadow Dragon">fe_shadow_dragon</tag>
     <tag display="Fire Emblem: Three Houses" paired="nintendo,fire_emblem,video_game,fantasy" description="From Fire Emblem: Three Houses">fe_three_houses</tag>
@@ -707,6 +711,7 @@
     <tag display="Yuru Camp" paired="anime,manga" description="From the manga Yuru Camp, and/or its anime adaptation">yuru_camp</tag>
     <tag display="Yuru Yuri" paired="anime,manga" description="From the manga Yuru Yuri, and/or its anime adaptation">yuru_yuri</tag>
     <tag display="Zero Escape" paired="video_game" description="From the Zero Escape game series">zero_escape</tag>
+    <tag display="Zero Wing" paired="video_game,future,space,sci-fi" description="From the game Zero Wing">zero_wing</tag>
     <tag display="Zombie Land Saga" paired="anime" description="From the anime Zombie Land Saga">zombieland_saga</tag>
   </group>
   <group label="Crossover Appearances" multiselect="true">

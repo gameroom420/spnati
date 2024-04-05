@@ -4,7 +4,7 @@
     <height>185cm/6"1 (Zeke), 157cm/5"2 (Pandoria)</height>
     <age>25+ (Z), ?? (P)</age>
     <pronunciation>zee-kh, pan-door-ree-ah</pronunciation>
-    <othernotes>Zeke is the leader of this duo, and as such all targets will be going towards him by default.&lt;br&gt;Pandoria is accompanying him because the two work best as a pair, and would be much weaker if they were made separately. Pandoria will be present 95% of the time, and will only disappear in very specific circumstances (e.g. specific targeted interactions or the like). Therefore, when targeting them you can assume that she is always there.&lt;br&gt;&lt;br&gt;Zeke is a flamboyant swordsman with a flare for the dramatic, and an unlucky streak a mile long. Accompanied by his Blade, companion, and all-around handler Pandoria. Disowned from the Tantalese throne by his father, Zeke and Pandoria traveled across Alrest in search of the Aegis Blade, eventually joining forces with them. &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;- Zeke's age is outright stated to be 25 in XC2; I am treating him as vaguely older than that in case anyone ever wants to make Rex from XC3:FR&lt;br&gt;- Pandoria's age is harder to estimate as her species, a Blade, has a life cycle where they go into a dormant 'Core Crystal' stage until they are awakened with new memories but the same personality. She could be hundred of years old, but has only been awakened for at least a dedade.&lt;br&gt;- Both of them strip at the same time. The strip order is as follows:&lt;br&gt;-- gloves/gloves (extra)&lt;br&gt;-- pauldrons/dress (minor/major)&lt;br&gt;-- coat/bra (major/important)&lt;br&gt;-- boots/boots (minor)&lt;br&gt;-- pants/shorts (major)&lt;br&gt;-- boxers / panties (important)&lt;br&gt;- Zeke and Pandoria are both filling out the same 'space' at the table, but between them they aren't taking the game seriously enough to have an AI above 'average' - at least under normal circumstances.&lt;br&gt;&lt;br&gt;They are also accompanied by their mascot, a turtle named Turters. Turters goes missing during the game and is a collectible the player can unlock by finishing a game with them.&lt;br&gt;&lt;br&gt;- Zeke is a chuunibyou (someone who talks and acts like they are an over the top fantasy character), of the 'actually has incredible powers' variety. He does this as a bit of an act, as while he is generally goofy, he has a lot of hidden depth and worldly insight to offer. He's well-versed in the politics of his world, and is capable of incredible feats.&lt;br&gt;- He's a Blade Eater; part of Pandoria's Core Crystal was transplanted onto his heart by Amalthus before the events of the game in order to save his life. This is a bit of a taboo topic in the setting.&lt;br&gt;- Zeke refuses to take a life except as an absolute last resort, holding it as one of his greatest strengths that he never takes the easy way out.</othernotes>
+    <othernotes>Zeke is the leader of this duo, and as such all targets will be going towards him by default.&lt;br&gt;Pandoria is accompanying him because the two work best as a pair, and would be much weaker if they were made separately. Pandoria will be present 95% of the time, and will only disappear in very specific circumstances (e.g. specific targeted interactions or the like). Therefore, when targeting them you can assume that she is always there.&lt;br&gt;&lt;br&gt;Zeke is a flamboyant swordsman with a flare for the dramatic, and an unlucky streak a mile long. Accompanied by his Blade, companion, and all-around handler Pandoria. Disowned from the Tantalese throne by his father, Zeke and Pandoria traveled across Alrest in search of the Aegis Blade, eventually joining forces with them. &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;- Zeke's age is outright stated to be 25 in XC2; I am treating him as vaguely older than that in case anyone ever wants to make Rex from XC3:FR&lt;br&gt;- Pandoria's age is harder to estimate as her species, a Blade, has a life cycle where they go into a dormant 'Core Crystal' stage until they are awakened with new memories but the same personality. She could be hundred of years old, but has only been awakened for at least a dedade.&lt;br&gt;- Both of them strip at the same time. The strip order is as follows:&lt;br&gt;-- gloves/gloves (extra)&lt;br&gt;-- pauldrons/dress (minor/major)&lt;br&gt;-- coat/bra (major/important)&lt;br&gt;-- boots/boots (minor)&lt;br&gt;-- pants/shorts (major)&lt;br&gt;-- boxers / panties (important)&lt;br&gt;- Zeke and Pandoria are both filling out the same 'space' at the table, but between them they aren't taking the game seriously enough to have an AI above 'average' - at least under normal circumstances.&lt;br&gt;&lt;br&gt;They are also accompanied by their mascot, a turtle named Turters. Turters goes missing during the game and is a collectible the player can unlock by finishing a game with them.&lt;br&gt;&lt;br&gt;- Zeke is a chuunibyou (someone who talks and acts like they are an over the top fantasy character), of the 'actually has incredible powers' variety. He does this as a bit of an act, as while he is generally goofy, he has a lot of hidden depth and worldly insight to offer. He's well-versed in the politics of his world, and is capable of incredible feats.&lt;br&gt;- He's a Blade Eater; part of Pandoria's Core Crystal was transplanted onto his heart by Amalthus before the events of the game in order to save his life. This is a bit of a taboo topic in the setting.&lt;br&gt;- Zeke refuses to take a life except as an absolute last resort, holding it as one of his greatest strengths that he never takes the easy way out.&lt;br&gt;- Their nation of origin is the Kingdom of Tantal, which is located in the titan Genbu. Genbu is a very old and ailing titan; they live in its cavernous interior, and it is a snowy landscape.</othernotes>
     <noteworthy>
         <case name="This is Zeke ft. Pandoria" id="1" priority="Noteworthy" min="0" max="0">
             <description>Zeke is the main player, but is accompanied by Pandoria. She often mimics Zeke's poses, and chimes in with snarky comments at his expense. You can assume Pandoria is always present.</description>
@@ -105,6 +105,56 @@
         <response id="480" opponent="eichi" opponentId="121" />
         <response id="481" opponent="eichi" opponentId="124" />
         <response id="482" opponent="sanako" opponentId="190" />
+        <response id="493" opponent="meia" opponentId="1601" />
+        <response id="494" opponent="meia" opponentId="1602" />
+        <response id="499" opponent="rose" opponentId="26" />
+        <response id="500" opponent="rose" opponentId="53" />
+        <response id="501" opponent="rose" opponentId="143" />
+        <response id="502" opponent="sanako" opponentId="284" />
+        <response id="504" opponent="nonon" opponentId="778" />
+        <response id="505" opponent="nonon" opponentId="558" />
+        <response id="506" opponent="nonon" opponentId="559" />
+        <response id="507" opponent="nonon" opponentId="775" />
+        <response id="508" opponent="nonon" opponentId="777" />
+        <response id="509" opponent="nonon" opponentId="776" />
+        <response id="510" opponent="jim" opponentId="3" />
+        <response id="511" opponent="jim" opponentId="10" />
+        <response id="513" opponent="sofia" opponentId="1" />
+        <response id="519" opponent="toph" opponentId="6" />
+        <response id="521" opponent="elizabeth" opponentId="1" />
+        <response id="524" opponent="meia" opponentId="1706" />
+        <response id="525" opponent="meia" opponentId="1705" />
+        <response id="526" opponent="meia" opponentId="1707" />
+        <response id="531" opponent="yae" opponentId="1" />
+        <response id="539" opponent="jura" opponentId="1575" />
+        <response id="540" opponent="jura" opponentId="1574" />
+        <response id="541" opponent="jura" opponentId="1573" />
+        <response id="546" opponent="sanako" opponentId="358" />
+        <response id="550" opponent="reimu" opponentId="1" />
+        <response id="551" opponent="reimu" opponentId="89" />
+        <response id="556" opponent="meia" opponentId="1738" />
+        <response id="557" opponent="meia" opponentId="1740" />
+        <response id="558" opponent="jura" opponentId="1598" />
+        <response id="559" opponent="rose" opponentId="174" />
+        <response id="568" opponent="rosa" opponentId="234" />
+        <response id="569" opponent="rosa" opponentId="677" />
+        <response id="570" opponent="senko" opponentId="15" />
+        <response id="571" opponent="senko" opponentId="168" />
+        <response id="575" opponent="kyouko_toshinou" opponentId="324" />
+        <response id="598" opponent="nonon" opponentId="882" />
+        <response id="599" opponent="nonon" opponentId="867" />
+        <response id="601" opponent="nonon" opponentId="860" />
+        <response id="602" opponent="nonon" opponentId="932" />
+        <response id="630" opponent="cats" opponentId="2" />
+        <response id="631" opponent="cats" opponentId="5" />
+        <response id="632" opponent="lysithea" opponentId="555" />
+        <response id="636" opponent="nephenee" opponentId="24" />
+        <response id="637" opponent="nephenee" opponentId="25" />
+        <response id="638" opponent="nephenee" opponentId="13" />
+        <response id="0" opponent="nephenee" opponentId="12" />
+        <response id="656" opponent="meia" opponentId="1757" />
+        <response id="657" opponent="meia" opponentId="1758" />
+        <response id="678" opponent="aoi_asahina" opponentId="211" />
     </responses>
     <notes>
         <note id="10">If you want to ask Pandoria / Pandy questions, you could draw attention to the fact that some of her body parts are lightbulbs, such as a lightbulb in her head.. and her tail. Her specific race is known as a "Blade".</note>
@@ -125,6 +175,17 @@
         <note id="430">just a funny easter egg of sorts, don't take it too seriously :P</note>
         <note id="431">just a funny easter egg of sorts, don't take it too seriously :P</note>
         <note id="478">follow up line; pandy explaining that he's just making this up... or IS he?</note>
+        <note id="554">this case locks in the intercouse forfeit so that it is continued for the rest of their forfeit</note>
+        <note id="572">open-ended question where you can give any response you like</note>
+        <note id="573">pandy is flirting</note>
+        <note id="604">"not saying it's a bad thing, but you shouldn't set yourself up for disappointment if she turns you down" kinda vibes</note>
+        <note id="605">open-ended question where you can give any response you like</note>
+        <note id="624">solitaire sponsorshop</note>
+        <note id="625">solitaire sponsorshop</note>
+        <note id="626">solitaire sponsorshop</note>
+        <note id="627">solitaire sponsorshop</note>
+        <note id="643">writing this in a way that shows zeke is very educated and aware of things, but he's also not clued in that nephenee might not understand him</note>
+        <note id="652">Also makes his pp hard because it'd make more sense for Nonon to comment on his size if he's like that</note>
     </notes>
     <labels>
         <label id="5" label="Pandoria Reminder" folder="" sort="0" />
@@ -141,7 +202,7 @@
         <label id="18" label="notes" folder="" sort="0" />
         <label id="19" label="" folder="Targets" sort="9" />
         <label id="20" label="" folder="Targets" sort="10" />
-        <label id="21" label="Pandy is less prevalent" color="4" folder="" sort="0" />
+        <label id="21" label="(Unused) Pandy is less prevalent" color="4" folder="" sort="0" />
         <label id="22" label="" folder="Pandoria-Dependant" sort="2" />
         <label id="23" label="" folder="Sucrose" sort="0" />
         <label id="25" label="" folder="Backgrounds" sort="2" />
@@ -172,7 +233,7 @@
         <label id="49" label="" folder="Masturbation Logic" sort="2" />
         <label id="50" label="Start Heavy Stage (Intercrural)" folder="" sort="0" />
         <label id="51" label="Post-Forfeit Cleanup" folder="" sort="0" />
-        <label id="52" label="Post-Forfeit Cleanup" folder="" sort="0" />
+        <label id="52" label="Post-Forfeit Cleanup (Intercourse)" folder="" sort="0" />
         <label id="53" label="" folder="Mythra" sort="0" />
         <label id="54" label="" folder="Kora" sort="0" />
         <label id="55" label="penis = s (default)" color="6" folder="Hidden Logic" sort="0" />
@@ -233,7 +294,7 @@
         <label id="110" label="" folder="Filtered" sort="0" />
         <label id="111" label="" folder="Player Names" sort="0" />
         <label id="112" label="rosa halloween strip 2" folder="Targets" sort="29" />
-        <label id="113" label="" folder="Targets" sort="0" />
+        <label id="113" label="" folder="Targets" sort="2" />
         <label id="114" label="" folder="Targets" sort="30" />
         <label id="115" label="" folder="Targets" sort="61" />
         <label id="116" label="" color="3" folder="Targets" sort="12" />
@@ -294,7 +355,7 @@
         <label id="169" label="" folder="Filtered" sort="8" />
         <label id="170" label="" folder="Filtered" sort="7" />
         <label id="171" label="" folder="Filtered" sort="6" />
-        <label id="172" label="Start Heavy Stage (Insertion)" color="5" folder="Sex" sort="5" />
+        <label id="172" label="Start Heavy Stage (Kissing Insertion)" color="2" folder="Sex&gt;Kissing" sort="5" />
         <label id="173" label="" folder="Filtered" sort="4" />
         <label id="174" label="(self chest visible)" folder="" sort="0" />
         <label id="175" label="" folder="Backgrounds" sort="0" />
@@ -306,8 +367,8 @@
         <label id="181" label="" folder="Targets" sort="15" />
         <label id="182" label="" folder="Targets" sort="51" />
         <label id="183" label="" folder="Extra/Minor" sort="6" />
-        <label id="184" label="" folder="Exposition" sort="0" />
-        <label id="185" label="" folder="Articles of Clothing" sort="0" />
+        <label id="184" label="" folder="Exposition" sort="2" />
+        <label id="185" label="" folder="Articles of Clothing" sort="2" />
         <label id="186" label="" folder="Targets" sort="54" />
         <label id="187" label="" folder="Sucrose" sort="4" />
         <label id="188" label="" folder="Sucrose" sort="5" />
@@ -332,9 +393,9 @@
         <label id="199" label="" folder="Sucrose" sort="32" />
         <label id="202" label="" folder="Sucrose" sort="25" />
         <label id="209" label="" folder="Sucrose" sort="26" />
-        <label id="210" label="" folder="Targets" sort="16" />
-        <label id="211" label="" folder="Targets" sort="17" />
-        <label id="212" label="" folder="Targets" sort="18" />
+        <label id="210" label="" color="3" folder="Targets" sort="16" />
+        <label id="211" label="" color="3" folder="Targets" sort="17" />
+        <label id="212" label="" color="3" folder="Targets" sort="18" />
         <label id="213" label="" folder="Targets" sort="0" />
         <label id="214" label="" folder="Targets" sort="52" />
         <label id="215" label="" folder="Sucrose" sort="2" />
@@ -388,7 +449,7 @@
         <label id="263" label="" folder="Sucrose" sort="66" />
         <label id="264" label="" folder="Sucrose" sort="67" />
         <label id="265" label="" folder="Filtered" sort="17" />
-        <label id="266" label="" folder="Filtered" sort="18" />
+        <label id="266" label="" folder="Filtered" sort="0" />
         <label id="267" label="" folder="Filtered" sort="19" />
         <label id="281" label="" folder="Sucrose Dual Forfeit" sort="2" />
         <label id="282" label="" folder="Sucrose Dual Forfeit" sort="3" />
@@ -462,8 +523,8 @@
         <label id="344" label="" folder="Mari S" sort="0" />
         <label id="345" label="" folder="Mari S" sort="2" />
         <label id="346" label="" folder="Mari S" sort="3" />
-        <label id="347" label="" folder="Targets" sort="55" />
-        <label id="348" label="" folder="Targets" sort="56" />
+        <label id="347" label="" color="3" folder="Targets" sort="55" />
+        <label id="348" label="" color="3" folder="Targets" sort="56" />
         <label id="349" label="" folder="Responses" sort="30" />
         <label id="350" label="" folder="Responses" sort="31" />
         <label id="276" label="" folder="Targets" sort="20" />
@@ -524,18 +585,18 @@
         <label id="405" label="" folder="Targets" sort="64" />
         <label id="406" label="" folder="Targets" sort="63" />
         <label id="268" label="" folder="Targets" sort="66" />
-        <label id="407" label="" color="1" folder="Targets" sort="39" />
-        <label id="408" label="" folder="Responses" sort="26" />
-        <label id="409" label="" color="1" folder="Targets" sort="40" />
-        <label id="410" label="" color="1" folder="Targets" sort="41" />
+        <label id="407" label="" color="3" folder="Targets" sort="39" />
+        <label id="408" label="" color="3" folder="Responses" sort="26" />
+        <label id="409" label="" color="3" folder="Targets" sort="40" />
+        <label id="410" label="" color="3" folder="Targets" sort="41" />
         <label id="411" label="" color="3" folder="Responses" sort="41" />
-        <label id="412" label="" color="1" folder="Responses" sort="33" />
+        <label id="412" label="" color="3" folder="Responses" sort="33" />
         <label id="413" label="" color="3" folder="Responses" sort="27" />
         <label id="414" label="" color="3" folder="Responses" sort="42" />
-        <label id="415" label="Heavy (Intercourse)" color="5" folder="Sex" sort="3" />
-        <label id="416" label="" color="5" folder="Sex" sort="6" />
+        <label id="415" label="Heavy (Kissing Insertion)" color="5" folder="Sex&gt;Kissing" sort="3" />
+        <label id="416" label="" color="5" folder="Sex&gt;Kissing" sort="6" />
         <label id="417" label="" color="5" folder="Sex" sort="7" />
-        <label id="418" label="Heavy (Intercourse, last tick)" color="5" folder="Sex" sort="4" />
+        <label id="418" label="Heavy (Kissing Insertion, last tick)" color="5" folder="Sex&gt;Kissing" sort="4" />
         <label id="419" label="" folder="Hidden Logic" sort="0" />
         <label id="420" label="" folder="Hidden Logic" sort="6" />
         <label id="421" label="Sex (Conditions)" color="5" folder="Sex" sort="2" />
@@ -549,10 +610,10 @@
         <label id="429" label="" folder="Filtered" sort="22" />
         <label id="430" label="" folder="Targets" sort="74" />
         <label id="431" label="" folder="Targets" sort="73" />
-        <label id="432" label="" color="1" folder="Responses" sort="28" />
-        <label id="433" label="" color="1" folder="Responses" sort="34" />
+        <label id="432" label="" folder="Responses" sort="28" />
+        <label id="433" label="" color="3" folder="Responses" sort="34" />
         <label id="434" label="" folder="Mari S" sort="4" />
-        <label id="435" label="" color="1" folder="Targets" sort="42" />
+        <label id="435" label="" color="3" folder="Targets" sort="42" />
         <label id="436" label="" folder="Dunban" sort="0" />
         <label id="437" label="" folder="Responses" sort="45" />
         <label id="438" label="" folder="Targets" sort="34" />
@@ -563,51 +624,247 @@
         <label id="443" label="" folder="Filtered" sort="15" />
         <label id="444" label="" folder="Filtered" sort="16" />
         <label id="445" label="" folder="Filtered" sort="0" />
-        <label id="446" label="" folder="Mari S" sort="0" />
-        <label id="447" label="" folder="Mari S" sort="0" />
-        <label id="448" label="" folder="Mari S" sort="0" />
-        <label id="449" label="" folder="Mari S" sort="0" />
-        <label id="450" label="" folder="Mari S" sort="0" />
-        <label id="451" label="" folder="Mari S" sort="0" />
-        <label id="452" label="" folder="Mari S" sort="0" />
-        <label id="453" label="" folder="Mari S" sort="0" />
-        <label id="454" label="" folder="Mari S" sort="0" />
-        <label id="455" label="" folder="Mari S" sort="0" />
-        <label id="456" label="" folder="Mari S" sort="0" />
-        <label id="457" label="" folder="Mari S" sort="0" />
-        <label id="458" label="" folder="Mari S" sort="0" />
-        <label id="459" label="" folder="Mari S" sort="0" />
-        <label id="460" label="" folder="Mari S" sort="0" />
-        <label id="461" label="" folder="Mari S" sort="0" />
-        <label id="462" label="" folder="Mari S" sort="0" />
-        <label id="463" label="" folder="Mari S" sort="0" />
-        <label id="464" label="" folder="Mari S" sort="0" />
-        <label id="465" label="" folder="Mari S" sort="0" />
-        <label id="466" label="" folder="Mari S" sort="0" />
-        <label id="467" label="" folder="Mari S" sort="0" />
-        <label id="468" label="" folder="Mari S" sort="0" />
-        <label id="469" label="" folder="Mari S" sort="0" />
-        <label id="470" label="" folder="Mari S" sort="0" />
-        <label id="471" label="" folder="Mari S" sort="0" />
-        <label id="472" label="" folder="Mari S" sort="0" />
-        <label id="473" label="" folder="Mari S" sort="0" />
-        <label id="474" label="" folder="Responses" sort="0" />
-        <label id="475" label="" folder="Responses" sort="0" />
-        <label id="477" label="" folder="Responses" sort="0" />
-        <label id="478" label="" folder="Responses" sort="0" />
-        <label id="479" label="" folder="Targets" sort="0" />
-        <label id="476" label="" folder="Responses" sort="0" />
-        <label id="480" label="" folder="Prompt Responses" sort="0" />
-        <label id="481" label="" folder="Prompt Responses" sort="0" />
-        <label id="482" label="" folder="Responses" sort="0" />
+        <label id="446" label="" folder="Mari S" sort="22" />
+        <label id="447" label="" folder="Mari S" sort="25" />
+        <label id="448" label="" folder="Mari S" sort="29" />
+        <label id="449" label="" folder="Mari S" sort="23" />
+        <label id="450" label="" folder="Mari S" sort="26" />
+        <label id="451" label="" folder="Mari S" sort="30" />
+        <label id="452" label="" folder="Mari S" sort="24" />
+        <label id="453" label="" folder="Mari S" sort="27" />
+        <label id="454" label="" folder="Mari S" sort="28" />
+        <label id="455" label="" folder="Mari S" sort="31" />
+        <label id="456" label="" folder="Mari S" sort="32" />
+        <label id="457" label="" folder="Mari S" sort="7" />
+        <label id="458" label="" folder="Mari S" sort="8" />
+        <label id="459" label="" folder="Mari S" sort="17" />
+        <label id="460" label="" folder="Mari S" sort="4" />
+        <label id="461" label="" folder="Mari S" sort="9" />
+        <label id="462" label="" folder="Mari S" sort="10" />
+        <label id="463" label="" folder="Mari S" sort="18" />
+        <label id="464" label="" folder="Mari S" sort="19" />
+        <label id="465" label="" folder="Mari S" sort="5" />
+        <label id="466" label="" folder="Mari S" sort="11" />
+        <label id="467" label="" folder="Mari S" sort="14" />
+        <label id="468" label="" folder="Mari S" sort="15" />
+        <label id="469" label="" folder="Mari S" sort="6" />
+        <label id="470" label="" folder="Mari S" sort="12" />
+        <label id="471" label="" folder="Mari S" sort="13" />
+        <label id="472" label="" folder="Mari S" sort="20" />
+        <label id="473" label="" folder="Mari S" sort="21" />
+        <label id="474" label="" folder="Responses" sort="11" />
+        <label id="475" label="" folder="Responses" sort="12" />
+        <label id="477" label="" folder="Responses" sort="36" />
+        <label id="478" label="" folder="Responses" sort="37" />
+        <label id="479" label="" folder="Targets" sort="5" />
+        <label id="476" label="" folder="Responses" sort="13" />
+        <label id="480" label="" folder="Prompt Responses" sort="7" />
+        <label id="481" label="" folder="Prompt Responses" sort="3" />
+        <label id="482" label="" folder="Responses" sort="38" />
+        <label id="483" label="" folder="Responses&gt;Leon" sort="0" />
+        <label id="484" label="" folder="Responses&gt;Leon" sort="5" />
+        <label id="485" label="" folder="Responses&gt;Leon" sort="8" />
+        <label id="486" label="" folder="Responses&gt;Leon" sort="2" />
+        <label id="487" label="" folder="Responses&gt;Leon" sort="6" />
+        <label id="488" label="" folder="Responses&gt;Leon" sort="3" />
+        <label id="489" label="" folder="Responses&gt;Leon" sort="4" />
+        <label id="490" label="" folder="Responses&gt;Leon" sort="7" />
+        <label id="491" label="" folder="Responses&gt;Leon" sort="10" />
+        <label id="492" label="" folder="Responses&gt;Leon" sort="9" />
+        <label id="493" label="" color="3" folder="Responses" sort="53" />
+        <label id="494" label="" color="3" folder="Responses" sort="40" />
+        <label id="495" label="" color="3" folder="Targets" sort="71" />
+        <label id="496" label="" color="3" folder="Targets" sort="72" />
+        <label id="497" label="" color="3" folder="Targets" sort="73" />
+        <label id="498" label="" color="3" folder="Targets" sort="74" />
+        <label id="499" label="" folder="Targets" sort="7" />
+        <label id="500" label="" folder="Targets" sort="2" />
+        <label id="501" label="" folder="Targets" sort="3" />
+        <label id="502" label="" folder="Responses" sort="54" />
+        <label id="503" label="" folder="Responses" sort="76" />
+        <label id="504" label="" folder="Responses" sort="14" />
+        <label id="506" label="" folder="Responses" sort="45" />
+        <label id="505" label="" folder="Responses" sort="44" />
+        <label id="507" label="" folder="Responses" sort="64" />
+        <label id="508" label="" folder="Responses" sort="65" />
+        <label id="510" label="" folder="Prompt Responses" sort="8" />
+        <label id="511" label="" folder="Prompt Responses" sort="9" />
+        <label id="512" label="" folder="Targets" sort="46" />
+        <label id="513" label="" folder="Opponents" sort="0" />
+        <label id="514" label="" color="3" folder="Targets&gt;Sofia" sort="0" />
+        <label id="515" label="" color="3" folder="Targets&gt;Sofia" sort="2" />
+        <label id="516" label="" color="3" folder="Targets&gt;Sofia" sort="3" />
+        <label id="517" label="" folder="Targets" sort="0" />
+        <label id="518" label="" folder="Targets" sort="48" />
+        <label id="519" label="" folder="Situations" sort="2" />
+        <label id="520" label="" folder="Targets" sort="49" />
+        <label id="521" label="" folder="Targets" sort="88" />
+        <label id="522" label="" folder="Situations&gt;Aura Camera" sort="2" />
+        <label id="523" label="" folder="Situations&gt;Aura Camera" sort="0" />
+        <label id="524" label="" color="3" folder="Responses" sort="55" />
+        <label id="525" label="" color="3" folder="Responses" sort="69" />
+        <label id="526" label="" color="3" folder="Responses" sort="15" />
+        <label id="527" label="" folder="Responses" sort="41" />
+        <label id="528" label="" color="3" folder="Targets&gt;Sofia" sort="4" />
+        <label id="529" label="" color="3" folder="Targets&gt;Sofia" sort="5" />
+        <label id="530" label="" color="3" folder="Targets&gt;Sofia" sort="6" />
+        <label id="531" label="" folder="Targets&gt;Yae" sort="2" />
+        <label id="532" label="" folder="Targets&gt;Yae" sort="0" />
+        <label id="533" label="" folder="Responses" sort="70" />
+        <label id="534" label="" folder="Responses" sort="46" />
+        <label id="509" label="" folder="Responses" sort="66" />
+        <label id="535" label="" folder="Targets" sort="50" />
+        <label id="536" label="" folder="Targets" sort="63" />
+        <label id="537" label="" folder="Targets" sort="51" />
+        <label id="538" label="" folder="Targets" sort="64" />
+        <label id="539" label="" color="3" folder="Responses" sort="42" />
+        <label id="540" label="" color="3" folder="Responses" sort="56" />
+        <label id="541" label="" color="3" folder="Responses" sort="71" />
+        <label id="542" label="" folder="Situations" sort="6" />
+        <label id="543" label="" folder="Hidden Logic" sort="11" />
+        <label id="544" label="" folder="Targets" sort="36" />
+        <label id="545" label="" folder="Targets" sort="37" />
+        <label id="546" label="" folder="Responses" sort="16" />
+        <label id="547" label="" folder="Filtered" sort="4" />
+        <label id="548" label="" folder="Filtered" sort="5" />
+        <label id="549" label="" folder="Filtered" sort="6" />
+        <label id="550" label="" folder="Prompt Responses" sort="10" />
+        <label id="551" label="" folder="Prompt Responses" sort="11" />
+        <label id="552" label="Heavy (Doggy Style)" color="5" folder="Sex&gt;Doggy" sort="0" />
+        <label id="553" label="Heavy (Doggy Style, last tick)" color="5" folder="Sex&gt;Doggy" sort="2" />
+        <label id="554" label="Start Heavy Stage (Doggy Style)" color="2" folder="Sex&gt;Doggy" sort="3" />
+        <label id="555" label="" color="5" folder="Sex&gt;Doggy" sort="4" />
+        <label id="556" label="" folder="Responses" sort="20" />
+        <label id="557" label="" color="3" folder="Responses" sort="47" />
+        <label id="558" label="" color="3" folder="Responses" sort="72" />
+        <label id="559" label="" folder="Targets" sort="82" />
+        <label id="560" label="" folder="Exposition" sort="0" />
+        <label id="561" label="" folder="Filtered" sort="21" />
+        <label id="562" label="" folder="#Sponsorship&gt;Lokkit&gt;Pandoria Lines" sort="0" />
+        <label id="563" label="" folder="#Sponsorship&gt;Lokkit&gt;Pandoria Lines" sort="2" />
+        <label id="564" label="" folder="#Sponsorship&gt;Lokkit&gt;Pandoria Lines" sort="3" />
+        <label id="565" label="" folder="Articles of Clothing" sort="0" />
+        <label id="566" label="" folder="#Sponsorship&gt;Lokkit&gt;Pandoria Lines" sort="4" />
+        <label id="567" label="Love Manual Unlock" folder="" sort="0" />
+        <label id="568" label="" folder="Responses" sort="60" />
+        <label id="569" label="" folder="Targets" sort="98" />
+        <label id="570" label="" folder="#Sponsorship&gt;Lokkit&gt;Pandoria Lines" sort="5" />
+        <label id="571" label="" folder="Targets&gt;Senko" sort="0" />
+        <label id="572" label="" folder="#Sponsorship&gt;Tweetsie&gt;Pandoria Targets" sort="6" />
+        <label id="573" label="" folder="#Sponsorship&gt;Tweetsie&gt;Pandoria Targets" sort="2" />
+        <label id="574" label="" folder="#Sponsorship&gt;Tweetsie&gt;Pandoria Targets" sort="3" />
+        <label id="575" label="" folder="#Sponsorship&gt;Tweetsie&gt;Pandoria Targets" sort="4" />
+        <label id="576" label="" folder="#Sponsorship&gt;Tweetsie&gt;Pandoria Targets" sort="5" />
+        <label id="577" label="" folder="#Sponsorship&gt;Tweetsie&gt;Pandoria Targets" sort="6" />
+        <label id="578" label="" folder="#Sponsorship&gt;Tweetsie&gt;Pandoria Targets" sort="7" />
+        <label id="579" label="" folder="#Sponsorship&gt;Tweetsie&gt;Pandoria Targets" sort="8" />
+        <label id="580" label="" folder="#Sponsorship&gt;Tweetsie&gt;Pandoria Targets" sort="9" />
+        <label id="581" label="" folder="#Sponsorship&gt;Tweetsie&gt;Pandoria Targets" sort="10" />
+        <label id="582" label="" color="3" folder="#Sponsorship&gt;Lokkit&gt;Pandoria Lines" sort="6" />
+        <label id="583" label="" color="3" folder="#Sponsorship&gt;Lokkit&gt;Pandoria Lines" sort="7" />
+        <label id="584" label="" color="3" folder="#Sponsorship&gt;Lokkit&gt;Pandoria Lines" sort="8" />
+        <label id="585" label="" color="3" folder="#Sponsorship&gt;Lokkit&gt;Pandoria Lines" sort="9" />
+        <label id="586" label="" folder="#Sponsorship&gt;Tweetsie&gt;Pandoria Targets" sort="11" />
+        <label id="587" label="" folder="#Sponsorship&gt;Tweetsie&gt;Pandoria Targets" sort="12" />
+        <label id="588" label="" folder="Targets" sort="100" />
+        <label id="589" label="" folder="#Sponsorship&gt;Tweetsie&gt;Pandoria Targets" sort="13" />
+        <label id="590" label="" folder="#Sponsorship&gt;Lokkit&gt;Pandoria Lines" sort="10" />
+        <label id="591" label="" folder="#Sponsorship&gt;Lokkit&gt;Pandoria Lines" sort="11" />
+        <label id="592" label="" folder="#Sponsorship&gt;Lokkit&gt;Pandoria Lines" sort="12" />
+        <label id="593" label="" folder="Targets" sort="70" />
+        <label id="594" label="" folder="Targets" sort="71" />
+        <label id="595" label="" folder="Targets" sort="86" />
+        <label id="596" label="" folder="Targets" sort="87" />
+        <label id="597" label="" folder="Responses" sort="17" />
+        <label id="598" label="" folder="Responses" sort="51" />
+        <label id="599" label="" folder="Responses" sort="18" />
+        <label id="600" label="" folder="Responses" sort="52" />
+        <label id="601" label="" folder="Responses" sort="73" />
+        <label id="602" label="" folder="Responses" sort="74" />
+        <label id="603" label="" folder="Targets" sort="54" />
+        <label id="604" label="" folder="Targets" sort="55" />
+        <label id="605" label="" color="3" folder="#Sponsorship&gt;Tweetsie&gt;Pandoria Targets" sort="14" />
+        <label id="606" label="" color="3" folder="#Sponsorship&gt;Tweetsie&gt;Pandoria Targets" sort="15" />
+        <label id="607" label="" folder="Also Playing (Z&amp;P)" sort="0" />
+        <label id="608" label="" color="3" folder="#Sponsorship&gt;Tweetsie&gt;Pandoria Targets" sort="16" />
+        <label id="609" label="" folder="Responses" sort="62" />
+        <label id="610" label="" folder="Responses" sort="45" />
+        <label id="611" label="" folder="Kora" sort="6" />
+        <label id="612" label="" folder="Kora" sort="7" />
+        <label id="613" label="" folder="Kora" sort="3" />
+        <label id="614" label="" folder="#Sponsorship&gt;Solitaire&gt;Sexual Interest" sort="0" />
+        <label id="615" label="" folder="#Sponsorship&gt;Solitaire&gt;Sexual Interest" sort="2" />
+        <label id="616" label="" folder="#Sponsorship&gt;Solitaire&gt;Sexual Interest" sort="3" />
+        <label id="617" label="" folder="#Sponsorship&gt;Solitaire&gt;Sexual Interest" sort="7" />
+        <label id="618" label="" folder="#Sponsorship&gt;Solitaire&gt;Sexual Interest" sort="4" />
+        <label id="619" label="" folder="#Sponsorship&gt;Solitaire&gt;Sexual Interest" sort="5" />
+        <label id="620" label="" folder="#Sponsorship&gt;Solitaire&gt;Sexual Interest" sort="6" />
+        <label id="621" label="" folder="#Sponsorship&gt;Solitaire&gt;Sexual Interest" sort="8" />
+        <label id="622" label="" folder="#Sponsorship&gt;Solitaire&gt;Sexual Interest" sort="9" />
+        <label id="623" label="lost some, bisexual" folder="Human Filtered" sort="0" />
+        <label id="624" label="lost some, bisexual" folder="Human Filtered" sort="5" />
+        <label id="625" label="lost some, lesbian" folder="Human Filtered" sort="6" />
+        <label id="626" label="lost some, male-leaning bi-curious" folder="Human Filtered" sort="7" />
+        <label id="627" label="lost some, straight" folder="Human Filtered" sort="8" />
+        <label id="628" label="Post-Forfeit Cleanup" folder="" sort="0" />
+        <label id="629" label="Post-Forfeit Cleanup (Intercourse)" folder="" sort="0" />
+        <label id="631" label="" folder="Targets&gt;AF&gt;CATS" sort="0" />
+        <label id="630" label="" folder="Targets&gt;AF&gt;CATS" sort="2" />
+        <label id="632" label="" folder="Responses&gt;Lysithea" sort="0" />
+        <label id="633" label="" folder="Responses" sort="86" />
+        <label id="634" label="" folder="Responses&gt;Lysithea" sort="2" />
+        <label id="635" label="" folder="Responses&gt;Lysithea" sort="3" />
+        <label id="636" label="" folder="Situations" sort="7" />
+        <label id="637" label="" folder="Situations" sort="8" />
+        <label id="638" label="" folder="Targets&gt;Nephenee" sort="0" />
+        <label id="639" label="" folder="Targets&gt;Nephenee" sort="2" />
+        <label id="640" label="" color="3" folder="#Sponsorship&gt;Lokkit&gt;Pandoria Lines" sort="13" />
+        <label id="641" label="" folder="#Sponsorship&gt;Lokkit&gt;Pandoria Lines" sort="14" />
+        <label id="642" label="" folder="#Sponsorship&gt;Lokkit&gt;Pandoria Lines" sort="15" />
+        <label id="643" label="" folder="Targets&gt;Nephenee" sort="3" />
+        <label id="644" label="" folder="Targets&gt;Nephenee" sort="4" />
+        <label id="645" label="" folder="Targets&gt;Nephenee" sort="5" />
+        <label id="646" label="" folder="Targets&gt;Nephenee" sort="6" />
+        <label id="647" label="" folder="Targets" sort="109" />
+        <label id="648" label="Post-Forfeit Cleanup (Helper-Chan present)" folder="" sort="0" />
+        <label id="649" label="" folder="Targets&gt;Sofia" sort="7" />
+        <label id="650" label="" folder="Targets&gt;Sofia" sort="8" />
+        <label id="651" label="" folder="Targets&gt;Sofia" sort="9" />
+        <label id="652" label="" folder="Responses" sort="87" />
+        <label id="653" label="" color="3" folder="Targets" sort="110" />
+        <label id="654" label="" color="3" folder="Targets" sort="111" />
+        <label id="655" label="" color="3" folder="Targets" sort="112" />
+        <label id="656" label="" color="3" folder="Responses" sort="88" />
+        <label id="657" label="" color="3" folder="Responses" sort="89" />
+        <label id="658" label="" folder="#Sponsorship&gt;Lokkit&gt;Pandoria Lines" sort="16" />
+        <label id="659" label="" folder="Filtered" sort="0" />
+        <label id="660" label="" folder="Filtered" sort="0" />
+        <label id="661" label="" folder="Filtered" sort="0" />
+        <label id="662" label="" folder="Filtered" sort="0" />
+        <label id="663" label="" folder="Filtered" sort="0" />
+        <label id="664" label="" folder="Filtered" sort="0" />
+        <label id="665" label="" folder="Filtered" sort="0" />
+        <label id="666" label="" folder="Targets" sort="0" />
+        <label id="667" label="" color="3" folder="Responses" sort="0" />
+        <label id="668" label="" folder="Responses" sort="0" />
+        <label id="669" label="" folder="Summer After Strip Lines" sort="0" />
+        <label id="670" label="" folder="Summer After Strip Lines" sort="0" />
+        <label id="671" label="" folder="Summer After Strip Lines" sort="0" />
+        <label id="672" label="" folder="Summer After Strip Lines" sort="0" />
+        <label id="673" label="" folder="Summer After Strip Lines" sort="0" />
+        <label id="674" label="" folder="Summer After Strip Lines" sort="0" />
+        <label id="675" label="" color="2" folder="" sort="0" />
+        <label id="676" label="" color="2" folder="" sort="0" />
+        <label id="677" label="" color="2" folder="" sort="0" />
+        <label id="678" label="" folder="Responses" sort="0" />
+        <label id="679" label="" color="1" folder="Targets" sort="0" />
     </labels>
     <posePreviewMarkers>
-        <posePreviewMarker>penis=s</posePreviewMarker>
+        <posePreviewMarker>penis=h</posePreviewMarker>
     </posePreviewMarkers>
     <onlyCustomPoses>true</onlyCustomPoses>
-    <nextId>482</nextId>
+    <nextId>679</nextId>
     <markers>
-        <marker scope="Public" name="" />
         <marker scope="Public" name="allowsex">If set to 1, Zeke and Pandoria *can* (but are not guaranteed to) have sex for their forfeit.</marker>
         <marker scope="Public" name="allowsex_lockin" />
         <marker scope="Public" name="arle_adaptquestion" />
@@ -623,11 +880,15 @@
         <marker scope="Public" name="caitlin_chairYEET" />
         <marker scope="Public" name="caitlin_hair" />
         <marker scope="Public" name="cd_butt_pose" />
+        <marker scope="Public" name="conked_out" />
         <marker scope="Public" name="dontUseRegularForfeitStateOperation" />
         <marker scope="Public" name="dunban_arm_reveal" />
         <marker scope="Public" name="eichi_eattherichResp" />
         <marker scope="Public" name="eichi_spnatihellResp" />
+        <marker scope="Public" name="elizabeth_forfeit_react1" />
         <marker scope="Public" name="EyeOfShiningJustice">If active, Zeke is in EOSJ mode.</marker>
+        <marker scope="Public" name="eyepatch_copyright" />
+        <marker scope="Public" name="filtered_enf_prompt1" />
         <marker scope="Public" name="finishing_pandoria" />
         <marker scope="Public" name="finishing_zeke" />
         <marker scope="Public" name="forfeit_pandy_made_a_scene" />
@@ -640,11 +901,20 @@
         <marker scope="Public" name="hand_pandy_exposition1" />
         <marker scope="Public" name="heavy_ff_insertion_start" />
         <marker scope="Public" name="heavy_ff_intercrural_start" />
+        <marker scope="Public" name="hotspring_1" />
+        <marker scope="Public" name="hotspring_2" />
         <marker scope="Public" name="how_wars_profit_nopon" />
+        <marker scope="Public" name="hsw_join" />
+        <marker scope="Public" name="hsw_wantToJoin" />
+        <marker scope="Public" name="Icthyology1" />
+        <marker scope="Public" name="Icthyology2" />
+        <marker scope="Public" name="jim_mishap_prompt" />
         <marker scope="Public" name="kora_blade_power" />
         <marker scope="Public" name="kora_blade_power2" />
         <marker scope="Public" name="kora_gossip_aegisRex" />
         <marker scope="Public" name="kora_stripped4_butt" />
+        <marker scope="Public" name="nephenee_pussyR" />
+        <marker scope="Public" name="nephenee_titsR" />
         <marker scope="Public" name="nonon_leon_startDualReact" />
         <marker scope="Public" name="nonon_panties_reveal_situation" />
         <marker scope="Public" name="opp_lost_jjba" />
@@ -652,16 +922,36 @@
         <marker scope="Public" name="pandoria_meia_self4a" />
         <marker scope="Public" name="pandoriaToggle">if set to 1, Pandoria's dialogue is de-emphasised at certain moments.</marker>
         <marker scope="Public" name="pandy_CD_hat1" />
+        <marker scope="Public" name="pandy_dunban_armHeal1" />
+        <marker scope="Public" name="pandy_felix_healer1" />
+        <marker scope="Public" name="pandy_felix_water1" />
         <marker scope="Public" name="pandy_intro" />
         <marker scope="Public" name="pandy_jura_balls" />
         <marker scope="Public" name="pandy_jura_self0c" />
         <marker scope="Public" name="pandy_jura_self1c" />
         <marker scope="Public" name="pandy_jura_strip2" />
         <marker scope="Public" name="pandy_jura_strip2b" />
+        <marker scope="Public" name="pandy_jura_strip2c" />
+        <marker scope="Public" name="pandy_jura_strip3" />
+        <marker scope="Public" name="pandy_kora_self0a" />
+        <marker scope="Public" name="pandy_kyouko_comedian1" />
+        <marker scope="Public" name="pandy_kyouko_pickupLine1" />
+        <marker scope="Public" name="pandy_kyouko_tomato1" />
         <marker scope="Public" name="pandy_mariS_hatCont" />
         <marker scope="Public" name="pandy_mariS_hatEnd" />
         <marker scope="Public" name="pandy_mariS_hatResp" />
         <marker scope="Public" name="pandy_meia_strip2b" />
+        <marker scope="Public" name="pandy_meia_strip2c" />
+        <marker scope="Public" name="pandy_moon_afterBraTrick" />
+        <marker scope="Public" name="pandy_moon_toneItDown" />
+        <marker scope="Public" name="pandy_nonon_self1b" />
+        <marker scope="Public" name="pandy_nonon_self1c" />
+        <marker scope="Public" name="pandy_senko_foxWisdom1" />
+        <marker scope="Public" name="pandy_senko_foxWisdom2" />
+        <marker scope="Public" name="pandy_senko_selfCare1" />
+        <marker scope="Public" name="pandy_senko_selfCare2" />
+        <marker scope="Public" name="pandy_senko_soCute1" />
+        <marker scope="Public" name="pandy_senko_soCute2" />
         <marker scope="Public" name="pandy_strips_boots">Pandoria strips her boots while Zeke removes his boots.</marker>
         <marker scope="Public" name="pandy_strips_bottom">Pandoria strips her bottoms (underwear) while Zeke removes his own boxers.</marker>
         <marker scope="Public" name="pandy_strips_bra">Pandoria strips her bra when Zeke takes off his pants.</marker>
@@ -669,13 +959,23 @@
         <marker scope="Public" name="pandy_strips_dress">Pandoria strips off her dress when Zeke takes off his coat.</marker>
         <marker scope="Public" name="pandy_strips_ribbon">Pandoria strips her ribbon when Zeke removes his pauldrons.</marker>
         <marker scope="Public" name="pandy_strips_too">Pandoria is going to strip what she can at the same time that Zeke does, starting with her own gloves.</marker>
+        <marker scope="Public" name="pandy_taiyaki_strip0a" />
+        <marker scope="Public" name="pandy_waterproof" />
+        <marker scope="Public" name="pandy_yae_strip0a" />
         <marker scope="Public" name="penetrative_sex" />
         <marker scope="Public" name="penetrative_sex_finishing" />
         <marker scope="Public" name="penis">h=hard, s=soft, 0=soft (default)</marker>
         <marker scope="Public" name="penis_rating">A silly line for penis reveals where Pandy gives them a rating (based on their size tag, ranking size and cuteness)</marker>
         <marker scope="Public" name="queenie_intro" />
         <marker scope="Public" name="queenie_stafflost" />
+        <marker scope="Public" name="Reimu_GetRichQuickResp" />
+        <marker scope="Public" name="Reimu_SpouseQualitiesRespA" />
+        <marker scope="Public" name="Reimu_SpouseQualitiesRespB" />
+        <marker scope="Public" name="rosa_huddle_offer" />
         <marker scope="Public" name="rosa_timegate_stripping2" />
+        <marker scope="Public" name="rose_butt_pose" />
+        <marker scope="Public" name="rose_flashing_2" />
+        <marker scope="Public" name="rose_show_anima1" />
         <marker scope="Public" name="sanako_introResp" />
         <marker scope="Public" name="sanako_spendTimeRespP" />
         <marker scope="Public" name="sanako_spendTimeRespZ" />
@@ -683,6 +983,9 @@
         <marker scope="Public" name="self_finished" />
         <marker scope="Public" name="self_finished_creampie" />
         <marker scope="Public" name="self_nude_dunban_resp" />
+        <marker scope="Public" name="senko_modern_amenities_blades" />
+        <marker scope="Public" name="senko_pandyPampering_1" />
+        <marker scope="Public" name="senko_pandyPampering_2" />
         <marker scope="Public" name="shamiko_transform1" />
         <marker scope="Public" name="shamiko_transform2" />
         <marker scope="Public" name="spooky_goHomeWithMeResp" />
@@ -690,6 +993,7 @@
         <marker scope="Public" name="spooky_SoulJobResp" />
         <marker scope="Public" name="spooky_strip0" />
         <marker scope="Public" name="spooky_strip0_festive" />
+        <marker scope="Public" name="stage_3_core_expo" />
         <marker scope="Public" name="strip_poker_joke" />
         <marker scope="Public" name="sucrose_dual_FF_T1" />
         <marker scope="Public" name="sucrose_dual_FF_T2" />
@@ -759,8 +1063,10 @@
         <marker scope="Public" name="szp_trio_finished" />
         <marker scope="Public" name="target_beltStripped" />
         <marker scope="Public" name="tiki_bar_we_are_broke" />
+        <marker scope="Public" name="toph_bracelet_pandyresp" />
         <marker scope="Public" name="wheres_turters" />
         <marker scope="Public" name="wheres_turters2" />
+        <marker scope="Public" name="yae_default_1c" />
         <marker scope="Public" name="zeke_beatrix_blade1" />
         <marker scope="Public" name="zeke_beatrix_blade2" />
         <marker scope="Public" name="zeke_cag_boots1" />
@@ -781,8 +1087,11 @@
         <marker scope="Public" name="zeke_jura_self2b" />
         <marker scope="Public" name="zeke_jura_self2c" />
         <marker scope="Public" name="zeke_jura_self4a" />
+        <marker scope="Public" name="zeke_jura_self4b" />
+        <marker scope="Public" name="zeke_jura_self4c" />
         <marker scope="Public" name="zeke_jura_self5a" />
         <marker scope="Public" name="zeke_jura_self5b" />
+        <marker scope="Public" name="zeke_jura_self5c" />
         <marker scope="Public" name="zeke_jura_strip0a" />
         <marker scope="Public" name="zeke_jura_strip0b" />
         <marker scope="Public" name="zeke_jura_strip0c" />
@@ -790,6 +1099,16 @@
         <marker scope="Public" name="zeke_jura_strip1b" />
         <marker scope="Public" name="zeke_jura_strip1c" />
         <marker scope="Public" name="zeke_kyou_violenceResp" />
+        <marker scope="Public" name="zeke_leon_01" />
+        <marker scope="Public" name="zeke_leon_02" />
+        <marker scope="Public" name="zeke_leon_11" />
+        <marker scope="Public" name="zeke_leon_12" />
+        <marker scope="Public" name="zeke_leon_13" />
+        <marker scope="Public" name="zeke_leon_21" />
+        <marker scope="Public" name="zeke_leon_23" />
+        <marker scope="Public" name="zeke_leon_31" />
+        <marker scope="Public" name="zeke_leon_32" />
+        <marker scope="Public" name="zeke_leon_33" />
         <marker scope="Public" name="zeke_mariS_beltsCont" />
         <marker scope="Public" name="zeke_mariS_beltsEnd_A" />
         <marker scope="Public" name="zeke_mariS_beltsEnd_B" />
@@ -829,16 +1148,30 @@
         <marker scope="Public" name="zeke_meia_self3b" />
         <marker scope="Public" name="zeke_meia_self3c" />
         <marker scope="Public" name="zeke_meia_self4a" />
+        <marker scope="Public" name="zeke_meia_self4b" />
+        <marker scope="Public" name="zeke_meia_self4c" />
+        <marker scope="Public" name="zeke_meia_self5a" />
+        <marker scope="Public" name="zeke_meia_self5b" />
+        <marker scope="Public" name="zeke_meia_self5c" />
         <marker scope="Public" name="zeke_meia_strip0a" />
         <marker scope="Public" name="zeke_meia_strip0b" />
+        <marker scope="Public" name="zeke_meia_strip0c" />
         <marker scope="Public" name="zeke_meia_strip1a" />
         <marker scope="Public" name="zeke_meia_strip1b" />
+        <marker scope="Public" name="zeke_meia_strip1c" />
         <marker scope="Public" name="zeke_meia_strip2a" />
+        <marker scope="Public" name="zeke_meia_strip2b" />
+        <marker scope="Public" name="zeke_meia_strip3a" />
+        <marker scope="Public" name="zeke_meia_strip3b" />
         <marker scope="Public" name="zeke_misaka_strip0a" />
         <marker scope="Public" name="zeke_nadeshiko_fancy1" />
         <marker scope="Public" name="zeke_nadeshiko_fancy2" />
         <marker scope="Public" name="zeke_nadeshiko_hermit1" />
+        <marker scope="Public" name="zeke_nadeshiko_hermit2" />
         <marker scope="Public" name="zeke_nadeshiko_tantal1" />
+        <marker scope="Public" name="zeke_nadeshiko_tantal2" />
+        <marker scope="Public" name="zeke_nonon_self1a" />
+        <marker scope="Public" name="zeke_nonon_self1c" />
         <marker scope="Public" name="zeke_petra_title1" />
         <marker scope="Public" name="zeke_queenie_strip0a" />
         <marker scope="Public" name="zeke_revy_self0a" />
@@ -867,6 +1200,7 @@
         <marker scope="Public" name="zeke_sucrose_strip6c" />
         <marker scope="Public" name="zeke_wikipetan0a" />
         <marker scope="Public" name="zeke_wikipetan1" />
+        <marker scope="Public" name="zeke_yae_strip0a" />
         <marker scope="Public" name="zeke_yaemiko_publishing1" />
         <marker scope="Public" name="zeke_yaemiko_publishing2" />
         <marker scope="Public" name="zeke_yaemiko_publishing3" />
@@ -876,13 +1210,24 @@
         <marker scope="Public" name="zekepandy_caitlin_strip0a" />
         <marker scope="Public" name="zekepandy_caitlin_strip0b" />
         <marker scope="Public" name="zekepandy_caitlin_strip0c" />
+        <marker scope="Public" name="zekepandy_jura_strip3" />
+        <marker scope="Public" name="zekepandy_meia_self1a" />
+        <marker scope="Public" name="zekepandy_meia_self1b" />
+        <marker scope="Public" name="zekepandy_meia_self1c" />
+        <marker scope="Public" name="zekepandy_meia_self2a" />
+        <marker scope="Public" name="zekepandy_meia_self2b" />
+        <marker scope="Public" name="zekepandy_meia_self2c" />
         <marker scope="Public" name="zekepandy_miko_selfGloves1" />
         <marker scope="Public" name="zekepandy_miko_selfGloves2" />
+        <marker scope="Public" name="zekepandy_miko_selfGloves3" />
         <marker scope="Public" name="zekepandy_sanako_self0a" />
+        <marker scope="Public" name="zekepandy_sanako_self0b" />
+        <marker scope="Public" name="zekepandy_sanako_self0c" />
         <marker scope="Public" name="zekepandy_sucrose_dualFF_happening" />
         <marker scope="Public" name="zekepandy_sucrose_dualFF_must" />
         <marker scope="Public" name="zekepandy_sucrose_dualFF_start" />
         <marker scope="Public" name="zekepandy_sucrose_dualFFEnable" />
+        <marker scope="Public" name="zekepandy_yaemiko_favLocation1" />
         <marker scope="Public" name="zekepandy_yaemiko_jobPay2AdventureResp" />
         <marker scope="Public" name="zekepandy_yaemiko_jobPay2BlinkResp" />
         <marker scope="Public" name="zekepandy_yaemiko_jobPay3adventureResp" />
@@ -894,13 +1239,64 @@
         <marker scope="Public" name="zekepandy_zoe_moragBrighidtResp" />
         <marker scope="Public" name="zekepandy_zoe_moragPresentResp" />
         <marker scope="Public" name="zekepandy_zoe_moragResp" />
+        <marker scope="Public" name="zk_sanako_self1a" />
+        <marker scope="Public" name="zk_sanako_self1b" />
         <marker scope="Public" name="zk_solarflare_photosynthesis" />
         <marker scope="Public" name="zoe_swapRoles" />
         <marker scope="Public" name="Zoe_ZekePandoriaAbsResp" />
+        <marker scope="Public" name="zp_aoi_self0a" />
+        <marker scope="Public" name="zp_aoi_self0b" />
+        <marker scope="Public" name="zp_aura_camera1" />
         <marker scope="Public" name="zp_bowsette_robotGFresp" />
         <marker scope="Public" name="zp_caitlin_single1" />
+        <marker scope="Public" name="zp_jim_intro1" />
+        <marker scope="Public" name="zp_jim_preferences1" />
+        <marker scope="Public" name="zp_jura_self3a" />
+        <marker scope="Public" name="zp_kora_firstStripA" />
+        <marker scope="Public" name="zp_kora_gossipA" />
+        <marker scope="Public" name="zp_lyn_sword1" />
+        <marker scope="Public" name="zp_lysithea_boundariesS" />
+        <marker scope="Public" name="zp_lysithea_intentionsS" />
+        <marker scope="Public" name="zp_lysithea_whatS" />
+        <marker scope="Public" name="zp_nephenee_strip0a" />
+        <marker scope="Public" name="zp_nephenee_strip0b" />
+        <marker scope="Public" name="zp_nephenee_strip0c" />
+        <marker scope="Public" name="zp_nephenee_strip5a" />
+        <marker scope="Public" name="zp_nephenee_strip5a_wrath" />
+        <marker scope="Public" name="zp_nephenee_strip6a" />
         <marker scope="Public" name="zp_nonon_self0a" />
+        <marker scope="Public" name="zp_nonon_self0b" />
+        <marker scope="Public" name="zp_nonon_self0c" />
         <marker scope="Public" name="zp_nonon_self1a" />
+        <marker scope="Public" name="zp_nonon_self1b" />
+        <marker scope="Public" name="zp_nonon_self2a" />
+        <marker scope="Public" name="zp_nonon_self2b" />
+        <marker scope="Public" name="zp_nonon_self2c" />
+        <marker scope="Public" name="zp_nonon_self3a" />
+        <marker scope="Public" name="zp_nonon_self3b" />
+        <marker scope="Public" name="zp_nonon_self3c" />
+        <marker scope="Public" name="zp_nonon_self5a" />
+        <marker scope="Public" name="zp_nonon_self5b" />
+        <marker scope="Public" name="zp_nonon_self5c" />
+        <marker scope="Public" name="zp_nonon_strip0a" />
+        <marker scope="Public" name="zp_nonon_strip0b" />
+        <marker scope="Public" name="zp_nonon_strip0c" />
+        <marker scope="Public" name="zp_nonon_strip1a" />
+        <marker scope="Public" name="zp_nonon_strip1b" />
+        <marker scope="Public" name="zp_nonon_strip2a" />
+        <marker scope="Public" name="zp_nonon_strip2b" />
+        <marker scope="Public" name="zp_nonon_strip3a" />
+        <marker scope="Public" name="zp_nonon_strip3b" />
+        <marker scope="Public" name="zp_reimu_self0a" />
+        <marker scope="Public" name="zp_sofia_intro1" />
+        <marker scope="Public" name="zp_sofia_intro2" />
+        <marker scope="Public" name="zp_sofia_intro3" />
+        <marker scope="Public" name="zp_sofia_suitors1" />
+        <marker scope="Public" name="zp_sofia_suitors2" />
+        <marker scope="Public" name="zp_sofia_suitors3" />
+        <marker scope="Public" name="zp_sofia_swords1" />
+        <marker scope="Public" name="zp_sofia_swords2" />
+        <marker scope="Public" name="zp_sofia_swords3" />
         <marker scope="Public" name="zp_solarflare_electric" />
         <marker scope="Public" name="zp_solarflare_robot" />
         <marker scope="Public" name="zp_solarflare_zombies" />
@@ -915,7 +1311,7 @@
         <marker scope="Public" name="zps_postfinish" />
     </markers>
     <pendingLines>
-        <line>~Name~, take off that ridiculous eyepatch this instant! You're infringing on my copyright!</line>
         <line>{pandy}What do you mean? Zeke has loads of good qualities! Like uh...and huh...{!reset}</line>
+        <line>{pandy}Between you and me, I think Rex could use some more of your training. He's getting good, but he's not as good as you.{!reset}</line>
     </pendingLines>
 </metadata>

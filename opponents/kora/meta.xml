@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1691629797786</lastupdate>
+    <lastupdate>1709008542034</lastupdate>
     <enabled>false</enabled>
     <first>Kora</first>
     <last />
@@ -12,8 +12,7 @@
     <artist>onboro, cali</artist>
     <description>Cute! Fierce! Fighting fit! Heeeeeere's Kora, the rare Blade from Xenoblade Chronicles 2! This gossip-loving girl is obsessed with chatting, loves "cute and fierce" looks, and believes in every girl's "Girl Power"!</description>
     <layers>6</layers>
-    <default-costume-name />
     <has_collectibles>true</has_collectibles>
-    <lines>1191</lines>
+    <lines>1205</lines>
     <poses>169</poses>
 </opponent>

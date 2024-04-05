@@ -1086,7 +1086,8 @@ Opponent.prototype.loadAlternateCostume = function () {
             level: 'info'
         });
 
-        var legacySize = $xml.children('size').text() || eSize.MEDIUM;
+        const legacySize = $xml.children('size').text();
+        const gender = $xml.children('gender').text() || this.selectGender;
         this.alt_costume = {
             id: $xml.children('id').text(),
             labels: $xml.children('label'),
@@ -1094,10 +1095,16 @@ Opponent.prototype.loadAlternateCostume = function () {
             folder: this.selected_costume,
             folders: $xml.children('folder'),
             wardrobe: $xml.children('wardrobe'),
-            gender: $xml.children('gender').text() || this.selectGender,
+            gender: gender,
             layers: parseInt($xml.children('layers').text(), 10) || this.selectLayers,
-            penis: $xml.children('penis').text() || (this.metaGender === eGender.MALE ? legacySize : null),
-            breasts: $xml.children('breasts').text() || (this.metaGender === eGender.FEMALE ? legacySize : null)
+            /* For each of (breasts, penis), If no size is set in costume.xml, either using the new elements
+               or the legacy size, copy from the default costume, lastly falling back to the "other" size. */
+            penis: $xml.children('penis').text()
+                || (gender === eGender.MALE && (legacySize || this.default_costume.penis
+                                                || this.default_costume.breasts)) || null,
+            breasts: $xml.children('breasts').text()
+                || (gender === eGender.FEMALE && (legacySize || this.default_costume.breasts
+                                                  || this.default_costume.penis)) || null,
         };
 
         var poses = $xml.children('poses');
