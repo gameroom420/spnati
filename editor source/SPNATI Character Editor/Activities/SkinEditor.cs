@@ -1,6 +1,7 @@
 using Desktop;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace SPNATI_Character_Editor.Activities
@@ -35,6 +36,7 @@ namespace SPNATI_Character_Editor.Activities
 		{
 			_costume = Record as Costume;
 			SubscribeWorkspace<bool>(WorkspaceMessages.Save, OnSaveWorkspace);
+			SubscribeWorkspace<int>(WorkspaceMessages.SkipLayersChanged, OnSkipLayersChanged);
 		}
 
 		private void OnSaveWorkspace(bool auto)
@@ -51,6 +53,13 @@ namespace SPNATI_Character_Editor.Activities
 					Shell.Instance.SetStatus(string.Format("{0} failed to export.", _costume));
 				}
 			}
+		}
+
+		private void OnSkipLayersChanged(int layers)
+		{
+			valLayers.Value = Math.Max(valLayers.Minimum, Math.Min(layers, valLayers.Maximum));
+			_costume.LayersNonSkip = layers;
+			_costume.Link.LayersNonSkip = (int)valLayers.Value == _costume.Layers ? 0 : (int)valLayers.Value;
 		}
 
 		private void LinkCharacter()
@@ -77,6 +86,7 @@ namespace SPNATI_Character_Editor.Activities
 				cboEvent.Text = link.Set;
 				string gender = link.Gender ?? _costume.Character.Gender;
 				cboGender.SelectedItem = gender;
+				valLayers.Value = link.LayersNonSkip != 0 ? Math.Max(valLayers.Minimum, Math.Min(link.LayersNonSkip, valLayers.Maximum)) : Math.Max(valLayers.Minimum, Math.Min(_costume.Character.Metadata.Layers, valLayers.Maximum));
 			}
 
 			cboBaseStage.Items.Add("- None -");
@@ -153,6 +163,8 @@ namespace SPNATI_Character_Editor.Activities
 		public override void Save()
 		{
 			_costume.Labels = gridLabels.Values;
+			int countUnskipped = _costume.Wardrobe.Where(x => x?.Type != "skip").Count();
+			_costume.LayersNonSkip = countUnskipped;
 
 			if (_costume.Link != null)
 			{
@@ -171,20 +183,12 @@ namespace SPNATI_Character_Editor.Activities
 				string gender = cboGender.SelectedItem?.ToString();
 
 				string label = _costume.Labels.Count > 0 ? _costume.Labels[0].Value : null;
-
-				int countUnskipped = 0;
-				foreach (Clothing c in _costume.Wardrobe)
-				{
-					if (c != null && c.Type != "skip")
-					{
-						countUnskipped++;
-					}
-				}
+				int layers = (int)valLayers.Value;
 
 				if (txtName.Text != _costume.Link.Name || status != _costume.Link.Status || set != _costume.Link.Set || _costume.Link.IsDirty
 					|| gender != _costume.Link.Gender || label != _costume.Link.Label 
-					|| _costume.Link.LayersNonSkip == 0 && countUnskipped != _costume.Layers
-					|| _costume.Link.LayersNonSkip != 0 && countUnskipped != _costume.Link.LayersNonSkip)
+					|| _costume.Link.LayersNonSkip == 0 && layers != _costume.Layers
+					|| layers != _costume.Link.LayersNonSkip)
 				{
 					_linkDataChanged = true;
 				}
@@ -196,14 +200,7 @@ namespace SPNATI_Character_Editor.Activities
 					_costume.Link.Status = status;
 					_costume.Link.Set = set;
 					_costume.Link.Label = label;
-					if (countUnskipped != _costume.Layers)
-					{
-						_costume.Link.LayersNonSkip = countUnskipped;
-					}
-					else
-					{
-						_costume.Link.LayersNonSkip = 0;
-					}
+					_costume.Link.LayersNonSkip = layers == _costume.Layers ? 0 : layers;
 
 					if (gender != _costume.Character.Gender)
 					{
@@ -244,6 +241,12 @@ namespace SPNATI_Character_Editor.Activities
 				_costume.Link.IsDirty = true;
 			}
 			Workspace.SendMessage(WorkspaceMessages.UpdatePreviewImage, new UpdateImageArgs(_costume, image, 0));
+		}
+
+		private void cmdExpandPortrait_Click(object sender, EventArgs e)
+		{
+			lblLayers.Visible = true;
+			valLayers.Visible = true;
 		}
 	}
 }

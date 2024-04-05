@@ -1,21 +1,19 @@
 ﻿namespace KisekaeImporter.SubCodes
 {
-	public class KisekaeHairclip : KisekaeClothes, IPoseable
+	public class KisekaeLegacyHairpin : KisekaeClothes, IPoseable
 	{
 		public void Pose(IPoseable pose)
 		{
-			KisekaeHairclip other = pose as KisekaeHairclip;
-			if (other == null)
+			if (pose is KisekaeLegacyHairpin other)
 			{
-				return;
+				Rotation = other.Rotation;
+				RotationZ = other.RotationZ;
+				Height = other.Height;
+				ScaleX = other.ScaleX;
+				ScaleY = other.ScaleY;
+				Side = other.Side;
+				OffsetX = other.OffsetX;
 			}
-			Rotation = other.Rotation;
-			RotationZ = other.RotationZ;
-			Height = other.Height;
-			ScaleX = other.ScaleX;
-			ScaleY = other.ScaleY;
-			Side = other.Side;
-			OffsetX = other.OffsetX;	
 		}
 
 		public int Side

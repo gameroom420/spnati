@@ -1,7 +1,10 @@
 ﻿using Desktop.Skinning;
 using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 namespace SPNATI_Character_Editor.Forms
@@ -28,36 +31,43 @@ namespace SPNATI_Character_Editor.Forms
 		private void DisplayVersionHistory()
 		{
 			//Acquire updates from all versions skipped
-			string lastVersion = Config.GetString(Settings.LastVersionRun);
+			string lastversionstring = Config.GetString(Settings.LastVersionRun);
+			Version lastVersion = lastversionstring.Length > 1 ? new Version(lastversionstring.Substring(1)) : new Version("1.0");
 			StringBuilder updates = new StringBuilder();
-			bool isBeta = Config.Version.EndsWith("a") || Config.Version.EndsWith("b");
-			for (int i = Config.VersionHistory.Length - 1; i >= 0; i--)
+			string[] files = Directory.GetFiles(Config.ExecutableDirectory, "VersionHistory/v*.html", SearchOption.TopDirectoryOnly);
+			List<KeyValuePair<string, string>> versionUpdates = new List<KeyValuePair<string, string>>();
+			foreach (string file in files.Reverse())
 			{
-				string version = Config.VersionHistory[i];
-				if (version == lastVersion) { break; }
-				bool beta = version.EndsWith("a") || version.EndsWith("b");
-				if (!isBeta && beta)
+				string version;
+				Match match = Regex.Match(file, @"v(\d\.)+html");
+				if (!match.Success)
 				{
-					continue; //skip beta versions when not in a beta
+					continue;
 				}
-
-				string file = Path.Combine(Config.ExecutableDirectory, $"VersionHistory/{version}.html");
-				if (File.Exists(file))
+				else
 				{
-					updates.Append("<section class='card'>");
-					updates.Append("<h1>");
-					updates.Append(version);
-					updates.Append("</h1>");
-					updates.Append(File.ReadAllText(file));
-					updates.Append("</section>");
+					string str = match.Value;
+					version = str.Remove(str.Length - 5);
+					if (new Version(version.Substring(1)).CompareTo(lastVersion) <= 0) { continue; }
+					versionUpdates.Add(new KeyValuePair<string, string>(version, File.ReadAllText(file)));
 				}
+			}
+			versionUpdates.Sort((pair1, pair2) => - new Version(pair1.Key.Substring(1)).CompareTo(new Version(pair2.Key.Substring(1))));
+			foreach (KeyValuePair<string, string> pair in versionUpdates)
+			{
+				updates.Append("<section class='card'>");
+				updates.Append("<h1>");
+				updates.Append(pair.Key);
+				updates.Append("</h1>");
+				updates.Append(pair.Value);
+				updates.Append("</section>");
 			}
 			wb.Document.Body.InnerHtml = updates.ToString();
 		}
 
 		private void cmdOK_Click(object sender, EventArgs e)
 		{
-			this.Close();
+			Close();
 		}
 
 		private void WhatsNew_FormClosing(object sender, FormClosingEventArgs e)

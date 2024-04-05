@@ -1,21 +1,21 @@
 ﻿namespace KisekaeImporter.SubCodes
 {
-	public class KisekaeGlobalHairpiece : KisekaeSubCode, IPoseable, IMoveable
+	public class KisekaeGlobalRibbon : KisekaeSubCode, IPoseable, IMoveable
 	{
 		public void Pose(IPoseable pose)
 		{
-			KisekaeGlobalHairpiece other = pose as KisekaeGlobalHairpiece;
-			if (other == null)
+			if (pose is KisekaeGlobalRibbon other)
 			{
-				return;
+				ScaleX = other.ScaleX;
+				ScaleX = other.ScaleX;
+				Rotation = other.Rotation;
+				X = other.X;
+				Y = other.Y;
+				Z = other.Z;
+				ScaleB = other.ScaleB;
+				FineX = other.FineX;
+				FineY = other.FineY;
 			}
-			
-			ScaleX = other.ScaleX;
-			Rotation = other.Rotation;
-			X = other.X;
-			Y = other.Y;
-			Depth = other.Depth;
-			Skew = other.Skew;
 		}
 
 		public int Type
@@ -48,9 +48,9 @@
 			set { Set(4, value.ToString()); }
 		}
 
-		public int Unknown
+		public int Depth
 		{
-			get { return 9; }
+			get { return GetInt(5); }
 			set { Set(5, value); }
 		}
 
@@ -90,22 +90,46 @@
 			set { Set(11, value); }
 		}
 
-		public int Depth
+		public int Z
 		{
 			get { return GetInt(12); }
 			set { Set(12, value); }
 		}
 
-		public int Skew
+		public int ScaleY
 		{
 			get { return GetInt(13); }
 			set { Set(13, value); }
 		}
 
+		public int ScaleB
+		{
+			get { return GetInt(14); }
+			set { Set(14, value); }
+		}
+
 		public bool Shaded
 		{
-			get { return GetBool(14); }
-			set { Set(14, value); }
+			get { return GetBool(15); }
+			set { Set(15, value); }
+		}
+
+		public int Alpha
+		{
+			get { return GetInt(16); }
+			set { Set(16, value); }
+		}
+
+		public int FineX
+		{
+			get { return GetInt(17); }
+			set { Set(17, value); }
+		}
+
+		public int FineY
+		{
+			get { return GetInt(17); }
+			set { Set(17, value); }
 		}
 
 		public void ShiftX(int offset)

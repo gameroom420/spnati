@@ -401,7 +401,7 @@ namespace SPNATI_Character_Editor
 
 			foreach (Marker marker in character.Markers.Value.Values)
 			{
-				if (Regex.IsMatch(marker.Name, @"[^\w+]"))
+				if (Regex.IsMatch(marker.Name, @"[^\w+-]"))
 				{
 					warnings.Add(new ValidationError(ValidationFilterLevel.Case, string.Format("Unless other characters already target marker {0}, it is advised to rename it using only letters, numbers, and underscores.", marker.Name)));
 				}
@@ -430,7 +430,8 @@ namespace SPNATI_Character_Editor
 
 			if (!Listing.Instance.IsCharacterReleased(character.FolderName))
 			{
-				warnings.Add(new ValidationError(ValidationFilterLevel.Settings, "Characters that are not on the main roster are not allowed to have custom settings."));
+				if (character.Behavior.CharacterSettingsGroups.Count > 0)
+					warnings.Add(new ValidationError(ValidationFilterLevel.Settings, "Characters that are not on the main roster are not allowed to have custom settings."));
 			}
 			else
 			{
@@ -558,9 +559,22 @@ namespace SPNATI_Character_Editor
 									warnings.Add(new ValidationError(ValidationFilterLevel.TargetedDialogue, string.Format("Target \"{1}\" is {2}, so this case will never trigger. {0}", caseLabel, condition.Character, target.Gender), context));
 								}
 							}
-							if (!string.IsNullOrEmpty(trigger.Size) && target.Size != trigger.Size)
+							if (!string.IsNullOrEmpty(trigger.Size))
 							{
-								warnings.Add(new ValidationError(ValidationFilterLevel.TargetedDialogue, string.Format("Target \"{1}\" has a size of {2}, so this case will never trigger. {0}", caseLabel, condition.Character, target.Size), context));
+								if (trigger.Tag.Contains("crotch"))
+								{
+									if (target.Gender == "male" && !string.IsNullOrEmpty(target.LegacySize) && target.LegacySize != trigger.Size || !string.IsNullOrEmpty(target.Penis) && target.Penis != trigger.Size)
+									{
+										warnings.Add(new ValidationError(ValidationFilterLevel.TargetedDialogue, string.Format("Target \"{1}\" does not have a penis size of {2}, so this case will never trigger. {0}", caseLabel, condition.Character, trigger.Size), context));
+									}
+								}
+								else
+								{
+									if (target.Gender == "female" && !string.IsNullOrEmpty(target.LegacySize) && target.LegacySize != trigger.Size || !string.IsNullOrEmpty(target.Breasts) && target.Breasts != trigger.Size)
+									{
+										warnings.Add(new ValidationError(ValidationFilterLevel.TargetedDialogue, string.Format("Target \"{1}\" does not have a breast size of {2}, so this case will never trigger. {0}", caseLabel, condition.Character, trigger.Size), context));
+									}
+								}
 							}
 							if (!string.IsNullOrEmpty(condition.Stage))
 							{
@@ -586,13 +600,6 @@ namespace SPNATI_Character_Editor
 						{
 							ValidateMarker(warnings, target, caseLabel, condition.SaidMarker, condition.Stage, context);
 							ValidateMarker(warnings, target, caseLabel, condition.SayingMarker, condition.Stage, context);
-						}
-
-						if (condition.Role != "self" && string.IsNullOrEmpty(stageCase.Disabled))
-						{
-							ValidateMarkerScope(warnings, target, caseLabel, condition.NotSaidMarker, context);
-							ValidateMarkerScope(warnings, target, caseLabel, condition.SaidMarker, context);
-							ValidateMarkerScope(warnings, target, caseLabel, condition.SayingMarker, context);
 						}
 					}
 				}
@@ -1081,27 +1088,6 @@ namespace SPNATI_Character_Editor
 					&& !string.IsNullOrEmpty(test.Operator) && (test.Operator.Contains("<") || test.Operator.Contains(">")))
 				{
 					warnings.Add(new ValidationError(ValidationFilterLevel.Case, $"Clothing type doesn't support less-than or greater-than operators. {caseLabel}", context));
-				}
-			}
-		}
-
-		private static void ValidateMarkerScope(List<ValidationError> warnings, Character character, string caseLabel, string name, ValidationContext context)
-		{
-			string value;
-			MarkerOperator op;
-			bool perTarget;
-
-			name = Marker.ExtractConditionPieces(name, out op, out value, out perTarget);
-
-			foreach (Marker marker in character.Markers.Value.Values)
-			{
-				if (marker.Name == name)
-				{
-					if (marker.Scope == MarkerScope.Private)
-					{
-						warnings.Add(new ValidationError(ValidationFilterLevel.TargetedDialogue, string.Format("{1}'s marker {2} is private, so other characters should not use it in case conditions. {0}", caseLabel, character, name), context));
-					}
-					break;
 				}
 			}
 		}

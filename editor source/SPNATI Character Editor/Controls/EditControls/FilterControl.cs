@@ -41,11 +41,11 @@ namespace SPNATI_Character_Editor
 				if (workingCase != null && workingCase.Tag != null)
 				{
 					string gender = "";
-					if (workingCase.Tag.Contains("female_"))
+					if (workingCase.Tag.StartsWith("female_") || workingCase.Tag.StartsWith("futanari_"))
 					{
 						gender = "female";
 					}
-					else if (workingCase.Tag.Contains("male_"))
+					else if (workingCase.Tag.StartsWith("male_"))
 					{
 						gender = "male";
 					}
@@ -68,9 +68,20 @@ namespace SPNATI_Character_Editor
 					{
 						size = "small";
 					}
-					if (!string.IsNullOrEmpty(size) && !string.IsNullOrEmpty(c.Size) && c.Size != size)
+
+					if (workingCase.Tag.Contains("crotch_"))
 					{
-						return false;
+						if (!string.IsNullOrEmpty(size) && (!string.IsNullOrEmpty(c.LegacySize) && c.Gender == "male" && c.LegacySize != size || !string.IsNullOrEmpty(c.Penis) && c.Penis != size))
+						{
+							return false;
+						}
+					}
+					else if (workingCase.Tag.Contains("chest"))
+					{
+						if (!string.IsNullOrEmpty(size) && (!string.IsNullOrEmpty(c.LegacySize) && c.Gender == "female" && c.LegacySize != size || !string.IsNullOrEmpty(c.Breasts) && c.Breasts != size))
+						{
+							return false;
+						}
 					}
 					return true;
 				}
@@ -376,7 +387,10 @@ namespace SPNATI_Character_Editor
 			{
 				_filter.Count = GetCount();
 				_filter.Variable = txtVariable.Text;
-
+				if (_filter.Count == "1-5")
+				{
+					_filter.Count = "";
+				}
 			}
 			else
 			{
@@ -421,9 +435,19 @@ namespace SPNATI_Character_Editor
 		{
 			if (range == null)
 			{
+				valFrom.Value = -1;
 				valFrom.Text = "";
+				valTo.Value = -1;
 				valTo.Text = "";
 				return;
+			}
+			if (range.StartsWith("-"))
+			{
+				range = "0" + range;
+			}
+			if (range.EndsWith("-"))
+			{
+				range += "5";
 			}
 			string[] pieces = range.Split('-');
 			int from;
@@ -446,7 +470,8 @@ namespace SPNATI_Character_Editor
 				}
 				else
 				{
-					valTo.Text = "";
+					valTo.Value = valFrom.Value;
+					valTo.Text = valFrom.Text;
 				}
 			}
 			else
@@ -469,7 +494,30 @@ namespace SPNATI_Character_Editor
 			{
 				to = -1;
 			}
-			return GUIHelper.ToRange(from, to);
+			if (from == -1 && to == -1)
+			{
+				return "1-5";
+			}
+			else if (from == -1)
+			{
+				return $"0-{to}";
+			}
+			else if (to == -1)
+			{
+				return $"{from}-5";
+			}
+			else if (to <= from)
+			{
+				return $"{from}";
+			}
+			//else if (from == to)
+			//{
+			//	return $"{from}";
+			//}
+			else
+			{
+				return $"{from}-{to}";
+			}
 		}
 
 		private void cmdExpand_Click(object sender, EventArgs e)
@@ -500,6 +548,23 @@ namespace SPNATI_Character_Editor
 		public override void EditSubProperty(string property)
 		{
 			tableAdvanced.AddProperty(property);
+		}
+
+
+		private void valTo_Validated(object sender, EventArgs e)
+		{
+			if (valTo.Value == -1)
+			{
+				valTo.Text = "";
+			}
+		}
+
+		private void valFrom_Validated(object sender, EventArgs e)
+		{
+			if (valFrom.Value == -1)
+			{
+				valFrom.Text = "";
+			}
 		}
 	}
 

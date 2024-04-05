@@ -22,15 +22,6 @@ namespace KisekaeImporter
 			Id = id;
 		}
 
-		public KisekaeSubCode(string id, string[] data)
-		{
-			_pieces = new List<string>(data.Length);
-			foreach (string piece in data)
-			{
-				_pieces.Add(piece);
-			}
-		}
-
 		public void Reset()
 		{
 			_pieces.Clear();
@@ -88,8 +79,7 @@ namespace KisekaeImporter
 		{
 			if (index < 0 || index >= _pieces.Count)
 				return 0;
-			int value;
-			int.TryParse(_pieces[index], out value);
+			int.TryParse(_pieces[index], out int value);
 			return value;
 		}
 
@@ -114,8 +104,7 @@ namespace KisekaeImporter
 		{
 			if (index < 0 || index >= _pieces.Count)
 				return false;
-			int value;
-			int.TryParse(_pieces[index], out value);
+			int.TryParse(_pieces[index], out int value);
 			return value > 0;
 		}
 
@@ -156,14 +145,16 @@ namespace KisekaeImporter
 
 		public void Disable()
 		{
-			_pieces = new List<string>();
-			_pieces.Add("");
+			_pieces = new List<string>
+			{
+				""
+			};
 		}
 	}
 
 	public class KisekaeSubCodeArray
 	{
-		private SortedList<int, KisekaeSubCode> _array = new SortedList<int, KisekaeSubCode>();
+		private readonly SortedList<int, KisekaeSubCode> _array = new SortedList<int, KisekaeSubCode>();
 
 		public void Add(int index, KisekaeSubCode code)
 		{
@@ -173,8 +164,7 @@ namespace KisekaeImporter
 
 		public KisekaeSubCode Get(int index)
 		{
-			KisekaeSubCode code;
-			_array.TryGetValue(index, out code);
+			_array.TryGetValue(index, out KisekaeSubCode code);
 			return code;
 		}
 

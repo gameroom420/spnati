@@ -266,7 +266,7 @@ namespace SPNATI_Character_Editor.Activities
 			try
 			{
 				string toolsFolder = Path.Combine(Config.SpnatiDirectory, "tools", "character_editor");
-				string newestVersion = null;
+				string newestVersion = Config.Version;
 				foreach (string file in Directory.EnumerateFiles(toolsFolder, "*.zip"))
 				{
 					string filename = Path.GetFileNameWithoutExtension(file);
@@ -274,13 +274,13 @@ namespace SPNATI_Character_Editor.Activities
 					{
 						filename = filename.Replace(" (x86)", "");
 						string version = "v" + filename.Substring(17);
-						if (!Config.VersionHistory.Contains(version) && Config.GetString("LastVersionNotice") != version)
+						if (new Version(version.Substring(1)).CompareTo(new Version(newestVersion.Substring(1))) > 0 && Config.GetString("LastVersionNotice") != version)
 						{
 							newestVersion = version;
 						}
 					}
 				}
-				if (!string.IsNullOrEmpty(newestVersion))
+				if (newestVersion != Config.Version)
 				{
 					Shell.Instance.ShowToast("New Version Available", "A new version of the Character Editor is available! Head to the tools folder to check it out.");
 					Config.Set("LastVersionNotice", newestVersion);

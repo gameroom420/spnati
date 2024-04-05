@@ -81,6 +81,10 @@ namespace SPNATI_Character_Editor.Activities
 		{
 			_matrix = CharacterDatabase.GetPoseMatrix(_skin);
 			_matrix.PropertyChanged += _matrix_PropertyChanged;
+			if (_skin is Character && _character.Wardrobe.Count == 2 && (_character.Wardrobe[0].Name == "final layer" || _character.Wardrobe[1].Name == "first layer"))
+			{
+				return;
+			}
 			if (_matrix.Sheets.Count == 0)
 			{
 				//make a default sheet
@@ -156,6 +160,20 @@ namespace SPNATI_Character_Editor.Activities
 
 		protected override void OnActivate()
 		{
+			if (_matrix.Sheets.Count == 0 && _skin is Character)
+			{
+				if (_character.Wardrobe.Count == 2 && (_character.Wardrobe[0].Name == "final layer" || _character.Wardrobe[1].Name == "first layer"))
+				{
+					MessageBox.Show($"{_character}'s wardrobe has not been changed from the defaults. Edit the wardrobe before creating a Pose Matrix.", "Default Wardrobe", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+				}
+				else
+				{
+					_matrix.AddSheet("Main", _character);
+					Rebuild();
+					_dirty = false;
+				}
+				return;
+			}
 			if (_pendingWardrobeChange)
 			{
 				_matrix?.ReconcileStages(_character);

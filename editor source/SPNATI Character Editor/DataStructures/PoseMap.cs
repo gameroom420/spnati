@@ -221,8 +221,32 @@ namespace SPNATI_Character_Editor
 				});
 				return m;
 			});
-			mapping.SetPose(-1, poseSet);
-
+			foreach (PoseSetEntry entry in poseSet.Entries)
+			{
+				if (int.TryParse(entry.Stage, out int x))
+				{
+					mapping.SetPose(x, poseSet);
+				}
+				else
+				{
+					string[] strings = entry.Stage.Split('-');
+					if (strings.Length != 2)
+					{
+						continue;
+					}
+					if (int.TryParse(strings[0], out int y) && int.TryParse(strings[1], out int z))
+					{
+						for (int i = y; i <= z; i++)
+						{
+							mapping.SetPose(i, poseSet);
+						}
+					}
+					else
+					{
+						continue;
+					}
+				}
+			}
 		}
 
 		public void Rename(Pose pose)
@@ -327,32 +351,6 @@ namespace SPNATI_Character_Editor
 		private string GetPoseKey(int stage, string id, string extension)
 		{
 			return $"{(string.IsNullOrEmpty(extension) && !id.StartsWith("custom:") ? "custom:" : "")}{(stage >= 0 ? "#-" : "")}{id}{(!string.IsNullOrEmpty(extension) ? extension : "")}";
-		}
-
-		public PoseMapping GetFlatFilePose(string name)
-		{
-			string file = Path.Combine(_character.GetDirectory(), name);
-			if (File.Exists(file))
-			{
-				return GetPose(name);
-			}
-			else
-			{
-				string key = name;
-				if (key.StartsWith("custom:"))
-				{
-					key = "custom:#-" + key.Substring("custom:".Length);
-				}
-				else if (key.StartsWith("set:"))
-				{
-				//	key = "set:#-" + key.Substring("set:".Length);
-				}
-				else
-				{
-					key = "#-" + key;
-				}
-				return GetPose(key);
-			}
 		}
 
 		/// <summary>

@@ -15,9 +15,11 @@ namespace SPNATI_Character_Editor.Controls
 	public partial class WardrobeEditor : Activity
 	{
 		private IWardrobe _wardrobe;
+		private Character _character = null;
 		private bool _populatingWardrobe;
 		private Queue<WardrobeChange> _wardrobeChanges = new Queue<WardrobeChange>();
 		private WardrobeRestrictions _restrictions;
+		private int _nonSkip;
 
 		public WardrobeEditor()
 		{
@@ -39,6 +41,10 @@ namespace SPNATI_Character_Editor.Controls
 		protected override void OnInitialize()
 		{
 			_wardrobe = Record as IWardrobe;
+			if (Record is Character character)
+			{
+				_character = character;
+			}
 
 			_restrictions = _wardrobe.GetWardrobeRestrictions();
 			
@@ -62,6 +68,7 @@ namespace SPNATI_Character_Editor.Controls
 		{
 			_populatingWardrobe = true;
 			gridWardrobe.Rows.Clear();
+			_nonSkip = 0;
 			for (int i = _wardrobe.Layers - 1; i >= 0; i--)
 			{
 				Clothing c = _wardrobe.GetClothing(i);
@@ -84,6 +91,11 @@ namespace SPNATI_Character_Editor.Controls
 					{
 						c.GenericName = null;
 					}
+				}
+
+				if (c.Type != "skip")
+				{
+					_nonSkip++;
 				}
 
 				try
@@ -199,6 +211,10 @@ namespace SPNATI_Character_Editor.Controls
 			{
 				int index = _wardrobe.RemoveLayer(layer);
 				_wardrobeChanges.Enqueue(new WardrobeChange(WardrobeChangeType.Remove, index));
+				if (_character != null)
+				{
+					_character.Metadata.Layers = _wardrobe.Layers;
+				}
 			}
 			for (int i = 0; i < _wardrobe.Layers; i++)
 			{
@@ -220,6 +236,10 @@ namespace SPNATI_Character_Editor.Controls
 			DataGridViewRow row = gridWardrobe.Rows[index];
 			row.Tag = layer;
 			_wardrobeChanges.Enqueue(new WardrobeChange(WardrobeChangeType.Add, index));
+			if (_character != null)
+			{
+				_character.Metadata.Layers = _wardrobe.Layers;
+			}
 			for (int i = 0; i < _wardrobe.Layers; i++)
 			{
 				Clothing clothing = _wardrobe.GetClothing(i);
@@ -234,6 +254,22 @@ namespace SPNATI_Character_Editor.Controls
 		private void gridWardrobe_CellValidated(object sender, DataGridViewCellEventArgs e)
 		{
 			SaveLayer(e.RowIndex);
+			if (!_populatingWardrobe && e.ColumnIndex == ColType.Index && !_restrictions.HasFlag(WardrobeRestrictions.NoSkip))
+			{
+				int nonSkip = 0;
+				foreach (DataGridViewRow dataRow in gridWardrobe.Rows)
+				{
+					if (dataRow.Cells["ColType"].Value?.ToString() != "skip")
+					{
+						nonSkip++;
+					}
+				}
+				if (nonSkip != _nonSkip)
+				{
+					Workspace.SendMessage(WorkspaceMessages.SkipLayersChanged, nonSkip);
+					_nonSkip = nonSkip;
+				}
+			}
 		}
 
 		private void gridWardrobe_CellValidating(object sender, DataGridViewCellValidatingEventArgs e)
@@ -313,7 +349,7 @@ namespace SPNATI_Character_Editor.Controls
 				{
 					if (_wardrobe.GetClothing(i).ToString() == form.fromStage)
 					{
-						clothing.FromStage = i.ToString();
+						clothing.FromStage = (_wardrobe.Layers - i).ToString();
 						break;
 					}
 				}

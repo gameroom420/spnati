@@ -2,7 +2,7 @@
 
 namespace KisekaeImporter
 {
-	[KisekaeSubCodeList("t", typeof(KisekaeFacePaint))]
+	[KisekaeSubCodeList("t", typeof(KisekaeMark))]
 	public class KisekaeFace : KisekaeComponent
 	{
 		[KisekaeSubCode("fa")]
@@ -78,9 +78,9 @@ namespace KisekaeImporter
 			set { SetSubCode("pa", value); }
 		}
 
-		public KisekaeFacePaint GetFacePaint(int index)
+		public KisekaeMark GetMark(int index)
 		{
-			return GetSubCode<KisekaeFacePaint>("t" + index.ToString("00"));
+			return GetSubCode<KisekaeMark>("t" + index.ToString("00"));
 		}
 	}
 }

@@ -6,11 +6,11 @@ namespace SPNATI_Character_Editor
 {
 	[SubVariable("persistent")]
 	[SubVariable("marker")]
-	public partial class PersistentMarkerControl : PlayerControlBase
+	public partial class MarkerVariableControl : PlayerControlBase
 	{
 		public bool Persistent;
 
-		public PersistentMarkerControl()
+		public MarkerVariableControl()
 		{
 			InitializeComponent();
 			cboOperator.DataSource = ExpressionTest.Operators;

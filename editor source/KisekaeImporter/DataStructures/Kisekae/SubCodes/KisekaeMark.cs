@@ -1,28 +1,29 @@
 ﻿namespace KisekaeImporter.SubCodes
 {
-	public class KisekaeFacePaint : KisekaeSubCode, IPoseable
+	public class KisekaeMark : KisekaeSubCode, IPoseable
 	{
-		public KisekaeFacePaint() : base("t") { }
+		public KisekaeMark() : base("t") { }
 
-		public void CopyPositionFrom(KisekaeFacePaint paint)
+		public void CopyPositionFrom(KisekaeMark other)
 		{
-			Side = paint.Side;
-			ScaleX = paint.ScaleX;
-			ScaleY = paint.ScaleY;
-			Rotation = paint.Rotation;
-			OffsetX = paint.OffsetX;
-			OffsetY = paint.OffsetY;
-			Alpha = paint.Alpha;
+			Side = other.Side;
+			ScaleX = other.ScaleX;
+			ScaleY = other.ScaleY;
+			Rotation = other.Rotation;
+			OffsetX = other.OffsetX;
+			OffsetY = other.OffsetY;
+			Alpha = other.Alpha;
+			AttachPoint = other.AttachPoint;
+			FineX = other.FineX;
+			FineY = other.FineY;
 		}
 
 		public void Pose(IPoseable pose)
 		{
-			KisekaeFacePaint other = pose as KisekaeFacePaint;
-			if (other == null)
+			if (pose is KisekaeMark other)
 			{
-				return;
+				CopyPositionFrom(other);
 			}
-			CopyPositionFrom(other);
 		}
 
 		public int Shape
@@ -101,6 +102,30 @@
 		{
 			get { return GetInt(12); }
 			set { Set(12, value.ToString()); }
+		}
+
+		public int Vary
+		{
+			get { return GetInt(13); }
+			set { Set(13, value.ToString()); }
+		}
+
+		public int AttachPoint
+		{
+			get { return GetInt(14); }
+			set { Set(14, value.ToString()); }
+		}
+
+		public int FineX
+		{
+			get { return GetInt(15); }
+			set { Set(15, value.ToString()); }
+		}
+
+		public int FineY
+		{
+			get { return GetInt(16); }
+			set { Set(16, value.ToString()); }
 		}
 	}
 }

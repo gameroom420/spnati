@@ -83,7 +83,9 @@ namespace SPNATI_Character_Editor
 			CrossGender = character.Metadata.CrossGender;
 			Tags = character.Tags;
 			Gender = character.Gender;
-			Size = character.Size;
+			LegacySize = character.LegacySize;
+			Penis = character.Penis;
+			Breasts = character.Breasts;
 			DefaultCostumeName = character.Metadata.DefaultCostumeName;
 			Wardrobe = character.Wardrobe;
 			Writer = character.Metadata.Writer;

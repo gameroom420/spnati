@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SPNATI_Character_Editor</RootNamespace>
     <AssemblyName>SPNATI Character Editor</AssemblyName>
-    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <IsWebBootstrapper>false</IsWebBootstrapper>
@@ -246,7 +246,6 @@
     <Compile Include="Analyzers\DialogueAnalyzers.cs" />
     <Compile Include="Analyzers\StatusAnalyzer.cs" />
     <Compile Include="Analyzers\StyleAnalyzer.cs" />
-    <Compile Include="Analyzers\VersionAnalyzer.cs" />
     <Compile Include="Analyzers\WardrobeAnalyzers.cs" />
     <Compile Include="Analyzers\MetadataAnalyzers.cs" />
     <Compile Include="Analyzers\IDataAnalyzer.cs" />
@@ -441,11 +440,11 @@
     <Compile Include="Controls\EditControls\VariableControls\CategoryControl.Designer.cs">
       <DependentUpon>CategoryControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Controls\EditControls\VariableControls\PersistentMarkerControl.cs">
+    <Compile Include="Controls\EditControls\VariableControls\MarkerVariableControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Controls\EditControls\VariableControls\PersistentMarkerControl.Designer.cs">
-      <DependentUpon>PersistentMarkerControl.cs</DependentUpon>
+    <Compile Include="Controls\EditControls\VariableControls\MarkerVariableControl.Designer.cs">
+      <DependentUpon>MarkerVariableControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Controls\EditControls\PlacementControl.cs">
       <SubType>UserControl</SubType>
@@ -820,7 +819,6 @@
     <Compile Include="DataStructures\ClothingDefinitions.cs" />
     <Compile Include="DataStructures\Collectible.cs" />
     <Compile Include="DataStructures\CollectibleData.cs" />
-    <Compile Include="DataStructures\DataConversions.cs" />
     <Compile Include="DataStructures\Deck.cs" />
     <Compile Include="DataStructures\Definition.cs" />
     <Compile Include="DataStructures\Definitions.cs" />
@@ -1413,7 +1411,6 @@
     <Compile Include="ImageCache.cs" />
     <Compile Include="ImportPayload.cs" />
     <Compile Include="Intellisense.cs" />
-    <Compile Include="IO\FlatFileSerializer.cs" />
     <Compile Include="IO\SpnatiXmlSerializer.cs" />
     <Compile Include="DataStructures\Listing.cs" />
     <Compile Include="IO\CharacterStyleSheetSerializer.cs" />
@@ -1686,8 +1683,8 @@
     <EmbeddedResource Include="Controls\EditControls\VariableControls\CategoryControl.resx">
       <DependentUpon>CategoryControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Controls\EditControls\VariableControls\PersistentMarkerControl.resx">
-      <DependentUpon>PersistentMarkerControl.cs</DependentUpon>
+    <EmbeddedResource Include="Controls\EditControls\VariableControls\MarkerVariableControl.resx">
+      <DependentUpon>MarkerVariableControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\EditControls\PlacementControl.resx">
       <DependentUpon>PlacementControl.cs</DependentUpon>
@@ -2174,6 +2171,9 @@
     <None Include="Hunspellx86.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <Content Include="VersionHistory\v6.9.1.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="VersionHistory\v6.9.html">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
