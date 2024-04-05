@@ -1281,8 +1281,8 @@
             </case>
             <case stage="0" oneShotId="15">
                 <condition status="alive" role="opp" character="kyouko_toshinou" layers="0-2" />
-                <test expr="~kyouko_toshinou.hand.score~" />
-                <test expr="~self.hand.score~" cmp="!=" />
+                <test expr="~kyouko_toshinou.hand.score~" cmp="&lt;" value="100" />
+                <test expr="~self.hand.score~" cmp="&lt;" value="~kyouko_toshinou.hand.score~" />
                 <state img="#-freeza.png" marker="TO_toshinou_guessYouDie">Guess you’ll die, ~kyouko_toshinou~.</state>
             </case>
             <case stage="0" oneShotId="229" totalRounds="0-2">
