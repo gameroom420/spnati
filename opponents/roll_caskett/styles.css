@@ -1,0 +1,9 @@
+.dialogue .roll[data-character="roll_caskett"] {
+  /*Roll is speaking, as she normally does because this is Roll after all.*/
+  color: #9B0000;
+}
+
+.dialogue .yae[data-character="roll_caskett"] {
+  /*Yae is speaking, which means she's probably up to no good.*/
+  color: Green;
+}
