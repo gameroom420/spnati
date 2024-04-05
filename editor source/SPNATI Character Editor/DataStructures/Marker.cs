@@ -351,6 +351,30 @@ namespace SPNATI_Character_Editor
 			End = end;
 		}
 
+		public IntInterval(string str)
+		{
+			string[] split = str.Split(new char[] { '-' }, StringSplitOptions.RemoveEmptyEntries);
+			int start;
+			int end;
+			if (!int.TryParse(split[0], out start))
+			{
+				start = 0;
+			}
+			if (split.Length > 1)
+			{
+				if (!int.TryParse(split[1], out end))
+				{
+					end = start;
+				}
+			}
+			else
+			{
+				end = start;
+			}
+			Start = Math.Min(start, end);
+			End = Math.Max(start, end);
+		}
+
 		public static bool ParseInterval(string str, out IntInterval interval)
 		{
 			string[] split = str.Split(new char[] { '-' }, StringSplitOptions.RemoveEmptyEntries);

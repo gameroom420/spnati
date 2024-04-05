@@ -1,6 +1,5 @@
 using Desktop;
 using Desktop.CommonControls;
-using Desktop.CommonControls.PropertyControls;
 using Newtonsoft.Json;
 using SPNATI_Character_Editor.IO;
 using System;
@@ -244,6 +243,28 @@ namespace SPNATI_Character_Editor
 			return result;
 		}
 
+		public static string TotalRoundsToString(string range)
+		{
+			if (range == null)
+			{
+				return "";
+			}
+			string[] pieces = range.Split('-');
+			if (pieces.Length == 1 || pieces[0] == pieces[1])
+			{
+				return pieces[0];
+			}
+			if (pieces.Length == 2 && string.IsNullOrEmpty(pieces[0]))
+			{
+				return $"0-{pieces[1]}";
+			}
+			if (pieces.Length == 2 && string.IsNullOrEmpty(pieces[1]))
+			{
+				return $"{pieces[0]}+";
+			}
+			return range;
+		}
+
 		public string ToConditionsString(bool excludeTarget)
 		{
 			List<string> alternates = new List<string>();
@@ -254,7 +275,7 @@ namespace SPNATI_Character_Editor
 			List<string> result = new List<string>();
 			if (!string.IsNullOrEmpty(TotalRounds))
 			{
-				result.Add(string.Format("({0} overall rounds)", GUIHelper.RangeToString(TotalRounds)));
+				result.Add(string.Format("({0} overall rounds)", TotalRoundsToString(TotalRounds)));
 			}
 			if (Conditions.Count > 0)
 			{
@@ -2224,8 +2245,8 @@ namespace SPNATI_Character_Editor
 		{
 			if (!string.IsNullOrEmpty(Stage))
 			{
-				Tuple<int, int> interval = GUIHelper.ToInterval(Stage);
-				for (int i = interval.Item1; i <= interval.Item2; i++)
+				IntInterval interval = new IntInterval(Stage);
+				for (int i = interval.Start; i <= interval.End; i++)
 				{
 					Stages.Add(i);
 				}

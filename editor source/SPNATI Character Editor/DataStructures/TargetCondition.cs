@@ -500,7 +500,7 @@ namespace SPNATI_Character_Editor
 			}
 			if (!string.IsNullOrEmpty(FilterNotTag))
 			{
-				parts.Add("nottag;"+ FilterNotTag);
+				parts.Add("nottag;" + FilterNotTag);
 			}
 			if (!string.IsNullOrEmpty(FilterTagAdv))
 			{
@@ -575,9 +575,32 @@ namespace SPNATI_Character_Editor
 			return ToString(false);
 		}
 
+
+		public static string CountToString(string range)
+		{
+			if (range == null)
+			{
+				return "";
+			}
+			string[] pieces = range.Split('-');
+			if (pieces.Length == 1 || pieces[0] == pieces[1])
+			{
+				return pieces[0];
+			}
+			if (pieces.Length == 2 && string.IsNullOrEmpty(pieces[0]))
+			{
+				return $"0-{pieces[1]}";
+			}
+			if (pieces.Length == 2 && string.IsNullOrEmpty(pieces[1]))
+			{
+				return $"{pieces[0]}-5";
+			}
+			return range;
+		}
+
 		public string ToString(bool excludeTarget)
 		{
-			string str = GUIHelper.RangeToString(Count);
+			string str = CountToString(Count);
 			if (!HasAdvancedConditions)
 			{
 				if (!string.IsNullOrEmpty(str))
