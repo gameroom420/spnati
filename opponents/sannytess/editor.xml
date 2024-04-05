@@ -39,8 +39,8 @@
     </notes>
     <nextId>17</nextId>
     <markers>
-        <marker scope="Private" name="COCK" />
-        <marker scope="Private" name="COCK2" />
+        <marker scope="Public" name="COCK" />
+        <marker scope="Public" name="COCK2" />
         <marker scope="Private" name="creature" />
         <marker scope="Public" name="dunboob1" />
         <marker scope="Public" name="dunboob4" />
@@ -63,6 +63,7 @@
         <marker scope="Public" name="MariMeetUp" />
         <marker scope="Public" name="MariMeetUp2" />
         <marker scope="Public" name="MariMeetUpEnd" />
+        <marker scope="Public" name="monster_musume" />
         <marker scope="Public" name="ST_Aru1" />
         <marker scope="Public" name="ST_Aru2" />
         <marker scope="Public" name="ST_Dreamcatcher1" />
@@ -86,6 +87,18 @@
         <marker scope="Public" name="sussy&amp;tess_ejected" />
         <marker scope="Public" name="Trifle_ST_1" />
         <marker scope="Public" name="TST_1" />
+        <marker scope="Public" name="wikiGirls1" />
+        <marker scope="Public" name="wikiGirls10" />
+        <marker scope="Public" name="wikiGirls11" />
+        <marker scope="Public" name="wikiGirls2" />
+        <marker scope="Public" name="wikiGirls3" />
+        <marker scope="Public" name="wikiGirls4" />
+        <marker scope="Public" name="wikiGirls5" />
+        <marker scope="Public" name="wikiGirls6" />
+        <marker scope="Public" name="wikiGirls7" />
+        <marker scope="Public" name="wikiGirls8" />
+        <marker scope="Public" name="wikiGirls9" />
+        <marker scope="Public" name="wikiGirlsCouch" />
         <marker scope="Public" name="wikigirlsstart" />
         <marker scope="Public" name="wikigirlsstart2" />
     </markers>
