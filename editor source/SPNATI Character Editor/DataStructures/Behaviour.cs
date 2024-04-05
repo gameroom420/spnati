@@ -222,6 +222,40 @@ namespace SPNATI_Character_Editor
 					}
 				}
 			}
+
+			// Hardcoded "reverse generic"
+			HashSet<int> expectedStagesAll, expectedStagesS, expectedStagesM, expectedStagesL;
+			requiredLineIndex.TryGetValue("futanari_small_crotch_is_visible", out expectedStagesS);
+			requiredLineIndex.TryGetValue("futanari_medium_crotch_is_visible", out expectedStagesM);
+			requiredLineIndex.TryGetValue("futanari_large_crotch_is_visible", out expectedStagesL);
+
+			if (requiredLineIndex.TryGetValue("futanari_crotch_is_visible", out expectedStagesAll))
+			{
+				int layers = _character.Layers + Clothing.ExtraStages;
+				for (int stage = 0; stage < layers; stage++)
+				{
+					if ((expectedStagesS == null || !expectedStagesS.Contains(stage))
+						&& (expectedStagesM == null || !expectedStagesM.Contains(stage))
+						&& (expectedStagesL == null || !expectedStagesL.Contains(stage)))
+					{
+						expectedStagesAll.Remove(stage);
+					}
+				}
+
+				if (expectedStagesAll.Count == 0)
+				{
+					requiredLineIndex.Remove("futanari_crotch_is_visible");
+				}
+				else
+				{
+					requiredLineIndex["futanari_crotch_is_visible"] = expectedStagesAll;
+				}
+			}
+
+			// We just needed these for the reverse generic, they're not actually required
+			requiredLineIndex.Remove("futanari_small_crotch_is_visible");
+			requiredLineIndex.Remove("futanari_medium_crotch_is_visible");
+			requiredLineIndex.Remove("futanari_large_crotch_is_visible");
 		}
 
 		/// <summary>

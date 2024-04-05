@@ -448,7 +448,7 @@
     <defaultImage>horny</defaultImage>
     <defaultText>What the character says when a futanari character is about to remove the last piece of clothing covering their crotch. This is a clothing element on the "lower" location, with the "important" type.</defaultText>
   </trigger>
-  <trigger tag="futanari_small_crotch_is_visible" optional="true" start="0" end="10" label="Visible (Crotch, Futanari, Small)" relatedGroup="8" hasTarget="true" gender="female" size="small" description="A futanari opponent has revealed a small penis" group="7" order="15" color="4" safeLabel="Bottom (Futanari, Small)">
+  <trigger tag="futanari_small_crotch_is_visible" start="0" end="10" label="Visible (Crotch, Futanari, Small)" relatedGroup="8" hasTarget="true" gender="female" size="small" description="A futanari opponent has revealed a small penis" group="7" order="15" color="4" safeLabel="Bottom (Futanari, Small)">
     <vars>
       <string>name</string>
       <string>clothing</string>
@@ -457,7 +457,7 @@
     <defaultImage>calm</defaultImage>
     <defaultText>What the character says after the futanari character's crotch is visible, and has a size value of "small".</defaultText>
   </trigger>
-  <trigger tag="futanari_medium_crotch_is_visible" optional="true" start="0" end="10" label="Visible (Crotch, Futanari, Medium)" relatedGroup="8" hasTarget="true" gender="female" size="medium" description="A futanari opponent has revealed a medium penis" group="7" order="16" color="4" safeLabel="Bottom (Futanari, Medium)">
+  <trigger tag="futanari_medium_crotch_is_visible" start="0" end="10" label="Visible (Crotch, Futanari, Medium)" relatedGroup="8" hasTarget="true" gender="female" size="medium" description="A futanari opponent has revealed a medium penis" group="7" order="16" color="4" safeLabel="Bottom (Futanari, Medium)">
     <vars>
       <string>name</string>
       <string>clothing</string>
@@ -466,7 +466,7 @@
     <defaultImage>awkward</defaultImage>
     <defaultText>What the character says after the futanari character's crotch is visible, and has a size value of "medium".</defaultText>
   </trigger>
-  <trigger tag="futanari_large_crotch_is_visible" optional="true" start="0" end="10" label="Visible (Crotch, Futanari, Large)" relatedGroup="8" hasTarget="true" gender="female" size="large" description="A futanari opponent has revealed a large penis" group="7" order="17" color="4" safeLabel="Bottom (Futanari, Large)">
+  <trigger tag="futanari_large_crotch_is_visible" start="0" end="10" label="Visible (Crotch, Futanari, Large)" relatedGroup="8" hasTarget="true" gender="female" size="large" description="A futanari opponent has revealed a large penis" group="7" order="17" color="4" safeLabel="Bottom (Futanari, Large)">
     <vars>
       <string>name</string>
       <string>clothing</string>
