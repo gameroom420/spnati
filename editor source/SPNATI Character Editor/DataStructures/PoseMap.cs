@@ -221,8 +221,32 @@ namespace SPNATI_Character_Editor
 				});
 				return m;
 			});
-			mapping.SetPose(-1, poseSet);
-
+			foreach (PoseSetEntry entry in poseSet.Entries)
+			{
+				if (int.TryParse(entry.Stage, out int x))
+				{
+					mapping.SetPose(x, poseSet);
+				}
+				else
+				{
+					string[] strings = entry.Stage.Split('-');
+					if (strings.Length != 2)
+					{
+						continue;
+					}
+					if (int.TryParse(strings[0], out int y) && int.TryParse(strings[1], out int z))
+					{
+						for (int i = y; i <= z; i++)
+						{
+							mapping.SetPose(i, poseSet);
+						}
+					}
+					else
+					{
+						continue;
+					}
+				}
+			}
 		}
 
 		public void Rename(Pose pose)
