@@ -572,7 +572,7 @@ namespace SPNATI_Character_Editor
 								{
 									if (target.Gender == "female" && !string.IsNullOrEmpty(target.LegacySize) && target.LegacySize != trigger.Size || !string.IsNullOrEmpty(target.Breasts) && target.Breasts != trigger.Size)
 									{
-										warnings.Add(new ValidationError(ValidationFilterLevel.TargetedDialogue, string.Format("Target \"{1}\" does not have a breasts size of {2}, so this case will never trigger. {0}", caseLabel, condition.Character, trigger.Size), context));
+										warnings.Add(new ValidationError(ValidationFilterLevel.TargetedDialogue, string.Format("Target \"{1}\" does not have a breast size of {2}, so this case will never trigger. {0}", caseLabel, condition.Character, trigger.Size), context));
 									}
 								}
 							}
