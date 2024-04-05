@@ -12,7 +12,7 @@ namespace SPNATI_Character_Editor
 		/// <summary>
 		/// Current Version
 		/// </summary>
-		public static string Version { get { return "v6.9"; } }
+		public static string Version { get { return "v6.9.1"; } }
 
 		private static Dictionary<string, string> _settings = new Dictionary<string, string>();
 
