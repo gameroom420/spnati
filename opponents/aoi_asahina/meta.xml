@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1712176952641</lastupdate>
+    <lastupdate>1712293825227</lastupdate>
     <enabled>false</enabled>
     <first>Aoi</first>
     <last>Asahina</last>
-    <label>Aoi</label>
+    <label>Hina</label>
     <pic>0-z_portrait.png</pic>
     <gender>female</gender>
     <from>Danganronpa: Trigger Happy Havoc</from>
@@ -14,6 +14,6 @@
     <layers>7</layers>
     <default-costume-name>Tracksuit</default-costume-name>
     <has_collectibles>false</has_collectibles>
-    <lines>520</lines>
+    <lines>524</lines>
     <poses>183</poses>
 </opponent>
