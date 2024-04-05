@@ -565,7 +565,7 @@
     <defaultImage>horny</defaultImage>
     <defaultText>What the character says while an opponent is masturbating.</defaultText>
   </trigger>
-  <trigger tag="opponent_heavy_masturbating" start="0" end="10" optional="true" label="Masturbating (Opponent, Near Climax)" hasTarget="true" description="An opponent of either gender is near climaxing" group="8" order="9" color="4" safeLabel="In Forfeit (Opponent, Near End)">
+  <trigger tag="opponent_heavy_masturbating" start="0" end="10" optional="true" label="Masturbating (Heavy, Opponent)" hasTarget="true" description="An opponent of either gender is near climaxing" group="8" order="9" color="4" safeLabel="In Forfeit (Opponent, Near End)">
     <vars>
       <string>name</string>
       <string>target</string>
