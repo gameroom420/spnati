@@ -345,6 +345,7 @@
     </vars>
     <defaultImage>calm</defaultImage>
     <defaultText>What the character says after the male character's crotch is visible, and has a size value of "small".</defaultText>
+    <generic>male_crotch_is_visible</generic>
   </trigger>
   <trigger tag="male_medium_crotch_is_visible" start="0" end="10" label="Visible (Crotch, Male, Medium)" relatedGroup="8" hasTarget="true" gender="male" size="medium" description="A male opponent has revealed a medium penis" group="7" order="4" color="4" safeLabel="Bottom (Male, Medium)">
     <vars>
@@ -354,6 +355,7 @@
     </vars>
     <defaultImage>awkward</defaultImage>
     <defaultText>What the character says after the male character's crotch is visible, and has a size value of "medium".</defaultText>
+    <generic>male_crotch_is_visible</generic>
   </trigger>
   <trigger tag="male_large_crotch_is_visible" start="0" end="10" label="Visible (Crotch, Male, Large)" relatedGroup="8" hasTarget="true" gender="male" size="large" description="A male has opponent revealed a large penis" group="7" order="5" color="4" safeLabel="Bottom (Male, Large)">
     <vars>
@@ -363,6 +365,7 @@
     </vars>
     <defaultImage>shocked</defaultImage>
     <defaultText>What the character says after the male character's crotch is visible, and has a size value of "large".</defaultText>
+    <generic>male_crotch_is_visible</generic>
   </trigger>
   <trigger tag="male_crotch_is_visible" optional="true" start="0" end="10" label="Visible (Crotch, Male)" relatedGroup="8" hasTarget="true" gender="male" description="A male has opponent revealed a penis of any size" group="7" order="6" color="4" safeLabel="Bottom (Male)">
     <vars>
