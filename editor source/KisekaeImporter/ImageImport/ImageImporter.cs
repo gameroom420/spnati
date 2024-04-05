@@ -25,9 +25,9 @@ namespace KisekaeImporter.ImageImport
 		private const string DefaultVersionSetup = VersionSetup68;
 
 		/// <summary>
-		/// Number of seconds to wait for an image
+		/// Number of milliseconds to wait for an image
 		/// </summary>
-		private const int RetryTimeLimit = 10000;
+		private const int RetryTimeLimit = 60000;
 		/// <summary>
 		/// Frequency in ms to check for the image
 		/// </summary>
