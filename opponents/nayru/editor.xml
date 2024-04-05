@@ -85,7 +85,7 @@
         <marker scope="Public" name="pit_intro">Intro for Pit, sans Palutena</marker>
         <marker scope="Public" name="pit_pal" />
         <marker scope="Public" name="poss_draw">The first instance of drawing/swapping after the possession. Veran's first real line.</marker>
-        <marker scope="Public" name="poss_hand">The first hand while possessed. Prevents spam.</marker>
+        <marker scope="Private" name="poss_hand">The first hand while possessed. Prevents spam.</marker>
         <marker scope="Public" name="possess">prevents most null-possess markers down the road; set upon possession to allow for future case work</marker>
         <marker scope="Public" name="pretense">Nayru makes a comment during an early must_masturbate phase about how oracles are above such debasement.</marker>
         <marker scope="Public" name="rain" />
