@@ -8,13 +8,13 @@
     <noteworthy>
         <case name="Mahiru Selfie" priority="Noteworthy" min="5" max="5">
             <description>Meia takes a selfie with Mahiru--somewhat reluctantly.</description>
-            <trigger tag="stripped" stage="5" alsoPlaying="mahiru" alsoPlayingStage="7" alsoPlayingSaidMarker="meiaselfie" priority="990">
+            <trigger tag="stripped" stage="5" priority="990">
                 <state img="selfieblank.png"></state>
             </trigger>
         </case>
         <case name="Mahiru Selfie" priority="Noteworthy" min="5" max="5">
             <description>Meia takes a selfie with Mahiru--somewhat reluctantly.</description>
-            <trigger tag="stripped" stage="5" alsoPlaying="mahiru" alsoPlayingStage="9" alsoPlayingSaidMarker="meiaselfie" priority="990">
+            <trigger tag="stripped" stage="5" priority="990">
                 <state img="selfieblank.png"></state>
             </trigger>
         </case>
@@ -516,7 +516,6 @@
         <label id="990" label="" color="4" folder="" sort="0" />
         <label id="991" label="" color="4" folder="" sort="0" />
         <label id="996" label="" color="6" folder="" sort="0" />
-        <label id="1769" label="" color="4" folder="" sort="0" />
         <label id="1000" label="" color="4" folder="" sort="0" />
         <label id="1001" label="" color="4" folder="" sort="0" />
         <label id="1002" label="" color="4" folder="" sort="0" />
@@ -695,7 +694,7 @@
         <label id="1462" label="" color="4" folder="" sort="0" />
         <label id="1213" label="" color="4" folder="" sort="0" />
         <label id="1206" label="" color="4" folder="" sort="0" />
-        <label id="1773" label="" color="4" folder="" sort="0" />
+        <label id="1828" label="" color="4" folder="" sort="0" />
         <label id="1222" label="" color="4" folder="" sort="0" />
         <label id="1226" label="" color="1" folder="" sort="0" />
         <label id="1227" label="" color="1" folder="" sort="0" />
@@ -752,7 +751,6 @@
         <label id="1314" label="" color="4" folder="" sort="0" />
         <label id="1315" label="" color="4" folder="" sort="0" />
         <label id="1316" label="" color="4" folder="" sort="0" />
-        <label id="1771" label="" color="4" folder="" sort="0" />
         <label id="1323" label="" color="4" folder="" sort="0" />
         <label id="1322" label="" color="4" folder="" sort="0" />
         <label id="1324" label="" color="6" folder="" sort="0" />
@@ -884,9 +882,7 @@
         <label id="1543" label="" color="10" folder="" sort="0" />
         <label id="1544" label="" color="10" folder="" sort="0" />
         <label id="1545" label="" color="4" folder="" sort="0" />
-        <label id="1767" label="" color="4" folder="" sort="0" />
-        <label id="1765" label="" color="4" folder="" sort="0" />
-        <label id="1794" label="" color="4" folder="" sort="0" />
+        <label id="1831" label="" color="4" folder="" sort="0" />
         <label id="1808" label="" color="4" folder="" sort="0" />
         <label id="1557" label="" color="6" folder="" sort="0" />
         <label id="1558" label="" color="6" folder="" sort="0" />
@@ -952,9 +948,9 @@
         <label id="1687" label="" color="2" folder="" sort="0" />
         <label id="1734" label="" color="4" folder="" sort="0" />
         <label id="1807" label="" color="4" folder="" sort="0" />
-        <label id="1770" label="" color="4" folder="" sort="0" />
+        <label id="1825" label="" color="4" folder="" sort="0" />
         <label id="1735" label="" color="4" folder="" sort="0" />
-        <label id="1766" label="" color="4" folder="" sort="0" />
+        <label id="1832" label="" color="4" folder="" sort="0" />
         <label id="1720" label="" color="6" folder="" sort="0" />
         <label id="1721" label="" color="2" folder="" sort="0" />
         <label id="1722" label="" color="2" folder="" sort="0" />
@@ -967,9 +963,6 @@
         <label id="1800" label="" color="4" folder="" sort="0" />
         <label id="1795" label="" color="4" folder="" sort="0" />
         <label id="1759" label="" color="4" folder="" sort="0" />
-        <label id="1764" label="" color="4" folder="" sort="0" />
-        <label id="1768" label="" color="4" folder="" sort="0" />
-        <label id="1772" label="" color="4" folder="" sort="0" />
         <label id="1774" label="" color="4" folder="" sort="0" />
         <label id="1798" label="" color="4" folder="" sort="0" />
         <label id="1802" label="" color="4" folder="" sort="0" />
@@ -980,11 +973,11 @@
         <label id="1784" label="" color="4" folder="" sort="0" />
         <label id="1785" label="" color="4" folder="" sort="0" />
         <label id="1787" label="" color="4" folder="" sort="0" />
-        <label id="1788" label="" color="4" folder="" sort="0" />
-        <label id="1789" label="" color="4" folder="" sort="0" />
-        <label id="1790" label="" color="4" folder="" sort="0" />
-        <label id="1791" label="" color="4" folder="" sort="0" />
-        <label id="1793" label="" color="4" folder="" sort="0" />
+        <label id="1822" label="" color="4" folder="" sort="0" />
+        <label id="1820" label="" color="4" folder="" sort="0" />
+        <label id="1818" label="" color="4" folder="" sort="0" />
+        <label id="1821" label="" color="4" folder="" sort="0" />
+        <label id="1829" label="" color="4" folder="" sort="0" />
         <label id="1803" label="" color="4" folder="" sort="0" />
         <label id="1804" label="" color="4" folder="" sort="0" />
         <label id="1809" label="" color="4" folder="" sort="0" />
@@ -993,8 +986,10 @@
         <label id="1812" label="" color="4" folder="" sort="0" />
         <label id="1813" label="" color="4" folder="" sort="0" />
         <label id="1814" label="" color="4" folder="" sort="0" />
+        <label id="1817" label="" color="4" folder="" sort="0" />
+        <label id="1819" label="" color="4" folder="" sort="0" />
     </labels>
-    <nextId>1816</nextId>
+    <nextId>1832</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="2butt">Meia shows off her butt while still in her bodysuit (or Cupid outfit).</marker>
@@ -2201,6 +2196,7 @@
         <marker scope="Public" name="jura3" />
         <marker scope="Public" name="jura34" />
         <marker scope="Public" name="jura3s" />
+        <marker scope="Public" name="jura3s_yae" />
         <marker scope="Public" name="jura4" />
         <marker scope="Public" name="jura45" />
         <marker scope="Public" name="jura4s" />
@@ -2436,7 +2432,9 @@
         <marker scope="Public" name="leonie1s" />
         <marker scope="Public" name="leonie2" />
         <marker scope="Public" name="leviathan_resp0" />
+        <marker scope="Public" name="leviathan_resp01" />
         <marker scope="Public" name="leviathan0" />
+        <marker scope="Public" name="leviathan01" />
         <marker scope="Public" name="lizbluehair">Meia tells Elizabeth that she should not be confined to anyone else's restrictions over her hair.</marker>
         <marker scope="Public" name="lizmen">Meia tells Elizabeth about the first man she ever saw in person.</marker>
         <marker scope="Public" name="lucina_men" />
@@ -3103,7 +3101,10 @@
         <marker scope="Public" name="nayru_intro">Meia returns Nayru's greeting and notes their similar blue hair, yet opposite personalities.</marker>
         <marker scope="Public" name="nayru_mj">Meia claims to Nayru that she is only playing out of curiosity about men, not to relax.</marker>
         <marker scope="Public" name="nephenee_resp0" />
+        <marker scope="Public" name="nephenee_resp01" />
         <marker scope="Public" name="nephenee0" />
+        <marker scope="Public" name="nephenee01" />
+        <marker scope="Public" name="nephenee1" />
         <marker scope="Public" name="neptune_bath" />
         <marker scope="Public" name="neptune_find" />
         <marker scope="Public" name="neptune_meninfo" />
@@ -3223,6 +3224,7 @@
         <marker scope="Public" name="nonon5" />
         <marker scope="Public" name="nonon56" />
         <marker scope="Public" name="nonon5s" />
+        <marker scope="Public" name="nonon6s" />
         <marker scope="Public" name="ochako_qm">Meia resents Ochako's implication that women can't fall in love.</marker>
         <marker scope="Public" name="okino_gakuran0" />
         <marker scope="Public" name="okino_love" />
@@ -3769,6 +3771,7 @@
         <marker scope="Public" name="sofia_resp23" />
         <marker scope="Public" name="sofia_resp3" />
         <marker scope="Public" name="sofia_resp34" />
+        <marker scope="Public" name="sofia_resp4" />
         <marker scope="Public" name="sofia0" />
         <marker scope="Public" name="sofia01" />
         <marker scope="Public" name="sofia1" />
@@ -3996,7 +3999,9 @@
         <marker scope="Public" name="yae_miko3" />
         <marker scope="Public" name="yae_miko34" />
         <marker scope="Public" name="yae_miko3s" />
+        <marker scope="Public" name="yae_miko4s" />
         <marker scope="Public" name="yae_miko5" />
+        <marker scope="Public" name="yae_miko56" />
         <marker scope="Public" name="yae_resp0" />
         <marker scope="Public" name="yae_resp01" />
         <marker scope="Public" name="yae_resp1" />
@@ -4017,6 +4022,7 @@
         <marker scope="Public" name="yae4" />
         <marker scope="Public" name="yae45" />
         <marker scope="Public" name="yae4s" />
+        <marker scope="Public" name="yae4s_jura" />
         <marker scope="Public" name="yae5" />
         <marker scope="Public" name="yae56" />
         <marker scope="Public" name="yae5s" />
