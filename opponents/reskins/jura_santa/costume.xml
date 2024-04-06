@@ -1415,6 +1415,10 @@
                 <keyframe time="2.62" alpha="100" />
             </directive>
         </pose>
+        <pose id="6-strippedcamera">
+            <sprite id="stripped" src="reskins/jura_santa/6-stripped.png" x="0" y="0" />
+            <sprite id="bcamera+" z="-1" src="reskins/jura_santa/bcamera.png" x="339" y="0" rotation="2" />
+        </pose>
     </poses>
 
 </costume>

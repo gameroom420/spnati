@@ -478,7 +478,6 @@ funny answer: crab because her mech gets likened to one</note>
         <label id="765" label="" color="4" folder="" sort="0" />
         <label id="766" label="" color="4" folder="" sort="0" />
         <label id="767" label="" color="4" folder="" sort="0" />
-        <label id="1621" label="" color="4" folder="" sort="0" />
         <label id="769" label="" color="4" folder="" sort="0" />
         <label id="771" label="" color="4" folder="" sort="0" />
         <label id="773" label="" color="4" folder="" sort="0" />
@@ -700,7 +699,6 @@ funny answer: crab because her mech gets likened to one</note>
         <label id="1112" label="" color="4" folder="" sort="0" />
         <label id="1113" label="" color="4" folder="" sort="0" />
         <label id="1145" label="" color="4" folder="" sort="0" />
-        <label id="1625" label="" color="4" folder="" sort="0" />
         <label id="1144" label="" color="4" folder="" sort="0" />
         <label id="1594" label="" color="4" folder="" sort="0" />
         <label id="1151" label="" color="4" folder="" sort="0" />
@@ -732,7 +730,7 @@ funny answer: crab because her mech gets likened to one</note>
         <label id="1181" label="" color="6" folder="" sort="0" />
         <label id="1182" label="" color="4" folder="" sort="0" />
         <label id="1644" label="" color="4" folder="" sort="0" />
-        <label id="1624" label="" color="4" folder="" sort="0" />
+        <label id="1672" label="" color="4" folder="" sort="0" />
         <label id="1198" label="" color="4" folder="" sort="0" />
         <label id="1603" label="" color="4" folder="" sort="0" />
         <label id="1283" label="" color="4" folder="" sort="0" />
@@ -847,8 +845,8 @@ funny answer: crab because her mech gets likened to one</note>
         <label id="1422" label="" color="1" folder="" sort="0" />
         <label id="1424" label="" color="1" folder="" sort="0" />
         <label id="1491" label="" color="4" folder="" sort="0" />
-        <label id="1428" label="" color="4" folder="" sort="0" />
-        <label id="1663" label="" color="4" folder="" sort="0" />
+        <label id="1676" label="" color="4" folder="" sort="0" />
+        <label id="1677" label="" color="4" folder="" sort="0" />
         <label id="1430" label="" color="6" folder="" sort="0" />
         <label id="1431" label="" color="1" folder="" sort="0" />
         <label id="1432" label="" color="1" folder="" sort="0" />
@@ -919,16 +917,14 @@ funny answer: crab because her mech gets likened to one</note>
         <label id="1559" label="" color="2" folder="" sort="0" />
         <label id="1560" label="" color="2" folder="" sort="0" />
         <label id="1561" label="" color="2" folder="" sort="0" />
-        <label id="1661" label="" color="4" folder="" sort="0" />
-        <label id="1623" label="" color="4" folder="" sort="0" />
+        <label id="1674" label="" color="4" folder="" sort="0" />
         <label id="1566" label="" color="4" folder="" sort="0" />
         <label id="1567" label="" color="4" folder="" sort="0" />
         <label id="1596" label="" color="4" folder="" sort="0" />
         <label id="1595" label="" color="4" folder="" sort="0" />
         <label id="1577" label="" color="4" folder="" sort="0" />
-        <label id="1618" label="" color="4" folder="" sort="0" />
-        <label id="1619" label="" color="4" folder="" sort="0" />
-        <label id="1620" label="" color="4" folder="" sort="0" />
+        <label id="1679" label="" color="4" folder="" sort="0" />
+        <label id="1680" label="" color="4" folder="" sort="0" />
         <label id="1628" label="" color="4" folder="" sort="0" />
         <label id="1584" label="" color="6" folder="" sort="0" />
         <label id="1585" label="" color="2" folder="" sort="0" />
@@ -946,7 +942,6 @@ funny answer: crab because her mech gets likened to one</note>
         <label id="1613" label="" color="4" folder="" sort="0" />
         <label id="1654" label="" color="4" folder="" sort="0" />
         <label id="1616" label="" color="4" folder="" sort="0" />
-        <label id="1617" label="" color="4" folder="" sort="0" />
         <label id="1629" label="" color="4" folder="" sort="0" />
         <label id="1653" label="" color="4" folder="" sort="0" />
         <label id="1637" label="" color="4" folder="" sort="0" />
@@ -955,21 +950,22 @@ funny answer: crab because her mech gets likened to one</note>
         <label id="1640" label="" color="4" folder="" sort="0" />
         <label id="1641" label="" color="4" folder="" sort="0" />
         <label id="1645" label="" color="4" folder="" sort="0" />
-        <label id="1646" label="" color="4" folder="" sort="0" />
-        <label id="1647" label="" color="4" folder="" sort="0" />
-        <label id="1648" label="" color="4" folder="" sort="0" />
-        <label id="1649" label="" color="4" folder="" sort="0" />
+        <label id="1670" label="" color="4" folder="" sort="0" />
+        <label id="1667" label="" color="4" folder="" sort="0" />
+        <label id="1666" label="" color="4" folder="" sort="0" />
+        <label id="1669" label="" color="4" folder="" sort="0" />
         <label id="1656" label="" color="4" folder="" sort="0" />
         <label id="1657" label="" color="4" folder="" sort="0" />
         <label id="1658" label="" color="4" folder="" sort="0" />
-        <label id="1662" label="" color="4" folder="" sort="0" />
+        <label id="1675" label="" color="4" folder="" sort="0" />
+        <label id="1665" label="" color="4" folder="" sort="0" />
+        <label id="1668" label="" color="4" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>jura</prefix>
     </prefixes>
-    <nextId>1664</nextId>
+    <nextId>1680</nextId>
     <markers>
-        <marker scope="Public" name="" />
         <marker scope="Public" name="1v1">Jura acknowledges that the game has come down to her and one other player.</marker>
         <marker scope="Public" name="9s0" />
         <marker scope="Public" name="9s1" />
@@ -1844,7 +1840,10 @@ funny answer: crab because her mech gets likened to one</note>
         <marker scope="Public" name="leonie1" />
         <marker scope="Public" name="leonie2" />
         <marker scope="Public" name="leviathan_resp0" />
+        <marker scope="Public" name="leviathan_resp01" />
         <marker scope="Public" name="leviathan0" />
+        <marker scope="Public" name="leviathan01" />
+        <marker scope="Public" name="leviathan2" />
         <marker scope="Public" name="lucina_seductionf" />
         <marker scope="Public" name="lucina_seductionm" />
         <marker scope="Public" name="lucina_travel" />
@@ -2407,7 +2406,10 @@ funny answer: crab because her mech gets likened to one</note>
         <marker scope="Public" name="natsuki_pyrrha" />
         <marker scope="Public" name="nayru_jm">Jura tells Nayru that Meia tends to relax the more naked she is.</marker>
         <marker scope="Public" name="nephenee_resp0" />
+        <marker scope="Public" name="nephenee_resp01" />
         <marker scope="Public" name="nephenee0" />
+        <marker scope="Public" name="nephenee01" />
+        <marker scope="Public" name="nephenee5" />
         <marker scope="Public" name="neptune_bath" />
         <marker scope="Public" name="neptune_find" />
         <marker scope="Public" name="neptune_girls" />
@@ -2733,9 +2735,11 @@ funny answer: crab because her mech gets likened to one</note>
         <marker scope="Public" name="sanako_resp2right" />
         <marker scope="Public" name="sanako_resp2s_right" />
         <marker scope="Public" name="sanako_resp3right" />
+        <marker scope="Public" name="sanako_resp3s_right" />
         <marker scope="Public" name="sanako_resp4right" />
         <marker scope="Public" name="sanako_resp56right" />
         <marker scope="Public" name="sanako_resp5right" />
+        <marker scope="Public" name="sanako_resp6s_right" />
         <marker scope="Public" name="sanako0" />
         <marker scope="Public" name="sanako01" />
         <marker scope="Public" name="sanako1" />
@@ -2745,6 +2749,7 @@ funny answer: crab because her mech gets likened to one</note>
         <marker scope="Public" name="sanako23" />
         <marker scope="Public" name="sanako2s" />
         <marker scope="Public" name="sanako3" />
+        <marker scope="Public" name="sanako34" />
         <marker scope="Public" name="sanako3s" />
         <marker scope="Public" name="sanako4" />
         <marker scope="Public" name="sandy_cheeks0" />
@@ -2939,6 +2944,8 @@ funny answer: crab because her mech gets likened to one</note>
         <marker scope="Public" name="yae_miko4" />
         <marker scope="Public" name="yae_miko45" />
         <marker scope="Public" name="yae_miko4s" />
+        <marker scope="Public" name="yae_miko5" />
+        <marker scope="Public" name="yae_miko5s" />
         <marker scope="Public" name="yae_resp0" />
         <marker scope="Public" name="yae_resp01" />
         <marker scope="Public" name="yae_resp1" />
