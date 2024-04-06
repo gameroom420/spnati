@@ -156,6 +156,14 @@ var CANDY_LIST = [
     "nonon/0-pout.png",
     "nonon/0-awkward.png",
     "nonon/3-strip32.png",
+    "jenna/0-calm.png",         // Highlighted New Character
+    "jenna/0-talking.png",
+    "jenna/3-aroused.png",
+    "jenna/5-horny.png",	
+    "lysithea/1-topE.png",         // Highlighted New Character
+    "lysithea/0-flattered.png",
+    "lysithea/0-greatnesspng",
+    "lysithea/1-aroused-kindawet.png",	
     "ribbon_girl/0-happy.png",         // Highlighted Updated Character
     "ribbon_girl/1-dukes.png",
     "ribbon_girl/6-cheer.png",
