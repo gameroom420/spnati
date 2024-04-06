@@ -609,6 +609,27 @@
         <marker scope="Public" name="song_start" />
         <marker scope="Public" name="spanking" />
         <marker scope="Public" name="suspicious" />
+        <marker scope="Public" name="Tae01" />
+        <marker scope="Public" name="Tae02" />
+        <marker scope="Public" name="Tae03" />
+        <marker scope="Public" name="Tae0a" />
+        <marker scope="Public" name="Tae0b" />
+        <marker scope="Public" name="Tae0c" />
+        <marker scope="Public" name="Tae1a" />
+        <marker scope="Public" name="Tae1b" />
+        <marker scope="Public" name="Tae1c" />
+        <marker scope="Public" name="Tae2a" />
+        <marker scope="Public" name="Tae2b" />
+        <marker scope="Public" name="Tae2c" />
+        <marker scope="Public" name="Tae3a" />
+        <marker scope="Public" name="Tae3b" />
+        <marker scope="Public" name="Tae3c" />
+        <marker scope="Public" name="Tae4a" />
+        <marker scope="Public" name="Tae4b" />
+        <marker scope="Public" name="Tae4c" />
+        <marker scope="Public" name="Tae5a" />
+        <marker scope="Public" name="Tae5b" />
+        <marker scope="Public" name="Tae5c" />
         <marker scope="Public" name="terror_start" />
         <marker scope="Public" name="the_carradine_handhold" />
         <marker scope="Public" name="the_gospel_according_to_napsu" />
