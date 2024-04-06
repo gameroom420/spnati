@@ -1205,6 +1205,10 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <marker scope="Public" name="lifespan" />
         <marker scope="Public" name="lifespanE" />
         <marker scope="Public" name="lifespanI" />
+        <marker scope="Public" name="lys_confidence1" />
+        <marker scope="Public" name="lys_magic1" />
+        <marker scope="Public" name="lys_sugar1" />
+        <marker scope="Public" name="lys_teyvat1" />
         <marker scope="Public" name="lysi_burdens1" />
         <marker scope="Public" name="lysi_guardian1" />
         <marker scope="Public" name="lysi_pastry1" />
