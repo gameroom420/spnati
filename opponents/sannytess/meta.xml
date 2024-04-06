@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1708885183532</lastupdate>
+    <lastupdate>1712350429442</lastupdate>
     <enabled>false</enabled>
     <first>Sanny</first>
     <last />
@@ -13,8 +13,8 @@
     <description>A duo of girls nicknamed "Sanny" and "Tess". Not much is known about them, but you can find them on a certain article and on the WikiCommons.</description>
     <layers>6</layers>
     <alternates>
-        <costume folder="opponents/reskins/sannytess_nostalgia/" img="0-neutral.png" status="online">Nostalgia-banned.svg</costume>
+        <costume folder="opponents/reskins/sannytess_nostalgia/" img="0-neutral.png" set="april_fools" status="online">Nostalgia-banned.svg</costume>
     </alternates>
-    <lines>714</lines>
-    <poses>246</poses>
+    <lines>728</lines>
+    <poses>247</poses>
 </opponent>
