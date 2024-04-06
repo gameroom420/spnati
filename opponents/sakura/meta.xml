@@ -1,13 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1701963580581</lastupdate>
+    <lastupdate>1712414829738</lastupdate>
     <enabled>true</enabled>
     <first>Sakura</first>
     <last>Minamoto</last>
     <label>Sakura</label>
     <pic>0-calm.png</pic>
     <gender>female</gender>
-    <height />
     <from>Zombieland Saga</from>
     <writer>Napsu?-han, Coolcat001100</writer>
     <artist>Napsu?-han, YuriSpacePirate-han, beta_69</artist>
@@ -16,6 +15,6 @@
     <epilogue gender="male" img="12-preview.png" hint="feat. Special Guest Truck-Kun">Night of the Living Dead</epilogue>
     <layers>7</layers>
     <has_collectibles>true</has_collectibles>
-    <lines>3352</lines>
-    <poses>181</poses>
+    <lines>3386</lines>
+    <poses>288</poses>
 </opponent>
