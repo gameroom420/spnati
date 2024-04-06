@@ -155,6 +155,7 @@
         <response id="656" opponent="meia" opponentId="1757" />
         <response id="657" opponent="meia" opponentId="1758" />
         <response id="678" opponent="aoi_asahina" opponentId="211" />
+        <response id="705" opponent="aoi_asahina" opponentId="217" />
     </responses>
     <notes>
         <note id="10">If you want to ask Pandoria / Pandy questions, you could draw attention to the fact that some of her body parts are lightbulbs, such as a lightbulb in her head.. and her tail. Her specific race is known as a "Blade".</note>
@@ -831,8 +832,8 @@
         <label id="650" label="" folder="Targets&gt;Sofia" sort="8" />
         <label id="651" label="" folder="Targets&gt;Sofia" sort="9" />
         <label id="652" label="" folder="Responses" sort="87" />
-        <label id="653" label="" color="3" folder="Targets" sort="110" />
-        <label id="654" label="" color="3" folder="Targets" sort="111" />
+        <label id="653" label="" folder="Targets" sort="110" />
+        <label id="654" label="" folder="Targets" sort="111" />
         <label id="655" label="" color="3" folder="Targets" sort="112" />
         <label id="656" label="" color="3" folder="Responses" sort="88" />
         <label id="657" label="" color="3" folder="Responses" sort="89" />
@@ -858,13 +859,40 @@
         <label id="677" label="" color="2" folder="" sort="0" />
         <label id="678" label="" folder="Responses" sort="0" />
         <label id="679" label="" color="1" folder="Targets" sort="0" />
+        <label id="680" label="" folder="Responses" sort="0" />
+        <label id="681" label="" folder="Responses&gt;Gloria" sort="0" />
+        <label id="682" label="" folder="Responses&gt;Gloria" sort="0" />
+        <label id="683" label="" folder="Responses&gt;Gloria" sort="0" />
+        <label id="684" label="" folder="Responses&gt;Gloria" sort="0" />
+        <label id="685" label="" folder="Responses&gt;Gloria" sort="0" />
+        <label id="686" label="" folder="Responses&gt;Gloria" sort="0" />
+        <label id="687" label="" folder="Responses&gt;Gloria" sort="0" />
+        <label id="688" label="" folder="Responses&gt;Gloria" sort="0" />
+        <label id="689" label="" folder="Responses&gt;Gloria" sort="0" />
+        <label id="690" label="" folder="Responses&gt;Gloria" sort="0" />
+        <label id="691" label="" folder="Responses&gt;Gloria" sort="0" />
+        <label id="692" label="" folder="Responses&gt;Gloria" sort="0" />
+        <label id="693" label="" folder="Responses&gt;Gloria" sort="0" />
+        <label id="694" label="" folder="Responses&gt;Gloria" sort="0" />
+        <label id="695" label="" folder="Responses&gt;Gloria" sort="0" />
+        <label id="696" label="" folder="Responses&gt;Gloria" sort="0" />
+        <label id="697" label="" folder="Responses&gt;Gloria" sort="0" />
+        <label id="698" label="" folder="Responses&gt;Gloria" sort="0" />
+        <label id="699" label="" folder="Targets&gt;Nephenee" sort="0" />
+        <label id="700" label="" folder="Targets&gt;Nephenee" sort="0" />
+        <label id="701" label="" folder="Targets&gt;Sofia" sort="0" />
+        <label id="702" label="" folder="Targets&gt;Sofia" sort="0" />
+        <label id="703" label="" color="3" folder="Targets" sort="0" />
+        <label id="704" label="" color="3" folder="Targets" sort="0" />
+        <label id="705" label="" folder="Responses" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>penis=h</posePreviewMarker>
     </posePreviewMarkers>
     <onlyCustomPoses>true</onlyCustomPoses>
-    <nextId>679</nextId>
+    <nextId>705</nextId>
     <markers>
+        <marker scope="Public" name="" />
         <marker scope="Public" name="allowsex">If set to 1, Zeke and Pandoria *can* (but are not guaranteed to) have sex for their forfeit.</marker>
         <marker scope="Public" name="allowsex_lockin" />
         <marker scope="Public" name="arle_adaptquestion" />
@@ -1246,9 +1274,16 @@
         <marker scope="Public" name="Zoe_ZekePandoriaAbsResp" />
         <marker scope="Public" name="zp_aoi_self0a" />
         <marker scope="Public" name="zp_aoi_self0b" />
+        <marker scope="Public" name="zp_aoi_self0c" />
         <marker scope="Public" name="zp_aura_camera1" />
         <marker scope="Public" name="zp_bowsette_robotGFresp" />
         <marker scope="Public" name="zp_caitlin_single1" />
+        <marker scope="Public" name="zp_gloria_self0a" />
+        <marker scope="Public" name="zp_gloria_self0b" />
+        <marker scope="Public" name="zp_gloria_self0c" />
+        <marker scope="Public" name="zp_gloria_self1a" />
+        <marker scope="Public" name="zp_gloria_self1b" />
+        <marker scope="Public" name="zp_gloria_self1c" />
         <marker scope="Public" name="zp_jim_intro1" />
         <marker scope="Public" name="zp_jim_preferences1" />
         <marker scope="Public" name="zp_jura_self3a" />
@@ -1258,11 +1293,13 @@
         <marker scope="Public" name="zp_lysithea_boundariesS" />
         <marker scope="Public" name="zp_lysithea_intentionsS" />
         <marker scope="Public" name="zp_lysithea_whatS" />
+        <marker scope="Public" name="zp_miko_self1a" />
         <marker scope="Public" name="zp_nephenee_strip0a" />
         <marker scope="Public" name="zp_nephenee_strip0b" />
         <marker scope="Public" name="zp_nephenee_strip0c" />
         <marker scope="Public" name="zp_nephenee_strip5a" />
         <marker scope="Public" name="zp_nephenee_strip5a_wrath" />
+        <marker scope="Public" name="zp_nephenee_strip5b" />
         <marker scope="Public" name="zp_nephenee_strip6a" />
         <marker scope="Public" name="zp_nonon_self0a" />
         <marker scope="Public" name="zp_nonon_self0b" />
@@ -1285,18 +1322,22 @@
         <marker scope="Public" name="zp_nonon_strip1b" />
         <marker scope="Public" name="zp_nonon_strip2a" />
         <marker scope="Public" name="zp_nonon_strip2b" />
+        <marker scope="Public" name="zp_nonon_strip2c" />
         <marker scope="Public" name="zp_nonon_strip3a" />
         <marker scope="Public" name="zp_nonon_strip3b" />
+        <marker scope="Public" name="zp_nonon_strip3c" />
         <marker scope="Public" name="zp_reimu_self0a" />
         <marker scope="Public" name="zp_sofia_intro1" />
         <marker scope="Public" name="zp_sofia_intro2" />
         <marker scope="Public" name="zp_sofia_intro3" />
+        <marker scope="Public" name="zp_sofia_liar1" />
         <marker scope="Public" name="zp_sofia_suitors1" />
         <marker scope="Public" name="zp_sofia_suitors2" />
         <marker scope="Public" name="zp_sofia_suitors3" />
         <marker scope="Public" name="zp_sofia_swords1" />
         <marker scope="Public" name="zp_sofia_swords2" />
         <marker scope="Public" name="zp_sofia_swords3" />
+        <marker scope="Public" name="zp_sofia_swords4" />
         <marker scope="Public" name="zp_solarflare_electric" />
         <marker scope="Public" name="zp_solarflare_robot" />
         <marker scope="Public" name="zp_solarflare_zombies" />
