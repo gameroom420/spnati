@@ -1,2 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<collectibles />
+<collectibles>
+    <collectible id="lysithea_panties" status="online" img="opponents/lysithea/6-topI.png" thumbnail="opponents/lysithea/lysPanties.png">
+        <title>Purple panties</title>
+        <text>Just so you remember where you got these. </text>
+        <unlock>Lysithea must lose. </unlock>
+    </collectible>
+</collectibles>
