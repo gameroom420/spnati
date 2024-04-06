@@ -190,6 +190,8 @@
         <response id="708" opponent="petra" opponentId="839" />
         <response id="709" opponent="petra" opponentId="842" />
         <response id="710" opponent="petra" opponentId="845" />
+        <response id="781" opponent="zeke_pandoria" opponentId="50" />
+        <response id="782" opponent="zeke_pandoria" opponentId="172" />
     </responses>
     <notes>
         <note id="10">expay shaer = exp share</note>
@@ -992,15 +994,44 @@ Rosa's costume index
         <label id="767" label="" folder="Easter" sort="0" />
         <label id="768" label="" folder="Easter" sort="0" />
         <label id="769" label="" folder="Easter" sort="0" />
+        <label id="770" label="" folder="Easter" sort="0" />
+        <label id="771" label="" folder="Game Logic" sort="0" />
+        <label id="772" label="" folder="Game Logic" sort="0" />
+        <label id="773" label="" folder="Game Logic" sort="0" />
+        <label id="774" label="" folder="Game Logic" sort="0" />
+        <label id="775" label="" folder="Targets&gt;Zeke Pandoria" sort="0" />
+        <label id="776" label="" folder="Targets&gt;Zeke Pandoria" sort="0" />
+        <label id="777" label="" folder="Targets&gt;Zeke Pandoria" sort="0" />
+        <label id="778" label="" folder="Targets&gt;Zeke Pandoria" sort="0" />
+        <label id="779" label="" folder="Targets&gt;Zeke Pandoria" sort="0" />
+        <label id="780" label="" folder="Targets&gt;Zeke Pandoria" sort="0" />
+        <label id="782" label="" folder="Targets&gt;Zeke Pandoria" sort="0" />
+        <label id="781" label="" folder="Targets&gt;Zeke Pandoria" sort="0" />
+        <label id="783" label="" folder="Targets&gt;Zeke Pandoria" sort="0" />
+        <label id="784" label="" folder="Targets&gt;Zeke Pandoria" sort="0" />
+        <label id="785" label="" folder="Targets&gt;Zeke Pandoria" sort="0" />
+        <label id="786" label="" folder="Targets&gt;Zeke Pandoria" sort="0" />
+        <label id="787" label="" folder="Targets&gt;Zeke Pandoria" sort="0" />
+        <label id="788" label="" folder="Targets&gt;Zeke Pandoria" sort="0" />
+        <label id="789" label="" folder="Targets&gt;Zeke Pandoria" sort="0" />
+        <label id="790" label="" folder="Targets&gt;Zeke Pandoria" sort="0" />
+        <label id="791" label="" folder="Targets&gt;Zeke Pandoria" sort="0" />
+        <label id="792" label="" folder="Targets&gt;Zeke Pandoria" sort="0" />
+        <label id="793" label="" folder="Targets&gt;Zeke Pandoria" sort="0" />
+        <label id="794" label="" folder="Targets&gt;Zeke Pandoria" sort="0" />
+        <label id="795" label="" folder="Game Logic" sort="0" />
+        <label id="796" label="" folder="Game Logic" sort="0" />
+        <label id="797" label="" folder="Game Logic" sort="0" />
+        <label id="798" label="" folder="Easter" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>gloriacostume==default</posePreviewMarker>
         <posePreviewMarker>nadeshikocostume==default</posePreviewMarker>
-        <posePreviewMarker>rosacostume==default</posePreviewMarker>
+        <posePreviewMarker>rosacostume==rosa_hero</posePreviewMarker>
+        <posePreviewMarker>epilogue_playerskintone==3</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>769</nextId>
+    <nextId>798</nextId>
     <markers>
-        <marker scope="Public" name="" />
         <marker scope="Public" name="__human_nickname" />
         <marker scope="Public" name="accent_murder" />
         <marker scope="Public" name="ag_near_climax" />
@@ -1012,6 +1043,8 @@ Rosa's costume index
         <marker scope="Public" name="cuppa_tea_order" />
         <marker scope="Public" name="debug_mode_comment" />
         <marker scope="Public" name="dexit_means_dexit" />
+        <marker scope="Public" name="epilogue_playerRNG" />
+        <marker scope="Public" name="epilogue_playerskintone" />
         <marker scope="Public" name="expay_share" />
         <marker scope="Public" name="felixCleanUpResp" />
         <marker scope="Public" name="foorball_jeer_singer" />
@@ -1060,6 +1093,8 @@ Rosa's costume index
         <marker scope="Public" name="gloria_dawnsBack" />
         <marker scope="Public" name="gloria_dunban_scarexplain3" />
         <marker scope="Public" name="gloria_dust_strip0a" />
+        <marker scope="Public" name="gloria_epilogue_1F_seen" />
+        <marker scope="Public" name="gloria_epilogue_1M_seen" />
         <marker scope="Public" name="gloria_erufuda_deepFriedMarsBars" />
         <marker scope="Public" name="gloria_erufuda_dressResp" />
         <marker scope="Public" name="gloria_erufuda_peek1" />
@@ -1344,6 +1379,18 @@ Rosa's costume index
         <marker scope="Public" name="gloria_yuna_strip1a" />
         <marker scope="Public" name="gloria_yuna_strip1b" />
         <marker scope="Public" name="gloria_yuno_may_be_stupid" />
+        <marker scope="Public" name="gloria_zp_strip0a" />
+        <marker scope="Public" name="gloria_zp_strip0b" />
+        <marker scope="Public" name="gloria_zp_strip0c" />
+        <marker scope="Public" name="gloria_zp_strip1a" />
+        <marker scope="Public" name="gloria_zp_strip1c" />
+        <marker scope="Public" name="gloria_zp_strip2a" />
+        <marker scope="Public" name="gloria_zp_strip2b" />
+        <marker scope="Public" name="gloria_zp_strip2b_b" />
+        <marker scope="Public" name="gloria_zp_strip2c" />
+        <marker scope="Public" name="gloria_zp_strip3a" />
+        <marker scope="Public" name="gloria_zp_strip4a" />
+        <marker scope="Public" name="gloria_zp_strip5a" />
         <marker scope="Public" name="gloriacostume" />
         <marker scope="Public" name="human_gay1" />
         <marker scope="Public" name="human_gay2" />
@@ -1435,6 +1482,7 @@ Rosa's costume index
         <marker scope="Public" name="wooloo_on_the_roof" />
         <marker scope="Public" name="z_finish" />
         <marker scope="Public" name="z_finish2" />
+        <marker scope="Public" name="zp_startheavy" />
     </markers>
     <recipes>
         <recipe key="8338b475-6f72-461a-9cb7-4510428e1297">
