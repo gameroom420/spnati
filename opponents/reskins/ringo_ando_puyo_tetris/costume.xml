@@ -7,17 +7,18 @@
         <tag remove="true">jewelry</tag>
         <tag remove="true">thigh_highs</tag>
     </tags>
+    <layers>8</layers>
     <folder>opponents/reskins/ringo_ando_puyo_tetris/</folder>
     <folder stage="8">opponents/ringo_ando/</folder>
     <wardrobe>
         <clothing name="panties" generic="underwear" position="lower" type="important" plural="true" />
         <clothing name="socks" generic="socks" position="legs" type="extra" plural="true" />
         <clothing name="bra" generic="bra" position="upper" type="important" />
-        <clothing name="skirt" position="lower" type="major" />
+        <clothing name="skirt" generic="" position="lower" type="major" />
         <clothing name="shirt" generic="shirt" position="upper" type="major" />
-        <clothing name="sweater" position="upper" type="minor" />
+        <clothing name="sweater" generic="" position="upper" type="minor" />
         <clothing name="shoes" generic="shoes" position="feet" type="minor" plural="true" />
-        <clothing name="ribbon" position="neck" type="extra" />
+        <clothing name="ribbon" generic="" position="neck" type="extra" />
     </wardrobe>
 
     <poses>
@@ -133,5 +134,67 @@
                 <keyframe time="1" x="4" y="430" />
             </directive>
         </pose>
+        <pose id="0-aura">
+            <sprite id="embarrassed" src="reskins/ringo_ando_puyo_tetris/0-bookpoint.png" x="0" y="0" alpha="100" />
+            <sprite id="auracamera" z="1" src="ringo_ando/../meia/auracamera.png" x="-64" y="600" scalex="2.5" scaley="2.5" alpha="0" />
+            <sprite id="cameraflash" delay="1.25" src="ringo_ando/../meia/cameraflash.png" x="-10" y="418" scalex="0.1" scaley="0.1" alpha="0" />
+            <sprite id="aura" delay="1.38" src="ringo_ando/aura.png" x="0" y="0" alpha="0" />
+            <directive type="animation" id="embarrassed" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" alpha="100" />
+                <keyframe time="1" alpha="100" />
+                <keyframe time="1.38" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="auracamera" ease="linear" interpolation="linear">
+                <keyframe time="0" x="-64" y="600" scalex="2.5" scaley="2.5" alpha="0" />
+                <keyframe time="1" x="-64" y="317" scalex="2.5" scaley="2.5" alpha="100" />
+                <keyframe time="1.38" x="-64" y="317" scalex="2.5" scaley="2.5" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="auracamera" ease="linear" interpolation="none">
+                <keyframe time="0" src="ringo_ando/../meia/auracamera.png" />
+                <keyframe time="1" src="ringo_ando/../meia/auracamera.png" />
+            </directive>
+            <directive type="animation" id="cameraflash" delay="1.25" ease="ease-out-cubic" interpolation="linear">
+                <keyframe time="0" scalex="0.1" scaley="0.1" alpha="0" />
+                <keyframe time="0.13" scalex="8" scaley="8" alpha="100" />
+                <keyframe time="0.75" scalex="8" scaley="8" alpha="100" />
+                <keyframe time="2.75" alpha="0" />
+            </directive>
+            <directive type="animation" id="aura" delay="1.38" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" />
+                <keyframe time="2.62" x="0" y="0" />
+            </directive>
+            <directive type="animation" id="aura" delay="1.38" ease="ease-in-out-cubic" interpolation="linear">
+                <keyframe time="0" alpha="0" />
+                <keyframe time="2.62" alpha="100" />
+            </directive>
+        </pose>
+        <pose id="0-treasure_scope">
+            <sprite id="flirty" z="1" src="reskins/ringo_ando_puyo_tetris/0-balanceapple.png" x="0" y="0" alpha="100" />
+            <sprite id="Rouge_TreasureScope_XRay" src="reskins/ringo_ando_puyo_tetris/treasurescope.png" x="0" y="0" alpha="100" />
+            <sprite id="Rouge_TreasureScope_Lens" z="100" src="ringo_ando/../rouge/Rouge_TreasureScope_Lens.png" x="250" y="357" alpha="0" />
+            <directive type="animation" id="flirty" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" alpha="100" />
+                <keyframe time="2" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="Rouge_TreasureScope_XRay" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" alpha="100" />
+                <keyframe time="3" alpha="100" />
+            </directive>
+            <directive type="animation" id="Rouge_TreasureScope_Lens" ease="ease-out" interpolation="linear">
+                <keyframe time="0" x="250" alpha="0" />
+                <keyframe time="1" x="250" alpha="0" />
+                <keyframe time="2" x="0" alpha="100" />
+                <keyframe time="3" x="0" />
+            </directive>
+            <directive type="animation" id="Rouge_TreasureScope_Lens" ease="smooth" interpolation="linear">
+                <keyframe time="0" y="357" />
+                <keyframe time="1" y="357" />
+                <keyframe time="3" y="357" />
+            </directive>
+        </pose>
     </poses>
+
 </costume>

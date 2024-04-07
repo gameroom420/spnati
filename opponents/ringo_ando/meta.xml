@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1712454334170</lastupdate>
+    <lastupdate>1712463032546</lastupdate>
     <enabled>false</enabled>
     <first>Ringo</first>
     <last>Ando</last>
@@ -18,6 +18,6 @@
         <costume folder="opponents/reskins/ringo_ando_poison_ringo/" img="0-neutral.png" set="halloween" status="online" label="Ringo">Poison Ringo</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>2074</lines>
-    <poses>275</poses>
+    <lines>2076</lines>
+    <poses>277</poses>
 </opponent>
