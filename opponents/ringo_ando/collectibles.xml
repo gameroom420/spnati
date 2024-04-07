@@ -7,4 +7,13 @@
         <unlock>Make Ringo lose and finish the game.</unlock>
         <hide-details>true</hide-details>
     </collectible>
+    <collectible id="Puyo7" status="online" img="opponents/ringo_ando/puyo7-remastured.png" thumbnail="opponents/ringo_ando/puyo7-remasturedsquare.png">
+        <title>Puyo Puyo 7?</title>
+        <subtitle>I think this is not the right version of the game.</subtitle>
+        <text>There are many worlds and many versions of stuff out there, this videogame box seems to come from a universe where the Puyo games were a bit... bolder...
+
+(Credit to Colossal Eediot for the picture.)</text>
+        <unlock>Have Adrien (Cat Noir) help Ringo undress.</unlock>
+        <hide-details>true</hide-details>
+    </collectible>
 </collectibles>
