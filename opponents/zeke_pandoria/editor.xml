@@ -155,7 +155,8 @@
         <response id="656" opponent="meia" opponentId="1757" />
         <response id="657" opponent="meia" opponentId="1758" />
         <response id="678" opponent="aoi_asahina" opponentId="211" />
-        <response id="705" opponent="aoi_asahina" opponentId="217" />
+        <response id="710" opponent="nonon" opponentId="119" />
+        <response id="711" opponent="jura" opponentId="1599" />
     </responses>
     <notes>
         <note id="10">If you want to ask Pandoria / Pandy questions, you could draw attention to the fact that some of her body parts are lightbulbs, such as a lightbulb in her head.. and her tail. Her specific race is known as a "Blade".</note>
@@ -878,19 +879,20 @@
         <label id="696" label="" folder="Responses&gt;Gloria" sort="0" />
         <label id="697" label="" folder="Responses&gt;Gloria" sort="0" />
         <label id="698" label="" folder="Responses&gt;Gloria" sort="0" />
-        <label id="699" label="" folder="Targets&gt;Nephenee" sort="0" />
-        <label id="700" label="" folder="Targets&gt;Nephenee" sort="0" />
-        <label id="701" label="" folder="Targets&gt;Sofia" sort="0" />
-        <label id="702" label="" folder="Targets&gt;Sofia" sort="0" />
-        <label id="703" label="" color="3" folder="Targets" sort="0" />
-        <label id="704" label="" color="3" folder="Targets" sort="0" />
-        <label id="705" label="" folder="Responses" sort="0" />
+        <label id="706" label="" folder="Responses&gt;Gloria" sort="0" />
+        <label id="707" label="" folder="Responses&gt;Gloria" sort="0" />
+        <label id="708" label="" folder="Responses&gt;Gloria" sort="0" />
+        <label id="709" label="" folder="Responses&gt;Gloria" sort="0" />
+        <label id="703" label="" folder="Targets" sort="0" />
+        <label id="704" label="" folder="Targets" sort="0" />
+        <label id="710" label="" folder="Targets" sort="0" />
+        <label id="711" label="" folder="Responses" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>penis=h</posePreviewMarker>
     </posePreviewMarkers>
     <onlyCustomPoses>true</onlyCustomPoses>
-    <nextId>705</nextId>
+    <nextId>711</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="allowsex">If set to 1, Zeke and Pandoria *can* (but are not guaranteed to) have sex for their forfeit.</marker>
@@ -945,6 +947,7 @@
         <marker scope="Public" name="nephenee_titsR" />
         <marker scope="Public" name="nonon_leon_startDualReact" />
         <marker scope="Public" name="nonon_panties_reveal_situation" />
+        <marker scope="Public" name="nonon_postcum_threat_Resp" />
         <marker scope="Public" name="opp_lost_jjba" />
         <marker scope="Public" name="pandoria_dialogue">Pandoria is the one speaking when this marker is being said. This marker doesn't always appear, but is used in cases where you might need to differentiate, e.g. if there are two versions of a single line, one where she speaks and one where she doesnt.</marker>
         <marker scope="Public" name="pandoria_meia_self4a" />
@@ -1078,6 +1081,7 @@
         <marker scope="Public" name="sucrose22_resp" />
         <marker scope="Public" name="sucrose23_resp" />
         <marker scope="Public" name="sucrose31_resp" />
+        <marker scope="Public" name="sucrose32_resp" />
         <marker scope="Public" name="sucrose41_resp" />
         <marker scope="Public" name="sucrose42_resp" />
         <marker scope="Public" name="sucrose43_resp" />
@@ -1284,9 +1288,14 @@
         <marker scope="Public" name="zp_gloria_self1a" />
         <marker scope="Public" name="zp_gloria_self1b" />
         <marker scope="Public" name="zp_gloria_self1c" />
+        <marker scope="Public" name="zp_gloria_self2a" />
+        <marker scope="Public" name="zp_gloria_self2b" />
+        <marker scope="Public" name="zp_gloria_self2b_b" />
+        <marker scope="Public" name="zp_gloria_self3a" />
         <marker scope="Public" name="zp_jim_intro1" />
         <marker scope="Public" name="zp_jim_preferences1" />
         <marker scope="Public" name="zp_jura_self3a" />
+        <marker scope="Public" name="zp_jura_self3b" />
         <marker scope="Public" name="zp_kora_firstStripA" />
         <marker scope="Public" name="zp_kora_gossipA" />
         <marker scope="Public" name="zp_lyn_sword1" />
