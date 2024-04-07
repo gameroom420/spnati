@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <metadata>
     <owner>orendi</owner>
+    <height>4'9"</height>
+    <age />
+    <pronunciation />
+    <othernotes />
     <noteworthy>
         <case name="Story" id="22" priority="FYI" min="0" max="6">
             <description>After four rounds, Orendi will share some of her backstory, mostly focusing on how she was "abducted" by a "psycho robot."</description>
@@ -11,11 +15,23 @@
         <case name="Vest Counts?" id="24" priority="FYI" min="1" max="1">
             <description>When removing her vest, Orendi will ask if it counts, but will then remove it without waiting for an answer.</description>
         </case>
-        <case name="Not The Hat!" id="25" priority="FYI" min="2" max="2">
+        <case name="Not The Hat!" id="25" priority="Noteworthy" min="2" max="2">
             <description>Orendi will make a fuss about removing her hat, only to be completely fine after taking it off.</description>
         </case>
-        <case name="Titty Fake-Out" id="84" priority="FYI" min="3" max="3">
+        <case name="Titty Fake-Out" id="84" priority="Noteworthy" min="3" max="3">
             <description>When removing her scarf, Orendi with play it up as if she's going to reveal her breasts. Also, once her scarf is off, her sharp teeth become visible.</description>
+        </case>
+        <case name="Meat?" id="167" priority="Prompt" min="0" max="6">
+            <description>Orendi asks what your favorite kind of meat is.</description>
+        </case>
+        <case name="Theft?" id="169" priority="Prompt" min="0" max="6">
+            <description>Orendi asks what's the biggest thing you've ever stolen.</description>
+        </case>
+        <case name="Hair?" id="172" priority="Prompt" min="0" max="6">
+            <description>Orendi asks what you do with your hair - brushing, gel, dye, etc.</description>
+        </case>
+        <case name="Porn?" id="173" priority="Prompt" min="0" max="6">
+            <description>Orendi asks what kind of porn you watch.</description>
         </case>
     </noteworthy>
     <responses>
@@ -129,10 +145,66 @@
         <label id="154" label="" color="1" folder="" sort="0" />
         <label id="163" label="" color="1" folder="" sort="0" />
         <label id="164" label="" color="1" folder="" sort="0" />
+        <label id="167" label="Favorite Meat?" folder="Prompts" sort="0" />
+        <label id="168" label="" folder="Noteworthy Things" sort="2" />
+        <label id="169" label="Biggest Stolen Item?" folder="Prompts" sort="2" />
+        <label id="170" label="" folder="Clothing Specific" sort="0" />
+        <label id="171" label="" folder="Clothing Specific" sort="2" />
+        <label id="172" label="What Do You Do To Your Hair?" folder="Prompts" sort="3" />
+        <label id="22" label="" folder="Noteworthy Things" sort="0" />
+        <label id="173" label="Porn Tastes?" folder="Prompts" sort="4" />
+        <label id="174" label="" folder="Noteworthy Things" sort="3" />
+        <label id="175" label="" folder="Noteworthy Things" sort="0" />
+        <label id="176" label="" folder="Noteworthy Things" sort="0" />
+        <label id="177" label="" folder="Noteworthy Things" sort="0" />
+        <label id="181" label="" folder="1v1" sort="0" />
+        <label id="182" label="" folder="1v1" sort="0" />
+        <label id="183" label="" folder="1v1" sort="0" />
+        <label id="184" label="Sustainment" folder="Noteworthy Things" sort="0" />
+        <label id="185" label="" color="1" folder="" sort="0" />
+        <label id="186" label="" color="4" folder="" sort="0" />
+        <label id="187" label="" color="4" folder="" sort="0" />
+        <label id="188" label="" color="4" folder="" sort="0" />
+        <label id="189" label="" color="3" folder="Duplicate Cases" sort="0" />
+        <label id="190" label="" color="3" folder="Duplicate Cases" sort="0" />
+        <label id="191" label="" color="3" folder="Duplicate Cases" sort="0" />
+        <label id="192" label="" color="3" folder="Duplicate Cases" sort="0" />
+        <label id="193" label="" color="3" folder="Duplicate Cases" sort="0" />
+        <label id="194" label="" color="3" folder="Duplicate Cases" sort="0" />
+        <label id="195" label="" color="3" folder="Duplicate Cases" sort="0" />
+        <label id="196" label="" color="3" folder="Duplicate Cases" sort="0" />
+        <label id="197" label="" color="3" folder="Duplicate Cases" sort="0" />
+        <label id="198" label="" color="3" folder="Duplicate Cases" sort="0" />
+        <label id="199" label="" color="2" folder="Duplicate Cases" sort="0" />
+        <label id="200" label="" color="2" folder="Duplicate Cases" sort="0" />
+        <label id="201" label="" color="2" folder="Duplicate Cases" sort="0" />
+        <label id="202" label="" color="2" folder="Duplicate Cases" sort="0" />
+        <label id="203" label="" color="2" folder="Duplicate Cases" sort="0" />
+        <label id="204" label="" color="2" folder="Duplicate Cases" sort="0" />
+        <label id="205" label="" color="2" folder="Duplicate Cases" sort="0" />
+        <label id="206" label="" color="2" folder="Duplicate Cases" sort="0" />
+        <label id="207" label="" color="2" folder="Duplicate Cases" sort="0" />
+        <label id="208" label="" color="1" folder="Duplicate Cases" sort="0" />
+        <label id="209" label="" color="1" folder="Duplicate Cases" sort="0" />
+        <label id="210" label="" color="1" folder="Duplicate Cases" sort="0" />
+        <label id="211" label="" color="1" folder="Duplicate Cases" sort="0" />
+        <label id="212" label="" color="1" folder="Duplicate Cases" sort="0" />
+        <label id="213" label="" color="1" folder="Duplicate Cases" sort="0" />
+        <label id="214" label="" color="1" folder="Duplicate Cases" sort="0" />
+        <label id="215" label="" color="1" folder="Duplicate Cases" sort="0" />
+        <label id="216" label="" color="1" folder="Duplicate Cases" sort="0" />
+        <label id="218" label="" color="6" folder="" sort="0" />
+        <label id="219" label="" color="6" folder="" sort="0" />
+        <label id="220" label="" color="6" folder="" sort="0" />
+        <label id="221" label="" color="6" folder="" sort="0" />
+        <label id="222" label="" color="1" folder="" sort="0" />
     </labels>
-    <nextId>166</nextId>
+    <nextId>222</nextId>
     <markers>
+        <marker scope="Public" name="" />
         <marker scope="Public" name="1v1" />
+        <marker scope="Public" name="9S_Blindfold1" />
+        <marker scope="Public" name="9S_NoNipples1" />
         <marker scope="Public" name="Aella_Book1" />
         <marker scope="Public" name="Aella_Quest" />
         <marker scope="Public" name="Akko_Humor" />
@@ -142,6 +214,7 @@
         <marker scope="Public" name="Aster_Upset1" />
         <marker scope="Public" name="Aster_Upset2" />
         <marker scope="Public" name="Aster_Upset3" />
+        <marker scope="Public" name="BodyMarks" />
         <marker scope="Public" name="Cynthia_Aztanti" />
         <marker scope="Public" name="Cynthia_Aztanti2" />
         <marker scope="Public" name="Cynthia_Aztanti3" />
@@ -154,13 +227,18 @@
         <marker scope="Public" name="Cynthia_Stars" />
         <marker scope="Public" name="Cynthia_Stars2" />
         <marker scope="Public" name="Cynthia_Stars3" />
+        <marker scope="Public" name="DirtTaste" />
+        <marker scope="Public" name="DoesVestCount" />
         <marker scope="Public" name="Dust_Doubts" />
         <marker scope="Public" name="Dust_Hat" />
         <marker scope="Public" name="Dust_Pain" />
         <marker scope="Public" name="Dust_Planet" />
         <marker scope="Public" name="Dust_Snacks" />
+        <marker scope="Public" name="EatingStars" />
+        <marker scope="Public" name="ElDragonVsISIC" />
         <marker scope="Public" name="Erufuda_Foods" />
         <marker scope="Public" name="Erufuda_Foods2" />
+        <marker scope="Public" name="FaceExpectations" />
         <marker scope="Public" name="Fate_Cards1" />
         <marker scope="Public" name="Fate_Cards2" />
         <marker scope="Public" name="Fate_Rift1" />
@@ -178,10 +256,17 @@
         <marker scope="Public" name="Galatea_Gallery3" />
         <marker scope="Public" name="Galatea_Tension" />
         <marker scope="Public" name="Galatea_Tension2" />
+        <marker scope="Public" name="GoGoJuice" />
+        <marker scope="Public" name="GrowGoodStuff" />
         <marker scope="Public" name="Hanako_EvenBurns" />
         <marker scope="Public" name="Hanako_HalfBurns" />
+        <marker scope="Public" name="HatOrigin" />
+        <marker scope="Public" name="IndecentExposure" />
+        <marker scope="Public" name="InHisFace" />
+        <marker scope="Public" name="Intro" />
         <marker scope="Public" name="Jason_BloodStick" />
         <marker scope="Public" name="Jason_EatPanties" />
+        <marker scope="Public" name="JenneritSustainment" />
         <marker scope="Public" name="Jessie_Story" />
         <marker scope="Public" name="Mary_Ducks" />
         <marker scope="Public" name="Mary_Fetishes" />
@@ -193,15 +278,18 @@
         <marker scope="Public" name="Meia_Scars1" />
         <marker scope="Public" name="Meia_Scars2" />
         <marker scope="Public" name="Meia_Scars3" />
+        <marker scope="Public" name="MinionRobots" />
         <marker scope="Public" name="Moon_Drink" />
         <marker scope="Public" name="Moon_Panties" />
         <marker scope="Public" name="Moon_Squeeze" />
         <marker scope="Public" name="Nagisa_Cosplay1" />
+        <marker scope="Public" name="NakedAllTheTime" />
         <marker scope="Public" name="Nami_Space1" />
         <marker scope="Public" name="Nami_Space2" />
         <marker scope="Public" name="Nami_Space3" />
         <marker scope="Public" name="Nami_Space4" />
         <marker scope="Public" name="nickname" />
+        <marker scope="Public" name="NotTheHat" />
         <marker scope="Public" name="Orendi" />
         <marker scope="Public" name="Orendi_Crotch" />
         <marker scope="Public" name="Orendi_Dick" />
@@ -216,16 +304,28 @@
         <marker scope="Public" name="PA15_Nickname2" />
         <marker scope="Public" name="PA15_Nickname3" />
         <marker scope="Public" name="Pauling_Voice1" />
+        <marker scope="Public" name="Prompt_Hair" />
+        <marker scope="Public" name="Prompt_Meat" />
+        <marker scope="Public" name="Prompt_Porn" />
+        <marker scope="Public" name="Prompt_Theft" />
+        <marker scope="Public" name="RendainGame" />
         <marker scope="Public" name="Rin_Fourarms" />
         <marker scope="Public" name="Rin_Help" />
         <marker scope="Public" name="Rin_RobotArms" />
         <marker scope="Public" name="Sayaka_Hunt" />
         <marker scope="Public" name="Sayaka_Planet" />
+        <marker scope="Public" name="ScarfFakeout" />
+        <marker scope="Public" name="ScarfOrShirt" />
         <marker scope="Public" name="Shantae_Dance" />
+        <marker scope="Public" name="SilentSisters" />
         <marker scope="Public" name="Stella_Sanity" />
         <marker scope="Public" name="Stella_Varelsi1" />
+        <marker scope="Public" name="StrippingSpeed" />
+        <marker scope="Public" name="StrippingVarimorph" />
         <marker scope="Public" name="TakeItIn" />
+        <marker scope="Public" name="VarelsiTaste" />
         <marker scope="Public" name="VarimorphTits" />
+        <marker scope="Public" name="WitchPower" />
         <marker scope="Public" name="ZLS_Scent" />
     </markers>
 </metadata>
