@@ -158,10 +158,7 @@
         <label id="220" label="" color="4" folder="" sort="0" />
         <label id="221" label="" color="4" folder="" sort="0" />
         <label id="222" label="" color="4" folder="" sort="0" />
-        <label id="224" label="" color="4" folder="" sort="0" />
-        <label id="225" label="" color="4" folder="" sort="0" />
-        <label id="226" label="" color="4" folder="" sort="0" />
-        <label id="227" label="" color="4" folder="" sort="0" />
+        <label id="256" label="" color="4" folder="" sort="0" />
         <label id="238" label="" color="4" folder="" sort="0" />
         <label id="240" label="" color="4" folder="" sort="0" />
         <label id="242" label="" color="4" folder="" sort="0" />
@@ -170,11 +167,18 @@
         <label id="249" label="" color="4" folder="" sort="0" />
         <label id="250" label="" color="4" folder="" sort="0" />
         <label id="251" label="" color="4" folder="" sort="0" />
+        <label id="253" label="" color="4" folder="" sort="0" />
+        <label id="254" label="" color="4" folder="" sort="0" />
+        <label id="255" label="" color="4" folder="" sort="0" />
+        <label id="257" label="" color="4" folder="" sort="0" />
+        <label id="258" label="" color="4" folder="" sort="0" />
+        <label id="259" label="" color="4" folder="" sort="0" />
+        <label id="260" label="" color="4" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>collectible_</prefix>
     </prefixes>
-    <nextId>252</nextId>
+    <nextId>260</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="9s_manufactured" />
@@ -248,10 +252,17 @@
         <marker scope="Public" name="jura_resp_4s" />
         <marker scope="Public" name="komi_commDisorder" />
         <marker scope="Public" name="kumatora_adventures" />
+        <marker scope="Public" name="kumatora_resp_greet" />
+        <marker scope="Public" name="lysithea_resp_backgroundI" />
         <marker scope="Public" name="lysithea_resp_backgroundS" />
+        <marker scope="Public" name="lysithea_resp_careerI" />
         <marker scope="Public" name="lysithea_resp_careerS" />
+        <marker scope="Public" name="lysithea_resp_careerS2" />
+        <marker scope="Public" name="lysithea_resp_enchantI" />
         <marker scope="Public" name="lysithea_resp_enchantS" />
+        <marker scope="Public" name="lysithea_resp_foxyI" />
         <marker scope="Public" name="lysithea_resp_foxyS" />
+        <marker scope="Public" name="lysithea_schoolDrama" />
         <marker scope="Public" name="mari_piano" />
         <marker scope="Public" name="mari_setogaya_funActivities" />
         <marker scope="Public" name="mari_setogaya_resp_cuteFluffyEars" />
@@ -345,9 +356,13 @@
         <marker scope="Public" name="shamiko_horns2" />
         <marker scope="Public" name="shamiko_horns3" />
         <marker scope="Public" name="sofia_irony" />
+        <marker scope="Public" name="sofia_irony2" />
         <marker scope="Public" name="sofia_resp_monster" />
+        <marker scope="Public" name="sofia_resp_monster2" />
         <marker scope="Public" name="sofia_resp_suitors" />
+        <marker scope="Public" name="sofia_resp_suitors2" />
         <marker scope="Public" name="sofia_resp_writer" />
+        <marker scope="Public" name="sofia_resp_writer2" />
         <marker scope="Public" name="sucrose_resp_01" />
         <marker scope="Public" name="sucrose_resp_02" />
         <marker scope="Public" name="sucrose_resp_11" />
