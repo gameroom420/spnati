@@ -4,7 +4,7 @@
     <height>5'10"</height>
     <age>20 (Chronologically 30+)</age>
     <pronunciation>ak-wuh / ˈɑːkwə</pronunciation>
-    <othernotes>Summary / Background info&lt;br&gt;- Keyblade wielder/master. The Keyblade is a magical weapon that only a chosen few may wield. Its appearance varies as it can be changed during gameplay, but Aqua's specific keyblade design is called Rainfell, the one Sora is seen with is the Kingdom Key, etc. &lt;br&gt;- The Keyblade is used to 'maintain world order' and fight forces of darkness.&lt;br&gt;- Forces of darkness (like, literal darkness. light vs darkness) include Heartless (peoples' hearts taken into a shadowy form), Nobodies (the empty husks left behind when your heart becomes a Heartless), Unversed (creatures born of negative emotions because of a guy called Vanitas), and Dream Eaters (Heartless can't invade a 'Sleeping' world so the negative emotions become Dream Eaters instead)&lt;br&gt;- The one Aqua fought against originally were the Unversed, but she now has experience fighting Heartless. Plenty of experience.&lt;br&gt;- Kingdom Hearts is a convoluted series because every single game that would SEEM like a spin-off is actually part of the integral canon and core story. Aqua's game, Birth By Sleep, is actually a prequel game set before KH1, but released between KH2 and KH3.&lt;br&gt;- Adept combatant whose gameplay style focuses on cartwheeling to avoid damage, and making the most out of offensive and defensive magic skills. She's very adaptable.&lt;br&gt;- She was raised in training for most of her known life so she is socially awkward/shy, but is overall more of a cool-headed and devoted individual.&lt;br&gt;- The reason for her coming to play SPNATI is that she wants to get experience with intimate encounters, because she's not completely unfamiliar with the concepts of physical intimacy and sex but she IS very inexperienced.&lt;br&gt;&lt;br&gt;Gameplay Notes&lt;br&gt;- She summons her keyblade when she enters stage 2, and unsummons it when she has to strip again. However, she does not treat this as her "item of clothing" to be stripped, and will take off a part of her outfit (her waist wraps in default)&lt;br&gt;- Her AI will get better when she has her keyblade out, but will be reduced when she has been in the same stage for 7+ rounds&lt;br&gt;</othernotes>
+    <othernotes>Summary / Background info&lt;br&gt;- Keyblade wielder/master. The Keyblade is a magical weapon that only a chosen few may wield. Its appearance varies as it can be changed during gameplay, but Aqua's specific keyblade design is called Rainfell, the one Sora is seen with is the Kingdom Key, etc. &lt;br&gt;- The Keyblade is used to 'maintain world order' and fight forces of darkness.&lt;br&gt;- Forces of darkness (like, literal darkness. light vs darkness) include Heartless (peoples' hearts taken into a shadowy form), Nobodies (the empty husks left behind when your heart becomes a Heartless), Unversed (creatures born of negative emotions because of a guy called Vanitas), and Dream Eaters (Heartless can't invade a 'Sleeping' world so the negative emotions become Dream Eaters instead)&lt;br&gt;- The one Aqua fought against originally were the Unversed, but she now has experience fighting Heartless. Plenty of experience.&lt;br&gt;- Kingdom Hearts is a convoluted series because every single game that would SEEM like a spin-off is actually part of the integral canon and core story. Aqua's game, Birth By Sleep, is actually a prequel game set before KH1, but released between KH2 and KH3.&lt;br&gt;- Aqua is an adept combatant whose gameplay style focuses on cartwheeling to avoid damage, and making the most out of offensive and defensive magic skills. She's very adaptable.&lt;br&gt;- She was raised in training for most of her known life so she is socially awkward/shy, but is overall more of a cool-headed and devoted individual.&lt;br&gt;- The reason for her coming to play SPNATI is that she wants to get experience with intimate encounters, because she's not completely unfamiliar with the concepts of physical intimacy and sex but she IS very inexperienced.&lt;br&gt;&lt;br&gt;Gameplay Notes&lt;br&gt;- She summons her keyblade when she enters stage 2, and unsummons it when she has to strip again. However, she does not treat this as her "item of clothing" to be stripped, and will take off a part of her outfit (her waist wraps in default)&lt;br&gt;- Her AI will get better when she has her keyblade out, but will be reduced when she has been in the same stage for 7+ rounds&lt;br&gt;</othernotes>
     <noteworthy>
         <case name="Aqua Leaves her Socks On" id="51" priority="Noteworthy" min="5" max="5">
             <description>Default costume: Aqua decides to take her spats off before her thigh-high socks, saying that she wanted to try and be sexy. She's very shy about it, though.</description>
@@ -293,6 +293,7 @@
         <response id="1185" opponent="meia" opponentId="802" />
         <response id="1186" opponent="meia" opponentId="799" />
         <response id="1187" opponent="meia" opponentId="803" />
+        <response id="1202" opponent="meia" opponentId="1815" />
     </responses>
     <notes>
         <note id="6">radiant garden is a world in kingdom hearts that is basically "the place where final fantasy characters and some kingdom hearts original characters come from", mainly home to JRPG humans.</note>
@@ -325,9 +326,9 @@
         <note id="1029">bit of a short response because I'm not sure how else to have her react</note>
         <note id="1106">the animation doesn't work in the character editor, but it's essentially some looping particle effects</note>
         <note id="1188">followup lines in mind; talking about being chief pilot at a young age, responsibility, how she came into that role etc. tailored to meia's response</note>
-        <note id="1189">admittedly this is one of my weaker line ideas and is based on your targeting guide, lmk if you want me to change it to something else</note>
         <note id="1182">loss of innocence... take it whatever way you feel is best</note>
         <note id="1192">note; this is something I remember from learning to swim when I was &lt;10 years old. they made us do a lesson in pjs so that we learn how to swim while weighed down. that'd *probably* be standard for most people learning to swim?</note>
+        <note id="1195">deliberately wording this in a way that means leviathan might get mad, teehee</note>
     </notes>
     <labels>
         <label id="1" label="" folder="Player Names" sort="0" />
@@ -1497,23 +1498,33 @@
         <label id="1178" label="" folder="Responses" sort="161" />
         <label id="1179" label="" folder="Responses" sort="0" />
         <label id="1180" label="" folder="Responses" sort="0" />
-        <label id="1181" label="" color="1" folder="Meia&gt;Responses" sort="0" />
-        <label id="1182" label="" color="1" folder="Meia&gt;Targets" sort="0" />
+        <label id="1181" label="" folder="Meia&gt;Responses" sort="0" />
+        <label id="1182" label="" color="3" folder="Meia&gt;Targets" sort="0" />
         <label id="1183" label="" folder="Meia&gt;Responses&gt;Clear Sky" sort="0" />
         <label id="1184" label="" folder="Meia&gt;Responses&gt;Winter Flurry" sort="0" />
         <label id="1186" label="" folder="Responses" sort="0" />
         <label id="1185" label="" folder="Meia&gt;Responses" sort="0" />
-        <label id="1187" label="" color="1" folder="Meia&gt;Responses" sort="0" />
-        <label id="1188" label="" color="1" folder="Meia&gt;Targets" sort="0" />
+        <label id="1187" label="" folder="Meia&gt;Responses" sort="0" />
+        <label id="1188" label="" color="3" folder="Meia&gt;Targets" sort="0" />
         <label id="1189" label="" color="1" folder="Meia&gt;Targets" sort="0" />
         <label id="1190" label="" color="2" folder="Meia&gt;Responses" sort="0" />
         <label id="1191" label="" color="1" folder="Meia&gt;Targets" sort="0" />
         <label id="1192" label="" color="1" folder="Targets" sort="0" />
+        <label id="1193" label="" folder="Responses" sort="0" />
+        <label id="1194" label="" folder="Responses" sort="0" />
+        <label id="1195" label="" folder="Targets" sort="0" />
+        <label id="1196" label="" folder="Responses" sort="0" />
+        <label id="1197" label="" folder="Targets" sort="0" />
+        <label id="1198" label="" color="1" folder="Meia&gt;Targets" sort="0" />
+        <label id="1199" label="" folder="Meia&gt;Targets" sort="0" />
+        <label id="1200" label="" color="1" folder="Meia&gt;Targets" sort="0" />
+        <label id="1201" label="" folder="Meia&gt;Responses" sort="0" />
+        <label id="1202" label="" folder="Meia&gt;Responses" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>aquaKS_stage==4</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>1192</nextId>
+    <nextId>1202</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="__lucina_nickname" />
@@ -1762,6 +1773,8 @@
         <marker scope="Public" name="aqua_kyouko_ribbonOff3" />
         <marker scope="Public" name="aqua_larachel_s2" />
         <marker scope="Public" name="aqua_larachel_staff_broke" />
+        <marker scope="Public" name="aqua_leviathan_self0a" />
+        <marker scope="Public" name="aqua_leviathan_strip0a" />
         <marker scope="Public" name="aqua_lucina_disguise1" />
         <marker scope="Public" name="aqua_lucina_youngerSelfRespA" />
         <marker scope="Public" name="aqua_lucina_youngerSelfRespB" />
@@ -1808,14 +1821,19 @@
         <marker scope="Public" name="aqua_meia_self3c" />
         <marker scope="Public" name="aqua_meia_self4a" />
         <marker scope="Public" name="aqua_meia_self4b" />
+        <marker scope="Public" name="aqua_meia_self4c" />
         <marker scope="Public" name="aqua_meia_self5a" />
         <marker scope="Public" name="aqua_meia_self5b" />
+        <marker scope="Public" name="aqua_meia_self5c" />
         <marker scope="Public" name="aqua_meia_selfMustMast" />
         <marker scope="Public" name="aqua_meia_selfStartMast" />
         <marker scope="Public" name="aqua_meia_strip0a" />
         <marker scope="Public" name="aqua_meia_strip0a_cupid" />
+        <marker scope="Public" name="aqua_meia_strip0b" />
         <marker scope="Public" name="aqua_meia_strip1a" />
+        <marker scope="Public" name="aqua_meia_strip1b" />
         <marker scope="Public" name="aqua_meia_strip4a" />
+        <marker scope="Public" name="aqua_meia_strip4b" />
         <marker scope="Public" name="aqua_mia_lewdhug1" />
         <marker scope="Public" name="aqua_mia_lewdhug2" />
         <marker scope="Public" name="aqua_mia_lewdhug3" />
@@ -1879,6 +1897,8 @@
         <marker scope="Public" name="aqua_nami_self0b" />
         <marker scope="Public" name="aqua_nami_self2a" />
         <marker scope="Public" name="aqua_nami_self2b" />
+        <marker scope="Public" name="aqua_nephenee_self0a" />
+        <marker scope="Public" name="aqua_nephenee_strip0a" />
         <marker scope="Public" name="aqua_noire_explainedRole" />
         <marker scope="Public" name="aqua_noire_Lastation1" />
         <marker scope="Public" name="aqua_noire_Role0a" />
