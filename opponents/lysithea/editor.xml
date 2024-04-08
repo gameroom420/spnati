@@ -108,6 +108,9 @@
         <response id="539" opponent="hilda" opponentId="1003" />
         <response id="571" opponent="nonon" opponentId="955" />
         <response id="572" opponent="nonon" opponentId="956" />
+        <response id="590" opponent="nonon" opponentId="976" />
+        <response id="591" opponent="nonon" opponentId="969" />
+        <response id="602" opponent="dunban" opponentId="783" />
     </responses>
     <notes>
         <note id="66">Wealth: Lys talks about being impoverished and disadvantaged, even as a noble
@@ -132,6 +135,7 @@ Fight: Mixing damage and healing; How to prioritize</note>
         <note id="274">balthus=Lysithea is attracted to him. 
 cyril=Lysithea is attracted to him, and making an observation about wanting to make sure he's mature enough before pursuing him. </note>
         <note id="500">Nonon's marker here does not seem to be correct. </note>
+        <note id="585">I understand from the memes you are the shaved vagina man. </note>
     </notes>
     <labels>
         <label id="1" label="" folder="Golden Deer - Hilda" sort="0" />
@@ -601,7 +605,7 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <label id="465" label="" folder="Quirky Cute and Tomboys" sort="0" />
         <label id="466" label="" folder="Quirky Cute and Tomboys" sort="0" />
         <label id="467" label="" folder="Quirky Cute and Tomboys" sort="0" />
-        <label id="468" label="" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="468" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
         <label id="469" label="" folder="Quirky Cute and Tomboys" sort="0" />
         <label id="470" label="" folder="Future/Modern Opponents" sort="0" />
         <label id="471" label="" folder="Future/Modern Opponents" sort="0" />
@@ -704,14 +708,40 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <label id="568" label="" folder="Divine and Demonic Opponents" sort="0" />
         <label id="569" label="" folder="Divine and Demonic Opponents" sort="0" />
         <label id="570" label="" folder="Future/Modern Opponents" sort="0" />
-        <label id="571" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
-        <label id="572" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="571" label="" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="572" label="" folder="Quirky Cute and Tomboys" sort="0" />
         <label id="573" label="" folder="Quirky Cute and Tomboys" sort="0" />
         <label id="574" label="" folder="Quirky Cute and Tomboys" sort="0" />
-        <label id="575" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
-        <label id="576" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="575" label="" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="576" label="" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="577" label="Request" folder="Revy Smoking" sort="0" />
+        <label id="578" label="Waiting for Offer" folder="Revy Smoking" sort="0" />
+        <label id="579" label="Waiting for Offer" folder="Revy Smoking" sort="0" />
+        <label id="580" label="" folder="Divine and Demonic Opponents" sort="0" />
+        <label id="581" label="" folder="Divine and Demonic Opponents" sort="0" />
+        <label id="582" label="" folder="Divine and Demonic Opponents" sort="0" />
+        <label id="583" label="" folder="Divine and Demonic Opponents" sort="0" />
+        <label id="584" label="" folder="Divine and Demonic Opponents" sort="0" />
+        <label id="585" label="" folder="Divine and Demonic Opponents" sort="0" />
+        <label id="586" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="587" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="588" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="589" label="" color="4" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="590" label="" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="591" label="" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="592" label="" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="593" label="" folder="Quirky Cute and Tomboys" sort="0" />
+        <label id="594" label="" color="4" folder="Male Opponents" sort="0" />
+        <label id="595" label="" color="4" folder="Male Opponents" sort="0" />
+        <label id="596" label="" color="4" folder="Male Opponents" sort="0" />
+        <label id="597" label="" color="4" folder="Male Opponents" sort="0" />
+        <label id="598" label="" folder="Dunban Responses" sort="0" />
+        <label id="599" label="" folder="Dunban Responses" sort="0" />
+        <label id="600" label="" folder="Dunban Responses" sort="0" />
+        <label id="601" label="" folder="Dunban Responses" sort="0" />
+        <label id="602" label="" folder="Dunban Responses" sort="0" />
     </labels>
-    <nextId>576</nextId>
+    <nextId>602</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="ask" />
@@ -788,9 +818,11 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <marker scope="Public" name="ask_cheryl_nervesS" />
         <marker scope="Public" name="ask_cheryl_powersI" />
         <marker scope="Public" name="ask_cheryl_powersS" />
+        <marker scope="Public" name="ask_dunban_armE" />
         <marker scope="Public" name="ask_dunban_armI" />
         <marker scope="Public" name="ask_dunban_armS" />
         <marker scope="Public" name="ask_dunban_gamesS" />
+        <marker scope="Public" name="ask_dunban_hopesE" />
         <marker scope="Public" name="ask_dunban_hopesI" />
         <marker scope="Public" name="ask_dunban_hopesS" />
         <marker scope="Public" name="ask_dunban_physicallimitsE" />
@@ -802,8 +834,10 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <marker scope="Public" name="ask_dunban_trainE" />
         <marker scope="Public" name="ask_dunban_trainI" />
         <marker scope="Public" name="ask_dunban_trainS" />
+        <marker scope="Public" name="ask_dunban_victoryE" />
         <marker scope="Public" name="ask_dunban_victoryI" />
         <marker scope="Public" name="ask_dunban_victoryS" />
+        <marker scope="Public" name="ask_dunban_womenE" />
         <marker scope="Public" name="ask_dunban_womenI" />
         <marker scope="Public" name="ask_dunban_womenS" />
         <marker scope="Public" name="ask_elphaba_experimentS" />
@@ -1025,15 +1059,18 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <marker scope="Public" name="ask_noire_divinityS" />
         <marker scope="Public" name="ask_noire_gamesI" />
         <marker scope="Public" name="ask_noire_gamesS" />
+        <marker scope="Public" name="ask_nonon_bageenI" />
         <marker scope="Public" name="ask_nonon_bageenS" />
         <marker scope="Public" name="ask_nonon_bandE" />
         <marker scope="Public" name="ask_nonon_bandI" />
         <marker scope="Public" name="ask_nonon_bandS" />
+        <marker scope="Public" name="ask_nonon_benisI" />
         <marker scope="Public" name="ask_nonon_benisS" />
         <marker scope="Public" name="ask_nonon_gameE" />
         <marker scope="Public" name="ask_nonon_gameI" />
         <marker scope="Public" name="ask_nonon_gameS" />
         <marker scope="Public" name="ask_nonon_leonS" />
+        <marker scope="Public" name="ask_nonon_partnerI" />
         <marker scope="Public" name="ask_nonon_partnerS" />
         <marker scope="Public" name="ask_nonon_satsukiE" />
         <marker scope="Public" name="ask_nonon_satsukiI" />
@@ -1178,14 +1215,23 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <marker scope="Public" name="ask_toph_obviousS" />
         <marker scope="Public" name="ask_twilight_snackE" />
         <marker scope="Public" name="ask_twilight_snackS" />
+        <marker scope="Public" name="ask_yaemiko_backgroundE" />
+        <marker scope="Public" name="ask_yaemiko_backgroundE_1" />
+        <marker scope="Public" name="ask_yaemiko_backgroundE_2" />
         <marker scope="Public" name="ask_yaemiko_backgroundI" />
         <marker scope="Public" name="ask_yaemiko_backgroundS" />
+        <marker scope="Public" name="ask_yaemiko_careerE" />
         <marker scope="Public" name="ask_yaemiko_careerI" />
         <marker scope="Public" name="ask_yaemiko_careerS" />
+        <marker scope="Public" name="ask_yaemiko_enchantE" />
         <marker scope="Public" name="ask_yaemiko_enchantI" />
         <marker scope="Public" name="ask_yaemiko_enchantS" />
+        <marker scope="Public" name="ask_yaemiko_flirttipsS" />
+        <marker scope="Public" name="ask_yaemiko_foxyE" />
         <marker scope="Public" name="ask_yaemiko_foxyI" />
         <marker scope="Public" name="ask_yaemiko_foxyS" />
+        <marker scope="Public" name="ask_yaemiko_paramourS" />
+        <marker scope="Public" name="ask_yaemiko_shavedS" />
         <marker scope="Public" name="ask_yuno_cardsS" />
         <marker scope="Public" name="ask_yuno_historyS" />
         <marker scope="Public" name="ask_yuno_mysticismS" />
@@ -1205,6 +1251,7 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <marker scope="Public" name="lifespan" />
         <marker scope="Public" name="lifespanE" />
         <marker scope="Public" name="lifespanI" />
+        <marker scope="Public" name="lit_cigarette" />
         <marker scope="Public" name="lys_confidence1" />
         <marker scope="Public" name="lys_magic1" />
         <marker scope="Public" name="lys_sugar1" />
@@ -1248,8 +1295,13 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <marker scope="Public" name="reply_dunban_futureE" />
         <marker scope="Public" name="reply_dunban_futureI" />
         <marker scope="Public" name="reply_dunban_futureS" />
+        <marker scope="Public" name="reply_dunban_heatS" />
+        <marker scope="Public" name="reply_dunban_lifespanS" />
+        <marker scope="Public" name="reply_dunban_magicE" />
         <marker scope="Public" name="reply_dunban_magicI" />
         <marker scope="Public" name="reply_dunban_magicS" />
+        <marker scope="Public" name="reply_dunban_nudeS" />
+        <marker scope="Public" name="reply_dunban_physicalS" />
         <marker scope="Public" name="reply_hilda_gossipS" />
         <marker scope="Public" name="reply_hilda_holstS" />
         <marker scope="Public" name="reply_hilda_mastbooks" />
@@ -1262,6 +1314,7 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <marker scope="Public" name="reply_hilda_mastinnocent2" />
         <marker scope="Public" name="reply_hilda_mastlibrary" />
         <marker scope="Public" name="reply_hilda_mastlibrary2" />
+        <marker scope="Public" name="reply_hilda_mastmerc" />
         <marker scope="Public" name="reply_hilda_mastpale" />
         <marker scope="Public" name="reply_hilda_mastshare" />
         <marker scope="Public" name="reply_hilda_masttouch" />
@@ -1311,6 +1364,7 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <marker scope="Public" name="reply_leonie_focusS" />
         <marker scope="Public" name="reply_leonie_lecturesS" />
         <marker scope="Public" name="reply_leviathan_fragileS" />
+        <marker scope="Public" name="reply_lysithea51" />
         <marker scope="Public" name="reply_mari_defaultS" />
         <marker scope="Public" name="reply_mari_informalS" />
         <marker scope="Public" name="reply_marinette_" />
@@ -1351,8 +1405,13 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <marker scope="Public" name="reply_natsuki_studyS" />
         <marker scope="Public" name="reply_natsuki_witchS" />
         <marker scope="Public" name="reply_nonon" />
+        <marker scope="Public" name="reply_nonon_" />
+        <marker scope="Public" name="reply_nonon_firsttimeS" />
+        <marker scope="Public" name="reply_nonon_goldendeerE" />
         <marker scope="Public" name="reply_nonon_goldendeerI" />
         <marker scope="Public" name="reply_nonon_goldendeerS" />
+        <marker scope="Public" name="reply_nonon_hairE" />
+        <marker scope="Public" name="reply_nonon_hairI" />
         <marker scope="Public" name="reply_nonon_hairS" />
         <marker scope="Public" name="reply_nonon_magicI" />
         <marker scope="Public" name="reply_nonon_magicroleplayS" />
@@ -1397,5 +1456,6 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <marker scope="Public" name="reply_yuno_studiesS" />
         <marker scope="Public" name="reply_yuno_studyI" />
         <marker scope="Public" name="resp_aru_nobleE" />
+        <marker scope="Public" name="revy_cig_request" />
     </markers>
 </metadata>
