@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1712531913958</lastupdate>
+    <lastupdate>1712597402504</lastupdate>
     <enabled>true</enabled>
     <first>Orendi</first>
     <last />
@@ -13,6 +13,6 @@
     <description>Unhinged, unpredictable, and feared even by members of her own faction, Orendi is a dangerous shapeshifting alien known as a "Varimorph."</description>
     <layers>6</layers>
     <default-costume-name>IT'S MEEEE ORENDIIIIII</default-costume-name>
-    <lines>1504</lines>
+    <lines>1509</lines>
     <poses>129</poses>
 </opponent>
