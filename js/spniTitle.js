@@ -148,7 +148,7 @@ var CANDY_LIST = [
     "shamiko/2-shamiexcited.png",
     "shamiko/3-shamiembarrassed.png",
     "shamiko/4-stripped4.png",
-    "sweetheart/0-cutsey.png",         // Highlighted New Character
+    "sweetheart/0-cutesy.png",         // Highlighted New Character
     "sweetheart/1-graceful.png",
     "sweetheart/1-despair.png",
     "sweetheart/1-stripping1.png",
@@ -163,7 +163,11 @@ var CANDY_LIST = [
     "lysithea/1-topE.png",         // Highlighted New Character
     "lysithea/0-flattered.png",
     "lysithea/0-greatness.png",
-    "lysithea/1-aroused-kindawet.png",	
+    "lysithea/1-aroused-kindawet.png",
+    "zeke_pandoria/0-select.png",         // Highlighted New Character
+    "zeke_pandoria/0-zeke_thinking.png",
+    "zeke_pandoria/pandoria/0-pandoria_dab.png",
+    "zeke_pandoria/pandoria/0-pandoria_sassy.png",
     "ribbon_girl/0-happy.png",         // Highlighted Updated Character
     "ribbon_girl/1-dukes.png",
     "ribbon_girl/6-cheer.png",
