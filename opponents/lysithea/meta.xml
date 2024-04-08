@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1712374304262</lastupdate>
+    <lastupdate>1712531698229</lastupdate>
     <enabled>false</enabled>
     <first>Lysithea</first>
     <last>von Ordelia</last>
@@ -14,6 +14,6 @@
     <layers>7</layers>
     <default-costume-name>War Outfit</default-costume-name>
     <has_collectibles>true</has_collectibles>
-    <lines>1664</lines>
+    <lines>1689</lines>
     <poses>284</poses>
 </opponent>
