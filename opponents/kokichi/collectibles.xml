@@ -1,2 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<collectibles />
+<collectibles>
+    <collectible id="kokichi_scarf" status="online" img="opponents/kokichi/scarf.png" thumbnail="opponents/kokichi/scarf.png">
+        <title>Kokichi's Scarf</title>
+        <subtitle>The signiture scarf of the Ultimate Supreme Leader!</subtitle>
+        <text>This scarf is the most notable part of the D.I.C.E. uniform! Despite his claims to have "thousands of replacements," Kokichi highly values this peice of clothing. Whether he willingly gifted it to you or if you stole it, you should consider yourself lucky you managed to get ahold of it!</text>
+        <unlock>Oh? You want my scarf? Nee-hee-hee! That's a bold ask, you know! I'd jerk off in front of my classmates before I gave it up!</unlock>
+        <wearable>true</wearable>
+        <clothing img="opponents/kokichi/scarf.png" name="Kokichi's Scarf" generic="scarf" position="upper" type="minor" />
+    </collectible>
+</collectibles>
