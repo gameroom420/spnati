@@ -73,6 +73,7 @@ The generic lines for stages 0-3 also have their priority set to 5. These marked
     </labels>
     <nextId>61</nextId>
     <markers>
+        <marker scope="Public" name="" />
         <marker scope="Public" name="2_nickels" />
         <marker scope="Public" name="4_cards" />
         <marker scope="Public" name="4th_crusade" />
@@ -218,6 +219,7 @@ The generic lines for stages 0-3 also have their priority set to 5. These marked
         <marker scope="Public" name="Noelle Knight" />
         <marker scope="Public" name="Noelle Vision" />
         <marker scope="Public" name="nonon_skull_1" />
+        <marker scope="Public" name="nonon_skull_2" />
         <marker scope="Public" name="not_blonde">DMG questions Asuna's hair color.</marker>
         <marker scope="Public" name="not_mana" />
         <marker scope="Public" name="off">DMG makes a Queen of Hearts joke.</marker>
@@ -316,6 +318,10 @@ The generic lines for stages 0-3 also have their priority set to 5. These marked
         <marker scope="Public" name="whose_line_is_it_anyway" />
         <marker scope="Public" name="Wikipe-tan Educate" />
         <marker scope="Public" name="XYZ Summon" />
+        <marker scope="Public" name="yae_dark_magic" />
+        <marker scope="Public" name="yae_dark_magic_1" />
+        <marker scope="Public" name="yae_studying" />
+        <marker scope="Public" name="yae_studying_1" />
         <marker scope="Public" name="Yugiboomer" />
         <marker scope="Public" name="Yuno Essay" />
         <marker scope="Public" name="Yuno response 0" />
