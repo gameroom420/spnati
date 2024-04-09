@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1712517421681</lastupdate>
+    <lastupdate>1712701093292</lastupdate>
     <enabled>false</enabled>
     <first>Aqua</first>
     <last />
@@ -22,6 +22,6 @@
         <costume folder="opponents/reskins/aqua_kh_winter/" img="0-aa_portrait.png" set="xmas" label="Aqua" layers="5">Winter Flurry</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>2038</lines>
+    <lines>2044</lines>
     <poses>244</poses>
 </opponent>
