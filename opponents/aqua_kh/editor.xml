@@ -1506,25 +1506,28 @@
         <label id="1185" label="" folder="Meia&gt;Responses" sort="0" />
         <label id="1187" label="" folder="Meia&gt;Responses" sort="0" />
         <label id="1188" label="" color="3" folder="Meia&gt;Targets" sort="0" />
-        <label id="1189" label="" color="1" folder="Meia&gt;Targets" sort="0" />
+        <label id="1189" label="" color="3" folder="Meia&gt;Targets" sort="0" />
         <label id="1190" label="" color="2" folder="Meia&gt;Responses" sort="0" />
-        <label id="1191" label="" color="1" folder="Meia&gt;Targets" sort="0" />
+        <label id="1191" label="" color="3" folder="Meia&gt;Targets" sort="0" />
         <label id="1192" label="" color="1" folder="Targets" sort="0" />
         <label id="1193" label="" folder="Responses" sort="0" />
         <label id="1194" label="" folder="Responses" sort="0" />
         <label id="1195" label="" folder="Targets" sort="0" />
         <label id="1196" label="" folder="Responses" sort="0" />
         <label id="1197" label="" folder="Targets" sort="0" />
-        <label id="1198" label="" color="1" folder="Meia&gt;Targets" sort="0" />
-        <label id="1199" label="" folder="Meia&gt;Targets" sort="0" />
-        <label id="1200" label="" color="1" folder="Meia&gt;Targets" sort="0" />
+        <label id="1198" label="" color="3" folder="Meia&gt;Targets" sort="0" />
+        <label id="1199" label="" color="1" folder="Meia&gt;Targets" sort="0" />
+        <label id="1200" label="" color="3" folder="Meia&gt;Targets" sort="0" />
         <label id="1201" label="" folder="Meia&gt;Responses" sort="0" />
         <label id="1202" label="" folder="Meia&gt;Responses" sort="0" />
+        <label id="1203" label="" color="1" folder="Meia&gt;Targets" sort="0" />
+        <label id="1204" label="" color="1" folder="Meia&gt;Targets" sort="0" />
+        <label id="1205" label="" color="1" folder="Meia&gt;Targets" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>aquaKS_stage==4</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>1202</nextId>
+    <nextId>1205</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="__lucina_nickname" />
@@ -1830,10 +1833,13 @@
         <marker scope="Public" name="aqua_meia_strip0a" />
         <marker scope="Public" name="aqua_meia_strip0a_cupid" />
         <marker scope="Public" name="aqua_meia_strip0b" />
+        <marker scope="Public" name="aqua_meia_strip0b_cupid" />
+        <marker scope="Public" name="aqua_meia_strip0c" />
         <marker scope="Public" name="aqua_meia_strip1a" />
         <marker scope="Public" name="aqua_meia_strip1b" />
         <marker scope="Public" name="aqua_meia_strip4a" />
         <marker scope="Public" name="aqua_meia_strip4b" />
+        <marker scope="Public" name="aqua_meia_strip4c" />
         <marker scope="Public" name="aqua_mia_lewdhug1" />
         <marker scope="Public" name="aqua_mia_lewdhug2" />
         <marker scope="Public" name="aqua_mia_lewdhug3" />
