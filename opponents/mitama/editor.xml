@@ -1132,7 +1132,7 @@ Karsa also added in the interview:
         <label id="1063" label="Tatantyler/FarawayVision Sponsorship 14" color="6" folder="" sort="0" />
         <label id="1064" label="Erion Sponsorship" color="0" folder="" sort="0" />
         <label id="1065" label="Erion Sponsorship" color="0" folder="" sort="0" />
-        <label id="1066" label="Erion Sponsorship" color="0" folder="" sort="0" />
+        <label id="1066" label="Erion Sponsorship" folder="" sort="0" />
         <label id="1067" label="Haiku 338-Priestess" folder="Haiku Counter" sort="675" />
         <label id="1068" label="Haiku 338-Nohr Princess" folder="Haiku Counter" sort="676" />
         <label id="1069" label="Storm Sponsorship" color="2" folder="" sort="0" />
@@ -2881,8 +2881,19 @@ Karsa also added in the interview:
         <label id="2815" label="" folder="Hand=Any banter" sort="0" />
         <label id="2816" label="" folder="Responses" sort="0" />
         <label id="2817" label="" folder="Opponent Stripped Targets" sort="0" />
+        <label id="2818" label="Haiku 527-Priestess" folder="Haiku Counter" sort="0" />
+        <label id="2819" label="Haiku 527-Diviner" folder="Haiku Counter" sort="0" />
+        <label id="2820" label="Haiku 527-Nohr Princess" folder="Haiku Counter" sort="0" />
+        <label id="2821" label="" folder="Responses" sort="0" />
+        <label id="2822" label="" folder="Responses" sort="0" />
+        <label id="2823" label="Haiku 528-Priestess" folder="Haiku Counter" sort="0" />
+        <label id="2824" label="Haiku 528-Diviner" folder="Haiku Counter" sort="0" />
+        <label id="2825" label="Haiku 528-Nohr Princess" folder="Haiku Counter" sort="0" />
+        <label id="2826" label="" folder="Opponent Lost Targets" sort="0" />
+        <label id="2827" label="" folder="Responses" sort="0" />
+        <label id="2828" label="" folder="Responses" sort="0" />
     </labels>
-    <nextId>2817</nextId>
+    <nextId>2828</nextId>
     <markers>
         <marker scope="Public" name="4mitama_hand1_1" />
         <marker scope="Public" name="4mitama_hand1_2" />
@@ -3063,6 +3074,8 @@ Karsa also added in the interview:
         <marker scope="Public" name="caitlin_sleep" />
         <marker scope="Public" name="Caitlin_sleep_2" />
         <marker scope="Public" name="caitlin_sleepwear" />
+        <marker scope="Public" name="catria_start" />
+        <marker scope="Public" name="Catria_thoughts" />
         <marker scope="Public" name="cdarling_playprompt" />
         <marker scope="Public" name="chell_football" />
         <marker scope="Public" name="chell_robots" />
@@ -4925,6 +4938,12 @@ Karsa also added in the interview:
         <marker scope="Public" name="haiku_526_Counter" />
         <marker scope="Public" name="haiku_526_DCounter" />
         <marker scope="Public" name="haiku_526_NCounter" />
+        <marker scope="Public" name="haiku_527_Counter" />
+        <marker scope="Public" name="haiku_527_DCounter" />
+        <marker scope="Public" name="haiku_527_NCounter" />
+        <marker scope="Public" name="haiku_528_Counter" />
+        <marker scope="Public" name="haiku_528_DCounter" />
+        <marker scope="Public" name="haiku_528_NCounter" />
         <marker scope="Public" name="haiku_53" />
         <marker scope="Public" name="haiku_53_Counter" />
         <marker scope="Public" name="haiku_53_DCounter" />
@@ -5361,6 +5380,7 @@ Karsa also added in the interview:
         <marker scope="Public" name="miko_colors2" />
         <marker scope="Public" name="miko_colors3" />
         <marker scope="Public" name="Miko_Dress1_resp" />
+        <marker scope="Public" name="Miko_Dress2_resp" />
         <marker scope="Public" name="miko_immortality" />
         <marker scope="Public" name="miko_immortality_2" />
         <marker scope="Public" name="miko_immortality_3" />
@@ -5477,6 +5497,8 @@ Karsa also added in the interview:
         <marker scope="Public" name="nanoko_virgin" />
         <marker scope="Public" name="nap_time" />
         <marker scope="Public" name="natsuki_sleep" />
+        <marker scope="Public" name="nephenee_pussy" />
+        <marker scope="Public" name="nephenee_tits" />
         <marker scope="Public" name="Neptune_bath" />
         <marker scope="Public" name="Neptune_find_inventory" />
         <marker scope="Public" name="Nohr_succession" />
@@ -5500,6 +5522,7 @@ Karsa also added in the interview:
         <marker scope="Public" name="QoH_love" />
         <marker scope="Public" name="Reimu_Armor3_resp" />
         <marker scope="Public" name="Reimu_Bra1_resp" />
+        <marker scope="Public" name="Reimu_Bra2_resp" />
         <marker scope="Public" name="Reimu_Capelet1_resp" />
         <marker scope="Public" name="Reimu_Capelet2_resp" />
         <marker scope="Public" name="Reimu_Capelet3_resp" />
@@ -5705,8 +5728,10 @@ Karsa also added in the interview:
         <marker scope="Public" name="yaemiko_meeting_2a" />
         <marker scope="Public" name="yaemiko_meeting_2b" />
         <marker scope="Public" name="yaemiko_meeting_3" />
+        <marker scope="Public" name="yaemiko_profession" />
         <marker scope="Public" name="yaemiko_readingPrefs_resp" />
         <marker scope="Public" name="yaemiko_readingPrefs2_resp" />
+        <marker scope="Public" name="yaemiko_readingPrefs3_resp" />
         <marker scope="Public" name="yshtola_mageprompt_resp" />
         <marker scope="Public" name="yuelia_start_indoors" />
         <marker scope="Public" name="yuelia_start_outdoors" />
