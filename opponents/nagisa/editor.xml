@@ -473,6 +473,16 @@
         <response id="1797" opponent="jura" opponentId="10" />
         <response id="1798" opponent="jura" opponentId="12" />
         <response id="1799" opponent="jura" opponentId="14" />
+        <response id="1807" opponent="reimu" opponentId="5" />
+        <response id="1808" opponent="reimu" opponentId="4" />
+        <response id="1809" opponent="reimu" opponentId="6" />
+        <response id="1810" opponent="reimu" opponentId="8" />
+        <response id="1811" opponent="reimu" opponentId="9" />
+        <response id="1812" opponent="reimu" opponentId="10" />
+        <response id="1813" opponent="reimu" opponentId="11" />
+        <response id="1814" opponent="reimu" opponentId="12" />
+        <response id="1815" opponent="reimu" opponentId="13" />
+        <response id="1816" opponent="reimu" opponentId="14" />
     </responses>
     <notes>
         <note id="401">This is a special version of this line for Fluttershy to react to, but it uses the regular marker to allow for replied from anyone.
@@ -2231,13 +2241,30 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <label id="1796" label="" folder="Tharja and Jura to left or right" sort="0" />
         <label id="1798" label="" folder="Tharja and Jura to left or right" sort="0" />
         <label id="1799" label="" folder="Jura to left" sort="0" />
+        <label id="1800" label="" folder="Marinette to left or right" sort="0" />
+        <label id="1801" label="" folder="Marinette to left or right" sort="0" />
+        <label id="1802" label="" folder="Marinette to left or right" sort="0" />
+        <label id="1803" label="" folder="Marinette to left or right" sort="0" />
+        <label id="1804" label="" folder="Marinette to left or right" sort="0" />
+        <label id="1805" label="" folder="Marinette to left or right" sort="0" />
+        <label id="1806" label="royal flush" folder="" sort="0" />
+        <label id="1807" label="" folder="Reimu to left" sort="0" />
+        <label id="1808" label="" folder="Reimu to left" sort="0" />
+        <label id="1809" label="" folder="Reimu to left" sort="0" />
+        <label id="1810" label="" folder="Reimu to left" sort="0" />
+        <label id="1811" label="" folder="Reimu to left" sort="0" />
+        <label id="1812" label="" folder="Reimu to left" sort="0" />
+        <label id="1813" label="" folder="Reimu to left" sort="0" />
+        <label id="1814" label="" folder="Reimu to left" sort="0" />
+        <label id="1815" label="" folder="Reimu to left" sort="0" />
+        <label id="1816" label="" folder="Reimu to left" sort="0" />
     </labels>
     <prefixes>
         <prefix>epilogue</prefix>
         <prefix>collectible</prefix>
         <prefix>x-</prefix>
     </prefixes>
-    <nextId>1799</nextId>
+    <nextId>1816</nextId>
     <markers>
         <marker scope="Public" name="nagisa_9s_are_you_lost" />
         <marker scope="Public" name="nagisa_9s_n9_91" />
@@ -3227,6 +3254,7 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <marker scope="Public" name="nagisa_jura_underdressed">Nagisa can tell that Jura is starting the game without a bra.</marker>
         <marker scope="Public" name="nagisa_just_watching" />
         <marker scope="Public" name="nagisa_kanji">When introducing herself when Marinette is present, she mentions that her name can be written with one Chinese character (kanji).</marker>
+        <marker scope="Public" name="nagisa_keep_secrets" />
         <marker scope="Public" name="nagisa_kim_already_winning" />
         <marker scope="Public" name="nagisa_kim_babysitting" />
         <marker scope="Public" name="nagisa_kim_hold_back" />
@@ -3447,6 +3475,7 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <marker scope="Public" name="nagisa_marinette_pro" />
         <marker scope="Public" name="nagisa_marinette_ribbons" />
         <marker scope="Public" name="nagisa_marinette_still_in" />
+        <marker scope="Public" name="nagisa_marinette_swimsuit" />
         <marker scope="Public" name="nagisa_marinette_tv" />
         <marker scope="Public" name="nagisa_marinette_twintails" />
         <marker scope="Public" name="nagisa_mary_dakku" />
@@ -3894,6 +3923,16 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <marker scope="Public" name="nagisa_reimu_nr_r9" />
         <marker scope="Public" name="nagisa_reimu_phone" />
         <marker scope="Public" name="nagisa_reimu_played" />
+        <marker scope="Public" name="nagisa_reimu_player_fantasy_0" />
+        <marker scope="Public" name="nagisa_reimu_player_fantasy_m_1" />
+        <marker scope="Public" name="nagisa_reimu_player_fantasy_m_2" />
+        <marker scope="Public" name="nagisa_reimu_player_fantasy_m_3" />
+        <marker scope="Public" name="nagisa_reimu_player_fantasy_m_4" />
+        <marker scope="Public" name="nagisa_reimu_player_fantasy_m_5" />
+        <marker scope="Public" name="nagisa_reimu_player_fantasy_m_6" />
+        <marker scope="Public" name="nagisa_reimu_player_fantasy_m_7" />
+        <marker scope="Public" name="nagisa_reimu_player_fantasy_m_8" />
+        <marker scope="Public" name="nagisa_reimu_player_fantasy_m_9" />
         <marker scope="Public" name="nagisa_reimu_rn_n1" />
         <marker scope="Public" name="nagisa_reimu_rn_n10" />
         <marker scope="Public" name="nagisa_reimu_rn_n11" />

@@ -26,10 +26,11 @@ Nagisa [nagisa_meia_curious_too]: I have to admit I'm also a little curious, Mei
 Meia [nagisa01left_f]: ...It <i>is</i> embarrassing, but that's why I want to face it.  You have to take your fears head-on.
   OR [nagisa01left_f]: I wish I could say it didn't embarrass me.  But getting scared off by that would be even worse.
 
-NAGISA STRIPPED SHOES (accessory) AND ALL FEMALES PRESENT:
+NAGISA STRIPPED SHOES (accessory) AND ALL FEMALES PRESENT: Sanako chimes in only if present
 Nagisa [nagisa_meia_hard_enough]: I know you're right. Still, I think to~background.time~ will be hard enough as it is.
 Meia []: Maybe it's my homeworld talking, but you get used to stripping around other girls pretty quickly.
   OR []: Have you never been nude around other girls?  Mejare's not shy about that, and our crew even less so.
+Sanako [sanako_nagisa_meia_nms_n3]: It must be so nice to live in a world of just girls! I'm sure you'll have fun, Nagisa. You'll see.
 
 
 NAGISA MUST STRIP SOCKS:
