@@ -90,8 +90,7 @@
         <note id="1658">willing to revise</note>
         <note id="1752">I already wrote all my targets as if she had her canon look, so this is just a minor variation (unless you want to expand it into an alt convo)</note>
         <note id="1753">I already wrote all my targets as if she had her canon look, so this is just a small acknowledgement</note>
-        <note id="1812">I saw your Notes and can revise this if it's too dry.  Perhaps Aqua can comment on just &lt;i&gt;how&lt;/i&gt; dryly and officially Meia responds.</note>
-        <note id="1814">See DMs</note>
+        <note id="1813">(followup: except for her)</note>
     </notes>
     <labels>
         <label id="1266" label="" color="4" folder="" sort="0" />
@@ -280,7 +279,7 @@
         <label id="1195" label="" color="4" folder="" sort="0" />
         <label id="1196" label="" color="4" folder="" sort="0" />
         <label id="642" label="" color="5" folder="" sort="0" />
-        <label id="1815" label="" color="4" folder="" sort="0" />
+        <label id="1835" label="" color="4" folder="" sort="0" />
         <label id="983" label="" color="4" folder="" sort="0" />
         <label id="709" label="" color="4" folder="" sort="0" />
         <label id="755" label="" color="4" folder="" sort="0" />
@@ -351,7 +350,6 @@
         <label id="786" label="" color="4" folder="" sort="0" />
         <label id="787" label="" color="4" folder="" sort="0" />
         <label id="788" label="" color="4" folder="" sort="0" />
-        <label id="804" label="" color="4" folder="" sort="0" />
         <label id="795" label="" color="4" folder="" sort="0" />
         <label id="796" label="" color="4" folder="" sort="0" />
         <label id="984" label="" color="4" folder="" sort="0" />
@@ -977,19 +975,18 @@
         <label id="1820" label="" color="4" folder="" sort="0" />
         <label id="1818" label="" color="4" folder="" sort="0" />
         <label id="1821" label="" color="4" folder="" sort="0" />
-        <label id="1829" label="" color="4" folder="" sort="0" />
         <label id="1803" label="" color="4" folder="" sort="0" />
         <label id="1804" label="" color="4" folder="" sort="0" />
         <label id="1809" label="" color="4" folder="" sort="0" />
         <label id="1810" label="" color="4" folder="" sort="0" />
         <label id="1811" label="" color="4" folder="" sort="0" />
-        <label id="1812" label="" color="4" folder="" sort="0" />
+        <label id="1834" label="" color="4" folder="" sort="0" />
         <label id="1813" label="" color="4" folder="" sort="0" />
-        <label id="1814" label="" color="4" folder="" sort="0" />
         <label id="1817" label="" color="4" folder="" sort="0" />
         <label id="1819" label="" color="4" folder="" sort="0" />
+        <label id="1833" label="" color="4" folder="" sort="0" />
     </labels>
-    <nextId>1832</nextId>
+    <nextId>1835</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="2butt">Meia shows off her butt while still in her bodysuit (or Cupid outfit).</marker>
@@ -1097,9 +1094,11 @@
         <marker scope="Public" name="aqua_kh_allfemalecrew" />
         <marker scope="Public" name="aqua_kh_cs0" />
         <marker scope="Public" name="aqua_kh_resp0" />
+        <marker scope="Public" name="aqua_kh_resp01" />
         <marker scope="Public" name="aqua_kh_resp0cupid" />
         <marker scope="Public" name="aqua_kh_resp1" />
         <marker scope="Public" name="aqua_kh_resp4" />
+        <marker scope="Public" name="aqua_kh_resp45" />
         <marker scope="Public" name="aqua_kh_wf0" />
         <marker scope="Public" name="aqua_konosuba_sga0" />
         <marker scope="Public" name="aqua_konosuba_wg0" />
@@ -3207,6 +3206,7 @@
         <marker scope="Public" name="nonon_resp12" />
         <marker scope="Public" name="nonon_resp2" />
         <marker scope="Public" name="nonon_resp23" />
+        <marker scope="Public" name="nonon_resp3" />
         <marker scope="Public" name="nonon0" />
         <marker scope="Public" name="nonon01" />
         <marker scope="Public" name="nonon1" />
