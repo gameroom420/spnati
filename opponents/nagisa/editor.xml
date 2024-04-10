@@ -483,6 +483,60 @@
         <response id="1814" opponent="reimu" opponentId="12" />
         <response id="1815" opponent="reimu" opponentId="13" />
         <response id="1816" opponent="reimu" opponentId="14" />
+        <response id="1868" opponent="natsuki" opponentId="641" />
+        <response id="1869" opponent="natsuki" opponentId="642" />
+        <response id="1870" opponent="natsuki" opponentId="643" />
+        <response id="1871" opponent="natsuki" opponentId="644" />
+        <response id="1872" opponent="natsuki" opponentId="645" />
+        <response id="1873" opponent="natsuki" opponentId="646" />
+        <response id="1874" opponent="natsuki" opponentId="649" />
+        <response id="1875" opponent="natsuki" opponentId="647" />
+        <response id="1876" opponent="natsuki" opponentId="648" />
+        <response id="1877" opponent="natsuki" opponentId="650" />
+        <response id="1878" opponent="natsuki" opponentId="651" />
+        <response id="1879" opponent="natsuki" opponentId="652" />
+        <response id="1880" opponent="natsuki" opponentId="653" />
+        <response id="1882" opponent="natsuki" opponentId="654" />
+        <response id="1883" opponent="natsuki" opponentId="655" />
+        <response id="1884" opponent="natsuki" opponentId="656" />
+        <response id="1885" opponent="natsuki" opponentId="659" />
+        <response id="1886" opponent="natsuki" opponentId="657" />
+        <response id="1887" opponent="natsuki" opponentId="658" />
+        <response id="1888" opponent="natsuki" opponentId="660" />
+        <response id="1889" opponent="natsuki" opponentId="661" />
+        <response id="1890" opponent="natsuki" opponentId="662" />
+        <response id="1891" opponent="natsuki" opponentId="663" />
+        <response id="1892" opponent="natsuki" opponentId="664" />
+        <response id="1893" opponent="natsuki" opponentId="665" />
+        <response id="1894" opponent="natsuki" opponentId="666" />
+        <response id="1895" opponent="natsuki" opponentId="669" />
+        <response id="1896" opponent="natsuki" opponentId="667" />
+        <response id="1897" opponent="natsuki" opponentId="668" />
+        <response id="1898" opponent="natsuki" opponentId="670" />
+        <response id="1899" opponent="natsuki" opponentId="617" />
+        <response id="1900" opponent="natsuki" opponentId="618" />
+        <response id="1901" opponent="natsuki" opponentId="619" />
+        <response id="1902" opponent="natsuki" opponentId="620" />
+        <response id="1903" opponent="natsuki" opponentId="621" />
+        <response id="1904" opponent="natsuki" opponentId="622" />
+        <response id="1905" opponent="natsuki" opponentId="623" />
+        <response id="1906" opponent="natsuki" opponentId="624" />
+        <response id="1907" opponent="natsuki" opponentId="625" />
+        <response id="1908" opponent="natsuki" opponentId="626" />
+        <response id="1909" opponent="natsuki" opponentId="627" />
+        <response id="1910" opponent="natsuki" opponentId="628" />
+        <response id="1912" opponent="natsuki" opponentId="629" />
+        <response id="1913" opponent="natsuki" opponentId="630" />
+        <response id="1914" opponent="natsuki" opponentId="631" />
+        <response id="1915" opponent="natsuki" opponentId="632" />
+        <response id="1916" opponent="natsuki" opponentId="633" />
+        <response id="1917" opponent="natsuki" opponentId="634" />
+        <response id="1918" opponent="natsuki" opponentId="635" />
+        <response id="1919" opponent="natsuki" opponentId="636" />
+        <response id="1920" opponent="natsuki" opponentId="637" />
+        <response id="1921" opponent="natsuki" opponentId="638" />
+        <response id="1922" opponent="natsuki" opponentId="639" />
+        <response id="1923" opponent="natsuki" opponentId="640" />
     </responses>
     <notes>
         <note id="401">This is a special version of this line for Fluttershy to react to, but it uses the regular marker to allow for replied from anyone.
@@ -1322,14 +1376,14 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <label id="884" label="" folder="Tomoko to left" sort="2" />
         <label id="885" label="" folder="Tomoko to left" sort="0" />
         <label id="886" label="" folder="Tomoko to left" sort="3" />
-        <label id="887" label="" folder="Natsuki to left" sort="4" />
-        <label id="888" label="" folder="Natsuki to left" sort="5" />
+        <label id="887" label="" folder="Natsuki to left" sort="12" />
+        <label id="888" label="" folder="Natsuki to left" sort="14" />
         <label id="889" label="" folder="Natsuki to left or right" sort="0" />
-        <label id="890" label="" folder="Natsuki to left" sort="2" />
-        <label id="891" label="" folder="Natsuki to left" sort="3" />
-        <label id="892" label="" folder="Natsuki to left" sort="0" />
-        <label id="893" label="" folder="Natsuki to left" sort="6" />
-        <label id="894" label="" folder="Natsuki to left" sort="0" />
+        <label id="890" label="" folder="Natsuki to left" sort="4" />
+        <label id="891" label="" folder="Natsuki to left" sort="8" />
+        <label id="892" label="" folder="Natsuki to left" sort="6" />
+        <label id="893" label="" folder="Natsuki to left" sort="18" />
+        <label id="894" label="" folder="Natsuki to left" sort="10" />
         <label id="895" label="" folder="Sanny &amp; Tess to left" sort="2" />
         <label id="898" label="" folder="Sanny &amp; Tess to left or right" sort="0" />
         <label id="899" label="" folder="Sanny &amp; Tess to left" sort="0" />
@@ -1752,7 +1806,7 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <label id="1304" label="" folder="Jessie to left" sort="10" />
         <label id="232" label="" folder="Hilda to left" sort="0" />
         <label id="1305" label="" folder="Korra to left" sort="0" />
-        <label id="6" label="" folder="Jura to left" sort="0" />
+        <label id="6" label="" folder="Jura to left" sort="2" />
         <label id="81" label="" folder="Neptune to left" sort="2" />
         <label id="103" label="" folder="Perona to left" sort="7" />
         <label id="59" label="" folder="Perona to left" sort="2" />
@@ -2129,7 +2183,7 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <label id="1681" label="" folder="Sanako to right" sort="18" />
         <label id="1682" label="" folder="Jura to right" sort="7" />
         <label id="1683" label="" folder="Jura to right" sort="17" />
-        <label id="1684" label="" folder="Natsuki to right" sort="0" />
+        <label id="1684" label="" folder="Natsuki to right" sort="4" />
         <label id="1685" label="" folder="Natsuki to right" sort="2" />
         <label id="1686" label="" folder="Natsuki to right" sort="3" />
         <label id="1687" label="" folder="Meia to left" sort="7" />
@@ -2227,45 +2281,153 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <label id="1782" label="last hand: vs player" folder="" sort="0" />
         <label id="1783" label="last hand: vs player" folder="" sort="0" />
         <label id="1784" label="" folder="Waitress Uniform collectible unlock checks" sort="0" />
-        <label id="1785" label="" folder="Waitress Uniform collectible unlock checks" sort="0" />
-        <label id="1786" label="" folder="Waitress Uniform collectible unlock checks" sort="0" />
-        <label id="1787" label="" folder="Waitress Uniform collectible unlock checks" sort="0" />
-        <label id="1788" label="" folder="Waitress Uniform collectible unlock checks" sort="0" />
-        <label id="1789" label="" folder="Waitress Uniform collectible unlock checks" sort="0" />
-        <label id="1790" label="" folder="Waitress Uniform collectible unlock checks" sort="0" />
-        <label id="1791" label="" folder="Waitress Uniform collectible unlock checks" sort="0" />
+        <label id="1785" label="" folder="Waitress Uniform collectible unlock checks" sort="2" />
+        <label id="1786" label="" folder="Waitress Uniform collectible unlock checks" sort="3" />
+        <label id="1787" label="" folder="Waitress Uniform collectible unlock checks" sort="4" />
+        <label id="1788" label="" folder="Waitress Uniform collectible unlock checks" sort="5" />
+        <label id="1789" label="" folder="Waitress Uniform collectible unlock checks" sort="6" />
+        <label id="1790" label="" folder="Waitress Uniform collectible unlock checks" sort="7" />
+        <label id="1791" label="" folder="Waitress Uniform collectible unlock checks" sort="8" />
         <label id="1793" label="earrings" folder="" sort="0" />
         <label id="1794" label="" folder="Jura and Cheryl to left or right" sort="0" />
         <label id="1795" label="" folder="Jura and Revy to left or right" sort="0" />
-        <label id="1797" label="" folder="Tharja and Jura to left or right" sort="0" />
-        <label id="1796" label="" folder="Tharja and Jura to left or right" sort="0" />
+        <label id="1797" label="" folder="Tharja and Jura to left or right" sort="3" />
+        <label id="1796" label="" folder="Tharja and Jura to left or right" sort="2" />
         <label id="1798" label="" folder="Tharja and Jura to left or right" sort="0" />
         <label id="1799" label="" folder="Jura to left" sort="0" />
-        <label id="1800" label="" folder="Marinette to left or right" sort="0" />
-        <label id="1801" label="" folder="Marinette to left or right" sort="0" />
-        <label id="1802" label="" folder="Marinette to left or right" sort="0" />
-        <label id="1803" label="" folder="Marinette to left or right" sort="0" />
+        <label id="1800" label="" folder="Marinette to left or right" sort="5" />
+        <label id="1801" label="" folder="Marinette to left or right" sort="4" />
+        <label id="1802" label="" folder="Marinette to left or right" sort="6" />
+        <label id="1803" label="" folder="Marinette to left or right" sort="3" />
         <label id="1804" label="" folder="Marinette to left or right" sort="0" />
-        <label id="1805" label="" folder="Marinette to left or right" sort="0" />
+        <label id="1805" label="" folder="Marinette to left or right" sort="2" />
         <label id="1806" label="royal flush" folder="" sort="0" />
-        <label id="1807" label="" folder="Reimu to left" sort="0" />
-        <label id="1808" label="" folder="Reimu to left" sort="0" />
-        <label id="1809" label="" folder="Reimu to left" sort="0" />
-        <label id="1810" label="" folder="Reimu to left" sort="0" />
-        <label id="1811" label="" folder="Reimu to left" sort="0" />
-        <label id="1812" label="" folder="Reimu to left" sort="0" />
-        <label id="1813" label="" folder="Reimu to left" sort="0" />
-        <label id="1814" label="" folder="Reimu to left" sort="0" />
-        <label id="1815" label="" folder="Reimu to left" sort="0" />
-        <label id="1816" label="" folder="Reimu to left" sort="0" />
+        <label id="1807" label="" folder="Reimu to left" sort="53" />
+        <label id="1808" label="" folder="Reimu to left" sort="54" />
+        <label id="1809" label="" folder="Reimu to left" sort="55" />
+        <label id="1810" label="" folder="Reimu to left" sort="56" />
+        <label id="1811" label="" folder="Reimu to left" sort="57" />
+        <label id="1812" label="" folder="Reimu to left" sort="58" />
+        <label id="1813" label="" folder="Reimu to left" sort="59" />
+        <label id="1814" label="" folder="Reimu to left" sort="60" />
+        <label id="1815" label="" folder="Reimu to left" sort="61" />
+        <label id="1816" label="" folder="Reimu to left" sort="62" />
+        <label id="1817" label="" folder="Natsuki to right" sort="4" />
+        <label id="1818" label="" folder="Natsuki to right" sort="5" />
+        <label id="1819" label="" folder="Natsuki to right" sort="6" />
+        <label id="1820" label="" folder="Natsuki to right" sort="7" />
+        <label id="1821" label="" folder="Natsuki to right" sort="8" />
+        <label id="1822" label="" folder="Natsuki to right" sort="9" />
+        <label id="1823" label="" folder="Natsuki to right" sort="10" />
+        <label id="1824" label="" folder="Natsuki to right" sort="11" />
+        <label id="1825" label="" folder="Natsuki to right" sort="12" />
+        <label id="1826" label="" folder="Natsuki to right" sort="13" />
+        <label id="1827" label="" folder="Natsuki to right" sort="14" />
+        <label id="1828" label="" folder="Natsuki to right" sort="15" />
+        <label id="1829" label="" folder="Natsuki to right" sort="16" />
+        <label id="1830" label="" folder="Natsuki to right" sort="17" />
+        <label id="1831" label="" folder="Natsuki to right" sort="18" />
+        <label id="1832" label="" folder="Natsuki to right" sort="19" />
+        <label id="1833" label="" folder="Natsuki to right" sort="20" />
+        <label id="1834" label="" folder="Natsuki to right" sort="21" />
+        <label id="1835" label="" folder="Natsuki to right" sort="22" />
+        <label id="1836" label="" folder="Natsuki to right" sort="23" />
+        <label id="1837" label="" folder="Natsuki to right" sort="24" />
+        <label id="1838" label="" folder="Natsuki to right" sort="25" />
+        <label id="1839" label="" folder="Natsuki to right" sort="26" />
+        <label id="1840" label="" folder="Natsuki to right" sort="27" />
+        <label id="1841" label="" folder="Natsuki to right" sort="28" />
+        <label id="1842" label="" folder="Natsuki to right" sort="29" />
+        <label id="1843" label="" folder="Natsuki to right" sort="0" />
+        <label id="1844" label="" folder="Natsuki to right" sort="0" />
+        <label id="1845" label="" folder="Natsuki to right" sort="30" />
+        <label id="1846" label="" folder="Natsuki to right" sort="31" />
+        <label id="1847" label="" folder="Natsuki to right" sort="32" />
+        <label id="1848" label="" folder="Natsuki to right" sort="33" />
+        <label id="1849" label="" folder="Natsuki to right" sort="34" />
+        <label id="1850" label="" folder="Natsuki to right" sort="35" />
+        <label id="1851" label="" folder="Natsuki to right" sort="36" />
+        <label id="1852" label="" folder="Natsuki to right" sort="37" />
+        <label id="1853" label="" folder="Natsuki to right" sort="38" />
+        <label id="1854" label="" folder="Natsuki to right" sort="0" />
+        <label id="1855" label="" folder="Natsuki to right" sort="40" />
+        <label id="1856" label="" folder="Natsuki to right" sort="41" />
+        <label id="1857" label="" folder="Natsuki to right" sort="42" />
+        <label id="1858" label="" folder="Natsuki to right" sort="43" />
+        <label id="1859" label="" folder="Natsuki to right" sort="44" />
+        <label id="1860" label="" folder="Natsuki to right" sort="45" />
+        <label id="1861" label="" folder="Natsuki to right" sort="46" />
+        <label id="1862" label="" folder="Natsuki to right" sort="47" />
+        <label id="1863" label="" folder="Natsuki to right" sort="48" />
+        <label id="1864" label="" folder="Natsuki to right" sort="39" />
+        <label id="1865" label="" folder="Natsuki to right" sort="49" />
+        <label id="1866" label="" folder="Natsuki to right" sort="50" />
+        <label id="1867" label="" folder="Natsuki to right" sort="51" />
+        <label id="1868" label="" folder="Natsuki to left" sort="16" />
+        <label id="1869" label="" folder="Natsuki to left" sort="20" />
+        <label id="1870" label="" folder="Natsuki to left" sort="22" />
+        <label id="1871" label="" folder="Natsuki to left" sort="24" />
+        <label id="1872" label="" folder="Natsuki to left" sort="26" />
+        <label id="1873" label="" folder="Natsuki to left" sort="28" />
+        <label id="1874" label="" folder="Natsuki to left" sort="30" />
+        <label id="1875" label="" folder="Natsuki to left" sort="32" />
+        <label id="1876" label="" folder="Natsuki to left" sort="34" />
+        <label id="1877" label="" folder="Natsuki to left" sort="36" />
+        <label id="1878" label="" folder="Natsuki to left" sort="38" />
+        <label id="1879" label="" folder="Natsuki to left" sort="40" />
+        <label id="1880" label="" folder="Natsuki to left" sort="42" />
+        <label id="1881" label="" folder="Natsuki to left" sort="2" />
+        <label id="1882" label="" folder="Natsuki to left" sort="0" />
+        <label id="1883" label="" folder="Natsuki to left" sort="0" />
+        <label id="1884" label="" folder="Natsuki to left" sort="0" />
+        <label id="1885" label="" folder="Natsuki to left" sort="0" />
+        <label id="1886" label="" folder="Natsuki to left" sort="0" />
+        <label id="1887" label="" folder="Natsuki to left" sort="0" />
+        <label id="1888" label="" folder="Natsuki to left" sort="0" />
+        <label id="1889" label="" folder="Natsuki to left" sort="0" />
+        <label id="1890" label="" folder="Natsuki to left" sort="0" />
+        <label id="1891" label="" folder="Natsuki to left" sort="0" />
+        <label id="1892" label="" folder="Natsuki to left" sort="0" />
+        <label id="1893" label="" folder="Natsuki to left" sort="0" />
+        <label id="1894" label="" folder="Natsuki to left" sort="0" />
+        <label id="1895" label="" folder="Natsuki to left" sort="0" />
+        <label id="1896" label="" folder="Natsuki to left" sort="0" />
+        <label id="1897" label="" folder="Natsuki to left" sort="0" />
+        <label id="1898" label="" folder="Natsuki to left" sort="0" />
+        <label id="1899" label="" folder="Natsuki to left" sort="0" />
+        <label id="1900" label="" folder="Natsuki to left" sort="0" />
+        <label id="1901" label="" folder="Natsuki to left" sort="0" />
+        <label id="1902" label="" folder="Natsuki to left" sort="0" />
+        <label id="1903" label="" folder="Natsuki to left" sort="0" />
+        <label id="1904" label="" folder="Natsuki to left" sort="0" />
+        <label id="1905" label="" folder="Natsuki to left" sort="0" />
+        <label id="1906" label="" folder="Natsuki to left" sort="0" />
+        <label id="1907" label="" folder="Natsuki to left" sort="0" />
+        <label id="1908" label="" folder="Natsuki to left" sort="0" />
+        <label id="1909" label="" folder="Natsuki to left" sort="0" />
+        <label id="1910" label="" folder="Natsuki to left" sort="0" />
+        <label id="1911" label="" folder="Natsuki to left" sort="0" />
+        <label id="1912" label="" folder="Natsuki to left" sort="0" />
+        <label id="1913" label="" folder="Natsuki to left" sort="0" />
+        <label id="1914" label="" folder="Natsuki to left" sort="0" />
+        <label id="1915" label="" folder="Natsuki to left" sort="0" />
+        <label id="1916" label="" folder="Natsuki to left" sort="0" />
+        <label id="1917" label="" folder="Natsuki to left" sort="0" />
+        <label id="1918" label="" folder="Natsuki to left" sort="0" />
+        <label id="1919" label="" folder="Natsuki to left" sort="0" />
+        <label id="1920" label="" folder="Natsuki to left" sort="0" />
+        <label id="1921" label="" folder="Natsuki to left" sort="0" />
+        <label id="1922" label="" folder="Natsuki to left" sort="0" />
+        <label id="1923" label="" folder="Natsuki to left" sort="0" />
     </labels>
     <prefixes>
         <prefix>epilogue</prefix>
         <prefix>collectible</prefix>
         <prefix>x-</prefix>
     </prefixes>
-    <nextId>1816</nextId>
+    <nextId>1924</nextId>
     <markers>
+        <marker scope="Public" name="" />
         <marker scope="Public" name="nagisa_9s_are_you_lost" />
         <marker scope="Public" name="nagisa_9s_n9_91" />
         <marker scope="Public" name="nagisa_9s_n9_n1" />
@@ -3711,12 +3873,117 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <marker scope="Public" name="nagisa_natsuki_bathroom" />
         <marker scope="Public" name="nagisa_natsuki_butt" />
         <marker scope="Public" name="nagisa_natsuki_butt_naked" />
+        <marker scope="Public" name="nagisa_natsuki_gt_g1" />
+        <marker scope="Public" name="nagisa_natsuki_gt_g10" />
+        <marker scope="Public" name="nagisa_natsuki_gt_g11" />
+        <marker scope="Public" name="nagisa_natsuki_gt_g12" />
+        <marker scope="Public" name="nagisa_natsuki_gt_g13" />
+        <marker scope="Public" name="nagisa_natsuki_gt_g14" />
+        <marker scope="Public" name="nagisa_natsuki_gt_g15" />
+        <marker scope="Public" name="nagisa_natsuki_gt_g16" />
+        <marker scope="Public" name="nagisa_natsuki_gt_g17" />
+        <marker scope="Public" name="nagisa_natsuki_gt_g18" />
+        <marker scope="Public" name="nagisa_natsuki_gt_g19" />
+        <marker scope="Public" name="nagisa_natsuki_gt_g2" />
+        <marker scope="Public" name="nagisa_natsuki_gt_g20" />
+        <marker scope="Public" name="nagisa_natsuki_gt_g21" />
+        <marker scope="Public" name="nagisa_natsuki_gt_g3" />
+        <marker scope="Public" name="nagisa_natsuki_gt_g3_hand" />
+        <marker scope="Public" name="nagisa_natsuki_gt_g4" />
+        <marker scope="Public" name="nagisa_natsuki_gt_g5" />
+        <marker scope="Public" name="nagisa_natsuki_gt_g6" />
+        <marker scope="Public" name="nagisa_natsuki_gt_g7" />
+        <marker scope="Public" name="nagisa_natsuki_gt_g8" />
+        <marker scope="Public" name="nagisa_natsuki_gt_g9" />
+        <marker scope="Public" name="nagisa_natsuki_gt_g9_hand" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t1" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t10" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t11" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t12" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t13" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t14" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t15" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t16" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t17" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t18" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t19" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t2" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t20" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t21" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t22" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t23" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t24" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t24_hairy" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t24_nude" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t3" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t4" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t5" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t6" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t6_hand" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t7" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t8" />
+        <marker scope="Public" name="nagisa_natsuki_gt_t9" />
         <marker scope="Public" name="nagisa_natsuki_laevatein_tips" />
         <marker scope="Public" name="nagisa_natsuki_laevatein_tips_ready" />
         <marker scope="Public" name="nagisa_natsuki_poem" />
         <marker scope="Public" name="nagisa_natsuki_skirt_strangers" />
         <marker scope="Public" name="nagisa_natsuki_slepy_gurl" />
         <marker scope="Public" name="nagisa_natsuki_still_be_friends" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g1" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g10" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g11" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g12" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g13" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g14_female" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g14_male" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g15_female" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g15_male" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g16" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g17" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g18" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g19" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g2" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g20_not_shaved" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g20_shaved" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g21_not_shaved" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g21_shaved" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g3" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g4" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g5" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g6" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g7" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g8" />
+        <marker scope="Public" name="nagisa_natsuki_tg_g9" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t1" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t10" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t11" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t12" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t13" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t14" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t15" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t16_panties_not_seen" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t16_panties_seen" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t17_panties_not_seen" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t17_panties_seen" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t18_panties_not_seen" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t18_panties_seen" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t19" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t2" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t20" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t21" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t22_cont" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t22_fallback" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t23_cont" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t23_fallback" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t24_cont" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t24_fallback" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t3" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t4" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t5" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t6" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t7" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t8" />
+        <marker scope="Public" name="nagisa_natsuki_tg_t9" />
         <marker scope="Public" name="nagisa_natsuki_wiggle" />
         <marker scope="Public" name="nagisa_neptune_arcade" />
         <marker scope="Public" name="nagisa_neptune_beach" />
@@ -4327,6 +4594,14 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <marker scope="Public" name="nagisa_zone-tan_mei_not_ready" />
         <marker scope="Public" name="nagisa_zone-tan_no_videos" />
         <marker scope="Public" name="naigsa_sanako_nonon_ns_s3" />
+        <marker scope="Public" name="natsuki_nagisa_on_left_strip01" />
+        <marker scope="Public" name="natsuki_nagisa_on_left_strip11" />
+        <marker scope="Public" name="natsuki_nagisa_on_left_strip21" />
+        <marker scope="Public" name="natsuki_nagisa_on_left_strip31" />
+        <marker scope="Public" name="natsuki_nagisa_on_left_strip41" />
+        <marker scope="Public" name="natsuki_nagisa_on_left_strip51" />
+        <marker scope="Public" name="natsuki_nagisa_on_left_strip61" />
+        <marker scope="Public" name="natsuki_nagisa_on_left_strip71" />
         <marker scope="Public" name="nickname" />
         <marker scope="Public" name="sanako_nagisa_sn_n6" />
         <marker scope="Public" name="sanako_nagisa_sn_n8" />

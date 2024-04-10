@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1705197186426</lastupdate>
+    <lastupdate>1712777667250</lastupdate>
     <enabled>true</enabled>
     <first>Natsuki</first>
     <last />
     <label>Natsuki</label>
     <pic>0-calm.png</pic>
     <gender>female</gender>
-    <from>Doki Doki Literature Club</from>
+    <from>Doki Doki Literature Club!</from>
     <writer>UnderscorM3, nmasp</writer>
     <artist>ManiacWithTheHex , special thanks to UnderscorM3, Thursdays, and CorkyTheCactus</artist>
     <description>One of the five members of the Literature club. Feisty for her small stature, Natsuki loves manga (which IS literature), and hates spiders.</description>
     <epilogue gender="male" img="background1.png" alsoPlaying="pit" hint="Play alongside Pit.">After-School Lesson</epilogue>
     <epilogue gender="female" img="background1.png" alsoPlaying="pit" hint="Play alongside Pit.">After-School Lesson</epilogue>
     <layers>8</layers>
-    <lines>5773</lines>
+    <lines>5872</lines>
     <poses>214</poses>
 </opponent>

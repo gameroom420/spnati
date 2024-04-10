@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1712644644387</lastupdate>
+    <lastupdate>1712777455481</lastupdate>
     <enabled>true</enabled>
     <first>Nagisa</first>
     <last>Furukawa</last>
@@ -17,6 +17,6 @@
         <costume folder="opponents/reskins/nagisa_maid_cafe/" img="0-happy.png" collectible="nagisa_waitress_uniform" label="Nagisa">Waitress Nagisa</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>3382</lines>
+    <lines>3485</lines>
     <poses>209</poses>
 </opponent>
