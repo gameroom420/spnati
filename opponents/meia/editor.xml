@@ -90,7 +90,6 @@
         <note id="1658">willing to revise</note>
         <note id="1752">I already wrote all my targets as if she had her canon look, so this is just a minor variation (unless you want to expand it into an alt convo)</note>
         <note id="1753">I already wrote all my targets as if she had her canon look, so this is just a small acknowledgement</note>
-        <note id="1813">(followup: except for her)</note>
     </notes>
     <labels>
         <label id="1266" label="" color="4" folder="" sort="0" />
@@ -979,14 +978,12 @@
         <label id="1804" label="" color="4" folder="" sort="0" />
         <label id="1809" label="" color="4" folder="" sort="0" />
         <label id="1810" label="" color="4" folder="" sort="0" />
-        <label id="1811" label="" color="4" folder="" sort="0" />
-        <label id="1834" label="" color="4" folder="" sort="0" />
-        <label id="1813" label="" color="4" folder="" sort="0" />
+        <label id="1838" label="" color="4" folder="" sort="0" />
+        <label id="1839" label="" color="4" folder="" sort="0" />
         <label id="1817" label="" color="4" folder="" sort="0" />
         <label id="1819" label="" color="4" folder="" sort="0" />
-        <label id="1833" label="" color="4" folder="" sort="0" />
     </labels>
-    <nextId>1835</nextId>
+    <nextId>1839</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="2butt">Meia shows off her butt while still in her bodysuit (or Cupid outfit).</marker>
@@ -1095,8 +1092,10 @@
         <marker scope="Public" name="aqua_kh_cs0" />
         <marker scope="Public" name="aqua_kh_resp0" />
         <marker scope="Public" name="aqua_kh_resp01" />
+        <marker scope="Public" name="aqua_kh_resp01cupid" />
         <marker scope="Public" name="aqua_kh_resp0cupid" />
         <marker scope="Public" name="aqua_kh_resp1" />
+        <marker scope="Public" name="aqua_kh_resp12" />
         <marker scope="Public" name="aqua_kh_resp4" />
         <marker scope="Public" name="aqua_kh_resp45" />
         <marker scope="Public" name="aqua_kh_wf0" />
