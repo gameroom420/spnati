@@ -8,7 +8,7 @@
     <noteworthy>
         <case name="Zelos' size" priority="FYI" min="0" max="6">
             <description>She somehow knows about the penis size of a perverted firend. But she won't tell why.</description>
-            <trigger tag="good_hand" stage="0-6" saidMarker="zelossize" notSaidMarker="zelossize2">
+            <trigger tag="good_hand" stage="0-6">
                 <state img="ironic.png" marker="zelossize2">Oh, please don't ask how I know about that pervert's size. It's a long story...</state>
             </trigger>
         </case>
@@ -134,6 +134,7 @@
         <marker scope="Public" name="celsius" />
         <marker scope="Public" name="Dunban_s0_1" />
         <marker scope="Public" name="Eichi_s0_1" />
+        <marker scope="Public" name="Eichi_s0_2" />
         <marker scope="Public" name="EstelleMemento" />
         <marker scope="Public" name="Fate_s0_1" />
         <marker scope="Public" name="Felix_s0_1" />
@@ -207,6 +208,7 @@
         <marker scope="Public" name="Leon_s0_3" />
         <marker scope="Public" name="Leon_s1_1" />
         <marker scope="Public" name="Leon_s1_2" />
+        <marker scope="Public" name="Leon_s1_3" />
         <marker scope="Public" name="luna" />
         <marker scope="Public" name="maria_resp0_1" />
         <marker scope="Public" name="maria_resp0_2" />
