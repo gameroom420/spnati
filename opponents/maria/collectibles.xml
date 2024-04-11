@@ -6,5 +6,7 @@
         <text>A pair of scissors Maria gave you. She didn't say anything when she handed them over, but she had a look on her face that told you exactly what she was thinking.</text>
         <unlock>Finish a game with Maria.</unlock>
         <hide-details>true</hide-details>
+        <costume>true</costume>
+        <costume-folder>opponents/reskins/maria_sadistic_maneater/</costume-folder>
     </collectible>
 </collectibles>
