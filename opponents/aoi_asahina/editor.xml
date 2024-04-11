@@ -18,6 +18,9 @@
         <case name="Same Voice" id="225" priority="Noteworthy" min="0" max="0">
             <description>This is a joke about how Aoi and Ringo were played by the same actor in English.</description>
         </case>
+        <case name="Last Place" id="228" priority="Prompt" min="7" max="7">
+            <description>Aoi asks if anyone feels good about finishing last.</description>
+        </case>
     </noteworthy>
     <reviewed>true</reviewed>
     <responses>
@@ -30,6 +33,7 @@
         <response id="174" opponent="noelle" opponentId="41" />
         <response id="192" opponent="ringo_ando" opponentId="310" />
         <response id="193" opponent="ringo_ando" opponentId="88" />
+        <response id="227" opponent="maki" opponentId="20" />
     </responses>
     <notes>
         <note id="162">In the school mode timeline, Mukuro Ikusaba still dresses up as Junko. In Summer Camp, Junko doesn't even show up if Mukuro is there.</note>
@@ -46,7 +50,7 @@
         <label id="7" label="" folder="Sequences" sort="0" />
         <label id="8" label="" folder="Sequences" sort="0" />
         <label id="9" label="" folder="Player Exposed" sort="0" />
-        <label id="10" label="" folder="Sequences" sort="0" />
+        <label id="10" label="" color="10" folder="Sequences" sort="0" />
         <label id="11" label="Swim Link 3" folder="Sequences" sort="0" />
         <label id="12" label="" folder="Sequences" sort="0" />
         <label id="13" label="Shoes" folder="" sort="0" />
@@ -228,9 +232,8 @@
         <label id="224" label="" folder="Early Tags" sort="0" />
         <label id="226" label="" folder="Early Tags" sort="0" />
     </labels>
-    <nextId>226</nextId>
+    <nextId>228</nextId>
     <markers>
-        <marker scope="Public" name="" />
         <marker scope="Private" name="B_">Background related markers.</marker>
         <marker scope="Public" name="B_BeachTan" />
         <marker scope="Public" name="B_DRClassroom" />
@@ -259,7 +262,7 @@
         <marker scope="Public" name="L_ChihiroCharm1" />
         <marker scope="Public" name="L_ChihiroCharm2" />
         <marker scope="Public" name="L_DeckStack" />
-        <marker scope="Public" name="L_FirstForfeit" />
+        <marker scope="Public" name="L_FirstOneOut" />
         <marker scope="Public" name="L_FirstRound" />
         <marker scope="Public" name="L_FirstRound-" />
         <marker scope="Public" name="L_FirstRound+" />
@@ -272,15 +275,12 @@
         <marker scope="Public" name="L_Palm1" />
         <marker scope="Public" name="L_Palm2" />
         <marker scope="Public" name="L_PracticeResolve" />
-        <marker scope="Public" name="L_PracticeRun" />
         <marker scope="Public" name="L_PracticeRun1" />
         <marker scope="Public" name="L_PracticeRun2" />
         <marker scope="Public" name="L_PracticeStart" />
-        <marker scope="Public" name="L_RunningThoughts" />
         <marker scope="Public" name="L_Skipped" />
         <marker scope="Public" name="L_StartingLine" />
         <marker scope="Public" name="L_SwimLikeCrazy" />
-        <marker scope="Public" name="L_SwimThoughts" />
         <marker scope="Public" name="L_SwimThoughts1" />
         <marker scope="Public" name="L_SwimThoughts2" />
         <marker scope="Public" name="L_SwimThoughts3" />
@@ -289,6 +289,7 @@
         <marker scope="Public" name="L_Type" />
         <marker scope="Private" name="Q_">Called out questions and prompts.</marker>
         <marker scope="Public" name="Q_Donuts" />
+        <marker scope="Public" name="Q_LastPlace" />
         <marker scope="Public" name="Q_NewRecord" />
         <marker scope="Public" name="Q_SurvivorGames" />
         <marker scope="Private" name="S_">Self stripping related.</marker>
@@ -402,7 +403,6 @@
         <marker scope="Public" name="TO_Zeke_02HowTheyMet" />
         <marker scope="Public" name="TO_Zeke_03Look" />
         <marker scope="Private" name="Z_">Intenal state. Vast majority of this will only be relevant to Aoi herself.</marker>
-        <marker scope="Public" name="Z_AoiIsConfident" />
         <marker scope="Public" name="Z_AoiVictory" />
         <marker scope="Public" name="Z_Finished" />
         <marker scope="Public" name="Z_GamesPlayed" />
