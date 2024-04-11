@@ -2419,13 +2419,19 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <label id="1921" label="" folder="Natsuki to left" sort="0" />
         <label id="1922" label="" folder="Natsuki to left" sort="0" />
         <label id="1923" label="" folder="Natsuki to left" sort="0" />
+        <label id="1925" label="" folder="Natsuki to left" sort="0" />
+        <label id="1926" label="" folder="Natsuki to left" sort="0" />
+        <label id="1927" label="" folder="Natsuki to right" sort="0" />
+        <label id="1928" label="" folder="Natsuki to right" sort="0" />
+        <label id="1929" label="" folder="Natsuki to right" sort="0" />
+        <label id="1930" label="" folder="Natsuki to left" sort="0" />
     </labels>
     <prefixes>
         <prefix>epilogue</prefix>
         <prefix>collectible</prefix>
         <prefix>x-</prefix>
     </prefixes>
-    <nextId>1924</nextId>
+    <nextId>1930</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="nagisa_9s_are_you_lost" />
@@ -3929,6 +3935,20 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <marker scope="Public" name="nagisa_natsuki_skirt_strangers" />
         <marker scope="Public" name="nagisa_natsuki_slepy_gurl" />
         <marker scope="Public" name="nagisa_natsuki_still_be_friends" />
+        <marker scope="Public" name="nagisa_natsuki_strip_poker_realization_1" />
+        <marker scope="Public" name="nagisa_natsuki_strip_poker_realization_1_following" />
+        <marker scope="Public" name="nagisa_natsuki_strip_poker_realization_1_leading" />
+        <marker scope="Public" name="nagisa_natsuki_strip_poker_realization_1_left" />
+        <marker scope="Public" name="nagisa_natsuki_strip_poker_realization_1_right" />
+        <marker scope="Public" name="nagisa_natsuki_strip_poker_realization_2" />
+        <marker scope="Public" name="nagisa_natsuki_strip_poker_realization_2_following" />
+        <marker scope="Public" name="nagisa_natsuki_strip_poker_realization_2_leading" />
+        <marker scope="Public" name="nagisa_natsuki_strip_poker_realization_2_left" />
+        <marker scope="Public" name="nagisa_natsuki_strip_poker_realization_2_right" />
+        <marker scope="Public" name="nagisa_natsuki_strip_poker_realization_3" />
+        <marker scope="Public" name="nagisa_natsuki_strip_poker_realization_3_following" />
+        <marker scope="Public" name="nagisa_natsuki_strip_poker_realization_3_leading" />
+        <marker scope="Public" name="nagisa_natsuki_strip_poker_realization_3_right" />
         <marker scope="Public" name="nagisa_natsuki_tg_g1" />
         <marker scope="Public" name="nagisa_natsuki_tg_g10" />
         <marker scope="Public" name="nagisa_natsuki_tg_g11" />
