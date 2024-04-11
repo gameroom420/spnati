@@ -922,14 +922,14 @@
 
         <dates>
             <date>
-                <from year="2023" month="10" day="1" />
-                <to year="2023" month="10" day="7" />
+                <from year="2024" month="4" day="12" />
+                <to year="2024" month="4" day="21" />
             </date>
         </dates>
 
         <resort>
             <season>auto</season>
-            <poll>https://forms.gle/7ysB1YoUjGSdfn6x5</poll>
+            <poll>https://forms.gle/rTFWwPkRsLffETSk8</poll>
             <min-characters>40</min-characters>
         </resort>
     </event>

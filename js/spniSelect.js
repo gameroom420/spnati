@@ -190,9 +190,9 @@ const MAGNET_TAGS = [
 
     "ddlc",
     "my_little_pony",
+    "genshin_impact",
 
     "danganronpa",
-    "genshin_impact",
     "konosuba",
     "persona",
     "rwby_franchise",
@@ -201,30 +201,35 @@ const MAGNET_TAGS = [
     "ace_attorney",
     "dragon_ball",
     "katawa_shoujo",
+    "little_witch_academia",
     "monster_prom",
     "one_piece",
     "touhou_project",
+    "xenoblade_chronicles",
     "yugioh",
 
     "battleborn",
     "clannad",
     "zombieland_saga",
+    "golden_sun",
     "huniepop",
     "jjba",
     "kid_icarus",
+    "kill_la_kill",
     "league_of_legends",
     "legend_of_zelda",
-    "little_witch_academia",
+    "lobotomy_corporation",
     "marvel",
     "miraculous",
     "hyperdimension_neptunia",
+    "omori",
     "panty_and_stocking",
+    "puyo_puyo",
     "sonic_franchise",
     "tales_of",
     "teen_titans_franchise",
     "va-11_hall-a",
     "vandread",
-    "xenoblade_chronicles",
 ];
 
 /**********************************************************************
@@ -547,14 +552,14 @@ function fillCostumeSelector($selector, defaultname, costumes, selected_costume)
     if (defaultname == '') {
         defaultn = '\u{1f455} Default Costume';
     }
-	
-	costumes.sort(function(c1, c2) {
-		var a = 0, b = 0;
-		
+
+    costumes.sort(function(c1, c2) {
+        var a = 0, b = 0;
+
         if (c1.status != "online") {
             a -= 100;
         }
-		
+
         if (c2.status != "online") {
             b -= 100;
         }
@@ -574,7 +579,7 @@ function fillCostumeSelector($selector, defaultname, costumes, selected_costume)
         } else if (c1.set == "sleepover") {
             a -= 7;
         }
-		
+
         if (c2.set == "valentines") {
             b--;
         } else if (c2.set == "april_fools") {
@@ -590,9 +595,9 @@ function fillCostumeSelector($selector, defaultname, costumes, selected_costume)
         } else if (c2.set == "sleepover") {
             b -= 7;
         }
-			
-		return b - a;
-	});
+
+        return b - a;
+    });
 
     $selector.empty().append($('<option>', {
         val: '',
@@ -1713,7 +1718,7 @@ function updateSelectionVisuals () {
 
     /* Update suggestions images. */
     updateDefaultFillView();
-	
+
     let displayPreviews = (loaded >= 2);
 
     if (displayPreviews && individualSelectTesting && filled < 4) {
