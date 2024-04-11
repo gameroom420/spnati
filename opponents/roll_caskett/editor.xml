@@ -583,6 +583,8 @@
         <marker scope="Public" name="Tea_s0_1" />
         <marker scope="Public" name="WhereHat" />
         <marker scope="Public" name="WheresData" />
+        <marker scope="Public" name="Yae_CheckD" />
+        <marker scope="Public" name="Yae_CheckR" />
         <marker scope="Public" name="yae_rebukeL" />
         <marker scope="Public" name="yae_resp0_1" />
         <marker scope="Public" name="yae_resp0_2" />

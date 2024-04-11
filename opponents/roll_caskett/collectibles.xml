@@ -7,4 +7,12 @@
         <unlock>Win a game against Roll.</unlock>
         <hide-details>true</hide-details>
     </collectible>
+    <collectible id="science_magazine" status="online" img="opponents/roll_caskett/ex-newmagazine.png" thumbnail="opponents/roll_caskett/ex-newmini.png">
+        <title>Science Magazine</title>
+        <subtitle>A magazine full of very helpful information.</subtitle>
+        <text>A science magazine full of all sorts of information about how to get to the moon. You feel like it is long past time that this information could have been useful.</text>
+        <unlock>Play a game where Roll wins after losing her hat.</unlock>
+        <costume>true</costume>
+        <costume-folder>opponents/reskins/roll_caskett_scrapped_mechanic/</costume-folder>
+    </collectible>
 </collectibles>

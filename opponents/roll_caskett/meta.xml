@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1712229946182</lastupdate>
+    <lastupdate>1712866810622</lastupdate>
     <enabled>false</enabled>
     <first>Roll</first>
     <last>Caskett</last>
@@ -16,8 +16,9 @@
     <alternates>
         <costume folder="opponents/reskins/roll_caskett_hydrodynamic_mechanic/" img="0-giggling.png" set="summer" label="Roll">Hydrodynamic Mechanic</costume>
         <costume folder="opponents/reskins/roll_caskett_pure_white_mechanic/" img="0-flattered.png" set="valentines" label="Roll">Pure White Mechanic</costume>
+        <costume folder="opponents/reskins/roll_caskett_scrapped_mechanic/" img="0-wave.png" label="Roll" collectible="science_magazine">Scrapped Mechanic</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>1778</lines>
+    <lines>1779</lines>
     <poses>213</poses>
 </opponent>
