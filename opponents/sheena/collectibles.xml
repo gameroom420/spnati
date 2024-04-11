@@ -13,6 +13,8 @@
         <text>A wonderful date you spent with Sheena. What exactly happens is up to you.</text>
         <unlock>Lose a game after Sheena recognized you as worthy opponent (beat an opponent other than Sheena as male while you're still covered with 'major' articles).</unlock>
         <hide-details>true</hide-details>
+        <costume>true</costume>
+        <costume-folder>opponents/reskins/sheena_evening_summoner/</costume-folder>
     </collectible>
     <collectible id="otherRing" img="opponents/sheena/c_summons.png" thumbnail="opponents/sheena/c_emeraldRing.png">
         <title>Emerald Ring</title>
