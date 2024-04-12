@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1712904177516</lastupdate>
+    <lastupdate>1712958065864</lastupdate>
     <enabled>false</enabled>
     <first>Nonon</first>
     <last>Jakuzure</last>
@@ -20,6 +20,6 @@
     </alternates>
     <has_collectibles>true</has_collectibles>
     <lines>1848</lines>
-    <poses>380</poses>
+    <poses>368</poses>
     <dialogue-layer>over</dialogue-layer>
 </opponent>
