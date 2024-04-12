@@ -9,6 +9,7 @@
         <tag>no_underwear</tag>
         <tag>scantily-clad</tag>
         <tag remove="true">school_uniform</tag>
+        <tag from="0" to="4">thigh_highs</tag>
     </tags>
     <layers>5</layers>
     <folder>opponents/reskins/nonon_nudist_beach/</folder>
