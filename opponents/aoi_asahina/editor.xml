@@ -15,6 +15,12 @@
         <case name="New Record" id="55" priority="Prompt" min="0" max="0">
             <description>Aoi hasn't stripped for 15 rounds. She asks if that's a new record.</description>
         </case>
+        <case name="Same Voice" id="225" priority="Noteworthy" min="0" max="0">
+            <description>This is a joke about how Aoi and Ringo were played by the same actor in English.</description>
+        </case>
+        <case name="Last Place" id="228" priority="Prompt" min="7" max="7">
+            <description>Aoi asks if anyone feels good about finishing last.</description>
+        </case>
     </noteworthy>
     <reviewed>true</reviewed>
     <responses>
@@ -27,6 +33,7 @@
         <response id="174" opponent="noelle" opponentId="41" />
         <response id="192" opponent="ringo_ando" opponentId="310" />
         <response id="193" opponent="ringo_ando" opponentId="88" />
+        <response id="227" opponent="maki" opponentId="20" />
     </responses>
     <notes>
         <note id="162">In the school mode timeline, Mukuro Ikusaba still dresses up as Junko. In Summer Camp, Junko doesn't even show up if Mukuro is there.</note>
@@ -43,7 +50,7 @@
         <label id="7" label="" folder="Sequences" sort="0" />
         <label id="8" label="" folder="Sequences" sort="0" />
         <label id="9" label="" folder="Player Exposed" sort="0" />
-        <label id="10" label="" folder="Sequences" sort="0" />
+        <label id="10" label="" color="10" folder="Sequences" sort="0" />
         <label id="11" label="Swim Link 3" folder="Sequences" sort="0" />
         <label id="12" label="" folder="Sequences" sort="0" />
         <label id="13" label="Shoes" folder="" sort="0" />
@@ -151,10 +158,10 @@
         <label id="123" label="Set Confident" folder="Situations" sort="0" />
         <label id="124" label="Games Played" folder="" sort="0" />
         <label id="125" label="Game Played" folder="" sort="0" />
-        <label id="126" label="Practice Run 1" folder="Practice Run" sort="0" />
+        <label id="126" label="Practice Run 1" folder="Sequences" sort="0" />
         <label id="127" label="Practice Run 2" folder="Practice Run" sort="0" />
         <label id="128" label="Practice Run 3" folder="Practice Run" sort="0" />
-        <label id="129" label="Practice Run 4" folder="Practice Run" sort="0" />
+        <label id="129" label="Practice Run 2" folder="Sequences" sort="0" />
         <label id="130" label="Games Played" folder="" sort="0" />
         <label id="131" label="" folder="Sequences" sort="0" />
         <label id="132" label="Boob Distraction" folder="Sequences" sort="0" />
@@ -218,8 +225,14 @@
         <label id="162" label="" color="4" folder="" sort="0" />
         <label id="218" label="" folder="Target: Chihiro" sort="0" />
         <label id="219" label="" folder="Target: Chihiro" sort="0" />
+        <label id="220" label="" folder="Situations" sort="0" />
+        <label id="221" label="" folder="Situations" sort="0" />
+        <label id="222" label="Last Hand" folder="" sort="0" />
+        <label id="223" label="" folder="Early Tags" sort="0" />
+        <label id="224" label="" folder="Early Tags" sort="0" />
+        <label id="226" label="" folder="Early Tags" sort="0" />
     </labels>
-    <nextId>219</nextId>
+    <nextId>228</nextId>
     <markers>
         <marker scope="Private" name="B_">Background related markers.</marker>
         <marker scope="Public" name="B_BeachTan" />
@@ -238,7 +251,9 @@
         <marker scope="Public" name="D_WeDontTalkAboutJunko" />
         <marker scope="Private" name="F">Lines that target specific filters.</marker>
         <marker scope="Public" name="F_ChubbyTraining" />
-        <marker scope="Public" name="hina_chihiro_endW" />
+        <marker scope="Public" name="F_IdoltEarly" />
+        <marker scope="Public" name="F_RobotDR" />
+        <marker scope="Public" name="F_RobotEarly" />
         <marker scope="Private" name="L_">Linked dialogue that form sequences.</marker>
         <marker scope="Public" name="L_AoiDeparts" />
         <marker scope="Public" name="L_AoiReturns" />
@@ -247,34 +262,39 @@
         <marker scope="Public" name="L_ChihiroCharm1" />
         <marker scope="Public" name="L_ChihiroCharm2" />
         <marker scope="Public" name="L_DeckStack" />
-        <marker scope="Public" name="L_FirstForfeit" />
+        <marker scope="Public" name="L_FirstOneOut" />
         <marker scope="Public" name="L_FirstRound" />
         <marker scope="Public" name="L_FirstRound-" />
         <marker scope="Public" name="L_FirstRound+" />
         <marker scope="Public" name="L_GreatHand" />
         <marker scope="Public" name="L_HeroTime" />
         <marker scope="Public" name="L_Hunch" />
+        <marker scope="Public" name="L_LastHand" />
         <marker scope="Public" name="L_NadeSkinnyDip" />
         <marker scope="Public" name="L_Palm" />
         <marker scope="Public" name="L_Palm1" />
         <marker scope="Public" name="L_Palm2" />
         <marker scope="Public" name="L_PracticeResolve" />
-        <marker scope="Public" name="L_PracticeRun" />
+        <marker scope="Public" name="L_PracticeRun1" />
         <marker scope="Public" name="L_PracticeRun2" />
-        <marker scope="Public" name="L_RunningThoughts" />
+        <marker scope="Public" name="L_PracticeStart" />
         <marker scope="Public" name="L_Skipped" />
         <marker scope="Public" name="L_StartingLine" />
         <marker scope="Public" name="L_SwimLikeCrazy" />
-        <marker scope="Public" name="L_SwimThoughts" />
+        <marker scope="Public" name="L_SwimThoughts1" />
+        <marker scope="Public" name="L_SwimThoughts2" />
+        <marker scope="Public" name="L_SwimThoughts3" />
+        <marker scope="Public" name="L_SwimThoughts4" />
         <marker scope="Public" name="L_TheMan" />
         <marker scope="Public" name="L_Type" />
         <marker scope="Private" name="Q_">Called out questions and prompts.</marker>
         <marker scope="Public" name="Q_Donuts" />
+        <marker scope="Public" name="Q_LastPlace" />
         <marker scope="Public" name="Q_NewRecord" />
         <marker scope="Public" name="Q_SurvivorGames" />
         <marker scope="Private" name="S_">Self stripping related.</marker>
         <marker scope="Public" name="S_Backstory" />
-        <marker scope="Public" name="S_FutureFoundation?" />
+        <marker scope="Public" name="S_FutureFoundation" />
         <marker scope="Public" name="S_Jacket" />
         <marker scope="Public" name="S_KyokoButtPose" />
         <marker scope="Public" name="S_Legband" />
@@ -282,6 +302,7 @@
         <marker scope="Public" name="S_WhatILove" />
         <marker scope="Private" name="T_">Lines that target other characters.</marker>
         <marker scope="Public" name="T_AquaRecord" />
+        <marker scope="Public" name="T_Chihiro_EndingW" />
         <marker scope="Public" name="T_ChihiroAlterEgo" />
         <marker scope="Public" name="T_ChihiroEnd" />
         <marker scope="Public" name="T_ChihiroSecret" />
@@ -301,16 +322,18 @@
         <marker scope="Public" name="T_KyokoCoMast3" />
         <marker scope="Public" name="T_KyokoCoMast4" />
         <marker scope="Public" name="T_KyokoKeepUp" />
+        <marker scope="Public" name="T_KyokoSmallPenis" />
         <marker scope="Public" name="T_KyokoStart" />
         <marker scope="Public" name="T_KyokoSuggesting" />
         <marker scope="Public" name="T_KyokoTopTouch" />
         <marker scope="Public" name="T_Kyouko_01" />
-        <marker scope="Public" name="T_Kyouko_0-1" />
         <marker scope="Public" name="T_KyoukoStart" />
         <marker scope="Public" name="T_MahiruBirthday" />
         <marker scope="Public" name="T_NadeshikoChubby" />
         <marker scope="Public" name="T_noCeleste" />
         <marker scope="Public" name="T_NoelleVision" />
+        <marker scope="Public" name="T_RingoLastHand" />
+        <marker scope="Public" name="T_RingoStart" />
         <marker scope="Public" name="T_SakuraStrip2" />
         <marker scope="Public" name="T_Self_KyokoLost7" />
         <marker scope="Public" name="T_Self_NadeshikoNervous" />
@@ -325,14 +348,12 @@
         <marker scope="Public" name="TI_Aqua_11Training" />
         <marker scope="Public" name="TI_Aqua_12PJs" />
         <marker scope="Public" name="TI_Jura_01" />
-        <marker scope="Public" name="TI_Jura_0-1Swim" />
         <marker scope="Public" name="TI_Kyoko_0Trio" />
         <marker scope="Public" name="TI_Kyoko_43Memory" />
         <marker scope="Public" name="TI_Kyoko_43Touch" />
         <marker scope="Public" name="TI_Kyoko_51Proposal" />
         <marker scope="Public" name="TI_Kyoko_62" />
         <marker scope="Public" name="TI_Kyoko_63Shaved" />
-        <marker scope="Public" name="TI_Kyoko_6-3Shaved" />
         <marker scope="Public" name="TI_Kyoko_71" />
         <marker scope="Public" name="TI_Kyoko_71KeepDown" />
         <marker scope="Public" name="TI_Kyoko_71Secret" />
@@ -362,12 +383,14 @@
         <marker scope="Public" name="TO_Kokichi_01" />
         <marker scope="Public" name="TO_Kyoko_01">Kyoko Must Strip Stage 0</marker>
         <marker scope="Public" name="TO_Kyoko_12Junko" />
+        <marker scope="Public" name="TO_Kyoko_13Junko" />
         <marker scope="Public" name="TO_Kyoko_62">Kyoko Stripping Stage 6</marker>
         <marker scope="Public" name="TO_Kyoko_73">Kyoko Stripped Stage 7</marker>
         <marker scope="Public" name="TO_Kyoko_73Naked" />
         <marker scope="Public" name="TO_Kyouko_01" />
         <marker scope="Public" name="TO_Levi_01" />
         <marker scope="Public" name="TO_Levi_02Name" />
+        <marker scope="Public" name="TO_Nade_01Indoor" />
         <marker scope="Public" name="TO_Nagatoro_01">Nagatoro Must Strip Stage 0</marker>
         <marker scope="Public" name="TO_Noelle_13Geo" />
         <marker scope="Public" name="TO_Ringo_01" />
@@ -380,7 +403,6 @@
         <marker scope="Public" name="TO_Zeke_02HowTheyMet" />
         <marker scope="Public" name="TO_Zeke_03Look" />
         <marker scope="Private" name="Z_">Intenal state. Vast majority of this will only be relevant to Aoi herself.</marker>
-        <marker scope="Public" name="Z_AoiIsConfident" />
         <marker scope="Public" name="Z_AoiVictory" />
         <marker scope="Public" name="Z_Finished" />
         <marker scope="Public" name="Z_GamesPlayed" />
