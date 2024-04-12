@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1712020258885</lastupdate>
+    <lastupdate>1712803917659</lastupdate>
     <enabled>false</enabled>
     <first>Yae</first>
     <last />
@@ -12,7 +12,11 @@
     <artist>Fence</artist>
     <description>Considered the most deady ninja in Edo, Yae is a kunoichi working for the Secret Special Investigation Ninjas. She investigates high-profile crimes in Edo, often resolving them alongside Goemon and company. As the only sensible member of the group, her insight and focus is key to getting anything done.</description>
     <layers>6</layers>
+    <default-costume-name>Spunky Ninja</default-costume-name>
+    <alternates>
+        <costume folder="opponents/reskins/yae_retro_ninja/" img="0-calm.png" label="Yae" collectible="yae_dango">Retro Ninja</costume>
+    </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>1296</lines>
+    <lines>1298</lines>
     <poses>266</poses>
 </opponent>

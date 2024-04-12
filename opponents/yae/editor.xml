@@ -384,10 +384,12 @@
         <marker scope="Public" name="miko_resp0_2" />
         <marker scope="Public" name="miko_resp0_3" />
         <marker scope="Public" name="miko_resp1_1" />
+        <marker scope="Public" name="miko_resp1_2" />
         <marker scope="Public" name="Miko_s0_1" />
         <marker scope="Public" name="Miko_s0_2" />
         <marker scope="Public" name="Miko_s0_3" />
         <marker scope="Public" name="Miko_s1_1" />
+        <marker scope="Public" name="Miko_s1_2" />
         <marker scope="Public" name="Miku_s0_1" />
         <marker scope="Public" name="Miku_s1_1" />
         <marker scope="Public" name="Miku_s4_1" />

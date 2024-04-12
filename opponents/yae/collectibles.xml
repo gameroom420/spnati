@@ -5,5 +5,7 @@
         <subtitle>A skewer of traditional Japanese sweet dumplings.</subtitle>
         <text>A skewer of traditional Japanese sweet dumplings. Yae says they really put the spring back in your step when you're feeling worn down. She's been having them as a pick-me-up ever since the earliest days of her spy missions.</text>
         <unlock>Complete a game with Yae.</unlock>
+        <costume>true</costume>
+        <costume-folder>opponents/reskins/yae_retro_ninja/</costume-folder>
     </collectible>
 </collectibles>
