@@ -6,6 +6,8 @@
         <text>The Allagan Empire may be long gone, but they left behind their technology. These things range from small data repositories to giant war machina. This one appears to have an image of Y'shtola loaded onto it, but it's not likely the Allagans are responsible for that.</text>
         <unlock>Finish a game with Y'shtola.</unlock>
         <hide-details>true</hide-details>
+        <costume>true</costume>
+        <costume-folder>opponents/reskins/yshtola_scion_healer/</costume-folder>
     </collectible>
     <collectible id="allagan_tomestone_1" img="opponents/yshtola/op-reward.png" thumbnail="opponents/yshtola/op-tomestone2.png">
         <title>Allagan Tomestone of Tumescence</title>
@@ -43,6 +45,14 @@
         <subtitle>A festive piece of ancient technology that houses a pictograph.</subtitle>
         <text>A curious tomestone of unknown origins. You can feel it thrumming with forbidden magic. There appears to be an image loaded onto it to help you celebrate a special occasion.</text>
         <unlock>Finish a game with Y'shtola in her Halloween Costume.</unlock>
+        <hidden>true</hidden>
+        <hide-details>true</hide-details>
+    </collectible>
+    <collectible id="seasonal_tomestone_s" img="opponents/yshtola/op-rewardsummer.png" thumbnail="opponents/yshtola/op-tomestone7.png">
+        <title>Seasonal Tomestone of Aestivation</title>
+        <subtitle>A festive piece of ancient technology that houses a pictograph.</subtitle>
+        <text>A curious tomestone of unknown origins. It is covered in a considerable amount of sand. There appears to be an image loaded onto it to help you celebrate a special occasion.</text>
+        <unlock>Finish a game with Y'shtola in her Summer Costume.</unlock>
         <hidden>true</hidden>
         <hide-details>true</hide-details>
     </collectible>
