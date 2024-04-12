@@ -221,10 +221,10 @@
                 <keyframe time="0.3" x="-5" y="103" scalex="0.29" scaley="0.29" />
             </directive>
         </pose>
-        <pose id="#-imwaiting">
+        <pose id="imwaiting">
             <sprite id="imwaiting" src="reskins/nonon_nudist_beach/1-imwaiting.png" x="0" y="0" />
         </pose>
-        <pose id="#-warmedup">
+        <pose id="warmedup">
             <sprite id="imwaiting" src="reskins/nonon_nudist_beach/1-warmedup.png" x="0" y="0" />
         </pose>
     </poses>
