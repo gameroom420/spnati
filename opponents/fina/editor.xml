@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <metadata>
     <owner>fina</owner>
+    <height>5'3"</height>
+    <age />
+    <pronunciation />
+    <othernotes />
     <noteworthy>
         <case name="Cupil Appears" id="22" priority="Noteworthy" min="3" max="3">
             <description>Fina's synthetic companion and weapon, Cupil, comes out of hiding.</description>
@@ -4144,6 +4148,7 @@ Also, more as a note to myself, I guess it's possible Fina played against Chara 
         <marker scope="Public" name="CompletelyNaked">Fina realizes the human player is completely exposed. She may later realize they are wearing some accessories or minor items.</marker>
         <marker scope="Public" name="countAccessories">Per-target marker that counts the number of accessories each opponent has removed.</marker>
         <marker scope="Public" name="cover">Indicates the extent to which Fina is covering herself when exposed. Default is cover = 0, where she covers herself based on her mood. "covering" = a lot, "uncovering" = not deliberately, "showing" = deliberately making herself visible.</marker>
+        <marker scope="Public" name="covering" />
         <marker scope="Public" name="CupilBattle">Fina describes how Cupil protects her in battle.</marker>
         <marker scope="Public" name="CupilCapabilities">Fina describes some of Cupil's capabilities.</marker>
         <marker scope="Public" name="CupilChamNear">Cupil notices a Cham nearby and Fina wants to take a quick look for it.</marker>

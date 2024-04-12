@@ -21,7 +21,7 @@
         <hide-details>true</hide-details>
         <counter>3</counter>
         <wearable>true</wearable>
-        <clothing name="earrings" generic="jewelry" position="head" type="extra" img="opponents/fina/earrings.png" plural="true" />
+        <clothing img="opponents/fina/earrings.png" name="earrings" generic="jewelry" position="head" type="extra" plural="true" />
     </collectible>
     <collectible id="fina_letter" img="opponents/fina/old-envelope.png" thumbnail="opponents/fina/old-envelope-thumbnail.png">
         <title>A letter from Fina</title>
@@ -55,6 +55,6 @@ Fina"</text>
         <hide-details>true</hide-details>
         <counter>10</counter>
         <wearable>true</wearable>
-        <clothing name="veil" generic="hat" position="head" type="extra" img="opponents/fina/finaVeil.png" />
+        <clothing img="opponents/fina/finaVeil.png" name="veil" generic="hat" position="head" type="extra" />
     </collectible>
 </collectibles>
