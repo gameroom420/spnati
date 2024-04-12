@@ -1,2 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<collectibles />
+<collectibles>
+    <collectible id="risque_photoshoot" status="online" img="opponents/sannytess/futa_galz_lingerie3.png" thumbnail="opponents/sannytess/camera.png">
+        <title>Risque Photo Shoot</title>
+        <subtitle>An invitation, perhaps?</subtitle>
+        <text>A photo of Sanny and Tess in lingerie on a bed. </text>
+        <unlock>Ladies love a partner who listens...</unlock>
+        <hidden>true</hidden>
+        <counter>30</counter>
+    </collectible>
+</collectibles>
