@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<costume>
+    <id>nonon_nudist_beach</id>
+    <label>Nonon</label>
+    <tags>
+        <tag>alternative_skin</tag>
+        <tag>bottomless_first</tag>
+        <tag>no_bra</tag>
+        <tag>no_underwear</tag>
+        <tag>scantily-clad</tag>
+        <tag remove="true">school_uniform</tag>
+    </tags>
+    <layers>5</layers>
+    <folder>opponents/reskins/nonon_nudist_beach/</folder>
+    <folder stage="6">opponents/nonon/</folder>
+    <wardrobe>
+        <clothing name="hat" generic="hat" position="head" type="extra" />
+        <clothing name="boots" generic="shoes" position="feet" type="minor" plural="true" />
+        <clothing name="gloves" generic="gloves" position="hands" type="extra" />
+        <clothing name="" generic="" position="" type="skip" />
+        <clothing name="vest" generic="vest" position="upper" type="major" plural="true" />
+        <clothing name="belt" generic="shoes" position="lower" type="major" plural="true" />
+    </wardrobe>
+
+    <poses>
+        <pose id="0-stripping">
+            <sprite id="strip3" src="reskins/nonon_nudist_beach/0-strip1.png" x="0" y="0" scalex="1" scaley="1" />
+            <sprite id="g" delay="1.5" src="reskins/nonon_nudist_beach/belt.png" x="0" y="668" scalex="0.68" scaley="0.68" rotation="0" />
+            <directive type="animation" id="strip3" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" scalex="1" scaley="1" />
+                <keyframe time="1.5" y="0" scalex="1" scaley="1" />
+                <keyframe time="1.56" y="-16" scalex="0.98" scaley="1.02" />
+                <keyframe time="1.62" y="0" scalex="1" scaley="1" />
+            </directive>
+            <directive type="animation" id="strip3" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/nonon_nudist_beach/0-strip1.png" />
+                <keyframe time="1.5" src="reskins/nonon_nudist_beach/1-mischief.png" />
+            </directive>
+            <directive type="animation" id="g" delay="1.5" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" scalex="0.68" scaley="0.68" rotation="0" />
+                <keyframe time="0.5" x="-7" rotation="-16" />
+            </directive>
+            <directive type="animation" id="g" delay="1.5" ease="ease-in" interpolation="linear">
+                <keyframe time="0" y="668" />
+                <keyframe time="0.5" y="1241" />
+            </directive>
+        </pose>
+        <pose id="0-stripping-">
+            <sprite id="strip3" src="reskins/nonon_nudist_beach/0-strip12.png" x="0" y="0" scalex="1" scaley="1" />
+            <sprite id="g" delay="1.5" src="reskins/nonon_nudist_beach/belt.png" x="8" y="668" scalex="0.68" scaley="0.68" rotation="0" />
+            <directive type="animation" id="strip3" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" scalex="1" scaley="1" />
+                <keyframe time="1.5" y="0" scalex="1" scaley="1" />
+                <keyframe time="1.56" y="-16" scalex="0.98" scaley="1.02" />
+                <keyframe time="1.62" y="0" scalex="1" scaley="1" />
+            </directive>
+            <directive type="animation" id="strip3" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/nonon_nudist_beach/0-strip12.png" />
+                <keyframe time="1.5" src="reskins/nonon_nudist_beach/1-flustered.png" />
+            </directive>
+            <directive type="animation" id="g" delay="1.5" ease="linear" interpolation="linear">
+                <keyframe time="0" x="8" scalex="0.68" scaley="0.68" rotation="0" />
+                <keyframe time="0.5" x="0" rotation="-16" />
+            </directive>
+            <directive type="animation" id="g" delay="1.5" ease="ease-in" interpolation="linear">
+                <keyframe time="0" y="668" />
+                <keyframe time="0.5" y="1241" />
+            </directive>
+        </pose>
+        <pose id="1-stripping">
+            <sprite id="strip3" src="reskins/nonon_nudist_beach/1-strip1.png" x="0" y="0" scalex="1" scaley="1" />
+            <sprite id="g" delay="1.5" src="reskins/nonon_nudist_beach/vest.png" x="12" y="397" scalex="0.68" scaley="0.68" rotation="4" />
+            <directive type="animation" id="strip3" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" scalex="1" scaley="1" />
+                <keyframe time="1.5" y="0" scalex="1" scaley="1" />
+                <keyframe time="1.56" y="-8" scalex="0.98" scaley="1.02" />
+                <keyframe time="1.62" y="0" scalex="1" scaley="1" />
+            </directive>
+            <directive type="animation" id="strip3" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/nonon_nudist_beach/1-strip1.png" />
+                <keyframe time="1.5" src="reskins/nonon_nudist_beach/3-happy.png" />
+            </directive>
+            <directive type="animation" id="g" delay="1.5" ease="linear" interpolation="linear">
+                <keyframe time="0" x="12" scalex="0.68" scaley="0.68" rotation="4" />
+                <keyframe time="0.5899999" x="0" rotation="-16" />
+            </directive>
+            <directive type="animation" id="g" delay="1.5" ease="ease-in" interpolation="linear">
+                <keyframe time="0" y="397" />
+                <keyframe time="0.5899999" y="1202" />
+            </directive>
+        </pose>
+        <pose id="1-stripping-">
+            <sprite id="strip3" src="reskins/nonon_nudist_beach/1-strip12.png" x="0" y="0" scalex="1" scaley="1" />
+            <sprite id="g" delay="1.5" src="reskins/nonon_nudist_beach/vest.png" x="-9" y="398" scalex="0.68" scaley="0.68" rotation="0" />
+            <directive type="animation" id="strip3" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" scalex="1" scaley="1" />
+                <keyframe time="1.5" y="0" scalex="1" scaley="1" />
+                <keyframe time="1.56" y="-8" scalex="0.98" scaley="1.02" />
+                <keyframe time="1.62" y="0" scalex="1" scaley="1" />
+            </directive>
+            <directive type="animation" id="strip3" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/nonon_nudist_beach/1-strip12.png" />
+                <keyframe time="1.5" src="reskins/nonon_nudist_beach/3-pout.png" />
+            </directive>
+            <directive type="animation" id="g" delay="1.5" ease="linear" interpolation="linear">
+                <keyframe time="0" x="-9" scalex="0.68" scaley="0.68" rotation="0" />
+                <keyframe time="0.75" x="0" rotation="-16" />
+            </directive>
+            <directive type="animation" id="g" delay="1.5" ease="ease-in" interpolation="linear">
+                <keyframe time="0" y="398" />
+                <keyframe time="0.75" y="1202" />
+            </directive>
+        </pose>
+        <pose id="3-stripping">
+            <sprite id="strip1" src="reskins/nonon_nudist_beach/3-strip1.png" x="0" y="0" scalex="1" />
+            <directive type="animation" id="strip1" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/nonon_nudist_beach/3-strip1.png" />
+                <keyframe time="1.5" src="reskins/nonon_nudist_beach/4-strip1.png" />
+            </directive>
+            <directive type="animation" id="strip1" delay="1.5" ease="linear" interpolation="linear">
+                <keyframe time="0" scalex="1" />
+                <keyframe time="0.05999994" scalex="1.05" />
+                <keyframe time="0.12" scalex="1" />
+            </directive>
+        </pose>
+        <pose id="3-stripping-">
+            <sprite id="strip1" src="reskins/nonon_nudist_beach/3-strip12.png" x="0" y="0" scalex="1" />
+            <directive type="animation" id="strip1" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/nonon_nudist_beach/3-strip12.png" />
+                <keyframe time="1.5" src="reskins/nonon_nudist_beach/4-strip12.png" />
+            </directive>
+            <directive type="animation" id="strip1" delay="1.5" ease="linear" interpolation="linear">
+                <keyframe time="0" scalex="1" />
+                <keyframe time="0.05999994" scalex="1.05" />
+                <keyframe time="0.12" scalex="1" />
+            </directive>
+        </pose>
+        <pose id="4-stripping">
+            <sprite id="strip1" src="reskins/nonon_nudist_beach/5-strip1.png" x="0" y="0" scaley="1" />
+            <directive type="animation" id="strip1" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" scaley="1" />
+                <keyframe time="0.06" y="14" scaley="0.98" />
+                <keyframe time="0.12" y="0" scaley="1" />
+                <keyframe time="1.5" x="0" y="0" scaley="1" />
+                <keyframe time="1.56" y="-14" scaley="1.02" />
+                <keyframe time="1.62" y="0" scaley="1" />
+            </directive>
+            <directive type="animation" id="strip1" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/nonon_nudist_beach/5-strip1.png" />
+                <keyframe time="1.5" src="reskins/nonon_nudist_beach/5-strip2.png" />
+            </directive>
+            <directive type="animation" id="strip1" delay="1.5" ease="linear" interpolation="linear">
+                <keyframe time="0" scalex="1" />
+                <keyframe time="0.05999994" scalex="1" />
+                <keyframe time="0.12" scalex="1" />
+            </directive>
+        </pose>
+        <pose id="4-stripping-">
+            <sprite id="strip1" src="reskins/nonon_nudist_beach/5-strip12.png" x="0" y="0" scaley="1" />
+            <directive type="animation" id="strip1" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" scaley="1" />
+                <keyframe time="0.06" y="14" scaley="0.98" />
+                <keyframe time="0.12" y="0" scaley="1" />
+                <keyframe time="1.5" x="0" y="0" scaley="1" />
+                <keyframe time="1.56" y="-14" scaley="1.02" />
+                <keyframe time="1.62" y="0" scaley="1" />
+            </directive>
+            <directive type="animation" id="strip1" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/nonon_nudist_beach/5-strip12.png" />
+                <keyframe time="1.5" src="reskins/nonon_nudist_beach/5-strip22.png" />
+            </directive>
+            <directive type="animation" id="strip1" delay="1.5" ease="linear" interpolation="linear">
+                <keyframe time="0" scalex="1" />
+                <keyframe time="0.05999994" scalex="1" />
+                <keyframe time="0.12" scalex="1" />
+            </directive>
+        </pose>
+        <pose id="5-stripping">
+            <sprite id="strip1" src="reskins/nonon_nudist_beach/5-strip31.png" x="0" y="0" />
+            <sprite id="hair_back" delay="2.5" z="-2" src="nonon/hair_back.png" x="-5" y="47" scalex="0.2" scaley="0" rotation="0" />
+            <directive type="animation" id="strip1" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" />
+                <keyframe time="1.5" y="0" />
+                <keyframe time="1.56" y="-8" />
+                <keyframe time="1.62" y="0" />
+            </directive>
+            <directive type="animation" id="strip1" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/nonon_nudist_beach/5-strip31.png" />
+                <keyframe time="1.5" src="reskins/nonon_nudist_beach/6-strip1.png" />
+            </directive>
+            <directive type="animation" id="strip1" delay="1.5" ease="linear" interpolation="linear">
+                <keyframe time="0" scaley="1" />
+                <keyframe time="0.05999994" scaley="1.02" />
+                <keyframe time="0.12" scaley="1" />
+            </directive>
+            <directive type="animation" id="hair_back" delay="2.5" ease="ease-in" interpolation="linear">
+                <keyframe time="0" x="-5" y="47" scalex="0.2" scaley="0" />
+                <keyframe time="0.3" x="-5" y="103" scalex="0.29" scaley="0.29" />
+            </directive>
+        </pose>
+        <pose id="5-stripping-">
+            <sprite id="strip1" src="reskins/nonon_nudist_beach/5-strip32.png" x="0" y="0" />
+            <sprite id="hair_back" delay="2.5" z="-2" src="nonon/hair_back.png" x="-5" y="47" scalex="0.2" scaley="0" rotation="0" />
+            <directive type="animation" id="strip1" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" />
+                <keyframe time="1.5" y="0" />
+                <keyframe time="1.56" y="-8" />
+                <keyframe time="1.62" y="0" />
+            </directive>
+            <directive type="animation" id="strip1" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/nonon_nudist_beach/5-strip32.png" />
+                <keyframe time="1.5" src="reskins/nonon_nudist_beach/6-strip12.png" />
+            </directive>
+            <directive type="animation" id="strip1" delay="1.5" ease="linear" interpolation="linear">
+                <keyframe time="0" scaley="1" />
+                <keyframe time="0.05999994" scaley="1.02" />
+                <keyframe time="0.12" scaley="1" />
+            </directive>
+            <directive type="animation" id="hair_back" delay="2.5" ease="ease-in" interpolation="linear">
+                <keyframe time="0" x="-5" y="47" scalex="0.2" scaley="0" />
+                <keyframe time="0.3" x="-5" y="103" scalex="0.29" scaley="0.29" />
+            </directive>
+        </pose>
+        <pose id="#-imwaiting">
+            <sprite id="imwaiting" src="reskins/nonon_nudist_beach/1-imwaiting.png" x="0" y="0" />
+        </pose>
+        <pose id="#-warmedup">
+            <sprite id="imwaiting" src="reskins/nonon_nudist_beach/1-warmedup.png" x="0" y="0" />
+        </pose>
+    </poses>
+
+</costume>
