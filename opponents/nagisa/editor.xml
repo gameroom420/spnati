@@ -2425,13 +2425,17 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <label id="1928" label="" folder="Natsuki to right" sort="0" />
         <label id="1929" label="" folder="Natsuki to right" sort="0" />
         <label id="1930" label="" folder="Natsuki to left" sort="0" />
+        <label id="1931" label="" folder="Natsuki to left" sort="0" />
+        <label id="1932" label="" folder="Natsuki to left" sort="0" />
+        <label id="1933" label="" folder="Natsuki to left" sort="0" />
+        <label id="1934" label="" folder="Natsuki to left" sort="0" />
     </labels>
     <prefixes>
         <prefix>epilogue</prefix>
         <prefix>collectible</prefix>
         <prefix>x-</prefix>
     </prefixes>
-    <nextId>1930</nextId>
+    <nextId>1934</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="nagisa_9s_are_you_lost" />
@@ -3931,6 +3935,9 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <marker scope="Public" name="nagisa_natsuki_gt_t9" />
         <marker scope="Public" name="nagisa_natsuki_laevatein_tips" />
         <marker scope="Public" name="nagisa_natsuki_laevatein_tips_ready" />
+        <marker scope="Public" name="nagisa_natsuki_leaving_if_player_leaves" />
+        <marker scope="Public" name="nagisa_natsuki_male_count" />
+        <marker scope="Public" name="nagisa_natsuki_play_a_few_rounds" />
         <marker scope="Public" name="nagisa_natsuki_poem" />
         <marker scope="Public" name="nagisa_natsuki_skirt_strangers" />
         <marker scope="Public" name="nagisa_natsuki_slepy_gurl" />
@@ -4004,6 +4011,8 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <marker scope="Public" name="nagisa_natsuki_tg_t7" />
         <marker scope="Public" name="nagisa_natsuki_tg_t8" />
         <marker scope="Public" name="nagisa_natsuki_tg_t9" />
+        <marker scope="Public" name="nagisa_natsuki_tips" />
+        <marker scope="Public" name="nagisa_natsuki_why_are_we_doing_this" />
         <marker scope="Public" name="nagisa_natsuki_wiggle" />
         <marker scope="Public" name="nagisa_neptune_arcade" />
         <marker scope="Public" name="nagisa_neptune_beach" />

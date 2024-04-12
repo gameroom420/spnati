@@ -308,6 +308,7 @@
         <note id="562">9S now ejaculates normally, so your Finished line(s) towards him need to be removed/adjusted.</note>
         <note id="648">This case is conditional on Natsuki's marker from the previous conversation block. As those lines are likely to play, this case is usually the one that will play over the one without the marker check. However, if that doesn't play - for example if Nagisa is masturbating at the time - the fallback is the other case in this stage.</note>
         <note id="650">See note on parallel case for more info.</note>
+        <note id="678">Gwen no longer swings around on her web when masturbating</note>
     </notes>
     <labels>
         <label id="37" label="" color="6" folder="N/Player Shipping" sort="16" />
@@ -649,8 +650,9 @@
         <prefix>Thinking</prefix>
         <prefix>collectible_</prefix>
     </prefixes>
-    <nextId>677</nextId>
+    <nextId>678</nextId>
     <markers>
+        <marker scope="Public" name="" />
         <marker scope="Public" name="1bs" />
         <marker scope="Public" name="1bs2" />
         <marker scope="Public" name="1pl" />
@@ -1217,9 +1219,11 @@
         <marker scope="Public" name="natsuki_futaba_streaming-chan_stream3" />
         <marker scope="Public" name="natsuki_girls" />
         <marker scope="Public" name="natsuki_got_your_poem_ready" />
+        <marker scope="Public" name="natsuki_growth_spurt" />
         <marker scope="Public" name="natsuki_guzma_kids" />
         <marker scope="Public" name="natsuki_gwen_streaming-chan_peter3" />
         <marker scope="Public" name="natsuki_hanako_stripping_for_strangers" />
+        <marker scope="Public" name="natsuki_hand-me-downs" />
         <marker scope="Public" name="natsuki_haru_maid" />
         <marker scope="Public" name="natsuki_has_your_back_amy" />
         <marker scope="Public" name="natsuki_hilda_01" />
@@ -1257,7 +1261,18 @@
         <marker scope="Public" name="natsuki_is_un_furry_jajaja" />
         <marker scope="Public" name="natsuki_it_was_me" />
         <marker scope="Public" name="natsuki_jim_daddy_issues" />
+        <marker scope="Public" name="natsuki_jura_adult_envy" />
+        <marker scope="Public" name="natsuki_jura_an_adult_not_cute" />
+        <marker scope="Public" name="natsuki_jura_bit_too_cute" />
+        <marker scope="Public" name="natsuki_jura_comfy_underwear" />
+        <marker scope="Public" name="natsuki_jura_early_2000s" />
+        <marker scope="Public" name="natsuki_jura_have_a_never_mind" />
+        <marker scope="Public" name="natsuki_jura_monika_not_dating" />
+        <marker scope="Public" name="natsuki_jura_not_superficial" />
+        <marker scope="Public" name="natsuki_jura_rags_on_anyone_else" />
         <marker scope="Public" name="natsuki_jura_seduction" />
+        <marker scope="Public" name="natsuki_jura_sorry_bimbo_fuck_you" />
+        <marker scope="Public" name="natsuki_jura_tips_on_being_sexy" />
         <marker scope="Public" name="natsuki_komi_01a" />
         <marker scope="Public" name="natsuki_komi_01b" />
         <marker scope="Public" name="natsuki_komi_02a" />
@@ -1368,6 +1383,7 @@
         <marker scope="Public" name="natsuki_laevy_mast_2" />
         <marker scope="Public" name="natsuki_laevy_mast_3" />
         <marker scope="Public" name="natsuki_laevy_mast_4" />
+        <marker scope="Public" name="natsuki_leaving_if_player_leaves" />
         <marker scope="Public" name="natsuki_leon_01" />
         <marker scope="Public" name="natsuki_leon_02" />
         <marker scope="Public" name="natsuki_leon_03" />
@@ -1516,6 +1532,7 @@
         <marker scope="Public" name="natsuki_meia_neighbour_of_friend" />
         <marker scope="Public" name="natsuki_meia_sightseeing" />
         <marker scope="Public" name="natsuki_meia_small_18" />
+        <marker scope="Public" name="natsuki_monika_is_good_at_cards" />
         <marker scope="Public" name="natsuki_monika_sayori_41" />
         <marker scope="Public" name="natsuki_monika_sayori_51" />
         <marker scope="Public" name="natsuki_monika_sayori_71" />
@@ -1590,6 +1607,7 @@
         <marker scope="Public" name="natsuki_nagisa_on_left_strip62" />
         <marker scope="Public" name="natsuki_nagisa_on_left_strip63" />
         <marker scope="Public" name="natsuki_nagisa_on_left_strip71" />
+        <marker scope="Public" name="natsuki_nagisa_on_left_strip72" />
         <marker scope="Public" name="natsuki_nagisa_on_left_strip73" />
         <marker scope="Public" name="natsuki_nagisa_on_left_strip73_both_nude" />
         <marker scope="Public" name="natsuki_nagisa_on_left_strip73_hairy" />
@@ -1769,6 +1787,7 @@
         <marker scope="Public" name="natsuki_pit_sayori_akko_21" />
         <marker scope="Public" name="natsuki_pit_sayori_akko_31" />
         <marker scope="Public" name="natsuki_pit_sayori_akko_41" />
+        <marker scope="Public" name="natsuki_play_a_few_rounds" />
         <marker scope="Public" name="natsuki_polly_02_sameage" />
         <marker scope="Public" name="natsuki_polly_02_selfassured" />
         <marker scope="Public" name="natsuki_polly_03" />
@@ -1860,6 +1879,8 @@
         <marker scope="Public" name="natsuki_rin_emi_sayori_13" />
         <marker scope="Public" name="natsuki_rin_game_start" />
         <marker scope="Public" name="natsuki_rinkah_aimee_not_scared" />
+        <marker scope="Public" name="natsuki_rinkah_finished_abs" />
+        <marker scope="Public" name="natsuki_rinkah_shoved_me_in_a_locker" />
         <marker scope="Public" name="natsuki_rita_estelle_poetry_emotions" />
         <marker scope="Public" name="natsuki_sabrina_streaming-chan_church2" />
         <marker scope="Public" name="natsuki_sabrina_streaming-chan_church3" />
@@ -2029,6 +2050,7 @@
         <marker scope="Public" name="natsuki_tomoko_wantsmell" />
         <marker scope="Public" name="natsuki_tomoko_weird_time" />
         <marker scope="Public" name="natsuki_tomoko_writes" />
+        <marker scope="Public" name="natsuki_torso_more_important" />
         <marker scope="Public" name="natsuki_twilight_01" />
         <marker scope="Public" name="natsuki_twilight_02" />
         <marker scope="Public" name="natsuki_twilight_03" />
@@ -2040,6 +2062,7 @@
         <marker scope="Public" name="natsuki_twilight_22" />
         <marker scope="Public" name="natsuki_twilight_23" />
         <marker scope="Public" name="natsuki_whats_all_this" />
+        <marker scope="Public" name="natsuki_why_are_we_doing_this" />
         <marker scope="Public" name="natsuki_why_playing_poker" />
         <marker scope="Public" name="natsuki_yuelia_boobenvy" />
         <marker scope="Public" name="natsuki_yuelia_boobenvy2" />

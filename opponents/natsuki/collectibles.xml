@@ -16,15 +16,13 @@ The design was clearly prepared with affection. </text>
 Redistribute the chest fat! 
 
 We have nothing to lose but our aerodynamics! </text>
-        <unlock>Defeat Natsuki and three small-chested women.</unlock>
+        <unlock>Defeat Natsuki and three other small-chested women.</unlock>
         <hide-details>true</hide-details>
     </collectible>
     <collectible id="natsuki_chibi" img="opponents/natsuki/collectible_chibi.png" thumbnail="opponents/natsuki/collectible_chibi.png">
         <title>Natsuki Chibi</title>
         <subtitle>Cute, Energtic, and Aggressively Tsundere</subtitle>
-        <text>Small in stature, but not in size
-
-
+        <text>Small in stature, but not in size. 
 Knitted from yarn, it's for you. Surprise.</text>
         <unlock>Introduce Natsuki to three other visual novel characters, then defeat all of them in the same game. </unlock>
         <hide-details>true</hide-details>
@@ -35,9 +33,10 @@ Knitted from yarn, it's for you. Surprise.</text>
         <text>Padded &lt;i&gt;and&lt;/i&gt; pushup. 
 
 Thrown at you in frustration. </text>
-        <unlock>Bully Natsuki with three large-chested women. </unlock>
-        <hidden>true</hidden>
+        <unlock>Defeat Natsuki and three large-chested women.</unlock>
         <hide-details>true</hide-details>
+        <wearable>true</wearable>
+        <clothing img="opponents/natsuki/collectible_bra.png" name="bra" generic="bra" position="upper" type="important" />
     </collectible>
     <collectible id="natsuki_manga" img="opponents/natsuki/collectible_manga.png" thumbnail="opponents/natsuki/collectible_manga.png">
         <title>Yagate Kimi ni Naru vol.1</title>
