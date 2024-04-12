@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<costume>
+    <id>yae_retro_ninja</id>
+    <label>Yae</label>
+    <tags>
+        <tag>alternative_skin</tag>
+    </tags>
+    <layers>6</layers>
+    <folder>opponents/reskins/yae_retro_ninja/</folder>
+    <wardrobe>
+        <clothing name="shorts" generic="underwear" position="lower" type="important" plural="true" />
+        <clothing name="shirt" generic="shirt" position="upper" type="minor" />
+        <clothing name="hair tie" generic="" position="head" type="extra" />
+        <clothing name="hanten" generic="" position="both" type="major" />
+        <clothing name="sash" generic="" position="waist" type="minor" />
+        <clothing name="shoes" generic="shoes" position="feet" type="minor" plural="true" />
+    </wardrobe>
+
+    <poses>
+        <pose id="game_over">
+            <sprite id="ninpo" src="reskins/yae_retro_ninja/#-ninpo.png" x="0" y="0" />
+            <sprite id="cloud" src="yae/ex-cloud.png" x="0" y="298" scalex="0" scaley="0" alpha="100" />
+            <sprite id="hulafront" delay="3" z="2" src="yae/ex-hulafront.png" x="154" y="0" scalex="1.3" scaley="1.4" alpha="0" />
+            <sprite id="hulafront(copy)" delay="3" z="-2" src="yae/ex-hulaback.png" x="154" y="0" scalex="1.3" scaley="1.4" alpha="0" />
+            <directive type="animation" id="ninpo" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/yae_retro_ninja/#-ninpo.png" x="0" />
+                <keyframe time="1.5" src="reskins/yae_retro_ninja/ex-oni.png" x="0" />
+                <keyframe time="3" x="0" />
+            </directive>
+            <directive type="animation" id="ninpo" delay="4" loop="true" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="0" />
+                <keyframe time="0.1199999" x="0" />
+                <keyframe time="0.25" x="0" />
+                <keyframe time="0.3800001" x="0" />
+                <keyframe time="0.5" x="0" />
+                <keyframe time="0.6199999" x="0" />
+                <keyframe time="0.75" x="0" />
+                <keyframe time="0.8800001" x="0" />
+            </directive>
+            <directive type="animation" id="ninpo" ease="smooth" interpolation="linear">
+                <keyframe time="0" y="0" />
+                <keyframe time="1.5" y="0" />
+                <keyframe time="3" y="0" />
+            </directive>
+            <directive type="animation" id="ninpo" delay="4" loop="true" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/yae_retro_ninja/ex-hula1.png" />
+                <keyframe time="0.1199999" src="reskins/yae_retro_ninja/ex-hula2.png" />
+                <keyframe time="0.25" src="reskins/yae_retro_ninja/ex-hula3.png" />
+                <keyframe time="0.3800001" src="reskins/yae_retro_ninja/ex-hula4.png" />
+                <keyframe time="0.5" src="reskins/yae_retro_ninja/ex-hula5.png" />
+                <keyframe time="0.6199999" src="reskins/yae_retro_ninja/ex-hula4.png" />
+                <keyframe time="0.75" src="reskins/yae_retro_ninja/ex-hula3.png" />
+                <keyframe time="0.8800001" src="reskins/yae_retro_ninja/ex-hula2.png" />
+            </directive>
+            <directive type="animation" id="cloud" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="0" y="298" scalex="0" scaley="0" alpha="100" />
+                <keyframe time="1" x="0" y="298" scalex="0" scaley="0" />
+                <keyframe time="1.5" x="0" y="298" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="1.62" x="0" y="298" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="2.5" scalex="0.7" scaley="0.7" alpha="0" />
+            </directive>
+            <directive type="animation" id="cloud" ease="linear" interpolation="none">
+                <keyframe time="0" src="yae/ex-cloud.png" />
+                <keyframe time="1" src="yae/ex-cloud.png" />
+                <keyframe time="1.5" src="yae/ex-cloud.png" />
+                <keyframe time="1.62" src="yae/ex-cloud.png" />
+            </directive>
+            <directive type="animation" id="hulafront" delay="3" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="154" scalex="1.3" scaley="1.4" alpha="0" />
+                <keyframe time="0.5" alpha="100" />
+            </directive>
+            <directive type="animation" id="hulafront" delay="4" loop="true" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="154" />
+                <keyframe time="0.1199999" x="77" />
+                <keyframe time="0.25" x="0" />
+                <keyframe time="0.3800001" x="-77" />
+                <keyframe time="0.5" x="-154" />
+                <keyframe time="0.6199999" x="-77" />
+                <keyframe time="0.75" x="0" />
+                <keyframe time="0.8800001" x="77" />
+            </directive>
+            <directive type="animation" id="hulafront" delay="3" ease="linear" interpolation="linear">
+                <keyframe time="0" y="0" />
+                <keyframe time="1" y="660" />
+            </directive>
+            <directive type="animation" id="hulafront(copy)" delay="3" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="154" scalex="1.3" scaley="1.4" alpha="0" />
+                <keyframe time="0.5" alpha="100" />
+            </directive>
+            <directive type="animation" id="hulafront(copy)" delay="4" loop="true" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="154" />
+                <keyframe time="0.1199999" x="77" />
+                <keyframe time="0.25" x="0" />
+                <keyframe time="0.3800001" x="-77" />
+                <keyframe time="0.5" x="-154" />
+                <keyframe time="0.6199999" x="-77" />
+                <keyframe time="0.75" x="0" />
+                <keyframe time="0.8800001" x="77" />
+            </directive>
+            <directive type="animation" id="hulafront(copy)" delay="3" ease="linear" interpolation="linear">
+                <keyframe time="0" y="0" />
+                <keyframe time="1" y="660" />
+            </directive>
+        </pose>
+        <pose id="ninpo_acro">
+            <sprite id="ninpo" src="reskins/yae_retro_ninja/#-ninpo.png" />
+            <sprite id="cloud" src="yae/ex-cloud.png" y="290" scalex="0" scaley="0" alpha="100" />
+            <sprite id="cloud(copy)" src="yae/ex-cloud.png" y="290" scalex="0" scaley="0" alpha="100" />
+            <directive type="animation" id="ninpo" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/yae_retro_ninja/#-ninpo.png" />
+                <keyframe time="1.5" src="reskins/yae_retro_ninja/ex-arobics.png" />
+                <keyframe time="5.5" src="reskins/yae_retro_ninja/#-ninpo.png" />
+                <keyframe time="7.5" src="reskins/yae_retro_ninja/#-ninpo.png" />
+            </directive>
+            <directive type="animation" id="cloud" ease="smooth" interpolation="linear">
+                <keyframe time="0" y="290" scalex="0" scaley="0" alpha="100" />
+                <keyframe time="1" scalex="0" scaley="0" />
+                <keyframe time="1.38" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="1.62" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="3" scalex="0.7" scaley="0.7" alpha="0" />
+            </directive>
+            <directive type="animation" id="cloud" ease="linear" interpolation="none">
+                <keyframe time="0" src="yae/ex-cloud.png" />
+                <keyframe time="1" src="yae/ex-cloud.png" />
+                <keyframe time="1.38" src="yae/ex-cloud.png" />
+                <keyframe time="1.62" src="yae/ex-cloud.png" />
+                <keyframe time="3" src="yae/ex-cloud.png" />
+            </directive>
+            <directive type="animation" id="cloud(copy)" ease="smooth" interpolation="linear">
+                <keyframe time="0" y="290" scalex="0" scaley="0" alpha="100" />
+                <keyframe time="5" scalex="0" scaley="0" />
+                <keyframe time="5.88" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="6.12" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="7.5" scalex="0.7" scaley="0.7" alpha="0" />
+            </directive>
+            <directive type="animation" id="cloud(copy)" ease="linear" interpolation="none">
+                <keyframe time="0" src="yae/ex-cloud.png" />
+                <keyframe time="5" src="yae/ex-cloud.png" />
+                <keyframe time="5.88" src="yae/ex-cloud.png" />
+                <keyframe time="6.12" src="yae/ex-cloud.png" />
+                <keyframe time="7.5" src="yae/ex-cloud.png" />
+            </directive>
+        </pose>
+        <pose id="ninpo_bunshin">
+            <sprite id="ninpo" src="reskins/yae_retro_ninja/#-ninpo.png" />
+            <sprite id="cloud" src="yae/ex-cloud.png" y="290" scalex="0" scaley="0" alpha="100" />
+            <sprite id="cloud(copy)" src="yae/ex-cloud.png" y="290" scalex="0" scaley="0" alpha="100" />
+            <directive type="animation" id="ninpo" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/yae_retro_ninja/#-ninpo.png" />
+                <keyframe time="1.5" src="reskins/yae_retro_ninja/#-bunshin.png" />
+                <keyframe time="5.5" src="reskins/yae_retro_ninja/#-ninpo.png" />
+                <keyframe time="7.5" src="reskins/yae_retro_ninja/#-ninpo.png" />
+            </directive>
+            <directive type="animation" id="cloud" ease="smooth" interpolation="linear">
+                <keyframe time="0" y="290" scalex="0" scaley="0" alpha="100" />
+                <keyframe time="1" scalex="0" scaley="0" />
+                <keyframe time="1.38" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="1.62" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="3" scalex="0.7" scaley="0.7" alpha="0" />
+            </directive>
+            <directive type="animation" id="cloud" ease="linear" interpolation="none">
+                <keyframe time="0" src="yae/ex-cloud.png" />
+                <keyframe time="1" src="yae/ex-cloud.png" />
+                <keyframe time="1.38" src="yae/ex-cloud.png" />
+                <keyframe time="1.62" src="yae/ex-cloud.png" />
+                <keyframe time="3" src="yae/ex-cloud.png" />
+            </directive>
+            <directive type="animation" id="cloud(copy)" ease="smooth" interpolation="linear">
+                <keyframe time="0" y="290" scalex="0" scaley="0" alpha="100" />
+                <keyframe time="5" scalex="0" scaley="0" />
+                <keyframe time="5.88" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="6.12" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="7.5" scalex="0.7" scaley="0.7" alpha="0" />
+            </directive>
+            <directive type="animation" id="cloud(copy)" ease="linear" interpolation="none">
+                <keyframe time="0" src="yae/ex-cloud.png" />
+                <keyframe time="5" src="yae/ex-cloud.png" />
+                <keyframe time="5.88" src="yae/ex-cloud.png" />
+                <keyframe time="6.12" src="yae/ex-cloud.png" />
+                <keyframe time="7.5" src="yae/ex-cloud.png" />
+            </directive>
+        </pose>
+        <pose id="ninpo_cop">
+            <sprite id="ninpo" src="reskins/yae_retro_ninja/#-ninpo.png" />
+            <sprite id="cloud" src="yae/ex-cloud.png" y="290" scalex="0" scaley="0" alpha="100" />
+            <sprite id="cloud(copy)" src="yae/ex-cloud.png" y="290" scalex="0" scaley="0" alpha="100" />
+            <directive type="animation" id="ninpo" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/yae_retro_ninja/#-ninpo.png" />
+                <keyframe time="1.5" src="reskins/yae_retro_ninja/ex-cop.png" />
+                <keyframe time="5.5" src="reskins/yae_retro_ninja/#-ninpo.png" />
+                <keyframe time="7.5" src="reskins/yae_retro_ninja/#-ninpo.png" />
+            </directive>
+            <directive type="animation" id="cloud" ease="smooth" interpolation="linear">
+                <keyframe time="0" y="290" scalex="0" scaley="0" alpha="100" />
+                <keyframe time="1" scalex="0" scaley="0" />
+                <keyframe time="1.38" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="1.62" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="3" scalex="0.7" scaley="0.7" alpha="0" />
+            </directive>
+            <directive type="animation" id="cloud" ease="linear" interpolation="none">
+                <keyframe time="0" src="yae/ex-cloud.png" />
+                <keyframe time="1" src="yae/ex-cloud.png" />
+                <keyframe time="1.38" src="yae/ex-cloud.png" />
+                <keyframe time="1.62" src="yae/ex-cloud.png" />
+                <keyframe time="3" src="yae/ex-cloud.png" />
+            </directive>
+            <directive type="animation" id="cloud(copy)" ease="smooth" interpolation="linear">
+                <keyframe time="0" y="290" scalex="0" scaley="0" alpha="100" />
+                <keyframe time="5" scalex="0" scaley="0" />
+                <keyframe time="5.88" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="6.12" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="7.5" scalex="0.7" scaley="0.7" alpha="0" />
+            </directive>
+            <directive type="animation" id="cloud(copy)" ease="linear" interpolation="none">
+                <keyframe time="0" src="yae/ex-cloud.png" />
+                <keyframe time="5" src="yae/ex-cloud.png" />
+                <keyframe time="5.88" src="yae/ex-cloud.png" />
+                <keyframe time="6.12" src="yae/ex-cloud.png" />
+                <keyframe time="7.5" src="yae/ex-cloud.png" />
+            </directive>
+        </pose>
+        <pose id="ninpo_gymnast">
+            <sprite id="ninpo" src="reskins/yae_retro_ninja/#-ninpo.png" />
+            <sprite id="cloud" src="yae/ex-cloud.png" y="290" scalex="0" scaley="0" alpha="100" />
+            <sprite id="cloud(copy)" src="yae/ex-cloud.png" y="290" scalex="0" scaley="0" alpha="100" />
+            <directive type="animation" id="ninpo" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/yae_retro_ninja/#-ninpo.png" />
+                <keyframe time="1.5" src="reskins/yae_retro_ninja/ex-gymnist.png" />
+                <keyframe time="5.5" src="reskins/yae_retro_ninja/#-ninpo.png" />
+                <keyframe time="7.5" src="reskins/yae_retro_ninja/#-ninpo.png" />
+            </directive>
+            <directive type="animation" id="cloud" ease="smooth" interpolation="linear">
+                <keyframe time="0" y="290" scalex="0" scaley="0" alpha="100" />
+                <keyframe time="1" scalex="0" scaley="0" />
+                <keyframe time="1.38" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="1.62" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="3" scalex="0.7" scaley="0.7" alpha="0" />
+            </directive>
+            <directive type="animation" id="cloud" ease="linear" interpolation="none">
+                <keyframe time="0" src="yae/ex-cloud.png" />
+                <keyframe time="1" src="yae/ex-cloud.png" />
+                <keyframe time="1.38" src="yae/ex-cloud.png" />
+                <keyframe time="1.62" src="yae/ex-cloud.png" />
+                <keyframe time="3" src="yae/ex-cloud.png" />
+            </directive>
+            <directive type="animation" id="cloud(copy)" ease="smooth" interpolation="linear">
+                <keyframe time="0" y="290" scalex="0" scaley="0" alpha="100" />
+                <keyframe time="5" scalex="0" scaley="0" />
+                <keyframe time="5.88" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="6.12" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="7.5" scalex="0.7" scaley="0.7" alpha="0" />
+            </directive>
+            <directive type="animation" id="cloud(copy)" ease="linear" interpolation="none">
+                <keyframe time="0" src="yae/ex-cloud.png" />
+                <keyframe time="5" src="yae/ex-cloud.png" />
+                <keyframe time="5.88" src="yae/ex-cloud.png" />
+                <keyframe time="6.12" src="yae/ex-cloud.png" />
+                <keyframe time="7.5" src="yae/ex-cloud.png" />
+            </directive>
+        </pose>
+        <pose id="ninpo_maid">
+            <sprite id="ninpo" src="reskins/yae_retro_ninja/#-ninpo.png" />
+            <sprite id="cloud" src="yae/ex-cloud.png" y="290" scalex="0" scaley="0" alpha="100" />
+            <sprite id="cloud(copy)" src="yae/ex-cloud.png" y="290" scalex="0" scaley="0" alpha="100" />
+            <directive type="animation" id="ninpo" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/yae_retro_ninja/#-ninpo.png" />
+                <keyframe time="1.5" src="reskins/yae_retro_ninja/ex-maid.png" />
+                <keyframe time="5.5" src="reskins/yae_retro_ninja/#-ninpo.png" />
+                <keyframe time="7.5" src="reskins/yae_retro_ninja/#-ninpo.png" />
+            </directive>
+            <directive type="animation" id="cloud" ease="smooth" interpolation="linear">
+                <keyframe time="0" y="290" scalex="0" scaley="0" alpha="100" />
+                <keyframe time="1" scalex="0" scaley="0" />
+                <keyframe time="1.38" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="1.62" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="3" scalex="0.7" scaley="0.7" alpha="0" />
+            </directive>
+            <directive type="animation" id="cloud" ease="linear" interpolation="none">
+                <keyframe time="0" src="yae/ex-cloud.png" />
+                <keyframe time="1" src="yae/ex-cloud.png" />
+                <keyframe time="1.38" src="yae/ex-cloud.png" />
+                <keyframe time="1.62" src="yae/ex-cloud.png" />
+                <keyframe time="3" src="yae/ex-cloud.png" />
+            </directive>
+            <directive type="animation" id="cloud(copy)" ease="smooth" interpolation="linear">
+                <keyframe time="0" y="290" scalex="0" scaley="0" alpha="100" />
+                <keyframe time="5" scalex="0" scaley="0" />
+                <keyframe time="5.88" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="6.12" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="7.5" scalex="0.7" scaley="0.7" alpha="0" />
+            </directive>
+            <directive type="animation" id="cloud(copy)" ease="linear" interpolation="none">
+                <keyframe time="0" src="yae/ex-cloud.png" />
+                <keyframe time="5" src="yae/ex-cloud.png" />
+                <keyframe time="5.88" src="yae/ex-cloud.png" />
+                <keyframe time="6.12" src="yae/ex-cloud.png" />
+                <keyframe time="7.5" src="yae/ex-cloud.png" />
+            </directive>
+        </pose>
+        <pose id="ninpo_onepiece">
+            <sprite id="ninpo" src="reskins/yae_retro_ninja/#-ninpo.png" />
+            <sprite id="cloud" src="yae/ex-cloud.png" y="290" scalex="0" scaley="0" alpha="100" />
+            <sprite id="cloud(copy)" src="yae/ex-cloud.png" y="290" scalex="0" scaley="0" alpha="100" />
+            <directive type="animation" id="ninpo" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/yae_retro_ninja/#-ninpo.png" />
+                <keyframe time="1.5" src="reskins/yae_retro_ninja/ex-schoolswimsuit.png" />
+                <keyframe time="5.5" src="reskins/yae_retro_ninja/#-ninpo.png" />
+                <keyframe time="7.5" src="reskins/yae_retro_ninja/#-ninpo.png" />
+            </directive>
+            <directive type="animation" id="cloud" ease="smooth" interpolation="linear">
+                <keyframe time="0" y="290" scalex="0" scaley="0" alpha="100" />
+                <keyframe time="1" scalex="0" scaley="0" />
+                <keyframe time="1.38" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="1.62" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="3" scalex="0.7" scaley="0.7" alpha="0" />
+            </directive>
+            <directive type="animation" id="cloud" ease="linear" interpolation="none">
+                <keyframe time="0" src="yae/ex-cloud.png" />
+                <keyframe time="1" src="yae/ex-cloud.png" />
+                <keyframe time="1.38" src="yae/ex-cloud.png" />
+                <keyframe time="1.62" src="yae/ex-cloud.png" />
+                <keyframe time="3" src="yae/ex-cloud.png" />
+            </directive>
+            <directive type="animation" id="cloud(copy)" ease="smooth" interpolation="linear">
+                <keyframe time="0" y="290" scalex="0" scaley="0" alpha="100" />
+                <keyframe time="5" scalex="0" scaley="0" />
+                <keyframe time="5.88" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="6.12" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="7.5" scalex="0.7" scaley="0.7" alpha="0" />
+            </directive>
+            <directive type="animation" id="cloud(copy)" ease="linear" interpolation="none">
+                <keyframe time="0" src="yae/ex-cloud.png" />
+                <keyframe time="5" src="yae/ex-cloud.png" />
+                <keyframe time="5.88" src="yae/ex-cloud.png" />
+                <keyframe time="6.12" src="yae/ex-cloud.png" />
+                <keyframe time="7.5" src="yae/ex-cloud.png" />
+            </directive>
+        </pose>
+        <pose id="ninpo_sauna">
+            <sprite id="ninpo" src="reskins/yae_retro_ninja/#-ninpo.png" />
+            <sprite id="cloud" src="yae/ex-cloud.png" y="290" scalex="0" scaley="0" alpha="100" />
+            <sprite id="cloud(copy)" src="yae/ex-cloud.png" y="290" scalex="0" scaley="0" alpha="100" />
+            <directive type="animation" id="ninpo" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/yae_retro_ninja/#-ninpo.png" />
+                <keyframe time="1.5" src="reskins/yae_retro_ninja/ex-spa.png" />
+                <keyframe time="5.5" src="reskins/yae_retro_ninja/#-ninpo.png" />
+                <keyframe time="7.5" src="reskins/yae_retro_ninja/#-ninpo.png" />
+            </directive>
+            <directive type="animation" id="cloud" ease="smooth" interpolation="linear">
+                <keyframe time="0" y="290" scalex="0" scaley="0" alpha="100" />
+                <keyframe time="1" scalex="0" scaley="0" />
+                <keyframe time="1.38" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="1.62" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="3" scalex="0.7" scaley="0.7" alpha="0" />
+            </directive>
+            <directive type="animation" id="cloud" ease="linear" interpolation="none">
+                <keyframe time="0" src="yae/ex-cloud.png" />
+                <keyframe time="1" src="yae/ex-cloud.png" />
+                <keyframe time="1.38" src="yae/ex-cloud.png" />
+                <keyframe time="1.62" src="yae/ex-cloud.png" />
+                <keyframe time="3" src="yae/ex-cloud.png" />
+            </directive>
+            <directive type="animation" id="cloud(copy)" ease="smooth" interpolation="linear">
+                <keyframe time="0" y="290" scalex="0" scaley="0" alpha="100" />
+                <keyframe time="5" scalex="0" scaley="0" />
+                <keyframe time="5.88" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="6.12" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="7.5" scalex="0.7" scaley="0.7" alpha="0" />
+            </directive>
+            <directive type="animation" id="cloud(copy)" ease="linear" interpolation="none">
+                <keyframe time="0" src="yae/ex-cloud.png" />
+                <keyframe time="5" src="yae/ex-cloud.png" />
+                <keyframe time="5.88" src="yae/ex-cloud.png" />
+                <keyframe time="6.12" src="yae/ex-cloud.png" />
+                <keyframe time="7.5" src="yae/ex-cloud.png" />
+            </directive>
+        </pose>
+        <pose id="ninpo_school">
+            <sprite id="ninpo" src="reskins/yae_retro_ninja/#-ninpo.png" />
+            <sprite id="cloud" src="yae/ex-cloud.png" y="290" scalex="0" scaley="0" alpha="100" />
+            <sprite id="cloud(copy)" src="yae/ex-cloud.png" y="290" scalex="0" scaley="0" alpha="100" />
+            <directive type="animation" id="ninpo" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/yae_retro_ninja/#-ninpo.png" />
+                <keyframe time="1.5" src="reskins/yae_retro_ninja/ex-sailorfuku.png" />
+                <keyframe time="5.5" src="reskins/yae_retro_ninja/#-ninpo.png" />
+                <keyframe time="7.5" src="reskins/yae_retro_ninja/#-ninpo.png" />
+            </directive>
+            <directive type="animation" id="cloud" ease="smooth" interpolation="linear">
+                <keyframe time="0" y="290" scalex="0" scaley="0" alpha="100" />
+                <keyframe time="1" scalex="0" scaley="0" />
+                <keyframe time="1.38" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="1.62" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="3" scalex="0.7" scaley="0.7" alpha="0" />
+            </directive>
+            <directive type="animation" id="cloud" ease="linear" interpolation="none">
+                <keyframe time="0" src="yae/ex-cloud.png" />
+                <keyframe time="1" src="yae/ex-cloud.png" />
+                <keyframe time="1.38" src="yae/ex-cloud.png" />
+                <keyframe time="1.62" src="yae/ex-cloud.png" />
+                <keyframe time="3" src="yae/ex-cloud.png" />
+            </directive>
+            <directive type="animation" id="cloud(copy)" ease="smooth" interpolation="linear">
+                <keyframe time="0" y="290" scalex="0" scaley="0" alpha="100" />
+                <keyframe time="5" scalex="0" scaley="0" />
+                <keyframe time="5.88" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="6.12" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="7.5" scalex="0.7" scaley="0.7" alpha="0" />
+            </directive>
+            <directive type="animation" id="cloud(copy)" ease="linear" interpolation="none">
+                <keyframe time="0" src="yae/ex-cloud.png" />
+                <keyframe time="5" src="yae/ex-cloud.png" />
+                <keyframe time="5.88" src="yae/ex-cloud.png" />
+                <keyframe time="6.12" src="yae/ex-cloud.png" />
+                <keyframe time="7.5" src="yae/ex-cloud.png" />
+            </directive>
+        </pose>
+        <pose id="ninpo_yeehaw">
+            <sprite id="ninpo" src="reskins/yae_retro_ninja/#-ninpo.png" />
+            <sprite id="cloud" src="yae/ex-cloud.png" y="290" scalex="0" scaley="0" alpha="100" />
+            <sprite id="cloud(copy)" src="yae/ex-cloud.png" y="290" scalex="0" scaley="0" alpha="100" />
+            <directive type="animation" id="ninpo" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/yae_retro_ninja/#-ninpo.png" />
+                <keyframe time="1.5" src="reskins/yae_retro_ninja/ex-yeehaw.png" />
+                <keyframe time="5.5" src="reskins/yae_retro_ninja/#-ninpo.png" />
+                <keyframe time="7.5" src="reskins/yae_retro_ninja/#-ninpo.png" />
+            </directive>
+            <directive type="animation" id="cloud" ease="smooth" interpolation="linear">
+                <keyframe time="0" y="290" scalex="0" scaley="0" alpha="100" />
+                <keyframe time="1" scalex="0" scaley="0" />
+                <keyframe time="1.38" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="1.62" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="3" scalex="0.7" scaley="0.7" alpha="0" />
+            </directive>
+            <directive type="animation" id="cloud" ease="linear" interpolation="none">
+                <keyframe time="0" src="yae/ex-cloud.png" />
+                <keyframe time="1" src="yae/ex-cloud.png" />
+                <keyframe time="1.38" src="yae/ex-cloud.png" />
+                <keyframe time="1.62" src="yae/ex-cloud.png" />
+                <keyframe time="3" src="yae/ex-cloud.png" />
+            </directive>
+            <directive type="animation" id="cloud(copy)" ease="smooth" interpolation="linear">
+                <keyframe time="0" y="290" scalex="0" scaley="0" alpha="100" />
+                <keyframe time="5" scalex="0" scaley="0" />
+                <keyframe time="5.88" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="6.12" scalex="1" scaley="1.9" alpha="100" />
+                <keyframe time="7.5" scalex="0.7" scaley="0.7" alpha="0" />
+            </directive>
+            <directive type="animation" id="cloud(copy)" ease="linear" interpolation="none">
+                <keyframe time="0" src="yae/ex-cloud.png" />
+                <keyframe time="5" src="yae/ex-cloud.png" />
+                <keyframe time="5.88" src="yae/ex-cloud.png" />
+                <keyframe time="6.12" src="yae/ex-cloud.png" />
+                <keyframe time="7.5" src="yae/ex-cloud.png" />
+            </directive>
+        </pose>
+    </poses>
+
+</costume>
