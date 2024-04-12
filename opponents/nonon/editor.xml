@@ -70,15 +70,15 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <label id="20" label="Quiet" folder="" sort="0" />
         <label id="22" label="Butt1" folder="" sort="0" />
         <label id="23" label="That damned monkey" folder="" sort="0" />
-        <label id="24" label="Player" folder="" sort="0" />
-        <label id="25" label="Player" folder="" sort="0" />
-        <label id="26" label="Player" folder="" sort="0" />
-        <label id="27" label="Player" folder="" sort="0" />
+        <label id="24" label="Player" folder="Majorette" sort="0" />
+        <label id="25" label="Player" folder="Majorette" sort="0" />
+        <label id="26" label="Player" folder="Majorette" sort="0" />
+        <label id="27" label="Player" folder="Majorette" sort="0" />
         <label id="28" label="Player" folder="" sort="0" />
-        <label id="29" label="Player" folder="" sort="0" />
-        <label id="30" label="Player" folder="" sort="0" />
+        <label id="29" label="Player" folder="Majorette" sort="0" />
+        <label id="30" label="Player" folder="Majorette" sort="0" />
         <label id="31" label="Butt" folder="Butt" sort="2" />
-        <label id="32" label="Player" folder="" sort="0" />
+        <label id="32" label="Player" folder="Majorette" sort="0" />
         <label id="33" label="Player" folder="" sort="0" />
         <label id="34" label="Player" folder="" sort="0" />
         <label id="35" label="Player" folder="" sort="0" />
@@ -779,7 +779,7 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <label id="788" label="" color="1" folder="Reply_Stage0" sort="0" />
         <label id="789" label="" color="3" folder="Target_Stage0" sort="91" />
         <label id="790" label="" folder="Target_Stage0" sort="92" />
-        <label id="791" label="" color="5" folder="Target_Stage1" sort="24" />
+        <label id="791" label="" folder="Target_Stage1" sort="24" />
         <label id="792" label="" folder="Reply_Stage0" sort="21" />
         <label id="793" label="" folder="Reply_Stage0" sort="22" />
         <label id="794" label="" color="12" folder="Target_Stage2" sort="11" />
@@ -950,19 +950,70 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <label id="969" label="" color="5" folder="Target_Stage2" sort="0" />
         <label id="970" label="" color="5" folder="Target_Stage3" sort="0" />
         <label id="971" label="" folder="Target_Stage3" sort="0" />
-        <label id="972" label="" color="5" folder="Reply_Stage4" sort="0" />
-        <label id="973" label="" color="5" folder="Reply_Stage4" sort="0" />
-        <label id="974" label="" color="5" folder="Reply_Stage4" sort="0" />
-        <label id="975" label="" color="5" folder="Reply_Stage5" sort="0" />
+        <label id="972" label="" folder="Reply_Stage4" sort="0" />
+        <label id="973" label="" folder="Reply_Stage4" sort="0" />
+        <label id="974" label="" folder="Reply_Stage4" sort="0" />
+        <label id="975" label="" folder="Reply_Stage5" sort="0" />
         <label id="976" label="" color="5" folder="Target_Stage5" sort="0" />
         <label id="977" label="" color="5" folder="Target_Stage4" sort="0" />
         <label id="978" label="" color="5" folder="Target_Stage6" sort="0" />
-        <label id="979" label="" color="3" folder="Reply_Stage2" sort="0" />
-        <label id="980" label="" color="3" folder="Reply_Stage3" sort="0" />
+        <label id="979" label="" folder="Reply_Stage2" sort="0" />
+        <label id="980" label="" folder="Reply_Stage3" sort="0" />
         <label id="981" label="" folder="Reply_Stage5" sort="0" />
         <label id="982" label="" color="4" folder="Target_Stage3" sort="0" />
+        <label id="983" label="" folder="Losing" sort="0" />
+        <label id="986" label="" folder="Nudist_Beach" sort="0" />
+        <label id="985" label="" folder="Nudist_Beach" sort="0" />
+        <label id="987" label="" folder="Nudist_Beach" sort="0" />
+        <label id="988" label="" folder="Nudist_Beach" sort="0" />
+        <label id="989" label="" folder="Nudist_Beach" sort="0" />
+        <label id="991" label="" folder="Nudist_Beach" sort="0" />
+        <label id="993" label="" folder="Nudist_Beach" sort="0" />
+        <label id="996" label="" folder="Nudist_Beach" sort="0" />
+        <label id="997" label="" folder="Nudist_Beach" sort="0" />
+        <label id="998" label="" folder="Nudist_Beach" sort="0" />
+        <label id="999" label="" folder="Nudist_Beach" sort="0" />
+        <label id="1000" label="" folder="Nudist_Beach" sort="0" />
+        <label id="1001" label="" folder="Nudist_Beach" sort="0" />
+        <label id="1002" label="" folder="Nudist_Beach" sort="0" />
+        <label id="1003" label="" folder="Nudist_Beach" sort="0" />
+        <label id="1004" label="" folder="Nudist_Beach" sort="0" />
+        <label id="1005" label="" folder="Nudist_Beach" sort="0" />
+        <label id="1006" label="" folder="Nudist_Beach" sort="0" />
+        <label id="1007" label="" folder="Nudist_Beach" sort="0" />
+        <label id="1008" label="" folder="Nudist_Beach" sort="0" />
+        <label id="1009" label="" folder="Goku_Uniform" sort="0" />
+        <label id="1010" label="" folder="Goku_Uniform" sort="0" />
+        <label id="1011" label="" folder="Goku_Uniform" sort="0" />
+        <label id="1012" label="" folder="Nudist_Beach" sort="0" />
+        <label id="1013" label="Player" folder="" sort="0" />
+        <label id="1014" label="" folder="Majorette" sort="0" />
+        <label id="1015" label="" folder="Majorette" sort="0" />
+        <label id="1016" label="" folder="Majorette" sort="0" />
+        <label id="1017" label="" folder="Target_Stage0" sort="0" />
+        <label id="1018" label="" folder="Majorette" sort="0" />
+        <label id="1019" label="" color="5" folder="Target_Stage0" sort="0" />
+        <label id="1020" label="" folder="Majorette" sort="0" />
+        <label id="1021" label="" folder="Nudist_Beach" sort="0" />
+        <label id="1022" label="Player" folder="Nudist_Beach" sort="0" />
+        <label id="1023" label="Player" folder="Nudist_Beach" sort="0" />
+        <label id="1024" label="Player" folder="Nudist_Beach" sort="0" />
+        <label id="1025" label="" folder="Nudist_Beach" sort="0" />
+        <label id="1026" label="Player" folder="Nudist_Beach" sort="0" />
+        <label id="1027" label="Player" folder="Nudist_Beach" sort="0" />
+        <label id="1028" label="Player" folder="Nudist_Beach" sort="0" />
+        <label id="1029" label="Player" folder="Nudist_Beach" sort="0" />
+        <label id="1030" label="" folder="Nudist_Beach" sort="0" />
+        <label id="1031" label="" folder="Nudist_Beach" sort="0" />
+        <label id="1032" label="" folder="Nudist_Beach" sort="0" />
+        <label id="1033" label="" color="5" folder="Target_Stage1" sort="0" />
+        <label id="1034" label="" color="5" folder="Reply_Stage4" sort="0" />
+        <label id="1035" label="" color="5" folder="Reply_Stage4" sort="0" />
+        <label id="1036" label="" color="5" folder="Reply_Stage4" sort="0" />
+        <label id="1037" label="" color="5" folder="Reply_Stage4" sort="0" />
+        <label id="1038" label="" color="5" folder="Reply_Stage5" sort="0" />
     </labels>
-    <nextId>982</nextId>
+    <nextId>1038</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="adrien01" />
@@ -1095,6 +1146,7 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <marker scope="Public" name="fluttershy32" />
         <marker scope="Public" name="get_dressed" />
         <marker scope="Public" name="goku_uniform" />
+        <marker scope="Public" name="goku_uniform_on" />
         <marker scope="Public" name="heavy01" />
         <marker scope="Public" name="heavy02" />
         <marker scope="Public" name="heavy03" />
@@ -1241,6 +1293,7 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <marker scope="Public" name="lysithea03" />
         <marker scope="Public" name="lysithea11" />
         <marker scope="Public" name="lysithea12" />
+        <marker scope="Public" name="lysithea13" />
         <marker scope="Public" name="lysithea21" />
         <marker scope="Public" name="lysithea21a" />
         <marker scope="Public" name="lysithea22" />
@@ -1585,7 +1638,11 @@ She could call out Nonon's surprise saying how she was the one who wanted her to
         <marker scope="Public" name="reply_lysithea41a" />
         <marker scope="Public" name="reply_lysithea41b" />
         <marker scope="Public" name="reply_lysithea41c" />
+        <marker scope="Public" name="reply_lysithea42a" />
+        <marker scope="Public" name="reply_lysithea42b" />
+        <marker scope="Public" name="reply_lysithea42c" />
         <marker scope="Public" name="reply_lysithea51" />
+        <marker scope="Public" name="reply_lysithea52" />
         <marker scope="Public" name="reply_meia01" />
         <marker scope="Public" name="reply_meia02" />
         <marker scope="Public" name="reply_meia03" />
