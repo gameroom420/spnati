@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1712478847367</lastupdate>
+    <lastupdate>1712903190496</lastupdate>
     <enabled>false</enabled>
     <first>Nonon</first>
     <last>Jakuzure</last>
@@ -14,13 +14,12 @@
     <layers>6</layers>
     <default-costume-name>Majorette</default-costume-name>
     <alternates>
-        <costume folder="opponents/reskins/nonon_nudist_beach/" img="0-portrait.png" status="unlisted" label="Nonon" layers="5">Nudist Beach</costume>
         <costume folder="opponents/reskins/nonon_nudist_beach/" img="0-annoyed.png" status="unlisted" label="Nonon" layers="5">Nudist Beach</costume>
         <costume folder="opponents/reskins/nonon_da_capo/" status="unlisted" label="Nonon">Da Capo</costume>
         <costume folder="opponents/reskins/nonon_track_suit/" status="unlisted" label="Nonon">Track Suit</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>1792</lines>
-    <poses>368</poses>
+    <lines>1848</lines>
+    <poses>380</poses>
     <dialogue-layer>over</dialogue-layer>
 </opponent>
