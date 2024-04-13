@@ -14,8 +14,6 @@
     <description>The Chosen One, Buffy has been granted the power to fight vampires and save the world. But deep down, she just wants to be a regular girl whose biggest problem is losing at strip poker.</description>
     <epilogue gender="any" img="buffybot_01.png">[PG] Buffybot</epilogue>
     <layers>8</layers>
-    <has_collectibles>false</has_collectibles>
     <lines>986</lines>
     <poses>99</poses>
-    <release>48</release>
 </opponent>
