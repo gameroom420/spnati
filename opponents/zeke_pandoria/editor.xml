@@ -157,6 +157,7 @@
         <response id="678" opponent="aoi_asahina" opponentId="211" />
         <response id="710" opponent="nonon" opponentId="119" />
         <response id="711" opponent="jura" opponentId="1599" />
+        <response id="718" opponent="giygas" opponentId="210" />
     </responses>
     <notes>
         <note id="10">If you want to ask Pandoria / Pandy questions, you could draw attention to the fact that some of her body parts are lightbulbs, such as a lightbulb in her head.. and her tail. Her specific race is known as a "Blade".</note>
@@ -887,12 +888,28 @@
         <label id="704" label="" folder="Targets" sort="0" />
         <label id="710" label="" folder="Targets" sort="0" />
         <label id="711" label="" folder="Responses" sort="0" />
+        <label id="712" label="" folder="Articles of Clothing" sort="0" />
+        <label id="713" label="" color="13" folder="Eye of Shining Justice Mode" sort="0" />
+        <label id="714" label="" color="13" folder="Eye of Shining Justice Mode" sort="0" />
+        <label id="715" label="" folder="Eye of Shining Justice Mode" sort="0" />
+        <label id="716" label="" folder="Eye of Shining Justice Mode" sort="0" />
+        <label id="717" label="" folder="Eye of Shining Justice Mode" sort="0" />
+        <label id="718" label="" folder="Targets&gt;AF&gt;GIYGAS" sort="0" />
+        <label id="719" label="" folder="Player Names" sort="0" />
+        <label id="720" label="" folder="Eye of Shining Justice Mode" sort="0" />
+        <label id="721" label="" folder="Player Names" sort="0" />
+        <label id="722" label="" folder="Player Names" sort="0" />
+        <label id="723" label="" color="13" folder="Eye of Shining Justice Mode" sort="0" />
+        <label id="724" label="" folder="Eye of Shining Justice Mode" sort="0" />
+        <label id="725" label="" folder="Eye of Shining Justice Mode" sort="0" />
+        <label id="726" label="" folder="Eye of Shining Justice Mode" sort="0" />
     </labels>
     <posePreviewMarkers>
-        <posePreviewMarker>penis=h</posePreviewMarker>
+        <posePreviewMarker>penis==h</posePreviewMarker>
+        <posePreviewMarker>EyeOfShiningJustice=1</posePreviewMarker>
     </posePreviewMarkers>
     <onlyCustomPoses>true</onlyCustomPoses>
-    <nextId>711</nextId>
+    <nextId>726</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="allowsex">If set to 1, Zeke and Pandoria *can* (but are not guaranteed to) have sex for their forfeit.</marker>
@@ -916,7 +933,10 @@
         <marker scope="Public" name="eichi_eattherichResp" />
         <marker scope="Public" name="eichi_spnatihellResp" />
         <marker scope="Public" name="elizabeth_forfeit_react1" />
-        <marker scope="Public" name="EyeOfShiningJustice">If active, Zeke is in EOSJ mode.</marker>
+        <marker scope="Public" name="EOSJ_broken1" />
+        <marker scope="Public" name="EOSJ_broken2" />
+        <marker scope="Public" name="EyeOfShiningJustice">If active, Zeke is in EOSJ mode. Makes his AI best. Turns itself off if he starts forfeiting.</marker>
+        <marker scope="Public" name="EyeOfShiningJusticeEnd" />
         <marker scope="Public" name="eyepatch_copyright" />
         <marker scope="Public" name="filtered_enf_prompt1" />
         <marker scope="Public" name="finishing_pandoria" />
