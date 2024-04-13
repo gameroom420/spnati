@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1711933825194</lastupdate>
+    <lastupdate>1712970206262</lastupdate>
     <enabled>false</enabled>
     <first>Rosa</first>
     <last />
@@ -26,6 +26,6 @@
         <costume folder="opponents/reskins/rosa_hero/" img="0-portrait.png" set="april_fools" label="Lucario Girl" layers="6">Marvellous Lucario Girl</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>2335</lines>
+    <lines>2340</lines>
     <poses>187</poses>
 </opponent>
