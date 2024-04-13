@@ -144,7 +144,7 @@ Sanako [sanako_jura_js_s1]: You've got an eye for these kinds of things, don't y
 SANAKO STRIPPING SHOES AND SOCKS:
 Jura [sanako01]: Ugh, I know <i>that</i> feeling.  There were a couple years where my mom couldn't buy me new bras fast enough.
   OR [sanako01]: ...<i>Hoohn,</i> memories.  <i>I</i> was bursting through every bra I got for a while.  Mom was proud <i>and</i> annoyed...
-Sanako [sanako_jura_js_s2]: It's easy to see why she was proud of you. You blossomed into a a lovely young woman.
+Sanako [sanako_jura_js_s2]: It's easy to see why she was proud of you. You blossomed into a lovely young woman.
 
 SANAKO STRIPPED SHOES AND SOCKS:
 Jura [sanako1s]: <i>Ahhh,</i> thank you...you're pretty, too.  If you're all settled in, we should focus on how <i>grown-up</i> we've become...
@@ -164,36 +164,40 @@ Sanako [sanako_jura_js_s5]: Showing some vulnerability can help bring you closer
 -- Note: Sanako does not currently have a good stripping pose for this line, so this pose will be swapped out in the future.
 
 SANAKO STRIPPED SHIRT:
-Jura []*: ??
-Sanako [sanako_jura_js_s6]*: ??
+Jura [sanako2s]: <i>No problem there!</i>  Jura shows you her heart, and then mushes you into it.  Barnette can attest...
+  OR [sanako2s]: <i>Haahhnn...</i>it's true.  Barnette and I fell in love after a rough crash together.  She was flying too close, you see...now I <i>pull her close.</i>
+Sanako [sanako_jura_js_s6]: There's no disagreement a good cuddle can't fix.
 
 
 SANAKO MUST STRIP SKIRT:
 Jura [sanako2]: <i>Heeey,</i> you've got to tell me what the <i>dating scene</i> is like in an Earth school.  Are you <i>involved?</i><br>...Wait, are <i>men</i> involved?
   OR [sanako2]: So when you roam the corridors of an Earth school, what kinds of <i>relationships</i> do you see, huh?  Have you found one for <i>yourself?</i>
-Sanako []*: ??
+Sanako [sanako_jura_js_s7]: Oho, you want to know about schoolyard romance, Jura? Let's just say I met a boy in senior year and things have gotten pretty serious...
 
 SANAKO STRIPPING SKIRT:
-Jura []*: ??
-Sanako []*: ??
+Jura [sanako23]: <i>Serious?</i>  So why isn't he here with you?
+  OR [sanako23]: Really?  This is a pretty racy place to come to alone, then.  Don't men care about that?
+Sanako [sanako_jura_js_s8]: Men tend to get pretty jealous about anyone else seeing their lady in her underthings. What he doesn't know won't hurt him.
 
 SANAKO STRIPPED SKIRT:
-Jura []*: ??
-Sanako []*: ??
+Jura [sanako3s]: <i>Sanako!</i>  I can't believe I feel <i>bad</i> for a man...couldn't you two have maybe looked for some fun <i>together?</i>
+  OR [sanako3s]: It most certainly <i>could!</i>  Jura would be <i>torn apart</i> if I got fooled around on!  And if I found a pretty girl to play with, Barnette would get to play, too...
+Sanako [sanako_jura_js_s9]: I'm not going to do anything I should be ashamed of. I love him with all my heart forever, but he doesn't understand what it takes for a woman to feel beautiful, you know?
 
 
 SANAKO MUST STRIP BRA:
 Jura [sanako3]: You shouldn't stay <i>too</i> sweet all ~background.time~, you know.  It's OK to show us a little <i>spice.</i>
   OR [sanako3]: I'm sure all your classmates love you for being the level-headed one, but too much sugar can make you sick.  Do you have any <i>salt</i> for us?
-Sanako []*: ??
+Sanako [sanako_jura_js_s10]: Jura... are you asking me to do something erotic? How bold!
 
 SANAKO STRIPPING BRA:
-Jura []*: ??
-Sanako []*: ??
+Jura [sanako34]: Well, what I meant was getting <i>mad.</i>  There's no way you approve of each and every thing around you.  Think about that while you're getting <i>erotic.</i>
+  OR [sanako34]: I think <i>erotic</i> will be covered by going topless.  You're so <i>nice,</i> is what I mean.  What's something you just can't stand?
+Sanako [sanako_jura_js_s11]: You just have to focus on what you <i>can</i> control, not what you cant. And if you every <i>have</i> to cry, my mom always told me it should be in the bathroom or in my daddy's arms.
 
 SANAKO STRIPPED BRA:
 Jura []*: ??
-Sanako []*: ??
+Sanako [sanako_jura_js_s12]*: ??
 
 
 SANAKO MUST STRIP PANTIES:
@@ -227,12 +231,14 @@ Jura [sanako_resp1s_right]: ...<i>Hmmn,</i> you made Barnette mad.  Well, anyway
 Sanako [sanako_jura_js_j3]: I'm sorry. I didn't mean to offend. Jura, please apologise to Miss Barnette on my behalf.
 
 HAND AFTER JURA STRIPPED SWORD
-Jura []*: ??
-Sanako []*: ?? -- Sanako might be a little upset for a moment here, but I will probably do it via thinking, so there's not a direct need for Jura to have something extra here for Sanako to raect to.
+Jura [sanako_resp1s_right_hand]: <i>Sheesh.</i>  We knew there'd be culture shock coming here, but...<br>...Um, are you OK?
+  OR [sanako_resp1s_right_hand]: ...<i>Not</i> what I thought we'd be arguing about here.  <i>Sheesh...</i><br>...Sanako?
+Sanako [sanako_jura_js_j3_hand]: <i>(Jura's friend ran off just to avoid </i>thinking<i> about my cooking... I really should make her a plate of cookies to apologize.)</i>
+)</i>
 
 
 JURA MUST STRIP BOOTS:
-Jura [sanako_resp1right]: <i>Hmmn...</i>it's nice to get out and meet some strangers.  The girls on the crew are all used to my usual flourishes...
+Jura [sanako_resp1right]: <i>Hmmn...</i>it's nice to get out and meet some strangers.  The girls on the crew are all used to my usual tricks...
   OR [sanako_resp1right]: Dazzling all of <i>you</i> should be easy.  On the ship, I'm like a magician trying to entertain the same old crowd...
 Sanako [sanako_jura_js_j4]: People start looking through you when they know you too well, don't they? Unless you say or do something unexpected, they'll never take notice.
 
@@ -242,34 +248,39 @@ Jura [sanako_resp12right]: But you're a fresh face, Sanako!  Aren't you already-
 Sanako [sanako_jura_js_j5]: You are positively beautiful, Jura! Like a Hollywood star or a Scandinavian supermodel!
 
 JURA STRIPPED BOOTS:
-Jura []*: ??
-Sanako [sanako_jura_js_j6]*: ??
+Jura [sanako_resp2s_right]: ...What are <i>those?</i>  I mean, <i>star</i> and <i>supermodel,</i> sure...are you saying you loved Jura's big flourish just now?
+  OR [sanako_resp2s_right]: <i>Ta-da!</i><br>...A <i>what</i> star and supermodel?  You're saying it was great, right?
+Sanako [sanako_jura_js_j6]: Lovely, Jura! Simply lovely!
 
 
 JURA MUST STRIP SLEEVES:
-Jura []*: ??
-Sanako []*: ??
+Jura [sanako_resp2right]: I know next to <i>nothing</i> about the culture here.  I've never even really got a chance to be an adult on <i>Mejare...</i>
+  OR [sanako_resp2right]: I don't think this one ~background.time~ will be enough to learn everything we want to.  What's it <i>like</i> just living and working on Earth?
+Sanako [sanako_jura_js_j7]: There's much too much to simply tell you about. But you and your girlfriend are still young. Maybe you could take a year off and travel. See the world and make memories!
 
 JURA STRIPPING SLEEVES:
-Jura []*: ??
-Sanako []*: ??
+Jura [sanako_resp23right]: <i>Ooohn,</i> that sounds like fun, Sanako...but we simply can't stay that long.  What about the place <i>you're</i> from, at least?
+  OR [sanako_resp23right]: <i>Sanakooo...</i>our whole crew just has way too much at stake right now.  You're from "Japan," right?  Tell me all about it.
+Sanako [sanako_jura_js_j8]: About Japan? Where do I start? Well, we have four distinct seasons, and each one of them is beautiful! We have so much history and tradition, but we also have a lot to offer the world with modern technology too. It's truly a unique nation.
 
 JURA STRIPPED SLEEVES:
-Jura []*: ??
-Sanako []*: ??
+Jura [sanako_resp3s_right]: What about the people?  Are they all so cute and mellow?  So...<i>different from me?</i>
+  OR [sanako_resp3s_right]: And the <i>human</i> element?  If you're a good example, then...nothing like Jura, huh?
+Sanako [sanako_jura_js_j9]: Ahaha, yes, you're a little different from the rest us in more than a few ways. To us, it's like you came here straight from the Hollywood red carpet.
 
 
 JURA MUST STRIP CHOKER BELT:
-Jura []*: ??
-Sanako []*: ??
+Jura [sanako_resp3right]: You know some men catcalled me in an old mission station?  I must be doing <i>something</i> right.  Tarakkians are just weird...
+  OR [sanako_resp3right]: I think my <i>man-</i>problems are just with our prisoners.  All the men who actually <i>know</i> women seem to love me!
+Sanako [sanako_jura_js_j10]: As long as you're not encouraging the wrong kind of attention, you should be fine. I'm sure you can find lots of ways to enjoy yourself while you're still young.
 
 JURA STRIPPING CHOKER BELT:
 Jura []*: ??
-Sanako []*: ??
+Sanako [sanako_jura_js_j11]*: ??
 
 JURA STRIPPED CHOKER BELT:
 Jura []*: ??
-Sanako []*: ??
+Sanako [sanako_jura_js_j12]*: ??
 
 
 JURA MUST STRIP DRESS:
@@ -286,15 +297,42 @@ Jura []*: ??
 Sanako []*: ??
 
 
-JURA MUST STRIP THONG:
+JURA MUST STRIP THONG: and Nagisa absent
 Jura [sanako_resp5right]: <i>Nothing left...</i>so <i>naked and vulnerable,</i> like the day I was born!<br>...There I go again, always thinking about having a baby.
   OR [sanako_resp5right]: Me <i>again?</i>  I'll be as naked as the baby I want so badly...
-Sanako []*: ??
+Sanako [sanako_jura_js_j16]: A baby is such a gift! Giving birth might have just as much impact on your figure as it does on your free time, but it's worth it!
 
-JURA STRIPPING THONG:
-Jura []*: ??
-Sanako []*: ??
+JURA STRIPPING THONG: and Nagisa absent
+Jura [sanako_resp56right]: <i>Ughn,</i> Sanako, don't even <i>say</i> that!  <i>Jura,</i> a new mother, all chubby and harangued?  Absolutely out of the question!
+  OR [sanako_resp56right]: S-Sanako, Jura is <i>not</i> gonna pack on a bunch of baby fat.  And I won't turn into some sleepless wreck, either.  I won't even <i>consider</i> such a thing!
+Sanako [sanako_jura_js_j17]: Just be sure to enjoy this time in your life for as long as possible. Take lots of photos! When you have a daughter and she's a little older, you'll be able to show her how pretty you were.
 
-JURA STRIPPED THONG:
-Jura []*: ??
-Sanako []*: ??
+JURA STRIPPED THONG (Barnette appears with her camera): and Nagisa absent
+Jura [sanako_resp6s_right]: ...Photos won't be a problem.
+  OR [sanako_resp6s_right]: ...I don't know, Barnette, will there be enough <i>photos</i> of me?
+Sanako [sanako_jura_js_j18]*: ??
+
+
+JURA MUST STRIP THONG: and Nagisa present
+Nagisa [nagisa_jura_sanako_njs_j19]: ??
+Jura [sanako_resp5right]: Even if you all live here, it's courageous to come alone.  Jura can only be so bold because...I know our crew is supporting me!
+  OR [sanako_resp5right]: ...I'm almost out.  These moments can be a little nerve-wracking...but it must be worse for all of you, without anyone you know to help!
+Nagisa [nagisa_jura_sanako_jns_j19]*: ??
+Sanako [sanako_jura_nagisa_js_j16]*: ??
+Nagisa [nagisa_jura_sanako__jsnj19]: ??
+
+JURA STRIPPING THONG: and Nagisa present
+Nagisa [nagisa_jura_sanako_njs_j20]*: ??
+Jura [sanako_resp56right]*: ??
+  OR [sanako_resp56right]*: ??
+Nagisa [nagisa_jura_sanako_jns_j20]*: ??
+Sanako [sanako_jura_nagisa_js_j17]*: ??
+Nagisa [nagisa_jura_sanako_jsn_j20]*: ??
+
+JURA STRIPPED THONG: and Nagisa present
+Nagisa [nagisa_jura_sanako_njs_j21]*: ??
+Jura [sanako_resp6s_right]*: ??
+  OR [sanako_resp6s_right]*: ??
+Nagisa [nagisa_jura_sanako_jns_j21]*: ??
+Sanako [sanako_jura_nagisa_js_j18]*: ??
+Nagisa [nagisa_jura_sanako_jsn_j21]*: ??

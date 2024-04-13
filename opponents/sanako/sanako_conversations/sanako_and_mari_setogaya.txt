@@ -12,16 +12,16 @@ Sanako [sanako_setogaya_sm_s2]: Just because I'm taken doesn't mean I can't have
 Mari [Sanako_relationship_reply2]: Fair enough! If you're cool with it I'm cool with it! It's actually pretty nice to know you've got an open relationship like that and stuff.
 
 SANAKO STRIPPED SHOES AND SOCKS:
-Sanako [sanako_setogaya_sm_s3]: Ah, I wouldn't describe it as "open", Mari. Maybe just, um, "deeping my appreciation for what I already have"...
+Sanako [sanako_setogaya_sm_s3]: Ah, I wouldn't describe it as "open", Mari. Maybe just, um, "deepening my appreciation for what I already have"...
 Mari [Sanako_relationship_reply3]: I'm... not sure I follow. But, if you're happy then I guess it doesn't really matter.
 
 
 SANAKO MUST STRIP SHIRT:
 Sanako [sanako_setogaya_sm_s4]: There's something so uplifting about having a fun time with younger folk. Ah, I mean <i>fellow</i> younger folk. Right?
-Mari []*: ??
+Mari [Sanako_SelfFamily_reply]: You're young, Sanako? I thought you were more like... Well, not <i>old</i> but not exactly young either.
 
 SANAKO STRIPPING SHIRT:
-Sanako [sanako_setogaya_sm_s5]*: ?? Ahaha... I can't believe I'm getting anxious already. baking - want good review
+Sanako [sanako_setogaya_sm_s5]: Ehhh?! Mari, what do you mean? I'm eighteen years old. Can you tell from the uniform and the braids and my youthful good looks? Here, I'll even take my shirt off and show you how well my breasts have held up.
 Mari []*: ??
 
 SANAKO STRIPPED SHIRT:
@@ -78,16 +78,16 @@ Sanako [sanako_setogaya_sm_m2]: I'm so glad you feel that way. You're still youn
 Mari [Sanako_comfortable_reply2]: For sure! Although, considering I'm gonna be looking young for hundreds of years to come, I'm gonna be able to enjoy it all the same for a super long time!
 
 MARI STRIPPED TIE / HEADBAND / HAT / NECKLACE / CHOKER / BOOTS / COLLAR:
-Sanako [sanako_setogaya_sm_m3]: Yeah, that's the spirit! Eat right and keep up your excercise, and people will still mistake you for a teenager even when you have a teenager of your own. Or so I've heard.
+Sanako [sanako_setogaya_sm_m3]: Yeah, that's the spirit! Eat right and keep up your exercise, and people will still mistake you for a teenager even when you have a teenager of your own. Or so I've heard.
 Mari [Sanako_comfortable_reply3]: Makes sense to me! My mom is way older than me and she still looks pretty young for human standards.
 
 
 MARI MUST STRIP SHOES AND SOCKS / BOOTS AND SOCKS / BOOTS / HEELS / SOCKS / SANDALS:
 Sanako [sanako_setogaya_sm_m4]: Oh, I was hoping it was you again, Mari! You have such good genes, and I just wanted to ask where your family is from originally.
-Mari []*: ??
+Mari [Sanako_SelfFamily_reply]: That's... a good question... I'm not entirely sure, but as far as I know my mom is from Japan and my dad is <i>not</i> from Japan.
 
 MARI STRIPPING SHOES AND SOCKS / BOOTS AND SOCKS / BOOTS / HEELS / SOCKS / SANDALS:
-Sanako [sanako_setogaya_sm_m5]*: ??
+Sanako [sanako_setogaya_sm_m5]: I thought as much! There's a classic prettiness about you, but with a spoonful of exotic flavor. You must be very popular with ~player.ifMale(the boys|your schoolmates)~!
 Mari []*: ??
 
 MARI STRIPPED SHOES AND SOCKS / BOOTS AND SOCKS / BOOTS / HEELS / SOCKS / SANDALS:
@@ -95,7 +95,7 @@ Sanako [sanako_setogaya_sm_m6]*: ??
 Mari []*: ??
 
 
-MARI MUST STRIP SKIRT / SHORTS / COAT / HAIR RIBBONS / STOCKINGS / BRACELET AND SUNGLASSES:
+MARI MUST STRIP SKIRT / SHORTS / COAT / HAIR RIBBONS / STOCKINGS / BRACELET AND SUNGLASSES: is this where the wings come out?
 Sanako []*: ??
 Mari []*: ??
 

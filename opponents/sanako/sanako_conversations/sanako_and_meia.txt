@@ -23,10 +23,11 @@ Meia [sanako1left]: ...What are your plans for when it's over?
 
 SANAKO STRIPPING SHIRT:
 Sanako [sanako_meia_sm_s5]: When school's all finished, the world is a girl's oyster! Or something like that. There's no helping being an adult at that point.
-Meia []*: ??
+Meia [sanako12left]: ...That's a good way to put it.  You have to grow up whether you want to or not.
+  OR [sanako12left]: ...It does come out of nowhere.
 
 SANAKO STRIPPED SHIRT:
-Sanako [sanako_meia_sm_s6]*: ??
+Sanako [sanako_meia_sm_s6]: But being all grown up isn't so bad. It just means you get to be cute in all new ways.
 Meia []*: ??
 
 
@@ -98,19 +99,20 @@ Meia [sanako_resp12]: You're just always helping others instead of worrying abou
 
 MEIA STRIPPED ARMOR:
 Sanako [sanako_meia_sm_m6]: But I think no matter how much training I did, I'd never be as lithe as you are, Meia.
-Meia []*: ??
+Meia []: ...I certainly burn off all my fat.
+  OR []: ...Too much of a good thing, maybe.
 
 
 MEIA MUST STRIP BODYSUIT:
-Sanako []*: ??
+Sanako [sanako_meia_sm_m7]: You seem so comfortable in your own skin, Meia. Not all girls could say the same.
 Meia []*: ??
 
 MEIA STRIPPING BODYSUIT:
-Sanako []*: ??
+Sanako [sanako_meia_sm_m8]*: ??
 Meia []*: ??
 
 MEIA STRIPPED BODYSUIT:
-Sanako []*: ??
+Sanako [sanako_meia_sm_m9]*: ??
 Meia []*: ??
 
 
@@ -188,22 +190,23 @@ Meia [sanako23]: ...What have you learned?
 Sanako [sanako_meia_ms_s8]: I'm not sure if I could learn anymore at this point. But there's still a lot I could <i>teach</i>...
 
 SANAKO STRIPPED SKIRT:
-Meia []*: ??
-Sanako [sanako_meia_ms_s9]*: ??
+Meia [sanako3s]: <i>I'm</i> here to learn.  Don't hesitate.
+  OR [sanako3s]: We flew a long way here, so I'd appreciate if you did.
+Sanako [sanako_meia_ms_s9]: It's just tips and tricks I've picked up along the way. You've put me on the spot, and I'd be embarrassed to share them in front of everyone. Let's talk afterward, okay?
 
 
 SANAKO MUST STRIP BRA:
 Meia [sanako3]: Don't take this the wrong way, but...you remind me of my mother.
   OR [sanako3]: ...It's a little weird, watching you.  It's just---you're a lot like my mother.
-Sanako []*: ??
+Sanako [sanako_meia_ms_s10]: I'm sure you had lots of moms watching over you if you grew up with only ladies, Meia. We all get to that stage eventually.
 
 SANAKO STRIPPING BRA:
 Meia []*: ??
-Sanako []*: ??
+Sanako [sanako_meia_ms_s11]*: ?? -- not sure if I can fit in a comment about breastfeeding here, but this is my reminder
 
 SANAKO STRIPPED BRA:
 Meia []*: ??
-Sanako []*: ??
+Sanako [sanako_meia_ms_s12]*: ??
 
 
 SANAKO MUST STRIP PANTIES:
@@ -275,8 +278,9 @@ Meia [sanako_resp2right]: ...Pyoro, have you finished your scan of the backgroun
 Sanako [sanako_meia_ms_m7]: Ah! Th-That's okay, Mr. Robot. No need to scan us. A woman can't keep her mystery if you get too much science involved.
 
 MEIA STRIPPING BODYSUIT:
-Meia []*: ??
-Sanako [sanako_meia_ms_m8]*: ??
+Meia [sanako_resp23right]: ...I've never kept my body a mystery.
+  OR [sanako_resp23right]: ...What do you have to hide?
+Sanako [sanako_meia_ms_m8]: Oh, I see. You were just trying to distract us from something more important. Nice try, missy!
 
 MEIA STRIPPED BODYSUIT:
 Meia []*: ??
