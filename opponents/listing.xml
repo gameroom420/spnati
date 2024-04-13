@@ -222,6 +222,7 @@
 		<opponent addedDate="2023-09-23" release="299" highlight="new">lysithea</opponent> <!-- expires 2024-05-04 -->
 		<opponent addedDate="2023-11-24" release="300" highlight="new">yae_miko</opponent> <!-- expires 2024-05-06 -->
 		<opponent addedDate="2023-11-20" release="301" highlight="new">zeke_pandoria</opponent> <!-- expires 2024-05-06 -->
+		<opponent addedDate="2022-04-01" status="testing">sannytess</opponent>
 		<opponent addedDate="2022-04-01" status="testing">natasha</opponent>
 		<opponent addedDate="2020-04-01" status="testing">kokichi</opponent>
 		<opponent addedDate="2024-03-31" status="testing">nephenee</opponent>
@@ -396,7 +397,6 @@
 		<opponent addedDate="2022-04-01" status="event">frisk_and_friends</opponent>
 		<opponent addedDate="2022-04-01" status="event">gruntilda</opponent>
 		<opponent addedDate="2022-04-01" status="event">sandy_cheeks</opponent>
-		<opponent addedDate="2022-04-01" status="event">sannytess</opponent>
 		<opponent addedDate="2022-04-05" status="event">trifle</opponent>
 		<opponent addedDate="2022-04-01" status="event">wario</opponent>
 		<opponent addedDate="2021-08-21" status="event">rogue_x-men</opponent>
