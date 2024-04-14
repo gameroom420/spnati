@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1706601136992</lastupdate>
+    <lastupdate>1711260859575</lastupdate>
     <enabled>true</enabled>
     <first>Monika</first>
     <last />
@@ -18,7 +18,7 @@
         <costume folder="opponents/reskins/monika_summer_dress/" set="summer" status="unlisted" label="Monika" layers="4">Monika (Summer Dress)</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>3426</lines>
+    <lines>3583</lines>
     <poses>221</poses>
     <has_ending>false</has_ending>
 </opponent>
