@@ -7,7 +7,7 @@ var DEFAULT_WARDROBES = {
         '_default.belt',
         '_default.pantsA',
         '_default.boxers',
-        '_default.gloves',
+        '_default.hat',
         '_default.socksA',
         '_default.boots'
     ],
