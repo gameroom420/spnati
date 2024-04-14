@@ -24,8 +24,8 @@
     <collectible id="zeke_eyepatch" img="opponents/zeke_pandoria/5-zeke_unleashing_power.png" thumbnail="opponents/zeke_pandoria/extras/collectible_eyepatch.png">
         <title>Zeke's Eyepatch</title>
         <subtitle>Holds phenomenal power and looks cool!</subtitle>
-        <text>Zeke is the rare kind of chuunibyou who actually has the strength and power to back up his delusions. It's a lucky thing that he's on the good side.</text>
-        <unlock>Defeat Zeke &amp; Pandoria in `Eye of Shining Justice' mode. To enable this mode, play with your name set to "King Me", "Queen Me" or "Logos". Or play with them against Giygas during the April Fool's day event.</unlock>
+        <text>Zeke is the rare kind of chuunibyou who actually has the strength and power to back up his delusions. It's a lucky thing that he's on the side of good.</text>
+        <unlock>See Zeke &amp; Pandoria lose in `Eye of Shining Justice' mode. To enable this mode, play with your name set to "King Me", "Queen Me" or "Logos". Or play with them against Giygas during the April Fool's day event.</unlock>
         <hide-details>true</hide-details>
         <counter>1</counter>
         <wearable>true</wearable>
