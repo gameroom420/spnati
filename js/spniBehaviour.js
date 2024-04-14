@@ -1405,6 +1405,12 @@ function expandPlayerVariable(split_fn, args, player, self, target, bindings) {
             return player.hand.score();
         } else if (split_fn[1] == 'noart' || split_fn[1] === undefined) {
             return player.hand.describe(split_fn[1] == undefined);
+        } else if (split_fn[1] == 'deck') {
+            return player.hand.getCustomDeck(1);
+        } else if (split_fn[1] == 'deckAbsolute') {
+            return player.hand.getCustomDeck(0);
+        } else if (split_fn[1] == 'deckUsing') {
+            return player.hand.findUsedCustomDeck(args);
         }
         throw new Error('Incorrect use of .hand');
     case 'cards':
@@ -1452,6 +1458,89 @@ function expandPlayerVariable(split_fn, args, player, self, target, bindings) {
         return (player.forfeit[0] === PLAYER_HEAVY_MASTURBATING) ? "true" : "false";
     default:
         return expandNicknames(self, player);
+    }
+}
+
+function expandCustomDeckVariable(split_fn, tolerance, args) {
+    args = (args || "").split("|");
+
+    // Get the list of custom decks represented by the suit chosen
+    const fn = split_fn[0]
+    if (fn === "back") {
+        const backs = ACTIVE_CARD_IMAGES.backImages || [DEFAULT_CARD_DECK];
+        if (backs.size > 1)
+            return "";
+        return backs[0];
+    }
+
+    if (fn === "usingBack") {
+        const backs = ACTIVE_CARD_IMAGES.backImages || [DEFAULT_CARD_DECK];
+        return (backs.indexOf(args[0]) !== -1).toString();
+    }
+
+    var searchDeck;
+    if (fn === "using") {
+        searchDeck = args[0];
+        args = args.slice(1);
+    }
+
+    var suits = [];
+    var ranks = [];
+    var decks;
+    if (fn === "cards" || fn === "suits" || searchDeck) {
+        const letterToNumberMap = {
+            "a": 1,
+            "j": 11,
+            "q": 12,
+            "k": 13,
+        };
+        args.forEach((arg) => {
+            arg = arg.toLowerCase();
+            switch (arg) {
+                case "spades":
+                case "hearts":
+                case "diamonds":
+                case "clubs":
+                    suits.push(arg.substring(0, 5));
+                    break;
+                default: {
+                    var [start, stop] = arg.split("-");
+                    start = letterToNumberMap[start] || parseInt(start);
+                    stop = letterToNumberMap[stop] || parseInt(stop);
+                    if (start && !stop) {
+                        ranks.push(start);
+                    } else if (start) {
+                        for (var i = start; i <= stop; i++) {
+                            ranks.push(i);
+                        }
+                    }
+                    break;
+                }
+            }
+        });
+    }
+
+    if (!suits.length)
+        suits = ["spade", "heart", "diamo", "clubs"];
+    if (!ranks.length)
+        ranks = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+
+    decks = suits.flatMap(suit => ranks.map(rank => suit + rank))
+        .map((card) => ACTIVE_CARD_IMAGES.frontImageMap[card])
+        .filter(image => !!image);
+
+    if (searchDeck) {
+        return (decks.indexOf(searchDeck) !== -1).toString();
+    }
+
+    var deckCounts = {};
+    decks.forEach((deck) => deckCounts[deck] = (deckCounts[deck] || 0) + 1);
+
+    // Expand to nothing if decks are mixed
+    if (decks.length - Math.max(...Object.values(deckCounts)) > tolerance) {
+        return "";
+    } else {
+        return decks[0];
     }
 }
 
@@ -1551,6 +1640,12 @@ function expandDialogue (dialogue, self, target, bindings) {
                 } else {
                     console.error("No collectible ID specified");
                 }
+                break;
+            case 'deck':
+                substitution = expandCustomDeckVariable(fn_parts, 2, args);
+                break;
+            case 'deckabsolute':
+                substitution = expandCustomDeckVariable(fn_parts, 0, args);
                 break;
             case 'marker':
             case 'persistent':
