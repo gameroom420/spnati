@@ -220,6 +220,7 @@ and I'll do it again</note>
         <note id="1380">I hope you find chocolates more... palatable.</note>
         <note id="1482">[At some point in the future I'm going to have Reimu ask about Monika's relationship with The Player, since obviously she seems to know them. Then maybe we can make a joint epilogue where both of them obliterate my dick?] Sure! I'll even grant you the honour of doing all the work for me.</note>
         <note id="1483">Close calls and brushes with the void refer to what she sees when the game is closed, which she compares to dying.</note>
+        <note id="1517">placeholder until new targets arrive</note>
     </notes>
     <labels>
         <label id="1147" label="FarawayVision" folder="Player Name" sort="0" />
@@ -304,9 +305,9 @@ and I'll do it again</note>
         <label id="1273" label="Resetbutton" color="0" folder="Marker Tricks" sort="0" />
         <label id="1293" label="" color="1" folder="" sort="0" />
         <label id="1294" label="" color="1" folder="" sort="0" />
-        <label id="1296" label="" color="4" folder="" sort="0" />
-        <label id="1297" label="" color="4" folder="" sort="0" />
-        <label id="1298" label="" color="4" folder="" sort="0" />
+        <label id="1515" label="" color="4" folder="" sort="0" />
+        <label id="1516" label="" color="4" folder="" sort="0" />
+        <label id="1511" label="" color="4" folder="" sort="0" />
         <label id="1299" label="" color="4" folder="" sort="0" />
         <label id="1300" label="" color="4" folder="" sort="0" />
         <label id="1302" label="" color="4" folder="" sort="0" />
@@ -316,11 +317,11 @@ and I'll do it again</note>
         <label id="1309" label="" color="4" folder="" sort="0" />
         <label id="1310" label="" color="4" folder="" sort="0" />
         <label id="1311" label="" color="4" folder="" sort="0" />
-        <label id="1314" label="Pampering prompt" color="4" folder="" sort="0" />
-        <label id="1315" label="Amenities prompt" color="4" folder="" sort="0" />
-        <label id="1316" label="" color="4" folder="" sort="0" />
-        <label id="1317" label="" color="4" folder="" sort="0" />
-        <label id="1318" label="" color="4" folder="" sort="0" />
+        <label id="1314" label="Pampering prompt" folder="" sort="0" />
+        <label id="1315" label="Amenities prompt" folder="" sort="0" />
+        <label id="1567" label="" color="4" folder="" sort="0" />
+        <label id="1519" label="" color="4" folder="" sort="0" />
+        <label id="1514" label="" color="4" folder="" sort="0" />
         <label id="1324" label="" color="4" folder="" sort="0" />
         <label id="1325" label="" color="4" folder="" sort="0" />
         <label id="1326" label="" color="4" folder="" sort="0" />
@@ -332,15 +333,15 @@ and I'll do it again</note>
         <label id="1335" label="" color="4" folder="" sort="0" />
         <label id="1336" label="" color="4" folder="" sort="0" />
         <label id="1344" label="" color="4" folder="" sort="0" />
-        <label id="1479" label="" color="4" folder="" sort="0" />
+        <label id="1546" label="Mymans" folder="Player Name" sort="0" />
         <label id="1340" label="" color="4" folder="" sort="0" />
         <label id="1341" label="" color="4" folder="" sort="0" />
         <label id="1342" label="" color="4" folder="" sort="0" />
         <label id="1343" label="" color="4" folder="" sort="0" />
         <label id="1345" label="" color="4" folder="" sort="0" />
         <label id="1346" label="" color="4" folder="" sort="0" />
-        <label id="1347" label="" color="4" folder="" sort="0" />
-        <label id="1348" label="" color="4" folder="" sort="0" />
+        <label id="1518" label="" color="4" folder="" sort="0" />
+        <label id="1522" label="" color="4" folder="" sort="0" />
         <label id="1350" label="" color="4" folder="" sort="0" />
         <label id="1351" label="" color="4" folder="" sort="0" />
         <label id="1352" label="" color="4" folder="" sort="0" />
@@ -362,18 +363,13 @@ and I'll do it again</note>
         <label id="1371" label="" color="4" folder="" sort="0" />
         <label id="1372" label="" color="4" folder="" sort="0" />
         <label id="1374" label="" color="4" folder="" sort="0" />
-        <label id="1382" label="" color="4" folder="" sort="0" />
-        <label id="1383" label="" color="4" folder="" sort="0" />
-        <label id="1384" label="" color="4" folder="" sort="0" />
-        <label id="1385" label="" color="4" folder="" sort="0" />
-        <label id="1386" label="" color="4" folder="" sort="0" />
-        <label id="1387" label="" color="4" folder="" sort="0" />
-        <label id="1388" label="" color="4" folder="" sort="0" />
+        <label id="1523" label="" color="4" folder="" sort="0" />
+        <label id="1520" label="" color="4" folder="" sort="0" />
+        <label id="1524" label="" color="4" folder="" sort="0" />
         <label id="1389" label="" color="4" folder="" sort="0" />
         <label id="1390" label="" color="4" folder="" sort="0" />
-        <label id="1478" label="" color="4" folder="" sort="0" />
-        <label id="1480" label="" color="4" folder="" sort="0" />
-        <label id="1481" label="" color="4" folder="" sort="0" />
+        <label id="1545" label="Bluejae" folder="Player Name" sort="0" />
+        <label id="1544" label="" color="4" folder="" sort="0" />
         <label id="1486" label="" color="4" folder="" sort="0" />
         <label id="1487" label="" color="3" folder="" sort="0" />
         <label id="1488" label="" color="3" folder="" sort="0" />
@@ -391,18 +387,60 @@ and I'll do it again</note>
         <label id="1323" label="blazer" color="4" folder="" sort="0" />
         <label id="1500" label="blazer" folder="" sort="0" />
         <label id="1501" label="blazer" folder="" sort="0" />
-        <label id="1502" label="" color="4" folder="" sort="0" />
-        <label id="1503" label="" color="4" folder="" sort="0" />
-        <label id="1504" label="" color="4" folder="" sort="0" />
-        <label id="1505" label="" color="4" folder="" sort="0" />
-        <label id="1506" label="" color="4" folder="" sort="0" />
-        <label id="1509" label="" color="4" folder="" sort="0" />
+        <label id="1569" label="" color="4" folder="" sort="0" />
+        <label id="1570" label="" color="4" folder="" sort="0" />
+        <label id="1575" label="" color="4" folder="" sort="0" />
+        <label id="1510" label="" color="4" folder="" sort="0" />
+        <label id="1512" label="" color="4" folder="" sort="0" />
+        <label id="1513" label="" color="4" folder="" sort="0" />
+        <label id="1521" label="" color="4" folder="" sort="0" />
+        <label id="1525" label="" color="4" folder="" sort="0" />
+        <label id="1347" label="" color="4" folder="" sort="0" />
+        <label id="1530" label="" color="4" folder="" sort="0" />
+        <label id="1531" label="" color="4" folder="" sort="0" />
+        <label id="1532" label="" color="4" folder="" sort="0" />
+        <label id="1533" label="" color="4" folder="" sort="0" />
+        <label id="1534" label="" color="4" folder="" sort="0" />
+        <label id="1535" label="" color="4" folder="" sort="0" />
+        <label id="1536" label="Corgi" folder="Player Name" sort="0" />
+        <label id="1537" label="Coolcat" folder="Player Name" sort="0" />
+        <label id="1538" label="Nord" folder="Player Name" sort="0" />
+        <label id="1539" label="Remillia" folder="Player Name" sort="0" />
+        <label id="1540" label="Alias" folder="Player Name" sort="0" />
+        <label id="1541" label="Salt" folder="Player Name" sort="0" />
+        <label id="1542" label="Wrasp" folder="Player Name" sort="0" />
+        <label id="1543" label="" color="4" folder="" sort="0" />
+        <label id="1547" label="JustKidding" folder="Player Name" sort="0" />
+        <label id="1548" label="Latke" folder="Player Name" sort="0" />
+        <label id="1549" label="Zorc James" folder="Player Name" sort="0" />
+        <label id="1550" label="Retzorg" folder="Player Name" sort="0" />
+        <label id="1551" label="Lokkit" folder="Player Name" sort="0" />
+        <label id="1552" label="Muad'Dib" folder="Player Name" sort="0" />
+        <label id="1553" label="Nutty" folder="Player Name" sort="0" />
+        <label id="1554" label="Erion" folder="Player Name" sort="0" />
+        <label id="1555" label="Clockwork" folder="Player Name" sort="0" />
+        <label id="1556" label="Spaceman" folder="Player Name" sort="0" />
+        <label id="1560" label="Insiduani" folder="Player Name" sort="0" />
+        <label id="1561" label="Daddy" folder="Player Name" sort="0" />
+        <label id="1562" label="Kuroi" folder="Player Name" sort="0" />
+        <label id="1563" label="Oppenheimer" folder="Player Name" sort="0" />
+        <label id="1565" label="" color="4" folder="" sort="0" />
+        <label id="1566" label="" color="4" folder="" sort="0" />
+        <label id="1568" label="" color="4" folder="" sort="0" />
+        <label id="1571" label="" color="4" folder="" sort="0" />
+        <label id="1572" label="" color="4" folder="" sort="0" />
+        <label id="1573" label="" color="4" folder="" sort="0" />
+        <label id="1574" label="" color="4" folder="" sort="0" />
+        <label id="1576" label="" color="4" folder="" sort="0" />
+        <label id="1577" label="" color="4" folder="" sort="0" />
+        <label id="1578" label="" color="4" folder="" sort="0" />
+        <label id="1579" label="" color="4" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>blazer</prefix>
         <prefix>poem-1</prefix>
     </prefixes>
-    <nextId>1509</nextId>
+    <nextId>1579</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="3_musician_table_reaction" />
@@ -413,6 +451,8 @@ and I'll do it again</note>
         <marker scope="Public" name="aaravi_resp_bossIdentify3" />
         <marker scope="Public" name="aaravi_resp_uniform" />
         <marker scope="Public" name="aaravi_resp_uniform2" />
+        <marker scope="Public" name="aaravi_resp_uniform3" />
+        <marker scope="Public" name="aaravi_skillTreePower" />
         <marker scope="Public" name="aaravi_wrongGame" />
         <marker scope="Public" name="aaravi_wrongGame2" />
         <marker scope="Public" name="aaravi_wrongGame3" />
@@ -770,14 +810,25 @@ and I'll do it again</note>
         <marker scope="Public" name="joint-masturbation-finished" />
         <marker scope="Public" name="joint-masturbation-finished-2" />
         <marker scope="Public" name="jura_dancing" />
+        <marker scope="Public" name="jura_dancing2" />
         <marker scope="Public" name="jura_ffAdvice" />
+        <marker scope="Public" name="jura_ffAdvice2" />
         <marker scope="Public" name="jura_hairCare" />
+        <marker scope="Public" name="jura_hairCare2" />
         <marker scope="Public" name="jura_maleAttraction" />
+        <marker scope="Public" name="jura_maleAttraction2" />
         <marker scope="Public" name="jura_malePropaganda" />
+        <marker scope="Public" name="jura_malePropaganda2" />
         <marker scope="Public" name="jura_marryBarnette" />
+        <marker scope="Public" name="jura_marryBarnette4" />
         <marker scope="Public" name="jura_mejarePermissive" />
+        <marker scope="Public" name="jura_mejarePermissive2" />
         <marker scope="Public" name="jura_resp_babies" />
+        <marker scope="Public" name="jura_resp_distrust" />
         <marker scope="Public" name="jura_resp_headache" />
+        <marker scope="Public" name="jura_resp_headache2" />
+        <marker scope="Public" name="jura_resp_objectOrSubject" />
+        <marker scope="Public" name="jura_resp_objectOrSubject2" />
         <marker scope="Public" name="jura_resp_seductionMen" />
         <marker scope="Public" name="jura_resp_seductionWomen" />
         <marker scope="Public" name="kizuna_resp_ddlc_1" />
@@ -832,17 +883,24 @@ and I'll do it again</note>
         <marker scope="Public" name="mari_setogaya_menQualities3" />
         <marker scope="Public" name="mari_setogaya_resp_DateWhoops" />
         <marker scope="Public" name="mari_setogaya_resp_DateWhoops2" />
+        <marker scope="Public" name="mari_setogaya_resp_DateWhoops3" />
         <marker scope="Public" name="mari_setogaya_resp_DatingQuestion" />
         <marker scope="Public" name="mari_setogaya_resp_DatingQuestion2" />
+        <marker scope="Public" name="mari_setogaya_resp_DatingQuestion3" />
         <marker scope="Public" name="mari_setogaya_resp_FemPlayerComeHereTogether" />
         <marker scope="Public" name="mari_setogaya_resp_FemPlayerComeHereTogether2" />
+        <marker scope="Public" name="mari_setogaya_resp_FemPlayerComeHereTogether3" />
         <marker scope="Public" name="mari_setogaya_resp_Monika_FemPlayerComeHereTogether" />
         <marker scope="Public" name="mari_setogaya_resp_susVibes_question" />
         <marker scope="Public" name="mari_setogaya_resp_susVibes_question2" />
+        <marker scope="Public" name="mari_setogaya_resp_susVibes_question3" />
+        <marker scope="Public" name="mari_setogaya_succubusPower" />
         <marker scope="Public" name="mari_setogaya_wing_reveal" />
         <marker scope="Public" name="mari_studyField" />
         <marker scope="Public" name="mari_studyField2" />
         <marker scope="Public" name="maria_resp_playerCozy" />
+        <marker scope="Public" name="maria_resp_playerCozy2" />
+        <marker scope="Public" name="maria_sadismJoke" />
         <marker scope="Public" name="meia_01" />
         <marker scope="Public" name="meia_2" />
         <marker scope="Public" name="meia_23" />
@@ -853,8 +911,11 @@ and I'll do it again</note>
         <marker scope="Public" name="meia_criminal2" />
         <marker scope="Public" name="meia_criminal3" />
         <marker scope="Public" name="meia_dating" />
+        <marker scope="Public" name="meia_dating2" />
         <marker scope="Public" name="meia_datingSims" />
+        <marker scope="Public" name="meia_datingSims2" />
         <marker scope="Public" name="meia_maleQualities" />
+        <marker scope="Public" name="meia_maleQualities2" />
         <marker scope="Public" name="meia_ordinary_student" />
         <marker scope="Public" name="meia_resp_1s" />
         <marker scope="Public" name="meia_resp_3player" />
@@ -863,8 +924,11 @@ and I'll do it again</note>
         <marker scope="Public" name="meia_resp_3playerM" />
         <marker scope="Public" name="meia_resp_4splayer" />
         <marker scope="Public" name="meia_resp_abusePower" />
+        <marker scope="Public" name="meia_resp_abusePower2" />
         <marker scope="Public" name="meia_resp_existentialQuestions" />
+        <marker scope="Public" name="meia_resp_existentialQuestions2" />
         <marker scope="Public" name="meia_resp_headPressure" />
+        <marker scope="Public" name="meia_resp_headPressure2" />
         <marker scope="Public" name="meia_resp_lb0" />
         <marker scope="Public" name="meia_resp_lb01" />
         <marker scope="Public" name="meia_resp_lb1" />
@@ -895,6 +959,7 @@ and I'll do it again</note>
         <marker scope="Public" name="miko_eternalCelestial" />
         <marker scope="Public" name="miko_eternalCelestial2" />
         <marker scope="Public" name="miko_eternalCelestial3" />
+        <marker scope="Public" name="miko_gensokyoPlan" />
         <marker scope="Public" name="miko_position" />
         <marker scope="Public" name="miko_position2" />
         <marker scope="Public" name="miko_position3" />
@@ -916,14 +981,19 @@ and I'll do it again</note>
         <marker scope="Public" name="mistyskinnydip_resp" />
         <marker scope="Public" name="mitama_deeprealms" />
         <marker scope="Public" name="mitama_deeprealms2" />
+        <marker scope="Public" name="mitama_deeprealms3" />
         <marker scope="Public" name="mitama_fateDestiny" />
         <marker scope="Public" name="mitama_fateDestiny2" />
+        <marker scope="Public" name="mitama_fateDestiny3" />
         <marker scope="Public" name="mitama_firstHaiku" />
         <marker scope="Public" name="mitama_firstHaiku2" />
+        <marker scope="Public" name="mitama_firstHaiku3" />
         <marker scope="Public" name="mitama_napPref" />
         <marker scope="Public" name="mitama_napPref2" />
+        <marker scope="Public" name="mitama_napPref3" />
         <marker scope="Public" name="mitama_novels" />
         <marker scope="Public" name="mitama_novels2" />
+        <marker scope="Public" name="mitama_novels3" />
         <marker scope="Public" name="mitama_resp_arrival" />
         <marker scope="Public" name="mitama_resp_litclub" />
         <marker scope="Public" name="mitama_resp_litclub2" />
@@ -941,8 +1011,10 @@ and I'll do it again</note>
         <marker scope="Public" name="mitama_resp_woke" />
         <marker scope="Public" name="mitama_sexStories" />
         <marker scope="Public" name="mitama_sexStories2" />
+        <marker scope="Public" name="mitama_sexStories3" />
         <marker scope="Public" name="mitama_shrineLife" />
         <marker scope="Public" name="mitama_shrineLife2" />
+        <marker scope="Public" name="mitama_shrineLife3" />
         <marker scope="Public" name="monika_chubbyTable" />
         <marker scope="Public" name="monika_fantasy_forfeit" />
         <marker scope="Public" name="monika_MasturbatingTime" />
@@ -1000,6 +1072,9 @@ and I'll do it again</note>
         <marker scope="Public" name="noire_resp_flashing" />
         <marker scope="Public" name="noire_resp_flashing2" />
         <marker scope="Public" name="noire_resp_iinchou" />
+        <marker scope="Public" name="nonon_piano" />
+        <marker scope="Public" name="nonon_resp_" />
+        <marker scope="Public" name="nonon_resp_titlePrestige" />
         <marker scope="Public" name="nugichan_resp_ddos" />
         <marker scope="Public" name="nugichan_resp_good_games" />
         <marker scope="Public" name="nugi-chan_resp_good_games" />
@@ -1048,9 +1123,11 @@ and I'll do it again</note>
         <marker scope="Public" name="realization-1" />
         <marker scope="Public" name="RealName">Stores your "real name", which is the last name you used that Monika liked. If you've never used a name she approved of, "Player" will be stored here.</marker>
         <marker scope="Public" name="reimu_greatHakuraiBarrier" />
+        <marker scope="Public" name="reimu_greatHakuraiBarrier2" />
         <marker scope="Public" name="reimu_purpleHair" />
         <marker scope="Public" name="reimu_purpleHair2" />
         <marker scope="Public" name="reimu_purpleHair3" />
+        <marker scope="Public" name="reimu_resp_murderMysteries" />
         <marker scope="Public" name="reimu_resp_troublemaking" />
         <marker scope="Public" name="reimu_resp_troublemaking2" />
         <marker scope="Public" name="reimu_resp_troublemaking3" />
@@ -1258,8 +1335,15 @@ and I'll do it again</note>
         <marker scope="Public" name="restart_club_resp" />
         <marker scope="Public" name="restart_club_resp2" />
         <marker scope="Public" name="revy_battleMusic" />
+        <marker scope="Public" name="revy_resp_badVibes" />
+        <marker scope="Public" name="revy_resp_existentialQs" />
         <marker scope="Public" name="revy_resp_killing" />
         <marker scope="Public" name="revy_resp_music" />
+        <marker scope="Public" name="revy_resp_notHerself" />
+        <marker scope="Public" name="revy_resp_stalker" />
+        <marker scope="Public" name="revy_resp_tantrum" />
+        <marker scope="Public" name="revy_resp_traitor" />
+        <marker scope="Public" name="revy_resp_traitorddlc" />
         <marker scope="Public" name="revy_weapons" />
         <marker scope="Public" name="rin_favoritecolor_resp" />
         <marker scope="Public" name="rin_resp_funnywords" />
@@ -1316,10 +1400,13 @@ and I'll do it again</note>
         <marker scope="Public" name="senko_resp_pampering" />
         <marker scope="Public" name="senko_resp_powers1" />
         <marker scope="Public" name="senko_resp_powers2" />
+        <marker scope="Public" name="senko_resp_powers3" />
         <marker scope="Public" name="senko_resp_realityUndone1" />
+        <marker scope="Public" name="senko_resp_realityUndone2" />
         <marker scope="Public" name="senko_resp_TV_pajamas" />
         <marker scope="Public" name="senko_resp_uniCare1" />
         <marker scope="Public" name="senko_resp_uniCare2" />
+        <marker scope="Public" name="senko_resp_uniCare3" />
         <marker scope="Public" name="shantae_resp_dance_first" />
         <marker scope="Public" name="shantae_resp_wish_granting" />
         <marker scope="Public" name="singforclub" />
@@ -1567,6 +1654,7 @@ and I'll do it again</note>
         <marker scope="Public" name="yuna_resp_favorite_food" />
         <marker scope="Public" name="yuno_greekHistory" />
         <marker scope="Public" name="yuno_uno_greekHistory" />
+        <marker scope="Public" name="yuno_uno_greekHistory2" />
         <marker scope="Public" name="yuno_uno_resp_earworm_songs" />
         <marker scope="Public" name="yuri_doessheusetoy" />
         <marker scope="Public" name="yuri_doyoumasturbate" />
@@ -1595,8 +1683,25 @@ and I'll do it again</note>
                 <id>1181</id>
             </cases>
         </recipe>
+        <recipe key="93fb1799-f582-4f08-a53c-49d5e56f6278">
+            <cases>
+                <id>1557</id>
+            </cases>
+        </recipe>
+        <recipe key="670e7368-4059-4a56-8171-65d18d43ebff">
+            <cases>
+                <id>1558</id>
+            </cases>
+        </recipe>
+        <recipe key="95241bd5-5ee1-4979-ae3c-aad1384050d9">
+            <cases>
+                <id>1559</id>
+            </cases>
+        </recipe>
     </recipes>
     <pendingLines>
         <line>Bloodlust and puns don't make a personality, let alone a person.  When you've destroyed everyone else, what's left for you? (to Chara)</line>
+        <line>...I guess I should clarify: sex between men and women leads to pregnancy.  That's how most people on Earth are conceived. (to Jura)</line>
+        <line>...Seems I need to lay it out: sex leads to pregnancy, at least when a man and woman do it unprotected.  It's where most of us come from.(to Jura)</line>
     </pendingLines>
 </metadata>
