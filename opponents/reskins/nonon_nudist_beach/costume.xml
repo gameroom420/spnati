@@ -227,6 +227,22 @@
         <pose id="warmedup">
             <sprite id="imwaiting" src="reskins/nonon_nudist_beach/#-warmedup.png" x="0" y="0" />
         </pose>
+        <pose id="0-treasure_scope">
+            <sprite id="flirty" z="1" src="reskins/nonon_nudist_beach/4-what.png" x="0" y="0" alpha="100" />
+            <sprite id="TreasureScope_XRay" z="1" src="reskins/nonon_nudist_beach/0-treasure_scope.png" x="0" y="0" alpha="100" />
+            <sprite id="Rouge_TreasureScope_Lens" z="100" src="nonon/../rouge/Rouge_TreasureScope_Lens.png" x="250" y="416" alpha="0" />
+            <directive type="animation" id="TreasureScope_XRay" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" alpha="100" />
+                <keyframe time="2" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="Rouge_TreasureScope_Lens" ease="ease-out" interpolation="linear">
+                <keyframe time="0" x="250" alpha="0" />
+                <keyframe time="1" x="250" alpha="0" />
+                <keyframe time="2" x="0" alpha="100" />
+                <keyframe time="3" x="0" />
+            </directive>
+        </pose>
     </poses>
 
 </costume>
