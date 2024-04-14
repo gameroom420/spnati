@@ -1004,6 +1004,29 @@ Hand.prototype.sort = function() {
     }.bind(this));
 };
 
+// Determine which deck is being used by most cards in the hand
+// Return "" if at least `tolerance` cards differ from the majority
+Hand.prototype.getCustomDeck = function(tolerance) {
+    var decks = this.cards.map(card => ACTIVE_CARD_IMAGES.frontImageMap[card]);
+
+    var deckCounts = {};
+    decks.forEach((deck) => deckCounts[deck] = (deckCounts[deck] || 0) + 1);
+
+    // Expand to nothing if decks are mixed
+    if (decks.length - Math.max(...Object.values(deckCounts)) > tolerance) {
+        return "";
+    } else {
+        return decks[0];
+    }
+}
+
+// Determine if a custom deck is being used by any cards in the hand
+// Return "true" if any card faces use the deck specified in `args`
+Hand.prototype.findUsedCustomDeck = function(args) {
+    var decks = this.cards.map(card => ACTIVE_CARD_IMAGES.frontImageMap[card]);
+    return (decks.indexOf(args) !== -1).toString();
+}
+
 /**********************************************************************
  * Return -1, 0, or 1 depending on whether h1 is respectively worse,
  * exactly tied with, or better than h2.  Assumes that both hands have
