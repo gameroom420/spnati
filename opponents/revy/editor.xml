@@ -441,8 +441,11 @@
         <label id="607" label="" color="4" folder="" sort="0" />
         <label id="608" label="" color="4" folder="" sort="0" />
         <label id="609" label="" color="4" folder="" sort="0" />
+        <label id="610" label="" color="4" folder="" sort="0" />
+        <label id="611" label="" color="4" folder="" sort="0" />
+        <label id="612" label="" color="4" folder="" sort="0" />
     </labels>
-    <nextId>609</nextId>
+    <nextId>612</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="aaravi0" />
@@ -1385,6 +1388,7 @@
         <marker scope="Public" name="noire_resp0" />
         <marker scope="Public" name="noire0" />
         <marker scope="Public" name="noire01" />
+        <marker scope="Public" name="nonon_nb0" />
         <marker scope="Public" name="nonon0" />
         <marker scope="Public" name="okino_gakuran0" />
         <marker scope="Public" name="okino_love" />
@@ -1672,6 +1676,7 @@
         <marker scope="Public" name="yae_miko0" />
         <marker scope="Public" name="yae_miko1" />
         <marker scope="Public" name="yae_resp0" />
+        <marker scope="Public" name="yae_rn0" />
         <marker scope="Public" name="yae0" />
         <marker scope="Public" name="yae01" />
         <marker scope="Public" name="yang_xl_butt" />
@@ -1684,6 +1689,7 @@
         <marker scope="Public" name="yshtola_ls0" />
         <marker scope="Public" name="yshtola_rules" />
         <marker scope="Public" name="yshtola_scs0" />
+        <marker scope="Public" name="yshtola_sh0" />
         <marker scope="Public" name="yshtola_sv0" />
         <marker scope="Public" name="yshtola_sws0" />
         <marker scope="Public" name="yshtola0" />
