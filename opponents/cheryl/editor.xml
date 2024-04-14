@@ -176,6 +176,10 @@
         <response id="840" opponent="nonon" opponentId="210" />
         <response id="841" opponent="nonon" opponentId="213" />
         <response id="842" opponent="nonon" opponentId="211" />
+        <response id="843" opponent="aaravi" opponentId="569" />
+        <response id="844" opponent="aaravi" opponentId="571" />
+        <response id="845" opponent="aaravi" opponentId="573" />
+        <response id="847" opponent="aaravi" opponentId="572" />
     </responses>
     <notes>
         <note id="118">Cheryl has literally escaped from Michael Myers on several occasions (probably). </note>
@@ -942,7 +946,7 @@
         <label id="838" label="Sex 4-H" folder="Asuna FF Type 1" sort="0" />
         <label id="839" label="Sex 5-H" folder="Asuna FF Type 1" sort="0" />
     </labels>
-    <nextId>842</nextId>
+    <nextId>847</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="aaravi_bootsA" />
@@ -955,6 +959,9 @@
         <marker scope="Public" name="aaravi_cloakB" />
         <marker scope="Public" name="aaravi_cloakC" />
         <marker scope="Public" name="aaravi_cuirassA" />
+        <marker scope="Public" name="aaravi_fantasy4a" />
+        <marker scope="Public" name="aaravi_fantasy4b" />
+        <marker scope="Public" name="aaravi_fantasy4c" />
         <marker scope="Public" name="aaravi_journal" />
         <marker scope="Public" name="aaravi_pantsA" />
         <marker scope="Public" name="aaravi_respBootsA" />
@@ -972,6 +979,7 @@
         <marker scope="Public" name="aaravi53" />
         <marker scope="Public" name="aaravi61" />
         <marker scope="Public" name="aaravi62" />
+        <marker scope="Public" name="aaravi63" />
         <marker scope="Public" name="aaravi71" />
         <marker scope="Public" name="aaravi72" />
         <marker scope="Public" name="aaravi72a" />
@@ -1142,6 +1150,7 @@
         <marker scope="Public" name="cheryl_fetish" />
         <marker scope="Public" name="cheryl_habits" />
         <marker scope="Public" name="cheryl_journaling" />
+        <marker scope="Public" name="cheryl_kaz_ff" />
         <marker scope="Public" name="cheryl_meia_dating" />
         <marker scope="Public" name="cheryl_open" />
         <marker scope="Public" name="cheryl_PAjob" />
