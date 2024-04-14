@@ -158,6 +158,9 @@
         <response id="710" opponent="nonon" opponentId="119" />
         <response id="711" opponent="jura" opponentId="1599" />
         <response id="718" opponent="giygas" opponentId="210" />
+        <response id="728" opponent="mythra" opponentId="4" />
+        <response id="730" opponent="sanako" opponentId="419" />
+        <response id="734" opponent="sanako" opponentId="191" />
     </responses>
     <notes>
         <note id="10">If you want to ask Pandoria / Pandy questions, you could draw attention to the fact that some of her body parts are lightbulbs, such as a lightbulb in her head.. and her tail. Her specific race is known as a "Blade".</note>
@@ -189,6 +192,7 @@
         <note id="627">solitaire sponsorshop</note>
         <note id="643">writing this in a way that shows zeke is very educated and aware of things, but he's also not clued in that nephenee might not understand him</note>
         <note id="652">Also makes his pp hard because it'd make more sense for Nonon to comment on his size if he's like that</note>
+        <note id="736">plays if pandoria has figured out sofia's trick</note>
     </notes>
     <labels>
         <label id="5" label="Pandoria Reminder" folder="" sort="0" />
@@ -903,13 +907,24 @@
         <label id="724" label="" folder="Eye of Shining Justice Mode" sort="0" />
         <label id="725" label="" folder="Eye of Shining Justice Mode" sort="0" />
         <label id="726" label="" folder="Eye of Shining Justice Mode" sort="0" />
+        <label id="727" label="" folder="Eye of Shining Justice Mode" sort="0" />
+        <label id="728" label="" folder="Mythra" sort="0" />
+        <label id="729" label="" folder="Eye of Shining Justice Mode" sort="0" />
+        <label id="730" label="" folder="Responses" sort="0" />
+        <label id="731" label="" folder="Targets" sort="0" />
+        <label id="732" label="" folder="Targets" sort="0" />
+        <label id="733" label="" folder="Targets" sort="0" />
+        <label id="734" label="" folder="Prompt Responses" sort="0" />
+        <label id="701" label="" folder="Targets&gt;Sofia" sort="0" />
+        <label id="735" label="" folder="Responses&gt;Sofia" sort="0" />
+        <label id="736" label="" folder="Responses&gt;Sofia" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>penis==h</posePreviewMarker>
-        <posePreviewMarker>EyeOfShiningJustice=1</posePreviewMarker>
+        <posePreviewMarker>EyeOfShiningJustice=0</posePreviewMarker>
     </posePreviewMarkers>
     <onlyCustomPoses>true</onlyCustomPoses>
-    <nextId>726</nextId>
+    <nextId>736</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="allowsex">If set to 1, Zeke and Pandoria *can* (but are not guaranteed to) have sex for their forfeit.</marker>
@@ -936,6 +951,7 @@
         <marker scope="Public" name="EOSJ_broken1" />
         <marker scope="Public" name="EOSJ_broken2" />
         <marker scope="Public" name="EyeOfShiningJustice">If active, Zeke is in EOSJ mode. Makes his AI best. Turns itself off if he starts forfeiting.</marker>
+        <marker scope="Public" name="EyeOfShiningJusticeEnabled" />
         <marker scope="Public" name="EyeOfShiningJusticeEnd" />
         <marker scope="Public" name="eyepatch_copyright" />
         <marker scope="Public" name="filtered_enf_prompt1" />
@@ -1227,6 +1243,7 @@
         <marker scope="Public" name="zeke_petra_title1" />
         <marker scope="Public" name="zeke_queenie_strip0a" />
         <marker scope="Public" name="zeke_revy_self0a" />
+        <marker scope="Public" name="zeke_sanako_videogameResp" />
         <marker scope="Public" name="zeke_sucrose_4c_both" />
         <marker scope="Public" name="zeke_sucrose_4c_pandy" />
         <marker scope="Public" name="zeke_sucrose_4c_zeke" />
@@ -1293,6 +1310,7 @@
         <marker scope="Public" name="zekepandy_zoe_moragResp" />
         <marker scope="Public" name="zk_sanako_self1a" />
         <marker scope="Public" name="zk_sanako_self1b" />
+        <marker scope="Public" name="zk_sanako_self1c" />
         <marker scope="Public" name="zk_solarflare_photosynthesis" />
         <marker scope="Public" name="zoe_swapRoles" />
         <marker scope="Public" name="Zoe_ZekePandoriaAbsResp" />
@@ -1356,10 +1374,15 @@
         <marker scope="Public" name="zp_nonon_strip3b" />
         <marker scope="Public" name="zp_nonon_strip3c" />
         <marker scope="Public" name="zp_reimu_self0a" />
+        <marker scope="Public" name="zp_sanako_0a" />
+        <marker scope="Public" name="zp_sanako_0a_nagisa_present" />
+        <marker scope="Public" name="zp_sanako_2a" />
         <marker scope="Public" name="zp_sofia_intro1" />
         <marker scope="Public" name="zp_sofia_intro2" />
         <marker scope="Public" name="zp_sofia_intro3" />
         <marker scope="Public" name="zp_sofia_liar1" />
+        <marker scope="Public" name="zp_sofia_self0a" />
+        <marker scope="Public" name="zp_sofia_self0a_revealed" />
         <marker scope="Public" name="zp_sofia_suitors1" />
         <marker scope="Public" name="zp_sofia_suitors2" />
         <marker scope="Public" name="zp_sofia_suitors3" />
