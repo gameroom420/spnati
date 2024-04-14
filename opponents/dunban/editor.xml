@@ -263,6 +263,10 @@
         <response id="815" opponent="revy" opponentId="13" />
         <response id="816" opponent="revy" opponentId="4" />
         <response id="817" opponent="hilda" opponentId="151" />
+        <response id="822" opponent="lysithea" opponentId="594" />
+        <response id="823" opponent="lysithea" opponentId="595" />
+        <response id="824" opponent="lysithea" opponentId="596" />
+        <response id="825" opponent="lysithea" opponentId="597" />
     </responses>
     <notes>
         <note id="10">Will be replaced if Sharla ever gets reworked lol</note>
@@ -316,8 +320,8 @@ c: say that he's been as high as the bionis' head?
         <note id="739">haha funny joke</note>
         <note id="749">you can respond to both of these with a single line, or use marker checks to respond to the A and/or B variants of this.</note>
         <note id="772">if you want to do an actual cross-character interaction like I have with Mia (Golden Sun), let me know!</note>
-        <note id="777">If you want me to change this to remove him getting a bit flirty/spicy let me know</note>
         <note id="779">he's being a bit vague here; I imagine a follow up will be that he hasn't really imagined himself settling down and finding a partner, he feels 'too busy' which is a bit of a lie.</note>
+        <note id="820">he's teasing her.</note>
     </notes>
     <labels>
         <label id="4" label="" folder="April Fools" sort="0" />
@@ -1079,7 +1083,7 @@ c: say that he's been as high as the bionis' head?
         <label id="780" label="" color="3" folder="Lysithea&gt;Responses" sort="0" />
         <label id="781" label="" color="3" folder="Lysithea&gt;Responses" sort="0" />
         <label id="782" label="" color="3" folder="Lysithea&gt;Targets" sort="0" />
-        <label id="783" label="" folder="Lysithea&gt;Targets" sort="0" />
+        <label id="783" label="" color="3" folder="Lysithea&gt;Targets" sort="0" />
         <label id="784" label="" color="3" folder="Lysithea&gt;Targets" sort="0" />
         <label id="785" label="" color="3" folder="Targets" sort="0" />
         <label id="786" label="" folder="Targets" sort="0" />
@@ -1101,24 +1105,33 @@ c: say that he's been as high as the bionis' head?
         <label id="802" label="" folder="Targets" sort="0" />
         <label id="803" label="" folder="Targets" sort="0" />
         <label id="804" label="" folder="Targets" sort="0" />
-        <label id="806" label="" folder="Lysithea&gt;Responses" sort="0" />
-        <label id="807" label="" folder="Lysithea&gt;Responses" sort="0" />
-        <label id="808" label="" folder="Lysithea&gt;Responses" sort="0" />
-        <label id="809" label="" folder="Lysithea&gt;Responses" sort="0" />
-        <label id="810" label="" folder="Lysithea&gt;Targets" sort="0" />
-        <label id="811" label="" folder="Lysithea&gt;Targets" sort="0" />
+        <label id="806" label="" color="3" folder="Lysithea&gt;Responses" sort="0" />
+        <label id="807" label="" color="3" folder="Lysithea&gt;Responses" sort="0" />
+        <label id="808" label="" color="3" folder="Lysithea&gt;Responses" sort="0" />
+        <label id="809" label="" color="3" folder="Lysithea&gt;Responses" sort="0" />
+        <label id="810" label="" color="3" folder="Lysithea&gt;Targets" sort="0" />
+        <label id="811" label="" color="3" folder="Lysithea&gt;Targets" sort="0" />
         <label id="812" label="" folder="Tables" sort="0" />
         <label id="813" label="" folder="Responses" sort="0" />
         <label id="814" label="" folder="Responses" sort="0" />
         <label id="815" label="" folder="Targets" sort="0" />
         <label id="816" label="" folder="targets" sort="0" />
         <label id="817" label="" folder="Targets" sort="0" />
+        <label id="818" label="" folder="Lysithea&gt;Targets" sort="0" />
+        <label id="819" label="" folder="Lysithea&gt;Targets" sort="0" />
+        <label id="820" label="" folder="Lysithea&gt;Targets" sort="0" />
+        <label id="821" label="" folder="Lysithea&gt;Targets" sort="0" />
+        <label id="822" label="" folder="Lysithea&gt;Responses" sort="0" />
+        <label id="823" label="" folder="Lysithea&gt;Responses" sort="0" />
+        <label id="824" label="" folder="Lysithea&gt;Responses" sort="0" />
+        <label id="825" label="" folder="Lysithea&gt;Responses" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>aquaKH_socks==0</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>817</nextId>
+    <nextId>825</nextId>
     <markers>
+        <marker scope="Public" name="" />
         <marker scope="Public" name="20gOffer">Line that plays when Dunban offers a 20g bribe to whoever loses</marker>
         <marker scope="Public" name="20gStage">Line related to game logic of 20gOffer</marker>
         <marker scope="Public" name="aaravi_backstoryPromptRespSelf" />
@@ -1400,6 +1413,7 @@ c: say that he's been as high as the bionis' head?
         <marker scope="Public" name="dunban_leon_jointaoResp" />
         <marker scope="Public" name="dunban_leon_self0a" />
         <marker scope="Public" name="dunban_leon_self1a" />
+        <marker scope="Public" name="dunban_lysithea_armEResp" />
         <marker scope="Public" name="dunban_lysithea_armIResp" />
         <marker scope="Public" name="dunban_lysithea_armSResp" />
         <marker scope="Public" name="dunban_lysithea_discipline1" />
@@ -1409,13 +1423,17 @@ c: say that he's been as high as the bionis' head?
         <marker scope="Public" name="dunban_lysithea_future2" />
         <marker scope="Public" name="dunban_lysithea_future3" />
         <marker scope="Public" name="dunban_lysithea_heated1" />
+        <marker scope="Public" name="dunban_lysithea_heated2" />
+        <marker scope="Public" name="dunban_lysithea_hopesEResp" />
         <marker scope="Public" name="dunban_lysithea_hopesIResp" />
         <marker scope="Public" name="dunban_lysithea_hopesSResp" />
         <marker scope="Public" name="dunban_lysithea_hopingNude1" />
+        <marker scope="Public" name="dunban_lysithea_hopingNude2" />
         <marker scope="Public" name="dunban_lysithea_magicGift1" />
         <marker scope="Public" name="dunban_lysithea_magicGift2" />
         <marker scope="Public" name="dunban_lysithea_magicGift3" />
         <marker scope="Public" name="dunban_lysithea_physical1" />
+        <marker scope="Public" name="dunban_lysithea_physical2" />
         <marker scope="Public" name="dunban_lysithea_physicallimits2" />
         <marker scope="Public" name="dunban_lysithea_physicallimits3" />
         <marker scope="Public" name="dunban_lysithea_physicallimitsResp" />
@@ -1423,12 +1441,15 @@ c: say that he's been as high as the bionis' head?
         <marker scope="Public" name="dunban_lysithea_recognize3" />
         <marker scope="Public" name="dunban_lysithea_recognizeResp" />
         <marker scope="Public" name="dunban_lysithea_shortLife1" />
+        <marker scope="Public" name="dunban_lysithea_shortLife2" />
         <marker scope="Public" name="dunban_lysithea_train2" />
         <marker scope="Public" name="dunban_lysithea_train3" />
         <marker scope="Public" name="dunban_lysithea_trainSResp" />
         <marker scope="Public" name="dunban_lysithea_trainSwordResp" />
+        <marker scope="Public" name="dunban_lysithea_victoryEResp" />
         <marker scope="Public" name="dunban_lysithea_victoryIResp" />
         <marker scope="Public" name="dunban_lysithea_victorySResp" />
+        <marker scope="Public" name="dunban_lysithea_womenEResp" />
         <marker scope="Public" name="dunban_lysithea_womenIResp" />
         <marker scope="Public" name="dunban_lysithea_womenS" />
         <marker scope="Public" name="dunban_lysithea_womenSResp" />
