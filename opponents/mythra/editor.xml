@@ -1,7 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <metadata>
     <owner>mythra</owner>
-    <nextId>0</nextId>
+    <height>5'4''</height>
+    <age />
+    <pronunciation />
+    <othernotes />
+    <responses>
+        <response id="1" opponent="zeke_pandoria" opponentId="122" />
+        <response id="8" opponent="kora" opponentId="33" />
+        <response id="9" opponent="kora" opponentId="32" />
+    </responses>
+    <labels>
+        <label id="1" label="" folder="Zeke" sort="0" />
+        <label id="2" label="" folder="Zeke" sort="0" />
+        <label id="3" label="" folder="Zeke" sort="0" />
+        <label id="4" label="" folder="Zeke" sort="0" />
+        <label id="5" label="" folder="Zeke" sort="0" />
+        <label id="6" label="" folder="Kora" sort="0" />
+        <label id="7" label="" folder="XC2" sort="0" />
+        <label id="9" label="" folder="Kora" sort="0" />
+        <label id="8" label="" folder="Kora" sort="0" />
+        <label id="10" label="" folder="Zeke" sort="0" />
+        <label id="11" label="" folder="Zeke" sort="0" />
+    </labels>
+    <nextId>11</nextId>
     <markers>
         <marker scope="Public" name="adenine">Adenine is a female scholarly Blade who enjoys learning above all else</marker>
         <marker scope="Public" name="bitball">Bitballs are one of the weapon types in XBC2</marker>
@@ -33,6 +55,7 @@
         <marker scope="Public" name="Step" />
         <marker scope="Public" name="ursula">Ursula is a female Blade with the appearance of a little girl and is carried around by a large polar bear</marker>
         <marker scope="Public" name="vale">Vale is a female goth styled Blade and a chunibyo for good measure</marker>
+        <marker scope="Public" name="wario1" />
         <marker scope="Public" name="wulfric">Wulfric is an intimidating but kind-hearted male Blade with communication problems</marker>
         <marker scope="Public" name="zeke">Zeke is a hot-blooded chunibyo who weilds a giant sword and doesn't wear a shirt</marker>
     </markers>
