@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1712229932649</lastupdate>
+    <lastupdate>1713213475138</lastupdate>
     <enabled>false</enabled>
     <first>Kyouko</first>
     <last>Toshinou</last>
@@ -15,8 +15,9 @@
     <default-costume-name>Club Uniform</default-costume-name>
     <alternates>
         <costume folder="opponents/reskins/kyouko_toshinou_sexy_tomato/" img="0-portrait.png" set="sleepover" status="unlisted" label="Kyouko" layers="5">Sexy Tomato</costume>
+        <costume folder="opponents/reskins/kyouko_toshinou_sweater/" img="0-portrait.png" status="online" label="Kyouko">Magenta Sweat</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>1452</lines>
-    <poses>466</poses>
+    <lines>1576</lines>
+    <poses>471</poses>
 </opponent>
