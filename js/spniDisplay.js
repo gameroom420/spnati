@@ -1306,7 +1306,7 @@ MainSelectScreenDisplay.prototype.displaySingleSuggestion = function () {
     }).show() ;
     updateGenderIcon(this.genderIcon, player);
 	// hard coded exception please change - nord
-	if (player.id == "sannytess") {
+	if (player.tags.includes("futanari") {
 		this.genderIcon.attr({
 			src: FUTANARI_SYMBOL,
 			alt: player.selectGender.initCap(),
@@ -1571,7 +1571,7 @@ OpponentSelectionCard.prototype.update = function () {
     }).show() ;
     updateGenderIcon(this.genderIcon, this.opponent);
 	/* hard coded icon update please change this in future - nord */
-	if (this.opponent.id == "sannytess") {
+	if (this.opponent.tags.includes("futanari")  {
 		this.genderIcon.attr({
 			src: FUTANARI_SYMBOL,
 			alt: this.opponent.selectGender.initCap(),
