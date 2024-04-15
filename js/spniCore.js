@@ -47,6 +47,7 @@ var IMG = 'img/';
 /* Gender Images */
 var MALE_SYMBOL = IMG + 'male.svg';
 var FEMALE_SYMBOL = IMG + 'female.svg';
+var FUTANARI_SYMBOL = IMG + 'futanari.svg';
 
 var includedOpponentStatuses = {};
 var alternateCostumeSets = {};
