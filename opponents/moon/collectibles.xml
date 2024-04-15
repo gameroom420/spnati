@@ -22,7 +22,7 @@
         <title>Moon's Shorts</title>
         <subtitle>Emphatically aromatic</subtitle>
         <text>There's no rule to prevent winners from stripping after the game, so Moon threw her shorts at you to protest her win. And to her delight, you kept them.</text>
-        <unlock>Lose a game to Moon!</unlock>
+        <unlock>See Moon win a game!</unlock>
         <hide-details>true</hide-details>
         <wearable>true</wearable>
         <clothing name="shorts" generic="shorts" position="lower" type="major" plural="true" />

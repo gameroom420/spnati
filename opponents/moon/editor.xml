@@ -273,6 +273,20 @@
         <label id="11" label="" folder="Misty to left" sort="0" />
         <label id="15" label="" folder="Misty to left" sort="0" />
         <label id="10" label="" folder="Misty to left" sort="0" />
+        <label id="244" label="" folder="Club: Mom to left" sort="0" />
+        <label id="245" label="" folder="Club: Mom to right" sort="0" />
+        <label id="246" label="" folder="Diamond: Mom to left" sort="0" />
+        <label id="247" label="" folder="Heart: Mom to left" sort="0" />
+        <label id="248" label="" folder="Heart: Mom to right" sort="0" />
+        <label id="249" label="" folder="Diamond: Mom to left" sort="0" />
+        <label id="250" label="" folder="Diamond: Mom to right" sort="0" />
+        <label id="251" label="" folder="Diamond: Mom to left" sort="0" />
+        <label id="252" label="" folder="Diamond: Mom to right" sort="0" />
+        <label id="253" label="" folder="Heart: Mom to right" sort="0" />
+        <label id="254" label="" folder="Heart: Mom to left" sort="0" />
+        <label id="255" label="" folder="Diamond: Mom to left or right" sort="0" />
+        <label id="256" label="" folder="Heart: Mom to left" sort="0" />
+        <label id="257" label="" folder="Heart: Mom to left" sort="0" />
     </labels>
     <prefixes>
         <prefix>collectible_</prefix>
@@ -281,7 +295,7 @@
         <prefix>9_</prefix>
         <prefix>street</prefix>
     </prefixes>
-    <nextId>243</nextId>
+    <nextId>257</nextId>
     <markers>
         <marker scope="Public" name="full_moon" />
         <marker scope="Public" name="moon_9s_drain_batteries" />
