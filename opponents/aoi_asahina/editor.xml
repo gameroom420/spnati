@@ -232,7 +232,7 @@
         <label id="224" label="" folder="Early Tags" sort="0" />
         <label id="226" label="" folder="Early Tags" sort="0" />
     </labels>
-    <nextId>228</nextId>
+    <nextId>229</nextId>
     <markers>
         <marker scope="Private" name="B_">Background related markers.</marker>
         <marker scope="Public" name="B_BeachTan" />
@@ -335,6 +335,8 @@
         <marker scope="Public" name="T_RingoLastHand" />
         <marker scope="Public" name="T_RingoStart" />
         <marker scope="Public" name="T_SakuraStrip2" />
+        <marker scope="Public" name="T_SannyStart" />
+        <marker scope="Public" name="T_SannyTessStart" />
         <marker scope="Public" name="T_Self_KyokoLost7" />
         <marker scope="Public" name="T_Self_NadeshikoNervous" />
         <marker scope="Public" name="T_Sweetheart_TLost0" />
