@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1713208499999</lastupdate>
+    <lastupdate>1713208500000</lastupdate>
     <enabled>false</enabled>
     <first>Kyoko</first>
     <last>Kirigiri</last>
@@ -14,6 +14,6 @@
     <layers>8</layers>
     <default-costume-name>Trigger-Happy Habit</default-costume-name>
     <has_collectibles>true</has_collectibles>
-    <lines>1963</lines>
+    <lines>1952</lines>
     <poses>303</poses>
 </opponent>
