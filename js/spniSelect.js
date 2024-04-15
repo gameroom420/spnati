@@ -534,7 +534,7 @@ function updateStatusIcon(elem, opp) {
 
 function updateGenderIcon(elem, opp) {
     elem.attr({
-        src: opp.selectGender === 'male' ? MALE_SYMBOL : (opp.hasTag("futanari") ? FUTANARI_SYMBOL : FEMALE_SYMBOL),
+        src: opp.selectGender === 'male' ? MALE_SYMBOL : ((opp.gender === "female" && opp.penis) ? FUTANARI_SYMBOL : FEMALE_SYMBOL),
         alt: opp.selectGender.initCap(),
     }).show();
 }
@@ -829,7 +829,6 @@ function filterOpponent(opp, name, source, creator, tags) {
             }
         }
     }
-    
     // filter by creator
     if (creator && opp.artist.simplifyDiacritics().indexOf(creator) < 0 && opp.writer.simplifyDiacritics().indexOf(creator) < 0) {
         return false;
