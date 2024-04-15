@@ -1305,13 +1305,7 @@ MainSelectScreenDisplay.prototype.displaySingleSuggestion = function () {
         alt: player.selectLayers + " layers",
     }).show() ;
     updateGenderIcon(this.genderIcon, player);
-	// hard coded exception please change - nord
-	if (player.tags.includes("futanari")) {
-		this.genderIcon.attr({
-			src: FUTANARI_SYMBOL,
-			alt: player.selectGender.initCap(),
-		});
-	}
+
     this.statusIcon.hide();
 }
 
@@ -1570,13 +1564,6 @@ OpponentSelectionCard.prototype.update = function () {
         alt: this.opponent.selectLayers + " layers",
     }).show() ;
     updateGenderIcon(this.genderIcon, this.opponent);
-	/* hard coded icon update please change this in future - nord */
-	if (this.opponent.tags.includes("futanari"))  {
-		this.genderIcon.attr({
-			src: FUTANARI_SYMBOL,
-			alt: this.opponent.selectGender.initCap(),
-		});
-	}
 
     this.simpleImage.one('load', OpponentSelectionCard.prototype.rescaleSimplePose.bind(this, this.opponent.scale));
     this.simpleImage.attr('src', this.opponent.selection_image).show();

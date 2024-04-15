@@ -637,6 +637,10 @@ function Opponent (id, metaFiles, status, rosterScore, addedDate, releaseNumber,
     this.searchTags.forEach((tag) => {
         if (MAGNET_TAGS.indexOf(tag) >= 0) this.magnetismTag = tag;
     });
+	
+	this.isFuta = false;
+	
+	this.isFuta = this.searchTags.includes('futanari');
 
     this.cases = new Map();
 
