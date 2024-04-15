@@ -638,8 +638,8 @@ function Opponent (id, metaFiles, status, rosterScore, addedDate, releaseNumber,
         if (MAGNET_TAGS.indexOf(tag) >= 0) this.magnetismTag = tag;
     });
 	
+	/* Needed because Futanari as a concept is not available (outside of the tags.xml) without loading behaviour.xml */
 	this.isFuta = false;
-	
 	this.isFuta = this.searchTags.includes('futanari');
 
     this.cases = new Map();
