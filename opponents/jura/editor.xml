@@ -132,6 +132,7 @@ funny answer: crab because her mech gets likened to one</note>
         <note id="1614">I already wrote all my targets as if she had her canon look, so this is just a minor variation (unless you want to expand it into an alt convo)</note>
         <note id="1598">revised</note>
         <note id="1643">I assume saying it outright will fluster her, but willing to revise</note>
+        <note id="1698">suddenly harboring some suspicions, if it's not clear</note>
     </notes>
     <labels>
         <label id="106" label="" color="4" folder="" sort="0" />
@@ -844,9 +845,8 @@ funny answer: crab because her mech gets likened to one</note>
         <label id="1421" label="" color="1" folder="" sort="0" />
         <label id="1422" label="" color="1" folder="" sort="0" />
         <label id="1424" label="" color="1" folder="" sort="0" />
-        <label id="1491" label="" color="4" folder="" sort="0" />
+        <label id="1697" label="" color="4" folder="" sort="0" />
         <label id="1676" label="" color="4" folder="" sort="0" />
-        <label id="1677" label="" color="4" folder="" sort="0" />
         <label id="1430" label="" color="6" folder="" sort="0" />
         <label id="1431" label="" color="1" folder="" sort="0" />
         <label id="1432" label="" color="1" folder="" sort="0" />
@@ -916,7 +916,7 @@ funny answer: crab because her mech gets likened to one</note>
         <label id="1559" label="" color="2" folder="" sort="0" />
         <label id="1560" label="" color="2" folder="" sort="0" />
         <label id="1561" label="" color="2" folder="" sort="0" />
-        <label id="1695" label="" color="4" folder="" sort="0" />
+        <label id="1698" label="" color="4" folder="" sort="0" />
         <label id="1566" label="" color="4" folder="" sort="0" />
         <label id="1567" label="" color="4" folder="" sort="0" />
         <label id="1596" label="" color="4" folder="" sort="0" />
@@ -971,12 +971,12 @@ funny answer: crab because her mech gets likened to one</note>
         <label id="1692" label="" color="4" folder="" sort="0" />
         <label id="1691" label="" color="4" folder="" sort="0" />
         <label id="1693" label="" color="4" folder="" sort="0" />
-        <label id="1694" label="" color="4" folder="" sort="0" />
+        <label id="1696" label="" color="4" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>jura</prefix>
     </prefixes>
-    <nextId>1695</nextId>
+    <nextId>1698</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="1v1">Jura acknowledges that the game has come down to her and one other player.</marker>
@@ -2758,7 +2758,9 @@ funny answer: crab because her mech gets likened to one</note>
         <marker scope="Public" name="sanako_resp3right" />
         <marker scope="Public" name="sanako_resp3s_right" />
         <marker scope="Public" name="sanako_resp4right" />
+        <marker scope="Public" name="sanako_resp4s_right" />
         <marker scope="Public" name="sanako_resp56right" />
+        <marker scope="Public" name="sanako_resp56right_nagisa" />
         <marker scope="Public" name="sanako_resp5right" />
         <marker scope="Public" name="sanako_resp5right_nagisa" />
         <marker scope="Public" name="sanako_resp6s_right" />
@@ -2774,6 +2776,7 @@ funny answer: crab because her mech gets likened to one</note>
         <marker scope="Public" name="sanako34" />
         <marker scope="Public" name="sanako3s" />
         <marker scope="Public" name="sanako4" />
+        <marker scope="Public" name="sanako45" />
         <marker scope="Public" name="sanako4s" />
         <marker scope="Public" name="sandy_cheeks0" />
         <marker scope="Public" name="sannytess_nb0" />
