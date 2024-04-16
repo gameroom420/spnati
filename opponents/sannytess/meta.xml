@@ -13,7 +13,7 @@
     <description>A duo of girls nicknamed "Sanny" and "Tess" who can be found on the Wikipedia article for futanari and on the Wikimedia Commons. Representing two different kinds of futanari, the pair seek to educate the masses on futanari media, tropes, characters, and so much more.</description>
     <layers>6</layers>
     <alternates>
-        <costume folder="opponents/reskins/sannytess_nostalgia/" img="0-neutral.png" set="april_fools" status="online" label="Sanny">Nostalgia-banned.svg</costume>
+        <costume folder="opponents/reskins/sannytess_nostalgia/" img="0-neutral.png" set="april_fools">Nostalgia-banned.svg</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
     <lines>732</lines>
