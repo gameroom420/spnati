@@ -612,8 +612,9 @@
         <label id="398" label="" folder="QueenOfHate" sort="0" />
         <label id="399" label="" folder="QueenOfHate" sort="0" />
         <label id="400" label="" folder="QueenOfHate" sort="0" />
+        <label id="402" label="" folder="Aura_Scouter" sort="0" />
     </labels>
-    <nextId>401</nextId>
+    <nextId>402</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="aggressive" />
@@ -654,6 +655,7 @@
         <marker scope="Public" name="aqua_sweetheart5a" />
         <marker scope="Public" name="aqua_sweetheart5b" />
         <marker scope="Public" name="aqua_sweetheart5c" />
+        <marker scope="Public" name="Aura_Camera_Sweetheart" />
         <marker scope="Public" name="Bowsettecomeback" />
         <marker scope="Public" name="Bowsettepractice" />
         <marker scope="Public" name="Bowsetteroyal" />
