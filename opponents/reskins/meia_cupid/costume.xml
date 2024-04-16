@@ -2660,6 +2660,60 @@
             <sprite id="pyoroleg(copy)" parent="pyorom" z="-1" src="reskins/meia_cupid/pyoroleg.png" x="114" y="205" scalex="1" rotation="2" />
             <sprite id="static" z="2" src="reskins/meia_cupid/static.png" x="-300" y="149" rotation="-2" />
         </pose>
+        <pose id="0-earnest">
+            <sprite id="thinking" src="reskins/meia_cupid/1-thinking.png" x="0" y="0" />
+            <sprite id="earnest0" src="reskins/meia_cupid/earnest0.png" x="-4" y="215" />
+        </pose>
+        <pose id="1-earnest">
+            <sprite id="thinking" src="reskins/meia_cupid/1-thinking.png" x="0" y="0" />
+            <sprite id="earnest0" src="reskins/meia_cupid/earnest12.png" x="-1" y="215" />
+        </pose>
+        <pose id="2-earnest">
+            <sprite id="thinking" src="reskins/meia_cupid/2-thinking.png" x="0" y="0" />
+            <sprite id="earnest0" src="reskins/meia_cupid/earnest12.png" x="-1" y="215" />
+        </pose>
+        <pose id="3-earnest">
+            <sprite id="thinking" src="reskins/meia_cupid/3-thinking.png" x="0" y="0" />
+            <sprite id="earnest0" src="reskins/meia_cupid/earnest345.png" x="-4" y="217" />
+        </pose>
+        <pose id="4-earnest">
+            <sprite id="thinking" src="reskins/meia_cupid/4-thinking.png" x="0" y="0" />
+            <sprite id="earnest0" src="reskins/meia_cupid/earnest345.png" x="-4" y="217" />
+        </pose>
+        <pose id="5-earnest">
+            <sprite id="thinking" src="reskins/meia_cupid/5-thinking.png" x="0" y="0" />
+            <sprite id="earnest0" src="reskins/meia_cupid/earnest345.png" x="-4" y="215" />
+        </pose>
+        <pose id="0-earnestopen">
+            <sprite id="thinking" src="reskins/meia_cupid/1-thinking.png" x="0" y="0" />
+            <sprite id="earnest0" src="reskins/meia_cupid/earnest0.png" x="-4" y="215" />
+            <sprite id="mouth26_34567" src="reskins/meia_cupid/mouth26_34567.png" x="-5" y="280" />
+        </pose>
+        <pose id="1-earnestopen">
+            <sprite id="thinking" src="reskins/meia_cupid/1-thinking.png" x="0" y="0" />
+            <sprite id="earnest0" src="reskins/meia_cupid/earnest12.png" x="-1" y="215" />
+            <sprite id="mouth26_34567" src="reskins/meia_cupid/mouth26_34567.png" x="-5" y="280" />
+        </pose>
+        <pose id="2-earnestopen">
+            <sprite id="thinking" src="reskins/meia_cupid/2-thinking.png" x="0" y="0" />
+            <sprite id="earnest0" src="reskins/meia_cupid/earnest12.png" x="-1" y="215" />
+            <sprite id="mouth26_34567" src="reskins/meia_cupid/mouth26_34567.png" x="-5" y="280" />
+        </pose>
+        <pose id="3-earnestopen">
+            <sprite id="thinking" src="reskins/meia_cupid/3-thinking.png" x="0" y="0" />
+            <sprite id="earnest0" src="reskins/meia_cupid/earnest345.png" x="-4" y="217" />
+            <sprite id="mouth26_34567" src="reskins/meia_cupid/mouth26_34567.png" x="-5" y="280" />
+        </pose>
+        <pose id="4-earnestopen">
+            <sprite id="thinking" src="reskins/meia_cupid/4-thinking.png" x="0" y="0" />
+            <sprite id="earnest0" src="reskins/meia_cupid/earnest345.png" x="-4" y="217" />
+            <sprite id="mouth26_34567" src="reskins/meia_cupid/mouth26_34567.png" x="-5" y="280" />
+        </pose>
+        <pose id="5-earnestopen">
+            <sprite id="thinking" src="reskins/meia_cupid/5-thinking.png" x="0" y="0" />
+            <sprite id="earnest0" src="reskins/meia_cupid/earnest345.png" x="-4" y="215" />
+            <sprite id="mouth26_34567" src="reskins/meia_cupid/mouth26_34567.png" x="-5" y="279" />
+        </pose>
     </poses>
 
 </costume>

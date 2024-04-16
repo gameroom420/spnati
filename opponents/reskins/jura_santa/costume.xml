@@ -67,10 +67,6 @@
             <sprite id="vain" src="reskins/jura_santa/0-cackling.png" x="0" y="0" />
             <sprite id="bselected" z="1" src="reskins/jura_santa/bselected.png" x="324" y="0" />
         </pose>
-        <pose id="0-selectedcoy">
-            <sprite id="vain" src="reskins/jura_santa/0-coy.png" x="0" y="0" />
-            <sprite id="bselected" z="1" src="reskins/jura_santa/bselected.png" x="324" y="0" />
-        </pose>
         <pose id="0-selectedlaughing">
             <sprite id="vain" src="reskins/jura_santa/0-laughing.png" x="0" y="0" />
             <sprite id="bselected" z="1" src="reskins/jura_santa/bselected.png" x="309" y="0" />
@@ -1418,6 +1414,236 @@
         <pose id="6-strippedcamera">
             <sprite id="stripped" src="reskins/jura_santa/6-stripped.png" x="0" y="0" />
             <sprite id="bcamera+" z="-1" src="reskins/jura_santa/bcamera.png" x="339" y="0" rotation="2" />
+        </pose>
+        <pose id="0-coy">
+            <sprite id="dreaming" src="reskins/jura_santa/0-dreaming.png" x="0" y="0" />
+            <sprite id="coy" src="reskins/jura_santa/coy.png" x="0" y="182" />
+        </pose>
+        <pose id="1-coy">
+            <sprite id="dreaming" src="reskins/jura_santa/1-dreaming.png" x="0" y="0" />
+            <sprite id="coy" src="reskins/jura_santa/coy.png" x="0" y="182" />
+        </pose>
+        <pose id="2-coy">
+            <sprite id="dreaming" src="reskins/jura_santa/2-dreaming.png" x="0" y="0" />
+            <sprite id="coy" src="reskins/jura_santa/coy.png" x="0" y="182" />
+        </pose>
+        <pose id="3-coy">
+            <sprite id="dreaming" src="reskins/jura_santa/3-dreaming.png" x="0" y="0" />
+            <sprite id="coy" src="reskins/jura_santa/coy.png" x="0" y="182" />
+        </pose>
+        <pose id="4-coy">
+            <sprite id="dreaming" src="reskins/jura_santa/4-dreaming.png" x="0" y="0" />
+            <sprite id="coy" src="reskins/jura_santa/coy.png" x="0" y="182" />
+        </pose>
+        <pose id="5-coy">
+            <sprite id="dreaming" src="reskins/jura_santa/5-dreaming.png" x="0" y="0" />
+            <sprite id="coy" src="reskins/jura_santa/coy.png" x="0" y="182" />
+        </pose>
+        <pose id="6-coy">
+            <sprite id="dreaming" src="reskins/jura_santa/6-dreaming.png" x="0" y="0" />
+            <sprite id="coy" src="reskins/jura_santa/coy.png" x="0" y="182" />
+        </pose>
+        <pose id="0-excited">
+            <sprite id="dreaming" src="reskins/jura_santa/0-dreaming.png" x="0" y="0" />
+            <sprite id="coy" src="reskins/jura_santa/excited012.png" x="-1" y="179" />
+        </pose>
+        <pose id="1-excited">
+            <sprite id="dreaming" src="reskins/jura_santa/1-dreaming.png" x="0" y="0" />
+            <sprite id="coy" src="reskins/jura_santa/excited012.png" x="-1" y="179" />
+        </pose>
+        <pose id="2-excited">
+            <sprite id="dreaming" src="reskins/jura_santa/2-dreaming.png" x="0" y="0" />
+            <sprite id="coy" src="reskins/jura_santa/excited012.png" x="-1" y="179" />
+        </pose>
+        <pose id="3-excited">
+            <sprite id="dreaming" src="reskins/jura_santa/3-dreaming.png" x="0" y="0" />
+            <sprite id="coy" src="reskins/jura_santa/excited.png" x="-1" y="179" />
+        </pose>
+        <pose id="4-excited">
+            <sprite id="dreaming" src="reskins/jura_santa/4-dreaming.png" x="0" y="0" />
+            <sprite id="coy" src="reskins/jura_santa/excited.png" x="-1" y="179" />
+        </pose>
+        <pose id="5-excited">
+            <sprite id="dreaming" src="reskins/jura_santa/5-dreaming.png" x="0" y="0" />
+            <sprite id="coy" src="reskins/jura_santa/excited.png" x="-1" y="179" />
+        </pose>
+        <pose id="6-excited">
+            <sprite id="dreaming" src="reskins/jura_santa/6-dreaming.png" x="0" y="0" />
+            <sprite id="coy" src="reskins/jura_santa/excited.png" x="-1" y="179" />
+        </pose>
+        <pose id="7-coy">
+            <sprite id="dreaming" src="reskins/jura_santa/7-dreaming.png" x="0" y="0" />
+            <sprite id="coy" src="reskins/jura_santa/coy.png" x="-1" y="793" rotation="0" />
+        </pose>
+        <pose id="7-excited">
+            <sprite id="dreaming" src="reskins/jura_santa/7-dreaming.png" x="0" y="0" />
+            <sprite id="coy" src="reskins/jura_santa/excited.png" x="-3" y="790" pivotx="51%" pivoty="53%" rotation="0" />
+        </pose>
+        <pose id="8-coy">
+            <sprite id="dreaming" src="reskins/jura_santa/8-dreaming.png" x="0" y="0" />
+            <sprite id="coy" src="reskins/jura_santa/coy.png" x="-1" y="760" rotation="0" />
+        </pose>
+        <pose id="8-excited">
+            <sprite id="dreaming" src="reskins/jura_santa/8-dreaming.png" x="0" y="0" />
+            <sprite id="coy" src="reskins/jura_santa/excited.png" x="-2" y="757" pivotx="51%" pivoty="53%" rotation="0" />
+        </pose>
+        <pose id="0-angry">
+            <sprite id="surprised" src="reskins/jura_santa/0-surprised.png" x="0" y="0" />
+            <sprite id="shocked" src="reskins/jura_santa/angry.png" x="0" y="174" rotation="1" />
+        </pose>
+        <pose id="1-angry">
+            <sprite id="surprised" src="reskins/jura_santa/1-surprised.png" x="0" y="0" />
+            <sprite id="shocked" src="reskins/jura_santa/angry.png" x="0" y="174" rotation="1" />
+        </pose>
+        <pose id="2-angry">
+            <sprite id="surprised" src="reskins/jura_santa/2-surprised.png" x="0" y="0" />
+            <sprite id="shocked" src="reskins/jura_santa/angry.png" x="0" y="174" rotation="1" />
+        </pose>
+        <pose id="3-angry">
+            <sprite id="surprised" src="reskins/jura_santa/3-surprised.png" x="0" y="0" />
+            <sprite id="shocked" src="reskins/jura_santa/angry.png" x="0" y="174" rotation="1" />
+        </pose>
+        <pose id="4-angry">
+            <sprite id="surprised" src="reskins/jura_santa/4-surprised.png" x="0" y="0" />
+            <sprite id="shocked" src="reskins/jura_santa/angry.png" x="0" y="174" rotation="1" />
+        </pose>
+        <pose id="5-angry">
+            <sprite id="surprised" src="reskins/jura_santa/5-surprised.png" x="0" y="0" />
+            <sprite id="shocked" src="reskins/jura_santa/angry.png" x="0" y="174" rotation="1" />
+        </pose>
+        <pose id="6-angry">
+            <sprite id="surprised" src="reskins/jura_santa/6-surprised.png" x="0" y="0" />
+            <sprite id="shocked" src="reskins/jura_santa/angry.png" x="0" y="174" rotation="1" />
+        </pose>
+        <pose id="7-angry">
+            <sprite id="surprised" src="reskins/jura_santa/7-surprised.png" x="0" y="0" />
+            <sprite id="shocked" src="reskins/jura_santa/angry.png" x="1" y="745" rotation="1" />
+        </pose>
+        <pose id="8-angry">
+            <sprite id="surprised" src="reskins/jura_santa/8-surprised.png" x="0" y="0" />
+            <sprite id="shocked" src="reskins/jura_santa/angry.png" x="0" y="774" rotation="-1" />
+        </pose>
+        <pose id="0-defensive">
+            <sprite id="attentive" src="reskins/jura_santa/0-attentive.png" x="0" y="0" />
+            <sprite id="defensive" src="reskins/jura_santa/defensive.png" x="-1" y="171" />
+        </pose>
+        <pose id="1-defensive">
+            <sprite id="attentive" src="reskins/jura_santa/1-attentive.png" x="0" y="0" />
+            <sprite id="defensive" src="reskins/jura_santa/defensive.png" x="-1" y="171" />
+        </pose>
+        <pose id="2-defensive">
+            <sprite id="attentive" src="reskins/jura_santa/2-attentive.png" x="0" y="0" />
+            <sprite id="defensive" src="reskins/jura_santa/defensive.png" x="-1" y="171" />
+        </pose>
+        <pose id="3-defensive">
+            <sprite id="attentive" src="reskins/jura_santa/3-attentive.png" x="0" y="0" />
+            <sprite id="defensive" src="reskins/jura_santa/defensive.png" x="-1" y="171" />
+        </pose>
+        <pose id="4-defensive">
+            <sprite id="attentive" src="reskins/jura_santa/4-attentive.png" x="0" y="0" />
+            <sprite id="defensive" src="reskins/jura_santa/defensive.png" x="-1" y="171" />
+        </pose>
+        <pose id="5-defensive">
+            <sprite id="attentive" src="reskins/jura_santa/5-attentive.png" x="0" y="0" />
+            <sprite id="defensive" src="reskins/jura_santa/defensive.png" x="-1" y="171" />
+        </pose>
+        <pose id="6-defensive">
+            <sprite id="attentive" src="reskins/jura_santa/6-attentive.png" x="0" y="0" />
+            <sprite id="defensive" src="reskins/jura_santa/defensive.png" x="-1" y="171" />
+        </pose>
+        <pose id="8-defensive">
+            <sprite id="attentive" src="reskins/jura_santa/8-attentive.png" x="0" y="0" />
+            <sprite id="defensive" src="reskins/jura_santa/defensive.png" x="1" y="738" rotation="5" />
+        </pose>
+        <pose id="7-defensive">
+            <sprite id="attentive" src="reskins/jura_santa/7-attentive.png" x="0" y="0" />
+            <sprite id="defensive" src="reskins/jura_santa/defensive.png" x="-2" y="747" />
+        </pose>
+        <pose id="0-defensivesilent">
+            <sprite id="attentive" src="reskins/jura_santa/0-attentive.png" x="0" y="0" />
+            <sprite id="defensive" src="reskins/jura_santa/defensive.png" x="-1" y="171" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="-2" y="251" />
+        </pose>
+        <pose id="1-defensivesilent">
+            <sprite id="attentive" src="reskins/jura_santa/1-attentive.png" x="0" y="0" />
+            <sprite id="defensive" src="reskins/jura_santa/defensive.png" x="-1" y="171" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="-2" y="251" />
+        </pose>
+        <pose id="2-defensivesilent">
+            <sprite id="attentive" src="reskins/jura_santa/2-attentive.png" x="0" y="0" />
+            <sprite id="defensive" src="reskins/jura_santa/defensive.png" x="-1" y="171" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="-2" y="251" />
+        </pose>
+        <pose id="3-defensivesilent">
+            <sprite id="attentive" src="reskins/jura_santa/3-attentive.png" x="0" y="0" />
+            <sprite id="defensive" src="reskins/jura_santa/defensive.png" x="-1" y="171" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="-2" y="251" />
+        </pose>
+        <pose id="4-defensivesilent">
+            <sprite id="attentive" src="reskins/jura_santa/4-attentive.png" x="0" y="0" />
+            <sprite id="defensive" src="reskins/jura_santa/defensive.png" x="-1" y="171" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="-2" y="251" />
+        </pose>
+        <pose id="5-defensivesilent">
+            <sprite id="attentive" src="reskins/jura_santa/5-attentive.png" x="0" y="0" />
+            <sprite id="defensive" src="reskins/jura_santa/defensive.png" x="-1" y="171" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="-2" y="251" />
+        </pose>
+        <pose id="6-defensivesilent">
+            <sprite id="attentive" src="reskins/jura_santa/6-attentive.png" x="0" y="0" />
+            <sprite id="defensive" src="reskins/jura_santa/defensive.png" x="-1" y="171" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="-2" y="251" />
+        </pose>
+        <pose id="7-defensivesilent">
+            <sprite id="attentive" src="reskins/jura_santa/7-attentive.png" x="0" y="0" />
+            <sprite id="defensive" src="reskins/jura_santa/defensive.png" x="-2" y="747" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="-3" y="828" />
+        </pose>
+        <pose id="8-defensivesilent">
+            <sprite id="attentive" src="reskins/jura_santa/8-attentive.png" x="0" y="0" />
+            <sprite id="defensive" src="reskins/jura_santa/defensive.png" x="1" y="738" rotation="5" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="-3" y="818" rotation="7" />
+        </pose>
+        <pose id="0-attentivesilent">
+            <sprite id="attentive" src="reskins/jura_santa/0-attentive.png" x="0" y="0" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="-2" y="251" />
+        </pose>
+        <pose id="1-attentivesilent">
+            <sprite id="attentive" src="reskins/jura_santa/1-attentive.png" x="0" y="0" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="-2" y="251" />
+        </pose>
+        <pose id="2-attentivesilent">
+            <sprite id="attentive" src="reskins/jura_santa/2-attentive.png" x="0" y="0" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="-2" y="251" />
+        </pose>
+        <pose id="3-attentivesilent">
+            <sprite id="attentive" src="reskins/jura_santa/3-attentive.png" x="0" y="0" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="-2" y="251" />
+        </pose>
+        <pose id="4-attentivesilent">
+            <sprite id="attentive" src="reskins/jura_santa/4-attentive.png" x="0" y="0" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="-2" y="251" />
+        </pose>
+        <pose id="5-attentivesilent">
+            <sprite id="attentive" src="reskins/jura_santa/5-attentive.png" x="0" y="0" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="-2" y="251" />
+        </pose>
+        <pose id="6-attentivesilent">
+            <sprite id="attentive" src="reskins/jura_santa/6-attentive.png" x="0" y="0" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="-2" y="251" />
+        </pose>
+        <pose id="7-attentivesilent">
+            <sprite id="attentive" src="reskins/jura_santa/7-attentive.png" x="0" y="0" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="-3" y="828" />
+        </pose>
+        <pose id="8-attentivesilent">
+            <sprite id="attentive" src="reskins/jura_santa/8-attentive.png" x="0" y="0" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="-3" y="818" rotation="7" />
+        </pose>
+        <pose id="0-selectedcoy">
+            <sprite id="dreaming" src="reskins/jura_santa/0-dreaming.png" x="0" y="0" />
+            <sprite id="coy" src="reskins/jura_santa/coy.png" x="0" y="182" />
+            <sprite id="bselected" src="reskins/jura_santa/bselected.png" x="324" y="0" />
         </pose>
     </poses>
 
