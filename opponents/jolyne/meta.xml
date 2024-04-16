@@ -7,7 +7,6 @@
     <label>Jolyne</label>
     <pic>0-Start.png</pic>
     <gender>female</gender>
-    <height>175 cm</height>
     <from>JoJo's Bizarre Adventure: Stone Ocean</from>
     <writer>Blacthulhu</writer>
     <artist>Blacthulhu</artist>
@@ -15,7 +14,6 @@
 
 Wrongly framed for a DUI murder, she is sent to Green Dolphin Street Jail, where she awakens her Stand, Stone Free.</description>
     <layers>5</layers>
-    <has_collectibles>false</has_collectibles>
     <lines>2922</lines>
     <poses>160</poses>
     <has_ending>false</has_ending>
