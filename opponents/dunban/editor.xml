@@ -267,6 +267,7 @@
         <response id="823" opponent="lysithea" opponentId="595" />
         <response id="824" opponent="lysithea" opponentId="596" />
         <response id="825" opponent="lysithea" opponentId="597" />
+        <response id="829" opponent="aoi_asahina" opponentId="39" />
     </responses>
     <notes>
         <note id="10">Will be replaced if Sharla ever gets reworked lol</note>
@@ -728,7 +729,7 @@ c: say that he's been as high as the bionis' head?
         <label id="423" label="" folder="Mari Setogaya" sort="6" />
         <label id="425" label="" folder="Mari Setogaya" sort="8" />
         <label id="426" label="" folder="Mari Setogaya" sort="7" />
-        <label id="427" label="" folder="Anatoly" sort="12" />
+        <label id="427" label="" folder="Mari Setogaya" sort="12" />
         <label id="428" label="" folder="Targets" sort="83" />
         <label id="429" label="" folder="Targets" sort="72" />
         <label id="430" label="" folder="Responses" sort="2" />
@@ -1125,11 +1126,17 @@ c: say that he's been as high as the bionis' head?
         <label id="823" label="" folder="Lysithea&gt;Responses" sort="0" />
         <label id="824" label="" folder="Lysithea&gt;Responses" sort="0" />
         <label id="825" label="" folder="Lysithea&gt;Responses" sort="0" />
+        <label id="826" label="Dual Forfeit (After)" folder="Aqua (KH) S" sort="0" />
+        <label id="827" label="" folder="Targets" sort="0" />
+        <label id="828" label="" folder="Targets" sort="0" />
+        <label id="829" label="" folder="Situations" sort="0" />
+        <label id="830" label="" folder="Targets" sort="0" />
+        <label id="831" label="" folder="Targets" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>aquaKH_socks==0</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>825</nextId>
+    <nextId>831</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="20gOffer">Line that plays when Dunban offers a 20g bribe to whoever loses</marker>
@@ -1137,6 +1144,7 @@ c: say that he's been as high as the bionis' head?
         <marker scope="Public" name="aaravi_backstoryPromptRespSelf" />
         <marker scope="Public" name="absolute_tie_1" />
         <marker scope="Public" name="adrien_transform_firstseen" />
+        <marker scope="Public" name="aoi_returns_from_swim" />
         <marker scope="Public" name="aqua_dunban_piercer1Resp" />
         <marker scope="Public" name="aqua_dunban_piercer2Resp" />
         <marker scope="Public" name="aqua_dunban_self2a" />
@@ -1152,6 +1160,7 @@ c: say that he's been as high as the bionis' head?
         <marker scope="Public" name="aqua_traverse_town_resp" />
         <marker scope="Public" name="aquaff_heavyState" />
         <marker scope="Public" name="aquakh_doubleforfeit_after1" />
+        <marker scope="Public" name="aquakh_doubleforfeit_after2" />
         <marker scope="Public" name="aquakh_doubleforfeit_dunbanFinish" />
         <marker scope="Public" name="aquakh_doubleforfeit_end" />
         <marker scope="Public" name="aquakh_doubleforfeit_start" />
@@ -1516,7 +1525,9 @@ c: say that he's been as high as the bionis' head?
         <marker scope="Public" name="dunban_mitama_wisdom3Resp" />
         <marker scope="Public" name="dunban_mitama_wisdomResp" />
         <marker scope="Public" name="dunban_moskii_strip0a" />
+        <marker scope="Public" name="dunban_moskii_strip0b" />
         <marker scope="Public" name="dunban_moskii_strip1a" />
+        <marker scope="Public" name="dunban_moskii_strip1b" />
         <marker scope="Public" name="dunban_nadeshiko_outdoors1" />
         <marker scope="Public" name="dunban_nadeshiko_outdoors2" />
         <marker scope="Public" name="dunban_nadia_headroll" />
@@ -1565,7 +1576,9 @@ c: say that he's been as high as the bionis' head?
         <marker scope="Public" name="dunban_sannytess_01" />
         <marker scope="Public" name="dunban_sannytess_02" />
         <marker scope="Public" name="dunban_sannytess_0a" />
+        <marker scope="Public" name="dunban_sannytess_0b" />
         <marker scope="Public" name="dunban_sannytess_1a" />
+        <marker scope="Public" name="dunban_sannytess_1b" />
         <marker scope="Public" name="dunban_sannytess_revealpt1" />
         <marker scope="Public" name="dunban_sannytess_revealpt2" />
         <marker scope="Public" name="dunban_setogaya_startFF_after_boxerStrip" />
