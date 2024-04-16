@@ -68,7 +68,7 @@ Zeke & Pandoria []*: ??
 
 ZEKE & PANDORIA MUST STRIP GLOVES:
 Sanako [sanako_zeke_sz_z1]: So.... if you don't mind me asking, Zeke, are the two of you on a date?
-Zeke & Pandoria [zekepandy_sanako_self0a]: {pandy}Yeah, I guess you could call it a date?{!reset}<hr>Pandy and I tend to go everywhere together as part of our thrilling, ongoing adventure! -- please set this line to only play when Sanako is to the left
+Zeke & Pandoria [zekepandy_sanako_self0a]: {pandy}Yeah, I guess you could call it a date?{!reset}<hr>Pandy and I tend to go everywhere together as part of our thrilling, ongoing adventure!
 
 ZEKE & PANDORIA STRIPPING GLOVES:
 Sanako [sanako_zeke_sz_z2]: That's so sweet. I remember when I met my someone special, we were practically joined at the hip after we went steady. ~player.ifMale(He and I|We)~ never managed to get too far from our chaperone, though.
@@ -89,19 +89,19 @@ Zeke & Pandoria [zk_sanako_self1b]: We're not like that, are we?<hr>{pandy}No, i
 
 ZEKE & PANDORIA STRIPPED PAULDRONS & DRESS:
 Sanako [sanako_zeke_sz_z6]: It's okay if you want to take it slow. When my partner and I were getting to know each other, he was a bundle of nerves just holding my hand!
-Zeke & Pandoria []*: ??
+Zeke & Pandoria [zk_sanako_self1c]: We're... a little more adventurous than you and your partner, to be sure.<hr>{pandy}I mean, we are getting naked together...
 
 
 ZEKE & PANDORIA MUST STRIP COAT & BRA:
-Sanako []*: ??
+Sanako [sanako_zeke_sz_z7]: I can't help but notice that you have poor Pandy standing there in her underthings while you still have the big fancy coat on, Zeke. I'm sure she'd appreciate an equal opportunity gesture, if you're willing.
 Zeke & Pandoria []*: ??
 
-ZEKE & PANDORIA STRIPPING COAT & BRA:
-Sanako []*: ??
+ZEKE & PANDORIA STRIPPING COAT & BRA: breasts already visible
+Sanako [sanako_zeke_sz_z8]*: ??
 Zeke & Pandoria []*: ??
 
 ZEKE & PANDORIA STRIPPED COAT & BRA:
-Sanako []*: ??
+Sanako [sanako_zeke_sz_z9]*: ??
 Zeke & Pandoria []*: ??
 
 

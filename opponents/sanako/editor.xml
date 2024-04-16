@@ -223,6 +223,19 @@
         <response id="506" opponent="jura" opponentId="1674" />
         <response id="507" opponent="jura" opponentId="1675" />
         <response id="508" opponent="jura" opponentId="1564" />
+        <response id="509" opponent="saki_zls" opponentId="3" />
+        <response id="511" opponent="magical_sempai" opponentId="18" />
+        <response id="0" opponent="magical_sempai" opponentId="19" />
+        <response id="0" opponent="magical_sempai" opponentId="2" />
+        <response id="512" opponent="magical_sempai" opponentId="4" />
+        <response id="514" opponent="nagisa" opponentId="397" />
+        <response id="515" opponent="fluttershy" opponentId="213" />
+        <response id="516" opponent="rainbow_dash" opponentId="1" />
+        <response id="517" opponent="rainbow_dash" opponentId="53" />
+        <response id="518" opponent="jura" opponentId="1694" />
+        <response id="519" opponent="jura" opponentId="1491" />
+        <response id="520" opponent="jura" opponentId="1695" />
+        <response id="521" opponent="jura" opponentId="1677" />
     </responses>
     <notes>
         <note id="159">This is a lie.</note>
@@ -734,12 +747,26 @@
         <label id="506" label="" folder="Jura to left" sort="0" />
         <label id="507" label="" folder="Jura to left" sort="0" />
         <label id="508" label="" folder="Jura to left" sort="0" />
+        <label id="509" label="" folder="Saki Nikaidou to left or right" sort="0" />
+        <label id="510" label="" folder="Saki Nikaidou to left or right" sort="0" />
+        <label id="511" label="" folder="Magical Sempai to left or right" sort="0" />
+        <label id="512" label="" folder="Magical Sempai to left or right" sort="0" />
+        <label id="513" label="" folder="Sanny and Tess to left or right" sort="0" />
+        <label id="514" label="" folder="Nagisa to left / Fluttershy to right" sort="0" />
+        <label id="515" label="" folder="Nagisa and Fluttershy to left" sort="0" />
+        <label id="516" label="" folder="Rainbow Dash to left or right" sort="0" />
+        <label id="517" label="" folder="Rainbow Dash to left" sort="0" />
+        <label id="518" label="" folder="Jura to left" sort="0" />
+        <label id="519" label="" folder="Jura to left" sort="0" />
+        <label id="520" label="" folder="Jura to left" sort="0" />
+        <label id="521" label="" folder="Jura to left / Nagisa to left or right" sort="0" />
+        <label id="522" label="" folder="Zeke &amp; Pandoria to right" sort="0" />
     </labels>
     <prefixes>
         <prefix>collectible_</prefix>
         <prefix>x-</prefix>
     </prefixes>
-    <nextId>508</nextId>
+    <nextId>522</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="sanako_adrien_marinette_dual" />
@@ -786,6 +813,8 @@
         <marker scope="Public" name="sanako_club_selected" />
         <marker scope="Public" name="sanako_compliments" />
         <marker scope="Public" name="sanako_corrin_boys_name" />
+        <marker scope="Public" name="sanako_dash_finished" />
+        <marker scope="Public" name="sanako_dash_sports_question" />
         <marker scope="Public" name="sanako_drama_club_costumes">Sanako thinks a princess is just in costume.</marker>
         <marker scope="Public" name="sanako_dva_bodysuit" />
         <marker scope="Public" name="sanako_elaine_dress_as_a_pirate" />
@@ -833,6 +862,7 @@
         <marker scope="Public" name="sanako_joey_shirt_removal" />
         <marker scope="Public" name="sanako_jura_js_j1" />
         <marker scope="Public" name="sanako_jura_js_j10" />
+        <marker scope="Public" name="sanako_jura_js_j11" />
         <marker scope="Public" name="sanako_jura_js_j16" />
         <marker scope="Public" name="sanako_jura_js_j17" />
         <marker scope="Public" name="sanako_jura_js_j2" />
@@ -847,6 +877,8 @@
         <marker scope="Public" name="sanako_jura_js_s1" />
         <marker scope="Public" name="sanako_jura_js_s10" />
         <marker scope="Public" name="sanako_jura_js_s11" />
+        <marker scope="Public" name="sanako_jura_js_s12" />
+        <marker scope="Public" name="sanako_jura_js_s13" />
         <marker scope="Public" name="sanako_jura_js_s2" />
         <marker scope="Public" name="sanako_jura_js_s3" />
         <marker scope="Public" name="sanako_jura_js_s4" />
@@ -855,6 +887,7 @@
         <marker scope="Public" name="sanako_jura_js_s7" />
         <marker scope="Public" name="sanako_jura_js_s8" />
         <marker scope="Public" name="sanako_jura_js_s9" />
+        <marker scope="Public" name="sanako_jura_nagisa_js_j16" />
         <marker scope="Public" name="sanako_kali_daughter_1" />
         <marker scope="Public" name="sanako_kali_daughter_2" />
         <marker scope="Public" name="sanako_kali_daughter_3" />
@@ -999,6 +1032,8 @@
         <marker scope="Public" name="sanako_nagisa_deslected_3" />
         <marker scope="Public" name="sanako_nagisa_estelle_ne_n1" />
         <marker scope="Public" name="sanako_nagisa_estelle_reply_1" />
+        <marker scope="Public" name="sanako_nagisa_fluttershy_nfs_n5" />
+        <marker scope="Public" name="sanako_nagisa_fluttershy_nsf_n5" />
         <marker scope="Public" name="sanako_nagisa_good_husband" />
         <marker scope="Public" name="sanako_nagisa_inventory_customers" />
         <marker scope="Public" name="sanako_nagisa_jim_age_here" />
@@ -1131,6 +1166,7 @@
         <marker scope="Public" name="sanako_nayru_ns_n6" />
         <marker scope="Public" name="sanako_nayru_so_graceful" />
         <marker scope="Public" name="sanako_neptune_shower_bath" />
+        <marker scope="Public" name="sanako_nikaidou_back_together" />
         <marker scope="Public" name="sanako_nonon_lady_jakuzure" />
         <marker scope="Public" name="sanako_nonon_ns_s1" />
         <marker scope="Public" name="sanako_nonon_ns_s2" />
@@ -1168,6 +1204,7 @@
         <marker scope="Public" name="sanako_rouge_club_invitation" />
         <marker scope="Public" name="sanako_rouge_favorite_jewel" />
         <marker scope="Public" name="sanako_rouge_scope" />
+        <marker scope="Public" name="sanako_saki_fell_apart" />
         <marker scope="Public" name="sanako_sakura_bra_escape" />
         <marker scope="Public" name="sanako_sakura_headless" />
         <marker scope="Public" name="sanako_sakura_headless_2" />
@@ -1175,6 +1212,9 @@
         <marker scope="Public" name="sanako_sakura_reveal_1" />
         <marker scope="Public" name="sanako_sakura_reveal_2" />
         <marker scope="Public" name="sanako_sakura_reveal_3" />
+        <marker scope="Public" name="sanako_sanny_selected" />
+        <marker scope="Public" name="sanako_sempai_falling_cards" />
+        <marker scope="Public" name="sanako_sempai_hat_fall" />
         <marker scope="Public" name="sanako_senko_age" />
         <marker scope="Public" name="sanako_senko_backgrond" />
         <marker scope="Public" name="sanako_senko_modern_amenities" />
@@ -1262,6 +1302,7 @@
         <marker scope="Public" name="sanako_zeke_sz_z4" />
         <marker scope="Public" name="sanako_zeke_sz_z5" />
         <marker scope="Public" name="sanako_zeke_sz_z6" />
+        <marker scope="Public" name="sanako_zeke_sz_z7" />
         <marker scope="Public" name="sanako_zizou_prince" />
         <marker scope="Public" name="sanako_zonetan_strapless">Sanako mistakes Zone-tan's bare shoulders for a strapless bra.</marker>
     </markers>

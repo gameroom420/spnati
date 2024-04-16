@@ -193,25 +193,26 @@ Sanako [sanako_jura_js_s10]: Jura... are you asking me to do something erotic? H
 SANAKO STRIPPING BRA:
 Jura [sanako34]: Well, what I meant was getting <i>mad.</i>  There's no way you approve of each and every thing around you.  Think about that while you're getting <i>erotic.</i>
   OR [sanako34]: I think <i>erotic</i> will be covered by going topless.  You're so <i>nice,</i> is what I mean.  What's something you just can't stand?
-Sanako [sanako_jura_js_s11]: You just have to focus on what you <i>can</i> control, not what you cant. And if you every <i>have</i> to cry, my mom always told me it should be in the bathroom or in my daddy's arms.
+Sanako [sanako_jura_js_s11]: You just have to focus on what you <i>can</i> control, not what you can't. And if you ever <i>have</i> to cry, my mom always told me it should be in the bathroom or in my daddy's arms.
 
 SANAKO STRIPPED BRA:
-Jura []*: ??
-Sanako [sanako_jura_js_s12]*: ??
+Jura [sanako4s]: <i>Cry...?</i>  You don't have to put up with how people treat you!<br>...And when I feel like crying, it's <i>their problem!</i>
+  OR [sanako4s]: <i>Haaahn.</i>  Hopeless.<br>...And if someone makes me cry, <i>they don't get to ignore it!</i>
+Sanako [sanako_jura_js_s12]: I'd rather everyone leave happy, even if it means I have to give a little more of myself than I usually would.
 
 
 SANAKO MUST STRIP PANTIES:
 Jura [sanako4]: <i>This is it,</i> Sanako!  You'll be revealing the <i>darkest, most intimate</i> parts of yourself.  Honestly, it feels like you've been holding back this whole time.
   OR [sanako4]: Ah, <i>your</i> turn again.  Since you'll be <i>baring it all</i> for us, do you have any <i>juicy secrets</i> to share, as well?  Jura gets that impression...
-Sanako []*: ??
+Sanako [sanako_jura_js_s13]: Whatever could you mean, Jura? Ehe. Well, let's not strip back <i>all</i> my mystery, even if you're stripping me bare...
 
 SANAKO STRIPPING PANTIES:
 Jura []*: ??
-Sanako []*: ??
+Sanako [sanako_jura_js_s14]*: ??
 
 SANAKO STRIPPED PANTIES:
 Jura []*: ??
-Sanako []*: ??
+Sanako [sanako_jura_js_s15]*: ??
 
 ---
 
@@ -266,7 +267,7 @@ Sanako [sanako_jura_js_j8]: About Japan? Where do I start? Well, we have four di
 JURA STRIPPED SLEEVES:
 Jura [sanako_resp3s_right]: What about the people?  Are they all so cute and mellow?  So...<i>different from me?</i>
   OR [sanako_resp3s_right]: And the <i>human</i> element?  If you're a good example, then...nothing like Jura, huh?
-Sanako [sanako_jura_js_j9]: Ahaha, yes, you're a little different from the rest us in more than a few ways. To us, it's like you came here straight from the Hollywood red carpet.
+Sanako [sanako_jura_js_j9]: Ahaha, yes, you're a little different from the rest of us in more than a few ways. To us, it's like you came here straight from the red carpet.
 
 
 JURA MUST STRIP CHOKER BELT:
@@ -275,8 +276,9 @@ Jura [sanako_resp3right]: You know some men catcalled me in an old mission stati
 Sanako [sanako_jura_js_j10]: As long as you're not encouraging the wrong kind of attention, you should be fine. I'm sure you can find lots of ways to enjoy yourself while you're still young.
 
 JURA STRIPPING CHOKER BELT:
-Jura []*: ??
-Sanako [sanako_jura_js_j11]*: ??
+Jura [sanako_resp34right]: Oh, any <i>enjoyment</i> will be on friendly ground, Sanako.  They're still the enemy...and crewmates have to share.
+  OR [sanako_resp34right]: I just need the crew at my back, Sanako.  If that's good enough for open war, then I'm sure we can all "enjoy" ourselves with them...
+Sanako [sanako_jura_js_j11]: All's fair in love and war, as they say. And if you find the right man, your days will be filled with both.
 
 JURA STRIPPED CHOKER BELT:
 Jura []*: ??
@@ -314,25 +316,25 @@ Sanako [sanako_jura_js_j18]*: ??
 
 
 JURA MUST STRIP THONG: and Nagisa present
-Nagisa [nagisa_jura_sanako_njs_j19]: ??
-Jura [sanako_resp5right]: Even if you all live here, it's courageous to come alone.  Jura can only be so bold because...I know our crew is supporting me!
-  OR [sanako_resp5right]: ...I'm almost out.  These moments can be a little nerve-wracking...but it must be worse for all of you, without anyone you know to help!
-Nagisa [nagisa_jura_sanako_jns_j19]*: ??
-Sanako [sanako_jura_nagisa_js_j16]*: ??
-Nagisa [nagisa_jura_sanako__jsnj19]: ??
+Nagisa [nagisa_jura_sanako_njs_j16]: ??
+Jura [sanako_resp5right_nagisa]: Even if you all live here, it's courageous to come alone.  Jura can only be so bold because...I know our crew is supporting me!
+  OR [sanako_resp5right_nagisa]: ...I'm almost out.  These moments can be a little nerve-wracking...but it must be worse for all of you, without anyone you know to help!
+Nagisa [nagisa_jura_sanako_jns_j16]*: ??
+Sanako [sanako_jura_nagisa_js_j16]: I believe that, whether you know it or not, the people who love you are always there cheering you on. In spirit, if not in person.
+Nagisa [nagisa_jura_sanako__jsnj16]: ??
 
 JURA STRIPPING THONG: and Nagisa present
-Nagisa [nagisa_jura_sanako_njs_j20]*: ??
+Nagisa [nagisa_jura_sanako_njs_j17]*: ??
 Jura [sanako_resp56right]*: ??
   OR [sanako_resp56right]*: ??
-Nagisa [nagisa_jura_sanako_jns_j20]*: ??
+Nagisa [nagisa_jura_sanako_jns_j17]*: ??
 Sanako [sanako_jura_nagisa_js_j17]*: ??
-Nagisa [nagisa_jura_sanako_jsn_j20]*: ??
+Nagisa [nagisa_jura_sanako_jsn_j17]*: ??
 
 JURA STRIPPED THONG: and Nagisa present
-Nagisa [nagisa_jura_sanako_njs_j21]*: ??
+Nagisa [nagisa_jura_sanako_njs_j18]*: ??
 Jura [sanako_resp6s_right]*: ??
   OR [sanako_resp6s_right]*: ??
-Nagisa [nagisa_jura_sanako_jns_j21]*: ??
+Nagisa [nagisa_jura_sanako_jns_j18]*: ??
 Sanako [sanako_jura_nagisa_js_j18]*: ??
-Nagisa [nagisa_jura_sanako_jsn_j21]*: ??
+Nagisa [nagisa_jura_sanako_jsn_j18]*: ??
