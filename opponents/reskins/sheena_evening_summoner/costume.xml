@@ -4,15 +4,17 @@
     <label>Sheena</label>
     <tags>
         <tag>alternative_skin</tag>
-        <tag>formal_attire</tag>
+        <tag>choker</tag>
         <tag remove="true">japanese_clothing</tag>
         <tag>jewelry</tag>
         <tag from="8" to="8">messy_hair</tag>
         <tag>no_bra</tag>
         <tag remove="true">no_underwear</tag>
         <tag remove="true">ponytail</tag>
+        <tag from="4" to="5">pubic_hair_peek</tag>
         <tag>scantily-clad</tag>
         <tag from="0" to="1">thigh_highs</tag>
+        <tag from="4" to="5">thong</tag>
     </tags>
     <layers>6</layers>
     <folder>opponents/reskins/sheena_evening_summoner/</folder>

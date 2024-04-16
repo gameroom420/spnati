@@ -4,11 +4,14 @@
     <label>Y'shtola</label>
     <tags>
         <tag>alternative_skin</tag>
+        <tag from="6" to="7">covered_erect_nipples</tag>
         <tag remove="true">exotic_eyes</tag>
         <tag>green_eyes</tag>
         <tag from="0" to="1">jewelry</tag>
         <tag remove="true">pale_eyes</tag>
+        <tag from="0" to="4">pantyhose</tag>
         <tag from="0" to="5">sweater</tag>
+        <tag>twintails</tag>
     </tags>
     <layers>8</layers>
     <folder>opponents/reskins/yshtola_scion_healer/</folder>

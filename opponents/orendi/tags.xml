@@ -5,6 +5,7 @@
         <tag>multicolored_hair</tag>
         <tag>exotic_hair</tag>
         <tag>long_hair</tag>
+        <tag from="3" to="8">topknot</tag>
         <tag>twintails</tag>
         <tag>heterochromia</tag>
         <tag>exotic_eyes</tag>

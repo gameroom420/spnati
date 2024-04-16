@@ -4,6 +4,11 @@
     <label>Yae</label>
     <tags>
         <tag>alternative_skin</tag>
+        <tag from="0" to="5">fishnets</tag>
+        <tag from="3" to="4">nipples_visible_through_clothing</tag>
+        <tag from="0" to="3">ponytail</tag>
+        <tag>scantily-clad</tag>
+        <tag remove="true">thong</tag>
     </tags>
     <layers>6</layers>
     <folder>opponents/reskins/yae_retro_ninja/</folder>

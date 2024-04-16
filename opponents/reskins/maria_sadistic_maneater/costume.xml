@@ -4,10 +4,19 @@
     <label>Maria</label>
     <tags>
         <tag>alternative_skin</tag>
+        <tag from="0" to="0">blade</tag>
+        <tag from="0" to="1">covered_erect_nipples</tag>
         <tag>formal_attire</tag>
+        <tag from="2" to="7">hair_covering_breasts</tag>
         <tag from="0" to="2">high_heels</tag>
-        <tag from="2" to="4">lingerie</tag>
+        <tag from="0" to="4">jewelry</tag>
+        <tag from="0" to="2">lingerie</tag>
+        <tag remove="true">nipple_slip</tag>
+        <tag from="2" to="3">pubic_hair_peek</tag>
+        <tag>scantily-clad</tag>
         <tag from="0" to="2">thigh_highs</tag>
+        <tag from="2" to="3">thong</tag>
+        <tag from="0" to="0">weapon</tag>
     </tags>
     <layers>5</layers>
     <folder>opponents/reskins/maria_sadistic_maneater/</folder>

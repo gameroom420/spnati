@@ -312,7 +312,7 @@
     <tag display="Fighter" description="Regularly takes part in combat">fighter</tag>
     <tag display="Gambler" description="Character spends a lot of time gambling, to the point it's a large aspect of their character">gambler</tag>
     <tag display="Gamer" description="Plays video games as a career or hobby">gamer</tag>
-    <tag display="Idol" paired="singer" description="Works as a Japanese-style idol">idol</tag>
+    <tag display="Idol" description="Works as a Japanese-style idol">idol</tag>
     <tag display="Knight" description="The character has been officially named as a knight">knight</tag>
     <tag display="Lawyer" description="Works as an attorney">lawyer</tag>
     <tag display="Journalist" description="A news reporter, or perhaps might want to interview other characters">journalist</tag>
