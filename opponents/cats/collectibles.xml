@@ -3,7 +3,7 @@
     <collectible id="catscape" status="online" img="opponents/cats/capecollectable.png" thumbnail="opponents/cats/capecollectable.png">
         <title>CATS' CAPE</title>
         <text>CONGRATULATION !! CATS IS DEFEAT !! NOW TAKEN HIS CAPE AS TROPHY.</text>
-        <unlock>SEE ALL ENDING SCREEN, AND DOWN WITH CATS ONCE AND FOR ALL !!</unlock>
+        <unlock>SEE 10 OF 36 ENDING SCREEN.</unlock>
         <wearable>true</wearable>
         <clothing img="opponents/cats/capecollectable.png" name="CATS' CAPE" generic="cape" position="other" type="extra" />
     </collectible>
