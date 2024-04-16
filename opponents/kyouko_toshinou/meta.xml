@@ -16,14 +16,6 @@
     <alternates>
         <costume folder="opponents/reskins/kyouko_toshinou_sexy_tomato/" img="0-portrait.png" set="sleepover" status="unlisted" label="Kyouko" layers="5">Sexy Tomato</costume>
         <costume folder="opponents/reskins/kyouko_toshinou_sweater/" img="0-portrait.png" status="online" label="Kyouko">Magenta Sweat</costume>
-        <costume folder="opponents/reskins/kyouko_toshinou_hoodie/" img="0-portrait.png" status="unlisted" label="Kyouko">Red Jacket</costume>
-        <costume folder="opponents/reskins/kyouko_toshinou_swimsuit/" img="0-portrait.png" set="summer" status="unlisted" label="Kyouko" layers="4">Swimsuit</costume>
-        <costume folder="opponents/reskins/kyouko_toshinou_summer/" img="0-portrait.png" set="summer" status="unlisted" label="Kyouko">Camping Gear</costume>
-        <costume folder="opponents/reskins/kyouko_toshinou_winter/" img="0-portrait.png" set="xmas" status="unlisted" label="Kyouko">Warm Winter Wear</costume>
-        <costume folder="opponents/reskins/kyouko_toshinou_santa/" img="0-portrait.png" set="xmas" status="unlisted" label="Kyouko">Christmas Kyouko</costume>
-        <costume folder="opponents/reskins/kyouko_toshinou_bunny/" img="0-portrait.png" set="easter" status="unlisted" label="Kyouko" layers="6">Silly Bunny</costume>
-        <costume folder="opponents/reskins/kyouko_toshinou_halloween/" img="0-pleased.png" set="halloween" status="unlisted" label="Kyouko" layers="6">Jumping Jiangshi</costume>
-        <costume folder="opponents/reskins/kyouko_toshinou_valentine/" img="0-portrait.png" set="valentines" status="unlisted" label="Kyouko" layers="4">Game Day Getup</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
     <lines>1575</lines>
