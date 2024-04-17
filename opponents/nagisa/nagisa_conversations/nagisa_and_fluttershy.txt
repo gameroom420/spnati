@@ -17,9 +17,11 @@ NAGISA MUST STRIP SOCKS:
 Nagisa [nagisa_fluttershy_nervous_socks]: Oh, it's my turn again? O-Okay...
 Fluttershy [nagisa_happy_question]: {small}She still looks very nervous...{!reset} Hmm... Ah! Say, Nagisa, may I ask what kind of things make you happy?
 
-NAGISA STRIPPING SOCKS (minor):
+NAGISA STRIPPING SOCKS (minor): Sanako chimes in if present
 Nagisa [nagisa_fluttershy_happy]: What makes me happy? Sometimes I promise myself something to eat if I have to do something hard. And my mom and dad always cheer me up. Oh, and the Big Dango Family!
+Sanako [sanako_nagisa_fluttershy_nsf_n5]: <i>(Even if a situation like this, my precious girl is proud to tell people she loves her mom and dad.)</i>
 Fluttershy [nagisa_bigDangoFamily_question]: The Big Dango Family? What is that?
+Sanako [sanako_nagisa_fluttershy_nfs_n5]: Just the short version, okay?
 
 NAGISA STRIPPED SOCKS (minor):
 Nagisa [nagisa_fluttershy_big_dango_family]: The Big Dango Family are recognized by any Japanese person, and they're incredibly popular nationwide. A family of one hundred seems like such fun! I envy them! If the whole family went to an amusement park, I think there would be chaos! The dango are cute, and they have a really cute theme song. Would you like me to sing it?
