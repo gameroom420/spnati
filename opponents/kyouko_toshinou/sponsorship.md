@@ -39,8 +39,8 @@
 - Five lines each for:
   - [ ] Removing accessory (male)
   - [ ] Removing accessory (female) (1/5)
-  - [ ] Removed accessory (male)
-  - [ ] Removed accessory (female) (1/5)
+  - [ ] Removed accessory (male) (1/5)
+  - [ ] Removed accessory (female) (3/5)
   - [X] Average hand
   - [X] Bad hand
   - [X] Removed major (male)

@@ -916,13 +916,16 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <label id="895" label="Fix her hair" folder="" sort="0" />
         <label id="896" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
         <label id="897" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="898" label="" folder="Sponsors&gt;Spaceman&gt;Female removed accessory" sort="0" />
+        <label id="899" label="" folder="Sponsors&gt;Spaceman&gt;Female removed accessory" sort="0" />
+        <label id="900" label="" folder="Sponsors&gt;Spaceman&gt;Male removed accessory" sort="0" />
     </labels>
     <prefixes>
         <prefix>custom:#-_</prefix>
         <prefix>custom:_</prefix>
     </prefixes>
     <onlyCustomPoses>true</onlyCustomPoses>
-    <nextId>897</nextId>
+    <nextId>900</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Private" name="B_">Background-related markers</marker>
