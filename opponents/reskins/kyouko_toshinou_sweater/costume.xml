@@ -1,0 +1,1944 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<costume>
+    <id>kyouko_toshinou_sweater</id>
+    <label>Kyouko</label>
+    <tags>
+        <tag>alternative_skin</tag>
+        <tag remove="true">school_uniform</tag>
+        <tag from="0" to="1">sweater</tag>
+    </tags>
+    <layers>7</layers>
+    <folder>opponents/reskins/kyouko_toshinou_sweater/</folder>
+    <wardrobe>
+        <clothing name="panties" generic="underwear" position="lower" type="important" plural="true" />
+        <clothing name="bra" generic="bra" position="upper" type="important" plural="true" />
+        <clothing name="socks" generic="socks" position="feet" type="minor" />
+        <clothing name="shirt" generic="shirt" position="upper" type="major" />
+        <clothing strippingLayer="3" name="skirt" generic="skirt" position="lower" type="major" reveal="upper" />
+        <clothing name="sweater" generic="sweater" position="upper" type="minor" />
+        <clothing name="shoes" generic="shoes" position="feet" type="minor" plural="true" />
+    </wardrobe>
+
+    <poses>
+        <pose id="__copy_yuno">
+            <sprite id="kyouko" src="reskins/kyouko_toshinou_sweater/#-excited.png" x="0" y="0" />
+            <sprite id="yui" delay="1" z="-3" src="reskins/kyouko_toshinou_sweater/posemaker/yui_chad.png" x="0" y="-21" alpha="0" />
+            <directive type="animation" id="kyouko" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/#-excited.png" />
+                <keyframe time="1.5" src="reskins/kyouko_toshinou_sweater/#-curious.png" />
+            </directive>
+            <directive type="animation" id="yui" delay="1" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="0" y="-21" alpha="0" />
+                <keyframe time="1" x="0" alpha="0" />
+                <keyframe time="2" alpha="25" />
+                <keyframe time="3" x="200" alpha="50" />
+            </directive>
+            <directive type="animation" id="yui" delay="1" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/posemaker/yui_chad.png" />
+                <keyframe time="3" src="reskins/kyouko_toshinou_sweater/posemaker/yui_tsukkomi.png" />
+            </directive>
+        </pose>
+        <pose id="_tr_calm_wink">
+            <sprite id="summer" src="reskins/kyouko_toshinou_sweater/#-calm.png" x="0" y="0" />
+            <directive type="animation" id="summer" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/#-calm.png" />
+                <keyframe time="3" src="reskins/kyouko_toshinou_sweater/#-myself.png" />
+            </directive>
+        </pose>
+        <pose id="_tr_confused_mistaken">
+            <sprite id="summer" src="reskins/kyouko_toshinou_sweater/#-confused.png" x="0" y="0" />
+            <sprite id="cat_ears" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-9" y="160" rotation="-7" />
+            <directive type="animation" id="summer" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/#-confused.png" />
+                <keyframe time="3" src="reskins/kyouko_toshinou_sweater/#-mistaken.png" />
+            </directive>
+            <directive type="animation" id="cat_ears" marker="Z_CatEars" ease="linear" interpolation="none">
+                <keyframe time="0" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-9" y="160" rotation="-7" />
+                <keyframe time="3" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="8" y="163" rotation="-2" />
+            </directive>
+        </pose>
+        <pose id="_tr_curious_troll">
+            <sprite id="summer" src="reskins/kyouko_toshinou_sweater/#-curious.png" x="0" y="0" />
+            <sprite id="cat_ears" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="5" y="160" scalex="-1" rotation="-2" />
+            <directive type="animation" id="summer" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/#-curious.png" />
+                <keyframe time="3" src="reskins/kyouko_toshinou_sweater/#-trolling.png" />
+            </directive>
+            <directive type="animation" id="cat_ears" marker="Z_CatEars" ease="linear" interpolation="none">
+                <keyframe time="0" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="5" y="160" scalex="-1" rotation="-2" />
+                <keyframe time="3" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="39" y="168" scalex="-1" rotation="5" />
+            </directive>
+        </pose>
+        <pose id="_tr_excited_calm">
+            <sprite id="summer" src="reskins/kyouko_toshinou_sweater/#-excited.png" x="0" y="0" />
+            <directive type="animation" id="summer" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/#-excited.png" />
+                <keyframe time="3" src="reskins/kyouko_toshinou_sweater/#-calm.png" />
+            </directive>
+        </pose>
+        <pose id="_tr_excited_disappointed">
+            <sprite id="summer" src="reskins/kyouko_toshinou_sweater/#-excited.png" x="0" y="0" />
+            <sprite id="cat_ears" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-105" y="173" scalex="1" rotation="-20" />
+            <directive type="animation" id="summer" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/#-excited.png" />
+                <keyframe time="3" src="reskins/kyouko_toshinou_sweater/#-disappointed.png" />
+            </directive>
+            <directive type="animation" id="cat_ears" marker="Z_CatEars" ease="linear" interpolation="none">
+                <keyframe time="0" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-105" y="173" scalex="1" rotation="-20" />
+                <keyframe time="3" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-11" y="159" scalex="-1" rotation="-5" />
+            </directive>
+        </pose>
+        <pose id="_tr_horny_letsgo">
+            <sprite id="horny-summer" src="reskins/kyouko_toshinou_sweater/#-horny.png" x="0" y="0" />
+            <sprite id="cat_ears" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="26" y="162" rotation="7" />
+            <directive type="animation" id="horny-summer" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/#-horny.png" x="0" y="0" />
+                <keyframe time="3" src="reskins/kyouko_toshinou_sweater/#-letsgo.png" />
+            </directive>
+            <directive type="animation" id="cat_ears" marker="Z_CatEars" ease="linear" interpolation="none">
+                <keyframe time="0" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="26" y="162" rotation="7" />
+                <keyframe time="3" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-1" y="165" rotation="-2" />
+            </directive>
+        </pose>
+        <pose id="_tr_horrifed_calm">
+            <sprite id="summer" src="reskins/kyouko_toshinou_sweater/#-horrified.png" x="0" y="0" />
+            <sprite id="cat_ears" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="56" y="171" rotation="10" />
+            <directive type="animation" id="summer" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/#-horrified.png" />
+                <keyframe time="3" src="reskins/kyouko_toshinou_sweater/#-calm.png" />
+            </directive>
+            <directive type="animation" id="cat_ears" marker="Z_CatEars" ease="linear" interpolation="none">
+                <keyframe time="0" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="56" y="171" rotation="10" />
+                <keyframe time="3" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-3" y="160" rotation="0" />
+            </directive>
+        </pose>
+        <pose id="_tr_horrifed_grin">
+            <sprite id="summer" src="reskins/kyouko_toshinou_sweater/#-horrified.png" x="0" y="0" />
+            <directive type="animation" id="summer" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/#-horrified.png" />
+                <keyframe time="3" src="reskins/kyouko_toshinou_sweater/#-grin.png" />
+            </directive>
+        </pose>
+        <pose id="_tr_myself_confused">
+            <sprite id="summer" src="reskins/kyouko_toshinou_sweater/#-myself.png" x="0" y="0" />
+            <directive type="animation" id="summer" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/#-myself.png" />
+                <keyframe time="3" src="reskins/kyouko_toshinou_sweater/#-confused.png" />
+            </directive>
+        </pose>
+        <pose id="_tr_pride_letsgo">
+            <sprite id="summer" src="reskins/kyouko_toshinou_sweater/#-pride.png" x="0" y="0" />
+            <sprite id="cat_ears pride" marker="Z_CatEars" z="-1" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="10" y="162" alpha="100" rotation="3" />
+            <sprite id="cat_ears letsgo" marker="Z_CatEars" delay="3" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-1" y="165" rotation="-2" />
+            <directive type="animation" id="summer" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/#-pride.png" />
+                <keyframe time="3" src="reskins/kyouko_toshinou_sweater/#-letsgo.png" />
+            </directive>
+            <directive type="animation" id="cat_ears pride" marker="Z_CatEars" ease="linear" interpolation="none">
+                <keyframe time="0" src="kyouko_toshinou/posemaker/cat/cat_ears.png" alpha="100" />
+                <keyframe time="3" alpha="0" />
+            </directive>
+        </pose>
+        <pose id="0-dunno">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/0-shrug.png" x="0" y="0" />
+            <sprite id="face" src="kyouko_toshinou/posemaker/faces/0-dunno.png" x="17" y="248" />
+        </pose>
+        <pose id="0-fright">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/0-calm.png" x="0" y="0" />
+            <sprite id="face" src="kyouko_toshinou/posemaker/faces/0-fright.png" x="-6" y="234" />
+        </pose>
+        <pose id="0-stripping-pride">
+            <sprite id="stripping-a" src="reskins/kyouko_toshinou_sweater/0-stripping-a.png" x="0" y="0" />
+            <directive type="animation" id="stripping-a" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/0-stripping-a.png" />
+                <keyframe time="1" src="reskins/kyouko_toshinou_sweater/0-stripping-b.png" />
+                <keyframe time="2.5" src="reskins/kyouko_toshinou_sweater/0-stripping-pride.png" />
+            </directive>
+        </pose>
+        <pose id="0-suspicious">
+            <sprite id="curious" src="reskins/kyouko_toshinou_sweater/0-curious.png" x="0" y="0" />
+            <sprite id="face" src="kyouko_toshinou/posemaker/faces/0-suspicious.png" x="8" y="240" clipbottom="8" />
+        </pose>
+        <pose id="0-treasurescope">
+            <sprite id="summer" src="reskins/kyouko_toshinou_sweater/0-myself.png" x="0" y="0" alpha="100" />
+            <sprite id="winter scope" z="-1" src="reskins/kyouko_toshinou_sweater/0-scoped.png" x="0" y="-1" alpha="100" />
+            <sprite id="Rouge_TreasureScope_Lens" z="1" src="kyouko_toshinou/../rouge/Rouge_TreasureScope_Lens.png" x="450" y="337" alpha="0" />
+            <directive type="animation" id="summer" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" alpha="100" />
+                <keyframe time="2" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="winter scope" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="0" y="-1" />
+                <keyframe time="2.5" y="0" />
+            </directive>
+            <directive type="animation" id="winter scope" ease="linear" interpolation="linear">
+                <keyframe time="0" alpha="100" />
+                <keyframe time="2.5" alpha="100" />
+            </directive>
+            <directive type="animation" id="Rouge_TreasureScope_Lens" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="450" y="337" alpha="0" />
+                <keyframe time="1" x="250" alpha="0" />
+                <keyframe time="2" x="0" alpha="100" />
+            </directive>
+        </pose>
+        <pose id="1-dunno">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/1-shrug.png" x="0" y="0" />
+            <sprite id="face" src="kyouko_toshinou/posemaker/faces/0-dunno.png" x="17" y="248" />
+        </pose>
+        <pose id="1-fright">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/1-calm.png" x="0" y="0" />
+            <sprite id="face" src="kyouko_toshinou/posemaker/faces/0-fright.png" x="-6" y="234" />
+        </pose>
+        <pose id="1-stripped">
+            <sprite id="summer" src="reskins/kyouko_toshinou_sweater/1-stripped-a.png" x="0" y="0" />
+            <directive type="animation" id="summer" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/1-stripped-a.png" />
+                <keyframe time="2" src="reskins/kyouko_toshinou_sweater/1-stripped-b.png" />
+            </directive>
+        </pose>
+        <pose id="1-stripped-coy">
+            <sprite id="summer" src="reskins/kyouko_toshinou_sweater/1-stripped-a.png" x="0" y="0" />
+            <directive type="animation" id="summer" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/1-stripped-a.png" />
+                <keyframe time="2" src="reskins/kyouko_toshinou_sweater/1-stripped-b.png" />
+            </directive>
+        </pose>
+        <pose id="1-stripped-happy">
+            <sprite id="summer" src="reskins/kyouko_toshinou_sweater/1-stripped-a.png" x="0" y="0" />
+            <sprite id="stripped-c" src="reskins/kyouko_toshinou_sweater/1-stripped-c.png" x="-30" y="249" />
+            <directive type="animation" id="summer" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/1-stripped-a.png" />
+                <keyframe time="2" src="reskins/kyouko_toshinou_sweater/1-stripped-b.png" />
+            </directive>
+            <directive type="animation" id="stripped-c" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/1-stripped-c.png" x="-30" y="249" />
+                <keyframe time="2" src="reskins/kyouko_toshinou_sweater/1-stripped-d.png" x="11" y="251" />
+            </directive>
+        </pose>
+        <pose id="1-stripping">
+            <sprite id="stripping-a" src="reskins/kyouko_toshinou_sweater/1-stripping-a.png" x="0" y="0" />
+            <directive type="animation" id="stripping-a" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/1-stripping-a.png" />
+                <keyframe time="1.5" src="reskins/kyouko_toshinou_sweater/1-stripping-b.png" />
+            </directive>
+        </pose>
+        <pose id="1-stripping-calm">
+            <sprite id="stripping-a" src="reskins/kyouko_toshinou_sweater/1-stripping-a.png" x="0" y="0" />
+            <directive type="animation" id="stripping-a" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/1-stripping-a.png" />
+                <keyframe time="1.5" src="reskins/kyouko_toshinou_sweater/1-stripping-b.png" />
+            </directive>
+        </pose>
+        <pose id="1-suspicious">
+            <sprite id="curious" src="reskins/kyouko_toshinou_sweater/1-curious.png" x="0" y="0" />
+            <sprite id="face" src="kyouko_toshinou/posemaker/faces/0-suspicious.png" x="8" y="240" clipbottom="8" />
+        </pose>
+        <pose id="2-dunno">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/2-shrug.png" x="0" y="0" />
+            <sprite id="face" src="kyouko_toshinou/posemaker/faces/0-dunno.png" x="17" y="248" />
+        </pose>
+        <pose id="2-fright">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/2-calm.png" x="0" y="0" />
+            <sprite id="face" src="kyouko_toshinou/posemaker/faces/0-fright.png" x="-6" y="234" />
+        </pose>
+        <pose id="2-stripped-grin">
+            <sprite id="grin" src="reskins/kyouko_toshinou_sweater/2-grin.png" x="0" y="0" />
+            <sprite id="sweater" z="-1" src="reskins/kyouko_toshinou_sweater/posemaker/sweater.png" x="-52" y="621" />
+        </pose>
+        <pose id="2-stripped-think">
+            <sprite id="curious" src="reskins/kyouko_toshinou_sweater/2-curious.png" x="0" y="0" />
+            <sprite id="sweater" z="-1" src="reskins/kyouko_toshinou_sweater/posemaker/sweater.png" x="-119" y="746" />
+        </pose>
+        <pose id="2-stripping">
+            <sprite id="stripping-a" src="reskins/kyouko_toshinou_sweater/2-stripping-b.png" x="0" y="0" />
+            <directive type="animation" id="stripping-a" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/2-stripping-b.png" />
+                <keyframe time="1.5" src="reskins/kyouko_toshinou_sweater/2-stripping-c.png" />
+            </directive>
+        </pose>
+        <pose id="2-stripping-ask" />
+        <pose id="2-suspicious">
+            <sprite id="curious" src="reskins/kyouko_toshinou_sweater/2-curious.png" x="0" y="0" />
+            <sprite id="face" src="kyouko_toshinou/posemaker/faces/0-suspicious.png" x="8" y="240" clipbottom="8" />
+        </pose>
+        <pose id="3-dunno">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/3-shrug.png" x="0" y="0" />
+            <sprite id="face" src="kyouko_toshinou/posemaker/faces/0-dunno.png" x="17" y="248" />
+        </pose>
+        <pose id="3-fright">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/3-calm.png" x="0" y="0" />
+            <sprite id="face" src="kyouko_toshinou/posemaker/faces/0-fright.png" x="-6" y="234" />
+        </pose>
+        <pose id="3-stripped">
+            <sprite id="stripped-a" src="reskins/kyouko_toshinou_sweater/3-stripped-a.png" x="0" y="0" />
+            <directive type="animation" id="stripped-a" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/3-stripped-a.png" />
+                <keyframe time="2.5" src="reskins/kyouko_toshinou_sweater/3-stripped-b.png" />
+                <keyframe time="3.5" src="reskins/kyouko_toshinou_sweater/3-stripped-c.png" />
+            </directive>
+        </pose>
+        <pose id="3-stripped-silly">
+            <sprite id="stripped-a" src="reskins/kyouko_toshinou_sweater/3-stripped-a.png" x="0" y="0" />
+            <directive type="animation" id="stripped-a" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/3-stripped-a.png" />
+                <keyframe time="2.5" src="reskins/kyouko_toshinou_sweater/3-stripped-b.png" />
+                <keyframe time="3.5" src="reskins/kyouko_toshinou_sweater/3-stripped-c.png" />
+            </directive>
+        </pose>
+        <pose id="3-stripping">
+            <sprite id="stripping-a" src="reskins/kyouko_toshinou_sweater/3-stripping-a.png" x="0" y="0" />
+            <directive type="animation" id="stripping-a" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/3-stripping-a.png" />
+                <keyframe time="1" src="reskins/kyouko_toshinou_sweater/3-stripping-b.png" />
+            </directive>
+        </pose>
+        <pose id="3-suspicious">
+            <sprite id="curious" src="reskins/kyouko_toshinou_sweater/3-curious.png" x="0" y="0" />
+            <sprite id="face" src="kyouko_toshinou/posemaker/faces/0-suspicious.png" x="8" y="240" clipbottom="8" />
+        </pose>
+        <pose id="4-aura">
+            <sprite id="kyouko" src="reskins/kyouko_toshinou_sweater/4-portrait.png" x="0" y="0" alpha="100" />
+            <sprite id="auracamera" z="1" src="kyouko_toshinou/../meia/auracamera.png" x="-64" y="600" scalex="2.5" scaley="2.5" alpha="0" />
+            <sprite id="cameraflash" delay="1.25" src="kyouko_toshinou/../meia/cameraflash.png" x="-10" y="418" scalex="0.1" scaley="0.1" alpha="0" />
+            <sprite id="aura" delay="1.38" src="kyouko_toshinou/6-aura.png" x="0" y="0" alpha="0" />
+            <directive type="animation" id="kyouko" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" alpha="100" />
+                <keyframe time="1" alpha="100" />
+                <keyframe time="1.38" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="auracamera" ease="linear" interpolation="linear">
+                <keyframe time="0" x="-64" y="600" scalex="2.5" scaley="2.5" alpha="0" />
+                <keyframe time="1" x="-64" y="317" scalex="2.5" scaley="2.5" alpha="100" />
+                <keyframe time="1.38" x="-64" y="317" scalex="2.5" scaley="2.5" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="auracamera" ease="linear" interpolation="none">
+                <keyframe time="0" src="kyouko_toshinou/../meia/auracamera.png" />
+                <keyframe time="1" src="kyouko_toshinou/../meia/auracamera.png" />
+                <keyframe time="1.38" src="kyouko_toshinou/../meia/auracamera.png" />
+            </directive>
+            <directive type="animation" id="cameraflash" delay="1.25" ease="ease-out-cubic" interpolation="linear">
+                <keyframe time="0" scalex="0.1" scaley="0.1" alpha="0" />
+                <keyframe time="0.13" scalex="8" scaley="8" alpha="100" />
+                <keyframe time="0.75" scalex="8" scaley="8" alpha="100" />
+                <keyframe time="2.75" alpha="0" />
+            </directive>
+            <directive type="animation" id="aura" delay="1.38" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" />
+                <keyframe time="2.62" x="0" y="0" />
+            </directive>
+            <directive type="animation" id="aura" delay="1.38" ease="ease-in-out-cubic" interpolation="linear">
+                <keyframe time="0" alpha="0" />
+                <keyframe time="2.62" alpha="100" />
+            </directive>
+        </pose>
+        <pose id="4-dunno">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/4-shrug.png" x="0" y="0" />
+            <sprite id="face" src="kyouko_toshinou/posemaker/faces/0-dunno.png" x="17" y="248" />
+        </pose>
+        <pose id="4-fright">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/4-calm.png" x="0" y="0" />
+            <sprite id="face" src="kyouko_toshinou/posemaker/faces/0-fright.png" x="-6" y="234" />
+        </pose>
+        <pose id="4-stripped">
+            <sprite id="stripped-a" src="reskins/kyouko_toshinou_sweater/4-stripped-a.png" x="0" y="0" />
+        </pose>
+        <pose id="4-stripped-grin">
+            <sprite id="stripped-a" src="reskins/kyouko_toshinou_sweater/4-stripped-a.png" x="0" y="0" />
+        </pose>
+        <pose id="4-stripped-offguard">
+            <sprite id="stripped-b" src="reskins/kyouko_toshinou_sweater/4-stripped-b.png" x="0" y="0" />
+        </pose>
+        <pose id="4-stripping">
+            <sprite id="stripping-a" src="reskins/kyouko_toshinou_sweater/4-stripping-a.png" x="0" y="0" />
+            <directive type="animation" id="stripping-a" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/4-stripping-a.png" />
+                <keyframe time="1.5" src="reskins/kyouko_toshinou_sweater/4-stripping-b.png" />
+            </directive>
+        </pose>
+        <pose id="4-suspicious">
+            <sprite id="curious" src="reskins/kyouko_toshinou_sweater/4-curious.png" x="0" y="0" />
+            <sprite id="face" src="kyouko_toshinou/posemaker/faces/0-suspicious.png" x="8" y="240" clipbottom="8" />
+        </pose>
+        <pose id="5-aura">
+            <sprite id="kyouko" src="reskins/kyouko_toshinou_sweater/5-portrait.png" x="0" y="0" alpha="100" />
+            <sprite id="auracamera" z="1" src="kyouko_toshinou/../meia/auracamera.png" x="-64" y="600" scalex="2.5" scaley="2.5" alpha="0" />
+            <sprite id="cameraflash" delay="1.25" src="kyouko_toshinou/../meia/cameraflash.png" x="-10" y="418" scalex="0.1" scaley="0.1" alpha="0" />
+            <sprite id="aura" delay="1.38" src="kyouko_toshinou/6-aura.png" x="0" y="0" alpha="0" />
+            <directive type="animation" id="kyouko" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" alpha="100" />
+                <keyframe time="1" alpha="100" />
+                <keyframe time="1.38" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="auracamera" ease="linear" interpolation="linear">
+                <keyframe time="0" x="-64" y="600" scalex="2.5" scaley="2.5" alpha="0" />
+                <keyframe time="1" x="-64" y="317" scalex="2.5" scaley="2.5" alpha="100" />
+                <keyframe time="1.38" x="-64" y="317" scalex="2.5" scaley="2.5" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="auracamera" ease="linear" interpolation="none">
+                <keyframe time="0" src="kyouko_toshinou/../meia/auracamera.png" />
+                <keyframe time="1" src="kyouko_toshinou/../meia/auracamera.png" />
+                <keyframe time="1.38" src="kyouko_toshinou/../meia/auracamera.png" />
+            </directive>
+            <directive type="animation" id="cameraflash" delay="1.25" ease="ease-out-cubic" interpolation="linear">
+                <keyframe time="0" scalex="0.1" scaley="0.1" alpha="0" />
+                <keyframe time="0.13" scalex="8" scaley="8" alpha="100" />
+                <keyframe time="0.75" scalex="8" scaley="8" alpha="100" />
+                <keyframe time="2.75" alpha="0" />
+            </directive>
+            <directive type="animation" id="aura" delay="1.38" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" />
+                <keyframe time="2.62" x="0" y="0" />
+            </directive>
+            <directive type="animation" id="aura" delay="1.38" ease="ease-in-out-cubic" interpolation="linear">
+                <keyframe time="0" alpha="0" />
+                <keyframe time="2.62" alpha="100" />
+            </directive>
+        </pose>
+        <pose id="5-dunno">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/5-shrug.png" x="0" y="0" />
+            <sprite id="face" src="kyouko_toshinou/posemaker/faces/0-dunno.png" x="17" y="248" />
+        </pose>
+        <pose id="5-fright">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/5-calm.png" x="0" y="0" />
+            <sprite id="face" src="kyouko_toshinou/posemaker/faces/0-fright.png" x="-6" y="234" />
+        </pose>
+        <pose id="5-licky">
+            <sprite id="curious" src="reskins/kyouko_toshinou_sweater/5-curious.png" x="0" y="0" />
+            <sprite id="face" src="reskins/kyouko_toshinou_sweater/posemaker/faces/5-licky.png" x="8" y="258" />
+        </pose>
+        <pose id="5-stripped">
+            <sprite id="stripped-a" src="reskins/kyouko_toshinou_sweater/5-stripped-a.png" x="0" y="0" />
+        </pose>
+        <pose id="5-stripping">
+            <sprite id="stripping-a" src="reskins/kyouko_toshinou_sweater/5-stripping-a.png" x="0" y="0" />
+            <directive type="animation" id="stripping-a" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/5-stripping-a.png" />
+                <keyframe time="1" src="reskins/kyouko_toshinou_sweater/5-stripping-b.png" />
+                <keyframe time="2.5" src="reskins/kyouko_toshinou_sweater/5-stripping-c.png" />
+            </directive>
+        </pose>
+        <pose id="5-suspicious">
+            <sprite id="curious" src="reskins/kyouko_toshinou_sweater/5-curious.png" x="0" y="0" />
+            <sprite id="face" src="kyouko_toshinou/posemaker/faces/0-suspicious.png" x="8" y="240" clipbottom="8" />
+        </pose>
+        <pose id="6-aura">
+            <sprite id="kyouko" src="reskins/kyouko_toshinou_sweater/6-portrait.png" x="0" y="0" alpha="100" />
+            <sprite id="auracamera" z="1" src="kyouko_toshinou/../meia/auracamera.png" x="-64" y="600" scalex="2.5" scaley="2.5" alpha="0" />
+            <sprite id="cameraflash" delay="1.25" src="kyouko_toshinou/../meia/cameraflash.png" x="-10" y="418" scalex="0.1" scaley="0.1" alpha="0" />
+            <sprite id="aura" delay="1.38" src="kyouko_toshinou/6-aura.png" x="0" y="0" alpha="0" />
+            <directive type="animation" id="kyouko" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" alpha="100" />
+                <keyframe time="1" alpha="100" />
+                <keyframe time="1.38" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="auracamera" ease="linear" interpolation="linear">
+                <keyframe time="0" x="-64" y="600" scalex="2.5" scaley="2.5" alpha="0" />
+                <keyframe time="1" x="-64" y="317" scalex="2.5" scaley="2.5" alpha="100" />
+                <keyframe time="1.38" x="-64" y="317" scalex="2.5" scaley="2.5" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="auracamera" ease="linear" interpolation="none">
+                <keyframe time="0" src="kyouko_toshinou/../meia/auracamera.png" />
+                <keyframe time="1" src="kyouko_toshinou/../meia/auracamera.png" />
+                <keyframe time="1.38" src="kyouko_toshinou/../meia/auracamera.png" />
+            </directive>
+            <directive type="animation" id="cameraflash" delay="1.25" ease="ease-out-cubic" interpolation="linear">
+                <keyframe time="0" scalex="0.1" scaley="0.1" alpha="0" />
+                <keyframe time="0.13" scalex="8" scaley="8" alpha="100" />
+                <keyframe time="0.75" scalex="8" scaley="8" alpha="100" />
+                <keyframe time="2.75" alpha="0" />
+            </directive>
+            <directive type="animation" id="aura" delay="1.38" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" />
+                <keyframe time="2.62" x="0" y="0" />
+            </directive>
+            <directive type="animation" id="aura" delay="1.38" ease="ease-in-out-cubic" interpolation="linear">
+                <keyframe time="0" alpha="0" />
+                <keyframe time="2.62" alpha="100" />
+            </directive>
+        </pose>
+        <pose id="6-dunno">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/6-shrug.png" x="0" y="0" />
+            <sprite id="face" src="kyouko_toshinou/posemaker/faces/5-dunno.png" x="17" y="248" />
+        </pose>
+        <pose id="6-fright">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/6-calm.png" x="0" y="0" />
+            <sprite id="face" src="kyouko_toshinou/posemaker/faces/0-fright.png" x="-6" y="234" />
+        </pose>
+        <pose id="6-licky">
+            <sprite id="curious" src="reskins/kyouko_toshinou_sweater/6-curious.png" x="0" y="0" />
+            <sprite id="face" src="kyouko_toshinou/posemaker/faces/5-licky.png" x="8" y="258" />
+            <sprite id="cat_collar" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="11" y="366" rotation="2" />
+        </pose>
+        <pose id="6-stripped-horny">
+            <sprite id="stripped-a" src="reskins/kyouko_toshinou_sweater/6-stripped-a.png" x="0" y="0" />
+        </pose>
+        <pose id="6-stripping">
+            <sprite id="summer" src="reskins/kyouko_toshinou_sweater/6-stripping-a.png" x="0" y="0" />
+            <sprite id="panties" delay="1" src="reskins/kyouko_toshinou_sweater/posemaker/panties-pink.png" x="-6" y="762" scalex="1.1" scaley="1" skewy="-8" rotation="3" />
+            <sprite id="floor-panties" delay="2.06" z="-1" src="reskins/kyouko_toshinou_sweater/posemaker/floor-panties-pink.png" x="1" y="1309" rotation="4" />
+            <directive type="animation" id="summer" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/6-stripping-a.png" />
+                <keyframe time="1" src="reskins/kyouko_toshinou_sweater/6-stripping-b.png" />
+            </directive>
+            <directive type="animation" id="panties" delay="1" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="-6" scalex="1.1" scaley="1" skewy="-8" rotation="3" />
+                <keyframe time="0.62" x="-5" scalex="1.1" />
+                <keyframe time="0.8099999" scalex="1.1" />
+                <keyframe time="0.88" scalex="1.1" />
+                <keyframe time="1" x="-3" scalex="1.1" skewy="-3" />
+            </directive>
+            <directive type="animation" id="panties" delay="1" ease="ease-in-cubic" interpolation="linear">
+                <keyframe time="0" y="762" />
+                <keyframe time="1" y="1307" />
+            </directive>
+            <directive type="animation" id="panties" delay="2" ease="smooth" interpolation="none">
+                <keyframe time="0" alpha="100" />
+                <keyframe time="0.05999994" alpha="0" />
+            </directive>
+        </pose>
+        <pose id="6-suspicious">
+            <sprite id="curious" src="reskins/kyouko_toshinou_sweater/6-curious.png" x="0" y="0" />
+            <sprite id="face" src="kyouko_toshinou/posemaker/faces/5-suspicious.png" x="8" y="240" clipbottom="8" />
+        </pose>
+        <pose id="7-_tr_horrifed_rip-playful">
+            <sprite id="summer" marker="Z_WinterUniform==0" src="reskins/kyouko_toshinou_sweater/7-horrified.png" x="0" y="0" />
+            <directive type="animation" id="summer" marker="Z_WinterUniform==0" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/7-horrified.png" />
+                <keyframe time="3" src="reskins/kyouko_toshinou_sweater/7-rip-playful.png" />
+            </directive>
+        </pose>
+        <pose id="7-aura">
+            <sprite id="kyouko" src="reskins/kyouko_toshinou_sweater/7-portrait.png" x="0" y="0" alpha="100" />
+            <sprite id="auracamera" z="1" src="kyouko_toshinou/../meia/auracamera.png" x="-64" y="600" scalex="2.5" scaley="2.5" alpha="0" />
+            <sprite id="cameraflash" delay="1.25" src="kyouko_toshinou/../meia/cameraflash.png" x="-10" y="418" scalex="0.1" scaley="0.1" alpha="0" />
+            <sprite id="aura" delay="1.38" src="reskins/kyouko_toshinou_sweater/7-aura.png" x="0" y="0" alpha="0" />
+            <directive type="animation" id="kyouko" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" alpha="100" />
+                <keyframe time="1" alpha="100" />
+                <keyframe time="1.38" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="auracamera" ease="linear" interpolation="linear">
+                <keyframe time="0" x="-64" y="600" scalex="2.5" scaley="2.5" alpha="0" />
+                <keyframe time="1" x="-64" y="317" scalex="2.5" scaley="2.5" alpha="100" />
+                <keyframe time="1.38" x="-64" y="317" scalex="2.5" scaley="2.5" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="auracamera" ease="linear" interpolation="none">
+                <keyframe time="0" src="kyouko_toshinou/../meia/auracamera.png" />
+                <keyframe time="1" src="kyouko_toshinou/../meia/auracamera.png" />
+                <keyframe time="1.38" src="kyouko_toshinou/../meia/auracamera.png" />
+            </directive>
+            <directive type="animation" id="cameraflash" delay="1.25" ease="ease-out-cubic" interpolation="linear">
+                <keyframe time="0" scalex="0.1" scaley="0.1" alpha="0" />
+                <keyframe time="0.13" scalex="8" scaley="8" alpha="100" />
+                <keyframe time="0.75" scalex="8" scaley="8" alpha="100" />
+                <keyframe time="2.75" alpha="0" />
+            </directive>
+            <directive type="animation" id="aura" delay="1.38" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" />
+                <keyframe time="2.62" x="0" y="0" />
+            </directive>
+            <directive type="animation" id="aura" delay="1.38" ease="ease-in-out-cubic" interpolation="linear">
+                <keyframe time="0" alpha="0" />
+                <keyframe time="2.62" alpha="100" />
+            </directive>
+        </pose>
+        <pose id="7-dunno">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-shrug.png" x="0" y="0" />
+            <sprite id="face" src="reskins/kyouko_toshinou_sweater/posemaker/faces/7-dunno.png" x="17" y="248" />
+            <sprite id="cat_ears" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="28" y="161" rotation="4" />
+        </pose>
+        <pose id="7-fright">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-calm.png" x="0" y="0" />
+            <sprite id="face" src="reskins/kyouko_toshinou_sweater/posemaker/faces/7-fright.png" x="-6" y="234" />
+            <sprite id="cat_ears" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-4" y="160" rotation="-1" />
+        </pose>
+        <pose id="7-licky">
+            <sprite id="curious" src="reskins/kyouko_toshinou_sweater/7-curious.png" x="0" y="0" />
+            <sprite id="face" src="reskins/kyouko_toshinou_sweater/posemaker/faces/7-licky.png" x="8" y="258" />
+            <sprite id="cat_ears" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="5" y="160" scalex="-1" rotation="-2" />
+        </pose>
+        <pose id="7-stripped">
+            <sprite id="kyoukospin" src="reskins/kyouko_toshinou_sweater/7-twirl-front.png" x="63" scalex="1" pivoty="96%" />
+            <sprite id="floor-panties" z="-1" src="reskins/kyouko_toshinou_sweater/posemaker/floor-panties-pink.png" x="1" y="1309" rotation="4" />
+            <directive type="animation" id="kyoukospin" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/7-twirl-front.png" x="63" />
+                <keyframe time="0.5" src="reskins/kyouko_toshinou_sweater/7-twirl-back.png" x="63" />
+                <keyframe time="1.12" src="reskins/kyouko_toshinou_sweater/7-twirl-front.png" x="68" />
+                <keyframe time="1.62" src="reskins/kyouko_toshinou_sweater/7-flirt.png" x="-62" />
+            </directive>
+            <directive type="animation" id="kyoukospin" ease="linear" interpolation="linear">
+                <keyframe time="0" scalex="1" />
+                <keyframe time="0.25" scalex="1" />
+                <keyframe time="0.38" scalex="0.95" />
+                <keyframe time="0.5" scalex="0.8" />
+                <keyframe time="0.62" scalex="0.95" />
+                <keyframe time="0.75" scalex="1" />
+                <keyframe time="0.88" scalex="1" />
+                <keyframe time="1" scalex="0.95" />
+                <keyframe time="1.12" scalex="0.8" />
+                <keyframe time="1.25" scalex="0.95" />
+                <keyframe time="1.38" scalex="1" />
+            </directive>
+        </pose>
+        <pose id="7-suspicious">
+            <sprite id="curious" src="reskins/kyouko_toshinou_sweater/7-curious.png" x="0" y="0" />
+            <sprite id="face" src="reskins/kyouko_toshinou_sweater/posemaker/faces/7-suspicious.png" x="8" y="240" />
+            <sprite id="cat_ears" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="5" y="160" scalex="-1" rotation="-2" />
+        </pose>
+        <pose id="8-_tr_excited_disappointed">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-excited.png" x="0" y="0" />
+            <sprite id="cat_ears" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-92" y="727" scalex="0.96" scaley="0.96" rotation="-20" />
+            <sprite id="cat_collar" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-34" y="911" scalex="0.96" scaley="0.96" rotation="-11" />
+            <sprite id="chin_on_hands" marker="Z_CatEars" delay="3" src="kyouko_toshinou/posemaker/cat/chin_on_hands.png" x="-22" y="879" clipleft="42" clipright="34" cliptop="47" clipbottom="10" />
+            <directive type="animation" id="base" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/8-excited.png" />
+                <keyframe time="3" src="reskins/kyouko_toshinou_sweater/8-disappointed.png" />
+            </directive>
+            <directive type="animation" id="cat_ears" marker="Z_CatEars" ease="linear" interpolation="none">
+                <keyframe time="0" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-92" y="727" scalex="0.96" scaley="0.96" rotation="-20" />
+                <keyframe time="3" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-33" y="739" scalex="-0.96" scaley="0.96" rotation="-5" />
+            </directive>
+            <directive type="animation" id="cat_collar" marker="Z_CatEars" ease="linear" interpolation="none">
+                <keyframe time="0" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-34" y="911" scalex="0.96" scaley="0.96" rotation="-11" />
+                <keyframe time="3" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-18" y="926" scalex="0.96" scaley="0.96" rotation="-3" />
+            </directive>
+        </pose>
+        <pose id="8-dunno">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-shrug.png" x="0" y="0" />
+            <sprite id="face" src="reskins/kyouko_toshinou_sweater/posemaker/faces/8-dunno.png" x="15" y="807" />
+            <sprite id="cat_collar" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="12" y="913" scalex="0.96" scaley="0.96" rotation="2" />
+            <sprite id="cat_ears" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="24" y="719" scalex="0.96" scaley="0.96" rotation="4" />
+        </pose>
+        <pose id="8-licky">
+            <sprite id="curious" src="reskins/kyouko_toshinou_sweater/8-curious.png" x="0" y="0" />
+            <sprite id="licky" src="reskins/kyouko_toshinou_sweater/posemaker/faces/8-licky.png" x="5" y="801" />
+            <sprite id="cat_collar" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="9" y="914" scalex="0.96" scaley="0.96" rotation="1" />
+            <sprite id="cat_ears" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="1" y="721" scalex="-0.96" scaley="0.96" rotation="-3" />
+            <sprite id="hand56_alt" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/hand56_alt.png" x="18" y="899" scalex="0.93" scaley="0.93" clipbottom="23" />
+        </pose>
+        <pose id="9-_tr_excited_disappointed">
+            <sprite id="summer" src="reskins/kyouko_toshinou_sweater/9-excited.png" x="0" y="0" />
+            <sprite id="cat_ears" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-105" y="173" scalex="1" rotation="-20" />
+            <sprite id="cat_collar" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-44" y="368" rotation="-11" />
+            <directive type="animation" id="summer" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/9-excited.png" />
+                <keyframe time="3" src="reskins/kyouko_toshinou_sweater/9-disappointed.png" />
+            </directive>
+            <directive type="animation" id="cat_ears" marker="Z_CatEars" ease="linear" interpolation="none">
+                <keyframe time="0" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-105" y="173" scalex="1" rotation="-20" />
+                <keyframe time="3" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-11" y="159" scalex="-1" rotation="-5" />
+            </directive>
+            <directive type="animation" id="cat_collar" marker="Z_CatEars" ease="linear" interpolation="none">
+                <keyframe time="0" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-44" y="368" rotation="-11" />
+                <keyframe time="3" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="3" y="364" rotation="2" />
+            </directive>
+        </pose>
+        <pose id="9-aura">
+            <sprite id="kyouko" src="reskins/kyouko_toshinou_sweater/9-portrait.png" x="0" y="0" alpha="100" />
+            <sprite id="auracamera" z="1" src="kyouko_toshinou/../meia/auracamera.png" x="-64" y="600" scalex="2.5" scaley="2.5" alpha="0" />
+            <sprite id="cameraflash" delay="1.25" src="kyouko_toshinou/../meia/cameraflash.png" x="-10" y="418" scalex="0.1" scaley="0.1" alpha="0" />
+            <sprite id="aura" delay="1.38" src="reskins/kyouko_toshinou_sweater/7-aura.png" x="0" y="0" alpha="0" />
+            <directive type="animation" id="kyouko" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" alpha="100" />
+                <keyframe time="1" alpha="100" />
+                <keyframe time="1.38" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="auracamera" ease="linear" interpolation="linear">
+                <keyframe time="0" x="-64" y="600" scalex="2.5" scaley="2.5" alpha="0" />
+                <keyframe time="1" x="-64" y="317" scalex="2.5" scaley="2.5" alpha="100" />
+                <keyframe time="1.38" x="-64" y="317" scalex="2.5" scaley="2.5" alpha="100" />
+                <keyframe time="2.5" alpha="0" />
+            </directive>
+            <directive type="animation" id="auracamera" ease="linear" interpolation="none">
+                <keyframe time="0" src="kyouko_toshinou/../meia/auracamera.png" />
+                <keyframe time="1" src="kyouko_toshinou/../meia/auracamera.png" />
+                <keyframe time="1.38" src="kyouko_toshinou/../meia/auracamera.png" />
+            </directive>
+            <directive type="animation" id="cameraflash" delay="1.25" ease="ease-out-cubic" interpolation="linear">
+                <keyframe time="0" scalex="0.1" scaley="0.1" alpha="0" />
+                <keyframe time="0.13" scalex="8" scaley="8" alpha="100" />
+                <keyframe time="0.75" scalex="8" scaley="8" alpha="100" />
+                <keyframe time="2.75" alpha="0" />
+            </directive>
+            <directive type="animation" id="aura" delay="1.38" ease="linear" interpolation="linear">
+                <keyframe time="0" x="0" y="0" />
+                <keyframe time="2.62" x="0" y="0" />
+            </directive>
+            <directive type="animation" id="aura" delay="1.38" ease="ease-in-out-cubic" interpolation="linear">
+                <keyframe time="0" alpha="0" />
+                <keyframe time="2.62" alpha="100" />
+            </directive>
+        </pose>
+        <pose id="9-dunno">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/9-shrug.png" x="0" y="0" />
+            <sprite id="face" src="reskins/kyouko_toshinou_sweater/posemaker/faces/7-dunno.png" x="17" y="248" />
+            <sprite id="cat_ears" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="28" y="161" rotation="4" />
+            <sprite id="cat_collar" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="14" y="365" rotation="2" />
+        </pose>
+        <pose id="9-licky">
+            <sprite id="curious" src="reskins/kyouko_toshinou_sweater/9-curious.png" x="0" y="0" />
+            <sprite id="face" src="reskins/kyouko_toshinou_sweater/posemaker/faces/7-licky.png" x="8" y="258" />
+            <sprite id="cat_ears" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="5" y="160" scalex="-1" rotation="-2" />
+            <sprite id="cat_collar" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="11" y="366" rotation="2" />
+            <sprite id="hand56_alt" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/hand56_alt.png" x="21" y="351" cliptop="38" clipbottom="23" />
+        </pose>
+        <pose id="9-stretch">
+            <sprite id="stretch-a" src="reskins/kyouko_toshinou_sweater/9-stretch-a.png" x="0" y="0" />
+            <sprite id="cat_ears" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="41" y="158" rotation="6" />
+            <sprite id="cat_collar" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="18" y="362" rotation="6" />
+            <directive type="animation" id="stretch-a" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/9-stretch-a.png" />
+                <keyframe time="3" src="reskins/kyouko_toshinou_sweater/9-stretch-b.png" />
+            </directive>
+            <directive type="animation" id="cat_ears" marker="Z_CatEars" ease="linear" interpolation="none">
+                <keyframe time="0" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="41" y="158" rotation="6" />
+                <keyframe time="3" x="23" y="162" rotation="3" />
+            </directive>
+            <directive type="animation" id="cat_collar" marker="Z_CatEars" ease="linear" interpolation="none">
+                <keyframe time="0" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="18" y="362" rotation="6" />
+                <keyframe time="3" x="11" y="366" rotation="2" />
+            </directive>
+        </pose>
+        <pose id="2-strip-early">
+            <sprite id="stripping-a" src="reskins/kyouko_toshinou_sweater/2-stripping-a.png" x="0" y="0" />
+        </pose>
+        <pose id="0-stripping">
+            <sprite id="stripping-a" src="reskins/kyouko_toshinou_sweater/0-stripping-a.png" x="0" y="0" />
+            <directive type="animation" id="stripping-a" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/0-stripping-a.png" />
+                <keyframe time="1" src="reskins/kyouko_toshinou_sweater/0-stripping-b.png" />
+            </directive>
+        </pose>
+        <pose id="7-push-hair">
+            <sprite id="pushhair-a" src="reskins/kyouko_toshinou_sweater/7-pushhair-a.png" x="0" y="0" />
+            <directive type="animation" id="pushhair-a" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/7-pushhair-a.png" />
+                <keyframe time="2" src="reskins/kyouko_toshinou_sweater/7-pushhair-b.png" />
+            </directive>
+        </pose>
+        <pose id="9-spring_geronimo">
+            <sprite id="geronimo" z="-80" src="reskins/kyouko_toshinou_sweater/9-geronimo.png" x="0" y="-180" scalex="0.8" scaley="0.8" />
+            <sprite id="shadow" z="-81" src="kyouko_toshinou/posemaker/shadow.png" x="-9" y="736" />
+        </pose>
+        <pose id="9-spring_makebun">
+            <sprite id="makebun" src="reskins/kyouko_toshinou_sweater/9-makebun.png" x="0" y="0" />
+        </pose>
+        <pose id="9-spring_submerged">
+            <sprite id="submerged" src="reskins/kyouko_toshinou_sweater/9-submerged.png" x="2" y="118" scalex="0.6" scaley="0.6" />
+            <sprite id="waterline" src="kyouko_toshinou/posemaker/waterline.png" x="-1" y="441" scalex="0.7" scaley="0.4" />
+        </pose>
+        <pose id="2-stripped">
+            <sprite id="stripped-a" src="reskins/kyouko_toshinou_sweater/2-stripped-a.png" x="0" y="0" />
+        </pose>
+        <pose id="2-stripped-nagatoro">
+            <sprite id="curious" src="reskins/kyouko_toshinou_sweater/2-curious.png" x="0" y="0" />
+            <sprite id="sweater" z="-1" src="reskins/kyouko_toshinou_sweater/posemaker/sweater.png" x="-119" y="746" />
+            <sprite id="chadkyouko" z="-1" src="kyouko_toshinou/posemaker/chadkyouko.png" x="185" y="74" scalex="0.95" scaley="0.95" alpha="0" />
+            <directive type="animation" id="chadkyouko" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="185" y="74" scalex="0.95" scaley="0.95" alpha="0" />
+                <keyframe time="0.5" alpha="0" />
+                <keyframe time="1.5" alpha="100" />
+            </directive>
+        </pose>
+        <pose id="3-stripping-horny">
+            <sprite id="stripping-a" src="reskins/kyouko_toshinou_sweater/3-stripping-a.png" x="0" y="0" />
+            <sprite id="stripping-c" src="reskins/kyouko_toshinou_sweater/3-stripping-c.png" x="-19" y="252" />
+            <directive type="animation" id="stripping-a" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/3-stripping-a.png" />
+                <keyframe time="1" src="reskins/kyouko_toshinou_sweater/3-stripping-b.png" />
+            </directive>
+            <directive type="animation" id="stripping-c" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/3-stripping-c.png" x="-19" y="252" />
+                <keyframe time="1" src="reskins/kyouko_toshinou_sweater/3-stripping-d.png" x="-46" y="249" />
+            </directive>
+        </pose>
+        <pose id="7-_cat_announce">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-announce.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="10" y="162" scalex="-1" rotation="3" />
+        </pose>
+        <pose id="7-_cat_annoyed">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-annoyed.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="29" y="161" scalex="-1" rotation="7" />
+        </pose>
+        <pose id="7-_cat_blankstare">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-blankstare.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-34" y="161" scalex="-1" rotation="-7" />
+        </pose>
+        <pose id="7-_cat_blush">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-blush.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="51" y="167" rotation="8" />
+        </pose>
+        <pose id="7-_cat_boobs">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-boobs.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="11" y="165" rotation="3" />
+        </pose>
+        <pose id="7-_cat_butt">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-butt.png" x="0" y="0" />
+            <sprite id="cat_ears" z="-1" src="kyouko_toshinou/posemaker/cat/cat_ears_back.png" x="63" y="172" scalex="1" rotation="11" />
+        </pose>
+        <pose id="7-_cat_calm">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-calm.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-4" y="160" rotation="-1" />
+        </pose>
+        <pose id="7-_cat_casual">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-casual.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-20" y="161" rotation="-2" />
+        </pose>
+        <pose id="7-_cat_confused">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-confused.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-9" y="160" rotation="-7" />
+        </pose>
+        <pose id="7-_cat_curious">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-curious.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="5" y="160" scalex="-1" rotation="-2" />
+        </pose>
+        <pose id="7-_cat_derp">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-derp.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="22" y="162" rotation="2" />
+        </pose>
+        <pose id="7-_cat_disappointed">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-disappointed.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-11" y="159" scalex="-1" rotation="-5" />
+        </pose>
+        <pose id="7-_cat_excited">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-excited.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-105" y="173" rotation="-20" />
+        </pose>
+        <pose id="7-_cat_flirt">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-flirt.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-66" y="171" scalex="-1" rotation="-11" />
+        </pose>
+        <pose id="7-_cat_greed">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-greed.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-20" y="167" rotation="-2" />
+        </pose>
+        <pose id="7-_cat_grin">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-grin.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-34" y="164" scalex="-1" rotation="6" />
+        </pose>
+        <pose id="7-_cat_horny">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-horny.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="26" y="160" scalex="-1" rotation="7" />
+        </pose>
+        <pose id="7-_cat_hornythoughts">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-hornythoughts.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="79" y="169" rotation="15" />
+        </pose>
+        <pose id="7-_cat_horrified">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-horrified.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="56" y="169" rotation="10" />
+        </pose>
+        <pose id="7-_cat_hyped">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-hyped.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="2" y="159" scalex="-1" rotation="2" />
+        </pose>
+        <pose id="7-_cat_letsgo">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-letsgo.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-1" y="165" rotation="-2" />
+        </pose>
+        <pose id="7-_cat_mistaken">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-mistaken.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="8" y="163" rotation="-2" />
+        </pose>
+        <pose id="7-_cat_mast-start">
+            <sprite id="m-start-cat" src="reskins/kyouko_toshinou_sweater/7-m-start-cat.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-9" y="161" rotation="2" />
+        </pose>
+        <pose id="7-_cat_myself">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-myself.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="27" y="165" rotation="2" />
+        </pose>
+        <pose id="7-_cat_offguard">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-offguard.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="22" y="164" rotation="2" />
+        </pose>
+        <pose id="7-_cat_playful">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-playful.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-46" y="165" scalex="-1" rotation="-5" />
+        </pose>
+        <pose id="7-_cat_pleased">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-pleased.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-8" y="162" scalex="-1" rotation="-2" />
+        </pose>
+        <pose id="7-_cat_pride">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-pride.png" x="0" y="0" />
+            <sprite id="cat_ears" z="1" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="10" y="162" rotation="3" />
+            <sprite id="pride" z="2" src="kyouko_toshinou/7-pride.png" x="0" y="0" clipbottom="1159" />
+        </pose>
+        <pose id="7-_cat_sexypose">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-sexypose.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-170" y="497" scalex="-1" rotation="-26" />
+        </pose>
+        <pose id="7-_cat_shrug">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-shrug.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="28" y="161" rotation="4" />
+        </pose>
+        <pose id="7-_cat_teasing">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-teasing.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-25" y="159" scalex="-1" rotation="-3" />
+        </pose>
+        <pose id="7-_cat_trolling">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-trolling.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="39" y="170" scalex="-1" rotation="5" />
+        </pose>
+        <pose id="7-rip-yumeko">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-rip-playful.png" x="0" y="0" />
+            <sprite id="cat_ears" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-46" y="165" scalex="-1" rotation="-5" />
+            <directive type="animation" id="base" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/7-rip-playful.png" />
+                <keyframe time="3" src="kyouko_toshinou/7-curious.png" />
+            </directive>
+            <directive type="animation" id="cat_ears" marker="Z_CatEars" ease="linear" interpolation="none">
+                <keyframe time="0" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-46" y="165" scalex="-1" rotation="-5" />
+                <keyframe time="3" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="5" y="160" scalex="-1" rotation="-2" />
+            </directive>
+        </pose>
+        <pose id="8-_cat_announce">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-announce.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="8" y="727" scalex="-0.96" scaley="0.96" rotation="2" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="2" y="921" scalex="0.96" scaley="0.96" rotation="2" />
+        </pose>
+        <pose id="8-_cat_annoyed">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-annoyed.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="26" y="725" scalex="-0.96" scaley="0.96" rotation="7" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="9" y="920" scalex="0.96" scaley="0.96" rotation="2" />
+        </pose>
+        <pose id="8-_cat_blankstare">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-blankstare.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-32" y="723" scalex="-0.96" scaley="0.96" rotation="-7" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-12" y="915" scalex="0.96" scaley="0.96" rotation="-2" />
+        </pose>
+        <pose id="8-_cat_blush">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-blush.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="44" y="719" scalex="0.96" scaley="0.96" rotation="7" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="22" y="911" scalex="0.96" scaley="0.96" rotation="6" />
+        </pose>
+        <pose id="8-_cat_boobs">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-boobs.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="9" y="719" scalex="0.96" scaley="0.96" rotation="2" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="2" y="912" scalex="0.96" scaley="0.96" rotation="2" />
+        </pose>
+        <pose id="8-_cat_calm">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-calm.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="0" y="721" scalex="0.96" scaley="0.96" rotation="-1" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="2" y="914" scalex="0.96" scaley="0.96" rotation="1" />
+        </pose>
+        <pose id="8-_cat_casual">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-casual.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-23" y="720" scalex="0.96" scaley="0.96" rotation="-3" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-16" y="913" scalex="0.96" scaley="0.96" rotation="2" />
+        </pose>
+        <pose id="8-_cat_confused">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-confused.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-11" y="730" scalex="0.96" scaley="0.96" rotation="-8" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="8" y="923" scalex="0.96" scaley="0.96" rotation="-1" />
+            <sprite id="hand57" src="kyouko_toshinou/posemaker/cat/hand57.png" x="-33" y="904" scalex="0.95" scaley="0.94" clipleft="46" cliptop="40" clipbottom="14" />
+        </pose>
+        <pose id="8-_cat_curious">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-curious.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="1" y="721" scalex="-0.96" scaley="0.96" rotation="-3" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="9" y="914" scalex="0.96" scaley="0.96" rotation="1" />
+            <sprite id="hand56_alt" src="kyouko_toshinou/posemaker/cat/hand56_alt.png" x="18" y="899" scalex="0.93" scaley="0.93" clipbottom="23" />
+        </pose>
+        <pose id="8-_cat_derp">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-derp.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="18" y="720" scalex="0.96" scaley="0.96" rotation="0" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="17" y="914" scalex="0.96" scaley="0.96" rotation="2" />
+        </pose>
+        <pose id="8-_cat_disappointed">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-disappointed.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-33" y="739" scalex="-0.96" scaley="0.96" rotation="-5" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-18" y="926" scalex="0.96" scaley="0.96" rotation="-3" />
+            <sprite id="chin_on_hands" src="kyouko_toshinou/posemaker/cat/chin_on_hands.png" x="-22" y="879" clipleft="42" clipright="34" cliptop="47" clipbottom="10" />
+        </pose>
+        <pose id="8-_cat_excited">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-excited.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-92" y="727" scalex="0.96" scaley="0.96" rotation="-20" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-34" y="911" scalex="0.96" scaley="0.96" rotation="-11" />
+        </pose>
+        <pose id="8-_cat_expectant">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-expectant.png" x="0" y="0" />
+            <sprite id="cat_ears" z="-1" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="18" y="720" scalex="-0.96" scaley="0.96" rotation="-4" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="23" y="916" scalex="0.96" scaley="0.96" rotation="3" />
+            <sprite id="lefthand" src="kyouko_toshinou/posemaker/cat/hand09.png" x="49" y="936" scalex="0.96" scaley="0.96" rotation="22" clipbottom="20" />
+            <sprite id="righthand" src="kyouko_toshinou/posemaker/cat/hand09.png" x="2" y="941" scalex="-0.96" scaley="0.96" rotation="-8" clipright="12" clipbottom="35" />
+        </pose>
+        <pose id="8-_cat_flirt">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-flirt.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-4" y="720" scalex="-0.96" scaley="0.96" rotation="6" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-12" y="914" scalex="0.96" scaley="0.96" rotation="0" />
+        </pose>
+        <pose id="8-_cat_greed">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-greed.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-17" y="726" scalex="0.96" scaley="0.96" rotation="-2" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-11" y="919" scalex="0.96" scaley="0.96" rotation="-2" />
+            <sprite id="hand09" src="kyouko_toshinou/posemaker/cat/hand09.png" x="36" y="937" scalex="0.96" scaley="0.96" rotation="-3" clipright="22" clipbottom="26" />
+        </pose>
+        <pose id="8-_cat_grin">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-grin.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-33" y="719" scalex="-0.96" scaley="0.96" rotation="5" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-41" y="913" scalex="0.96" scaley="0.96" rotation="-4" />
+        </pose>
+        <pose id="8-_cat_heavy-dual">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-heavy-dual.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="46" y="725" scalex="-0.96" scaley="0.96" rotation="9" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="22" y="917" scalex="0.96" scaley="0.96" rotation="4" />
+        </pose>
+        <pose id="8-_cat_heavy-focus">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-heavy-focus.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="35" y="718" scalex="-0.96" scaley="0.96" rotation="2" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="29" y="911" scalex="0.96" scaley="0.96" rotation="5" />
+        </pose>
+        <pose id="8-_cat_heavy-soft">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-heavy-soft.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="4" y="726" scalex="-0.96" scaley="0.96" rotation="9" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-16" y="918" scalex="0.96" scaley="0.96" rotation="-3" />
+        </pose>
+        <pose id="8-_cat_horny">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-horny.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="19" y="727" scalex="-0.96" scaley="0.96" rotation="5" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="9" y="919" scalex="0.96" scaley="0.96" rotation="2" />
+        </pose>
+        <pose id="8-_cat_hornythoughts">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-hornythoughts.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="71" y="723" scalex="0.96" scaley="0.96" rotation="14" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="29" y="912" scalex="0.96" scaley="0.96" rotation="7" />
+        </pose>
+        <pose id="8-_cat_horrified">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-horrified.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="50" y="724" scalex="0.96" scaley="0.96" rotation="9" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="22" y="916" scalex="0.96" scaley="0.96" rotation="6" />
+        </pose>
+        <pose id="8-_cat_hyped">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-hyped.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="3" y="728" scalex="-0.96" scaley="0.96" rotation="2" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="0" y="922" scalex="0.96" scaley="0.96" rotation="2" />
+            <sprite id="hands_on_knees" src="kyouko_toshinou/posemaker/cat/hands_on_knees.png" x="-3" y="966" clipleft="79" clipright="72" clipbottom="62" />
+        </pose>
+        <pose id="8-_cat_letsgo">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-letsgo.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-2" y="727" scalex="0.96" scaley="0.96" rotation="-2" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="2" y="921" scalex="0.96" scaley="0.96" rotation="2" />
+        </pose>
+        <pose id="8-_cat_mast-dual">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-mast-dual.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-50" y="724" scalex="-0.96" scaley="0.96" rotation="-8" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-25" y="917" scalex="0.96" scaley="0.96" rotation="-3" />
+        </pose>
+        <pose id="8-_cat_mast-look">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-mast-look.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-28" y="725" scalex="-0.96" scaley="0.96" rotation="-1" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-19" y="919" scalex="0.96" scaley="0.96" rotation="-2" />
+        </pose>
+        <pose id="8-_cat_mast-single">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-mast-single.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="37" y="723" scalex="-0.96" scaley="0.96" rotation="6" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="23" y="916" scalex="0.96" scaley="0.96" rotation="3" />
+        </pose>
+        <pose id="8-_cat_mast-tweak">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-mast-tweak.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-5" y="726" scalex="-0.96" scaley="0.96" rotation="0" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-1" y="919" scalex="0.96" scaley="0.96" rotation="2" />
+        </pose>
+        <pose id="8-_cat_mistaken">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-mistaken.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="5" y="726" scalex="0.96" scaley="0.96" rotation="-1" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="6" y="920" scalex="0.96" scaley="0.96" rotation="1" />
+        </pose>
+        <pose id="8-_cat_myself">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-myself.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="22" y="718" scalex="0.96" scaley="0.96" rotation="1" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="16" y="912" scalex="0.96" scaley="0.96" rotation="3" />
+        </pose>
+        <pose id="8-_cat_offguard">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-offguard.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="18" y="726" scalex="0.96" scaley="0.96" rotation="2" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="11" y="920" scalex="0.96" scaley="0.96" rotation="2" />
+        </pose>
+        <pose id="8-_cat_playful">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-playful.png" x="2" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-41" y="720" scalex="-0.96" scaley="0.96" rotation="-6" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-24" y="913" scalex="0.96" scaley="0.96" rotation="-2" />
+            <sprite id="hand56" src="kyouko_toshinou/posemaker/cat/hand56.png" x="32" y="910" scalex="-0.95" scaley="0.95" rotation="-24" clipleft="24" clipbottom="18" />
+        </pose>
+        <pose id="8-_cat_pleased">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-pleased.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-7" y="722" scalex="-0.96" scaley="0.96" rotation="-2" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="1" y="915" scalex="0.96" scaley="0.96" rotation="-2" />
+        </pose>
+        <pose id="8-_cat_pride">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-pride.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="1" y="721" scalex="0.96" scaley="0.96" rotation="-1" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="2" y="914" scalex="0.96" scaley="0.96" rotation="1" />
+        </pose>
+        <pose id="8-_cat_shrug">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-shrug.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="24" y="719" scalex="0.96" scaley="0.96" rotation="4" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="12" y="913" scalex="0.96" scaley="0.96" rotation="2" />
+        </pose>
+        <pose id="8-_cat_teasing">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-teasing.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-23" y="727" scalex="-0.96" scaley="0.96" rotation="-3" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-13" y="922" scalex="0.96" scaley="0.96" rotation="-1" />
+            <sprite id="hand29" src="kyouko_toshinou/posemaker/cat/8-hand29.png" x="20" y="900" cliptop="44" clipbottom="23" />
+        </pose>
+        <pose id="8-_cat_trolling">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/8-trolling.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="31" y="729" scalex="-0.96" scaley="0.96" rotation="5" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="15" y="917" scalex="0.96" scaley="0.96" rotation="8" />
+            <sprite id="hand28" src="kyouko_toshinou/posemaker/cat/8-hand28.png" x="47" y="918" />
+        </pose>
+        <pose id="9-_cat_announce">
+            <sprite id="base" src="kyouko_toshinou/9-announce.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="10" y="162" scalex="-1" rotation="3" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="3" y="367" rotation="2" />
+        </pose>
+        <pose id="9-_cat_annoyed">
+            <sprite id="base" src="kyouko_toshinou/9-annoyed.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="29" y="161" scalex="-1" rotation="7" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="11" y="365" rotation="2" />
+        </pose>
+        <pose id="9-_cat_blankstare">
+            <sprite id="base" src="kyouko_toshinou/9-blankstare.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-34" y="161" scalex="-1" rotation="-7" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-12" y="363" rotation="-2" />
+        </pose>
+        <pose id="9-_cat_blush">
+            <sprite id="base" src="kyouko_toshinou/9-blush.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="51" y="167" rotation="8" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="27" y="370" rotation="3" />
+        </pose>
+        <pose id="9-_cat_boobs">
+            <sprite id="base" src="kyouko_toshinou/9-boobs.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="11" y="167" rotation="3" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="3" y="372" rotation="1" />
+        </pose>
+        <pose id="9-_cat_butt">
+            <sprite id="base" src="kyouko_toshinou/9-butt.png" x="0" y="0" />
+            <sprite id="cat_ears" z="-1" src="kyouko_toshinou/posemaker/cat/cat_ears_back.png" x="63" y="172" scalex="1" rotation="11" />
+        </pose>
+        <pose id="9-_cat_calm">
+            <sprite id="calm" src="kyouko_toshinou/9-calm.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-3" y="160" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-2" y="365" rotation="1" />
+        </pose>
+        <pose id="9-_cat_casual">
+            <sprite id="calm" src="kyouko_toshinou/9-casual.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-20" y="161" rotation="-2" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-14" y="366" rotation="2" />
+        </pose>
+        <pose id="9-_cat_confused">
+            <sprite id="base" src="kyouko_toshinou/9-confused.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-9" y="160" rotation="-7" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="9" y="364" rotation="1" />
+            <sprite id="hand57" src="kyouko_toshinou/posemaker/cat/hand57.png" x="-34" y="345" clipleft="45" cliptop="40" />
+        </pose>
+        <pose id="9-_cat_curious">
+            <sprite id="base" src="kyouko_toshinou/9-curious.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="5" y="160" scalex="-1" rotation="-2" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="11" y="366" rotation="2" />
+            <sprite id="hand56_alt" src="kyouko_toshinou/posemaker/cat/hand56_alt.png" x="21" y="351" cliptop="38" clipbottom="23" />
+        </pose>
+        <pose id="9-_cat_derp">
+            <sprite id="base" src="kyouko_toshinou/9-derp.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="22" y="162" rotation="2" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="18" y="367" rotation="2" />
+            <sprite id="hand56" src="kyouko_toshinou/posemaker/cat/hand56.png" x="-41" y="366" rotation="18" clipleft="25" clipbottom="21" />
+        </pose>
+        <pose id="9-_cat_disappointed">
+            <sprite id="base" src="kyouko_toshinou/9-disappointed.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-11" y="159" scalex="-1" rotation="-5" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="3" y="364" rotation="2" />
+        </pose>
+        <pose id="9-_cat_excited">
+            <sprite id="base" src="kyouko_toshinou/9-excited.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-105" y="173" rotation="-20" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-44" y="368" rotation="-11" />
+        </pose>
+        <pose id="9-_cat_expectant">
+            <sprite id="base" src="kyouko_toshinou/9-expectant.png" x="0" y="0" />
+            <sprite id="cat_ears" z="-1" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="20" y="151" scalex="-1" rotation="-3" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="27" y="357" rotation="3" />
+            <sprite id="lefthand" src="kyouko_toshinou/posemaker/cat/hand09.png" x="55" y="378" rotation="22" clipright="14" clipbottom="26" />
+            <sprite id="righthand" src="kyouko_toshinou/posemaker/cat/hand09.png" x="5" y="384" scalex="-1" rotation="-6" clipright="12" clipbottom="31" />
+        </pose>
+        <pose id="9-_cat_flirt">
+            <sprite id="base" src="kyouko_toshinou/9-flirt.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-65" y="171" scalex="-1" rotation="-11" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-32" y="373" rotation="-6" />
+        </pose>
+        <pose id="9-_cat_greed">
+            <sprite id="base" src="kyouko_toshinou/9-greed.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-20" y="167" rotation="-2" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-13" y="372" rotation="-1" />
+            <sprite id="lefthand" src="kyouko_toshinou/posemaker/cat/hand09.png" x="11" y="396" rotation="0" clipbottom="26" />
+            <sprite id="righthand" src="kyouko_toshinou/posemaker/cat/hand09.png" x="-41" y="399" scalex="-1" rotation="-2" clipbottom="20" />
+        </pose>
+        <pose id="9-_cat_grin">
+            <sprite id="base" src="kyouko_toshinou/9-grin.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-34" y="164" scalex="-1" rotation="6" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-44" y="368" rotation="-4" />
+        </pose>
+        <pose id="9-_cat_horny">
+            <sprite id="base" src="kyouko_toshinou/9-horny.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="26" y="162" scalex="-1" rotation="7" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="10" y="367" rotation="4" />
+        </pose>
+        <pose id="9-_cat_hornythoughts">
+            <sprite id="base" src="kyouko_toshinou/9-hornythoughts.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="79" y="169" rotation="15" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="34" y="368" rotation="6" />
+        </pose>
+        <pose id="9-_cat_horrified">
+            <sprite id="base" src="kyouko_toshinou/9-horrified.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="56" y="171" rotation="10" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="26" y="373" rotation="6" />
+        </pose>
+        <pose id="9-_cat_hyped">
+            <sprite id="base" src="kyouko_toshinou/9-hyped.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="2" y="159" scalex="-1" rotation="2" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-1" y="363" rotation="0" />
+        </pose>
+        <pose id="9-_cat_letsgo">
+            <sprite id="base" src="kyouko_toshinou/9-letsgo.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-1" y="165" rotation="-2" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="3" y="370" rotation="1" />
+        </pose>
+        <pose id="9-_cat_mistaken">
+            <sprite id="base" src="kyouko_toshinou/9-mistaken.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="8" y="163" rotation="-2" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="9" y="368" rotation="2" />
+        </pose>
+        <pose id="9-_cat_myself">
+            <sprite id="base" src="kyouko_toshinou/9-myself.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="27" y="166" rotation="2" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="19" y="371" rotation="2" />
+        </pose>
+        <pose id="9-_cat_offguard">
+            <sprite id="base" src="kyouko_toshinou/9-offguard.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="22" y="164" rotation="2" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="14" y="369" rotation="3" />
+        </pose>
+        <pose id="9-_cat_playful">
+            <sprite id="base" src="kyouko_toshinou/9-playful.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-46" y="165" scalex="-1" rotation="-5" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-29" y="369" rotation="-2" />
+            <sprite id="hand56" src="kyouko_toshinou/posemaker/cat/hand56.png" x="-76" y="381" clipleft="27" clipbottom="25" />
+        </pose>
+        <pose id="9-_cat_pride">
+            <sprite id="base" src="kyouko_toshinou/9-pride.png" x="0" y="0" />
+            <sprite id="cat_ears" z="-1" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="10" y="162" rotation="3" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="3" y="367" rotation="1" />
+        </pose>
+        <pose id="9-_cat_sexypose">
+            <sprite id="base" src="kyouko_toshinou/9-sexypose.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="38" y="158" scalex="-1" rotation="-3" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="42" y="363" rotation="6" />
+        </pose>
+        <pose id="9-_cat_shrug">
+            <sprite id="base" src="kyouko_toshinou/9-shrug.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="28" y="161" rotation="4" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="14" y="365" rotation="2" />
+        </pose>
+        <pose id="9-_cat_teasing">
+            <sprite id="base" src="kyouko_toshinou/9-teasing.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-25" y="159" scalex="-1" rotation="-3" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-16" y="365" rotation="1" />
+            <sprite id="hand29" src="kyouko_toshinou/posemaker/cat/hand29.png" x="6" y="339" clipright="17" cliptop="48" clipbottom="27" />
+        </pose>
+        <pose id="9-_cat_trolling">
+            <sprite id="base" src="kyouko_toshinou/9-trolling.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="39" y="168" scalex="-1" rotation="5" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="21" y="366" rotation="7" />
+            <sprite id="hand28" src="kyouko_toshinou/posemaker/cat/hand28.png" x="53" y="357" clipright="37" clipbottom="21" />
+        </pose>
+        <pose id="9-_cat_unfixed-flirt">
+            <sprite id="base" src="kyouko_toshinou/9-unfixed-flirt.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-65" y="171" scalex="-1" rotation="-11" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-32" y="373" rotation="-6" />
+        </pose>
+        <pose id="7-_cat_expectant">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/7-expectant.png" x="0" y="0" />
+            <sprite id="cat_ears" z="1" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="20" y="151" scalex="-1" rotation="-3" />
+            <sprite id="head" z="2" src="kyouko_toshinou/7-expectant.png" x="0" y="0" clipbottom="1170" />
+        </pose>
+        <pose id="7-push-hair-yumeko">
+            <sprite id="pushhair-a" src="reskins/kyouko_toshinou_sweater/7-pushhair-a.png" x="0" y="0" />
+            <sprite id="floor-panties" z="-1" src="reskins/kyouko_toshinou_sweater/posemaker/floor-panties-pink.png" x="1" y="1309" rotation="4" />
+            <directive type="animation" id="pushhair-a" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/7-pushhair-a.png" />
+                <keyframe time="2" src="reskins/kyouko_toshinou_sweater/7-pushhair-b.png" />
+            </directive>
+        </pose>
+        <pose id="9-_cat_pleased">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/9-pleased.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="-8" y="162" scalex="-1" rotation="-2" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="-1" y="366" rotation="-1" />
+        </pose>
+        <pose id="9-_cat_finished">
+            <sprite id="base" src="reskins/kyouko_toshinou_sweater/9-finished.png" x="0" y="0" />
+            <sprite id="cat_ears" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="13" y="722" scalex="0.96" scaley="0.96" rotation="4" />
+            <sprite id="cat_collar" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="2" y="914" scalex="0.96" scaley="0.96" rotation="1" />
+        </pose>
+        <pose id="3-stripped-enthusiastic">
+            <sprite id="stripped-a" src="reskins/kyouko_toshinou_sweater/3-stripped-d.png" x="0" y="0" />
+            <directive type="animation" id="stripped-a" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/3-stripped-d.png" />
+                <keyframe time="3.25" src="reskins/kyouko_toshinou_sweater/3-stripped-a.png" />
+                <keyframe time="4.75" src="reskins/kyouko_toshinou_sweater/3-stripped-b.png" />
+                <keyframe time="5.5" src="reskins/kyouko_toshinou_sweater/3-stripped-c.png" />
+            </directive>
+        </pose>
+        <pose id="8-finishing">
+            <sprite id="body" src="reskins/kyouko_toshinou_sweater/8-finishing.png" x="0" y="0" pivoty="85%" />
+            <sprite id="cat_ears" parent="body" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="238" y="719" scalex="-0.96" scaley="0.96" rotation="4" />
+            <sprite id="cat_collar" parent="body" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="254" y="912" scalex="0.96" scaley="0.96" rotation="4" />
+            <sprite id="hair" z="-2" src="kyouko_toshinou/posemaker/anim/finishing-hair.png" x="27" y="754" />
+            <sprite id="rightforearm" z="4" src="kyouko_toshinou/posemaker/anim/finishing-rightforearm.png" x="-53" y="1066" pivotx="11%" pivoty="10%" rotation="0" />
+            <sprite id="rightarm" z="-1" src="kyouko_toshinou/posemaker/anim/finishing-rightarm.png" x="-68" y="949" pivotx="75%" pivoty="12%" rotation="1" />
+            <sprite id="leftarm" z="-2" src="kyouko_toshinou/posemaker/anim/finishing-leftarm.png" x="87" y="954" pivotx="59%" pivoty="12%" rotation="0" />
+            <sprite id="leftforearm" z="-1" src="kyouko_toshinou/posemaker/anim/finishing-leftforearm.png" x="152" y="1125" pivotx="65%" pivoty="82%" rotation="0" />
+            <sprite id="rightthigh" z="1" src="kyouko_toshinou/posemaker/anim/finishing-rightthigh.png" x="-124" y="1101" pivotx="74%" pivoty="72%" rotation="0" />
+            <sprite id="rightcalf" z="4" src="kyouko_toshinou/posemaker/anim/finishing-rightcalf.png" x="-82" y="1100" pivotx="8%" pivoty="10%" rotation="0" />
+            <sprite id="leftthigh" z="2" src="kyouko_toshinou/posemaker/anim/finishing-leftthigh.png" x="143" y="1167" pivotx="13%" pivoty="90%" rotation="0" />
+            <sprite id="leftcalf" z="5" src="kyouko_toshinou/posemaker/anim/finishing-leftcalf.png" x="98" y="1172" pivotx="91%" pivoty="16%" rotation="0" />
+            <sprite id="drips1" parent="body" delay="2.5" src="kyouko_toshinou/posemaker/waterline.png" x="275" y="1226" scalex="0" scaley="0" pivotx="11%" pivoty="35%" alpha="50" rotation="119" />
+            <sprite id="drips1a" parent="drips1" delay="2.5" src="kyouko_toshinou/posemaker/waterline.png" x="14" y="-10" scalex="0.9" scaley="1" skewy="4" pivotx="11%" pivoty="35%" rotation="-3" />
+            <sprite id="drips2" parent="body" delay="2.5" src="kyouko_toshinou/posemaker/waterline.png" x="278" y="1223" scalex="0" scaley="0" pivotx="11%" pivoty="35%" alpha="50" rotation="68" />
+            <sprite id="drips2a" parent="drips2" delay="2.5" src="kyouko_toshinou/posemaker/waterline.png" x="14" y="-10" scalex="0.9" scaley="1" skewy="4" pivotx="11%" pivoty="35%" alpha="100" rotation="-3" />
+            <sprite id="pull" z="3" src="kyouko_toshinou/posemaker/waterline.png" x="100" y="1179" scalex="0.03" scaley="0.04" skewy="0" pivotx="13%" pivoty="85%" alpha="0" rotation="253" />
+            <directive type="animation" id="body" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="0" y="0" />
+                <keyframe time="0.5" y="-4" />
+                <keyframe time="1" y="0" />
+                <keyframe time="1.5" y="-4" />
+                <keyframe time="2" y="0" />
+                <keyframe time="2.5" y="-4" />
+                <keyframe time="3" y="0" />
+                <keyframe time="3.38" y="-4" />
+                <keyframe time="3.62" y="0" />
+                <keyframe time="3.88" y="-5" />
+                <keyframe time="4.25" y="0" />
+                <keyframe time="4.62" y="-5" />
+                <keyframe time="5" y="0" />
+                <keyframe time="5.5" y="-6" />
+                <keyframe time="6" y="0" />
+                <keyframe time="6.5" y="-6" />
+                <keyframe time="7" y="0" />
+            </directive>
+            <directive type="animation" id="hair" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="27" y="754" />
+                <keyframe time="0.5" y="750" />
+                <keyframe time="1" y="754" />
+                <keyframe time="1.5" y="750" />
+                <keyframe time="2" y="754" />
+                <keyframe time="2.5" y="750" />
+                <keyframe time="3" y="754" />
+                <keyframe time="3.38" y="750" />
+                <keyframe time="3.62" y="754" />
+                <keyframe time="3.88" y="749" />
+                <keyframe time="4.25" y="754" />
+                <keyframe time="4.62" y="749" />
+                <keyframe time="5" y="754" />
+                <keyframe time="5.5" y="748" />
+                <keyframe time="6" y="754" />
+                <keyframe time="6.5" y="748" />
+                <keyframe time="7" y="754" />
+            </directive>
+            <directive type="animation" id="rightforearm" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="-53" y="1066" rotation="0" />
+                <keyframe time="0.25" rotation="2" />
+                <keyframe time="0.5" x="-48" y="1065" rotation="-1" />
+                <keyframe time="0.75" rotation="3" />
+                <keyframe time="1" x="-47" y="1071" rotation="-1" />
+                <keyframe time="1.25" rotation="3" />
+                <keyframe time="1.5" y="1066" rotation="-1" />
+                <keyframe time="1.75" x="-51" y="1066" rotation="2" />
+                <keyframe time="2" y="1069" rotation="-2" />
+                <keyframe time="2.19" rotation="2" />
+                <keyframe time="2.38" rotation="-2" />
+                <keyframe time="2.5" x="-50" y="1068" />
+                <keyframe time="2.56" rotation="2" />
+                <keyframe time="2.75" rotation="-1" />
+                <keyframe time="3" y="1070" rotation="2" />
+                <keyframe time="3.25" rotation="-2" />
+                <keyframe time="3.37" y="1066" rotation="2" />
+                <keyframe time="3.5" rotation="-2" />
+                <keyframe time="3.62" y="1071" rotation="2" />
+                <keyframe time="3.75" rotation="-2" />
+                <keyframe time="3.88" y="1065" rotation="2" />
+                <keyframe time="4" rotation="-2" />
+                <keyframe time="4.12" rotation="2" />
+                <keyframe time="4.25" y="1069" />
+                <keyframe time="4.38" rotation="-2" />
+                <keyframe time="4.62" x="-51" y="1064" rotation="2" />
+                <keyframe time="5" y="1070" rotation="-2" />
+                <keyframe time="5.5" y="1064" rotation="3" />
+                <keyframe time="6" x="-50" y="1071" rotation="-1" />
+                <keyframe time="6.5" x="-50" y="1066" rotation="2" />
+                <keyframe time="7" x="-60" y="1064" rotation="-11" />
+            </directive>
+            <directive type="animation" id="rightarm" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="-68" y="949" rotation="1" />
+                <keyframe time="0.5" y="945" rotation="-1" />
+                <keyframe time="1" y="949" rotation="-2" />
+                <keyframe time="1.5" y="945" />
+                <keyframe time="1.75" rotation="0" />
+                <keyframe time="2" y="949" />
+                <keyframe time="2.5" y="945" rotation="-1" />
+                <keyframe time="3" y="949" />
+                <keyframe time="3.38" y="945" />
+                <keyframe time="3.62" y="949" />
+                <keyframe time="3.88" y="944" />
+                <keyframe time="4.25" y="949" />
+                <keyframe time="4.62" y="944" rotation="0" />
+                <keyframe time="5" y="949" />
+                <keyframe time="5.5" y="943" />
+                <keyframe time="6" y="949" rotation="-1" />
+                <keyframe time="6.5" y="943" rotation="-1" />
+                <keyframe time="7" y="949" rotation="4" />
+            </directive>
+            <directive type="animation" id="leftarm" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="87" y="954" rotation="0" />
+                <keyframe time="0.5" y="950" rotation="-1" />
+                <keyframe time="1" y="954" rotation="0" />
+                <keyframe time="1.5" y="950" rotation="-1" />
+                <keyframe time="2" y="954" rotation="0" />
+                <keyframe time="2.5" y="950" rotation="-1" />
+                <keyframe time="3" y="954" rotation="0" />
+                <keyframe time="3.38" y="950" rotation="-1" />
+                <keyframe time="3.62" y="954" rotation="0" />
+                <keyframe time="3.88" y="949" rotation="-1" />
+                <keyframe time="4.25" y="954" rotation="0" />
+                <keyframe time="4.62" y="949" rotation="-1" />
+                <keyframe time="5" y="954" rotation="0" />
+                <keyframe time="5.5" y="948" rotation="-1" />
+                <keyframe time="6" y="954" rotation="0" />
+                <keyframe time="6.5" y="948" rotation="-1" />
+                <keyframe time="7" y="954" rotation="0" />
+            </directive>
+            <directive type="animation" id="leftforearm" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="152" y="1125" rotation="0" />
+                <keyframe time="0.5" rotation="2" />
+                <keyframe time="1" rotation="0" />
+                <keyframe time="1.5" rotation="2" />
+                <keyframe time="2" rotation="0" />
+                <keyframe time="2.5" rotation="2" />
+                <keyframe time="3" rotation="0" />
+                <keyframe time="3.38" rotation="2" />
+                <keyframe time="3.62" rotation="0" />
+                <keyframe time="3.88" rotation="2" />
+                <keyframe time="4.25" rotation="0" />
+                <keyframe time="4.62" rotation="2" />
+                <keyframe time="5" rotation="0" />
+                <keyframe time="5.5" rotation="2" />
+                <keyframe time="6" rotation="0" />
+                <keyframe time="6.5" rotation="2" />
+                <keyframe time="7" rotation="0" />
+            </directive>
+            <directive type="animation" id="rightthigh" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="-124" y="1101" rotation="0" />
+                <keyframe time="1" rotation="-2" />
+                <keyframe time="2" rotation="-5" />
+                <keyframe time="2.5" rotation="-9" />
+                <keyframe time="3.25" rotation="2" />
+                <keyframe time="3.88" rotation="-7" />
+                <keyframe time="4.25" rotation="-1" />
+                <keyframe time="4.62" rotation="-9" />
+                <keyframe time="5.5" rotation="-2" />
+                <keyframe time="7" y="1101" rotation="0" />
+            </directive>
+            <directive type="animation" id="rightcalf" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="-82" y="1100" rotation="0" />
+                <keyframe time="1" x="-86" y="1102" rotation="-1" />
+                <keyframe time="2" x="-92" y="1110" rotation="-3" />
+                <keyframe time="2.5" x="-95" y="1123" rotation="-5" />
+                <keyframe time="3.25" x="-79" y="1097" rotation="1" />
+                <keyframe time="3.88" x="-92" y="1118" rotation="-4" />
+                <keyframe time="4.25" x="-88" y="1103" rotation="-1" />
+                <keyframe time="4.62" x="-96" y="1122" rotation="-5" />
+                <keyframe time="5.5" x="-86" y="1105" rotation="-2" />
+                <keyframe time="7" x="-82" y="1100" rotation="0" />
+            </directive>
+            <directive type="animation" id="leftthigh" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="143" y="1167" rotation="0" />
+                <keyframe time="1" rotation="1" />
+                <keyframe time="2" rotation="4" />
+                <keyframe time="2.5" rotation="8" />
+                <keyframe time="3.25" rotation="-2" />
+                <keyframe time="3.88" x="142" y="1164" rotation="7" />
+                <keyframe time="4.25" rotation="2" />
+                <keyframe time="4.62" x="141" y="1163" rotation="9" />
+                <keyframe time="5.5" rotation="4" />
+                <keyframe time="7" y="1167" rotation="0" />
+            </directive>
+            <directive type="animation" id="leftcalf" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="98" y="1172" rotation="0" />
+                <keyframe time="1" x="96" y="1173" rotation="1" />
+                <keyframe time="2" x="99" y="1181" rotation="3" />
+                <keyframe time="2.5" x="104" y="1197" rotation="6" />
+                <keyframe time="3.25" x="90" y="1161" rotation="-2" />
+                <keyframe time="3.88" x="102" y="1189" rotation="5" />
+                <keyframe time="4.25" x="96" y="1176" rotation="1" />
+                <keyframe time="4.62" x="104" y="1195" rotation="5" />
+                <keyframe time="5.5" x="99" y="1182" rotation="2" />
+                <keyframe time="7" x="93" y="1169" rotation="0" />
+            </directive>
+            <directive type="animation" id="drips1" delay="2.5" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="275" y="1226" scalex="0" scaley="0" alpha="50" rotation="119" />
+                <keyframe time="3.5" x="275" y="1226" scalex="0.1" scaley="0.1" />
+            </directive>
+            <directive type="animation" id="drips2" delay="2.5" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="278" y="1223" scalex="0" scaley="0" alpha="50" rotation="68" />
+                <keyframe time="3.5" x="278" y="1223" scalex="0.12" scaley="-0.1" />
+            </directive>
+            <directive type="animation" id="pull" ease="smooth" interpolation="linear">
+                <keyframe time="0" x="100" y="1179" scalex="0.03" scaley="0.04" skewy="0" rotation="253" />
+                <keyframe time="6.5" x="102" y="1177" scalex="0.03" scaley="0.04" skewy="0" rotation="253" />
+                <keyframe time="6.75" x="102" y="1183" rotation="295" />
+                <keyframe time="7" x="99" y="1186" scalex="0.17" scaley="0.35" skewy="-18" rotation="321" />
+            </directive>
+            <directive type="animation" id="pull" ease="smooth" interpolation="none">
+                <keyframe time="0" alpha="0" />
+                <keyframe time="6.5" alpha="55" />
+                <keyframe time="7" alpha="55" />
+            </directive>
+        </pose>
+        <pose id="9-_tr_horny_horrified">
+            <sprite id="horny" src="kyouko_toshinou/9-horny.png" x="0" y="0" />
+            <sprite id="cat_ears" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="26" y="162" scalex="-1" rotation="7" />
+            <sprite id="cat_collar" marker="Z_CatEars" src="kyouko_toshinou/posemaker/cat/cat_collar.png" x="10" y="367" rotation="4" />
+            <directive type="animation" id="horny" ease="linear" interpolation="none">
+                <keyframe time="0" src="kyouko_toshinou/9-horny.png" />
+                <keyframe time="1.5" src="kyouko_toshinou/9-horrified.png" />
+            </directive>
+            <directive type="animation" id="cat_ears" marker="Z_CatEars" ease="linear" interpolation="none">
+                <keyframe time="0" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="26" y="162" scalex="-1" rotation="7" />
+                <keyframe time="1.5" src="kyouko_toshinou/posemaker/cat/cat_ears.png" x="56" y="171" rotation="10" />
+            </directive>
+            <directive type="animation" id="cat_collar" marker="Z_CatEars" ease="linear" interpolation="linear">
+                <keyframe time="0" x="10" y="367" rotation="4" />
+                <keyframe time="1.5" x="26" y="373" rotation="6" />
+            </directive>
+            <directive type="animation" id="cat_collar" marker="Z_CatEars" ease="linear" interpolation="none">
+                <keyframe time="0" src="kyouko_toshinou/posemaker/cat/cat_collar.png" />
+                <keyframe time="1.5" src="kyouko_toshinou/posemaker/cat/cat_collar.png" />
+            </directive>
+        </pose>
+    </poses>
+
+    <pose-sets>
+        <set id="_s_copy_yuno">
+            <pose stage="0-1" img="custom:__copy_yuno" />
+            <pose stage="2" img="custom:#-__copy_yuno" />
+        </set>
+        <set id="_tr_calm_wink">
+            <pose stage="0-6" img="custom:_tr_calm_wink" />
+        </set>
+        <set id="_tr_confused_mistaken">
+            <pose stage="0-7" img="custom:_tr_confused_mistaken" />
+        </set>
+        <set id="_tr_curious_troll">
+            <pose stage="0-7" img="custom:_tr_curious_troll" />
+        </set>
+        <set id="_tr_excited_calm">
+            <pose stage="0-6" img="custom:_tr_excited_calm" />
+        </set>
+        <set id="_tr_excited_disappointed">
+            <pose stage="0-7" img="custom:_tr_excited_disappointed" />
+            <pose stage="8-9" img="custom:#-_tr_excited_disappointed" priority="100" />
+        </set>
+        <set id="_tr_horny_letsgo">
+            <pose stage="0-7" img="custom:_tr_horny_letsgo" />
+        </set>
+        <set id="_tr_horrified_calm">
+            <pose stage="0-7" img="custom:_tr_horrifed_calm" />
+        </set>
+        <set id="_tr_horrified_grin">
+            <pose stage="0-1" img="custom:_tr_horrifed_grin" />
+        </set>
+        <set id="_tr_horrified_rip-playful">
+            <pose stage="7" img="custom:#-_tr_horrifed_rip-playful" />
+        </set>
+        <set id="_tr_myself_confused">
+            <pose stage="0-6" img="custom:_tr_myself_confused" />
+        </set>
+        <set id="_tr_pride_letsgo">
+            <pose stage="0-7" img="custom:_tr_pride_letsgo" />
+        </set>
+        <set id="announce">
+            <pose stage="0-9" img="#-announce.png" />
+            <pose stage="7-9" img="custom:#-_cat_announce" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="annoyed">
+            <pose stage="0-9" img="#-annoyed.png" />
+            <pose stage="7-9" img="custom:#-_cat_annoyed" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="blankstare">
+            <pose stage="0-9" img="#-blankstare.png" />
+            <pose stage="7-9" img="custom:#-_cat_blankstare" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="blush">
+            <pose stage="0-9" img="#-blush.png" />
+            <pose stage="7-9" img="custom:#-_cat_blush" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="boobs">
+            <pose stage="0-9" img="#-boobs.png" />
+            <pose stage="7-9" img="custom:#-_cat_boobs" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="butt">
+            <pose stage="7" img="#-butt.png" />
+            <pose stage="9" img="#-butt.png" />
+            <pose stage="6" img="custom:__placeholder" />
+            <pose stage="7" img="custom:#-_cat_butt" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+            <pose stage="9" img="custom:#-_cat_butt" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="calm">
+            <pose stage="0-9" img="#-calm.png" />
+            <pose stage="7-9" img="custom:#-_cat_calm" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="casual">
+            <pose stage="0-9" img="#-casual.png" />
+            <pose stage="7-9" img="custom:#-_cat_casual" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="confused">
+            <pose stage="0-9" img="#-confused.png" />
+            <pose stage="7-9" img="custom:#-_cat_confused" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="curious">
+            <pose stage="0-9" img="#-curious.png" />
+            <pose stage="7-9" img="custom:#-_cat_curious" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="derp">
+            <pose stage="0-9" img="#-derp.png" />
+            <pose stage="7-9" img="custom:#-_cat_derp" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="disappointed">
+            <pose stage="0-9" img="#-disappointed.png" />
+            <pose stage="7-9" img="custom:#-_cat_disappointed" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="excited">
+            <pose stage="0-9" img="#-excited.png" />
+            <pose stage="7-9" img="custom:#-_cat_excited" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="excitenoribbon">
+            <pose stage="7" img="#-excitenoribbon.png" />
+        </set>
+        <set id="expectant">
+            <pose stage="0-9" img="#-expectant.png" />
+            <pose stage="7-9" img="custom:#-_cat_expectant" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="finished">
+            <pose stage="9" img="#-finished.png" />
+            <pose stage="9" img="custom:#-_cat_finished" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="flirt">
+            <pose stage="0-9" img="#-flirt.png" />
+            <pose stage="7-9" img="custom:#-_cat_flirt" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="greed">
+            <pose stage="0-9" img="#-greed.png" />
+            <pose stage="7-9" img="custom:#-_cat_greed" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="grin">
+            <pose stage="0-9" img="#-grin.png" />
+            <pose stage="7-9" img="custom:#-_cat_grin" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="heavy-dual">
+            <pose stage="8" img="#-heavy-dual.png" />
+            <pose stage="8" img="custom:#-_cat_heavy-dual" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="heavy-focus">
+            <pose stage="8" img="#-heavy-focus.png" />
+            <pose stage="8" img="custom:#-_cat_heavy-focus" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="heavy-soft">
+            <pose stage="8" img="#-heavy-soft.png" />
+            <pose stage="8" img="custom:#-_cat_heavy-soft" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="hello">
+            <pose stage="0" img="#-hello.png" />
+        </set>
+        <set id="horny">
+            <pose stage="0-9" img="#-horny.png" />
+            <pose stage="7-9" img="custom:#-_cat_horny" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="hornythoughts">
+            <pose stage="0-9" img="#-hornythoughts.png" />
+            <pose stage="7-9" img="custom:#-_cat_hornythoughts" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="horrified">
+            <pose stage="0-9" img="#-horrified.png" />
+            <pose stage="7-9" img="custom:#-_cat_horrified" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="hyped">
+            <pose stage="0-9" img="#-hyped.png" />
+            <pose stage="7-9" img="custom:#-_cat_hyped" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="letsgo">
+            <pose stage="0-9" img="#-letsgo.png" />
+            <pose stage="7-9" img="custom:#-_cat_letsgo" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="mast-dual">
+            <pose stage="8" img="#-mast-dual.png" />
+            <pose stage="8" img="custom:#-_cat_mast-dual" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="mast-look">
+            <pose stage="8" img="#-mast-look.png" />
+            <pose stage="8" img="custom:#-_cat_mast-look" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="mast-single">
+            <pose stage="8" img="#-mast-single.png" />
+            <pose stage="8" img="custom:#-_cat_mast-single" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="mast-start">
+            <pose stage="7" img="#-mast-start.png" />
+            <pose stage="7" img="custom:#-_cat_mast-start" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="mast-tweak">
+            <pose stage="8" img="#-mast-tweak.png" />
+            <pose stage="8" img="custom:#-_cat_mast-tweak" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="mistaken">
+            <pose stage="0-9" img="#-mistaken.png" />
+            <pose stage="7-9" img="custom:#-_cat_mistaken" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="myself">
+            <pose stage="0-9" img="#-myself.png" />
+            <pose stage="7-9" img="custom:#-_cat_myself" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="_tr_horny_horrified">
+            <pose stage="9" img="custom:#-_tr_horny_horrified" />
+        </set>
+        <set id="offguard">
+            <pose stage="0-9" img="#-offguard.png" />
+            <pose stage="7-9" img="custom:#-_cat_offguard" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="playful">
+            <pose stage="0-9" img="#-playful.png" />
+            <pose stage="7-9" img="custom:#-_cat_playful" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="pleased">
+            <pose stage="0-9" img="#-pleased.png" />
+            <pose stage="7-9" img="custom:#-_cat_pleased" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="pride">
+            <pose stage="0-9" img="#-pride.png" />
+            <pose stage="7-9" img="custom:#-_cat_pride" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="rip-playful">
+            <pose stage="7" img="#-rip-playful.png" />
+        </set>
+        <set id="rip-shrug">
+            <pose stage="6-7" img="#-rip-shrug.png" />
+        </set>
+        <set id="sexypose">
+            <pose stage="3-7" img="#-sexypose.png" />
+            <pose stage="9" img="#-sexypose.png" />
+            <pose stage="7" img="custom:#-_cat_sexypose" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+            <pose stage="9" img="custom:#-_cat_sexypose" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="shrug">
+            <pose stage="0-9" img="#-shrug.png" />
+            <pose stage="7-9" img="custom:#-_cat_shrug" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="teasing">
+            <pose stage="0-9" img="#-teasing.png" />
+            <pose stage="7-9" img="custom:#-_cat_teasing" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="trolling">
+            <pose stage="0-9" img="#-trolling.png" />
+            <pose stage="7-9" img="custom:#-_cat_trolling" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+        <set id="unfixed-flirt">
+            <pose stage="9" img="#-flirt.png" />
+            <pose stage="9" img="custom:#-_cat_flirt" priority="100">
+                <tests>
+                    <test expr="~self.marker.Z_CatEars~" value="1" />
+                </tests>
+            </pose>
+        </set>
+    </pose-sets>
+</costume>

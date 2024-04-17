@@ -226,7 +226,7 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <label id="164" label="Give the ribbon" folder="Ribbon collectible" sort="0" />
         <label id="165" label="Am I giving the ribbon?" folder="Ribbon collectible" sort="0" />
         <label id="166" label="Triple Kyou(u)ko Kyou" folder="" sort="0" />
-        <label id="167" label="What does she do?" color="5" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="167" label="What does she do?" color="5" folder="Targets&gt;Mari Setogaya" sort="4" />
         <label id="168" label="Not a pervert" color="5" folder="Targets&gt;Nagatoro" sort="2" />
         <label id="169" label="Tank top - Pervy player (and Hayacchi)" color="5" folder="Targets&gt;Nagatoro" sort="11" />
         <label id="170" label="What to do with a cute, cool, and sexy drawing?" folder="Targets&gt;Nagatoro" sort="8" />
@@ -666,8 +666,8 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <label id="630" label="Self-exposition" folder="Sponsors&gt;Remillia" sort="0" />
         <label id="631" label="" folder="Sponsors&gt;Nicole&gt;Six-year gap" sort="2" />
         <label id="632" label="Six-year gap" folder="Sponsors&gt;Nicole" sort="0" />
-        <label id="633" label="" folder="Sponsors&gt;Lokkit&gt;Hand quality" sort="2" />
-        <label id="634" label="" folder="Sponsors&gt;Lokkit&gt;Hand quality" sort="0" />
+        <label id="633" label="" folder="Sponsors&gt;Lokkit&gt;Hand quality" sort="4" />
+        <label id="634" label="" folder="Sponsors&gt;Lokkit&gt;Hand quality" sort="6" />
         <label id="635" label="" folder="Sponsors&gt;Nicole&gt;Six-year gap" sort="4" />
         <label id="636" label="" folder="Sponsors&gt;Nicole&gt;Six-year gap" sort="6" />
         <label id="637" label="" folder="Targets&gt;Nadeshiko" sort="2" />
@@ -735,7 +735,7 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <label id="699" label="Rematch - Someone else won" folder="" sort="0" />
         <label id="700" label="" folder="Sponsors&gt;Tweetsie&gt;Sexy generics" sort="2" />
         <label id="701" label="All players 1HP" folder="Sponsors&gt;Tweetsie&gt;Sexy generics" sort="4" />
-        <label id="702" label="" folder="Sponsors&gt;Lokkit&gt;Hand quality" sort="3" />
+        <label id="702" label="" folder="Sponsors&gt;Lokkit&gt;Hand quality" sort="12" />
         <label id="703" label="Birthday" folder="Sexy Tomato" sort="0" />
         <label id="704" label="" folder="Costume&gt;Magenta Sweat" sort="5" />
         <label id="705" label="Sweater" folder="Costume&gt;Magenta Sweat" sort="2" />
@@ -787,9 +787,9 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <label id="755" label="" folder="Sponsors&gt;Tweetsie&gt;Sexy generics" sort="3" />
         <label id="756" label="" folder="Sponsors&gt;Tweetsie&gt;Sexy generics" sort="0" />
         <label id="757" label="" folder="Sponsors&gt;Tweetsie&gt;Sexy generics" sort="0" />
-        <label id="758" label="Average Hand" folder="Sponsors&gt;Spaceman" sort="2" />
-        <label id="759" label="" folder="Sponsors&gt;Lokkit&gt;Hand quality" sort="2" />
-        <label id="760" label="Bad Hand" folder="Spaceman" sort="0" />
+        <label id="758" label="" folder="Sponsors&gt;Spaceman&gt;Average Hand" sort="2" />
+        <label id="759" label="" folder="Sponsors&gt;Lokkit&gt;Hand quality" sort="8" />
+        <label id="760" label="Ace high" folder="Sponsors&gt;Spaceman&gt;Bad Hand" sort="0" />
         <label id="744" label="" folder="Costume&gt;Magenta Sweat" sort="4" />
         <label id="745" label="" folder="Costume&gt;Magenta Sweat" sort="5" />
         <label id="761" label="Birthday" folder="Costume&gt;Magenta Sweat" sort="2" />
@@ -816,13 +816,116 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <label id="782" label="" folder="Targets&gt;Hot Spring Woman" sort="5" />
         <label id="783" label="" folder="Targets&gt;Hot Spring Woman" sort="6" />
         <label id="784" label="" folder="Targets&gt;Hot Spring Woman" sort="7" />
+        <label id="785" label="" folder="Sponsors&gt;Spaceman&gt;Female masturbating" sort="0" />
+        <label id="786" label="" folder="Sponsors&gt;Spaceman&gt;Female masturbating" sort="2" />
+        <label id="787" label="" folder="Sponsors&gt;Spaceman&gt;Female masturbating" sort="3" />
+        <label id="788" label="" folder="Sponsors&gt;Spaceman&gt;Female masturbating" sort="4" />
+        <label id="789" label="" folder="Sponsors&gt;Spaceman&gt;Male masturbating" sort="0" />
+        <label id="790" label="" folder="Targets&gt;Yumeko" sort="2" />
+        <label id="791" label="" folder="Targets&gt;Yumeko" sort="28" />
+        <label id="792" label="" folder="Sponsors&gt;Spaceman&gt;Bad Hand" sort="2" />
+        <label id="795" label="" folder="Sponsors&gt;Spaceman&gt;Average Hand" sort="2" />
+        <label id="796" label="" folder="Targets&gt;Mari Setogaya" sort="27" />
+        <label id="797" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="798" label="" folder="Targets&gt;Mari Setogaya" sort="31" />
+        <label id="799" label="" folder="Targets&gt;Mari Setogaya" sort="35" />
+        <label id="800" label="" folder="Targets&gt;Mari Setogaya" sort="36" />
+        <label id="801" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="802" label="" folder="Targets&gt;Mari Setogaya" sort="8" />
+        <label id="803" label="" folder="Targets&gt;Mari Setogaya" sort="14" />
+        <label id="804" label="" folder="Targets&gt;Mari Setogaya" sort="24" />
+        <label id="805" label="" folder="Targets&gt;Mari Setogaya" sort="2" />
+        <label id="806" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="807" label="" folder="Targets&gt;Mari Setogaya" sort="28" />
+        <label id="808" label="" folder="Targets&gt;Mari Setogaya" sort="32" />
+        <label id="809" label="" folder="Targets&gt;Mari Setogaya" sort="37" />
+        <label id="810" label="" folder="Targets&gt;Mari Setogaya" sort="9" />
+        <label id="811" label="" folder="Targets&gt;Mari Setogaya" sort="15" />
+        <label id="812" label="" folder="Targets&gt;Mari Setogaya" sort="25" />
+        <label id="813" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="814" label="" folder="Targets&gt;Mari Setogaya" sort="3" />
+        <label id="815" label="" folder="Sponsors&gt;Spaceman&gt;Male Masturbating" sort="0" />
+        <label id="816" label="" folder="Sponsors&gt;Spaceman&gt;Male Masturbating" sort="2" />
+        <label id="817" label="" folder="Sponsors&gt;Spaceman&gt;Male Masturbating" sort="0" />
+        <label id="818" label="" folder="Sponsors&gt;Spaceman&gt;Female removing accessory" sort="0" />
+        <label id="819" label="" folder="Sponsors&gt;Spaceman&gt;Female removed accessory" sort="0" />
+        <label id="820" label="" folder="Sponsors&gt;Spaceman&gt;Male Masturbating" sort="3" />
+        <label id="835" label="Fallback" folder="" sort="0" />
+        <label id="834" label="Fallback" folder="" sort="0" />
+        <label id="836" label="" folder="Sponsors&gt;Spaceman&gt;Female removed major" sort="2" />
+        <label id="837" label="" folder="Sponsors&gt;Spaceman&gt;Female removed major" sort="3" />
+        <label id="838" label="" folder="Sponsors&gt;Spaceman&gt;Female removed major" sort="4" />
+        <label id="839" label="" folder="Sponsors&gt;Spaceman&gt;Female removed major" sort="5" />
+        <label id="840" label="" folder="Sponsors&gt;Spaceman&gt;Male removed major" sort="2" />
+        <label id="841" label="" folder="Sponsors&gt;Spaceman&gt;Male removed major" sort="3" />
+        <label id="842" label="" folder="Sponsors&gt;Spaceman&gt;Male removed major" sort="4" />
+        <label id="843" label="" folder="Sponsors&gt;Spaceman&gt;Male removed major" sort="5" />
+        <label id="844" label="" folder="Sponsors&gt;Lokkit&gt;Hand quality" sort="2" />
+        <label id="845" label="" folder="Sponsors&gt;Lokkit&gt;Hand quality" sort="10" />
+        <label id="846" label="" folder="Targets&gt;Yumeko" sort="0" />
+        <label id="847" label="" folder="Targets&gt;Yumeko" sort="0" />
+        <label id="848" label="" folder="Targets&gt;Yumeko" sort="0" />
+        <label id="849" label="" folder="Sponsors&gt;Spaceman&gt;Average Hand" sort="0" />
+        <label id="850" label="" folder="Sponsors&gt;Lokkit&gt;Hand quality" sort="0" />
+        <label id="851" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="852" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="853" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="854" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="855" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="856" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="857" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="858" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="859" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="860" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="861" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="862" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="863" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="864" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="865" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="866" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="867" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="868" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="869" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="870" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="871" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="872" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="873" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="874" label="" folder="Targets&gt;Yumeko" sort="0" />
+        <label id="875" label="" folder="Targets&gt;Yumeko" sort="0" />
+        <label id="876" label="" folder="Targets&gt;Yumeko" sort="0" />
+        <label id="877" label="" folder="Targets&gt;Yumeko" sort="0" />
+        <label id="878" label="" folder="Targets&gt;Yumeko" sort="0" />
+        <label id="879" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="880" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="881" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="882" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="883" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="884" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="885" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="886" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="629" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="547" label="" folder="Targets&gt;Téa Gardner" sort="0" />
+        <label id="887" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="888" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="889" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="890" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="891" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="892" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="893" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="894" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="895" label="Fix her hair" folder="" sort="0" />
+        <label id="896" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="897" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="898" label="" folder="Sponsors&gt;Spaceman&gt;Female removed accessory" sort="0" />
+        <label id="899" label="" folder="Sponsors&gt;Spaceman&gt;Female removed accessory" sort="0" />
+        <label id="900" label="" folder="Sponsors&gt;Spaceman&gt;Male removed accessory" sort="0" />
     </labels>
     <prefixes>
         <prefix>custom:#-_</prefix>
         <prefix>custom:_</prefix>
     </prefixes>
     <onlyCustomPoses>true</onlyCustomPoses>
-    <nextId>784</nextId>
+    <nextId>900</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Private" name="B_">Background-related markers</marker>
@@ -831,12 +934,15 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <marker scope="Public" name="B_Inventory_PokerVibes">Inventory background</marker>
         <marker scope="Public" name="B_School_OldUniform">School related backgrounds</marker>
         <marker scope="Private" name="D_">Random "sometimes" dialogue</marker>
+        <marker scope="Public" name="D_50-50" />
+        <marker scope="Public" name="D_7Card" />
         <marker scope="Public" name="D_AmbiguousLoser" />
         <marker scope="Public" name="D_AuraCamera" />
         <marker scope="Public" name="D_AuraCameraFollowUp" />
         <marker scope="Public" name="D_BadHandTrick">Kyouko will bluff on a good hand once per game.</marker>
         <marker scope="Public" name="D_Birthday">Her birthday is March 28</marker>
         <marker scope="Public" name="D_Birthday_NoCostumes">She's the only one wearing a costume to her party?</marker>
+        <marker scope="Public" name="D_Blackjack" />
         <marker scope="Public" name="D_BlowingHands" />
         <marker scope="Public" name="D_Boobies">Boobies? Boobies.</marker>
         <marker scope="Public" name="D_BraBeforeClothing" />
@@ -858,6 +964,7 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <marker scope="Public" name="D_LittleCardClub" />
         <marker scope="Public" name="D_NonFutaReveal" />
         <marker scope="Public" name="D_NoPanDisappointment" />
+        <marker scope="Public" name="D_PenisFeel" />
         <marker scope="Public" name="D_PlayerToplessFollow" />
         <marker scope="Public" name="D_PostgameBoobs">...Boobs.</marker>
         <marker scope="Public" name="D_PostgameHelp">Her "help" might be junk poker advice. Or something else.</marker>
@@ -911,10 +1018,7 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <marker scope="Public" name="F_SmashBros">The Smash characters at the table make her want to play it herself.</marker>
         <marker scope="Public" name="F_Swimsuit_NoSuit" />
         <marker scope="Public" name="FZ_pantyhose">Temporary marker indicating the target had pantyhose during their "stripping" phase</marker>
-        <marker scope="Public" name="giygas" />
-        <marker scope="Public" name="Nade_Kyouko_Camping2" />
-        <marker scope="Public" name="Nade_Kyouko_Thrilling" />
-        <marker scope="Public" name="opp" />
+        <marker scope="Public" name="Kyouko_SelfFreaky_reply" />
         <marker scope="Private" name="Q_">Question prompts</marker>
         <marker scope="Public" name="Q_HighTension">"High Tension" rules to... make the game more intense?</marker>
         <marker scope="Public" name="Q_LateGameSnacks" />
@@ -1013,9 +1117,11 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <marker scope="Public" name="T_Nadeshiko_ClubTogether" />
         <marker scope="Public" name="T_Nadeshiko_EatingContest" />
         <marker scope="Public" name="T_Nadeshiko_Excited" />
+        <marker scope="Public" name="T_Nadeshiko_Friends" />
         <marker scope="Public" name="T_Nadeshiko_Gathering" />
         <marker scope="Public" name="T_Nadeshiko_GettingStarted" />
         <marker scope="Public" name="T_Nadeshiko_GoodFood" />
+        <marker scope="Public" name="T_Nadeshiko_GoodHeart" />
         <marker scope="Public" name="T_Nadeshiko_GoodMeal" />
         <marker scope="Public" name="T_Nadeshiko_Hungry" />
         <marker scope="Public" name="T_Nadeshiko_KMustMasturbate" />
@@ -1023,6 +1129,8 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <marker scope="Public" name="T_Nadeshiko_LateNightFeast" />
         <marker scope="Public" name="T_Nadeshiko_Layers" />
         <marker scope="Public" name="T_Nadeshiko_MainCourse" />
+        <marker scope="Public" name="T_Nadeshiko_Mangaka" />
+        <marker scope="Public" name="T_Nadeshiko_NewFriends" />
         <marker scope="Public" name="T_Nadeshiko_NMustMasturbate" />
         <marker scope="Public" name="T_Nadeshiko_NotPicky" />
         <marker scope="Public" name="T_Nadeshiko_NStartMasturbating" />
@@ -1031,9 +1139,11 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <marker scope="Public" name="T_Nadeshiko_OutfitTalkB" />
         <marker scope="Public" name="T_Nadeshiko_PantiesRemoval" />
         <marker scope="Public" name="T_Nadeshiko_Ramen" />
+        <marker scope="Public" name="T_Nadeshiko_ReadTogether" />
         <marker scope="Public" name="T_Nadeshiko_RegularDiner" />
         <marker scope="Public" name="T_Nadeshiko_RibbonTrick" />
         <marker scope="Public" name="T_Nadeshiko_Saucy" />
+        <marker scope="Public" name="T_Nadeshiko_SaucyManga" />
         <marker scope="Public" name="T_Nadeshiko_Serving" />
         <marker scope="Public" name="T_Nadeshiko_SexyWoodsTagAlong" />
         <marker scope="Public" name="T_Nadeshiko_Soft" />
@@ -1090,8 +1200,45 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <marker scope="Public" name="T_SannyTess_CockA">Sanny/Tess Stripping 2</marker>
         <marker scope="Public" name="T_SannyTess_CockB">Sanny/Tess Stripped 3</marker>
         <marker scope="Public" name="T_SannyTess_Gimmick">Sanny/Tess Must Strip 2</marker>
+        <marker scope="Public" name="T_Setogaya_1stTime" />
+        <marker scope="Public" name="T_Setogaya_Appetizer" />
+        <marker scope="Public" name="T_Setogaya_AssistedStripPoker" />
+        <marker scope="Public" name="T_Setogaya_BangingGuys" />
+        <marker scope="Public" name="T_Setogaya_BeyondStripping" />
+        <marker scope="Public" name="T_Setogaya_BornReady" />
+        <marker scope="Public" name="T_Setogaya_ButtVsHands" />
+        <marker scope="Public" name="T_Setogaya_Charming" />
+        <marker scope="Public" name="T_Setogaya_CuteUndies" />
+        <marker scope="Public" name="T_Setogaya_Disturbing" />
+        <marker scope="Public" name="T_Setogaya_Eating" />
         <marker scope="Public" name="T_Setogaya_ExcitedA" />
         <marker scope="Public" name="T_Setogaya_ExcitedB" />
+        <marker scope="Public" name="T_Setogaya_FavoriteBodyPart" />
+        <marker scope="Public" name="T_Setogaya_FindSomeone" />
+        <marker scope="Public" name="T_Setogaya_FlashyPoker" />
+        <marker scope="Public" name="T_Setogaya_Freaky" />
+        <marker scope="Public" name="T_Setogaya_Friends" />
+        <marker scope="Public" name="T_Setogaya_KillTime" />
+        <marker scope="Public" name="T_Setogaya_KMustMast" />
+        <marker scope="Public" name="T_Setogaya_KMustMastRibbon" />
+        <marker scope="Public" name="T_Setogaya_LewderPokerGospel" />
+        <marker scope="Public" name="T_Setogaya_LewdyPokerPitch" />
+        <marker scope="Public" name="T_Setogaya_LooksGood" />
+        <marker scope="Public" name="T_Setogaya_LosingMind" />
+        <marker scope="Public" name="T_Setogaya_MangaReader" />
+        <marker scope="Public" name="T_Setogaya_MindRead" />
+        <marker scope="Public" name="T_Setogaya_MMustMast" />
+        <marker scope="Public" name="T_Setogaya_MStartMast" />
+        <marker scope="Public" name="T_Setogaya_NiceBody" />
+        <marker scope="Public" name="T_Setogaya_NoFriends" />
+        <marker scope="Public" name="T_Setogaya_NoGuess" />
+        <marker scope="Public" name="T_Setogaya_NoSuccubusPowers" />
+        <marker scope="Public" name="T_Setogaya_Numbers" />
+        <marker scope="Public" name="T_Setogaya_PreRibbon" />
+        <marker scope="Public" name="T_Setogaya_RibbonRemoval" />
+        <marker scope="Public" name="T_Setogaya_RibbonTrick" />
+        <marker scope="Public" name="T_Setogaya_SexyUndies" />
+        <marker scope="Public" name="T_Setogaya_StartMast" />
         <marker scope="Public" name="T_Setogaya_Strip0Activities">Self Must Strip 0</marker>
         <marker scope="Public" name="T_Setogaya_Strip1Activities">Self Stripping 1</marker>
         <marker scope="Public" name="T_Setogaya_Strip1Akari">Self Stripped 2</marker>
@@ -1109,6 +1256,10 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <marker scope="Public" name="T_Setogaya_Strip2Stripping">Self Stripped 3</marker>
         <marker scope="Public" name="T_Setogaya_TogetherA" />
         <marker scope="Public" name="T_Setogaya_TogetherB" />
+        <marker scope="Public" name="T_Setogaya_WhatDo" />
+        <marker scope="Public" name="T_Setogaya_WhatWings" />
+        <marker scope="Public" name="T_Setogaya_Wings" />
+        <marker scope="Public" name="T_Setogaya_WingSensitivity" />
         <marker scope="Public" name="T_Shamiko_BadGuy" />
         <marker scope="Public" name="T_Shamiko_Demon" />
         <marker scope="Public" name="T_SolarFlare_TomatoPlant" />
@@ -1135,18 +1286,21 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <marker scope="Public" name="T_Yumeko_CoolOff" />
         <marker scope="Public" name="T_Yumeko_Distracted" />
         <marker scope="Public" name="T_Yumeko_EarsNow" />
+        <marker scope="Public" name="T_Yumeko_EarsNow_Alt" />
         <marker scope="Public" name="T_Yumeko_Embrace" />
         <marker scope="Public" name="T_Yumeko_ExposureRevealed" />
         <marker scope="Public" name="T_Yumeko_FavoritePenalty" />
         <marker scope="Public" name="T_Yumeko_FriendGroups" />
         <marker scope="Public" name="T_Yumeko_Gambler" />
         <marker scope="Public" name="T_Yumeko_GambleWith" />
+        <marker scope="Public" name="T_Yumeko_HaveFun" />
         <marker scope="Public" name="T_Yumeko_HowThrilling" />
         <marker scope="Public" name="T_Yumeko_HTRPS" />
         <marker scope="Public" name="T_Yumeko_IntenseBets" />
         <marker scope="Public" name="T_Yumeko_InventoryQuest" />
         <marker scope="Public" name="T_Yumeko_KittyRibbon" />
         <marker scope="Public" name="T_Yumeko_KyoukoLoses" />
+        <marker scope="Public" name="T_Yumeko_MidGameBet" />
         <marker scope="Public" name="T_Yumeko_Out" />
         <marker scope="Public" name="T_Yumeko_PartyCards" />
         <marker scope="Public" name="T_Yumeko_PassA" />
@@ -1171,6 +1325,7 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <marker scope="Public" name="T_Yumeko_StrippingEz" />
         <marker scope="Public" name="T_Yumeko_TowerOfDoors" />
         <marker scope="Public" name="T_Yumeko_Uncertain" />
+        <marker scope="Public" name="T_Yumeko_Unpredictable" />
         <marker scope="Public" name="T_Yumeko_Variety" />
         <marker scope="Public" name="T_Yumeko_Winner" />
         <marker scope="Public" name="T_Yuna_Strip0Unifrom">Self Must strip 0</marker>
@@ -1188,9 +1343,8 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <marker scope="Private" name="Z_Finished">Sets up the global case where Kyouko fixes her hair.</marker>
         <marker scope="Private" name="Z_GamesPlayed">Count the games Kyouko's played (to completion) with you</marker>
         <marker scope="Public" name="Z_JustDidSexyPose" />
-        <marker scope="Public" name="Z_LastGameDate" />
-        <marker scope="Public" name="Z_LastGameDate==~month.number~_~day.number~" />
-        <marker scope="Public" name="Z_LastGameWinner" />
+        <marker scope="Private" name="Z_LastGameDate" />
+        <marker scope="Private" name="Z_LastGameWinner" />
         <marker scope="Public" name="Z_PlayerHasSeenRibbonTrick">Kyouko has taken her ribbon off in her default outfit at some point.</marker>
         <marker scope="Public" name="Z_PlayerWearingRibbon">The player wore the Kyouko's Ribbon collectible to the game</marker>
         <marker scope="Private" name="Z_PlayerWornRibbon">The player has worn the Kyouko's Ribbon collectible in the past.</marker>

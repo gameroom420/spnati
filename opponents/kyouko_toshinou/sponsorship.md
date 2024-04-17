@@ -1,6 +1,6 @@
 # Sponsorship reqs
 
-[ ] Remillia
+[X] Remillia
 [ ] L0kkit
 [ ] Spaceman
 [ ] Tweetsie
@@ -9,7 +9,7 @@
 ## Remillia
 
 - [X] Raise generic count to 1000 (Total - (Targets + Filters))
-- [ ] Raise her total targeted lines to 300 (273/300)
+- [X] Raise her total targeted lines to 300
 - [X] Raise her total filter amount to 75
 
 - [X] Add 10 more lines showing Kyouko's perverted/overactive imagination, in any case
@@ -23,7 +23,7 @@
 ## L0kkit
 
 - [X] Add at least 30 targeted lines
-- [ ] Add at least 30 hand quality lines (5/30)
+- [ ] Add at least 30 hand quality lines (8/30)
 - (S) Show her candid side more
 
 ## Ace
@@ -38,18 +38,19 @@
 
 - Five lines each for:
   - [ ] Removing accessory (male)
-  - [ ] Removing accessory (female)
-  - [ ] Removed accessory (male)
-  - [ ] Removed accessory (female)
-  - [ ] Average hand (1/5)
-  - [ ] Bad hand (1/5)
-  - [ ] Removed major (male) (1/5)
-  - [ ] Removed major (female) (1/5)
-  - [ ] Masturbating (male)
-  - [ ] Masturbating (female)
-- [ ] 25 outgoing targets (12/25)
+  - [ ] Removing accessory (female) (1/5)
+  - [ ] Removed accessory (male) (1/5)
+  - [ ] Removed accessory (female) (3/5)
+  - [X] Average hand
+  - [X] Bad hand
+  - [X] Removed major (male)
+  - [X] Removed major (female)
+  - [X] Masturbating (male)
+  - [X] Masturbating (female)
+- [ ] 25 outgoing targets (17/25)
   - Yumeko 1-2, 2-3, 3-4, 4-5, 5-6
   - Nadeshiko 1-2, 2-3, 3-4, 4-5, 5-6, 6-7, 7-8
+  - Mari Setogaya 1-2, 2-3, 3-4, 4-5, 5-6
 - [X] 20 filters
 - (S) Tweak face a little - try reduced head size
 - (S) Casual alt
