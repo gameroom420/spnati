@@ -127,7 +127,7 @@
         <label id="79" label="Solar Flare 1.1" folder="Targets" sort="35" />
         <label id="80" label="Solar Flare 1.1" folder="Targets" sort="36" />
         <label id="81" label="Mitama 4" folder="Targets" sort="26" />
-        <label id="82" label="Aaravi 1" folder="Targets" sort="9" />
+        <label id="82" label="Aaravi 2" folder="Targets" sort="9" />
         <label id="83" label="Aaravi 1" folder="Targets" sort="10" />
         <label id="84" label="Aaravi 1" folder="Targets" sort="45" />
         <label id="85" label="Aqua 2.1" folder="Targets" sort="37" />
@@ -148,7 +148,7 @@
         <label id="100" label="Aloy 1" folder="Targets" sort="27" />
         <label id="101" label="Aqua 1.1" folder="Targets" sort="52" />
         <label id="102" label="Miku 1.2" folder="Targets" sort="64" />
-        <label id="103" label="Miku1.1" folder="Targets" sort="59" />
+        <label id="103" label="Miku 1.1" folder="Targets" sort="59" />
         <label id="104" label="Cheryl 2" folder="Targets" sort="12" />
         <label id="105" label="Cheryl 1.1" folder="Targets" sort="29" />
         <label id="106" label="Cheryl 3" folder="Targets" sort="13" />
@@ -323,7 +323,7 @@
         <label id="265" label="Chara 1" folder="Targets" sort="0" />
         <label id="282" label="Dwight 1" folder="Targets" sort="0" />
         <label id="254" label="Elphaba 1" folder="Targets" sort="0" />
-        <label id="279" label="Marinette 1" folder="Targets" sort="0" />
+        <label id="279" label="Ladybug 1" folder="Targets" sort="0" />
         <label id="261" label="Nagamimi 1" folder="Targets" sort="0" />
         <label id="275" label="Polly 1" folder="Targets" sort="0" />
         <label id="278" label="Wasp 1" folder="Targets" sort="0" />
@@ -492,17 +492,46 @@
         <label id="459" label="Aqua KS 1.2" folder="Targets" sort="0" />
         <label id="460" label="Aqua KS 2" folder="Targets" sort="0" />
         <label id="461" label="Aqua KS 3" folder="Targets" sort="0" />
+        <label id="462" label="Aaravi 1.2" folder="Targets" sort="0" />
+        <label id="463" label="Aaravi 2" folder="Targets" sort="0" />
+        <label id="464" label="Aaravi 3" folder="Targets" sort="0" />
+        <label id="465" label="Aaravi 4" folder="Targets" sort="0" />
+        <label id="466" label="Aaravi 5" folder="Targets" sort="0" />
+        <label id="467" label="Aaravi 6" folder="Targets" sort="0" />
+        <label id="468" label="Aaravi 7" folder="Targets" sort="0" />
+        <label id="469" label="Aaravi 1.2" folder="Targets" sort="0" />
+        <label id="470" label="Aaravi 2.2" folder="Targets" sort="0" />
+        <label id="471" label="Aaravi 3" folder="Targets" sort="0" />
+        <label id="472" label="Aqua KS 3.1" folder="Targets" sort="0" />
+        <label id="473" label="Aqua KS 2.1" folder="Targets" sort="0" />
+        <label id="474" label="Aqua KS 3.1" folder="Targets" sort="0" />
+        <label id="475" label="Ladybug 1.1" folder="Targets" sort="0" />
+        <label id="476" label="Ladybug 2.1" folder="Targets" sort="0" />
+        <label id="477" label="Ladybug 1.2" folder="Targets" sort="0" />
+        <label id="478" label="Ladybug 3.1" folder="Targets" sort="0" />
+        <label id="479" label="Ladybug 1.1" folder="Targets" sort="0" />
+        <label id="480" label="Maria 1.1" folder="Targets" sort="0" />
+        <label id="481" label="Mitama 1.1" folder="Targets" sort="0" />
     </labels>
-    <nextId>461</nextId>
+    <nextId>481</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="9s_queenie_1" />
         <marker scope="Public" name="aaravi_cards" />
         <marker scope="Public" name="aaravi_cards_2a" />
+        <marker scope="Public" name="aaravi_cards_2b" />
         <marker scope="Public" name="aaravi_nature_1" />
         <marker scope="Public" name="aaravi_nature_1a" />
+        <marker scope="Public" name="aaravi_nature_1b" />
         <marker scope="Public" name="aaravi_queenie_1" />
         <marker scope="Public" name="aaravi_queenie_1a" />
+        <marker scope="Public" name="aaravi_queenie_1b" />
+        <marker scope="Public" name="aaravi_queenie_2" />
+        <marker scope="Public" name="aaravi_queenie_3" />
+        <marker scope="Public" name="aaravi_queenie_4" />
+        <marker scope="Public" name="aaravi_queenie_5" />
+        <marker scope="Public" name="aaravi_queenie_6" />
+        <marker scope="Public" name="aaravi_queenie_7" />
         <marker scope="Public" name="adrien" />
         <marker scope="Public" name="adrien_queenie_burn" />
         <marker scope="Public" name="anatoly_queenie_1" />
@@ -513,7 +542,9 @@
         <marker scope="Public" name="aquaks_queenie_1a" />
         <marker scope="Public" name="aquaks_queenie_1b" />
         <marker scope="Public" name="aquaks_queenie_2" />
+        <marker scope="Public" name="aquaks_queenie_2a" />
         <marker scope="Public" name="aquaks_queenie_3" />
+        <marker scope="Public" name="aquaks_queenie_3a" />
         <marker scope="Public" name="arle_queenie_1" />
         <marker scope="Public" name="arle_queenie_1a" />
         <marker scope="Public" name="arle_queenie_2" />
@@ -558,7 +589,9 @@
         <marker scope="Public" name="magic_stripping" />
         <marker scope="Public" name="magma_queenie_ocean" />
         <marker scope="Public" name="maria_queenie_1" />
+        <marker scope="Public" name="maria_queenie_1a" />
         <marker scope="Public" name="marinette_queenie_1" />
+        <marker scope="Public" name="marinette_queenie_1a" />
         <marker scope="Public" name="marinette_transform" />
         <marker scope="Public" name="miko_queenie_1" />
         <marker scope="Public" name="miko_queenie_1a" />
@@ -581,6 +614,7 @@
         <marker scope="Public" name="polly_queenie_unfade" />
         <marker scope="Public" name="poor_justice" />
         <marker scope="Public" name="queen_intro">Here comes the magical girl!</marker>
+        <marker scope="Public" name="queenie_aaravi_3" />
         <marker scope="Public" name="queenie_aloy_1" />
         <marker scope="Public" name="queenie_aqua" />
         <marker scope="Public" name="queenie_aqua_2" />
@@ -621,8 +655,12 @@
         <marker scope="Public" name="queenie_kyouko_1" />
         <marker scope="Public" name="queenie_kyouko_1a" />
         <marker scope="Public" name="queenie_marinette_1" />
+        <marker scope="Public" name="queenie_marinette_1a" />
+        <marker scope="Public" name="queenie_marinette_1b" />
         <marker scope="Public" name="queenie_marinette_2" />
+        <marker scope="Public" name="queenie_marinette_2a" />
         <marker scope="Public" name="queenie_marinette_3" />
+        <marker scope="Public" name="queenie_marinette_3a" />
         <marker scope="Public" name="queenie_meia_1" />
         <marker scope="Public" name="queenie_mia_1" />
         <marker scope="Public" name="queenie_mia_1a" />
@@ -642,6 +680,7 @@
         <marker scope="Public" name="queenie_mia_6" />
         <marker scope="Public" name="queenie_mia_6a" />
         <marker scope="Public" name="queenie_mitama_1" />
+        <marker scope="Public" name="queenie_mitama_1a" />
         <marker scope="Public" name="queenie_mitama_4" />
         <marker scope="Public" name="queenie_nadeshiko_1" />
         <marker scope="Public" name="queenie_nagatoro_1" />
