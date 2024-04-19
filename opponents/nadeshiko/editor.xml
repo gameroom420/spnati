@@ -449,8 +449,61 @@
         <label id="402" label="" folder="Kyouko (Stripping)" sort="14" />
         <label id="54" label="" folder="Kyouko (Stripped)" sort="14" />
         <label id="403" label="" folder="Kyouko (Stripped)" sort="0" />
+        <label id="404" label="" folder="Must Strip (Nephenee)" sort="0" />
+        <label id="405" label="" folder="Nephenee (Stripping)" sort="0" />
+        <label id="406" label="" folder="Nephenee (Stripped)" sort="0" />
+        <label id="407" label="" folder="Must Strip (Nephenee)" sort="0" />
+        <label id="408" label="" folder="Must Strip (Nephenee)" sort="0" />
+        <label id="409" label="" folder="Must Strip (Nephenee)" sort="0" />
+        <label id="410" label="" folder="Must Strip (Nephenee)" sort="0" />
+        <label id="411" label="" folder="Must Strip (Nephenee)" sort="0" />
+        <label id="412" label="" folder="Nephenee (Stripping)" sort="0" />
+        <label id="413" label="" folder="Must Strip (Nephenee)" sort="0" />
+        <label id="414" label="" folder="Nephenee (Stripping)" sort="0" />
+        <label id="415" label="" folder="Nephenee (Stripping)" sort="0" />
+        <label id="416" label="" folder="Nephenee (Stripping)" sort="0" />
+        <label id="417" label="" folder="Nephenee (Stripping)" sort="0" />
+        <label id="418" label="" folder="Nephenee (Stripping)" sort="0" />
+        <label id="419" label="" folder="Nephenee (Stripping)" sort="0" />
+        <label id="420" label="" folder="Nephenee (Stripped)" sort="0" />
+        <label id="421" label="" folder="Nephenee (Stripped)" sort="0" />
+        <label id="422" label="" folder="Nephenee (Stripped)" sort="0" />
+        <label id="423" label="" folder="Nephenee (Stripped)" sort="0" />
+        <label id="424" label="" folder="Nephenee (Stripped)" sort="0" />
+        <label id="425" label="" folder="Nephenee (Stripped)" sort="0" />
+        <label id="426" label="" folder="Nadeshiko (Must Strip)" sort="0" />
+        <label id="427" label="" folder="Nadeshiko (Must Strip)" sort="0" />
+        <label id="428" label="" folder="Nadeshiko (Must Strip)" sort="0" />
+        <label id="429" label="" folder="Nadeshiko (Stripping)" sort="0" />
+        <label id="430" label="" folder="Nadeshiko (Stripping)" sort="0" />
+        <label id="431" label="" folder="Nadeshiko (Must Strip)" sort="0" />
+        <label id="432" label="" folder="Nadeshiko (Stripping)" sort="0" />
+        <label id="433" label="" folder="Nadeshiko (Stripped)" sort="0" />
+        <label id="434" label="" folder="Nadeshiko (Stripped)" sort="0" />
+        <label id="435" label="" folder="Nadeshiko (Stripped)" sort="0" />
+        <label id="436" label="" folder="Nadeshiko (Must Strip)" sort="0" />
+        <label id="437" label="" folder="Nadeshiko (Stripping)" sort="0" />
+        <label id="438" label="" folder="Nadeshiko (Stripped)" sort="0" />
+        <label id="439" label="" folder="Nadeshiko (Must Strip)" sort="0" />
+        <label id="440" label="" folder="Nadeshiko (Stripping)" sort="0" />
+        <label id="441" label="" folder="Nadeshiko (Stripped)" sort="0" />
+        <label id="442" label="" folder="Nadeshiko (Must Strip)" sort="0" />
+        <label id="443" label="" folder="Nadeshiko (Stripping)" sort="0" />
+        <label id="444" label="" folder="Nadeshiko (Stripped)" sort="0" />
+        <label id="445" label="" folder="Nadeshiko (Must Strip)" sort="0" />
+        <label id="446" label="" folder="Nadeshiko (Stripping)" sort="0" />
+        <label id="447" label="" folder="Nadeshiko (Stripped)" sort="0" />
+        <label id="448" label="" folder="Nadeshiko (Must Strip)" sort="0" />
+        <label id="449" label="" folder="Nadeshiko (Stripping)" sort="0" />
+        <label id="450" label="" folder="Nadeshiko (Stripped)" sort="0" />
+        <label id="451" label="" folder="Kyouko (Must Strip)" sort="0" />
+        <label id="452" label="" folder="Kyouko (Must Strip)" sort="0" />
+        <label id="453" label="" folder="Kyouko (Stripping)" sort="0" />
+        <label id="454" label="" folder="Kyouko (Stripping)" sort="0" />
+        <label id="455" label="" folder="Kyouko (Stripped)" sort="0" />
+        <label id="456" label="" folder="Kyouko (Stripped)" sort="0" />
     </labels>
-    <nextId>403</nextId>
+    <nextId>456</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="9S_Nade_1-1" />
@@ -495,6 +548,7 @@
         <marker scope="Public" name="Chiaki_Ogaki">Tied to any line referring to Nadeshiko's friend Chiaki Ogaki</marker>
         <marker scope="Public" name="CupORamen" />
         <marker scope="Public" name="dakku_R" />
+        <marker scope="Public" name="Ema_Mizunami" />
         <marker scope="Public" name="Ena_Saito">Tied to any line referring to Nadeshiko's friend Ena Saito</marker>
         <marker scope="Public" name="EndOfGame" />
         <marker scope="Public" name="EnjoyThis" />
@@ -609,6 +663,7 @@
         <marker scope="Public" name="MamaShiko_MustStrip" />
         <marker scope="Public" name="mediumFemale">Used for any line tied to a female opponent with medium-sized breasts</marker>
         <marker scope="Public" name="mediumMale">Used for any line tied to a male opponent with a medium-sized penis</marker>
+        <marker scope="Public" name="Mei_Nakatsugawa" />
         <marker scope="Public" name="Mia_Nadeshiko_1-1" />
         <marker scope="Public" name="MikuNadeshikoA" />
         <marker scope="Public" name="MikuNadeshikoB" />
@@ -668,8 +723,12 @@
         <marker scope="Public" name="Nade_Kyouko_Friends3" />
         <marker scope="Public" name="Nade_Kyouko_FunintheWoods" />
         <marker scope="Public" name="Nade_Kyouko_GoingDown" />
+        <marker scope="Public" name="Nade_Kyouko_GoodHeart" />
         <marker scope="Public" name="Nade_Kyouko_JustTomato" />
         <marker scope="Public" name="Nade_Kyouko_LetsGo" />
+        <marker scope="Public" name="Nade_Kyouko_Mangaka1" />
+        <marker scope="Public" name="Nade_Kyouko_Mangaka2" />
+        <marker scope="Public" name="Nade_Kyouko_Mangaka3" />
         <marker scope="Public" name="Nade_Kyouko_MasturbateStart" />
         <marker scope="Public" name="Nade_Kyouko_MidnightFeast" />
         <marker scope="Public" name="Nade_Kyouko_MustMasturbate" />
@@ -700,6 +759,54 @@
         <marker scope="Public" name="Nade_Nagisa_Tips3" />
         <marker scope="Public" name="Nade_Nami_1-1" />
         <marker scope="Public" name="Nade_Nami_1-2" />
+        <marker scope="Public" name="Nade_Neph_Activities1" />
+        <marker scope="Public" name="Nade_Neph_Activities2" />
+        <marker scope="Public" name="Nade_Neph_Activities3" />
+        <marker scope="Public" name="Nade_Neph_CampCookin1" />
+        <marker scope="Public" name="Nade_Neph_CampCookin2" />
+        <marker scope="Public" name="Nade_Neph_CampCookin3" />
+        <marker scope="Public" name="Nade_Neph_Cold1" />
+        <marker scope="Public" name="Nade_Neph_Cold2" />
+        <marker scope="Public" name="Nade_Neph_Cold3" />
+        <marker scope="Public" name="Nade_Neph_Country1" />
+        <marker scope="Public" name="Nade_Neph_Country2" />
+        <marker scope="Public" name="Nade_Neph_Country3" />
+        <marker scope="Public" name="Nade_Neph_CountryGrammas1" />
+        <marker scope="Public" name="Nade_Neph_CountryGrammas2" />
+        <marker scope="Public" name="Nade_Neph_CountryGrammas3" />
+        <marker scope="Public" name="Nade_Neph_Crush1" />
+        <marker scope="Public" name="Nade_Neph_Crush2" />
+        <marker scope="Public" name="Nade_Neph_Crush3" />
+        <marker scope="Public" name="Nade_Neph_Fighting1" />
+        <marker scope="Public" name="Nade_Neph_Fighting2" />
+        <marker scope="Public" name="Nade_Neph_Fighting3" />
+        <marker scope="Public" name="Nade_Neph_FinalPiece1" />
+        <marker scope="Public" name="Nade_Neph_FinalPiece2" />
+        <marker scope="Public" name="Nade_Neph_FinalPiece3" />
+        <marker scope="Public" name="Nade_Neph_Helmet1" />
+        <marker scope="Public" name="Nade_Neph_Helmet2" />
+        <marker scope="Public" name="Nade_Neph_Helmet3" />
+        <marker scope="Public" name="Nade_Neph_Losing1" />
+        <marker scope="Public" name="Nade_Neph_Losing2" />
+        <marker scope="Public" name="Nade_Neph_Losing3" />
+        <marker scope="Public" name="Nade_Neph_NadeMustMast" />
+        <marker scope="Public" name="Nade_Neph_NadeStartMast" />
+        <marker scope="Public" name="Nade_Neph_Nature1" />
+        <marker scope="Public" name="Nade_Neph_Nature2" />
+        <marker scope="Public" name="Nade_Neph_NephMustMast" />
+        <marker scope="Public" name="Nade_Neph_NephStartMast" />
+        <marker scope="Public" name="Nade_Neph_Safety1" />
+        <marker scope="Public" name="Nade_Neph_Safety2" />
+        <marker scope="Public" name="Nade_Neph_Safety3" />
+        <marker scope="Public" name="Nade_Neph_Sorry1" />
+        <marker scope="Public" name="Nade_Neph_Sorry2" />
+        <marker scope="Public" name="Nade_Neph_Sorry3" />
+        <marker scope="Public" name="Nade_Neph_Sweet1" />
+        <marker scope="Public" name="Nade_Neph_Sweet2" />
+        <marker scope="Public" name="Nade_Neph_Sweet3" />
+        <marker scope="Public" name="Nade_Neph_TakeItOff1" />
+        <marker scope="Public" name="Nade_Neph_TakeItOff2" />
+        <marker scope="Public" name="Nade_Neph_TakeItOff3" />
         <marker scope="Public" name="Nade_NoHumans_R" />
         <marker scope="Public" name="Nade_Nonon_1-1" />
         <marker scope="Public" name="Nade_Nonon_2-1" />
