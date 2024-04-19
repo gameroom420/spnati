@@ -92,11 +92,18 @@
         <response id="310" opponent="rosa" opponentId="846" />
         <response id="318" opponent="rosa" opponentId="857" />
         <response id="319" opponent="ringo_ando" opponentId="1102" />
+        <response id="337" opponent="hot_spring_woman" opponentId="30" />
+        <response id="343" opponent="nephenee" opponentId="24" />
+        <response id="344" opponent="nephenee" opponentId="25" />
+        <response id="346" opponent="jura" opponentId="1593" />
+        <response id="349" opponent="jura" opponentId="1594" />
     </responses>
     <notes>
         <note id="193">Rose has left her slot to visit Magma Grunt's slot - MG is showing her a picture of her own backside</note>
         <note id="311">attempts to peddle to opponents that are not poor OR are not villains AND not creepy</note>
-        <note id="321">going with the logic that most people wouldnt have time/effort to spare on learning how to swim in a poor, barely even medieval setting&lt;br&gt;</note>
+        <note id="321">going with the logic that most people wouldnt have time/effort to spare on learning how to swim in a poor, barely even medieval setting
+</note>
+        <note id="349">This is my way of writing around the fact we just don't know rose's backstory in that much depth&lt;br&gt;</note>
     </notes>
     <labels>
         <label id="1" label="" folder="Conditional" sort="18" />
@@ -261,164 +268,192 @@
         <label id="164" label="" folder="Targets" sort="15" />
         <label id="165" label="" folder="Filtered Lines" sort="2" />
         <label id="166" label="" folder="Conditional" sort="29" />
-        <label id="167" label="" folder="Clothing" sort="0" />
-        <label id="168" label="" folder="Clothing" sort="0" />
-        <label id="170" label="self 0 - not said show_anima" folder="Response&gt;Meia" sort="0" />
+        <label id="167" label="" folder="Clothing" sort="7" />
+        <label id="168" label="" folder="Clothing" sort="4" />
+        <label id="170" label="self 0 - not said show_anima" folder="Response&gt;Meia" sort="2" />
         <label id="169" label="" folder="Response&gt;Meia" sort="0" />
         <label id="171" label="" folder="Response&gt;Revy" sort="0" />
         <label id="172" label="" folder="Response&gt;Jura" sort="0" />
-        <label id="173" label="" folder="Response&gt;Jura" sort="0" />
-        <label id="174" label="" folder="Conditional&gt;Everyone Out" sort="0" />
+        <label id="173" label="" folder="Response&gt;Jura" sort="2" />
+        <label id="174" label="" folder="Conditional&gt;Everyone Out" sort="2" />
         <label id="175" label="" folder="Conditional&gt;Everyone Out" sort="0" />
-        <label id="176" label="" folder="Conditional&gt;Everyone Out" sort="0" />
-        <label id="177" label="" folder="Conditional&gt;Everyone Out" sort="0" />
-        <label id="178" label="" folder="Conditional&gt;Everyone Out" sort="0" />
-        <label id="179" label="" folder="Conditional&gt;Everyone Out" sort="0" />
-        <label id="180" label="" folder="Filtered Lines" sort="0" />
-        <label id="181" label="" folder="Filtered Lines" sort="0" />
+        <label id="176" label="" folder="Conditional&gt;Everyone Out" sort="5" />
+        <label id="177" label="" folder="Conditional&gt;Everyone Out" sort="6" />
+        <label id="178" label="" folder="Conditional&gt;Everyone Out" sort="3" />
+        <label id="179" label="" folder="Conditional&gt;Everyone Out" sort="4" />
+        <label id="180" label="" folder="Filtered Lines" sort="17" />
+        <label id="181" label="" folder="Filtered Lines" sort="18" />
         <label id="182" label="Stand back up" folder="" sort="0" />
         <label id="183" label="" folder="Response&gt;Kirigiri" sort="0" />
-        <label id="184" label="" folder="Targets" sort="0" />
-        <label id="185" label="" folder="Targets" sort="0" />
-        <label id="186" label="" folder="Targets" sort="0" />
-        <label id="187" label="" folder="Targets" sort="0" />
-        <label id="188" label="" folder="Targets" sort="0" />
-        <label id="189" label="" folder="Targets" sort="0" />
-        <label id="190" label="" folder="Targets" sort="0" />
-        <label id="191" label="" folder="Conditional (+Anima)" sort="0" />
-        <label id="192" label="" folder="Response&gt;Magma Grunt" sort="0" />
+        <label id="184" label="" folder="Targets" sort="30" />
+        <label id="185" label="" folder="Targets" sort="33" />
+        <label id="186" label="" folder="Targets" sort="41" />
+        <label id="187" label="" folder="Targets" sort="24" />
+        <label id="188" label="" folder="Targets" sort="19" />
+        <label id="189" label="" folder="Targets" sort="20" />
+        <label id="190" label="" folder="Targets" sort="27" />
+        <label id="191" label="" folder="Conditional (+Anima)" sort="12" />
+        <label id="192" label="" folder="Response&gt;Magma Grunt" sort="4" />
         <label id="193" label="" folder="Response&gt;Magma Grunt" sort="0" />
-        <label id="194" label="" folder="Response&gt;Magma Grunt" sort="0" />
-        <label id="195" label="" folder="Response&gt;Magma Grunt" sort="0" />
-        <label id="196" label="" folder="Targets&gt;Magma Grunt" sort="0" />
+        <label id="194" label="" folder="Response&gt;Magma Grunt" sort="2" />
+        <label id="195" label="" folder="Response&gt;Magma Grunt" sort="3" />
+        <label id="196" label="" folder="Targets&gt;Magma Grunt" sort="3" />
         <label id="199" label="" folder="Targets&gt;Magma Grunt" sort="0" />
-        <label id="200" label="" folder="Targets&gt;Magma Grunt" sort="0" />
-        <label id="201" label="" folder="Targets&gt;Magma Grunt" sort="0" />
+        <label id="200" label="" folder="Targets&gt;Magma Grunt" sort="2" />
+        <label id="201" label="" folder="Targets&gt;Magma Grunt" sort="4" />
         <label id="202" label="" folder="Targets&gt;Sanako" sort="0" />
-        <label id="203" label="" folder="Response&gt;Kirigiri" sort="0" />
-        <label id="204" label="" folder="Response&gt;Kirigiri" sort="0" />
-        <label id="205" label="" folder="Targets" sort="0" />
-        <label id="206" label="" folder="Targets" sort="0" />
+        <label id="203" label="" folder="Response&gt;Kirigiri" sort="2" />
+        <label id="204" label="" folder="Response&gt;Kirigiri" sort="3" />
+        <label id="205" label="" folder="Targets" sort="6" />
+        <label id="206" label="" folder="Targets" sort="7" />
         <label id="207" label="" folder="Conditional&gt;Aura Camera" sort="0" />
-        <label id="208" label="" folder="Conditional&gt;Aura Camera" sort="0" />
-        <label id="209" label="" folder="Conditional" sort="0" />
-        <label id="210" label="" folder="Targets" sort="0" />
-        <label id="211" label="" folder="Targets" sort="0" />
-        <label id="212" label="" folder="Response&gt;Revy" sort="0" />
-        <label id="216" label="" folder="Response&gt;Jura" sort="0" />
-        <label id="217" label="" folder="Response&gt;Jura" sort="0" />
-        <label id="218" label="" folder="Targets" sort="0" />
-        <label id="219" label="" folder="Targets" sort="0" />
-        <label id="220" label="" folder="Targets" sort="0" />
-        <label id="221" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="222" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="223" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="224" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="225" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="226" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="227" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="228" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="229" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="230" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="231" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="232" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="233" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="234" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="235" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="236" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="237" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="238" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="239" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="240" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="241" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="242" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="243" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="244" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="245" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="246" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="247" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="248" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="208" label="" folder="Conditional&gt;Aura Camera" sort="2" />
+        <label id="209" label="" folder="Conditional" sort="13" />
+        <label id="210" label="" folder="Targets" sort="35" />
+        <label id="211" label="" folder="Targets" sort="36" />
+        <label id="212" label="" folder="Response&gt;Revy" sort="2" />
+        <label id="216" label="" folder="Response&gt;Jura" sort="4" />
+        <label id="217" label="" folder="Response&gt;Jura" sort="5" />
+        <label id="218" label="" folder="Targets" sort="9" />
+        <label id="219" label="" folder="Targets" sort="8" />
+        <label id="220" label="" folder="Targets" sort="29" />
+        <label id="221" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="11" />
+        <label id="222" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="19" />
+        <label id="223" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="26" />
+        <label id="224" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="12" />
+        <label id="225" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="13" />
+        <label id="226" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="14" />
+        <label id="227" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="15" />
+        <label id="228" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="10" />
+        <label id="229" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="16" />
+        <label id="230" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="20" />
+        <label id="231" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="21" />
+        <label id="232" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="22" />
+        <label id="233" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="23" />
+        <label id="234" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="17" />
+        <label id="235" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="24" />
+        <label id="236" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="27" />
+        <label id="237" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="28" />
+        <label id="238" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="29" />
+        <label id="239" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="30" />
+        <label id="240" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="31" />
+        <label id="241" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="32" />
+        <label id="242" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="18" />
+        <label id="243" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="33" />
+        <label id="244" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="25" />
+        <label id="245" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="34" />
+        <label id="246" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="35" />
+        <label id="247" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="36" />
+        <label id="248" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="37" />
         <label id="249" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
         <label id="250" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
-        <label id="251" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
-        <label id="252" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
-        <label id="253" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
-        <label id="254" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
-        <label id="255" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
-        <label id="256" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
-        <label id="257" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
-        <label id="258" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
-        <label id="259" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
-        <label id="260" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
-        <label id="261" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
+        <label id="251" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="5" />
+        <label id="252" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="6" />
+        <label id="253" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="7" />
+        <label id="254" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="8" />
+        <label id="255" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="12" />
+        <label id="256" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="2" />
+        <label id="257" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="13" />
+        <label id="258" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="14" />
+        <label id="259" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="15" />
+        <label id="260" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="16" />
+        <label id="261" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="3" />
         <label id="262" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="263" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="264" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="265" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="266" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="267" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
-        <label id="268" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
-        <label id="269" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="270" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
-        <label id="271" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
-        <label id="272" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="273" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
-        <label id="274" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
-        <label id="275" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
-        <label id="276" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="0" />
-        <label id="277" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
-        <label id="278" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
-        <label id="279" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="0" />
+        <label id="263" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="4" />
+        <label id="264" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="5" />
+        <label id="265" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="6" />
+        <label id="266" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="7" />
+        <label id="267" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="3" />
+        <label id="268" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="17" />
+        <label id="269" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="8" />
+        <label id="270" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="4" />
+        <label id="271" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="10" />
+        <label id="272" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="2" />
+        <label id="273" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="11" />
+        <label id="274" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="9" />
+        <label id="275" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="18" />
+        <label id="276" label="" folder="Aaravi&gt;Aaravi Strip Dialogue" sort="9" />
+        <label id="277" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="20" />
+        <label id="278" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="19" />
+        <label id="279" label="" folder="Aaravi&gt;Rose Strip Dialogue" sort="21" />
         <label id="280" label="" folder="Aaravi&gt;Situation Reactions" sort="0" />
-        <label id="281" label="" folder="Aaravi&gt;Situation Reactions" sort="0" />
+        <label id="281" label="" folder="Aaravi&gt;Situation Reactions" sort="2" />
         <label id="284" label="" folder="Targets&gt;Companions" sort="0" />
-        <label id="285" label="" folder="Targets&gt;Companions" sort="0" />
-        <label id="286" label="" folder="Targets&gt;Companions" sort="0" />
-        <label id="287" label="" folder="Targets" sort="0" />
-        <label id="282" label="" folder="Aaravi&gt;Situation Reactions" sort="0" />
-        <label id="283" label="" folder="Aaravi&gt;Situation Reactions" sort="0" />
+        <label id="285" label="" folder="Targets&gt;Companions" sort="2" />
+        <label id="286" label="" folder="Targets&gt;Companions" sort="3" />
+        <label id="287" label="" folder="Targets" sort="10" />
+        <label id="282" label="" folder="Aaravi&gt;Situation Reactions" sort="3" />
+        <label id="283" label="" folder="Aaravi&gt;Situation Reactions" sort="4" />
         <label id="288" label="" folder="Targets&gt;Jura" sort="0" />
-        <label id="289" label="" folder="Targets&gt;Jura" sort="0" />
-        <label id="290" label="" folder="Targets&gt;Companions" sort="0" />
+        <label id="289" label="" folder="Targets&gt;Jura" sort="2" />
+        <label id="290" label="" folder="Targets&gt;Companions" sort="4" />
         <label id="291" label="Collectible - Tiger Eye" folder="" sort="0" />
         <label id="292" label="" folder="Targets&gt;Rose" sort="0" />
-        <label id="215" label="" folder="Response&gt;Meia" sort="0" />
-        <label id="214" label="" folder="Response&gt;Jura" sort="0" />
+        <label id="215" label="" folder="Response&gt;Meia" sort="3" />
+        <label id="214" label="" folder="Response&gt;Jura" sort="3" />
         <label id="213" label="" folder="Response&gt;Meia" sort="0" />
-        <label id="293" label="" folder="Conditional" sort="0" />
-        <label id="294" label="" folder="Conditional" sort="0" />
+        <label id="293" label="" folder="Conditional" sort="14" />
+        <label id="294" label="" folder="Conditional" sort="31" />
         <label id="295" label="Collectible - Tiger Eye" folder="" sort="0" />
         <label id="296" label="" folder="Rosa" sort="0" />
-        <label id="297" label="" folder="Rosa" sort="0" />
-        <label id="299" label="" folder="Targets&gt;Rouge" sort="0" />
-        <label id="300" label="" folder="Targets&gt;Rouge" sort="0" />
+        <label id="297" label="" folder="Rosa" sort="4" />
+        <label id="299" label="" folder="Targets&gt;Rouge" sort="7" />
+        <label id="300" label="" folder="Targets&gt;Rouge" sort="5" />
         <label id="301" label="" folder="Targets&gt;Rouge" sort="0" />
-        <label id="302" label="" folder="Targets&gt;Rouge" sort="0" />
-        <label id="303" label="" folder="Targets&gt;Rouge" sort="0" />
-        <label id="304" label="" folder="Targets&gt;Rouge" sort="0" />
-        <label id="305" label="" folder="Targets&gt;Rouge" sort="0" />
-        <label id="298" label="" folder="Rosa" sort="0" />
-        <label id="306" label="" folder="Rosa" sort="0" />
-        <label id="307" label="" folder="Rosa" sort="0" />
-        <label id="309" label="" folder="Rosa" sort="0" />
-        <label id="308" label="" folder="Rosa" sort="0" />
-        <label id="310" label="" folder="Rosa" sort="0" />
-        <label id="311" label="" folder="Conditional" sort="0" />
-        <label id="312" label="" folder="Response" sort="0" />
-        <label id="313" label="" folder="Targets" sort="0" />
-        <label id="314" label="" folder="Targets" sort="0" />
-        <label id="315" label="" folder="Conditional" sort="0" />
-        <label id="316" label="" folder="Conditional" sort="0" />
-        <label id="317" label="" folder="Targets" sort="0" />
+        <label id="302" label="" folder="Targets&gt;Rouge" sort="2" />
+        <label id="303" label="" folder="Targets&gt;Rouge" sort="3" />
+        <label id="304" label="" folder="Targets&gt;Rouge" sort="6" />
+        <label id="305" label="" folder="Targets&gt;Rouge" sort="4" />
+        <label id="298" label="" folder="Rosa" sort="8" />
+        <label id="306" label="" folder="Rosa" sort="2" />
+        <label id="307" label="" folder="Rosa" sort="5" />
+        <label id="309" label="" folder="Rosa" sort="7" />
+        <label id="308" label="" folder="Rosa" sort="6" />
+        <label id="310" label="" folder="Rosa" sort="3" />
+        <label id="311" label="" folder="Conditional" sort="30" />
+        <label id="312" label="" folder="Response" sort="7" />
+        <label id="313" label="" folder="Targets" sort="37" />
+        <label id="314" label="" folder="Targets" sort="38" />
+        <label id="315" label="" folder="Conditional" sort="25" />
+        <label id="316" label="" folder="Conditional" sort="20" />
+        <label id="317" label="" folder="Targets" sort="22" />
         <label id="318" label="" folder="Rosa&gt;Lucario Girl" sort="0" />
-        <label id="319" label="" folder="Response" sort="0" />
+        <label id="319" label="" folder="Response" sort="8" />
         <label id="320" label="Stand back up (Ringo)" color="3" folder="" sort="0" />
-        <label id="321" label="" folder="Targets" sort="0" />
+        <label id="321" label="" folder="Targets" sort="42" />
+        <label id="322" label="" folder="Costume&gt;Summer" sort="0" />
+        <label id="323" label="" folder="Costume&gt;Summer" sort="0" />
+        <label id="324" label="" folder="Costume&gt;Summer" sort="0" />
+        <label id="325" label="" folder="Costume&gt;Summer" sort="0" />
+        <label id="326" label="" folder="Costume&gt;Summer" sort="0" />
+        <label id="327" label="" folder="Costume&gt;Summer" sort="0" />
+        <label id="328" label="" folder="Costume&gt;Summer" sort="0" />
+        <label id="329" label="" folder="Costume&gt;Summer" sort="0" />
+        <label id="330" label="" folder="Costume&gt;Summer" sort="0" />
+        <label id="331" label="" folder="Costume&gt;Summer" sort="0" />
+        <label id="332" label="" folder="Costume&gt;Summer" sort="0" />
+        <label id="333" label="" folder="Costume&gt;Summer" sort="0" />
+        <label id="334" label="" folder="Costume&gt;Summer" sort="0" />
+        <label id="335" label="" folder="Costume&gt;Summer" sort="0" />
+        <label id="336" label="" folder="Costume&gt;Summer" sort="0" />
+        <label id="337" label="" folder="Response" sort="0" />
+        <label id="338" label="" folder="Response" sort="0" />
+        <label id="339" label="" folder="Response" sort="0" />
+        <label id="340" label="" folder="Response" sort="0" />
+        <label id="341" label="" folder="Targets" sort="0" />
+        <label id="342" label="" folder="Targets" sort="0" />
+        <label id="343" label="" folder="Prompt Responses" sort="0" />
+        <label id="344" label="" folder="Prompt Responses" sort="0" />
+        <label id="345" label="" folder="Prompt Responses" sort="0" />
+        <label id="346" label="" folder="Response&gt;Jura" sort="0" />
+        <label id="347" label="" folder="Response&gt;Jura" sort="0" />
+        <label id="348" label="" folder="Response&gt;Jura" sort="0" />
+        <label id="349" label="" folder="Response&gt;Jura" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>show_anima==1</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>321</nextId>
+    <nextId>349</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="3player" />
@@ -453,6 +488,9 @@
         <marker scope="Public" name="mg_magma_speech1" />
         <marker scope="Public" name="mg_rose_show_phone" />
         <marker scope="Public" name="muststrip5_witty_tag" />
+        <marker scope="Public" name="nephenee_pussy" />
+        <marker scope="Public" name="nephenee_pussyB" />
+        <marker scope="Public" name="nephenee_tits" />
         <marker scope="Public" name="nonon_lady_jakuzure_resp" />
         <marker scope="Public" name="nonon_postcum_threat_Resp" />
         <marker scope="Public" name="nonon_short" />
@@ -494,12 +532,19 @@
         <marker scope="Public" name="rose_aura_camera0" />
         <marker scope="Public" name="rose_aura_camera1" />
         <marker scope="Public" name="rose_butt" />
+        <marker scope="Public" name="rose_HSW_Rose_clothes1" />
+        <marker scope="Public" name="rose_HSW_Rose_clothes1B" />
+        <marker scope="Public" name="rose_HSW_self0a" />
         <marker scope="Public" name="rose_jura_hairCare1" />
         <marker scope="Public" name="rose_jura_self2a" />
+        <marker scope="Public" name="rose_jura_self2b" />
+        <marker scope="Public" name="rose_jura_self4a" />
         <marker scope="Public" name="rose_jura0_early" />
         <marker scope="Public" name="rose_jura0_early2" />
+        <marker scope="Public" name="rose_jura0_early3" />
         <marker scope="Public" name="rose_jura0_later" />
         <marker scope="Public" name="rose_jura0_later2" />
+        <marker scope="Public" name="rose_jura0_later3" />
         <marker scope="Public" name="rose_kirigiri_self0a" />
         <marker scope="Public" name="rose_kirigiri_self0b" />
         <marker scope="Public" name="rose_meia_pyoro1" />
@@ -527,6 +572,8 @@
         <marker scope="Public" name="rose_rosa_self1c" />
         <marker scope="Public" name="rose_rosa_strip3c_hero" />
         <marker scope="Public" name="rose_rouge_strip2a" />
+        <marker scope="Public" name="rose_sannytess_strip0a" />
+        <marker scope="Public" name="rose_sannytess_strip3a" />
         <marker scope="Public" name="rose_sofia_default0a" />
         <marker scope="Public" name="rose_sofia_default0b" />
         <marker scope="Public" name="rose_sofia_default0c" />
@@ -534,6 +581,7 @@
         <marker scope="Public" name="rose_sofia_interests2" />
         <marker scope="Public" name="rose_sofia_interests3" />
         <marker scope="Public" name="rose_sofia_self0a" />
+        <marker scope="Public" name="rose_sofia_self0b" />
         <marker scope="Public" name="rose_yuno_degree1" />
         <marker scope="Public" name="rose_yuno_degree2" />
         <marker scope="Public" name="rose_yuno_degree3" />

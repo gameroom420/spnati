@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1711840518087</lastupdate>
+    <lastupdate>1713558249648</lastupdate>
     <enabled>false</enabled>
     <first>Rose</first>
     <last />
@@ -13,7 +13,10 @@
     <description>A confident young woman and a peddler of accessories. She's also a cat +Anima, meaning she can show or hide catlike traits at will.</description>
     <layers>6</layers>
     <default-costume-name>Street Peddler</default-costume-name>
+    <alternates>
+        <costume folder="opponents/reskins/rose_summer/" img="0-anima_happy.png" set="summer" status="unlisted" label="Rose" layers="4">Beach Flower</costume>
+    </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>856</lines>
+    <lines>878</lines>
     <poses>289</poses>
 </opponent>
