@@ -3856,6 +3856,19 @@ ul.dropdown-menu>li {
 	transform: translate(-50%, 0%);
 }
 
+#auto-advance-slower-button {
+    position: absolute;
+    width: 3%;
+    left: 50%;
+    bottom: 1%;
+}
+#auto-advance-faster-button {
+    position: absolute;
+    width: 3%;
+    left: 53%;
+    bottom: 1%;
+}
+
 #player-masturbation-timer-box {
     width: 10%;
 }
