@@ -326,13 +326,13 @@
         <label id="273" label="" color="2" folder="Skysmash Sponsorships" sort="38" />
         <label id="274" label="" color="1" folder="Skysmash Sponsorships" sort="68" />
         <label id="275" label="" color="1" folder="Skysmash Sponsorships" sort="64" />
-        <label id="276" label="" color="6" folder="" sort="0" />
-        <label id="277" label="" color="6" folder="" sort="0" />
-        <label id="278" label="" color="6" folder="" sort="0" />
-        <label id="279" label="" color="6" folder="" sort="0" />
-        <label id="280" label="" color="6" folder="" sort="0" />
-        <label id="281" label="" color="6" folder="" sort="0" />
-        <label id="282" label="" color="6" folder="" sort="0" />
+        <label id="276" label="" color="6" folder="Nadeshiko (Must Strip)" sort="0" />
+        <label id="277" label="" color="6" folder="Nadeshiko (Must Strip)" sort="0" />
+        <label id="278" label="" color="6" folder="Nadeshiko (Must Strip)" sort="0" />
+        <label id="279" label="" color="6" folder="Nadeshiko (Must Strip)" sort="0" />
+        <label id="280" label="" color="6" folder="Nadeshiko (Must Strip)" sort="0" />
+        <label id="281" label="" color="6" folder="Nadeshiko (Must Strip)" sort="0" />
+        <label id="282" label="" color="6" folder="Nadeshiko (Must Strip)" sort="0" />
         <label id="284" label="" color="6" folder="Skysmash Sponsorships" sort="46" />
         <label id="285" label="" color="6" folder="Skysmash Sponsorships" sort="44" />
         <label id="287" label="" color="2" folder="Skysmash Sponsorships" sort="28" />
@@ -502,8 +502,26 @@
         <label id="454" label="" folder="Kyouko (Stripping)" sort="0" />
         <label id="455" label="" folder="Kyouko (Stripped)" sort="0" />
         <label id="456" label="" folder="Kyouko (Stripped)" sort="0" />
+        <label id="457" label="" folder="Nadeshiko (Stripping)" sort="0" />
+        <label id="458" label="" folder="Nadeshiko (Stripping)" sort="0" />
+        <label id="459" label="" folder="Nadeshiko (Stripping)" sort="0" />
+        <label id="460" label="" folder="Nadeshiko (Stripping)" sort="0" />
+        <label id="461" label="" folder="Nadeshiko (Stripping)" sort="0" />
+        <label id="462" label="" folder="Nadeshiko (Stripping)" sort="0" />
+        <label id="463" label="" folder="Nadeshiko (Stripping)" sort="0" />
+        <label id="464" label="" folder="Must Strip (Fluttershy)" sort="0" />
+        <label id="465" label="" folder="Nadeshiko (Must Strip)" sort="0" />
+        <label id="466" label="" folder="Nadeshiko (Must Strip)" sort="0" />
+        <label id="467" label="" folder="Must Strip (Fluttershy)" sort="0" />
+        <label id="468" label="" folder="Must Strip (Fluttershy)" sort="0" />
+        <label id="469" label="" folder="Nadeshiko (Stripping)" sort="0" />
+        <label id="470" label="" folder="Nadeshiko (Stripping)" sort="0" />
+        <label id="471" label="" folder="Must Strip (Fluttershy)" sort="0" />
+        <label id="472" label="" folder="Must Strip (Fluttershy)" sort="0" />
+        <label id="473" label="" folder="Must Strip (Fluttershy)" sort="0" />
+        <label id="474" label="" folder="Must Strip (Fluttershy)" sort="0" />
     </labels>
-    <nextId>456</nextId>
+    <nextId>474</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="9S_Nade_1-1" />
