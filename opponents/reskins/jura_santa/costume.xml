@@ -1645,6 +1645,10 @@
             <sprite id="coy" src="reskins/jura_santa/coy.png" x="0" y="182" />
             <sprite id="bselected" src="reskins/jura_santa/bselected.png" x="324" y="0" />
         </pose>
+        <pose id="6-fixingsilent">
+            <sprite id="fixing" src="reskins/jura_santa/6-fixing.png" x="0" y="0" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="-2" y="253" />
+        </pose>
     </poses>
 
 </costume>
