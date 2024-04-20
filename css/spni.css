@@ -3853,7 +3853,8 @@ ul.dropdown-menu>li {
     left: 50%;
     bottom: 5%;
     font-size: 140%;
-	transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    overflow: hidden;
 }
 
 #auto-advance-slower-button {
@@ -3867,6 +3868,17 @@ ul.dropdown-menu>li {
     width: 3%;
     left: 53%;
     bottom: 1%;
+}
+
+#auto-advance-progress-bar {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    background: linear-gradient(#EEE, #CCC);
+    background-color: #DDD;
+    width: 0;
+    left: 0;
+    z-index: -1;
 }
 
 #player-masturbation-timer-box {
