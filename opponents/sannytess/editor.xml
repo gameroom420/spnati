@@ -4,15 +4,15 @@
     <height>5'2"</height>
     <age />
     <pronunciation>(like sand) san-ee</pronunciation>
-    <othernotes>"Sanny" and "Tess" are representatives for the article on futanari, pertaining to futanari sans balls (Sanny) and futanari with testicles (Tess), otherwise known as full package futanari. The names they go by aren't their real names, but aliases they go by (because their original creator, Niabot, never gave them names). &lt;br&gt;&lt;br&gt;In SPNatI, their images on the article are treated as them nudemodeling for Wikipedia. Their "gimmick" ingame is breaking the 4th wall to have an almost encylopedic knowledge of all things futanari (and yet, despite this, they are still two normal human girls). The pair are in an open relationship, and are extremely flirty at that.&lt;br&gt;&lt;br&gt;Things to ask about:&lt;br&gt;- Futanari (obviously)&lt;br&gt;- Their relationship&lt;br&gt;- Their connection to Wikipedia</othernotes>
+    <othernotes>"Sanny" and "Tess" are representatives for the article on futanari, pertaining to futanari sans balls (Sanny) and futanari with testicles (Tess), otherwise known as full package futanari. The names they go by aren't their real names, but aliases they go by (because their original creator, Niabot, never gave them names). &lt;br&gt;&lt;br&gt;In SPNatI, their images on the article are treated as them nudemodeling for Wikipedia. Their "gimmick" ingame is breaking the 4th wall to have an almost encylopedic knowledge of all things futanari (and yet, despite this, they are still two normal human girls). The pair are in an open relationship, and are extremely flirty at that.&lt;br&gt;&lt;br&gt;On a more general note pertaining to their strip order, they're not revealed to be futanari until their lower halves are exposed (unless another futanari character has stripped before them, but as of 4/19/24 that's currently more than unlikely). During these stages, they do not yet break the 4th wall, and appear as more "innocent".&lt;br&gt;&lt;br&gt;Things to ask about:&lt;br&gt;- Futanari (obviously)&lt;br&gt;- Their relationship&lt;br&gt;- Their connection to Wikipedia</othernotes>
     <noteworthy>
         <case name="Plotting" id="1" priority="FYI" min="0" max="0">
             <description>Sanny and Tess have something planned for the game. </description>
         </case>
-        <case name="Futanari Girls" id="5" priority="MustTarget" min="2" max="2">
+        <case name="Futanari Girls" id="5" priority="Noteworthy" min="2" max="2">
             <description>Sanny and Tess both have penises</description>
         </case>
-        <case name="Futanari Girls 2" id="6" priority="MustTarget" min="3" max="3">
+        <case name="Futanari Girls 2" id="6" priority="Noteworthy" min="3" max="3">
             <description>Sanny and Tess both have penises 2: Electric Boogaloo</description>
         </case>
         <case name="c00m" id="7" priority="FYI" min="8" max="8">
@@ -20,6 +20,9 @@
         </case>
         <case name="Surprise Ruined" id="17" priority="Noteworthy" min="0" max="2">
             <description>Sanny and Tess tell the table that they're also futas when another futanari character strips first.</description>
+        </case>
+        <case name="Commando" id="18" priority="Noteworthy" min="0" max="0">
+            <description>Sanny's skirt lifts just enough to show off that she's wearing no underwear. </description>
         </case>
     </noteworthy>
     <reviewed>true</reviewed>
@@ -37,13 +40,16 @@
         <note id="9">The ending sucked anyway, don't worry, Tess.</note>
         <note id="16">will probably delete this after some time</note>
     </notes>
-    <nextId>17</nextId>
+    <nextId>18</nextId>
     <markers>
+        <marker scope="Public" name="" />
         <marker scope="Public" name="COCK" />
         <marker scope="Public" name="COCK2" />
         <marker scope="Private" name="creature" />
         <marker scope="Public" name="dunboob1" />
+        <marker scope="Public" name="dunboob2" />
         <marker scope="Public" name="dunboob4" />
+        <marker scope="Public" name="dunboob5" />
         <marker scope="Public" name="fam1" />
         <marker scope="Public" name="fam2" />
         <marker scope="Private" name="FuckFacts" />
@@ -64,6 +70,8 @@
         <marker scope="Public" name="MariMeetUp2" />
         <marker scope="Public" name="MariMeetUpEnd" />
         <marker scope="Public" name="monster_musume" />
+        <marker scope="Public" name="rose_strip0a" />
+        <marker scope="Public" name="sanako_select" />
         <marker scope="Public" name="ST_Aru1" />
         <marker scope="Public" name="ST_Aru2" />
         <marker scope="Public" name="ST_Dreamcatcher1" />
