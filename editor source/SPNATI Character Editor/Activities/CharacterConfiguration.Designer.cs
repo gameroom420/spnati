@@ -29,12 +29,12 @@ namespace SPNATI_Character_Editor.Activities
 		private void InitializeComponent()
 		{
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new Desktop.Skinning.SkinnedLabel();
             this.gridPrefixes = new Desktop.Skinning.SkinnedDataGridView();
             this.ColPrefix = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -44,6 +44,9 @@ namespace SPNATI_Character_Editor.Activities
             this.chkHidePrefixlessImages = new Desktop.Skinning.SkinnedCheckBox();
             this.iconHidePrefixlessImages = new Desktop.Skinning.SkinnedIcon();
             this.iconMarkers = new Desktop.Skinning.SkinnedIcon();
+            this.chkDisallowTargetingPrivateMarkers = new Desktop.Skinning.SkinnedCheckBox();
+            this.chkValidateMarkerScope = new Desktop.Skinning.SkinnedCheckBox();
+            this.IconPrivateMTargeting = new Desktop.Skinning.SkinnedIcon();
             this.gridMarkers = new Desktop.Skinning.SkinnedDataGridView();
             this.labelMarkers = new Desktop.Skinning.SkinnedLabel();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
@@ -89,28 +92,28 @@ namespace SPNATI_Character_Editor.Activities
             this.gridPrefixes.BackgroundColor = System.Drawing.Color.White;
             this.gridPrefixes.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.gridPrefixes.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(0, 5, 0, 5);
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridPrefixes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.Padding = new System.Windows.Forms.Padding(0, 5, 0, 5);
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.gridPrefixes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.gridPrefixes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridPrefixes.ColumnHeadersVisible = false;
             this.gridPrefixes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColPrefix});
             this.gridPrefixes.Data = null;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.gridPrefixes.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.gridPrefixes.DefaultCellStyle = dataGridViewCellStyle8;
             this.gridPrefixes.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
             this.gridPrefixes.EnableHeadersVisualStyles = false;
             this.gridPrefixes.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
@@ -118,14 +121,14 @@ namespace SPNATI_Character_Editor.Activities
             this.gridPrefixes.Location = new System.Drawing.Point(6, 339);
             this.gridPrefixes.Name = "gridPrefixes";
             this.gridPrefixes.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridPrefixes.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.gridPrefixes.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.gridPrefixes.RowHeadersVisible = false;
             this.gridPrefixes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.gridPrefixes.Size = new System.Drawing.Size(313, 113);
@@ -197,6 +200,45 @@ namespace SPNATI_Character_Editor.Activities
         "ditor.");
             this.iconMarkers.UseVisualStyleBackColor = true;
             // 
+            // chkDisallowTargetingPrivateMarkers
+            // 
+            this.chkDisallowTargetingPrivateMarkers.AutoSize = true;
+            this.chkDisallowTargetingPrivateMarkers.FieldType = Desktop.Skinning.SkinnedFieldType.Primary;
+            this.chkDisallowTargetingPrivateMarkers.Location = new System.Drawing.Point(337, 363);
+            this.chkDisallowTargetingPrivateMarkers.Name = "chkDisallowTargetingPrivateMarkers";
+            this.chkDisallowTargetingPrivateMarkers.Size = new System.Drawing.Size(258, 17);
+            this.chkDisallowTargetingPrivateMarkers.TabIndex = 8;
+            this.chkDisallowTargetingPrivateMarkers.Text = "Disallow targeting this character\'s private markers";
+            this.toolTip1.SetToolTip(this.chkDisallowTargetingPrivateMarkers, "If checked, the Respond button will not copy this character\'s private markers ");
+            this.chkDisallowTargetingPrivateMarkers.UseVisualStyleBackColor = true;
+            // 
+            // chkValidateMarkerScope
+            // 
+            this.chkValidateMarkerScope.AutoSize = true;
+            this.chkValidateMarkerScope.FieldType = Desktop.Skinning.SkinnedFieldType.Primary;
+            this.chkValidateMarkerScope.Location = new System.Drawing.Point(337, 387);
+            this.chkValidateMarkerScope.Name = "chkValidateMarkerScope";
+            this.chkValidateMarkerScope.Size = new System.Drawing.Size(363, 17);
+            this.chkValidateMarkerScope.TabIndex = 9;
+            this.chkValidateMarkerScope.Text = "Targeting this character\'s private markers should cause validation errors";
+            this.toolTip1.SetToolTip(this.chkValidateMarkerScope, "If checked, validating other characters will show errors if they use this charact" +
+        "er\'s private markers in their case conditions.");
+            this.chkValidateMarkerScope.UseVisualStyleBackColor = true;
+            // 
+            // IconPrivateMTargeting
+            // 
+            this.IconPrivateMTargeting.Background = Desktop.Skinning.SkinnedBackgroundType.Surface;
+            this.IconPrivateMTargeting.FieldType = Desktop.Skinning.SkinnedFieldType.Primary;
+            this.IconPrivateMTargeting.Flat = false;
+            this.IconPrivateMTargeting.Image = global::SPNATI_Character_Editor.Properties.Resources.Help;
+            this.IconPrivateMTargeting.Location = new System.Drawing.Point(601, 357);
+            this.IconPrivateMTargeting.Name = "IconPrivateMTargeting";
+            this.IconPrivateMTargeting.Size = new System.Drawing.Size(26, 23);
+            this.IconPrivateMTargeting.TabIndex = 10;
+            this.toolTip1.SetToolTip(this.IconPrivateMTargeting, "Do not select these options unless you have a reason to do so and are sure that n" +
+        "o markers are set to private incorrectly");
+            this.IconPrivateMTargeting.UseVisualStyleBackColor = true;
+            // 
             // gridMarkers
             // 
             this.gridMarkers.AllowUserToDeleteRows = false;
@@ -205,28 +247,28 @@ namespace SPNATI_Character_Editor.Activities
             this.gridMarkers.BackgroundColor = System.Drawing.Color.White;
             this.gridMarkers.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.gridMarkers.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle4.Padding = new System.Windows.Forms.Padding(0, 5, 0, 5);
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridMarkers.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle10.Padding = new System.Windows.Forms.Padding(0, 5, 0, 5);
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.gridMarkers.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
             this.gridMarkers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridMarkers.ColumnHeadersVisible = false;
             this.gridMarkers.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColMarker});
             this.gridMarkers.Data = null;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.gridMarkers.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.gridMarkers.DefaultCellStyle = dataGridViewCellStyle11;
             this.gridMarkers.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
             this.gridMarkers.EnableHeadersVisualStyles = false;
             this.gridMarkers.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
@@ -234,14 +276,14 @@ namespace SPNATI_Character_Editor.Activities
             this.gridMarkers.Location = new System.Drawing.Point(6, 490);
             this.gridMarkers.Name = "gridMarkers";
             this.gridMarkers.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridMarkers.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.gridMarkers.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
             this.gridMarkers.RowHeadersVisible = false;
             this.gridMarkers.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.gridMarkers.Size = new System.Drawing.Size(313, 141);
@@ -412,6 +454,9 @@ namespace SPNATI_Character_Editor.Activities
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.IconPrivateMTargeting);
+            this.Controls.Add(this.chkValidateMarkerScope);
+            this.Controls.Add(this.chkDisallowTargetingPrivateMarkers);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.iconHidePrefixlessImages);
             this.Controls.Add(this.chkHidePrefixlessImages);
@@ -463,5 +508,8 @@ namespace SPNATI_Character_Editor.Activities
         private Desktop.Skinning.SkinnedTextBox txtRename;
         private Desktop.Skinning.SkinnedLabel lblMarker;
         private Desktop.CommonControls.RecordField recMarker;
+        private Desktop.Skinning.SkinnedCheckBox chkDisallowTargetingPrivateMarkers;
+        private Desktop.Skinning.SkinnedCheckBox chkValidateMarkerScope;
+        private Desktop.Skinning.SkinnedIcon IconPrivateMTargeting;
     }
 }
