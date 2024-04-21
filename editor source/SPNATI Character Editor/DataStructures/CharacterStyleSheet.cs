@@ -67,7 +67,10 @@ namespace SPNATI_Character_Editor
 		{
 			List<string> output = new List<string>();
 			output.Add($".dialogue .{ClassName}[data-character=\"{characterId}\"] {{");
-			output.Add("  /*" + CharacterStyleSheetSerializer.CssEncode(Description) + "*/");
+			if (Description != null)
+			{
+				output.Add("  /*" + CharacterStyleSheetSerializer.CssEncode(Description) + "*/");
+			}
 			foreach (StyleAttribute attribute in Attributes)
 			{
 				output.Add($"  {attribute.Name}: {attribute.Value};");
