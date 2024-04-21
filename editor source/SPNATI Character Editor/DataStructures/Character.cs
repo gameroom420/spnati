@@ -29,9 +29,6 @@ namespace SPNATI_Character_Editor
 		/// </summary>
 		public string Version { get; set; }
 
-		[XmlIgnore]
-		public EditorSource Source;
-
 		private bool _dirty;
 		[XmlIgnore]
 		public bool IsDirty
@@ -1455,13 +1452,6 @@ namespace SPNATI_Character_Editor
 		{
 			return Tag;
 		}
-	}
-
-	public enum EditorSource
-	{
-		CharacterEditor,
-		MakeXml,
-		Other
 	}
 
 	public class DuplicateCase

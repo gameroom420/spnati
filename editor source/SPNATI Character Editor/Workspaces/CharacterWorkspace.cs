@@ -37,8 +37,7 @@ namespace SPNATI_Character_Editor.Workspaces
 				}
 			}
 
-			bool knownVersion = _character.Source != EditorSource.CharacterEditor;
-			if (!knownVersion && (new Version(_character.Version.Substring(1))).CompareTo(new Version(Config.Version.Substring(1))) > 0)
+			if (new Version(_character.Version.Substring(1)).CompareTo(Config.version) > 0)
 			{
 				ShowBanner($"This character was saved in a later version of the editor ({_character.Version}). Some features may not work properly.", Desktop.Skinning.SkinnedHighlight.Bad);
 			}
