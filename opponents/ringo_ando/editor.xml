@@ -216,6 +216,15 @@
         <response id="534" opponent="arle" opponentId="28" />
         <response id="535" opponent="arle" opponentId="10" />
         <response id="1100" opponent="rose" opponentId="311" />
+        <response id="1109" opponent="rose" opponentId="319" />
+        <response id="1113" opponent="aoi_asahina" opponentId="4" />
+        <response id="1118" opponent="aoi_asahina" opponentId="21" />
+        <response id="1120" opponent="aoi_asahina" opponentId="14" />
+        <response id="1121" opponent="aoi_asahina" opponentId="22" />
+        <response id="1123" opponent="elizabeth" opponentId="1" />
+        <response id="1125" opponent="zeke_pandoria" opponentId="1" />
+        <response id="1132" opponent="nonon" opponentId="226" />
+        <response id="1134" opponent="nonon" opponentId="989" />
     </responses>
     <labels>
         <label id="91" label="" folder="Early Tags" sort="0" />
@@ -1292,8 +1301,42 @@
         <label id="1106" label="" folder="targets" sort="0" />
         <label id="1107" label="" folder="specials" sort="0" />
         <label id="1108" label="" folder="specials" sort="0" />
+        <label id="1111" label="" folder="targets" sort="0" />
+        <label id="1112" label="" folder="targets" sort="0" />
+        <label id="1114" label="" folder="targets" sort="0" />
+        <label id="1113" label="" folder="targets" sort="0" />
+        <label id="1115" label="" folder="targets" sort="0" />
+        <label id="1116" label="" folder="targets" sort="0" />
+        <label id="1117" label="" folder="targets" sort="0" />
+        <label id="1118" label="" folder="targets" sort="0" />
+        <label id="1119" label="" folder="targets" sort="0" />
+        <label id="1120" label="" folder="targets" sort="0" />
+        <label id="1122" label="" folder="targets" sort="0" />
+        <label id="1124" label="" folder="targets" sort="0" />
+        <label id="1123" label="" folder="targets" sort="0" />
+        <label id="1121" label="" folder="targets" sort="0" />
+        <label id="1127" label="" folder="targets" sort="0" />
+        <label id="1128" label="" folder="targets" sort="0" />
+        <label id="1129" label="" folder="targets" sort="0" />
+        <label id="1130" label="" folder="targets" sort="0" />
+        <label id="1131" label="" folder="targets" sort="0" />
+        <label id="1125" label="" folder="targets" sort="0" />
+        <label id="1133" label="" folder="targets" sort="0" />
+        <label id="1134" label="" folder="targets" sort="0" />
+        <label id="1135" label="" folder="poison ringo" sort="0" />
+        <label id="1136" label="" folder="poison ringo" sort="0" />
+        <label id="1137" label="" folder="poison ringo" sort="0" />
+        <label id="1138" label="" folder="poison ringo" sort="0" />
+        <label id="1139" label="" folder="poison ringo" sort="0" />
+        <label id="327" label="" folder="poison ringo" sort="0" />
+        <label id="1140" label="" folder="poison ringo" sort="0" />
+        <label id="1141" label="" folder="poison ringo" sort="0" />
+        <label id="1142" label="" folder="poison ringo" sort="0" />
+        <label id="1132" label="" folder="targets" sort="0" />
+        <label id="1109" label="" folder="targets" sort="0" />
+        <label id="1110" label="" folder="targets" sort="0" />
     </labels>
-    <nextId>1108</nextId>
+    <nextId>1142</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="~nickname~" />
@@ -1361,6 +1404,12 @@
         <marker scope="Public" name="amy_stacked" />
         <marker scope="Public" name="aoba_shortnsmallQ" />
         <marker scope="Public" name="aoba_slippers" />
+        <marker scope="Public" name="aoi_balcony" />
+        <marker scope="Public" name="aoi_names" />
+        <marker scope="Public" name="aoi_olympiccadet" />
+        <marker scope="Public" name="aoi_olympiccadet2" />
+        <marker scope="Public" name="aoi_palmtrick" />
+        <marker scope="Public" name="aoi_voices" />
         <marker scope="Public" name="aqua_ecoactivist" />
         <marker scope="Public" name="aqua_keyblade" />
         <marker scope="Public" name="aquagrunt_nudprot" />
@@ -1438,6 +1487,10 @@
         <marker scope="Public" name="dust_hat" />
         <marker scope="Public" name="dwight_entity" />
         <marker scope="Public" name="dwight_lemres" />
+        <marker scope="Public" name="elizabeth_fruits" />
+        <marker scope="Public" name="elizabeth_puyobra" />
+        <marker scope="Public" name="elizabeth_puyobragoofy" />
+        <marker scope="Public" name="eliz-ntro" />
         <marker scope="Public" name="emi_legless" />
         <marker scope="Public" name="estelle01" />
         <marker scope="Public" name="eva_crossover1st">Whenever Ringo hears either Shinji or Asuka, she is reminded of the crossover event with evangelion that happened at puyo quest.</marker>
@@ -1524,7 +1577,9 @@
         <marker scope="Public" name="leon_1sttimenaked" />
         <marker scope="Public" name="leon_attire" />
         <marker scope="Public" name="leon_names" />
+        <marker scope="Public" name="leon_namessuck" />
         <marker scope="Public" name="leon_powers" />
+        <marker scope="Public" name="leon_puyobioweapon" />
         <marker scope="Public" name="lucy_hand" />
         <marker scope="Public" name="lyra_gingersoul" />
         <marker scope="Public" name="lyra_harpy" />
@@ -1604,6 +1659,7 @@
         <marker scope="Public" name="noelle_strip" />
         <marker scope="Public" name="noire_puyo0" />
         <marker scope="Public" name="noire_wayhome3" />
+        <marker scope="Public" name="nonon_dressstrip" />
         <marker scope="Public" name="ochako_firstout" />
         <marker scope="Public" name="okino_compengineer" />
         <marker scope="Public" name="okino_int1" />
@@ -1659,7 +1715,9 @@
         <marker scope="Public" name="rosa_pokemon" />
         <marker scope="Public" name="rosa_specialother" />
         <marker scope="Public" name="rose_box" />
+        <marker scope="Public" name="rose_circles" />
         <marker scope="Public" name="rose_puyopin" />
+        <marker scope="Public" name="rose_puyopin2" />
         <marker scope="Public" name="rouge_sonicquestion" />
         <marker scope="Public" name="rouge_sonicsez" />
         <marker scope="Public" name="rouge_titsout" />
