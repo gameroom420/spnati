@@ -4072,7 +4072,7 @@
                 <condition count="0" filter="dr1" role="opp" character="yasuhiro_hagukure" />
                 <state img="custom:think">&lt;i&gt;(I should keep quiet about this place to Hiro. No doubt he’ll be raving about “power spots” and “UMAs” if he hears I came here and played with ~opp1~…)&lt;/i&gt;</state>
             </case>
-            <case stage="0-8 10" id="2185" totalRounds="12-" priority="0">
+            <case stage="0-8 10" id="2185" oneShotId="9" totalRounds="12-" priority="0">
                 <condition count="0" filter="dr1" role="opp" character="makoto" />
                 <condition count="0" filter="dr1" role="opp" character="makoto_naegi" />
                 <state img="custom:#-shy2" marker="luckster">I have a…close friend who I should try to bring by next time. He’s considered unusually lucky, but…I don’t think he has the kind of luck that would necessarily help him out in poker.</state>
@@ -12785,7 +12785,7 @@
             <case stage="0-10" id="934" hidden="1" priority="115">
                 <test expr="~CLOTHING.GENERIC~" value="SHOES" />
                 <test expr="~CLOTHING~" value="SNEAKERS" />
-                <state marker="V_clothing=sandals">Sneakers</state>
+                <state marker="V_clothing=sneakers">Sneakers</state>
             </case>
             <case stage="0-10" id="935" hidden="1" priority="119">
                 <test expr="~CLOTHING.GENERIC~" value="BRA" />
@@ -16391,7 +16391,7 @@
                 <condition role="target" character="human" />
                 <test expr="~CLOTHING.GENERIC~" value="SHOES" />
                 <test expr="~CLOTHING~" value="SNEAKERS" />
-                <state marker="V_clothing=sandals">Sneakers</state>
+                <state marker="V_clothing=sneakers">Sneakers</state>
             </case>
             <case stage="0-10" id="2323" hidden="1" priority="119">
                 <condition role="target" character="human" />
@@ -20831,7 +20831,7 @@
             </case>
             <case stage="0-8">
                 <condition count="0" gender="female" status="not_alive" role="other" />
-                <condition count="1-" gender="male" role="opp" />
+                <condition count="1" gender="male" role="opp" />
                 <state img="custom:smug">Show him what we can do.</state>
             </case>
             <case stage="9" oneShotId="1316" priority="0">
