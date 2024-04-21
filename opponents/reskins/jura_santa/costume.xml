@@ -1649,6 +1649,14 @@
             <sprite id="fixing" src="reskins/jura_santa/6-fixing.png" x="0" y="0" />
             <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="-2" y="253" />
         </pose>
+        <pose id="8-smug-">
+            <sprite id="smug" src="reskins/jura_santa/8-smug.png" x="0" y="0" />
+            <sprite id="annoyed" src="reskins/jura_santa/annoyed.png" x="4" y="657" rotation="-1" />
+        </pose>
+        <pose id="7-smug-">
+            <sprite id="smug" src="reskins/jura_santa/7-smug.png" x="0" y="0" />
+            <sprite id="annoyed" src="reskins/jura_santa/annoyed.png" x="5" y="666" rotation="-1" />
+        </pose>
     </poses>
 
 </costume>
