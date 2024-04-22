@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1713390002096</lastupdate>
+    <lastupdate>1713812515745</lastupdate>
     <enabled>false</enabled>
     <first>Aoi</first>
     <last>Asahina</last>
@@ -13,6 +13,6 @@
     <description>Aoi Asahina, also known as Hina, is a graduate of Hope's Peak Academy's 78th Class. She's a warm, cheerful, upbeat, and outgoing girl who is friendly and welcoming towards everyone she meets, trying to make friends with everybody and include them in her activities Her title is the Ultimate Swimming Pro.</description>
     <layers>7</layers>
     <default-costume-name>Tracksuit</default-costume-name>
-    <lines>589</lines>
+    <lines>604</lines>
     <poses>184</poses>
 </opponent>
