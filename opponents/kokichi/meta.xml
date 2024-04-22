@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1712608713858</lastupdate>
+    <lastupdate>1713766145224</lastupdate>
     <enabled>true</enabled>
     <first>Kokichi</first>
     <last>Ouma</last>
@@ -13,6 +13,6 @@
     <description>The Ultimate Supreme Leader, and the head of a mysterious organization known as D.I.C.E. He is equal parts intelligent and irritating, with a little pompousness mixed in as well.</description>
     <layers>8</layers>
     <has_collectibles>true</has_collectibles>
-    <lines>594</lines>
+    <lines>597</lines>
     <poses>183</poses>
 </opponent>

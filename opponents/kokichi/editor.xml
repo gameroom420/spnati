@@ -41,6 +41,7 @@
         <marker scope="Public" name="meiaclapback" />
         <marker scope="Public" name="meiareply" />
         <marker scope="Public" name="revyreply" />
+        <marker scope="Public" name="scarf_unlock" />
         <marker scope="Public" name="scarfy" />
         <marker scope="Public" name="singing" />
         <marker scope="Public" name="song1" />
