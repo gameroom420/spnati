@@ -573,7 +573,7 @@
                 <keyframe time="0" src="reskins/kyouko_toshinou_sweater/7-twirl-front.png" x="63" />
                 <keyframe time="0.5" src="reskins/kyouko_toshinou_sweater/7-twirl-back.png" x="63" />
                 <keyframe time="1.12" src="reskins/kyouko_toshinou_sweater/7-twirl-front.png" x="68" />
-                <keyframe time="1.62" src="reskins/kyouko_toshinou_sweater/7-flirt.png" x="-62" />
+                <keyframe time="1.62" src="kyouko_toshinou/6-flirt.png" x="-62" />
             </directive>
             <directive type="animation" id="kyoukospin" ease="linear" interpolation="linear">
                 <keyframe time="0" scalex="1" />
