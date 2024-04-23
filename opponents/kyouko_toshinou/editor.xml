@@ -256,7 +256,7 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <label id="197" label="Lewd stuff." color="5" folder="Targets&gt;Mari Setogaya" sort="6" />
         <label id="198" label="How lewd!" color="5" folder="Targets&gt;Mari Omori" sort="2" />
         <label id="199" label="Setogaya" folder="" sort="0" />
-        <label id="187" label="1: Same name, same nothing else" color="5" folder="Targets&gt;Kyoko Kirigiri" sort="2" />
+        <label id="187" label="" color="5" folder="Targets&gt;Kyoko Kirigiri" sort="2" />
         <label id="200" label="0: No one left behind" color="5" folder="Targets&gt;Bobobo" sort="2" />
         <label id="201" label="0: Get along" color="5" folder="Targets&gt;Nagatoro" sort="7" />
         <label id="202" label="3: Brother" color="5" folder="Targets&gt;Mari Omori" sort="2" />
@@ -392,8 +392,8 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <label id="325" label="" folder="Costume&gt;Sexy Tomato" sort="3" />
         <label id="326" label="Sexy Tomato" folder="" sort="0" />
         <label id="327" label="Sexy Tomato" folder="" sort="0" />
-        <label id="328" label="Some similarity?" color="5" folder="Targets&gt;Kyoko Kirigiri" sort="5" />
-        <label id="329" label="Ecdysiasts unite" color="5" folder="Targets&gt;Kyoko Kirigiri" sort="6" />
+        <label id="328" label="" color="5" folder="Targets&gt;Kyoko Kirigiri" sort="5" />
+        <label id="329" label="" color="5" folder="Targets&gt;Kyoko Kirigiri" sort="6" />
         <label id="331" label="" folder="Targets&gt;Aqua KH" sort="4" />
         <label id="332" label="0: What kind?" color="5" folder="Targets&gt;Nagatoro" sort="8" />
         <label id="330" label="How much tomato wear DOES she have?" folder="Targets&gt;Kyoko Kirigiri" sort="7" />
@@ -573,7 +573,7 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <label id="532" label="" folder="Everyone clothed and game moving slow" sort="0" />
         <label id="533" label="" folder="Everyone clothed and game moving slow" sort="0" />
         <label id="534" label="" folder="Targets&gt;Kyoko Kirigiri&gt;Friendship" sort="9" />
-        <label id="536" label="" folder="Targets&gt;Kyoko Kirigiri&gt;Friendship" sort="0" />
+        <label id="536" label="" folder="Targets&gt;Kyoko Kirigiri&gt;Friendship" sort="2" />
         <label id="535" label="" folder="Targets&gt;Kyoko Kirigiri&gt;Friendship" sort="7" />
         <label id="537" label="" folder="Targets&gt;Kyoko Kirigiri&gt;Friendship" sort="4" />
         <label id="538" label="" folder="Targets&gt;Kyoko Kirigiri&gt;Friendship" sort="3" />
@@ -615,7 +615,7 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <label id="577" label="" folder="Targets&gt;Ms. Fortune" sort="0" />
         <label id="578" label="" folder="Targets&gt;Kyoko Kirigiri" sort="3" />
         <label id="579" label="" folder="Targets&gt;Kyoko Kirigiri" sort="0" />
-        <label id="580" label="" folder="Targets&gt;Kyoko Kirigiri" sort="2" />
+        <label id="580" label="" folder="Targets&gt;Kyoko Kirigiri&gt;Friendship" sort="2" />
         <label id="581" label="" folder="Targets&gt;Reimu" sort="0" />
         <label id="582" label="" folder="Targets&gt;Reimu" sort="4" />
         <label id="583" label="" folder="Targets&gt;Yumeko" sort="54" />
@@ -802,7 +802,7 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <label id="768" label="Opponent removing jacket as last item" folder="Sponsors&gt;Remillia&gt;Imagination" sort="4" />
         <label id="769" label="" folder="Specific items" sort="0" />
         <label id="770" label="" folder="Specific items" sort="0" />
-        <label id="771" label="" folder="Specific items" sort="17" />
+        <label id="771" label="Jacket as last item" folder="Unusual Ordering" sort="17" />
         <label id="772" label="" folder="Sponsors&gt;Remillia&gt;Imagination" sort="7" />
         <label id="773" label="" folder="Sponsors&gt;Spaceman&gt;Female removed major" sort="0" />
         <label id="774" label="" folder="Sponsors&gt;Spaceman&gt;Male removed major" sort="0" />
@@ -862,70 +862,93 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <label id="843" label="" folder="Sponsors&gt;Spaceman&gt;Male removed major" sort="5" />
         <label id="844" label="" folder="Sponsors&gt;Lokkit&gt;Hand quality" sort="2" />
         <label id="845" label="" folder="Sponsors&gt;Lokkit&gt;Hand quality" sort="10" />
-        <label id="846" label="" folder="Targets&gt;Yumeko" sort="0" />
-        <label id="847" label="" folder="Targets&gt;Yumeko" sort="0" />
-        <label id="848" label="" folder="Targets&gt;Yumeko" sort="0" />
-        <label id="849" label="" folder="Sponsors&gt;Spaceman&gt;Average Hand" sort="0" />
-        <label id="850" label="" folder="Sponsors&gt;Lokkit&gt;Hand quality" sort="0" />
-        <label id="851" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="852" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="853" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="854" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="855" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="856" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="857" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="858" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="859" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="846" label="" folder="Targets&gt;Yumeko" sort="14" />
+        <label id="847" label="" folder="Targets&gt;Yumeko" sort="22" />
+        <label id="848" label="" folder="Targets&gt;Yumeko" sort="31" />
+        <label id="849" label="" folder="Sponsors&gt;Spaceman&gt;Average Hand" sort="3" />
+        <label id="850" label="" folder="Sponsors&gt;Lokkit&gt;Hand quality" sort="4" />
+        <label id="851" label="" folder="Targets&gt;Mari Setogaya" sort="40" />
+        <label id="852" label="" folder="Targets&gt;Mari Setogaya" sort="48" />
+        <label id="853" label="" folder="Targets&gt;Mari Setogaya" sort="56" />
+        <label id="854" label="" folder="Targets&gt;Mari Setogaya" sort="21" />
+        <label id="855" label="" folder="Targets&gt;Mari Setogaya" sort="12" />
+        <label id="856" label="" folder="Targets&gt;Mari Setogaya" sort="36" />
+        <label id="857" label="" folder="Targets&gt;Mari Setogaya" sort="41" />
+        <label id="858" label="" folder="Targets&gt;Mari Setogaya" sort="49" />
+        <label id="859" label="" folder="Targets&gt;Mari Setogaya" sort="57" />
         <label id="860" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="861" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="862" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="863" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="864" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="865" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="866" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="867" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="868" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
+        <label id="861" label="" folder="Targets&gt;Mari Setogaya" sort="13" />
+        <label id="862" label="" folder="Targets&gt;Mari Setogaya" sort="22" />
+        <label id="863" label="" folder="Targets&gt;Mari Setogaya" sort="27" />
+        <label id="864" label="" folder="Targets&gt;Mari Setogaya" sort="28" />
+        <label id="865" label="" folder="Targets&gt;Mari Setogaya" sort="42" />
+        <label id="866" label="" folder="Targets&gt;Mari Setogaya" sort="50" />
+        <label id="867" label="" folder="Targets&gt;Mari Setogaya" sort="58" />
+        <label id="868" label="" folder="Targets&gt;Mari Setogaya" sort="5" />
         <label id="869" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="870" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="871" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="872" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="873" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="874" label="" folder="Targets&gt;Yumeko" sort="0" />
-        <label id="875" label="" folder="Targets&gt;Yumeko" sort="0" />
-        <label id="876" label="" folder="Targets&gt;Yumeko" sort="0" />
-        <label id="877" label="" folder="Targets&gt;Yumeko" sort="0" />
-        <label id="878" label="" folder="Targets&gt;Yumeko" sort="0" />
-        <label id="879" label="" folder="Targets&gt;Nadeshiko" sort="0" />
-        <label id="880" label="" folder="Targets&gt;Nadeshiko" sort="0" />
-        <label id="881" label="" folder="Targets&gt;Nadeshiko" sort="0" />
-        <label id="882" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="883" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="884" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="885" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="886" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="629" label="" folder="Targets&gt;Nadeshiko" sort="0" />
-        <label id="547" label="" folder="Targets&gt;Téa Gardner" sort="0" />
-        <label id="887" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="888" label="" folder="Targets&gt;Nadeshiko" sort="0" />
-        <label id="889" label="" folder="Targets&gt;Nadeshiko" sort="0" />
-        <label id="890" label="" folder="Targets&gt;Nadeshiko" sort="0" />
-        <label id="891" label="" folder="Targets&gt;Nadeshiko" sort="0" />
-        <label id="892" label="" folder="Targets&gt;Nadeshiko" sort="0" />
-        <label id="893" label="" folder="Targets&gt;Nadeshiko" sort="0" />
-        <label id="894" label="" folder="Targets&gt;Nadeshiko" sort="0" />
+        <label id="870" label="" folder="Targets&gt;Mari Setogaya" sort="14" />
+        <label id="871" label="" folder="Targets&gt;Mari Setogaya" sort="23" />
+        <label id="872" label="" folder="Targets&gt;Mari Setogaya" sort="43" />
+        <label id="873" label="" folder="Targets&gt;Mari Setogaya" sort="59" />
+        <label id="874" label="" folder="Targets&gt;Yumeko" sort="54" />
+        <label id="875" label="" folder="Targets&gt;Yumeko" sort="55" />
+        <label id="876" label="" folder="Targets&gt;Yumeko" sort="56" />
+        <label id="877" label="" folder="Targets&gt;Yumeko" sort="57" />
+        <label id="878" label="" folder="Targets&gt;Yumeko" sort="58" />
+        <label id="879" label="" folder="Targets&gt;Nadeshiko" sort="62" />
+        <label id="880" label="" folder="Targets&gt;Nadeshiko" sort="61" />
+        <label id="881" label="" folder="Targets&gt;Nadeshiko" sort="60" />
+        <label id="882" label="" folder="Targets&gt;Mari Setogaya" sort="61" />
+        <label id="883" label="" folder="Targets&gt;Mari Setogaya" sort="62" />
+        <label id="884" label="" folder="Targets&gt;Mari Setogaya" sort="65" />
+        <label id="885" label="" folder="Targets&gt;Mari Setogaya" sort="64" />
+        <label id="886" label="" folder="Targets&gt;Mari Setogaya" sort="63" />
+        <label id="629" label="" folder="Targets&gt;Nadeshiko" sort="59" />
+        <label id="547" label="" folder="Targets&gt;Téa Gardner" sort="11" />
+        <label id="887" label="" folder="Targets&gt;Mari Setogaya" sort="60" />
+        <label id="888" label="" folder="Targets&gt;Nadeshiko" sort="9" />
+        <label id="889" label="" folder="Targets&gt;Nadeshiko" sort="18" />
+        <label id="890" label="" folder="Targets&gt;Nadeshiko" sort="28" />
+        <label id="891" label="" folder="Targets&gt;Nadeshiko" sort="10" />
+        <label id="892" label="" folder="Targets&gt;Nadeshiko" sort="19" />
+        <label id="893" label="" folder="Targets&gt;Nadeshiko" sort="29" />
+        <label id="894" label="" folder="Targets&gt;Nadeshiko" sort="21" />
         <label id="895" label="Fix her hair" folder="" sort="0" />
-        <label id="896" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="897" label="" folder="Targets&gt;Mari Setogaya" sort="0" />
-        <label id="898" label="" folder="Sponsors&gt;Spaceman&gt;Female removed accessory" sort="0" />
-        <label id="899" label="" folder="Sponsors&gt;Spaceman&gt;Female removed accessory" sort="0" />
+        <label id="896" label="" folder="Targets&gt;Mari Setogaya" sort="4" />
+        <label id="897" label="" folder="Targets&gt;Mari Setogaya" sort="66" />
+        <label id="898" label="" folder="Sponsors&gt;Spaceman&gt;Female removed accessory" sort="2" />
+        <label id="899" label="" folder="Sponsors&gt;Spaceman&gt;Female removed accessory" sort="3" />
         <label id="900" label="" folder="Sponsors&gt;Spaceman&gt;Male removed accessory" sort="0" />
+        <label id="901" label="Opponent removing jacket as last item" folder="Unusual Ordering" sort="0" />
+        <label id="902" label="Human will remove jacket as last item" folder="Unusual Ordering" sort="9" />
+        <label id="903" label="" folder="Sponsors&gt;Spaceman&gt;Male removed accessory" sort="2" />
+        <label id="904" label="" folder="Sponsors&gt;Spaceman&gt;Male removed accessory" sort="3" />
+        <label id="905" label="" folder="Sponsors&gt;Spaceman&gt;Female removing accessory" sort="2" />
+        <label id="906" label="" folder="Sponsors&gt;Spaceman&gt;Male removing accessory" sort="0" />
+        <label id="907" label="" folder="Sponsors&gt;Spaceman&gt;Male removing accessory" sort="0" />
+        <label id="908" label="" folder="Sponsors&gt;Spaceman&gt;Female removing accessory" sort="0" />
+        <label id="909" label="" folder="Sponsors&gt;Spaceman&gt;Male removing accessory" sort="2" />
+        <label id="910" label="" folder="Sponsors&gt;Spaceman&gt;Female removed accessory" sort="4" />
+        <label id="911" label="" folder="Sponsors&gt;Spaceman&gt;Male removed accessory" sort="4" />
+        <label id="912" label="" folder="Targets&gt;Kyoko Kirigiri" sort="6" />
+        <label id="913" label="" folder="Sponsors&gt;Spaceman&gt;Male removing accessory" sort="3" />
+        <label id="914" label="" folder="Sponsors&gt;Spaceman&gt;Female removing accessory" sort="3" />
+        <label id="915" label="" folder="Targets&gt;Kyoko Kirigiri" sort="9" />
+        <label id="916" label="" folder="Targets&gt;Kyoko Kirigiri" sort="11" />
+        <label id="917" label="" folder="Targets&gt;Kyoko Kirigiri" sort="13" />
+        <label id="918" label="" folder="Targets&gt;Kyoko Kirigiri" sort="10" />
+        <label id="919" label="" folder="Targets&gt;Kyoko Kirigiri" sort="12" />
+        <label id="920" label="" folder="Targets&gt;Kyoko Kirigiri" sort="14" />
+        <label id="921" label="" color="5" folder="Targets&gt;Kyoko Kirigiri" sort="16" />
+        <label id="922" label="" color="5" folder="Targets&gt;Kyoko Kirigiri" sort="18" />
+        <label id="923" label="" color="5" folder="Targets&gt;Kyoko Kirigiri" sort="22" />
     </labels>
     <prefixes>
         <prefix>custom:#-_</prefix>
         <prefix>custom:_</prefix>
     </prefixes>
     <onlyCustomPoses>true</onlyCustomPoses>
-    <nextId>900</nextId>
+    <nextId>923</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Private" name="B_">Background-related markers</marker>
@@ -960,6 +983,7 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <marker scope="Public" name="D_HardToNotLose" />
         <marker scope="Public" name="D_InventoryTime">On her birthday, Kyouko remembers that time just doesn't pass (like in her series; yes, that's canon)</marker>
         <marker scope="Public" name="D_Items">Throwing items into a game of poker</marker>
+        <marker scope="Public" name="D_JacketLast" />
         <marker scope="Public" name="D_LightningRounds" />
         <marker scope="Public" name="D_LittleCardClub" />
         <marker scope="Public" name="D_NonFutaReveal" />
@@ -1070,15 +1094,23 @@ Yes, there are two markers for this. Feel free to target whichever you like.</no
         <marker scope="Public" name="T_Jura_Strip1Laze">Self Must Strip 1</marker>
         <marker scope="Public" name="T_Jura_Strip1NotEasy">Self Stripping 1</marker>
         <marker scope="Public" name="T_Kirigiri_AsMuchFun">Kirigiri Stripped 2</marker>
+        <marker scope="Public" name="T_Kirigiri_Circle" />
         <marker scope="Public" name="T_Kirigiri_CleanUp" />
         <marker scope="Public" name="T_Kirigiri_CleanUpFollowUp" />
         <marker scope="Public" name="T_Kirigiri_CoffeeHandLine" />
+        <marker scope="Public" name="T_Kirigiri_CollegeOpp" />
+        <marker scope="Public" name="T_Kirigiri_CollegeQ" />
+        <marker scope="Public" name="T_Kirigiri_FixWorld" />
         <marker scope="Public" name="T_Kirigiri_Friendship" />
         <marker scope="Public" name="T_Kirigiri_GlovesOn">Kyoko Kirigiri Stripped 4</marker>
         <marker scope="Public" name="T_Kirigiri_IfSheLoses">Self Stripped 7</marker>
+        <marker scope="Public" name="T_Kirigiri_InCollege" />
         <marker scope="Public" name="T_Kirigiri_LuwakCoffee" />
         <marker scope="Public" name="T_Kirigiri_MasturThinking" />
+        <marker scope="Public" name="T_Kirigiri_Mirakurun" />
+        <marker scope="Public" name="T_Kirigiri_Reading" />
         <marker scope="Public" name="T_Kirigiri_SameName">Kirigiri Stripped 1</marker>
+        <marker scope="Public" name="T_Kirigiri_Selling" />
         <marker scope="Public" name="T_Kirigiri_Strip0TomatoSecret">Self Must Strip 0 (Sexy Tomato)</marker>
         <marker scope="Public" name="T_Kirigiri_ThankDealer" />
         <marker scope="Public" name="T_Kirigiri_TheKyouko">"The Kyouko has arrived!"</marker>

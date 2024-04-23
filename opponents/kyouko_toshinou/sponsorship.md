@@ -37,20 +37,21 @@
 ## Spaceman
 
 - Five lines each for:
-  - [ ] Removing accessory (male)
-  - [ ] Removing accessory (female) (1/5)
-  - [ ] Removed accessory (male) (1/5)
-  - [ ] Removed accessory (female) (3/5)
+  - [X] Removing accessory (male)
+  - [X] Removing accessory (female)
+  - [X] Removed accessory (male)
+  - [X] Removed accessory (female)
   - [X] Average hand
   - [X] Bad hand
   - [X] Removed major (male)
   - [X] Removed major (female)
   - [X] Masturbating (male)
   - [X] Masturbating (female)
-- [ ] 25 outgoing targets (17/25)
-  - Yumeko 1-2, 2-3, 3-4, 4-5, 5-6
-  - Nadeshiko 1-2, 2-3, 3-4, 4-5, 5-6, 6-7, 7-8
-  - Mari Setogaya 1-2, 2-3, 3-4, 4-5, 5-6
+- [ ] 25 outgoing targets (19/25)
+  - Yumeko (6 stages)
+  - Nadeshiko (8 stages)
+  - Mari Setogaya (starting at 1, 5 stages)
+  - Kyoko Kirigiri (starting at 1, 1/7 stages)
 - [X] 20 filters
 - (S) Tweak face a little - try reduced head size
 - (S) Casual alt
