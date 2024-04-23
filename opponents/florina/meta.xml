@@ -7,7 +7,6 @@
     <label>Florina</label>
     <pic>0-calm.png</pic>
     <gender>female</gender>
-    <height>5'5"</height>
     <from>Fire Emblem: The Blazing Blade</from>
     <writer>spnati_edit</writer>
     <artist>spnati_edit</artist>
@@ -18,6 +17,6 @@
         <costume folder="opponents/reskins/florina_easter/" img="0-calm.png" set="easter" label="Florina">Spring Rabbit</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>2629</lines>
+    <lines>2639</lines>
     <poses>204</poses>
 </opponent>

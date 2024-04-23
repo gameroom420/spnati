@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <metadata>
     <owner>florina</owner>
+    <height>5'5"</height>
+    <age />
+    <pronunciation />
+    <othernotes />
     <noteworthy>
         <case name="Ran away from men" id="4" priority="MustTarget" min="0" max="0">
             <description>Florina has run away from the room after losing for the first time, but only if there is a man present (she's terrified of men)</description>
@@ -38,6 +42,10 @@
         <response id="12" opponent="hermione" opponentId="1" />
         <response id="13" opponent="shantae" opponentId="10" />
     </responses>
+    <prefixes>
+        <prefix>ep_</prefix>
+        <prefix>wing</prefix>
+    </prefixes>
     <nextId>13</nextId>
     <markers>
         <marker scope="Public" name="2corrins">Comment about both Corrins playing</marker>
