@@ -122,8 +122,7 @@
         <note id="170">At one point, Yae Miko smugly tells the Traveler (the player character) that they can see her fox form "in [their] dreams".</note>
         <note id="178">As foretold by the Prophet Vicineko (pbuh)</note>
         <note id="240">Inazuma is in a civil war when the Inazuma story arc starts.</note>
-        <note id="277">*shaved vulva
-It is true, though Yae Miko's grooming is a choice of her model creator.</note>
+        <note id="277">[*shaved vulva] It is true, though Yae Miko's grooming is a choice of her model creator.</note>
     </notes>
     <labels>
         <label id="92" label="Necklace unlock" folder="" sort="0" />
@@ -161,23 +160,29 @@ It is true, though Yae Miko's grooming is a choice of her model creator.</note>
         <label id="254" label="" color="4" folder="" sort="0" />
         <label id="255" label="" color="4" folder="" sort="0" />
         <label id="277" label="Shaved talk" color="4" folder="" sort="0" />
-        <label id="275" label="Paramour" color="4" folder="" sort="0" />
-        <label id="276" label="Flirt Tips" color="4" folder="" sort="0" />
+        <label id="275" label="Paramour" folder="" sort="0" />
+        <label id="276" label="Flirt Tips" folder="" sort="0" />
         <label id="261" label="" color="4" folder="" sort="0" />
         <label id="263" label="" color="4" folder="" sort="0" />
-        <label id="265" label="" color="4" folder="" sort="0" />
         <label id="266" label="" color="4" folder="" sort="0" />
-        <label id="271" label="" color="4" folder="" sort="0" />
-        <label id="272" label="" color="4" folder="" sort="0" />
-        <label id="273" label="" color="4" folder="" sort="0" />
-        <label id="274" label="" color="4" folder="" sort="0" />
         <label id="278" label="" color="4" folder="" sort="0" />
         <label id="281" label="" color="4" folder="" sort="0" />
+        <label id="284" label="Butt: 2 rounds nude" folder="" sort="0" />
+        <label id="285" label="Flirt Tips 2" color="4" folder="" sort="0" />
+        <label id="286" label="Paramour 2" color="4" folder="" sort="0" />
+        <label id="287" label="" color="4" folder="" sort="0" />
+        <label id="288" label="" color="4" folder="" sort="0" />
+        <label id="289" label="" color="4" folder="" sort="0" />
+        <label id="290" label="" color="4" folder="" sort="0" />
+        <label id="291" label="" color="4" folder="" sort="0" />
+        <label id="292" label="" color="4" folder="" sort="0" />
+        <label id="293" label="" color="4" folder="" sort="0" />
+        <label id="294" label="" color="4" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>collectible_</prefix>
     </prefixes>
-    <nextId>283</nextId>
+    <nextId>295</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="9s_manufactured" />
@@ -200,6 +205,7 @@ It is true, though Yae Miko's grooming is a choice of her model creator.</note>
         <marker scope="Public" name="adrien_resp01" />
         <marker scope="Public" name="adrien_resp02" />
         <marker scope="Public" name="aqua_konosuba_hydroArchon" />
+        <marker scope="Public" name="aqua_konosuba_lowtiergod" />
         <marker scope="Public" name="arueshalae_darkToLight" />
         <marker scope="Public" name="arueshalae_darkToLight2" />
         <marker scope="Public" name="ask_yaemiko_enchantS" />
@@ -236,6 +242,7 @@ It is true, though Yae Miko's grooming is a choice of her model creator.</note>
         <marker scope="Public" name="jura_aimForFame" />
         <marker scope="Public" name="jura_aimForFame2" />
         <marker scope="Public" name="jura_aimForFame3" />
+        <marker scope="Public" name="jura_barnetteRisk" />
         <marker scope="Public" name="jura_piracy" />
         <marker scope="Public" name="jura_questionsAboutMen" />
         <marker scope="Public" name="jura_questionsAboutMen2" />
@@ -266,13 +273,16 @@ It is true, though Yae Miko's grooming is a choice of her model creator.</note>
         <marker scope="Public" name="lysithea_resp_enchantE" />
         <marker scope="Public" name="lysithea_resp_enchantI" />
         <marker scope="Public" name="lysithea_resp_enchantS" />
+        <marker scope="Public" name="lysithea_resp_flirttipsI" />
         <marker scope="Public" name="lysithea_resp_flirttipsS" />
         <marker scope="Public" name="lysithea_resp_foxyE" />
         <marker scope="Public" name="lysithea_resp_foxyI" />
         <marker scope="Public" name="lysithea_resp_foxyS" />
+        <marker scope="Public" name="lysithea_resp_paramourI" />
         <marker scope="Public" name="lysithea_resp_paramourS" />
         <marker scope="Public" name="lysithea_resp_shavedS" />
         <marker scope="Public" name="lysithea_schoolDrama" />
+        <marker scope="Public" name="lysithea_schoolDrama2" />
         <marker scope="Public" name="mari_piano" />
         <marker scope="Public" name="mari_setogaya_funActivities" />
         <marker scope="Public" name="mari_setogaya_resp_cuteFluffyEars" />
@@ -291,6 +301,7 @@ It is true, though Yae Miko's grooming is a choice of her model creator.</note>
         <marker scope="Public" name="mari_setogaya_resp_vampireNovel2" />
         <marker scope="Public" name="mari_setogaya_resp_vampireNovel3" />
         <marker scope="Public" name="mari_setogaya_succubiSlander" />
+        <marker scope="Public" name="meia_lossStatus" />
         <marker scope="Public" name="meia_mejareNature" />
         <marker scope="Public" name="meia_mejareRomance" />
         <marker scope="Public" name="meia_mejareRomance2" />
@@ -342,6 +353,8 @@ It is true, though Yae Miko's grooming is a choice of her model creator.</note>
         <marker scope="Public" name="monika_otherworldly3" />
         <marker scope="Public" name="moon_notice" />
         <marker scope="Public" name="nagisa_leyLineDisorder" />
+        <marker scope="Public" name="natsuki_impersonator" />
+        <marker scope="Public" name="natsuki_insecurities" />
         <marker scope="Public" name="nickname" />
         <marker scope="Public" name="nonon_music" />
         <marker scope="Public" name="nonon_music2" />
@@ -390,6 +403,7 @@ It is true, though Yae Miko's grooming is a choice of her model creator.</note>
         <marker scope="Public" name="sucrose_resp_languages" />
         <marker scope="Public" name="sucrose_selected" />
         <marker scope="Public" name="sucrose_thoma" />
+        <marker scope="Public" name="toph_heroLegends" />
         <marker scope="Public" name="toph_visions" />
         <marker scope="Public" name="yae_miko_adventurer1" />
         <marker scope="Public" name="yae_miko_adventurer2" />
@@ -405,6 +419,10 @@ It is true, though Yae Miko's grooming is a choice of her model creator.</note>
         <marker scope="Public" name="yae_miko_detective2" />
         <marker scope="Public" name="yae_miko_fighter1" />
         <marker scope="Public" name="yae_miko_fighter2" />
+        <marker scope="Public" name="yae_miko_flash4" />
+        <marker scope="Public" name="yae_miko_flash4_boob" />
+        <marker scope="Public" name="yae_miko_flash4_underwear" />
+        <marker scope="Public" name="yae_miko_flash5" />
         <marker scope="Public" name="yae_miko_holdUntilTold" />
         <marker scope="Public" name="yae_miko_idol1" />
         <marker scope="Public" name="yae_miko_idol2" />
@@ -418,6 +436,7 @@ It is true, though Yae Miko's grooming is a choice of her model creator.</note>
         <marker scope="Public" name="yae_miko_model2" />
         <marker scope="Public" name="yae_miko_necklace_check" />
         <marker scope="Public" name="yae_miko_playerOralTease" />
+        <marker scope="Public" name="yae_miko_playerOralTease2" />
         <marker scope="Public" name="yae_miko_playerTofu" />
         <marker scope="Public" name="yae_miko_playerTofu2" />
         <marker scope="Public" name="yae_miko_shut_in1" />
@@ -426,6 +445,7 @@ It is true, though Yae Miko's grooming is a choice of her model creator.</note>
         <marker scope="Public" name="yae_miko_shy2" />
         <marker scope="Public" name="yae_miko_spy1" />
         <marker scope="Public" name="yae_miko_spy2" />
+        <marker scope="Public" name="yae_miko_stripSuggestIgnore" />
         <marker scope="Public" name="yae_miko_student" />
         <marker scope="Public" name="yae_miko_student1" />
         <marker scope="Public" name="yae_miko_student1b" />
