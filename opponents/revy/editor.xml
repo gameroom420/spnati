@@ -444,8 +444,9 @@
         <label id="610" label="" color="4" folder="" sort="0" />
         <label id="611" label="" color="4" folder="" sort="0" />
         <label id="612" label="" color="4" folder="" sort="0" />
+        <label id="613" label="" color="4" folder="" sort="0" />
     </labels>
-    <nextId>612</nextId>
+    <nextId>613</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="aaravi0" />
@@ -993,6 +994,7 @@
         <marker scope="Public" name="kyoko_kirigiri0" />
         <marker scope="Public" name="kyou_mg0" />
         <marker scope="Public" name="kyou0" />
+        <marker scope="Public" name="kyouko_ms0" />
         <marker scope="Public" name="kyouko_st0" />
         <marker scope="Public" name="kyouko0" />
         <marker scope="Public" name="laevatein_bb0" />

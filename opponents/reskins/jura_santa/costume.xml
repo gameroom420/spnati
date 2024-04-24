@@ -1657,6 +1657,87 @@
             <sprite id="smug" src="reskins/jura_santa/7-smug.png" x="0" y="0" />
             <sprite id="annoyed" src="reskins/jura_santa/annoyed.png" x="5" y="666" rotation="-1" />
         </pose>
+        <pose id="8-suspicious">
+            <sprite id="proud" src="reskins/jura_santa/8-disgusted.png" x="0" y="0" />
+            <sprite id="suspicious" src="reskins/jura_santa/suspicious.png" x="1" y="784" rotation="0" />
+        </pose>
+        <pose id="7-suspicious">
+            <sprite id="proud" src="reskins/jura_santa/7-disgusted.png" x="0" y="0" />
+            <sprite id="suspicious" src="reskins/jura_santa/suspicious.png" x="1" y="767" rotation="0" />
+        </pose>
+        <pose id="6-suspicious">
+            <sprite id="proud" src="reskins/jura_santa/6-proud.png" x="0" y="0" />
+            <sprite id="suspicious" src="reskins/jura_santa/suspicious.png" x="2" y="177" rotation="1" />
+        </pose>
+        <pose id="5-suspicious">
+            <sprite id="proud" src="reskins/jura_santa/5-proud.png" x="0" y="0" />
+            <sprite id="suspicious" src="reskins/jura_santa/suspicious.png" x="2" y="177" rotation="1" />
+        </pose>
+        <pose id="4-suspicious">
+            <sprite id="proud" src="reskins/jura_santa/4-proud.png" x="0" y="0" />
+            <sprite id="suspicious" src="reskins/jura_santa/suspicious.png" x="2" y="177" rotation="1" />
+        </pose>
+        <pose id="3-suspicious">
+            <sprite id="proud" src="reskins/jura_santa/3-proud.png" x="0" y="0" />
+            <sprite id="suspicious" src="reskins/jura_santa/suspicious.png" x="2" y="177" rotation="1" />
+        </pose>
+        <pose id="2-suspicious">
+            <sprite id="proud" src="reskins/jura_santa/2-proud.png" x="0" y="0" />
+            <sprite id="suspicious" src="reskins/jura_santa/suspicious.png" x="2" y="177" rotation="1" />
+        </pose>
+        <pose id="1-suspicious">
+            <sprite id="proud" src="reskins/jura_santa/1-proud.png" x="0" y="0" />
+            <sprite id="suspicious" src="reskins/jura_santa/suspicious.png" x="2" y="177" rotation="1" />
+        </pose>
+        <pose id="0-suspicious">
+            <sprite id="proud" src="reskins/jura_santa/0-proud.png" x="0" y="0" />
+            <sprite id="suspicious" src="reskins/jura_santa/suspicious.png" x="2" y="177" rotation="1" />
+        </pose>
+        <pose id="0-suspicioussilent">
+            <sprite id="proud" src="reskins/jura_santa/0-proud.png" x="0" y="0" />
+            <sprite id="suspicious" src="reskins/jura_santa/suspicious.png" x="2" y="177" rotation="1" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="1" y="253" />
+        </pose>
+        <pose id="1-suspicioussilent">
+            <sprite id="proud" src="reskins/jura_santa/1-proud.png" x="0" y="0" />
+            <sprite id="suspicious" src="reskins/jura_santa/suspicious.png" x="2" y="177" rotation="1" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="1" y="253" />
+        </pose>
+        <pose id="2-suspicioussilent">
+            <sprite id="proud" src="reskins/jura_santa/2-proud.png" x="0" y="0" />
+            <sprite id="suspicious" src="reskins/jura_santa/suspicious.png" x="2" y="177" rotation="1" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="1" y="253" />
+        </pose>
+        <pose id="3-suspicioussilent">
+            <sprite id="proud" src="reskins/jura_santa/3-proud.png" x="0" y="0" />
+            <sprite id="suspicious" src="reskins/jura_santa/suspicious.png" x="2" y="177" rotation="1" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="1" y="253" />
+        </pose>
+        <pose id="4-suspicioussilent">
+            <sprite id="proud" src="reskins/jura_santa/4-proud.png" x="0" y="0" />
+            <sprite id="suspicious" src="reskins/jura_santa/suspicious.png" x="2" y="177" rotation="1" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="1" y="253" />
+        </pose>
+        <pose id="5-suspicioussilent">
+            <sprite id="proud" src="reskins/jura_santa/5-proud.png" x="0" y="0" />
+            <sprite id="suspicious" src="reskins/jura_santa/suspicious.png" x="2" y="177" rotation="1" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="1" y="253" />
+        </pose>
+        <pose id="6-suspicioussilent">
+            <sprite id="proud" src="reskins/jura_santa/6-proud.png" x="0" y="0" />
+            <sprite id="suspicious" src="reskins/jura_santa/suspicious.png" x="2" y="177" rotation="1" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="1" y="253" />
+        </pose>
+        <pose id="8-suspicioussilent">
+            <sprite id="proud" src="reskins/jura_santa/8-disgusted.png" x="0" y="0" />
+            <sprite id="suspicious" src="reskins/jura_santa/suspicious.png" x="1" y="784" rotation="0" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="1" y="860" rotation="-1" />
+        </pose>
+        <pose id="7-suspicioussilent">
+            <sprite id="proud" src="reskins/jura_santa/7-disgusted.png" x="0" y="0" />
+            <sprite id="suspicious" src="reskins/jura_santa/suspicious.png" x="1" y="767" rotation="0" />
+            <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="1" y="843" rotation="-1" />
+        </pose>
     </poses>
 
 </costume>
