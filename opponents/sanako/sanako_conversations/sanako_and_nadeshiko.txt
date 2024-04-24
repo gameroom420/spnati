@@ -68,14 +68,14 @@ Nadeshiko []*: ??
 
 NADESHIKO MUST STRIP VEST AND GLOVES:
 Sanako [sanako_nadeshiko_sn_n1]: Nadeshiko, aren't you getting warm under all those layers? We wouldn't want you to overheat, would we?
-Nadeshiko []*: ??
+Nadeshiko [Nade_Sanako_Comfy]: It is a little on the warm side, but it's honestly pretty comfy! Besides, I'm about to get rid of all of this anyway!
 
 NADESHIKO STRIPPING VEST AND GLOVES:
-Sanako []*: ??
+Sanako [sanako_nadeshiko_sn_n2]: That vest does look extra snuggly! I'm sure you get a lot of extra hugs in that.
 Nadeshiko []*: ??
 
 NADESHIKO STRIPPED VEST AND GLOVES:
-Sanako []*: ??
+Sanako [sanako_nadeshiko_sn_n3]*: ??
 Nadeshiko []*: ??
 
 

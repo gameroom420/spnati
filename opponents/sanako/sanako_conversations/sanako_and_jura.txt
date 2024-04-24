@@ -207,8 +207,9 @@ Jura [sanako4]: <i>This is it,</i> Sanako!  You'll be revealing the <i>darkest, 
 Sanako [sanako_jura_js_s13]: Whatever could you mean, Jura? Ehe. Well, let's not strip back <i>all</i> my mystery, even if you're stripping me bare...
 
 SANAKO STRIPPING PANTIES:
-Jura []*: ??
-Sanako [sanako_jura_js_s14]*: ??
+Jura [sanako45]: That's just my sense of things!  And clearly I wasn't wrong.  Keeping secrets is just feeding rumors, you know.
+  OR [sanako45]: I have a sixth sense for gossip.  But you see, <i>I'm</i> never the subject of any.  That's because I make things <i>known.</i>
+Sanako [sanako_jura_js_s14]: I'm sorry! This is about as open as I can get to~background.time~. Although, in another way, I'll open up even further in just a moment, ehehe...
 
 SANAKO STRIPPED PANTIES:
 Jura []*: ??
@@ -281,22 +282,23 @@ Jura [sanako_resp34right]: Oh, any <i>enjoyment</i> will be on friendly ground, 
 Sanako [sanako_jura_js_j11]: All's fair in love and war, as they say. And if you find the right man, your days will be filled with both.
 
 JURA STRIPPED CHOKER BELT:
-Jura []*: ??
-Sanako [sanako_jura_js_j12]*: ??
+Jura [sanako_resp4s_right]: ...So Mejare's really just carrying on a proud tradition.
+  OR [sanako_resp4s_right]: ...I take it this <i>conflict</i> of ours has always been with us.
+Sanako [sanako_jura_js_j12]: A tradition as old as time itself, I'm afraid!
 
 
 JURA MUST STRIP DRESS:
 Jura [sanako_resp4right]: <i>Barneeeette...</i>it's time!  Come over here.<br>...<i>Sanako,</i> polish those glasses!  The <i>cake's</i> about to steam them.
   OR [sanako_resp4right]: You hear that, Sanako?  Your <i>oven timer</i> just rang.  Grab some gloves, and Barnette'll get the camera---this is going to be <i>hot.</i>
-Sanako []*: ??
+Sanako [sanako_jura_js_j13]: Oooh! Going to add a little extra sizzle to ~background.if.day(proceedings|tonight)~, are we?
 
 JURA STRIPPING DRESS:
 Jura []*: ??
-Sanako []*: ??
+Sanako [sanako_jura_js_j14]*: ??
 
 JURA STRIPPED DRESS:
 Jura []*: ??
-Sanako []*: ??
+Sanako [sanako_jura_js_j15]*: ??
 
 
 JURA MUST STRIP THONG: and Nagisa absent
@@ -325,10 +327,10 @@ Nagisa [nagisa_jura_sanako__jsnj16]: ??
 
 JURA STRIPPING THONG: and Nagisa present
 Nagisa [nagisa_jura_sanako_njs_j17]*: ??
-Jura [sanako_resp56right]*: ??
-  OR [sanako_resp56right]*: ??
+Jura [sanako_resp56right_nagisa]: That's a nice thought, Sanako.  It hasn't been put to the test much.  After all, we're Magno's...<i>Family.</i>
+  OR [sanako_resp56right_nagisa]: ...<i>Hmmm.</i>  The thing is, Sanako, <i>Magno's Family</i> is never apart...maybe you can understand.
 Nagisa [nagisa_jura_sanako_jns_j17]*: ??
-Sanako [sanako_jura_nagisa_js_j17]*: ??
+Sanako [sanako_jura_nagisa_js_j17]: This <i>is</i> pretty salacious for a family activity... but if your intentions are pure, I'm sure nobody would hold it against you.
 Nagisa [nagisa_jura_sanako_jsn_j17]*: ??
 
 JURA STRIPPED THONG: and Nagisa present

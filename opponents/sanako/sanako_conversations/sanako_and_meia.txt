@@ -28,19 +28,21 @@ Meia [sanako12left]: ...That's a good way to put it.  You have to grow up whethe
 
 SANAKO STRIPPED SHIRT:
 Sanako [sanako_meia_sm_s6]: But being all grown up isn't so bad. It just means you get to be cute in all new ways.
-Meia []*: ??
+Meia []: Most girls would say "<i>have fun</i> in all new ways."
+  OR []: Or maybe exchange "cute" for "hot."
 
 
 SANAKO MUST STRIP SKIRT:
-Sanako []*: ??
-Meia []*: ??
+Sanako [sanako_meia_sm_s7]: My neighbors would be pretty shocked if they knew I was gallivanting around here in my underwear. So let's just let this be our little secret, okay?
+Meia [sanako2left]: ...Are you saying Earth is prude about this sort of thing?
+  OR [sanako2left]: So the culture here sees this as pretty risqué?
 
 SANAKO STRIPPING SKIRT:
-Sanako []*: ??
+Sanako [sanako_meia_sm_s8]*: ??
 Meia []*: ??
 
 SANAKO STRIPPED SKIRT:
-Sanako []*: ??
+Sanako [sanako_meia_sm_s9]*: ??
 Meia []*: ??
 
 
@@ -72,7 +74,7 @@ Meia []*: ??
 ---
 
 MEIA MUST STRIP HEADPIECE:
-Sanako [sanako_meia_sm_m1]: Who else thinks it's time that that Meia sharing a bit more with the class?
+Sanako [sanako_meia_sm_m1]: Who else thinks it's time that that Meia started sharing a bit more with the class?
 Meia [sanako_resp0]: ...This is more than I <i>ever</i> talk, Sanako.  What do you want?
   OR [sanako_resp0]: If you want to know something, Sanako, just ask.
 
@@ -105,11 +107,13 @@ Meia []: ...I certainly burn off all my fat.
 
 MEIA MUST STRIP BODYSUIT:
 Sanako [sanako_meia_sm_m7]: You seem so comfortable in your own skin, Meia. Not all girls could say the same.
-Meia []*: ??
+Meia [sanako_resp2]: ...When you fight, Sanako, your body's like any other weapon.  You have to be familiar with it.
+  OR [sanako_resp2]: Thank you, Sanako.  It's probably a combat thing---fighters have to get to know their bodies.
 
 MEIA STRIPPING BODYSUIT:
-Sanako [sanako_meia_sm_m8]*: ??
-Meia []*: ??
+Sanako [sanako_meia_sm_m8]: I suppose it helps to live among likeminded ladies! But I get the feeling that even being among strangers doesn't faze you.
+Meia [sanako_resp23]: ...Until recently, strangers were all still "ladies."
+  OR [sanako_resp23]: ...Not <i>female</i> strangers, no.
 
 MEIA STRIPPED BODYSUIT:
 Sanako [sanako_meia_sm_m9]*: ??
@@ -201,11 +205,13 @@ Meia [sanako3]: Don't take this the wrong way, but...you remind me of my mother.
 Sanako [sanako_meia_ms_s10]: I'm sure you had lots of moms watching over you if you grew up with only ladies, Meia. We all get to that stage eventually.
 
 SANAKO STRIPPING BRA:
-Meia []*: ??
-Sanako [sanako_meia_ms_s11]*: ?? -- not sure if I can fit in a comment about breastfeeding here, but this is my reminder
+Meia [sanako34]: ...Sometimes unexpectedly.  I had to babysit for a crewmate, and now the baby keeps sucking on my chest.
+  OR [sanako34]: ...I feel it happening.  Our crewmate's baby has taken a liking to me...the other day, she tried to breastfeed.
+Sanako [sanako_meia_ms_s11]: Aren't little ones just so precious? They'll latch on to anything they can, even if it's much too early for milk.
 
 SANAKO STRIPPED BRA:
-Meia []*: ??
+Meia [sanako4s]: ...Maybe it's not just <i>my</i> mother you're like.
+  OR [sanako4s]: Do you have your own experience with that?
 Sanako [sanako_meia_ms_s12]*: ??
 
 
@@ -283,22 +289,25 @@ Meia [sanako_resp23right]: ...I've never kept my body a mystery.
 Sanako [sanako_meia_ms_m8]: Oh, I see. You were just trying to distract us from something more important. Nice try, missy!
 
 MEIA STRIPPED BODYSUIT:
-Meia []*: ??
-Sanako [sanako_meia_ms_m9]*: ??
+Meia [sanako_resp3s_right]: She's not a security risk, is she, Pyoro?<hr>{pyoro}No, nothing like that.  Just---{!reset}<hr>Then let her have her secrets.
+  OR [sanako_resp3s_right]: {pyoro}I'm back!  Now, about Miss Sanako---{!reset}<hr>Unless she's a threat, don't tell us.
+Sanako [sanako_meia_ms_m9a] if not yet topless: <i>(This might be the last time I can get away with dressing up like this if age-detection robots get popular. Not that I could hold a candle to a young beauty like Meia anymore...)</i>
+    OR [sanako_meia_ms_m9b] if topless or more: <i>(I wonder it that age-detecting robot would still work if I had my clothes on. Laid bare, I suppose I just can't compare to the youthful advantage of someone like Meia anymore.)</i>
 
 
 MEIA MUST STRIP BRA:
 Meia [sanako_resp3right]: ...My mother knew I was like this.  I just wonder if she thought I'd outgrow it, or if I'd really end up a criminal, stripping for strangers.
   OR [sanako_resp3right]: I was a troublemaker growing up.  Mom always said troublemakers end up in seedy places like this.  I wonder if she ever thought I'd go this far with it.
-Sanako []*: ??
+Sanako [sanako_meia_ms_m10]: I can't say it’s any mother's <i>dream</i> to see her girl get mixed up in a game like this. But I'm sure she just wanted you to be safe and happy. Moms just can't help watching over their kids, even if sometimes they're a little overprotective.
 
 MEIA STRIPPING BRA:
-Meia []*: ??
-Sanako []*: ??
+Meia [sanako_resp34right]: That's what I mean, Sanako.  It might be in my nature to take risks...and be gloomy.
+  OR [sanako_resp34right]: I know, Sanako...but I always seem to run away from "safe and happy."
+Sanako [sanako_meia_ms_m11]*: ??
 
 MEIA STRIPPED BRA:
 Meia []*: ??
-Sanako []*: ??
+Sanako [sanako_meia_ms_m12]*: ??
 
 
 MEIA MUST STRIP SHORTS:
