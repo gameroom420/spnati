@@ -402,7 +402,7 @@
         <label id="333" label="" folder="Targets" sort="0" />
         <label id="334" label="" folder="Targets" sort="0" />
     </labels>
-    <nextId>334</nextId>
+    <nextId>335</nextId>
     <markers>
         <marker scope="Public" name="apronOn" />
         <marker scope="Public" name="BarbaraCombo" />
@@ -439,6 +439,7 @@
         <marker scope="Public" name="estelle42" />
         <marker scope="Public" name="estelle51" />
         <marker scope="Public" name="estelle52" />
+        <marker scope="Public" name="estelleBrush" />
         <marker scope="Public" name="forfeitHelp" />
         <marker scope="Public" name="ganyu00" />
         <marker scope="Public" name="ganyu01" />
