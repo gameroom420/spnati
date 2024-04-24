@@ -1126,7 +1126,8 @@
                 <state img="custom:idea" weight="3">…Why does it look like there’s another of me over there?</state>
                 <state img="custom:stern" weight="3">…Is that…another me?</state>
                 <state img="custom:think" weight="3">&lt;i&gt;(…Who’s that over there, and why does she look just like me?)&lt;/i&gt;</state>
-                <state img="custom:smug" marker="+quips" weight="6">Hello, “Kyoko Kirigiri.” My name is Kyoko Kirigiri.</state>
+				<state img="custom:think" weight="5">Looks like I’m already here. What’s going on?</state>
+                <state img="custom:smug" marker="+quips" weight="5">Hello, “Kyoko Kirigiri.” My name is Kyoko Kirigiri.</state>
             </case>
             <case stage="0" id="1620" oneShotId="1335" priority="50">
                 <test expr="~background~" value="inventory" />
@@ -6954,6 +6955,30 @@
         </trigger>
 
         <trigger id="stripped">
+			<case stage="5" priority="0">
+				<test expr="~self.costume~" value="default" />
+				<alternative>
+					<condition role="opp" filterAdv="bisexual|bi-curious|reverse_bi-curious" var="opp1" />
+				</alternative>
+				<alternative>
+					<condition role="opp" gender="male" filter="straight" var="opp1" />
+				</alternative>
+				<alternative>
+					<condition role="opp" gender="female" filter="lesbian" var="opp1" />
+				</alternative>
+				<state img="custom:#-stripped_a">How do I look, ~opp1~? It’s not a look I exactly wear…&lt;i&gt;ever&lt;/i&gt;…</state>
+			</case>
+			<case stage="5" id="2599">
+				<test expr="~self.costume~" value="default" />
+				<test expr="~PLAYER~" value="IF I MAY" />
+				<test expr="~human.compatible(self)~" cmp="!=" value="false" />
+				<state img="custom:#-stripped_c">
+					<text>…&lt;i&gt;If&lt;/i&gt; you’re paying attention, you &lt;i&gt;may&lt;/i&gt; want to wipe your chin.</text>
+					<markers>
+						<marker name="quips" op="+" value="1" />
+					</markers>
+				</state>
+			</case>
             <case stage="7-8" id="1263" priority="502">
                 <condition status="crotch_visible" role="self" />
                 <condition role="opp" character="maria" saying="spin around and show us that butt of yours" />
@@ -8315,6 +8340,23 @@
         </trigger>
 
         <trigger id="male_removed_major">
+            <case stage="0-10" id="2592" priority="0">
+                <test expr="~clothing.position~" value="lower" />
+                <state img="custom:smug">
+                    <alt-img stage="5-8 10">custom:calmer2</alt-img>
+                    <text>Don’t be afraid to model a few different angles, ~name~. I’m happy to gaze at your legs.</text>
+                </state>
+            </case>
+            <case stage="0-8" id="2593" priority="0">
+                <test expr="~clothing.position~" value="upper" />
+                <test expr="~revealed~" cmp="!=" value="~blank~" />
+                <test expr="~revealed~" cmp="!=" value="0" />
+                <test expr="~revealed~" cmp="!=" value="undefined" />
+                <!-- Hopefully one of these is right. It's supposed to check that ~revealed~ is a real piece of clothing -->
+                <state img="custom:smug">
+                    <text>So, you’re making me work for your ~marker.V_revealed~? That’s not a problem. I can beat you again.</text>
+                </state>
+            </case>
             <case stage="0-8 10" id="814" priority="502">
                 <condition role="self" saidMarker="humanWearingCaseBriefs" />
                 <condition role="target" character="human" />
@@ -8416,6 +8458,12 @@
         </trigger>
 
         <trigger id="female_removed_major">
+            <case stage="0-10" id="2591">
+                <state img="custom:#-calmer2">
+                    <alt-img stage="9">custom:#-mast_b</alt-img>
+                    <text>Ehe… Well, it’s not a bad look.</text>
+                </state>
+            </case>
             <case stage="8 10" id="807">
                 <condition filter="trimmed" role="self" saidMarker="humanWearingCaseBriefs" notSaidMarker="caseBriefsTrimComment" />
                 <condition filter="hairy" role="target" character="human" />
@@ -11428,6 +11476,22 @@
         </trigger>
 
         <trigger id="opponent_stripping">
+			<case stage="0-8 10" id="2588">
+				<condition role="target" filter="clothing_destruction" />
+				<condition role="self" notSaidMarker="ripAndTear" />
+				<state img="custom:stern" marker="ripAndTear=1">…You’re committed to this, aren’t you?</state>
+			</case>
+			<case stage="0-4" id="2589" totalRounds="0-4">
+				<condition role="target" filter="clothing_destruction" />
+				<condition role="self" notSaidMarker="clothing404" />
+				<state img="custom:awe" marker="clothing404=r">…Are you seeing that too, ~player~?</state>
+			</case>
+			<case stage="0-4" id="2590" totalRounds="0-4">
+				<condition role="target" filter="clothing_destruction" />
+				<condition role="self" notSaidMarker="clothing404" />
+				<test expr="~target.position~" value="left" />
+				<state img="custom:stern" marker="clothing404=l">…Did you see that too, ~player~?</state>
+			</case>
 			<case stage="0-8 10" id="2572">
 				<condition role="target" characetr="caitlin" stage="1" />
 				<test expr="~target.costume~" value="default" />
@@ -14449,6 +14513,42 @@
         </trigger>
 
         <trigger id="opponent_stripped">
+			<case stage="0-8" id="2594" priority="0">
+				<test expr="~clothing.type~" value="minor" />
+				<state marker="+quips" img="custom:calm">The sight of ~clothing.ifPlural(them|it)~ on the ~background.surface~ is a good visual indication of your performance…</state>
+			</case>
+			<case stage="0-8" id="2595" priority="0">
+				<test expr="~clothing.type~" value="minor" />
+				<alternative>
+					<condition role="other" status="not_masturbating" var="opp1" />
+				</alternative>
+				<alternative>
+					<condition role="other" status="not_masturbating" character="human" var="opp1" />
+				</alternative>
+				<state img="custom:smug">What do you see, ~opp1~? &lt;i&gt;I&lt;/i&gt; see progress.</state>
+			</case>
+			<case stage="0-8" id="2596" priority="0">
+							<test expr="~clothing.type~" value="minor" />
+                <test expr="~revealed~" cmp="!=" value="~blank~" />
+                <test expr="~revealed~" cmp="!=" value="0" />
+                <test expr="~revealed~" cmp="!=" value="undefined" />
+				<state img="custom:#-calmer2">Hope you’re okay with the idea of losing your ~marker.V_revealed~, ~name~. Otherwise, I’d start playing better.</state>				
+			</case>
+			<case stage="0-8" id="2597" priority="0">
+				<test expr="~clothing.type~" value="minor" />			
+				<test expr="~clothing.position~" value="lower" />
+                <test expr="~revealed~" cmp="!=" value="~blank~" />
+                <test expr="~revealed~" cmp="!=" value="0" />
+                <test expr="~revealed~" cmp="!=" value="undefined" />
+				<state img="custom:think">Thought there might’ve been something like ~revealed.ifPlural(those|that)~ under your ~marker.V_clothing~.</state>				
+			</case>
+			<case stage="0-8" id="2598" priority="0">
+				<test expr="~clothing.type~" value="extra" />	
+				<state img="custom:think">You can only take off things like ~clothing.ifPlural(that|those)~ so many times…</state>
+				<state img="custom:calm">That’s fine with me. You’ll run out eventually, though.</state>
+				<state img="custom:smug">Ready to lose again?</state>
+				<state img="custom:calm">I hope you’re ready to lose more than that.</state>				
+			</case>
 			<case stage="0-8 10" id="2575">
 				<condition role="target" character="ms.fortune" stage="3" />
 				<state img="custom:think" marker="nadia_headDrop=a">

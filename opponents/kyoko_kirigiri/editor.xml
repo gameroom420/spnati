@@ -2691,7 +2691,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="2566" label="Bobobo 5-3B" color="3" folder="Targeted&gt;Outbounds&gt;Stage 5" />
         <label id="2567" label="Emi 7-2" folder="Targeted&gt;Outbounds&gt;Stage 7" />
         <label id="2568" label="Emi 7-3" folder="Targeted&gt;Outbounds&gt;Stage 7" />
-        <label id="2569" label="" folder="Filtered" />
+        <label id="2569" label="" folder="Sponsorships&gt;?" />
 		<label id="2570" label="ZP: Zeke penetration" folder="Targeted&gt;Outbounds&gt;Forfeit" />
 		<label id="2571" label="Lucina unmasks" folder="Targeted&gt;Outbounds&gt;Stage 0" />
 		<label id="2572" label="Caitlin 1-2" folder="Targeted&gt;Outbounds&gt;Stage 1" />
@@ -2710,6 +2710,18 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
 		<label id="2585" label="Bad Revy! 2" folder="Targeted&gt;Trio&gt;Jura+Revy" /> 
 		<label id="2586" label="Bad Revy! 3" color="4" folder="Targeted&gt;Trio&gt;Jura+Revy" /> 
 		<label id="2587" label="Bad Revy! 4" folder="Targeted&gt;Trio&gt;Jura+Revy" /> 
+        <label id="2588" label="" folder="Sponsorships&gt;?" /> <!-- Cl. destruction -->
+        <label id="2589" label="" folder="Sponsorships&gt;?" /> <!-- Vanishes, r. 0-4 -->
+        <label id="2590" label="" folder="Sponsorships&gt;?" /> <!-- Above but on left -->
+        <label id="2591" label="" folder="Sponsorships&gt;Polo" /> <!-- F major -->
+        <label id="2592" label="" folder="Sponsorships&gt;Polo" /> <!-- M major lower -->       
+        <label id="2593" label="" folder="Sponsorships&gt;Polo" /> <!-- M major upper -->        
+        <label id="2594" label="" folder="Sponsorships&gt;Polo" /> <!-- Minor generic -->    
+        <label id="2595" label="" folder="Sponsorships&gt;Polo" /> <!-- Minor ft. other -->       
+        <label id="2596" label="" folder="Sponsorships&gt;Polo" /> <!-- Minor ft. revealed -->    
+        <label id="2597" label="" folder="Sponsorships&gt;Polo" /> <!-- Minor ft. revealed, lower -->    
+        <label id="2598" label="" folder="Sponsorships&gt;Polo" /> <!-- Extra -->        
+        <label id="2599" label="May I?" folder="Antics" />        
     </labels>
     <prefixes>
         <prefix>#-aside</prefix>
@@ -2740,7 +2752,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
     <posePreviewMarkers>
         <posePreviewMarker>hair==1</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>2587</nextId>
+    <nextId>2599</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="." />
@@ -3839,5 +3851,6 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <line>Feet line wearing dress/skirt -- I could tell her to take caution not to show off more than she needs to. But why would I do that?</line>
         <line>Lines when gloves just came off when someone has already been eliminated</line>
         <line>NATASHA: By the way, a hotdog is not a sandwich. Nor are tacos, lunch wraps, or hamburgers. Whatever argument you have against this is incorrect.</line>
+        <line>I try to think with my head rather than be ruled by my heart…but maybe I should try listening to my clitoris.</line>
     </pendingLines>
 </metadata>

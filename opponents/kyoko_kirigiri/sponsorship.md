@@ -1,13 +1,15 @@
 # Sponsorship requirements for Kyoko Kirigiri
 Welcome to my darkness.
+Also, some of this markdown isn’t well-formed, sue me, I had to update it while using a busted projector or a computer I don’t own. I’ll make it nicer when it’s actually QA time.
 
 # Guide for MOD QA
-- You’ll want to keep this document and Kyoko’s behaviour.xml both open in a plain text viewer like Notepad or Firefox.
+- You’ll want to keep this document and Kyoko’s behaviour.xml both open in a plain text viewer, IDE, or web browser.
     - While doing this, this document is designed for ease of use to use Ctrl+F.
-    - Kyoko’s folders are complicated and Rem’s sponsorship alone is 158 lines, so this is the recommended method.
+    - Kyoko’s folders are complicated and one of the sponsorships used to be 158 lines on its own, so this is the recommended method.
 - This document quotes example lines needed to fill each requirement (except Rem’s targeted linecount).
     - These lines are shown as they appear in behaviour.xml, and can be cross-referenced with Ctrl+F.
     - Each sponsorship marks each example line filling the minimum requirements for that sponsor with a unique bullet character:
+        - Over-Fly:     Question mark.
         - Insiduani:    Percentage symbol.
         - Tweetsie:     Dollar sign.
         - BlueKoin:     Ampersand.
@@ -20,16 +22,18 @@ Welcome to my darkness.
 - Good luck!
 
 # INSIDUANI -- 10-15 lines
- - [ ] 10-15 hand lines containing questions or prompts. Follow up replies are encouraged, but not necessary. -- Insiduani and Tweetsie
-        - 2?/20 total
+ - [ ] 10-15 hand lines containing questions or prompts. Follow up replies are encouraged, but not necessary.
+    - 1/10 total
         - On hand line:
         - Undead
-        - Chuunibyou
         % I’m a bit curious how the piercings affect your sensation there, ~female~… Perhaps you’ll demonstrate for us when you lose?
+        % 
 
-# TWEETSIE -- 40 lines
+# TWEETSIE -- at least 16/40 lines, 40%
  - [ ] 30 targeted lines where Kyoko investigates other characters, mainly by asking them questions.
-    - 15/30
+    - 16 (18?)/30
+        - Target: Sakura
+		$ There’s something to be said about your disposition, ~sakura~. That scar doesn’t tell the story of a clean death…was it an accident?
         - Target: Yumeko
         $ …~Yumeko~. Do you frequent places like this?
         $ So, ~yumeko~, what brings you to play with less-moneyed people here? I don’t doubt you like the promise of nudity, but is that all?
@@ -47,20 +51,49 @@ Welcome to my darkness.
             - How far have you gone? How much have you suffered? …What have you inflicted on others?
         $ (Following the above) Nobody’s forcing you to answer. If you don’t want to talk, then don’t.
         $ I’m <i>very</i> interested in hearing what your idea of respect for someone’s life is, Yumeko Jabami.
+        - Target: Aoi
+        $ …How sensitive are your breasts, Hina?
+        $ I’ve got to say, I never thought you’d do this so proudly. I’m exciting you, aren’t I?
     - Needs further tallying
  - [ ] 10 generics that can work as question prompts.
         - Overlaps with Insiduani’s sponsorship.
         - For instance, asking the table questions like "How exactly did you find the Inventory," or "What made you want to play the game", as generic examples.
 
 # BLUEKOIN -- 20 lines
- - [ ] 20 lines for the opponent removing/removed extra/minor/major cases of the nature of leaning into Kyoko's inquisitiveness and having her ask questions about what the opponent is taking off, things like "Do you wear that often?" or maybe "How long have you had that?" -- BlueKoin
-
-# POLO -- 35 lines
+ - [ ] 20 lines for the opponent removing/removed extra/minor/major cases of the nature of leaning into Kyoko's inquisitiveness and having her ask questions about what the opponent is taking off, things like "Do you wear that often?" or maybe "How long have you had that?"
+        - Lingerie - if it's special for tonight
+            - Lingerie + seductive?
+            - Lingerie + innocent?
+            - A bold choice of underwear for someone like you, ~name~… Seems to me like you only wore that because you knew we’d see it. Are you expecting to lose?
+                - Nonetheless, it’s quite cute.
+        - Thong
+            - Thong + innocent (shimakaze/paya)
+            - If seduction is what you’re after, you could show your body off plenty just by losing… Did you dress to distract us, ~name~?
+            - I wouldn’t normally expect someone of your character to make such a bold choice of underwear, ~name~. Is there something you know that I don’t?
+        - Sarashi?
+        - Masked?
+        - Goggles?
+		
+# POLO -- 34/45 lines, 75%
  - [ ] 5 more lines for small/medium/large piece removed each (meaning extra, minor, and major)
-        - Major: 1/5
+        - Major: 1 (4)/5
             @ Ehehe… Didn’t we just start a few minutes ago, ~name~?
- - [ ] 10 more generic lines for opponents stripping (during-strip stages?) - 1/10 at least
-        - 2/10
+			@ Ehe… Well, it’s not a bad look. (f)
+            @ Don’t be afraid to model a few different angles, ~name~. I’m happy to gaze at your legs. (m, lower)
+            @ So, you’re making me work for your ~revealed~? That’s not a problem. I can beat you again. (m, upper)
+		- Minor: (4)/5
+			@ The sight of ~clothing.ifPlural(them|it)~ on the ~background.surface~ is a good visual indication of your perfromance…
+			@ What do you see, ~other~? <i>I</i> see progress.
+			@ Hope you’re okay with the idea of losing your ~marker.V_revealed~, ~name~. Otherwise, I’d start playing better.
+			@ Thought there might’ve been something like ~revealed.ifPlural(those|that)~ under your ~marker.V_clothing~. (Lower)
+			- (Feet???)
+		- Extra: (4)/5
+			@ You can only take off things like ~clothing.ifPlural(that|those)~ so many times…
+			@ That’s fine with me. You’ll run out eventually, though.
+			@ Ready to lose again?
+            @ I hope you’re ready to lose more than that.
+ - [ ] 10 more generic lines for opponents stripping (during-strip stages?)
+        - 2 (3)/10
             @ Your movements are acceptable.
             @ Go slowly if you like. My eyes are following your hands…
             - I suppose I can use my thoughts, then…
@@ -85,10 +118,23 @@ Welcome to my darkness.
             @ I should commend your insight for thinking to include a tie in your look. They’re not just for the polite, honest type.
         - 2: Weapon
 
-# REMILLIA -- 65/158, 41%
+# OVER-FLY-6494
+- [ ] 21 filtered lines. (As of 2024-03-10)
+		- 4/21 total, 19%
+		? There’s…it’s so full… (intercourse_forfeit/tandem_mf)
+		? …You’re committed to this, aren’t you? (clothing_destruction)
+		? …Are you seeing that too, ~player~? (target right, 0-4 rounds, vanishes_clothing)
+		? …Did you see that too, ~player~? (target left)
+
+
+# REMILLIA, REVISED SPONSORSHIP -- 100%
+- [X] Raise total linecount to 1740.
+- [X] Raise filtered linecount to 350.
+
+# REMILLIA, LEGACY SPONSORSHIP -- 81/158, 51%
         Remillia counted 182 total lines for this sponsorship, and 87 for sexuality.
         My own recount of each requirement found a total of 158, with 63 for sexuality.
-## Sexuality (17/63):
+## Sexuality (21/63):
 - [ ] 5 lines per bust size (Chest Small, Medium and Large) where she shows at least some interest towards the size, the person who has the chest, or anything that isn't her commenting on the game. Any stage.
     - [ ] Small: 3/5
         * I wonder if those are as sensitive as mine… I can’t tell from looking alone. Just something to think about…
@@ -97,8 +143,12 @@ Welcome to my darkness.
     - [ ] Medium: 2/5
         * Any set is nice, but yours are…the composition, the areolae, the way they fall…they’re hard to look away from.
         * You know, ~name~, courage is one of the thing that resonates with me the most when it comes to other people. …Seeing your body like this too isn’t bad, though.
-    - [ ] Large: 1/5
+    - [X] Large: 5/5
         * I’m curious, ~name~… With ones of your size, is there anything I'm missing out on?
+        * <i>Hmm</i>mm…
+        * I might just have to pat you down for contraband, ~name~.
+        * …Impressive.
+        * <i>(Big breasts…cool.)</i>
 - [X] 3 lines for Visible (Crotch, Female) where she shows interest in it. Any stage -- can be specifically late game if you think that fits her personality most.
     - 10/3
         * There’s nothing unusual about being enthralled by another woman’s figure, is there?
@@ -123,17 +173,29 @@ Welcome to my darkness.
         * I don’t have any regrets in regards to my hands…except maybe that they’re not ~name~’s right now…
         * I’m happy to make my own deductions, but feel free to tell me about the thoughts addling your brain, ~name~…
 - [ ] 10 more generics for her After finished (self) stage
-    - 0/10
+    - 1/10
         * Don’t let me distract you. I’m only naked here.
 
-## General (7/37):
+## General (14/37):
 - [ ] 10 hand=any play once lines where she talks about any of her hobbies, her detective work, the setting of Danganronpa (might be a mood killer), her likes/dislikes, etc
-    - 2/10
+    - 4/10
+        - Notice: Coffee is taken
         * I’m glad I could be here to~background.time~…December tends to be one of my busiest months. I even take work on Christmas and New Year’s most years…
         * You know… I took quite the liking to volleyball during high school. Sports involving throwing weren’t an option because of my gloves, but I could hit a volleyball just fine…
-- [ ] 5 hand=any play once lines where she talks about any of her friends, the fellow students that she knows, any romantic interests (Makoto?), etc
+        * You know, plant and human DNA mix frightfully well if you’re disturbed enough to know what you’re doing. I think <i>that</i> case wins being the most bizarre I’ve ever taken… (garden)
+        * I don’t investigate illegal gambling, by the way. Different detectives specialize in different kinds of crime… It’s dangerous to work outside one’s specialization.
+- [X] 5 hand=any play once lines where she talks about any of her friends, the fellow students that she knows, any romantic interests (Makoto?), etc
+    - 5/5
+        * One of my upperclassmen in high school had a habit of carrying food around too…but somehow, he had an uncanny talent for falling beneath notice. They called him the Ultimate Spy…
+        * You know, this ~background.if.indoors(table|group)~ reminds me a bit of my time at Hope’s Peak Academy… Their unique admission policies meant I went to school with the leaders of a biker gang and a yakuza family.
+        * Gazing at the water reminds me of an old friend of mine. She’s…very passionate about swimming and athletics and general. She tried to sell me on putting protein powder in my coffee once…
+        * I have a…close friend who I should try to bring by next time. He’s considered unusually lucky, but…I don’t think he has the kind of luck that would necessarily help him out in poker.
+        * One of the talents Hope’s Peak Academy cultivated was the Ultimate Botanist, Santa Shikiba. Our indoor garden held his own cultivar of waste-eating flower…
+        - I’ve heard my high school’s Ultimate Photographer actually ~background.if.inventory(comes here|plays sometimes)~. She’s even able to capture emotion in <i>my</i> face… I just hope she knows when to put the camera away.
+        - <i>(I should keep quiet about this place to Hiro… No doubt he’ll be raving about “power spots” and “UMAs” if he hears I came here and played with ~opp1~…)</i>
 - [ ] 10 lines showing her more detective side.
         - This is vague, but you can really use your memory system to your advantage here. Interrogating others playfully, bringing up articles of clothing that were previously forfeited, using personality filters to make comments to herself and remember who the person was -- this would really make her stand out, I think
+        - The prompts???
 - [ ] 3 lines per each clothing type (Extra, Minor, Major, Important) where she comments on the person stripping, instead of thinking to herself.
         - Good example would be "…You did have the chance to turn this game on its head and throw everyone off by making a bold choice right from the start, but taking your ~marker.V_clothing~ off first works too.", bad example would be stuff like "Already?" and "<i>(Off ~clothing.ifPlural(they go|it goes)~.)</i>". Any case, 12 new lines at the minimum.
     - [ ] Extra
@@ -151,7 +213,7 @@ Welcome to my darkness.
         * In my line of work, I may need to do my job anywhere at any time. It’s difficult to relax even in a place like this, but…thank you for inviting me anyway, ~player~.
         - 
 
-## Misc (41/49)
+## Misc (45/49)
 - [X] Raise her general Targeted Lines counter in the CE from 331 (as of 5/20/2023) to 350.
     - 19/19
         *******************
@@ -185,17 +247,35 @@ Welcome to my darkness.
     - [X] Scantily-Clad 4/2
         * I don’t mind. It’s not how little ~clothing.ifPlural(they|it)~ revealed I’m focusing on…but how little ~clothing.ifPlural(they|it)~ covered. May I see my next hand?
         * If you’re starting to feel impatient, just think of how little ~clothing.ifPlural(they|it)~ <i>covered</i> instead of how little ~clothing.ifPlural(they|it)~ revealed.<br>…Next hand, dealer.
-    - [ ]  Maid Uniform (KIRUMI/UOZUMI)
+    - [ ]  Maid Uniform (KIRUMI/UOZUMI) 1/2
+        * You’re not part of the staff here, are you? Let me know if you need to show me a closet…
+        - 
     - [X] Goth/Punk/Emo (LEON) 3/2
         * …I’ve never seen someone put that much effort into a look like that and still seem this ready to lose it. Let’s see what you have for us, ~name~.
         * You’d be surprised how often your look can benefit from a well-placed tie. I could even see ~punk~ pulling one off…
     - [ ] Fake Animal Ears 0/2
-        ? Hidden mic in the ears??
-    - [ ] Eyepatch (FUYUHIKO) 0/2
-    - [ ] Jewelry 0/2
+        - Hidden mic in the ears??
+        -
+    - [X] Eyepatch (FUYUHIKO) 2/2
+        * After all you’ve been through? I think you can do better than that, ~name~. (!chuunibyou)
+        * A game with such intimate stakes like this doesn’t seem like a good place to hold back your powers, ~name~. Do you really need that eyepatch? (chuunibyou)
+    - [ ] Jewelry 1/2
+        * I don’t prefer to show myself so conspicuously, but you wear that look well, ~opp1~…
+        - Jewelry as a way to carry money
     - [X] Weapon (PEKO) 2/2
         * Two questions, ~name~. First: am I unarmed?<br>Second: how many things can you see that could be used as a weapon?
         * Think carefully.
+
+# ALSO NEEDED FOR QA
+ - [ ] Futanari lines
+    - [X] Small crotch visible
+    - [X] Medium crotch visible
+    - [X] Large crotch visible
+    - [ ] Must forfeit
+    - [ ] Start forfeit
+    - [ ] In forfeit
+    - [ ] In forfeit, heavy
+    - [ ] Finished
 
 # NON-SPONSORSHIP TO-DO
  - Seek a way to implement gaghpr marker for all hidden pre-response lines (used in targets for an opponent on the right)?
