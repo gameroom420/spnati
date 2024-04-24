@@ -146,6 +146,15 @@
         <back id="1" src="img/cards/wordsaladbet/back.png" />
     </deck>
 
+    <deck id="hothand">
+        <title>Warm and Cold</title>
+        <subtitle>Low value cards are dark blue, high value cards are bright red.</subtitle>
+        <description>For those times when you want to exclaim, 'I've got a hot hand!'.</description>
+        <credits>causeuse</credits>
+        <front src="img/cards/hothand/%s%i.png" />
+        <back id="1" src="img/cards/hothand/back.png" />
+    </deck>
+
     <deck id="sheena_suit">
         <title>Sheena Suit</title>
         <subtitle>A suit for a gentle assassin</subtitle>
