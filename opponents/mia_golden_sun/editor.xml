@@ -95,7 +95,6 @@
         <response id="453" opponent="jura" opponentId="975" />
         <response id="455" opponent="jura" opponentId="971" />
         <response id="466" opponent="toph" opponentId="2" />
-        <response id="472" opponent="toph" opponentId="6" />
         <response id="473" opponent="meia" opponentId="1187" />
         <response id="474" opponent="meia" opponentId="1189" />
         <response id="475" opponent="meia" opponentId="1190" />
@@ -142,6 +141,14 @@
         <response id="647" opponent="jura" opponentId="1253" />
         <response id="651" opponent="beatrix" opponentId="156" />
         <response id="654" opponent="nonon" opponentId="92" />
+        <response id="691" opponent="nagisa" opponentId="1471" />
+        <response id="692" opponent="nagisa" opponentId="1472" />
+        <response id="694" opponent="toph" opponentId="579" />
+        <response id="699" opponent="jura" opponentId="21" />
+        <response id="700" opponent="jura" opponentId="949" />
+        <response id="702" opponent="jura" opponentId="1008" />
+        <response id="703" opponent="jura" opponentId="1064" />
+        <response id="704" opponent="jura" opponentId="1067" />
     </responses>
     <notes>
         <note id="22">this can go in whatever direction you want; I just find it funny that the two of them are pious and water-themed</note>
@@ -642,7 +649,7 @@
         <label id="469" label="" folder="Conditional" sort="36" />
         <label id="470" label="" folder="Conditional" sort="37" />
         <label id="471" label="" folder="Conditional" sort="24" />
-        <label id="472" label="" folder="Targets" sort="3" />
+        <label id="472" label="" folder="Targets" sort="0" />
         <label id="466" label="" folder="Targets" sort="108" />
         <label id="473" label="" folder="Responses" sort="37" />
         <label id="474" label="" folder="Responses" sort="14" />
@@ -823,7 +830,7 @@
         <label id="651" label="" folder="Responses" sort="0" />
         <label id="652" label="" folder="Targets" sort="0" />
         <label id="653" label="" folder="Targets" sort="0" />
-        <label id="654" label="" color="1" folder="Responses" sort="0" />
+        <label id="654" label="" color="2" folder="Responses" sort="0" />
         <label id="655" label="" folder="Human" sort="0" />
         <label id="656" label="" folder="Jenna" sort="0" />
         <label id="657" label="" folder="Jenna" sort="0" />
@@ -859,12 +866,31 @@
         <label id="687" label="" folder="Jenna" sort="0" />
         <label id="688" label="" folder="Jenna" sort="0" />
         <label id="689" label="" folder="Jenna" sort="0" />
+        <label id="690" label="" folder="Responses" sort="0" />
+        <label id="691" label="" folder="Nagisa&gt;Left of me" sort="0" />
+        <label id="692" label="" folder="Nagisa&gt;Right of me" sort="0" />
+        <label id="693" label="" folder="Nagisa&gt;Left of me" sort="0" />
+        <label id="694" label="" folder="Responses" sort="0" />
+        <label id="695" label="" color="1" folder="Responses" sort="0" />
+        <label id="696" label="" folder="Responses" sort="0" />
+        <label id="697" label="" folder="Conditional" sort="0" />
+        <label id="698" label="" folder="Responses" sort="0" />
+        <label id="699" label="" folder="Situations" sort="0" />
+        <label id="700" label="" folder="Targets" sort="0" />
+        <label id="701" label="" folder="Targets" sort="0" />
+        <label id="702" label="" folder="Responses" sort="0" />
+        <label id="703" label="" folder="Responses" sort="0" />
+        <label id="704" label="" folder="Responses" sort="0" />
+        <label id="705" label="" folder="Responses" sort="0" />
+        <label id="706" label="" folder="Targets" sort="0" />
+        <label id="707" label="" folder="Targets" sort="0" />
+        <label id="708" label="" folder="Targets" sort="0" />
     </labels>
     <prefixes>
         <prefix>zz_</prefix>
     </prefixes>
     <onlyCustomPoses>true</onlyCustomPoses>
-    <nextId>689</nextId>
+    <nextId>708</nextId>
     <markers>
         <marker scope="Public" name="a_djinni_was_in_my_cape">Fizz djinni situational marker</marker>
         <marker scope="Public" name="angara_is_isolated" />
@@ -918,7 +944,10 @@
         <marker scope="Public" name="human_post_ff_flirting_butt_pose" />
         <marker scope="Public" name="Imil_invitation" />
         <marker scope="Public" name="jenna_self_sirencostume" />
+        <marker scope="Public" name="jura_barnette_lovey" />
+        <marker scope="Public" name="jura_butt" />
         <marker scope="Public" name="jura_mia_gs_babiesResp" />
+        <marker scope="Public" name="jura_startFF" />
         <marker scope="Public" name="lucky_medal_fountain">Line mentioning the Lucky Medal Fountain minigame</marker>
         <marker scope="Public" name="mariS_wings_revealResp">Reaction to Mari S's wings reveal</marker>
         <marker scope="Public" name="meia_jura_fashion1" />
@@ -1022,10 +1051,13 @@
         <marker scope="Public" name="mia_jura_babiesPrompt">Response to Jura babies prompt</marker>
         <marker scope="Public" name="mia_jura_gs0a" />
         <marker scope="Public" name="mia_jura_gs0b" />
+        <marker scope="Public" name="mia_jura_gs0c" />
         <marker scope="Public" name="mia_jura_gs1" />
         <marker scope="Public" name="mia_jura_gs1b" />
+        <marker scope="Public" name="mia_jura_gs1c" />
         <marker scope="Public" name="mia_jura_gs2" />
         <marker scope="Public" name="mia_jura_gs2a" />
+        <marker scope="Public" name="mia_jura_gs2b" />
         <marker scope="Public" name="mia_jura_hair1" />
         <marker scope="Public" name="mia_jura_hair2" />
         <marker scope="Public" name="mia_jura_self3a" />
@@ -1033,7 +1065,10 @@
         <marker scope="Public" name="mia_jura_worlds1" />
         <marker scope="Public" name="mia_jura_worlds2" />
         <marker scope="Public" name="mia_jura_worlds3" />
+        <marker scope="Public" name="mia_kokichi_sailor1" />
         <marker scope="Public" name="mia_larachel_staff_Tolbi" />
+        <marker scope="Public" name="mia_leviathan_strip0a" />
+        <marker scope="Public" name="mia_leviathan_strip1a" />
         <marker scope="Public" name="mia_link_fidget1" />
         <marker scope="Public" name="mia_lysithea_genieS_resp" />
         <marker scope="Public" name="mia_lysithea_strip0a" />
@@ -1064,6 +1099,9 @@
         <marker scope="Public" name="mia_nadeshiko_strip0b" />
         <marker scope="Public" name="mia_nagatoro_self0a" />
         <marker scope="Public" name="mia_nagatoro_self0b" />
+        <marker scope="Public" name="mia_nagisa_mn_self0a" />
+        <marker scope="Public" name="mia_nagisa_nm_0a" />
+        <marker scope="Public" name="mia_nagisa_nm_self0a" />
         <marker scope="Public" name="mia_nami_flatworld1" />
         <marker scope="Public" name="mia_nami_flatworld2" />
         <marker scope="Public" name="mia_nami_flatworld3_gravity" />
@@ -1077,6 +1115,7 @@
         <marker scope="Public" name="mia_nicorobin_injuries1" />
         <marker scope="Public" name="mia_nicorobin_self0a" />
         <marker scope="Public" name="mia_nonon_self0a" />
+        <marker scope="Public" name="mia_nonon_self0b" />
         <marker scope="Public" name="mia_perona_self0a" />
         <marker scope="Public" name="mia_perona_self3a" />
         <marker scope="Public" name="mia_queenie_mustmast" />
@@ -1112,6 +1151,7 @@
         <marker scope="Public" name="mia_shamiko_magic2" />
         <marker scope="Public" name="mia_shamiko_magic3" />
         <marker scope="Public" name="mia_shamiko_teach1" />
+        <marker scope="Public" name="mia_shamiko_teach2" />
         <marker scope="Public" name="mia_sly_strip2a" />
         <marker scope="Public" name="mia_sofia_self_0b" />
         <marker scope="Public" name="mia_sofia_self0a" />
@@ -1162,6 +1202,7 @@
         <marker scope="Public" name="mia_wasp_team1" />
         <marker scope="Public" name="mia_wasp_team2" />
         <marker scope="Public" name="mia_wikipe_blueHair" />
+        <marker scope="Public" name="mia_yaemiko_hydroVision1" />
         <marker scope="Public" name="mia_yumeko_risk1" />
         <marker scope="Public" name="mia_yumeko_risk2" />
         <marker scope="Public" name="mia_yumeko_risk3" />
@@ -1203,6 +1244,7 @@
         <marker scope="Public" name="queenie_intro_resp" />
         <marker scope="Public" name="rouge_treasurescope_1" />
         <marker scope="Public" name="saved_the_world_shame" />
+        <marker scope="Public" name="scm_defied" />
         <marker scope="Public" name="self_and_target_7high">Herself and the target both only have 7 high</marker>
         <marker scope="Public" name="self_finished">Internal marker. Used to track if she has finished.</marker>
         <marker scope="Public" name="self_finished2">Internal marker. Used to track if she has finished.</marker>
@@ -1223,6 +1265,7 @@
         <marker scope="Public" name="targets_that_said_player_name" />
         <marker scope="Public" name="throwing_shade_at_polly" />
         <marker scope="Public" name="toph_bracelet_demo" />
+        <marker scope="Public" name="toph_braceletDemo" />
         <marker scope="Public" name="toph_hair_down" />
         <marker scope="Public" name="towel_disable" />
         <marker scope="Public" name="towel_enable">If set to 1, Mia has set down a towel that will remain for her forfeit/post-forfeit stages.</marker>
