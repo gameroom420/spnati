@@ -98,11 +98,24 @@
         <response id="299" opponent="aqua_grunt" opponentId="155" />
         <response id="303" opponent="kora" opponentId="32" />
         <response id="304" opponent="kora" opponentId="33" />
+        <response id="382" opponent="mari_setogaya" opponentId="2369" />
+        <response id="383" opponent="mari_setogaya" opponentId="2370" />
+        <response id="384" opponent="mari_setogaya" opponentId="2372" />
+        <response id="385" opponent="mari_setogaya" opponentId="2373" />
+        <response id="387" opponent="mari_setogaya" opponentId="2380" />
+        <response id="388" opponent="mari_setogaya" opponentId="2381" />
+        <response id="390" opponent="mari_setogaya" opponentId="2393" />
+        <response id="391" opponent="mari_setogaya" opponentId="2394" />
+        <response id="392" opponent="mari_setogaya" opponentId="2392" />
+        <response id="395" opponent="mari_setogaya" opponentId="2407" />
+        <response id="396" opponent="mari_setogaya" opponentId="2408" />
+        <response id="397" opponent="mari_setogaya" opponentId="2409" />
     </responses>
     <notes>
         <note id="260">I can move this one to a later case if it's too soon to go into the subject.</note>
         <note id="280">Quick reference note: Joey's great-great-great-great-great-grandfather is Joseph Grimaldi, the guy who invented clowns as we know them.</note>
         <note id="367">Two markers on the "Bang" flag line so you can either treat them as the same line or target that line in particular.</note>
+        <note id="390">The "NonMagicStrip1" marker is just so other opponents can automatically react to the fact that Joey's not doing her magic trick with these targets, should they already be set up to do so.</note>
     </notes>
     <labels>
         <label id="1" label="" color="3" folder="" sort="0" />
@@ -111,7 +124,7 @@
         <label id="4" label="Misc. Things" color="4" folder="Noteworthy Things" sort="2" />
         <label id="5" label="" folder="Jokes" sort="19" />
         <label id="6" label="" folder="Jokes" sort="3" />
-        <label id="7" label="" color="0" folder="Jokes" sort="4" />
+        <label id="7" label="" folder="Jokes" sort="4" />
         <label id="8" label="" folder="Jokes" sort="0" />
         <label id="9" label="" folder="Jokes" sort="0" />
         <label id="10" label="" folder="Jokes" sort="0" />
@@ -267,7 +280,7 @@
         <label id="307" label="" folder="Alt Street Clothes" sort="3" />
         <label id="308" label="" folder="Alt Street Clothes" sort="4" />
         <label id="309" label="" folder="Alt Street Clothes" sort="5" />
-        <label id="310" label="" color="0" folder="Jokes" sort="11" />
+        <label id="310" label="" color="0" folder="Jokes" sort="0" />
         <label id="311" label="" folder="Alt Street Clothes" sort="6" />
         <label id="312" label="" color="0" folder="Jokes" sort="12" />
         <label id="313" label="" folder="Alt Street Clothes" sort="0" />
@@ -275,17 +288,17 @@
         <label id="315" label="" folder="Alt Street Clothes" sort="9" />
         <label id="316" label="" folder="Alt Street Clothes" sort="7" />
         <label id="317" label="" folder="Alt Street Clothes" sort="8" />
-        <label id="318" label="" color="0" folder="Alt Street Clothes" sort="10" />
-        <label id="319" label="" color="0" folder="Alt Street Clothes" sort="11" />
-        <label id="320" label="" color="0" folder="Alt Street Clothes" sort="12" />
+        <label id="318" label="" folder="Alt Street Clothes" sort="10" />
+        <label id="319" label="" folder="Alt Street Clothes" sort="11" />
+        <label id="320" label="" folder="Alt Street Clothes" sort="12" />
         <label id="321" label="" folder="Alt Street Clothes" sort="16" />
-        <label id="322" label="" color="0" folder="Alt Street Clothes" sort="13" />
-        <label id="323" label="" color="0" folder="Alt Street Clothes" sort="14" />
+        <label id="322" label="" folder="Alt Street Clothes" sort="13" />
+        <label id="323" label="" folder="Alt Street Clothes" sort="14" />
         <label id="324" label="" folder="Alt Street Clothes" sort="17" />
         <label id="325" label="" folder="Alt Street Clothes" sort="18" />
         <label id="326" label="" folder="Alt Street Clothes" sort="15" />
         <label id="327" label="" folder="Alt Street Clothes" sort="19" />
-        <label id="328" label="" color="0" folder="Alt Street Clothes" sort="20" />
+        <label id="328" label="" folder="Alt Street Clothes" sort="20" />
         <label id="329" label="" color="2" folder="Duplicate Cases" sort="12" />
         <label id="330" label="" color="1" folder="Duplicate Cases" sort="13" />
         <label id="331" label="" color="1" folder="Alt Street Clothes" sort="27" />
@@ -311,18 +324,55 @@
         <label id="366" label="" color="1" folder="" sort="0" />
         <label id="368" label="" folder="Alt Street Clothes" sort="32" />
         <label id="371" label="Surprise Flash" folder="Noteworthy Things" sort="16" />
-        <label id="372" label="Surprise Flash" folder="Noteworthy Things" sort="0" />
-        <label id="373" label="Surprise Flash" folder="Noteworthy Things" sort="0" />
-        <label id="374" label="Surprise Flash" folder="Noteworthy Things" sort="0" />
-        <label id="375" label="Flash Freebie" folder="Noteworthy Things" sort="0" />
-        <label id="376" label="Human Losing Streak Flash" folder="Noteworthy Things" sort="0" />
-        <label id="378" label="" folder="Noteworthy Things" sort="0" />
+        <label id="372" label="Surprise Flash" folder="Noteworthy Things" sort="18" />
+        <label id="373" label="Surprise Flash" folder="Noteworthy Things" sort="19" />
+        <label id="374" label="Surprise Flash" folder="Noteworthy Things" sort="20" />
+        <label id="375" label="Flash Freebie" folder="Noteworthy Things" sort="21" />
+        <label id="376" label="Human Losing Streak Flash" folder="Noteworthy Things" sort="2" />
+        <label id="378" label="" folder="Noteworthy Things" sort="22" />
         <label id="379" label="" folder="Noteworthy Things" sort="0" />
-        <label id="380" label="" folder="Noteworthy Things" sort="0" />
+        <label id="380" label="" folder="Noteworthy Things" sort="23" />
+        <label id="396" label="" color="1" folder="" sort="0" />
+        <label id="397" label="" color="1" folder="" sort="0" />
+        <label id="395" label="" color="1" folder="" sort="0" />
+        <label id="394" label="" color="1" folder="" sort="0" />
+        <label id="398" label="" folder="Alt Toymaking Clothes" sort="0" />
+        <label id="399" label="" folder="Alt Toymaking Clothes" sort="12" />
+        <label id="400" label="" folder="Alt Toymaking Clothes" sort="6" />
+        <label id="401" label="" folder="Alt Toymaking Clothes" sort="13" />
+        <label id="402" label="" folder="Alt Toymaking Clothes" sort="0" />
+        <label id="403" label="" folder="Alt Toymaking Clothes" sort="2" />
+        <label id="404" label="" folder="Alt Toymaking Clothes" sort="3" />
+        <label id="405" label="" folder="Alt Toymaking Clothes" sort="14" />
+        <label id="406" label="" folder="Alt Toymaking Clothes" sort="4" />
+        <label id="407" label="" folder="Alt Toymaking Clothes" sort="7" />
+        <label id="408" label="" folder="Alt Toymaking Clothes" sort="15" />
+        <label id="409" label="" folder="Alt Toymaking Clothes" sort="8" />
+        <label id="410" label="" folder="Alt Toymaking Clothes" sort="16" />
+        <label id="411" label="" folder="Alt Toymaking Clothes" sort="9" />
+        <label id="412" label="" color="4" folder="Alt Toymaking Clothes" sort="10" />
+        <label id="413" label="" folder="Alt Toymaking Clothes" sort="5" />
+        <label id="414" label="" folder="Alt Toymaking Clothes" sort="17" />
+        <label id="415" label="" folder="Alt Toymaking Clothes" sort="11" />
+        <label id="418" label="Surprise Flash" folder="Noteworthy Things" sort="0" />
+        <label id="419" label="" folder="Alt Renaissance Clothes" sort="0" />
+        <label id="420" label="" folder="Alt Renaissance Clothes" sort="0" />
+        <label id="421" label="" folder="Alt Renaissance Clothes" sort="0" />
+        <label id="422" label="Surprise Flash" folder="Noteworthy Things" sort="0" />
+        <label id="423" label="" folder="Alt Renaissance Clothes" sort="0" />
+        <label id="424" label="" folder="Alt Renaissance Clothes" sort="0" />
+        <label id="425" label="" color="4" folder="" sort="0" />
+        <label id="426" label="" folder="Alt Renaissance Clothes" sort="0" />
+        <label id="427" label="" color="4" folder="Alt Renaissance Clothes" sort="0" />
+        <label id="428" label="" color="4" folder="Alt Renaissance Clothes" sort="0" />
+        <label id="429" label="" folder="Alt Renaissance Clothes" sort="0" />
+        <label id="430" label="" folder="Alt Renaissance Clothes" sort="0" />
+        <label id="431" label="" folder="Alt Renaissance Clothes" sort="0" />
+        <label id="432" label="" color="4" folder="Alt Renaissance Clothes" sort="0" />
+        <label id="433" label="" folder="Alt Renaissance Clothes" sort="0" />
+        <label id="434" label="" folder="Alt Renaissance Clothes" sort="0" />
     </labels>
-    <onlyCustomPoses>false</onlyCustomPoses>
-    <hidePrefixlessImages>false</hidePrefixlessImages>
-    <nextId>380</nextId>
+    <nextId>434</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="1v1" />
@@ -335,6 +385,8 @@
         <marker scope="Public" name="Aella_Clown1" />
         <marker scope="Public" name="Aella_Clown2" />
         <marker scope="Public" name="Aella_Clown3" />
+        <marker scope="Public" name="Aella_Flash1" />
+        <marker scope="Public" name="Aella_FlashB" />
         <marker scope="Public" name="Aella_KnockKnock1" />
         <marker scope="Public" name="Aella_KnockKnock2" />
         <marker scope="Public" name="Aella_KnockKnock3" />
@@ -381,6 +433,7 @@
         <marker scope="Public" name="DesignatedClown" />
         <marker scope="Public" name="Erufuda_Pizza" />
         <marker scope="Public" name="Fate_Worry" />
+        <marker scope="Public" name="Flash" />
         <marker scope="Public" name="Fluttershy_Birds1" />
         <marker scope="Public" name="Fluttershy_ButtA1" />
         <marker scope="Public" name="Fluttershy_ButtB1" />
@@ -458,11 +511,28 @@
         <marker scope="Public" name="MagicStrip2" />
         <marker scope="Public" name="MagicStrip3" />
         <marker scope="Public" name="MakeupStays" />
+        <marker scope="Public" name="MariS_Balloons1" />
+        <marker scope="Public" name="MariS_Balloons2" />
+        <marker scope="Public" name="MariS_Balloons3" />
+        <marker scope="Public" name="MariS_BoobHonk1" />
+        <marker scope="Public" name="MariS_BoobHonk2" />
         <marker scope="Public" name="MariS_Checking1" />
+        <marker scope="Public" name="MariS_Experience1" />
+        <marker scope="Public" name="MariS_Experience2" />
+        <marker scope="Public" name="MariS_Experience3" />
+        <marker scope="Public" name="MariS_Food1" />
+        <marker scope="Public" name="MariS_Food2" />
+        <marker scope="Public" name="MariS_Food3" />
+        <marker scope="Public" name="MariS_JoiningBurlesque1" />
+        <marker scope="Public" name="MariS_JoiningBurlesque2" />
         <marker scope="Public" name="MariS_Pleasing1" />
         <marker scope="Public" name="MariS_PokerFace1" />
         <marker scope="Public" name="MariS_Positions1" />
         <marker scope="Public" name="MariS_School1" />
+        <marker scope="Public" name="MariS_School2" />
+        <marker scope="Public" name="MariS_School3" />
+        <marker scope="Public" name="MariS_Shoes1" />
+        <marker scope="Public" name="MariS_Shoes2" />
         <marker scope="Public" name="MariS_Wings1" />
         <marker scope="Public" name="MariS_Wings2" />
         <marker scope="Public" name="MG_Speech1" />
@@ -504,6 +574,7 @@
         <marker scope="Public" name="NonMagicStrip2" />
         <marker scope="Public" name="NonMagicStrip3" />
         <marker scope="Public" name="NotGoodAtPoker" />
+        <marker scope="Public" name="PantsDrop" />
         <marker scope="Public" name="Pauling_Nude" />
         <marker scope="Public" name="Pauling_Power" />
         <marker scope="Public" name="Pie1" />
