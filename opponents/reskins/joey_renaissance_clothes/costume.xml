@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<costume>
+    <id>joey_renaissance_clothes</id>
+    <label>Joey</label>
+    <tags>
+        <tag>alternative_skin</tag>
+        <tag>thigh_highs</tag>
+    </tags>
+    <layers>6</layers>
+    <folder>opponents/reskins/joey_renaissance_clothes/</folder>
+    <wardrobe>
+        <clothing name="bra" generic="bra" position="upper" type="important" />
+        <clothing name="panties" generic="" position="lower" type="important" plural="true" />
+        <clothing name="shorts" generic="pants" position="lower" type="major" plural="true" />
+        <clothing name="top" generic="vest" position="upper" type="major" />
+        <clothing name="boots" generic="" position="feet" type="extra" plural="true" />
+        <clothing name="gloves" generic="gloves" position="hands" type="extra" plural="true" />
+    </wardrobe>
+
+
+</costume>
