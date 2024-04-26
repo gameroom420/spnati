@@ -87,6 +87,7 @@ The generic lines for stages 0-3 also have their priority set to 5. These marked
         <marker scope="Public" name="Arle_DM_Ask" />
         <marker scope="Public" name="Arle_DM_Ask_2" />
         <marker scope="Public" name="Arle_DM_Ask_3" />
+        <marker scope="Public" name="arle_skirt" />
         <marker scope="Public" name="Arue_hat" />
         <marker scope="Public" name="Arue_hat 2" />
         <marker scope="Public" name="arueshalae_learn" />
@@ -257,6 +258,7 @@ The generic lines for stages 0-3 also have their priority set to 5. These marked
         <marker scope="Public" name="silly_outfit" />
         <marker scope="Public" name="sleep_hat" />
         <marker scope="Public" name="slifer" />
+        <marker scope="Public" name="smash_bros_1" />
         <marker scope="Public" name="smoking">DMG talks about smoking, which she hates.</marker>
         <marker scope="Public" name="soul-stealer" />
         <marker scope="Public" name="spare hands" />
@@ -281,6 +283,8 @@ The generic lines for stages 0-3 also have their priority set to 5. These marked
         <marker scope="Public" name="Takahashi" />
         <marker scope="Public" name="tea_dance" />
         <marker scope="Public" name="tea_dance_1" />
+        <marker scope="Public" name="tea_mai_1" />
+        <marker scope="Public" name="tea_sexy" />
         <marker scope="Public" name="tea_show" />
         <marker scope="Public" name="tea_stripper_2_A" />
         <marker scope="Public" name="tea_stripper_A" />
