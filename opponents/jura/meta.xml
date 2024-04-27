@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1713966667178</lastupdate>
+    <lastupdate>1714197047396</lastupdate>
     <enabled>true</enabled>
     <first>Jura</first>
     <last>Basil Elden</last>
@@ -20,7 +20,7 @@
         <costume folder="opponents/reskins/jura_chiefbarnette/" img="0-start.png" status="unlisted" label="Jura">Chief Barnette</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>15800</lines>
-    <poses>559</poses>
+    <lines>15820</lines>
+    <poses>561</poses>
     <z-index>1</z-index>
 </opponent>

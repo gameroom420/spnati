@@ -639,8 +639,7 @@
         <label id="968" label="" color="4" folder="" sort="0" />
         <label id="969" label="" color="4" folder="" sort="0" />
         <label id="970" label="" color="4" folder="" sort="0" />
-        <label id="1008" label="" color="4" folder="" sort="0" />
-        <label id="1065" label="" color="4" folder="" sort="0" />
+        <label id="1719" label="" color="4" folder="" sort="0" />
         <label id="976" label="" color="4" folder="" sort="0" />
         <label id="977" label="" color="4" folder="" sort="0" />
         <label id="979" label="" color="4" folder="" sort="0" />
@@ -673,8 +672,8 @@
         <label id="1058" label="" color="4" folder="" sort="0" />
         <label id="1059" label="" color="4" folder="" sort="0" />
         <label id="1061" label="" color="4" folder="" sort="0" />
-        <label id="1064" label="" color="4" folder="" sort="0" />
-        <label id="1067" label="" color="4" folder="" sort="0" />
+        <label id="1722" label="" color="4" folder="" sort="0" />
+        <label id="1723" label="" color="4" folder="" sort="0" />
         <label id="1134" label="" color="4" folder="" sort="0" />
         <label id="1073" label="" color="4" folder="" sort="0" />
         <label id="1074" label="" color="4" folder="" sort="0" />
@@ -966,11 +965,15 @@
         <label id="1693" label="" color="4" folder="" sort="0" />
         <label id="1699" label="" color="4" folder="" sort="0" />
         <label id="1716" label="" color="4" folder="" sort="0" />
+        <label id="1717" label="" color="4" folder="" sort="0" />
+        <label id="1718" label="" color="4" folder="" sort="0" />
+        <label id="1720" label="" color="4" folder="" sort="0" />
+        <label id="1721" label="" color="4" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>jura</prefix>
     </prefixes>
-    <nextId>1716</nextId>
+    <nextId>1723</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="1v1">Jura acknowledges that the game has come down to her and one other player.</marker>
@@ -2098,12 +2101,15 @@
         <marker scope="Public" name="mercy_excitement" />
         <marker scope="Public" name="mercy_group" />
         <marker scope="Public" name="mettaton_n0" />
+        <marker scope="Public" name="mia_buttresp" />
         <marker scope="Public" name="mia_gs_babies" />
         <marker scope="Public" name="mia_gs_ls0" />
         <marker scope="Public" name="mia_gs_resp0" />
         <marker scope="Public" name="mia_gs_resp01" />
         <marker scope="Public" name="mia_gs_resp1" />
         <marker scope="Public" name="mia_gs_resp12" />
+        <marker scope="Public" name="mia_gs_resp67" />
+        <marker scope="Public" name="mia_gs_resp7" />
         <marker scope="Public" name="mia_gs0" />
         <marker scope="Public" name="mia_gs01" />
         <marker scope="Public" name="mia_gs1" />
@@ -2113,6 +2119,9 @@
         <marker scope="Public" name="mia_gs23" />
         <marker scope="Public" name="mia_gs2s" />
         <marker scope="Public" name="mia_gs3" />
+        <marker scope="Public" name="mia_gs34" />
+        <marker scope="Public" name="mia_gs34meia" />
+        <marker scope="Public" name="mia_gs3s" />
         <marker scope="Public" name="mikan0" />
         <marker scope="Public" name="miki0" />
         <marker scope="Public" name="miko_babies" />
@@ -2971,6 +2980,7 @@
         <marker scope="Public" name="yae_miko_resp1" />
         <marker scope="Public" name="yae_miko_resp12" />
         <marker scope="Public" name="yae_miko_resp2" />
+        <marker scope="Public" name="yae_miko_resp3" />
         <marker scope="Public" name="yae_miko0" />
         <marker scope="Public" name="yae_miko01" />
         <marker scope="Public" name="yae_miko1" />

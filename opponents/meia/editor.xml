@@ -991,9 +991,12 @@
         <label id="1849" label="" color="4" folder="" sort="0" />
         <label id="1850" label="" color="4" folder="" sort="0" />
         <label id="1859" label="" color="4" folder="" sort="0" />
+        <label id="1860" label="" color="4" folder="" sort="0" />
+        <label id="1861" label="" color="4" folder="" sort="0" />
     </labels>
-    <nextId>1859</nextId>
+    <nextId>1861</nextId>
     <markers>
+        <marker scope="Public" name="" />
         <marker scope="Public" name="2butt">Meia shows off her butt while still in her bodysuit (or Cupid outfit).</marker>
         <marker scope="Public" name="9s0" />
         <marker scope="Public" name="9s1" />
@@ -2705,6 +2708,7 @@
         <marker scope="Public" name="mia_gs2" />
         <marker scope="Public" name="mia_gs23" />
         <marker scope="Public" name="mia_gs3" />
+        <marker scope="Public" name="mia_gs34jura" />
         <marker scope="Public" name="mia_gs4" />
         <marker scope="Public" name="mikan0" />
         <marker scope="Public" name="miki0" />
@@ -4015,6 +4019,7 @@
         <marker scope="Public" name="yae_miko_resp1" />
         <marker scope="Public" name="yae_miko_resp12" />
         <marker scope="Public" name="yae_miko_resp2" />
+        <marker scope="Public" name="yae_miko_resp3" />
         <marker scope="Public" name="yae_miko_sightseeing" />
         <marker scope="Public" name="yae_miko0" />
         <marker scope="Public" name="yae_miko01" />
