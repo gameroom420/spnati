@@ -1,2 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<collectibles />
+<collectibles>
+    <collectible id="hina_legband" status="online" img="opponents/aoi_asahina/3-stripped.png" thumbnail="opponents/aoi_asahina/attachments/part-legband(scrunch).png">
+        <title>Hina's Legband</title>
+        <unlock>Win a game against Hina.</unlock>
+        <hide-details>true</hide-details>
+        <wearable>true</wearable>
+        <clothing img="opponents/aoi_asahina/attachments/part-legband(scrunch).png" name="Legband" generic="sleeves" position="legs" type="extra" />
+    </collectible>
+    <collectible id="dr_udg" status="offline">
+        <title>Danganronpa: Ultra Lewd Girls</title>
+        <text>Team Danganronpa is at it again with a bolder take on the series. Such despair!</text>
+        <unlock>Have Hina leave the group to go swimming on a background with water.</unlock>
+    </collectible>
+    <collectible id="hina_underwear" status="offline">
+        <title>Hina's Underwear</title>
+        <text>Team Danganronpa is at it again with a bolder take on the series. Such despair!</text>
+        <unlock>Outlast Hina in a game with three other Danganronpa characters.</unlock>
+        <hide-details>true</hide-details>
+    </collectible>
+</collectibles>
