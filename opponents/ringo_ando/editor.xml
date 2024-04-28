@@ -225,6 +225,10 @@
         <response id="1125" opponent="zeke_pandoria" opponentId="1" />
         <response id="1132" opponent="nonon" opponentId="226" />
         <response id="1134" opponent="nonon" opponentId="989" />
+        <response id="1143" opponent="aoi_asahina" opponentId="234" />
+        <response id="1145" opponent="aoi_asahina" opponentId="13" />
+        <response id="1146" opponent="aoi_asahina" opponentId="20" />
+        <response id="1148" opponent="lysithea" opponentId="19" />
     </responses>
     <labels>
         <label id="91" label="" folder="Early Tags" sort="0" />
@@ -1335,8 +1339,16 @@
         <label id="1132" label="" folder="targets" sort="0" />
         <label id="1109" label="" folder="targets" sort="0" />
         <label id="1110" label="" folder="targets" sort="0" />
+        <label id="1144" label="" folder="targets" sort="0" />
+        <label id="1145" label="" folder="targets" sort="0" />
+        <label id="1146" label="" folder="targets" sort="0" />
+        <label id="1147" label="" folder="targets" sort="0" />
+        <label id="1143" label="" folder="targets" sort="0" />
+        <label id="1148" label="" folder="targets" sort="0" />
+        <label id="1149" label="" folder="targets" sort="0" />
+        <label id="1150" label="" folder="targets" sort="0" />
     </labels>
-    <nextId>1142</nextId>
+    <nextId>1150</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="~nickname~" />
@@ -1405,6 +1417,10 @@
         <marker scope="Public" name="aoba_shortnsmallQ" />
         <marker scope="Public" name="aoba_slippers" />
         <marker scope="Public" name="aoi_balcony" />
+        <marker scope="Public" name="aoi_balcony2" />
+        <marker scope="Public" name="aoi_darkmagic" />
+        <marker scope="Public" name="aoi_darkmagic2" />
+        <marker scope="Public" name="aoi_hairstyles" />
         <marker scope="Public" name="aoi_names" />
         <marker scope="Public" name="aoi_olympiccadet" />
         <marker scope="Public" name="aoi_olympiccadet2" />
@@ -1583,6 +1599,9 @@
         <marker scope="Public" name="lucy_hand" />
         <marker scope="Public" name="lyra_gingersoul" />
         <marker scope="Public" name="lyra_harpy" />
+        <marker scope="Public" name="lys_magic" />
+        <marker scope="Public" name="lys_study" />
+        <marker scope="Public" name="lys_travel" />
         <marker scope="Public" name="magsempai_socks" />
         <marker scope="Public" name="mari_" />
         <marker scope="Public" name="mari_appletoy" />
