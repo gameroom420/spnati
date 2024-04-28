@@ -186,17 +186,23 @@ DUE TO POSITION DETECTION, CONVERSATIONS ABOVE AND BELOW THIS LINE WON'T PLAY IN
 
 If Sanako to left and Nagisa to right:
 
-NAGISA MUST STRIP SHOES:
+NAGISA MUST STRIP SHOES: Kyou only chimes in if present
 Sanako [sanako_nagisa_sn_n1]: "Nagisa" is such a lovely name. It's nice to get to know you like this.
+Kyou [kyou_nagisa_sanako_skn_n1]: Let's <i>all</i> get to know each other better. Do you know this girl, Nagisa? She seems familiar.
 Nagisa [nagisa_sanako_sn_n1]: Um, thanks, Sanako. I've been meaning to ask... Do you go to Hikarizaka Private High School too?
+Kyou [kyou_nagisa_sanako_snk_n1]: I've been wondering that too. I thought I knew all the girls at our year level. But that crest...
 
-NAGISA STRIPPING SHOES:
+NAGISA STRIPPING SHOES: Kyou only chimes in if present
 Sanako [sanako_nagisa_sn_n2]: Oh, because of the uniform? Hehe, my secret's out. Yeah, you could say you and I cross paths a lot.
+Kyou [kyou_nagisa_sanako_skn_n2]: That might be the worst kept secret of all time, Sanako. Next time try a disguise or something.
 Nagisa [nagisa_sanako_sn_n2]: I'm sorry that I don't recognize you from school. It's nice we could meet each other now though.
+Kyou [kyou_nagisa_sanako_snk_n2]: Yeah! It's nice to meet you properly, Sanako.
 
-NAGISA STRIPPED SHOES:
+NAGISA STRIPPED SHOES: Kyou only chimes in if present
 Sanako [sanako_nagisa_sn_n3]: I'm sure we'll be friends, Nagisa. I have a good feeling about it.
+Kyou [kyou_nagisa_sanako_skn_n3]: See, I knew this would be good for you.
 Nagisa [nagisa_sanako_sn_n3]: You're so friendly, Sanako. I like you already!
+Kyou [kyou_nagisa_sanako_snk_n3]: She does seem especially cheery.
 
 
 NAGISA MUST STRIP SOCKS:

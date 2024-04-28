@@ -1,0 +1,473 @@
+﻿If Nagisa to left and Natsuki to right:
+
+NAGISA MUST STRIP SHOES:
+Nagisa [nagisa_natsuki_gt_g1]: Oh, it's my turn? I'll have to get used to quick costume changes if I want to restart the drama club!
+Natsuki [natsuki_nagisa_on_left_01]: Uh... I guess that's a good point. 
+
+NAGISA STRIPPING SHOES (accessory):
+Nagisa [nagisa_natsuki_gt_g2]: There are lots of different costume shoes, but they don't all look good with white socks.
+Natsuki [natsuki_nagisa_on_left_02]: Huh. I hadn't ever really thought about what kind of extra thought goes into other clubs... 
+
+NAGISA STRIPPED SHOES (accessory):
+Nagisa [nagisa_natsuki_gt_g3]: But I'll need to find more club members if we want to put on a performance this year.
+Natsuki [natsuki_nagisa_on_left_03]: I guess the only thing you really have to worry about in Literature Club is running into some sort of topic that makes you uncomfortable... But thinking about getting naked in front of people is a lot easier than doing it, I guess.
+
+NAGISA HAND AFTER STRIPPED SHOES:
+Nagisa [nagisa_natsuki_gt_g3_hand]: G-Getting naked in front of people...
+Natsuki [natsuki_nagisa_on_left_04]: W-well-- Uh, d-didn't you know about that? The getting naked. I... Well, I just wanted to go to my club meeting and ended up here. Nn-- S-so I have to look out for ~player~ to make sure they don't do anything stupid. 
+Natsuki if 3xDDLC [natsuki_nagisa_on_left_04_ddlc]: I... I think I must've been the only person who didn't know we were stripping so <i>someone</i> has to be the voice of reason. Don't suppose you're interested in joining the literature club, if we're all going to see each other naked, anyway?
+
+
+NAGISA MUST STRIP SOCKS:
+Nagisa [nagisa_natsuki_gt_g4]: <i>Wow, I'm so surprised!</i><br>Did you like my acting just then? I was practising a little, hehe.
+Natsuki [natsuki_nagisa_on_left_11]: I can see why you picked the drama club, Nagisa!
+
+NAGISA STRIPPING SOCKS (minor):
+Nagisa [nagisa_natsuki_gt_g5]: Thanks! But I'm not very good at being an actress yet. Truly!
+Natsuki [natsuki_nagisa_on_left_12]: You could've fooled me! Uh... wait. Are you being serious?
+
+NAGISA STRIPPED SOCKS (minor):
+Nagisa [nagisa_natsuki_gt_g6]: Well, I've never actually been in a real play before...
+Natsuki [natsuki_nagisa_on_left_13]: Uu-- S-so... Does that mean you <i>are</i> used to undressing in front of other people? I-I already struggle at that in the gym... I can't imagine doing that and getting into costume... Though costumes do sound pretty interesting...
+
+
+NAGISA MUST STRIP JACKET: Sanako chimes in if present
+Sanako [sanako_nagisa_natsuki_sgt_g7]: We got you again. You'd better watch out, ehehe!
+Nagisa [nagisa_natsuki_gt_g7]: I should've baked treats for everybody. Maybe you'd all go a little easier on me!
+Sanako [sanako_nagisa_natsuki_gst_g7]: I'm sure you would have at least won the hearts of anyone who appreciates the challenge of cooking for strangers.
+Natsuki [natsuki_nagisa_on_left_21]: Oh! I love baking for my clubs. B-but that doesn't mean we're going to go easier on you, Nagisa!
+Sanako [sanako_nagisa_natsuki_gts_g7]: Well, maybe just a <i>little</i> easier on you.
+
+NAGISA STRIPPING JACKET (accessory): Sanako chimes in if present
+Sanako [sanako_nagisa_natsuki_sgt_g8]: Oh? You bake too?
+Nagisa [nagisa_natsuki_gt_g8]: I'm sure lots of people love coming to your club if you bake for them, Natsuki! That's such a good idea.
+Sanako [sanako_nagisa_natsuki_gst_g8]: Isn't it just? It sure would help people who think with their tummies.
+Natsuki [natsuki_nagisa_on_left_22]: Hmph. They come for my poems too, but it doesn't <i>hurt</i> that I'm known as a good baker. What about you? What do you like baking?
+Sanako [sanako_nagisa_natsuki_gts_g8]: For me, it's such a great outlet for my creativity. I try never to make the same thing twice, What about you, Nagisa?
+
+NAGISA STRIPPED JACKET (accessory): Sanako chimes in if present
+Sanako [sanako_nagisa_natsuki_sgt_g9]: I like baking something that will surprise my customers! It's always something different. What's your answer, Nagisa?
+Nagisa [nagisa_natsuki_gt_g9]: I love making cinnamon rolls because so many people appreciate them. But recently my mom has been encouraging me to experiment with cherry pies, though I'm not quite ready for anybody to try one yet.
+Sanako [sanako_nagisa_natsuki_gst_g9]: There's a trick to getting the filling just right. And you don't want to add cream until the timing's just perfect.
+Natsuki [natsuki_nagisa_on_left_23]: Pfft... Ehehe... I'm not sure why you'd come to game like this without intending to share your pie, Nagisa...
+Sanako [sanako_nagisa_natsuki_gts_g9]: You must be a bit fan of cherries, Natsuki.
+
+NAGISA HAND AFTER STRIPPED JACKET: Sanako chimes in if present
+Sanako [sanako_nagisa_natsuki_sgt_g9_hand]: I think she might be teasing you, honey.
+Nagisa [nagisa_natsuki_gt_g9_hand]: Sorry, did I say something funny?
+Sanako [sanako_nagisa_natsuki_gst_g9_hand]: I don't think so, honey. What's funny about experimenting with a sweet treat before letting just anyone try it?
+Natsuki [natsuki_nagisa_on_left_24]: Nn-- It's... it's just a lewd joke. A-about... a euphemism. For your vagina.
+Sanako [sanako_nagisa_natsuki_gts_g9_hand]: Oh! This must be some of that rude modern humor Ive heard so much about...
+
+
+NAGISA MUST STRIP SHIRT:
+Nagisa [nagisa_natsuki_gt_g10]: Ah, um... I was thinking I might just be a supporting character, but it looks like I'll be in a starring role today...
+Natsuki [natsuki_nagisa_on_left_31]: Have you ever considered writing a play of your own? N-not like this, I guess. In Literature Club, we mostly write poems, and a few short stories, but I think I'd be pretty good at a manga storyboard, too.
+
+NAGISA STRIPPING SHIRT (major):
+Nagisa [nagisa_natsuki_gt_g11]: I'd love to write a play. That's why I want to re-start the drama club, actually. There's a story I want to share. I never thought about making it a manga instead.
+Natsuki [natsuki_nagisa_on_left_32]: Do you like manga? I think a story about a girl re-starting her drama club could make a cute slice of life story... and you can break genre by writing different plays within the framing story... Huh...
+
+NAGISA STRIPPED SHIRT (major):
+Nagisa [nagisa_natsuki_gt_g12]: Wow, you're really good with story ideas, Natsuki. I don't know if I could make my story into a manga. I'd like to think about it if that's okay. I've got a lot on my mind right now...
+Natsuki [natsuki_nagisa_on_left_33]: Whoa uh... with a view like that, you've got a lot on my mind-- I-I mean, c-completely understandable, Nagisa. W-weren't we talking about manga? And... nn--
+
+
+NAGISA MUST STRIP SKIRT:
+Nagisa [nagisa_natsuki_gt_g13]: Oh. Um, this is kind of hard for me. I was told never to let a boy look up my skirt, so it feels kind of weird to just take it off for strangers... Like my perfect record will be all gone.
+Natsuki [natsuki_nagisa_on_left_41]: Nn--! I'm jealous. Having a perfect record of not having anyone having looked up your skirt is impressive. <i>This</i> way, at least you're choosing it, r-right?
+
+NAGISA STRIPPING SKIRT (major):
+Nagisa [nagisa_natsuki_gt_g14]: At least, I <i>think</i> it was a perfect record. I can't really know for sure.
+Natsuki [natsuki_nagisa_on_left_42]: I-In a way, that kind of makes it easier, right? Like... um... S-so. This one time, I was walking to school, and I dropped my bag, and I bent over too fast and flashed a group of boys from another school.
+
+NAGISA STRIPPED SKIRT (major):
+Nagisa [nagisa_natsuki_gt_g15]: I've been so worried I'll make a mistake like that, especially on windy days... I don't want to flash innocent people. But, um, now I have anyway. Sorry, everyone!
+Natsuki [natsuki_nagisa_on_left_43]: I don't think you need to be sorry... People probably wouldn't want to play with you if they didn't want to see it, right..? N-not that I want to!
+
+
+NAGISA MUST STRIP BRA:
+Nagisa [nagisa_natsuki_gt_g16]: Ah. I... I hope this is okay with everyone. I hope we can still be friends after this...
+Natsuki [natsuki_nagisa_on_left_51]: Nn-- If anyone is mean to her or doesn't want to be friends, you're a moron! Of <i>course I'm</i> friends with you, Nagisa!
+
+NAGISA STRIPPING BRA (revealing chest):
+Nagisa [nagisa_natsuki_gt_g17]: That means a lot to me. I was just worried that things would get, um, awkward...
+Natsuki [natsuki_nagisa_on_left_52]: If you've seen someone's boobs, then it's probably easier to be friends. I think. R-right?
+
+NAGISA STRIPPED BRA (revealed chest):
+Nagisa [nagisa_natsuki_gt_g18]: H-Here they are... I hope you're right, Natsuki. N-Not that I'd want to make friends just <i>because</i> someone saw my chest! I don't want someone thinking about that when we talk...
+Natsuki [natsuki_nagisa_on_left_53]: S-sure, but it's a nice side benefit! Like, you have nice boobs, so at least get a nice friend-- Nn--!
+
+
+NAGISA MUST STRIP PANTIES:
+Nagisa [nagisa_natsuki_gt_g19]: I knew this was coming. I... I know I can do it. I'll show myself what I'm capable of. Even if no one would ever believe me...
+Natsuki [natsuki_nagisa_on_left_61]: Y-yeah! Show us all what you're made of! Uu-- (<i>What did I just imply?!</i>)
+
+NAGISA STRIPPING PANTIES (revealing crotch):
+Nagisa [nagisa_natsuki_gt_g20]: Th-This is everything!
+Natsuki [natsuki_nagisa_on_left_62]: D-don't sell yourself short! It's your body but not all of you!
+OR nude [natsuki_nagisa_on_left_62]: Yeah! If I can do it, you can, Nagisa!
+
+NAGISA STRIPPED PANTIES (revealed crotch):
+Nagisa [nagisa_natsuki_gt_g21]: There has to be a better way to make friends than this...
+Natsuki [natsuki_nagisa_on_left_63]: Well, maybe you should've done that instead, dummy! But if we're both here, we may as well get something for it.
+
+---
+
+NATSUKI MUST STRIP SHOES AND SOCKS:
+Nagisa [nagisa_natsuki_gt_t1]: It's okay if you don't want to continue, Natsuki. After all, you didn't even know we were playing poker today.
+Natsuki [natsuki_nagisa_on_left_strip01]: <i>*Sigh.*</i> I-it's fine, I <i>guess.</i>
+
+NATSUKI STRIPPING SHOES AND SOCKS (accessory):
+Nagisa [nagisa_natsuki_gt_t2]: I don't want you to feel pressured...
+Natsuki [natsuki_nagisa_on_left_strip02]: People'll just bitch about it if I leave, so <i>fine.</i> I'll do it <i>this time, at least.</i>
+
+NATSUKI STRIPPED SHOES AND SOCKS (accessory):
+Nagisa [nagisa_natsuki_gt_t3]: Let's try to at least have fun, okay?
+Natsuki [natsuki_nagisa_on_left_strip03]: Nn-- <i>Fine.</i> Just because Nagisa's being nice, though, ~player~. So, sure, Nagisa. Plus, good practice for your club, and costume changes, right?
+
+
+NATSUKI MUST STRIP BLAZER:
+Nagisa [nagisa_natsuki_gt_t4]: Sorry for all the trouble. I'd like to make it up to you somehow, unless that's too much trouble too.
+Natsuki [natsuki_nagisa_on_left_strip11]: I'm not sure how you doing something nice would be-- Uu-- It wasn't a problem until I had to think about it!
+
+NATSUKI STRIPPING BLAZER (minor):
+Nagisa [nagisa_natsuki_gt_t5]: What do you like to do to keep your mind off things, Natsuki? Maybe we could do that.
+Natsuki [natsuki_nagisa_on_left_strip12]: I like to bake... or write poems... or read manga. I'm not sure how we'd do that right now, though...
+
+NATSUKI STRIPPED BLAZER (minor):
+Nagisa [nagisa_natsuki_gt_t6]: Oh, you like poetry? Even if we don't have a pen, it might be fun to try to write a poem. I'm not very good at rhyming, but maybe did you want to try it together?
+Natsuki [natsuki_nagisa_on_left_strip13]: Yeah... We could definitely try that! What kinds of poems do you like?
+
+HAND AFTER NATSUKI STRIPPED BLAZER:
+Nagisa [nagisa_natsuki_gt_t6_hand]: I don't know if there's a special name for it or anything, but I've always liked romantic poems.
+Natsuki [natsuki_nagisa_on_left_strip14]: O-oh! I'm... I'm flattered but... we've j-just gotten to know each other! (<i>I-it's like a manga! The cute shy girl is confessing to me-- o-or something! A-and right in front of ~player~!</i>)
+
+
+NATSUKI MUST STRIP CARDIGAN:
+Nagisa [nagisa_natsuki_gt_t7]: Natsuki, do you like haiku?
+Natsuki [natsuki_nagisa_on_left_strip21]: I do! The things you can do with simple language to convey something important is amazing...!
+
+NATSUKI STRIPPING CARDIGAN (minor):
+Nagisa [nagisa_natsuki_gt_t8]: Haiku can be so simple and beautiful that they almost seem easy to write.
+Natsuki [natsuki_nagisa_on_left_strip22]: But think of a word: like cardigan... makes rules hard to follow, right? Wait, was that a haiku?
+
+NATSUKI STRIPPED CARDIGAN (minor):
+Nagisa [nagisa_natsuki_gt_t9]: Wow, Natsuki! You're a natural poet and you don't even realize!
+Natsuki [natsuki_nagisa_on_left_strip23]: T-thanks, Nagisa. I don't know if I'm a natural, but if you like doing something, it makes it a lot easier, huh?
+
+
+NATSUKI MUST STRIP RIBBON:
+Nagisa [nagisa_natsuki_gt_t10]: It seems like you know ~player~ pretty well, Natsuki. It must've be nice seeing a friendly face when you came.
+Natsuki [natsuki_nagisa_on_left_strip31]: W-well, yeah, ~player~'s in the literature club with me. B-but not like it's extra nice. It is nice, though.
+
+NATSUKI STRIPPING RIBBON (accessory):
+Nagisa [nagisa_natsuki_gt_t11]: I wish I had a friend here as supportive as ~player.ifMale(he|she)~ is for you. How long have you known each other?
+Natsuki [natsuki_nagisa_on_left_strip32]: Almost... I mean... Long enough to know ~player.ifMale(he's a good guy...|she's a nice lady. L-like a great person.)~ Someone I can trust...
+
+NATSUKI STRIPPED RIBBON (accessory):
+Nagisa [nagisa_natsuki_gt_t12]: Keep up the good work, ~player~! And, um, if I need some help later, I hope it's okay if I rely on you too. If that's okay with Natsuki, I mean.
+Natsuki [natsuki_nagisa_on_left_strip33]: Uu-- T-that depends on the kind of help. Y-you wouldn't do anything... you know!
+
+
+NATSUKI MUST STRIP SKIRT:
+Nagisa [nagisa_natsuki_gt_t13]: ~Player~! Ah, y-you have to turn around now. Please. I know you just want to help, but... but... ~player.ifMale(you're a boy and she's a girl|she obviously likes you a lot)~, so, um, it's up to you how far she'll go.
+Natsuki [natsuki_nagisa_on_left_strip41]: Thanks, Nagisa, but it's not like ~player~'s... I-I mean, nobody's going to see anything, because my shirt's a little long. N-not that I want them to look!
+
+NATSUKI STRIPPING SKIRT (major):
+Nagisa [nagisa_natsuki_gt_t14]: Oh, wow. That's so smart, Natsuki! I don't think I could do that because none of my shirts are too big for me.
+Natsuki [natsuki_nagisa_on_left_strip42]: W-Well, I guess you just bought them in the right size, Nagisa. Maybe you'd look cute in a boyfriend's shirt...?
+
+NATSUKI STRIPPED SKIRT (major):
+Nagisa [nagisa_natsuki_gt_t15]: Eh?! Um, is that what you're doing? Wearing ~player.ifMale(a boy's|someone else's)~ shirt, I mean...
+Natsuki [natsuki_nagisa_on_left_strip43_male]: Uh... Y-yeah! That's it. Don't get <i>jealous</i> or anything, ~player~! (<i>I can't tell them that it's because it what was on sale...</i>)
+     OR [natsuki_nagisa_on_left_strip43_female]: N-no...! But... I... I might not mind it. My shirts are too big, so I could get away with it. I-if someone offered.
+
+
+NATSUKI MUST STRIP SHIRT:
+Nagisa [nagisa_natsuki_gt_t16]: Oh no! It's.. it's okay, Natsuki. Just think of happy things. Like cookies. Or shoujo manga. Maybe... maybe in your story this is the big moment...
+Natsuki [natsuki_nagisa_on_left_strip51]: Nn-- Yeah, you have a point, Nagisa.
+
+NATSUKI STRIPPING SHIRT (major):
+Nagisa [nagisa_natsuki_gt_t17]: In shoujo manga, even when times get tough, the heroine will always pull through.
+Natsuki [natsuki_nagisa_on_left_strip52]: I guess people already saw my underwear, so if this is... a story... it's um, more like ecchi, isn't it?
+
+NATSUKI STRIPPED SHIRT (major):
+Nagisa [nagisa_natsuki_gt_t18]: I think even if the heroine has an embarrassing moment, it's just so that she can get closer to the one she loves.
+Natsuki [natsuki_nagisa_on_left_strip53]: Y-yeah, I guess that's true, Nagisa. But um, that can <i>still</i> be true even if... the story's a little lewd, right?
+
+
+NATSUKI MUST STRIP BRA:
+Nagisa [nagisa_natsuki_gt_t19]: Oh, Natsuki... I can only imagine how nervous you must be right now.
+    OR [nagisa_natsuki_gt_t19]: Oh, Natsuki... It was hard enough for me, so I can only imagine how nervous you must be right now.
+Natsuki [natsuki_nagisa_on_left_strip61]: In a weird way, knowing someone else is nervous makes it a bit easier.
+
+NATSUKI STRIPPING BRA (revealing chest):
+Nagisa [nagisa_natsuki_gt_t20]: No matter what happens, we're in this together. And this is a really big step.
+Natsuki [natsuki_nagisa_on_left_strip62]: ...Even if my chest isn't quite as big as yours, Nagisa.
+
+NATSUKI STRIPPED BRA (revealed chest):
+Nagisa [nagisa_natsuki_gt_t21]: M-My chest isn't important right now! I think you should be proud. Of, um, of your achievement, at least.
+Natsuki [natsuki_nagisa_on_left_strip63]: I-I'm not sure I'd consider showing someone my boobs an achievement. But it's nice someone wanted to see them, <i>I guess.</i>
+
+
+NATSUKI MUST STRIP PANTIES:
+Nagisa [nagisa_natsuki_gt_t22]: I'm sorry, Natsuki. But... but maybe this experience will help us grow. As people, I mean. I don't think we're going to get any taller...
+Natsuki [natsuki_nagisa_on_left_strip71]: Uu--A-are you seriously calling me short!? <i>Now?</i>!
+
+NATSUKI STRIPPING PANTIES (revealing crotch):
+Nagisa [nagisa_natsuki_gt_t23]: S-Sorry! I just blurted that out! M-Maybe I was just trying to distract you from... you know... this part of the game.
+Natsuki [natsuki_nagisa_on_left_strip72]: <i>Sigh Fine,</i> I <i>guess</i> that's <i>fine</i>, Nagisa.
+
+NATSUKI STRIPPED PANTIES (revealed crotch):
+Nagisa [nagisa_natsuki_gt_t24]: D-Don't look, everybody! Un-Unless you can't help yourself because she's too pretty. But you should still ask for permission. Either way, don't do it! Natsuki, if it's okay... I'm just going to look a little.
+Natsuki [natsuki_nagisa_on_left_strip73]: H-Here I am, I guess! Nn-- Now my feelings are all twisted up between wanting people to look and not wanting them to look!
+
+NATSUKI STRIPPED PANTIES (revealed crotch) AND NAGISA NUDE:
+Nagisa [nagisa_natsuki_gt_t24_nude]: Wow, you did it! I'm sure ~player~ is so proud of you. I was a bit worried for you for a while there...
+Natsuki [natsuki_nagisa_on_left_strip73_both_nude]: W-well, you did it first. So it'd be mean if I stopped now!
+
+NATSUKI STRIPPED PANTIES (revealed crotch) AND HAIRY VISIBLE 2+:
+Nagisa [nagisa_natsuki_gt_t24_hairy]: Oh! I was expecting... um, good job, Natsuki! You did amazing!
+Natsuki [natsuki_nagisa_on_left_strip73_hairy]: At least if someone's going to see me naked, at least I shaved! T-that's cute, right?
+
+---
+DUE TO POSITION DETECTION, CONVERSATIONS ABOVE AND BELOW THIS LINE WON'T PLAY IN THE SAME GAME.
+---
+
+If Natsuki to left and Nagisa to right:
+
+NAGISA MUST STRIP SHOES:
+Natsuki [natsuki_nagisa_on_right_01]: So, Nagisa, what kind of clubs are you involved with at your school? I get the feeling you'd like the drama club, or cooking club, or something traditional. Are you an aspiring actress, or something like that?
+Nagisa [nagisa_natsuki_tg_g1]: I'm trying to restart the drama club... but I haven't had a lot of luck so far.
+
+NAGISA STRIPPING SHOES (accessory):
+Natsuki [natsuki_nagisa_on_right_02]: Don't take this the wrong way, but... you don't really seem like the acting type.
+Nagisa [nagisa_natsuki_tg_g2]: I... I don't? Maybe it's just an impossible dream after all...
+
+NAGISA STRIPPED SHOES (accessory):
+Natsuki [natsuki_nagisa_on_right_03]: (<i>Wait... Unless she's acting shy and embarrassed right now? That's... pretty clever.</i>)
+Nagisa [nagisa_natsuki_tg_g3]: I'm sorry for wasting your time, everyone...
+
+
+NAGISA MUST STRIP SOCKS:
+Natsuki [natsuki_nagisa_on_right_11]: Nagisa, uh, don't break character if that's what you're doing but-- Um... Well, are you pretending to be one way, but actually are another?
+Nagisa [nagisa_natsuki_tg_g4]: What do you mean?
+
+NAGISA STRIPPING SOCKS (minor):
+Natsuki [natsuki_nagisa_on_right_12]: I-I was just wondering if you're acting <i>right now.</i> Uu-- It's stupid, never mind! Don't worry about it.
+Nagisa [nagisa_natsuki_tg_g5]: <i>(Does Natsuki mean that I'm just putting on a brave face? How does she know?!)</i>
+
+NAGISA STRIPPED SOCKS (minor):
+Natsuki [natsuki_nagisa_on_right_13]: (<i>She could be one of those girls that acts super shy... is there a term for a girl that's like that? She pretends to be super shy but is actually really... whoa...</i>)
+Nagisa [nagisa_natsuki_tg_g6]: <i>(She got so quiet. She definitely knows!)</i>
+
+
+NAGISA MUST STRIP JACKET:
+Natsuki [natsuki_nagisa_on_right_21]: So... If you don't want to be an actress... What do you want to do? I mean, professionally.
+Nagisa [nagisa_natsuki_tg_g7]: I don't plan on going to college, but I'm sure I'll be able to make ends meet somehow.
+
+NAGISA STRIPPING JACKET (accessory):
+Natsuki [natsuki_nagisa_on_right_22]: Well... I want to bake, or write, or something. Something where you can... Do something good for other people, without necessarily having to deal with them.
+Nagisa [nagisa_natsuki_tg_g8]: I love to bake, so maybe I could work at a restaurant!
+
+NAGISA STRIPPED JACKET (accessory):
+Natsuki [natsuki_nagisa_on_right_23]: So, what do you like to bake, anyway?
+Nagisa [nagisa_natsuki_tg_g9]: My dad and mom are bakers, so they taught me how to make all kinds of pastries and cakes and cookies and things! My dad is really good at it and my mom... my mom has some interesting ideas...
+
+
+NAGISA MUST STRIP SHIRT:
+Natsuki [natsuki_nagisa_on_right_31]: Nagisa, just think of it like getting ready for a shower... Or uh, something... Do you sing in the shower? I bet you have a really pretty voice!
+Nagisa [nagisa_natsuki_tg_g10]: I don't have a great singing voice or anything, but I do like to sing to myself when I'm in the bath. How did you know? Is there something about being wet that makes you want to sing more?
+
+NAGISA STRIPPING SHIRT (major):
+Natsuki [natsuki_nagisa_on_right_32]: Pffft. <i>Nagisa, phrasing!</i> Someone might get the wrong idea about making you sing.
+Nagisa [nagisa_natsuki_tg_g11]: What do y--- Oh! I just... um, I'm sure some girls feel liking singing when they get wet that way. But not me. I just... I just need to keep going, don't I?
+
+NAGISA STRIPPED SHIRT (major):
+Natsuki [natsuki_nagisa_on_right_33]: Y-yeah, that's really probably for the best. Y-You wouldn't want to give someone the wrong idea about what turns you on...
+Nagisa [nagisa_natsuki_tg_g12]: N-Nobody wants to hear about that! A-Anyway, let's just deal again, okay?
+
+
+NAGISA MUST STRIP SKIRT:
+Natsuki [natsuki_nagisa_on_right_41]: Soooo, Nagisa, is the first time anyone's getting to see this view of you?
+Nagisa [nagisa_natsuki_tg_g13]: I guess I have to undress for the nurse when we do health checkups...
+
+NAGISA STRIPPING SKIRT (major):
+Natsuki [natsuki_nagisa_on_right_42]: Ehehe~ Dummy-- I meant in a... <i>You know</i>. Like... a boy alone in your room kind of way. You can tell me, you know.
+Nagisa if player male [nagisa_natsuki_tg_g14_male]: Alone with a boy... in m-my bedroom?!
+Nagisa if player female [nagisa_natsuki_tg_g14_female]: I'm only allowed to have girls in my room, Natsuki. I think that's a good rule.
+
+NAGISA STRIPPED SKIRT (major) AND PLAYER MALE:
+Natsuk [natsuki_nagisa_on_right_43_male]: <i>Pfft...!</i> Don't be so embarrassed! It's totally normal though... I guess I probably wouldn't have a boy in my bedroom either. B-but that doesn't mean-- nn-- t-that there's not other places. L-Like his bedroom! It's the modern era! W-why do women always have to play hostess?
+Nagisa [nagisa_natsuki_tg_g15_male]: N-No boys have invited me to their bedrooms! But I don't really know a lot of boys, so I guess that's not too surprising...
+
+NAGISA STRIPPED SKIRT (major) AND PLAYER FEMALE:
+Natsuki [natsuki_nagisa_on_right_43_female]: O-oh! I... I thought you were really straight. I guess my gaydar's pretty bad, after all...
+Nagisa [nagisa_natsuki_tg_g15_female]: Wh-- I didn't mean it like that! I'm just not in love with anyone, so I haven't really done any undressing for anyone. Not before to~background.time~, anyway...
+
+
+NAGISA MUST STRIP BRA:
+Natsuki [natsuki_nagisa_on_right_51]: Y-you know, I bet some people <i>would</i> like to know what turns you on. You're about to be turning people on in a second, s-so it's only fair.
+Nagisa [nagisa_natsuki_tg_g16]: N-Nobody's going to get turned on by me, are they? Um, anyway, I... I like it when someone ~player.ifMale(handsome|pretty)~ smiles at me. But I don't get dirty thoughts about it!
+
+NAGISA STRIPPING BRA (revealing chest):
+Natsuki [natsuki_nagisa_on_right_52]: ...Are you just being modest? Everyone turns someone on, and you're very pretty... Nn--
+Nagisa [nagisa_natsuki_tg_g17]: R-Really?! I wonder who that someone is for me... You don't think ~player.ifMale(he's|they're)~ here to~background.time~, do you?
+
+NAGISA STRIPPED BRA (revealed chest):
+Natsuki [natsuki_nagisa_on_right_53]: W-well, yeah, there's probably at least one person here! Look at your boobs! How could someone <i>not</i> be into those?
+Nagisa [nagisa_natsuki_tg_g18]: Ah! Don't look <i>too</i> closely! But... but you can imagine them... if you really want to...
+
+
+NAGISA MUST STRIP PANTIES:
+Natsuki [natsuki_nagisa_on_right_61]: Hey, Nagisa, nn-- d-do you want people to look? Or not look? Y-you know, at your...?
+Nagisa [nagisa_natsuki_tg_g19]: At my...? Oh! It's... it's just human nature to look when you shouldn't, isn't it? I won't blame anyone for being curious... but you could close your eyes if you wanted to...
+
+NAGISA STRIPPING PANTIES (revealing crotch) AND NAGISA NOT SHAVED:
+Natsuki [natsuki_nagisa_on_right_62_not_shaved]: Oh! So... you want people to look but didn't shave? U-um. Not that you <i>should</i>.
+Nagisa [nagisa_natsuki_tg_g20_not_shaved]: N-Nobody told me!
+
+NAGISA STRIPPED PANTIES (revealed crotch) AND NAGISA NOT SHAVED:
+Natsuki [natsuki_nagisa_on_right_63_not_shaved]: Well, you look cute just the way you are! B-but maybe give it a try later to see if you like it.
+Nagisa [nagisa_natsuki_tg_g21_not_shaved]: ...I'll think about it, but it's kind of sensitive down there...
+
+NAGISA STRIPPING PANTIES (revealing crotch) AND NAGISA SHAVED:
+Natsuki [natsuki_nagisa_on_right_62_shaved]: Ha! It looks like <i>you</i> might be curious. It... U-um. I think being touched there when you're shaved feels better...
+Nagisa [nagisa_natsuki_tg_g20_shaved]: I-It does?!
+
+NAGISA STRIPPED PANTIES (revealed crotch) AND NAGISA SHAVED:
+Natsuki [natsuki_nagisa_on_right_63_shaved]: Y-you haven't tried it before? D-did you just shave for the first time when you came here?!
+Nagisa [nagisa_natsuki_tg_g21_shaved]: I had to! I wasn't sure how fast the hair grows back... I hope that's not too weird...
+
+---
+
+NATSUKI MUST STRIP SHOES AND SOCKS:
+Natsuki [natsuki_nagisa_on_right_strip01]: Fine, I'll do it, but just because everyone else is okay with it. I'm not doing it to show off or anything.
+Nagisa [nagisa_natsuki_tg_t1]: Me too. I think they must know that, right? If they wanted girls who like to show off, I don't think I'd be allowed in.
+
+NATSUKI STRIPPING SHOES AND SOCKS (accessory):
+Natsuki [natsuki_nagisa_on_right_strip02]: W-well, you don't think I'm showing off, right?
+Nagisa [nagisa_natsuki_tg_t2]: Of course not! Don't worry, Natsuki. I'm sure there's nobody here who is interested in seeing school shoes getting taken off.
+
+NATSUKI STRIPPED SHOES AND SOCKS (accessory):
+Natsuki [natsuki_nagisa_on_right_strip03]: Y-yeah! At least wait until I'm showing some skin before people act all lewd.
+Nagisa [nagisa_natsuki_tg_t3]: I didn't think it was too much to ask that people not undress your feet with their eyes.
+
+
+NATSUKI MUST STRIP BLAZER:
+Natsuki [natsuki_nagisa_on_right_strip11]: Me? Again? Uu-- This one'll be the last one! Don't count on me losing again!
+Nagisa [nagisa_natsuki_tg_t4]: But it's so random, Natsuki, so we really can't be sure. Unless... are you maybe just naturally unlucky?
+
+NATSUKI STRIPPING BLAZER (minor):
+Natsuki [natsuki_nagisa_on_right_strip12]: N-No, but I'm not just going to let some stupid cards tell me to show my underwear and--!
+Nagisa [nagisa_natsuki_tg_t5]: I think there's been some kind of misunderstanding! You only have to take off one thing at a time. You don't have to show us your underwear. Um, not yet, anyway...
+
+NATSUKI STRIPPED BLAZER (minor):
+Natsuki [natsuki_nagisa_on_right_strip13]: Well yeah! For <i>now!</i> What's going to happen if I keep losing?
+Nagisa [nagisa_natsuki_tg_t6]: It's a big risk... so if you keep losing, you might end up showing us everything...
+
+
+NATSUKI MUST STRIP CARDIGAN:
+Natsuki [natsuki_nagisa_on_right_strip21]: If I'm gonna get some kind of Manga power-up, now would be the time!
+Nagisa [nagisa_natsuki_tg_t7]: I think normally the heroine gets her powers at the very last minute, Natsuki. Or maybe you might get a wish granted.
+
+NATSUKI STRIPPING CARDIGAN (minor):
+Natsuki [natsuki_nagisa_on_right_strip22]: I guess I could wish, or I could just do it. I'll wish that nobody's <i>weird</i> about this.
+Nagisa [nagisa_natsuki_tg_t8]: We'll do our best to make that wish come true. Won't we, ~player.ifMale(guys|girls)~?
+OR if 3-player game [nagisa_natsuki_tg_t8]: We'll do our best to make that wish come true. It's just the three of us, after all.
+
+NATSUKI STRIPPED CARDIGAN (minor):
+Natsuki [natsuki_nagisa_on_right_strip23]: That really <i>does</i> make me feel better. Thanks, Nagisa.
+Nagisa [nagisa_natsuki_tg_t9]: I can't promise everyone will behave forever, though...
+
+
+NATSUKI MUST STRIP RIBBON:
+Natsuki [natsuki_nagisa_on_right_strip31]: Nobody better get lippy about me taking off something small...
+Nagisa [nagisa_natsuki_tg_t10]: We would never, Natsuki! If there are any bullies, we can stand up to them together! I... I hope.
+
+NATSUKI STRIPPING RIBBON (accessory):
+Natsuki [natsuki_nagisa_on_right_strip32]: Uu-- Y-yeah! Nagisa's got my back. Even if someone takes my uniform and tries to put it up on a vending machine after gym...!
+Nagisa [nagisa_natsuki_tg_t11]: Even if... even if someone spreads a rumor that you've never been kissed!
+
+NATSUKI STRIPPED RIBBON (accessory):
+Natsuki [natsuki_nagisa_on_right_strip33]: What?! I've kissed people before! Not... Not like a lot though! Nn-- I mean-- Wait a second! What about my ribbon?
+Nagisa [nagisa_natsuki_tg_t12]: That's right! Don't give them an inch, Natsuki! Or maybe just an inch if it makes them give up. But you have to draw the line somewhere.
+
+
+NATSUKI MUST STRIP SKIRT:
+Natsuki [natsuki_nagisa_on_right_strip41]: My shirt's a bit big because-- because it's cute! So don't think you're getting a peek at my underwear!
+Nagisa [nagisa_natsuki_tg_t13]: I'm not sure how your shirt is going to help. Unless...
+
+NATSUKI STRIPPING SKIRT (major):
+Natsuki [natsuki_nagisa_on_right_strip42]: It's a longer shirt. I'm not just going to stand here in my bra like a weirdo...
+Nagisa [nagisa_natsuki_tg_t14]: Ohhh, I see. I'm sure your bra is just as cute as your shirt, but I understand why you don't want to go that far if you don't have to.
+
+NATSUKI STRIPPED SKIRT (major):
+Natsuki [natsuki_nagisa_on_right_strip43]: See! It covers perfectly. You can't see a thing! Nn-- They match! So I don't want to give anyone the wrong idea, because they're really sexy. Y-yeah.
+Nagisa [nagisa_natsuki_tg_t15]: Um, actually... well... we... we can't see anything at all! Mission success!
+
+
+NATSUKI MUST STRIP SHIRT if panties_seen:
+Natsuki [natsuki_nagisa_on_right_strip51_panties_seen]: Fine. It was laundry day, so don't get your panties in a twist if you don't like mine!
+Nagisa [nagisa_natsuki_tg_t16_panties_seen]: I'm sure everyone likes them, Natsuki. They're so cute. I... I have the same pair at home.
+
+NATSUKI STRIPPING SHIRT (major) if panties_seen: (note: shirt is open and bra is visible and matching)
+Natsuki [natsuki_nagisa_on_right_strip52_panties_seen]: Y-yeah! Nagisa has the same pair. Even if they're... cute. But in a practical, <i>mature</i> way!
+Nagisa [nagisa_natsuki_tg_t17_panties_seen]: Wow! You have the matching bra too! I really wanted that, but the store said they couldn't order it in my size.
+
+NATSUKI STRIPPED SHIRT (major) if panties_seen:
+Natsuki [natsuki_nagisa_on_right_strip53_panties_seen]: Yeah that's... that's... <i>Oh...</i>
+Nagisa [nagisa_natsuki_tg_t18_panties_seen]: It's probably better that we don't match, though. My mom says it's best to avoid wearing the same dress as another lady at a party.
+
+
+NATSUKI MUST STRIP SHIRT if not panties_seen:
+Natsuki [natsuki_nagisa_on_right_strip51_panties_not_seen]: Uu-- And I was hiding it all so well... Wasn't I?
+Nagisa [nagisa_natsuki_tg_t16_panties_not_seen]: Y-Yeah. We couldn't see anything except your legs.
+
+NATSUKI STRIPPING SHIRT (major) if not panties_seen: (note: shirt is open and bra is visible and matching)
+Natsuki [natsuki_nagisa_on_right_strip52_panties_not_seen]: W-well fine! Here I am. I've gotten this far, so i-it's not like it'll be <i>more</i> annoying to keep going!
+Nagisa [nagisa_natsuki_tg_t17_panties_not_seen]: Just a little cold maybe, that's all.
+
+NATSUKI STRIPPED SHIRT (major) if not panties_seen:
+Natsuki [natsuki_nagisa_on_right_strip53_panties_not_seen]: Y-yeah... Well. This is the part where you're all supposed to compliment me. I'm showing you a <i>lot</i>! So you'd better say something nice!
+Nagisa [nagisa_natsuki_tg_t18_panties_not_seen]: I love how your bra and panties match, Natsuki! It's almost like you knew you were going to get this far.
+
+
+NATSUKI MUST STRIP BRA:
+Natsuki [natsuki_nagisa_on_right_strip61]: I--But... F-fine, I'll do it, but just because I'd be a coward if I didn't. ~Player~, you have something to do with me being here! So you'd better make sure nobody gets weird!
+Nagisa [nagisa_natsuki_tg_t19]: ~Player.ifMale(He|She)~ can be like your knight in shining armor, Natsuki! And you can be ~player.ifMale(his|her)~ princess that needs saving.
+
+NATSUKI STRIPPING BRA (revealing chest):
+Natsuki [natsuki_nagisa_on_right_strip62]: Have you seen ~player.ifMale(him|her)~? Some knight! ...But if ~player.ifMale(he|she)~ wanted to... W-well, if not now, then when?
+Nagisa [nagisa_natsuki_tg_t20]: Maybe ~player.ifMale(he's|she's)~ just waiting for the perfect moment to scoop you up and rescue you. Or... or maybe ~player.ifMale(he|she)~ was hoping for this to happen because... because ~player.ifMale(he's|she's)~ in love with ~player.ifMale(his|her)~ princess?
+
+NATSUKI STRIPPED BRA (revealed chest):
+Natsuki [natsuki_nagisa_on_right_strip63]: H-hey what? Uu-- D-don't joke about... That... Um. ~Player~? If you want to see my boobs... I guess it's fine but don't let someone lie about your intentions, you--you pervert.
+Nagisa [nagisa_natsuki_tg_t21]: I'm sorry! I didn't mean for it to sound like ~player.ifMale(he|she)~ has bad intentions! At least... not any worse than wanting to see us all in the nude...
+
+
+NATSUKI MUST STRIP PANTIES if Natsuki said natsuki_nagisa_on_right_strip63:
+Natsuki [natsuki_nagisa_on_right_strip71_cont]: H-hey, so... I guess it's weird if you just see part of me. S-so, you know, <i>fine</i>.
+Nagisa [nagisa_natsuki_tg_t22_cont]: That's so admirable, Natsuki. Even now, you can't leave things half-finished. You'll see it through to the end.
+
+NATSUKI STRIPPING PANTIES (revealing crotch) if Natsuki said natsuki_nagisa_on_right_strip63:
+Natsuki [natsuki_nagisa_on_right_strip72_cont]: It's like baking. You don't want to waste ingredients. Nn-- L-like a crush or something!
+Nagisa [nagisa_natsuki_tg_t23_cont]: Like a... like a <i>c-crush...?</i>
+
+NATSUKI STRIPPED PANTIES (revealed crotch) if Natsuki said natsuki_nagisa_on_right_strip63:
+Natsuki [natsuki_nagisa_on_right_strip73_cont]: I-I don't know! Maybe! J-just look at my pussy before I decide I don't want you staring!
+Nagisa [nagisa_natsuki_tg_t24_cont]: I looked! I think it might be burned into my memory forever now...
+
+
+NATSUKI MUST STRIP PANTIES if Natsuki not said natsuki_nagisa_on_right_strip63: This case pretty much only happens if Nagisa is masturbating when Natsuki strips her bra but not now.
+Natsuki [natsuki_nagisa_on_right_strip71_fallback]: Fine, I guess if ~player~'s going to see someone naked, it might as well be me. Since ~player.ifMale(he|she)~ hasn't been <i>too</i> weird about it.
+Nagisa [nagisa_natsuki_tg_t22_fallback]: You two seem like really good friends, so it's not like something like this could change things between you... right?
+
+NATSUKI STRIPPING PANTIES (revealing crotch) if Natsuki not said natsuki_nagisa_on_right_strip63:
+Natsuki [natsuki_nagisa_on_right_strip72_fallback]: We're good... friends. M-maybe it would be fine if we were more than that?
+Nagisa [nagisa_natsuki_tg_t23_fallback]: It's impossible to know what ~player.ifMale(a boy|someone)~ is thinking without asking ~player.ifMale(him|them)~. Given the circumstances, I'm sure ~player.ifMale(he|she)~ wouldn't mind if you had a special message for ~player.ifMale(him|her)~...
+
+NATSUKI STRIPPED PANTIES (revealed crotch) if Natsuki not said natsuki_nagisa_on_right_strip63:
+Natsuki [natsuki_nagisa_on_right_strip73_fallback]: T-That's now how this works! Here! I'm naked! Think about what you've done, ~player~!
+Nagisa [nagisa_natsuki_tg_t24_fallback]: Even that is a special message in its own way, I suppose.

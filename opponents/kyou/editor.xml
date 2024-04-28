@@ -104,6 +104,12 @@
         <response id="111" opponent="neptune" opponentId="2" />
         <response id="112" opponent="neptune" opponentId="28" />
         <response id="577" opponent="nagisa" opponentId="724" />
+        <response id="599" opponent="sanako" opponentId="38" />
+        <response id="600" opponent="sanako" opponentId="39" />
+        <response id="601" opponent="sanako" opponentId="40" />
+        <response id="602" opponent="nagisa" opponentId="1552" />
+        <response id="603" opponent="nagisa" opponentId="1553" />
+        <response id="604" opponent="nagisa" opponentId="1554" />
     </responses>
     <labels>
         <label id="116" label="" folder="Generics" sort="0" />
@@ -617,8 +623,18 @@
         <label id="596" label="" folder="Nagisa to right" sort="0" />
         <label id="597" label="" folder="Nagisa to right" sort="0" />
         <label id="598" label="" folder="Nagisa to right" sort="0" />
+        <label id="599" label="" folder="Nagisa to right / Sanako to left" sort="0" />
+        <label id="600" label="" folder="Nagisa to right / Sanako to left" sort="0" />
+        <label id="601" label="" folder="Nagisa to right / Sanako to left" sort="0" />
+        <label id="602" label="" folder="Nagisa and Sanako to left" sort="0" />
+        <label id="603" label="" folder="Nagisa and Sanako to left" sort="0" />
+        <label id="604" label="" folder="Nagisa and Sanako to left" sort="0" />
     </labels>
-    <nextId>598</nextId>
+    <prefixes>
+        <prefix>bento</prefix>
+        <prefix>botan</prefix>
+    </prefixes>
+    <nextId>604</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="kyou_4girls" />
@@ -1006,6 +1022,12 @@
         <marker scope="Public" name="kyou_nagisa_ryou" />
         <marker scope="Public" name="kyou_nagisa_ryou_fortune" />
         <marker scope="Public" name="kyou_nagisa_same" />
+        <marker scope="Public" name="kyou_nagisa_sanako_skn_n1" />
+        <marker scope="Public" name="kyou_nagisa_sanako_skn_n2" />
+        <marker scope="Public" name="kyou_nagisa_sanako_skn_n3" />
+        <marker scope="Public" name="kyou_nagisa_sanako_snk_n" />
+        <marker scope="Public" name="kyou_nagisa_sanako_snk_n1" />
+        <marker scope="Public" name="kyou_nagisa_sanako_snk_n2" />
         <marker scope="Public" name="kyou_nagisa_sanako1" />
         <marker scope="Public" name="kyou_nagisa_sanako2" />
         <marker scope="Public" name="kyou_nagisa_scar" />
@@ -1147,6 +1169,7 @@
         <marker scope="Public" name="kyou_samus_suit" />
         <marker scope="Public" name="kyou_sanako_must_strip" />
         <marker scope="Public" name="kyou_sanako_nagisa" />
+        <marker scope="Public" name="kyou_sanako_s7" />
         <marker scope="Public" name="kyou_sanako_start" />
         <marker scope="Public" name="kyou_sandfree" />
         <marker scope="Public" name="kyou_sayaka_" />

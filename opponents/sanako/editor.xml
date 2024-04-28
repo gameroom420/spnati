@@ -264,6 +264,7 @@
         <response id="558" opponent="natsuki" opponentId="580" />
         <response id="559" opponent="natsuki" opponentId="615" />
         <response id="568" opponent="derpy_hooves" opponentId="2" />
+        <response id="569" opponent="marceline" opponentId="2" />
     </responses>
     <notes>
         <note id="159">This is a lie.</note>
@@ -835,12 +836,19 @@
         <label id="566" label="" folder="Muffins to left or right" sort="0" />
         <label id="567" label="" folder="Muffins to left or right" sort="0" />
         <label id="568" label="" folder="Muffins to left or right" sort="0" />
+        <label id="569" label="" folder="Marceline to left" sort="0" />
+        <label id="570" label="" folder="Marceline to left" sort="0" />
+        <label id="571" label="" folder="Marceline to left" sort="0" />
+        <label id="572" label="" folder="Marceline to left" sort="0" />
+        <label id="288" label="" folder="AE86 to left or right" sort="0" />
+        <label id="289" label="" folder="AE86 to left or right" sort="0" />
+        <label id="287" label="" folder="AE86 to left or right" sort="0" />
     </labels>
     <prefixes>
         <prefix>collectible_</prefix>
         <prefix>x-</prefix>
     </prefixes>
-    <nextId>568</nextId>
+    <nextId>573</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="sanako_adrien_marinette_dual" />
@@ -1009,6 +1017,10 @@
         <marker scope="Public" name="sanako_kyu_drama_club">Sanako asks if Kyu is from the drama club.</marker>
         <marker scope="Public" name="sanako_kyu_fairy_wings" />
         <marker scope="Public" name="sanako_lake_selected" />
+        <marker scope="Public" name="sanako_marceline_ask_explore" />
+        <marker scope="Public" name="sanako_marceline_ask_music" />
+        <marker scope="Public" name="sanako_marceline_ask_pets" />
+        <marker scope="Public" name="sanako_marceline_ask_sports" />
         <marker scope="Public" name="sanako_marinette_adrien_dual" />
         <marker scope="Public" name="sanako_marinette_adrien_dualforfeit" />
         <marker scope="Public" name="sanako_marinette_adrien_dualforfeitclose" />
@@ -1462,6 +1474,11 @@
         <recipe key="352366df-ef02-4874-a2eb-0fdc4c210fbd">
             <cases>
                 <id>377</id>
+            </cases>
+        </recipe>
+        <recipe key="cc28d236-6b17-48ce-a010-48a75ded118c">
+            <cases>
+                <id>573</id>
             </cases>
         </recipe>
     </recipes>

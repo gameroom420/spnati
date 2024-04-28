@@ -537,6 +537,9 @@
         <response id="1921" opponent="natsuki" opponentId="638" />
         <response id="1922" opponent="natsuki" opponentId="639" />
         <response id="1923" opponent="natsuki" opponentId="640" />
+        <response id="1935" opponent="chara_dreemurr" opponentId="57" />
+        <response id="1936" opponent="chara_dreemurr" opponentId="453" />
+        <response id="1937" opponent="chara_dreemurr" opponentId="664" />
     </responses>
     <notes>
         <note id="401">This is a special version of this line for Fluttershy to react to, but it uses the regular marker to allow for replied from anyone.
@@ -2429,13 +2432,18 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <label id="1932" label="" folder="Natsuki to left" sort="0" />
         <label id="1933" label="" folder="Natsuki to left" sort="0" />
         <label id="1934" label="" folder="Natsuki to left" sort="0" />
+        <label id="1935" label="" folder="Chara to left" sort="0" />
+        <label id="1936" label="" folder="Chara to left" sort="0" />
+        <label id="1937" label="" folder="Chara to left or right" sort="0" />
+        <label id="1581" label="" folder="Jura to left" sort="0" />
+        <label id="1938" label="" folder="Chara to left" sort="0" />
     </labels>
     <prefixes>
         <prefix>epilogue</prefix>
         <prefix>collectible</prefix>
         <prefix>x-</prefix>
     </prefixes>
-    <nextId>1934</nextId>
+    <nextId>1938</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="nagisa_9s_are_you_lost" />
@@ -2729,7 +2737,11 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <marker scope="Public" name="nagisa_cd_skirt_2" />
         <marker scope="Public" name="nagisa_cd_skirt_3" />
         <marker scope="Public" name="nagisa_cd_what_kind_of_powers" />
+        <marker scope="Public" name="nagisa_chara_challenge" />
         <marker scope="Public" name="nagisa_chara_kinda_scary" />
+        <marker scope="Public" name="nagisa_chara_mast_start" />
+        <marker scope="Public" name="nagisa_chara_remove_refuse" />
+        <marker scope="Public" name="nagisa_chara_throwing" />
         <marker scope="Public" name="nagisa_chell_asked_humans" />
         <marker scope="Public" name="nagisa_chell_asked_robots" />
         <marker scope="Public" name="nagisa_chell_out_of_the_blue" />
