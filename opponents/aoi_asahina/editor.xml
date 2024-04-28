@@ -224,7 +224,7 @@
         <label id="213" label="" folder="Target: Kyoko" sort="0" />
         <label id="214" label="" folder="Target: Kyoko" sort="0" />
         <label id="215" label="" folder="Target: Kyoko" sort="0" />
-        <label id="217" label="" color="4" folder="" sort="0" />
+        <label id="260" label="" folder="Sequences" sort="0" />
         <label id="184" label="" color="4" folder="" sort="0" />
         <label id="162" label="" color="4" folder="Target: Kyoko" sort="0" />
         <label id="218" label="" folder="Target: Chihiro" sort="0" />
@@ -259,8 +259,17 @@
         <label id="255" label="" folder="Target: Ringo" sort="0" />
         <label id="256" label="" folder="Target: Ringo" sort="0" />
         <label id="257" label="" folder="Target: Ringo" sort="0" />
+        <label id="258" label="WiiFit Set Confident" folder="" sort="0" />
+        <label id="198" label="" folder="Target: Kyoko" sort="0" />
+        <label id="203" label="" folder="Target: Kyoko" sort="0" />
+        <label id="5" label="" folder="Target: Kyoko" sort="0" />
+        <label id="156" label="" folder="Target: Kyoko" sort="0" />
+        <label id="135" label="" folder="Target: Chihiro" sort="0" />
+        <label id="264" label="" folder="Target: Chihiro" sort="0" />
+        <label id="95" label="" folder="Target: Chihiro" sort="0" />
+        <label id="266" label="" folder="Target: Chihiro" sort="0" />
     </labels>
-    <nextId>257</nextId>
+    <nextId>266</nextId>
     <markers>
         <marker scope="Private" name="B_">Background related markers.</marker>
         <marker scope="Public" name="B_BeachTan" />
@@ -342,8 +351,9 @@
         <marker scope="Public" name="T_ChihiroAlterEgo" />
         <marker scope="Public" name="T_ChihiroEnd" />
         <marker scope="Public" name="T_ChihiroSecret" />
+        <marker scope="Public" name="T_ChihiroSecretKyoko" />
+        <marker scope="Public" name="T_ChihiroSecretNami" />
         <marker scope="Public" name="T_ChihiroStart" />
-        <marker scope="Public" name="T_ChihiroStripping4" />
         <marker scope="Public" name="T_DunbanSwim" />
         <marker scope="Public" name="T_KokichiStart" />
         <marker scope="Public" name="T_Kyoko_coMast1a" />
@@ -372,6 +382,8 @@
         <marker scope="Public" name="T_KyoukoStart" />
         <marker scope="Public" name="T_MahiruBirthday" />
         <marker scope="Public" name="T_NadeshikoChubby" />
+        <marker scope="Public" name="T_NamiTan" />
+        <marker scope="Public" name="T_NamiTanTopless" />
         <marker scope="Public" name="T_noCeleste" />
         <marker scope="Public" name="T_NoelleVision" />
         <marker scope="Public" name="T_RingoAwkward" />
@@ -385,6 +397,7 @@
         <marker scope="Public" name="T_Self_NadeshikoNervous" />
         <marker scope="Public" name="T_SweetheartStart" />
         <marker scope="Public" name="T_TwoKyokoLost0" />
+        <marker scope="Public" name="T_WiiFitStart" />
         <marker scope="Private" name="TI_">Targeted lines when Hina is stripping</marker>
         <marker scope="Public" name="TI_Aqua_01Chihiro" />
         <marker scope="Public" name="TI_Aqua_01Kyoko" />
@@ -421,6 +434,7 @@
         <marker scope="Public" name="TI_Rose_01Swim" />
         <marker scope="Public" name="TI_SCM_01" />
         <marker scope="Public" name="TI_SCM_LastName" />
+        <marker scope="Public" name="TI_Trainer_01" />
         <marker scope="Private" name="TO_">Targeted lines when other characters are stripping.</marker>
         <marker scope="Public" name="TO_Chiaki_01">Chiaki Must Strip Stage 0</marker>
         <marker scope="Public" name="TO_Chihiro_01">Chihiro Must Strip Stage 0</marker>

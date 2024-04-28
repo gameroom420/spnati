@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1714247803015</lastupdate>
+    <lastupdate>1714278330425</lastupdate>
     <enabled>false</enabled>
     <first>Aoi</first>
     <last>Asahina</last>
@@ -14,6 +14,6 @@
     <layers>7</layers>
     <default-costume-name>Tracksuit</default-costume-name>
     <has_collectibles>true</has_collectibles>
-    <lines>622</lines>
+    <lines>634</lines>
     <poses>184</poses>
 </opponent>
