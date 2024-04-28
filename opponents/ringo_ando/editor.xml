@@ -226,6 +226,8 @@
         <response id="1132" opponent="nonon" opponentId="226" />
         <response id="1134" opponent="nonon" opponentId="989" />
         <response id="1143" opponent="aoi_asahina" opponentId="234" />
+        <response id="1145" opponent="aoi_asahina" opponentId="13" />
+        <response id="1146" opponent="aoi_asahina" opponentId="20" />
     </responses>
     <labels>
         <label id="91" label="" folder="Early Tags" sort="0" />
@@ -1337,8 +1339,12 @@
         <label id="1109" label="" folder="targets" sort="0" />
         <label id="1110" label="" folder="targets" sort="0" />
         <label id="1144" label="" folder="targets" sort="0" />
+        <label id="1145" label="" folder="targets" sort="0" />
+        <label id="1146" label="" folder="targets" sort="0" />
+        <label id="1147" label="" folder="targets" sort="0" />
+        <label id="1143" label="" folder="targets" sort="0" />
     </labels>
-    <nextId>1144</nextId>
+    <nextId>1147</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="~nickname~" />
@@ -1408,6 +1414,9 @@
         <marker scope="Public" name="aoba_slippers" />
         <marker scope="Public" name="aoi_balcony" />
         <marker scope="Public" name="aoi_balcony2" />
+        <marker scope="Public" name="aoi_darkmagic" />
+        <marker scope="Public" name="aoi_darkmagic2" />
+        <marker scope="Public" name="aoi_hairstyles" />
         <marker scope="Public" name="aoi_names" />
         <marker scope="Public" name="aoi_olympiccadet" />
         <marker scope="Public" name="aoi_olympiccadet2" />
