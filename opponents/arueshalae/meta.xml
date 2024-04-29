@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1709773365146</lastupdate>
+    <lastupdate>1714105548901</lastupdate>
     <enabled>false</enabled>
     <first>Arueshalae</first>
     <last />
@@ -12,7 +12,7 @@
     <artist>thelonelyphonebox, Coolcat001100</artist>
     <description>Known as "The Heretic Demon", Arueshalae is a succubus who has turned her back on her demonic heritage. She now aids the Fifth Crusade in its war against the infernal legions, hoping to find redemption along the way.</description>
     <layers>6</layers>
-    <lines>1492</lines>
+    <lines>1504</lines>
     <poses>160</poses>
     <z-index>-10</z-index>
 </opponent>
