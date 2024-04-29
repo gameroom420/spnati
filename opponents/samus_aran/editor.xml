@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <metadata>
     <owner>samus_aran</owner>
+    <height>170 cm (5'7")</height>
+    <age />
+    <pronunciation />
+    <othernotes />
     <noteworthy>
         <case name="Removing armor" id="1" priority="MustTarget" min="1" max="1">
             <description>Samus is coming out of her power armor</description>
@@ -27,6 +31,8 @@
         <marker scope="Public" name="Aoba_resp0b" />
         <marker scope="Public" name="Aoba_resp1a" />
         <marker scope="Public" name="Aqua Grunt_resp0c" />
+        <marker scope="Public" name="AquaKonosuba_resp0b" />
+        <marker scope="Public" name="AquaKonosuba_resp0c" />
         <marker scope="Public" name="Asuna0a" />
         <marker scope="Public" name="Asuna0b" />
         <marker scope="Public" name="Asuna0c" />
@@ -39,9 +45,12 @@
         <marker scope="Public" name="Barbara0a" />
         <marker scope="Public" name="Beatrix_resp0a" />
         <marker scope="Public" name="Beatrix_resp0b" />
+        <marker scope="Public" name="Beatrix_resp0c" />
         <marker scope="Public" name="Beatrix_resp1a" />
         <marker scope="Public" name="Beatrix_resp1b" />
+        <marker scope="Public" name="Beatrix_resp1c" />
         <marker scope="Public" name="Beatrix0a" />
+        <marker scope="Public" name="Beatrix0b" />
         <marker scope="Public" name="beingimpressed" />
         <marker scope="Public" name="best_foot" />
         <marker scope="Public" name="Blake0a" />
@@ -134,7 +143,12 @@
         <marker scope="Public" name="HuTao_resp2b" />
         <marker scope="Public" name="HuTao_resp2c" />
         <marker scope="Public" name="Impress her" />
+        <marker scope="Public" name="Jenna_resp0a" />
+        <marker scope="Public" name="Jenna_resp0c" />
         <marker scope="Public" name="Jura_resp0a" />
+        <marker scope="Public" name="Jura_resp0b" />
+        <marker scope="Public" name="Jura_resp1a" />
+        <marker scope="Public" name="Jura_resp3a" />
         <marker scope="Public" name="Kaz_resp0a" />
         <marker scope="Public" name="Kaz_resp0b" />
         <marker scope="Public" name="Kumatora_resp0a" />
@@ -214,6 +228,7 @@
         <marker scope="Public" name="Monika_resp1a" />
         <marker scope="Public" name="Monika_resp1b" />
         <marker scope="Public" name="Monika_resp1c" />
+        <marker scope="Public" name="Monika_resp2a" />
         <marker scope="Public" name="Monika0a" />
         <marker scope="Public" name="Monika0b" />
         <marker scope="Public" name="Monika0c" />
@@ -323,12 +338,15 @@
         <marker scope="Public" name="Yumeko5c" />
         <marker scope="Public" name="Yuna0a" />
         <marker scope="Public" name="Yuna0b" />
+        <marker scope="Public" name="Yuno_butt" />
         <marker scope="Public" name="Yuno_resp0a" />
         <marker scope="Public" name="Yuno_resp0b" />
         <marker scope="Public" name="Yuno_resp0c" />
+        <marker scope="Public" name="Yuno_resp1a" />
         <marker scope="Public" name="Yuri_resp0a" />
         <marker scope="Public" name="Yuri_resp0b" />
         <marker scope="Public" name="Yuri_resp0c" />
+        <marker scope="Public" name="Yuri_resp0calt" />
         <marker scope="Public" name="Yuri0a" />
         <marker scope="Public" name="Yuri0b" />
         <marker scope="Public" name="Yuri0c" />
