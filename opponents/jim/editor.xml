@@ -1165,6 +1165,7 @@
         <marker scope="Public" name="Wiki-tan1a" />
         <marker scope="Public" name="YaeMiko_resp0a" />
         <marker scope="Public" name="YaeMiko_resp0b" />
+        <marker scope="Public" name="YaeMiko_resp0c" />
         <marker scope="Public" name="Yumekoresp0a" />
         <marker scope="Public" name="Yumekoresp0b" />
         <marker scope="Public" name="Yumekoresp0c" />
@@ -1249,6 +1250,9 @@
         <marker scope="Public" name="Yusuke5c" />
         <marker scope="Public" name="zergling_thighs" />
         <marker scope="Public" name="Zoe_resp0a" />
+        <marker scope="Public" name="ZP_resp0a" />
+        <marker scope="Public" name="ZP_resp3a" />
+        <marker scope="Public" name="ZP_resp3b" />
     </markers>
     <recipes>
         <recipe key="95241bd5-5ee1-4979-ae3c-aad1384050d9">
