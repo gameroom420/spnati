@@ -156,11 +156,15 @@ PlayerClothing.prototype.constructor = PlayerClothing;
  * @returns {Boolean}
  */
 PlayerClothing.prototype.isAvailable = function () {
-    if (this.applicable_genders !== "all" && humanPlayer.gender !== this.applicable_genders) {
-        return false;
-    }
-
     return !this.collectible || this.collectible.isUnlocked();
+}
+
+/**
+ * Gets whether this clothing's gender matches that of the player.
+ * @returns {Boolean}
+ */
+PlayerClothing.prototype.matchesPlayerGender = function () {
+    return this.applicable_genders === "all" || humanPlayer.gender === this.applicable_genders;
 }
 
 /**

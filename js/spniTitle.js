@@ -717,7 +717,7 @@ var DEFAULT_CLOTHING_OPTIONS = [
     new PlayerClothing('boots', 'shoes', EXTRA_ARTICLE, 'feet', "player/male/boots.png", true, "boots", "male", null),
 
     new PlayerClothing('stockings', 'socks', MINOR_ARTICLE, 'legs', "player/female/stockings.png", true, "stockings", "female", null),
-    new PlayerClothing('socks', 'socks', MINOR_ARTICLE, 'feet', "player/female/socks.png", true, "socksB", "female", null),
+    new PlayerClothing('kneesocks', 'socks', MINOR_ARTICLE, 'feet', "player/female/kneesocks.png", true, "socksB", "female", null),
     new PlayerClothing('shoes', 'shoes', EXTRA_ARTICLE, 'feet', "player/female/shoes.png", true, "shoesB", "female", null),
 ];
 
@@ -788,10 +788,6 @@ function TitleClothingSelectionIcon (clothing) {
 TitleClothingSelectionIcon.prototype.visible = function () {
     if (this.clothing.isAvailable()) {
         return true;
-    }
-
-    if (this.clothing.applicable_genders !== "all" && humanPlayer.gender !== this.clothing.applicable_genders) {
-        return false;
     }
 
     if (this.clothing.collectible) {
@@ -916,6 +912,11 @@ function updateTitleScreen () {
 
         selector.update();
     });
+
+    // Move opposite-gender clothing to the end of the list
+    defaultSelectors.sort(
+        (a, b) => (b.clothing.matchesPlayerGender() - a.clothing.matchesPlayerGender())
+    );
 
     $("#title-clothing-container").empty();
 
