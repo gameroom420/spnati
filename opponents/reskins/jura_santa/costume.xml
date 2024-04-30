@@ -1738,6 +1738,90 @@
             <sprite id="suspicious" src="reskins/jura_santa/suspicious.png" x="1" y="767" rotation="0" />
             <sprite id="silentthinking" src="reskins/jura_santa/silentthinking.png" x="1" y="843" rotation="-1" />
         </pose>
+        <pose id="8-bhug">
+            <sprite id="hug" z="-1" src="reskins/jura_santa/8-hug.png" x="0" y="0" alpha="100" />
+            <sprite id="bhug" z="1" src="reskins/jura_santa/bhug.png" x="37" y="-18" alpha="100" rotation="-2" />
+            <sprite id="345678hugarms" z="2" src="reskins/jura_santa/345678hugarms.png" x="21" y="343" scalex="0.96" alpha="100" rotation="4" />
+            <sprite id="barnette" src="reskins/jura_santa/8-barnette.png" x="0" y="0" alpha="0" />
+            <directive type="animation" id="hug" ease="ease-in-cubic" interpolation="linear">
+                <keyframe time="0" alpha="100" />
+                <keyframe time="2" alpha="0" />
+            </directive>
+            <directive type="animation" id="bhug" ease="ease-in-cubic" interpolation="linear">
+                <keyframe time="0" alpha="100" />
+                <keyframe time="2" alpha="0" />
+            </directive>
+            <directive type="animation" id="345678hugarms" ease="ease-in-cubic" interpolation="linear">
+                <keyframe time="0" alpha="100" />
+                <keyframe time="2" alpha="0" />
+            </directive>
+            <directive type="animation" id="barnette" ease="ease-out-cubic" interpolation="linear">
+                <keyframe time="0" alpha="0" />
+                <keyframe time="0.5" alpha="0" />
+                <keyframe time="1.5" alpha="0" />
+                <keyframe time="3" alpha="100" />
+            </directive>
+        </pose>
+        <pose id="8-bhug2">
+            <sprite id="hug" z="-1" src="reskins/jura_santa/8-hug.png" x="0" y="0" alpha="100" />
+            <sprite id="bhug" z="1" src="reskins/jura_santa/bhug.png" x="37" y="-18" alpha="100" rotation="-2" />
+            <sprite id="345678hugarms" z="2" src="reskins/jura_santa/345678hugarms.png" x="21" y="343" scalex="0.96" alpha="100" rotation="4" />
+            <sprite id="barnette" src="reskins/jura_santa/8-barnette2.png" x="0" y="0" alpha="0" />
+            <directive type="animation" id="hug" ease="ease-in-cubic" interpolation="linear">
+                <keyframe time="0" alpha="100" />
+                <keyframe time="2" alpha="0" />
+            </directive>
+            <directive type="animation" id="bhug" ease="ease-in-cubic" interpolation="linear">
+                <keyframe time="0" alpha="100" />
+                <keyframe time="2" alpha="0" />
+            </directive>
+            <directive type="animation" id="345678hugarms" ease="ease-in-cubic" interpolation="linear">
+                <keyframe time="0" alpha="100" />
+                <keyframe time="2" alpha="0" />
+            </directive>
+            <directive type="animation" id="barnette" ease="ease-out-cubic" interpolation="linear">
+                <keyframe time="0" alpha="0" />
+                <keyframe time="0.5" alpha="0" />
+                <keyframe time="1.5" alpha="0" />
+                <keyframe time="3" alpha="100" />
+            </directive>
+        </pose>
+        <pose id="8-bhug2silent">
+            <sprite id="hug" z="-1" src="reskins/jura_santa/8-hug.png" x="0" y="0" alpha="100" />
+            <sprite id="bhug" z="1" src="reskins/jura_santa/bhug.png" x="37" y="-18" alpha="100" rotation="-2" />
+            <sprite id="345678hugarms" z="2" src="reskins/jura_santa/345678hugarms.png" x="21" y="343" scalex="0.96" alpha="100" rotation="4" />
+            <sprite id="barnette" src="reskins/jura_santa/8-barnette2.png" x="0" y="0" alpha="0" />
+            <sprite id="bmouthsilentside" delay="0.5" src="reskins/jura_santa/bmouthsilentside.png" x="-70" y="299" alpha="0" />
+            <directive type="animation" id="hug" ease="ease-in-cubic" interpolation="linear">
+                <keyframe time="0" alpha="100" />
+                <keyframe time="2" alpha="0" />
+            </directive>
+            <directive type="animation" id="bhug" ease="ease-in-cubic" interpolation="linear">
+                <keyframe time="0" alpha="100" />
+                <keyframe time="2" alpha="0" />
+            </directive>
+            <directive type="animation" id="345678hugarms" ease="ease-in-cubic" interpolation="linear">
+                <keyframe time="0" alpha="100" />
+                <keyframe time="2" alpha="0" />
+            </directive>
+            <directive type="animation" id="barnette" ease="ease-out-cubic" interpolation="linear">
+                <keyframe time="0" alpha="0" />
+                <keyframe time="0.5" alpha="0" />
+                <keyframe time="1.5" alpha="0" />
+                <keyframe time="3" alpha="100" />
+            </directive>
+            <directive type="animation" id="bmouthsilentside" delay="0.5" ease="linear" interpolation="linear">
+                <keyframe time="0" x="-70" y="299" />
+                <keyframe time="2.5" x="-70" y="299" />
+            </directive>
+            <directive type="animation" id="bmouthsilentside" delay="0.5" ease="ease-out-cubic" interpolation="linear">
+                <keyframe time="0" alpha="0" />
+                <keyframe time="2.5" alpha="100" />
+            </directive>
+            <directive type="animation" id="bmouthsilentside" delay="3" ease="linear" interpolation="linear">
+                <keyframe time="0" rotation="4" />
+            </directive>
+        </pose>
     </poses>
 
 </costume>
