@@ -37,6 +37,7 @@
         <response id="243" opponent="marinette" opponentId="1361" />
         <response id="251" opponent="ringo_ando" opponentId="211" />
         <response id="252" opponent="ringo_ando" opponentId="344" />
+        <response id="272" opponent="aqua_grunt" opponentId="156" />
     </responses>
     <notes>
         <note id="162">In the school mode timeline, Mukuro Ikusaba still dresses up as Junko. In Summer Camp, Junko doesn't even show up if Mukuro is there.</note>
@@ -252,7 +253,7 @@
         <label id="247" label="" folder="Sequences" sort="0" />
         <label id="248" label="" folder="Target: Kyoko" sort="0" />
         <label id="249" label="" folder="Target: Kyoko" sort="0" />
-        <label id="250" label="" folder="Target: Kyoko" sort="0" />
+        <label id="250" label="" folder="Target: Ringo" sort="0" />
         <label id="253" label="" folder="Target: Ringo" sort="0" />
         <label id="252" label="" folder="Target: Ringo" sort="0" />
         <label id="254" label="" folder="Target: Ringo" sort="0" />
@@ -268,9 +269,16 @@
         <label id="264" label="" folder="Target: Chihiro" sort="0" />
         <label id="95" label="" folder="Target: Chihiro" sort="0" />
         <label id="266" label="" folder="Target: Chihiro" sort="0" />
+        <label id="269" label="" folder="Target: Ringo" sort="0" />
+        <label id="268" label="" folder="Target: Ringo" sort="0" />
+        <label id="270" label="" folder="Target: Ringo" sort="0" />
+        <label id="233" label="" folder="Target: Ringo" sort="0" />
+        <label id="199" label="" folder="Target: Kyoko" sort="0" />
+        <label id="272" label="" color="12" folder="" sort="0" />
     </labels>
-    <nextId>266</nextId>
+    <nextId>272</nextId>
     <markers>
+        <marker scope="Public" name="aoi_names" />
         <marker scope="Private" name="B_">Background related markers.</marker>
         <marker scope="Public" name="B_BeachTan" />
         <marker scope="Public" name="B_DRClassroom" />
@@ -382,12 +390,15 @@
         <marker scope="Public" name="T_KyoukoStart" />
         <marker scope="Public" name="T_MahiruBirthday" />
         <marker scope="Public" name="T_NadeshikoChubby" />
+        <marker scope="Public" name="T_NamiPositivity" />
         <marker scope="Public" name="T_NamiTan" />
         <marker scope="Public" name="T_NamiTanTopless" />
         <marker scope="Public" name="T_noCeleste" />
         <marker scope="Public" name="T_NoelleVision" />
         <marker scope="Public" name="T_RingoAwkward" />
         <marker scope="Public" name="T_RingoCoMast1a" />
+        <marker scope="Public" name="T_RingoCute" />
+        <marker scope="Public" name="T_RingoHairDown" />
         <marker scope="Public" name="T_RingoLastHand" />
         <marker scope="Public" name="T_RingoOlympics" />
         <marker scope="Public" name="T_RingoStart" />
@@ -429,17 +440,23 @@
         <marker scope="Public" name="TI_NadeshikoNervous" />
         <marker scope="Public" name="TI_Revy_01" />
         <marker scope="Public" name="TI_Ringo_01Voice" />
+        <marker scope="Public" name="TI_Ringo_02DarkMagic" />
+        <marker scope="Public" name="TI_Ringo_03DarkMagic" />
         <marker scope="Public" name="TI_Ringo_43" />
+        <marker scope="Public" name="TI_Ringo_51Seen" />
         <marker scope="Public" name="TI_Rosa_01" />
         <marker scope="Public" name="TI_Rose_01Swim" />
         <marker scope="Public" name="TI_SCM_01" />
         <marker scope="Public" name="TI_SCM_LastName" />
         <marker scope="Public" name="TI_Trainer_01" />
         <marker scope="Private" name="TO_">Targeted lines when other characters are stripping.</marker>
+        <marker scope="Public" name="TO_AquaGrunt_11" />
         <marker scope="Public" name="TO_Chiaki_01">Chiaki Must Strip Stage 0</marker>
         <marker scope="Public" name="TO_Chihiro_01">Chihiro Must Strip Stage 0</marker>
+        <marker scope="Public" name="TO_Chihiro_01Nami" />
         <marker scope="Public" name="TO_Chihiro_42">Chihiro Stripping Stage 4</marker>
         <marker scope="Public" name="TO_Chihiro_43AlterEgo">Chihiro Stripped Stage 4</marker>
+        <marker scope="Public" name="TO_Chihiro_51Nami" />
         <marker scope="Public" name="TO_Chihiro_53">Chihiro Stripped Stage 5</marker>
         <marker scope="Public" name="TO_ChihiroFinished" />
         <marker scope="Public" name="TO_GiygasFinished" />
@@ -458,9 +475,12 @@
         <marker scope="Public" name="TO_Nade_01Indoor" />
         <marker scope="Public" name="TO_Nagatoro_01">Nagatoro Must Strip Stage 0</marker>
         <marker scope="Public" name="TO_Nagatoro_43Tan" />
+        <marker scope="Public" name="TO_Nami_01" />
+        <marker scope="Public" name="TO_Nami_53" />
         <marker scope="Public" name="TO_Noelle_13Geo" />
         <marker scope="Public" name="TO_Ringo_01" />
         <marker scope="Public" name="TO_Ringo_02" />
+        <marker scope="Public" name="TO_Ringo_03" />
         <marker scope="Public" name="TO_Ringo_11" />
         <marker scope="Public" name="TO_Ringo_41Cat" />
         <marker scope="Public" name="TO_Ringo_42Cat" />
