@@ -1615,6 +1615,49 @@ namespace SPNATI_Character_Editor
 					}
 				}
 
+				if (cond.Character == speaker.FolderName)
+				{
+					CharacterEditorData editorData = CharacterDatabase.GetEditorData(speaker);
+					if (editorData.DisallowTargetingPrivateMarkers)
+					{
+						if (cond.NotSaidMarker != null)
+						{
+							foreach (Marker marker in speaker.Markers.Value.Values)
+							{
+								if (marker.Name == cond.NotSaidMarker)
+								{
+									if (marker.Scope == MarkerScope.Private)
+									{
+										cond.NotSaidMarker = null;
+									}
+									break;
+								}
+							}
+						}
+
+						if (cond.SaidMarker != null)
+						{
+							foreach (Marker marker in speaker.Markers.Value.Values)
+							{
+								MarkerOperator op;
+								string value;
+								bool perTarget;
+								string name = Marker.ExtractConditionPieces(cond.SaidMarker, out op, out value, out perTarget);
+								if (marker.Name == name)
+								{
+									if (marker.Scope == MarkerScope.Private)
+									{
+										cond.SaidMarker = null;
+									}
+									break;
+								}
+							}
+						}
+					}
+				}
+
+
+
 				if (cond.IsEmpty)
 				{
 					Conditions.RemoveAt(i);
