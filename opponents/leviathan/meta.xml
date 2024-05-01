@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1712231711367</lastupdate>
+    <lastupdate>1714528418708</lastupdate>
     <enabled>false</enabled>
     <first>Fairy</first>
     <last>Leviathan</last>
@@ -13,6 +13,6 @@
     <description>The fierce and feisty head of Neo Arcadia's naval forces. Known for her sadistically playful demeanor, she is right at home in the ocean.</description>
     <layers>6</layers>
     <default-costume-name>Siren General</default-costume-name>
-    <lines>726</lines>
+    <lines>795</lines>
     <poses>203</poses>
 </opponent>
