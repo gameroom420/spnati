@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1712237478139</lastupdate>
+    <lastupdate>1714529408245</lastupdate>
     <enabled>false</enabled>
     <first>Nephenee</first>
     <last />
@@ -13,6 +13,6 @@
     <description>A caring and beautiful soldier from the village of Ohma. She's a little shy due to her country upbringing and affectations.</description>
     <layers>7</layers>
     <default-costume-name>Strongest Country Girl</default-costume-name>
-    <lines>784</lines>
-    <poses>223</poses>
+    <lines>845</lines>
+    <poses>224</poses>
 </opponent>
