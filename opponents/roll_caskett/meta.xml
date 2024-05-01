@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1712866810622</lastupdate>
+    <lastupdate>1714528852330</lastupdate>
     <enabled>false</enabled>
     <first>Roll</first>
     <last>Caskett</last>
@@ -19,6 +19,6 @@
         <costume folder="opponents/reskins/roll_caskett_scrapped_mechanic/" img="0-wave.png" label="Roll" collectible="science_magazine">Scrapped Mechanic</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>1779</lines>
+    <lines>1787</lines>
     <poses>213</poses>
 </opponent>
