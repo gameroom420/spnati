@@ -165,7 +165,7 @@ namespace SPNATI_Character_Editor.Activities
 			if (_selectedCharacter != null && _currentInbound != null)
 			{
 				int stage;
-				if (int.TryParse(_currentInbound.StageRange.Substring(0, 2), out int parsed) && parsed > 9)
+				if (_currentInbound.StageRange.Length > 1 && int.TryParse(_currentInbound.StageRange.Substring(0, 2), out int parsed) && parsed > 9)
 				{
 					stage = parsed;
 				}
@@ -400,7 +400,7 @@ namespace SPNATI_Character_Editor.Activities
 			}
 			if (!string.IsNullOrEmpty(stages))
 			{
-				if (int.TryParse(stages.Substring(0,2), out int parsed) && parsed > 9)
+				if (stages.Length > 1 && int.TryParse(stages.Substring(0,2), out int parsed) && parsed > 9)
 				{
 					stage = parsed;
 				}
@@ -485,7 +485,7 @@ namespace SPNATI_Character_Editor.Activities
 				CheckForResponses(c, inbound.Text, row);
 
 				int stage;
-				if (int.TryParse(inbound.StageRange.Substring(0,2), out int parsed) && parsed > 9)
+				if (inbound.StageRange.Length > 1 && int.TryParse(inbound.StageRange.Substring(0,2), out int parsed) && parsed > 9)
 				{
 					stage = parsed;
 				}

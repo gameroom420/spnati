@@ -386,7 +386,6 @@ namespace SPNATI_Character_Editor.EpilogueEditor
 			table.Enabled = enabled;
 			tsRemovePose.Enabled = enabled;
 			tsMainMenu.Enabled = enabled;
-			tsCut.Enabled = enabled;
 			tsCopy.Enabled = enabled;
 			tsPaste.Enabled = Clipboards.Has<Pose>();
 			tsDuplicate.Enabled = enabled;
@@ -424,12 +423,7 @@ namespace SPNATI_Character_Editor.EpilogueEditor
 		{
 			if (e.Control)
 			{
-				if (e.KeyCode == Keys.X)
-				{
-					tsCut_Click(sender, EventArgs.Empty);
-					e.SuppressKeyPress = true;
-				}
-				else if (e.KeyCode == Keys.C)
+				if (e.KeyCode == Keys.C)
 				{
 					tsCopy_Click(sender, EventArgs.Empty);
 					e.SuppressKeyPress = true;
@@ -445,17 +439,6 @@ namespace SPNATI_Character_Editor.EpilogueEditor
 					e.SuppressKeyPress = true;
 				}
 			}
-		}
-
-
-		private void tsCut_Click(object sender, EventArgs e)
-		{
-			if (_pose == null) { return; }
-			SavePose();
-
-			Clipboards.Set<Pose>(_sourcePose);
-			lstPoses.Items.Remove(_sourcePose);
-			_character.CustomPoses.Remove(_sourcePose);
 		}
 
 		private void tsCopy_Click(object sender, EventArgs e)

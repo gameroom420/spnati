@@ -39,6 +39,8 @@ namespace SPNATI_Character_Editor.Activities
 		{
 			chkOnlyCustomPoses.Checked = _editorData.OnlyCustomPoses;
 			chkHidePrefixlessImages.Checked = _editorData.HidePrefixlessImages;
+			chkDisallowTargetingPrivateMarkers.Checked = _editorData.DisallowTargetingPrivateMarkers;
+			chkValidateMarkerScope.Checked = _editorData.ValidateMarkerScope;
 			foreach (string prefix in _editorData.IgnoredPrefixes)
 			{
 				gridPrefixes.Rows.Add(new object[] { prefix });
@@ -91,6 +93,8 @@ namespace SPNATI_Character_Editor.Activities
 			characterSettingControl1.SaveCharacterSetting();
 			_editorData.OnlyCustomPoses = chkOnlyCustomPoses.Checked;
 			_editorData.HidePrefixlessImages = chkHidePrefixlessImages.Checked;
+			_editorData.DisallowTargetingPrivateMarkers = chkDisallowTargetingPrivateMarkers.Checked;
+			_editorData.ValidateMarkerScope = chkValidateMarkerScope.Checked;
 			_editorData.IgnoredPrefixes.Clear();
 			foreach (DataGridViewRow row in gridPrefixes.Rows)
 			{

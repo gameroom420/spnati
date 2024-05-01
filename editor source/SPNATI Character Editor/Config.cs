@@ -4,15 +4,28 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Windows.Forms;
+using System.Reflection;
 
 namespace SPNATI_Character_Editor
 {
 	public static class Config
 	{
 		/// <summary>
-		/// Current Version
+		/// Current Version (defined in AssemblyInfo.cs)
 		/// </summary>
-		public static string Version { get { return "v6.9.1"; } }
+
+		public static readonly Version version = Assembly.GetExecutingAssembly().GetName().Version;
+
+		public static string Version { get { return "v" + RemoveTrailingZeros(version.ToString()); } }
+
+		private static string RemoveTrailingZeros (string ver)
+		{
+			while (ver.EndsWith(".0"))
+			{
+				ver = ver.Remove(ver.Length - 2);
+			}
+			return ver;
+		}
 
 		private static Dictionary<string, string> _settings = new Dictionary<string, string>();
 

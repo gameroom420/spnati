@@ -95,7 +95,6 @@ namespace SPNATI_Character_Editor.Activities
 				valPicY.Value = Math.Max(valPicY.Minimum, Math.Min(_character.Metadata.Portrait.Y, valPicY.Maximum));
 				valPicScale.Value = Math.Max(valPicScale.Minimum, Math.Min((decimal)_character.Metadata.Portrait.Scale, valPicScale.Maximum));
 			}
-			valLayers.Value = Math.Max(valLayers.Minimum, Math.Min(_character.Metadata.Layers, valLayers.Maximum));
 			gridAI.Data = _character.Intelligence;
 
 			string othernotes = CharacterDatabase.GetEditorData(_character).OtherNotes;
@@ -139,6 +138,8 @@ namespace SPNATI_Character_Editor.Activities
 
 			if (_character.Metadata.Portrait == null)
 				return;
+
+			valLayers.Value = Math.Max(valLayers.Minimum, Math.Min(_character.Metadata.Layers, valLayers.Maximum));
 
 			PoseMapping image = _character.PoseLibrary.GetPose(_character.Metadata.Portrait.Image);
 			if (image == null)
