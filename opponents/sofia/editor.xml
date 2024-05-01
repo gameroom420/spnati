@@ -116,11 +116,14 @@
         <response id="116" opponent="zeke_pandoria" opponentId="649" />
         <response id="117" opponent="zeke_pandoria" opponentId="650" />
         <response id="118" opponent="zeke_pandoria" opponentId="651" />
+        <response id="119" opponent="zeke_pandoria" opponentId="701" />
+        <response id="120" opponent="yae_miko" opponentId="256" />
+        <response id="121" opponent="rose" opponentId="314" />
     </responses>
     <prefixes>
         <prefix>ex</prefix>
     </prefixes>
-    <nextId>118</nextId>
+    <nextId>121</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="AquaKS_resp0_1" />
@@ -225,6 +228,42 @@
         <marker scope="Public" name="Kyouko_s0_1" />
         <marker scope="Public" name="Kyouko_s3_1" />
         <marker scope="Public" name="Leggy_s0_1" />
+        <marker scope="Public" name="leviathan_resp0_1" />
+        <marker scope="Public" name="leviathan_resp0_2" />
+        <marker scope="Public" name="leviathan_resp0_3" />
+        <marker scope="Public" name="leviathan_resp1_1" />
+        <marker scope="Public" name="leviathan_resp1_2" />
+        <marker scope="Public" name="leviathan_resp1_3" />
+        <marker scope="Public" name="leviathan_resp2_1" />
+        <marker scope="Public" name="leviathan_resp2_2" />
+        <marker scope="Public" name="leviathan_resp2_3" />
+        <marker scope="Public" name="leviathan_resp3_1" />
+        <marker scope="Public" name="leviathan_resp3_2" />
+        <marker scope="Public" name="leviathan_resp3_3" />
+        <marker scope="Public" name="leviathan_resp4_1" />
+        <marker scope="Public" name="leviathan_resp4_2" />
+        <marker scope="Public" name="leviathan_resp4_3" />
+        <marker scope="Public" name="leviathan_resp5_1" />
+        <marker scope="Public" name="leviathan_resp5_2" />
+        <marker scope="Public" name="leviathan_resp5_3" />
+        <marker scope="Public" name="Leviathan_s0_1" />
+        <marker scope="Public" name="Leviathan_s0_2" />
+        <marker scope="Public" name="Leviathan_s0_3" />
+        <marker scope="Public" name="Leviathan_s1_1" />
+        <marker scope="Public" name="Leviathan_s1_2" />
+        <marker scope="Public" name="Leviathan_s1_3" />
+        <marker scope="Public" name="Leviathan_s2_1" />
+        <marker scope="Public" name="Leviathan_s2_2" />
+        <marker scope="Public" name="Leviathan_s2_3" />
+        <marker scope="Public" name="Leviathan_s3_1" />
+        <marker scope="Public" name="Leviathan_s3_2" />
+        <marker scope="Public" name="Leviathan_s3_3" />
+        <marker scope="Public" name="Leviathan_s4_1" />
+        <marker scope="Public" name="Leviathan_s4_2" />
+        <marker scope="Public" name="Leviathan_s4_3" />
+        <marker scope="Public" name="Leviathan_s5_1" />
+        <marker scope="Public" name="Leviathan_s5_2" />
+        <marker scope="Public" name="Leviathan_s5_3" />
         <marker scope="Public" name="maria_resp0_1" />
         <marker scope="Public" name="maria_resp0_2" />
         <marker scope="Public" name="maria_resp0_3" />
@@ -303,6 +342,44 @@
         <marker scope="Public" name="Nagatoro_s0_2" />
         <marker scope="Public" name="nami_resp0_1" />
         <marker scope="Public" name="nami_resp0_2" />
+        <marker scope="Public" name="nephenee_resp0_1" />
+        <marker scope="Public" name="nephenee_resp0_2" />
+        <marker scope="Public" name="nephenee_resp0_3" />
+        <marker scope="Public" name="nephenee_resp1_1" />
+        <marker scope="Public" name="nephenee_resp1_2" />
+        <marker scope="Public" name="nephenee_resp1_3" />
+        <marker scope="Public" name="nephenee_resp2_1" />
+        <marker scope="Public" name="nephenee_resp2_2" />
+        <marker scope="Public" name="nephenee_resp2_3" />
+        <marker scope="Public" name="nephenee_resp3_1" />
+        <marker scope="Public" name="nephenee_resp3_2" />
+        <marker scope="Public" name="nephenee_resp3_3" />
+        <marker scope="Public" name="nephenee_resp4_1" />
+        <marker scope="Public" name="nephenee_resp4_2" />
+        <marker scope="Public" name="nephenee_resp5_1" />
+        <marker scope="Public" name="nephenee_resp5_2" />
+        <marker scope="Public" name="nephenee_resp5_3" />
+        <marker scope="Public" name="Nephenee_s0_1" />
+        <marker scope="Public" name="Nephenee_s0_2" />
+        <marker scope="Public" name="Nephenee_s0_3" />
+        <marker scope="Public" name="Nephenee_s1_1" />
+        <marker scope="Public" name="Nephenee_s1_2" />
+        <marker scope="Public" name="Nephenee_s1_3" />
+        <marker scope="Public" name="Nephenee_s2_1" />
+        <marker scope="Public" name="Nephenee_s2_2" />
+        <marker scope="Public" name="Nephenee_s2_3" />
+        <marker scope="Public" name="Nephenee_s3_1" />
+        <marker scope="Public" name="Nephenee_s3_2" />
+        <marker scope="Public" name="Nephenee_s3_3" />
+        <marker scope="Public" name="Nephenee_s4_1" />
+        <marker scope="Public" name="Nephenee_s4_2" />
+        <marker scope="Public" name="Nephenee_s4_3" />
+        <marker scope="Public" name="Nephenee_s5_1" />
+        <marker scope="Public" name="Nephenee_s5_2" />
+        <marker scope="Public" name="Nephenee_s5_3" />
+        <marker scope="Public" name="Nephenee_s6_1" />
+        <marker scope="Public" name="Nephenee_s6_2" />
+        <marker scope="Public" name="Nephenee_s6_3" />
         <marker scope="Public" name="nonon_resp0_1" />
         <marker scope="Public" name="nonon_resp0_2" />
         <marker scope="Public" name="nonon_resp0_3" />
@@ -355,8 +432,11 @@
         <marker scope="Public" name="rose_resp0_2" />
         <marker scope="Public" name="rose_resp0_3" />
         <marker scope="Public" name="rose_resp1_1" />
+        <marker scope="Public" name="rose_resp1_2" />
+        <marker scope="Public" name="rose_resp1_3" />
         <marker scope="Public" name="Rose_s0_1" />
         <marker scope="Public" name="Rose_s0_2" />
+        <marker scope="Public" name="Rose_s0_3" />
         <marker scope="Public" name="Senko_s0_1" />
         <marker scope="Public" name="Senko_s0_2" />
         <marker scope="Public" name="Senko_s1_1" />
@@ -444,11 +524,16 @@
         <marker scope="Public" name="Yae_s5_2" />
         <marker scope="Public" name="Yae_s5_3" />
         <marker scope="Public" name="yaemiko_resp0_1" />
+        <marker scope="Public" name="yaemiko_resp0_2" />
         <marker scope="Public" name="YaeMiko_s0_1" />
         <marker scope="Public" name="YaeMiko_s0_2" />
+        <marker scope="Public" name="YaeMiko_s0_3" />
         <marker scope="Public" name="YaeMiko_s1_1" />
         <marker scope="Public" name="YaeMiko_s1_2" />
+        <marker scope="Public" name="YaeMiko_s1_3" />
+        <marker scope="Public" name="YaeMiko_s2_3" />
         <marker scope="Public" name="YaeMiko_s3_1" />
+        <marker scope="Public" name="YaeMiko_s3_3" />
         <marker scope="Public" name="yshtola_resp0_1" />
         <marker scope="Public" name="yshtola_resp0_2" />
         <marker scope="Public" name="yshtola_resp0_3" />
@@ -504,10 +589,13 @@
         <marker scope="Public" name="zandp_resp1_1" />
         <marker scope="Public" name="zandp_resp1_2" />
         <marker scope="Public" name="zandp_resp1_3" />
+        <marker scope="Public" name="zandp_resp2_1" />
         <marker scope="Public" name="zandp_resp3_1" />
         <marker scope="Public" name="zandp_resp3_2" />
         <marker scope="Public" name="zandp_resp3_3" />
         <marker scope="Public" name="ZandP_s0_1" />
+        <marker scope="Public" name="ZandP_s0_2" />
+        <marker scope="Public" name="ZandP_s0_2R" />
         <marker scope="Public" name="zoe_respE_1" />
         <marker scope="Public" name="zoe_respG_1" />
         <marker scope="Public" name="zoe_respM_1" />
