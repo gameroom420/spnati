@@ -124,6 +124,10 @@
         <response id="143" opponent="yae_miko" opponentId="220" />
         <response id="144" opponent="leon" opponentId="1512" />
         <response id="145" opponent="meia" opponentId="1772" />
+        <response id="146" opponent="meia" opponentId="1845" />
+        <response id="147" opponent="jura" opponentId="1672" />
+        <response id="148" opponent="jura" opponentId="1686" />
+        <response id="149" opponent="yae_miko" opponentId="263" />
     </responses>
     <notes>
         <note id="129">Give an honest answer if you feel like it, but at this early stage it would still be funny if the question is clearly too much and Yae has to backpedal. Either way!</note>
@@ -143,7 +147,7 @@
         <prefix>ex</prefix>
         <prefix>op</prefix>
     </prefixes>
-    <nextId>145</nextId>
+    <nextId>149</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="AquaKS_s0_1" />
@@ -195,7 +199,9 @@
         <marker scope="Public" name="catnoir_resp3_1" />
         <marker scope="Public" name="catnoir_resp3_2" />
         <marker scope="Public" name="DMG_s0_1" />
+        <marker scope="Public" name="DMG_s0_2" />
         <marker scope="Public" name="DMG_s1_1" />
+        <marker scope="Public" name="DMG_s1_2" />
         <marker scope="Public" name="Fluttershy_s0_1" />
         <marker scope="Public" name="Fluttershy_s0_2" />
         <marker scope="Public" name="Fluttershy_s1_1" />
@@ -206,6 +212,7 @@
         <marker scope="Public" name="jura_resp0_1" />
         <marker scope="Public" name="jura_resp0_2" />
         <marker scope="Public" name="jura_resp0_3" />
+        <marker scope="Public" name="jura_resp0_r1" />
         <marker scope="Public" name="jura_resp1_1" />
         <marker scope="Public" name="jura_resp1_2" />
         <marker scope="Public" name="jura_resp1_3" />
@@ -357,6 +364,7 @@
         <marker scope="Public" name="meia_resp0_1" />
         <marker scope="Public" name="meia_resp0_2" />
         <marker scope="Public" name="meia_resp0_3" />
+        <marker scope="Public" name="meia_resp0_r1" />
         <marker scope="Public" name="meia_resp1_1" />
         <marker scope="Public" name="meia_resp1_2" />
         <marker scope="Public" name="meia_resp1_3" />
@@ -380,6 +388,7 @@
         <marker scope="Public" name="Meia_s1_3" />
         <marker scope="Public" name="meiajura_resp3_1" />
         <marker scope="Public" name="meiajura_resp3_2" />
+        <marker scope="Public" name="meiajura_resp3_3" />
         <marker scope="Public" name="miko_resp0_1" />
         <marker scope="Public" name="miko_resp0_2" />
         <marker scope="Public" name="miko_resp0_3" />
@@ -582,9 +591,11 @@
         <marker scope="Public" name="yaemiko_resp0_1" />
         <marker scope="Public" name="YaeMiko_resp0_1" />
         <marker scope="Public" name="YaeMiko_resp0_2" />
+        <marker scope="Public" name="yaemiko_resp0_3" />
         <marker scope="Public" name="YaeMiko_resp0_3" />
         <marker scope="Public" name="YaeMiko_resp1_1" />
         <marker scope="Public" name="YaeMiko_s1_2" />
+        <marker scope="Public" name="YaeMiko_s1_3" />
         <marker scope="Public" name="yshtola_resp0_1" />
         <marker scope="Public" name="yshtola_resp0_2" />
         <marker scope="Public" name="yshtola_resp0_3" />
