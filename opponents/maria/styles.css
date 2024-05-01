@@ -1,0 +1,6 @@
+.dialogue .turbo[data-character="maria"] {
+  /*Maria is actually mad for realsies.*/
+  color: #B32D2D;
+  font-weight: 700;
+  text-shadow: 0 -2px 7px Red;
+}
