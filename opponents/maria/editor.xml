@@ -112,11 +112,15 @@
         <response id="109" opponent="meia" opponentId="1640" />
         <response id="110" opponent="revy" opponentId="507" />
         <response id="111" opponent="revy" opponentId="574" />
+        <response id="113" opponent="revy" opponentId="607" />
+        <response id="114" opponent="queenie" opponentId="480" />
+        <response id="117" opponent="jura" opponentId="1682" />
+        <response id="121" opponent="monika" opponentId="1577" />
     </responses>
     <prefixes>
         <prefix>ex</prefix>
     </prefixes>
-    <nextId>112</nextId>
+    <nextId>121</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="Adrien_s0_1" />
@@ -217,11 +221,15 @@
         <marker scope="Public" name="jura_resp0_1" />
         <marker scope="Public" name="jura_resp0_2" />
         <marker scope="Public" name="jura_resp0_3" />
+        <marker scope="Public" name="jura_resp0_f1" />
         <marker scope="Public" name="jura_resp0_s1" />
         <marker scope="Public" name="jura_resp0_v1" />
         <marker scope="Public" name="jura_resp1_1" />
         <marker scope="Public" name="jura_resp1_2" />
         <marker scope="Public" name="jura_resp1_3" />
+        <marker scope="Public" name="jura_resp4_1" />
+        <marker scope="Public" name="jura_resp4_2" />
+        <marker scope="Public" name="jura_resp4_3" />
         <marker scope="Public" name="kaz_resp0_1" />
         <marker scope="Public" name="kaz_resp0_2" />
         <marker scope="Public" name="kaz_resp0_3" />
@@ -278,13 +286,16 @@
         <marker scope="Public" name="meia_resp0_1" />
         <marker scope="Public" name="meia_resp0_2" />
         <marker scope="Public" name="meia_resp0_3" />
+        <marker scope="Public" name="meia_resp0_f1" />
         <marker scope="Public" name="meia_resp0_v1" />
         <marker scope="Public" name="meia_resp1_1" />
         <marker scope="Public" name="meia_resp1_2" />
         <marker scope="Public" name="meia_resp1_3" />
         <marker scope="Public" name="meia_Venus" />
+        <marker scope="Public" name="monika_resp0_1" />
         <marker scope="Public" name="Monika_s0_1" />
         <marker scope="Public" name="Monika_s0_2" />
+        <marker scope="Public" name="Monika_s0_3" />
         <marker scope="Public" name="Monika_weird" />
         <marker scope="Public" name="nagatoro_resp0_1" />
         <marker scope="Public" name="nagatoro_resp0_2" />
@@ -305,8 +316,10 @@
         <marker scope="Public" name="OneOnOne" />
         <marker scope="Public" name="perona_resp0_1" />
         <marker scope="Public" name="queenie_resp0_1" />
+        <marker scope="Public" name="queenie_resp0_2" />
         <marker scope="Public" name="revy_resp0_1" />
         <marker scope="Public" name="revy_resp0_2" />
+        <marker scope="Public" name="revy_resp0_f1" />
         <marker scope="Public" name="revy_resp0_s1" />
         <marker scope="Public" name="revy_resp0_v1" />
         <marker scope="Public" name="revy_resp1_1" />
