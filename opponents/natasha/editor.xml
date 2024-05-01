@@ -49,6 +49,43 @@
         <response id="110" opponent="nadeshiko" opponentId="151" />
         <response id="111" opponent="nadeshiko" opponentId="9" />
         <response id="112" opponent="jura" opponentId="945" />
+        <response id="113" opponent="zeke_pandoria" opponentId="3" />
+        <response id="116" opponent="zeke_pandoria" opponentId="184" />
+        <response id="117" opponent="zeke_pandoria" opponentId="1" />
+        <response id="121" opponent="sweetheart" opponentId="43" />
+        <response id="126" opponent="yuno_uno" opponentId="12" />
+        <response id="127" opponent="yuno_uno" opponentId="167" />
+        <response id="130" opponent="yuno_uno" opponentId="16" />
+        <response id="132" opponent="hu_tao" opponentId="50" />
+        <response id="137" opponent="rouge" opponentId="5" />
+        <response id="138" opponent="rouge" opponentId="6" />
+        <response id="139" opponent="rouge" opponentId="7" />
+        <response id="140" opponent="rouge" opponentId="9" />
+        <response id="143" opponent="queenie" opponentId="28" />
+        <response id="144" opponent="queenie" opponentId="43" />
+        <response id="147" opponent="queenie" opponentId="34" />
+        <response id="148" opponent="queenie" opponentId="35" />
+        <response id="149" opponent="mari_setogaya" opponentId="16" />
+        <response id="150" opponent="mari_setogaya" opponentId="17" />
+        <response id="151" opponent="mari_setogaya" opponentId="34" />
+        <response id="153" opponent="mari_setogaya" opponentId="35" />
+        <response id="154" opponent="zoe" opponentId="26" />
+        <response id="155" opponent="mari_setogaya" opponentId="38" />
+        <response id="156" opponent="mari_setogaya" opponentId="43" />
+        <response id="157" opponent="mari_setogaya" opponentId="180" />
+        <response id="158" opponent="mari_setogaya" opponentId="408" />
+        <response id="159" opponent="mari_setogaya" opponentId="1256" />
+        <response id="160" opponent="mari_setogaya" opponentId="1254" />
+        <response id="161" opponent="zoe" opponentId="293" />
+        <response id="162" opponent="zoe" opponentId="280" />
+        <response id="163" opponent="zoe" opponentId="282" />
+        <response id="164" opponent="zoe" opponentId="281" />
+        <response id="168" opponent="nonon" opponentId="487" />
+        <response id="170" opponent="nonon" opponentId="226" />
+        <response id="173" opponent="nonon" opponentId="119" />
+        <response id="175" opponent="nagisa" opponentId="54" />
+        <response id="177" opponent="nagisa" opponentId="72" />
+        <response id="178" opponent="nagisa" opponentId="164" />
     </responses>
     <notes>
         <note id="61">Is it too mean to change "Mommy/Daddy" to "Loser?" Perhaps. Is it in character? Definitely.</note>
@@ -59,11 +96,13 @@
         <note id="101">Natasha is attempting to troll AG by belittling Water type Pokemon.</note>
         <note id="102">Natasha is attempting to troll MG by belittling Fire type Pokemon.</note>
         <note id="112">Natasha is attempting to get a rise out of Jura by dissing Barnette.</note>
+        <note id="128">"Anata wa yurusa rete imasen" translates to "You are not pardoned."</note>
+        <note id="134">Natasha is attempting to get a rise out of Hu Tao by falsely claiming she's heard they sell bad goods.</note>
     </notes>
     <labels>
         <label id="7" label="Meanest Thing You've Ever Done?" folder="Prompts" sort="0" />
         <label id="8" label="Try To Make Me Mad" folder="Prompts" sort="3" />
-        <label id="10" label="Intro" folder="Noteworthy Things" sort="0" />
+        <label id="10" label="Intro" folder="Noteworthy Things" sort="2" />
         <label id="11" label="No Non-Con" folder="Noteworthy Things" sort="2" />
         <label id="12" label="" folder="Noteworthy Things" sort="3" />
         <label id="13" label="" folder="Noteworthy Things" sort="7" />
@@ -124,8 +163,75 @@
         <label id="79" label="Cheating B" folder="" sort="0" />
         <label id="108" label="Cheating C" folder="" sort="0" />
         <label id="112" label="" color="4" folder="" sort="0" />
+        <label id="113" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="4" />
+        <label id="114" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="2" />
+        <label id="115" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="3" />
+        <label id="116" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="4" />
+        <label id="117" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="5" />
+        <label id="118" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="0" />
+        <label id="119" label="April Fools Lines" folder="Noteworthy Things" sort="6" />
+        <label id="120" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="6" />
+        <label id="121" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="7" />
+        <label id="122" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="17" />
+        <label id="123" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="19" />
+        <label id="124" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="27" />
+        <label id="125" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="28" />
+        <label id="126" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="9" />
+        <label id="127" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="6" />
+        <label id="128" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="13" />
+        <label id="129" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="14" />
+        <label id="130" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="2" />
+        <label id="131" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="18" />
+        <label id="132" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="7" />
+        <label id="133" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="21" />
+        <label id="134" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="22" />
+        <label id="135" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="15" />
+        <label id="136" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="16" />
+        <label id="137" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="8" />
+        <label id="138" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="10" />
+        <label id="139" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="11" />
+        <label id="140" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="12" />
+        <label id="141" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="4" />
+        <label id="142" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="23" />
+        <label id="143" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="29" />
+        <label id="144" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="30" />
+        <label id="145" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="31" />
+        <label id="146" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="32" />
+        <label id="148" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="34" />
+        <label id="147" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="33" />
+        <label id="149" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="35" />
+        <label id="150" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="36" />
+        <label id="151" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="37" />
+        <label id="152" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="38" />
+        <label id="153" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="39" />
+        <label id="154" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="40" />
+        <label id="156" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="42" />
+        <label id="157" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="43" />
+        <label id="158" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="44" />
+        <label id="159" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="45" />
+        <label id="160" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="46" />
+        <label id="155" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="41" />
+        <label id="161" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="47" />
+        <label id="162" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="48" />
+        <label id="163" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="49" />
+        <label id="164" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="50" />
+        <label id="165" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="51" />
+        <label id="166" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="52" />
+        <label id="167" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="53" />
+        <label id="168" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="54" />
+        <label id="169" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="55" />
+        <label id="170" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="56" />
+        <label id="171" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="57" />
+        <label id="172" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="58" />
+        <label id="173" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="59" />
+        <label id="174" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="60" />
+        <label id="175" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="61" />
+        <label id="176" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="62" />
+        <label id="177" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="63" />
+        <label id="178" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="64" />
+        <label id="179" label="" folder="Sponsorship&gt;Nord&gt;Target 10 Characters" sort="65" />
     </labels>
-    <nextId>112</nextId>
+    <nextId>179</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="Adrien_Costume1" />
@@ -210,6 +316,10 @@
         <marker scope="Public" name="Helperchan_XevozFakeout1" />
         <marker scope="Public" name="Helperchan_XevozFakeout2" />
         <marker scope="Public" name="HotdogNotSandwich" />
+        <marker scope="Public" name="HuTao_Contracts1" />
+        <marker scope="Public" name="HuTao_Fear1" />
+        <marker scope="Public" name="HuTao_Gravedigger1" />
+        <marker scope="Public" name="HuTao_Poetry1" />
         <marker scope="Public" name="ILikeFire" />
         <marker scope="Public" name="InnocentBystanders" />
         <marker scope="Public" name="Intro" />
@@ -220,6 +330,17 @@
         <marker scope="Public" name="LargerArms" />
         <marker scope="Public" name="LongWindedJokeThatProbablyWasntEvenWorthTyping" />
         <marker scope="Public" name="ManualFunctions" />
+        <marker scope="Public" name="MariS_CatForm1" />
+        <marker scope="Public" name="MariS_ChestRant1" />
+        <marker scope="Public" name="MariS_ChubbyForm1" />
+        <marker scope="Public" name="MariS_Drinks1" />
+        <marker scope="Public" name="MariS_Fun1" />
+        <marker scope="Public" name="MariS_Pleasing1" />
+        <marker scope="Public" name="MariS_PokerFace1" />
+        <marker scope="Public" name="MariS_Positions1" />
+        <marker scope="Public" name="MariS_Wings1" />
+        <marker scope="Public" name="MariS_Wings2" />
+        <marker scope="Public" name="MariS_Wings3" />
         <marker scope="Public" name="Meia_EatingBabies1" />
         <marker scope="Public" name="Meia_Hair1" />
         <marker scope="Public" name="Meia_Misidentified1" />
@@ -237,6 +358,11 @@
         <marker scope="Public" name="Nadeshiko_Inventory1" />
         <marker scope="Public" name="Nadeshiko_Locations1" />
         <marker scope="Public" name="Nadeshiko_Partner1" />
+        <marker scope="Public" name="Nagisa_ButtScar1" />
+        <marker scope="Public" name="Nagisa_Classroom1" />
+        <marker scope="Public" name="Nagisa_OnlyChild1" />
+        <marker scope="Public" name="Nagisa_Play1" />
+        <marker scope="Public" name="Nagisa_ToughToMock1" />
         <marker scope="Public" name="Natasha_WhyHelp1" />
         <marker scope="Public" name="Natasha_WhyHelp2" />
         <marker scope="Public" name="NeroForteFail" />
@@ -249,6 +375,12 @@
         <marker scope="Public" name="NoCursing" />
         <marker scope="Public" name="NoFunnyBusiness" />
         <marker scope="Public" name="NoKindBones" />
+        <marker scope="Public" name="Nonon_LadyNickname1" />
+        <marker scope="Public" name="Nonon_NoLockers1" />
+        <marker scope="Public" name="Nonon_OutfitStrip1" />
+        <marker scope="Public" name="Nonon_OutfitStrip2" />
+        <marker scope="Public" name="Nonon_PostcumThreat1" />
+        <marker scope="Public" name="Nonon_YesLockers1" />
         <marker scope="Public" name="NoNonCon" />
         <marker scope="Public" name="NoScars" />
         <marker scope="Public" name="NotScaredOfSuperman" />
@@ -262,6 +394,12 @@
         <marker scope="Public" name="Prompt_MakeMeAngry" />
         <marker scope="Public" name="Prompt_MeanestThing" />
         <marker scope="Public" name="PuttinOnTheZap" />
+        <marker scope="Public" name="Queenie_Fingers1" />
+        <marker scope="Public" name="Queenie_Intro1" />
+        <marker scope="Public" name="Queenie_MagicStrip1" />
+        <marker scope="Public" name="Queenie_MagicStrip2" />
+        <marker scope="Public" name="Queenie_Skirt1" />
+        <marker scope="Public" name="Queenie_Skirt2" />
         <marker scope="Public" name="RedMarket" />
         <marker scope="Public" name="RememberToForget" />
         <marker scope="Public" name="Revy_Guns1" />
@@ -270,6 +408,12 @@
         <marker scope="Public" name="Revy_Smoking1" />
         <marker scope="Public" name="Revy_Threat1" />
         <marker scope="Public" name="RootOfAllEvil" />
+        <marker scope="Public" name="Rouge_Hobbies1" />
+        <marker scope="Public" name="Rouge_Invitation1" />
+        <marker scope="Public" name="Rouge_Jewels1" />
+        <marker scope="Public" name="Rouge_Looting1" />
+        <marker scope="Public" name="Rouge_RealEars1" />
+        <marker scope="Public" name="Rouge_SpecialJewels1" />
         <marker scope="Public" name="RuinYourDay" />
         <marker scope="Public" name="Saki_Issues1" />
         <marker scope="Public" name="ScaredOfNero" />
@@ -286,6 +430,11 @@
         <marker scope="Public" name="SleepForever" />
         <marker scope="Public" name="StrongLegs" />
         <marker scope="Public" name="SuddenDeath" />
+        <marker scope="Public" name="Sweetheart_Forfeit1" />
+        <marker scope="Public" name="Sweetheart_Forfeit2" />
+        <marker scope="Public" name="Sweetheart_Hole1" />
+        <marker scope="Public" name="Sweetheart_Name1" />
+        <marker scope="Public" name="Sweetheart_Powers1" />
         <marker scope="Public" name="TheGoodInNero" />
         <marker scope="Public" name="TheGoodYouMiss" />
         <marker scope="Public" name="ThinLineOfGood" />
@@ -306,5 +455,25 @@
         <marker scope="Public" name="WontDitchArms" />
         <marker scope="Public" name="WorldOfHate" />
         <marker scope="Public" name="YourLifeIsYourOwn" />
+        <marker scope="Public" name="Yuno_Arthritis1" />
+        <marker scope="Public" name="Yuno_Earworms1" />
+        <marker scope="Public" name="Yuno_Japanese1" />
+        <marker scope="Public" name="Yuno_PetPeeve1" />
+        <marker scope="Public" name="Yuno_Shounen1" />
+        <marker scope="Public" name="Yuno_Strats1" />
+        <marker scope="Public" name="ZekePandy_ArmorBearer1" />
+        <marker scope="Public" name="ZekePandy_Chest1" />
+        <marker scope="Public" name="ZekePandy_Forfeit1" />
+        <marker scope="Public" name="ZekePandy_Intro" />
+        <marker scope="Public" name="ZekePandy_Prince1" />
+        <marker scope="Public" name="ZekePandy_Turters1" />
+        <marker scope="Public" name="Zoe_Feedback1" />
+        <marker scope="Public" name="Zoe_Intro1" />
+        <marker scope="Public" name="Zoe_OPGods1" />
+        <marker scope="Public" name="Zoe_Philip1" />
+        <marker scope="Public" name="Zoe_ShippingDetective1" />
+        <marker scope="Public" name="Zoe_ShippingHero1" />
+        <marker scope="Public" name="Zoe_ShippingMoe1" />
+        <marker scope="Public" name="Zoe_ShippingPolice1" />
     </markers>
 </metadata>
