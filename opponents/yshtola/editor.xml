@@ -220,6 +220,9 @@
         <response id="300" opponent="nagatoro" opponentId="2" />
         <response id="301" opponent="nagatoro" opponentId="2032" />
         <response id="302" opponent="senko" opponentId="15" />
+        <response id="306" opponent="jura" opponentId="895" />
+        <response id="311" opponent="jura" opponentId="1690" />
+        <response id="312" opponent="meia" opponentId="403" />
     </responses>
     <notes>
         <note id="273">It's well established in FFXIV that healing magic cannot mend grevious wounds or regrow limbs. Just want to make it clear that this is not a lead in to Y'shtola trying to fix Dunban's injury, but seeing as she doesn't know the extent/nature of the damage she would naturally offer to heal him since it's well within her ability to fix more mundane injuries.</note>
@@ -228,7 +231,7 @@
         <prefix>op</prefix>
         <prefix>op-</prefix>
     </prefixes>
-    <nextId>305</nextId>
+    <nextId>316</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="aaravi_resp0_1" />
@@ -574,9 +577,17 @@
         <marker scope="Public" name="jessie_resp0_1" />
         <marker scope="Public" name="Jessie_s0_1" />
         <marker scope="Public" name="Jessie_s0_2" />
+        <marker scope="Public" name="jura_ARR_resp0_1" />
+        <marker scope="Public" name="jura_easter_resp0_1" />
+        <marker scope="Public" name="jura_halloween_resp0_1" />
         <marker scope="Public" name="jura_resp0_1" />
+        <marker scope="Public" name="jura_resp0_2" />
+        <marker scope="Public" name="jura_resp1_1" />
         <marker scope="Public" name="Jura_s0_1" />
+        <marker scope="Public" name="Jura_s0_2" />
         <marker scope="Public" name="jura_summer_resp0_1" />
+        <marker scope="Public" name="jura_vdayr_resp0_1" />
+        <marker scope="Public" name="jura_xmasr_resp0_1" />
         <marker scope="Public" name="kaz_resp0_1" />
         <marker scope="Public" name="kaz_resp0_2" />
         <marker scope="Public" name="kaz_resp0_3" />
@@ -744,6 +755,9 @@
         <marker scope="Public" name="May_Summer_s0_1c" />
         <marker scope="Public" name="May_Summer_s3_2" />
         <marker scope="Public" name="May_Summer_s3_3" />
+        <marker scope="Public" name="meia_ARR_resp0_1" />
+        <marker scope="Public" name="meia_easter_resp0_1" />
+        <marker scope="Public" name="meia_halloween_resp0_1" />
         <marker scope="Public" name="meia_resp0_1" />
         <marker scope="Public" name="meia_resp0_2" />
         <marker scope="Public" name="meia_resp0_3" />
@@ -764,6 +778,8 @@
         <marker scope="Public" name="meia_summer_resp0_1" />
         <marker scope="Public" name="meia_summer_resp0_2" />
         <marker scope="Public" name="meia_summer_resp0_3" />
+        <marker scope="Public" name="meia_vday_resp0_1" />
+        <marker scope="Public" name="meia_xmas_resp0_1" />
         <marker scope="Public" name="Miqote" />
         <marker scope="Public" name="Monika_weird" />
         <marker scope="Public" name="msfortune_resp0_1" />
