@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1712765901220</lastupdate>
+    <lastupdate>1714425888326</lastupdate>
     <enabled>false</enabled>
     <first>Maria</first>
     <last />
@@ -19,6 +19,6 @@
         <costume folder="opponents/reskins/maria_sadistic_maneater/" img="0-calm.png" label="Maria" collectible="maria_scissors">Sadistic Maneater</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>1382</lines>
-    <poses>155</poses>
+    <lines>1397</lines>
+    <poses>156</poses>
 </opponent>
