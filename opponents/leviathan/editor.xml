@@ -32,6 +32,19 @@
         <response id="36" opponent="lysithea" opponentId="545" />
         <response id="37" opponent="lysithea" opponentId="546" />
         <response id="38" opponent="lysithea" opponentId="547" />
+        <response id="39" opponent="lysithea" opponentId="548" />
+        <response id="40" opponent="lysithea" opponentId="549" />
+        <response id="42" opponent="lysithea" opponentId="550" />
+        <response id="44" opponent="revy" opponentId="605" />
+        <response id="45" opponent="mari_setogaya" opponentId="3023" />
+        <response id="46" opponent="mari_setogaya" opponentId="3024" />
+        <response id="47" opponent="aqua_kh" opponentId="1195" />
+        <response id="48" opponent="meia" opponentId="1817" />
+        <response id="49" opponent="meia" opponentId="1818" />
+        <response id="50" opponent="jura" opponentId="1665" />
+        <response id="51" opponent="jura" opponentId="1667" />
+        <response id="52" opponent="mia_golden_sun" opponentId="706" />
+        <response id="53" opponent="mia_golden_sun" opponentId="707" />
     </responses>
     <labels>
         <label id="1" label="" folder="Bobobo Non-conversations" sort="0" />
@@ -47,14 +60,18 @@
         <label id="11" label="" folder="Bobobo Non-conversations" sort="0" />
         <label id="12" label="" folder="Bobobo Non-conversations" sort="0" />
     </labels>
-    <nextId>38</nextId>
+    <nextId>53</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="aoi_resp0_1" />
+        <marker scope="Public" name="aoi_resp0_2" />
         <marker scope="Public" name="Aoi_s0_1" />
         <marker scope="Public" name="Aoi_s0_2" />
+        <marker scope="Public" name="Aoi_s0_3" />
         <marker scope="Public" name="AquaGrunt_s0_1" />
+        <marker scope="Public" name="aquakh_resp0_1" />
         <marker scope="Public" name="AquaKH_s0_1" />
+        <marker scope="Public" name="AquaKH_s0_2" />
         <marker scope="Public" name="AquaKS_s0_1" />
         <marker scope="Public" name="Bobobo_s0_1" />
         <marker scope="Public" name="Bobobo_s1_1" />
@@ -63,8 +80,12 @@
         <marker scope="Public" name="Bobobo_s4_1" />
         <marker scope="Public" name="Bobobo_s5_1" />
         <marker scope="Public" name="jura_resp0_1" />
+        <marker scope="Public" name="jura_resp0_2" />
+        <marker scope="Public" name="jura_resp2_1" />
         <marker scope="Public" name="Jura_s0_1" />
         <marker scope="Public" name="Jura_s0_2" />
+        <marker scope="Public" name="Jura_s0_3" />
+        <marker scope="Public" name="Jura_s1_1" />
         <marker scope="Public" name="leviathan_resp0_1" />
         <marker scope="Public" name="leviathan_resp0_2" />
         <marker scope="Public" name="leviathan_resp1_1" />
@@ -79,14 +100,29 @@
         <marker scope="Public" name="leviathan_resp5_2" />
         <marker scope="Public" name="leviathan_resp6_1" />
         <marker scope="Public" name="leviathan_resp6_2" />
+        <marker scope="Public" name="leviathan_respE_1" />
+        <marker scope="Public" name="leviathan_respI_1" />
         <marker scope="Public" name="lysithea_resp0_1" />
         <marker scope="Public" name="lysithea_resp0_2" />
         <marker scope="Public" name="lysithea_resp0_3" />
+        <marker scope="Public" name="lysithea_respH_1" />
+        <marker scope="Public" name="lysithea_respR_1" />
+        <marker scope="Public" name="lysithea_respX_1" />
         <marker scope="Public" name="Lysithia_s0_1" />
+        <marker scope="Public" name="Lysithia_s0_2" />
         <marker scope="Public" name="MagmaGrunt_s0_1" />
+        <marker scope="Public" name="maris_resp0_1" />
+        <marker scope="Public" name="MariS_resp0_1" />
+        <marker scope="Public" name="maris_resp1_1" />
         <marker scope="Public" name="meia_resp0_1" />
+        <marker scope="Public" name="meia_resp0_2" />
+        <marker scope="Public" name="meia_resp1_1" />
         <marker scope="Public" name="Meia_s0_1" />
         <marker scope="Public" name="Meia_s0_2" />
+        <marker scope="Public" name="Meia_s0_3" />
+        <marker scope="Public" name="Meia_s1_1" />
+        <marker scope="Public" name="miags_resp0_1" />
+        <marker scope="Public" name="miags_resp1_1" />
         <marker scope="Public" name="Nephenee_Finalx" />
         <marker scope="Public" name="nephenee_resp0_1" />
         <marker scope="Public" name="nephenee_resp0_2" />
@@ -128,6 +164,7 @@
         <marker scope="Public" name="Nephenee_s6_3" />
         <marker scope="Public" name="Nephenee_s6_3x" />
         <marker scope="Public" name="revy_resp0_1" />
+        <marker scope="Public" name="revy_resp0_2" />
         <marker scope="Public" name="roll_resp0_1" />
         <marker scope="Public" name="roll_resp0_2" />
         <marker scope="Public" name="roll_resp0_3" />
@@ -164,5 +201,41 @@
         <marker scope="Public" name="Roll_s5_1" />
         <marker scope="Public" name="Roll_s5_2" />
         <marker scope="Public" name="Roll_s5_3" />
+        <marker scope="Public" name="sofia_resp0_1" />
+        <marker scope="Public" name="sofia_resp0_2" />
+        <marker scope="Public" name="sofia_resp0_3" />
+        <marker scope="Public" name="sofia_resp1_1" />
+        <marker scope="Public" name="sofia_resp1_2" />
+        <marker scope="Public" name="sofia_resp1_3" />
+        <marker scope="Public" name="sofia_resp2_1" />
+        <marker scope="Public" name="sofia_resp2_2" />
+        <marker scope="Public" name="sofia_resp2_3" />
+        <marker scope="Public" name="sofia_resp3_1" />
+        <marker scope="Public" name="sofia_resp3_2" />
+        <marker scope="Public" name="sofia_resp3_3" />
+        <marker scope="Public" name="sofia_resp4_1" />
+        <marker scope="Public" name="sofia_resp4_2" />
+        <marker scope="Public" name="sofia_resp4_3" />
+        <marker scope="Public" name="sofia_resp5_1" />
+        <marker scope="Public" name="sofia_resp5_2" />
+        <marker scope="Public" name="sofia_resp5_3" />
+        <marker scope="Public" name="Sofia_s0_1" />
+        <marker scope="Public" name="Sofia_s0_2" />
+        <marker scope="Public" name="Sofia_s0_3" />
+        <marker scope="Public" name="Sofia_s1_1" />
+        <marker scope="Public" name="Sofia_s1_2" />
+        <marker scope="Public" name="Sofia_s1_3" />
+        <marker scope="Public" name="Sofia_s2_1" />
+        <marker scope="Public" name="Sofia_s2_2" />
+        <marker scope="Public" name="Sofia_s2_3" />
+        <marker scope="Public" name="Sofia_s3_1" />
+        <marker scope="Public" name="Sofia_s3_2" />
+        <marker scope="Public" name="Sofia_s3_3" />
+        <marker scope="Public" name="Sofia_s4_1" />
+        <marker scope="Public" name="Sofia_s4_2" />
+        <marker scope="Public" name="Sofia_s4_3" />
+        <marker scope="Public" name="Sofia_s5_1" />
+        <marker scope="Public" name="Sofia_s5_2" />
+        <marker scope="Public" name="Sofia_s5_3" />
     </markers>
 </metadata>
