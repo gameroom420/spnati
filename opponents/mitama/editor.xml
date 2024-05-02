@@ -2892,8 +2892,27 @@ Karsa also added in the interview:
         <label id="2826" label="" folder="Opponent Lost Targets" sort="0" />
         <label id="2827" label="" folder="Responses" sort="0" />
         <label id="2828" label="" folder="Responses" sort="0" />
+        <label id="2829" label="" folder="Responses" sort="0" />
+        <label id="2830" label="" folder="Responses" sort="0" />
+        <label id="2831" label="" folder="Responses" sort="0" />
+        <label id="2832" label="" folder="Responses" sort="0" />
+        <label id="2833" label="" folder="Responses" sort="0" />
+        <label id="2834" label="" folder="Responses" sort="0" />
+        <label id="2835" label="" folder="Responses" sort="0" />
+        <label id="2836" label="" folder="Responses" sort="0" />
+        <label id="2837" label="" folder="Opponent Stripping Targets" sort="0" />
+        <label id="2838" label="" folder="Responses" sort="0" />
+        <label id="2839" label="" folder="Opponent Stripping Targets" sort="0" />
+        <label id="2840" label="Haiku 529-Priestess" folder="Haiku Counter" sort="0" />
+        <label id="2841" label="Haiku 529-Diviner" folder="Haiku Counter" sort="0" />
+        <label id="2842" label="Haiku 529-Nohr Princess" folder="Haiku Counter" sort="0" />
+        <label id="2843" label="" folder="Responses" sort="0" />
+        <label id="2844" label="" folder="Opponent Stripped Targets" sort="0" />
+        <label id="2845" label="" folder="Opponent Lost Targets" sort="0" />
+        <label id="2846" label="" folder="Hand=Any banter" sort="0" />
+        <label id="2847" label="" folder="Hand=Any banter" sort="0" />
     </labels>
-    <nextId>2828</nextId>
+    <nextId>2847</nextId>
     <markers>
         <marker scope="Public" name="4mitama_hand1_1" />
         <marker scope="Public" name="4mitama_hand1_2" />
@@ -2917,6 +2936,8 @@ Karsa also added in the interview:
         <marker scope="Public" name="adrien_losingsuit" />
         <marker scope="Public" name="adrien_lostsuit" />
         <marker scope="Public" name="ae86_selected" />
+        <marker scope="Public" name="aella_adventures" />
+        <marker scope="Public" name="aella_bookclub" />
         <marker scope="Public" name="aimee_mast" />
         <marker scope="Public" name="aimee_mast_1" />
         <marker scope="Public" name="aimee_mast_2" />
@@ -4944,6 +4965,9 @@ Karsa also added in the interview:
         <marker scope="Public" name="haiku_528_Counter" />
         <marker scope="Public" name="haiku_528_DCounter" />
         <marker scope="Public" name="haiku_528_NCounter" />
+        <marker scope="Public" name="haiku_529_Counter" />
+        <marker scope="Public" name="haiku_529_DCounter" />
+        <marker scope="Public" name="haiku_529_NCounter" />
         <marker scope="Public" name="haiku_53" />
         <marker scope="Public" name="haiku_53_Counter" />
         <marker scope="Public" name="haiku_53_DCounter" />
@@ -5421,10 +5445,13 @@ Karsa also added in the interview:
         <marker scope="Public" name="MitamaSandals2_resp" />
         <marker scope="Public" name="Monika_deeprealms_resp" />
         <marker scope="Public" name="monika_deeprealms2_resp" />
+        <marker scope="Public" name="monika_deeprealms3_resp" />
         <marker scope="Public" name="Monika_fateDestiny_resp" />
         <marker scope="Public" name="monika_fateDestiny2_resp" />
+        <marker scope="Public" name="monika_fateDestiny3_resp" />
         <marker scope="Public" name="monika_firstHaiku_resp" />
         <marker scope="Public" name="monika_firstHaiku2_resp" />
+        <marker scope="Public" name="monika_firstHaiku3_resp" />
         <marker scope="Public" name="monika_haircolor" />
         <marker scope="Public" name="monika_litclub" />
         <marker scope="Public" name="monika_litclub2" />
@@ -5438,12 +5465,16 @@ Karsa also added in the interview:
         <marker scope="Public" name="monika_morethanpoems3" />
         <marker scope="Public" name="Monika_napPref_resp" />
         <marker scope="Public" name="monika_napPref2_resp" />
+        <marker scope="Public" name="monika_napPref3_resp" />
         <marker scope="Public" name="Monika_novels_resp" />
         <marker scope="Public" name="monika_novels2_resp" />
+        <marker scope="Public" name="monika_novels3_resp" />
         <marker scope="Public" name="Monika_sexStories_resp" />
         <marker scope="Public" name="monika_sexStories2_resp" />
+        <marker scope="Public" name="monika_sexStories3_resp" />
         <marker scope="Public" name="Monika_shrineLife_resp" />
         <marker scope="Public" name="monika_shrineLife2_resp" />
+        <marker scope="Public" name="monika_shrineLife3_resp" />
         <marker scope="Public" name="monika_tipresp_1" />
         <marker scope="Public" name="monika_tipresp_2" />
         <marker scope="Public" name="monika_tipresp_3" />
@@ -5518,6 +5549,7 @@ Karsa also added in the interview:
         <marker scope="Public" name="pot_of_greed_victory" />
         <marker scope="Public" name="proper_order" />
         <marker scope="Public" name="QoH_kingdom" />
+        <marker scope="Public" name="QoH_kingdom_3" />
         <marker scope="Public" name="QoH_kingdom2" />
         <marker scope="Public" name="QoH_love" />
         <marker scope="Public" name="Reimu_Armor3_resp" />
@@ -5721,6 +5753,9 @@ Karsa also added in the interview:
         <marker scope="Public" name="wikipe_passion" />
         <marker scope="Public" name="writing_tools" />
         <marker scope="Public" name="ya" />
+        <marker scope="Public" name="yaeiko_inazuma" />
+        <marker scope="Public" name="yaemiko_careerGoal_resp" />
+        <marker scope="Public" name="yaemiko_inazuma" />
         <marker scope="Public" name="yaemiko_jobInterview_resp" />
         <marker scope="Public" name="yaemiko_jobInterview2_resp" />
         <marker scope="Public" name="yaemiko_jobInterview3_resp" />
@@ -5728,7 +5763,9 @@ Karsa also added in the interview:
         <marker scope="Public" name="yaemiko_meeting_2a" />
         <marker scope="Public" name="yaemiko_meeting_2b" />
         <marker scope="Public" name="yaemiko_meeting_3" />
+        <marker scope="Public" name="yaemiko_prof" />
         <marker scope="Public" name="yaemiko_profession" />
+        <marker scope="Public" name="yaemiko_profession2" />
         <marker scope="Public" name="yaemiko_readingPrefs_resp" />
         <marker scope="Public" name="yaemiko_readingPrefs2_resp" />
         <marker scope="Public" name="yaemiko_readingPrefs3_resp" />
