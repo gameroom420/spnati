@@ -55,9 +55,9 @@
         <label id="7" label="" folder="Sequences" sort="0" />
         <label id="8" label="" folder="Sequences" sort="0" />
         <label id="9" label="" folder="Player Exposed" sort="0" />
-        <label id="10" label="" color="10" folder="Sequences" sort="0" />
-        <label id="11" label="Swim Link 3" folder="Sequences" sort="0" />
-        <label id="12" label="" folder="Sequences" sort="0" />
+        <label id="10" label="Swim Link 4" color="10" folder="Sequences" sort="0" />
+        <label id="11" label="Swim Link 3" color="15" folder="Sequences" sort="0" />
+        <label id="12" label="Swim Link 5" color="6" folder="Sequences" sort="0" />
         <label id="13" label="Shoes" folder="" sort="0" />
         <label id="14" label="Tank Top" folder="" sort="0" />
         <label id="15" label="Socks" folder="" sort="0" />
@@ -82,7 +82,7 @@
         <label id="35" label="Run 4" folder="Sequences" sort="0" />
         <label id="36" label="First Loss" folder="Situations" sort="0" />
         <label id="38" label="Player Royal Flush" folder="Situations" sort="0" />
-        <label id="39" label="" folder="Sequences" sort="0" />
+        <label id="39" label="Swim Link End" color="15" folder="Sequences" sort="0" />
         <label id="40" label="1st Strip" folder="Situations" sort="0" />
         <label id="41" label="" folder="Situations" sort="0" />
         <label id="42" label="Early Game" folder="Basics" sort="0" />
@@ -146,10 +146,10 @@
         <label id="104" label="" folder="Sequences" sort="0" />
         <label id="105" label="Birthday + Mahiru" folder="Overrides" sort="0" />
         <label id="106" label="Office" folder="Backgrounds" sort="0" />
-        <label id="107" label="Start Swim Link" folder="Sequences" sort="0" />
+        <label id="107" label="Start Swim Link" color="15" folder="Sequences" sort="0" />
         <label id="108" label="Water" folder="Backgrounds" sort="0" />
-        <label id="109" label="Swim Link 1" folder="Sequences" sort="0" />
-        <label id="110" label="Swim Link 2" folder="Sequences" sort="0" />
+        <label id="109" label="Swim Link 1" color="15" folder="Sequences" sort="0" />
+        <label id="110" label="Swim Link 2" color="15" folder="Sequences" sort="0" />
         <label id="111" label="First Forfeit" folder="Sequences" sort="0" />
         <label id="112" label="" folder="Target: Kyoko" sort="0" />
         <label id="113" label="" folder="Target: Kyoko" sort="0" />
@@ -225,7 +225,7 @@
         <label id="213" label="" folder="Target: Kyoko" sort="0" />
         <label id="214" label="" folder="Target: Kyoko" sort="0" />
         <label id="215" label="" folder="Target: Kyoko" sort="0" />
-        <label id="260" label="" folder="Sequences" sort="0" />
+        <label id="260" label="SwimLinkEnd(WFT)" color="15" folder="Sequences" sort="0" />
         <label id="184" label="" color="4" folder="" sort="0" />
         <label id="162" label="" color="4" folder="Target: Kyoko" sort="0" />
         <label id="218" label="" folder="Target: Chihiro" sort="0" />
@@ -275,10 +275,13 @@
         <label id="233" label="" folder="Target: Ringo" sort="0" />
         <label id="199" label="" folder="Target: Kyoko" sort="0" />
         <label id="272" label="" color="12" folder="" sort="0" />
+        <label id="274" label="Swim Link 6" color="6" folder="Sequences" sort="0" />
+        <label id="275" label="Swim Link 7" color="6" folder="Sequences" sort="0" />
+        <label id="276" label="Friend Penis Kokichi" folder="Sequences" sort="0" />
     </labels>
-    <nextId>272</nextId>
+    <nextId>276</nextId>
     <markers>
-        <marker scope="Public" name="aoi_names" />
+        <marker scope="Public" name="" />
         <marker scope="Private" name="B_">Background related markers.</marker>
         <marker scope="Public" name="B_BeachTan" />
         <marker scope="Public" name="B_DRClassroom" />
@@ -307,6 +310,7 @@
         <marker scope="Public" name="L_AoiDeparts" />
         <marker scope="Public" name="L_AoiReturns" />
         <marker scope="Public" name="L_AoiSwims" />
+        <marker scope="Public" name="L_AoiSwims1" />
         <marker scope="Public" name="L_BigRisk" />
         <marker scope="Public" name="L_ChihiroCharm1" />
         <marker scope="Public" name="L_ChihiroCharm2" />
@@ -318,6 +322,11 @@
         <marker scope="Public" name="L_FriendPenis" />
         <marker scope="Public" name="L_GreatHand" />
         <marker scope="Public" name="L_HeroTime" />
+        <marker scope="Public" name="L_HinaReturns" />
+        <marker scope="Public" name="L_HinaSwims1" />
+        <marker scope="Public" name="L_HinaSwims2" />
+        <marker scope="Public" name="L_HinaSwims3" />
+        <marker scope="Public" name="L_HinaSwims4" />
         <marker scope="Public" name="L_Hunch" />
         <marker scope="Public" name="L_LastHand" />
         <marker scope="Public" name="L_NadeSkinnyDip" />
@@ -331,7 +340,6 @@
         <marker scope="Public" name="L_Skipped" />
         <marker scope="Public" name="L_StartingLine" />
         <marker scope="Public" name="L_SwimLikeCrazy" />
-        <marker scope="Public" name="L_SwimThoughts" />
         <marker scope="Public" name="L_SwimThoughts1" />
         <marker scope="Public" name="L_SwimThoughts2" />
         <marker scope="Public" name="L_SwimThoughts3" />
@@ -340,6 +348,7 @@
         <marker scope="Public" name="L_Type" />
         <marker scope="Private" name="Q_">Called out questions and prompts.</marker>
         <marker scope="Public" name="Q_DanganPenis" />
+        <marker scope="Public" name="Q_DanganPenisMakoto" />
         <marker scope="Public" name="Q_Donuts" />
         <marker scope="Public" name="Q_LastPlace" />
         <marker scope="Public" name="Q_NewRecord" />
@@ -435,6 +444,7 @@
         <marker scope="Public" name="TI_Levi_01Sports" />
         <marker scope="Public" name="TI_Levi_02Sports" />
         <marker scope="Public" name="TI_Levi_02Sweat" />
+        <marker scope="Public" name="TI_Levi_03Diet" />
         <marker scope="Public" name="TI_Meia_01" />
         <marker scope="Public" name="TI_Nadeshiko_41SkinnyDip" />
         <marker scope="Public" name="TI_NadeshikoNervous" />
@@ -472,6 +482,7 @@
         <marker scope="Public" name="TO_Kyouko_01" />
         <marker scope="Public" name="TO_Levi_01" />
         <marker scope="Public" name="TO_Levi_02Name" />
+        <marker scope="Public" name="TO_Levi_03" />
         <marker scope="Public" name="TO_Nade_01Indoor" />
         <marker scope="Public" name="TO_Nagatoro_01">Nagatoro Must Strip Stage 0</marker>
         <marker scope="Public" name="TO_Nagatoro_43Tan" />
