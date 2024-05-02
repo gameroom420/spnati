@@ -758,8 +758,9 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <label id="612" label="" folder="Dunban Responses" sort="0" />
         <label id="613" label="" folder="Dunban Responses" sort="0" />
         <label id="614" label="" folder="Dunban Responses" sort="0" />
+        <label id="615" label="" folder="Fire Emblem / Fantasy" sort="0" />
     </labels>
-    <nextId>614</nextId>
+    <nextId>615</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="ask" />
@@ -787,6 +788,9 @@ cyril=Lysithea is attracted to him, and making an observation about wanting to m
         <marker scope="Public" name="ask_aqua_praiseE" />
         <marker scope="Public" name="ask_aqua_praiseI" />
         <marker scope="Public" name="ask_aqua_praiseS" />
+        <marker scope="Public" name="ask_aquakh_fightingS" />
+        <marker scope="Public" name="ask_aquakh_romanceS" />
+        <marker scope="Public" name="ask_aquakj_worldsS" />
         <marker scope="Public" name="ask_aru_divinityS" />
         <marker scope="Public" name="ask_aru_fightI" />
         <marker scope="Public" name="ask_aru_fightS" />
