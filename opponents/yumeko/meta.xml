@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1714101739118</lastupdate>
+    <lastupdate>1714536192989</lastupdate>
     <enabled>false</enabled>
     <first>Yumeko</first>
     <last>Jabami</last>
@@ -19,6 +19,6 @@
         <costume folder="opponents/reskins/yumeko_casual_gambler/" img="0-select.png" label="Yumeko">Casual Gambler</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>1724</lines>
+    <lines>1730</lines>
     <poses>186</poses>
 </opponent>
