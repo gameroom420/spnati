@@ -229,6 +229,7 @@
         <response id="1145" opponent="aoi_asahina" opponentId="13" />
         <response id="1146" opponent="aoi_asahina" opponentId="20" />
         <response id="1148" opponent="lysithea" opponentId="19" />
+        <response id="1154" opponent="aoi_asahina" opponentId="269" />
     </responses>
     <labels>
         <label id="91" label="" folder="Early Tags" sort="0" />
@@ -1347,8 +1348,10 @@
         <label id="1148" label="" folder="targets" sort="0" />
         <label id="1149" label="" folder="targets" sort="0" />
         <label id="1150" label="" folder="targets" sort="0" />
+        <label id="1151" label="" folder="targets" sort="0" />
+        <label id="1155" label="" folder="targets" sort="0" />
     </labels>
-    <nextId>1150</nextId>
+    <nextId>1155</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="~nickname~" />
@@ -1357,6 +1360,8 @@
         <marker scope="Public" name="1stdong">Marker for the first time a penis is exposed in game.</marker>
         <marker scope="Public" name="2nd2chain" />
         <marker scope="Public" name="3nd2chain" />
+        <marker scope="Public" name="aaravi_puyoexplain" />
+        <marker scope="Public" name="aaravi_puzzles" />
         <marker scope="Public" name="aaravi01" />
         <marker scope="Public" name="adora_maststart" />
         <marker scope="Public" name="adrien_1stflirt" />
@@ -1406,6 +1411,10 @@
         <marker scope="Public" name="adrien_suitoff" />
         <marker scope="Public" name="adrien_teachinstart" />
         <marker scope="Public" name="adrien_toosoon" />
+        <marker scope="Public" name="agrunt_preach" />
+        <marker scope="Public" name="agrunt_preachb" />
+        <marker scope="Public" name="agrunt_soapbox" />
+        <marker scope="Public" name="ahri_foxspirit" />
         <marker scope="Public" name="amy_clothes" />
         <marker scope="Public" name="amy_cream" />
         <marker scope="Public" name="amy_crush">Response for when Amy reveals Sonic to be her crush</marker>
@@ -1421,10 +1430,15 @@
         <marker scope="Public" name="aoi_darkmagic" />
         <marker scope="Public" name="aoi_darkmagic2" />
         <marker scope="Public" name="aoi_hairstyles" />
+        <marker scope="Public" name="aoi_hairstyles2" />
+        <marker scope="Public" name="aoi_loosehair" />
+        <marker scope="Public" name="aoi_masturvoice" />
         <marker scope="Public" name="aoi_names" />
         <marker scope="Public" name="aoi_olympiccadet" />
         <marker scope="Public" name="aoi_olympiccadet2" />
         <marker scope="Public" name="aoi_palmtrick" />
+        <marker scope="Public" name="aoi_swimpool" />
+        <marker scope="Public" name="aoi_swimpoolb" />
         <marker scope="Public" name="aoi_voices" />
         <marker scope="Public" name="aqua_ecoactivist" />
         <marker scope="Public" name="aqua_keyblade" />
@@ -1460,6 +1474,8 @@
         <marker scope="Public" name="binah_paleskin" />
         <marker scope="Public" name="binah_sadisticpose" />
         <marker scope="Public" name="binah_sadisticpose2" />
+        <marker scope="Public" name="cagli_cute" />
+        <marker scope="Public" name="cagli_fashion" />
         <marker scope="Public" name="cait_childfriends" />
         <marker scope="Public" name="cait_composturehair" />
         <marker scope="Public" name="cait_composurehair" />
@@ -1508,6 +1524,8 @@
         <marker scope="Public" name="elizabeth_puyobragoofy" />
         <marker scope="Public" name="eliz-ntro" />
         <marker scope="Public" name="emi_legless" />
+        <marker scope="Public" name="estelle_overdressed" />
+        <marker scope="Public" name="estelle_overdressed2" />
         <marker scope="Public" name="estelle01" />
         <marker scope="Public" name="eva_crossover1st">Whenever Ringo hears either Shinji or Asuka, she is reminded of the crossover event with evangelion that happened at puyo quest.</marker>
         <marker scope="Public" name="fate_1stloss">Line that plays when fate loses a hand for the first time in a game.</marker>
@@ -1518,11 +1536,16 @@
         <marker scope="Public" name="fate_watercowboy" />
         <marker scope="Public" name="felix_dressloss" />
         <marker scope="Public" name="felix_postdressloss" />
+        <marker scope="Public" name="fina_model" />
+        <marker scope="Public" name="fischl_medievalworld" />
+        <marker scope="Public" name="fischl_medievalworldb" />
+        <marker scope="Public" name="fischl_tryhard" />
         <marker scope="Public" name="flailingdong" />
         <marker scope="Public" name="flashing" />
         <marker scope="Public" name="flutter_01" />
         <marker scope="Public" name="flutter_animalstalk" />
         <marker scope="Public" name="flutter_animalstalk2" />
+        <marker scope="Public" name="fortune_puyoorfight" />
         <marker scope="Public" name="fortune_schezohead" />
         <marker scope="Public" name="futaba_nobra" />
         <marker scope="Public" name="futaba_videogamegeneric" />
@@ -1536,6 +1559,7 @@
         <marker scope="Public" name="helpsetup1" />
         <marker scope="Public" name="helpyes" />
         <marker scope="Public" name="heris_labexperiment" />
+        <marker scope="Public" name="heris_otherworld" />
         <marker scope="Public" name="heris_puyo7trains" />
         <marker scope="Public" name="heris01" />
         <marker scope="Public" name="hornythrow" />
@@ -1545,6 +1569,7 @@
         <marker scope="Public" name="hutao_firebutterflies" />
         <marker scope="Public" name="hutao_firstghost" />
         <marker scope="Public" name="hutao_stripghost" />
+        <marker scope="Public" name="ignatz_school" />
         <marker scope="Public" name="jessie_backdoor">Ringo says no to the backdoor question.</marker>
         <marker scope="Public" name="jessie_daring">Jessies confidence inspires Ringo to loosen up a bit as well.</marker>
         <marker scope="Public" name="Jessie_intro1" />
@@ -1574,7 +1599,13 @@
         <marker scope="Public" name="kazuma_luckcheat" />
         <marker scope="Public" name="kazuma_stealpants" />
         <marker scope="Public" name="kazuma_wizpunish" />
+        <marker scope="Public" name="komi_shy" />
+        <marker scope="Public" name="komi_shyb" />
         <marker scope="Public" name="kumatora_hiking" />
+        <marker scope="Public" name="kumatora_magic" />
+        <marker scope="Public" name="kumatora_magic2" />
+        <marker scope="Public" name="kumatora_magic2b" />
+        <marker scope="Public" name="kumatora_magicb" />
         <marker scope="Public" name="kumatora01" />
         <marker scope="Public" name="kyoko_borndetective" />
         <marker scope="Public" name="kyoko_deduce" />
@@ -1588,10 +1619,13 @@
         <marker scope="Public" name="kyoko_ultimatetalent" />
         <marker scope="Public" name="kyouko_hightension" />
         <marker scope="Public" name="kyouko_otherstripgames" />
+        <marker scope="Public" name="larachel_undress" />
+        <marker scope="Public" name="larachel_undressb" />
         <marker scope="Public" name="lasthand" />
         <marker scope="Public" name="lategame_idolstrip" />
         <marker scope="Public" name="leon_1sttimenaked" />
         <marker scope="Public" name="leon_attire" />
+        <marker scope="Public" name="leon_moviestar" />
         <marker scope="Public" name="leon_names" />
         <marker scope="Public" name="leon_namessuck" />
         <marker scope="Public" name="leon_powers" />
@@ -1605,18 +1639,27 @@
         <marker scope="Public" name="magsempai_socks" />
         <marker scope="Public" name="mari_" />
         <marker scope="Public" name="mari_appletoy" />
+        <marker scope="Public" name="mari_bf2" />
+        <marker scope="Public" name="mari_bfphone" />
+        <marker scope="Public" name="mari_bfphoneb" />
         <marker scope="Public" name="mari_cuteguys" />
         <marker scope="Public" name="mari_luckpoker" />
         <marker scope="Public" name="mari_phonecall3" />
         <marker scope="Public" name="Mari_Teemorrow_reply3" />
         <marker scope="Public" name="mari_tipsyousay" />
         <marker scope="Public" name="mari02" />
+        <marker scope="Public" name="marinette_anythingunder" />
+        <marker scope="Public" name="marinette_anythingunderb" />
+        <marker scope="Public" name="marinette_costume" />
+        <marker scope="Public" name="marinette_dating" />
         <marker scope="Public" name="marinette_dottedbra" />
         <marker scope="Public" name="marinette_kwami" />
         <marker scope="Public" name="marinette_ladybugpowers" />
         <marker scope="Public" name="marinette_transformover" />
         <marker scope="Public" name="mariS_diffdimguy" />
+        <marker scope="Public" name="maris_exciting" />
         <marker scope="Public" name="mariS_moveonplayer" />
+        <marker scope="Public" name="maris_question" />
         <marker scope="Public" name="mariS_Teetomorrow" />
         <marker scope="Public" name="mariS01" />
         <marker scope="Public" name="mariS03" />
@@ -1629,10 +1672,16 @@
         <marker scope="Public" name="mary_tetrismagic" />
         <marker scope="Public" name="Meia_answer0">Answer to Meia's question.</marker>
         <marker scope="Public" name="meia_loreisamess" />
+        <marker scope="Public" name="meia_nakedguys" />
+        <marker scope="Public" name="meia_nakedguysb" />
+        <marker scope="Public" name="meia_onlygirls" />
         <marker scope="Public" name="Meia_paksis">Answer to Meia's question when she mentions paksis.</marker>
         <marker scope="Public" name="meia_paksis1" />
         <marker scope="Public" name="meia_pilotrecruitment" />
         <marker scope="Public" name="meia_recruitment2" />
+        <marker scope="Public" name="mgrunt_teamname" />
+        <marker scope="Public" name="miko_ghost" />
+        <marker scope="Public" name="miko_talk" />
         <marker scope="Public" name="miku_puyo39" />
         <marker scope="Public" name="Miku_segarelation2" />
         <marker scope="Public" name="Miku_ulalacosplay" />
@@ -1659,9 +1708,12 @@
         <marker scope="Public" name="nami_0">Ringo reacts to Nami's cute remark.</marker>
         <marker scope="Public" name="nami_devilfruit" />
         <marker scope="Public" name="nami_finished">Ringo reacts to Nami climaxing</marker>
+        <marker scope="Public" name="nami_mathstuff" />
         <marker scope="Public" name="nami_pirate">Ringo is excited to hear Nami is a real pirate.</marker>
         <marker scope="Public" name="nami_sea" />
         <marker scope="Public" name="nami_world0">Ringo is wondering if perhaps she is just on a different part of her own world.</marker>
+        <marker scope="Public" name="natsuki_kitten" />
+        <marker scope="Public" name="natsuki_kittenb" />
         <marker scope="Public" name="nickname">(Test) Seeing if I can make Ringo give nickname changes to individual opponents.</marker>
         <marker scope="Public" name="nickname_explanation" />
         <marker scope="Public" name="nico_extrahands" />
@@ -1676,6 +1728,9 @@
         <marker scope="Public" name="no_bra2" />
         <marker scope="Public" name="no_dickes" />
         <marker scope="Public" name="noelle_strip" />
+        <marker scope="Public" name="noire_beststuff" />
+        <marker scope="Public" name="noire_games" />
+        <marker scope="Public" name="noire_gamesb" />
         <marker scope="Public" name="noire_puyo0" />
         <marker scope="Public" name="noire_wayhome3" />
         <marker scope="Public" name="nonon_dressstrip" />
@@ -1694,6 +1749,8 @@
         <marker scope="Public" name="perona_feli" />
         <marker scope="Public" name="perona_scare1" />
         <marker scope="Public" name="perona_scare2" />
+        <marker scope="Public" name="pit_angels" />
+        <marker scope="Public" name="pit_herowhat" />
         <marker scope="Public" name="player_surpriseus" />
         <marker scope="Public" name="player_surpriseus2" />
         <marker scope="Public" name="player1ststrip">Marker for the first time the human player strips an item of clothing.</marker>
@@ -1703,7 +1760,13 @@
         <marker scope="Public" name="ppt_outfit" />
         <marker scope="Public" name="Presentation">Marker for Ringos self presentation at the start of the game.</marker>
         <marker scope="Public" name="puyo_explanation">Ringo explains a bit of how puyo battles work.</marker>
+        <marker scope="Public" name="raynor_cowboy" />
+        <marker scope="Public" name="raynor_lifestyle" />
+        <marker scope="Public" name="raynor_lifestyleb" />
         <marker scope="Public" name="rd_adventureanswer">Answer for rainbow's adventurer question.</marker>
+        <marker scope="Public" name="reimu_maiden2" />
+        <marker scope="Public" name="reimu_shrinemaiden" />
+        <marker scope="Public" name="reimu_shrinemaidenb" />
         <marker scope="Public" name="Revy_cool">Ringo likes the way Revy's outfit looks, but disagrees with the smoking.</marker>
         <marker scope="Public" name="revy_guns">Ringo is a bit curious about Revy's guns.</marker>
         <marker scope="Public" name="revy_killing">Ringo answers Revy's question about killing.</marker>
@@ -1723,6 +1786,9 @@
         <marker scope="Public" name="ringo22" />
         <marker scope="Public" name="ringo23" />
         <marker scope="Public" name="ringo31" />
+        <marker scope="Public" name="rita_focus" />
+        <marker scope="Public" name="rita_lecture" />
+        <marker scope="Public" name="rita_lectureb" />
         <marker scope="Public" name="rita01" />
         <marker scope="Public" name="rita02" />
         <marker scope="Public" name="rogue_titsout" />
@@ -1772,8 +1838,14 @@
         <marker scope="Public" name="strip_musicianquestion" />
         <marker scope="Public" name="strip_nobilityquestion" />
         <marker scope="Public" name="strip_schooluniformquestion" />
+        <marker scope="Public" name="sucrose_things" />
+        <marker scope="Public" name="sucrose_thingsb" />
         <marker scope="Public" name="supernova_dimensiontraveler" />
         <marker scope="Public" name="supernova_otherworld" />
+        <marker scope="Public" name="takatoshi_currysoba" />
+        <marker scope="Public" name="takatoshi_currysobab" />
+        <marker scope="Public" name="takatoshi_yakisoba" />
+        <marker scope="Public" name="takatoshi_yakisobab" />
         <marker scope="Public" name="tomoko_" />
         <marker scope="Public" name="tomoko_detentionpic" />
         <marker scope="Public" name="tomoko_dicpic" />
@@ -1787,9 +1859,12 @@
         <marker scope="Public" name="treasurescope" />
         <marker scope="Public" name="trixie_dung" />
         <marker scope="Public" name="trixie_headpats" />
+        <marker scope="Public" name="trixie_pickup" />
         <marker scope="Public" name="turandot_changepuyo" />
         <marker scope="Public" name="turandot_coolnickname" />
+        <marker scope="Public" name="turandot_intimidating" />
         <marker scope="Public" name="turandot_spotsonwalls" />
+        <marker scope="Public" name="turandot_sterngaze" />
         <marker scope="Public" name="verylate1ststrip" />
         <marker scope="Public" name="wasp_antpoker" />
         <marker scope="Public" name="wasp_fishguys" />
@@ -1805,6 +1880,8 @@
         <marker scope="Public" name="yun_book1" />
         <marker scope="Public" name="yun_book2" />
         <marker scope="Public" name="yun_ribbonend" />
+        <marker scope="Public" name="yuno_cardgame" />
+        <marker scope="Public" name="yuno_cardgameb" />
         <marker scope="Public" name="yunyun_magic" />
         <marker scope="Public" name="yunyun_telemagic" />
     </markers>
