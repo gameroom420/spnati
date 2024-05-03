@@ -12,10 +12,25 @@ namespace KisekaeImporter.SubCodes
 		public int Shape
 		{
 			get { return GetInt(0); }
-			set
-			{
-				Set(0, value.ToString());
-			}
+			set	{ Set(0, value.ToString()); }
+		}
+
+		public int BangsHeight
+		{
+			get { return GetInt(1); }
+			set { Set(1, value.ToString()); }
+		}
+
+		public bool Reversal
+		{
+			get { return GetBool(2); }
+			set { Set(2, value); }
+		}
+
+		public int Depth
+		{
+			get { return GetInt(3); }
+			set { Set(3, value.ToString()); }
 		}
 
 		public void SetColors(KisekaeColor color1, KisekaeColor color2, KisekaeColor color3)

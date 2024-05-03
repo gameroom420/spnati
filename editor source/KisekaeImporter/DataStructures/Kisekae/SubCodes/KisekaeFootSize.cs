@@ -43,7 +43,7 @@
 		public int RightFootScaleX
 		{
 			get { return GetInt(6); }
-			set { Set(5, value.ToString()); }
+			set { Set(6, value.ToString()); }
 		}
 
 		public int RightFootScaleY

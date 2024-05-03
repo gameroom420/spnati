@@ -11,9 +11,9 @@
 			{
 				return;
 			}
-			Length = other.Length;
-			XScale = other.XScale;
-			YScale = other.YScale;
+			Height = other.Height;
+			Width = other.Width;
+			Y = other.Y;
 		}
 
 		public int Shape
@@ -29,7 +29,7 @@
 			Color3 = color3;
 		}
 
-		public int Length
+		public int Height
 		{
 			get { return GetInt(1); }
 			set { Set(1, value.ToString()); }
@@ -53,13 +53,13 @@
 			set { Set(4, value.ToString()); }
 		}
 
-		public int XScale
+		public int Width
 		{
 			get { return GetInt(5); }
 			set { Set(5, value.ToString()); }
 		}
 
-		public int YScale
+		public int Y
 		{
 			get { return GetInt(6); }
 			set { Set(6, value.ToString()); }

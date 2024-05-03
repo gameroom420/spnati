@@ -6,12 +6,11 @@
 		{
 			if (pose is KisekaeGlobalRibbon other)
 			{
-				ScaleX = other.ScaleX;
-				ScaleX = other.ScaleX;
+				Scale = other.Scale;
 				Rotation = other.Rotation;
 				X = other.X;
 				Y = other.Y;
-				Z = other.Z;
+				DepthZ = other.DepthZ;
 				ScaleB = other.ScaleB;
 				FineX = other.FineX;
 				FineY = other.FineY;
@@ -24,7 +23,7 @@
 			set { Set(0, value); }
 		}
 
-		public int MirrorX
+		public int Reversal
 		{
 			get { return GetInt(1); }
 			set { Set(1, value); }
@@ -54,19 +53,19 @@
 			set { Set(5, value); }
 		}
 
-		public int ScaleX
+		public int Scale
 		{
 			get { return GetInt(6); }
 			set { Set(6, value); }
 		}
 
-		public int Outline
+		public int Line
 		{
 			get { return GetInt(7); }
 			set { Set(7, value); }
 		}
 
-		public KisekaeColor OutlineColor
+		public KisekaeColor LineColor
 		{
 			get { return new KisekaeColor(GetString(8)); }
 			set { Set(8, value.ToString()); }
@@ -90,7 +89,7 @@
 			set { Set(11, value); }
 		}
 
-		public int Z
+		public int DepthZ
 		{
 			get { return GetInt(12); }
 			set { Set(12, value); }
@@ -108,7 +107,7 @@
 			set { Set(14, value); }
 		}
 
-		public bool Shaded
+		public bool Shadow
 		{
 			get { return GetBool(15); }
 			set { Set(15, value); }

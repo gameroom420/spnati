@@ -3,7 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using System.Windows.Forms;
 
 namespace KisekaeImporter
 {
@@ -97,6 +96,7 @@ namespace KisekaeImporter
 			}
 		}
 
+		
 		public KisekaeSubCode GetSubCode(string id, int index)
 		{
 			string prefix = id;
@@ -112,6 +112,7 @@ namespace KisekaeImporter
 			_subcodes.TryGetValue(prefix, out KisekaeSubCode code);
 			return code;
 		}
+		
 
 		protected T GetSubCode<T>(string prefix) where T : KisekaeSubCode
 		{

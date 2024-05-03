@@ -24,7 +24,7 @@ namespace KisekaeImporter.SubCodes
 			set { Set(2, value.ToString()); }
 		}
 
-		public int Height
+		public int Jump
 		{
 			get { return GetInt(3); }
 			set { Set(3, value.ToString()); }
@@ -34,6 +34,11 @@ namespace KisekaeImporter.SubCodes
 		{
 			get { return GetInt(4); }
 			set { Set(4, value.ToString()); }
+		}
+		public int BodyYMove
+		{
+			get { return GetInt(5); }
+			set { Set(5, value.ToString()); }
 		}
 
 		public void ShiftX(int offset)

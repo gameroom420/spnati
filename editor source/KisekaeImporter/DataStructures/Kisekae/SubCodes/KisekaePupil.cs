@@ -16,7 +16,7 @@
 			set { Set(1, value.ToString()); }
 		}
 
-		public int Rotation
+		public int LightRotation
 		{
 			get { return GetInt(2); }
 			set { Set(2, value.ToString()); }

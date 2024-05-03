@@ -4,11 +4,11 @@
 	{
 		public void CopyPositionFrom(KisekaeBelt belt)
 		{
-			ScaleX = belt.ScaleX;
+			Scale = belt.Scale;
 			ScaleY = belt.ScaleY;
 			Rotation = belt.Rotation;
-			OffsetX = belt.OffsetX;
-			OffsetY = belt.OffsetY;
+			X = belt.X;
+			Y = belt.Y;
 			Length = belt.Length;
 			Crop = belt.Crop;
 			RotationZ = belt.RotationZ;
@@ -24,13 +24,13 @@
 			CopyPositionFrom(other);
 		}
 
-		public int Side
+		public int Reversal2
 		{
 			get { return GetInt(4); }
 			set { Set(4, value.ToString()); }
 		}
 
-		public int ScaleX
+		public int Scale
 		{
 			get { return GetInt(5); }
 			set { Set(5, value.ToString()); }
@@ -42,16 +42,22 @@
 			set { Set(6, value.ToString()); }
 		}
 
-		public int OffsetX
+		public int X
 		{
 			get { return GetInt(7); }
 			set { Set(7, value.ToString()); }
 		}
 
-		public int OffsetY
+		public int Y
 		{
 			get { return GetInt(8); }
 			set { Set(8, value.ToString()); }
+		}
+
+		public int Depth
+		{
+			get { return GetInt(9); }
+			set { Set(9, value.ToString()); }
 		}
 
 		public int Length
@@ -88,6 +94,30 @@
 		{
 			get { return GetInt(15); }
 			set { Set(15, value.ToString()); }
+		}
+
+		public int ScaleB
+		{
+			get { return GetInt(16); }
+			set { Set(16, value.ToString()); }
+		}
+
+		public int Alpha
+		{
+			get { return GetInt(17); }
+			set { Set(17, value.ToString()); }
+		}
+
+		public int FineX
+		{
+			get { return GetInt(18); }
+			set { Set(18, value.ToString()); }
+		}
+
+		public int FineY
+		{
+			get { return GetInt(19); }
+			set { Set(19, value.ToString()); }
 		}
 	}
 }

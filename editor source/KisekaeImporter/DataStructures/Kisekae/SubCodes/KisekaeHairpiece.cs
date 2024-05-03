@@ -11,15 +11,15 @@
 		public void CopyPositioningFrom(KisekaeHairpiece other)
 		{
 			Rotation = other.Rotation;
-			Layer = other.Layer;
+			Depth = other.Depth;
 			X = other.X;
 			Y = other.Y;
-			Width = other.Width;
-			Height = other.Height;
+			ScaleX = other.ScaleX;
+			ScaleY = other.ScaleY;
 			Gravity = other.Gravity;
 			Line = other.Line;
 			RotationZ = other.RotationZ;
-			RotationPreScale = other.RotationPreScale;
+			RotationPlus = other.RotationPlus;
 			AttachPoint = other.AttachPoint;
 			Alpha = other.Alpha;
 			FineX = other.FineX;
@@ -71,19 +71,19 @@
 			set { Set(4, value.ToString()); }
 		}
 
-		public int Layer
+		public int Depth
 		{
 			get { return GetInt(5); }
 			set { Set(5, value.ToString()); }
 		}
 
-		public int Width
+		public int ScaleX
 		{
 			get { return GetInt(6); }
 			set { Set(6, value.ToString()); }
 		}
 
-		public int Height
+		public int ScaleY
 		{
 			get { return GetInt(7); }
 			set { Set(7, value.ToString()); }
@@ -131,7 +131,7 @@
 			set { Set(14, value); }
 		}
 
-		public int RotationPreScale
+		public int RotationPlus
 		{
 			get { return GetInt(15); }
 			set { Set(15, value); }

@@ -49,6 +49,7 @@
             this.pasteRowsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.skinnedSplitContainer1 = new Desktop.Skinning.SkinnedSplitContainer();
             this.cmdEditPipeline = new Desktop.Skinning.SkinnedIcon();
+            this.searchBar = new SPNATI_Character_Editor.Controls.CodeReplaceBar();
             this.cmdFolder = new Desktop.Skinning.SkinnedButton();
             this.skinnedLabel1 = new Desktop.Skinning.SkinnedLabel();
             this.tsSheet = new System.Windows.Forms.ToolStrip();
@@ -71,9 +72,9 @@
             this.tsRemoveRow = new System.Windows.Forms.ToolStripButton();
             this.tsCheckCell = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsRename = new System.Windows.Forms.ToolStripButton();
             this.tsLeft = new System.Windows.Forms.ToolStripButton();
             this.tsRight = new System.Windows.Forms.ToolStripButton();
-            this.tsRename = new System.Windows.Forms.ToolStripButton();
             this.sptMode = new System.Windows.Forms.SplitContainer();
             this.panelSingle = new System.Windows.Forms.Panel();
             this.cmdImportFull = new Desktop.Skinning.SkinnedIcon();
@@ -95,7 +96,8 @@
             this.cmdImportNew = new Desktop.Skinning.SkinnedButton();
             this.cmdImportSelected = new Desktop.Skinning.SkinnedButton();
             this.skinnedLabel2 = new Desktop.Skinning.SkinnedLabel();
-            this.searchBar = new SPNATI_Character_Editor.Controls.CodeReplaceBar();
+            this.cmdConvert = new Desktop.Skinning.SkinnedButton();
+            this.cboToKKLVersion = new Desktop.Skinning.SkinnedComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.grid)).BeginInit();
             this.gridMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.skinnedSplitContainer1)).BeginInit();
@@ -363,6 +365,18 @@
             this.cmdEditPipeline.UseVisualStyleBackColor = true;
             this.cmdEditPipeline.Click += new System.EventHandler(this.cmdEditPipeline_Click);
             // 
+            // searchBar
+            // 
+            this.searchBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.searchBar.Location = new System.Drawing.Point(0, 298);
+            this.searchBar.Margin = new System.Windows.Forms.Padding(0);
+            this.searchBar.Name = "searchBar";
+            this.searchBar.Size = new System.Drawing.Size(783, 23);
+            this.searchBar.TabIndex = 39;
+            this.searchBar.Close += new System.EventHandler(this.searchBar_Close);
+            this.searchBar.Enter += new System.EventHandler(this.searchBar_Enter);
+            // 
             // cmdFolder
             // 
             this.cmdFolder.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -598,6 +612,16 @@
             this.toolStripSeparator5.Name = "toolStripSeparator5";
             this.toolStripSeparator5.Size = new System.Drawing.Size(6, 25);
             // 
+            // tsRename
+            // 
+            this.tsRename.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsRename.Image = global::SPNATI_Character_Editor.Properties.Resources.Edit;
+            this.tsRename.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsRename.Name = "tsRename";
+            this.tsRename.Size = new System.Drawing.Size(23, 22);
+            this.tsRename.ToolTipText = "Rename Pose Sheet";
+            this.tsRename.Click += new System.EventHandler(this.tsRename_Click);
+            // 
             // tsLeft
             // 
             this.tsLeft.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -616,16 +640,6 @@
             this.tsRight.Name = "tsRight";
             this.tsRight.Size = new System.Drawing.Size(23, 22);
             this.tsRight.Click += new System.EventHandler(this.tsRight_Click);
-            // 
-            // tsRename
-            // 
-            this.tsRename.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsRename.Image = global::SPNATI_Character_Editor.Properties.Resources.Edit;
-            this.tsRename.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsRename.Name = "tsRename";
-            this.tsRename.Size = new System.Drawing.Size(23, 22);
-            this.tsRename.ToolTipText = "Rename Pose Sheet";
-            this.tsRename.Click += new System.EventHandler(this.tsRename_Click);
             // 
             // sptMode
             // 
@@ -935,22 +949,45 @@
             this.skinnedLabel2.TabIndex = 29;
             this.skinnedLabel2.Text = "Import:";
             // 
-            // searchBar
+            // cmdConvert
             // 
-            this.searchBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.searchBar.Location = new System.Drawing.Point(0, 298);
-            this.searchBar.Margin = new System.Windows.Forms.Padding(0);
-            this.searchBar.Name = "searchBar";
-            this.searchBar.Size = new System.Drawing.Size(783, 23);
-            this.searchBar.TabIndex = 39;
-            this.searchBar.Close += new System.EventHandler(this.searchBar_Close);
-            this.searchBar.Enter += new System.EventHandler(this.searchBar_Enter);
+            this.cmdConvert.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmdConvert.Background = Desktop.Skinning.SkinnedBackgroundType.Surface;
+            this.cmdConvert.FieldType = Desktop.Skinning.SkinnedFieldType.Primary;
+            this.cmdConvert.Flat = false;
+            this.cmdConvert.Location = new System.Drawing.Point(300, 2);
+            this.cmdConvert.Name = "cmdConvert";
+            this.cmdConvert.Size = new System.Drawing.Size(79, 23);
+            this.cmdConvert.TabIndex = 30;
+            this.cmdConvert.Text = "Convert";
+            this.cmdConvert.UseVisualStyleBackColor = true;
+            this.cmdConvert.Click += new System.EventHandler(this.cmdConvert_Click);
+            // 
+            // cboToKKLVersion
+            // 
+            this.cboToKKLVersion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.cboToKKLVersion.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.cboToKKLVersion.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.cboToKKLVersion.BackColor = System.Drawing.Color.White;
+            this.cboToKKLVersion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.Simple;
+            this.cboToKKLVersion.FieldType = Desktop.Skinning.SkinnedFieldType.Surface;
+            this.cboToKKLVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.cboToKKLVersion.KeyMember = null;
+            this.cboToKKLVersion.Location = new System.Drawing.Point(386, 2);
+            this.cboToKKLVersion.Name = "cboToKKLVersion";
+            this.cboToKKLVersion.SelectedIndex = -1;
+            this.cboToKKLVersion.SelectedItem = null;
+            this.cboToKKLVersion.Size = new System.Drawing.Size(100, 23);
+            this.cboToKKLVersion.Sorted = false;
+            this.cboToKKLVersion.TabIndex = 31;
+            this.cboToKKLVersion.Text = "KKLVersion";
             // 
             // PoseMatrixEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.cboToKKLVersion);
+            this.Controls.Add(this.cmdConvert);
             this.Controls.Add(this.cmdImportSelected);
             this.Controls.Add(this.cmdImportAll);
             this.Controls.Add(this.cmdImportNew);
@@ -1050,5 +1087,7 @@
         private System.Windows.Forms.ToolStripButton tsLeft;
         private System.Windows.Forms.ToolStripButton tsRight;
         private System.Windows.Forms.ToolStripButton tsRename;
+        private Desktop.Skinning.SkinnedButton cmdConvert;
+        private Desktop.Skinning.SkinnedComboBox cboToKKLVersion;
     }
 }

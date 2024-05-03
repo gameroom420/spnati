@@ -13,10 +13,10 @@
 			Rotation = other.Rotation;
 			X = other.X;
 			Y = other.Y;
-			Depth = other.Depth;
-			Hand = other.Hand;
-			HandRotation = other.HandRotation;
-			MuscleSize = other.MuscleSize;
+			DepthZ = other.DepthZ;
+			Wrist = other.Wrist;
+			WristRotation = other.WristRotation;
+			Width = other.Width;
 		}
 
 		public int Type
@@ -25,7 +25,7 @@
 			set { Set(0, value); }
 		}
 
-		public bool MirrorX
+		public bool Reversal
 		{
 			get { return GetBool(1); }
 			set { Set(1, value); }
@@ -37,64 +37,76 @@
 			set { Set(2, value.ToString()); }
 		}
 
-		public int UnknownSlot
+		public int Depth
 		{
-			get { return 9; }
-			set { Set(3, value); }
+			get { return GetInt(3); }
+			set { Set(3, value.ToString()); }
 		}
 
-		public int Opacity
+		public int Alpha
 		{
 			get { return GetInt(4); }
-			set { Set(4, value); }
+			set { Set(4, value.ToString()); }
 		}
 
 		public int Scale
 		{
 			get { return GetInt(5); }
-			set { Set(5, value); }
+			set { Set(5, value.ToString()); }
 		}
 
 		public int Rotation
 		{
 			get { return GetInt(6); }
-			set { Set(6, value); }
+			set { Set(6, value.ToString()); }
 		}
 
 		public int X
 		{
 			get { return GetInt(7); }
-			set { Set(7, value); }
+			set { Set(7, value.ToString()); }
 		}
 
 		public int Y
 		{
 			get { return GetInt(8); }
-			set { Set(8, value); }
+			set { Set(8, value.ToString()); }
 		}
 
-		public int Depth
+		public int DepthZ
 		{
 			get { return GetInt(9); }
-			set { Set(9, value); }
+			set { Set(9, value.ToString()); }
 		}
 
-		public int Hand
+		public int Wrist
 		{
 			get { return GetInt(10); }
-			set { Set(10, value); }
+			set { Set(10, value.ToString()); }
 		}
 
-		public int HandRotation
+		public int WristRotation
 		{
 			get { return GetInt(11); }
-			set { Set(11, value); }
+			set { Set(11, value.ToString()); }
 		}
 
-		public int MuscleSize
+		public int Width
 		{
 			get { return GetInt(12); }
 			set { Set(12, value); }
+		}
+
+		public int FineX
+		{
+			get { return GetInt(13); }
+			set { Set(13, value); }
+		}
+
+		public int FineY
+		{
+			get { return GetInt(14); }
+			set { Set(14, value); }
 		}
 
 		public void ShiftX(int offset)

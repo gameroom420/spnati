@@ -9,18 +9,18 @@
 			{
 				return;
 			}
-			ScaleX = other.ScaleX;
+			Scale = other.Scale;
 			ScaleY = other.ScaleY;
-			ArrowScaleX = other.ArrowScaleX;
-			ArrowScaleY = other.ArrowScaleY;
+			ExtraArrowScale = other.ExtraArrowScale;
+			ExtraArrowScaleY = other.ExtraArrowScaleY;
 			Rotation = other.Rotation;
 			X = other.X;
 			Y = other.Y;
-			Depth = other.Depth;
-			Skew = other.Skew;
-			ArrowX = other.ArrowX;
-			ArrowY = other.ArrowY;
-			ArrowRotation = other.ArrowRotation;
+			DepthZ = other.DepthZ;
+			ScaleB = other.ScaleB;
+			ExtraArrowX = other.ExtraArrowX;
+			ExtraArrowY = other.ExtraArrowY;
+			ExtraArrowRotation = other.ExtraArrowRotation;
 		}
 
 		public int Type
@@ -29,7 +29,7 @@
 			set { Set(0, value); }
 		}
 
-		public int MirrorX
+		public int Reversal
 		{
 			get { return GetInt(1); }
 			set { Set(1, value); }
@@ -53,7 +53,13 @@
 			set { Set(4, value.ToString()); }
 		}
 
-		public int ScaleX
+		public int Depth
+		{
+			get { return GetInt(5); }
+			set { Set(5, value); }
+		}
+
+		public int Scale
 		{
 			get { return GetInt(6); }
 			set { Set(6, value); }
@@ -65,13 +71,13 @@
 			set { Set(7, value); }
 		}
 
-		public int Outline
+		public int Line
 		{
 			get { return GetInt(8); }
 			set { Set(8, value); }
 		}
 
-		public KisekaeColor OutlineColor
+		public KisekaeColor LineColor
 		{
 			get { return new KisekaeColor(GetString(9)); }
 			set { Set(9, value.ToString()); }
@@ -95,79 +101,79 @@
 			set { Set(12, value); }
 		}
 
-		public int Depth
+		public int DepthZ
 		{
 			get { return GetInt(13); }
 			set { Set(13, value); }
 		}
 
-		public int Opacity
+		public int Alpha
 		{
 			get { return GetInt(14); }
 			set { Set(14, value); }
 		}
 
-		public int BlendMode
+		public int Blend
 		{
 			get { return GetInt(15); }
 			set { Set(15, value); }
 		}
 
-		public int Skew
+		public int ScaleB
 		{
 			get { return GetInt(16); }
 			set { Set(16, value); }
 		}
 
-		public bool ArrowVisible
+		public bool ExtraArrowVisible
 		{
 			get { return GetBool(17); }
 			set { Set(17, value); }
 		}
 
-		public int ArrowType
+		public int ExtraArrowType
 		{
 			get { return GetInt(18); }
 			set { Set(18, value); }
 		}
 
-		public int ArrowSide
+		public int ExtraArrowSideReversal
 		{
 			get { return GetInt(19); }
 			set { Set(19, value); }
 		}
 
-		public int ArrowOutline
+		public int ExtraArrowLine
 		{
 			get { return GetInt(20); }
 			set { Set(20, value); }
 		}
 
-		public int ArrowScaleX
+		public int ExtraArrowScale
 		{
 			get { return GetInt(21); }
 			set { Set(21, value); }
 		}
 
-		public int ArrowScaleY
+		public int ExtraArrowScaleY
 		{
 			get { return GetInt(22); }
 			set { Set(22, value); }
 		}
 
-		public int ArrowRotation
+		public int ExtraArrowRotation
 		{
 			get { return GetInt(23); }
 			set { Set(23, value); }
 		}
 
-		public int ArrowX
+		public int ExtraArrowX
 		{
 			get { return GetInt(24); }
 			set { Set(24, value); }
 		}
 
-		public int ArrowY
+		public int ExtraArrowY
 		{
 			get { return GetInt(25); }
 			set { Set(25, value); }
