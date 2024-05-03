@@ -172,7 +172,6 @@
                     <text>&lt;i&gt;Ha!&lt;/i&gt; Scared of me already, that's what I like to see! I'll spare your jaw -- &lt;i&gt;for now&lt;/i&gt;.</text>
                     <operations>
                         <nickname character="critical_darling" op="+" name="Icebreath" weight="0" />
-                        <nickname op="=" name="" weight="0" />
                     </operations>
                 </state>
             </case>
