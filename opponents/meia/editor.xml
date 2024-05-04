@@ -994,10 +994,13 @@
         <label id="1860" label="" color="4" folder="" sort="0" />
         <label id="1861" label="" color="4" folder="" sort="0" />
         <label id="1862" label="" color="4" folder="" sort="0" />
+        <label id="1863" label="" color="7" folder="" sort="0" />
+        <label id="1864" label="" color="5" folder="" sort="0" />
+        <label id="1865" label="" color="5" folder="" sort="0" />
+        <label id="1866" label="" color="5" folder="" sort="0" />
     </labels>
-    <nextId>1862</nextId>
+    <nextId>1866</nextId>
     <markers>
-        <marker scope="Public" name="" />
         <marker scope="Public" name="2butt">Meia shows off her butt while still in her bodysuit (or Cupid outfit).</marker>
         <marker scope="Public" name="9s0" />
         <marker scope="Public" name="9s1" />
@@ -2147,7 +2150,10 @@
         <marker scope="Public" name="jolyne_resp12" />
         <marker scope="Public" name="jura_babies" />
         <marker scope="Public" name="jura_babies2" />
-        <marker scope="Public" name="jura_birthday">Meia begrudgingly announces that August 31st is Jura's birthday, at Jura's behest.</marker>
+        <marker scope="Public" name="jura_birthday" />
+        <marker scope="Public" name="jura_cb0" />
+        <marker scope="Public" name="jura_cb01" />
+        <marker scope="Public" name="jura_cb1s" />
         <marker scope="Public" name="jura_comparison">Meia claims that a character's breasts are probably smaller than Jura's.</marker>
         <marker scope="Public" name="jura_erufuda0" />
         <marker scope="Public" name="jura_erufuda2" />

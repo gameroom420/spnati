@@ -16,6 +16,13 @@
         <unlock>Guide Jura's table through some Growing Pains.</unlock>
         <hide-details>true</hide-details>
     </collectible>
+    <collectible id="bregcard" status="online" img="opponents/jura/bpilotID.png" thumbnail="opponents/jura/bregcard.png">
+        <title>Pilot ID (Barnette)</title>
+        <subtitle>For scanning, and fulfilling, delivery orders through the Regisystem.</subtitle>
+        <text>バーネット・オランジェロ&lt;br&gt;Barnette Orangello&lt;br&gt;Rank: Pilot/Regisystem Manager&lt;br&gt;Age: 19&lt;br&gt;Blood Type: A&lt;br&gt;Birthday: October 4th&lt;br&gt;Height: 163 cm&lt;br&gt;Weight: 49 kg&lt;br&gt;B-W-H: 87-58-89 cm&lt;br&gt;Voice: Michiko Neya&lt;br&gt;&lt;br&gt;Pilots a standard pink Dread. Unlike Meia and Jura, her Dread was not transformed by the Paksis Pragma, and thus cannot combine with a Vanguard.  Prefers aggressive bombardment loadouts and even tried to order a kamikaze set on one occasion.  Now serves as Chief and Weapons Shop Owner of the Regisystem, managing orders, munitions, and security.</text>
+        <unlock>Give Barnette a promotion.</unlock>
+        <hide-details>true</hide-details>
+    </collectible>
     <collectible id="photo" status="online" img="opponents/jura/photo.png" thumbnail="opponents/jura/photofinish.png">
         <title>Photo Finish</title>
         <subtitle>Elegance transcends dimensions.</subtitle>
