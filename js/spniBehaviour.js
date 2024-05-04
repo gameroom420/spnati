@@ -1717,7 +1717,7 @@ function expandDialogue (dialogue, self, target, bindings) {
             case 'blank':
                 return '';
             case 'monikaglitches':
-                return monika.EFFECTS_ENABLED;	
+                return (typeof(monika) != 'undefined') && monika.EFFECTS_ENABLED;	
             case 'rng':
                 if (fn !== undefined) break;
                 var range = new Interval(args);
