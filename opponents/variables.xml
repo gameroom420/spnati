@@ -152,5 +152,6 @@
     </function>
     <function name="back" description="If all cards have the same back, display its ID. The back's ID is slightly different from the rest of the deck." example="pixel.1" />
   </variable>
-  <variable name="blank" description="Displays nothing. Use this to indicate an intentionally blank line." global="true" />
+  <variable name="monikaGlitches" description="Returns True if Monika's glitches are enabled. Only valid while Monika is present in a game." global="true"/>
+  <variable name="blank" description="Displays nothing. Use this to indicate an intentionally blank line." global="true" example="true" />
 </variables>
