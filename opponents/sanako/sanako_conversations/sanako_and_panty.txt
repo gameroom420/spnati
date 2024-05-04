@@ -1,0 +1,267 @@
+If Sanako to left and Panty to right:
+
+SANAKO MUST STRIP SHOES AND SOCKS:
+Sanako []*: ??
+Panty []*: ??
+
+SANAKO STRIPPING SHOES AND SOCKS:
+Sanako []*: ??
+Panty []*: ??
+
+SANAKO STRIPPED SHOES AND SOCKS:
+Sanako []*: ??
+Panty []*: ??
+
+
+SANAKO MUST STRIP SHIRT:
+Sanako []*: ??
+Panty []*: ??
+
+SANAKO STRIPPING SHIRT:
+Sanako []*: ??
+Panty []*: ??
+
+SANAKO STRIPPED SHIRT:
+Sanako []*: ??
+Panty []*: ??
+
+
+SANAKO MUST STRIP SKIRT:
+Sanako []*: ??
+Panty []*: ??
+
+SANAKO STRIPPING SKIRT:
+Sanako []*: ??
+Panty []*: ??
+
+SANAKO STRIPPED SKIRT:
+Sanako []*: ??
+Panty []*: ??
+
+
+SANAKO MUST STRIP BRA:
+Sanako []*: ??
+Panty []*: ??
+
+SANAKO STRIPPING BRA:
+Sanako []*: ??
+Panty []*: ??
+
+SANAKO STRIPPED BRA:
+Sanako []*: ??
+Panty []*: ??
+
+
+SANAKO MUST STRIP PANTIES:
+Sanako []*: ??
+Panty []*: ??
+
+SANAKO STRIPPING PANTIES:
+Sanako []*: ??
+Panty []*: ??
+
+SANAKO STRIPPED PANTIES:
+Sanako []*: ??
+Panty []*: ??
+
+---
+
+PANTY MUST STRIP DRESS:
+Sanako [sanako_panty_sp_p1]: Aw, bad luck, Panty. Although it looks like you came prepared! Those are some snazzy bracelets you have there.
+Panty [panty_sanako_sp_p1]*: You know it, babe! It'd be a fuckin' crime to give up these bad boys. Better if I give you some bad <i>girls</i> to keep 'em company!
+
+PANTY STRIPPING DRESS:
+Sanako [sanako_panty_sp_p2]: Oh! I see… You're quite the forward woman...
+Panty [panty_sanako_sp_p2]*: Forward, backward, cowgirl, reverse cowgirl: don't think there’s a position I'm not up for!
+
+PANTY STRIPPED DRESS:
+Sanako [sanako_panty_sp_p3]: Well, I suppose part of the fun is being exposed to all walks of life...
+Panty [panty_sanako_sp_p2]*: A <i>higher</i> lifeform, you mean. This is <i>angel</i> exposure!
+
+
+PANTY MUST STRIP ACCESSORIES:
+Sanako []*: ??
+Panty []*: ??
+
+PANTY STRIPPING ACCESSORIES:
+Sanako []*: ??
+Panty []*: ??
+
+PANTY STRIPPED ACCESSORIES:
+Sanako []*: ??
+Panty []*: ??
+
+
+PANTY MUST STRIP NECKLACE:
+Sanako []*: ??
+Panty []*: ??
+
+PANTY STRIPPING NECKLACE:
+Sanako []*: ??
+Panty []*: ??
+
+PANTY STRIPPED NECKLACE:
+Sanako []*: ??
+Panty []*: ??
+
+
+PANTY MUST STRIP SHOES:
+Sanako []*: ??
+Panty []*: ??
+
+PANTY STRIPPING SHOES:
+Sanako []*: ??
+Panty []*: ??
+
+PANTY STRIPPED SHOES:
+Sanako []*: ??
+Panty []*: ??
+
+
+PANTY MUST STRIP PANTIES:
+Sanako []*: ??
+Panty []*: ??
+
+PANTY STRIPPING PANTIES:
+Sanako []*: ??
+Panty []*: ??
+
+PANTY STRIPPED PANTIES:
+Sanako []*: ??
+Panty []*: ??
+
+---
+DUE TO POSITION DETECTION, CONVERSATIONS ABOVE AND BELOW THIS LINE WON'T PLAY IN THE SAME GAME.
+---
+
+If Panty to left and Sanako to right:
+
+SANAKO MUST STRIP SHOES AND SOCKS:
+Panty []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING SHOES AND SOCKS:
+Panty []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED SHOES AND SOCKS:
+Panty []*: ??
+Sanako []*: ??
+
+
+SANAKO MUST STRIP SHIRT:
+Panty []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING SHIRT:
+Panty []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED SHIRT:
+Panty []*: ??
+Sanako []*: ??
+
+
+SANAKO MUST STRIP SKIRT:
+Panty []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING SKIRT:
+Panty []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED SKIRT:
+Panty []*: ??
+Sanako []*: ??
+
+
+SANAKO MUST STRIP BRA:
+Panty []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING BRA:
+Panty []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED BRA:
+Panty []*: ??
+Sanako []*: ??
+
+
+SANAKO MUST STRIP PANTIES:
+Panty []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING PANTIES:
+Panty []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED PANTIES:
+Panty []*: ??
+Sanako []*: ??
+
+---
+
+PANTY MUST STRIP DRESS:
+Panty []*: ??
+Sanako []*: ??
+
+PANTY STRIPPING DRESS:
+Panty []*: ??
+Sanako []*: ??
+
+PANTY STRIPPED DRESS:
+Panty []*: ??
+Sanako []*: ??
+
+
+PANTY MUST STRIP ACCESSORIES:
+Panty []*: ??
+Sanako []*: ??
+
+PANTY STRIPPING ACCESSORIES:
+Panty []*: ??
+Sanako []*: ??
+
+PANTY STRIPPED ACCESSORIES:
+Panty []*: ??
+Sanako []*: ??
+
+
+PANTY MUST STRIP NECKLACE:
+Panty []*: ??
+Sanako []*: ??
+
+PANTY STRIPPING NECKLACE:
+Panty []*: ??
+Sanako []*: ??
+
+PANTY STRIPPED NECKLACE:
+Panty []*: ??
+Sanako []*: ??
+
+
+PANTY MUST STRIP SHOES:
+Panty []*: ??
+Sanako []*: ??
+
+PANTY STRIPPING SHOES:
+Panty []*: ??
+Sanako []*: ??
+
+PANTY STRIPPED SHOES:
+Panty []*: ??
+Sanako []*: ??
+
+
+PANTY MUST STRIP PANTIES:
+Panty []*: ??
+Sanako []*: ??
+
+PANTY STRIPPING PANTIES:
+Panty []*: ??
+Sanako []*: ??
+
+PANTY STRIPPED PANTIES:
+Panty []*: ??
+Sanako []*: ??

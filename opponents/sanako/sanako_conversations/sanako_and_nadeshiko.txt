@@ -80,7 +80,7 @@ Nadeshiko []*: ??
 
 
 NADESHIKO MUST STRIP SCARF:
-Sanako []*: ??
+Sanako [sanako_nadeshiko_sn_n4]: So what brings a young lady like you out to a game like this, Nadeshiko? Looking to catch the eye of a ~player.ifMale(cute boy|cutie)?
 Nadeshiko []*: ??
 
 NADESHIKO STRIPPING SCARF:
@@ -132,7 +132,7 @@ Nadeshiko []*: ??
 
 
 NADESHIKO MUST STRIP LEGGINGS:
-Sanako []*: ??
+Sanako [sanako_nadeshiko_sn_n16]: Nadeshiko, time to get a bit closer to nature! I hope that's okay.
 Nadeshiko []*: ??
 
 NADESHIKO STRIPPING LEGGINGS:
