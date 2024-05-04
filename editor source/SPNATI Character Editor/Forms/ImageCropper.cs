@@ -28,14 +28,14 @@ namespace SPNATI_Character_Editor.Forms
 			_centerPen = new Pen(Color.DarkGray, 1);
 			_centerPen.DashStyle = System.Drawing.Drawing2D.DashStyle.Custom;
 			_centerPen.DashPattern = new float[] { 10, 10 };
-			if (Config.ConfigPath == "CEFolder")
-			{
-				_importer = new ImageImporter(false, Config.ConfigDirectory);
-			}
-			else
-			{
+			//if (Config.ConfigPath == "CEFolder")
+			//{
+			//	_importer = new ImageImporter(false, Config.ConfigDirectory);
+			//}
+			//else
+			//{
 				_importer = new ImageImporter(false);
-			}
+			//}
 		}
 
 		public Image CroppedImage { get; private set; }
@@ -45,8 +45,8 @@ namespace SPNATI_Character_Editor.Forms
 			get
 			{
 				Rect rect = _cropBounds.ToRect(ZoomRatio);
-				rect.Left = rect.Left - ImageImporter.ImageXOffset;
-				rect.Right = rect.Right - ImageImporter.ImageXOffset;
+				rect.Left -= ImageImporter.ImageXOffset;
+				rect.Right -= ImageImporter.ImageXOffset;
 				return rect;
 			}
 		}
@@ -85,7 +85,7 @@ namespace SPNATI_Character_Editor.Forms
 			float zoom = ZoomRatio;
 			Rect cropBounds = metadata.CropInfo;
 			_cropBounds = cropBounds.ToRectangle(zoom);
-			_cropBounds.X = _cropBounds.X + ImageImporter.ImageXOffset * zoom;
+			_cropBounds.X += ImageImporter.ImageXOffset * zoom;
 			_extraData = metadata.ExtraData;
 			UpdateRectBoxes();
 			_previewImage = null;
@@ -105,7 +105,7 @@ namespace SPNATI_Character_Editor.Forms
 				FailedImport import = new FailedImport();
 				import.ShowDialog();
 				DialogResult = DialogResult.Cancel;
-				this.Close();
+				Close();
 			}
 
 			if (code.TotalAssets > 1)
@@ -385,7 +385,7 @@ namespace SPNATI_Character_Editor.Forms
 			if (_cropBounds == new RectangleF(0, 0, 10, 10))
 			{
 				_cropBounds = new Rect(0, 0, 600, 1400).ToRectangle(ZoomRatio);
-				_cropBounds.X = _cropBounds.X + ImageImporter.ImageXOffset * ZoomRatio;
+				_cropBounds.X += ImageImporter.ImageXOffset * ZoomRatio;
 				UpdateRectBoxes();
 			}
 			_previewImage?.Dispose();
@@ -408,7 +408,7 @@ namespace SPNATI_Character_Editor.Forms
 			Rect rect = new Rect((int)valLeft.Value, (int)valTop.Value, (int)valRight.Value, (int)valBottom.Value);
 			float zoom = ZoomRatio;
 			_cropBounds = rect.ToRectangle(zoom);
-			_cropBounds.X = _cropBounds.X + ImageImporter.ImageXOffset * zoom;
+			_cropBounds.X += ImageImporter.ImageXOffset * zoom;
 			previewPanel.Invalidate();
 		}
 

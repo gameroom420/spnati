@@ -1,10 +1,10 @@
 ﻿namespace KisekaeImporter.SubCodes
 {
-	public class KisekaeGlobalDecoration : KisekaeSubCode, IPoseable, IMoveable
+	public class KisekaeGlobalChair : KisekaeSubCode, IPoseable, IMoveable
 	{
 		public void Pose(IPoseable pose)
 		{
-			KisekaeGlobalDecoration other = pose as KisekaeGlobalDecoration;
+			KisekaeGlobalChair other = pose as KisekaeGlobalChair;
 			if (other == null)
 			{
 				return;

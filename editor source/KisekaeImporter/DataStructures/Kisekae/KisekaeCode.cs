@@ -1052,7 +1052,7 @@ namespace KisekaeImporter
 
 						for (int j = 0; j < 99; j++)
 						{
-							KisekaeGlobalDecoration globalChair = (KisekaeGlobalDecoration)globalParts.GetSubCode("e", j);
+							KisekaeGlobalChair globalChair = (KisekaeGlobalChair)globalParts.GetSubCode("e", j);
 							if (globalChair != null)
 							{
 								globalChair.FineX = 50;
@@ -1135,7 +1135,7 @@ namespace KisekaeImporter
 
 						for (int j = 0; j < 99; j++)
 						{
-							KisekaeGlobalDecoration globalChair = (KisekaeGlobalDecoration)globalParts.GetSubCode("e", j);
+							KisekaeGlobalChair globalChair = (KisekaeGlobalChair)globalParts.GetSubCode("e", j);
 							if (globalChair != null)
 							{
 								globalChair.Rotation *= 10;
@@ -1616,7 +1616,7 @@ namespace KisekaeImporter
 
 						for (int j = 0; j < 99; j++)
 						{
-							KisekaeGlobalDecoration globalChair = (KisekaeGlobalDecoration)globalParts.GetSubCode("e", j);
+							KisekaeGlobalChair globalChair = (KisekaeGlobalChair)globalParts.GetSubCode("e", j);
 							if (globalChair != null)
 							{
 								globalChair.Rotation /= 10;

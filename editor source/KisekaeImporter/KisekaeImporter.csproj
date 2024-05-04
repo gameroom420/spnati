@@ -88,7 +88,7 @@
     <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeBalls.cs" />
     <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeGlobalSpeech.cs" />
     <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeGlobalFlag.cs" />
-    <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeGlobalDecoration.cs" />
+    <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeGlobalChair.cs" />
     <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeGlobalBelt.cs" />
     <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeBelt.cs" />
     <Compile Include="DataStructures\Kisekae\SubCodes\KisekaeBlink.cs" />

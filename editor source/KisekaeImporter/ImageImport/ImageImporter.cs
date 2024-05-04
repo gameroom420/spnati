@@ -37,12 +37,12 @@ namespace KisekaeImporter.ImageImport
 		/// </summary>
 		private const int RetryLimit = RetryTimeLimit / RetryInterval;
 
-		private string _path;
+//		private string _path;
 
 		/// <summary>
 		/// appdata folder for kkl.exe
 		/// </summary>
-		private string KklAppData
+		/*private string KklAppData
 		{
 			get
 			{
@@ -57,8 +57,10 @@ namespace KisekaeImporter.ImageImport
 				}
 				return directory;
 			}
-		}
+		}*/
+		private string KklAppData = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "kkl", "Local Store");
 
+		/*
 		private string SetupFileName
 		{
 			get { return Path.Combine(KklAppData, "scene_setup_file.txt"); }
@@ -68,6 +70,7 @@ namespace KisekaeImporter.ImageImport
 		{
 			get { return Path.Combine(KklAppData, "scene_setup_file..png"); }
 		}
+		*/
 
 		private string GetSetupString(string rawData)
 		{
@@ -95,9 +98,10 @@ namespace KisekaeImporter.ImageImport
 
 		private Client _client;
 
-		public ImageImporter(bool allowRemoteControl, string path = "")
+		//public ImageImporter(bool allowRemoteControl, string path = "")
+		public ImageImporter(bool allowRemoteControl)
 		{
-			_path = path;
+			//_path = path;
 			_client = new Client();
 			if (allowRemoteControl)
 			{
@@ -120,6 +124,7 @@ namespace KisekaeImporter.ImageImport
 			return ImportCode("54**", extraData); //import an empty scene so that nothing changes but we get a file outputted
 		}
 
+		/*
 		private void SetupForImport()
 		{
 			try
@@ -131,12 +136,13 @@ namespace KisekaeImporter.ImageImport
 
 			}
 		}
+		*/
 
 		private Image Import(ImageMetadata image)
 		{
 			const string DefaultVersion = "68**";
 
-			string baseFile = Path.Combine(KklAppData, image.ImageKey);
+			//string baseFile = Path.Combine(KklAppData, image.ImageKey);
 
 			string data = image.Data;
 			if (!string.IsNullOrEmpty(data))

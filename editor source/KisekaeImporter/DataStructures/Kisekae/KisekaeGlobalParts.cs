@@ -6,7 +6,7 @@ namespace KisekaeImporter
 	[KisekaeSubCodeList("b", typeof(KisekaeClothes))]
 	[KisekaeSubCodeList("c", typeof(KisekaeClothes))]
 	[KisekaeSubCodeList("d", typeof(KisekaeClothes))]
-	[KisekaeSubCodeList("e", typeof(KisekaeGlobalDecoration))]
+	[KisekaeSubCodeList("e", typeof(KisekaeGlobalChair))]
 	[KisekaeSubCodeList("w", typeof(KisekaeGlobalRibbon))]
 	[KisekaeSubCodeList("x", typeof(KisekaeGlobalBelt))]
 	[KisekaeSubCodeList("y", typeof(KisekaeGlobalFlag))]
@@ -48,9 +48,9 @@ namespace KisekaeImporter
 			return GetSubCode<KisekaeGlobalBelt>("x" + index.ToString("00"));
 		}
 
-		public KisekaeGlobalDecoration GetDecoration(int index)
+		public KisekaeGlobalChair GetChair(int index)
 		{
-			return GetSubCode<KisekaeGlobalDecoration>("e" + index.ToString("00"));
+			return GetSubCode<KisekaeGlobalChair>("e" + index.ToString("00"));
 		}
 
 		public KisekaeGlobalFlag GetFlag(int index)

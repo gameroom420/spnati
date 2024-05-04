@@ -116,7 +116,7 @@
 
 		public void ShiftX(int offset)
 		{
-			OffsetX += offset;
+			X += offset;
 		}
 	}
 }
