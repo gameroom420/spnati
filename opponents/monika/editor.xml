@@ -235,19 +235,19 @@ and I'll do it again</note>
         <label id="1182" label="spnanon" folder="Player Name" sort="3" />
         <label id="1183" label="Sonamy" folder="Player Name" sort="4" />
         <label id="1185" label="" color="1" folder="Marker Tricks" sort="2" />
-        <label id="1186" label="" color="0" folder="Marker Tricks" sort="4" />
+        <label id="1186" label="" folder="Marker Tricks" sort="4" />
         <label id="1187" label="" folder="Marker Tricks" sort="6" />
-        <label id="1188" label="" color="0" folder="Marker Tricks" sort="8" />
-        <label id="1189" label="" color="0" folder="Marker Tricks" sort="10" />
-        <label id="1190" label="" color="0" folder="Marker Tricks" sort="12" />
+        <label id="1188" label="" folder="Marker Tricks" sort="8" />
+        <label id="1189" label="" folder="Marker Tricks" sort="10" />
+        <label id="1190" label="" folder="Marker Tricks" sort="12" />
         <label id="1191" label="" color="0" folder="Marker Tricks" sort="14" />
         <label id="1192" label="" color="0" folder="Marker Tricks" sort="16" />
         <label id="1193" label="" color="1" folder="Marker Tricks" sort="18" />
-        <label id="1194" label="" color="0" folder="Marker Tricks" sort="20" />
+        <label id="1194" label="" folder="Marker Tricks" sort="20" />
         <label id="1195" label="" folder="Marker Tricks" sort="22" />
         <label id="1196" label="" color="0" folder="Marker Tricks" sort="24" />
         <label id="1197" label="" color="0" folder="Marker Tricks" sort="26" />
-        <label id="1198" label="" color="0" folder="Marker Tricks" sort="28" />
+        <label id="1198" label="" folder="Marker Tricks" sort="28" />
         <label id="1199" label="" color="1" folder="Marker Tricks" sort="15" />
         <label id="1200" label="" color="1" folder="Marker Tricks" sort="17" />
         <label id="1201" label="" color="1" folder="Marker Tricks" sort="14" />
@@ -431,18 +431,22 @@ and I'll do it again</note>
         <label id="1572" label="" color="4" folder="" sort="0" />
         <label id="1573" label="" color="4" folder="" sort="0" />
         <label id="1574" label="" color="4" folder="" sort="0" />
-        <label id="1576" label="" color="4" folder="" sort="0" />
-        <label id="1577" label="" color="4" folder="" sort="0" />
+        <label id="1585" label="" color="4" folder="" sort="0" />
         <label id="1578" label="" color="4" folder="" sort="0" />
         <label id="1579" label="" color="4" folder="" sort="0" />
+        <label id="1580" label="Old" folder="" sort="0" />
+        <label id="1581" label="Old" folder="" sort="0" />
+        <label id="1582" label="Flashing if human loses 5+ times" color="2" folder="" sort="0" />
+        <label id="1583" label="" color="4" folder="" sort="0" />
+        <label id="1584" label="" color="4" folder="" sort="0" />
+        <label id="1586" label="Custom Javascript" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>blazer</prefix>
         <prefix>poem-1</prefix>
     </prefixes>
-    <nextId>1579</nextId>
+    <nextId>1586</nextId>
     <markers>
-        <marker scope="Public" name="" />
         <marker scope="Public" name="3_musician_table_reaction" />
         <marker scope="Public" name="4_musician_table_reaction" />
         <marker scope="Public" name="9s_hack1" />
@@ -655,7 +659,6 @@ and I'll do it again</note>
         <marker scope="Public" name="fina_resp_blazer1" />
         <marker scope="Public" name="fina_resp_continue2" />
         <marker scope="Public" name="fina_resp_continue3" />
-        <marker scope="Public" name="fina_resp_continue3=alone" />
         <marker scope="Public" name="fina_resp_ContinueAware1" />
         <marker scope="Public" name="fina_resp_ContinueAware2" />
         <marker scope="Public" name="fina_resp_ContinueIgnorant1" />
@@ -900,7 +903,9 @@ and I'll do it again</note>
         <marker scope="Public" name="mari_studyField2" />
         <marker scope="Public" name="maria_resp_playerCozy" />
         <marker scope="Public" name="maria_resp_playerCozy2" />
+        <marker scope="Public" name="maria_resp_playerCozy3" />
         <marker scope="Public" name="maria_sadismJoke" />
+        <marker scope="Public" name="maria_sadismJoke2" />
         <marker scope="Public" name="meia_01" />
         <marker scope="Public" name="meia_2" />
         <marker scope="Public" name="meia_23" />
@@ -1017,6 +1022,7 @@ and I'll do it again</note>
         <marker scope="Public" name="mitama_shrineLife3" />
         <marker scope="Public" name="monika_chubbyTable" />
         <marker scope="Public" name="monika_fantasy_forfeit" />
+        <marker scope="Public" name="monika_flashingLower" />
         <marker scope="Public" name="monika_MasturbatingTime" />
         <marker scope="Public" name="monika_rin_offered_help" />
         <marker scope="Public" name="monika_school_uniform_filter1" />
