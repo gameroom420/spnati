@@ -2237,7 +2237,7 @@ namespace SPNATI_Character_Editor.Activities
 			}
 
 			if (unsupportedVersion)
-				MessageBox.Show("At least one of the codes was too old (older than " + oldKKLVersion +") or was not a correct Kisekae code.", "KKL Code Conversion", MessageBoxButtons.OK);
+				MessageBox.Show("At least one of the codes was too old (older than " + oldKKLVersion +") or an entry was not a correct Kisekae code.", "KKL Code Conversion", MessageBoxButtons.OK);
 
 			if (futureVersion)
 				MessageBox.Show("At least one of the codes was newer than the latest supported version (" + newestKKLVersion + "). Restore poses.xml from backup if import to KKL fails.", "KKL Code Conversion", MessageBoxButtons.OK);

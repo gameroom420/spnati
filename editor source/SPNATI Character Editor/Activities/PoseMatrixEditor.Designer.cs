@@ -48,10 +48,13 @@
             this.copyRowsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pasteRowsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.skinnedSplitContainer1 = new Desktop.Skinning.SkinnedSplitContainer();
+            this.lblTo = new Desktop.Skinning.SkinnedLabel();
+            this.iconAltDrag = new Desktop.Skinning.SkinnedIcon();
             this.cmdEditPipeline = new Desktop.Skinning.SkinnedIcon();
+            this.cmdConvert = new Desktop.Skinning.SkinnedButton();
+            this.cboToKKLVersion = new Desktop.Skinning.SkinnedComboBox();
             this.searchBar = new SPNATI_Character_Editor.Controls.CodeReplaceBar();
             this.cmdFolder = new Desktop.Skinning.SkinnedButton();
-            this.skinnedLabel1 = new Desktop.Skinning.SkinnedLabel();
             this.tsSheet = new System.Windows.Forms.ToolStrip();
             this.tsAddPose = new System.Windows.Forms.ToolStripButton();
             this.tsRemovePose = new System.Windows.Forms.ToolStripButton();
@@ -96,8 +99,6 @@
             this.cmdImportNew = new Desktop.Skinning.SkinnedButton();
             this.cmdImportSelected = new Desktop.Skinning.SkinnedButton();
             this.skinnedLabel2 = new Desktop.Skinning.SkinnedLabel();
-            this.cmdConvert = new Desktop.Skinning.SkinnedButton();
-            this.cboToKKLVersion = new Desktop.Skinning.SkinnedComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.grid)).BeginInit();
             this.gridMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.skinnedSplitContainer1)).BeginInit();
@@ -334,10 +335,13 @@
             // 
             // skinnedSplitContainer1.Panel1
             // 
+            this.skinnedSplitContainer1.Panel1.Controls.Add(this.lblTo);
+            this.skinnedSplitContainer1.Panel1.Controls.Add(this.iconAltDrag);
             this.skinnedSplitContainer1.Panel1.Controls.Add(this.cmdEditPipeline);
+            this.skinnedSplitContainer1.Panel1.Controls.Add(this.cmdConvert);
+            this.skinnedSplitContainer1.Panel1.Controls.Add(this.cboToKKLVersion);
             this.skinnedSplitContainer1.Panel1.Controls.Add(this.searchBar);
             this.skinnedSplitContainer1.Panel1.Controls.Add(this.cmdFolder);
-            this.skinnedSplitContainer1.Panel1.Controls.Add(this.skinnedLabel1);
             this.skinnedSplitContainer1.Panel1.Controls.Add(this.tsSheet);
             this.skinnedSplitContainer1.Panel1.Controls.Add(this.grid);
             // 
@@ -349,6 +353,34 @@
             this.skinnedSplitContainer1.SplitterDistance = 321;
             this.skinnedSplitContainer1.TabIndex = 1;
             // 
+            // lblTo
+            // 
+            this.lblTo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTo.AutoSize = true;
+            this.lblTo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.lblTo.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblTo.Highlight = Desktop.Skinning.SkinnedHighlight.Normal;
+            this.lblTo.Level = Desktop.Skinning.SkinnedLabelLevel.Normal;
+            this.lblTo.Location = new System.Drawing.Point(698, 5);
+            this.lblTo.Name = "lblTo";
+            this.lblTo.Size = new System.Drawing.Size(16, 13);
+            this.lblTo.TabIndex = 43;
+            this.lblTo.Text = "to";
+            // 
+            // iconAltDrag
+            // 
+            this.iconAltDrag.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.iconAltDrag.Background = Desktop.Skinning.SkinnedBackgroundType.Surface;
+            this.iconAltDrag.FieldType = Desktop.Skinning.SkinnedFieldType.Primary;
+            this.iconAltDrag.Flat = false;
+            this.iconAltDrag.Image = global::SPNATI_Character_Editor.Properties.Resources.Help;
+            this.iconAltDrag.Location = new System.Drawing.Point(428, 2);
+            this.iconAltDrag.Name = "iconAltDrag";
+            this.iconAltDrag.Size = new System.Drawing.Size(21, 23);
+            this.iconAltDrag.TabIndex = 42;
+            this.toolTip1.SetToolTip(this.iconAltDrag, "Alt+drag to reorder column headers");
+            this.iconAltDrag.UseVisualStyleBackColor = true;
+            // 
             // cmdEditPipeline
             // 
             this.cmdEditPipeline.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -356,7 +388,7 @@
             this.cmdEditPipeline.FieldType = Desktop.Skinning.SkinnedFieldType.Primary;
             this.cmdEditPipeline.Flat = false;
             this.cmdEditPipeline.Image = global::SPNATI_Character_Editor.Properties.Resources.Pipeline;
-            this.cmdEditPipeline.Location = new System.Drawing.Point(466, 1);
+            this.cmdEditPipeline.Location = new System.Drawing.Point(455, 2);
             this.cmdEditPipeline.Name = "cmdEditPipeline";
             this.cmdEditPipeline.Size = new System.Drawing.Size(25, 23);
             this.cmdEditPipeline.TabIndex = 41;
@@ -364,6 +396,39 @@
             this.toolTip1.SetToolTip(this.cmdEditPipeline, "Edit a pipeline using the selected cell");
             this.cmdEditPipeline.UseVisualStyleBackColor = true;
             this.cmdEditPipeline.Click += new System.EventHandler(this.cmdEditPipeline_Click);
+            // 
+            // cmdConvert
+            // 
+            this.cmdConvert.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmdConvert.Background = Desktop.Skinning.SkinnedBackgroundType.Surface;
+            this.cmdConvert.FieldType = Desktop.Skinning.SkinnedFieldType.Primary;
+            this.cmdConvert.Flat = false;
+            this.cmdConvert.Location = new System.Drawing.Point(616, 0);
+            this.cmdConvert.Name = "cmdConvert";
+            this.cmdConvert.Size = new System.Drawing.Size(79, 23);
+            this.cmdConvert.TabIndex = 30;
+            this.cmdConvert.Text = "Convert";
+            this.cmdConvert.UseVisualStyleBackColor = true;
+            this.cmdConvert.Click += new System.EventHandler(this.cmdConvert_Click);
+            // 
+            // cboToKKLVersion
+            // 
+            this.cboToKKLVersion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.cboToKKLVersion.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.cboToKKLVersion.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.cboToKKLVersion.BackColor = System.Drawing.Color.White;
+            this.cboToKKLVersion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.Simple;
+            this.cboToKKLVersion.FieldType = Desktop.Skinning.SkinnedFieldType.Surface;
+            this.cboToKKLVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.cboToKKLVersion.KeyMember = null;
+            this.cboToKKLVersion.Location = new System.Drawing.Point(715, 1);
+            this.cboToKKLVersion.Name = "cboToKKLVersion";
+            this.cboToKKLVersion.SelectedIndex = -1;
+            this.cboToKKLVersion.SelectedItem = null;
+            this.cboToKKLVersion.Size = new System.Drawing.Size(65, 23);
+            this.cboToKKLVersion.Sorted = false;
+            this.cboToKKLVersion.TabIndex = 31;
+            this.cboToKKLVersion.Text = "KKL v";
             // 
             // searchBar
             // 
@@ -384,27 +449,13 @@
             this.cmdFolder.FieldType = Desktop.Skinning.SkinnedFieldType.Primary;
             this.cmdFolder.Flat = true;
             this.cmdFolder.ForeColor = System.Drawing.Color.Blue;
-            this.cmdFolder.Location = new System.Drawing.Point(485, 1);
+            this.cmdFolder.Location = new System.Drawing.Point(486, 0);
             this.cmdFolder.Name = "cmdFolder";
-            this.cmdFolder.Size = new System.Drawing.Size(113, 23);
+            this.cmdFolder.Size = new System.Drawing.Size(98, 23);
             this.cmdFolder.TabIndex = 38;
             this.cmdFolder.Text = "Open Folder";
             this.cmdFolder.UseVisualStyleBackColor = true;
             this.cmdFolder.Click += new System.EventHandler(this.cmdFolder_Click);
-            // 
-            // skinnedLabel1
-            // 
-            this.skinnedLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.skinnedLabel1.AutoSize = true;
-            this.skinnedLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.skinnedLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.skinnedLabel1.Highlight = Desktop.Skinning.SkinnedHighlight.Label;
-            this.skinnedLabel1.Level = Desktop.Skinning.SkinnedLabelLevel.Normal;
-            this.skinnedLabel1.Location = new System.Drawing.Point(604, 6);
-            this.skinnedLabel1.Name = "skinnedLabel1";
-            this.skinnedLabel1.Size = new System.Drawing.Size(172, 13);
-            this.skinnedLabel1.TabIndex = 2;
-            this.skinnedLabel1.Text = "Alt+drag to reorder column headers";
             // 
             // tsSheet
             // 
@@ -949,45 +1000,10 @@
             this.skinnedLabel2.TabIndex = 29;
             this.skinnedLabel2.Text = "Import:";
             // 
-            // cmdConvert
-            // 
-            this.cmdConvert.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmdConvert.Background = Desktop.Skinning.SkinnedBackgroundType.Surface;
-            this.cmdConvert.FieldType = Desktop.Skinning.SkinnedFieldType.Primary;
-            this.cmdConvert.Flat = false;
-            this.cmdConvert.Location = new System.Drawing.Point(300, 2);
-            this.cmdConvert.Name = "cmdConvert";
-            this.cmdConvert.Size = new System.Drawing.Size(79, 23);
-            this.cmdConvert.TabIndex = 30;
-            this.cmdConvert.Text = "Convert";
-            this.cmdConvert.UseVisualStyleBackColor = true;
-            this.cmdConvert.Click += new System.EventHandler(this.cmdConvert_Click);
-            // 
-            // cboToKKLVersion
-            // 
-            this.cboToKKLVersion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.cboToKKLVersion.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.cboToKKLVersion.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.cboToKKLVersion.BackColor = System.Drawing.Color.White;
-            this.cboToKKLVersion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.Simple;
-            this.cboToKKLVersion.FieldType = Desktop.Skinning.SkinnedFieldType.Surface;
-            this.cboToKKLVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.cboToKKLVersion.KeyMember = null;
-            this.cboToKKLVersion.Location = new System.Drawing.Point(386, 2);
-            this.cboToKKLVersion.Name = "cboToKKLVersion";
-            this.cboToKKLVersion.SelectedIndex = -1;
-            this.cboToKKLVersion.SelectedItem = null;
-            this.cboToKKLVersion.Size = new System.Drawing.Size(100, 23);
-            this.cboToKKLVersion.Sorted = false;
-            this.cboToKKLVersion.TabIndex = 31;
-            this.cboToKKLVersion.Text = "KKLVersion";
-            // 
             // PoseMatrixEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.cboToKKLVersion);
-            this.Controls.Add(this.cmdConvert);
             this.Controls.Add(this.cmdImportSelected);
             this.Controls.Add(this.cmdImportAll);
             this.Controls.Add(this.cmdImportNew);
@@ -1048,7 +1064,6 @@
 		private System.Windows.Forms.ToolStripButton tsSort;
 		private System.Windows.Forms.ToolStripButton tsApplyCrop;
 		private System.Windows.Forms.ToolStripButton tsApplyCode;
-		private Desktop.Skinning.SkinnedLabel skinnedLabel1;
 		private System.Windows.Forms.ContextMenuStrip gridMenu;
 		private System.Windows.Forms.ToolStripMenuItem cutCellToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem copyCellToolStripMenuItem;
@@ -1089,5 +1104,7 @@
         private System.Windows.Forms.ToolStripButton tsRename;
         private Desktop.Skinning.SkinnedButton cmdConvert;
         private Desktop.Skinning.SkinnedComboBox cboToKKLVersion;
+        private Desktop.Skinning.SkinnedIcon iconAltDrag;
+        private Desktop.Skinning.SkinnedLabel lblTo;
     }
 }
