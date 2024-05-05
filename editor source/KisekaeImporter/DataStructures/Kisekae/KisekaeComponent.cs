@@ -112,7 +112,15 @@ namespace KisekaeImporter
 			_subcodes.TryGetValue(prefix, out KisekaeSubCode code);
 			return code;
 		}
-		
+
+		public T TryGetSubCode<T>(string prefix) where T : KisekaeSubCode
+		{
+			if (!_subcodes.TryGetValue(prefix, out KisekaeSubCode code))
+			{
+				return null;
+			}
+			return code as T;
+		}
 
 		protected T GetSubCode<T>(string prefix) where T : KisekaeSubCode
 		{

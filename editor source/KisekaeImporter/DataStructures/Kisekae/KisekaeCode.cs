@@ -503,8 +503,22 @@ namespace KisekaeImporter
 				if (model != null)
 				{
 
-					if (BeforeKKLVersion(106, 0, 0) > 0 && BeforeKKLVersion(106, 0, 0, majorVersion, minorVersion, alphaVersion) <= 0)
+					if (BeforeKKLVersion(107, 0, 1) > 0 && BeforeKKLVersion(107, 0, 1, majorVersion, minorVersion, alphaVersion) <= 0)
 					{
+
+						KisekaeHair hair = model.GetComponent<KisekaeHair>();
+						if (hair != null)
+						{
+							for (int j = 0; j < 99; j++)
+							{
+								KisekaeHairpiece hairpiece = (KisekaeHairpiece)hair.GetSubCode("r", j);
+								if (hairpiece != null && hairpiece.NumberOfPieces() < 18)
+								{
+									hairpiece.Alpha = 100;
+								}
+							}
+						}
+
 						KisekaeClothing clothing = model.GetComponent<KisekaeClothing>();
 						if (clothing != null)
 						{
@@ -513,6 +527,10 @@ namespace KisekaeImporter
 								KisekaeRibbon ribbon = (KisekaeRibbon)clothing.GetSubCode("m", j);
 								if (ribbon != null)
 								{
+									if (ribbon.NumberOfPieces() < 18)
+									{
+										ribbon.Alpha = 100;
+									}
 									ribbon.FineX = 50;
 									ribbon.FineY = 50;
 								}
@@ -523,6 +541,10 @@ namespace KisekaeImporter
 								KisekaeBelt belt = (KisekaeBelt)clothing.GetSubCode("s", j);
 								if (belt != null)
 								{
+									if (belt.NumberOfPieces() < 18)
+									{
+										belt.Alpha = 100;
+									}
 									belt.FineX = 50;
 									belt.FineY = 50;
 								}
@@ -546,7 +568,7 @@ namespace KisekaeImporter
 						KisekaeFace face = model.GetComponent<KisekaeFace>();
 						if (face != null)
 						{
-							KisekaeEyebrows eyebrows = face.Eyebrows;
+							KisekaeEyebrows eyebrows = face.TryGetSubCode<KisekaeEyebrows>("fd");
 							if (eyebrows != null)
 							{
 								eyebrows.X = 50;
@@ -566,7 +588,7 @@ namespace KisekaeImporter
 						KisekaeAppearance appearance = model.GetComponent<KisekaeAppearance>();
 						if (appearance != null)
 						{
-							KisekaePenis penis = appearance.Penis;
+							KisekaePenis penis = appearance.TryGetSubCode<KisekaePenis>("qa");
 							if (penis != null)
 							{
 								penis.SizeAuto = true;
@@ -580,7 +602,7 @@ namespace KisekaeImporter
 						KisekaeExpression expression = model.GetComponent<KisekaeExpression>();
 						if (expression != null)
 						{
-							KisekaeExpressionBrow expressionBrow = expression.Brows;
+							KisekaeExpressionBrow expressionBrow = expression.TryGetSubCode<KisekaeExpressionBrow>("hc");
 							if (expressionBrow != null)
 							{
 								expressionBrow.EyebrowMoveHorizontalLeft = 50;
@@ -591,7 +613,7 @@ namespace KisekaeImporter
 						KisekaePose pose = model.GetComponent<KisekaePose>();
 						if (pose != null)
 						{
-							KisekaeArm arm = pose.Arms;
+							KisekaeArm arm = pose.TryGetSubCode<KisekaeArm>("aa");
 							if (arm != null)
 							{
 								arm.LeftArmFreeRotation = false;
@@ -619,7 +641,7 @@ namespace KisekaeImporter
 						KisekaeAppearance appearance = model.GetComponent<KisekaeAppearance>();
 						if (appearance != null)
 						{
-							KisekaeThighSize thighSize = appearance.ThighSize;
+							KisekaeThighSize thighSize = appearance.TryGetSubCode<KisekaeThighSize>("cf");
 							if (thighSize != null)
 							{
 								thighSize.LeftShiriVisible = thighSize.LeftThighVisible;
@@ -706,11 +728,11 @@ namespace KisekaeImporter
 						KisekaePose pose = model.GetComponent<KisekaePose>();
 						if (pose != null)
 						{
-							KisekaeBodyRotation bodyRotation = pose.Body;
+							KisekaeBodyRotation bodyRotation = pose.TryGetSubCode<KisekaeBodyRotation>("be");
 							if (bodyRotation != null)
 								bodyRotation.Rotation *= 10;
 
-							KisekaePlacement placement = pose.Placement;
+							KisekaePlacement placement = pose.TryGetSubCode<KisekaePlacement>("bc");
 							if (placement != null)
 								placement.Jump *= 10;
 						}
@@ -718,7 +740,7 @@ namespace KisekaeImporter
 						KisekaeShader shader = model.GetComponent<KisekaeShader>();
 						if (shader != null)
 						{
-							KisekaeShadow shadow = shader.Shadow;
+							KisekaeShadow shadow = shader.TryGetSubCode<KisekaeShadow>("bf");
 							if (shadow != null)
 								shadow.Rotation *= 10;
 						}
@@ -726,7 +748,7 @@ namespace KisekaeImporter
 						KisekaeAppearance appearance = model.GetComponent<KisekaeAppearance>();
 						if (appearance != null)
 						{
-							KisekaeThighSize thighSize = appearance.ThighSize;
+							KisekaeThighSize thighSize = appearance.TryGetSubCode<KisekaeThighSize>("cf");
 							if (thighSize != null)
 							{
 								thighSize.LeftThighRotation *= 10;
@@ -741,7 +763,7 @@ namespace KisekaeImporter
 								thighSize.RightThighOffsetY *= 10;
 							}
 
-							KisekaeLegSize legSize = appearance.LegSize;
+							KisekaeLegSize legSize = appearance.TryGetSubCode<KisekaeLegSize>("cg");
 							if (legSize != null)
 							{
 								legSize.LeftLegRotation *= 10;
@@ -756,7 +778,7 @@ namespace KisekaeImporter
 								legSize.RightLegOffsetY *= 10;
 							}
 
-							KisekaeFootSize footSize = appearance.FootSize;
+							KisekaeFootSize footSize = appearance.TryGetSubCode<KisekaeFootSize>("ch");
 							if (footSize != null)
 							{
 								footSize.LeftFootRotation *= 10;
@@ -771,7 +793,7 @@ namespace KisekaeImporter
 								footSize.RightFootOffsetY *= 10;
 							}
 
-							KisekaeBodyShape bodyShape = appearance.BodyShape;
+							KisekaeBodyShape bodyShape = appearance.TryGetSubCode<KisekaeBodyShape>("ca");
 							if (bodyShape != null)
 							{
 								bodyShape.BodyHeight *= 10;
@@ -783,7 +805,7 @@ namespace KisekaeImporter
 								bodyShape.DouHeight *= 10;
 							}
 
-							KisekaeHead head = appearance.Head;
+							KisekaeHead head = appearance.TryGetSubCode<KisekaeHead>("dd");
 							if (head != null)
 							{
 								head.HeadScale *= 10;
@@ -792,7 +814,7 @@ namespace KisekaeImporter
 								head.ContourHeight *= 10;
 							}
 
-							KisekaeUpperArmSize upperArmSize = appearance.UpperArmSize;
+							KisekaeUpperArmSize upperArmSize = appearance.TryGetSubCode<KisekaeUpperArmSize>("ce");
 							if (upperArmSize != null)
 							{
 								upperArmSize.LeftUpperArmScaleX *= 10;
@@ -805,7 +827,7 @@ namespace KisekaeImporter
 								upperArmSize.RightUpperArmOffsetY *= 10;
 							}
 
-							KisekaeArmSize armSize = appearance.ArmSize;
+							KisekaeArmSize armSize = appearance.TryGetSubCode<KisekaeArmSize>("cc");
 							if (armSize != null)
 							{
 								armSize.LeftArmScaleX *= 10;
@@ -818,7 +840,7 @@ namespace KisekaeImporter
 								armSize.RightArmOffsetY *= 10;
 							}
 
-							KisekaeHandSize handSize = appearance.HandSize;
+							KisekaeHandSize handSize = appearance.TryGetSubCode<KisekaeHandSize>("cd");
 							if (handSize != null)
 							{
 								handSize.LeftHandScaleX *= 10;
@@ -835,7 +857,7 @@ namespace KisekaeImporter
 						KisekaeFace face = model.GetComponent<KisekaeFace>();
 						if (face != null)
 						{
-							KisekaeEyes eyes = face.Eyes;
+							KisekaeEyes eyes = face.TryGetSubCode<KisekaeEyes>("fa");
 							if (eyes != null)
 							{
 								eyes.EyeX *= 10;
@@ -844,7 +866,7 @@ namespace KisekaeImporter
 								eyes.EyeScaleY *= 10;
 							}
 
-							KisekaeIris iris = face.Iris;
+							KisekaeIris iris = face.TryGetSubCode<KisekaeIris>("fc");
 							if (iris != null)
 							{
 								iris.Scale *= 10;
@@ -853,7 +875,7 @@ namespace KisekaeImporter
 								iris.YOffset *= 10;
 							}
 
-							KisekaePupil pupil = face.Pupils;
+							KisekaePupil pupil = face.TryGetSubCode<KisekaePupil>("fj");
 							if (pupil != null)
 							{
 								pupil.LightRotation *= 10;
@@ -874,7 +896,7 @@ namespace KisekaeImporter
 						KisekaeExpression expression = model.GetComponent<KisekaeExpression>();
 						if (expression != null)
 						{
-							KisekaeLook look = expression.Look;
+							KisekaeLook look = expression.TryGetSubCode<KisekaeLook>("hb");
 							if (look != null)
 							{
 								look.EyeballWidth *= 10;
@@ -885,7 +907,7 @@ namespace KisekaeImporter
 								look.EyeballYMoveRight *= 10;
 							}
 
-							KisekaeExpressionBrow expressionBrow = expression.Brows;
+							KisekaeExpressionBrow expressionBrow = expression.TryGetSubCode<KisekaeExpressionBrow>("hc");
 							if (expressionBrow != null)
 							{
 								expressionBrow.EyebrowMoveLeft *= 10;
@@ -894,7 +916,7 @@ namespace KisekaeImporter
 								expressionBrow.EyebrowMoveHorizontalRight *= 10;
 							}
 
-							KisekaeExpressionMouth expressionMouth = expression.Mouth;
+							KisekaeExpressionMouth expressionMouth = expression.TryGetSubCode<KisekaeExpressionMouth>("hd");
 							if (expressionMouth != null)
 							{
 								expressionMouth.MouthWidth *= 10;
@@ -907,13 +929,13 @@ namespace KisekaeImporter
 						KisekaeHair hair = model.GetComponent<KisekaeHair>();
 						if (hair != null)
 						{
-							KisekaeBangs bangs = hair.Bangs;
+							KisekaeBangs bangs = hair.TryGetSubCode<KisekaeBangs>("ed");
 							if (bangs != null)
 							{
 								bangs.BangsHeight *= 10;
 							}
 
-							KisekaeBackHair backHair = hair.Back;
+							KisekaeBackHair backHair = hair.TryGetSubCode<KisekaeBackHair>("ec");
 							if (backHair != null)
 							{
 								backHair.Height *= 10;
@@ -921,14 +943,14 @@ namespace KisekaeImporter
 								backHair.Y *= 10;
 							}
 
-							KisekaeHairSide leftSide = hair.LeftSide;
+							KisekaeHairSide leftSide = hair.TryGetSubCode<KisekaeHairSide>("eg");
 							if (leftSide != null)
 							{
 								leftSide.Height *= 10;
 								leftSide.X *= 10;
 							}
 
-							KisekaeHairSide rightSide = hair.RightSide;
+							KisekaeHairSide rightSide = hair.TryGetSubCode<KisekaeHairSide>("ef");
 							if (rightSide != null)
 							{
 								rightSide.Height *= 10;
@@ -1013,7 +1035,7 @@ namespace KisekaeImporter
 			KisekaeChunk scene = Scene;
 			if (scene != null)
 			{
-				if (BeforeKKLVersion(106,0,0) > 0 && BeforeKKLVersion(106, 0, 0, majorVersion, minorVersion, alphaVersion) <= 0)
+				if (BeforeKKLVersion(107, 0, 1) > 0 && BeforeKKLVersion(107, 0, 1, majorVersion, minorVersion, alphaVersion) <= 0)
 				{
 					KisekaeGlobalParts globalParts = scene.GetComponent<KisekaeGlobalParts>();
 					if (globalParts != null)
@@ -1253,11 +1275,11 @@ namespace KisekaeImporter
 						KisekaePose pose = model.GetComponent<KisekaePose>();
 						if (pose != null)
 						{
-							KisekaeBodyRotation bodyRotation = pose.Body;
+							KisekaeBodyRotation bodyRotation = pose.TryGetSubCode<KisekaeBodyRotation>("be");
 							if (bodyRotation != null)
 								bodyRotation.Rotation /= 10;
 
-							KisekaePlacement placement = pose.Placement;
+							KisekaePlacement placement = pose.TryGetSubCode<KisekaePlacement>("bc");
 							if (placement != null)
 								placement.Jump /= 10;
 						}
@@ -1265,7 +1287,7 @@ namespace KisekaeImporter
 						KisekaeShader shader = model.GetComponent<KisekaeShader>();
 						if (shader != null)
 						{
-							KisekaeShadow shadow = shader.Shadow;
+							KisekaeShadow shadow = shader.TryGetSubCode<KisekaeShadow>("bf");
 							if (shadow != null)
 								shadow.Rotation /= 10;
 						}
@@ -1273,7 +1295,7 @@ namespace KisekaeImporter
 						KisekaeAppearance appearance = model.GetComponent<KisekaeAppearance>();
 						if (appearance != null)
 						{
-							KisekaeThighSize thighSize = appearance.ThighSize;
+							KisekaeThighSize thighSize = appearance.TryGetSubCode<KisekaeThighSize>("cf");
 							if (thighSize != null)
 							{
 								thighSize.LeftThighRotation /= 10;
@@ -1288,7 +1310,7 @@ namespace KisekaeImporter
 								thighSize.RightThighOffsetY /= 10;
 							}
 
-							KisekaeLegSize legSize = appearance.LegSize;
+							KisekaeLegSize legSize = appearance.TryGetSubCode<KisekaeLegSize>("cg");
 							if (legSize != null)
 							{
 								legSize.LeftLegRotation /= 10;
@@ -1303,7 +1325,7 @@ namespace KisekaeImporter
 								legSize.RightLegOffsetY /= 10;
 							}
 
-							KisekaeFootSize footSize = appearance.FootSize;
+							KisekaeFootSize footSize = appearance.TryGetSubCode<KisekaeFootSize>("ch");
 							if (footSize != null)
 							{
 								footSize.LeftFootRotation /= 10;
@@ -1318,7 +1340,7 @@ namespace KisekaeImporter
 								footSize.RightFootOffsetY /= 10;
 							}
 
-							KisekaeBodyShape bodyShape = appearance.BodyShape;
+							KisekaeBodyShape bodyShape = appearance.TryGetSubCode<KisekaeBodyShape>("ca");
 							if (bodyShape != null)
 							{
 								bodyShape.BodyHeight /= 10;
@@ -1330,7 +1352,7 @@ namespace KisekaeImporter
 								bodyShape.DouHeight /= 10;
 							}
 
-							KisekaeHead head = appearance.Head;
+							KisekaeHead head = appearance.TryGetSubCode<KisekaeHead>("dd");
 							if (head != null)
 							{
 								head.HeadScale /= 10;
@@ -1339,7 +1361,7 @@ namespace KisekaeImporter
 								head.ContourHeight /= 10;
 							}
 
-							KisekaeUpperArmSize upperArmSize = appearance.UpperArmSize;
+							KisekaeUpperArmSize upperArmSize = appearance.TryGetSubCode<KisekaeUpperArmSize>("ce");
 							if (upperArmSize != null)
 							{
 								upperArmSize.LeftUpperArmScaleX /= 10;
@@ -1352,7 +1374,7 @@ namespace KisekaeImporter
 								upperArmSize.RightUpperArmOffsetY /= 10;
 							}
 
-							KisekaeArmSize armSize = appearance.ArmSize;
+							KisekaeArmSize armSize = appearance.TryGetSubCode<KisekaeArmSize>("cc");
 							if (armSize != null)
 							{
 								armSize.LeftArmScaleX /= 10;
@@ -1365,7 +1387,7 @@ namespace KisekaeImporter
 								armSize.RightArmOffsetY /= 10;
 							}
 
-							KisekaeHandSize handSize = appearance.HandSize;
+							KisekaeHandSize handSize = appearance.TryGetSubCode<KisekaeHandSize>("cd");
 							if (handSize != null)
 							{
 								handSize.LeftHandScaleX /= 10;
@@ -1382,7 +1404,7 @@ namespace KisekaeImporter
 						KisekaeFace face = model.GetComponent<KisekaeFace>();
 						if (face != null)
 						{
-							KisekaeEyes eyes = face.Eyes;
+							KisekaeEyes eyes = face.TryGetSubCode<KisekaeEyes>("fa");
 							if (eyes != null)
 							{
 								eyes.EyeX /= 10;
@@ -1391,7 +1413,7 @@ namespace KisekaeImporter
 								eyes.EyeScaleY /= 10;
 							}
 
-							KisekaeIris iris = face.Iris;
+							KisekaeIris iris = face.TryGetSubCode<KisekaeIris>("fc");
 							if (iris != null)
 							{
 								iris.Scale /= 10;
@@ -1400,7 +1422,7 @@ namespace KisekaeImporter
 								iris.YOffset /= 10;
 							}
 
-							KisekaePupil pupil = face.Pupils;
+							KisekaePupil pupil = face.TryGetSubCode<KisekaePupil>("fj");
 							if (pupil != null)
 							{
 								pupil.LightRotation /= 10;
@@ -1421,7 +1443,7 @@ namespace KisekaeImporter
 						KisekaeExpression expression = model.GetComponent<KisekaeExpression>();
 						if (expression != null)
 						{
-							KisekaeLook look = expression.Look;
+							KisekaeLook look = expression.TryGetSubCode<KisekaeLook>("hb");
 							if (look != null)
 							{
 								look.EyeballWidth /= 10;
@@ -1432,7 +1454,7 @@ namespace KisekaeImporter
 								look.EyeballYMoveRight /= 10;
 							}
 
-							KisekaeExpressionBrow expressionBrow = expression.Brows;
+							KisekaeExpressionBrow expressionBrow = expression.TryGetSubCode<KisekaeExpressionBrow>("hc");
 							if (expressionBrow != null)
 							{
 								expressionBrow.EyebrowMoveLeft /= 10;
@@ -1441,7 +1463,7 @@ namespace KisekaeImporter
 								expressionBrow.EyebrowMoveHorizontalRight /= 10;
 							}
 
-							KisekaeExpressionMouth expressionMouth = expression.Mouth;
+							KisekaeExpressionMouth expressionMouth = expression.TryGetSubCode<KisekaeExpressionMouth>("hd");
 							if (expressionMouth != null)
 							{
 								expressionMouth.MouthWidth /= 10;
@@ -1454,13 +1476,13 @@ namespace KisekaeImporter
 						KisekaeHair hair = model.GetComponent<KisekaeHair>();
 						if (hair != null)
 						{
-							KisekaeBangs bangs = hair.Bangs;
+							KisekaeBangs bangs = hair.TryGetSubCode<KisekaeBangs>("ed");
 							if (bangs != null)
 							{
 								bangs.BangsHeight /= 10;
 							}
 
-							KisekaeBackHair backHair = hair.Back;
+							KisekaeBackHair backHair = hair.TryGetSubCode<KisekaeBackHair>("ec");
 							if (backHair != null)
 							{
 								backHair.Height /= 10;
@@ -1468,14 +1490,14 @@ namespace KisekaeImporter
 								backHair.Y /= 10;
 							}
 
-							KisekaeHairSide leftSide = hair.LeftSide;
+							KisekaeHairSide leftSide = hair.TryGetSubCode<KisekaeHairSide>("eg");
 							if (leftSide != null)
 							{
 								leftSide.Height /= 10;
 								leftSide.X /= 10;
 							}
 
-							KisekaeHairSide rightSide = hair.RightSide;
+							KisekaeHairSide rightSide = hair.TryGetSubCode<KisekaeHairSide>("ef");
 							if (rightSide != null)
 							{
 								rightSide.Height /= 10;
