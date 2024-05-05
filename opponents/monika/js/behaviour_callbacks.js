@@ -40,6 +40,16 @@
             effect.execute();
         }, 750);
     });
+
+	monika.registerBehaviourCallback('panty_flash', function () {
+        var slot = monika.utils.monika_slot();
+		var pl = monika.utils.get_monika_player();
+        var effect = new monika.effects.GlitchPoseChange(slot, pl.stage + '-flashing_b.png', 1000, 570, 776 - 400);
+
+        setTimeout(function () {
+            effect.execute();
+        }, 2000);
+    });	
 	
 	monika.registerBehaviourCallback('socks_back', function () {
 		var slot = monika.utils.monika_slot();
