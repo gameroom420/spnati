@@ -541,7 +541,7 @@ namespace KisekaeImporter
 								KisekaeBelt belt = (KisekaeBelt)clothing.GetSubCode("s", j);
 								if (belt != null)
 								{
-									if (belt.NumberOfPieces() < 18)
+									if (belt.NumberOfPieces() < 17)
 									{
 										belt.Alpha = 100;
 									}
