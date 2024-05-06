@@ -278,10 +278,10 @@
         <label id="274" label="Swim Loop" color="6" folder="" sort="0" />
         <label id="275" label="Swim Link 7" color="6" folder="Sequences" sort="0" />
         <label id="276" label="Friend Penis Kokichi" folder="Sequences" sort="0" />
+        <label id="279" label="Swim Link End" color="15" folder="" sort="0" />
     </labels>
-    <nextId>278</nextId>
+    <nextId>279</nextId>
     <markers>
-        <marker scope="Public" name="+L_SwimLoop+" />
         <marker scope="Private" name="B_">Background related markers.</marker>
         <marker scope="Public" name="B_BeachTan" />
         <marker scope="Public" name="B_DRClassroom" />
@@ -334,6 +334,7 @@
         <marker scope="Public" name="L_Skipped" />
         <marker scope="Public" name="L_StartingLine" />
         <marker scope="Public" name="L_SwimLikeCrazy" />
+        <marker scope="Public" name="L_SwimLoop" />
         <marker scope="Public" name="L_SwimThoughts1" />
         <marker scope="Public" name="L_SwimThoughts2" />
         <marker scope="Public" name="L_SwimThoughts3" />
@@ -505,7 +506,6 @@
         <marker scope="Public" name="TO_Zeke_02HowTheyMet" />
         <marker scope="Public" name="TO_Zeke_03Look" />
         <marker scope="Private" name="Z_">Intenal state. Vast majority of this will only be relevant to Aoi herself.</marker>
-        <marker scope="Public" name="Z_AoiVictory" />
         <marker scope="Public" name="Z_Finished" />
         <marker scope="Public" name="Z_GamesPlayed" />
         <marker scope="Public" name="Z_HinaConfident" />
