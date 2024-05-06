@@ -520,8 +520,25 @@
         <label id="472" label="" folder="Must Strip (Fluttershy)" sort="0" />
         <label id="473" label="" folder="Must Strip (Fluttershy)" sort="0" />
         <label id="474" label="" folder="Must Strip (Fluttershy)" sort="0" />
+        <label id="475" label="" folder="Must Strip (Sakura)" sort="0" />
+        <label id="476" label="" folder="Must Strip (Sakura)" sort="0" />
+        <label id="477" label="" folder="Nadeshiko (Must Strip)" sort="0" />
+        <label id="478" label="" folder="Nadeshiko (Must Strip)" sort="0" />
+        <label id="479" label="" folder="Nadeshiko (Stripping)" sort="0" />
+        <label id="480" label="" folder="Nadeshiko (Stripping)" sort="0" />
+        <label id="481" label="" folder="Nadeshiko (Stripped)" sort="0" />
+        <label id="482" label="" folder="Stripping (Sakura)" sort="0" />
+        <label id="3" label="" folder="Stripping (Sakura)" sort="0" />
+        <label id="16" label="" folder="Stripping (Sakura)" sort="0" />
+        <label id="483" label="" folder="Stripped (Sakura)" sort="0" />
+        <label id="484" label="" folder="Must Strip (Sakura)" sort="0" />
+        <label id="485" label="" folder="Stripping (Sakura)" sort="0" />
+        <label id="486" label="" folder="Stripped (Sakura)" sort="0" />
+        <label id="487" label="" folder="Stripped (Sakura)" sort="0" />
+        <label id="488" label="" folder="Must Strip (Sakura)" sort="0" />
+        <label id="489" label="" folder="Stripped (Sakura)" sort="0" />
     </labels>
-    <nextId>474</nextId>
+    <nextId>489</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="9S_Nade_1-1" />
@@ -830,6 +847,15 @@
         <marker scope="Public" name="Nade_Nonon_2-1" />
         <marker scope="Public" name="Nade_Rainbow_EatingContest" />
         <marker scope="Public" name="Nade_Reimu_Spouse" />
+        <marker scope="Public" name="Nade_Sakura_Idol_1" />
+        <marker scope="Public" name="Nade_Sakura_Idol_2" />
+        <marker scope="Public" name="Nade_Sakura_Idol_3" />
+        <marker scope="Public" name="Nade_Sakura_ItsOkay2" />
+        <marker scope="Public" name="Nade_Sakura_Saga_1" />
+        <marker scope="Public" name="Nade_Sakura_Saga_3" />
+        <marker scope="Public" name="Nade_Sakura_ZombieReveal_1" />
+        <marker scope="Public" name="Nade_Sakura_ZombieReveal_2" />
+        <marker scope="Public" name="Nade_Sakura_ZombieReveal_3" />
         <marker scope="Public" name="Nade_Sanako_Comfy" />
         <marker scope="Public" name="Nade_Sayaka_R" />
         <marker scope="Public" name="Nade_Solar_1-1" />
