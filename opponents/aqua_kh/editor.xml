@@ -294,6 +294,13 @@
         <response id="1186" opponent="meia" opponentId="799" />
         <response id="1187" opponent="meia" opponentId="803" />
         <response id="1202" opponent="meia" opponentId="1815" />
+        <response id="1207" opponent="lysithea" opponentId="615" />
+        <response id="1214" opponent="galatea" opponentId="51" />
+        <response id="1215" opponent="galatea" opponentId="70" />
+        <response id="1216" opponent="mitama" opponentId="1943" />
+        <response id="1217" opponent="mitama" opponentId="1940" />
+        <response id="1218" opponent="mitama" opponentId="1941" />
+        <response id="1219" opponent="mitama" opponentId="1942" />
     </responses>
     <notes>
         <note id="6">radiant garden is a world in kingdom hearts that is basically "the place where final fantasy characters and some kingdom hearts original characters come from", mainly home to JRPG humans.</note>
@@ -1516,18 +1523,32 @@
         <label id="1196" label="" folder="Responses" sort="0" />
         <label id="1197" label="" folder="Targets" sort="0" />
         <label id="1198" label="" color="3" folder="Meia&gt;Targets" sort="0" />
-        <label id="1199" label="" color="1" folder="Meia&gt;Targets" sort="0" />
+        <label id="1199" label="" color="4" folder="Meia&gt;Targets" sort="0" />
         <label id="1200" label="" color="3" folder="Meia&gt;Targets" sort="0" />
         <label id="1201" label="" folder="Meia&gt;Responses" sort="0" />
         <label id="1202" label="" folder="Meia&gt;Responses" sort="0" />
-        <label id="1203" label="" color="1" folder="Meia&gt;Targets" sort="0" />
-        <label id="1204" label="" color="1" folder="Meia&gt;Targets" sort="0" />
+        <label id="1203" label="" color="3" folder="Meia&gt;Targets" sort="0" />
+        <label id="1204" label="" color="3" folder="Meia&gt;Targets" sort="0" />
         <label id="1205" label="" color="1" folder="Meia&gt;Targets" sort="0" />
+        <label id="1206" label="" folder="Targets" sort="0" />
+        <label id="1207" label="" folder="Lysithea" sort="0" />
+        <label id="1208" label="" folder="Lysithea" sort="0" />
+        <label id="1209" label="" folder="Lysithea" sort="0" />
+        <label id="1210" label="" folder="Targets" sort="0" />
+        <label id="1211" label="" folder="Responses" sort="0" />
+        <label id="1212" label="" folder="Responses" sort="0" />
+        <label id="1213" label="" color="1" folder="Meia&gt;Targets" sort="0" />
+        <label id="1214" label="" folder="Targets&gt;Galatea" sort="0" />
+        <label id="1215" label="" folder="Targets&gt;Galatea" sort="0" />
+        <label id="1216" label="" folder="Responses" sort="0" />
+        <label id="1219" label="" folder="Responses" sort="0" />
+        <label id="1217" label="" folder="Responses" sort="0" />
+        <label id="1218" label="" folder="Responses" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>aquaKS_stage==4</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>1205</nextId>
+    <nextId>1219</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="__lucina_nickname" />
@@ -1777,7 +1798,9 @@
         <marker scope="Public" name="aqua_larachel_s2" />
         <marker scope="Public" name="aqua_larachel_staff_broke" />
         <marker scope="Public" name="aqua_leviathan_self0a" />
+        <marker scope="Public" name="aqua_leviathan_self0b" />
         <marker scope="Public" name="aqua_leviathan_strip0a" />
+        <marker scope="Public" name="aqua_leviathan_strip0b" />
         <marker scope="Public" name="aqua_lucina_disguise1" />
         <marker scope="Public" name="aqua_lucina_youngerSelfRespA" />
         <marker scope="Public" name="aqua_lucina_youngerSelfRespB" />
@@ -1837,6 +1860,7 @@
         <marker scope="Public" name="aqua_meia_strip0c" />
         <marker scope="Public" name="aqua_meia_strip1a" />
         <marker scope="Public" name="aqua_meia_strip1b" />
+        <marker scope="Public" name="aqua_meia_strip1c" />
         <marker scope="Public" name="aqua_meia_strip4a" />
         <marker scope="Public" name="aqua_meia_strip4b" />
         <marker scope="Public" name="aqua_meia_strip4c" />
@@ -1858,14 +1882,18 @@
         <marker scope="Public" name="aqua_miku_strip2b" />
         <marker scope="Public" name="aqua_mitama_arrivalResp" />
         <marker scope="Public" name="aqua_mitama_castlesResp" />
+        <marker scope="Public" name="aqua_mitama_castlesResp2" />
         <marker scope="Public" name="aqua_mitama_cinderellaResp" />
+        <marker scope="Public" name="aqua_mitama_cinderellaResp2" />
         <marker scope="Public" name="aqua_mitama_poetry1" />
         <marker scope="Public" name="aqua_mitama_poetry2" />
         <marker scope="Public" name="aqua_mitama_poetry3" />
         <marker scope="Public" name="aqua_mitama_rushResp" />
+        <marker scope="Public" name="aqua_mitama_rushResp2" />
         <marker scope="Public" name="aqua_mitama_self0a" />
         <marker scope="Public" name="aqua_mitama_self0b" />
         <marker scope="Public" name="aqua_mitama_self1a" />
+        <marker scope="Public" name="aqua_mitama_self1b" />
         <marker scope="Public" name="aqua_mitama_shrinemaiden1" />
         <marker scope="Public" name="aqua_mitama_shrinemaiden2" />
         <marker scope="Public" name="aqua_mitama_shrinemaiden3" />
@@ -1904,7 +1932,9 @@
         <marker scope="Public" name="aqua_nami_self2a" />
         <marker scope="Public" name="aqua_nami_self2b" />
         <marker scope="Public" name="aqua_nephenee_self0a" />
+        <marker scope="Public" name="aqua_nephenee_self0b" />
         <marker scope="Public" name="aqua_nephenee_strip0a" />
+        <marker scope="Public" name="aqua_nephenee_strip0b" />
         <marker scope="Public" name="aqua_noire_explainedRole" />
         <marker scope="Public" name="aqua_noire_Lastation1" />
         <marker scope="Public" name="aqua_noire_Role0a" />
@@ -2144,6 +2174,7 @@
         <marker scope="Public" name="followup_share_this_intimacyt" />
         <marker scope="Public" name="followup_somethingtofill">Followup to a line she can say while masturbating</marker>
         <marker scope="Public" name="followup_want_to_recieve_oral">Followup to a line she can say while masturbating</marker>
+        <marker scope="Public" name="galatea_gallery" />
         <marker scope="Public" name="gamestart_aqua_konosuba">Game has started and Aqua (Konosuba) is present</marker>
         <marker scope="Public" name="gamestart_aqua_konosuba2" />
         <marker scope="Public" name="gamestart_arueshalae" />
@@ -2203,6 +2234,9 @@
         <marker scope="Public" name="lucina_firstmaskreveal" />
         <marker scope="Public" name="lucina_maskreveal" />
         <marker scope="Public" name="lux_light_puns_start" />
+        <marker scope="Public" name="lysithea_fightingS" />
+        <marker scope="Public" name="lysithea_romanceS" />
+        <marker scope="Public" name="lysithea_worldsS" />
         <marker scope="Public" name="magicsempai_startFF" />
         <marker scope="Public" name="manhunter">Targeting someone who is good at seducing men (or assumed to be)</marker>
         <marker scope="Public" name="meia_all_female_crew" />
