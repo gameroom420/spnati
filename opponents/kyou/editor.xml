@@ -110,6 +110,7 @@
         <response id="602" opponent="nagisa" opponentId="1552" />
         <response id="603" opponent="nagisa" opponentId="1553" />
         <response id="604" opponent="nagisa" opponentId="1554" />
+        <response id="606" opponent="twisted_fate" opponentId="254" />
     </responses>
     <labels>
         <label id="116" label="" folder="Generics" sort="0" />
@@ -629,12 +630,13 @@
         <label id="602" label="" folder="Nagisa and Sanako to left" sort="0" />
         <label id="603" label="" folder="Nagisa and Sanako to left" sort="0" />
         <label id="604" label="" folder="Nagisa and Sanako to left" sort="0" />
+        <label id="605" label="" folder="Generics" sort="0" />
     </labels>
     <prefixes>
         <prefix>bento</prefix>
         <prefix>botan</prefix>
     </prefixes>
-    <nextId>604</nextId>
+    <nextId>606</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="kyou_4girls" />
@@ -1214,6 +1216,7 @@
         <marker scope="Public" name="kyou_tomoko_shoes1" />
         <marker scope="Public" name="kyou_tomoko_tie1" />
         <marker scope="Public" name="kyou_trixie_01" />
+        <marker scope="Public" name="kyou_twisted_hat_cheat" />
         <marker scope="Public" name="kyou_videl_visible" />
         <marker scope="Public" name="kyou_wasp_01" />
         <marker scope="Public" name="kyou_weapon" />
