@@ -1,6 +1,6 @@
 Guide to dialogue folders for Kyoko Kirigiri.
 
-Last updated: March 2024, by Kiki Retzorg
+Last updated: May 2024, by Kiki Retzorg
 
 This guide is intended for anyone writing Kyoko after the original writer.
 Please think very carefully before adding a new folder at the top level. Add new sub-folders as you please, but please make sure to document new folders in here for the benefit of any subsequent writers.
@@ -10,7 +10,7 @@ Please think very carefully before adding a new folder at the top level. Add new
 - Also included: lines part of a particular sequence/group not applicable to any other folder; these go in subfolders.
 
 ## Bluffs
-- Lines related to Kyoko actively trying to disguise her 
+- Lines related to Kyoko actively trying to disguise her hand strength.
 
 ## Collectible worn
 - Lines while human is wearing one of Kyoko's collectibles.

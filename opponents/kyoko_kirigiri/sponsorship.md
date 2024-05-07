@@ -8,15 +8,14 @@ Also, some of this markdown isn’t well-formed, sue me, I had to update it whil
     - Kyoko’s folders are complicated and one of the sponsorships used to be 158 lines on its own, so this is the recommended method.
 - This document quotes example lines needed to fill each requirement (except Rem’s targeted linecount).
     - These lines are shown as they appear in behaviour.xml, and can be cross-referenced with Ctrl+F.
-    - Each sponsorship marks each example line filling the minimum requirements for that sponsor with a unique bullet character:
-        - Over-Fly:     Question mark.
+    - Some of the partially-complete sponsorships mark each example line filling the minimum requirements for that sponsor with a unique bullet character:
         - Insiduani:    Percentage symbol.
         - Tweetsie:     Dollar sign.
         - BlueKoin:     Ampersand.
-        - Polo:         At sign.
         - Remillia:     Asterisk.
     - The purpose of these unique characters is to have their Ctrl+F counts tally verbatim each line filling the minimum requirements.
     - Surplus lines, when included, do not use these unique characters.
+	- This system is to be abandoned in favour of just using numbers by the final update before QA.
 - Folders for each sponsorship exist and can be viewed in the CE, but be advised these folders are not comprehensive.
 - Remillia’s sponorship is split into three sections. All use asterisks.
 - Good luck!
@@ -24,14 +23,12 @@ Also, some of this markdown isn’t well-formed, sue me, I had to update it whil
 # INSIDUANI -- 10-15 lines
  - [ ] 10-15 hand lines containing questions or prompts. Follow up replies are encouraged, but not necessary.
     - 1/10 total
-        - On hand line:
         - Undead
         % I’m a bit curious how the piercings affect your sensation there, ~female~… Perhaps you’ll demonstrate for us when you lose?
-        % 
 
-# TWEETSIE -- at least 16/40 lines, 40%
+# TWEETSIE -- at least 19/40 lines, 47%
  - [ ] 30 targeted lines where Kyoko investigates other characters, mainly by asking them questions.
-    - 16 (18?)/30
+    - 19 (21?)/30
         - Target: Sakura
 		$ There’s something to be said about your disposition, ~sakura~. That scar doesn’t tell the story of a clean death…was it an accident?
         - Target: Yumeko
@@ -48,12 +45,16 @@ Also, some of this markdown isn’t well-formed, sue me, I had to update it whil
         $ Are you about to compare yourself to a monster? An insect? A small dog?
         $ I put my life on the line because I had to— to protect the living. That’s what it means to be a detective.<br>What do you stake your livelihood for?
         $ How far have you gone? How much have you suffered? …What have you inflicted on others?
-            - How far have you gone? How much have you suffered? …What have you inflicted on others?
         $ (Following the above) Nobody’s forcing you to answer. If you don’t want to talk, then don’t.
         $ I’m <i>very</i> interested in hearing what your idea of respect for someone’s life is, Yumeko Jabami.
         - Target: Aoi
         $ …How sensitive are your breasts, Hina?
         $ I’ve got to say, I never thought you’d do this so proudly. I’m exciting you, aren’t I?
+		- Target: Moskii
+		$ ~Moskii~. You seem like a sexually-liberated woman. What led you to this way of life?
+		$ So, what part of my body are you most excited to see?
+		- Target: Moon
+		$ &lt;i&gt;How&lt;/i&gt; many times have you played this game, exactly?
     - Needs further tallying
  - [ ] 10 generics that can work as question prompts.
         - Overlaps with Insiduani’s sponsorship.
@@ -74,57 +75,85 @@ Also, some of this markdown isn’t well-formed, sue me, I had to update it whil
         - Masked?
         - Goggles?
 		
-# POLO -- 34/45 lines, 75%
- - [ ] 5 more lines for small/medium/large piece removed each (meaning extra, minor, and major)
-        - Major: 1 (4)/5
-            @ Ehehe… Didn’t we just start a few minutes ago, ~name~?
-			@ Ehe… Well, it’s not a bad look. (f)
-            @ Don’t be afraid to model a few different angles, ~name~. I’m happy to gaze at your legs. (m, lower)
-            @ So, you’re making me work for your ~revealed~? That’s not a problem. I can beat you again. (m, upper)
-		- Minor: (4)/5
-			@ The sight of ~clothing.ifPlural(them|it)~ on the ~background.surface~ is a good visual indication of your perfromance…
-			@ What do you see, ~other~? <i>I</i> see progress.
-			@ Hope you’re okay with the idea of losing your ~marker.V_revealed~, ~name~. Otherwise, I’d start playing better.
-			@ Thought there might’ve been something like ~revealed.ifPlural(those|that)~ under your ~marker.V_clothing~. (Lower)
-			- (Feet???)
-		- Extra: (4)/5
-			@ You can only take off things like ~clothing.ifPlural(that|those)~ so many times…
-			@ That’s fine with me. You’ll run out eventually, though.
-			@ Ready to lose again?
-            @ I hope you’re ready to lose more than that.
- - [ ] 10 more generic lines for opponents stripping (during-strip stages?)
-        - 2 (3)/10
-            @ Your movements are acceptable.
-            @ Go slowly if you like. My eyes are following your hands…
-            - I suppose I can use my thoughts, then…
+# POLO -- 45/45, 100%
+ - [X] 5 more lines for small/medium/large piece removed each (meaning extra, minor, and major)
+        - Major: 5/5
+            1. Ehehe… Didn’t we just start a few minutes ago, ~name~?
+			2. Ehe… Well, it’s not a bad look. (f)
+            3. Don’t be afraid to model a few different angles, ~name~. I’m happy to gaze at your legs. (m, lower)
+            4. So, you’re making me work for your ~revealed~? That’s not a problem. I can beat you again. (m, upper)
+			5. Fortunately for you, you’re not naked yet. But I <i>am</i> working on it. (f, enf/human)
+		- Minor: 5/5
+			6. The sight of ~clothing.ifPlural(them|it)~ on the ~background.surface~ is a good visual indication of your perfromance…
+			7. What do you see, ~other~? <i>I</i> see progress.
+			8. Hope you’re okay with the idea of losing your ~marker.V_revealed~, ~name~. Otherwise, I’d start playing better.
+			9. Thought there might’ve been something like ~revealed.ifPlural(those|that)~ under your ~marker.V_clothing~. (Lower)
+			10. ~Clothing.ifPlural(they’re not a|it’s not a)~ bad ~marker.V_revealed~.
+		- Extra: 5/5
+			11. You can only take off things like ~clothing.ifPlural(that|those)~ so many times…
+			12. That’s fine with me. You’ll run out eventually, though.
+			13. Ready to lose again?
+            14. I hope you’re ready to lose more than that.
+			15. That’s fine. Patience is a must in my career.
+ - [X] 10 more generic lines for opponents stripping (during-strip stages?)
+        - 10/10
+            16. Your movements are acceptable.
+            17. Go slowly if you like. My eyes are following your hands…
+            18. I suppose I can use my thoughts, then…
+			
+			19. So, what were you listening to through ~clothing.ifPlural(those|the)~ ~V_clothing~? [headphones]
+				- Note: This expands to "those headphones" or "the earpiece"
+			20. I can accept your ~V_clothing~ as a symbol of this victory. [hair_decoration]
+			21. That’s stretching the definition of “clothing” a bit, isnt it? [bag]
+			22. Shorts like those are too bold for my own tastes, but I’ll admit those might have been helping you catch my eye… [shorts, female]
+				- …You probably won’t have trouble with that <i>now,</i> though.
+			23. I don’t have any reason to mind when guys wear shorts. After all, they’re easier to take off. [shorts, male]
+			24. This is certainly a more mundane sort of reveal than what’s in store for you later, isn’t it? [mask, not naked]
+				- I figured you looked something like that.
+			25. Cloth bindings are among the most versatile pieces of clothing. If you write a secret message on cloth, someone looking for it might not realize where it’s gone if you’re wearing it. [wrappings, not major/important]
+			- I suppose it’s not written you can’t count those separately. I can’t judge you for being resourceful… [sleeves]
+			- Try not to worry too much. For most of human history, the traditional swimsuit has been none at all. [swimsuit]
+			- Let me know if you need any help getting out of that. [bodysuit] (different poses depending on male/female/attraction)
+			- … (think) [gloves]
+			- You sure you wouldn’t rather keep those on? (calmer) [gloves, self stage 8/10]
  - [X] 20 more filtered lines targeting character tags of any kind. -- >20/20
         - 2: Creepy
+			26. Don’t worry about me, ~player~. I’ve seen stranger company.
+			27. ~Player~, I’m seeing the concern in your eyes, but this is an ordinary ~weekday~~background.if.day(| night)~ for me.
         - 2: Dumb
+			28. It helps if you match the numbers.
+			29. You might want to go for hands with two cards matching in number, ~name~…
         - 4: Submissive
-            @ You’re so simple-minded, ~name~… Isn’t it cute how you thought you could outplay me?
-            @ You’re welcome to try and cover up your body…if you can. I’ll be watching, ~name~. (enf)
-            @ Go ahead. Try and hide it from me, ~name~. (enm)
-            @ You don’t want to win this hand, ~sub~.
+            30. You’re so simple-minded, ~name~… Isn’t it cute how you thought you could outplay me?
+            31. You’re welcome to try and cover up your body…if you can. I’ll be watching, ~name~. (enf)
+            32. Go ahead. Try and hide it from me, ~name~. (enm)
+            34. You don’t want to win this hand, ~sub~.
         - 2: Shut-In
+			35. Go ahead, ~background.if.outdoors(bare yourself to the world|get naked for us)~. New experiences are good for the mind.
+			36. It’s okay to say how glad you are you went out to~background.time~, ~shut-in~. 
         - 2: Chuunibyou
+			37. ~Name~, right? I’ll be interested in seeing how just how big your vocabulary is.
+			38. I’m not sure I understand the specifics of your powers, ~name~. Could you give us a demonstration?
         - 4: Gothic Lolita
-            @ I can’t say I’ve ever seen a boy dress like that before.<br>You’ve got my attention, ~name~…
-            @ …~Name~. You weren’t expecting to be able to keep that outfit on all game, were you?
-            @ …~Name~. You’re not thinking you can make it this whole game in that outfit, are you?
-            @ …I’ve never seen someone put that much effort into a look like that and still seem this ready to lose it. Let’s see what you have for us, ~name~.
+            39. I can’t say I’ve ever seen a boy dress like that before.<br>You’ve got my attention, ~name~…
+            40. …~Name~. You weren’t expecting to be able to keep that outfit on all game, were you?
+            41. …~Name~. You’re not thinking you can make it this whole game in that outfit, are you?
+            42. …I’ve never seen someone put that much effort into a look like that and still seem this ready to lose it. Let’s see what you have for us, ~name~.
         - 3: Goth
-            @ You’d be surprised how often your look can benefit from a well-placed tie. I could even see ~punk~ pulling one off…
-            @ A well-placed tie makes for a great addition to a number of outfits. I can even picture someone like ~punk~ taking advantage of one.
-            @ I should commend your insight for thinking to include a tie in your look. They’re not just for the polite, honest type.
+            43. You’d be surprised how often your look can benefit from a well-placed tie. I could even see ~punk~ pulling one off…
+            44. A well-placed tie makes for a great addition to a number of outfits. I can even picture someone like ~punk~ taking advantage of one.
+            45. I should commend your insight for thinking to include a tie in your look. They’re not just for the polite, honest type.
         - 2: Weapon
+			- Two questions, ~name~. First: am I unarmed?<br>Second: how many things can you see that could be used as a weapon?
+			- Think carefully.
 
-# OVER-FLY-6494
+# OVER-FLY-6494 -- 5/21, 23%
 - [ ] 21 filtered lines. (As of 2024-03-10)
-		- 4/21 total, 19%
-		? There’s…it’s so full… (intercourse_forfeit/tandem_mf)
-		? …You’re committed to this, aren’t you? (clothing_destruction)
-		? …Are you seeing that too, ~player~? (target right, 0-4 rounds, vanishes_clothing)
-		? …Did you see that too, ~player~? (target left)
+		1. There’s…it’s so full… (intercourse_forfeit/tandem_mf)
+		2. …You’re committed to this, aren’t you? (clothing_destruction)
+		3. …Are you seeing that too, ~player~? (target on right, 0-4 rounds, vanishes_clothing)
+		4. …Did you see that too, ~player~? (target on left, ibid)
+		5. Oh, really? I almost thought you’d save ~clothing.ifPlural(those|that)~ for last. (exhibitionist, not exposed, minor, not upper/lower, not Moon)
 
 
 # REMILLIA, REVISED SPONSORSHIP -- 100%
@@ -140,15 +169,17 @@ Also, some of this markdown isn’t well-formed, sue me, I had to update it whil
         * I wonder if those are as sensitive as mine… I can’t tell from looking alone. Just something to think about…
         * …If you’d like to stand a little closer for a better comparison with mine, feel free.
         * I don’t get what you’re concerned about. Your breasts look perfectly fine.
-    - [ ] Medium: 2/5
+    - [ ] Medium: 3/5
         * Any set is nice, but yours are…the composition, the areolae, the way they fall…they’re hard to look away from.
         * You know, ~name~, courage is one of the thing that resonates with me the most when it comes to other people. …Seeing your body like this too isn’t bad, though.
+		* If you'd like to celebrate yours being bigger than mine, I’ll allow it…as a token of gratitude.
     - [X] Large: 5/5
         * I’m curious, ~name~… With ones of your size, is there anything I'm missing out on?
         * <i>Hmm</i>mm…
         * I might just have to pat you down for contraband, ~name~.
         * …Impressive.
         * <i>(Big breasts…cool.)</i>
+		- I’m content with my own slight frame… I can’t say I dislike seeing yours, though.
 - [X] 3 lines for Visible (Crotch, Female) where she shows interest in it. Any stage -- can be specifically late game if you think that fits her personality most.
     - 10/3
         * There’s nothing unusual about being enthralled by another woman’s figure, is there?
@@ -255,7 +286,6 @@ Also, some of this markdown isn’t well-formed, sue me, I had to update it whil
         * You’d be surprised how often your look can benefit from a well-placed tie. I could even see ~punk~ pulling one off…
     - [ ] Fake Animal Ears 0/2
         - Hidden mic in the ears??
-        -
     - [X] Eyepatch (FUYUHIKO) 2/2
         * After all you’ve been through? I think you can do better than that, ~name~. (!chuunibyou)
         * A game with such intimate stakes like this doesn’t seem like a good place to hold back your powers, ~name~. Do you really need that eyepatch? (chuunibyou)
@@ -278,6 +308,6 @@ Also, some of this markdown isn’t well-formed, sue me, I had to update it whil
     - [ ] Finished
 
 # NON-SPONSORSHIP TO-DO
- - Seek a way to implement gaghpr marker for all hidden pre-response lines (used in targets for an opponent on the right)?
- - Revise lines in general to search for old lines that need rewriting, especially in generics
- - Revise situations
+ - [X] Revise lines in general to search for old lines that need rewriting, especially in generics
+ - [ ] Revise situations
+ - [ ] Seek a way to implement gaghpr marker for all hidden pre-response lines (used in targets for an opponent on the right)?
