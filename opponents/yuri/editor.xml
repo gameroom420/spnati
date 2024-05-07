@@ -112,6 +112,9 @@
         <response id="243" opponent="vriska" opponentId="2" />
         <response id="244" opponent="aimee" opponentId="9" />
         <response id="245" opponent="vriska" opponentId="27" />
+        <response id="270" opponent="sanako" opponentId="1" />
+        <response id="271" opponent="sanako" opponentId="21" />
+        <response id="272" opponent="sanako" opponentId="191" />
     </responses>
     <notes>
         <note id="65">Yuri is described as moving very gracefully in the game, so she's probably wrong here. I think she hums a tune at one point, too? Anyway, don't take her word for it.</note>
@@ -130,7 +133,6 @@ I also extrapolate that Yuri is naturally talented at dancing, as the MC in DDLC
         <note id="135">Yuri is very horny but keeps a lid on it. For example, I have a line to Amy where Yuri admits to masturbating every morning. Making her feel safe enough to discuss her sexuality openly will take some time, but you should do it. That's why we're here, after all.</note>
         <note id="136">Reminder to myself (and you too, Alias) to talk about Barbara's concern over having too much attention to herself, which Yuri can relate to.</note>
         <note id="137">Have Yuri come to suspect Leon may work for the SCP Foundation</note>
-        <note id="143">Note to self: bring up Skynet in subsequent targets</note>
         <note id="148">Have Yuri come to suspect Leon may work for the SCP Foundation</note>
     </notes>
     <labels>
@@ -163,23 +165,109 @@ I also extrapolate that Yuri is naturally talented at dancing, as the MC in DDLC
         <label id="152" label="" color="1" folder="" sort="0" />
         <label id="153" label="" color="1" folder="" sort="0" />
         <label id="154" label="" color="1" folder="" sort="0" />
-        <label id="155" label="" color="4" folder="" sort="0" />
-        <label id="156" label="" color="4" folder="" sort="0" />
-        <label id="157" label="" color="4" folder="" sort="0" />
-        <label id="158" label="" color="4" folder="" sort="0" />
-        <label id="159" label="" color="4" folder="" sort="0" />
+        <label id="250" label="" color="4" folder="" sort="0" />
+        <label id="249" label="" color="4" folder="" sort="0" />
         <label id="160" label="" color="1" folder="" sort="0" />
         <label id="161" label="" color="1" folder="" sort="0" />
         <label id="162" label="" color="1" folder="" sort="0" />
         <label id="163" label="" folder="Player Names" sort="0" />
+        <label id="246" label="" color="4" folder="" sort="0" />
+        <label id="247" label="" color="4" folder="" sort="0" />
+        <label id="248" label="" color="4" folder="" sort="0" />
+        <label id="251" label="" color="4" folder="" sort="0" />
+        <label id="252" label="" color="4" folder="" sort="0" />
+        <label id="253" label="" color="4" folder="" sort="0" />
+        <label id="254" label="" color="4" folder="" sort="0" />
+        <label id="255" label="" color="4" folder="" sort="0" />
+        <label id="256" label="" color="4" folder="" sort="0" />
+        <label id="257" label="" color="4" folder="" sort="0" />
+        <label id="258" label="" color="4" folder="" sort="0" />
+        <label id="259" label="" color="4" folder="" sort="0" />
+        <label id="260" label="" color="4" folder="" sort="0" />
+        <label id="261" label="" color="4" folder="" sort="0" />
+        <label id="262" label="" color="4" folder="" sort="0" />
+        <label id="273" label="" color="4" folder="" sort="0" />
+        <label id="274" label="" color="4" folder="" sort="0" />
+        <label id="275" label="" folder="Player Names" sort="0" />
+        <label id="276" label="" folder="Player Names" sort="0" />
+        <label id="277" label="" folder="Player Names" sort="0" />
+        <label id="278" label="" folder="Player Names" sort="0" />
+        <label id="279" label="" folder="Player Names" sort="0" />
+        <label id="280" label="" folder="Player Names" sort="0" />
+        <label id="281" label="" folder="Player Names" sort="0" />
+        <label id="282" label="" folder="Player Names" sort="0" />
+        <label id="283" label="" folder="Player Names" sort="0" />
+        <label id="285" label="" color="4" folder="" sort="0" />
+        <label id="286" label="" color="4" folder="" sort="0" />
+        <label id="287" label="" color="4" folder="" sort="0" />
+        <label id="288" label="" color="4" folder="" sort="0" />
+        <label id="289" label="" color="4" folder="" sort="0" />
+        <label id="290" label="" color="4" folder="" sort="0" />
+        <label id="291" label="" color="4" folder="" sort="0" />
+        <label id="292" label="" color="4" folder="" sort="0" />
+        <label id="293" label="" color="4" folder="" sort="0" />
+        <label id="294" label="" color="4" folder="" sort="0" />
+        <label id="295" label="" color="4" folder="" sort="0" />
+        <label id="296" label="" color="4" folder="" sort="0" />
+        <label id="297" label="" color="4" folder="" sort="0" />
+        <label id="298" label="" color="4" folder="" sort="0" />
+        <label id="299" label="" color="4" folder="" sort="0" />
+        <label id="300" label="" color="4" folder="" sort="0" />
+        <label id="301" label="" color="4" folder="" sort="0" />
+        <label id="302" label="" color="4" folder="" sort="0" />
+        <label id="303" label="" color="4" folder="" sort="0" />
+        <label id="143" label="" color="4" folder="" sort="0" />
+        <label id="304" label="" color="4" folder="" sort="0" />
+        <label id="305" label="" color="4" folder="" sort="0" />
+        <label id="306" label="" color="4" folder="" sort="0" />
+        <label id="307" label="" color="4" folder="" sort="0" />
+        <label id="308" label="" color="4" folder="" sort="0" />
+        <label id="309" label="" color="4" folder="" sort="0" />
+        <label id="310" label="" color="4" folder="" sort="0" />
+        <label id="311" label="" color="4" folder="" sort="0" />
+        <label id="312" label="" color="4" folder="" sort="0" />
+        <label id="313" label="" color="4" folder="" sort="0" />
+        <label id="314" label="" color="4" folder="" sort="0" />
+        <label id="315" label="" color="4" folder="" sort="0" />
+        <label id="316" label="" color="4" folder="" sort="0" />
+        <label id="317" label="" color="4" folder="" sort="0" />
+        <label id="318" label="" color="4" folder="" sort="0" />
+        <label id="319" label="" color="4" folder="" sort="0" />
+        <label id="320" label="" folder="Player Names" sort="0" />
+        <label id="321" label="" folder="Player Names" sort="0" />
+        <label id="322" label="" folder="Player Names" sort="0" />
+        <label id="323" label="" folder="Player Names" sort="0" />
+        <label id="324" label="" color="4" folder="" sort="0" />
+        <label id="325" label="" color="4" folder="" sort="0" />
+        <label id="326" label="" color="4" folder="" sort="0" />
+        <label id="327" label="" color="4" folder="" sort="0" />
+        <label id="328" label="" color="4" folder="" sort="0" />
+        <label id="329" label="" color="4" folder="" sort="0" />
+        <label id="330" label="" color="4" folder="" sort="0" />
+        <label id="331" label="" color="4" folder="" sort="0" />
+        <label id="332" label="" color="4" folder="" sort="0" />
+        <label id="333" label="" color="4" folder="" sort="0" />
+        <label id="334" label="" color="4" folder="" sort="0" />
+        <label id="335" label="" color="4" folder="" sort="0" />
+        <label id="336" label="" color="4" folder="" sort="0" />
+        <label id="337" label="" color="4" folder="" sort="0" />
+        <label id="338" label="" color="4" folder="" sort="0" />
+        <label id="339" label="" color="4" folder="" sort="0" />
+        <label id="340" label="" color="4" folder="" sort="0" />
+        <label id="341" label="" color="4" folder="" sort="0" />
+        <label id="342" label="" color="4" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>Rouge</prefix>
         <prefix>collectible</prefix>
     </prefixes>
-    <nextId>245</nextId>
+    <nextId>342</nextId>
     <markers>
         <marker scope="Public" name="" />
+        <marker scope="Public" name="9s_bathing" />
+        <marker scope="Public" name="9s_survivingMedia" />
+        <marker scope="Public" name="9s_techSupport" />
+        <marker scope="Public" name="9s_yorha" />
         <marker scope="Public" name="aaravi_monsterTypes" />
         <marker scope="Public" name="aaravi_monsterTypes2" />
         <marker scope="Public" name="aaravi_monsterTypes3" />
@@ -387,6 +475,10 @@ I also extrapolate that Yuri is naturally talented at dancing, as the MC in DDLC
         <marker scope="Public" name="basil_swimming3" />
         <marker scope="Public" name="bobobo_haircut" />
         <marker scope="Public" name="bobobo_haircut2" />
+        <marker scope="Public" name="cagliostro_egotism" />
+        <marker scope="Public" name="cagliostro_family" />
+        <marker scope="Public" name="cagliostro_immortalTime" />
+        <marker scope="Public" name="cagliostro_worldDetails" />
         <marker scope="Public" name="chara_family" />
         <marker scope="Public" name="chara_family2" />
         <marker scope="Public" name="chara_family3" />
@@ -449,6 +541,8 @@ I also extrapolate that Yuri is naturally talented at dancing, as the MC in DDLC
         <marker scope="Public" name="cynthia_success" />
         <marker scope="Public" name="cynthia_success2" />
         <marker scope="Public" name="cynthia_success3" />
+        <marker scope="Public" name="dunban_geography" />
+        <marker scope="Public" name="dunban_poetry" />
         <marker scope="Public" name="emi_legremoval" />
         <marker scope="Public" name="erufuda_homeworld" />
         <marker scope="Public" name="estelle_resp_ddlc" />
@@ -498,8 +592,10 @@ I also extrapolate that Yuri is naturally talented at dancing, as the MC in DDLC
         <marker scope="Public" name="hilda_accessories" />
         <marker scope="Public" name="hilda_accessories2" />
         <marker scope="Public" name="hilda_accessories3" />
+        <marker scope="Public" name="hilda_boys" />
         <marker scope="Public" name="hilda_resp_litClub" />
         <marker scope="Public" name="hilda_resp_litClub2" />
+        <marker scope="Public" name="hilda_resp_litClub3" />
         <marker scope="Public" name="hu_tao_death" />
         <marker scope="Public" name="hu_tao_death2" />
         <marker scope="Public" name="hu_tao_death3" />
@@ -630,6 +726,10 @@ I also extrapolate that Yuri is naturally talented at dancing, as the MC in DDLC
         <marker scope="Public" name="kumatora_resp_psychicPower2" />
         <marker scope="Public" name="kyou_resp_01" />
         <marker scope="Public" name="kyou_sports" />
+        <marker scope="Public" name="kyouko_toshino_artsCrafts" />
+        <marker scope="Public" name="kyouko_toshinou_artsCrafts" />
+        <marker scope="Public" name="kyouko_toshinou_careerGoals" />
+        <marker scope="Public" name="kyouko_toshinou_craftsStart" />
         <marker scope="Public" name="leon_lineOfWork" />
         <marker scope="Public" name="leon_lineOfWork2" />
         <marker scope="Public" name="leon_resp_career" />
@@ -673,14 +773,19 @@ I also extrapolate that Yuri is naturally talented at dancing, as the MC in DDLC
         <marker scope="Public" name="meia_parents3" />
         <marker scope="Public" name="meia_pilot_recruitment" />
         <marker scope="Public" name="meia_pilot_recruitment2" />
+        <marker scope="Public" name="meia_resp_harm" />
         <marker scope="Public" name="meia_resp_partnerOpenUp" />
+        <marker scope="Public" name="meia_resp_partnerOpenUp2" />
         <marker scope="Public" name="meia_resp_spaceInspiration" />
+        <marker scope="Public" name="meia_resp_spaceInspiration2" />
         <marker scope="Public" name="meia_shyness" />
         <marker scope="Public" name="meia_shyness2" />
         <marker scope="Public" name="meia_shyness3" />
         <marker scope="Public" name="meia_socializing" />
         <marker scope="Public" name="meia_socializing2" />
         <marker scope="Public" name="meia_socializing2_female" />
+        <marker scope="Public" name="meia_socializing3" />
+        <marker scope="Public" name="meia_socializing3_female" />
         <marker scope="Public" name="meia_stories" />
         <marker scope="Public" name="meia_stories2" />
         <marker scope="Public" name="meia_stories3" />
@@ -688,6 +793,12 @@ I also extrapolate that Yuri is naturally talented at dancing, as the MC in DDLC
         <marker scope="Public" name="meia_studious2" />
         <marker scope="Public" name="meia_studious3" />
         <marker scope="Public" name="meia_vulnerable" />
+        <marker scope="Public" name="meia_vulnerable2" />
+        <marker scope="Public" name="mia_golden_sun_djinn" />
+        <marker scope="Public" name="mia_golden_sun_flatWorld" />
+        <marker scope="Public" name="mia_golden_sun_partners" />
+        <marker scope="Public" name="mia_golden_sun_psyenergy" />
+        <marker scope="Public" name="mia_golden_sun_weyardLitTradition" />
         <marker scope="Public" name="mikan_nursing" />
         <marker scope="Public" name="mikan_nursing2" />
         <marker scope="Public" name="mikan_nursing3" />
@@ -741,12 +852,23 @@ I also extrapolate that Yuri is naturally talented at dancing, as the MC in DDLC
         <marker scope="Public" name="miko_sword3" />
         <marker scope="Public" name="miku_digital" />
         <marker scope="Public" name="miku_digital2" />
+        <marker scope="Public" name="miku_digitalBlues" />
+        <marker scope="Public" name="miku_performing" />
         <marker scope="Public" name="miku_resp_harryPotter" />
+        <marker scope="Public" name="miku_songwriting" />
+        <marker scope="Public" name="mitama_beingForward" />
+        <marker scope="Public" name="mitama_hoshidoNovels" />
         <marker scope="Public" name="mitama_journal" />
+        <marker scope="Public" name="mitama_journal2" />
+        <marker scope="Public" name="mitama_oldPoems" />
         <marker scope="Public" name="mitama_resp_horror" />
+        <marker scope="Public" name="mitama_resp_horror2" />
         <marker scope="Public" name="mitama_resp_inspiration" />
+        <marker scope="Public" name="mitama_resp_inspiration2" />
         <marker scope="Public" name="mitama_resp_supremacy" />
+        <marker scope="Public" name="mitama_resp_supremacy2" />
         <marker scope="Public" name="mitama_resp_writing" />
+        <marker scope="Public" name="mitama_resp_writing2" />
         <marker scope="Public" name="monika_bobobo_playerTalk" />
         <marker scope="Public" name="monika_bobobo_playerTalk2" />
         <marker scope="Public" name="monika_her_idea" />
@@ -760,9 +882,13 @@ I also extrapolate that Yuri is naturally talented at dancing, as the MC in DDLC
         <marker scope="Public" name="msfortune_resp_beautiful" />
         <marker scope="Public" name="myriam_tricks" />
         <marker scope="Public" name="nadeshiko_culinaryTrad" />
+        <marker scope="Public" name="nagisa_clubRecruitment" />
         <marker scope="Public" name="nagisa_dog_ear" />
         <marker scope="Public" name="nagisa_dramaClubBudget" />
+        <marker scope="Public" name="nagisa_genre" />
+        <marker scope="Public" name="nagisa_makingFriends" />
         <marker scope="Public" name="nagisa_teaLibrary" />
+        <marker scope="Public" name="nagisa_theater" />
         <marker scope="Public" name="nami_bikini" />
         <marker scope="Public" name="nami_bikini2" />
         <marker scope="Public" name="nami_bikini3" />
@@ -876,8 +1002,15 @@ I also extrapolate that Yuri is naturally talented at dancing, as the MC in DDLC
         <marker scope="Public" name="neptune_world_atmosphere2" />
         <marker scope="Public" name="neptune_world_atmosphere3" />
         <marker scope="Public" name="nickname" />
+        <marker scope="Public" name="nico_robin_currentResearch" />
+        <marker scope="Public" name="nico_robin_horrorLit" />
+        <marker scope="Public" name="nico_robin_peerTrouble" />
+        <marker scope="Public" name="nico_robin_poneglyphs" />
+        <marker scope="Public" name="nico_robin_sexAdvice" />
         <marker scope="Public" name="noire_worship" />
         <marker scope="Public" name="noire_worship2" />
+        <marker scope="Public" name="nonon_musicHistory" />
+        <marker scope="Public" name="nonon_resp_notReading" />
         <marker scope="Public" name="perona_" />
         <marker scope="Public" name="perona_career" />
         <marker scope="Public" name="perona_career2" />
@@ -990,6 +1123,8 @@ I also extrapolate that Yuri is naturally talented at dancing, as the MC in DDLC
         <marker scope="Public" name="samus_metroids" />
         <marker scope="Public" name="samus_metroids2" />
         <marker scope="Public" name="samus_metroids3" />
+        <marker scope="Public" name="sanako_maturityFriends" />
+        <marker scope="Public" name="sanako_resp_openingUp" />
         <marker scope="Public" name="sayori_headache" />
         <marker scope="Public" name="sayori_pokerTips" />
         <marker scope="Public" name="sayori_sisyphus" />
@@ -1031,6 +1166,15 @@ I also extrapolate that Yuri is naturally talented at dancing, as the MC in DDLC
         <marker scope="Public" name="senko_warmtea" />
         <marker scope="Public" name="senko_warmtea2" />
         <marker scope="Public" name="senko_warmtea3" />
+        <marker scope="Public" name="shamiko_dailyLife" />
+        <marker scope="Public" name="shamiko_horns" />
+        <marker scope="Public" name="shamiko_hospitalReading" />
+        <marker scope="Public" name="shamiko_resp_comingonstrong" />
+        <marker scope="Public" name="sofia_highSociety" />
+        <marker scope="Public" name="sofia_irony" />
+        <marker scope="Public" name="steve_college" />
+        <marker scope="Public" name="steve_kids" />
+        <marker scope="Public" name="steve_upsideDown" />
         <marker scope="Public" name="stocking_gothicLolita" />
         <marker scope="Public" name="stocking_gothicLolita2" />
         <marker scope="Public" name="stocking_resp_YuriGothic" />
@@ -1096,6 +1240,9 @@ I also extrapolate that Yuri is naturally talented at dancing, as the MC in DDLC
         <marker scope="Public" name="susie_bookrec_fog" />
         <marker scope="Public" name="susie_bookrec_stabwound" />
         <marker scope="Public" name="target_notLargeBreasts" />
+        <marker scope="Public" name="tea_gardner_danceIndustry" />
+        <marker scope="Public" name="tea_gardner_danceStart" />
+        <marker scope="Public" name="tea_gardner_danceVenue" />
         <marker scope="Public" name="tomoko_" />
         <marker scope="Public" name="tomoko_attitude" />
         <marker scope="Public" name="tomoko_friends" />
@@ -1118,13 +1265,24 @@ I also extrapolate that Yuri is naturally talented at dancing, as the MC in DDLC
         <marker scope="Public" name="tomoko_yuriName" />
         <marker scope="Public" name="tomoko_yuriName2" />
         <marker scope="Public" name="tomoko_yuriName3" />
+        <marker scope="Public" name="toph_appearance" />
+        <marker scope="Public" name="toph_leavingHome" />
+        <marker scope="Public" name="toph_newSchool" />
         <marker scope="Public" name="twisted_fate_pokerPro" />
         <marker scope="Public" name="twisted_fate_pokerPro2" />
         <marker scope="Public" name="twisted_fate_resp_elegant" />
         <marker scope="Public" name="wasp_resp_scars" />
+        <marker scope="Public" name="wikipetan_WPdetail" />
+        <marker scope="Public" name="wikipetan_WPideologies" />
+        <marker scope="Public" name="wikipetan_WPorigin" />
+        <marker scope="Public" name="yae_miko_resp_bookPreferences" />
+        <marker scope="Public" name="yae_miko_resp_bookPreferences2" />
+        <marker scope="Public" name="yae_miko_resp_bookPreferences3" />
         <marker scope="Public" name="yuelia_cuddlefuck" />
         <marker scope="Public" name="yuelia_kamaSutra" />
         <marker scope="Public" name="yuelia_servicing" />
+        <marker scope="Public" name="yumeko_safeFiction" />
+        <marker scope="Public" name="yumeko_therapy" />
         <marker scope="Public" name="yuna_ghostPoem" />
         <marker scope="Public" name="yuna_ghostPoem2" />
         <marker scope="Public" name="yuna_ghostPoem3" />
@@ -1200,6 +1358,36 @@ I also extrapolate that Yuri is naturally talented at dancing, as the MC in DDLC
         <recipe key="dba5778a-dbed-4079-9052-d204275d6f93">
             <cases>
                 <id>56</id>
+            </cases>
+        </recipe>
+        <recipe key="1ac2b058-5e06-4321-9ea7-d6bc3098748e">
+            <cases>
+                <id>263</id>
+            </cases>
+        </recipe>
+        <recipe key="5fee06f1-d467-44e0-a256-1d46c2d934a5">
+            <cases>
+                <id>266</id>
+            </cases>
+        </recipe>
+        <recipe key="9834f3a8-b3ef-4db0-898f-2b7670e2ebf8">
+            <cases>
+                <id>267</id>
+            </cases>
+        </recipe>
+        <recipe key="dda5ea56-aea2-4311-a713-63b5d16f0333">
+            <cases>
+                <id>268</id>
+            </cases>
+        </recipe>
+        <recipe key="65bff87f-6768-4cc7-8d96-bf1223df4282">
+            <cases>
+                <id>269</id>
+            </cases>
+        </recipe>
+        <recipe key="0d87dfba-c55a-4467-bdf2-bbc4cd32748d">
+            <cases>
+                <id>284</id>
             </cases>
         </recipe>
     </recipes>
