@@ -24,6 +24,9 @@
         <case name="Commando" id="18" priority="Noteworthy" min="0" max="0">
             <description>Sanny's skirt lifts just enough to show off that she's wearing no underwear. </description>
         </case>
+        <case name="Futa Sex" id="19" priority="Noteworthy" min="6" max="6">
+            <description>Sanny and Tess have a chance to have sex with each other. This chance becomes a guarantee if they see other characters enter a dual forfeit.</description>
+        </case>
     </noteworthy>
     <reviewed>true</reviewed>
     <responses>
@@ -40,7 +43,7 @@
         <note id="9">The ending sucked anyway, don't worry, Tess.</note>
         <note id="16">will probably delete this after some time</note>
     </notes>
-    <nextId>18</nextId>
+    <nextId>19</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="COCK" />
@@ -75,6 +78,10 @@
         <marker scope="Public" name="ST_Aru1" />
         <marker scope="Public" name="ST_Aru2" />
         <marker scope="Public" name="ST_Dreamcatcher1" />
+        <marker scope="Public" name="ST_SexMarker" />
+        <marker scope="Public" name="ST_SexStart1" />
+        <marker scope="Public" name="ST_SexStart2" />
+        <marker scope="Public" name="ST_Start2" />
         <marker scope="Public" name="ST_treasureScope1" />
         <marker scope="Public" name="ST_treasureScope2" />
         <marker scope="Public" name="stjura1" />
@@ -102,6 +109,9 @@
         <marker scope="Public" name="wikiGirls13" />
         <marker scope="Public" name="wikiGirls14" />
         <marker scope="Public" name="wikiGirls15" />
+        <marker scope="Public" name="wikiGirls16" />
+        <marker scope="Public" name="wikiGirls17" />
+        <marker scope="Public" name="wikiGirls18" />
         <marker scope="Public" name="wikiGirls2" />
         <marker scope="Public" name="wikiGirls3" />
         <marker scope="Public" name="wikiGirls4" />
