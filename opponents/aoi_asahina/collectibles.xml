@@ -7,12 +7,12 @@
         <wearable>true</wearable>
         <clothing img="opponents/aoi_asahina/attachments/part-legband(scrunch).png" name="legband" generic="" position="legs" type="extra" />
     </collectible>
-    <collectible id="dr_udg" status="online" img="opponents/aoi_asahina/DR3.png" thumbnail="opponents/aoi_asahina/DR3preview.png">
+    <collectible id="hina_dr3" status="online" img="opponents/aoi_asahina/DR3.png" thumbnail="opponents/aoi_asahina/DR3preview.png">
         <title>Danganronpa 3?</title>
         <text>Team Danganronpa is at it again with a bolder take on the series. Such despair!</text>
         <unlock>Have Hina leave the group to go swimming on a background with water.</unlock>
     </collectible>
-    <collectible id="hina_underwear" status="offline">
+    <collectible id="hina_underwear" status="online" img="opponents/aoi_asahina/collectibles/underwear.png">
         <title>Hina's Underwear</title>
         <text>Team Danganronpa is at it again with a bolder take on the series. Such despair!</text>
         <unlock>Outlast Hina in a game with three other Danganronpa characters.</unlock>

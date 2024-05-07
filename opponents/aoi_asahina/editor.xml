@@ -181,7 +181,7 @@
         <label id="145" label="Socks (Override)" folder="Overrides" sort="0" />
         <label id="146" label="" folder="Situations" sort="0" />
         <label id="147" label="Unlocks Collectible" folder="Sequences" sort="0" />
-        <label id="148" label="Collectible" folder="" sort="0" />
+        <label id="148" label="Collectible Legband" folder="" sort="0" />
         <label id="149" label="DR Table" folder="" sort="0" />
         <label id="152" label="First Round Positive" folder="Sequences" sort="0" />
         <label id="153" label="First Round Negative" folder="Sequences" sort="0" />
@@ -279,9 +279,17 @@
         <label id="275" label="Swim Link 7" color="6" folder="Sequences" sort="0" />
         <label id="276" label="Friend Penis Kokichi" folder="Sequences" sort="0" />
         <label id="279" label="Swim Link End" color="15" folder="" sort="0" />
+        <label id="280" label="Hina Swim Collectible" folder="" sort="0" />
+        <label id="281" label="Hina Swim Collectible" folder="" sort="0" />
+        <label id="282" label="Collectible DR3" folder="" sort="0" />
+        <label id="283" label="Collectible DR3" folder="" sort="0" />
+        <label id="284" label="" folder="Target: Ringo" sort="0" />
+        <label id="285" label="" folder="Target: Ringo" sort="0" />
     </labels>
-    <nextId>279</nextId>
+    <nextId>285</nextId>
     <markers>
+        <marker scope="Public" name="aoi_hairstyles" />
+        <marker scope="Public" name="aoi_names" />
         <marker scope="Private" name="B_">Background related markers.</marker>
         <marker scope="Public" name="B_BeachTan" />
         <marker scope="Public" name="B_DRClassroom" />
@@ -446,6 +454,8 @@
         <marker scope="Public" name="TI_Ringo_01Voice" />
         <marker scope="Public" name="TI_Ringo_02DarkMagic" />
         <marker scope="Public" name="TI_Ringo_03DarkMagic" />
+        <marker scope="Public" name="TI_Ringo_21Swim" />
+        <marker scope="Public" name="TI_Ringo_21SwimDuo" />
         <marker scope="Public" name="TI_Ringo_43" />
         <marker scope="Public" name="TI_Ringo_51Seen" />
         <marker scope="Public" name="TI_Rosa_01" />
