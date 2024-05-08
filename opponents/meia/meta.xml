@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1714836534062</lastupdate>
+    <lastupdate>1715164646363</lastupdate>
     <enabled>true</enabled>
     <first>Meia</first>
     <last>Gisborn</last>
@@ -17,6 +17,7 @@
     <default-costume-name>Pilot Suit</default-costume-name>
     <alternates>
         <costume folder="opponents/reskins/meia_cupid/" img="0-start.png" set="valentines" status="online" label="Meia">Cupid Meia</costume>
+        <costume folder="opponents/reskins/meia_soaking_wet/" set="summer" status="unlisted" label="Meia" layers="3">Soaking Wet</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
     <lines>25548</lines>
