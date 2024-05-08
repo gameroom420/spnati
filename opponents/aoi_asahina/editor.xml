@@ -288,6 +288,7 @@
     </labels>
     <nextId>285</nextId>
     <markers>
+        <marker scope="Public" name="" />
         <marker scope="Public" name="aoi_hairstyles" />
         <marker scope="Public" name="aoi_names" />
         <marker scope="Private" name="B_">Background related markers.</marker>
