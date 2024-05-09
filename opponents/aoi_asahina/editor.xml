@@ -285,12 +285,10 @@
         <label id="283" label="Collectible DR3" folder="" sort="0" />
         <label id="284" label="" folder="Target: Ringo" sort="0" />
         <label id="285" label="" folder="Target: Ringo" sort="0" />
+        <label id="286" label="Collectible DR3" folder="" sort="0" />
     </labels>
-    <nextId>285</nextId>
+    <nextId>286</nextId>
     <markers>
-        <marker scope="Public" name="" />
-        <marker scope="Public" name="aoi_hairstyles" />
-        <marker scope="Public" name="aoi_names" />
         <marker scope="Private" name="B_">Background related markers.</marker>
         <marker scope="Public" name="B_BeachTan" />
         <marker scope="Public" name="B_DRClassroom" />
@@ -316,7 +314,6 @@
         <marker scope="Public" name="F_RobotDR" />
         <marker scope="Public" name="F_RobotEarly" />
         <marker scope="Private" name="L_">Linked dialogue that form sequences.</marker>
-        <marker scope="Public" name="L_AoiReturns" />
         <marker scope="Public" name="L_BigRisk" />
         <marker scope="Public" name="L_ChihiroCharm1" />
         <marker scope="Public" name="L_ChihiroCharm2" />
