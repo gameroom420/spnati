@@ -47,6 +47,8 @@ namespace SPNATI_Character_Editor.Providers
 				c.Wardrobe.Add(new Clothing() { GenericName = "", Name = "first layer", Position = "upper", Type = "important" });
 				c.Behavior.EnsureDefaults(c);
 
+				c.Breasts = "medium";
+
 				c.Intelligence.Add(new StageSpecificValue(0, "average"));
 
 				Serialization.ExportCharacter(c);

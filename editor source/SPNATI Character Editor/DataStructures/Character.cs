@@ -343,7 +343,6 @@ namespace SPNATI_Character_Editor
 			LastName = "Character";
 			Labels = new ObservableCollection<StageSpecificValue>();
 			Gender = "female";
-			Breasts = "medium";
 			Intelligence = new ObservableCollection<StageSpecificValue>();
 			Stamina = 15;
 			Tags = new List<CharacterTag>();
