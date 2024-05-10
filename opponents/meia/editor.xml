@@ -79,7 +79,6 @@
         <note id="327">revising</note>
         <note id="661">I can give these different markers if you want</note>
         <note id="698">I'm intentionally preserving the misunderstanding, but I can revise this if you were expecting an actual explanation</note>
-        <note id="754">Meia doesn't mean quite the same thing, but close enough for a misunderstanding</note>
         <note id="1009">(Meia wouldn't have a lot of experience with animals/mammals)</note>
         <note id="1328">could set up an interaction where they could both take sips (maybe share a cup?)</note>
         <note id="1331">could do an interaction where Perona thinks Pyoro is squishy/stuffed, but then realizes he's metal and tosses him back</note>
@@ -175,7 +174,7 @@
         <label id="1197" label="" color="4" folder="" sort="0" />
         <label id="750" label="" color="4" folder="" sort="0" />
         <label id="1207" label="" color="4" folder="" sort="0" />
-        <label id="754" label="" color="4" folder="" sort="0" />
+        <label id="1883" label="" color="4" folder="" sort="0" />
         <label id="525" label="" color="4" folder="" sort="0" />
         <label id="374" label="" color="4" folder="" sort="0" />
         <label id="423" label="" color="4" folder="" sort="0" />
@@ -879,7 +878,7 @@
         <label id="1543" label="" color="10" folder="" sort="0" />
         <label id="1544" label="" color="10" folder="" sort="0" />
         <label id="1545" label="" color="4" folder="" sort="0" />
-        <label id="1854" label="" color="4" folder="" sort="0" />
+        <label id="1869" label="" color="4" folder="" sort="0" />
         <label id="1851" label="" color="4" folder="" sort="0" />
         <label id="1557" label="" color="6" folder="" sort="0" />
         <label id="1558" label="" color="6" folder="" sort="0" />
@@ -894,7 +893,7 @@
         <label id="1567" label="" color="4" folder="" sort="0" />
         <label id="1858" label="" color="4" folder="" sort="0" />
         <label id="1618" label="" color="4" folder="" sort="0" />
-        <label id="1853" label="" color="4" folder="" sort="0" />
+        <label id="1868" label="" color="4" folder="" sort="0" />
         <label id="1741" label="" color="4" folder="" sort="0" />
         <label id="1603" label="" color="6" folder="" sort="0" />
         <label id="1709" label="" color="4" folder="" sort="0" />
@@ -967,23 +966,22 @@
         <label id="1784" label="" color="4" folder="" sort="0" />
         <label id="1785" label="" color="4" folder="" sort="0" />
         <label id="1787" label="" color="4" folder="" sort="0" />
-        <label id="1822" label="" color="4" folder="" sort="0" />
-        <label id="1820" label="" color="4" folder="" sort="0" />
+        <label id="1873" label="" color="4" folder="" sort="0" />
+        <label id="1872" label="" color="4" folder="" sort="0" />
         <label id="1818" label="" color="4" folder="" sort="0" />
-        <label id="1821" label="" color="4" folder="" sort="0" />
+        <label id="1874" label="" color="4" folder="" sort="0" />
         <label id="1803" label="" color="4" folder="" sort="0" />
         <label id="1804" label="" color="4" folder="" sort="0" />
         <label id="1809" label="" color="4" folder="" sort="0" />
         <label id="1810" label="" color="4" folder="" sort="0" />
-        <label id="1838" label="" color="4" folder="" sort="0" />
         <label id="1839" label="" color="4" folder="" sort="0" />
-        <label id="1817" label="" color="4" folder="" sort="0" />
-        <label id="1819" label="" color="4" folder="" sort="0" />
+        <label id="1877" label="" color="4" folder="" sort="0" />
+        <label id="1880" label="" color="4" folder="" sort="0" />
         <label id="1840" label="" color="4" folder="" sort="0" />
         <label id="1841" label="" color="4" folder="" sort="0" />
         <label id="1842" label="" color="4" folder="" sort="0" />
         <label id="1843" label="" color="4" folder="" sort="0" />
-        <label id="1844" label="" color="4" folder="" sort="0" />
+        <label id="1882" label="" color="4" folder="" sort="0" />
         <label id="1845" label="" color="4" folder="" sort="0" />
         <label id="1846" label="" color="4" folder="" sort="0" />
         <label id="1847" label="" color="4" folder="" sort="0" />
@@ -992,14 +990,18 @@
         <label id="1850" label="" color="4" folder="" sort="0" />
         <label id="1859" label="" color="4" folder="" sort="0" />
         <label id="1860" label="" color="4" folder="" sort="0" />
-        <label id="1861" label="" color="4" folder="" sort="0" />
+        <label id="1871" label="" color="4" folder="" sort="0" />
         <label id="1862" label="" color="4" folder="" sort="0" />
         <label id="1863" label="" color="7" folder="" sort="0" />
         <label id="1864" label="" color="5" folder="" sort="0" />
         <label id="1865" label="" color="5" folder="" sort="0" />
         <label id="1866" label="" color="5" folder="" sort="0" />
+        <label id="1867" label="" color="4" folder="" sort="0" />
+        <label id="1875" label="" color="4" folder="" sort="0" />
+        <label id="1876" label="" color="4" folder="" sort="0" />
+        <label id="1881" label="" color="4" folder="" sort="0" />
     </labels>
-    <nextId>1866</nextId>
+    <nextId>1883</nextId>
     <markers>
         <marker scope="Public" name="2butt">Meia shows off her butt while still in her bodysuit (or Cupid outfit).</marker>
         <marker scope="Public" name="9s0" />
@@ -2453,6 +2455,9 @@
         <marker scope="Public" name="leviathan_resp01" />
         <marker scope="Public" name="leviathan0" />
         <marker scope="Public" name="leviathan01" />
+        <marker scope="Public" name="leviathan1" />
+        <marker scope="Public" name="leviathan1s" />
+        <marker scope="Public" name="leviathan4" />
         <marker scope="Public" name="lizbluehair">Meia tells Elizabeth that she should not be confined to anyone else's restrictions over her hair.</marker>
         <marker scope="Public" name="lizmen">Meia tells Elizabeth about the first man she ever saw in person.</marker>
         <marker scope="Public" name="lucina_men" />
@@ -3127,9 +3132,14 @@
         <marker scope="Public" name="nayru_mj">Meia claims to Nayru that she is only playing out of curiosity about men, not to relax.</marker>
         <marker scope="Public" name="nephenee_resp0" />
         <marker scope="Public" name="nephenee_resp01" />
+        <marker scope="Public" name="nephenee_resp1" />
+        <marker scope="Public" name="nephenee_resp2" />
         <marker scope="Public" name="nephenee0" />
         <marker scope="Public" name="nephenee01" />
         <marker scope="Public" name="nephenee1" />
+        <marker scope="Public" name="nephenee12" />
+        <marker scope="Public" name="nephenee1s" />
+        <marker scope="Public" name="nephenee3" />
         <marker scope="Public" name="neptune_bath" />
         <marker scope="Public" name="neptune_find" />
         <marker scope="Public" name="neptune_meninfo" />
@@ -3518,13 +3528,16 @@
         <marker scope="Public" name="roll_caskett_pwm0" />
         <marker scope="Public" name="roll_caskett_resp0" />
         <marker scope="Public" name="roll_caskett_resp01" />
+        <marker scope="Public" name="roll_caskett_resp1" />
         <marker scope="Public" name="roll_caskett_sm0" />
         <marker scope="Public" name="roll_caskett0" />
         <marker scope="Public" name="roll_caskett01" />
         <marker scope="Public" name="roll_caskett1" />
         <marker scope="Public" name="roll_caskett12" />
         <marker scope="Public" name="roll_caskett1s" />
+        <marker scope="Public" name="roll_caskett2s" />
         <marker scope="Public" name="roll_caskett3" />
+        <marker scope="Public" name="roll_caskett34" />
         <marker scope="Public" name="roll0" />
         <marker scope="Public" name="rosa_bb0" />
         <marker scope="Public" name="rosa_lg0" />
@@ -4027,10 +4040,13 @@
         <marker scope="Public" name="yae_miko_resp1" />
         <marker scope="Public" name="yae_miko_resp12" />
         <marker scope="Public" name="yae_miko_resp2" />
+        <marker scope="Public" name="yae_miko_resp23" />
         <marker scope="Public" name="yae_miko_resp3" />
+        <marker scope="Public" name="yae_miko_resp34" />
         <marker scope="Public" name="yae_miko_sightseeing" />
         <marker scope="Public" name="yae_miko0" />
         <marker scope="Public" name="yae_miko01" />
+        <marker scope="Public" name="yae_miko1" />
         <marker scope="Public" name="yae_miko1s" />
         <marker scope="Public" name="yae_miko2" />
         <marker scope="Public" name="yae_miko23" />
@@ -4091,6 +4107,7 @@
         <marker scope="Public" name="yshtola2" />
         <marker scope="Public" name="yshtola23" />
         <marker scope="Public" name="yshtola2s" />
+        <marker scope="Public" name="yshtola3" />
         <marker scope="Public" name="yshtola3s" />
         <marker scope="Public" name="yuelia_andy">Meia replies to one of Yuelia's prompt markers about her friends.</marker>
         <marker scope="Public" name="yuelia_bad">Meia doubts Yuelia's/Flutter's assurances that nothing bad will happen to her if she goes unarmed.</marker>
