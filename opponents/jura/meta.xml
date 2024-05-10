@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1715164638456</lastupdate>
+    <lastupdate>1715346686942</lastupdate>
     <enabled>true</enabled>
     <first>Jura</first>
     <last>Basil Elden</last>
@@ -18,10 +18,10 @@
     <alternates>
         <costume folder="opponents/reskins/jura_santa/" img="0-start.png" set="xmas" status="online" label="Jura">Santa Jura</costume>
         <costume folder="opponents/reskins/jura_chief_barnette/" img="0-start.png" status="online" label="Jura">Chief Barnette</costume>
-        <costume folder="opponents/reskins/jura_white-hot/" set="summer" status="unlisted" label="Jura" layers="3">White-Hot</costume>
+        <costume folder="opponents/reskins/jura_white-hot/" set="summer" status="unlisted" label="Jura" layers="4">White-Hot</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>15846</lines>
+    <lines>15886</lines>
     <poses>565</poses>
     <z-index>1</z-index>
 </opponent>
