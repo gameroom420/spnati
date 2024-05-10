@@ -12,4 +12,9 @@
         <text>Team Danganronpa is at it again with a bolder take on the series. Such despair!</text>
         <unlock>Have Hina leave the group to go swimming on a background with water.</unlock>
     </collectible>
+    <collectible id="hina_underpants" status="online" img="opponents/aoi_asahina/6-stripping.png" thumbnail="opponents/aoi_asahina/collectibles/underwear.png">
+        <title>Hina's underpants</title>
+        <text>It seems like Hopes Peak students give their friends underwear.</text>
+        <unlock>Outlast Hina in a game with three other Danganronpa characters (you don't have to win).</unlock>
+    </collectible>
 </collectibles>
