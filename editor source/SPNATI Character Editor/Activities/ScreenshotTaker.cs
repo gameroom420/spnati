@@ -61,15 +61,41 @@ namespace SPNATI_Character_Editor.Activities
 			return $"{Math.Round(size, 2)} KB";
 		}
 
+		static readonly byte[] PngPreamble = {
+			// Signature
+			0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A,
+			// Beginning of IHDR Chunk
+			0x00, 0x00, 0x00, 0x0D,  // Length: 13
+			0x49, 0x48, 0x44, 0x52,  // Type: IHDR
+		};
+
 		private bool IsCompressed(string filename)
 		{
-			string dir = Path.Combine(_character.GetBackupDirectory(), "images");
-			if (!Directory.Exists(dir))
+			string dir = _character.GetDirectory();
+			string path = Path.Combine(dir, filename);
+			if (!File.Exists(path))
 			{
 				return false;
 			}
-			string path = Path.Combine(dir, filename);
-			return File.Exists(path);
+
+			using (FileStream stream = File.Open(path, FileMode.Open))
+			{
+				using (BinaryReader reader = new BinaryReader(stream))
+				{
+					byte[] preamble = reader.ReadBytes(PngPreamble.Length);
+					if (!PngPreamble.SequenceEqual(preamble))
+					{
+						// invalid
+						return false;
+					}
+
+					reader.ReadBytes(8);  // Skip image width and height
+					reader.ReadByte();  // Skip bit depth, assumed 8 bits per channel
+
+					byte colorType = reader.ReadByte();
+					return colorType == 3;  // Indexed color
+				}
+			}
 		}
 
 		private void cmdImport_Click(object sender, EventArgs e)
@@ -143,34 +169,6 @@ namespace SPNATI_Character_Editor.Activities
 				return row.Selected;
 			});
 			Compress(images);
-		}
-
-		private void cmdMarkCompressed_Click(object sender, EventArgs e)
-		{
-			List<string> images = CompileCompressionList((file, row) =>
-			{
-				return row.Selected;
-			});
-			string srcDir = _character.GetDirectory();
-			string dir = Path.Combine(_character.GetBackupDirectory(), "images");
-			if (!Directory.Exists(dir))
-			{
-				Directory.CreateDirectory(dir);
-			}
-			foreach (string file in images)
-			{
-				string sourcePath = Path.Combine(srcDir, file);
-				string compressedPath = Path.Combine(dir, file);
-				try
-				{
-					if (!File.Exists(compressedPath))
-					{
-						File.Copy(sourcePath, compressedPath);
-					}
-				}
-				catch { }
-			}
-			PopulateFileList();
 		}
 
 		private List<string> CompileCompressionList(Func<string, DataGridViewRow, bool> filter)
