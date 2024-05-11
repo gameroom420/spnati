@@ -283,6 +283,17 @@
         <response id="608" opponent="nagisa" opponentId="1869" />
         <response id="609" opponent="nagisa" opponentId="1879" />
         <response id="610" opponent="nagisa" opponentId="1890" />
+        <response id="616" opponent="sayori" opponentId="12" />
+        <response id="617" opponent="amy" opponentId="258" />
+        <response id="618" opponent="amy" opponentId="244" />
+        <response id="619" opponent="sayori" opponentId="1069" />
+        <response id="620" opponent="joey" opponentId="201" />
+        <response id="624" opponent="turandot" opponentId="4" />
+        <response id="631" opponent="maria" opponentId="35" />
+        <response id="638" opponent="yuri" opponentId="274" />
+        <response id="642" opponent="meia" opponentId="2" />
+        <response id="644" opponent="nagatoro" opponentId="993" />
+        <response id="645" opponent="nagatoro" opponentId="79" />
     </responses>
     <notes>
         <note id="159">This is a lie.</note>
@@ -294,6 +305,7 @@
         <note id="437">Manual priority set lower than 150 to avoid overriding Sanako's stripping interactions. Natural priority for this case would normally be 241.</note>
         <note id="450">This covers both Adrien and Marinette being the one to finish. The marker is shared, but the actual target is fliexble.</note>
         <note id="451">This covers both Adrien and Marinette being the one to finish. The marker is shared, but the actual target is fliexble.</note>
+        <note id="630">Saying Text "athetic" to try to capture "Pathetic" regardless of capitalization.</note>
     </notes>
     <labels>
         <label id="2" label="sandals" folder="" sort="0" />
@@ -900,12 +912,44 @@
         <label id="611" label="" folder="Natsuki and Nagisa to right" sort="0" />
         <label id="612" label="" folder="Natsuki and Nagisa to right" sort="0" />
         <label id="613" label="" folder="Natsuki and Nagisa to right" sort="0" />
+        <label id="614" label="Also Playing: Yuri" folder="Yuri to left" sort="0" />
+        <label id="615" label="Also Playing: Yuri" folder="Yuri to left" sort="0" />
+        <label id="616" label="" folder="Sayori to left" sort="0" />
+        <label id="617" label="" folder="Amy to left or right" sort="0" />
+        <label id="619" label="" folder="Sayori to left" sort="0" />
+        <label id="618" label="" folder="Amy to left or right" sort="0" />
+        <label id="620" label="" folder="Joey to left" sort="0" />
+        <label id="621" label="" folder="Moon to left" sort="0" />
+        <label id="622" label="" folder="Moon to left" sort="0" />
+        <label id="623" label="" folder="Moon to left" sort="0" />
+        <label id="624" label="" folder="Turandot to left" sort="0" />
+        <label id="625" label="" folder="Aimee to left or right" sort="0" />
+        <label id="626" label="" folder="Aimee to left or right" sort="0" />
+        <label id="627" label="" folder="Turandot to left" sort="0" />
+        <label id="628" label="" folder="Turandot to left" sort="0" />
+        <label id="629" label="" folder="Binah to left" sort="0" />
+        <label id="630" label="" folder="Binah to left" sort="0" />
+        <label id="631" label="" folder="Maria to left" sort="0" />
+        <label id="632" label="" folder="Maria to left" sort="0" />
+        <label id="633" label="" folder="Maria to left" sort="0" />
+        <label id="634" label="" folder="Maria to left" sort="0" />
+        <label id="635" label="" folder="Maria to left" sort="0" />
+        <label id="636" label="" folder="Maria to left" sort="0" />
+        <label id="637" label="" folder="Yuri to right" sort="0" />
+        <label id="638" label="" folder="Yuri to left" sort="0" />
+        <label id="639" label="" folder="Yuri to right" sort="0" />
+        <label id="640" label="" folder="Mei to left or right" sort="0" />
+        <label id="641" label="" folder="Mei to left or right" sort="0" />
+        <label id="642" label="" folder="Revy and Meia to left or right" sort="0" />
+        <label id="643" label="" folder="Revy and Meia to left or right" sort="0" />
+        <label id="644" label="Also Playing: Nagatoro" folder="Nagatoro to left" sort="0" />
+        <label id="645" label="Also Playing: Nagatoro" folder="Nagatoro to left" sort="0" />
     </labels>
     <prefixes>
         <prefix>collectible_</prefix>
         <prefix>x-</prefix>
     </prefixes>
-    <nextId>613</nextId>
+    <nextId>645</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="sanako_adrien_marinette_dual" />
@@ -917,6 +961,8 @@
         <marker scope="Public" name="sanako_ae86_selected_street" />
         <marker scope="Public" name="sanako_age_uncertainty">If Nagisa is not playing, Sanako can almost introduce herself as her real age.</marker>
         <marker scope="Public" name="sanako_alley_selected" />
+        <marker scope="Public" name="sanako_amy_butt" />
+        <marker scope="Public" name="sanako_amy_undoing_braids" />
         <marker scope="Public" name="sanako_aqua_goddess_accomplis" />
         <marker scope="Public" name="sanako_aqua_goddess_accomplishments_boast_1" />
         <marker scope="Public" name="sanako_aqua_goddess_duties_1" />
@@ -928,6 +974,8 @@
         <marker scope="Public" name="sanako_baked_buns">Sanako's buns are almost hot and ready.</marker>
         <marker scope="Public" name="sanako_beach_selectted" />
         <marker scope="Public" name="sanako_bengal_monitor" />
+        <marker scope="Public" name="sanako_binah_good_work" />
+        <marker scope="Public" name="sanako_binah_pathetic" />
         <marker scope="Public" name="sanako_birthday_game_start" />
         <marker scope="Public" name="sanako_birthday_human_victory" />
         <marker scope="Public" name="sanako_birthday_opponent_selected" />
@@ -1000,6 +1048,7 @@
         <marker scope="Public" name="sanako_jessie_qa_stupidmistakes" />
         <marker scope="Public" name="sanako_joey_nice_to_meet_you">Nice to meet you, Joetta.</marker>
         <marker scope="Public" name="sanako_joey_question_1" />
+        <marker scope="Public" name="sanako_joey_question_5" />
         <marker scope="Public" name="sanako_joey_question_6" />
         <marker scope="Public" name="sanako_joey_shirt_removal" />
         <marker scope="Public" name="sanako_jura_js_j1" />
@@ -1081,6 +1130,12 @@
         <marker scope="Public" name="sanako_marceline_ask_music" />
         <marker scope="Public" name="sanako_marceline_ask_pets" />
         <marker scope="Public" name="sanako_marceline_ask_sports" />
+        <marker scope="Public" name="sanako_maria_maneating1" />
+        <marker scope="Public" name="sanako_maria_maneating2" />
+        <marker scope="Public" name="sanako_maria_maneating3" />
+        <marker scope="Public" name="sanako_maria_maneating4" />
+        <marker scope="Public" name="sanako_maria_maneating5" />
+        <marker scope="Public" name="sanako_maria_maneating6" />
         <marker scope="Public" name="sanako_marinette_adrien_dual" />
         <marker scope="Public" name="sanako_marinette_adrien_dualforfeit" />
         <marker scope="Public" name="sanako_marinette_adrien_dualforfeitclose" />
@@ -1155,6 +1210,9 @@
         <marker scope="Public" name="sanako_monika_fix_game" />
         <marker scope="Public" name="sanako_monika_save_game" />
         <marker scope="Public" name="sanako_moon_mom_GameOver_heart" />
+        <marker scope="Public" name="sanako_moon_ms_m4" />
+        <marker scope="Public" name="sanako_moon_ms_m5" />
+        <marker scope="Public" name="sanako_moon_ms_m6" />
         <marker scope="Public" name="sanako_moon_prompt_age" />
         <marker scope="Public" name="sanako_moskii_bloodtype" />
         <marker scope="Public" name="sanako_moskii_card_values" />
@@ -1190,6 +1248,8 @@
         <marker scope="Public" name="sanako_nagatoro_extra_last2" />
         <marker scope="Public" name="sanako_nagatoro_hint" />
         <marker scope="Public" name="sanako_nagatoro_intro" />
+        <marker scope="Public" name="sanako_nagatoro_shut_up" />
+        <marker scope="Public" name="sanako_nagatoro_small_penis" />
         <marker scope="Public" name="sanako_nagatoro_sn_n1" />
         <marker scope="Public" name="sanako_nagatoro_sn_s1" />
         <marker scope="Public" name="sanako_nagisa_christmas_date" />
@@ -1407,6 +1467,8 @@
         <marker scope="Public" name="sanako_raven_r12" />
         <marker scope="Public" name="sanako_raven_r15" />
         <marker scope="Public" name="sanako_remilia_wings">Sanako mistakes Remilia's wings as being part of a costume.</marker>
+        <marker scope="Public" name="sanako_revy_meia_fight" />
+        <marker scope="Public" name="sanako_revy_meia_fight_2" />
         <marker scope="Public" name="sanako_ribbon_girl_noodles" />
         <marker scope="Public" name="sanako_rose_butt" />
         <marker scope="Public" name="sanako_rose_flashing_1" />
@@ -1425,6 +1487,8 @@
         <marker scope="Public" name="sanako_sakura_reveal_2" />
         <marker scope="Public" name="sanako_sakura_reveal_3" />
         <marker scope="Public" name="sanako_sanny_selected" />
+        <marker scope="Public" name="sanako_sayori_defeat_rainclouds" />
+        <marker scope="Public" name="sanako_sayori_sleeping_in" />
         <marker scope="Public" name="sanako_sempai_falling_cards" />
         <marker scope="Public" name="sanako_sempai_hat_fall" />
         <marker scope="Public" name="sanako_senko_age" />
@@ -1470,6 +1534,9 @@
         <marker scope="Public" name="sanako_suzuya_prompt_wannabuy" />
         <marker scope="Public" name="sanako_trixie_dungeon" />
         <marker scope="Public" name="sanako_trixie_selected" />
+        <marker scope="Public" name="sanako_turandot_matstrip" />
+        <marker scope="Public" name="sanako_turandot_ts_t5" />
+        <marker scope="Public" name="sanako_turandot_ts_t6" />
         <marker scope="Public" name="sanako_tutor_offer" />
         <marker scope="Public" name="sanako_twilight_t2" />
         <marker scope="Public" name="sanako_twilight_t3" />
@@ -1520,12 +1587,17 @@
         <marker scope="Public" name="sanako_yuri_book_recommendations" />
         <marker scope="Public" name="sanako_yuri_boys_and_accessories" />
         <marker scope="Public" name="sanako_yuri_fragrance" />
+        <marker scope="Public" name="sanako_yuri_literature_teacher" />
         <marker scope="Public" name="sanako_yuri_selected" />
         <marker scope="Public" name="sanako_yuri_sy_s1" />
+        <marker scope="Public" name="sanako_yuri_sy_s2" />
         <marker scope="Public" name="sanako_yuri_sy_y1" />
+        <marker scope="Public" name="sanako_yuri_sy_y2" />
         <marker scope="Public" name="sanako_yuri_victory_keep_secret" />
         <marker scope="Public" name="sanako_yuri_womens_shoes" />
         <marker scope="Public" name="sanako_yuri_womens_shoes_2" />
+        <marker scope="Public" name="sanako_yuri_words_of_comfort" />
+        <marker scope="Public" name="sanako_yuri_ys_s1" />
         <marker scope="Public" name="sanako_zeke_selected" />
         <marker scope="Public" name="sanako_zeke_sz_z1" />
         <marker scope="Public" name="sanako_zeke_sz_z2" />

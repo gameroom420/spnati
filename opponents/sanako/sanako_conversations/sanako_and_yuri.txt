@@ -68,14 +68,15 @@ Yuri []*: ??
 
 YURI MUST STRIP SHOES:
 Sanako [sanako_yuri_sy_y1]: Is it already time for the gorgeously-beautiful Yuri to open up to us? It is, isn't it?
-Yuri []*: ??
+Yuri [sanako_resp_openingUp]: Th-that's kind of you to say, but I'm not the most outgoing person...
+  OR [sanako_resp_openingUp]: Th-thanks Sanako, but I'm on the introverted side of things--I'm not good at talking about myself...
 
 YURI STRIPPING SHOES:
-Sanako []*: ??
+Sanako [sanako_yuri_sy_y2]: And yet you came to a game like this? What a brave first step! Even if you're a woman of few words, I hope it's okay if we cheer you along all the way.
 Yuri []*: ??
 
 YURI STRIPPED SHOES:
-Sanako []*: ??
+Sanako [sanako_yuri_sy_y3]*: ??
 Yuri []*: ??
 
 
@@ -139,7 +140,7 @@ YURI STRIPPING SHIRT:
 Sanako []*: ??
 Yuri []*: ??
 
-YURI STRIPPED SHIRT:
+YURI STRIPPED SHIRT: visible scars
 Sanako []*: ??
 Yuri []*: ??
 
@@ -176,16 +177,16 @@ DUE TO POSITION DETECTION, CONVERSATIONS ABOVE AND BELOW THIS LINE WON'T PLAY IN
 If Yuri to left and Sanako to right:
 
 SANAKO MUST STRIP SHOES AND SOCKS:
-Yuri []*: ?? -- Yuri leads the conversation here; this is just like how you'd write a regular targeted line
-Sanako []*: ??
-
+Yuri [sanako_maturityFriends]: You seem really mature for your age, Sanako.  Has that ever made it difficult to make friends?
+  OR [sanako_maturityFriends]: I get the impression that you're more adult than most people our age, Sanako.  Does that make it more difficult to form connections? -- set this case to only play when Sanako is on the right
+Sanako [sanako_yuri_ys_s1]: You think so, Yuri? Whatever could be giving you that impression? It's true that maybe I have a <i>little</i> more experience than most high schoolers. But I make an effort to bridge the gap by showing interest what teens are interested in these days. Everything from yo-yos to Tamagotchis.
 SANAKO STRIPPING SHOES AND SOCKS:
 Yuri []*: ??
-Sanako []*: ??
+Sanako [sanako_yuri_ys_s]*: ??
 
 SANAKO STRIPPED SHOES AND SOCKS:
 Yuri []*: ??
-Sanako []*: ??
+Sanako [sanako_yuri_ys_s]*: ??
 
 
 SANAKO MUST STRIP SHIRT:
@@ -314,7 +315,7 @@ YURI STRIPPING SHIRT:
 Yuri []*: ??
 Sanako []*: ??
 
-YURI STRIPPED SHIRT:
+YURI STRIPPED SHIRT: visible scars
 Yuri []*: ??
 Sanako []*: ??
 

@@ -1,0 +1,318 @@
+If Sanako to left and Moon to right:
+
+SANAKO MUST STRIP SHOES AND SOCKS:
+Sanako []*: ??
+Moon []*: ??
+
+SANAKO STRIPPING SHOES AND SOCKS:
+Sanako []*: ??
+Moon []*: ??
+
+SANAKO STRIPPED SHOES AND SOCKS:
+Sanako []*: ??
+Moon []*: ??
+
+
+SANAKO MUST STRIP SHIRT:
+Sanako []*: ??
+Moon []*: ??
+
+SANAKO STRIPPING SHIRT:
+Sanako []*: ??
+Moon []*: ??
+
+SANAKO STRIPPED SHIRT:
+Sanako []*: ??
+Moon []*: ??
+
+
+SANAKO MUST STRIP SKIRT:
+Sanako []*: ??
+Moon []*: ??
+
+SANAKO STRIPPING SKIRT:
+Sanako []*: ??
+Moon []*: ??
+
+SANAKO STRIPPED SKIRT:
+Sanako []*: ??
+Moon []*: ??
+
+
+SANAKO MUST STRIP BRA:
+Sanako []*: ??
+Moon []*: ??
+
+SANAKO STRIPPING BRA:
+Sanako []*: ??
+Moon []*: ??
+
+SANAKO STRIPPED BRA:
+Sanako []*: ??
+Moon []*: ??
+
+
+SANAKO MUST STRIP PANTIES:
+Sanako []*: ??
+Moon []*: ??
+
+SANAKO STRIPPING PANTIES:
+Sanako []*: ??
+Moon []*: ??
+
+SANAKO STRIPPED PANTIES:
+Sanako []*: ??
+Moon []*: ??
+
+---
+
+MOON MUST STRIP BRA:
+Sanako []*: ??
+Moon []*: ?? generic is something like: Look at me! I'll show you how a <i>real slut</i> strips!
+
+MOON STRIPPING BRA:
+Sanako []*: ??
+Moon []*: ?? generic is something like: I'm taking off my bra! From under my shirt!
+
+MOON STRIPPED BRA:
+Sanako []*: ??
+Moon []*: ?? generic is something like
+
+
+MOON MUST STRIP BRACELET:
+Sanako []*: ??
+Moon []*: ?? generic is something like: Want to see under here? Time to take off my shir---
+
+MOON STRIPPING BRACELET:
+Sanako []*: ??
+Moon []*: ?? generic is something like: Fuck... I was going to just show off everything, but the management told me I have to take off my accessories first...
+
+MOON STRIPPED BRACELET:
+Sanako []*: ??
+Moon []*: ?? generic is something like: Sorry for accidentally teasing all of you. Trust me, I would have gotten totally naked if I had a choice.
+
+
+MOON MUST STRIP SHOES:
+Sanako []*: ??
+Moon []*: ?? generic is something like: Okay, stripping time! Let's take off---
+
+MOON STRIPPING SHOES:
+Sanako []*: ??
+Moon []*: ??
+
+MOON STRIPPED SHOES:
+Sanako []*: ??
+Moon []*: ??
+
+
+MOON MUST STRIP BAG:
+Sanako []*: ??
+Moon []*: ?? generic is something like: We're doing it! We're gonna get through the accessories!
+
+MOON STRIPPING BAG:
+Sanako []*: ??
+Moon []*: ??
+
+MOON STRIPPED BAG:
+Sanako []*: ??
+Moon []*: ??
+
+
+MOON MUST STRIP HAT:
+Sanako []*: ??
+Moon []*: ?? generic is something like: I lost again! We're almost there!
+
+MOON STRIPPING HAT:
+Sanako []*: ??
+Moon []*: ??
+
+MOON STRIPPED HAT:
+Sanako []*: ??
+Moon []*: ??
+
+
+MOON MUST STRIP SHIRT:
+Sanako []*: ??
+Moon []*: ?? generic is something like: I lost again! We're almost there!
+
+MOON STRIPPING SHIRT:
+Sanako []*: ??
+Moon []*: ??
+
+MOON STRIPPED SHIRT:
+Sanako []*: ??
+Moon []*: ??
+
+
+MOON MUST STRIP SHORTS:
+Sanako []*: ??
+Moon []*: ?? generic is something like: You all did it! Now I'll be a naked little slut for all of you!
+
+MOON STRIPPING SHORTS:
+Sanako []*: ??
+Moon []*: ??
+
+MOON STRIPPED SHORTS:
+Sanako []*: ??
+Moon []*: ??
+
+---
+DUE TO POSITION DETECTION, CONVERSATIONS ABOVE AND BELOW THIS LINE WON'T PLAY IN THE SAME GAME.
+---
+
+If Moon to left and Sanako to right:
+
+SANAKO MUST STRIP SHOES AND SOCKS:
+Moon []*: ?? 
+Sanako []*: ??
+
+SANAKO STRIPPING SHOES AND SOCKS:
+Moon []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED SHOES AND SOCKS:
+Moon []*: ??
+Sanako []*: ??
+
+
+SANAKO MUST STRIP SHIRT:
+Moon []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING SHIRT:
+Moon []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED SHIRT:
+Moon []*: ??
+Sanako []*: ??
+
+
+SANAKO MUST STRIP SKIRT:
+Moon []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING SKIRT:
+Moon []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED SKIRT:
+Moon []*: ??
+Sanako []*: ??
+
+
+SANAKO MUST STRIP BRA:
+Moon []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING BRA:
+Moon []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED BRA:
+Moon []*: ??
+Sanako []*: ??
+
+
+SANAKO MUST STRIP PANTIES:
+Moon []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPING PANTIES:
+Moon []*: ??
+Sanako []*: ??
+
+SANAKO STRIPPED PANTIES:
+Moon []*: ??
+Sanako []*: ??
+
+---
+
+Moon [moon_sanako_ms_m1]*: generic is something like: Look at me! I'll show you how a <i>real slut</i> strips!
+Sanako [sanako_moon_ms_m1]*: ??
+
+MOON STRIPPING BRA:
+Moon [moon_sanako_ms_m]*: ?? generic is something like: I'm taking off my bra! From under my shirt!
+Sanako [sanako_moon_ms_m2]*: ??
+
+MOON STRIPPED BRA:
+Moon [moon_sanako_ms_m]*: ??
+Sanako [sanako_moon_ms_m3]*: ??
+
+
+MOON MUST STRIP BRACELET:
+Moon [moon_sanako_ms_m4]*: Surprise! It's already time to take off my shir---
+Sanako [sanako_moon_ms_m4]: Hey! No need to rush. Let's enjoy ourselves a little more slowly, okay?
+
+MOON STRIPPING BRACELET:
+Moon [moon_sanako_ms_m5]*: Shit. Thanks for reminding me, I guess. Management's been up my ass about just going for the small stuff first...
+Sanako [sanako_moon_ms_m5]: I see... You come here often, I take it?
+
+MOON STRIPPED BRACELET:
+Moon [moon_sanako_ms_m6]*: Yeah... Sorry for the tease. I'll be working this nude body for you in no time. Count on it!
+Sanako [sanako_moon_ms_m6]: Ah, I appreciate the enthusiasm, but I think we'd all have even more fun if you were a little more modest with your words and actions, okay?
+
+
+MOON MUST STRIP SHOES:
+Moon []*: ?? generic is something like: Okay, stripping time! Let's take off---
+Sanako []*: ?? -- did no one teach this girl how to be a lady??
+
+MOON STRIPPING SHOES:
+Moon []*: ??
+Sanako []*: ??
+
+MOON STRIPPED SHOES:
+Moon []*: ??
+Sanako []*: ??
+
+
+MOON MUST STRIP BAG:
+Moon []*: ?? generic is something like: We're doing it! We're gonna get through the accessories!
+Sanako []*: ??
+
+MOON STRIPPING BAG:
+Moon []*: ??
+Sanako []*: ??
+
+MOON STRIPPED BAG:
+Moon []*: ??
+Sanako []*: ??
+
+
+MOON MUST STRIP HAT:
+Moon []*: ?? generic is something like: I lost again! We're almost there!
+Sanako []*: ??
+
+MOON STRIPPING HAT:
+Moon []*: ??
+Sanako []*: ??
+
+MOON STRIPPED HAT:
+Moon []*: ??
+Sanako []*: ??
+
+
+MOON MUST STRIP SHIRT:
+Moon []*: ?? generic is something like: I lost again! We're almost there!
+Sanako []*: ??
+
+MOON STRIPPING SHIRT:
+Moon []*: ??
+Sanako []*: ??
+
+MOON STRIPPED SHIRT:
+Moon []*: ??
+Sanako []*: ??
+
+
+MOON MUST STRIP SHORTS:
+Moon []*: ?? generic is something like: You all did it! Now I'll be a naked little slut for all of you!
+Sanako []*: ??
+
+MOON STRIPPING SHORTS:
+Moon []*: ??
+Sanako []*: ??
+
+MOON STRIPPED SHORTS:
+Moon []*: ??
+Sanako []*: ??
