@@ -301,6 +301,9 @@
         <response id="1217" opponent="mitama" opponentId="1940" />
         <response id="1218" opponent="mitama" opponentId="1941" />
         <response id="1219" opponent="mitama" opponentId="1942" />
+        <response id="1220" opponent="zeke_pandoria" opponentId="417" />
+        <response id="1245" opponent="zeke_pandoria" opponentId="309" />
+        <response id="1246" opponent="zeke_pandoria" opponentId="310" />
     </responses>
     <notes>
         <note id="6">radiant garden is a world in kingdom hearts that is basically "the place where final fantasy characters and some kingdom hearts original characters come from", mainly home to JRPG humans.</note>
@@ -1544,11 +1547,38 @@
         <label id="1219" label="" folder="Responses" sort="0" />
         <label id="1217" label="" folder="Responses" sort="0" />
         <label id="1218" label="" folder="Responses" sort="0" />
+        <label id="1220" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1221" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1222" label="" folder="Dunban S" sort="0" />
+        <label id="1223" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1224" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1225" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1226" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1227" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1228" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1229" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1230" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1231" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1232" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1233" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1234" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1235" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1236" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1237" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1238" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1239" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1240" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1241" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1242" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1243" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1244" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1245" label="" folder="Zeke Pandoria" sort="0" />
+        <label id="1246" label="" folder="Zeke Pandoria" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>aquaKS_stage==4</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>1219</nextId>
+    <nextId>1246</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="__lucina_nickname" />
@@ -2031,6 +2061,8 @@
         <marker scope="Public" name="aqua_sweetheart_self4b" />
         <marker scope="Public" name="aqua_sweetheart_self4c" />
         <marker scope="Public" name="aqua_sweetheart_self4d" />
+        <marker scope="Public" name="aqua_sweetheart_self5a" />
+        <marker scope="Public" name="aqua_sweetheart_self5b" />
         <marker scope="Public" name="aqua_sweetheart_self5c" />
         <marker scope="Public" name="aqua_sweetheart_selfLove1" />
         <marker scope="Public" name="aqua_takatoshi_cloningBluesResp" />
@@ -2096,6 +2128,27 @@
         <marker scope="Public" name="aqua_zoe_martialResp" />
         <marker scope="Public" name="aqua_zoe_sweetsResp" />
         <marker scope="Public" name="aqua_zoe_waterResp" />
+        <marker scope="Public" name="aqua_zp_mustmast" />
+        <marker scope="Public" name="aqua_zp_startmast" />
+        <marker scope="Public" name="aqua_zp_strip0a" />
+        <marker scope="Public" name="aqua_zp_strip0b" />
+        <marker scope="Public" name="aqua_zp_strip0c" />
+        <marker scope="Public" name="aqua_zp_strip1a" />
+        <marker scope="Public" name="aqua_zp_strip1b" />
+        <marker scope="Public" name="aqua_zp_strip1c" />
+        <marker scope="Public" name="aqua_zp_strip1d" />
+        <marker scope="Public" name="aqua_zp_strip2a" />
+        <marker scope="Public" name="aqua_zp_strip2b" />
+        <marker scope="Public" name="aqua_zp_strip2c" />
+        <marker scope="Public" name="aqua_zp_strip3a" />
+        <marker scope="Public" name="aqua_zp_strip3b" />
+        <marker scope="Public" name="aqua_zp_strip3c" />
+        <marker scope="Public" name="aqua_zp_strip4a" />
+        <marker scope="Public" name="aqua_zp_strip4b" />
+        <marker scope="Public" name="aqua_zp_strip4c" />
+        <marker scope="Public" name="aqua_zp_strip5a" />
+        <marker scope="Public" name="aqua_zp_strip5b" />
+        <marker scope="Public" name="aqua_zp_strip5c" />
         <marker scope="Public" name="aquaKH_ag_strip0a">Dialogue towards the Aqua Grunt</marker>
         <marker scope="Public" name="AquaKh_GenesJeansResp" />
         <marker scope="Public" name="AquaKh_Keyblade_cont2Resp" />
@@ -2336,6 +2389,7 @@
         <marker scope="Public" name="womanizer">Targeting someone who is good at seducing women (or asssumed to be)</marker>
         <marker scope="Public" name="years_spent_alone">Forfeit specific line with potential follow-ups</marker>
         <marker scope="Private" name="yuno_hard">Yuno has a hard pp.</marker>
+        <marker scope="Public" name="zp_aquakh_selfmustmast" />
         <marker scope="Public" name="zp_heavy_ff_insertion_start" />
         <marker scope="Public" name="zp_heavy_ff_intercrural_start" />
         <marker scope="Public" name="zp_naked_together" />
