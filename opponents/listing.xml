@@ -102,7 +102,7 @@
 		<opponent addedDate="2021-01-05" release="212" score="6.631">twisted_fate</opponent>
 		<opponent addedDate="2023-01-29" release="291" score="6.617">queenie</opponent>
 		<opponent addedDate="2019-08-28" release="169" score="6.600">rarity_eg</opponent>
-		<opponent addedDate="2019-11-09" release="185" score="6.557">rainbow_dash</opponent>
+		<opponent addedDate="2019-11-09" release="185" score="6.557" highlight="updated">rainbow_dash</opponent> <!-- expires 2024-06-08 -->
 		<opponent addedDate="2023-06-02" release="294" score="6.540">sweetheart</opponent>
 		<opponent addedDate="2021-04-17" release="217" score="6.473">critical_darling</opponent>
 		<opponent addedDate="2023-06-17" release="286" score="6.459">mia_golden_sun</opponent>
