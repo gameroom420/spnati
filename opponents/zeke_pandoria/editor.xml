@@ -161,6 +161,8 @@
         <response id="728" opponent="mythra" opponentId="4" />
         <response id="730" opponent="sanako" opponentId="419" />
         <response id="734" opponent="sanako" opponentId="191" />
+        <response id="758" opponent="aqua_kh" opponentId="1243" />
+        <response id="759" opponent="aqua_kh" opponentId="1244" />
     </responses>
     <notes>
         <note id="10">If you want to ask Pandoria / Pandy questions, you could draw attention to the fact that some of her body parts are lightbulbs, such as a lightbulb in her head.. and her tail. Her specific race is known as a "Blade".</note>
@@ -918,17 +920,41 @@
         <label id="701" label="" folder="Targets&gt;Sofia" sort="0" />
         <label id="735" label="" folder="Responses&gt;Sofia" sort="0" />
         <label id="736" label="" folder="Responses&gt;Sofia" sort="0" />
+        <label id="737" label="" folder="Mari S&gt;Dual Forfeit&gt;Debug" sort="0" />
+        <label id="738" label="" folder="Mari S" sort="0" />
+        <label id="739" label="" folder="Aqua KH" sort="0" />
+        <label id="740" label="" folder="Aqua KH" sort="0" />
+        <label id="741" label="" folder="Aqua KH" sort="0" />
+        <label id="742" label="" folder="Aqua KH" sort="0" />
+        <label id="743" label="" folder="Aqua KH" sort="0" />
+        <label id="744" label="" folder="Aqua KH" sort="0" />
+        <label id="745" label="" folder="Aqua KH" sort="0" />
+        <label id="746" label="" folder="Aqua KH" sort="0" />
+        <label id="747" label="" folder="Aqua KH" sort="0" />
+        <label id="748" label="" folder="Aqua KH" sort="0" />
+        <label id="749" label="" folder="Aqua KH" sort="0" />
+        <label id="750" label="" folder="Aqua KH" sort="0" />
+        <label id="751" label="" folder="Aqua KH" sort="0" />
+        <label id="752" label="" folder="Aqua KH" sort="0" />
+        <label id="753" label="" folder="Aqua KH" sort="0" />
+        <label id="754" label="" folder="Aqua KH" sort="0" />
+        <label id="755" label="" folder="Aqua KH" sort="0" />
+        <label id="756" label="" folder="Aqua KH" sort="0" />
+        <label id="757" label="" folder="Aqua KH" sort="0" />
+        <label id="758" label="" folder="Aqua KH" sort="0" />
+        <label id="759" label="" folder="Aqua KH" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>penis==h</posePreviewMarker>
         <posePreviewMarker>EyeOfShiningJustice=0</posePreviewMarker>
     </posePreviewMarkers>
     <onlyCustomPoses>true</onlyCustomPoses>
-    <nextId>736</nextId>
+    <nextId>759</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="allowsex">If set to 1, Zeke and Pandoria *can* (but are not guaranteed to) have sex for their forfeit.</marker>
         <marker scope="Public" name="allowsex_lockin" />
+        <marker scope="Public" name="aqua_zp_strip3b" />
         <marker scope="Public" name="arle_adaptquestion" />
         <marker scope="Public" name="arle_carbuncle" />
         <marker scope="Public" name="arle_carbuncle_pokemon" />
@@ -979,6 +1005,8 @@
         <marker scope="Public" name="kora_blade_power2" />
         <marker scope="Public" name="kora_gossip_aegisRex" />
         <marker scope="Public" name="kora_stripped4_butt" />
+        <marker scope="Public" name="mariS_buttReact" />
+        <marker scope="Public" name="markername" />
         <marker scope="Public" name="nephenee_pussyR" />
         <marker scope="Public" name="nephenee_titsR" />
         <marker scope="Public" name="nonon_leon_startDualReact" />
@@ -1317,6 +1345,26 @@
         <marker scope="Public" name="zp_aoi_self0a" />
         <marker scope="Public" name="zp_aoi_self0b" />
         <marker scope="Public" name="zp_aoi_self0c" />
+        <marker scope="Public" name="zp_aquakh_self0a" />
+        <marker scope="Public" name="zp_aquakh_self0b" />
+        <marker scope="Public" name="zp_aquakh_self0c" />
+        <marker scope="Public" name="zp_aquakh_self1a" />
+        <marker scope="Public" name="zp_aquakh_self1b" />
+        <marker scope="Public" name="zp_aquakh_self1c" />
+        <marker scope="Public" name="zp_aquakh_self2a" />
+        <marker scope="Public" name="zp_aquakh_self2b" />
+        <marker scope="Public" name="zp_aquakh_self2c" />
+        <marker scope="Public" name="zp_aquakh_self3a" />
+        <marker scope="Public" name="zp_aquakh_self3b" />
+        <marker scope="Public" name="zp_aquakh_self3c" />
+        <marker scope="Public" name="zp_aquakh_self4a" />
+        <marker scope="Public" name="zp_aquakh_self4b" />
+        <marker scope="Public" name="zp_aquakh_self4c" />
+        <marker scope="Public" name="zp_aquakh_self5a" />
+        <marker scope="Public" name="zp_aquakh_self5b" />
+        <marker scope="Public" name="zp_aquakh_self5c" />
+        <marker scope="Public" name="zp_aquakh_selfmustmast" />
+        <marker scope="Public" name="zp_aquakh_selfstartmast" />
         <marker scope="Public" name="zp_aura_camera1" />
         <marker scope="Public" name="zp_bowsette_robotGFresp" />
         <marker scope="Public" name="zp_caitlin_single1" />
