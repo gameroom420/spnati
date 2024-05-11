@@ -171,34 +171,6 @@ namespace SPNATI_Character_Editor.Activities
 			Compress(images);
 		}
 
-		private void cmdMarkCompressed_Click(object sender, EventArgs e)
-		{
-			List<string> images = CompileCompressionList((file, row) =>
-			{
-				return row.Selected;
-			});
-			string srcDir = _character.GetDirectory();
-			string dir = Path.Combine(_character.GetBackupDirectory(), "images");
-			if (!Directory.Exists(dir))
-			{
-				Directory.CreateDirectory(dir);
-			}
-			foreach (string file in images)
-			{
-				string sourcePath = Path.Combine(srcDir, file);
-				string compressedPath = Path.Combine(dir, file);
-				try
-				{
-					if (!File.Exists(compressedPath))
-					{
-						File.Copy(sourcePath, compressedPath);
-					}
-				}
-				catch { }
-			}
-			PopulateFileList();
-		}
-
 		private List<string> CompileCompressionList(Func<string, DataGridViewRow, bool> filter)
 		{
 			List<string> output = new List<string>();
