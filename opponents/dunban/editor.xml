@@ -268,6 +268,11 @@
         <response id="824" opponent="lysithea" opponentId="596" />
         <response id="825" opponent="lysithea" opponentId="597" />
         <response id="829" opponent="aoi_asahina" opponentId="39" />
+        <response id="840" opponent="yuri" opponentId="329" />
+        <response id="841" opponent="yuri" opponentId="330" />
+        <response id="843" opponent="sheena" opponentId="64" />
+        <response id="844" opponent="aqua_konosuba" opponentId="1431" />
+        <response id="849" opponent="meia" opponentId="1335" />
     </responses>
     <notes>
         <note id="10">Will be replaced if Sharla ever gets reworked lol</note>
@@ -323,6 +328,8 @@ c: say that he's been as high as the bionis' head?
         <note id="772">if you want to do an actual cross-character interaction like I have with Mia (Golden Sun), let me know!</note>
         <note id="779">he's being a bit vague here; I imagine a follow up will be that he hasn't really imagined himself settling down and finding a partner, he feels 'too busy' which is a bit of a lie.</note>
         <note id="820">he's teasing her.</note>
+        <note id="834">this uses the alternative marker dunban_lysithea_hopingNude3 for both lines, in case you only want to write one reply</note>
+        <note id="847">Trying to play coy and avoid xb1 spoilers...</note>
     </notes>
     <labels>
         <label id="4" label="" folder="April Fools" sort="0" />
@@ -1066,9 +1073,9 @@ c: say that he's been as high as the bionis' head?
         <label id="762" label="" folder="Targets" sort="0" />
         <label id="763" label="" folder="Responses" sort="0" />
         <label id="764" label="" folder="Responses" sort="0" />
-        <label id="767" label="" color="1" folder="Responses" sort="0" />
-        <label id="766" label="" color="1" folder="Responses" sort="0" />
-        <label id="765" label="" color="1" folder="Responses" sort="0" />
+        <label id="767" label="" color="3" folder="Responses" sort="0" />
+        <label id="766" label="" color="2" folder="Responses" sort="0" />
+        <label id="765" label="" color="2" folder="Responses" sort="0" />
         <label id="768" label="" color="1" folder="Responses" sort="0" />
         <label id="769" label="" folder="Responses" sort="0" />
         <label id="770" label="" folder="Responses" sort="0" />
@@ -1118,10 +1125,10 @@ c: say that he's been as high as the bionis' head?
         <label id="815" label="" folder="Targets" sort="0" />
         <label id="816" label="" folder="targets" sort="0" />
         <label id="817" label="" folder="Targets" sort="0" />
-        <label id="818" label="" folder="Lysithea&gt;Targets" sort="0" />
-        <label id="819" label="" folder="Lysithea&gt;Targets" sort="0" />
-        <label id="820" label="" folder="Lysithea&gt;Targets" sort="0" />
-        <label id="821" label="" folder="Lysithea&gt;Targets" sort="0" />
+        <label id="818" label="" color="3" folder="Lysithea&gt;Targets" sort="0" />
+        <label id="819" label="" color="3" folder="Lysithea&gt;Targets" sort="0" />
+        <label id="820" label="" color="3" folder="Lysithea&gt;Targets" sort="0" />
+        <label id="821" label="" color="3" folder="Lysithea&gt;Targets" sort="0" />
         <label id="822" label="" folder="Lysithea&gt;Responses" sort="0" />
         <label id="823" label="" folder="Lysithea&gt;Responses" sort="0" />
         <label id="824" label="" folder="Lysithea&gt;Responses" sort="0" />
@@ -1132,11 +1139,29 @@ c: say that he's been as high as the bionis' head?
         <label id="829" label="" folder="Situations" sort="0" />
         <label id="830" label="" folder="Targets" sort="0" />
         <label id="831" label="" folder="Targets" sort="0" />
+        <label id="832" label="" folder="Lysithea&gt;Targets" sort="0" />
+        <label id="833" label="" folder="Lysithea&gt;Targets" sort="0" />
+        <label id="834" label="" folder="Lysithea&gt;Targets" sort="0" />
+        <label id="835" label="" folder="Lysithea&gt;Targets" sort="0" />
+        <label id="836" label="" folder="Lysithea&gt;Targets" sort="0" />
+        <label id="837" label="" folder="Lysithea&gt;Targets" sort="0" />
+        <label id="838" label="" folder="Targets" sort="0" />
+        <label id="839" label="" folder="Targets" sort="0" />
+        <label id="840" label="" folder="Responses" sort="0" />
+        <label id="841" label="" folder="Responses" sort="0" />
+        <label id="842" label="" folder="Responses" sort="0" />
+        <label id="843" label="" folder="Targets" sort="0" />
+        <label id="844" label="" folder="Responses" sort="0" />
+        <label id="845" label="" folder="Targets" sort="0" />
+        <label id="846" label="" folder="Targets" sort="0" />
+        <label id="847" label="" folder="Responses" sort="0" />
+        <label id="848" label="" folder="Responses" sort="0" />
+        <label id="849" label="" folder="Responses" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>aquaKH_socks==0</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>831</nextId>
+    <nextId>849</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="20gOffer">Line that plays when Dunban offers a 20g bribe to whoever loses</marker>
@@ -1242,12 +1267,16 @@ c: say that he's been as high as the bionis' head?
         <marker scope="Public" name="dunban_aquakh_strip2c" />
         <marker scope="Public" name="dunban_aquaKS_armheal1" />
         <marker scope="Public" name="dunban_aquaKS_fighter1" />
+        <marker scope="Public" name="dunban_aquaKS_fighter2" />
         <marker scope="Public" name="dunban_asuna_mature1" />
         <marker scope="Public" name="dunban_asuna_mature2" />
+        <marker scope="Public" name="dunban_asuna_mature3" />
         <marker scope="Public" name="dunban_asuna_self0a" />
+        <marker scope="Public" name="dunban_asuna_self0b" />
         <marker scope="Public" name="dunban_asuna_self1a" />
         <marker scope="Public" name="dunban_asuna_yuiDaughter01" />
         <marker scope="Public" name="dunban_asuna_yuiDaughter02" />
+        <marker scope="Public" name="dunban_asuna_yuiDaughter03" />
         <marker scope="Public" name="dunban_barbaraprayer1" />
         <marker scope="Public" name="dunban_barbaraprayer2" />
         <marker scope="Public" name="dunban_barbaraprayer3" />
@@ -1438,11 +1467,17 @@ c: say that he's been as high as the bionis' head?
         <marker scope="Public" name="dunban_lysithea_hopesSResp" />
         <marker scope="Public" name="dunban_lysithea_hopingNude1" />
         <marker scope="Public" name="dunban_lysithea_hopingNude2" />
+        <marker scope="Public" name="dunban_lysithea_hopingNude3" />
+        <marker scope="Public" name="dunban_lysithea_hopingNude3a" />
+        <marker scope="Public" name="dunban_lysithea_hopingNude3b" />
         <marker scope="Public" name="dunban_lysithea_magicGift1" />
         <marker scope="Public" name="dunban_lysithea_magicGift2" />
         <marker scope="Public" name="dunban_lysithea_magicGift3" />
         <marker scope="Public" name="dunban_lysithea_physical1" />
         <marker scope="Public" name="dunban_lysithea_physical2" />
+        <marker scope="Public" name="dunban_lysithea_physical3a" />
+        <marker scope="Public" name="dunban_lysithea_physical3b" />
+        <marker scope="Public" name="dunban_lysithea_physical3c" />
         <marker scope="Public" name="dunban_lysithea_physicallimits2" />
         <marker scope="Public" name="dunban_lysithea_physicallimits3" />
         <marker scope="Public" name="dunban_lysithea_physicallimitsResp" />
@@ -1451,6 +1486,7 @@ c: say that he's been as high as the bionis' head?
         <marker scope="Public" name="dunban_lysithea_recognizeResp" />
         <marker scope="Public" name="dunban_lysithea_shortLife1" />
         <marker scope="Public" name="dunban_lysithea_shortLife2" />
+        <marker scope="Public" name="dunban_lysithea_shortLife3" />
         <marker scope="Public" name="dunban_lysithea_train2" />
         <marker scope="Public" name="dunban_lysithea_train3" />
         <marker scope="Public" name="dunban_lysithea_trainSResp" />
@@ -1500,6 +1536,7 @@ c: say that he's been as high as the bionis' head?
         <marker scope="Public" name="dunban_meia_self5b" />
         <marker scope="Public" name="dunban_meia_self6a" />
         <marker scope="Public" name="dunban_meia_selfMustFF" />
+        <marker scope="Public" name="dunban_meia_startFF" />
         <marker scope="Public" name="dunban_mercy_fuckbuddiesResp" />
         <marker scope="Public" name="dunban_mg_buttReveal" />
         <marker scope="Public" name="dunban_mia_self1a" />
@@ -1577,8 +1614,10 @@ c: say that he's been as high as the bionis' head?
         <marker scope="Public" name="dunban_sannytess_02" />
         <marker scope="Public" name="dunban_sannytess_0a" />
         <marker scope="Public" name="dunban_sannytess_0b" />
+        <marker scope="Public" name="dunban_sannytess_0c" />
         <marker scope="Public" name="dunban_sannytess_1a" />
         <marker scope="Public" name="dunban_sannytess_1b" />
+        <marker scope="Public" name="dunban_sannytess_1c" />
         <marker scope="Public" name="dunban_sannytess_revealpt1" />
         <marker scope="Public" name="dunban_sannytess_revealpt2" />
         <marker scope="Public" name="dunban_setogaya_startFF_after_boxerStrip" />
@@ -1587,6 +1626,7 @@ c: say that he's been as high as the bionis' head?
         <marker scope="Public" name="dunban_shamir_aloof01" />
         <marker scope="Public" name="dunban_shamir_OnEdge01" />
         <marker scope="Public" name="dunban_shamir_unwinding1" />
+        <marker scope="Public" name="dunban_sheena_self0a" />
         <marker scope="Public" name="dunban_sly_arrest1" />
         <marker scope="Public" name="dunban_sly_cantSwimResp" />
         <marker scope="Public" name="dunban_sly_nonhumans" />
@@ -1714,6 +1754,10 @@ c: say that he's been as high as the bionis' head?
         <marker scope="Public" name="treasureScope2" />
         <marker scope="Public" name="worst_possible_hand" />
         <marker scope="Public" name="yumeko_dunban_satisfaction" />
+        <marker scope="Public" name="yuri_book_recommendations" />
+        <marker scope="Public" name="yuri_geographyResp" />
+        <marker scope="Public" name="yuri_poetryResp" />
+        <marker scope="Public" name="yuri_poetryRespB" />
         <marker scope="Public" name="zeke_pandy_nude" />
     </markers>
     <recipes>
