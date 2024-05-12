@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1715346686942</lastupdate>
+    <lastupdate>1715522975163</lastupdate>
     <enabled>true</enabled>
     <first>Jura</first>
     <last>Basil Elden</last>
@@ -21,7 +21,7 @@
         <costume folder="opponents/reskins/jura_white-hot/" set="summer" status="unlisted" label="Jura" layers="4">White-Hot</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>15886</lines>
+    <lines>15895</lines>
     <poses>565</poses>
     <z-index>1</z-index>
 </opponent>
