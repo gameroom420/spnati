@@ -89,6 +89,7 @@
         <note id="1658">willing to revise</note>
         <note id="1752">I already wrote all my targets as if she had her canon look, so this is just a minor variation (unless you want to expand it into an alt convo)</note>
         <note id="1753">I already wrote all my targets as if she had her canon look, so this is just a small acknowledgement</note>
+        <note id="1818">marker changed, see DMs</note>
     </notes>
     <labels>
         <label id="1266" label="" color="4" folder="" sort="0" />
@@ -690,7 +691,7 @@
         <label id="1462" label="" color="4" folder="" sort="0" />
         <label id="1213" label="" color="4" folder="" sort="0" />
         <label id="1206" label="" color="4" folder="" sort="0" />
-        <label id="1828" label="" color="4" folder="" sort="0" />
+        <label id="1884" label="" color="4" folder="" sort="0" />
         <label id="1222" label="" color="4" folder="" sort="0" />
         <label id="1226" label="" color="1" folder="" sort="0" />
         <label id="1227" label="" color="1" folder="" sort="0" />
@@ -728,16 +729,16 @@
         <label id="1280" label="" color="6" folder="" sort="0" />
         <label id="1281" label="" color="6" folder="" sort="0" />
         <label id="1282" label="" color="6" folder="" sort="0" />
-        <label id="1285" label="" color="4" folder="" sort="0" />
+        <label id="1888" label="" color="4" folder="" sort="0" />
         <label id="1295" label="" color="4" folder="" sort="0" />
         <label id="1297" label="" color="4" folder="" sort="0" />
         <label id="1298" label="" color="4" folder="" sort="0" />
         <label id="1710" label="" color="4" folder="" sort="0" />
-        <label id="1300" label="" color="4" folder="" sort="0" />
-        <label id="1301" label="" color="4" folder="" sort="0" />
-        <label id="1302" label="" color="4" folder="" sort="0" />
-        <label id="1303" label="" color="4" folder="" sort="0" />
-        <label id="1304" label="" color="4" folder="" sort="0" />
+        <label id="1891" label="" color="4" folder="" sort="0" />
+        <label id="1890" label="" color="4" folder="" sort="0" />
+        <label id="1885" label="" color="4" folder="" sort="0" />
+        <label id="1886" label="" color="4" folder="" sort="0" />
+        <label id="1887" label="" color="4" folder="" sort="0" />
         <label id="1308" label="" color="4" folder="" sort="0" />
         <label id="1309" label="" color="4" folder="" sort="0" />
         <label id="1310" label="" color="4" folder="" sort="0" />
@@ -778,7 +779,7 @@
         <label id="1381" label="" color="4" folder="" sort="0" />
         <label id="1383" label="" color="4" folder="" sort="0" />
         <label id="1384" label="" color="4" folder="" sort="0" />
-        <label id="1385" label="" color="4" folder="" sort="0" />
+        <label id="1889" label="" color="4" folder="" sort="0" />
         <label id="1387" label="" color="4" folder="" sort="0" />
         <label id="1388" label="" color="4" folder="" sort="0" />
         <label id="1389" label="" color="4" folder="" sort="0" />
@@ -968,7 +969,7 @@
         <label id="1787" label="" color="4" folder="" sort="0" />
         <label id="1873" label="" color="4" folder="" sort="0" />
         <label id="1872" label="" color="4" folder="" sort="0" />
-        <label id="1818" label="" color="4" folder="" sort="0" />
+        <label id="1818" label="" color="6" folder="" sort="0" />
         <label id="1874" label="" color="4" folder="" sort="0" />
         <label id="1803" label="" color="4" folder="" sort="0" />
         <label id="1804" label="" color="4" folder="" sort="0" />
@@ -1001,7 +1002,7 @@
         <label id="1876" label="" color="4" folder="" sort="0" />
         <label id="1881" label="" color="4" folder="" sort="0" />
     </labels>
-    <nextId>1883</nextId>
+    <nextId>1891</nextId>
     <markers>
         <marker scope="Public" name="2butt">Meia shows off her butt while still in her bodysuit (or Cupid outfit).</marker>
         <marker scope="Public" name="9s0" />
@@ -1121,6 +1122,8 @@
         <marker scope="Public" name="aqua_konosuba0" />
         <marker scope="Public" name="aqua_konosuba01" />
         <marker scope="Public" name="aqua_konosuba01alt" />
+        <marker scope="Public" name="aqua_konosuba1s_alt" />
+        <marker scope="Public" name="aqua_konosuba2" />
         <marker scope="Public" name="aqua0" />
         <marker scope="Public" name="aqua01" />
         <marker scope="Public" name="aqua01jura" />
@@ -2453,9 +2456,11 @@
         <marker scope="Public" name="leonie2" />
         <marker scope="Public" name="leviathan_resp0" />
         <marker scope="Public" name="leviathan_resp01" />
+        <marker scope="Public" name="leviathan_resp1" />
         <marker scope="Public" name="leviathan0" />
         <marker scope="Public" name="leviathan01" />
         <marker scope="Public" name="leviathan1" />
+        <marker scope="Public" name="leviathan12" />
         <marker scope="Public" name="leviathan1s" />
         <marker scope="Public" name="leviathan4" />
         <marker scope="Public" name="lizbluehair">Meia tells Elizabeth that she should not be confined to anyone else's restrictions over her hair.</marker>
@@ -4223,6 +4228,7 @@
         <marker scope="Public" name="yuri_resp2" />
         <marker scope="Public" name="yuri_resp23" />
         <marker scope="Public" name="yuri_resp3" />
+        <marker scope="Public" name="yuri_resp34" />
         <marker scope="Public" name="yuri_sightseeing" />
         <marker scope="Public" name="yuri_sightseeing2" />
         <marker scope="Public" name="yuri0" />
@@ -4243,7 +4249,10 @@
         <marker scope="Public" name="yuri4s_female" />
         <marker scope="Public" name="yuri5" />
         <marker scope="Public" name="yuri56" />
+        <marker scope="Public" name="yuri5s" />
         <marker scope="Public" name="yuri6" />
+        <marker scope="Public" name="yuri67" />
+        <marker scope="Public" name="yuri6s" />
         <marker scope="Public" name="yusuke_shopping" />
         <marker scope="Public" name="yusuke0" />
         <marker scope="Public" name="yusuke01" />
