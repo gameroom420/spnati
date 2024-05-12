@@ -1,10 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <metadata>
     <owner>kokichi</owner>
-    <height>5'1</height>
-    <age />
-    <pronunciation />
-    <othernotes />
     <responses>
         <response id="27" opponent="jasmine" opponentId="1" />
         <response id="29" opponent="jason" opponentId="26" />
@@ -18,10 +14,7 @@
     <markers>
         <marker scope="Public" name="bitter" />
         <marker scope="Public" name="CAR" />
-        <marker scope="Public" name="chiaki_lostLife" />
         <marker scope="Public" name="debug" />
-        <marker scope="Public" name="design" />
-        <marker scope="Public" name="expensive" />
         <marker scope="Public" name="foundout" />
         <marker scope="Public" name="guzma_society" />
         <marker scope="Public" name="heathens" />
@@ -33,8 +26,6 @@
         <marker scope="Public" name="kokichi_win4" />
         <marker scope="Public" name="kokichi_win5" />
         <marker scope="Public" name="leave" />
-        <marker scope="Public" name="live1" />
-        <marker scope="Public" name="live2" />
         <marker scope="Public" name="maki_idolsbad" />
         <marker scope="Public" name="maki_santadead" />
         <marker scope="Public" name="mary_coward" />
@@ -55,11 +46,5 @@
         <marker scope="Public" name="song7" />
         <marker scope="Public" name="song8" />
         <marker scope="Public" name="song9" />
-        <marker scope="Public" name="t_azami1" />
-        <marker scope="Public" name="t_chaz1" />
-        <marker scope="Public" name="t_joe1" />
-        <marker scope="Public" name="t_kyoko1" />
-        <marker scope="Public" name="t_megu1" />
-        <marker scope="Public" name="t_shou1" />
     </markers>
 </metadata>
