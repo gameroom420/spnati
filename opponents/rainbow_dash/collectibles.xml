@@ -1,2 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<collectibles />
+<collectibles>
+    <collectible id="rainbow_socks" status="online" img="opponents/rainbow_dash/colectible-socksbig.png" thumbnail="opponents/rainbow_dash/colectible-sockssmall.png">
+        <title>Rainbow socks</title>
+        <subtitle>Very colorful</subtitle>
+        <text>I guess you did beat me farily... Here, have these, I bet you won't even put them on anyways...</text>
+        <unlock>Win a game against Rainbow Dash.</unlock>
+        <wearable>true</wearable>
+        <clothing img="opponents/rainbow_dash/colectible-sockssmall.png" name="rainbow socks" generic="socks" position="feet" type="minor" plural="true" />
+    </collectible>
+</collectibles>

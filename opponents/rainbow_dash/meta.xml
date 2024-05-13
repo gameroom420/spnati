@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1715234728939</lastupdate>
+    <lastupdate>1715629969439</lastupdate>
     <enabled>true</enabled>
     <first>Rainbow</first>
     <last>Dash</last>
@@ -13,6 +13,7 @@
     <description>The human world version of Rainbow Dash from the Equestria Girls movies/shorts. Canterlot High's spirited and sporty superstar, captain of just about every sports team at school and the element of loyalty.</description>
     <epilogue gender="male" markers="true" img="epilogue-thumbnail.png" alsoPlaying="" hint="As a male, win a game with any four mlp characters.">The Ride Never Ends</epilogue>
     <layers>7</layers>
-    <lines>1344</lines>
+    <has_collectibles>true</has_collectibles>
+    <lines>1346</lines>
     <poses>202</poses>
 </opponent>
