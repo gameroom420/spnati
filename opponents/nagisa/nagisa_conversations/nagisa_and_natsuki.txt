@@ -31,28 +31,28 @@ Nagisa [nagisa_natsuki_gt_g6]: Well, I've never actually been in a real play bef
 Natsuki [natsuki_nagisa_on_left_13]: Uu-- S-so... Does that mean you <i>are</i> used to undressing in front of other people? I-I already struggle at that in the gym... I can't imagine doing that and getting into costume... Though costumes do sound pretty interesting...
 
 
-NAGISA MUST STRIP JACKET: Sanako chimes in if present
+NAGISA MUST STRIP JACKET: Sanako chimes in only if present
 Sanako [sanako_nagisa_natsuki_sgt_g7]: We got you again. You'd better watch out, ehehe!
 Nagisa [nagisa_natsuki_gt_g7]: I should've baked treats for everybody. Maybe you'd all go a little easier on me!
 Sanako [sanako_nagisa_natsuki_gst_g7]: I'm sure you would have at least won the hearts of anyone who appreciates the challenge of cooking for strangers.
 Natsuki [natsuki_nagisa_on_left_21]: Oh! I love baking for my clubs. B-but that doesn't mean we're going to go easier on you, Nagisa!
 Sanako [sanako_nagisa_natsuki_gts_g7]: Well, maybe just a <i>little</i> easier on you.
 
-NAGISA STRIPPING JACKET (accessory): Sanako chimes in if present
+NAGISA STRIPPING JACKET (accessory): Sanako chimes in only if present
 Sanako [sanako_nagisa_natsuki_sgt_g8]: Oh? You bake too?
 Nagisa [nagisa_natsuki_gt_g8]: I'm sure lots of people love coming to your club if you bake for them, Natsuki! That's such a good idea.
 Sanako [sanako_nagisa_natsuki_gst_g8]: Isn't it just? It sure would help people who think with their tummies.
 Natsuki [natsuki_nagisa_on_left_22]: Hmph. They come for my poems too, but it doesn't <i>hurt</i> that I'm known as a good baker. What about you? What do you like baking?
 Sanako [sanako_nagisa_natsuki_gts_g8]: For me, it's such a great outlet for my creativity. I try never to make the same thing twice, What about you, Nagisa?
 
-NAGISA STRIPPED JACKET (accessory): Sanako chimes in if present
+NAGISA STRIPPED JACKET (accessory): Sanako chimes in only if present
 Sanako [sanako_nagisa_natsuki_sgt_g9]: I like baking something that will surprise my customers! It's always something different. What's your answer, Nagisa?
 Nagisa [nagisa_natsuki_gt_g9]: I love making cinnamon rolls because so many people appreciate them. But recently my mom has been encouraging me to experiment with cherry pies, though I'm not quite ready for anybody to try one yet.
 Sanako [sanako_nagisa_natsuki_gst_g9]: There's a trick to getting the filling just right. And you don't want to add cream until the timing's just perfect.
 Natsuki [natsuki_nagisa_on_left_23]: Pfft... Ehehe... I'm not sure why you'd come to game like this without intending to share your pie, Nagisa...
 Sanako [sanako_nagisa_natsuki_gts_g9]: You must be a bit fan of cherries, Natsuki.
 
-NAGISA HAND AFTER STRIPPED JACKET: Sanako chimes in if present
+NAGISA HAND AFTER STRIPPED JACKET: Sanako chimes in only if present
 Sanako [sanako_nagisa_natsuki_sgt_g9_hand]: I think she might be teasing you, honey.
 Nagisa [nagisa_natsuki_gt_g9_hand]: Sorry, did I say something funny?
 Sanako [sanako_nagisa_natsuki_gst_g9_hand]: I don't think so, honey. What's funny about experimenting with a sweet treat before letting just anyone try it?
@@ -355,17 +355,26 @@ Natsuki [natsuki_nagisa_on_right_strip03]: Y-yeah! At least wait until I'm showi
 Nagisa [nagisa_natsuki_tg_t3]: I didn't think it was too much to ask that people not undress your feet with their eyes.
 
 
-NATSUKI MUST STRIP BLAZER:
+NATSUKI MUST STRIP BLAZER: Sanako chimes in only if present
+Sanako [sanako_natsuki_nagisa_stg_t4]: It seems as though fate has smiled on you again.
 Natsuki [natsuki_nagisa_on_right_strip11]: Me? Again? Uu-- This one'll be the last one! Don't count on me losing again!
+Sanako [sanako_natsuki_nagisa_tsg_t4]: Of course not. We'll have to take whatever comes our way.
 Nagisa [nagisa_natsuki_tg_t4]: But it's so random, Natsuki, so we really can't be sure. Unless... are you maybe just naturally unlucky?
+Sanako [sanako_natsuki_nagisa_tgs_t4]: That would be unfortunate.
 
-NATSUKI STRIPPING BLAZER (minor):
+NATSUKI STRIPPING BLAZER: Sanako chimes in only if present
+Sanako [sanako_natsuki_nagisa_stg_t5]: I wonder... have you ever had your fortune read?
 Natsuki [natsuki_nagisa_on_right_strip12]: N-No, but I'm not just going to let some stupid cards tell me to show my underwear and--!
+Sanako [sanako_natsuki_nagisa_tsg_t5]: Your underwear?
 Nagisa [nagisa_natsuki_tg_t5]: I think there's been some kind of misunderstanding! You only have to take off one thing at a time. You don't have to show us your underwear. Um, not yet, anyway...
+Sanako [sanako_natsuki_nagisa_tgs_t5]: That's right. No need to get down to your bra and undies right away or anything.
 
-NATSUKI STRIPPED BLAZER (minor):
+NATSUKI STRIPPED BLAZER: Sanako chimes in only if present
+Sanako [sanako_natsuki_nagisa_stg_t6]: You're still just starting out, so it's okay to just hope for the best and stick with small stuff for now.
 Natsuki [natsuki_nagisa_on_right_strip13]: Well yeah! For <i>now!</i> What's going to happen if I keep losing?
+Sanako [sanako_natsuki_nagisa_tsg_t6]: When that time comes, the decision is yours to make, Natsuki. We can't blame the cards or each other. Each of us has to stand by the choices we make.
 Nagisa [nagisa_natsuki_tg_t6]: It's a big risk... so if you keep losing, you might end up showing us everything...
+Sanako [sanako_natsuki_nagisa_tgs_t6]: Sometimes doing scary things is what helps us grow as people. I'm sure that after all this is over, you'll be proud of yourself no matter the result, Natsuki.
 
 
 NATSUKI MUST STRIP CARDIGAN:

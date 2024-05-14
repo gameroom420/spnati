@@ -2280,8 +2280,8 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <label id="1777" label="" folder="Jura to left" sort="2" />
         <label id="1778" label="" folder="Jura to left or right" sort="2" />
         <label id="1779" label="" folder="Nonon to left / Sanako to left" sort="0" />
-        <label id="1781" label="last hand: vs another opponent" folder="" sort="0" />
-        <label id="1782" label="last hand: vs player" folder="" sort="0" />
+        <label id="1781" label="last hand: vs another opponent (bad hand)" folder="" sort="0" />
+        <label id="1782" label="last hand: vs player (bad hand)" folder="" sort="0" />
         <label id="1783" label="last hand: vs player" folder="" sort="0" />
         <label id="1784" label="" folder="Waitress Uniform collectible unlock checks" sort="0" />
         <label id="1785" label="" folder="Waitress Uniform collectible unlock checks" sort="2" />
@@ -2437,13 +2437,19 @@ Intentionally doesn't require Fluttershy's nagisa_great_to_hear marker from the 
         <label id="1937" label="" folder="Chara to left or right" sort="0" />
         <label id="1581" label="" folder="Jura to left" sort="0" />
         <label id="1938" label="" folder="Chara to left" sort="0" />
+        <label id="1792" label="" folder="Mahiru to left or right" sort="0" />
+        <label id="1939" label="last hand: vs player" folder="" sort="0" />
+        <label id="1940" label="last hand: vs player (okay hand)" folder="" sort="0" />
+        <label id="1941" label="last hand: vs player (good hand)" folder="" sort="0" />
+        <label id="1942" label="last hand: vs another opponent (okay hand)" folder="" sort="0" />
+        <label id="1943" label="last hand: vs another opponent (good hand)" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>epilogue</prefix>
         <prefix>collectible</prefix>
         <prefix>x-</prefix>
     </prefixes>
-    <nextId>1938</nextId>
+    <nextId>1943</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="nagisa_9s_are_you_lost" />
