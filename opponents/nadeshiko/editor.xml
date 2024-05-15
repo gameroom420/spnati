@@ -537,8 +537,9 @@
         <label id="487" label="" folder="Stripped (Sakura)" sort="0" />
         <label id="488" label="" folder="Must Strip (Sakura)" sort="0" />
         <label id="489" label="" folder="Stripped (Sakura)" sort="0" />
+        <label id="490" label="" folder="Kyouko (Must Strip)" sort="0" />
     </labels>
-    <nextId>489</nextId>
+    <nextId>490</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="9S_Nade_1-1" />
