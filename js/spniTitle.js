@@ -332,6 +332,10 @@ var CANDY_LIST = [
     "rainbow_dash/1-confident.png",
     "rainbow_dash/2-smug.png",
     "rainbow_dash/5-stretch.png",
+    "orendi/0-angry.png",                  // Has Recent Updates
+    "orendi/3-point.png",
+    "orendi/4-cross.png",
+    "orendi/4-happy.png",
 ];
 
 /* Storage for old candy images in case the characters qualify again */
