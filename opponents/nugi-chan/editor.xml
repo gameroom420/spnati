@@ -302,6 +302,13 @@
         <label id="263" label="" folder="Senko to left" sort="0" />
         <label id="264" label="" folder="Monika to left" sort="0" />
         <label id="265" label="" folder="Monika to left" sort="0" />
+        <label id="266" label="" folder="Shimakaze to left" sort="0" />
+        <label id="267" label="" folder="Shimakaze to left" sort="0" />
+        <label id="268" label="" folder="Toru to left or right" sort="0" />
+        <label id="269" label="flower" folder="" sort="0" />
+        <label id="270" label="hairy / garden" folder="" sort="0" />
+        <label id="271" label="SPH multiple" folder="" sort="0" />
+        <label id="272" label="street" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>nugi-epilogue</prefix>
@@ -309,8 +316,9 @@
         <prefix>collectible</prefix>
         <prefix>x-</prefix>
     </prefixes>
-    <nextId>265</nextId>
+    <nextId>272</nextId>
     <markers>
+        <marker scope="Public" name="" />
         <marker scope="Private" name="nickname">Set per-target to allow Nugi-chan to dynamically change nicknames for a character.</marker>
         <marker scope="Public" name="nugi_chan_sheena_we_want_you_to" />
         <marker scope="Public" name="nugi_nagisa_boys_and_girls" />
@@ -571,6 +579,7 @@
         <marker scope="Public" name="nugi-chan_taking_off_bra" />
         <marker scope="Public" name="nugi-chan_taking_requests" />
         <marker scope="Public" name="nugi-chan_topless_banner" />
+        <marker scope="Public" name="nugi-chan_toru_collectibles_come_to_life" />
         <marker scope="Public" name="nugi-chan_tries_to_cheat" />
         <marker scope="Public" name="nugi-chan_turned_on" />
         <marker scope="Public" name="nugi-chan_weiss_chair">Nugi-chan is at work, so tipping is appropriate if she gets you something.</marker>
