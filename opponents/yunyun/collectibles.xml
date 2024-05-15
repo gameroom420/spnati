@@ -7,7 +7,7 @@
         <unlock>Win a game against Yunyun.</unlock>
         <hide-details>true</hide-details>
         <wearable>true</wearable>
-        <clothing img="opponents/yunyun/collectibles/c_skirt.png" name="skirt" generic="skirt" position="lower" type="major" />
+        <clothing name="skirt" generic="skirt" position="lower" type="major" img="opponents/yunyun/collectibles/c_skirt.png" />
     </collectible>
     <collectible id="friendship_band" img="opponents/yunyun/collectibles/c_friendshipband_image.png" thumbnail="opponents/yunyun/collectibles/Friendshipband.png">
         <title>Friendship Band</title>
@@ -16,6 +16,6 @@
         <unlock>Win a game against Yunyun in her Summer of Friends costume or win a game against Yunyun without showing her your chest or crotch.</unlock>
         <hide-details>true</hide-details>
         <wearable>true</wearable>
-        <clothing img="opponents/yunyun/collectibles/Friendshipband.png" name="friendship band" generic="armbands" position="arms" type="extra" />
+        <clothing name="friendship band" generic="armbands" position="arms" type="extra" img="opponents/yunyun/collectibles/Friendshipband.png" />
     </collectible>
 </collectibles>
