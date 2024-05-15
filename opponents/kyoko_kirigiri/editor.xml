@@ -65,6 +65,7 @@
         <response id="1485" opponent="hilbert" opponentId="9" />
         <response id="0" opponent="chihiro" opponentId="1" />
         <response id="2443" opponent="aoi_asahina" opponentId="158" />
+        <response id="2630" opponent="cammy_white" opponentId="5" />
     </responses>
     <notes>
         <note id="3">This was the first line of dialogue ever written for Kyoko!</note>
@@ -172,6 +173,9 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <note id="2442">If Kyoko and Kyouko have already met, Kyoko will just use the line where she introduces both herself and Toshinou.</note>
         <note id="2444">Assuming that Junko did something unwelcome and got found out in every timeline-- even if it's the School Mode TL and her crimes don't get much worse than false imprisonment.</note>
         <note id="2447">Has a duplicate for if Hina is the one selected.</note>
+        <note id="2630">This was the 2000th line written for Kyoko Kirigiri!</note>
+        <note id="2633">This line was written after Johnny's response to this same prompt was.</note>
+        <note id="2649">Line number 2024, written on May 13, 2024. Presumably, this will be Kyoko's only line to line up between year of writing and writing order.</note>
     </notes>
     <labels>
         <label id="2" label="Disappointment" folder="" sort="0" />
@@ -797,9 +801,9 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="682" label="Deutsch" folder="Targeted&gt;Trio+" sort="9" />
         <label id="683" label="Deutsch" folder="Targeted&gt;Outbounds&gt;Forfeit" sort="34" />
         <label id="684" label="Deutsch" folder="Must forfeit" sort="18" />
-        <label id="685" label="Gloria 0-1" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="22" />
-        <label id="686" label="Gloria 0-2" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="12" />
-        <label id="687" label="Gloria O" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="16" />
+        <label id="685" label="Gloria 0-1" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="28" />
+        <label id="686" label="Gloria 0-2" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="16" />
+        <label id="687" label="Gloria O" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="20" />
         <label id="258" label="Series-specific: Pokémon" folder="Prompts" sort="0" />
         <label id="591" label="Ringo In 4-2" folder="Targeted&gt;Replies&gt;Stage 4" sort="0" />
         <label id="688" label="Ringo In 8-2A" color="2" folder="Targeted&gt;Replies&gt;Forfeit" sort="3" />
@@ -912,16 +916,16 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="794" label="Toshino select, tomato" color="1" folder="Technical&gt;Duplicate dialogue" sort="2" />
         <label id="795" label="Toshinou select, tomato" color="1" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="4" />
         <label id="796" label="Tomato 0-1" color="1" folder="Technical&gt;Duplicate dialogue" sort="62" />
-        <label id="797" label="Toshinou IL 1-1 " folder="Targeted&gt;Replies&gt;Stage 1" sort="8" />
-        <label id="798" label="Toshinou IL 1-2" folder="Targeted&gt;Replies&gt;Stage 1" sort="20" />
+        <label id="797" label="Toshinou IL 0-1 " folder="Targeted&gt;Replies&gt;Stage 0" sort="8" />
+        <label id="798" label="Toshinou IL 0-2" folder="Targeted&gt;Replies&gt;Stage 0" sort="20" />
         <label id="799" label="Toshinou IL 1-2" folder="Targeted&gt;Replies&gt;Stage 1" sort="36" />
-        <label id="800" label="Toshinou IL 1-3" folder="Targeted&gt;Replies&gt;Stage 1" sort="40" />
-        <label id="801" label="Toshinou IR pre1-1" folder="Technical&gt;Duplicate dialogue" sort="23" />
-        <label id="802" label="Toshinou IR 1-1" folder="Technical&gt;Duplicate dialogue" sort="32" />
-        <label id="803" label="Toshinou IR pre1-2" folder="Technical&gt;Duplicate dialogue" sort="36" />
-        <label id="804" label="Toshinou IR 1-2" folder="Technical&gt;Duplicate dialogue" sort="55" />
-        <label id="805" label="Toshinou IR pre1-3" folder="Technical&gt;Duplicate dialogue" sort="58" />
-        <label id="806" label="Toshinou IR 1-3" folder="Technical&gt;Duplicate dialogue" sort="8" />
+        <label id="800" label="Toshinou IL 0-3" folder="Targeted&gt;Replies&gt;Stage 0" sort="40" />
+        <label id="801" label="Toshinou IR pre0-1" folder="Technical&gt;Duplicate dialogue" sort="23" />
+        <label id="802" label="Toshinou IR 0-1" folder="Technical&gt;Duplicate dialogue" sort="32" />
+        <label id="803" label="Toshinou IR pre0-2" folder="Technical&gt;Duplicate dialogue" sort="36" />
+        <label id="804" label="Toshinou IR 0-2" folder="Technical&gt;Duplicate dialogue" sort="55" />
+        <label id="805" label="Toshinou IR pre0-3" folder="Technical&gt;Duplicate dialogue" sort="58" />
+        <label id="806" label="Toshinou IR 0-3" folder="Technical&gt;Duplicate dialogue" sort="8" />
         <label id="807" label="" folder="Antics&gt;Collectible worn" sort="4" />
         <label id="808" label="" folder="Antics&gt;Collectible worn" sort="6" />
         <label id="809" label="" folder="Antics&gt;Collectible worn" sort="10" />
@@ -991,7 +995,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="874" label="Dwight IR 0-2" folder="Technical&gt;Duplicate dialogue" sort="87" />
         <label id="875" label="Dwight IR 0-3" folder="Technical&gt;Duplicate dialogue" sort="12" />
         <label id="876" label="Dwight IR 0-3 Variation" color="1" folder="Technical&gt;Duplicate dialogue" sort="9" />
-        <label id="877" label="Kekko 0-1" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="18" />
+        <label id="877" label="Kekko 0-1" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="24" />
         <label id="878" label="Kekko 1-1" folder="Targeted&gt;Outbounds&gt;Stage 1" sort="10" />
         <label id="879" label="Kekko 1-2" folder="Targeted&gt;Outbounds&gt;Stage 1" sort="2" />
         <label id="880" label="Kekko 1-3A" color="2" folder="Targeted&gt;Outbounds&gt;Stage 1" sort="12" />
@@ -1000,9 +1004,9 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="883" label="Toru 4-1A" color="2" folder="Targeted&gt;Outbounds&gt;Stage 4" sort="9" />
         <label id="884" label="Toru 4-1B" color="3" folder="Targeted&gt;Outbounds&gt;Stage 4" sort="10" />
         <label id="885" label="DR Kirigiri spoilers!" folder="Technical&gt;Timeline" sort="4" />
-        <label id="889" label="Giygas 0-1" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="24" />
-        <label id="890" label="Giygas 0-2A" color="2" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="28" />
-        <label id="891" label="Giygas 0-2B" color="3" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="40" />
+        <label id="889" label="Giygas 0-1" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="30" />
+        <label id="890" label="Giygas 0-2A" color="2" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="34" />
+        <label id="891" label="Giygas 0-2B" color="3" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="46" />
         <label id="892" label="Giygas 0-3A" color="2" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="60" />
         <label id="893" label="Giygas 0-3B" color="3" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="70" />
         <label id="894" label="Giygas 5-1" folder="Targeted&gt;Outbounds&gt;Stage 5" sort="2" />
@@ -1358,7 +1362,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="1258" label="" folder="Technical&gt;Clothing vocabulary" sort="166" />
         <label id="1259" label="" folder="Technical&gt;Clothing vocabulary" sort="224" />
         <label id="1260" label="" folder="Technical&gt;Clothing vocabulary" sort="225" />
-        <label id="1261" label="Elphaba 0-1" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="6" />
+        <label id="1261" label="Elphaba 0-1" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="10" />
         <label id="1262" label="Maria IR 8-1" folder="Targeted&gt;Replies&gt;Stage 8" sort="0" />
         <label id="1263" label="Maria IL 8-1" folder="Targeted&gt;Replies&gt;Stage 8" sort="3" />
         <label id="1264" label="Maria IL 8-2" folder="Targeted&gt;Replies&gt;Stage 8" sort="2" />
@@ -1374,7 +1378,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="1274" label="Arle IL 0-1" folder="Targeted&gt;Replies&gt;Stage 0" sort="90" />
         <label id="1275" label="Arle IR pre0-1" folder="Technical&gt;Duplicate dialogue" sort="17" />
         <label id="1276" label="Arle IR 0-1" folder="Technical&gt;Duplicate dialogue" sort="56" />
-        <label id="1277" label="Elphaba 0-2A" color="2" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="36" />
+        <label id="1277" label="Elphaba 0-2A" color="2" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="42" />
         <label id="1278" label="Elphaba 0-2B" color="3" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="58" />
         <label id="1279" label="" folder="MS Generic Sets&gt;Set 3" sort="20" />
         <label id="1280" label="Set 3" folder="Targeted&gt;Xtra&gt;Ferris pseudo-generics" sort="22" />
@@ -1403,7 +1407,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="1303" label="" folder="Targeted&gt;Replies&gt;Forfeit&gt;Ferris" sort="14" />
         <label id="1304" label="AE86 A-2" color="2" folder="Seasonal&gt;April Fool's" sort="302" />
         <label id="1305" label="" folder="Must forfeit" sort="23" />
-        <label id="1306" label="Samus 0-1" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="30" />
+        <label id="1306" label="Samus 0-1" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="36" />
         <label id="1307" label="" folder="Seasonal&gt;April Fool's" sort="230" />
         <label id="1308" label="" folder="Seasonal&gt;April Fool's" sort="236" />
         <label id="1309" label="" folder="Seasonal&gt;April Fool's" sort="272" />
@@ -1739,14 +1743,14 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="1646" label="" folder="Filtered&gt;Advanced gender" sort="5" />
         <label id="1648" label="Polo sponsorship" folder="Clothing type&gt;Major" sort="21" />
         <label id="1647" label="" folder="Targeted&gt;Replies&gt;Prompted" sort="8" />
-        <label id="1649" label="" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="4" />
-        <label id="1650" label="" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="2" />
-        <label id="1651" label="" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="2" />
-        <label id="1652" label="" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="3" />
-        <label id="1653" label="" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="5" />
-        <label id="1654" label="" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="6" />
-        <label id="1655" label="" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="7" />
-        <label id="1656" label="" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="8" />
+        <label id="1649" label="Juice run" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="12" />
+        <label id="1650" label="To survive" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="4" />
+        <label id="1651" label="Lemme see" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="6" />
+        <label id="1652" label="The boobs" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="8" />
+        <label id="1653" label="Sexy pose 1 (to self)" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="14" />
+        <label id="1654" label="Control yourself" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="16" />
+        <label id="1655" label="Sexy pose 2" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="18" />
+        <label id="1656" label="Next time" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="20" />
         <label id="1657" label="" folder="Sponsorships&gt;Remillia&gt;Sexuality" sort="46" />
         <label id="1658" label="" folder="Sponsorships&gt;Remillia&gt;Sexuality" sort="48" />
         <label id="1659" label="" folder="Technical&gt;Nicknames" sort="23" />
@@ -1757,11 +1761,11 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="1980" label="" folder="Filtered" sort="52" />
         <label id="1979" label="" folder="Technical" sort="25" />
         <label id="1666" label="Toshinou Enthusiasm" folder="Targeted&gt;Outbounds&gt;Stage X" sort="3" />
-        <label id="1667" label="" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="0" />
+        <label id="1667" label="Cleanup follow-up" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="2" />
         <label id="1668" label="" folder="Sponsorships&gt;Remillia&gt;Sexuality" sort="28" />
         <label id="1669" label="" folder="Sponsorships&gt;Remillia&gt;Sexuality" sort="4" />
         <label id="1670" label="" folder="Sponsorships&gt;Remillia&gt;Sexuality" sort="32" />
-        <label id="1671" label="Yumeko 0-1" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="8" />
+        <label id="1671" label="Yumeko 0-1" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="12" />
         <label id="1672" label="Yumeko 0-2" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="72" />
         <label id="1673" label="Yumeko 0-3" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="80" />
         <label id="1674" label="Yumeko 1-1" folder="Targeted&gt;Outbounds&gt;Stage 1" sort="4" />
@@ -1869,17 +1873,17 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="1776" label="Yumeko IR 7-2" folder="Technical&gt;Duplicate dialogue" sort="189" />
         <label id="1777" label="Yumeko IR 7-3A" color="5" folder="Technical&gt;Duplicate dialogue" sort="7" />
         <label id="1778" label="Yumeko IR 7-3B" folder="Technical&gt;Duplicate dialogue" sort="8" />
-        <label id="1779" label="Coffee follow-up" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="9" />
-        <label id="1780" label="Coffee follow-up" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="10" />
+        <label id="1779" label="Coffee follow-up" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="22" />
+        <label id="1780" label="Coffee follow-up" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="24" />
         <label id="1781" label="" color="6" folder="Seasonal&gt;April Fool's" sort="46" />
         <label id="1782" label="Silence 0" color="2" folder="" sort="0" />
         <label id="1783" label="Silence 1" color="2" folder="" sort="0" />
         <label id="1784" label="Silence 2" color="2" folder="" sort="0" />
         <label id="1785" label="" folder="Sponsorships&gt;Remillia&gt;Sexuality" sort="14" />
-        <label id="1786" label="" folder="Prompts" sort="2" />
+        <label id="1786" label="Undead" folder="Sponsorships&gt;Insiduani" sort="2" />
         <label id="1787" label="" folder="Sponsorships&gt;Remillia&gt;Sexuality" sort="36" />
-        <label id="1788" label="" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="13" />
-        <label id="1789" label="" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="12" />
+        <label id="1788" label="Cleanup scale-tip" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="28" />
+        <label id="1789" label="Cleanup scale-tip" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="26" />
         <label id="1790" label="" folder="Targeted&gt;Replies&gt;Prompted" sort="9" />
         <label id="1791" label="" folder="Targeted&gt;Replies&gt;Stage 6" sort="10" />
         <label id="1792" label="" folder="Targeted&gt;Replies&gt;Stage 6" sort="13" />
@@ -1922,7 +1926,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="1819" label="" folder="Targeted&gt;Outbounds&gt;Stage X" sort="8" />
         <label id="1820" label="" folder="Targeted&gt;Outbounds&gt;Stage X" sort="14" />
         <label id="1821" label="" folder="Targeted&gt;Outbounds&gt;Stage X" sort="16" />
-        <label id="1822" label="" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="38" />
+        <label id="1822" label="" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="44" />
         <label id="1823" label="" folder="Targeted&gt;Outbounds&gt;Stage 4" sort="23" />
         <label id="1824" label="" folder="Targeted&gt;Outbounds&gt;Stage X" sort="0" />
         <label id="1825" label="Extreme bondage" folder="Filtered" sort="11" />
@@ -1971,7 +1975,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="1865" label="" folder="Technical&gt;Duplicate dialogue" sort="259" />
         <label id="1866" label="" folder="Targeted&gt;Outbounds&gt;Forfeit" sort="36" />
         <label id="1867" label="" folder="Targeted&gt;Replies&gt;Generic" sort="8" />
-        <label id="1868" label="" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="20" />
+        <label id="1868" label="" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="26" />
         <label id="1518" label="" folder="Targeted&gt;Outbounds&gt;Stage 3" sort="16" />
         <label id="500" label="" folder="Targeted&gt;Outbounds&gt;Stage 2" sort="10" />
         <label id="501" label="" folder="Targeted&gt;Outbounds&gt;Stage 2" sort="11" />
@@ -1982,7 +1986,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="1871" label="" folder="Technical&gt;Nicknames" sort="23" />
         <label id="1872" label="" folder="Technical&gt;Nicknames" sort="26" />
         <label id="1873" label="" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="2" />
-        <label id="1874" label="" folder="Filtered" sort="0" />
+        <label id="1874" label="" folder="Filtered" sort="2" />
         <label id="1875" label="" folder="Filtered" sort="2" />
         <label id="1876" label="" folder="Technical&gt;Nicknames" sort="2" />
         <label id="1877" label="" folder="Technical&gt;Nicknames" sort="0" />
@@ -2000,7 +2004,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="1889" label="" folder="Technical&gt;Nicknames" sort="29" />
         <label id="1890" label="" folder="Targeted&gt;Outbounds&gt;Stage 3" sort="24" />
         <label id="1891" label="" folder="Filtered&gt;Unattracted" sort="9" />
-        <label id="1892" label="" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="14" />
+        <label id="1892" label="" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="30" />
         <label id="1893" label="" folder="Technical" sort="2" />
         <label id="1894" label="" folder="Technical" sort="0" />
         <label id="1895" label="" folder="Antics" sort="6" />
@@ -2211,7 +2215,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="2087" label="" folder="Technical" sort="22" />
         <label id="818" label="" folder="Filtered" sort="20" />
         <label id="2088" label="Haunted Forest" folder="Filtered&gt;Background" sort="4" />
-        <label id="2089" label="Haunted Forest 2" folder="Filtered&gt;Background" sort="0" />
+        <label id="2089" label="Haunted Forest 2" folder="Filtered&gt;Background" sort="10" />
         <label id="2090" label="This is what you get for writing me an 158-line sponsorship" folder="Seasonal" sort="5" />
         <label id="2091" label="" folder="Filtered" sort="21" />
         <label id="2092" label="" folder="Filtered" sort="19" />
@@ -2327,7 +2331,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="2196" label="Attracted" folder="Sponsorships&gt;Remillia&gt;Sexuality" sort="18" />
         <label id="2197" label="" folder="Technical&gt;Nicknames" sort="0" />
         <label id="2198" label="" folder="Technical&gt;Nicknames" sort="32" />
-        <label id="2199" label="Rose 0-2" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="26" />
+        <label id="2199" label="Rose 0-2" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="32" />
         <label id="2200" label="Rose 0-3" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="54" />
         <label id="2201" label="" folder="Forfeit Acts&gt;Act 3" sort="10" />
         <label id="2203" label="Metal R 0-1" color="3" folder="Seasonal&gt;April Fool's" sort="196" />
@@ -2417,6 +2421,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="2288" label="W. Machine L 2-3" color="1" folder="Seasonal&gt;April Fool's" sort="164" />
         <label id="2289" label="" folder="Must forfeit" sort="27" />
         <label id="2290" label="Chihiro Victory 6" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="34" />
+        <label id="2291" label="Chihiro victory 6" folder="Technical&gt;Duplicate dialogue" sort="266" />
         <label id="2293" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="0" />
         <label id="2294" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="2" />
         <label id="2295" label="" folder="Technical&gt;Clothing vocabulary&gt;Player" sort="3" />
@@ -2581,7 +2586,6 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="2457" label="" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="33" />
         <label id="2458" label="" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="34" />
         <label id="2459" label="" folder="Technical&gt;Duplicate dialogue" sort="35" />
-        <label id="2291" label="Chihiro victory 6" folder="Technical&gt;Duplicate dialogue" sort="266" />
         <label id="2460" label="" folder="Targeted&gt;Outbounds&gt;Stage 4" sort="35" />
         <label id="2461" label="" folder="Forfeit" sort="0" />
         <label id="2462" label="" folder="Targeted&gt;Outbounds&gt;Forfeit" sort="18" />
@@ -2600,8 +2604,8 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="2475" label="" folder="Seasonal&gt;April Fool's" sort="4" />
         <label id="2476" label="" folder="Seasonal&gt;April Fool's" sort="174" />
         <label id="2477" label="" folder="Stage 0" sort="0" />
-        <label id="2478" label="HSW 0-2" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="32" />
-        <label id="2479" label="HSW 0-3" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="34" />
+        <label id="2478" label="HSW 0-2" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="38" />
+        <label id="2479" label="HSW 0-3" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="40" />
         <label id="2480" label="" folder="Seasonal&gt;April Fool's" sort="178" />
         <label id="2481" label="" folder="Seasonal&gt;April Fool's" sort="0" />
         <label id="2482" label="" folder="Seasonal&gt;April Fool's" sort="12" />
@@ -2617,9 +2621,9 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="2492" label="" folder="Seasonal&gt;April Fool's" sort="118" />
         <label id="2493" label="" folder="Seasonal&gt;April Fool's" sort="129" />
         <label id="2494" label="" folder="Seasonal&gt;April Fool's" sort="136" />
-        <label id="2495" label="Yamada 0-1" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="14" />
-        <label id="2496" label="Yamada 0-2" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="4" />
-        <label id="2497" label="Yamada 0-3" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="10" />
+        <label id="2495" label="Yamada 0-1" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="18" />
+        <label id="2496" label="Yamada 0-2" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="6" />
+        <label id="2497" label="Yamada 0-3" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="14" />
         <label id="2498" label="Yamada 1-1" folder="Targeted&gt;Outbounds&gt;Stage 1" sort="4" />
         <label id="2499" label="Yamada 1-2A" color="2" folder="Targeted&gt;Outbounds&gt;Stage 1" sort="10" />
         <label id="2500" label="Yamada 1-3A" color="2" folder="Targeted&gt;Outbounds&gt;Stage 1" sort="16" />
@@ -2693,10 +2697,10 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="2568" label="Emi 7-3" folder="Targeted&gt;Outbounds&gt;Stage 7" sort="2" />
         <label id="2569" label="" folder="Sponsorships&gt;?" sort="4" />
         <label id="2570" label="ZP: Zeke penetration" folder="Targeted&gt;Outbounds&gt;Forfeit" sort="29" />
-        <label id="2571" label="Lucina unmasks" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="0" />
+        <label id="2571" label="Lucina unmasks" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="2" />
         <label id="2572" label="Caitlin 1-2" folder="Targeted&gt;Outbounds&gt;Stage 1" sort="14" />
         <label id="2573" label="Caitlin Heavy" folder="Targeted&gt;Outbounds&gt;Forfeit" sort="20" />
-        <label id="2574" label="ZLS head drop 2" folder="Targeted&gt;Outbounds&gt;Stage X" sort="4" />
+        <label id="2574" label="ZLS Head Drop 2" folder="Targeted&gt;Outbounds&gt;Stage X" sort="4" />
         <label id="2575" label="Nadia head drop A" folder="Targeted&gt;Outbounds&gt;Stage 2" sort="24" />
         <label id="2576" label="Nadia head drop B" folder="Targeted&gt;Outbounds&gt;Stage 2" sort="22" />
         <label id="2577" label="Nadia head drop C" folder="Targeted&gt;Outbounds&gt;Stage 2" sort="25" />
@@ -2712,7 +2716,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="2587" label="Bad Revy! 4" folder="Targeted&gt;Trio&gt;Jura+Revy" sort="0" />
         <label id="2588" label="" folder="Sponsorships&gt;?" sort="3" />
         <label id="2589" label="" folder="Sponsorships&gt;?" sort="2" />
-        <label id="2590" label="" folder="Sponsorships&gt;?" sort="0" />
+        <label id="2590" label="" folder="Sponsorships&gt;?" sort="2" />
         <label id="2591" label="" folder="Sponsorships&gt;Polo" sort="5" />
         <label id="2592" label="" folder="Sponsorships&gt;Polo" sort="3" />
         <label id="2593" label="" folder="Sponsorships&gt;Polo" sort="4" />
@@ -2722,33 +2726,124 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <label id="2597" label="" folder="Sponsorships&gt;Polo" sort="9" />
         <label id="2598" label="" folder="Sponsorships&gt;Polo" sort="10" />
         <label id="2599" label="May I?" folder="Antics" sort="9" />
-        <label id="2600" label="Moskii 0-1" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="5" />
-        <label id="2601" label="Moskii 0-2" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="16" />
-        <label id="2602" label="Moon L 0-1" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="0" />
+        <label id="2600" label="Moskii 0-1" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="8" />
+        <label id="2601" label="Moskii 0-2" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="22" />
+        <label id="2602" label="Moon L 0-1" color="1" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="4" />
         <label id="2603" label="Multi-moon" folder="Targeted&gt;Outbounds&gt;Intro/Ending" sort="10" />
         <label id="2604" label="" folder="Sponsorships&gt;Remillia&gt;Sexuality" sort="24" />
         <label id="2605" label="" folder="Sponsorships&gt;Polo" sort="11" />
-        <label id="2606" label="ENF" folder="Sponsorships&gt;Polo" sort="0" />
-        <label id="2607" label="" folder="Technical&gt;Duplicate dialogue" sort="0" />
-        <label id="2608" label="Headphones" folder="Sponsorships&gt;Polo" sort="0" />
-        <label id="2609" label="Hair deco" folder="Sponsorships&gt;Polo" sort="0" />
-        <label id="2610" label="Bag" folder="Sponsorships&gt;Polo" sort="0" />
-        <label id="2611" label="Shorts F" folder="Sponsorships&gt;Polo" sort="0" />
-        <label id="2612" label="Shorts M" folder="Sponsorships&gt;Polo" sort="0" />
-        <label id="2613" label="Gloves" folder="Sponsorships&gt;Polo" sort="0" />
-        <label id="2614" label="Gloves" folder="Sponsorships&gt;Polo" sort="0" />
-        <label id="2615" label="Mask" folder="Sponsorships&gt;Polo" sort="0" />
-        <label id="2616" label="Mask" folder="Clothing type&gt;Specific" sort="0" />
-        <label id="2617" label="Swimsuit" folder="Sponsorships&gt;Polo" sort="0" />
-        <label id="2618" label="Sleeves" folder="Sponsorships&gt;Polo" sort="0" />
-        <label id="2619" label="Swimsuit" folder="Sponsorships&gt;Polo" sort="0" />
-        <label id="2620" label="Bodysuit" folder="Sponsorships&gt;Polo" sort="0" />
-        <label id="2621" label="Bodysuit" folder="Sponsorships&gt;Polo" sort="0" />
+        <label id="2606" label="ENF" folder="Sponsorships&gt;Polo" sort="6" />
+        <label id="2607" label="" folder="Technical&gt;Duplicate dialogue" sort="255" />
+        <label id="2608" label="Headphones" folder="Sponsorships&gt;Polo" sort="11" />
+        <label id="2609" label="Hair deco" folder="Sponsorships&gt;Polo" sort="12" />
+        <label id="2610" label="Bag" folder="Sponsorships&gt;Polo" sort="13" />
+        <label id="2611" label="Shorts F" folder="Sponsorships&gt;Polo" sort="14" />
+        <label id="2612" label="Shorts M" folder="Sponsorships&gt;Polo" sort="15" />
+        <label id="2613" label="Gloves" folder="Sponsorships&gt;Polo" sort="8" />
+        <label id="2614" label="Gloves" folder="Sponsorships&gt;Polo" sort="9" />
+        <label id="2615" label="Mask" folder="Sponsorships&gt;Polo" sort="7" />
+        <label id="2616" label="Mask" folder="Clothing type&gt;Specific" sort="17" />
+        <label id="2617" label="Swimsuit" folder="Sponsorships&gt;Polo" sort="16" />
+        <label id="2618" label="Sleeves" folder="Sponsorships&gt;Polo" sort="17" />
+        <label id="2619" label="Swimsuit" folder="Sponsorships&gt;Polo" sort="18" />
+        <label id="2620" label="Bodysuit" folder="Sponsorships&gt;Polo" sort="19" />
+        <label id="2621" label="Bodysuit" folder="Sponsorships&gt;Polo" sort="20" />
         <label id="2622" label="Bodysuit" folder="Sponsorships&gt;Polo" sort="0" />
         <label id="2623" label="" folder="Clothing type&gt;Specific" sort="0" />
-        <label id="2624" label="" folder="Clothing type&gt;Specific" sort="0" />
-        <label id="2625" label="" folder="Technical" sort="0" />
-        <label id="2626" label="" folder="Sponsorships&gt;?" sort="0" />
+        <label id="2624" label="" folder="Clothing type&gt;Specific" sort="16" />
+        <label id="2625" label="" folder="Technical" sort="34" />
+        <label id="2626" label="" folder="Sponsorships&gt;?" sort="4" />
+        <label id="2627" label="Monika flashed" folder="Targeted&gt;Outbounds&gt;Stage 5" sort="13" />
+        <label id="2628" label="Cammy+Mika" folder="Targeted&gt;Trio+" sort="8" />
+        <label id="2629" label="Cammy+Mika" folder="Targeted&gt;Trio+" sort="10" />
+        <label id="2630" label="Cammy+Chun-Li" folder="Targeted&gt;Trio+" sort="7" />
+        <label id="2631" label="1v1" folder="Filtered" sort="15" />
+        <label id="2632" label="1v1" folder="" sort="0" />
+        <label id="2633" label="History" folder="Targeted&gt;Replies&gt;Prompted" sort="9" />
+        <label id="2634" label="Sand" folder="Sponsorships&gt;Remillia&gt;General" sort="14" />
+        <label id="2635" label="" folder="Sponsorships&gt;?" sort="6" />
+        <label id="2636" label="Pierced" folder="Sponsorships&gt;Insiduani" sort="4" />
+        <label id="2637" label="Classic" folder="Filtered&gt;Background" sort="0" />
+        <label id="2638" label="Paris 1" folder="Filtered&gt;Background" sort="4" />
+        <label id="2639" label="Paris 2" folder="Filtered&gt;Background" sort="5" />
+        <label id="2640" label="Bedroom 1" folder="Filtered&gt;Background" sort="6" />
+        <label id="2641" label="Bedroom 2" folder="Filtered&gt;Background" sort="7" />
+        <label id="2642" label="Office 2" folder="Filtered&gt;Background" sort="8" />
+        <label id="2643" label="Office 1" folder="Filtered&gt;Background" sort="9" />
+        <label id="2644" label="Alley" folder="Filtered&gt;Background" sort="2" />
+        <label id="2645" label="" folder="Forfeit" sort="0" />
+        <label id="2646" label="" folder="Seasonal&gt;April Fool's" sort="135" />
+        <label id="2648" label="" folder="Filtered" sort="0" />
+        <label id="2649" label="" folder="Must forfeit" sort="29" />
+        <label id="2650" label="Filtered" folder="" sort="0" />
+        <label id="2651" label="Green screen" folder="Filtered&gt;Background" sort="3" />
+        <label id="2652" label="Fem Bedroom games played" folder="Technical" sort="76" />
+        <label id="2653" label="Mod Library games played" folder="Technical" sort="77" />
+        <label id="2654" label="" folder="Seasonal&gt;April Fool's" sort="139" />
+        <label id="2655" label="" folder="Technical&gt;Duplicate dialogue" sort="0" />
+        <label id="2656" label="" folder="Technical&gt;Duplicate dialogue" sort="264" />
+        <label id="2657" label="" folder="Technical&gt;Duplicate dialogue" sort="265" />
+        <label id="2658" label="" folder="Technical&gt;Duplicate dialogue" sort="266" />
+        <label id="2659" label="Technical&gt;Duplicate dialogue" folder="" sort="0" />
+        <label id="2660" label="" folder="Technical&gt;Duplicate dialogue" sort="268" />
+        <label id="2661" label="" folder="Technical&gt;Duplicate dialogue" sort="267" />
+        <label id="2662" label="" folder="Filtered" sort="69" />
+        <label id="2663" label="Face flushed variant" folder="Filtered" sort="0" />
+        <label id="2664" label="Face flushed variant" folder="Technical&gt;Duplicate dialogue" sort="269" />
+        <label id="2665" label="" folder="Technical&gt;Arousal" sort="4" />
+        <label id="2666" label="Face flushed" folder="Technical&gt;Duplicate dialogue" sort="270" />
+        <label id="2667" label="" folder="Technical&gt;Duplicate dialogue" sort="271" />
+        <label id="2668" label="" folder="Technical&gt;Duplicate dialogue" sort="272" />
+        <label id="2669" label="" folder="Hand" sort="0" />
+        <label id="2670" label="" folder="Targeted&gt;Outbounds&gt;Hand" sort="8" />
+        <label id="2671" label="Moons" folder="Targeted&gt;Trio+" sort="16" />
+        <label id="2672" label="Fantasy" folder="Sponsorships&gt;Insiduani" sort="3" />
+        <label id="2673" label="Future" folder="Sponsorships&gt;Insiduani" sort="4" />
+        <label id="2674" label="Drill hair" folder="Sponsorships&gt;Insiduani" sort="5" />
+        <label id="2675" label="Ahoge" folder="Sponsorships&gt;Insiduani" sort="6" />
+        <label id="2676" label="Cat/foxfolk" folder="Sponsorships&gt;Insiduani" sort="7" />
+        <label id="2677" label="Cyborg" folder="Sponsorships&gt;Insiduani" sort="8" />
+        <label id="2678" label="Space" folder="Sponsorships&gt;Insiduani" sort="9" />
+        <label id="2679" label="Tattoo" folder="Sponsorships&gt;Insiduani" sort="10" />
+        <label id="2680" label="Sex worker" folder="Sponsorships&gt;Insiduani" sort="11" />
+        <label id="2681" label="Lonely" folder="Sponsorships&gt;Insiduani" sort="12" />
+        <label id="2682" label="Robot" folder="Sponsorships&gt;Insiduani" sort="13" />
+        <label id="2683" label="Innocent" folder="Sponsorships&gt;Insiduani" sort="14" />
+        <label id="2684" label="Cowardly" folder="Sponsorships&gt;Insiduani" sort="15" />
+        <label id="2685" label="Parent 2" folder="Sponsorships&gt;Insiduani" sort="16" />
+        <label id="2686" label="Parent 1" folder="Sponsorships&gt;Insiduani" sort="17" />
+        <label id="2687" label="Ahoge trend 1" folder="Filtered" sort="89" />
+        <label id="2688" label="Scar" folder="Filtered" sort="87" />
+        <label id="2689" label="" folder="Filtered" sort="24" />
+        <label id="2690" label="Ahoge trend 2" folder="Filtered" sort="13" />
+        <label id="2691" label="" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="10" />
+        <label id="2692" label="Where's the caveman?" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="32" />
+        <label id="2693" label="Shocking revelation" folder="Targeted&gt;Xtra&gt;Toshinou friendship" sort="34" />
+        <label id="2694" label="Toshinou 0-1" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="48" />
+        <label id="2695" label="Toshinou 0-2L" color="1" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="50" />
+        <label id="2696" label="Toshinou 0-2R" color="3" folder="Technical&gt;Duplicate dialogue" sort="52" />
+        <label id="2697" label="Toshinou 0-3" folder="Targeted&gt;Outbounds&gt;Stage 0" sort="52" />
+        <label id="2698" label="Toshinou 1-1" folder="Targeted&gt;Outbounds&gt;Stage 1" sort="0" />
+        <label id="2699" label="Toshinou 1-2" folder="Targeted&gt;Outbounds&gt;Stage 1" sort="0" />
+        <label id="2700" label="Toshinou 1-3" folder="Targeted&gt;Outbounds&gt;Stage 1" sort="0" />
+        <label id="2701" label="Toshinou 2-1" folder="Targeted&gt;Outbounds&gt;Stage 2" sort="0" />
+        <label id="2702" label="Toshinou 2-2" folder="Targeted&gt;Outbounds&gt;Stage 2" sort="0" />
+        <label id="2703" label="Toshinou 2-3" folder="Targeted&gt;Outbounds&gt;Stage 2" sort="0" />
+        <label id="2704" label="Toshinou IL 1-1" folder="Targeted&gt;Replies&gt;Stage 1" sort="0" />
+        <label id="2705" label="Toshinou IL 1-2" folder="Targeted&gt;Replies&gt;Stage 1" sort="0" />
+        <label id="2706" label="Toshinou IL 1-3" folder="Targeted&gt;Replies&gt;Stage 1" sort="0" />
+        <label id="2707" label="Toshinou IL 2-1" folder="Targeted&gt;Replies&gt;Stage 2" sort="0" />
+        <label id="2708" label="Toshinou IL 2-2" folder="Targeted&gt;Replies&gt;Stage 2" sort="0" />
+        <label id="2709" label="Toshinou IR pre1-1" folder="Technical&gt;Duplicate dialogue" sort="0" />
+        <label id="2710" label="Toshinou IR pre1-1" folder="Technical&gt;Duplicate dialogue" sort="0" />
+        <label id="2711" label="Toshinou IR pre1-3" folder="Technical&gt;Duplicate dialogue" sort="0" />
+        <label id="2712" label="Toshinou IR pre2-1" folder="Technical&gt;Duplicate dialogue" sort="0" />
+        <label id="2713" label="Toshinou IR pre2-2" folder="Technical&gt;Duplicate dialogue" sort="0" />
+        <label id="2714" label="Toshinou IR 1-1" folder="Technical&gt;Duplicate dialogue" sort="0" />
+        <label id="2715" label="Toshinou IR 1-2" folder="Technical&gt;Duplicate dialogue" sort="0" />
+        <label id="2716" label="Toshinou IR 1-3" folder="Technical&gt;Duplicate dialogue" sort="0" />
+        <label id="2717" label="Toshinou IR 2-1" folder="Technical&gt;Duplicate dialogue" sort="0" />
+        <label id="2718" label="Toshinou IR 2-2" folder="Technical&gt;Duplicate dialogue" sort="0" />
     </labels>
     <prefixes>
         <prefix>#-aside</prefix>
@@ -2779,16 +2874,15 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
     <posePreviewMarkers>
         <posePreviewMarker>hair==1</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>2626</nextId>
+    <nextId>2718</nextId>
     <markers>
-        <marker scope="Public" name="" />
-        <marker scope="Public" name="." />
-        <marker scope="Public" name="+careerMention" />
-        <marker scope="Public" name="+hsw_inBG_any" />
         <marker scope="Public" name="+quips" />
+        <marker scope="Public" name="1v1" />
         <marker scope="Public" name="ae86_strip" />
         <marker scope="Public" name="ae86_strip01" />
         <marker scope="Public" name="aella_weapons" />
+        <marker scope="Public" name="ahogeTrend" />
+        <marker scope="Public" name="aloy_sakoku" />
         <marker scope="Public" name="alwaysReady">Semper paratus!</marker>
         <marker scope="Public" name="aquaKH_aceDetective" />
         <marker scope="Public" name="aquaKH_masterNickname" />
@@ -2818,11 +2912,20 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="bagSportsmanship" />
         <marker scope="Public" name="bareBack" />
         <marker scope="Public" name="batmanPrompt" />
+        <marker scope="Public" name="bedroomBG" />
         <marker scope="Public" name="bella_1" />
         <marker scope="Public" name="bella_885" />
         <marker scope="Public" name="bella_invegaroo" />
         <marker scope="Public" name="bestailock" />
         <marker scope="Public" name="bestAILock" />
+        <marker scope="Public" name="BGalley" />
+        <marker scope="Public" name="BGbedroom" />
+        <marker scope="Public" name="BGclassic" />
+        <marker scope="Public" name="BGfembedroom_playedOn" />
+        <marker scope="Public" name="BGgreenscreen" />
+        <marker scope="Public" name="BGmodlibrary_playedOn" />
+        <marker scope="Public" name="BGoffice" />
+        <marker scope="Public" name="BGparis" />
         <marker scope="Public" name="biAtFinish">Finished forfeit while having the bisexual tag</marker>
         <marker scope="Public" name="biFromStart">An all-female table with bisexualGameFinish marked fast-tracks Kyoko's trip to the world of girl love.</marker>
         <marker scope="Public" name="bigButt">"(Don't comment on their rear...)" and alternate versions of the line</marker>
@@ -2885,6 +2988,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="caitlin_kinesis2" />
         <marker scope="Public" name="callways" />
         <marker scope="Public" name="cameLikeThatQuery" />
+        <marker scope="Public" name="cammy_chunli_pain" />
         <marker scope="Public" name="car_cards" />
         <marker scope="Public" name="car_casette" />
         <marker scope="Public" name="car_elevator" />
@@ -2906,6 +3010,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="cardsWillDo" />
         <marker scope="Public" name="careerMention">Counts how many times she's alluded to her career as a detective.</marker>
         <marker scope="Public" name="caseBriefsTrimComment" />
+        <marker scope="Public" name="cassanovaTrickery" />
         <marker scope="Public" name="cats_61" />
         <marker scope="Public" name="cats_62" />
         <marker scope="Public" name="cats_63" />
@@ -2937,6 +3042,8 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="chivulva" />
         <marker scope="Public" name="chuuniPowersPrompt" />
         <marker scope="Public" name="chuuniVocab" />
+        <marker scope="Public" name="classicBG" />
+        <marker scope="Public" name="classicGloves" />
         <marker scope="Public" name="cleanup" />
         <marker scope="Public" name="clothing404" />
         <marker scope="Public" name="clothMessage" />
@@ -3124,6 +3231,8 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="forfeitSilence" />
         <marker scope="Public" name="forfeitSilence_f" />
         <marker scope="Public" name="forfeitSilence_m" />
+        <marker scope="Public" name="futaDoesItWork" />
+        <marker scope="Public" name="futaEnvy" />
         <marker scope="Public" name="gaghpr" />
         <marker scope="Public" name="gamblingDetectives" />
         <marker scope="Public" name="gamblingDislike" />
@@ -3346,6 +3455,8 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="metalSonic_41" />
         <marker scope="Public" name="mg_slugmaBalls" />
         <marker scope="Public" name="miaFey_parentTrouble" />
+        <marker scope="Public" name="mika_cammy_slam1" />
+        <marker scope="Public" name="mika_cammy_slam2" />
         <marker scope="Public" name="mikan_confident1Re" />
         <marker scope="Public" name="mikan_confident2Re" />
         <marker scope="Public" name="mikan_listen" />
@@ -3367,8 +3478,11 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="minamoto_kyokoBeingInappropriate" />
         <marker scope="Public" name="mitama_goodGuessButActuallyNo" />
         <marker scope="Public" name="mitama_immaDetective" />
+        <marker scope="Public" name="monika_flashedNani" />
         <marker scope="Public" name="moon_l01" />
+        <marker scope="Public" name="moon_moon_selfEnvy" />
         <marker scope="Public" name="moon_multiTable" />
+        <marker scope="Public" name="moon_selfEnvy" />
         <marker scope="Public" name="moskii_01" />
         <marker scope="Public" name="moskii_02a" />
         <marker scope="Public" name="moskii_bloodType1" />
@@ -3431,6 +3545,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="onlineShopping">eBay: world’s aptest auctioner of anonymous anemometers!</marker>
         <marker scope="Public" name="pantsPreference">In the "Skirts 4 Lyfe" vs. "Give Me Pants Or Else" Splatfest, Kyoko sides with Marie.</marker>
         <marker scope="Public" name="parentTrouble">Kyoko has reacted with X divided by 2 lines to Mia Fey asking about if anyone else had parents leave at a young age.</marker>
+        <marker scope="Public" name="parisBG" />
         <marker scope="Public" name="penisTiming" />
         <marker scope="Public" name="pirateBooty" />
         <marker scope="Public" name="plantDNA" />
@@ -3438,7 +3553,25 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="pocketItemsPrompt" />
         <marker scope="Public" name="pokerFace" />
         <marker scope="Public" name="pokeTrainers" />
+        <marker scope="Public" name="popo1" />
         <marker scope="Public" name="precumQuestion" />
+        <marker scope="Public" name="prompt" />
+        <marker scope="Public" name="promptAhoge" />
+        <marker scope="Public" name="promptCoward" />
+        <marker scope="Public" name="promptCyborg" />
+        <marker scope="Public" name="promptDrills" />
+        <marker scope="Public" name="promptFantasy" />
+        <marker scope="Public" name="promptFuture" />
+        <marker scope="Public" name="promptInnocent" />
+        <marker scope="Public" name="promptLonely" />
+        <marker scope="Public" name="promptNekomimi" />
+        <marker scope="Public" name="promptParentGrandparents" />
+        <marker scope="Public" name="promptParentSafety" />
+        <marker scope="Public" name="promptRobot" />
+        <marker scope="Public" name="promptSexWorker" />
+        <marker scope="Public" name="promptSpace" />
+        <marker scope="Public" name="promptTattoo" />
+        <marker scope="Public" name="promptUndead" />
         <marker scope="Public" name="proteinSwimmer" />
         <marker scope="Public" name="pubicHairTwin" />
         <marker scope="Public" name="punkTie" />
@@ -3519,9 +3652,11 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="sanako_sk_k1" />
         <marker scope="Public" name="sanako_sk_s1" />
         <marker scope="Public" name="sanako_whyCover" />
+        <marker scope="Public" name="sandyCrime" />
         <marker scope="Public" name="santaHatStory">She regales the story of how a nice man invited her to Christmas dinner and leaves out the detail that they had Roast Maid for the main course.</marker>
         <marker scope="Public" name="santaShikiba" />
         <marker scope="Public" name="sayMyName">Per-target marker; Kyoko says a certain character's name while finishing.</marker>
+        <marker scope="Public" name="scarMemories" />
         <marker scope="Public" name="scm_batDeduction" />
         <marker scope="Public" name="scm_batDeduction_" />
         <marker scope="Public" name="scm_batDeduction_friends" />
@@ -3665,6 +3800,17 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="toru_chest" />
         <marker scope="Public" name="toru_chestB" />
         <marker scope="Public" name="toru_secretShlick" />
+        <marker scope="Public" name="toshinou_01" />
+        <marker scope="Public" name="toshinou_02" />
+        <marker scope="Public" name="toshinou_03" />
+        <marker scope="Public" name="toshinou_11" />
+        <marker scope="Public" name="toshinou_12" />
+        <marker scope="Public" name="toshinou_13" />
+        <marker scope="Public" name="toshinou_21" />
+        <marker scope="Public" name="toshinou_21a" />
+        <marker scope="Public" name="toshinou_22" />
+        <marker scope="Public" name="toshinou_22a" />
+        <marker scope="Public" name="toshinou_23" />
         <marker scope="Public" name="toshinou_aHand" />
         <marker scope="Public" name="toshinou_anythingElse" />
         <marker scope="Public" name="toshinou_beneathNotice" />
@@ -3687,12 +3833,19 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="toshinou_howManyTomatoes" />
         <marker scope="Public" name="toshinou_howManyTomatoes_mustStrip" />
         <marker scope="Public" name="toshinou_hsw_ending" />
+        <marker scope="Public" name="toshinou_justRemembered" />
         <marker scope="Public" name="toshinou_kyouko" />
         <marker scope="Public" name="toshinou_moreAlike" />
         <marker scope="Public" name="toshinou_nagisaJuiceRun" />
         <marker scope="Public" name="toshinou_nakeySwimmy" />
         <marker scope="Public" name="toshinou_nextOuting" />
         <marker scope="Public" name="toshinou_playedWith">She has played X games with Kyouko Toshinou. Increments at Game Over.</marker>
+        <marker scope="Public" name="toshinou_r11" />
+        <marker scope="Public" name="toshinou_r12" />
+        <marker scope="Public" name="toshinou_r12a" />
+        <marker scope="Public" name="toshinou_r13a" />
+        <marker scope="Public" name="toshinou_r21a" />
+        <marker scope="Public" name="toshinou_r22a" />
         <marker scope="Public" name="toshinou_ribbonGone" />
         <marker scope="Public" name="toshinou_seenTomatoUndies" />
         <marker scope="Public" name="toshinou_skinnyDip" />
@@ -3727,6 +3880,8 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Private" name="V_revealed">Based on custom vocabulary; for use in-line in place of ~revealed~.</marker>
         <marker scope="Private" name="V_revealed_uncountable">Boolean companion to V_revealed.</marker>
         <marker scope="Private" name="V_seed">Mysterious mayhem makes you merry! Spin the wheel of fun!</marker>
+        <marker scope="Public" name="vanessa_boobily" />
+        <marker scope="Public" name="vanessa_booby" />
         <marker scope="Public" name="volleyball" />
         <marker scope="Public" name="wellYouLost" />
         <marker scope="Public" name="whatKindaStrip" />
@@ -3823,6 +3978,7 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <marker scope="Public" name="yuno_nyc_hontou" />
         <marker scope="Public" name="yuno_nyc_truly" />
         <marker scope="Public" name="yuto">Dude has an infinite pastry hack and still can't hit a growth spurt.</marker>
+        <marker scope="Public" name="zenobia_finished" />
         <marker scope="Public" name="zeroEscape" />
         <marker scope="Public" name="zlsHeadDrop1" />
         <marker scope="Public" name="zlsHeadDrop2" />
@@ -3852,7 +4008,6 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
     <pendingLines>
         <line>Even if I were interested in...getting pished, why would I mix that with to~background.time~'s strip game?</line>
         <line>There’s still one question that bugs me, though. If you really are a guy, why did you hide that in the first place?</line>
-        <line>REVY: Man, I can’t relate to some fuckin’ weekend warriors out for a little titty-thrill. Who here is the walking dead? Y’know…a killer.</line>
         <line>"I have no intentions of turning back, I have no place to go back to from the beginning." (Kyoko, 69, DRKV7)</line>
         <line>Shock and awe</line>
         <line>There's no need to act so timid. There's more of an audience for this than you think, I assure you...</line>
@@ -3874,13 +4029,11 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <line>Kumatora and superpowers: clairvoyance???? It would be nice if she could save people</line>
         <line>CRITICAL DARLING: Gotta say, I’ve been in my fair share of locker rooms, and your socks don’t stink nearly as bad as some I’ve smelled! Er, not that they stink at all, I can’t even smell ’em from here!; KYOKO: Good save.</line>
         <line>KUMATORA: Which do you guys prefer: Cats, or dogs? I’m more of a monkey fan, personally.; KYOKO (Oh thank fuck I thought you were going to say bears)</line>
-        <line>Wrappings</line>
         <line>I already have my boobs out, I wonder, has the work I put in been enough to get something good out of you?</line>
         <line>Fizz? How cute.</line>
         <line>Start tracking whether the player has seen her naked in various extents/exposures?? Check per costume</line>
         <line>Pantsu and pants</line>
         <line>Idiots don't pay attention in English class they missed a really obvious clue</line>
-        <line>(Pierced nipples) Kind of curious about how that affects what you can do with them we can experiment later HEHEHEHE</line>
         <line>Target bi-curious</line>
         <line>Target bisexual women with prompt (Kyoko self bi-curious)</line>
         <line>Hand line, opp in heavy</line>
@@ -3911,7 +4064,6 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <line>smallSolicitation as a situation callout?</line>
         <line>Vagid on tan/dark skin</line>
         <line>Cute face?</line>
-        <line>You have a nice body. It makes sense why you’d want to show it off.</line>
         <line>Nice breasts.</line>
         <line>Your…areolae are so &lt;i&gt;red&lt;/i&gt;, Suzuya…</line>
         <line>Heavy lines upon clothing.reveals, ticksinstage=0</line>
@@ -3923,7 +4075,5 @@ Kyoko is deliberately setting the Chuunibyou character up for failure here.</not
         <line>Lines when gloves just came off when someone has already been eliminated</line>
         <line>NATASHA: By the way, a hotdog is not a sandwich. Nor are tacos, lunch wraps, or hamburgers. Whatever argument you have against this is incorrect.</line>
         <line>I try to think with my head rather than be ruled by my heart…but maybe I should try listening to my clitoris.</line>
-        <line>(To Moon complaining about Moon) I don't get why you're complaining. You're showing off your breasts, after all.</line>
-        <line>I'm sorry, ~Vanessa~. I'm trying not to stare, but...your breasts are very large. I'm sure you're aware.</line>
     </pendingLines>
 </metadata>

@@ -4,7 +4,10 @@ January 27, 2022 - The first message between the author and artist is sent, and 
 December 10, 2022 - At 1,052 lines, Kyoko is first submitted to the Testing Roster. She goes live the following morning.
 May 19, 2023 - At 1,376 lines, Kyoko goes up for sponsorships. Between the five sponsorships she receives soon after, the sponsorship requirements laid out for her collectively require more than 200 lines.
 August 30, 2023 - Kyoko Kirigiri reaches 1,500 lines.
-December 11, 2023 - The 1-year anniversary of Kyoko’s inclusion on the Testing Roster arrives. At this point, she has virtually been live on Testing non-stop for the entire year, is the oldest character on the Testing Roster (except for Sheena’s same-folder rework), and has 1,602 lines. Her sponsorship requirements at this point are roughly 20% complete.
+December 11, 2023 - The 1-year anniversary of Kyoko’s inclusion on the Testing Roster arrives. At this point, she has virtually been live on Testing non-stop for the entire year, is the oldest character on the Testing Roster (except for Sheena, who is at this point undergoing a same-folder rework), and has 1,602 lines. Her sponsorship requirements at this point are roughly 20% complete.
+February 29, 2024 - Following a discussion between Kyoko’s writer and one of her sponsors, Kyoko’s largest sponsorship is rewritten and effectively waived.
+March 10, 2024 - Kyoko receives a sixth sponsorship.
+May 8, 2024 - Kyoko Kirigiri reaches 2,000 lines.
 
 SPECIAL THANKS
 PurpleKuroi, for being a phenomenal artist, an absolute joy to work with, and honestly for making this whole project remotely possible
@@ -16,6 +19,7 @@ lil David, for labouring alongside me writing the complete OPPOSITE Kyouko
 Cipher, for writing one of Strip Poker Night’s most technically-sophisticated characters (Fina) for me to steal, I mean borrow, some important code from
 ThisIsMySinAlias for doing the posing on Sly Cooper, whose coding I copied because the coding for his arousal gimmick was WAY easier than what I had in mind to do for Kyoko’s
 DonOuttaDan and Critfinyti, for being the pioneers of writing Ms. Kirigiri as a Strip Poker Night character
+Everyone who wrote a sponsorship for Kyoko
 Every other writer and artist for Danganronpa characters in Strip Poker Night, for being my inspiration to make my contribution to the list
 The writers and artists of all the characters Kyoko targets, and those of all the characters who target her or will target her in the future
 All the rest of the SPNatI community, for contributing to one of the most positive, supportive, and helpful creative communities I have ever had the pleasure of being part of, for a pornographic game of all things
