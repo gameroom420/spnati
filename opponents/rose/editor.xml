@@ -97,13 +97,27 @@
         <response id="344" opponent="nephenee" opponentId="25" />
         <response id="346" opponent="jura" opponentId="1593" />
         <response id="349" opponent="jura" opponentId="1594" />
+        <response id="352" opponent="aqua_grunt" opponentId="156" />
+        <response id="354" opponent="aqua_grunt" opponentId="102" />
+        <response id="356" opponent="aqua_grunt" opponentId="651" />
+        <response id="369" opponent="meia" opponentId="1733" />
+        <response id="370" opponent="meia" opponentId="1734" />
+        <response id="371" opponent="meia" opponentId="1735" />
+        <response id="372" opponent="meia" opponentId="1737" />
+        <response id="373" opponent="meia" opponentId="1736" />
+        <response id="376" opponent="jura" opponentId="1704" />
+        <response id="381" opponent="arueshalae" opponentId="4" />
+        <response id="383" opponent="jura" opponentId="1705" />
     </responses>
     <notes>
         <note id="193">Rose has left her slot to visit Magma Grunt's slot - MG is showing her a picture of her own backside</note>
         <note id="311">attempts to peddle to opponents that are not poor OR are not villains AND not creepy</note>
         <note id="321">going with the logic that most people wouldnt have time/effort to spare on learning how to swim in a poor, barely even medieval setting
 </note>
-        <note id="349">This is my way of writing around the fact we just don't know rose's backstory in that much depth&lt;br&gt;</note>
+        <note id="349">This is my way of writing around the fact we just don't know rose's backstory in that much depth
+</note>
+        <note id="374">Gonne = Gun. Yes this is a Discworld reference, nobody can stop me</note>
+        <note id="382">'put them away' implying Rose things she is a bat +anima</note>
     </notes>
     <labels>
         <label id="1" label="" folder="Conditional" sort="18" />
@@ -386,7 +400,7 @@
         <label id="283" label="" folder="Aaravi&gt;Situation Reactions" sort="4" />
         <label id="288" label="" folder="Targets&gt;Jura" sort="0" />
         <label id="289" label="" folder="Targets&gt;Jura" sort="2" />
-        <label id="290" label="" folder="Targets&gt;Companions" sort="4" />
+        <label id="290" label="" color="3" folder="Targets&gt;Companions" sort="4" />
         <label id="291" label="Collectible - Tiger Eye" folder="" sort="0" />
         <label id="292" label="" folder="Targets&gt;Rose" sort="0" />
         <label id="215" label="" folder="Response&gt;Meia" sort="3" />
@@ -449,11 +463,46 @@
         <label id="347" label="" folder="Response&gt;Jura" sort="0" />
         <label id="348" label="" folder="Response&gt;Jura" sort="0" />
         <label id="349" label="" folder="Response&gt;Jura" sort="0" />
+        <label id="350" label="" folder="Flashing" sort="0" />
+        <label id="351" label="" folder="Flashing" sort="0" />
+        <label id="352" label="" folder="Targets&gt;Aqua Grunt" sort="0" />
+        <label id="353" label="" folder="Targets&gt;Aqua Grunt" sort="0" />
+        <label id="354" label="" folder="Targets&gt;Aqua Grunt" sort="0" />
+        <label id="355" label="" folder="Targets" sort="0" />
+        <label id="356" label="" folder="Targets&gt;Aqua Grunt" sort="0" />
+        <label id="357" label="" folder="Conditional (+Anima)" sort="0" />
+        <label id="358" label="" folder="Clothing" sort="0" />
+        <label id="359" label="" folder="Targets&gt;Yae Miko" sort="0" />
+        <label id="360" label="" folder="Targets&gt;Yae Miko" sort="0" />
+        <label id="361" label="" folder="Targets" sort="0" />
+        <label id="362" label="" folder="Conditional&gt;Consecutive Opp Loss" sort="0" />
+        <label id="363" label="" folder="Hidden" sort="0" />
+        <label id="364" label="" folder="Conditional&gt;Backgrounds" sort="0" />
+        <label id="365" label="" folder="Conditional&gt;Backgrounds" sort="0" />
+        <label id="366" label="" folder="Targets" sort="0" />
+        <label id="367" label="" folder="Targets" sort="0" />
+        <label id="368" label="" folder="Targets&gt;Companions" sort="0" />
+        <label id="369" label="" folder="Response&gt;Meia" sort="0" />
+        <label id="370" label="" folder="Response&gt;Meia" sort="0" />
+        <label id="371" label="" folder="Response&gt;Meia" sort="0" />
+        <label id="372" label="" folder="Response&gt;Meia" sort="0" />
+        <label id="373" label="" folder="Response&gt;Meia" sort="0" />
+        <label id="374" label="" folder="Targets&gt;Jura" sort="0" />
+        <label id="375" label="" folder="Targets&gt;Jura" sort="0" />
+        <label id="376" label="" folder="Response&gt;Jura" sort="0" />
+        <label id="377" label="" folder="Targets&gt;DDLC" sort="0" />
+        <label id="378" label="" folder="Targets&gt;DDLC" sort="0" />
+        <label id="379" label="" folder="Targets&gt;DDLC" sort="0" />
+        <label id="380" label="" folder="Targets&gt;DDLC" sort="0" />
+        <label id="381" label="" folder="Prompt Responses" sort="0" />
+        <label id="382" label="" folder="Targets" sort="0" />
+        <label id="383" label="" folder="Response&gt;Jura" sort="0" />
+        <label id="384" label="" folder="Targets&gt;DDLC" sort="0" />
     </labels>
     <posePreviewMarkers>
         <posePreviewMarker>show_anima==1</posePreviewMarker>
     </posePreviewMarkers>
-    <nextId>349</nextId>
+    <nextId>384</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="3player" />
@@ -464,7 +513,9 @@
         <marker scope="Public" name="Aella_Flash1" />
         <marker scope="Public" name="Aella_FlashB" />
         <marker scope="Public" name="anima_accusation" />
+        <marker scope="Public" name="Arueshalae_favorite_featureResp" />
         <marker scope="Public" name="arueshalae_good_dream" />
+        <marker scope="Public" name="arueshalae_wings1" />
         <marker scope="Public" name="clubRouge_invitationResp" />
         <marker scope="Public" name="e" />
         <marker scope="Public" name="everyone_out_1" />
@@ -484,10 +535,15 @@
         <marker scope="Public" name="lost_2_in_a_row_2" />
         <marker scope="Public" name="lost_2_in_a_row_3" />
         <marker scope="Public" name="mariS_wings_reveal" />
+        <marker scope="Public" name="mg_and_ag_fighting" />
+        <marker scope="Public" name="mg_and_ag_shop" />
         <marker scope="Public" name="mg_hood_down" />
         <marker scope="Public" name="mg_magma_speech1" />
         <marker scope="Public" name="mg_rose_show_phone" />
+        <marker scope="Public" name="monika_leadership1" />
         <marker scope="Public" name="muststrip5_witty_tag" />
+        <marker scope="Public" name="natasha_arms1" />
+        <marker scope="Public" name="natsuki_cupcake1" />
         <marker scope="Public" name="nephenee_pussy" />
         <marker scope="Public" name="nephenee_pussyB" />
         <marker scope="Public" name="nephenee_tits" />
@@ -536,9 +592,13 @@
         <marker scope="Public" name="rose_HSW_Rose_clothes1B" />
         <marker scope="Public" name="rose_HSW_self0a" />
         <marker scope="Public" name="rose_jura_hairCare1" />
+        <marker scope="Public" name="rose_jura_hairCare2" />
         <marker scope="Public" name="rose_jura_self2a" />
         <marker scope="Public" name="rose_jura_self2b" />
+        <marker scope="Public" name="rose_jura_self2c" />
         <marker scope="Public" name="rose_jura_self4a" />
+        <marker scope="Public" name="rose_jura_self4b" />
+        <marker scope="Public" name="rose_jura_strip2a" />
         <marker scope="Public" name="rose_jura0_early" />
         <marker scope="Public" name="rose_jura0_early2" />
         <marker scope="Public" name="rose_jura0_early3" />
@@ -548,9 +608,15 @@
         <marker scope="Public" name="rose_kirigiri_self0a" />
         <marker scope="Public" name="rose_kirigiri_self0b" />
         <marker scope="Public" name="rose_meia_pyoro1" />
+        <marker scope="Public" name="rose_meia_pyoro2" />
         <marker scope="Public" name="rose_meia_self0a" />
+        <marker scope="Public" name="rose_meia_self0b" />
         <marker scope="Public" name="rose_meia_self2a" />
+        <marker scope="Public" name="rose_meia_self2b" />
         <marker scope="Public" name="rose_meia_self3a" />
+        <marker scope="Public" name="rose_meia_self3b" />
+        <marker scope="Public" name="rose_meia_self4a" />
+        <marker scope="Public" name="rose_meia_self5a" />
         <marker scope="Public" name="rose_meia0" />
         <marker scope="Public" name="rose_meia0_early" />
         <marker scope="Public" name="rose_mg_backScar1" />
@@ -623,6 +689,7 @@
         <marker scope="Public" name="RoseAaravi_SelfEliminated2" />
         <marker scope="Public" name="rouge_favjewel" />
         <marker scope="Public" name="sanako_spend_your_time" />
+        <marker scope="Public" name="sayori_funstuff1" />
         <marker scope="Public" name="show_anima">If set to 1 she will show off her +Anima traits (cat claws and sharp eyes)</marker>
         <marker scope="Public" name="showing_animaFirstTime_yuno" />
         <marker scope="Public" name="standbackup" />
@@ -630,12 +697,15 @@
         <marker scope="Public" name="target_winged_fairy" />
         <marker scope="Public" name="target_winged_nonhuman" />
         <marker scope="Public" name="what_does_the_J_mean" />
+        <marker scope="Public" name="yaemiko_foxy1" />
+        <marker scope="Public" name="yaemiko_seductive1" />
         <marker scope="Public" name="yumeko_housepet_reaction" />
         <marker scope="Public" name="yuno_erection" />
         <marker scope="Public" name="yuno_rose_degree1" />
         <marker scope="Public" name="yuno_rose_degree2" />
         <marker scope="Public" name="yunyun_is_crimson_demon" />
         <marker scope="Public" name="yunyun_not_tattoos" />
+        <marker scope="Public" name="yuri_teadrinker1" />
     </markers>
     <recipes>
         <recipe key="4304b9c6-cdb2-4889-9ccd-fd4ccab36490">
