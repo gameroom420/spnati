@@ -582,14 +582,20 @@
         <label id="454" label="" folder="Tea to left" sort="0" />
         <label id="455" label="beach" folder="" sort="0" />
         <label id="456" label="beach" folder="" sort="0" />
+        <label id="457" label="" folder="Dawn and Cynthia to left or right" sort="0" />
+        <label id="458" label="ribbon" folder="" sort="0" />
+        <label id="459" label="weapon" folder="" sort="0" />
+        <label id="12" label="belt" folder="" sort="0" />
+        <label id="14" label="glasses" folder="" sort="0" />
+        <label id="45" label="hat" folder="" sort="0" />
+        <label id="6" label="shoes" folder="" sort="0" />
+        <label id="26" label="gloves" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>collectible_</prefix>
         <prefix>x-</prefix>
     </prefixes>
-    <onlyCustomPoses>false</onlyCustomPoses>
-    <hidePrefixlessImages>false</hidePrefixlessImages>
-    <nextId>456</nextId>
+    <nextId>459</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="adrienSkitty" />

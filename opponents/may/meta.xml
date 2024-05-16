@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <opponent>
-    <lastupdate>1686733483485</lastupdate>
+    <lastupdate>1715846463368</lastupdate>
     <enabled>true</enabled>
     <first>May</first>
     <last />
@@ -14,13 +14,12 @@
     <layers>8</layers>
     <default-costume-name>Alpha Default</default-costume-name>
     <alternates>
-        <costume folder="opponents/reskins/may_nostalgia/" img="0-calm.png" status="online" label="May" layers="8">Ruby Nostalgia</costume>
-        <costume folder="opponents/reskins/may_hopping_bunny/" img="0-calm.png" set="easter" label="May" layers="8">Hopping Bunny</costume>
-        <costume folder="opponents/reskins/may_summer/" img="0-calm.png" set="summer" label="May" layers="8">Sunset Secret</costume>
+        <costume folder="opponents/reskins/may_nostalgia/" img="0-calm.png" status="online" label="May">Ruby Nostalgia</costume>
+        <costume folder="opponents/reskins/may_hopping_bunny/" img="0-calm.png" set="easter" label="May">Hopping Bunny</costume>
+        <costume folder="opponents/reskins/may_summer/" img="0-calm.png" set="summer" label="May">Sunset Secret</costume>
     </alternates>
     <has_collectibles>true</has_collectibles>
-    <lines>1344</lines>
+    <lines>1365</lines>
     <poses>195</poses>
     <has_ending>false</has_ending>
-    <release>31</release>
 </opponent>
