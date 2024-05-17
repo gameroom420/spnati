@@ -440,12 +440,16 @@ and I'll do it again</note>
         <label id="1583" label="" color="4" folder="" sort="0" />
         <label id="1584" label="" color="4" folder="" sort="0" />
         <label id="1586" label="Custom Javascript" folder="" sort="0" />
+        <label id="1587" label="" color="4" folder="" sort="0" />
+        <label id="1588" label="" color="4" folder="" sort="0" />
+        <label id="1589" label="" color="4" folder="" sort="0" />
     </labels>
     <prefixes>
         <prefix>blazer</prefix>
         <prefix>poem-1</prefix>
+        <prefix>monika_skirtlift</prefix>
     </prefixes>
-    <nextId>1586</nextId>
+    <nextId>1589</nextId>
     <markers>
         <marker scope="Public" name="3_musician_table_reaction" />
         <marker scope="Public" name="4_musician_table_reaction" />
@@ -1365,6 +1369,8 @@ and I'll do it again</note>
         <marker scope="Public" name="rosa_resp_rosasHS" />
         <marker scope="Public" name="rosa_resp_rosasHS2" />
         <marker scope="Public" name="rosa_resp_rosasHS3" />
+        <marker scope="Public" name="rose_emeraldJewelry" />
+        <marker scope="Public" name="rose_resp_leadership1" />
         <marker scope="Public" name="rouge_resp_favorite_jewel" />
         <marker scope="Public" name="rouge_resp_shadow_hobbies" />
         <marker scope="Public" name="round-glitched">Monika is glitching the current round of gameplay. This is set and unset at the very beginning of each round, before anyone speaks.</marker>
@@ -1393,6 +1399,7 @@ and I'll do it again</note>
         <marker scope="Public" name="samus_resp_playerClose" />
         <marker scope="Public" name="samus_resp_playerClose2" />
         <marker scope="Public" name="samus_resp_playerClose3" />
+        <marker scope="Public" name="sanako_baking" />
         <marker scope="Public" name="sans_resp_theKnockening" />
         <marker scope="Public" name="sayaka_0" />
         <marker scope="Public" name="sayonika-start-prompt" />
