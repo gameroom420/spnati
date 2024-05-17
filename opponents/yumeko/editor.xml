@@ -434,6 +434,7 @@
         <marker scope="Public" name="MariS3b" />
         <marker scope="Public" name="MariS3c" />
         <marker scope="Public" name="MariS4a" />
+        <marker scope="Public" name="MariS4b" />
         <marker scope="Public" name="Meia_resp0a" />
         <marker scope="Public" name="Meia_resp0acg" />
         <marker scope="Public" name="Meia_resp0b" />
@@ -459,6 +460,7 @@
         <marker scope="Public" name="Mia_resp2a" />
         <marker scope="Public" name="Mia_resp2b" />
         <marker scope="Public" name="Mia_resp2c" />
+        <marker scope="Public" name="Mikan_resp0a" />
         <marker scope="Public" name="Miku_housecat" />
         <marker scope="Public" name="Miku_lowstakes" />
         <marker scope="Public" name="Miku_resp0a" />
@@ -573,6 +575,7 @@
         <marker scope="Public" name="Reimu_resp1c" />
         <marker scope="Public" name="Reimu_resp2a" />
         <marker scope="Public" name="Reimu_resp2b" />
+        <marker scope="Public" name="Reimu_resp2c" />
         <marker scope="Public" name="Revy_resp0a" />
         <marker scope="Public" name="Revy0a" />
         <marker scope="Public" name="Ribbongirl_resp0a" />
@@ -656,6 +659,9 @@
         <marker scope="Public" name="Shamiko4a" />
         <marker scope="Public" name="Shamiko4b" />
         <marker scope="Public" name="Shamiko4c" />
+        <marker scope="Public" name="Sofia_resp0a" />
+        <marker scope="Public" name="Sofia_resp3a" />
+        <marker scope="Public" name="Sofia0a" />
         <marker scope="Public" name="Solitairedown" />
         <marker scope="Public" name="Stocking_jackoffresp" />
         <marker scope="Public" name="Stocking_luckresp" />
@@ -775,6 +781,7 @@
         <marker scope="Public" name="Wikipe-tan5b" />
         <marker scope="Public" name="Yae0a" />
         <marker scope="Public" name="Yae0c" />
+        <marker scope="Public" name="Yae1a" />
         <marker scope="Public" name="YaeMiko_resp0a" />
         <marker scope="Public" name="YaeMiko_resp0b" />
         <marker scope="Public" name="YaeMiko_resp0c" />
