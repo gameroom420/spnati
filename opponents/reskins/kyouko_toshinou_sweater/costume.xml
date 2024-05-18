@@ -1535,6 +1535,18 @@
                 <keyframe time="1.5" src="kyouko_toshinou/posemaker/cat/cat_collar.png" />
             </directive>
         </pose>
+        <pose id="4-stripping-ohno">
+            <sprite id="stripping-a" src="reskins/kyouko_toshinou_sweater/4-stripping-a.png" x="-27" y="-660" />
+            <sprite id="stripping-c" src="reskins/kyouko_toshinou_sweater/4-stripping-c.png" x="-51" y="138" />
+            <directive type="animation" id="stripping-a" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/4-stripping-a.png" />
+                <keyframe time="1.5" src="reskins/kyouko_toshinou_sweater/4-stripping-b.png" />
+            </directive>
+            <directive type="animation" id="stripping-c" ease="linear" interpolation="none">
+                <keyframe time="0" src="reskins/kyouko_toshinou_sweater/4-stripping-c.png" x="-51" y="138" />
+                <keyframe time="1.5" src="reskins/kyouko_toshinou_sweater/4-stripping-d.png" x="-70" y="141" />
+            </directive>
+        </pose>
     </poses>
 
     <pose-sets>
