@@ -1,9 +1,9 @@
 # Sponsorship reqs
 
 [X] Remillia
-[ ] L0kkit
+[X] L0kkit
 [ ] Spaceman
-[ ] Tweetsie
+[X] Tweetsie
 [X] Nicole
 
 ## Remillia
@@ -23,7 +23,7 @@
 ## L0kkit
 
 - [X] Add at least 30 targeted lines
-- [ ] Add at least 30 hand quality lines (8/30)
+- [X] Add at least 30 hand quality lines
 - (S) Show her candid side more
 
 ## Ace
@@ -47,11 +47,11 @@
   - [X] Removed major (female)
   - [X] Masturbating (male)
   - [X] Masturbating (female)
-- [ ] 25 outgoing targets (19/25)
+- [ ] 25 outgoing targets (22/25)
   - Yumeko (6 stages)
   - Nadeshiko (8 stages)
   - Mari Setogaya (starting at 1, 5 stages)
-  - Kyoko Kirigiri (starting at 1, 1/7 stages)
+  - Kyoko Kirigiri (starting at 1, 3/7 stages)
 - [X] 20 filters
 - (S) Tweak face a little - try reduced head size
 - (S) Casual alt
@@ -59,7 +59,7 @@
 ## Tweetsie
 
 - [X] 25 targets to any characters
-- [ ] 25 generics exploring her sexuality more (preferably in interval [4, 7]) (15/25)
+- [X] 25 generics exploring her sexuality more (preferably in interval [4, 7])
 
 ## Karbol
 
