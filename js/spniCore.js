@@ -600,7 +600,7 @@ function restartGame () {
     }
 
     clearTimeout(timeoutID); // No error if undefined or no longer valid
-    timeoutID = autoForfeitTimeoutID = undefined;
+    timeoutID = undefined;
     stopCardAnimations();
     $('link[href^="opponents/"]').remove();
     resetPlayers();
@@ -612,8 +612,13 @@ function restartGame () {
     $gamePlayerCardArea.show();
     $gamePlayerClothingArea.css('display', '');  /* Reset to default so as not to interfere with 
                                                     switching between classic and minimal UI. */
+    $autoAdvanceFasterButton.hide();
+    $autoAdvanceSlowerButton.hide();
+
     inGame = false;
     autoAdvancePaused = false;
+    autoAdvanceProgress = 0;
+    $('#auto-advance-progress-bar').stop();
 
     Sentry.setTag("in_game", false);
 

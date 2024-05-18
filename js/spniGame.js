@@ -45,6 +45,8 @@ $gameClothingCells = [$(".player-0-clothing-1"),
                       $(".player-0-clothing-7"),
                       $(".player-0-clothing-8")];
 $mainButton = $("#main-game-button");
+$autoAdvanceFasterButton = $("#auto-advance-faster-button");
+$autoAdvanceSlowerButton = $("#auto-advance-slower-button");
 $cardButtons = [$("#player-0-card-1"),
                 $("#player-0-card-2"),
                 $("#player-0-card-3"),
@@ -83,8 +85,6 @@ gameDisplays = [
 
 /* pseudo constants */
 var GAME_DELAY = 800;
-var FORFEIT_DELAY = null;
-var ENDING_DELAY = null;
 var GAME_OVER_DELAY = 1000;
 var SHOW_ENDING_DELAY = 5000; //5 seconds
 var CARD_SUGGEST = false;
@@ -93,6 +93,7 @@ var EXPLAIN_ALL_HANDS = true;
 var AUTO_FADE = true;
 var MINIMAL_UI = true;
 var DEBUG = false;
+const AUTO_ADVANCE_DELAYS = [undefined, 10000, 7000, 4000];
 
 /* game state
  * 
@@ -127,11 +128,12 @@ var recentLoser = -1;
 var recentWinner = -1;
 var gameOver = false;
 var actualMainButtonState = false;
-var autoAdvancePaused = false;  // Flag that prevents auto advance if a modal is opened when not waiting for auto advance
+var autoAdvanceSpeed = 0;
+var autoAdvanceProgress = 0;
+var autoAdvancePaused = false;  // Flag that prevents auto advance if a modal is opened when *not* waiting for auto advance
 var endWaitDisplay = 0;
 var showDebug = false;
 var chosenDebug = -1;
-var autoForfeitTimeoutID; // Remember this specifically so that it can be cleared if auto forfeit is turned off.
 
 var transcriptHistory = [];
 
@@ -760,25 +762,25 @@ function allowProgression (nextPhase) {
     }
 
     actualMainButtonState = false;
-    if (nextPhase != eGamePhase.GAME_OVER && !inRollback()) {
-        if (autoAdvancePaused) {
-            // Closing the modal that the flag to be set should call allowProgression() again.
-            return;
-        } else if (FORFEIT_DELAY && humanPlayer.out && !humanPlayer.finished && (humanPlayer.timer > 1 || gamePhase == eGamePhase.STRIP)) {
-            timeoutID = autoForfeitTimeoutID = setTimeout(advanceGame, FORFEIT_DELAY);
-            $mainButton.attr('disabled', true);
-            return;
-        } else if (ENDING_DELAY && (humanPlayer.finished || (!humanPlayer.out && gameOver))) {
-            /* Human is finished or human is the winner */
-            timeoutID = autoForfeitTimeoutID = setTimeout(advanceGame, ENDING_DELAY);
-            $mainButton.attr('disabled', true);
-            return;
-        }
+    timeoutID = undefined;
+    const allowAutoAdvance = nextPhase != eGamePhase.GAME_OVER && !inRollback()
+          && ((humanPlayer.out && (humanPlayer.timer > 1 || gamePhase == eGamePhase.STRIP)
+               || humanPlayer.finished || (!humanPlayer.out && gameOver)));
+    $autoAdvanceFasterButton.toggle(allowAutoAdvance);
+    $autoAdvanceSlowerButton.toggle(allowAutoAdvance);
+
+    if (autoAdvancePaused) {
+        // Closing the modal that the flag to be set should call allowProgression() again.
+        return;
     }
-    timeoutID = autoForfeitTimeoutID = undefined;
-    $mainButton.attr('disabled', false);
-    if (!$(document.activeElement).is(':input')) {
-        $mainButton.focus();
+    if (allowAutoAdvance && autoAdvanceSpeed) {
+        $mainButton.attr('disabled', true);
+        changeAutoAdvance();
+    } else {
+        $mainButton.attr('disabled', false);
+        if (!$(document.activeElement).is(':input')) {
+            $mainButton.focus();
+        }
     }
 }
 
@@ -794,7 +796,6 @@ function advanceGame () {
          * altogether. So remove that focus. */
         $(document.activeElement).blur();
     }
-    autoForfeitTimeoutID = undefined;
     
     /* lower the timers of everyone who is forfeiting */
     if (gamePhase[3] !== false && tickForfeitTimers()) return;
@@ -809,9 +810,9 @@ function advanceGame () {
  * If Auto-advance is auto-advancing, stop it.
  ************************************************************/
 function pauseAutoAdvance () {
-    if (autoForfeitTimeoutID) {
-        clearTimeout(autoForfeitTimeoutID);
-        timeoutID = autoForfeitTimeoutID = undefined;
+    $progressBar = $('#auto-advance-progress-bar');
+    if ($progressBar.length) {
+        $progressBar.stop();
     }
     autoAdvancePaused = true;
 }
@@ -823,8 +824,69 @@ function resumeAutoAdvance () {
     /* Important to clear the flag if the user opens and closes a modal during 
        game activity. */
     autoAdvancePaused = false;
-    if (!actualMainButtonState) {
+    $progressBar = $('#auto-advance-progress-bar');
+    if ($progressBar.length) {
+        changeAutoAdvance();
+    } else if (!actualMainButtonState) {
         allowProgression();
+    }
+}
+
+function changeAutoAdvance (change) {
+    autoAdvanceSpeed += change || 0;
+    if (autoAdvanceSpeed < 0) autoAdvanceSpeed = 0; // Safety check; shouldn't happen. Same below.
+    if (autoAdvanceSpeed >= AUTO_ADVANCE_DELAYS.length) autoAdvanceSpeed = AUTO_ADVANCE_DELAYS.length - 1;
+
+    // Change appearance of buttons
+    $autoAdvanceSlowerButton.attr('disabled', autoAdvanceSpeed == 0);
+    $autoAdvanceFasterButton.attr('disabled', autoAdvanceSpeed == AUTO_ADVANCE_DELAYS.length - 1);
+    
+    if (autoAdvanceSpeed > 0) {
+        $autoAdvanceFasterButton.children('span.glyphicon').removeClass('glyphicon-play').addClass('glyphicon-forward');
+    } else {
+        $autoAdvanceFasterButton.children('span.glyphicon').removeClass('glyphicon-forward').addClass('glyphicon-play');
+    }
+    if (autoAdvanceSpeed > 1) {
+        $autoAdvanceSlowerButton.children('span.glyphicon').removeClass('glyphicon-pause').addClass('glyphicon-play');
+    } else {
+        $autoAdvanceSlowerButton.children('span.glyphicon').removeClass('glyphicon-play').addClass('glyphicon-pause');
+    }
+
+    if (change && actualMainButtonState) return;  // Disallow any auto-advance start while the main button is disabled.
+
+    $progressBar = $('#auto-advance-progress-bar');
+    if ($progressBar.length) {  // We are currently auto-advancing
+        if (change) $progressBar.stop();
+        if (autoAdvanceSpeed == 0) {
+            // Reset, return to manual advance
+            autoAdvanceProgress = 0;
+            $progressBar.remove();
+            allowProgression();
+            return;
+        }
+    } else if (autoAdvanceSpeed == 1 && change == 1 && !actualMainButtonState) {
+        // When activating auto advance, immediately advance one phase.
+        advanceGame();
+        return;
+    } else {
+        // Starting an auto-advance timeout. We should be called from
+        // allowProgress() with change == 0 here, so create a progress
+        // bar.
+        $progressBar = $('<div>', { id: 'auto-advance-progress-bar' }).prependTo($mainButton);
+    }
+    if (autoAdvanceSpeed) {
+        // Start or restart animation
+        $progressBar.animate({ width: '100%' },
+                             { duration: AUTO_ADVANCE_DELAYS[autoAdvanceSpeed] * (1 - autoAdvanceProgress),
+                               easing: 'linear',
+                               progress: function (anim, progress, remaining) {
+                                   autoAdvanceProgress = 1 - remaining / AUTO_ADVANCE_DELAYS[autoAdvanceSpeed];
+                               },
+                               complete: function () {
+                                   autoAdvanceProgress = 0;
+                                   advanceGame();
+                               },
+                             });
     }
 }
 
@@ -1043,11 +1105,11 @@ function showLogModal () {
 }
 
 $('#restart-modal,#log-modal,#bug-report-modal,#feedback-report-modal,#options-modal,#help-modal')
-    .on('shown.bs.modal', function() {
+    .on('show.bs.modal', function() {
         if (inGame) {
             pauseAutoAdvance();
         }})
-    .on('hide.bs.modal', function() {
+    .on('hidden.bs.modal', function() {
         if (inGame) {
             resumeAutoAdvance();
         }
