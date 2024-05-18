@@ -186,6 +186,7 @@ function PoseSprite(id, src, onload, pose, args) {
     this.x = args.x || 0;
     this.y = args.y || 0;
     this.z = args.z || 'auto';
+    this.layer = Number(args.layer) || this.player.z_index;
     this.scalex = args.scalex || 1;
     this.scaley = args.scaley || 1;
     this.skewx = args.skewx || 0;
@@ -457,15 +458,9 @@ function Pose(poseDef, display, onLoadCallback) {
     this.lastUpdateTS = null;
     this.active = false;
     this.baseHeight = poseDef.baseHeight || 1400;
-    
-    var container = document.createElement('div');
-    $(container).addClass("opponent-image custom-pose");
-    if (this.player.scale != 100) {
-        $(container).css({
-            "transform": "translate(-50%) scale("+this.player.scale/100.0+")",
-        });
-    }
-    this.container = container;
+    this.containers = [];
+
+    const containerMap = new Map();
     
     poseDef.sprites.forEach(function (def) {
         if (def.marker && !checkMarkers(def.marker, this.player)) {
@@ -474,6 +469,18 @@ function Pose(poseDef, display, onLoadCallback) {
         var sprite = new PoseSprite(def.id, def.src, this.onSpriteLoaded.bind(this), this, def);
         this.sprites[def.id] = sprite
         this.totalSprites++;
+        let container = containerMap.get(sprite.layer);
+        if (!container) {
+            container = createElementWithClass('div', 'opponent-image custom-pose');
+            if (this.player.scale != 100) {
+                $(container).css({
+                    "transform": "translate(-50%) scale("+this.player.scale/100.0+")",
+                });
+            }
+            $(container).css('z-index', sprite.layer);
+            containerMap.set(sprite.layer, container);
+            this.containers.push(container);
+        }
         
         container.appendChild(sprite.vehicle);
     }.bind(this));
@@ -915,7 +922,7 @@ OpponentDisplay.prototype.drawPose = function (pose) {
             return;
         }
 
-        $(pose.container).prependTo(this.imageArea);
+        $(pose.containers).prependTo(this.imageArea);
 
         function executeRemove (fn) {
             /* For Firefox/Gecko, we need to wait a frame before removing old poses, to prevent flickering.
@@ -940,9 +947,9 @@ OpponentDisplay.prototype.drawPose = function (pose) {
             this.cleanupCustomPose();
 
             /* Shouldn't have any effect for non-Gecko browsers, since we're removing it immediately afterwards */
-            $(prevPose.container).css({ "position": "absolute" });
+            $(prevPose.containers).css({ "position": "absolute" });
 
-            executeRemove(() => $(prevPose.container).remove());
+            executeRemove(() => $(prevPose.containers).remove());
         }
 
         if (pose.needsAnimationLoop()) {
@@ -1017,7 +1024,7 @@ OpponentDisplay.prototype.updateImage = function(player, image) {
          */
         this.clearPose();
     } else if (image instanceof PoseDefinition) {
-        const pose = new Pose(image, this, () => { this.drawPose(pose) });
+        var pose = new Pose(image, this, () => { this.drawPose(pose) });
         this.drawPose(pose);
     } else {
         this.drawPose(image);
@@ -1083,7 +1090,7 @@ OpponentDisplay.prototype.update = function(player) {
         bubbleArrowOffsetRules[this.slot-1][0].style.left = arrowLocation  || '50%';
         bubbleArrowOffsetRules[this.slot-1][1].style.top = arrowLocation;
         /* Configure z-indices */
-        this.imageArea.css('z-index', player.z_index);
+        this.simpleImage.css('z-index', player.z_index);
         this.bubble.removeClass('over under').addClass(dialogue_layering);
         this.dialogue.removeClass('small smaller');
         if (chosenState.fontSize != "normal") this.dialogue.addClass(chosenState.fontSize || player.fontSize);
@@ -1379,14 +1386,13 @@ MainSelectScreenDisplay.prototype.update = function (player) {
 
     this.prefillBadgeRow.children().hide();
     this.label.removeClass("suggestion-label");
-    this.imageArea.removeClass("prefill-suggestion");
+    this.imageArea.removeClass("prefill-suggestion").css('z-index', '');
     this.selectButton.removeClass("suggestion-shown");
     this.prefillButton.hide();
 
     if (!player) {
         this.hideBubble();
         this.clearPose();
-        this.imageArea.css('z-index', '-100');
         this.label.html("Opponent " + this.slot);
 
         /* change the button */

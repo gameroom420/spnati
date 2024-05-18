@@ -1580,7 +1580,6 @@ ul.dropdown-menu>li {
 }
 
 .opponent-image.custom-pose {
-    position: relative;
     transform-origin: bottom center;
 }
 
@@ -2309,6 +2308,7 @@ ul.dropdown-menu>li {
 
 .opponent-suggestion-container {
     position: absolute;
+    z-index: -100;
     width: 100%;
     height: 80%;
     margin: auto;
