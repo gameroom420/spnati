@@ -3131,8 +3131,9 @@
                 <state marker="CurrentPlayerStatus=~self.marker.PlayerExposedStart~">
                     <text>hidden</text>
                     <markers>
-                        <marker name="CurrentPlayerLayers" op="=" value="7+~player.diff(self)~" />
                         <marker name="CurrentNoireLayers" op="=" value="7" />
+                        <marker name="CurrentPlayerLayers" op="=" value="~self.marker.CurrentNoireLayers~" />
+                        <marker name="CurrentPlayerLayers" op="+" value="~player.diff(self)~" />
                         <marker name="CurrentNoireStatus" op="=" value="decent" />
                         <marker name="CurrentPlayerLost" op="=" value="0" />
                         <marker name="CurrentPlayerGender" op="=" value="~player.gender~" />
@@ -15693,10 +15694,10 @@
             </case>
             <case stage="0-9" id="1998" hidden="1">
                 <condition role="target" character="human" />
-                <state marker="-CurrentPlayerLayers">
+                <state marker="CurrentPlayerLost=0">
                     <text>markers</text>
                     <markers>
-                        <marker name="CurrentPlayerLost" op="=" value="0" />
+                        <marker name="CurrentPlayerLayers" op="-" value="1" />
                     </markers>
                 </state>
             </case>
