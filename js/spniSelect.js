@@ -973,6 +973,7 @@ function updateIndividualSelectVisibility (autoclear) {
         } else {
             $(opp.selectionCard.mainElem).hide();
         }
+        opp.selectionCard.updateHighlight();
     });
 
     // If a unique match was made, automatically clear the search so
@@ -1312,19 +1313,15 @@ function loadDefaultFillSuggestions () {
             return false;
         }
 
-        return opp.force_prefill && !isCharacterUsed(opp);
+        return (opp.force_prefill || opp.hasBirthdayToday && Math.random() < 0.5) && !isCharacterUsed(opp);
     });
 
     if (forcedPrefills.length > 0) {
-        /* select forced prefill characters from events */
-        for (var i = 0; i < 4; i++) {
-            if (forcedPrefills.length === 0) break;
-
-            let idx = getRandomNumber(0, forcedPrefills.length);
-            let randomOpponent = forcedPrefills[idx];
-            forcedPrefills.splice(idx, 1);
-
-            fillPlayers.push(randomOpponent);
+        /* select forced prefill characters from events and birthdays */
+        shuffleArray(forcedPrefills);
+        forcedPrefills.sort(sortOpponentsByField("-hasBirthdayToday"));
+        for (let i = 0; i < 4 && i < forcedPrefills.length; i++) {
+            fillPlayers.push(forcedPrefills[i]);
         }
     }
 

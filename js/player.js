@@ -177,6 +177,17 @@ Player.prototype.resetState = function () {
     }
 }
 
+Object.defineProperty(Player.prototype, 'hasBirthdayToday', {
+    get: function() {
+        if ('birthday' in this) {
+            const now = new Date();
+            return (this.birthday.month == now.getMonth() + 1 && this.birthday.day == now.getDate());
+        }
+        return false;
+    },
+    enumerable: true
+});
+
 /* These shouldn't do anything for the human player, but exist as empty functions
    to make it easier to iterate over the entire players[] array. */
 Player.prototype.updateLabel = function () { }
@@ -569,6 +580,13 @@ function Opponent (id, metaFiles, status, rosterScore, addedDate, releaseNumber,
     this.fontSize = $metaXml.children('font-size').text();
     if (!['small', 'smaller'].includes(this.fontSize)) this.fontSize = undefined;
     this.lastUpdated = parseInt($metaXml.children('lastupdate').text(), 10) || 0;
+    const $bday = $metaXml.children('birthday');
+    if ($bday.length) {
+        this.birthday = {
+            month: Number($bday.attr('month')),
+            day: Number($bday.attr('day')),
+        }
+    }
 
     /* For sorting purposes. 
      * Simplifies diacritics (to solve the Pokemon problem), removes punctuation,
