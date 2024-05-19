@@ -20,6 +20,10 @@ Additionally, if a variable is written in all caps (e.g. `~PLAYER~`), then the e
 | `~name~`     | The name (label) of the current target. The same as `~target~`. The target depends on the situation and not all situations have a target. | 
 | `~background~` | The name of the current background. |
 | `~rng(lo-hi)~` | Generates a random number between `lo` and `hi`, inclusive. |
+| `~vars.count(variable)~`      | The number of players matching the condition(s) to which the custom variable `variable` has been assigned. If `variable` has not been assigned, this expands to 0. This makes it possible to require that zero players fulfill all conditions in a set, or that the same number of players fulfills two conditions. |
+| `~vars.textcount(variable)~` | The same as `~vars.count(variable)~`, but as text ("zero", "one", ... "five"). |
+| `~vars.list(variable|last|conjunction)~` | The (nick)names of the player(s) matching all the conditions defining `variable`, plus `last`, separated by commas and `conjunction` (defaults to "and"). If `conjunction` is empty, the (nick)names (and `last`) will all be joined by commas. Example: `~vars.list(opp|me|or)~` might expand to "Mari, Aqua, or me".
+| `~vars.switch(variable|text-if-one|text-if-two|...)~`   | Expands to the alternative corresponding to the number of players matching the conditions defining `variable` (starting at 1). Similar to the `ifPlural()` functions, but there can optionally be separate cases for 3, 4, and 5. If the number of matches is greater than the number of alternatives, the last alternative is used.
 | `~blank~`      | Expands to a blank (i.e. empty) string. This is mostly useful for creating lines where a character says nothing at all, such as during joint interactions. |
 
 Note that backgrounds have lots of information that can be accessed using variables;
@@ -117,7 +121,13 @@ conditions. You can also add extra restrictions using variable tests on the cust
 with the same names but with `2`, `3`, and so on, appended. These can also be used with variable tests, but note that not all possible combinations of such additional
 numbered variables will be tried.
 
+If multiple conditions define the same variable, but at least one of them have a 0 lower bound, the variable may end up undefined, either because no player at all 
+matched a condition with 0 lower bound, or because no one player matched all conditions. You can use the `~vars.count()~` function to check how many players matched the
+conditions.
+
 Note that you _don't_ have to define a custom variable to reference a specific character whose presence you've ensured with an Opponent or Also Playing condition.
+
+When there's a tie, a special `tied` variable (and `tied2`, and so on in the extremely unlikely case of a three-way tie or worse) will be available.
 
 | Subvariable  | Description                                    |
 | ------------ | ---------------------------------------------- |
@@ -152,6 +162,7 @@ Note that you _don't_ have to define a custom variable to reference a specific c
 | `.hand.noart`   | Like above, but with no indeterminate article. Use like `My ~self.hand.noart~ was better than your ~target.hand.noart~!` |
 | `.hand.score`   | A numerical value of the hand. The hundreds digit specifies the type of hand (0 = High card, 1 = One pair, 2 = Two pair, 3 = Trips, 4 = Straight, 5 = Flush, 6 = Full house, 7 = Quads, 8 = Straight flush, and 9 = Royal Flush). The rest of the digits specify the rank of the (top) pair, triplet and so on. So 14 = ace high, 107 = a pair of sevens, 413 = King-high straight. It's not complete information about the hand, but better than just "a pair"; the difference between a pair of aces and a pair of deuces is *huge*.
 | `.cards`        | Works the same as `~cards~`, but for a specific player. Be sure not to try to use it on a player that hasn't swapped yet. |
+| `.tied`         | Expands to "true" if the player is one of those who tied when there is a tie. Only use with the `tie` trigger. |
 | `.timeinstage`  | How many rounds the player has spent in the same stage; see the Time in Stage condition for more details about how this works.
 | `.timer`        | How many ticks the player has left before they finish masturbating. This is equal to their stamina if they're still in the game, as well as when their Start Masturbating dialogue is playing. On the other hand, this is (naturally) equal to 0 when and after they finish.
 | `.ticksinstage` | Counts how many ticks has spent in the same stage; this is similar to Time in Stage, but is incremented whenever forfeit timers are ticked (or whenever they would otherwise be ticked, for players that are not masturbating). The loser of a round's Ticks in Stage is 0 when their Stripped or Start Masturbating cases are played; in general, when a player is masturbating, the sum of their current forfeit timer and ticks in stage values should equal their stamina. Like Time in Stage, when a player finishes, this is not reset to 0 until immediately _after_ the Finished cases have played.

@@ -1185,8 +1185,15 @@ function findVariablePlayer(variable, self, target, bindings) {
     if (variable == 'target') return target;
     if (variable == 'winner' && recentWinner >= 0) return players[recentWinner];
 
-    var normVariable = normalizeBindingName(variable);
-    if (bindings && normVariable in bindings) return bindings[normVariable];
+    const normVariable = normalizeBindingName(variable);
+    if (bindings) {
+	    if (normVariable in bindings) return bindings[normVariable][0];
+	    const [name, number] = normVariable.split(/(?=\d$)/);
+	    if (name in bindings && bindings[name].length >= Number(number)) {
+	        return bindings[name][number - 1];
+	    }
+    }
+
     if (players.some(function (p) {
         if (normalizeBindingName(p.id) === normVariable) {
             player = p;
@@ -1456,6 +1463,8 @@ function expandPlayerVariable(split_fn, args, player, self, target, bindings) {
         return player.out ? player.timer : player.stamina;
     case 'heavy':
         return (player.forfeit[0] === PLAYER_HEAVY_MASTURBATING) ? "true" : "false";
+    case 'tied':
+        return rankPlayers().tied.includes(player) ? "true" : "false";
     default:
         return expandNicknames(self, player);
     }
@@ -1744,6 +1753,34 @@ function expandDialogue (dialogue, self, target, bindings) {
             case 'selected':
                 var variablePlayer = findVariablePlayer(fn, self, target, bindings);
                 substitution = !!variablePlayer;
+                break;
+            case 'vars':
+                fn = fn_parts[0];
+                switch (fn) {
+                case 'count':
+                case 'textcount':
+                    if (bindings) {
+                        var count = bindings.hasOwnProperty(args) ? bindings[args].length : 0;
+                        if (fn == 'textcount') {
+                            substitution = [ 'zero', 'one', 'two', 'three', 'four', 'five' ][count];
+                        } else if (fn === 'count') {
+                            substitution = count;
+                        }
+                    }
+                    break;
+                case 'list':
+                    var [ name, last, conj ] = args.split('|');
+                    if (bindings && bindings.hasOwnProperty(name)) {
+                        substitution = englishJoin(bindings[name].map(expandNicknames.bind(this, self)).concat(last ? expandDialogue(last, self, target, bindings) : []), conj);
+                    }
+                    break;
+                case 'switch':
+                    var [ name, ...cases ] = args.split('|'), ix = bindings[name].length - 1;
+                    if (bindings && bindings.hasOwnProperty(name)) {
+                        substitution = expandDialogue(cases[ ix > cases.length - 1 ? cases.length - 1 : ix ], self, target, bindings);
+                    }
+                    break;
+                }
                 break;
             case 'target':
             case 'self':
@@ -2429,14 +2466,17 @@ Case.prototype.checkConditions = function (self, opp, postDialogue) {
             return false;
         }
         if (inInterval(matches.length, ctr.count)) {
-            if (matches.length && ctr.variable) {
+            if (ctr.variable) {
                 if (counterMatches.hasOwnProperty(ctr.variable)) {
                     // If two <condition> elements define the same variable, take the intersection of the matches.
                     // If any intersection is empty, getAllBindingCombinations() will return an empty array and the
-                    // case will not match.
+                    // case will not match, unless at least one of the conditions allows zero matches.
                     counterMatches[ctr.variable] = counterMatches[ctr.variable].filter(function(m) { return matches.indexOf(m) >= 0; });
                 } else {
                     counterMatches[ctr.variable] = matches;
+                }
+                if (inInterval(0, ctr.count)) {
+                    counterMatches[ctr.variable].allowZero = true;
                 }
             }
             return true;
@@ -2450,7 +2490,7 @@ Case.prototype.checkConditions = function (self, opp, postDialogue) {
     /* In the trivial case with no condition variables, we get a single binding combination of {}.
        And with no tests, this.tests.every() trivially returns true. */
     for (var i = 0; i < bindingCombinations.length; i++) {
-        addExtraNumberedBindings(bindingCombinations[i], Object.entries(counterMatches));
+        addExtraBindings(bindingCombinations[i], Object.entries(counterMatches));
         if (this.tests.every(function(test) {
             return test.evaluate(self, opp, bindingCombinations[i]);
         })) {
@@ -2572,6 +2612,9 @@ Opponent.prototype.findBehaviour = function(triggers, opp, volatileOnly) {
         bestMatch.forEach(function (c) {
             if (c !== chosenState.parentCase) c.cleanupMutableState();
         });
+        if (triggers[0] === PLAYERS_TIED) {
+            chosenState.parentCase.variableBindings.tied = rankPlayers().tied;
+        }
 
         return new State(chosenState);
     }
@@ -2914,7 +2957,8 @@ function commitAllBehaviourUpdates (target) {
 /*
  * Produces all combinations of variable bindings
  * Input: an array of pairs of variable name and matching player references
- * Return value: an array of objects with each variable name bound to a player reference.
+ * Return value: an array of objects with a variable name as key and a 
+ * one-element array with a player reference as value.
  */
 function getAllBindingCombinations (variableMatches) {
     if (variableMatches.length > 0) {
@@ -2923,6 +2967,7 @@ function getAllBindingCombinations (variableMatches) {
         var variable = cur[0];
         var matches = cur[1];
         var rest = getAllBindingCombinations(variableMatches.slice(1));
+        if (matches.length == 0 && matches.allowZero) return rest; // Skip this variable instead of returning an empty array.
 
         for (var i = 0; i < matches.length; i++) {
             for (var j = 0; j < rest.length; j++) {
@@ -2930,7 +2975,7 @@ function getAllBindingCombinations (variableMatches) {
                 for (var key in rest[j]) { // copy properties
                     bindings[key] = rest[j][key];
                 }
-                bindings[variable] = matches[i];
+                bindings[variable] = [ matches[i] ];
                 ret.push(bindings);
             }
         }
@@ -2939,17 +2984,17 @@ function getAllBindingCombinations (variableMatches) {
 }
 
 /*
- * Adds additional numbered variables from 2 and up binding to the
- * remaining variable matches not already used in bindings.
+ * Adds remaining matches to the list of player references for each base variable name.
  */
-function addExtraNumberedBindings (bindings, variableMatches) {
+function addExtraBindings (bindings, variableMatches) {
     variableMatches.forEach(function(pair) {
         var variable = pair[0], matches = pair[1];
-        var otherMatches = matches.filter(function(match) { return match != bindings[variable]; });
+        if (!bindings.hasOwnProperty(variable)) {
+            return;
+        }
+        var otherMatches = matches.filter(function(match) { return match != bindings[variable][0]; });
         shuffleArray(otherMatches);
-        otherMatches.forEach(function(match, i) {
-            bindings[variable + (i + 2)] = match;
-        });
+        bindings[variable].push(...otherMatches);
     });
 }
 
