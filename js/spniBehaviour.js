@@ -298,7 +298,7 @@ function MarkerOperation(base_name, op, rhs, parentCase) {
          */
         this.rhs = rhs;
     } else if (typeof(rhs) === 'string') {
-        var parsed = parseInt(rhs, 10);
+        var parsed = Number(rhs);
         if (!isNaN(parsed)) {
             this.rhs = parsed;
         } else {
@@ -411,7 +411,7 @@ MarkerOperation.prototype.evaluate = function (self, opp) {
         );
     }
 
-    var parsed = parseInt(rhs, 10);
+    var parsed = Number(rhs);
     if (!isNaN(parsed)) {
         rhs = parsed;
     }
@@ -1977,8 +1977,8 @@ function checkMarker(predicate, self, target, currentOnly) {
             {
                 cmpVal = parseInterval(cmpVal);
             }
-            else if (!isNaN(parseInt(cmpVal, 10))) {
-                cmpVal = parseInt(cmpVal, 10);
+            else if (!isNaN(Number(cmpVal))) {
+                cmpVal = Number(cmpVal);
             }
         } else {
             op = '!!';

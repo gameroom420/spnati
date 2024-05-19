@@ -422,7 +422,7 @@ Player.prototype.getMarker = function (baseName, target, numeric, targeted_only)
         }
     }
 
-    var cast = parseInt(val, 10);
+    var cast = Number(val);
 
     if (!isNaN(cast)) {
         return cast;
