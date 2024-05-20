@@ -1590,8 +1590,9 @@ https://en.wikipedia.org/wiki/Aswang</note>
         <label id="1555" label="" folder="Leon Dual Post Specifics" sort="0" />
         <label id="1561" label="" folder="Leon Dual Post Specifics" sort="0" />
         <label id="1597" label="After" folder="Leon Dual" sort="0" />
+        <label id="1598" label="Tag removal" folder="Leon Dual - Leon Lost First" sort="0" />
     </labels>
-    <nextId>1597</nextId>
+    <nextId>1598</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="aaravi_howl" />
