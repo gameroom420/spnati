@@ -267,6 +267,25 @@
         <response id="1374" opponent="lysithea" opponentId="92" />
         <response id="1375" opponent="lysithea" opponentId="93" />
         <response id="1379" opponent="critical_darling" opponentId="1068" />
+        <response id="1385" opponent="nonon" opponentId="523" />
+        <response id="1404" opponent="nonon" opponentId="486" />
+        <response id="1405" opponent="nonon" opponentId="476" />
+        <response id="1406" opponent="nonon" opponentId="474" />
+        <response id="1407" opponent="nonon" opponentId="473" />
+        <response id="1408" opponent="nonon" opponentId="472" />
+        <response id="1409" opponent="nonon" opponentId="471" />
+        <response id="1411" opponent="nonon" opponentId="538" />
+        <response id="1412" opponent="nonon" opponentId="540" />
+        <response id="1413" opponent="nonon" opponentId="541" />
+        <response id="1414" opponent="nonon" opponentId="539" />
+        <response id="1423" opponent="nonon" opponentId="334" />
+        <response id="1424" opponent="nonon" opponentId="395" />
+        <response id="1426" opponent="nonon" opponentId="363" />
+        <response id="1427" opponent="nonon" opponentId="267" />
+        <response id="1428" opponent="nonon" opponentId="366" />
+        <response id="1429" opponent="nonon" opponentId="378" />
+        <response id="1432" opponent="leon" opponentId="1514" />
+        <response id="1433" opponent="leon" opponentId="1516" />
     </responses>
     <notes>
         <note id="483">For Nord: This opens conversation about good spirits</note>
@@ -278,6 +297,7 @@ https://en.wikipedia.org/wiki/Aswang</note>
         <note id="1268">Hu Tao is not incredulous, but is thinking some absolutely filthy thoughts about what she'd do to Caitlin. </note>
         <note id="1269">Hu Tao is again thinking of naughty places on Caitlin where she'd put her fingers. </note>
         <note id="1271">Hu Tao is again thinking of naughty places on Caitlin where she'd put her fingers. </note>
+        <note id="1435">Could be a chance to talk about the various Megaman death things, or AI, cyberelves, etc</note>
     </notes>
     <labels>
         <label id="2" label="sounds" folder="" sort="0" />
@@ -1114,7 +1134,7 @@ https://en.wikipedia.org/wiki/Aswang</note>
         <label id="898" label="" folder="Leon" sort="0" />
         <label id="899" label="" folder="Leon" sort="0" />
         <label id="900" label="" folder="Leon" sort="0" />
-        <label id="901" label="" folder="Leon" sort="0" />
+        <label id="901" label="" folder="Leon Dual FF" sort="0" />
         <label id="902" label="" folder="Leon" sort="0" />
         <label id="903" label="" folder="Leon" sort="0" />
         <label id="904" label="" folder="Leon" sort="0" />
@@ -1171,7 +1191,7 @@ https://en.wikipedia.org/wiki/Aswang</note>
         <label id="968" label="" folder="Leon" sort="0" />
         <label id="969" label="" folder="Leon" sort="0" />
         <label id="970" label="" folder="Leon" sort="0" />
-        <label id="971" label="Dual Forfeit" folder="Leon" sort="0" />
+        <label id="971" label="Dual Forfeit - Later Tandem" folder="Leon Dual FF" sort="0" />
         <label id="972" label="" folder="Leon" sort="0" />
         <label id="973" label="" folder="Leon" sort="0" />
         <label id="974" label="" folder="Leon" sort="0" />
@@ -1476,8 +1496,102 @@ https://en.wikipedia.org/wiki/Aswang</note>
         <label id="1368" label="" folder="Player" sort="0" />
         <label id="1378" label="" folder="Musicians" sort="0" />
         <label id="1380" label="" folder="Musicians" sort="0" />
+        <label id="1381" label="" folder="Musicians" sort="0" />
+        <label id="1382" label="" folder="Musicians" sort="0" />
+        <label id="1379" label="" folder="Musicians" sort="0" />
+        <label id="1383" label="" folder="Musicians" sort="0" />
+        <label id="1384" label="Listen Trigger" folder="Leon Dual - Leon Lost First" sort="0" />
+        <label id="1386" label="" folder="Leon/Blake" sort="0" />
+        <label id="1387" label="" folder="Leon/Blake" sort="0" />
+        <label id="1388" label="" folder="Leon/Blake" sort="0" />
+        <label id="1389" label="" folder="Leon/Blake" sort="0" />
+        <label id="1390" label="" folder="Leon/Blake" sort="0" />
+        <label id="1391" label="" folder="Leon/Blake" sort="0" />
+        <label id="1392" label="" folder="Leon/Blake" sort="0" />
+        <label id="1393" label="" folder="Leon/Blake" sort="0" />
+        <label id="1394" label="" folder="Leon/Blake" sort="0" />
+        <label id="1395" label="" folder="Leon/Blake" sort="0" />
+        <label id="1396" label="" folder="Leon/Blake" sort="0" />
+        <label id="1397" label="" folder="Leon/Blake" sort="0" />
+        <label id="1398" label="" folder="Leon/Blake" sort="0" />
+        <label id="1399" label="" folder="Leon/Blake" sort="0" />
+        <label id="1400" label="" folder="Barb/Leon FF" sort="0" />
+        <label id="1401" label="" folder="Barb/Leon FF" sort="0" />
+        <label id="1402" label="" folder="Fischl+Leon" sort="0" />
+        <label id="1403" label="" folder="Fischl+Leon" sort="0" />
+        <label id="1404" label="After" folder="Leon Dual" sort="0" />
+        <label id="1405" label="Finished" folder="Leon Dual" sort="0" />
+        <label id="1406" label="Global Heavy" folder="Leon Dual" sort="0" />
+        <label id="1407" label="Listen Heavy Trigger" folder="Leon Dual" sort="0" />
+        <label id="1408" label="Global Forfeit" folder="Leon Dual" sort="0" />
+        <label id="1409" label="Penetration" folder="Leon Dual" sort="0" />
+        <label id="1410" label="" folder="Leon Dual - Leon Lost First" sort="0" />
+        <label id="1411" label="Duration" folder="Leon Dual - Leon Lost First" sort="0" />
+        <label id="1412" label="Forfeit Redirect" folder="Leon Dual - Leon Lost First" sort="0" />
+        <label id="1413" label="Set Timer" folder="Leon Dual - Leon Lost First" sort="0" />
+        <label id="1414" label="Heavy Trigger" folder="Leon Dual - Leon Lost First" sort="0" />
+        <label id="1415" label="Finishing" folder="Leon Dual" sort="0" />
+        <label id="1416" label="Dual Forfeit - Leon L" folder="Leon Dual FF" sort="0" />
+        <label id="1417" label="" folder="Leon Dual" sort="0" />
+        <label id="1418" label="Penetration" folder="Leon Dual" sort="0" />
+        <label id="1419" label="Global Kiss Transition" folder="Leon Dual" sort="0" />
+        <label id="1420" label="Global Forfeit Kissing" folder="Leon Dual" sort="0" />
+        <label id="1421" label="Cuddle Talk" folder="Leon Dual" sort="0" />
+        <label id="1422" label="In Leon's Space" folder="Leon Dual - Leon Lost First" sort="0" />
+        <label id="1430" label="" folder="Leononon Dual" sort="0" />
+        <label id="1431" label="" folder="Leononon Dual" sort="0" />
+        <label id="1436" label="Dual Forfeit - Leon R" folder="Leon Dual FF" sort="0" />
+        <label id="1437" label="Dual Forfeit - Nonon First" folder="Leon Dual FF" sort="0" />
+        <label id="1438" label="In Leon's Space" folder="Leon Dual - Leon Lost First" sort="0" />
+        <label id="1439" label="Cuddle Talk" folder="Leon Dual" sort="0" />
+        <label id="1440" label="" folder="Leon Dual" sort="0" />
+        <label id="1441" label="" folder="Leon Dual - Leon Lost First" sort="0" />
+        <label id="1553" label="" folder="Leon Dual Post" sort="0" />
+        <label id="1531" label="" folder="Leon Dual - After" sort="0" />
+        <label id="1582" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1590" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1593" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1565" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1569" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1558" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1570" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1588" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1576" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1568" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1557" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1591" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1594" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1589" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1596" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1575" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1595" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1587" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1578" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1560" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1585" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1559" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1572" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1566" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1584" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1592" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1580" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1571" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1556" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1586" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1562" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1567" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1577" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1579" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1573" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1563" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1581" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1564" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1574" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1555" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1561" label="" folder="Leon Dual Post Specifics" sort="0" />
+        <label id="1597" label="After" folder="Leon Dual" sort="0" />
     </labels>
-    <nextId>1380</nextId>
+    <nextId>1597</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="aaravi_howl" />
@@ -1631,6 +1745,7 @@ https://en.wikipedia.org/wiki/Aswang</note>
         <marker scope="Public" name="cd12" />
         <marker scope="Public" name="cd13" />
         <marker scope="Public" name="cd21" />
+        <marker scope="Public" name="cd22" />
         <marker scope="Public" name="cheryl_interestedB" />
         <marker scope="Public" name="cheryl_tao51" />
         <marker scope="Public" name="cheryl_tao52" />
@@ -1722,6 +1837,10 @@ https://en.wikipedia.org/wiki/Aswang</note>
         <marker scope="Public" name="hutao_demon_C" />
         <marker scope="Public" name="hutao_demon_D" />
         <marker scope="Public" name="hutao_display" />
+        <marker scope="Public" name="hutao_dual_after" />
+        <marker scope="Public" name="hutao_dual_finished" />
+        <marker scope="Public" name="hutao_dual_hutao_first" />
+        <marker scope="Public" name="hutao_dual_kiss" />
         <marker scope="Public" name="hutao_ghost1a" />
         <marker scope="Public" name="hutao_ghost1b" />
         <marker scope="Public" name="hutao_ghost2a" />
@@ -1734,6 +1853,7 @@ https://en.wikipedia.org/wiki/Aswang</note>
         <marker scope="Public" name="hutao_goth_B" />
         <marker scope="Public" name="hutao_goth_C" />
         <marker scope="Public" name="hutao_goth_D" />
+        <marker scope="Public" name="hutao_kiss" />
         <marker scope="Public" name="hutao_lawyerA" />
         <marker scope="Public" name="hutao_lawyerB" />
         <marker scope="Public" name="hutao_lawyerC" />
@@ -1751,6 +1871,7 @@ https://en.wikipedia.org/wiki/Aswang</note>
         <marker scope="Public" name="hutao_nonhumanC" />
         <marker scope="Public" name="hutao_nonhumanD" />
         <marker scope="Public" name="hutao_onsen" />
+        <marker scope="Public" name="hutao_pen" />
         <marker scope="Public" name="hutao_poems" />
         <marker scope="Public" name="hutao_sees_tandem" />
         <marker scope="Public" name="hutao_spooky_eats" />
@@ -1793,6 +1914,7 @@ https://en.wikipedia.org/wiki/Aswang</note>
         <marker scope="Public" name="hutao43b" />
         <marker scope="Public" name="hutaotalksdirty1" />
         <marker scope="Public" name="hutaotalksdirty1b" />
+        <marker scope="Public" name="isekai_ym" />
         <marker scope="Public" name="jenna1" />
         <marker scope="Public" name="jenna2" />
         <marker scope="Public" name="jessie_poem" />
@@ -1849,10 +1971,20 @@ https://en.wikipedia.org/wiki/Aswang</note>
         <marker scope="Public" name="leon_cheryl53" />
         <marker scope="Public" name="leon_cop" />
         <marker scope="Public" name="leon_date" />
+        <marker scope="Public" name="leon_date_gate" />
+        <marker scope="Public" name="leon_date_gateA" />
+        <marker scope="Public" name="leon_date_gateB" />
         <marker scope="Public" name="leon_date_success" />
         <marker scope="Public" name="leon_date1" />
         <marker scope="Public" name="leon_date2" />
         <marker scope="Public" name="leon_dressup_date" />
+        <marker scope="Public" name="leon_dual_after" />
+        <marker scope="Public" name="leon_dual_finished" />
+        <marker scope="Public" name="leon_dual_finishing" />
+        <marker scope="Public" name="leon_dual_heavy" />
+        <marker scope="Public" name="leon_dual_kiss" />
+        <marker scope="Public" name="leon_dual_leon_first" />
+        <marker scope="Public" name="leon_dual_me_first" />
         <marker scope="Public" name="leon_ff" />
         <marker scope="Public" name="leon_ff1" />
         <marker scope="Public" name="leon_ff11a" />
@@ -1909,6 +2041,11 @@ https://en.wikipedia.org/wiki/Aswang</note>
         <marker scope="Public" name="leon_FFC7" />
         <marker scope="Public" name="leon_FFC8" />
         <marker scope="Public" name="leon_FFC9" />
+        <marker scope="Public" name="leon_gate_dateB" />
+        <marker scope="Public" name="leon_gate_dateC" />
+        <marker scope="Public" name="leon_gate_dateD" />
+        <marker scope="Public" name="leon_gate_dateE" />
+        <marker scope="Public" name="leon_kiss" />
         <marker scope="Public" name="leon_kuma_engage" />
         <marker scope="Public" name="leon_limerick" />
         <marker scope="Public" name="leon_no_vision" />
@@ -2012,6 +2149,103 @@ https://en.wikipedia.org/wiki/Aswang</note>
         <marker scope="Public" name="leonFF_HB7" />
         <marker scope="Public" name="leonFF_HB8" />
         <marker scope="Public" name="leonFF_HB9" />
+        <marker scope="Public" name="leononon_dual1" />
+        <marker scope="Public" name="leononon_dual10" />
+        <marker scope="Public" name="leononon_dual11" />
+        <marker scope="Public" name="leononon_dual12" />
+        <marker scope="Public" name="leononon_dual13" />
+        <marker scope="Public" name="leononon_dual14" />
+        <marker scope="Public" name="leononon_dual15" />
+        <marker scope="Public" name="leononon_dual16" />
+        <marker scope="Public" name="leononon_dual17" />
+        <marker scope="Public" name="leononon_dual18" />
+        <marker scope="Public" name="leononon_dual19" />
+        <marker scope="Public" name="leononon_dual2" />
+        <marker scope="Public" name="leononon_dual3" />
+        <marker scope="Public" name="leononon_dual4" />
+        <marker scope="Public" name="leononon_dual5" />
+        <marker scope="Public" name="leononon_dual6" />
+        <marker scope="Public" name="leononon_dual7" />
+        <marker scope="Public" name="leononon_dual8" />
+        <marker scope="Public" name="leononon_dual9" />
+        <marker scope="Public" name="leononon_ff1" />
+        <marker scope="Public" name="leononon_ff2" />
+        <marker scope="Public" name="leononon_ff3" />
+        <marker scope="Public" name="leononon_ff4" />
+        <marker scope="Public" name="leononon_ff5" />
+        <marker scope="Public" name="leononon_ff6" />
+        <marker scope="Public" name="leononon_ff7" />
+        <marker scope="Public" name="leononon_ff8" />
+        <marker scope="Public" name="leononon43b" />
+        <marker scope="Public" name="leononon44" />
+        <marker scope="Public" name="leononon44c" />
+        <marker scope="Public" name="leononon53b" />
+        <marker scope="Public" name="leononon64" />
+        <marker scope="Public" name="leontao_after" />
+        <marker scope="Public" name="leontao_again1" />
+        <marker scope="Public" name="leontao_again2" />
+        <marker scope="Public" name="leontao_again3" />
+        <marker scope="Public" name="leontao_badluck1" />
+        <marker scope="Public" name="leontao_badluck2" />
+        <marker scope="Public" name="leontao_badluck3" />
+        <marker scope="Public" name="leontao_baseball1" />
+        <marker scope="Public" name="leontao_baseball2" />
+        <marker scope="Public" name="leontao_baseball3" />
+        <marker scope="Public" name="leontao_baseball4" />
+        <marker scope="Public" name="leontao_baseball5" />
+        <marker scope="Public" name="leontao_cold1" />
+        <marker scope="Public" name="leontao_cold2" />
+        <marker scope="Public" name="leontao_cold3" />
+        <marker scope="Public" name="leontao_cum1" />
+        <marker scope="Public" name="leontao_cum2" />
+        <marker scope="Public" name="leontao_cum3" />
+        <marker scope="Public" name="leontao_cumfy1" />
+        <marker scope="Public" name="leontao_cumfy2" />
+        <marker scope="Public" name="leontao_drink1" />
+        <marker scope="Public" name="leontao_drink2" />
+        <marker scope="Public" name="leontao_dual_after" />
+        <marker scope="Public" name="leontao_flowers1" />
+        <marker scope="Public" name="leontao_flowers2" />
+        <marker scope="Public" name="leontao_flowers3" />
+        <marker scope="Public" name="leontao_food1" />
+        <marker scope="Public" name="leontao_food2" />
+        <marker scope="Public" name="leontao_food3" />
+        <marker scope="Public" name="leontao_food4" />
+        <marker scope="Public" name="leontao_ghost1" />
+        <marker scope="Public" name="leontao_ghost2" />
+        <marker scope="Public" name="leontao_gravedigging1" />
+        <marker scope="Public" name="leontao_gravedigging2" />
+        <marker scope="Public" name="leontao_gravedigging3" />
+        <marker scope="Public" name="leontao_heavy" />
+        <marker scope="Public" name="leontao_junk1" />
+        <marker scope="Public" name="leontao_junk2" />
+        <marker scope="Public" name="leontao_junk3" />
+        <marker scope="Public" name="leontao_junk4" />
+        <marker scope="Public" name="leontao_kissing" />
+        <marker scope="Public" name="leontao_outbreak1" />
+        <marker scope="Public" name="leontao_outbreak2" />
+        <marker scope="Public" name="leontao_outbreak3" />
+        <marker scope="Public" name="leontao_phys1" />
+        <marker scope="Public" name="leontao_phys2" />
+        <marker scope="Public" name="leontao_phys3" />
+        <marker scope="Public" name="leontao_puns1" />
+        <marker scope="Public" name="leontao_puns2" />
+        <marker scope="Public" name="leontao_puns3" />
+        <marker scope="Public" name="leontao_puns4" />
+        <marker scope="Public" name="leontao_puns5" />
+        <marker scope="Public" name="leontao_safe1" />
+        <marker scope="Public" name="leontao_safe2" />
+        <marker scope="Public" name="leontao_safe3" />
+        <marker scope="Public" name="leontao_treatall1" />
+        <marker scope="Public" name="leontao_treatall2" />
+        <marker scope="Public" name="leontao_treatall3" />
+        <marker scope="Public" name="leontao_undead1" />
+        <marker scope="Public" name="leontao_undead2" />
+        <marker scope="Public" name="leontao_undead3" />
+        <marker scope="Public" name="leontao_vison1" />
+        <marker scope="Public" name="leontao_vison2" />
+        <marker scope="Public" name="leontao_vison3" />
+        <marker scope="Public" name="leontaoheavy" />
         <marker scope="Public" name="lysithea_dating1" />
         <marker scope="Public" name="lysithea_grave1" />
         <marker scope="Public" name="lysithea_magic1" />
@@ -2123,6 +2357,8 @@ https://en.wikipedia.org/wiki/Aswang</note>
         <marker scope="Public" name="noire32b" />
         <marker scope="Public" name="noire33" />
         <marker scope="Public" name="noire33a" />
+        <marker scope="Public" name="nonon_pen" />
+        <marker scope="Public" name="nonon01" />
         <marker scope="Public" name="peach_of_mind" />
         <marker scope="Public" name="perona_ff" />
         <marker scope="Public" name="perona_finished" />
@@ -2203,6 +2439,9 @@ https://en.wikipedia.org/wiki/Aswang</note>
         <marker scope="Public" name="ringo02" />
         <marker scope="Public" name="ringo03" />
         <marker scope="Public" name="ringo23" />
+        <marker scope="Public" name="roll01" />
+        <marker scope="Public" name="roll11" />
+        <marker scope="Public" name="roll21" />
         <marker scope="Public" name="rouge_dual" />
         <marker scope="Public" name="rouge_dual_leon" />
         <marker scope="Public" name="rouge_lube1" />
@@ -2454,11 +2693,15 @@ https://en.wikipedia.org/wiki/Aswang</note>
         <marker scope="Public" name="taoL12" />
         <marker scope="Public" name="taoL13" />
         <marker scope="Public" name="taoL32" />
+        <marker scope="Public" name="taoleon_lost" />
+        <marker scope="Public" name="taoleon01" />
         <marker scope="Public" name="tomoko01" />
         <marker scope="Public" name="wangsheng_church" />
         <marker scope="Public" name="weird_removal" />
         <marker scope="Public" name="yaemiko_greet" />
         <marker scope="Public" name="ym01" />
+        <marker scope="Public" name="ym02" />
+        <marker scope="Public" name="ym03" />
         <marker scope="Public" name="ym13" />
         <marker scope="Public" name="yuri_poem" />
         <marker scope="Public" name="yuri01" />
