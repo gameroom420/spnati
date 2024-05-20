@@ -1622,8 +1622,9 @@
         <label id="1594" label="Junk 1" folder="Hu Tao Dual - Post Specifics" sort="0" />
         <label id="1595" label="Junk 2" folder="Hu Tao Dual - Post Specifics" sort="0" />
         <label id="1596" label="Junk 3" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1597" label="Tag Removal" folder="Hu Tao Dual - Hu Tao Lost First" sort="0" />
     </labels>
-    <nextId>1596</nextId>
+    <nextId>1597</nextId>
     <markers>
         <marker scope="Public" name="" />
         <marker scope="Public" name="_dual_finishing" />
