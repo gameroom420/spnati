@@ -43,7 +43,7 @@
 		public int RightThighScaleX
 		{
 			get { return GetInt(6); }
-			set { Set(5, value.ToString()); }
+			set { Set(6, value.ToString()); }
 		}
 
 		public int RightThighScaleY
@@ -71,6 +71,18 @@
 		}
 
 		public bool RightThighVisible
+		{
+			get { return GetBool(11); }
+			set { Set(11, value); }
+		}
+
+		public bool LeftShiriVisible
+		{
+			get { return GetBool(10); }
+			set { Set(10, value); }
+		}
+
+		public bool RightShiriVisible
 		{
 			get { return GetBool(11); }
 			set { Set(11, value); }

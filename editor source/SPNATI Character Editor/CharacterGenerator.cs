@@ -123,15 +123,15 @@ namespace SPNATI_Character_Editor
 				{
 					PropImporter importer = new PropImporter();
 					importer.SetData(unknownUrls, imagesDir);
-					cancelled = (importer.ShowDialog() == System.Windows.Forms.DialogResult.Cancel);
+					cancelled = importer.ShowDialog() == DialogResult.Cancel;
 				}
 				if (chunk.Assets.Count > 0)
 				{
 					string kklDir = Path.GetDirectoryName(Config.KisekaeDirectory);
 					if (string.IsNullOrEmpty(kklDir))
 					{
-						KisekaeSetup setup = new Forms.KisekaeSetup();
-						if (setup.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+						KisekaeSetup setup = new KisekaeSetup();
+						if (setup.ShowDialog() == DialogResult.OK)
 						{
 							kklDir = Path.GetDirectoryName(Config.KisekaeDirectory);
 						}

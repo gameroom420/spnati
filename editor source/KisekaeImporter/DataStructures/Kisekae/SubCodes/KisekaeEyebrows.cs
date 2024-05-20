@@ -4,19 +4,19 @@
 	{
 		public KisekaeEyebrows() : base("fd") { }
 
-		public int Shape
+		public int Type
 		{
 			get { return GetInt(0); }
 			set { Set(0, value.ToString()); }
 		}
 
-		public int Layer
+		public int Depth
 		{
 			get { return GetInt(1); }
 			set { Set(1, value.ToString()); }
 		}
 
-		public int Height
+		public int Y
 		{
 			get { return GetInt(2); }
 			set { Set(2, value.ToString()); }
@@ -33,5 +33,18 @@
 			get { return new KisekaeColor(GetString(4)); }
 			set { Set(4, value.ToString()); }
 		}
+
+		public int Rotation
+		{
+			get { return GetInt(5); }
+			set { Set(5, value.ToString()); }
+		}
+
+		public int X
+		{
+			get { return GetInt(6); }
+			set { Set(6, value.ToString()); }
+		}
+
 	}
 }

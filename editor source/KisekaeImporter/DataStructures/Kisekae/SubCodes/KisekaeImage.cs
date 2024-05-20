@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace KisekaeImporter.SubCodes
+﻿namespace KisekaeImporter.SubCodes
 {
 	public class KisekaeImage : KisekaeSubCode, IPoseable
 	{
@@ -12,23 +10,23 @@ namespace KisekaeImporter.SubCodes
 				return;
 			}
 			AnchorPoint = other.AnchorPoint;
-			ScaleX = other.ScaleX;
+			Scale = other.Scale;
 			ScaleY = other.ScaleY;
-			Layer = other.Layer;
-			Side = other.Side;
-			OffsetX = other.OffsetX;
-			OffsetY = other.OffsetY;
+			Depth = other.Depth;
+			Reversal = other.Reversal;
+			X = other.X;
+			Y = other.Y;
 			Rotation = other.Rotation;
-			RotationZ = other.RotationZ;
+			ScaleB = other.ScaleB;
 		}
 
-		public int ScaleX
+		public int Scale
 		{
 			get { return GetInt(0); }
 			set { Set(0, value.ToString()); }
 		}
 
-		public int Layer
+		public int Depth
 		{
 			get { return GetInt(1); }
 			set { Set(1, value.ToString()); }
@@ -40,13 +38,13 @@ namespace KisekaeImporter.SubCodes
 			set { Set(2, value.ToString()); }
 		}
 
-		public int OffsetX
+		public int X
 		{
 			get { return GetInt(3); }
 			set { Set(3, value.ToString()); }
 		}
 
-		public int OffsetY
+		public int Y
 		{
 			get { return GetInt(4); }
 			set { Set(4, value.ToString()); }
@@ -62,13 +60,13 @@ namespace KisekaeImporter.SubCodes
 		//Unknown: 7
 		//Unknown: 8
 
-		public int RotationZ
+		public int ScaleB
 		{
 			get { return GetInt(9); }
 			set { Set(9, value.ToString()); }
 		}
 
-		public int Opacity
+		public int Alpha
 		{
 			get { return GetInt(10); }
 			set { Set(10, value.ToString()); }
@@ -80,16 +78,22 @@ namespace KisekaeImporter.SubCodes
 			set { Set(11, value.ToString()); }
 		}
 
-		public int Side
+		public int Reversal
 		{
-			get
-			{
-				return GetInt(12);
-			}
-			set
-			{
-				Set(12, value);
-			}
+			get { return GetInt(12); }
+			set { Set(12, value.ToString()); }
+		}
+
+		public int FineX
+		{
+			get { return GetInt(13); }
+			set { Set(13, value.ToString()); }
+		}
+
+		public int FineY
+		{
+			get { return GetInt(14); }
+			set { Set(14, value.ToString()); }
 		}
 	}
 }

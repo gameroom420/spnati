@@ -51,5 +51,29 @@
 			get { return GetInt(7); }
 			set { Set(7, value.ToString()); }
 		}
+
+		public bool LeftArmVisible
+		{
+			get { return GetBool(8); }
+			set { Set(8, value); }
+		}
+
+		public bool RightArmVisible
+		{
+			get { return GetBool(9); }
+			set { Set(9, value); }
+		}
+
+		public bool LeftArmFlip
+		{
+			get { return GetBool(10); }
+			set { Set(10, value); }
+		}
+
+		public bool RightArmFlip
+		{
+			get { return GetBool(11); }
+			set { Set(11, value); }
+		}
 	}
 }

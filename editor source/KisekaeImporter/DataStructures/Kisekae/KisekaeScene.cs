@@ -41,12 +41,12 @@ namespace KisekaeImporter
 
 		public KisekaeTextBox GetTextBox(int index)
 		{
-			return GetSubCode<KisekaeTextBox>("u" + index.ToString("0"));
+			return GetSubCode<KisekaeTextBox>("u" + index.ToString("00"));
 		}
 
-		public KisekaeTextBox GetImage(int index)
+		public KisekaeGlobalImage GetImage(int index)
 		{
-			return GetSubCode<KisekaeTextBox>("v" + index.ToString("00"));
+			return GetSubCode<KisekaeGlobalImage>("v" + index.ToString("00"));
 		}
 
 		[KisekaeSubCode("ud")]

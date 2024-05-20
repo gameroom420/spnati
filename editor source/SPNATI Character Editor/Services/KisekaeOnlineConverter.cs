@@ -25,14 +25,14 @@ namespace SPNATI_Character_Editor
 			_timer = new Timer(60000);
 			_timer.Elapsed += _timer_Elapsed;
 			_timer.Start();
-			if (Config.ConfigPath == "CEFolder")
-			{
-				_importer = new ImageImporter(false, Config.ConfigDirectory);
-			}
-			else
-			{
+			//if (Config.ConfigPath == "CEFolder")
+			//{
+			//	_importer = new ImageImporter(false, Config.ConfigDirectory);
+			//}
+			//else
+			//{
 				_importer = new ImageImporter(false);
-			}
+			//}
 
 		}
 
@@ -40,7 +40,7 @@ namespace SPNATI_Character_Editor
 		{
 		}
 
-		private void _timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
+		private void _timer_Elapsed(object sender, ElapsedEventArgs e)
 		{
 			_timer.Stop();
 			//clear the raw cache

@@ -1,58 +1,52 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace KisekaeImporter.SubCodes
+﻿namespace KisekaeImporter.SubCodes
 {
 	public class KisekaeEyes : KisekaeSubCode
 	{
 		public KisekaeEyes() : base("fa") { }
 
-		public int Shape
+		public int Eye
 		{
 			get { return GetInt(0); }
 			set { Set(0, value.ToString()); }
 		}
 
-		public int XOffset
+		public int EyeX
 		{
 			get { return GetInt(1); }
 			set { Set(1, value.ToString()); }
 		}
 
-		public int YOffset
+		public int EyeY
 		{
 			get { return GetInt(2); }
 			set { Set(2, value.ToString()); }
 		}
 
-		public int Width
+		public int EyeScaleX
 		{
 			get { return GetInt(3); }
 			set { Set(3, value.ToString()); }
 		}
 
-		public int Height
+		public int EyeScaleY
 		{
 			get { return GetInt(4); }
 			set { Set(4, value.ToString()); }
 		}
 
-		public int Rotation
+		public int EyeRotation
 		{
 			get { return GetInt(5); }
 			set { Set(5, value.ToString()); }
 		}
 
-		public KisekaeColor OutlineColor
+		public KisekaeColor EyeColor
 		{
 			get { return new KisekaeColor(GetString(6)); }
 			set { Set(6, value.ToString()); }
 		}
 
-		public int Layer
+		public int EyeDepth
 		{
 			get { return GetInt(7); }
 			set { Set(7, value.ToString()); }

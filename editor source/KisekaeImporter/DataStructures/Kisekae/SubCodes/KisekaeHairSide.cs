@@ -11,10 +11,10 @@
 			{
 				return;
 			}
-			Layer = other.Layer;
-			Length = other.Length;
+			Depth = other.Depth;
+			Height = other.Height;
 			Gravity = other.Gravity;
-			XOffset = other.XOffset;
+			X = other.X;
 		}
 
 		public int Shape
@@ -30,13 +30,13 @@
 			Color3 = color3;
 		}
 
-		public int Layer
+		public int Depth
 		{
 			get { return GetInt(1); }
 			set { Set(1, value.ToString()); }
 		}
 
-		public int Length
+		public int Height
 		{
 			get { return GetInt(2); }
 			set { Set(2, value.ToString()); }
@@ -60,7 +60,7 @@
 			set { Set(5, value.ToString()); }
 		}
 
-		public int XOffset
+		public int X
 		{
 			get { return GetInt(6); }
 			set { Set(6, value.ToString()); }

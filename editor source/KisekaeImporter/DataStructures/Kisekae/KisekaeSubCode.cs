@@ -32,6 +32,11 @@ namespace KisekaeImporter
 			get { return _pieces.Count == 0 || _pieces.Count == 1 && _pieces[0] == ""; }
 		}
 
+		public int NumberOfPieces()
+		{
+			return _pieces.Count;
+		}
+
 		public override string ToString()
 		{
 			string id = Id;

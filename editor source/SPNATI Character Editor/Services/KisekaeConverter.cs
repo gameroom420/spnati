@@ -40,8 +40,8 @@ namespace SPNATI_Character_Editor
 			}
 			catch { }
 
-			_importer = new ImageImporter(AllowRemoteControl);
-		}
+				_importer = new ImageImporter(AllowRemoteControl);
+			}
 		
 		private void CheckKKL()
 		{

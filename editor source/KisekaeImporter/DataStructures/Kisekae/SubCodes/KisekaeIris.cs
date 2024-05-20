@@ -4,61 +4,61 @@
 	{
 		public KisekaeIris() : base("fc") { }
 
-		public int RightShape
+		public int LeftShape
 		{
 			get { return GetInt(0); }
 			set { Set(0, value.ToString()); }
 		}
 
-		public KisekaeColor RightColorIris
+		public KisekaeColor LeftColorIris
 		{
 			get { return new KisekaeColor(GetString(1)); }
 			set { Set(1, value.ToString()); }
 		}
 
-		public KisekaeColor RightColorWhites
+		public KisekaeColor LeftColorWhites
 		{
 			get { return new KisekaeColor(GetString(2)); }
 			set { Set(2, value.ToString()); }
 		}
 
-		public int LeftShape
+		public int RightShape
 		{
 			get { return GetInt(3); }
 			set { Set(3, value.ToString()); }
 		}
 
-		public KisekaeColor LeftColorIris
+		public KisekaeColor RightColorIris
 		{
 			get { return new KisekaeColor(GetString(4)); }
 			set { Set(4, value.ToString()); }
 		}
 
-		public KisekaeColor LeftColorWhites
+		public KisekaeColor RightColorWhites
 		{
 			get { return new KisekaeColor(GetString(5)); }
 			set { Set(5, value.ToString()); }
 		}
 
-		public int Width
+		public int Scale
 		{
 			get { return GetInt(6); }
 			set { Set(6, value.ToString()); }
 		}
 
-		public KisekaeColor RightColorPupil
+		public KisekaeColor LeftColorPupil
 		{
 			get { return new KisekaeColor(GetString(7)); }
 			set { Set(7, value.ToString()); }
 		}
 
-		public KisekaeColor LeftColorPupil
+		public KisekaeColor RightColorPupil
 		{
 			get { return new KisekaeColor(GetString(8)); }
 			set { Set(8, value.ToString()); }
 		}
 
-		public int Height
+		public int ScaleY
 		{
 			get { return GetInt(9); }
 			set { Set(9, value.ToString()); }
