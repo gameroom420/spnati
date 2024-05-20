@@ -1,10 +1,21 @@
-.dialogue .tao[data-character="hu_tao"] {
-  /*hutao is speaking*/
-  color: #AE0000;
+.dialogue .leon[data-character="hu_tao"] {
+  /*Colored dialogue for Leon.*/
+  color: #284D9A;
 }
 
-.dialogue .leon[data-character="hu_tao"] {
-  /*leon is speaking*/
-  color: #00509F;
-  font-style: italic;
+.dialogue .tao[data-character="hu_tao"] {
+  /*Colored dialogue for Hu Tao*/
+  color: Maroon;
+}
+
+.dialogue .leonsmall[data-character="hu_tao"] {
+  /**/
+  color: #0080C0;
+  font-size: 80%;
+}
+
+.dialogue .taosmall[data-character="hu_tao"] {
+  /**/
+  font-size: 80%;
+  color: Maroon;
 }
