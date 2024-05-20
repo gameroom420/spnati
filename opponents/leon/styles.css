@@ -1,8 +1,3 @@
-.dialogue .example[data-character="leon"] {
-  /*This is an example style.*/
-  color: blue;
-}
-
 .dialogue .leon[data-character="leon"] {
   /*Colored dialogue for Leon.*/
   color: #284D9A;
@@ -21,10 +16,22 @@
 
 .dialogue .tao[data-character="leon"] {
   /*Colored dialogue for Hu Tao*/
-  color: #804040;
+  color: Maroon;
 }
 
 .dialogue .nonon[data-character="leon"] {
   /*sex voice*/
   color: #FF8C99;
+}
+
+.dialogue .leonsmall[data-character="leon"] {
+  /**/
+  color: #0080C0;
+  font-size: 80%;
+}
+
+.dialogue .taosmall[data-character="leon"] {
+  /**/
+  font-size: 80%;
+  color: Maroon;
 }
