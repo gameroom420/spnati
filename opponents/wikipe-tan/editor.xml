@@ -243,6 +243,10 @@
         <response id="897" opponent="laevatein" opponentId="12" />
         <response id="898" opponent="toph" opponentId="2" />
         <response id="925" opponent="constanze" opponentId="18" />
+        <response id="941" opponent="spooky" opponentId="26" />
+        <response id="942" opponent="spooky" opponentId="65" />
+        <response id="945" opponent="blake_belladonna" opponentId="1" />
+        <response id="950" opponent="nanoko-chan" opponentId="3" />
     </responses>
     <notes>
         <note id="1">Wiki is Hawaiian for “to hurry; fast, quick.” By repeating it, she's using her fingers faster.</note>
@@ -1003,7 +1007,7 @@
         <label id="756" label="Fortune-Telling" color="4" folder="Specific Targets" sort="0" />
         <label id="757" label="1 Braille" color="3" folder="Specific Targets" sort="0" />
         <label id="758" label="1 Braille" color="3" folder="Specific Targets" sort="0" />
-        <label id="759" label="Acne" color="3" folder="Specific Targets" sort="0" />
+        <label id="759" label="2 Acne" color="3" folder="Specific Targets" sort="0" />
         <label id="760" label="Sock Removal" folder="Magma-tan" sort="0" />
         <label id="761" label="" folder="Magma-tan" sort="0" />
         <label id="762" label="" folder="Magma-tan" sort="0" />
@@ -1182,8 +1186,36 @@
         <label id="937" label="Becoming Yumeko's Housepet" color="7" folder="Specific Targets" sort="0" />
         <label id="938" label="Terms Accepted" color="7" folder="Specific Targets" sort="0" />
         <label id="939" label="Gambling" folder="Specific Targets" sort="0" />
+        <label id="940" label="February 29" folder="DYKFebruary" sort="0" />
+        <label id="943" label="" folder="DYKMarch" sort="0" />
+        <label id="944" label="" folder="DYKNovember" sort="0" />
+        <label id="946" label="" folder="Specific Targets" sort="0" />
+        <label id="947" label="0 Catching Up" color="5" folder="Specific Targets" sort="0" />
+        <label id="945" label="4 Cat Faunus" color="6" folder="Specific Targets" sort="0" />
+        <label id="948" label="0 Commons-tan" color="5" folder="Specific Targets" sort="0" />
+        <label id="949" label="1 Commando (in a different way than below)" color="5" folder="Specific Targets" sort="0" />
+        <label id="950" label="4 Virgin" color="6" folder="Specific Targets" sort="0" />
+        <label id="941" label="0-4 Fears" color="4" folder="Specific Targets" sort="0" />
+        <label id="942" label="0-4 Rumours" color="4" folder="Specific Targets" sort="0" />
+        <label id="951" label="1 Hurrying" color="3" folder="Specific Targets" sort="0" />
+        <label id="952" label="1 Spoilers" color="3" folder="Specific Targets" sort="0" />
+        <label id="953" label="2 Foreshadowing" color="3" folder="Specific Targets" sort="0" />
+        <label id="954" label="2 Big Reveal (Wikipe-tan Still in Game)" color="2" folder="Specific Targets" sort="0" />
+        <label id="955" label="2 Big Reveal (Wikipe-tan Out)" color="2" folder="Specific Targets" sort="0" />
+        <label id="956" label="2 Magic Trick" color="2" folder="Specific Targets" sort="0" />
+        <label id="957" label="3 The Reveal" color="2" folder="Specific Targets" sort="0" />
+        <label id="958" label="3-6 8 Piper Perri Meme" color="1" folder="Specific Targets" sort="0" />
+        <label id="959" label="3 Playing as a Duo" color="1" folder="Specific Targets" sort="0" />
+        <label id="960" label="3 Doing Everything Together" color="1" folder="Specific Targets" sort="0" />
+        <label id="961" label="4 Futa Folklore" color="6" folder="Specific Targets" sort="0" />
+        <label id="962" label="4 History of Futanari Manga" color="6" folder="Specific Targets" sort="0" />
+        <label id="963" label="5 Outdated Article" color="6" folder="Specific Targets" sort="0" />
+        <label id="964" label="4 First Time with Another Wikipedian" color="1" folder="Specific Targets" sort="0" />
+        <label id="965" label="5 Final Turn" color="7" folder="Specific Targets" sort="0" />
+        <label id="966" label="5 Securing Donors" color="7" folder="Specific Targets" sort="0" />
+        <label id="967" label="6 Dirty Money" color="7" folder="Specific Targets" sort="0" />
     </labels>
-    <nextId>939</nextId>
+    <nextId>967</nextId>
     <markers>
         <marker scope="Public" name="21stCentury">Supernova Targets: Any Hand</marker>
         <marker scope="Public" name="420BlazeIt">April 20 Fun Fact</marker>
@@ -1215,6 +1247,7 @@
         <marker scope="Public" name="Ayano_Sticky">Ayano Targets: Wikipe-tan Stripped 0-1</marker>
         <marker scope="Public" name="Barbara_Fanservice">Barbara Targets: Wikipe-tan Stripped 2-3</marker>
         <marker scope="Public" name="Barbara_Wikipedia_1">Barbara Targets: Wikipe-tan Strip 0-1</marker>
+        <marker scope="Public" name="Blake_Ears_Resp">Blake Belladonna Targets: Blake Belladonna Stripping 4-5</marker>
         <marker scope="Public" name="Bobobo_Mark_Twain">Bobobo Targets: Wikipe-tan Strip 1-2</marker>
         <marker scope="Public" name="Bobobo_Mark_Twain_2">Bobobo Targets: Wikipe-tan Stripping 1-2</marker>
         <marker scope="Public" name="BoboboHair" />
@@ -1517,6 +1550,7 @@
         <marker scope="Public" name="NamiSopa2">Nami Targets: Wikipe-tan Stripped 1-2</marker>
         <marker scope="Public" name="NamiSopaGun">Nami Targets: Wikipe-tan Stripped 1-2</marker>
         <marker scope="Public" name="NamiStrike">Nami Targets: Wikipe-tan Strip 1-2</marker>
+        <marker scope="Public" name="Nanoko_Virgin_Resp">Nanoko-chan Targets: Any Hand</marker>
         <marker scope="Public" name="nickname" />
         <marker scope="Public" name="Nikkimaria" />
         <marker scope="Public" name="Noire_Histoire_1">Noire Targets: Noire Strip 0-1</marker>
@@ -1601,8 +1635,28 @@
         <marker scope="Public" name="Sandals1" />
         <marker scope="Public" name="Sandals2" />
         <marker scope="Public" name="Sandals3" />
-        <marker scope="Public" name="SannyTess_Intro_1" />
-        <marker scope="Public" name="SannyTess_Intro_2" />
+        <marker scope="Public" name="SannyTess_CatchingUp_1">Sanny &amp; Tess Targets: Sanny &amp; Tess Strip 0-1</marker>
+        <marker scope="Public" name="SannyTess_CatchingUp_2">Sanny &amp; Tess Targets: Sanny &amp; Tess Stripping 0-1</marker>
+        <marker scope="Public" name="SannyTess_CatchingUp_3">Sanny &amp; Tess Targets: Sanny &amp; Tess Stripped 0-1</marker>
+        <marker scope="Public" name="SannyTess_Couch">Sanny &amp; Tess Targets: Any Hand (After Bottomless)</marker>
+        <marker scope="Public" name="SannyTess_Donations_1">Sanny &amp; Tess Targets: Sanny &amp; Tess Strip 5-6</marker>
+        <marker scope="Public" name="SannyTess_Donations_2">Sanny &amp; Tess Targets: Sanny &amp; Tess Stripping 5-6</marker>
+        <marker scope="Public" name="SannyTess_Donations_3">Sanny &amp; Tess Targets: Sanny &amp; Tess Stripped 5-6</marker>
+        <marker scope="Public" name="SannyTess_Duo_1">Sanny &amp; Tess Targets: Sanny &amp; Tess Strip 3-4</marker>
+        <marker scope="Public" name="SannyTess_Duo_2">Sanny &amp; Tess Targets: Sanny &amp; Tess Stripping 3-4</marker>
+        <marker scope="Public" name="SannyTess_Duo_3">Sanny &amp; Tess Targets: Sanny &amp; Tess Stripped 3-4</marker>
+        <marker scope="Public" name="SannyTess_Folklore_1">Sanny &amp; Tess Targets: Sanny &amp; Tess Strip 4-5</marker>
+        <marker scope="Public" name="SannyTess_Folklore_2">Sanny &amp; Tess Targets: Sanny &amp; Tess Stripping 4-5</marker>
+        <marker scope="Public" name="SannyTess_Folklore_3">Sanny &amp; Tess Targets: Sanny &amp; Tess Stripped 4-5</marker>
+        <marker scope="Public" name="SannyTess_Intro_1">Sanny &amp; Tess Targets: Selected/Opponent Selected</marker>
+        <marker scope="Public" name="SannyTess_Intro_2">Sanny &amp; Tess Targets: Selected/Opponent Selected (Spaceman Present)</marker>
+        <marker scope="Public" name="SannyTess_Intro_3">Sanny &amp; Tess Targets: Game Start</marker>
+        <marker scope="Public" name="SannyTess_Reveal_1">Sanny &amp; Tess Targets: Sanny &amp; Tess Strip 2-3</marker>
+        <marker scope="Public" name="SannyTess_Reveal_2">Sanny &amp; Tess Targets: Sanny &amp; Tess Stripping 2-3</marker>
+        <marker scope="Public" name="SannyTess_Reveal_3">Sanny &amp; Tess Targets: Sanny &amp; Tess Stripped 2-3</marker>
+        <marker scope="Public" name="SannyTess_Spoilers_1">Sanny &amp; Tess Targets: Sanny &amp; Tess Strip 1-2</marker>
+        <marker scope="Public" name="SannyTess_Spoilers_2">Sanny &amp; Tess Targets: Sanny &amp; Tess Stripping 1-2</marker>
+        <marker scope="Public" name="SannyTess_Spoilers_3">Sanny &amp; Tess Targets: Sanny &amp; Tess Stripped 1-2</marker>
         <marker scope="Public" name="SanSuffix" />
         <marker scope="Public" name="Sappho1" />
         <marker scope="Public" name="Sappho2" />
@@ -1638,6 +1692,8 @@
         <marker scope="Public" name="SonamyName" />
         <marker scope="Public" name="SpacemanName1" />
         <marker scope="Public" name="SpacemanName2" />
+        <marker scope="Public" name="Spooky_Fears_Resp">Spooky Targets: Any Hand</marker>
+        <marker scope="Public" name="Spooky_Rumors_Resp">Spooky Targets: Any Hand</marker>
         <marker scope="Public" name="SportsLine1" />
         <marker scope="Public" name="SportsLine2" />
         <marker scope="Public" name="Starfire_Skirt_Resp">Starfire Targets: Starfire Stripping 1-2</marker>
