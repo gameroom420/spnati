@@ -2071,37 +2071,26 @@ OpponentDetailsDisplay.prototype.update = function (opponent) {
         }
     }
 
-    if (COLLECTIBLES_ENABLED && opponent.has_collectibles) {
+    if (COLLECTIBLES_ENABLED && opponent.has_collectibles && opponent.collectibles !== null) {
         this.collectiblesField.addClass('has-collectibles');
         this.collectiblesNavButton
             .text("Available")
             .addClass('blue')
             .prop('disabled', false);
-        
-        opponent.fetchCollectibles().then(function () {
-            if (!opponent.has_collectibles) {
-                this.collectiblesField.removeClass('has-collectibles');
+
+        var counts = opponent.collectibles.reduce(function (acc, collectible) {
+            if ((collectible.status && !includedOpponentStatuses[collectible.status]) ||
+                (collectible.hidden && !collectible.isUnlocked())) {
+                return acc;
             }
 
-            var counts = opponent.collectibles.reduce(function (acc, collectible) {
-                if (
-                    (collectible.status && !includedOpponentStatuses[collectible.status]) ||
-                    (collectible.hidden && !collectible.isUnlocked())
-                ) {
-                    return acc;
-                }
-
-                acc.total += 1;
-                if (collectible.isUnlocked()) acc.unlocked += 1;
-                
-                return acc;
-            }, {unlocked:0, total:0});
+            acc.total += 1;
+            if (collectible.isUnlocked()) acc.unlocked += 1;
             
-            this.collectiblesNavButton.text("Available ("+counts.unlocked+"/"+counts.total+" unlocked)");
-        }.bind(this)).catch(function (err) {
-            captureError(err);
-            this.collectiblesField.removeClass('has-collectibles');
-        }.bind(this));
+            return acc;
+        }, {unlocked:0, total:0});
+            
+        this.collectiblesNavButton.text("Available ("+counts.unlocked+"/"+counts.total+" unlocked)");
     } else {
         this.collectiblesField.removeClass('has-collectibles');
     }
