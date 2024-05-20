@@ -29,8 +29,14 @@
         <note id="8">man i dont know</note>
         <note id="9">real line from the real release. what the fuck.</note>
     </notes>
-    <nextId>9</nextId>
+    <nextId>14</nextId>
     <markers>
+        <marker scope="Public" name="" />
+        <marker scope="Public" name="catsgiygasfealty" />
+        <marker scope="Public" name="catsgiygasgoodbye" />
+        <marker scope="Public" name="catsmeiajura2" />
+        <marker scope="Public" name="catsreplytomeiajura" />
         <marker scope="Public" name="endingcount">counts how many times the player has defeated CATS (hopefully!)</marker>
+        <marker scope="Public" name="starmen" />
     </markers>
 </metadata>
