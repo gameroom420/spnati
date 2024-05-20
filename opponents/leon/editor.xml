@@ -533,6 +533,10 @@
         <response id="1436" opponent="nonon" opponentId="583" />
         <response id="1441" opponent="hilda" opponentId="977" />
         <response id="1451" opponent="hilda" opponentId="978" />
+        <response id="1513" opponent="roll_caskett" opponentId="135" />
+        <response id="1514" opponent="roll_caskett" opponentId="144" />
+        <response id="1521" opponent="lysithea" opponentId="384" />
+        <response id="1522" opponent="lysithea" opponentId="383" />
     </responses>
     <notes>
         <note id="48">Grants the DbD tag. </note>
@@ -1531,10 +1535,98 @@
         <label id="1509" label="Lube 2 - Furry" folder="Rouge Dual Forfeit" sort="0" />
         <label id="1510" label="Penetrate - Furry" folder="Rouge Dual Forfeit" sort="0" />
         <label id="1511" label="Bang - Furry" folder="Rouge Dual Forfeit" sort="0" />
+        <label id="1513" label="Not White Day" folder="Roll/Yae/Leon" sort="0" />
+        <label id="1515" label="" folder="Roll/Yae/Leon" sort="0" />
+        <label id="1514" label="White Day" folder="Roll/Yae/Leon" sort="0" />
+        <label id="1516" label="" folder="Roll/Yae/Leon" sort="0" />
+        <label id="1517" label="Yae Naked, Roll Not" folder="Roll/Yae/Leon" sort="0" />
+        <label id="1518" label="Both naked" folder="Roll/Yae/Leon" sort="0" />
+        <label id="1519" label="Yae Not, Roll Naked" folder="Roll/Yae/Leon" sort="0" />
+        <label id="1520" label="Neither Naked" folder="Roll/Yae/Leon" sort="0" />
+        <label id="1523" label="Listen Trigger, R" folder="Hu Tao Dual" sort="0" />
+        <label id="1524" label="Start, L " folder="Hu Tao Dual" sort="0" />
+        <label id="1525" label="Penetration" folder="Nonon Dual" sort="0" />
+        <label id="1526" label="Penetration" folder="Hu Tao Dual" sort="0" />
+        <label id="1527" label="Global Forfeit" folder="Hu Tao Dual" sort="0" />
+        <label id="1528" label="Listen Heavy Trigger" folder="Hu Tao Dual" sort="0" />
+        <label id="1529" label="Global Heavy" folder="Hu Tao Dual" sort="0" />
+        <label id="1530" label="Finished" folder="Hu Tao Dual" sort="0" />
+        <label id="1531" label="After" folder="Hu Tao Dual" sort="0" />
+        <label id="1532" label="Heavy Trigger" folder="Hu Tao Dual - Tao Lost First" sort="0" />
+        <label id="1533" label="Trigger" folder="Hu Tao Dual - Hu Tao Lost First" sort="0" />
+        <label id="1534" label="Finishing" folder="Hu Tao Dual" sort="0" />
+        <label id="1535" label="Finishing" folder="Hu Tao Dual" sort="0" />
+        <label id="1536" label="Trigger" folder="Hu Tao Dual - Hu Tao Lost First" sort="0" />
+        <label id="1537" label="Duration" folder="Hu Tao Dual - Hu Tao Lost First" sort="0" />
+        <label id="1538" label="Redirect Forfeit" folder="Hu Tao Dual - Hu Tao Lost First" sort="0" />
+        <label id="1539" label="Set Timer" folder="Hu Tao Dual - Hu Tao Lost First" sort="0" />
+        <label id="1540" label="Start" folder="Hu Tao Dual" sort="0" />
+        <label id="1541" label="Listen Trigger, L" folder="Hu Tao Dual" sort="0" />
+        <label id="1542" label="Post Rouge" folder="Hu Tao Dual" sort="0" />
+        <label id="1543" label="Post Nonon" folder="Hu Tao Dual" sort="0" />
+        <label id="1544" label="Global Forfeit Kiss" folder="Hu Tao Dual" sort="0" />
+        <label id="1545" label="Global Kiss Transition" folder="Hu Tao Dual" sort="0" />
+        <label id="1546" label="" folder="Nonon Dual" sort="0" />
+        <label id="1440" label="" folder="Nonon Dual" sort="0" />
+        <label id="1436" label="" folder="Nonon Dual" sort="0" />
+        <label id="1439" label="" folder="Nonon Dual" sort="0" />
+        <label id="1438" label="" folder="Nonon Dual" sort="0" />
+        <label id="1437" label="" folder="Nonon Dual" sort="0" />
+        <label id="1547" label="Post Cuddle Talk" folder="Hu Tao Dual" sort="0" />
+        <label id="1548" label="In Tao's Space" folder="Hu Tao Dual" sort="0" />
+        <label id="1549" label="In Tao's Space" folder="Hu Tao Dual" sort="0" />
+        <label id="1550" label="In Tao's Space" folder="Hu Tao Dual" sort="0" />
+        <label id="1551" label="" folder="Hu Tao Dual - Hu Tao Lost First" sort="0" />
+        <label id="1552" label="" folder="Hu Tao Dual" sort="0" />
+        <label id="1553" label="Post Cuddle Talk" folder="Hu Tao Dual - Post" sort="0" />
+        <label id="1554" label="Specifics" folder="Hu Tao Dual - Post" sort="0" />
+        <label id="1555" label="Treat all 1" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1556" label="Treat all 2" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1557" label="ghost 1" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1558" label="Gravedigging 1" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1559" label="Gravedigging 2" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1560" label="Cumfy 1" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1561" label="Again 1" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1562" label="Again 2" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1563" label="Vision 1" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1564" label="Vision 2" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1565" label="Drink1" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1566" label="Undead 1" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1567" label="Undead 2" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1568" label="Cold 1" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1569" label="Cold 2" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1570" label="Food 1" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1571" label="Food 2" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1572" label="Food 3" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1573" label="Physical 1" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1574" label="Physical 3" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1575" label="Flowers 1" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1576" label="Flowers 2" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1577" label="Outbreak 1" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1578" label="Outbreak 2" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1579" label="Safe 1" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1580" label="Safe 2" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1581" label="Bad Luck 1" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1582" label="Bad Luck 2" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1583" label="Bad Luck 2" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1584" label="Puns 1" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1585" label="Puns 2" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1586" label="Puns 3" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1587" label="Puns 4" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1588" label="Cum 1" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1589" label="Cum 2" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1590" label="Baseball 1" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1591" label="Baseball 2" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1592" label="Baseball 3" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1593" label="Baseball 4" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1594" label="Junk 1" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1595" label="Junk 2" folder="Hu Tao Dual - Post Specifics" sort="0" />
+        <label id="1596" label="Junk 3" folder="Hu Tao Dual - Post Specifics" sort="0" />
     </labels>
-    <nextId>1512</nextId>
+    <nextId>1596</nextId>
     <markers>
         <marker scope="Public" name="" />
+        <marker scope="Public" name="_dual_finishing" />
         <marker scope="Public" name="aaravi_finished" />
         <marker scope="Public" name="aaravi01" />
         <marker scope="Public" name="aaravi02" />
@@ -1895,6 +1987,16 @@
         <marker scope="Public" name="hildadrien_ff" />
         <marker scope="Public" name="hildadrien_ff2" />
         <marker scope="Public" name="HiSha" />
+        <marker scope="Public" name="hutao_dual_after" />
+        <marker scope="Public" name="hutao_dual_finished" />
+        <marker scope="Public" name="hutao_dual_finishing" />
+        <marker scope="Public" name="hutao_dual_heavy" />
+        <marker scope="Public" name="hutao_dual_hutao_first" />
+        <marker scope="Public" name="hutao_dual_kiss" />
+        <marker scope="Public" name="hutao_dual_me_first" />
+        <marker scope="Public" name="hutao_dual_nonon_first" />
+        <marker scope="Public" name="hutao_kiss" />
+        <marker scope="Public" name="hutao_pen" />
         <marker scope="Public" name="ignatz01" />
         <marker scope="Public" name="ignatz02" />
         <marker scope="Public" name="ignatz11" />
@@ -1965,6 +2067,7 @@
         <marker scope="Public" name="kumatora_pound" />
         <marker scope="Public" name="kyou01" />
         <marker scope="Public" name="kyou02" />
+        <marker scope="Public" name="l" />
         <marker scope="Public" name="larachel_confess" />
         <marker scope="Public" name="larachel_ff" />
         <marker scope="Public" name="larachel_ff01" />
@@ -1989,6 +2092,9 @@
         <marker scope="Public" name="leon_date" />
         <marker scope="Public" name="leon_dual_finished" />
         <marker scope="Public" name="leon_dual_finishing" />
+        <marker scope="Public" name="leon_dual_kiss" />
+        <marker scope="Public" name="leon_dual_leon_first" />
+        <marker scope="Public" name="leon_dual_me_first" />
         <marker scope="Public" name="leon_dualFFheavy" />
         <marker scope="Public" name="leon_dualFFmust" />
         <marker scope="Public" name="leon_dualFFstart" />
@@ -2117,6 +2223,73 @@
         <marker scope="Public" name="leonon_ff7" />
         <marker scope="Public" name="leonon_ff8" />
         <marker scope="Public" name="leonon_ff9" />
+        <marker scope="Public" name="leontao_after" />
+        <marker scope="Public" name="leontao_again1" />
+        <marker scope="Public" name="leontao_again2" />
+        <marker scope="Public" name="leontao_again3" />
+        <marker scope="Public" name="leontao_badluck" />
+        <marker scope="Public" name="leontao_badluck1" />
+        <marker scope="Public" name="leontao_badluck2" />
+        <marker scope="Public" name="leontao_badluck3" />
+        <marker scope="Public" name="leontao_baseball1" />
+        <marker scope="Public" name="leontao_baseball2" />
+        <marker scope="Public" name="leontao_baseball3" />
+        <marker scope="Public" name="leontao_baseball4" />
+        <marker scope="Public" name="leontao_baseball5" />
+        <marker scope="Public" name="leontao_cold1" />
+        <marker scope="Public" name="leontao_cold2" />
+        <marker scope="Public" name="leontao_cold3" />
+        <marker scope="Public" name="leontao_cum1" />
+        <marker scope="Public" name="leontao_cum2" />
+        <marker scope="Public" name="leontao_cum3" />
+        <marker scope="Public" name="leontao_cumfy1" />
+        <marker scope="Public" name="leontao_cumfy2" />
+        <marker scope="Public" name="leontao_drink1" />
+        <marker scope="Public" name="leontao_drink2" />
+        <marker scope="Public" name="leontao_dual_after" />
+        <marker scope="Public" name="leontao_dual_me_first" />
+        <marker scope="Public" name="leontao_flowers1" />
+        <marker scope="Public" name="leontao_flowers2" />
+        <marker scope="Public" name="leontao_flowers3" />
+        <marker scope="Public" name="leontao_food1" />
+        <marker scope="Public" name="leontao_food2" />
+        <marker scope="Public" name="leontao_food3" />
+        <marker scope="Public" name="leontao_food4" />
+        <marker scope="Public" name="leontao_ghost1" />
+        <marker scope="Public" name="leontao_ghost2" />
+        <marker scope="Public" name="leontao_gravedigging1" />
+        <marker scope="Public" name="leontao_gravedigging2" />
+        <marker scope="Public" name="leontao_gravedigging3" />
+        <marker scope="Public" name="leontao_heavy" />
+        <marker scope="Public" name="leontao_junk1" />
+        <marker scope="Public" name="leontao_junk2" />
+        <marker scope="Public" name="leontao_junk3" />
+        <marker scope="Public" name="leontao_junk4" />
+        <marker scope="Public" name="leontao_kissing" />
+        <marker scope="Public" name="leontao_outbreak1" />
+        <marker scope="Public" name="leontao_outbreak2" />
+        <marker scope="Public" name="leontao_outbreak3" />
+        <marker scope="Public" name="leontao_phys1" />
+        <marker scope="Public" name="leontao_phys2" />
+        <marker scope="Public" name="leontao_phys3" />
+        <marker scope="Public" name="leontao_pun1" />
+        <marker scope="Public" name="leontao_puns1" />
+        <marker scope="Public" name="leontao_puns2" />
+        <marker scope="Public" name="leontao_puns3" />
+        <marker scope="Public" name="leontao_puns4" />
+        <marker scope="Public" name="leontao_puns5" />
+        <marker scope="Public" name="leontao_safe1" />
+        <marker scope="Public" name="leontao_safe2" />
+        <marker scope="Public" name="leontao_safe3" />
+        <marker scope="Public" name="leontao_treatall1" />
+        <marker scope="Public" name="leontao_treatall2" />
+        <marker scope="Public" name="leontao_treatall3" />
+        <marker scope="Public" name="leontao_undead1" />
+        <marker scope="Public" name="leontao_undead2" />
+        <marker scope="Public" name="leontao_undead3" />
+        <marker scope="Public" name="leontao_vison1" />
+        <marker scope="Public" name="leontao_vison2" />
+        <marker scope="Public" name="leontao_vison3" />
         <marker scope="Public" name="lux01" />
         <marker scope="Public" name="lux02" />
         <marker scope="Public" name="lux03" />
@@ -2126,10 +2299,15 @@
         <marker scope="Public" name="lux42" />
         <marker scope="Public" name="lux43" />
         <marker scope="Public" name="lys_" />
+        <marker scope="Public" name="lys_house1" />
+        <marker scope="Public" name="lys_house2" />
+        <marker scope="Public" name="lys_noble" />
+        <marker scope="Public" name="lys_noble01" />
         <marker scope="Public" name="lysithea_ghosts0" />
         <marker scope="Public" name="lysithea_ghosts01" />
         <marker scope="Public" name="lysithea_ghosts02" />
         <marker scope="Public" name="lysithea_travel01" />
+        <marker scope="Public" name="lysithea_travel02" />
         <marker scope="Public" name="mari_anal" />
         <marker scope="Public" name="mari_breasts" />
         <marker scope="Public" name="mari_butt" />
@@ -2278,6 +2456,7 @@
         <marker scope="Public" name="nonon_dual_finishing" />
         <marker scope="Public" name="nonon_dual_first" />
         <marker scope="Public" name="nonon_dual_heavy" />
+        <marker scope="Public" name="nonon_dual_hutao_first" />
         <marker scope="Public" name="nonon_dual_me_first" />
         <marker scope="Public" name="nonon_dual_nonon_first" />
         <marker scope="Public" name="nonon_dual_start" />
@@ -2396,6 +2575,8 @@
         <marker scope="Public" name="roll_missionary" />
         <marker scope="Public" name="roll_turnon" />
         <marker scope="Public" name="roll01" />
+        <marker scope="Public" name="roll02" />
+        <marker scope="Public" name="roll12" />
         <marker scope="Public" name="rollff" />
         <marker scope="Public" name="rollff1" />
         <marker scope="Public" name="rollff2" />
@@ -2634,6 +2815,7 @@
         <marker scope="Public" name="tao63a" />
         <marker scope="Public" name="tao63b" />
         <marker scope="Public" name="tao63c" />
+        <marker scope="Public" name="taoleon_lost" />
         <marker scope="Public" name="thanks_miku" />
         <marker scope="Public" name="trixie01" />
         <marker scope="Public" name="trixie02" />
@@ -2651,6 +2833,12 @@
         <marker scope="Public" name="trixie42" />
         <marker scope="Public" name="trixie43" />
         <marker scope="Public" name="yae_14" />
+        <marker scope="Public" name="yae_roll_next" />
+        <marker scope="Public" name="yae_roll_next_a" />
+        <marker scope="Public" name="yae_roll_next_b" />
+        <marker scope="Public" name="yae_roll_next_c" />
+        <marker scope="Public" name="yae_roll_next_d" />
+        <marker scope="Public" name="yae_roll_spice" />
         <marker scope="Public" name="yae_transform" />
         <marker scope="Public" name="yae01a" />
         <marker scope="Public" name="yae01b" />
@@ -2669,8 +2857,17 @@
         <marker scope="Public" name="yae42a" />
         <marker scope="Public" name="yae42b" />
         <marker scope="Public" name="yae42c" />
+        <marker scope="Public" name="yae43b" />
+        <marker scope="Public" name="yae43c" />
+        <marker scope="Public" name="yae43c_r" />
+        <marker scope="Public" name="yae43c_r4" />
+        <marker scope="Public" name="yae43c_w4" />
+        <marker scope="Public" name="yae43r" />
         <marker scope="Public" name="yae51" />
+        <marker scope="Public" name="yae51b" />
         <marker scope="Public" name="yae52" />
+        <marker scope="Public" name="yae52b" />
+        <marker scope="Public" name="yae53a" />
         <marker scope="Public" name="yaeFF" />
         <marker scope="Public" name="yuri01" />
         <marker scope="Public" name="zls01" />
